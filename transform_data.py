@@ -119,3 +119,9 @@ final_combined_json = json.dumps(combined_data, indent=4)
 
 # Print the resulting JSON (or save it to a file)
 print(final_combined_json)
+
+output_file_path = 'data_delivery/processed/gargantua.json'
+
+# Save the JSON content to the specified file
+with open(output_file_path, 'w') as json_file:
+    json.dump(combined_data, json_file, indent=4)
