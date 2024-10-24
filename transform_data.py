@@ -10,8 +10,8 @@ def append_to_film(film_id, key, value, combined_data):
     combined_data[film_id][key].append(value)
 
 # Load and clean CSV files (remove empty "Unnamed" columns)
-df_cleaned = pd.read_csv('data_delivery/gargantua/data_delivery/gargantua/main.csv').dropna(axis=1, how='all')
-genre_dataframe_cleaned = pd.read_csv('data_delivery/gargantua/data_delivery/gargantua/genre.csv').dropna(axis=1, how='all')
+df_cleaned = pd.read_csv('data_delivery/gargantua/main.csv').dropna(axis=1, how='all')
+genre_dataframe_cleaned = pd.read_csv('data_delivery/gargantua/genre.csv').dropna(axis=1, how='all')
 nat_dataframe_cleaned = pd.read_csv('data_delivery/gargantua/nat.csv').dropna(axis=1, how='all')
 roles_dataframe_cleaned = pd.read_csv('data_delivery/gargantua/roles.csv').dropna(axis=1, how='all')
 char_tags_dataframe_cleaned = pd.read_csv('data_delivery/gargantua/char_tags.csv').dropna(axis=1, how='all')
