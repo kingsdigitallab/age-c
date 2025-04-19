@@ -1,5 +1,6 @@
 export const config = {
-	title: 'AGE-C'
+	title: 'AGE-C',
+	fullTitle: 'Ageing and Gender in European Cinema'
 };
 
 const filmSearchAggregations = {
