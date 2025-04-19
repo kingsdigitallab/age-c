@@ -41,7 +41,12 @@ def combine_data() -> DataFrame:
         main_df = load_data(
             RAW_DIR / "The-Beast-2018-2023-main-v4.csv", sep=";", skiprows=1
         )
+
+        main_df["director"] = main_df["director"].str.split(", ")
+        main_df = main_df.explode("director")
+
         main_df["eng_title"] = main_df["eng_title"].str.strip()
+
         main_df["release_date"] = pd.to_datetime(
             main_df["release_date"], errors="coerce", format="mixed", cache=True
         )
