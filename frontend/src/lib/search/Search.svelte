@@ -101,10 +101,12 @@
 	}
 
 	onDestroy(() => {
-		if (searchWorker) {
-			searchWorker.terminate();
-			searchWorker = null;
-		}
+		setTimeout(() => {
+			if (searchWorker) {
+				searchWorker.terminate();
+				searchWorker = null;
+			}
+		}, 1000);
 	});
 </script>
 
@@ -120,7 +122,7 @@
 	{/if}
 </section>
 
-<section class="grid">
+<div class="grid">
 	<aside>
 		<h2>Search</h2>
 		<form onsubmit={handleSearch} onreset={handleReset}>
@@ -199,7 +201,7 @@
 			{/if}
 		{/if}
 	</section>
-</section>
+</div>
 
 <style>
 	details fieldset {
