@@ -24,7 +24,7 @@
 
 <div class="container">
 	<header>
-		<nav>
+		<nav aria-label="Main navigation">
 			<ul>
 				<li>
 					<strong><a href={`${base}/`}>{config.title}</a></strong>
@@ -46,7 +46,7 @@
 	</main>
 
 	<footer>
-		<nav>
+		<nav aria-label="Footer navigation">
 			<ul>
 				<li><small>{config.title}</small></li>
 			</ul>
