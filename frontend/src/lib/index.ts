@@ -1,6 +1,9 @@
 export const config = {
-	title: 'AGE-C',
-	fullTitle: 'Ageing and Gender in European Cinema'
+	siteName: 'AGE-C',
+	siteTitle: 'Ageing and Gender in European Cinema',
+	siteDescription: 'An exploratory database of ageing and gender in European cinema',
+	siteKeywords: ['ageing', 'gender', 'cinema', 'european cinema'],
+	emptyPlaceholder: 'Unknown'
 };
 
 const filmSearchAggregations = {
