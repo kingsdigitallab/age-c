@@ -16,10 +16,12 @@
 
 <svelte:head>
 	{#if page.data.title}
-		<title>{config.title} | {page.data.title}</title>
+		<title>{config.siteName} | {page.data.title}</title>
 	{:else}
-		<title>{config.title}</title>
+		<title>{config.siteName}</title>
 	{/if}
+	<meta name="description" content={config.siteDescription} />
+	<meta name="keywords" content={config.siteKeywords.join(', ')} />
 </svelte:head>
 
 <div class="container">
@@ -27,7 +29,7 @@
 		<nav aria-label="Main navigation">
 			<ul>
 				<li>
-					<strong><a href={`${base}/`}>{config.title}</a></strong>
+					<strong><a href={`${base}/`}>{config.siteName}</a></strong>
 					{#if dev}<mark>dev</mark>{/if}
 				</li>
 			</ul>
@@ -48,7 +50,7 @@
 	<footer>
 		<nav aria-label="Footer navigation">
 			<ul>
-				<li><small>{config.title}</small></li>
+				<li><small>{config.siteName}</small></li>
 			</ul>
 		</nav>
 		<p>
