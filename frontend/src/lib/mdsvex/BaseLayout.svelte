@@ -11,7 +11,7 @@
 </script>
 
 <svelte:head>
-	<title>{title} | {config.title}</title>
+	<title>{title} | {config.siteName}</title>
 	<meta name="description" content={excerpt} />
 	<meta name="tags" content={tags?.join(', ') ?? ''} />
 </svelte:head>
