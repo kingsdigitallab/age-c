@@ -4,6 +4,7 @@ from typing import Union
 
 import pandas as pd
 from pandas import DataFrame
+from slugify import slugify
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -24,10 +25,14 @@ def main() -> None:
         df = normalise_columns(df)
 
         films_df = aggregate_data(df, "filmId")
+        films_df["slug"] = films_df.apply(
+            lambda x: slugify(f"{x['filmId']}-{x['title']}"), axis=1
+        )
         logger.info(f"Aggregated films dataframe with {len(films_df)} rows")
         save_data(films_df, "films")
 
         biog_df = aggregate_data(df, "perId")
+        biog_df["slug"] = biog_df["perId"].apply(slugify)
         logger.info(f"Aggregated biographies dataframe with {len(biog_df)} rows")
         save_data(biog_df, "biographies")
     except Exception as e:
@@ -286,6 +291,15 @@ def save_data(df: DataFrame, name: str) -> None:
         json_path = FINAL_DIR / f"{name}.json"
         df.to_json(json_path, orient="records", indent=2)
         logger.info(f"Saved JSON to {json_path}")
+
+        individual_dir = FINAL_DIR / f"{name}"
+        individual_dir.mkdir(exist_ok=True)
+
+        for _, row in df.iterrows():
+            file_path = individual_dir / f"{row['slug']}.json"
+            row.to_json(file_path, indent=2)
+
+        logger.info(f"Saved {len(df)} individual JSON files to {individual_dir}")
     except Exception as e:
         logger.error(f"Error saving {name} data: {str(e)}")
         raise
