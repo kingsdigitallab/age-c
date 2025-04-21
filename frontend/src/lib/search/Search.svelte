@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { searchConfig } from '$lib';
 	import SearchWorker from '$lib/search/worker?worker';
 	import { onMount, onDestroy } from 'svelte';
@@ -192,7 +193,9 @@
 				<ol transition:fade>
 					{#each searchItems as item}
 						<li>
-							<ItemComponent {item} />
+							<a href={`${base}/${dataSource}/${item.slug}`}>
+								<ItemComponent {item} />
+							</a>
 						</li>
 					{/each}
 				</ol>
