@@ -63,3 +63,5 @@ The data is organised into three tiers:
 ### Technical Limitations
 
 - Poster URLs link to media viewer rather than direct image files
+- A lot of the data uses abbreviations, which should be expanded for general
+  use
