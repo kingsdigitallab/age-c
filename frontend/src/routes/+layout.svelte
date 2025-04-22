@@ -7,7 +7,7 @@
 	import { fade } from 'svelte/transition';
 
 	import '@picocss/pico';
-	import '@picocss/pico/css/pico.fuchsia.css';
+	import '@picocss/pico/css/pico.zinc.css';
 	import '@picocss/pico/css/pico.colors.css';
 	import '../app.css';
 
