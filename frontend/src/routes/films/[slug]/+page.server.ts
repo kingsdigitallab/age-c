@@ -1,10 +1,12 @@
 import { base } from '$app/paths';
-import { error } from '@sveltejs/kit';
-import type { PageServerLoad } from './$types';
+import films from '$data/films.json' assert { type: 'json' };
 import type { Item } from '$lib/types';
-export const load = (async ({ fetch, params: { slug } }) => {
+import { error } from '@sveltejs/kit';
+import type { EntryGenerator, PageServerLoad } from './$types';
+
+export const load: PageServerLoad = async ({ fetch, params: { slug } }) => {
 	try {
-		const response = await fetch(`${base}/api/films/${slug}`);
+		const response = await fetch(`${base}/api/films/${slug}.json`);
 		const film = await response.json();
 
 		return {
@@ -13,4 +15,8 @@ export const load = (async ({ fetch, params: { slug } }) => {
 	} catch (e) {
 		error(404, `Film not found: ${e instanceof Error ? e.message : e}`);
 	}
-}) satisfies PageServerLoad;
+};
+
+export const entries: EntryGenerator = async () => {
+	return Array.isArray(films) ? films.map((film: Item) => ({ slug: film.slug })) : [];
+};
