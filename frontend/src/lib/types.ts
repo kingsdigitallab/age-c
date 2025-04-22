@@ -1,4 +1,5 @@
 export interface Item {
+	slug: string;
 	filmId: string;
 	title: string;
 	titleEn?: string;
