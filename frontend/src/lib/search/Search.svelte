@@ -70,7 +70,7 @@
 			console.error('Search worker error:', error);
 		};
 
-		searchWorker.postMessage({ action: 'load', payload: { dataSource } });
+		searchWorker.postMessage({ action: 'load', payload: { basePath: base, dataSource } });
 	}
 
 	function handleSearch() {

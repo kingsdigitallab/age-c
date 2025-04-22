@@ -1,4 +1,3 @@
-import { base } from '$app/paths';
 import { searchConfig } from '$lib';
 import { initSearchEngine, search } from './search';
 
@@ -6,9 +5,9 @@ addEventListener('message', async (event) => {
 	const { action, payload } = event.data;
 
 	if (action === 'load') {
-		const dataSource = payload.dataSource;
+		const { basePath, dataSource } = payload;
 		const config = searchConfig[dataSource as keyof typeof searchConfig];
-		const data = await fetch(`${base}/api/${dataSource}`).then((res) => res.json());
+		const data = await fetch(`${basePath}/api/${dataSource}.json`).then((res) => res.json());
 
 		initSearchEngine(dataSource, data, config);
 		postMessage({ action: 'ready' });
