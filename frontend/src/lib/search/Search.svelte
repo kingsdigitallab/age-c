@@ -3,7 +3,7 @@
 	import { searchConfig } from '$lib';
 	import SearchWorker from '$lib/search/worker?worker';
 	import { onMount, onDestroy } from 'svelte';
-	import { fade } from 'svelte/transition';
+	import { fade, slide } from 'svelte/transition';
 	import type { Component } from 'svelte';
 	import type { Item } from '$lib/types';
 
@@ -28,8 +28,10 @@
 	const aggregations = $derived(Object.entries(searchConfig[dataSource].aggregations));
 
 	let isLoading = $derived(['idle', 'load'].includes(searchStatus));
-	let isValidSearch = $derived(searchQuery.trim().length >= minSearchQueryLength);
 
+	let showSearch = $state(false);
+
+	let isValidSearch = $derived(searchQuery.trim().length >= minSearchQueryLength);
 	let isSearching = $state(false);
 	let searchResults = $state([]);
 	// @ts-ignore
@@ -111,6 +113,18 @@
 	});
 </script>
 
+<svelte:window
+	onkeydown={(e) => {
+		if (e.ctrlKey || e.metaKey) {
+			if (e.key === 'k' || e.key === 'K') {
+				e.preventDefault();
+				showSearch = !showSearch;
+			}
+		}
+	}}
+/>
+
+<h2>{title}</h2>
 <section>
 	{#if isLoading}
 		<p aria-busy={true}>Loading search engine...</p>
@@ -122,9 +136,39 @@
 		<p role="alert" class="error">{searchError}</p>
 	{/if}
 </section>
+<section aria-busy={isSearching}>
+	{#if !isLoading}
+		<hgroup>
+			<h3>Results</h3>
+			<small>
+				{#if searchPagination?.total !== undefined}
+					{searchPagination.total.toLocaleString()}
+					{title.toLowerCase()} found
+				{:else}
+					No results
+				{/if}
+			</small>
+		</hgroup>
 
-<div class="grid">
-	<aside>
+		<div transition:fade>
+			{#if searchItems?.length > 0}
+				<ItemComponent items={searchItems} />
+			{:else if searchQuery && !isSearching}
+				<p>No results found for "{searchQuery}"</p>
+			{/if}
+		</div>
+	{/if}
+</section>
+
+{#if showSearch}
+	<aside tabindex="-1" transition:slide={{ axis: 'x' }}>
+		<button
+			class="close-search-button"
+			aria-label="Close search"
+			onclick={() => (showSearch = false)}
+		>
+			<span aria-hidden="true">&times;</span>
+		</button>
 		<h2>Search</h2>
 		<form onsubmit={handleSearch} onreset={handleReset}>
 			<fieldset>
@@ -174,39 +218,49 @@
 			{/if}
 		</section>
 	</aside>
-
-	<section aria-busy={isSearching}>
-		{#if !isLoading}
-			<hgroup>
-				<h2>Results</h2>
-				<small>
-					{#if searchPagination?.total !== undefined}
-						{searchPagination.total.toLocaleString()}
-						{title.toLowerCase()} found
-					{:else}
-						No results
-					{/if}
-				</small>
-			</hgroup>
-
-			{#if searchItems?.length > 0}
-				<ol transition:fade>
-					{#each searchItems as item}
-						<li>
-							<a href={`${base}/${dataSource}/${item.slug}`}>
-								<ItemComponent {item} />
-							</a>
-						</li>
-					{/each}
-				</ol>
-			{:else if searchQuery && !isSearching}
-				<p transition:fade>No results found for "{searchQuery}"</p>
-			{/if}
-		{/if}
-	</section>
-</div>
+{/if}
 
 <style>
+	.columns {
+		display: grid;
+		grid-template-columns: 0.3fr 1fr;
+		gap: var(--pico-spacing);
+	}
+
+	@media (max-width: 768px) {
+		.columns {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	aside {
+		background: var(--pico-background-color);
+		border: var(--pico-border-width) solid var(--pico-primary-border);
+		border-radius: var(--pico-border-radius);
+		height: 100vh;
+		left: 0;
+		overflow-y: auto;
+		padding: var(--pico-spacing);
+		position: fixed;
+		top: 0;
+		width: min(500px, 100vw);
+		z-index: 10;
+	}
+
+	.close-search-button {
+		background: transparent;
+		border: none;
+		color: var(--pico-muted-color);
+		padding: 0;
+		position: absolute;
+		right: var(--pico-spacing);
+		top: var(--pico-spacing);
+	}
+
+	.close-search-button:hover {
+		color: var(--pico-primary-color);
+	}
+
 	details fieldset {
 		max-height: var(--search-filter-height);
 		overflow-y: scroll;
