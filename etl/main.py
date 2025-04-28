@@ -1,3 +1,4 @@
+import json
 import logging
 from pathlib import Path
 from typing import Union
@@ -21,62 +22,178 @@ FINAL_DIR: Path = DATA_DIR / "2_final"
 def main() -> None:
     """Main execution function."""
     try:
-        df = combine_data()
-        df = normalise_columns(df)
-
-        films_df = aggregate_data(df, "filmId")
-        films_df["slug"] = films_df.apply(
-            lambda x: slugify(f"{x['filmId']}-{x['title']}"), axis=1
-        )
+        films_df = combine_films_data()
+        films_df = aggregate_films_data(films_df)
         logger.info(f"Aggregated films dataframe with {len(films_df)} rows")
         save_data(films_df, "films")
 
-        biog_df = aggregate_data(df, "perId")
-        biog_df["slug"] = biog_df["perId"].apply(slugify)
-        logger.info(f"Aggregated biographies dataframe with {len(biog_df)} rows")
-        save_data(biog_df, "biographies")
+        # biog_df = aggregate_data(df, "perId")
+        # biog_df["slug"] = biog_df["perId"].apply(slugify)
+        # logger.info(f"Aggregated biographies dataframe with {len(biog_df)} rows")
+        # save_data(biog_df, "biographies")
     except Exception as e:
         logger.error(f"Error in main execution: {str(e)}")
         raise
 
 
-def combine_data() -> DataFrame:
-    """Combine all the data from the raw files into a single dataframe."""
+def combine_films_data() -> DataFrame:
+    """Combine all the films data from the raw files into a single dataframe."""
     try:
         main_df = load_data(
             RAW_DIR / "The-Beast-2018-2023-main-v4.csv", sep=";", skiprows=1
         )
 
-        main_df["director"] = main_df["director"].str.split(", ")
-        main_df = main_df.explode("director")
+        main_df["type"] = "film"
+        main_df["slug"] = main_df.apply(
+            lambda x: slugify(f"{x['film_id']}-{x['nat_title']}"), axis=1
+        )
 
-        main_df["eng_title"] = main_df["eng_title"].str.strip()
+        # Process title
+        main_df["eng_title"] = main_df["eng_title"].fillna("")
+        main_df["title"] = main_df.apply(
+            lambda x: {
+                "native": x["nat_title"].strip(),
+                "english": x["eng_title"].strip(),
+            },
+            axis=1,
+        )
+        main_df = main_df.drop(columns=["nat_title", "eng_title"])
 
+        # Process release
         main_df["release_date"] = pd.to_datetime(
             main_df["release_date"], errors="coerce", format="mixed", cache=True
         )
         main_df["release_year"] = main_df["release_date"].dt.year
+        main_df["release_year"] = main_df["release_year"].fillna(0).astype(int)
+        main_df["release"] = main_df.apply(
+            lambda x: {
+                "type": x["release_type"],
+                "date": x["release_date"],
+                "year": x["release_year"],
+            },
+            axis=1,
+        )
+        main_df = main_df.drop(columns=["release_type", "release_date", "release_year"])
 
+        # Split directors and explode into separate rows
+        main_df["director"] = main_df["director"].str.split(", ")
+        main_df = main_df.explode("director")
+        main_df["director"] = main_df["director"].str.strip()
+
+        # Process director data
         director_df = process_biographies()
         director_df.columns = [
             "person_id",
-            "director_name",
-            "director_birth_year",
-            "director_death_year",
-            "director_gender",
-            "director_nat",
+            "person_name",
+            "birth_year",
+            "death_year",
+            "gender",
+            "person_nat",
         ]
 
+        # Create nested director object
+        director_df["director_obj"] = director_df.apply(
+            lambda x: {
+                "id": x["person_id"],
+                "name": x["person_name"],
+                "birthYear": x["birth_year"],
+                "deathYear": x["death_year"],
+                "gender": x["gender"],
+                "nationality": x["person_nat"],
+            },
+            axis=1,
+        )
+
+        # Merge director data
         main_df = main_df.merge(
-            director_df,
+            director_df[["person_id", "director_obj"]],
             left_on="director",
             right_on="person_id",
             how="left",
         )
 
-        main_df = main_df.drop(columns=["person_id"])
-        main_df = main_df.drop_duplicates()
+        main_df = main_df.drop(columns=["director", "person_id"])
+        main_df = main_df.rename(columns={"director_obj": "director"})
 
+        # Process character tags
+        character_tags_df = load_data(RAW_DIR / f"{FILE_PREFIX}-character_tags.csv")
+
+        character_tags_df["person_id"] = character_tags_df["person_id"].str.strip()
+        character_tags_df["character_id"] = character_tags_df[
+            "character_id"
+        ].str.strip()
+
+        # Process biographies for characters
+        biog_df = process_biographies()
+
+        # Process roles
+        role_df = load_data(RAW_DIR / f"{FILE_PREFIX}-role.csv")
+        role_df["person_id"] = role_df["person_id"].fillna(
+            role_df["person_name"].str.strip()
+        )
+        role_df["person_id"] = role_df["person_id"].str.strip()
+        role_df["person_name"] = role_df["person_name"].str.strip()
+
+        character_tags_df = character_tags_df.merge(
+            biog_df[
+                [
+                    "person_id",
+                    "person_name",
+                    "birth_year",
+                    "death_year",
+                    "gender",
+                    "person_nat",
+                ]
+            ],
+            on="person_id",
+            how="left",
+        )
+
+        # Log any missing character biography data
+        missing_biogs = character_tags_df[character_tags_df["person_name"].isna()][
+            "person_id"
+        ].unique()
+        if len(missing_biogs) > 0:
+            logger.warning(f"Missing biography data for character IDs: {missing_biogs}")
+
+        character_tags_df = character_tags_df.merge(
+            role_df[["film_id", "person_id", "role_class"]],
+            on=["film_id", "person_id"],
+            how="left",
+        )
+
+        character_tags_df["character_obj"] = character_tags_df.apply(
+            lambda x: {
+                "id": x["character_id"],
+                "age": x["ch_age"],
+                "gender": x["ch_gender"],
+                "sexuality": x["ch_sexuality"],
+                "origin": x["ch_porigin"],
+                "class": x["ch_class"],
+                "profession": x["ch_profession"],
+                "ability": x["ch_ability"],
+                "assistedMobility": x["ch_ability"],
+                "person": {
+                    "id": x["person_id"],
+                    "name": x["person_name"],
+                    "birthYear": x["birth_year"],
+                    "deathYear": x["death_year"],
+                    "gender": x["gender"],
+                    "nationality": x["person_nat"],
+                },
+                "role": x["role_class"],
+            },
+            axis=1,
+        )
+
+        main_df = main_df.merge(
+            character_tags_df[["film_id", "character_obj"]],
+            on="film_id",
+            how="left",
+        )
+        main_df = main_df.rename(columns={"character_obj": "character"})
+
+        # Process other data files
         data_files = [
             ("genre", ["film_id", "film_genre"]),
             (
@@ -97,49 +214,37 @@ def combine_data() -> DataFrame:
             df = load_data(RAW_DIR / f"{FILE_PREFIX}-{suffix}.csv")
             main_df = main_df.merge(df[columns], on="film_id", how="left")
 
-        character_tags_df = load_data(RAW_DIR / f"{FILE_PREFIX}-character_tags.csv")
-        main_df = main_df.merge(
-            character_tags_df.drop(columns=["nat_title"]),
-            on="film_id",
-            how="left",
+        # Create nested media object
+        main_df["media"] = main_df.apply(
+            lambda x: {"trailerUrl": x["trailer_url"], "posterUrl": x["poster_url"]},
+            axis=1,
+        )
+        main_df = main_df.drop(columns=["trailer_url", "poster_url"])
+
+        # Create nested synopsis object
+        main_df["synopsis"] = main_df.apply(
+            lambda x: {"native": x["nat_synopsis"], "english": x["eng_synopsis"]},
+            axis=1,
+        )
+        main_df = main_df.drop(columns=["nat_synopsis", "eng_synopsis"])
+
+        # Create nested production object
+        main_df["production"] = main_df.apply(
+            lambda x: {"country": x["film_country"], "share": x["prod_share"]}, axis=1
+        )
+        main_df = main_df.drop(columns=["film_country", "prod_share"])
+
+        main_df = main_df.rename(
+            columns={
+                "film_id": "id",
+                "film_genre": "genre",
+                "film_type": "filmType",
+                "tag_name": "tags",
+            }
         )
 
-        biog_df = process_biographies()
-        main_df = main_df.merge(
-            biog_df[
-                [
-                    "person_id",
-                    "person_name",
-                    "birth_year",
-                    "death_year",
-                    "gender",
-                    "person_nat",
-                ]
-            ],
-            on="person_id",
-            how="left",
-        )
-
-        role_df = load_data(RAW_DIR / f"{FILE_PREFIX}-role.csv")
-        role_df["person_role"] = role_df.apply(
-            lambda x: f"{x['role_class']}:::{x['person_name']}", axis=1
-        )
-        main_df = main_df.merge(
-            role_df[["film_id", "person_id", "person_role"]],
-            on=["film_id", "person_id"],
-            how="left",
-        )
-
-        for col in [
-            "release_year",
-            "director_birth_year",
-            "director_death_year",
-            "birth_year",
-            "death_year",
-        ]:
-            main_df[col] = main_df[col].fillna(0).astype(int)
-
-        return main_df.drop_duplicates()
+        return main_df
+        # return main_df.drop_duplicates()
     except Exception as e:
         logger.error(f"Error combining data: {str(e)}")
         raise
@@ -201,7 +306,11 @@ def process_biographies() -> DataFrame:
     )
 
     for _df in [biog_df, biog_nat_df]:
-        _df["person_id"] = _df["person_id"].fillna(_df["person_name"])
+        _df["person_name"] = _df["person_name"].str.strip()
+        _df["person_id"] = _df["person_name"]
+
+    biog_df["birth_year"] = biog_df["birth_year"].fillna(0).astype(int)
+    biog_df["death_year"] = biog_df["death_year"].fillna(0).astype(int)
 
     biog_df = biog_df.merge(
         biog_nat_df[["person_id", "person_nat"]], on="person_id", how="left"
@@ -210,72 +319,48 @@ def process_biographies() -> DataFrame:
     return biog_df
 
 
-def normalise_columns(df: DataFrame) -> DataFrame:
-    """Normalise column names to a consistent format."""
-    column_mapping = {
-        "assisted_mobility": "assistedMobility",
-        "birth_year": "perBirthYear",
-        "ch_ability": "charAbility",
-        "ch_age": "charAge",
-        "ch_class": "charClass",
-        "ch_gender": "charGender",
-        "ch_porigin": "charOrigin",
-        "ch_profession": "charProfession",
-        "ch_sexuality": "charSexuality",
-        "character_id": "charId",
-        "death_year": "perDeathYear",
-        "director_name": "directorName",
-        "director_birth_year": "directorBirthYear",
-        "director_death_year": "directorDeathYear",
-        "director_gender": "directorGender",
-        "director_nat": "directorNationality",
-        "eng_synopsis": "synopsisEn",
-        "eng_title": "titleEn",
-        "film_country": "country",
-        "film_genre": "genre",
-        "film_id": "filmId",
-        "film_type": "type",
-        "gender": "perGender",
-        "nat_synopsis": "synopsis",
-        "nat_title": "title",
-        "person_id": "perId",
-        "person_name": "perName",
-        "person_nat": "perNationality",
-        "person_role": "perRole",
-        "poster_url": "posterUrl",
-        "prod_share": "productionShare",
-        "release_date": "releaseDate",
-        "release_year": "releaseYear",
-        "release_type": "releaseType",
-        "tag_name": "tags",
-        "trailer_url": "trailerUrl",
-    }
+def aggregate_films_data(df: DataFrame) -> DataFrame:
+    """Aggregate data by film ID, creating nested structures for related data."""
 
-    return df.rename(
-        columns={
-            col: new_col for col, new_col in column_mapping.items() if col in df.columns
+    dict_columns = ["director", "character"]
+
+    for column in dict_columns:
+        df[column] = df[column].apply(lambda x: json.dumps(x))
+
+    grouped = df.groupby("id")
+
+    result = grouped.agg(
+        {
+            "type": "first",
+            "slug": "first",
+            "title": "first",
+            "filmType": "first",
+            "release": "first",
+            "production": "first",
+            "media": "first",
+            "genre": lambda x: list(set(x.dropna().unique())),
+            "tags": lambda x: list(set(x.dropna().unique())),
+            "director": lambda x: list(set(x.dropna().unique())),
+            "character": lambda x: list(set(x.dropna().unique())),
+            "synopsis": "first",
         }
-    )
+    ).reset_index()
 
-
-def aggregate_data(df: DataFrame, id_column: str) -> DataFrame:
-    """Aggregate data by ID column, creating lists for columns with multiple values."""
-    if id_column not in df.columns:
-        raise ValueError(f"ID column '{id_column}' not found in DataFrame")
-
-    columns = df.columns.tolist()
-    columns.remove(id_column)
-
-    return (
-        df.groupby(id_column)
-        .agg(
-            {
-                col: lambda x: list(set(x)) if len(set(x)) > 1 else x.iloc[0]
-                for col in columns
-            }
+    for column in dict_columns:
+        result[column] = result[column].apply(
+            lambda x: [
+                json.loads(item)
+                for item in x
+                if item and item != "null" and not pd.isna(item)
+            ]
+            if isinstance(x, list)
+            else []
         )
-        .reset_index()
-    )
+        result[column] = result[column].apply(
+            lambda x: [item for item in x if not pd.isna(item)]
+        )
+
+    return result
 
 
 def save_data(df: DataFrame, name: str) -> None:
