@@ -1,68 +1,88 @@
 {
-  "filmId":"GB2023_043",
-  "title":"The Laureate",
-  "titleEn":null,
-  "director":"William Nunez",
-  "releaseType":"THE",
-  "releaseDate":1683244800000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"William Nunez",
-  "directorBirthYear":1967,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"US",
+  "id":"GB2023_043",
+  "type":"film",
+  "slug":"gb2023-043-the-laureate",
+  "title":{
+    "native":"The Laureate",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1683244800000,
+    "year":2023
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt1677615\/?ref_=nv_sr_srsg_0_tt_5_nm_3_in_0_q_The%2520Laureate",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt1677615\/mediaviewer\/rm2875303937\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "ROM",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt1677615\/?ref_=nv_sr_srsg_0_tt_5_nm_3_in_0_q_The%2520Laureate",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt1677615\/mediaviewer\/rm2875303937\/?ref_=tt_ov_i",
-  "synopsis":null,
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "wealth",
-    "parenthood"
+    "parenthood",
+    "wealth"
   ],
-  "charId":[
-    "GB2023_043_02",
-    "GB2023_043_01"
+  "director":[
+    {
+      "id":"William Nunez",
+      "name":"William Nunez",
+      "birthYear":1967,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"US"
+    }
   ],
-  "perId":[
-    "Patricia Hodge",
-    "Julian Glover"
+  "character":[
+    {
+      "id":"GB2023_043_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Patricia Hodge",
+        "name":"Patricia Hodge",
+        "birthYear":1946.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_043_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Julian Glover",
+        "name":"Julian Glover",
+        "birthYear":1935.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UC",
-  "charProfession":null,
-  "charAbility":null,
-  "assistedMobility":"N",
-  "perName":[
-    "Patricia Hodge",
-    "Julian Glover"
-  ],
-  "perBirthYear":[
-    1946,
-    1935
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2023-043-the-laureate"
+  "synopsis":{
+    "native":null,
+    "english":null
+  }
 }

@@ -1,86 +1,115 @@
 {
-  "filmId":"GB2020_020",
-  "title":"Eternal Beauty",
-  "titleEn":null,
-  "director":"Craig Roberts",
-  "releaseType":"THE",
-  "releaseDate":1601596800000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":"Craig Roberts",
-  "directorBirthYear":1991,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2020_020",
+  "type":"film",
+  "slug":"gb2020-020-eternal-beauty",
+  "title":{
+    "native":"Eternal Beauty",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1601596800000,
+    "year":2020
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=584226",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5362940\/mediaviewer\/rm3125977601\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "ROM",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=584226",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5362940\/mediaviewer\/rm3125977601\/?ref_=tt_ov_i",
-  "synopsis":"After Jane falls into a state of despair over her schizophrenia, she encounters new sources of love and life with surprising results.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "extended family",
-    "medical treatment",
-    "mental illness",
     "romance",
-    "artistic creation",
-    "precarity",
+    "mental illness",
+    "hospital",
     "festivities",
-    "motherhood",
-    "hospital"
+    "precarity",
+    "artistic creation",
+    "medical treatment",
+    "extended family",
+    "motherhood"
   ],
-  "charId":[
-    "GB2020_020_02",
-    "GB2020_020_01",
-    "GB2020_020_03"
+  "director":[
+    {
+      "id":"Craig Roberts",
+      "name":"Craig Roberts",
+      "birthYear":1991,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Penelope Wilton",
-    "Robert Pugh",
-    "David Thewlis"
+  "character":[
+    {
+      "id":"GB2020_020_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Penelope Wilton",
+        "name":"Penelope Wilton",
+        "birthYear":1943.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_020_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"David Thewlis",
+        "name":"David Thewlis",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_020_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Robert Pugh",
+        "name":"Robert Pugh",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":null,
-  "charAbility":[
-    "AB",
-    "CI"
-  ],
-  "assistedMobility":"N",
-  "perName":[
-    "Penelope Wilton",
-    "Robert Pugh",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1948,
-    1943
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M",
-    null
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2020-020-eternal-beauty"
+  "synopsis":{
+    "native":"After Jane falls into a state of despair over her schizophrenia, she encounters new sources of love and life with surprising results.",
+    "english":null
+  }
 }

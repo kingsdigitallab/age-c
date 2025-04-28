@@ -1,63 +1,84 @@
 {
-  "filmId":"GB2020_005",
-  "title":"Greed",
-  "titleEn":null,
-  "director":"Michael Winterbottom",
-  "releaseType":"THE",
-  "releaseDate":1582243200000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2020_005",
+  "type":"film",
+  "slug":"gb2020-005-greed",
+  "title":{
+    "native":"Greed",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1582243200000,
+    "year":2020
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=955931",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt8972256\/mediaviewer\/rm3885597697\/?ref_=tt_ov_i"
+  },
   "genre":[
     "CRI",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=955931",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt8972256\/mediaviewer\/rm3885597697\/?ref_=tt_ov_i",
-  "synopsis":"Satire about the world of the super-rich.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "sex",
-    "technology",
-    "self-employment",
     "urban",
-    "class conflict",
-    "corruption",
-    "wealth",
-    "power",
-    "anti-ageing practices",
-    "may-december",
     "substance abuse",
-    "high rank employment",
+    "class conflict",
+    "technology",
+    "power",
     "holiday",
-    "celebrity",
-    "mass media",
-    "independent home",
     "romance",
+    "wealth",
+    "independent home",
+    "anti-ageing practices",
+    "sex",
+    "self-employment",
     "superior-employee relationship",
-    "marriage"
+    "corruption",
+    "celebrity",
+    "high rank employment",
+    "mass media",
+    "marriage",
+    "may-december"
   ],
-  "charId":"GB2020_005_01",
-  "perId":"Steve Coogan",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2020-005-greed"
+  "director":[
+    {
+      "id":"Michael Winterbottom",
+      "name":"Michael Winterbottom",
+      "birthYear":1961,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2020_005_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Steve Coogan",
+        "name":"Steve Coogan",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Satire about the world of the super-rich.",
+    "english":null
+  }
 }

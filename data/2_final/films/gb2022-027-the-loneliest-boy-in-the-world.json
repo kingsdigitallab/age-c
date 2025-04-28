@@ -1,52 +1,73 @@
 {
-  "filmId":"GB2022_027",
-  "title":"The Loneliest Boy in the World",
-  "titleEn":null,
-  "director":"Martin Owen",
-  "releaseType":"FES",
-  "releaseDate":1665014400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Martin Owen",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2022_027",
+  "type":"film",
+  "slug":"gb2022-027-the-loneliest-boy-in-the-world",
+  "title":{
+    "native":"The Loneliest Boy in the World",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"FES",
+    "date":1665014400000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12553046\/?ref_=ttrel_ov",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt12553046\/mediaviewer\/rm645270529\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HOR",
-    "ROM",
     "COA",
+    "ROM",
+    "HOR",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12553046\/?ref_=ttrel_ov",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt12553046\/mediaviewer\/rm645270529\/?ref_=tt_ov_i",
-  "synopsis":"'The Loneliest Boy in the World' is a modern fairytale - with zombies. A satire and a celebration of family values, of the imagery of horror films, of suburban life, of the American Dream and of the ultimate taboo; death.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "natural death",
     "burial",
     "supernatural entity",
-    "fatherhood",
     "mentorship",
-    "religion"
+    "fatherhood",
+    "religion",
+    "natural death"
   ],
-  "charId":"GB2022_027_01",
-  "perId":"Ben Miller",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":"CI",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2022-027-the-loneliest-boy-in-the-world"
+  "director":[
+    {
+      "id":"Martin Owen",
+      "name":"Martin Owen",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2022_027_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Ben Miller",
+        "name":"Ben Miller",
+        "birthYear":1966.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"'The Loneliest Boy in the World' is a modern fairytale - with zombies. A satire and a celebration of family values, of the imagery of horror films, of suburban life, of the American Dream and of the ultimate taboo; death.",
+    "english":null
+  }
 }

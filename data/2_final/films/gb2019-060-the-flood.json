@@ -1,85 +1,93 @@
 {
-  "filmId":"GB2019_060",
-  "title":"The Flood",
-  "titleEn":null,
-  "director":"Anthony Woodley",
-  "releaseType":"THE",
-  "releaseDate":1561075200000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Anthony Woodley",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":"GB",
+  "id":"GB2019_060",
+  "type":"film",
+  "slug":"gb2019-060-the-flood",
+  "title":{
+    "native":"The Flood",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1561075200000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt5954556\/?ref_=nv_sr_srsg_5_tt_8_nm_0_in_0_q_The%2520Flood",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5954556\/mediaviewer\/rm3570512641\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt5954556\/?ref_=nv_sr_srsg_5_tt_8_nm_0_in_0_q_The%2520Flood",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5954556\/mediaviewer\/rm3570512641\/?ref_=tt_ov_i",
-  "synopsis":"A hardened immigration officer decides the fate of a dangerous asylum seeker.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
     "migration",
+    "superior-employee relationship",
+    "mentorship",
     "state institutions",
     "national identity",
-    "superior-employee relationship",
     "high rank employment",
-    "mentorship",
-    "interracial relationships",
-    "cross-gender friendship"
+    "cross-gender friendship",
+    "interracial relationships"
   ],
-  "charId":[
-    "GB2019_060_02",
-    "GB2019_060_01"
+  "director":[
+    {
+      "id":"Anthony Woodley",
+      "name":"Anthony Woodley",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":null,
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Iain Glen",
-    "Amira Ghazalla"
+  "character":[
+    {
+      "id":"GB2019_060_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Iain Glen",
+        "name":"Iain Glen",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"UK"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_060_02",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"MEA",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Amira Ghazalla",
+        "name":"Amira Ghazalla",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"EG"
+      },
+      "role":null
+    }
   ],
-  "charAge":"2",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":[
-    "MEA",
-    "WWE"
-  ],
-  "charClass":[
-    "MC",
-    null
-  ],
-  "charProfession":[
-    "EM",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    null
-  ],
-  "assistedMobility":"N",
-  "perName":[
-    "Iain Glen",
-    "Amira Ghazalla"
-  ],
-  "perBirthYear":[
-    1960,
-    1961
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":[
-    "EG",
-    "UK"
-  ],
-  "perRole":null,
-  "slug":"gb2019-060-the-flood"
+  "synopsis":{
+    "native":"A hardened immigration officer decides the fate of a dangerous asylum seeker.",
+    "english":null
+  }
 }

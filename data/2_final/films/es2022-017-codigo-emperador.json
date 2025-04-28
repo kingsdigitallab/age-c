@@ -1,82 +1,96 @@
 {
-  "filmId":"ES2022_017",
-  "title":"C\u00f3digo Emperador",
-  "titleEn":"Code Name: Emperor",
-  "director":"Jorge Coira",
-  "releaseType":"THE",
-  "releaseDate":1647561600000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Jorge Coira",
-  "directorBirthYear":1971,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2022_017",
+  "type":"film",
+  "slug":"es2022-017-codigo-emperador",
+  "title":{
+    "native":"C\u00f3digo Emperador",
+    "english":"Code Name: Emperor"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1647561600000,
+    "year":2022
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt13660916\/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_C%25C3%25B3digo%2520Emperador",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt13660916\/mediaviewer\/rm1351871489\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt13660916\/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_C%25C3%25B3digo%2520Emperador",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt13660916\/mediaviewer\/rm1351871489\/?ref_=tt_ov_i",
-  "synopsis":"Juan trabaja para los servicios secretos; con el fin de tener acceso al chalet de una pareja implicada en el tr\u00e1fico de armas se acerca a Wendy, la asistenta filipina que vive en la casa y establece con ella una relaci\u00f3n que se ir\u00e1 volviendo cada vez m\u00e1s compleja. En paralelo, Juan realiza otros trabajos \u201cno oficiales\u201d para proteger los intereses de las \u00e9lites m\u00e1s poderosas del pa\u00eds, que ahora han puesto sus ojos en \u00c1ngel Gonz\u00e1lez, un pol\u00edtico aparentemente anodino cuyos trapos sucios deber\u00e1 buscar o \u201cinventar\u201d.",
-  "synopsisEn":"Follows Juan, an agent working for the intelligence services, who also reports to a parallel unit involved in illegal activities.",
-  "country":[
-    "FR",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
     "corruption",
-    "power",
-    "cultural memory",
-    "abuse",
-    "professional politics",
     "state institutions",
-    "national identity",
     "superior-employee relationship",
+    "urban",
+    "national identity",
+    "professional politics",
     "homosociality",
     "high rank employment",
-    "urban"
+    "cultural memory",
+    "power",
+    "abuse"
   ],
-  "charId":[
-    "ES2022_017_02",
-    "ES2022_017_01"
+  "director":[
+    {
+      "id":"Jorge Coira",
+      "name":"Jorge Coira",
+      "birthYear":1971,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Miguel Rell\u00e1n",
-    "Santi Prego"
+  "character":[
+    {
+      "id":"ES2022_017_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Santi Prego",
+        "name":"Santi Prego",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2022_017_02",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Miguel Rell\u00e1n",
+        "name":"Miguel Rell\u00e1n",
+        "birthYear":1943.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "4"
-  ],
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Miguel Rell\u00e1n",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1943
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "M",
-    null
-  ],
-  "perNationality":[
-    "ES",
-    null
-  ],
-  "perRole":null,
-  "slug":"es2022-017-codigo-emperador"
+  "synopsis":{
+    "native":"Juan trabaja para los servicios secretos; con el fin de tener acceso al chalet de una pareja implicada en el tr\u00e1fico de armas se acerca a Wendy, la asistenta filipina que vive en la casa y establece con ella una relaci\u00f3n que se ir\u00e1 volviendo cada vez m\u00e1s compleja. En paralelo, Juan realiza otros trabajos \u201cno oficiales\u201d para proteger los intereses de las \u00e9lites m\u00e1s poderosas del pa\u00eds, que ahora han puesto sus ojos en \u00c1ngel Gonz\u00e1lez, un pol\u00edtico aparentemente anodino cuyos trapos sucios deber\u00e1 buscar o \u201cinventar\u201d.",
+    "english":"Follows Juan, an agent working for the intelligence services, who also reports to a parallel unit involved in illegal activities."
+  }
 }

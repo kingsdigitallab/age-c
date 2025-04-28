@@ -1,50 +1,71 @@
 {
-  "filmId":"FR2021_025",
-  "title":"La Fine Fleur",
-  "titleEn":"The Rose Maker",
-  "director":"Pierre Pinaud",
-  "releaseType":"THE",
-  "releaseDate":1625011200000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"FR2021_025",
+  "type":"film",
+  "slug":"fr2021-025-la-fine-fleur",
+  "title":{
+    "native":"La Fine Fleur",
+    "english":"The Rose Maker"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1625011200000,
+    "year":2021
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=zBtQjYyJ1N4",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/72\/148\/234568\/format_page\/the-rose-maker.jpg"
+  },
   "genre":[
     "DRA",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=zBtQjYyJ1N4",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/72\/148\/234568\/format_page\/the-rose-maker.jpg",
-  "synopsis":"Eve Vernet a \u00e9t\u00e9 la plus grande cr\u00e9atrice de roses. Aujourd'hui, elle est au bord de la faillite, sur le point d'\u00eatre rachet\u00e9e par un concurrent puissant. V\u00e9ra, sa fid\u00e8le secr\u00e9taire, croit trouver une solution en engageant trois employ\u00e9s en insertion sans aucune comp\u00e9tence horticole... Alors que quasiment tout les s\u00e9pare, ils se lancent ensemble dans une aventure des plus singuli\u00e8res pour sauver la petite exploitation.",
-  "synopsisEn":"Eve used to be one of the most famous rose creators in the world. Today, her company is on the verge of bankruptcy. On top of that, her secretary Vera has hired three outcasts with absolutely no gardening skills. Though they have nothing in common, they come up with the most crazy plan that could change their lives forever...",
-  "country":"FR",
-  "productionShare":"MAJ",
   "tags":[
-    "rural",
-    "self-employment",
-    "intergenerational friendship",
-    "inheritance",
     "mentorship",
-    "class conflict"
+    "intergenerational friendship",
+    "rural",
+    "inheritance",
+    "class conflict",
+    "self-employment"
   ],
-  "charId":"FR2021_025_01",
-  "perId":"Catherine Frot",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2021-025-la-fine-fleur"
+  "director":[
+    {
+      "id":"Pierre Pinaud",
+      "name":"Pierre Pinaud",
+      "birthYear":1969,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2021_025_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Catherine Frot",
+        "name":"Catherine Frot",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Eve Vernet a \u00e9t\u00e9 la plus grande cr\u00e9atrice de roses. Aujourd'hui, elle est au bord de la faillite, sur le point d'\u00eatre rachet\u00e9e par un concurrent puissant. V\u00e9ra, sa fid\u00e8le secr\u00e9taire, croit trouver une solution en engageant trois employ\u00e9s en insertion sans aucune comp\u00e9tence horticole... Alors que quasiment tout les s\u00e9pare, ils se lancent ensemble dans une aventure des plus singuli\u00e8res pour sauver la petite exploitation.",
+    "english":"Eve used to be one of the most famous rose creators in the world. Today, her company is on the verge of bankruptcy. On top of that, her secretary Vera has hired three outcasts with absolutely no gardening skills. Though they have nothing in common, they come up with the most crazy plan that could change their lives forever..."
+  }
 }

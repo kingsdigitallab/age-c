@@ -1,92 +1,112 @@
 {
-  "filmId":"GB2018_062",
-  "title":"Surviving Christmas with the Relatives",
-  "titleEn":"Christmas Survival",
-  "director":"James Dearden",
-  "releaseType":"THE",
-  "releaseDate":1543536000000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"James Dearden",
-  "directorBirthYear":1949,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt8255490\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Surviving%2520Christmas%2520with%2520the%2520Relatives",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt8255490\/mediaviewer\/rm2447209216\/?ref_=tt_ov_i",
-  "synopsis":"Two sisters and their families spend--or rather, endure--Christmas at their late parents' dilapidated country house.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
+  "id":"GB2018_062",
+  "type":"film",
+  "slug":"gb2018-062-surviving-christmas-with-the-relatives",
+  "title":{
+    "native":"Surviving Christmas with the Relatives",
+    "english":"Christmas Survival"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1543536000000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt8255490\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Surviving%2520Christmas%2520with%2520the%2520Relatives",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt8255490\/mediaviewer\/rm2447209216\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
+    "disability",
+    "festivities",
+    "return home",
     "rural",
     "independent home",
-    "extended family",
-    "disability",
-    "return home",
-    "religion",
     "caregiving",
-    "festivities"
+    "extended family",
+    "religion"
   ],
-  "charId":[
-    "GB2018_062_03",
-    "GB2018_062_02",
-    "GB2018_062_01"
+  "director":[
+    {
+      "id":"James Dearden",
+      "name":"James Dearden",
+      "birthYear":1949,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Patricia Hodge",
-    "Mark Tandy",
-    "James Fox"
+  "character":[
+    {
+      "id":"GB2018_062_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Patricia Hodge",
+        "name":"Patricia Hodge",
+        "birthYear":1946.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_062_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"James Fox",
+        "name":"James Fox",
+        "birthYear":1939.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_062_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Mark Tandy",
+        "name":"Mark Tandy",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IE"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":[
-    "EM",
-    "RE"
-  ],
-  "charAbility":[
-    "AB",
-    "PD"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Patricia Hodge",
-    "Mark Tandy",
-    "James Fox"
-  ],
-  "perBirthYear":[
-    1946,
-    1939,
-    1957
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":[
-    "GB",
-    "IE"
-  ],
-  "perRole":null,
-  "slug":"gb2018-062-surviving-christmas-with-the-relatives"
+  "synopsis":{
+    "native":"Two sisters and their families spend--or rather, endure--Christmas at their late parents' dilapidated country house.",
+    "english":null
+  }
 }

@@ -1,69 +1,92 @@
 {
-  "filmId":"ES2022_005",
-  "title":"Los renglones torcidos de Dios",
-  "titleEn":"God's Crooked Lines",
-  "director":"Oriol Paulo",
-  "releaseType":"THE",
-  "releaseDate":1664841600000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Oriol Paulo",
-  "directorBirthYear":1975,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2022_005",
+  "type":"film",
+  "slug":"es2022-005-los-renglones-torcidos-de-dios",
+  "title":{
+    "native":"Los renglones torcidos de Dios",
+    "english":"God's Crooked Lines"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1664841600000,
+    "year":2022
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt13229894\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Los%2520renglones%2520torcidos%2520de%2520Dios",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt13229894\/mediaviewer\/rm2636123649\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "DRA",
     "NOI",
+    "DRA",
     "DTH"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt13229894\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Los%2520renglones%2520torcidos%2520de%2520Dios",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt13229894\/mediaviewer\/rm2636123649\/?ref_=tt_ov_i",
-  "synopsis":"Alice, investigadora privada, ingresa en un hospital psiqui\u00e1trico simulando una paranoia. Su objetivo es recabar pruebas del caso en el que trabaja: la muerte de un interno en circunstancias poco claras. Sin embargo, la realidad a la que se enfrentar\u00e1 en su encierro superar\u00e1 sus expectativas y pondr\u00e1 en duda su propia cordura. Un mundo desconocido y apasionante se mostrar\u00e1 ante sus ojos. Adaptaci\u00f3n de la novela hom\u00f3nima de Torcuato Luca de Tena.",
-  "synopsisEn":"Alice, a private investigator, checks into a psychiatric hospital feigning paranoia with the goal of collecting evidence for the case she is working on: the death of an inmate in unclear circumstances. But the reality she faces in her confinement will exceed her expectations and cast doubt on her own sanity. An unknown and exciting world will open before her eyes.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "power",
-    "abuse",
-    "medical treatment",
     "mental illness",
+    "hospital",
+    "medical treatment",
     "high rank employment",
-    "hospital"
+    "power",
+    "abuse"
   ],
-  "charId":[
-    "ES2022_005_01",
-    "ES2022_005_02"
+  "director":[
+    {
+      "id":"Oriol Paulo",
+      "name":"Oriol Paulo",
+      "birthYear":1975,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Antonio Bu\u00edl",
-    "Eduard Fern\u00e1ndez"
+  "character":[
+    {
+      "id":"ES2022_005_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Eduard Fern\u00e1ndez",
+        "name":"Eduard Fern\u00e1ndez",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2022_005_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"UN",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"Antonio Bu\u00edl",
+        "name":"Antonio Bu\u00edl",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "LM"
-  ],
-  "charProfession":[
-    "EM",
-    "UN"
-  ],
-  "charAbility":[
-    "AB",
-    "PD"
-  ],
-  "assistedMobility":"N",
-  "perName":[
-    "Antonio Bu\u00edl",
-    "Eduard Fern\u00e1ndez"
-  ],
-  "perBirthYear":1964,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"es2022-005-los-renglones-torcidos-de-dios"
+  "synopsis":{
+    "native":"Alice, investigadora privada, ingresa en un hospital psiqui\u00e1trico simulando una paranoia. Su objetivo es recabar pruebas del caso en el que trabaja: la muerte de un interno en circunstancias poco claras. Sin embargo, la realidad a la que se enfrentar\u00e1 en su encierro superar\u00e1 sus expectativas y pondr\u00e1 en duda su propia cordura. Un mundo desconocido y apasionante se mostrar\u00e1 ante sus ojos. Adaptaci\u00f3n de la novela hom\u00f3nima de Torcuato Luca de Tena.",
+    "english":"Alice, a private investigator, checks into a psychiatric hospital feigning paranoia with the goal of collecting evidence for the case she is working on: the death of an inmate in unclear circumstances. But the reality she faces in her confinement will exceed her expectations and cast doubt on her own sanity. An unknown and exciting world will open before her eyes."
+  }
 }

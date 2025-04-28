@@ -1,112 +1,179 @@
 {
-  "filmId":"GB2022_051",
-  "title":"Munich: The Edge of War",
-  "titleEn":null,
-  "director":"Christian Schwochow",
-  "releaseType":"THE",
-  "releaseDate":1641513600000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Christian Schwochow",
-  "directorBirthYear":1978,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"DE",
+  "id":"GB2022_051",
+  "type":"film",
+  "slug":"gb2022-051-munich-the-edge-of-war",
+  "title":{
+    "native":"Munich: The Edge of War",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1641513600000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt7475578\/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_Munich%253A%2520The%2520Edge%2520of%2520War",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt7475578\/mediaviewer\/rm4115197697\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HIS",
     "SPY",
-    "THR",
-    "WAR"
-  ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt7475578\/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_Munich%253A%2520The%2520Edge%2520of%2520War",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt7475578\/mediaviewer\/rm4115197697\/?ref_=tt_ov_i",
-  "synopsis":"A British diplomat travels to Munich in the run-up to World War II, where a former classmate of his from Oxford is also en route, but is working for the German government.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "WAR",
+    "THR"
   ],
   "tags":[
+    "collective trauma",
     "war",
-    "power",
-    "abuse",
-    "professional politics",
-    "physical illness",
-    "national identity",
     "superior-employee relationship",
     "state institutions",
+    "urban",
+    "national identity",
+    "professional politics",
     "homosociality",
     "high rank employment",
-    "collective trauma",
-    "urban"
+    "power",
+    "abuse",
+    "physical illness"
   ],
-  "charId":[
-    "GB2022_051_02",
-    "GB2022_051_04",
-    "GB2022_051_01",
-    "GB2022_051_05",
-    "GB2022_051_06",
-    "GB2022_051_03"
+  "director":[
+    {
+      "id":"Christian Schwochow",
+      "name":"Christian Schwochow",
+      "birthYear":1978,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"DE"
+    }
   ],
-  "perId":[
-    "St\u00e9phane Boucher",
-    "Mark Lewis Jones",
-    "Ulrich Matthes",
-    "Jeremy Irons",
-    "Nicholas Farrell",
-    "Alex Jennings"
+  "character":[
+    {
+      "id":"GB2022_051_05",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"St\u00e9phane Boucher",
+        "name":"St\u00e9phane Boucher",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_051_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Nicholas Farrell",
+        "name":"Nicholas Farrell",
+        "birthYear":1955.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_051_06",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ulrich Matthes",
+        "name":"Ulrich Matthes",
+        "birthYear":1959.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"DE"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_051_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Jeremy Irons",
+        "name":"Jeremy Irons",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_051_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Alex Jennings",
+        "name":"Alex Jennings",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_051_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Mark Lewis Jones",
+        "name":"Mark Lewis Jones",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UC",
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":[
-    "AB",
-    "CI"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "St\u00e9phane Boucher",
-    "Mark Lewis Jones",
-    null,
-    "Ulrich Matthes",
-    "Nicholas Farrell",
-    "Alex Jennings"
-  ],
-  "perBirthYear":[
-    0,
-    1955,
-    1957,
-    1958,
-    1959,
-    1964
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "M",
-    null
-  ],
-  "perNationality":[
-    "DE",
-    "FR",
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2022-051-munich-the-edge-of-war"
+  "synopsis":{
+    "native":"A British diplomat travels to Munich in the run-up to World War II, where a former classmate of his from Oxford is also en route, but is working for the German government.",
+    "english":null
+  }
 }

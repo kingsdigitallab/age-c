@@ -1,44 +1,67 @@
 {
-  "filmId":"IT2022_009",
-  "title":"Vicini di casa",
-  "titleEn":"Marriages",
-  "director":"Paolo Costella",
-  "releaseType":"THE",
-  "releaseDate":1669852800000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Nw4hr3K1Kew",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt15384690\/mediaviewer\/rm1267336705\/?ref_=tt_ov_i",
-  "synopsis":"Giulio e Federica (Claudio Bisio e Vittoria Puccini) stanno insieme da molti anni ma il loro matrimonio non funziona pi\u00f9 come una volta. A malapena si parlano e solo per punzecchiarsi, i conflitti quotidiani sono diventati la norma. Una sera Federica decide di invitare i nuovi vicini del piano di sopra, Laura e Salvatore (Valentina Lodovini e Vinicio Marchioni), una coppia affiatata, vitale, vivace e spesso \u201crumorosa\u201d. I due faranno loro una proposta provocatoria che cambier\u00e0 la sorte della serata con conseguenze sorprendenti...",
-  "synopsisEn":"Two couples explore the complexities of modern day relationships.",
-  "country":"IT",
-  "productionShare":"MAJ",
+  "id":"IT2022_009",
+  "type":"film",
+  "slug":"it2022-009-vicini-di-casa",
+  "title":{
+    "native":"Vicini di casa",
+    "english":"Marriages"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1669852800000,
+    "year":2022
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Nw4hr3K1Kew",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt15384690\/mediaviewer\/rm1267336705\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
     "marriage",
     "sex",
     "separation"
   ],
-  "charId":"IT2022_009_01",
-  "perId":"Claudio Bisio",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2022-009-vicini-di-casa"
+  "director":[
+    {
+      "id":"Paolo Costella",
+      "name":"Paolo Costella",
+      "birthYear":1964,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2022_009_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Claudio Bisio",
+        "name":"Claudio Bisio",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Giulio e Federica (Claudio Bisio e Vittoria Puccini) stanno insieme da molti anni ma il loro matrimonio non funziona pi\u00f9 come una volta. A malapena si parlano e solo per punzecchiarsi, i conflitti quotidiani sono diventati la norma. Una sera Federica decide di invitare i nuovi vicini del piano di sopra, Laura e Salvatore (Valentina Lodovini e Vinicio Marchioni), una coppia affiatata, vitale, vivace e spesso \u201crumorosa\u201d. I due faranno loro una proposta provocatoria che cambier\u00e0 la sorte della serata con conseguenze sorprendenti...",
+    "english":"Two couples explore the complexities of modern day relationships."
+  }
 }

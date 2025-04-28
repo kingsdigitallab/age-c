@@ -1,92 +1,140 @@
 {
-  "filmId":"GB2020_008",
-  "title":"Pixie",
-  "titleEn":null,
-  "director":"Barnaby Thompson",
-  "releaseType":"THE",
-  "releaseDate":1603411200000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2020_008",
+  "type":"film",
+  "slug":"gb2020-008-pixie",
+  "title":{
+    "native":"Pixie",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1603411200000,
+    "year":2020
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=578532",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt10831086\/mediaviewer\/rm2577114625\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HEI",
     "ACT",
     "WES",
-    "ROA",
-    "CRI"
+    "CRI",
+    "ROA"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=578532",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt10831086\/mediaviewer\/rm2577114625\/?ref_=tt_ov_i",
-  "synopsis":"To avenge her mother's death, Pixie masterminds a heist but must flee across Ireland from gangsters, take on the patriarchy, and choose her own destiny.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "rural",
-    "substance abuse",
-    "abuse",
-    "self-employment",
-    "extended family",
-    "national identity",
-    "organized crime",
+    "intergenerational conflict",
     "superior-employee relationship",
+    "rural",
+    "national identity",
+    "substance abuse",
     "homosociality",
     "murder",
+    "extended family",
     "religion",
-    "intergenerational conflict"
+    "self-employment",
+    "abuse",
+    "organized crime"
   ],
-  "charId":[
-    "GB2020_008_01",
-    "GB2020_008_03",
-    "GB2020_008_02"
+  "director":[
+    {
+      "id":"Barnaby Thompson",
+      "name":"Barnaby Thompson",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Ned Dennehy",
-    "Alec Baldwin",
-    "Colm Meaney"
+  "character":[
+    {
+      "id":"GB2020_008_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Colm Meaney",
+        "name":null,
+        "birthYear":null,
+        "deathYear":null,
+        "gender":null,
+        "nationality":null
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_008_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ned Dennehy",
+        "name":"Ned Dennehy",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IR"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_008_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Alec Baldwin",
+        "name":"Alec Baldwin",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_008_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ned Dennehy",
+        "name":"Ned Dennehy",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IE"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Ned Dennehy",
-    "Alec Baldwin",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1965,
-    1958
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    null,
-    "M"
-  ],
-  "perNationality":[
-    "IE",
-    "IR",
-    "US",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2020-008-pixie"
+  "synopsis":{
+    "native":"To avenge her mother's death, Pixie masterminds a heist but must flee across Ireland from gangsters, take on the patriarchy, and choose her own destiny.",
+    "english":null
+  }
 }

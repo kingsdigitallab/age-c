@@ -1,88 +1,133 @@
 {
-  "filmId":"ES2023_035",
-  "title":"La sirvienta",
-  "titleEn":"The Maid",
-  "director":"Pablo Moreno",
-  "releaseType":"THE",
-  "releaseDate":1679529600000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Pablo Moreno",
-  "directorBirthYear":1983,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2023_035",
+  "type":"film",
+  "slug":"es2023-035-la-sirvienta",
+  "title":{
+    "native":"La sirvienta",
+    "english":"The Maid"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1679529600000,
+    "year":2023
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=869519",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14682882\/mediaviewer\/rm3685365505\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "DRA",
-    "BIO"
+    "BIO",
+    "DRA"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=869519",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14682882\/mediaviewer\/rm3685365505\/?ref_=tt_ov_i",
-  "synopsis":"Lera, trabajadora del servicio dom\u00e9stico, es acusada de un delito. En el calabozo de las dependencias de un cuartel de la Guardia Civil conoce a Mihaela y a Julia, dos prostitutas con las que comparte la historia que le salv\u00f3 la vida. La historia de Vicenta Mar\u00eda L\u00f3pez Vicu\u00f1a, fundadora de las Religiosas de Mar\u00eda Inmaculada, que desde hace m\u00e1s de 150 a\u00f1os llevan dedicadas a la promoci\u00f3n de las mujeres que sal\u00edan de sus pueblos para labrarse un futuro mejor en el servicio dom\u00e9stico de la capital.",
-  "synopsisEn":"Spanish woman Vicenta Mar\u00eda L\u00f3pez, founder of the Congregation of Religious of Mary Immaculate.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "fatherhood",
+    "gender discrimination",
     "state institutions",
     "superior-employee relationship",
     "homosociality",
     "education",
-    "religion",
-    "gender discrimination",
-    "low rank employment"
+    "fatherhood",
+    "low rank employment",
+    "religion"
   ],
-  "charId":[
-    "ES2023_035_03",
-    "ES2023_035_02",
-    "ES2023_035_04",
-    "ES2023_035_01"
+  "director":[
+    {
+      "id":"Pablo Moreno",
+      "name":"Pablo Moreno",
+      "birthYear":1983,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Mayka Bra\u00f1a",
-    "Olatz Beobide",
-    "Assumpta Serna",
-    "Juan Alberto L\u00f3pez"
+  "character":[
+    {
+      "id":"ES2023_035_04",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Assumpta Serna",
+        "name":"Assumpta Serna",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_035_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Juan Alberto L\u00f3pez",
+        "name":"Juan Alberto L\u00f3pez",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_035_02",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Mayka Bra\u00f1a",
+        "name":"Mayka Bra\u00f1a",
+        "birthYear":1968.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_035_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Olatz Beobide",
+        "name":"Olatz Beobide",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":[
-    "SE",
-    "EM",
-    "UN"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Mayka Bra\u00f1a",
-    "Olatz Beobide",
-    "Assumpta Serna",
-    "Juan Alberto L\u00f3pez"
-  ],
-  "perBirthYear":[
-    1968,
-    1962,
-    1964,
-    1957
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"es2023-035-la-sirvienta"
+  "synopsis":{
+    "native":"Lera, trabajadora del servicio dom\u00e9stico, es acusada de un delito. En el calabozo de las dependencias de un cuartel de la Guardia Civil conoce a Mihaela y a Julia, dos prostitutas con las que comparte la historia que le salv\u00f3 la vida. La historia de Vicenta Mar\u00eda L\u00f3pez Vicu\u00f1a, fundadora de las Religiosas de Mar\u00eda Inmaculada, que desde hace m\u00e1s de 150 a\u00f1os llevan dedicadas a la promoci\u00f3n de las mujeres que sal\u00edan de sus pueblos para labrarse un futuro mejor en el servicio dom\u00e9stico de la capital.",
+    "english":"Spanish woman Vicenta Mar\u00eda L\u00f3pez, founder of the Congregation of Religious of Mary Immaculate."
+  }
 }

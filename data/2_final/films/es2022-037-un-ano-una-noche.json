@@ -1,73 +1,89 @@
 {
-  "filmId":"ES2022_037",
-  "title":"Un a\u00f1o, una noche",
-  "titleEn":"One Year, One Night",
-  "director":"Isaki Lacuesta",
-  "releaseType":"THE",
-  "releaseDate":1666310400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Isaki Lacuesta",
-  "directorBirthYear":1975,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt14104600\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Un%2520a%25C3%25B1o%252C%2520una%2520noche",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14104600\/mediaviewer\/rm3258649857\/?ref_=tt_ov_i",
-  "synopsis":"Ram\u00f3n y C\u00e9line son una joven pareja que se encuentra en el local Bataclan de Par\u00eds la noche del 13 de noviembre de 2015. Durante el asalto terrorista, ambos logran, cada uno por su lado, entrar en el camerino de los m\u00fasicos y refugiarse all\u00ed. Al salir ya no son los mismos. Y no saben si podr\u00e1n volver a serlo... Adaptaci\u00f3n cinematogr\u00e1fica basada en el libro \u201cPaz, amor y Death metal\u201d, de Ram\u00f3n Gonz\u00e1lez, superviviente del atentado terrorista en la sala de conciertos Bataclan de Par\u00eds.",
-  "synopsisEn":"A young Spaniard and his girlfriend, both survivors, attempt to battle its psychological trauma of terrorist attack.",
-  "country":[
-    "FR",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+  "id":"ES2022_037",
+  "type":"film",
+  "slug":"es2022-037-un-ano-una-noche",
+  "title":{
+    "native":"Un a\u00f1o, una noche",
+    "english":"One Year, One Night"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1666310400000,
+    "year":2022
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt14104600\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Un%2520a%25C3%25B1o%252C%2520una%2520noche",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14104600\/mediaviewer\/rm3258649857\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
   ],
   "tags":[
-    "personal trauma",
-    "parenthood",
     "terrorism",
     "collective trauma",
-    "urban"
+    "urban",
+    "parenthood",
+    "personal trauma"
   ],
-  "charId":[
-    "ES2022_037_02",
-    "ES2022_037_01"
+  "director":[
+    {
+      "id":"Isaki Lacuesta",
+      "name":"Isaki Lacuesta",
+      "birthYear":1975,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Bruno Todeschini",
-    "Sophie Broustal"
+  "character":[
+    {
+      "id":"ES2022_037_02",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Sophie Broustal",
+        "name":"Sophie Broustal",
+        "birthYear":1967.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2022_037_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Bruno Todeschini",
+        "name":"Bruno Todeschini",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"CH"
+      },
+      "role":null
+    }
   ],
-  "charAge":"2",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":null,
-  "assistedMobility":"N",
-  "perName":[
-    "Sophie Broustal",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1967
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    null
-  ],
-  "perNationality":[
-    "FR",
-    null
-  ],
-  "perRole":null,
-  "slug":"es2022-037-un-ano-una-noche"
+  "synopsis":{
+    "native":"Ram\u00f3n y C\u00e9line son una joven pareja que se encuentra en el local Bataclan de Par\u00eds la noche del 13 de noviembre de 2015. Durante el asalto terrorista, ambos logran, cada uno por su lado, entrar en el camerino de los m\u00fasicos y refugiarse all\u00ed. Al salir ya no son los mismos. Y no saben si podr\u00e1n volver a serlo... Adaptaci\u00f3n cinematogr\u00e1fica basada en el libro \u201cPaz, amor y Death metal\u201d, de Ram\u00f3n Gonz\u00e1lez, superviviente del atentado terrorista en la sala de conciertos Bataclan de Par\u00eds.",
+    "english":"A young Spaniard and his girlfriend, both survivors, attempt to battle its psychological trauma of terrorist attack."
+  }
 }

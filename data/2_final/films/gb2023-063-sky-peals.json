@@ -1,63 +1,89 @@
 {
-  "filmId":"GB2023_063",
-  "title":"Sky Peals",
-  "titleEn":null,
-  "director":"Moin Hussain",
-  "releaseType":"FES",
-  "releaseDate":1693785600000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Moin Hussain",
-  "directorBirthYear":1992,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2023_063",
+  "type":"film",
+  "slug":"gb2023-063-sky-peals",
+  "title":{
+    "native":"Sky Peals",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"FES",
+    "date":1693785600000,
+    "year":2023
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=360228",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14593608\/mediaviewer\/rm1137138689\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "THR",
     "SCI"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=360228",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14593608\/mediaviewer\/rm1137138689\/?ref_=tt_ov_i",
-  "synopsis":"Adam Muhammed works nightshifts at a fast food restaurant in a motorway service station. A directionless and unassuming man, he lives a lonely life. Upon hearing that his father has died Adam finds himself in search of answers.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
     "fatherhood",
-    "interracial relationships",
-    "migration"
+    "migration",
+    "interracial relationships"
   ],
-  "charId":[
-    "GB2023_063_02",
-    "GB2023_063_01"
+  "director":[
+    {
+      "id":"Moin Hussain",
+      "name":"Moin Hussain",
+      "birthYear":1992,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Jeff Mirza",
-    "Bill Fellows"
+  "character":[
+    {
+      "id":"GB2023_063_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Bill Fellows",
+        "name":"Bill Fellows",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_063_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"AWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Jeff Mirza",
+        "name":"Jeff Mirza",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":[
-    "WWE",
-    "AWE"
-  ],
-  "charClass":null,
-  "charProfession":null,
-  "charAbility":null,
-  "assistedMobility":"N",
-  "perName":[
-    "Jeff Mirza",
-    "Bill Fellows"
-  ],
-  "perBirthYear":[
-    1964,
-    1957
-  ],
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2023-063-sky-peals"
+  "synopsis":{
+    "native":"Adam Muhammed works nightshifts at a fast food restaurant in a motorway service station. A directionless and unassuming man, he lives a lonely life. Upon hearing that his father has died Adam finds himself in search of answers.",
+    "english":null
+  }
 }

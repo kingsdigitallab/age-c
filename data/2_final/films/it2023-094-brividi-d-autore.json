@@ -1,48 +1,69 @@
 {
-  "filmId":"IT2023_094",
-  "title":"Brividi d'autore",
-  "titleEn":null,
-  "director":"Pierfrancesco Campanella",
-  "releaseType":"THE",
-  "releaseDate":1681516800000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2023_094",
+  "type":"film",
+  "slug":"it2023-094-brividi-d-autore",
+  "title":{
+    "native":"Brividi d'autore",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1681516800000,
+    "year":2023
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=ldmN1P--p0s",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt28313653\/mediaviewer\/rm2202236929\/?ref_=tt_ov_i"
+  },
   "genre":[
+    "ANT",
     "DRA",
-    "HOR",
-    "ANT"
+    "HOR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=ldmN1P--p0s",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt28313653\/mediaviewer\/rm2202236929\/?ref_=tt_ov_i",
-  "synopsis":"Il film racconta la storia di una regista (Maria Grazia Cucinotta), che, nonostante le difficolt\u00e0 che le si pongono davanti, prova a girare un film horror. Peccato che realt\u00e0 e fantasia finiscano per scontrarsi continuamente l'una con l'altra fino a raggiungere una sconcertante simbiosi.",
-  "synopsisEn":"The movie tells the story of a director (Maria Grazia Cucinotta), who, despite the difficulties facing her, tries to make a horror film. Too bad that reality and fantasy end up colliding continuously with each other until they reach a disconcerting symbiosis.",
-  "country":"IT",
-  "productionShare":"MAJ",
   "tags":[
-    "crime",
     "personal trauma",
+    "crime",
     "artistic creation"
   ],
-  "charId":"IT2023_094_01",
-  "perId":"Maria Grazia Cucinotta",
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2023-094-brividi-d-autore"
+  "director":[
+    {
+      "id":"Pierfrancesco Campanella",
+      "name":"Pierfrancesco Campanella",
+      "birthYear":1960,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2023_094_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Maria Grazia Cucinotta",
+        "name":"Maria Grazia Cucinotta",
+        "birthYear":1968.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Il film racconta la storia di una regista (Maria Grazia Cucinotta), che, nonostante le difficolt\u00e0 che le si pongono davanti, prova a girare un film horror. Peccato che realt\u00e0 e fantasia finiscano per scontrarsi continuamente l'una con l'altra fino a raggiungere una sconcertante simbiosi.",
+    "english":"The movie tells the story of a director (Maria Grazia Cucinotta), who, despite the difficulties facing her, tries to make a horror film. Too bad that reality and fantasy end up colliding continuously with each other until they reach a disconcerting symbiosis."
+  }
 }

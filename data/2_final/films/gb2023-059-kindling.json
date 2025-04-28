@@ -1,71 +1,84 @@
 {
-  "filmId":"GB2023_059",
-  "title":"Kindling",
-  "titleEn":null,
-  "director":"Connor O'Hara",
-  "releaseType":"THE",
-  "releaseDate":1682035200000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2023_059",
+  "type":"film",
+  "slug":"gb2023-059-kindling",
+  "title":{
+    "native":"Kindling",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1682035200000,
+    "year":2023
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt15184804\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Kindling",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt15184804\/mediaviewer\/rm284250625\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "COA",
     "ROM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt15184804\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Kindling",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt15184804\/mediaviewer\/rm284250625\/?ref_=tt_ov_i",
-  "synopsis":"Kindling follows a group of young men who return to their home town in order to turn their friend's final days into a celebration of life and friendship.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
     "rural",
-    "physical illness",
+    "caregiving",
     "parenthood",
     "agony",
-    "caregiving"
+    "physical illness"
   ],
-  "charId":[
-    "GB2023_059_02",
-    "GB2023_059_01"
+  "director":[
+
   ],
-  "perId":[
-    "Tara Fitzgerald",
-    "Geoff Bell"
+  "character":[
+    {
+      "id":"GB2023_059_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Geoff Bell",
+        "name":"Geoff Bell",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_059_02",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Tara Fitzgerald",
+        "name":"Tara Fitzgerald",
+        "birthYear":1967.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"2",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":[
-    "AB",
-    null
-  ],
-  "assistedMobility":"N",
-  "perName":[
-    "Tara Fitzgerald",
-    "Geoff Bell"
-  ],
-  "perBirthYear":[
-    1963,
-    1967
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2023-059-kindling"
+  "synopsis":{
+    "native":"Kindling follows a group of young men who return to their home town in order to turn their friend's final days into a celebration of life and friendship.",
+    "english":null
+  }
 }

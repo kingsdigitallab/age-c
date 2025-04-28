@@ -1,59 +1,74 @@
 {
-  "filmId":"GB2021_037",
-  "title":"The War Below",
-  "titleEn":null,
-  "director":"J.P. Watts",
-  "releaseType":"THE",
-  "releaseDate":1633737600000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2021_037",
+  "type":"film",
+  "slug":"gb2021-037-the-war-below",
+  "title":{
+    "native":"The War Below",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1633737600000,
+    "year":2021
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=YTilweeucKI",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt10381014\/mediaviewer\/rm4095598081\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
     "DRA",
+    "HIS",
     "WAR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=YTilweeucKI",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt10381014\/mediaviewer\/rm4095598081\/?ref_=tt_ov_i",
-  "synopsis":"During World War I, a group of British miners are recruited to tunnel underneath no man's land and set bombs from below the German front in hopes of breaking the deadly stalemate of the Battle of Messines.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "war",
     "power",
-    "cultural memory",
-    "national identity",
+    "collective trauma",
     "superior-employee relationship",
+    "national identity",
     "homosociality",
     "high rank employment",
-    "collective trauma"
+    "cultural memory",
+    "war"
   ],
-  "charId":"GB2021_037_01",
-  "perId":"Douglas Reith",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"UC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Douglas Reith",
-  "perBirthYear":1953,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2021-037-the-war-below"
+  "director":[
+    {
+      "id":"J.P. Watts",
+      "name":"J.P. Watts",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":null,
+      "nationality":null
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2021_037_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Douglas Reith",
+        "name":"Douglas Reith",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"During World War I, a group of British miners are recruited to tunnel underneath no man's land and set bombs from below the German front in hopes of breaking the deadly stalemate of the Battle of Messines.",
+    "english":null
+  }
 }

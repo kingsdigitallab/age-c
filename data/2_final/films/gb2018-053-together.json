@@ -1,104 +1,136 @@
 {
-  "filmId":"GB2018_053",
-  "title":"Together",
-  "titleEn":null,
-  "director":"Paul Duddridge",
-  "releaseType":"THE",
-  "releaseDate":1529020800000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Paul Duddridge",
-  "directorBirthYear":1966,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2018_053",
+  "type":"film",
+  "slug":"gb2018-053-together",
+  "title":{
+    "native":"Together",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1529020800000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt6111634\/?ref_=nm_flmg_knf_t_1",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6111634\/mediaviewer\/rm3997784832\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "COU",
     "DRA",
-    "ROM"
-  ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt6111634\/?ref_=nm_flmg_knf_t_1",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6111634\/mediaviewer\/rm3997784832\/?ref_=tt_ov_i",
-  "synopsis":"A husband fights to be with his wife after she is hospitalized and taken to a nursing home.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "ROM",
+    "COU"
   ],
   "tags":[
-    "independent home",
+    "ageism",
     "disability",
     "state institutions",
-    "physical illness",
-    "ageism",
-    "retirement home",
+    "hospital",
     "marriage",
-    "well-being",
+    "independent home",
     "caregiving",
-    "hospital"
+    "well-being",
+    "retirement home",
+    "physical illness"
   ],
-  "charId":[
-    "GB2018_053_02",
-    "GB2018_053_03",
-    "GB2018_053_04",
-    "GB2018_053_01"
+  "director":[
+    {
+      "id":"Paul Duddridge",
+      "name":"Paul Duddridge",
+      "birthYear":1966,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Amanda Barrie",
-    "David Hargreaves",
-    "Sylvia Sims",
-    "Peter Bowles"
+  "character":[
+    {
+      "id":"GB2018_053_03",
+      "age":"4",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":"RE",
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Amanda Barrie",
+        "name":"Amanda Barrie",
+        "birthYear":1935.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_053_01",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Sylvia Sims",
+        "name":"Sylvia Sims",
+        "birthYear":1934.0,
+        "deathYear":2023.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_053_04",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":"RE",
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"David Hargreaves",
+        "name":"David Hargreaves",
+        "birthYear":1940.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_053_02",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"Peter Bowles",
+        "name":"Peter Bowles",
+        "birthYear":1936.0,
+        "deathYear":2022.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"4",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    null
-  ],
-  "charProfession":"RE",
-  "charAbility":[
-    "AB",
-    "PD",
-    null
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Amanda Barrie",
-    "David Hargreaves",
-    "Sylvia Sims",
-    "Peter Bowles"
-  ],
-  "perBirthYear":[
-    1936,
-    1940,
-    1934,
-    1935
-  ],
-  "perDeathYear":[
-    0,
-    2022,
-    2023
-  ],
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2018-053-together"
+  "synopsis":{
+    "native":"A husband fights to be with his wife after she is hospitalized and taken to a nursing home.",
+    "english":null
+  }
 }

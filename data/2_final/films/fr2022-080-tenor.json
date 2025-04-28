@@ -1,47 +1,63 @@
 {
-  "filmId":"FR2022_080",
-  "title":"T\u00e9nor",
-  "titleEn":"Tenor",
-  "director":"Claude Zidi Jr.",
-  "releaseType":"THE",
-  "releaseDate":1651622400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Nx1Q-vGmPh4",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/145\/204\/248977\/format_page\/tenor.jpg",
-  "synopsis":"Antoine, jeune banlieusard parisien, suit des \u00e9tudes de comptabilit\u00e9 sans grande conviction, partageant son temps entre les battles de rap qu\u2019il pratique avec talent et son job de livreur de sushis. Lors d\u2019une course \u00e0 l\u2019Op\u00e9ra Garnier , sa route croise celle de Mme Loyseau, professeur de chant dans la v\u00e9n\u00e9rable institution, qui d\u00e9tecte chez Antoine un talent brut \u00e0 faire \u00e9clore. Malgr\u00e9 son absence de culture lyrique, Antoine est fascin\u00e9 par cette forme d\u2019expression et se laisse convaincre de suivre l\u2019enseignement de Mme Loyseau. Antoine n\u2019a d\u2019autre choix que de mentir \u00e0 sa famille, ses amis et toute la cit\u00e9 pour qui l\u2019op\u00e9ra est un truc de bourgeois, loin de leur monde.",
-  "synopsisEn":"Antoine, a Parisian suburbanite, discovers a raw talent in singing at the Garnier Opera, but must lie to his family and friends to follow her teachings.",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2022_080",
+  "type":"film",
+  "slug":"fr2022-080-tenor",
+  "title":{
+    "native":"T\u00e9nor",
+    "english":"Tenor"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1651622400000,
+    "year":2022
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Nx1Q-vGmPh4",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/145\/204\/248977\/format_page\/tenor.jpg"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
-    "self-employment",
-    "artistic creation",
-    "celibacy",
     "mentorship",
     "urban",
-    "class conflict"
+    "artistic creation",
+    "celibacy",
+    "class conflict",
+    "self-employment"
   ],
-  "charId":"FR2022_080_01",
-  "perId":"Mich\u00e8le Laroque",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2022-080-tenor"
+  "director":[
+
+  ],
+  "character":[
+    {
+      "id":"FR2022_080_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Mich\u00e8le Laroque",
+        "name":"Mich\u00e8le Laroque",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Antoine, jeune banlieusard parisien, suit des \u00e9tudes de comptabilit\u00e9 sans grande conviction, partageant son temps entre les battles de rap qu\u2019il pratique avec talent et son job de livreur de sushis. Lors d\u2019une course \u00e0 l\u2019Op\u00e9ra Garnier , sa route croise celle de Mme Loyseau, professeur de chant dans la v\u00e9n\u00e9rable institution, qui d\u00e9tecte chez Antoine un talent brut \u00e0 faire \u00e9clore. Malgr\u00e9 son absence de culture lyrique, Antoine est fascin\u00e9 par cette forme d\u2019expression et se laisse convaincre de suivre l\u2019enseignement de Mme Loyseau. Antoine n\u2019a d\u2019autre choix que de mentir \u00e0 sa famille, ses amis et toute la cit\u00e9 pour qui l\u2019op\u00e9ra est un truc de bourgeois, loin de leur monde.",
+    "english":"Antoine, a Parisian suburbanite, discovers a raw talent in singing at the Garnier Opera, but must lie to his family and friends to follow her teachings."
+  }
 }

@@ -1,51 +1,72 @@
 {
-  "filmId":"GB2018_048",
-  "title":"Stanley a Man of Variety",
-  "titleEn":null,
-  "director":"Stephen Cookson",
-  "releaseType":"THE",
-  "releaseDate":1529020800000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Stephen Cookson",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2018_048",
+  "type":"film",
+  "slug":"gb2018-048-stanley-a-man-of-variety",
+  "title":{
+    "native":"Stanley a Man of Variety",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1529020800000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/results?search_query=Stanley+a+Man+of+Variety+trailer",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt4400784\/mediaviewer\/rm3824761856\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/results?search_query=Stanley+a+Man+of+Variety+trailer",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt4400784\/mediaviewer\/rm3824761856\/?ref_=tt_ov_i",
-  "synopsis":"A man who has been stuck in prison for far too long starts to see hallucinations.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "fatherhood",
     "mental illness",
     "state institutions",
     "medical treatment",
-    "loneliness",
     "daily routine",
-    "crime"
+    "fatherhood",
+    "crime",
+    "loneliness"
   ],
-  "charId":"GB2018_048_01",
-  "perId":"Timothy Spall",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"LC",
-  "charProfession":"EM",
-  "charAbility":"CI",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2018-048-stanley-a-man-of-variety"
+  "director":[
+    {
+      "id":"Stephen Cookson",
+      "name":"Stephen Cookson",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2018_048_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LC",
+      "profession":"EM",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Timothy Spall",
+        "name":"Timothy Spall",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"A man who has been stuck in prison for far too long starts to see hallucinations.",
+    "english":null
+  }
 }

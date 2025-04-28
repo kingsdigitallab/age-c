@@ -1,47 +1,68 @@
 {
-  "filmId":"GB2019_039",
-  "title":"Wild Honey Pie!",
-  "titleEn":null,
-  "director":"Jamie Adams",
-  "releaseType":"THE",
-  "releaseDate":1560470400000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Jamie Adams",
-  "directorBirthYear":1980,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2019_039",
+  "type":"film",
+  "slug":"gb2019-039-wild-honey-pie",
+  "title":{
+    "native":"Wild Honey Pie!",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1560470400000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt7253190\/?ref_=ttrel_ov",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt7253190\/mediaviewer\/rm1744288513\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
-    "COM",
-    "ROM"
+    "ROM",
+    "COM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt7253190\/?ref_=ttrel_ov",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt7253190\/mediaviewer\/rm1744288513\/?ref_=tt_ov_i",
-  "synopsis":"Gillian is an aspiring playwright married to Oliver, a small-time DJ for all occasions. Their marriage has hit the Seven Year Itch, and this neurotic pair want to scratch that itch until it bleeds.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
     "rural",
     "motherhood"
   ],
-  "charId":"GB2019_039_01",
-  "perId":"Joanna Scanlan",
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":null,
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Joanna Scanlan",
-  "perBirthYear":1961,
-  "perDeathYear":0,
-  "perGender":"F",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2019-039-wild-honey-pie"
+  "director":[
+    {
+      "id":"Jamie Adams",
+      "name":"Jamie Adams",
+      "birthYear":1980,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2019_039_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Joanna Scanlan",
+        "name":"Joanna Scanlan",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Gillian is an aspiring playwright married to Oliver, a small-time DJ for all occasions. Their marriage has hit the Seven Year Itch, and this neurotic pair want to scratch that itch until it bleeds.",
+    "english":null
+  }
 }

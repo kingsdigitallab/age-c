@@ -1,66 +1,89 @@
 {
-  "filmId":"ES2023_025",
-  "title":"\u00a1Salta!",
-  "titleEn":"Jump!",
-  "director":"Olga Osorio",
-  "releaseType":"THE",
-  "releaseDate":1693526400000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Olga Osorio",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"ES",
+  "id":"ES2023_025",
+  "type":"film",
+  "slug":"es2023-025-salta",
+  "title":{
+    "native":"\u00a1Salta!",
+    "english":"Jump!"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1693526400000,
+    "year":2023
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt22059348\/?ref_=nv_sr_srsg_0_tt_4_nm_4_in_0_q_salta",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt22059348\/mediaviewer\/rm1629118209\/?ref_=tt_ov_i"
+  },
   "genre":[
     "COA",
     "COM",
     "SCI"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt22059348\/?ref_=nv_sr_srsg_0_tt_4_nm_4_in_0_q_salta",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt22059348\/mediaviewer\/rm1629118209\/?ref_=tt_ov_i",
-  "synopsis":"\u00d3scar y Teo (13 y 10 a\u00f1os) son dos hermanos, muy distintos entre s\u00ed, que viven en un modesto piso de barrio. Es el verano de 1989. Teo es futbolero y un poco travieso, \u00d3scar un sabelotodo que prefiere pasar las tardes de verano estudiando la teor\u00eda de la relatividad. En realidad, cada uno lidia a su manera con la desaparici\u00f3n de su madre, una prometedora cient\u00edfica obsesionada con los agujeros de gusano. Largometraje que adapta un cortometraje de la propia directora, \"Einstein-Rosen\".",
-  "synopsisEn":"Oscar and Teo (13 and 11 years old) are two brothers, very different from each other, who will have to face the loss of their mother, a scientist obsessed with wormholes.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
+    "grandmotherhood",
     "fatherhood",
-    "grief",
-    "grandmotherhood"
+    "grief"
   ],
-  "charId":[
-    "ES2023_025_01",
-    "ES2023_025_02"
+  "director":[
+    {
+      "id":"Olga Osorio",
+      "name":"Olga Osorio",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Mabel Rivera",
-    "Manuel Manqui\u00f1a"
+  "character":[
+    {
+      "id":"ES2023_025_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Manuel Manqui\u00f1a",
+        "name":"Manuel Manqui\u00f1a",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_025_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Mabel Rivera",
+        "name":"Mabel Rivera",
+        "birthYear":1952.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":null,
-  "assistedMobility":"N",
-  "perName":[
-    "Mabel Rivera",
-    "Manuel Manqui\u00f1a"
-  ],
-  "perBirthYear":[
-    1952,
-    1953
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"es2023-025-salta"
+  "synopsis":{
+    "native":"\u00d3scar y Teo (13 y 10 a\u00f1os) son dos hermanos, muy distintos entre s\u00ed, que viven en un modesto piso de barrio. Es el verano de 1989. Teo es futbolero y un poco travieso, \u00d3scar un sabelotodo que prefiere pasar las tardes de verano estudiando la teor\u00eda de la relatividad. En realidad, cada uno lidia a su manera con la desaparici\u00f3n de su madre, una prometedora cient\u00edfica obsesionada con los agujeros de gusano. Largometraje que adapta un cortometraje de la propia directora, \"Einstein-Rosen\".",
+    "english":"Oscar and Teo (13 and 11 years old) are two brothers, very different from each other, who will have to face the loss of their mother, a scientist obsessed with wormholes."
+  }
 }

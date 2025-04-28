@@ -1,82 +1,92 @@
 {
-  "filmId":"GB2023_016",
-  "title":"Enys Men",
-  "titleEn":null,
-  "director":"Mark Jenkin",
-  "releaseType":"THE",
-  "releaseDate":1642032000000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Mark Jenkin",
-  "directorBirthYear":1976,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
-  "genre":"HOR",
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt11698800\/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_Enys%2520Men",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt11698800\/mediaviewer\/rm256907009\/?ref_=tt_ov_i",
-  "synopsis":"Set in 1973 on an uninhabited island off the Cornish coast, a wildlife volunteer's daily observations of a rare flower turn into a metaphysical journey that forces her as well as the viewer to question what is real and what is a nightmare.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
+  "id":"GB2023_016",
+  "type":"film",
+  "slug":"gb2023-016-enys-men",
+  "title":{
+    "native":"Enys Men",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1642032000000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt11698800\/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_Enys%2520Men",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt11698800\/mediaviewer\/rm256907009\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "HOR"
+  ],
   "tags":[
-    "ecology",
     "supernatural entity",
-    "abuse",
-    "sex",
-    "loneliness",
     "natural",
+    "sex",
+    "low rank employment",
+    "loneliness",
+    "ecology",
     "gender discrimination",
-    "low rank employment"
+    "abuse"
   ],
-  "charId":[
-    "GB2023_016_02",
-    "GB2023_016_01"
+  "director":[
+    {
+      "id":"Mark Jenkin",
+      "name":"Mark Jenkin",
+      "birthYear":1976,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Mary Woodvine",
-    "John Woodvine"
+  "character":[
+    {
+      "id":"GB2023_016_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Mary Woodvine",
+        "name":"Mary Woodvine",
+        "birthYear":1967.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_016_02",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"John Woodvine",
+        "name":"John Woodvine",
+        "birthYear":1929.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "4"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "LM",
-    null
-  ],
-  "charProfession":[
-    "EM",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    null
-  ],
-  "assistedMobility":"N",
-  "perName":[
-    "Mary Woodvine",
-    "John Woodvine"
-  ],
-  "perBirthYear":[
-    1929,
-    1967
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2023-016-enys-men"
+  "synopsis":{
+    "native":"Set in 1973 on an uninhabited island off the Cornish coast, a wildlife volunteer's daily observations of a rare flower turn into a metaphysical journey that forces her as well as the viewer to question what is real and what is a nightmare.",
+    "english":null
+  }
 }

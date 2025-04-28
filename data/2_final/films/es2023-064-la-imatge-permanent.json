@@ -1,59 +1,74 @@
 {
-  "filmId":"ES2023_064",
-  "title":"La imatge permanent",
-  "titleEn":"The Permanent Picture",
-  "director":"Laura Ferr\u00e9s",
-  "releaseType":"THE",
-  "releaseDate":1700179200000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Laura Ferr\u00e9s",
-  "directorBirthYear":1989,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"ES",
+  "id":"ES2023_064",
+  "type":"film",
+  "slug":"es2023-064-la-imatge-permanent",
+  "title":{
+    "native":"La imatge permanent",
+    "english":"The Permanent Picture"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1700179200000,
+    "year":2023
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=559009",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9141694\/mediaviewer\/rm1628054529\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "DRA",
-    "MET"
-  ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=559009",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9141694\/mediaviewer\/rm1628054529\/?ref_=tt_ov_i",
-  "synopsis":"En un pueblo del sur, Antonia, una madre adolescente, desaparece en medio de la noche. Cincuenta an\u0303os ma\u0301s tarde y muchos kilo\u0301metros al norte, Carmen, una directora de casting algo introvertida, debe encontrar personas que cuenten sus recuerdos tras cambiar de ciudad. Durante su bu\u0301squeda, Carmen conoce a Antonia, una mujer impulsiva que invade su soledad. \u00bfQuie\u0301n dijo que el tiempo cura todas las heridas?",
-  "synopsisEn":"Antonia, a teenage mother, disappears in the middle of the night, leaving her baby behind. Fifty years later a casting director, Carmen meets Antonia, whose impulsiveness will intrude into her loneliness.",
-  "country":[
-    "FR",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "MET",
+    "DRA"
   ],
   "tags":[
-    "personal trauma",
     "personal memory",
-    "motherhood",
-    "homosociality",
-    "daily routine",
-    "intragenerational friendship",
     "urban",
     "stages of life",
-    "low rank employment"
+    "homosociality",
+    "daily routine",
+    "personal trauma",
+    "intragenerational friendship",
+    "low rank employment",
+    "motherhood"
   ],
-  "charId":"ES2023_064_01",
-  "perId":"Rosario Ortega",
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Rosario Ortega",
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":"F",
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"es2023-064-la-imatge-permanent"
+  "director":[
+    {
+      "id":"Laura Ferr\u00e9s",
+      "name":"Laura Ferr\u00e9s",
+      "birthYear":1989,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"ES"
+    }
+  ],
+  "character":[
+    {
+      "id":"ES2023_064_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Rosario Ortega",
+        "name":"Rosario Ortega",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"En un pueblo del sur, Antonia, una madre adolescente, desaparece en medio de la noche. Cincuenta an\u0303os ma\u0301s tarde y muchos kilo\u0301metros al norte, Carmen, una directora de casting algo introvertida, debe encontrar personas que cuenten sus recuerdos tras cambiar de ciudad. Durante su bu\u0301squeda, Carmen conoce a Antonia, una mujer impulsiva que invade su soledad. \u00bfQuie\u0301n dijo que el tiempo cura todas las heridas?",
+    "english":"Antonia, a teenage mother, disappears in the middle of the night, leaving her baby behind. Fifty years later a casting director, Carmen meets Antonia, whose impulsiveness will intrude into her loneliness."
+  }
 }

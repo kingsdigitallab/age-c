@@ -1,17 +1,25 @@
 {
-  "filmId":"GB2021_002",
-  "title":"The King's Man",
-  "titleEn":null,
-  "director":"Matthew Vaughn",
-  "releaseType":"THE",
-  "releaseDate":1640908800000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":"Matthew Vaughn",
-  "directorBirthYear":1971,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2021_002",
+  "type":"film",
+  "slug":"gb2021-002-the-king-s-man",
+  "title":{
+    "native":"The King's Man",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1640908800000,
+    "year":2021
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=414982",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9214832\/mediaviewer\/rm274892545\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "ACT",
@@ -19,116 +27,164 @@
     "HIS",
     "WAR"
   ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=5zdBG-iGfes",
-    "https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=414982"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt6856242\/mediaviewer\/rm1942154753\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt9214832\/mediaviewer\/rm274892545\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "In 1800s England, a well meaning but selfish young woman meddles in the love lives of her friends.",
-    "In the early years of the 20th century, the Kingsman agency is formed to stand against a cabal plotting a war to wipe out millions."
-  ],
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "intergenerational friendship",
-    "wealth",
-    "activism",
-    "cultural memory",
-    "disability",
+    "colony",
     "national identity",
     "homosociality",
-    "new start",
     "fatherhood",
+    "cultural memory",
+    "wealth",
     "state institutions",
-    "high rank employment",
-    "collective trauma",
-    "empty nest",
     "independent home",
     "professional politics",
-    "colony",
-    "medical treatment",
-    "grief",
-    "murder",
-    "marriage",
+    "intergenerational conflict",
+    "intergenerational friendship",
     "natural",
-    "intergenerational conflict"
+    "high rank employment",
+    "murder",
+    "grief",
+    "new start",
+    "disability",
+    "collective trauma",
+    "activism",
+    "marriage",
+    "medical treatment",
+    "empty nest"
   ],
-  "charId":[
-    "GB2021_002_03",
-    "GB2021_002_04",
-    "GB2021_002_05",
-    "GB2021_002_02",
-    "GB2021_002_01"
+  "director":[
+    {
+      "id":"Matthew Vaughn",
+      "name":"Matthew Vaughn",
+      "birthYear":1971,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Djimon Hounsou",
-    "Stanley Tucci",
-    "Charles Dance",
-    "Ralph Fiennes",
-    "Ron Cook"
+  "character":[
+    {
+      "id":"GB2021_002_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"TD",
+      "assistedMobility":"TD",
+      "person":{
+        "id":"Ralph Fiennes",
+        "name":"Ralph Fiennes",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_002_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Charles Dance",
+        "name":"Charles Dance",
+        "birthYear":1946.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_002_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"SAF",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Djimon Hounsou",
+        "name":"Djimon Hounsou",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"BJ"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_002_05",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"CEU",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ron Cook",
+        "name":"Ron Cook",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_002_04",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WNA",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Stanley Tucci",
+        "name":"Stanley Tucci",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_002_04",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WNA",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Stanley Tucci",
+        "name":"Stanley Tucci",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":[
-    "WNA",
-    "SAF",
-    "CEU",
-    "WWE"
-  ],
-  "charClass":[
-    "UM",
-    "UC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":[
-    "AB",
-    "TD"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Ron Cook",
-    "Ralph Fiennes",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1962,
-    1948
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    null,
-    "M"
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2021-002-the-king-s-man"
+  "synopsis":{
+    "native":"In 1800s England, a well meaning but selfish young woman meddles in the love lives of her friends.",
+    "english":null
+  }
 }

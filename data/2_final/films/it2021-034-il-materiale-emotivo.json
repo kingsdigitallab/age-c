@@ -1,55 +1,90 @@
 {
-  "filmId":"IT2021_034",
-  "title":"Il materiale emotivo",
-  "titleEn":"A Bookshop in Paris",
-  "director":"Sergio Castellitto",
-  "releaseType":"THE",
-  "releaseDate":1625875200000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2021_034",
+  "type":"film",
+  "slug":"it2021-034-il-materiale-emotivo",
+  "title":{
+    "native":"Il materiale emotivo",
+    "english":"A Bookshop in Paris"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1625875200000,
+    "year":2021
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=x6nq3MOwbIo",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt10072662\/mediaviewer\/rm1251930113\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "ROM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=x6nq3MOwbIo",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt10072662\/mediaviewer\/rm1251930113\/?ref_=tt_ov_i",
-  "synopsis":"Vincenzo (Sergio Castellitto) dedica l\u2019esistenza alla sua antica libreria parigina, una piccola perla adagiata al centro di una piazzetta di Parigi e alla figlia Albertine (Matilda De Angelis), costretta a casa per colpa di un incidente (incidente...?) avvenuto qualche anno prima. La vita di Vincenzo scorre tranquilla, tra l\u2019amore per la figlia e quello per i libri, ma la calma non pu\u00f2 durare per sempre, neanche per chi se l\u2019\u00e8 guadagnata pagandola a carissimo prezzo. Un giorno Yolande (B\u00e9r\u00e9nice Bejo), una ragazza scombinata ed esuberante, fa irruzione nel negozio. Affascinato dalla forza vitale della donna, Vincenzo inizia a riscoprire emozioni ormai dimenticate da tempo, che lo porteranno a interrogarsi sul suo modo malinconico e sospeso di affrontare la vita.",
-  "synopsisEn":"A librarian lives with his disabled daughter in his Parisian bookstore. Various characters will change their lives.",
-  "country":[
-    "IT",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "reignited passion",
-    "fatherhood",
-    "may-december",
     "romance",
-    "caregiving"
+    "caregiving",
+    "fatherhood",
+    "reignited passion",
+    "may-december"
   ],
-  "charId":"IT2021_034_01",
-  "perId":"Sergio Castellitto",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2021-034-il-materiale-emotivo"
+  "director":[
+    {
+      "id":"Sergio Castellitto",
+      "name":"Sergio Castellitto",
+      "birthYear":1953,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2021_034_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Sergio Castellitto",
+        "name":"Sergio Castellitto",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2021_034_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Sergio Castellitto",
+        "name":"Sergio Castellitto",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"DIR"
+    }
+  ],
+  "synopsis":{
+    "native":"Vincenzo (Sergio Castellitto) dedica l\u2019esistenza alla sua antica libreria parigina, una piccola perla adagiata al centro di una piazzetta di Parigi e alla figlia Albertine (Matilda De Angelis), costretta a casa per colpa di un incidente (incidente...?) avvenuto qualche anno prima. La vita di Vincenzo scorre tranquilla, tra l\u2019amore per la figlia e quello per i libri, ma la calma non pu\u00f2 durare per sempre, neanche per chi se l\u2019\u00e8 guadagnata pagandola a carissimo prezzo. Un giorno Yolande (B\u00e9r\u00e9nice Bejo), una ragazza scombinata ed esuberante, fa irruzione nel negozio. Affascinato dalla forza vitale della donna, Vincenzo inizia a riscoprire emozioni ormai dimenticate da tempo, che lo porteranno a interrogarsi sul suo modo malinconico e sospeso di affrontare la vita.",
+    "english":"A librarian lives with his disabled daughter in his Parisian bookstore. Various characters will change their lives."
+  }
 }

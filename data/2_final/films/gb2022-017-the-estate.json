@@ -1,105 +1,157 @@
 {
-  "filmId":"GB2022_017",
-  "title":"The Estate",
-  "titleEn":null,
-  "director":"Dean Craig",
-  "releaseType":"FES",
-  "releaseDate":1665014400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt16302202\/?ref_=ttrel_ov",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt16302202\/mediaviewer\/rm1037697793\/?ref_=tt_ov_i",
-  "synopsis":"Two sisters attempt to win over their terminally ill, difficult-to-please Aunt in hopes of becoming the beneficiaries of her wealthy estate, only to find the rest of their greedy family members have the same idea.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
+  "id":"GB2022_017",
+  "type":"film",
+  "slug":"gb2022-017-the-estate",
+  "title":{
+    "native":"The Estate",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"FES",
+    "date":1665014400000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt16302202\/?ref_=ttrel_ov",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt16302202\/mediaviewer\/rm1037697793\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
     "wealth",
-    "desire",
-    "independent home",
-    "sisterhood",
-    "extended family",
-    "physical illness",
-    "celibacy",
-    "inheritance",
-    "agony",
     "precarity",
+    "independent home",
     "caregiving",
+    "inheritance",
+    "celibacy",
     "class conflict",
+    "sisterhood",
+    "desire",
+    "extended family",
+    "agony",
+    "physical illness",
     "motherhood"
   ],
-  "charId":[
-    "GB2022_017_05",
-    "GB2022_017_02",
-    "GB2022_017_01",
-    "GB2022_017_04",
-    "GB2022_017_03"
+  "director":[
+    {
+      "id":"Dean Craig",
+      "name":"Dean Craig",
+      "birthYear":1974,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Ron Livingstone",
-    "Kathleen Turner",
-    "Danny Vinson",
-    "David Duchovny",
-    "Patricia French"
+  "character":[
+    {
+      "id":"GB2022_017_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Kathleen Turner",
+        "name":"Kathleen Turner",
+        "birthYear":1954.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_017_05",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Patricia French",
+        "name":"Patricia French",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_017_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ron Livingstone",
+        "name":"Ron Livingstone",
+        "birthYear":1967.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_017_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"David Duchovny",
+        "name":"David Duchovny",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_017_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WNA",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Danny Vinson",
+        "name":"Danny Vinson",
+        "birthYear":1954.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WNA",
-  "charClass":[
-    "UM",
-    "MC",
-    "LM",
-    null
-  ],
-  "charProfession":[
-    "EM",
-    "RE",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    "CI",
-    null
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Ron Livingstone",
-    "Kathleen Turner",
-    "Danny Vinson",
-    "David Duchovny",
-    "Patricia French"
-  ],
-  "perBirthYear":[
-    1960,
-    0,
-    1954,
-    1967
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"US",
-  "perRole":null,
-  "slug":"gb2022-017-the-estate"
+  "synopsis":{
+    "native":"Two sisters attempt to win over their terminally ill, difficult-to-please Aunt in hopes of becoming the beneficiaries of her wealthy estate, only to find the rest of their greedy family members have the same idea.",
+    "english":null
+  }
 }

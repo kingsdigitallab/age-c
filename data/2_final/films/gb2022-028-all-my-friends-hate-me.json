@@ -1,48 +1,69 @@
 {
-  "filmId":"GB2022_028",
-  "title":"All My Friends Hate Me",
-  "titleEn":null,
-  "director":"Andrew Gaynord",
-  "releaseType":"THE",
-  "releaseDate":1654819200000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Andrew Gaynord",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2022_028",
+  "type":"film",
+  "slug":"gb2022-028-all-my-friends-hate-me",
+  "title":{
+    "native":"All My Friends Hate Me",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1654819200000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt9340892\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_All%2520My%2520Friends%2520Hate%2520Me",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9340892\/mediaviewer\/rm1470306049\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HOR",
     "COM",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt9340892\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_All%2520My%2520Friends%2520Hate%2520Me",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9340892\/mediaviewer\/rm1470306049\/?ref_=tt_ov_i",
-  "synopsis":"Pete is cautiously excited about reuniting with his college crew for a birthday weekend. But, one by one, his friends slowly turn against him. Is he being punished, is he paranoid, or is he part of some sick joke?",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
     "rural",
-    "festivities",
-    "abuse"
+    "abuse",
+    "festivities"
   ],
-  "charId":"GB2022_028_01",
-  "perId":"Christopher Fairbank",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Christopher Fairbank",
-  "perBirthYear":1953,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2022-028-all-my-friends-hate-me"
+  "director":[
+    {
+      "id":"Andrew Gaynord",
+      "name":"Andrew Gaynord",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2022_028_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Christopher Fairbank",
+        "name":"Christopher Fairbank",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Pete is cautiously excited about reuniting with his college crew for a birthday weekend. But, one by one, his friends slowly turn against him. Is he being punished, is he paranoid, or is he part of some sick joke?",
+    "english":null
+  }
 }

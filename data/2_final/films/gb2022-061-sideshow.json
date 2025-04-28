@@ -1,64 +1,93 @@
 {
-  "filmId":"GB2022_061",
-  "title":"Sideshow",
-  "titleEn":null,
-  "director":"Adam Oldroyd",
-  "releaseType":"THE",
-  "releaseDate":1667433600000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Adam Oldroyd",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2022_061",
+  "type":"film",
+  "slug":"gb2022-061-sideshow",
+  "title":{
+    "native":"Sideshow",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1667433600000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt9603894\/?ref_=nv_sr_srsg_3_tt_7_nm_1_in_0_q_Sideshow",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9603894\/mediaviewer\/rm837148161\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HEI",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt9603894\/?ref_=nv_sr_srsg_3_tt_7_nm_1_in_0_q_Sideshow",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9603894\/mediaviewer\/rm837148161\/?ref_=tt_ov_i",
-  "synopsis":"When two inept criminals break into the home of a washed-up psychic in search of hidden loot, they get a lot more than they bargained for.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
     "fraud",
     "independent home",
-    "abuse",
-    "self-employment",
     "artistic creation",
     "homosociality",
     "crime",
+    "self-employment",
+    "abuse",
     "revenge"
   ],
-  "charId":[
-    "GB2022_061_02",
-    "GB2022_061_01"
+  "director":[
+    {
+      "id":"Adam Oldroyd",
+      "name":"Adam Oldroyd",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Anthony Head",
-    "Les Dennis"
+  "character":[
+    {
+      "id":"GB2022_061_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Anthony Head",
+        "name":"Anthony Head",
+        "birthYear":1954.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_061_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Les Dennis",
+        "name":"Les Dennis",
+        "birthYear":1954.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Anthony Head",
-    "Les Dennis"
-  ],
-  "perBirthYear":1954,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2022-061-sideshow"
+  "synopsis":{
+    "native":"When two inept criminals break into the home of a washed-up psychic in search of hidden loot, they get a lot more than they bargained for.",
+    "english":null
+  }
 }

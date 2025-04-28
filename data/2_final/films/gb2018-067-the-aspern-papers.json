@@ -1,63 +1,78 @@
 {
-  "filmId":"GB2018_067",
-  "title":"The Aspern Papers",
-  "titleEn":null,
-  "director":"Julien Landais",
-  "releaseType":"FES",
-  "releaseDate":1535587200000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Julien Landais",
-  "directorBirthYear":1981,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"FR",
+  "id":"GB2018_067",
+  "type":"film",
+  "slug":"gb2018-067-the-aspern-papers",
+  "title":{
+    "native":"The Aspern Papers",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"FES",
+    "date":1535587200000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt5715828\/?ref_=ttrel",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5715828\/mediaviewer\/rm1547007744\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
     "DRA",
+    "HIS",
     "ROM",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt5715828\/?ref_=ttrel",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5715828\/mediaviewer\/rm1547007744\/?ref_=tt_ov_i",
-  "synopsis":"A young writer tries to obtain romance letters a poet sent to his mistress.",
-  "synopsisEn":null,
-  "country":[
-    "DE",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
+    "intergenerational conflict",
+    "romance",
+    "disability",
     "wealth",
     "personal memory",
-    "independent home",
-    "extended family",
-    "disability",
-    "romance",
     "artistic creation",
+    "caregiving",
+    "independent home",
     "homosociality",
     "grief",
-    "caregiving",
-    "intergenerational conflict"
+    "extended family"
   ],
-  "charId":"GB2018_067_01",
-  "perId":"Vanessa Redgrave",
-  "charAge":"4",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UC",
-  "charProfession":"UN",
-  "charAbility":"PD",
-  "assistedMobility":"Y",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2018-067-the-aspern-papers"
+  "director":[
+    {
+      "id":"Julien Landais",
+      "name":"Julien Landais",
+      "birthYear":1981,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2018_067_01",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"UN",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"Vanessa Redgrave",
+        "name":"Vanessa Redgrave",
+        "birthYear":1937.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"A young writer tries to obtain romance letters a poet sent to his mistress.",
+    "english":null
+  }
 }

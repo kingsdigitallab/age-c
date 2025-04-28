@@ -1,64 +1,90 @@
 {
-  "filmId":"ES2018_064",
-  "title":"Paella Today!",
-  "titleEn":null,
-  "director":"C\u00e9sar Sabater",
-  "releaseType":"THE",
-  "releaseDate":1521763200000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"C\u00e9sar Sabater",
-  "directorBirthYear":1976,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2018_064",
+  "type":"film",
+  "slug":"es2018-064-paella-today",
+  "title":{
+    "native":"Paella Today!",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1521763200000,
+    "year":2018
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt6214294\/?ref_=nv_sr_srsg_0_tt_5_nm_0_in_0_q_Paella%2520Today!",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6214294\/mediaviewer\/rm1014709760\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "COM",
-    "ROM"
+    "ROM",
+    "COM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt6214294\/?ref_=nv_sr_srsg_0_tt_5_nm_0_in_0_q_Paella%2520Today!",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6214294\/mediaviewer\/rm1014709760\/?ref_=tt_ov_i",
-  "synopsis":"Un concurso de paellas es el hilo conductor y la excusa para narrar las vidas de dos amigos valencianos: Pep y Vicent. Vidas que dar\u00e1n un giro de 180\u00ba con la llegada de la atractiva Lola, por la que ambos se sentir\u00e1n atra\u00eddos. A este tri\u00e1ngulo amoroso se unir\u00e1n los particulares padres de Lola, un chino experto en paellas, una madre pitonisa, un hijo con aspiraciones de influencer, y toda una galer\u00eda de pintorescos personajes.",
-  "synopsisEn":"In Valencia, Spain paella is much more than a dish; it's part of the identity of every resident.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "independent home",
-    "regional identity",
-    "marriage",
     "mass media",
+    "marriage",
+    "regional identity",
+    "independent home",
     "motherhood"
   ],
-  "charId":[
-    "ES2018_063_01",
-    "ES2018_063_02"
+  "director":[
+    {
+      "id":"C\u00e9sar Sabater",
+      "name":"C\u00e9sar Sabater",
+      "birthYear":1976,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Mamen Garc\u00eda",
-    "Lolita Flores"
+  "character":[
+    {
+      "id":"ES2018_063_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Lolita Flores",
+        "name":"Lolita Flores",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_063_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Mamen Garc\u00eda",
+        "name":"Mamen Garc\u00eda",
+        "birthYear":1947.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":[
-    "UN",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Mamen Garc\u00eda",
-    "Lolita Flores"
-  ],
-  "perBirthYear":[
-    1947,
-    1958
-  ],
-  "perDeathYear":0,
-  "perGender":"F",
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"es2018-064-paella-today"
+  "synopsis":{
+    "native":"Un concurso de paellas es el hilo conductor y la excusa para narrar las vidas de dos amigos valencianos: Pep y Vicent. Vidas que dar\u00e1n un giro de 180\u00ba con la llegada de la atractiva Lola, por la que ambos se sentir\u00e1n atra\u00eddos. A este tri\u00e1ngulo amoroso se unir\u00e1n los particulares padres de Lola, un chino experto en paellas, una madre pitonisa, un hijo con aspiraciones de influencer, y toda una galer\u00eda de pintorescos personajes.",
+    "english":"In Valencia, Spain paella is much more than a dish; it's part of the identity of every resident."
+  }
 }

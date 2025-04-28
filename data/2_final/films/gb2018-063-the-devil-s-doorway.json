@@ -1,78 +1,98 @@
 {
-  "filmId":"GB2018_063",
-  "title":"The Devil's Doorway",
-  "titleEn":null,
-  "director":"Aislinn Clarke",
-  "releaseType":"FES",
-  "releaseDate":1535155200000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Aislinn Clarke",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"IE",
+  "id":"GB2018_063",
+  "type":"film",
+  "slug":"gb2018-063-the-devil-s-doorway",
+  "title":{
+    "native":"The Devil's Doorway",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"FES",
+    "date":1535155200000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt6793280\/?ref_=ttrel",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6793280\/mediaviewer\/rm2078949632\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HIS",
     "HOR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt6793280\/?ref_=ttrel",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6793280\/mediaviewer\/rm2078949632\/?ref_=tt_ov_i",
-  "synopsis":"In the fall of 1960, Father Thomas Riley and Father John Thornton were sent by the Vatican to investigate a miraculous event in an Irish home for 'fallen women', only to uncover something much more horrific.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "power",
-    "cultural memory",
-    "supernatural entity",
-    "abuse",
-    "state institutions",
-    "national identity",
-    "superior-employee relationship",
-    "homosociality",
     "collective trauma",
-    "mentorship",
-    "religion",
+    "supernatural entity",
     "gender discrimination",
-    "communal housing"
+    "state institutions",
+    "mentorship",
+    "superior-employee relationship",
+    "national identity",
+    "homosociality",
+    "communal housing",
+    "cultural memory",
+    "power",
+    "religion",
+    "abuse"
   ],
-  "charId":[
-    "GB2018_063_02",
-    "GB2018_063_01"
+  "director":[
+    {
+      "id":"Aislinn Clarke",
+      "name":"Aislinn Clarke",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"IE"
+    }
   ],
-  "perId":[
-    "Lalor Roddy",
-    "Helena Bereen"
+  "character":[
+    {
+      "id":"GB2018_063_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Lalor Roddy",
+        "name":"Lalor Roddy",
+        "birthYear":1954.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_063_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Helena Bereen",
+        "name":"Helena Bereen",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IE"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Lalor Roddy",
-    "Helena Bereen"
-  ],
-  "perBirthYear":[
-    0,
-    1954
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":[
-    "GB",
-    "IE"
-  ],
-  "perRole":null,
-  "slug":"gb2018-063-the-devil-s-doorway"
+  "synopsis":{
+    "native":"In the fall of 1960, Father Thomas Riley and Father John Thornton were sent by the Vatican to investigate a miraculous event in an Irish home for 'fallen women', only to uncover something much more horrific.",
+    "english":null
+  }
 }

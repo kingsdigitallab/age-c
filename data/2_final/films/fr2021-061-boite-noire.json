@@ -1,43 +1,66 @@
 {
-  "filmId":"FR2021_061",
-  "title":"Bo\u00eete noire",
-  "titleEn":"Black Box",
-  "director":"Yann Gozlan",
-  "releaseType":"THE",
-  "releaseDate":1631059200000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"THR",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=KDJMbKGonzc",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/46\/153\/235822\/format_page\/black-box.jpg",
-  "synopsis":"Que s\u2019est-il pass\u00e9 \u00e0 bord du vol Duba\u00ef-Paris avant son crash dans le massif alpin ? Technicien au BEA, autorit\u00e9 responsable des enqu\u00eates de s\u00e9curit\u00e9 dans l\u2019aviation civile, Mathieu Vasseur est propuls\u00e9 enqu\u00eateur en chef sur une catastrophe a\u00e9rienne sans pr\u00e9c\u00e9dent. Erreur de pilotage ? D\u00e9faillance technique ? Acte terroriste ? L\u2019analyse minutieuse des bo\u00eetes noires va pousser Mathieu \u00e0 mener en secret sa propre investigation. Il ignore encore jusqu\u2019o\u00f9 va le mener sa qu\u00eate de v\u00e9rit\u00e9.",
-  "synopsisEn":"Mathieu is a young and talented black box analyst on a mission to solve the reason behind the deadly crash of a brand new aircraft. Yet, when the case is closed by authorities, Mathieu cannot help but sense there is something wrong with the evidence. As he listens to the tracks again, he starts detecting some seriously disturbing details. Could the tape have been modified? Going against his boss\u2019 orders, Mathieu begins his own rogue investigation \u2013 an obsessional and dangerous quest for truth that will quickly threaten far more than his career...",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2021_061",
+  "type":"film",
+  "slug":"fr2021-061-boite-noire",
+  "title":{
+    "native":"Bo\u00eete noire",
+    "english":"Black Box"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1631059200000,
+    "year":2021
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=KDJMbKGonzc",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/46\/153\/235822\/format_page\/black-box.jpg"
+  },
+  "genre":[
+    "THR"
+  ],
   "tags":[
     "corruption",
     "state institutions"
   ],
-  "charId":"FR2021_061_01",
-  "perId":"Andr\u00e9 Dussollier",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2021-061-boite-noire"
+  "director":[
+    {
+      "id":"Yann Gozlan",
+      "name":"Yann Gozlan",
+      "birthYear":1977,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2021_061_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Andr\u00e9 Dussollier",
+        "name":"Andr\u00e9 Dussollier",
+        "birthYear":1946.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Que s\u2019est-il pass\u00e9 \u00e0 bord du vol Duba\u00ef-Paris avant son crash dans le massif alpin ? Technicien au BEA, autorit\u00e9 responsable des enqu\u00eates de s\u00e9curit\u00e9 dans l\u2019aviation civile, Mathieu Vasseur est propuls\u00e9 enqu\u00eateur en chef sur une catastrophe a\u00e9rienne sans pr\u00e9c\u00e9dent. Erreur de pilotage ? D\u00e9faillance technique ? Acte terroriste ? L\u2019analyse minutieuse des bo\u00eetes noires va pousser Mathieu \u00e0 mener en secret sa propre investigation. Il ignore encore jusqu\u2019o\u00f9 va le mener sa qu\u00eate de v\u00e9rit\u00e9.",
+    "english":"Mathieu is a young and talented black box analyst on a mission to solve the reason behind the deadly crash of a brand new aircraft. Yet, when the case is closed by authorities, Mathieu cannot help but sense there is something wrong with the evidence. As he listens to the tracks again, he starts detecting some seriously disturbing details. Could the tape have been modified? Going against his boss\u2019 orders, Mathieu begins his own rogue investigation \u2013 an obsessional and dangerous quest for truth that will quickly threaten far more than his career..."
+  }
 }

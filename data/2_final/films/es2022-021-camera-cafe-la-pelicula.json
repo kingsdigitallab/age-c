@@ -1,78 +1,107 @@
 {
-  "filmId":"ES2022_021",
-  "title":"Camera Caf\u00e9, la pel\u00edcula",
-  "titleEn":null,
-  "director":"Ernesto Sevilla",
-  "releaseType":"THE",
-  "releaseDate":1648166400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Ernesto Sevilla",
-  "directorBirthYear":1978,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12089564\/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_Camera%2520Caf%25C3%25A9%252C%2520la%2520pel%25C3%25ADcula",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt12089564\/mediaviewer\/rm3133005825\/?ref_=tt_ov_i",
-  "synopsis":"Quesada, Juli\u00e1n, Marimar, Ca\u00f1izares, Victoria y compa\u00f1\u00eda se enfrentar\u00e1n a una crisis que est\u00e1 a punto de hundir la empresa y, lo que es peor, deber\u00e1 salvarla su nuevo director, que es nada m\u00e1s y nada menos que el rey del escaqueo, Quesada.",
-  "synopsisEn":"Quesada, Juli\u00e1n, Marimar, Ca\u00f1izares, Victoria and company will face a crisis that is about to sink the company and, what is worse, it will have to be saved by its new director, who is none other than the king of scamming, Quesada.",
-  "country":[
-    "PT",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+  "id":"ES2022_021",
+  "type":"film",
+  "slug":"es2022-021-camera-cafe-la-pelicula",
+  "title":{
+    "native":"Camera Caf\u00e9, la pel\u00edcula",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1648166400000,
+    "year":2022
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12089564\/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_Camera%2520Caf%25C3%25A9%252C%2520la%2520pel%25C3%25ADcula",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt12089564\/mediaviewer\/rm3133005825\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "COM"
   ],
   "tags":[
-    "superior-employee relationship",
     "retirement",
+    "superior-employee relationship",
     "low rank employment"
   ],
-  "charId":[
-    "ES2022_021_01",
-    "ES2022_021_03",
-    "ES2022_021_02"
+  "director":[
+    {
+      "id":"Ernesto Sevilla",
+      "name":"Ernesto Sevilla",
+      "birthYear":1978,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Manuel Galiana",
-    "Esperanza Elipe",
-    "Karina"
+  "character":[
+    {
+      "id":"ES2022_021_03",
+      "age":"4",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Karina",
+        "name":"Karina",
+        "birthYear":1945.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2022_021_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Esperanza Elipe",
+        "name":"Esperanza Elipe",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2022_021_02",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Manuel Galiana",
+        "name":"Manuel Galiana",
+        "birthYear":1941.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "4"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Manuel Galiana",
-    "Esperanza Elipe",
-    "Karina"
-  ],
-  "perBirthYear":[
-    1961,
-    1945,
-    1941
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"es2022-021-camera-cafe-la-pelicula"
+  "synopsis":{
+    "native":"Quesada, Juli\u00e1n, Marimar, Ca\u00f1izares, Victoria y compa\u00f1\u00eda se enfrentar\u00e1n a una crisis que est\u00e1 a punto de hundir la empresa y, lo que es peor, deber\u00e1 salvarla su nuevo director, que es nada m\u00e1s y nada menos que el rey del escaqueo, Quesada.",
+    "english":"Quesada, Juli\u00e1n, Marimar, Ca\u00f1izares, Victoria and company will face a crisis that is about to sink the company and, what is worse, it will have to be saved by its new director, who is none other than the king of scamming, Quesada."
+  }
 }

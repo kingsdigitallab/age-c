@@ -1,140 +1,248 @@
 {
-  "filmId":"GB2019_001",
-  "title":"Downton Abbey",
-  "titleEn":null,
-  "director":"Michael Engler",
-  "releaseType":"THE",
-  "releaseDate":1568332800000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Michael Engler",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"US",
+  "id":"GB2019_001",
+  "type":"film",
+  "slug":"gb2019-001-downton-abbey",
+  "title":{
+    "native":"Downton Abbey",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1568332800000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=tu3mP0c51hE",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6398184\/mediaviewer\/rm2990120193\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
     "DRA",
-    "MPF",
-    "ROM"
-  ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=tu3mP0c51hE",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6398184\/mediaviewer\/rm2990120193\/?ref_=tt_ov_i",
-  "synopsis":"The continuing story of the Crawley family, wealthy owners of a large estate in the English countryside in the early twentieth century.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB",
-    "CN"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "HIS",
+    "ROM",
+    "MPF"
   ],
   "tags":[
-    "extended family",
-    "class conflict",
-    "festivities",
-    "wealth",
     "rural",
-    "power",
-    "cultural memory",
     "national identity",
-    "celibacy",
-    "parenthood",
     "homosociality",
-    "multigenerational family",
+    "class conflict",
+    "cultural memory",
+    "low rank employment",
+    "power",
+    "extended family",
     "rescue mission",
-    "grandmotherhood",
-    "high rank employment",
-    "class solidarity",
+    "wealth",
+    "festivities",
     "widowhood",
     "independent home",
+    "parenthood",
     "superior-employee relationship",
+    "high rank employment",
     "marriage",
-    "low rank employment"
+    "grandmotherhood",
+    "multigenerational family",
+    "celibacy",
+    "class solidarity"
   ],
-  "charId":[
-    "GB2019_001_01",
-    "GB2019_001_03",
-    "GB2019_001_04",
-    "GB2019_001_09",
-    "GB2019_001_06",
-    "GB2019_001_08",
-    "GB2019_001_02",
-    "GB2019_001_07",
-    "GB2019_001_05"
+  "director":[
+    {
+      "id":"Michael Engler",
+      "name":"Michael Engler",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"US"
+    }
   ],
-  "perId":[
-    "Maggie Smith",
-    "Hugh Bonneville",
-    "Geraldine James",
-    "Penelope Wilton",
-    "Jim Carter",
-    "Imelda Staunton",
-    "Phyllis Logan",
-    "Elizabeth McGovern",
-    "Lesley Nicol"
+  "character":[
+    {
+      "id":"GB2019_001_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Hugh Bonneville",
+        "name":"Hugh Bonneville",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_001_09",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Elizabeth McGovern",
+        "name":"Elizabeth McGovern",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_001_02",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Maggie Smith",
+        "name":"Maggie Smith",
+        "birthYear":1934.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_001_08",
+      "age":"THE",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Geraldine James",
+        "name":"Geraldine James",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_001_04",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Imelda Staunton",
+        "name":"Imelda Staunton",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_001_03",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Penelope Wilton",
+        "name":"Penelope Wilton",
+        "birthYear":1943.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_001_06",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Lesley Nicol",
+        "name":"Lesley Nicol",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_001_07",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Phyllis Logan",
+        "name":"Phyllis Logan",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_001_05",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jim Carter",
+        "name":"Jim Carter",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "THE",
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "UC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Geraldine James",
-    null,
-    "Penelope Wilton",
-    "Jim Carter",
-    "Imelda Staunton",
-    "Phyllis Logan",
-    "Elizabeth McGovern",
-    "Lesley Nicol"
-  ],
-  "perBirthYear":[
-    0,
-    1953,
-    1956,
-    1961,
-    1943,
-    1948,
-    1950
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M",
-    null
-  ],
-  "perNationality":[
-    "US",
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2019-001-downton-abbey"
+  "synopsis":{
+    "native":"The continuing story of the Crawley family, wealthy owners of a large estate in the English countryside in the early twentieth century.",
+    "english":null
+  }
 }

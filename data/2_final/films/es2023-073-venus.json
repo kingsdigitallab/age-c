@@ -1,77 +1,91 @@
 {
-  "filmId":"ES2023_073",
-  "title":"Venus",
-  "titleEn":null,
-  "director":"V\u00edctor Conde",
-  "releaseType":"THE",
-  "releaseDate":1676678400000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"V\u00edctor Conde",
-  "directorBirthYear":1973,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2023_073",
+  "type":"film",
+  "slug":"es2023-073-venus",
+  "title":{
+    "native":"Venus",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1676678400000,
+    "year":2023
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=959131",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt10719596\/mediaviewer\/rm4099008257\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "ROM"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=959131",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt10719596\/mediaviewer\/rm4099008257\/?ref_=tt_ov_i",
-  "synopsis":"En la d\u00e9cada de 1970, Paula y Miguel est\u00e1n a punto de realizar el \u00faltimo espect\u00e1culo de su banda: Venus. Casi cuarenta a\u00f1os despu\u00e9s Jorge llega al caf\u00e9 donde pasa su juventud. All\u00ed se encuentra con Alicia. Recuerdan los d\u00edas en que se conocieron.",
-  "synopsisEn":"In 1970's, Paula and Miguel are about to perform the last show of their band: VENUS. Almost forty years later Jorge arrives at the cafe where he spend his younger years. There he encounters Alicia They remember the days when they met.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "natural death",
-    "personal memory",
     "burial",
-    "fatherhood",
+    "personal memory",
+    "widowhood",
     "stages of life",
-    "widowhood"
+    "fatherhood",
+    "natural death"
   ],
-  "charId":[
-    "ES2023_073_01",
-    "ES2023_073_02"
+  "director":[
+    {
+      "id":"V\u00edctor Conde",
+      "name":"V\u00edctor Conde",
+      "birthYear":1973,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Lolita",
-    "Juan Diego"
+  "character":[
+    {
+      "id":"ES2023_073_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Juan Diego",
+        "name":"Juan Diego",
+        "birthYear":1942.0,
+        "deathYear":2022.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_073_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Lolita",
+        "name":null,
+        "birthYear":null,
+        "deathYear":null,
+        "gender":null,
+        "nationality":null
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"RE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Juan Diego",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1942
-  ],
-  "perDeathYear":[
-    0,
-    2022
-  ],
-  "perGender":[
-    null,
-    "M"
-  ],
-  "perNationality":[
-    null,
-    "ES"
-  ],
-  "perRole":null,
-  "slug":"es2023-073-venus"
+  "synopsis":{
+    "native":"En la d\u00e9cada de 1970, Paula y Miguel est\u00e1n a punto de realizar el \u00faltimo espect\u00e1culo de su banda: Venus. Casi cuarenta a\u00f1os despu\u00e9s Jorge llega al caf\u00e9 donde pasa su juventud. All\u00ed se encuentra con Alicia. Recuerdan los d\u00edas en que se conocieron.",
+    "english":"In 1970's, Paula and Miguel are about to perform the last show of their band: VENUS. Almost forty years later Jorge arrives at the cafe where he spend his younger years. There he encounters Alicia They remember the days when they met."
+  }
 }

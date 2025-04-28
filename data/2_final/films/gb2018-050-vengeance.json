@@ -1,64 +1,90 @@
 {
-  "filmId":"GB2018_050",
-  "title":"Vengeance",
-  "titleEn":"I Am Vengeance",
-  "director":"Ross Boyask",
-  "releaseType":"THE",
-  "releaseDate":1538092800000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Ross Boyask",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2018_050",
+  "type":"film",
+  "slug":"gb2018-050-vengeance",
+  "title":{
+    "native":"Vengeance",
+    "english":"I Am Vengeance"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1538092800000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt5885106\/?ref_=ttrel",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5885106\/mediaviewer\/rm1723369985\/?ref_=tt_ov_i"
+  },
   "genre":[
     "ACT",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt5885106\/?ref_=ttrel",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5885106\/mediaviewer\/rm1723369985\/?ref_=tt_ov_i",
-  "synopsis":"When ex-soldier turned mercenary, John Gold, learns of the murder of his best friend, he sets off on a mission to find out what happened. What he discovers is a sinister conspiracy and he sets about taking down those responsible one by one.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "power",
     "rural",
+    "power",
     "abuse",
-    "organized crime",
-    "revenge"
+    "revenge",
+    "organized crime"
   ],
-  "charId":[
-    "GB2018_050_02",
-    "GB2018_050_01"
+  "director":[
+    {
+      "id":"Ross Boyask",
+      "name":"Ross Boyask",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Keith Allen",
-    "Sean Blowers"
+  "character":[
+    {
+      "id":"GB2018_050_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Keith Allen",
+        "name":"Keith Allen",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_050_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Sean Blowers",
+        "name":"Sean Blowers",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":null,
-  "charProfession":null,
-  "charAbility":null,
-  "assistedMobility":"N",
-  "perName":[
-    "Keith Allen",
-    "Sean Blowers"
-  ],
-  "perBirthYear":[
-    1953,
-    1961
-  ],
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2018-050-vengeance"
+  "synopsis":{
+    "native":"When ex-soldier turned mercenary, John Gold, learns of the murder of his best friend, he sets off on a mission to find out what happened. What he discovers is a sinister conspiracy and he sets about taking down those responsible one by one.",
+    "english":null
+  }
 }

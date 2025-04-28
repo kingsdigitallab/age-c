@@ -1,49 +1,86 @@
 {
-  "filmId":"IT2018_102",
-  "title":"Din Don - Una parrocchia in due",
-  "titleEn":null,
-  "director":"Claudio Norza",
-  "releaseType":"THE",
-  "releaseDate":1545004800000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=_5YTX1itl2U",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9691688\/mediaviewer\/rm2492360960\/?ref_=tt_ov_i",
-  "synopsis":"Donato \u00e8 un manager cialtrone che, per sfuggire ad un boss, si presenta a Don Dino, il parroco di una chiesa di paese, fingendosi prete.",
-  "synopsisEn":null,
-  "country":"IT",
-  "productionShare":"MAJ",
+  "id":"IT2018_102",
+  "type":"film",
+  "slug":"it2018-102-din-don-una-parrocchia-in-due",
+  "title":{
+    "native":"Din Don - Una parrocchia in due",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1545004800000,
+    "year":2018
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=_5YTX1itl2U",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9691688\/mediaviewer\/rm2492360960\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
     "religion",
     "regional identity"
   ],
-  "charId":[
-    "IT2018_102_01",
-    "IT2018_102_02"
+  "director":[
+    {
+      "id":"Claudio Norza",
+      "name":"Claudio Norza",
+      "birthYear":1957,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
   ],
-  "perId":[
-    "Maurizio Battista",
-    "Enzo Salvi"
+  "character":[
+    {
+      "id":"IT2018_102_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Enzo Salvi",
+        "name":"Enzo Salvi",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2018_102_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Maurizio Battista",
+        "name":"Maurizio Battista",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
   ],
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2018-102-din-don-una-parrocchia-in-due"
+  "synopsis":{
+    "native":"Donato \u00e8 un manager cialtrone che, per sfuggire ad un boss, si presenta a Don Dino, il parroco di una chiesa di paese, fingendosi prete.",
+    "english":null
+  }
 }

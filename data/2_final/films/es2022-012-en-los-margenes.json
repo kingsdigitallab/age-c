@@ -1,85 +1,107 @@
 {
-  "filmId":"ES2022_012",
-  "title":"En los m\u00e1rgenes",
-  "titleEn":"On the Fringe",
-  "director":"Juan Diego Botto",
-  "releaseType":"THE",
-  "releaseDate":1665014400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Juan Diego Botto",
-  "directorBirthYear":1975,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":[
-    "AR",
-    "ES"
-  ],
+  "id":"ES2022_012",
+  "type":"film",
+  "slug":"es2022-012-en-los-margenes",
+  "title":{
+    "native":"En los m\u00e1rgenes",
+    "english":"On the Fringe"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1665014400000,
+    "year":2022
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12306964\/?ref_=nv_sr_srsg_0_tt_5_nm_0_in_0_q_En%2520los%2520m%25C3%25A1rgenes",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt12306964\/mediaviewer\/rm1516768257\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "MPF"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12306964\/?ref_=nv_sr_srsg_0_tt_5_nm_0_in_0_q_En%2520los%2520m%25C3%25A1rgenes",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt12306964\/mediaviewer\/rm1516768257\/?ref_=tt_ov_i",
-  "synopsis":"La cuenta atr\u00e1s de tres personajes, con senda historias entrelazadas, que tratan de mantenerse a flote y sobrevivir a 24 horas claves que pueden cambiar el curso de sus vidas. El film explora el efecto que una situaci\u00f3n de estr\u00e9s econ\u00f3mico tiene sobre las relaciones personales, y c\u00f3mo el afecto y la solidaridad pueden ser un motor para salir adelante.",
-  "synopsisEn":"Interwoven stories told over the course of one day.",
-  "country":[
-    "BE",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
     "activism",
-    "2008 crisis",
-    "migration",
-    "independent home",
-    "intergenerational friendship",
-    "state institutions",
-    "homosociality",
-    "class solidarity",
-    "unemployment",
-    "education",
-    "urban",
     "precarity",
+    "intergenerational friendship",
+    "urban",
+    "state institutions",
+    "independent home",
+    "education",
+    "homosociality",
     "class conflict",
-    "low rank employment"
+    "class solidarity",
+    "low rank employment",
+    "2008 crisis",
+    "unemployment",
+    "migration"
   ],
-  "charId":[
-    "ES2022_012_01",
-    "ES2022_012_02"
+  "director":[
+    {
+      "id":"Juan Diego Botto",
+      "name":"Juan Diego Botto",
+      "birthYear":1975,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"AR"
+    },
+    {
+      "id":"Juan Diego Botto",
+      "name":"Juan Diego Botto",
+      "birthYear":1975,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Adelfa Calvo",
-    "Mar\u00eda Isabel D\u00edaz Lago"
+  "character":[
+    {
+      "id":"ES2022_012_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Adelfa Calvo",
+        "name":"Adelfa Calvo",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2022_012_02",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"ILA",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Mar\u00eda Isabel D\u00edaz Lago",
+        "name":"Mar\u00eda Isabel D\u00edaz Lago",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"CU"
+      },
+      "role":null
+    }
   ],
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":null,
-  "charOrigin":[
-    "ILA",
-    "WWE"
-  ],
-  "charClass":"LM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Adelfa Calvo",
-    "Mar\u00eda Isabel D\u00edaz Lago"
-  ],
-  "perBirthYear":[
-    1962,
-    1964
-  ],
-  "perDeathYear":0,
-  "perGender":"F",
-  "perNationality":[
-    "CU",
-    "ES"
-  ],
-  "perRole":null,
-  "slug":"es2022-012-en-los-margenes"
+  "synopsis":{
+    "native":"La cuenta atr\u00e1s de tres personajes, con senda historias entrelazadas, que tratan de mantenerse a flote y sobrevivir a 24 horas claves que pueden cambiar el curso de sus vidas. El film explora el efecto que una situaci\u00f3n de estr\u00e9s econ\u00f3mico tiene sobre las relaciones personales, y c\u00f3mo el afecto y la solidaridad pueden ser un motor para salir adelante.",
+    "english":"Interwoven stories told over the course of one day."
+  }
 }

@@ -1,46 +1,69 @@
 {
-  "filmId":"FR2020_056",
-  "title":"Belle-fille",
-  "titleEn":"The Morning After",
-  "director":"M\u00e9liane Marcaggi",
-  "releaseType":"THE",
-  "releaseDate":1597795200000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=i7iuowoVUy4",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/245\/101\/222709\/format_page\/belle-fille.jpg",
-  "synopsis":"D\u00e9couvrant que son mari la trompe, Louise d\u00e9cide de penser enfin \u00e0 elle et part d\u00e9compresser en Corse le temps d\u2019un week-end. Elle passe une folle nuit avec un bel inconnu... Une seule puisque, au petit matin, il ne se r\u00e9veille pas.D\u00e9couvrant que son mari la trompe, Louise d\u00e9cide de penser enfin \u00e0 elle et part d\u00e9compresser en Corse le temps d\u2019un week-end. Elle passe une folle nuit avec un bel inconnu... Une seule puisque, au petit matin, il ne se r\u00e9veille pas. Andr\u00e9a, la m\u00e8re de celui-ci, d\u00e9barque sur les lieux et prend imm\u00e9diatement Louise pour la belle-fille dont elle a toujours r\u00eav\u00e9! Prise au pi\u00e8ge, Louise va devoir jouer le r\u00f4le de la belle-fille id\u00e9ale pour quelques jours. Probl\u00e8me : sa nouvelle belle-m\u00e8re ne veut plus la l\u00e2cher...",
-  "synopsisEn":"After her husband cheats on her, Louise decides to go to Corsica for a weekend. There she meets and spends a night with a handsome stranger. But when she wakes up, she isn't able to wake him up.",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2020_056",
+  "type":"film",
+  "slug":"fr2020-056-belle-fille",
+  "title":{
+    "native":"Belle-fille",
+    "english":"The Morning After"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1597795200000,
+    "year":2020
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=i7iuowoVUy4",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/245\/101\/222709\/format_page\/belle-fille.jpg"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
     "rural",
     "independent home",
-    "extended family",
+    "retirement",
     "grief",
-    "retirement"
+    "extended family"
   ],
-  "charId":"FR2020_056_01",
-  "perId":"Miou-Miou",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"RE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2020-056-belle-fille"
+  "director":[
+    {
+      "id":"M\u00e9liane Marcaggi",
+      "name":"M\u00e9liane Marcaggi",
+      "birthYear":1978,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2020_056_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Miou-Miou",
+        "name":"Miou-Miou",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"D\u00e9couvrant que son mari la trompe, Louise d\u00e9cide de penser enfin \u00e0 elle et part d\u00e9compresser en Corse le temps d\u2019un week-end. Elle passe une folle nuit avec un bel inconnu... Une seule puisque, au petit matin, il ne se r\u00e9veille pas.D\u00e9couvrant que son mari la trompe, Louise d\u00e9cide de penser enfin \u00e0 elle et part d\u00e9compresser en Corse le temps d\u2019un week-end. Elle passe une folle nuit avec un bel inconnu... Une seule puisque, au petit matin, il ne se r\u00e9veille pas. Andr\u00e9a, la m\u00e8re de celui-ci, d\u00e9barque sur les lieux et prend imm\u00e9diatement Louise pour la belle-fille dont elle a toujours r\u00eav\u00e9! Prise au pi\u00e8ge, Louise va devoir jouer le r\u00f4le de la belle-fille id\u00e9ale pour quelques jours. Probl\u00e8me : sa nouvelle belle-m\u00e8re ne veut plus la l\u00e2cher...",
+    "english":"After her husband cheats on her, Louise decides to go to Corsica for a weekend. There she meets and spends a night with a handsome stranger. But when she wakes up, she isn't able to wake him up."
+  }
 }

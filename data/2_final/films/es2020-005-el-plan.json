@@ -1,54 +1,75 @@
 {
-  "filmId":"ES2020_005",
-  "title":"El plan",
-  "titleEn":"The Plan",
-  "director":"Polo Men\u00e1rguez",
-  "releaseType":"THE",
-  "releaseDate":1582243200000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":"Polo Men\u00e1rguez",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2020_005",
+  "type":"film",
+  "slug":"es2020-005-el-plan",
+  "title":{
+    "native":"El plan",
+    "english":"The Plan"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1582243200000,
+    "year":2020
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=8BKVQYlXazw",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9733094\/mediaviewer\/rm3846275841\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=8BKVQYlXazw",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9733094\/mediaviewer\/rm3846275841\/?ref_=tt_ov_i",
-  "synopsis":"Son las nueve de la ma\u00f1ana de un caluroso d\u00eda de verano en el barrio madrile\u00f1o de Usera. Paco, Ram\u00f3n y Andrade, tres amigos que llevan en paro desde que cerr\u00f3 la empresa en la que trabajaban, han quedado para ejecutar un plan. Cuando por fin se re\u00fanen, un contratiempo les impide salir de casa: el coche que necesitaban para trasladarse est\u00e1 averiado. Mientras buscan otra manera de llegar a su destino, se ven envueltos en una serie de inc\u00f3modas discusiones que poco a poco derribar\u00e1n sus muros y arrancar\u00e1n sus m\u00e1scaras.",
-  "synopsisEn":"Three friends who have been fired from their company are demoralized by their unemployment situation. They meet to come up with a plan, but they run into a problem.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "2008 crisis",
-    "independent home",
-    "intergenerational friendship",
     "mental illness",
+    "precarity",
+    "urban",
+    "intergenerational friendship",
+    "independent home",
     "homosociality",
     "class solidarity",
+    "2008 crisis",
     "unemployment",
-    "urban",
-    "revenge",
-    "precarity"
+    "revenge"
   ],
-  "charId":"ES2020_005_01",
-  "perId":"Chema del Barco",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":"UN",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"es2020-005-el-plan"
+  "director":[
+    {
+      "id":"Polo Men\u00e1rguez",
+      "name":"Polo Men\u00e1rguez",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
+  ],
+  "character":[
+    {
+      "id":"ES2020_005_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Chema del Barco",
+        "name":"Chema del Barco",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Son las nueve de la ma\u00f1ana de un caluroso d\u00eda de verano en el barrio madrile\u00f1o de Usera. Paco, Ram\u00f3n y Andrade, tres amigos que llevan en paro desde que cerr\u00f3 la empresa en la que trabajaban, han quedado para ejecutar un plan. Cuando por fin se re\u00fanen, un contratiempo les impide salir de casa: el coche que necesitaban para trasladarse est\u00e1 averiado. Mientras buscan otra manera de llegar a su destino, se ven envueltos en una serie de inc\u00f3modas discusiones que poco a poco derribar\u00e1n sus muros y arrancar\u00e1n sus m\u00e1scaras.",
+    "english":"Three friends who have been fired from their company are demoralized by their unemployment situation. They meet to come up with a plan, but they run into a problem."
+  }
 }

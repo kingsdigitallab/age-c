@@ -1,78 +1,115 @@
 {
-  "filmId":"GB2018_049",
-  "title":"Damascus Cover",
-  "titleEn":null,
-  "director":"Daniel Zelik Berk",
-  "releaseType":"THE",
-  "releaseDate":1533254400000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Daniel Zelik Berk",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":null,
+  "id":"GB2018_049",
+  "type":"film",
+  "slug":"gb2018-049-damascus-cover",
+  "title":{
+    "native":"Damascus Cover",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1533254400000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt3457508\/?ref_=ttrel",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt3457508\/mediaviewer\/rm1588477952\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "ACT",
     "SPY",
+    "ACT",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt3457508\/?ref_=ttrel",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt3457508\/mediaviewer\/rm1588477952\/?ref_=tt_ov_i",
-  "synopsis":"A spy navigates the precarious terrain of love and survival during an undercover mission in Syria.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "power",
-    "abuse",
-    "intergenerational friendship",
-    "state institutions",
+    "mentorship",
     "superior-employee relationship",
+    "state institutions",
+    "intergenerational friendship",
+    "urban",
     "homosociality",
     "high rank employment",
-    "mentorship",
-    "urban"
+    "power",
+    "abuse"
   ],
-  "charId":[
-    "GB2018_049_01",
-    "GB2018_049_02",
-    "GB2018_049_03"
+  "director":[
+    {
+      "id":"Daniel Zelik Berk",
+      "name":"Daniel Zelik Berk",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":null
+    }
   ],
-  "perId":[
-    "J\u00fcrgen Prochnow",
-    "Wolf Kahler",
-    "John Hurt"
+  "character":[
+    {
+      "id":"GB2018_049_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"J\u00fcrgen Prochnow",
+        "name":"J\u00fcrgen Prochnow",
+        "birthYear":1941.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"DE"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_049_02",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"John Hurt",
+        "name":"John Hurt",
+        "birthYear":1940.0,
+        "deathYear":2017.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_049_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Wolf Kahler",
+        "name":"Wolf Kahler",
+        "birthYear":1940.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"DE"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "J\u00fcrgen Prochnow",
-    "Wolf Kahler",
-    "John Hurt"
-  ],
-  "perBirthYear":[
-    1940,
-    1941
-  ],
-  "perDeathYear":[
-    0,
-    2017
-  ],
-  "perGender":"M",
-  "perNationality":[
-    "DE",
-    "GB"
-  ],
-  "perRole":null,
-  "slug":"gb2018-049-damascus-cover"
+  "synopsis":{
+    "native":"A spy navigates the precarious terrain of love and survival during an undercover mission in Syria.",
+    "english":null
+  }
 }

@@ -1,104 +1,143 @@
 {
-  "filmId":"GB2019_022",
-  "title":"The Corrupted",
-  "titleEn":null,
-  "director":"Ron Scalpello",
-  "releaseType":"THE",
-  "releaseDate":1557446400000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Ron Scalpello",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2019_022",
+  "type":"film",
+  "slug":"gb2019-022-the-corrupted",
+  "title":{
+    "native":"The Corrupted",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1557446400000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Y9Gs916DYOo",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5687270\/mediaviewer\/rm3969482753\/?ref_=tt_ov_i"
+  },
   "genre":[
     "ACT",
     "THR",
     "DET"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Y9Gs916DYOo",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5687270\/mediaviewer\/rm3969482753\/?ref_=tt_ov_i",
-  "synopsis":"Liam is an ex-con trying to win back the love and trust of his family. Liam's drive for redemption will see him caught up in a web of conspiracy, crime, and corruption.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "corruption",
     "wealth",
-    "power",
-    "independent home",
-    "fatherhood",
+    "corruption",
     "state institutions",
-    "organized crime",
     "superior-employee relationship",
+    "marriage",
+    "multigenerational family",
     "gentrification",
+    "urban",
+    "independent home",
     "regional identity",
     "homosociality",
+    "class conflict",
+    "fatherhood",
     "high rank employment",
     "murder",
-    "marriage",
-    "urban",
-    "class conflict",
-    "multigenerational family"
+    "power",
+    "organized crime"
   ],
-  "charId":[
-    "GB2019_022_02",
-    "GB2019_022_04",
-    "GB2019_022_01",
-    "GB2019_022_03"
+  "director":[
+    {
+      "id":"Ron Scalpello",
+      "name":"Ron Scalpello",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "David Hayman",
-    "Timothy Spall",
-    "Lorraine Ashbourne",
-    "Hugh Bonneville"
+  "character":[
+    {
+      "id":"GB2019_022_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Timothy Spall",
+        "name":"Timothy Spall",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_022_04",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Lorraine Ashbourne",
+        "name":"Lorraine Ashbourne",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_022_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Hugh Bonneville",
+        "name":"Hugh Bonneville",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_022_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"David Hayman",
+        "name":"David Hayman",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC",
-    "UC"
-  ],
-  "charProfession":[
-    "SE",
-    "EM",
-    "UN"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "David Hayman",
-    "Lorraine Ashbourne",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1961,
-    1948
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M",
-    null
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2019-022-the-corrupted"
+  "synopsis":{
+    "native":"Liam is an ex-con trying to win back the love and trust of his family. Liam's drive for redemption will see him caught up in a web of conspiracy, crime, and corruption.",
+    "english":null
+  }
 }

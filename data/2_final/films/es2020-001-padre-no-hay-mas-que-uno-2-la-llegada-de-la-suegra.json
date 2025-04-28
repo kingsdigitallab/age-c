@@ -1,58 +1,79 @@
 {
-  "filmId":"ES2020_001",
-  "title":"Padre no hay m\u00e1s que uno 2: La llegada de la suegra",
-  "titleEn":"Father There Is Only One 2",
-  "director":"Santiago Segura",
-  "releaseType":"THE",
-  "releaseDate":1595894400000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"ES2020_001",
+  "type":"film",
+  "slug":"es2020-001-padre-no-hay-mas-que-uno-2-la-llegada-de-la-suegra",
+  "title":{
+    "native":"Padre no hay m\u00e1s que uno 2: La llegada de la suegra",
+    "english":"Father There Is Only One 2"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1595894400000,
+    "year":2020
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=SSlMEREVRcs",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt11506284\/mediaviewer\/rm3698502401\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "COM",
-    "CHI"
+    "CHI",
+    "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=SSlMEREVRcs",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt11506284\/mediaviewer\/rm3698502401\/?ref_=tt_ov_i",
-  "synopsis":"Con el triunfo de la asistente virtual 'Conchy', Javier (Segura) se ha convertido en l\u00edder del chat de madres y todo marcha sobre ruedas. Parece tenerlo todo bajo control, pero la noticia inesperada de la llegada de un nuevo beb\u00e9 lo pone todo patas arriba\u2026 y para rematar, llegar\u00e1 la suegra.",
-  "synopsisEn":"Javier's life turns in a hell twice: not only Marisa announces that she's pregnant, but she calls the most feared people by him to help them.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "independent home",
+    "multigenerational family relations",
+    "urban",
+    "marriage",
     "in-laws",
-    "self-employment",
-    "technology",
+    "grandmotherhood",
+    "separation",
+    "independent home",
     "anti-ageing practices",
     "fatherhood",
-    "multigenerational family relations",
-    "grandmotherhood",
-    "marriage",
-    "body norms",
-    "urban",
+    "technology",
+    "self-employment",
     "de-ageing",
-    "motherhood",
-    "separation"
+    "body norms",
+    "motherhood"
   ],
-  "charId":"ES2020_001_03",
-  "perId":"Leo Harlem",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"UN",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Leo Harlem",
-  "perBirthYear":1965,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"es2020-001-padre-no-hay-mas-que-uno-2-la-llegada-de-la-suegra"
+  "director":[
+    {
+      "id":"Santiago Segura",
+      "name":"Santiago Segura",
+      "birthYear":1965,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
+  ],
+  "character":[
+    {
+      "id":"ES2020_001_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Leo Harlem",
+        "name":"Leo Harlem",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Con el triunfo de la asistente virtual 'Conchy', Javier (Segura) se ha convertido en l\u00edder del chat de madres y todo marcha sobre ruedas. Parece tenerlo todo bajo control, pero la noticia inesperada de la llegada de un nuevo beb\u00e9 lo pone todo patas arriba\u2026 y para rematar, llegar\u00e1 la suegra.",
+    "english":"Javier's life turns in a hell twice: not only Marisa announces that she's pregnant, but she calls the most feared people by him to help them."
+  }
 }

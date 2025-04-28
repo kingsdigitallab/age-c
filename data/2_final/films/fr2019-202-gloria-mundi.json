@@ -1,72 +1,115 @@
 {
-  "filmId":"FR2019_202",
-  "title":"Gloria Mundi",
-  "titleEn":"Sic Transit Gloria Mundi",
-  "director":"Robert Gu\u00e9diguian",
-  "releaseType":"THE",
-  "releaseDate":1574812800000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=A9xZYEHU9dU",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/240\/57\/211440\/format_page\/gloria-mundi.jpg",
-  "synopsis":"Daniel sort de prison o\u00f9 il \u00e9tait incarc\u00e9r\u00e9 depuis de longues ann\u00e9es et retourne \u00e0 Marseille. Sylvie, son ex-femme, l\u2019a pr\u00e9venu qu\u2019il \u00e9tait grand-p\u00e8re : leur fille Mathilda vient de donner naissance \u00e0 une petite Gloria. Le temps a pass\u00e9, chacun a fait ou refait sa vie... En venant \u00e0 la rencontre du b\u00e9b\u00e9, Daniel d\u00e9couvre une famille recompos\u00e9e qui lutte par tous les moyens pour rester debout. Quand un coup du sort fait voler en \u00e9clats ce fragile \u00e9quilibre, Daniel, qui n\u2019a plus rien \u00e0 perdre, va tout tenter pour les aider.",
-  "synopsisEn":"In Marseille, a family gathers for the birth of baby Gloria. But despite the joy, they have fallen on hard times. However Gloria\u2019s ambitious uncle has a new business idea, which could be a way out of their tough situation.",
-  "country":[
-    "IT",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+  "id":"FR2019_202",
+  "type":"film",
+  "slug":"fr2019-202-gloria-mundi",
+  "title":{
+    "native":"Gloria Mundi",
+    "english":"Sic Transit Gloria Mundi"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1574812800000,
+    "year":2019
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=A9xZYEHU9dU",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/240\/57\/211440\/format_page\/gloria-mundi.jpg"
+  },
+  "genre":[
+    "DRA"
   ],
   "tags":[
-    "independent home",
-    "in-laws",
-    "extended family",
-    "parenthood",
-    "grandparenthood",
-    "unemployment",
-    "urban",
-    "new start",
     "rescue mission",
+    "urban",
+    "in-laws",
+    "new start",
     "multigenerational family",
-    "low rank employment"
+    "independent home",
+    "parenthood",
+    "low rank employment",
+    "extended family",
+    "unemployment",
+    "grandparenthood"
   ],
-  "charId":[
-    "FR2019_202_01",
-    "FR2019_202_03",
-    "FR2019_202_02"
+  "director":[
+    {
+      "id":"Robert Gu\u00e9diguian",
+      "name":"Robert Gu\u00e9diguian",
+      "birthYear":1953,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
   ],
-  "perId":[
-    "G\u00e9rard Meylan",
-    "Ariane Ascaride",
-    "Jean-Pierre Darroussin"
+  "character":[
+    {
+      "id":"FR2019_202_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"G\u00e9rard Meylan",
+        "name":"G\u00e9rard Meylan",
+        "birthYear":1952.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    },
+    {
+      "id":"FR2019_202_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jean-Pierre Darroussin",
+        "name":"Jean-Pierre Darroussin",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    },
+    {
+      "id":"FR2019_202_03",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ariane Ascaride",
+        "name":"Ariane Ascaride",
+        "birthYear":1954.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":[
-    "EM",
-    "UN"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2019-202-gloria-mundi"
+  "synopsis":{
+    "native":"Daniel sort de prison o\u00f9 il \u00e9tait incarc\u00e9r\u00e9 depuis de longues ann\u00e9es et retourne \u00e0 Marseille. Sylvie, son ex-femme, l\u2019a pr\u00e9venu qu\u2019il \u00e9tait grand-p\u00e8re : leur fille Mathilda vient de donner naissance \u00e0 une petite Gloria. Le temps a pass\u00e9, chacun a fait ou refait sa vie... En venant \u00e0 la rencontre du b\u00e9b\u00e9, Daniel d\u00e9couvre une famille recompos\u00e9e qui lutte par tous les moyens pour rester debout. Quand un coup du sort fait voler en \u00e9clats ce fragile \u00e9quilibre, Daniel, qui n\u2019a plus rien \u00e0 perdre, va tout tenter pour les aider.",
+    "english":"In Marseille, a family gathers for the birth of baby Gloria. But despite the joy, they have fallen on hard times. However Gloria\u2019s ambitious uncle has a new business idea, which could be a way out of their tough situation."
+  }
 }

@@ -1,144 +1,221 @@
 {
-  "filmId":"ES2023_017",
-  "title":"Cerrar los ojos",
-  "titleEn":"Close Your Eyes",
-  "director":"V\u00edctor Erice",
-  "releaseType":"THE",
-  "releaseDate":1695945600000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"V\u00edctor Erice",
-  "directorBirthYear":1940,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2023_017",
+  "type":"film",
+  "slug":"es2023-017-cerrar-los-ojos",
+  "title":{
+    "native":"Cerrar los ojos",
+    "english":"Close Your Eyes"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1695945600000,
+    "year":2023
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt21284358\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Cerrar%2520los%2520ojos",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt21284358\/mediaviewer\/rm85022721\/?ref_=tt_ov_i"
+  },
   "genre":[
+    "MET",
     "DRA",
-    "NOI",
-    "MET"
-  ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt21284358\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Cerrar%2520los%2520ojos",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt21284358\/mediaviewer\/rm85022721\/?ref_=tt_ov_i",
-  "synopsis":"Un c\u00e9lebre actor espa\u00f1ol, Julio Arenas, desaparece durante el rodaje de una pel\u00edcula. Aunque nunca se llega a encontrar su cad\u00e1ver, la polic\u00eda concluye que ha sufrido un accidente al borde del mar. Muchos a\u00f1os despu\u00e9s, esta suerte de misterio vuelve a la actualidad a ra\u00edz de un programa de televisi\u00f3n que pretende evocar la figura del actor, ofreciendo como primicia im\u00e1genes de las \u00faltimas escenas en que particip\u00f3, rodadas por el que fue su \u00edntimo amigo, el director Miguel Garay.",
-  "synopsisEn":"A Spanish actor disappears during the filming of a movie. Although his body is never found, the police conclude that he has suffered an accident at the edge of a cliff. Many years later, the mystery returns to the present day.",
-  "country":[
-    "AR",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "NOI"
   ],
   "tags":[
-    "intergenerational friendship",
-    "daily routine",
-    "intragenerational friendship",
     "urban",
-    "precarity",
-    "cross-gender friendship",
-    "search for meaning",
     "rural",
-    "cultural memory",
-    "gray face",
-    "celibacy",
-    "artistic creation",
-    "retirement home",
-    "homosociality",
-    "well-being",
-    "rescue mission",
     "substance abuse",
-    "personal memory",
-    "personal trauma",
+    "homosociality",
     "fatherhood",
+    "personal trauma",
+    "cultural memory",
+    "low rank employment",
     "loneliness",
-    "state institutions",
-    "high rank employment",
-    "unemployment",
     "religion",
-    "caregiving",
-    "celebrity",
-    "mass media",
-    "non-human companionship",
+    "unemployment",
+    "cross-gender friendship",
+    "rescue mission",
+    "romance",
+    "personal memory",
+    "state institutions",
     "dementia",
     "independent home",
-    "medical treatment",
-    "romance",
+    "artistic creation",
+    "daily routine",
+    "intragenerational friendship",
+    "gray face",
+    "non-human companionship",
+    "search for meaning",
+    "precarity",
+    "intergenerational friendship",
+    "celebrity",
+    "high rank employment",
     "grief",
-    "low rank employment"
+    "retirement home",
+    "mass media",
+    "caregiving",
+    "celibacy",
+    "medical treatment",
+    "well-being"
   ],
-  "charId":[
-    "ES2023_017_01",
-    "ES2023_017_05",
-    "ES2023_017_03",
-    "ES2023_017_04",
-    "ES2023_017_02",
-    "ES2023_017_06",
-    "ES2023_017_07"
+  "director":[
+    {
+      "id":"V\u00edctor Erice",
+      "name":"V\u00edctor Erice",
+      "birthYear":1940,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Ana Torrent",
-    "Mario Pardo",
-    "Jos\u00e9 Coronado",
-    "Petra Mart\u00ednez",
-    "Antonio Dechent",
-    "Manolo Solo",
-    "Josep Maria Pou"
+  "character":[
+    {
+      "id":"ES2023_017_07",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Josep Maria Pou",
+        "name":"Josep Maria Pou",
+        "birthYear":1944.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_017_04",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Petra Mart\u00ednez",
+        "name":"Petra Mart\u00ednez",
+        "birthYear":1944.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_017_03",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ana Torrent",
+        "name":"Ana Torrent",
+        "birthYear":1966.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_017_05",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Mario Pardo",
+        "name":"Mario Pardo",
+        "birthYear":1944.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_017_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"Jos\u00e9 Coronado",
+        "name":"Jos\u00e9 Coronado",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_017_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Manolo Solo",
+        "name":"Manolo Solo",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_017_06",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Antonio Dechent",
+        "name":"Antonio Dechent",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "EM",
-    "RE",
-    "UN"
-  ],
-  "charAbility":[
-    "AB",
-    "PD"
-  ],
-  "assistedMobility":"N",
-  "perName":[
-    "Ana Torrent",
-    "Mario Pardo",
-    "Jos\u00e9 Coronado",
-    "Petra Mart\u00ednez",
-    "Manolo Solo",
-    null,
-    "Josep Maria Pou"
-  ],
-  "perBirthYear":[
-    0,
-    1957,
-    1964,
-    1966,
-    1944
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    null,
-    "M"
-  ],
-  "perNationality":[
-    null,
-    "ES"
-  ],
-  "perRole":null,
-  "slug":"es2023-017-cerrar-los-ojos"
+  "synopsis":{
+    "native":"Un c\u00e9lebre actor espa\u00f1ol, Julio Arenas, desaparece durante el rodaje de una pel\u00edcula. Aunque nunca se llega a encontrar su cad\u00e1ver, la polic\u00eda concluye que ha sufrido un accidente al borde del mar. Muchos a\u00f1os despu\u00e9s, esta suerte de misterio vuelve a la actualidad a ra\u00edz de un programa de televisi\u00f3n que pretende evocar la figura del actor, ofreciendo como primicia im\u00e1genes de las \u00faltimas escenas en que particip\u00f3, rodadas por el que fue su \u00edntimo amigo, el director Miguel Garay.",
+    "english":"A Spanish actor disappears during the filming of a movie. Although his body is never found, the police conclude that he has suffered an accident at the edge of a cliff. Many years later, the mystery returns to the present day."
+  }
 }

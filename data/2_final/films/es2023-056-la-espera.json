@@ -1,81 +1,98 @@
 {
-  "filmId":"ES2023_056",
-  "title":"La espera",
-  "titleEn":"The Wait",
-  "director":"F. Javier Guti\u00e9rrez",
-  "releaseType":"THE",
-  "releaseDate":1702598400000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"F. Javier Guti\u00e9rrez",
-  "directorBirthYear":1973,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2023_056",
+  "type":"film",
+  "slug":"es2023-056-la-espera",
+  "title":{
+    "native":"La espera",
+    "english":"The Wait"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1702598400000,
+    "year":2023
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12484918\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_La%2520espera",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt12484918\/mediaviewer\/rm1488340993\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
+    "WES",
     "HOR",
-    "FAN",
-    "WES"
+    "FAN"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12484918\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_La%2520espera",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt12484918\/mediaviewer\/rm1488340993\/?ref_=tt_ov_i",
-  "synopsis":"Eladio (V\u00edctor Clavijo), guarda de una finca, acepta el soborno de un cazador. Semanas despu\u00e9s su vida entera colapsa. Lo que parec\u00eda un vuelco favorable del destino se convertir\u00e1 en un macabro descenso a los infiernos en el que Eladio ver\u00e1 puesta a prueba su cordura.",
-  "synopsisEn":"Portrays the macabre descent into hell of a man facing the consequences of a morally fraught decision.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
+    "superior-employee relationship",
     "wealth",
     "rural",
-    "self-employment",
     "regional identity",
-    "superior-employee relationship",
     "homosociality",
+    "class conflict",
     "high rank employment",
-    "murder",
     "crime",
-    "revenge",
-    "class conflict"
+    "murder",
+    "self-employment",
+    "revenge"
   ],
-  "charId":[
-    "ES2023_056_02",
-    "ES2023_056_01"
+  "director":[
+    {
+      "id":"F. Javier Guti\u00e9rrez",
+      "name":"F. Javier Guti\u00e9rrez",
+      "birthYear":1973,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Pedro Casablanc",
-    "Manuel Mor\u00f3n"
+  "character":[
+    {
+      "id":"ES2023_056_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Manuel Mor\u00f3n",
+        "name":"Manuel Mor\u00f3n",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_056_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Pedro Casablanc",
+        "name":"Pedro Casablanc",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":[
-    "SE",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Pedro Casablanc",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1963
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    null,
-    "M"
-  ],
-  "perNationality":[
-    null,
-    "ES"
-  ],
-  "perRole":null,
-  "slug":"es2023-056-la-espera"
+  "synopsis":{
+    "native":"Eladio (V\u00edctor Clavijo), guarda de una finca, acepta el soborno de un cazador. Semanas despu\u00e9s su vida entera colapsa. Lo que parec\u00eda un vuelco favorable del destino se convertir\u00e1 en un macabro descenso a los infiernos en el que Eladio ver\u00e1 puesta a prueba su cordura.",
+    "english":"Portrays the macabre descent into hell of a man facing the consequences of a morally fraught decision."
+  }
 }

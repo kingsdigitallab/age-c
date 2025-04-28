@@ -1,46 +1,69 @@
 {
-  "filmId":"FR2022_007",
-  "title":"Sans toi",
-  "titleEn":"Astray",
-  "director":"Sophie Guillemin",
-  "releaseType":"THE",
-  "releaseDate":1641945600000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=CUAj9Qw_6EI",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/253\/183\/243709\/format_page\/sans-toi.jpg",
-  "synopsis":"Apr\u00e8s un coup de t\u00e9l\u00e9phone insolite, un homme d'affaires plaque tout pour partir en Russie \u00e0 la recherche de celle qu'il a aim\u00e9 passionn\u00e9ment et qui a disparu depuis 4 ans sans laisser de trace.",
-  "synopsisEn":"Antoine, an international wine negotiator in his fifties, receives an unusual phone call from Moscow. No voice, just a breath. Shaken, he leaves everything behind, his job, his partner, to go immediately to Russia to look for the woman he loved passionately and who has mysteriously disappeared for four years.",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2022_007",
+  "type":"film",
+  "slug":"fr2022-007-sans-toi",
+  "title":{
+    "native":"Sans toi",
+    "english":"Astray"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1641945600000,
+    "year":2022
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=CUAj9Qw_6EI",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/253\/183\/243709\/format_page\/sans-toi.jpg"
+  },
+  "genre":[
+    "DRA"
+  ],
   "tags":[
     "search for meaning",
-    "high rank employment",
     "marriage",
     "natural",
+    "high rank employment",
     "rescue mission"
   ],
-  "charId":"FR2022_007_01",
-  "perId":"Thierry Godard",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2022-007-sans-toi"
+  "director":[
+    {
+      "id":"Sophie Guillemin",
+      "name":"Sophie Guillemin",
+      "birthYear":1977,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2022_007_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Thierry Godard",
+        "name":"Thierry Godard",
+        "birthYear":1967.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Apr\u00e8s un coup de t\u00e9l\u00e9phone insolite, un homme d'affaires plaque tout pour partir en Russie \u00e0 la recherche de celle qu'il a aim\u00e9 passionn\u00e9ment et qui a disparu depuis 4 ans sans laisser de trace.",
+    "english":"Antoine, an international wine negotiator in his fifties, receives an unusual phone call from Moscow. No voice, just a breath. Shaken, he leaves everything behind, his job, his partner, to go immediately to Russia to look for the woman he loved passionately and who has mysteriously disappeared for four years."
+  }
 }

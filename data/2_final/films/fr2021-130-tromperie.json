@@ -1,50 +1,71 @@
 {
-  "filmId":"FR2021_130",
-  "title":"Tromperie",
-  "titleEn":"Deception",
-  "director":"Arnaud Desplechin",
-  "releaseType":"THE",
-  "releaseDate":1640736000000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"FR2021_130",
+  "type":"film",
+  "slug":"fr2021-130-tromperie",
+  "title":{
+    "native":"Tromperie",
+    "english":"Deception"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1640736000000,
+    "year":2021
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=oU82oVI7m4M",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/45\/156\/236589\/format_page\/deception.jpg"
+  },
   "genre":[
     "DRA",
     "ROM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=oU82oVI7m4M",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/45\/156\/236589\/format_page\/deception.jpg",
-  "synopsis":"Londres - 1987. Philip est un \u00e9crivain am\u00e9ricain c\u00e9l\u00e8bre exil\u00e9 \u00e0 Londres. Sa ma\u00eetresse vient r\u00e9guli\u00e8rement le retrouver dans son bureau, qui est le refuge des deux amants. Ils y font l\u2019amour, se disputent, se retrouvent et parlent des heures durant ; des femmes qui jalonnent sa vie, de sexe, d\u2019antis\u00e9mitisme, de litt\u00e9rature, et de fid\u00e9lit\u00e9 \u00e0 soi-m\u00eame\u2026",
-  "synopsisEn":"An American writer living in exile in London, Philip listens to women\u2026 His English mistress, who visits him regularly in the studio that serves as their refuge\u2026 A student he loved in another life\u2026 A former lover confined to a hospital in New York\u2026",
-  "country":"FR",
-  "productionShare":"MAJ",
   "tags":[
-    "personal memory",
-    "sex",
-    "self-employment",
     "romance",
+    "personal memory",
+    "marriage",
     "artistic creation",
-    "marriage"
+    "sex",
+    "self-employment"
   ],
-  "charId":"FR2021_132_01",
-  "perId":"Denis Podalyd\u00e8s",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2021-130-tromperie"
+  "director":[
+    {
+      "id":"Arnaud Desplechin",
+      "name":"Arnaud Desplechin",
+      "birthYear":1960,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2021_132_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Denis Podalyd\u00e8s",
+        "name":"Denis Podalyd\u00e8s",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Londres - 1987. Philip est un \u00e9crivain am\u00e9ricain c\u00e9l\u00e8bre exil\u00e9 \u00e0 Londres. Sa ma\u00eetresse vient r\u00e9guli\u00e8rement le retrouver dans son bureau, qui est le refuge des deux amants. Ils y font l\u2019amour, se disputent, se retrouvent et parlent des heures durant ; des femmes qui jalonnent sa vie, de sexe, d\u2019antis\u00e9mitisme, de litt\u00e9rature, et de fid\u00e9lit\u00e9 \u00e0 soi-m\u00eame\u2026",
+    "english":"An American writer living in exile in London, Philip listens to women\u2026 His English mistress, who visits him regularly in the studio that serves as their refuge\u2026 A student he loved in another life\u2026 A former lover confined to a hospital in New York\u2026"
+  }
 }

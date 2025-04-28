@@ -1,83 +1,112 @@
 {
-  "filmId":"ES2018_040",
-  "title":"Blue Rai",
-  "titleEn":null,
-  "director":"Pedro B. Abreu",
-  "releaseType":"THE",
-  "releaseDate":1523577600000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Pedro B. Abreu",
-  "directorBirthYear":1983,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2018_040",
+  "type":"film",
+  "slug":"es2018-040-blue-rai",
+  "title":{
+    "native":"Blue Rai",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1523577600000,
+    "year":2018
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt6500354\/?ref_=ttrel_ov",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6500354\/mediaviewer\/rm2716938240\/?ref_=tt_ov_i"
+  },
   "genre":[
     "CRI",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt6500354\/?ref_=ttrel_ov",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6500354\/mediaviewer\/rm2716938240\/?ref_=tt_ov_i",
-  "synopsis":"Se cumplen seis horas de la noticia que tiene conmocionado al pa\u00eds. Ocho rehenes, miles de seguidores en las redes sociales y una \u00fanica petici\u00f3n: s\u00f3lo quiere volver a ver a su chica.",
-  "synopsisEn":"Eight hostages, thousands of followers on social networks and a single request: he only wants to see his girl again.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
+    "state institutions",
+    "urban",
+    "high rank employment",
+    "technology",
     "power",
     "abuse",
-    "technology",
-    "state institutions",
-    "high rank employment",
-    "urban",
     "rescue mission"
   ],
-  "charId":[
-    "ES2018_040_03",
-    "ES2018_040_02",
-    "ES2018_040_01"
+  "director":[
+    {
+      "id":"Pedro B. Abreu",
+      "name":"Pedro B. Abreu",
+      "birthYear":1983,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Fina D\u00f3menech",
-    "Josep Segu\u00ed",
-    "Ferran Lahoz"
+  "character":[
+    {
+      "id":"ES2018_040_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Fina D\u00f3menech",
+        "name":"Fina D\u00f3menech",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_040_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Josep Segu\u00ed",
+        "name":"Josep Segu\u00ed",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_040_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ferran Lahoz",
+        "name":"Ferran Lahoz",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "LM",
-    null
-  ],
-  "charProfession":[
-    "EM",
-    "RE",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Fina D\u00f3menech",
-    "Josep Segu\u00ed",
-    "Ferran Lahoz"
-  ],
-  "perBirthYear":[
-    0,
-    1957
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"es2018-040-blue-rai"
+  "synopsis":{
+    "native":"Se cumplen seis horas de la noticia que tiene conmocionado al pa\u00eds. Ocho rehenes, miles de seguidores en las redes sociales y una \u00fanica petici\u00f3n: s\u00f3lo quiere volver a ver a su chica.",
+    "english":"Eight hostages, thousands of followers on social networks and a single request: he only wants to see his girl again."
+  }
 }

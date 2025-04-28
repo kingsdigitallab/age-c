@@ -1,68 +1,91 @@
 {
-  "filmId":"ES2022_014",
-  "title":"Historias para no contar",
-  "titleEn":"Stories Not to Be Told",
-  "director":"Cesc Gay",
-  "releaseType":"THE",
-  "releaseDate":1669334400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Cesc Gay",
-  "directorBirthYear":1967,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2022_014",
+  "type":"film",
+  "slug":"es2022-014-historias-para-no-contar",
+  "title":{
+    "native":"Historias para no contar",
+    "english":"Stories Not to Be Told"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1669334400000,
+    "year":2022
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt14149544\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Historias%2520para%2520no%2520contar",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14149544\/mediaviewer\/rm1435110913\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
-    "MPF",
-    "COM"
+    "COM",
+    "MPF"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt14149544\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Historias%2520para%2520no%2520contar",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14149544\/mediaviewer\/rm1435110913\/?ref_=tt_ov_i",
-  "synopsis":"Narra situaciones en las que nos podemos reconocer y que preferir\u00edamos no explicar, o incluso olvidar. Encuentros inesperados, momentos rid\u00edculos o decisiones absurdas, cinco historias con una mirada \u00e1cida y compasiva a la incapacidad para gobernar nuestras propias emociones.",
-  "synopsisEn":"Five comedic tales criss-cross at random, focusing on the emotions of the main characters and told with a lot of rhythm and action.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "may-december",
     "partnership",
+    "urban",
     "homosociality",
     "intragenerational friendship",
-    "urban"
+    "may-december"
   ],
-  "charId":[
-    "ES2022_014_01",
-    "ES2022_014_02"
+  "director":[
+    {
+      "id":"Cesc Gay",
+      "name":"Cesc Gay",
+      "birthYear":1967,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Javier C\u00e1mara",
-    "Jos\u00e9 Coronado"
+  "character":[
+    {
+      "id":"ES2022_014_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Javier C\u00e1mara",
+        "name":"Javier C\u00e1mara",
+        "birthYear":1967.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2022_014_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jos\u00e9 Coronado",
+        "name":"Jos\u00e9 Coronado",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Javier C\u00e1mara",
-    "Jos\u00e9 Coronado"
-  ],
-  "perBirthYear":[
-    1957,
-    1967
-  ],
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"es2022-014-historias-para-no-contar"
+  "synopsis":{
+    "native":"Narra situaciones en las que nos podemos reconocer y que preferir\u00edamos no explicar, o incluso olvidar. Encuentros inesperados, momentos rid\u00edculos o decisiones absurdas, cinco historias con una mirada \u00e1cida y compasiva a la incapacidad para gobernar nuestras propias emociones.",
+    "english":"Five comedic tales criss-cross at random, focusing on the emotions of the main characters and told with a lot of rhythm and action."
+  }
 }

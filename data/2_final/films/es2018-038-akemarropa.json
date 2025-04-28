@@ -1,59 +1,88 @@
 {
-  "filmId":"ES2018_038",
-  "title":"Akemarropa",
-  "titleEn":null,
-  "director":"F.J. Arranz",
-  "releaseType":"THE",
-  "releaseDate":1525392000000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"F.J. Arranz",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2018_038",
+  "type":"film",
+  "slug":"es2018-038-akemarropa",
+  "title":{
+    "native":"Akemarropa",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1525392000000,
+    "year":2018
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=973283",
+    "posterUrl":"https:\/\/www.filmaffinity.com\/es\/filmimages.php?movie_id=973283"
+  },
   "genre":[
     "MET",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=973283",
-  "posterUrl":"https:\/\/www.filmaffinity.com\/es\/filmimages.php?movie_id=973283",
-  "synopsis":"Elena es una joven actriz con un sue\u00f1o: hacer cine. Para ello tendr\u00e1 que reunir a su antiguo equipo y convencerles de que contin\u00faen el viaje juntos.",
-  "synopsisEn":null,
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
     "high rank employment",
     "artistic creation",
     "celebrity"
   ],
-  "charId":[
-    "ES2018_038_02",
-    "ES2018_038_01"
+  "director":[
+    {
+      "id":"F.J. Arranz",
+      "name":"F.J. Arranz",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Antonio Dechent",
-    "Juanma Lara"
+  "character":[
+    {
+      "id":"ES2018_038_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Juanma Lara",
+        "name":null,
+        "birthYear":null,
+        "deathYear":null,
+        "gender":null,
+        "nationality":null
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_038_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Antonio Dechent",
+        "name":"Antonio Dechent",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"es2018-038-akemarropa"
+  "synopsis":{
+    "native":"Elena es una joven actriz con un sue\u00f1o: hacer cine. Para ello tendr\u00e1 que reunir a su antiguo equipo y convencerles de que contin\u00faen el viaje juntos.",
+    "english":null
+  }
 }

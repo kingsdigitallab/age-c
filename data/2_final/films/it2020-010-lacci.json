@@ -1,60 +1,89 @@
 {
-  "filmId":"IT2020_010",
-  "title":"Lacci",
-  "titleEn":"The Ties",
-  "director":"Daniele Luchetti",
-  "releaseType":"THE",
-  "releaseDate":1601424000000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2020_010",
+  "type":"film",
+  "slug":"it2020-010-lacci",
+  "title":{
+    "native":"Lacci",
+    "english":"The Ties"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1601424000000,
+    "year":2020
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=KhkHymapH00",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt12585254\/mediaviewer\/rm2824511489\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "ROM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=KhkHymapH00",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt12585254\/mediaviewer\/rm2824511489\/?ref_=tt_ov_i",
-  "synopsis":"Napoli, primi anni \u201880: il matrimonio di Aldo e Vanda entra in crisi quando Aldo si innamora della giovane Lidia. Trent\u2019anni dopo, Aldo e Vanda sono ancora sposati. Un giallo sui sentimenti, una storia di lealt\u00e0 ed infedelt\u00e0, di rancore e vergogna. Un tradimento, il dolore, una scatola segreta, la casa devastata, un gatto, la voce degli innamorati e quella dei disamorati.",
-  "synopsisEn":"A marriage-in-crisis drama set in Naples and Rome over a long period starting in the 1980s.",
-  "country":"IT",
-  "productionShare":"MAJ",
   "tags":[
     "marriage",
+    "parenthood",
     "infidelity",
-    "stages of life",
-    "parenthood"
+    "stages of life"
   ],
-  "charId":[
-    "IT2020_010_01",
-    "IT2020_010_02"
+  "director":[
+    {
+      "id":"Daniele Luchetti",
+      "name":"Daniele Luchetti",
+      "birthYear":1960,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
   ],
-  "perId":[
-    "Silvio Orlando",
-    "Laura Morante"
+  "character":[
+    {
+      "id":"IT2020_010_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Laura Morante",
+        "name":"Laura Morante",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2020_010_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Silvio Orlando",
+        "name":"Silvio Orlando",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":[
-    "RE",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2020-010-lacci"
+  "synopsis":{
+    "native":"Napoli, primi anni \u201880: il matrimonio di Aldo e Vanda entra in crisi quando Aldo si innamora della giovane Lidia. Trent\u2019anni dopo, Aldo e Vanda sono ancora sposati. Un giallo sui sentimenti, una storia di lealt\u00e0 ed infedelt\u00e0, di rancore e vergogna. Un tradimento, il dolore, una scatola segreta, la casa devastata, un gatto, la voce degli innamorati e quella dei disamorati.",
+    "english":"A marriage-in-crisis drama set in Naples and Rome over a long period starting in the 1980s."
+  }
 }

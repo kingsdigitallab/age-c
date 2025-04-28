@@ -1,81 +1,95 @@
 {
-  "filmId":"GB2021_012",
-  "title":"The Mauritanian",
-  "titleEn":null,
-  "director":"Kevin MacDonald",
-  "releaseType":"THE",
-  "releaseDate":1612396800000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":"Kevin MacDonald",
-  "directorBirthYear":1967,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2021_012",
+  "type":"film",
+  "slug":"gb2021-012-the-mauritanian",
+  "title":{
+    "native":"The Mauritanian",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1612396800000,
+    "year":2021
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=7tmxxzZXLEM",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt4761112\/mediaviewer\/rm1533860865\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "COU",
+    "BIO",
     "DRA",
-    "BIO"
-  ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=7tmxxzZXLEM",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt4761112\/mediaviewer\/rm1533860865\/?ref_=tt_ov_i",
-  "synopsis":"Mohamedou Ould Slahi fights for freedom after being detained and imprisoned without charge by the U.S. Government for years.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "COU"
   ],
   "tags":[
-    "racial discrimination",
-    "cultural memory",
-    "self-employment",
-    "state institutions",
-    "homosociality",
     "terrorism",
-    "high rank employment",
+    "state institutions",
     "urban",
-    "women empowerment"
+    "homosociality",
+    "high rank employment",
+    "cultural memory",
+    "women empowerment",
+    "self-employment",
+    "racial discrimination"
   ],
-  "charId":[
-    "GB2021_012_02",
-    "GB2021_012_01"
+  "director":[
+    {
+      "id":"Kevin MacDonald",
+      "name":"Kevin MacDonald",
+      "birthYear":1967,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Corey Johnson",
-    "Jodie Foster"
+  "character":[
+    {
+      "id":"GB2021_012_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WNA",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Corey Johnson",
+        "name":"Corey Johnson",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_012_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WNA",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jodie Foster",
+        "name":"Jodie Foster",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"US"
+      },
+      "role":null
+    }
   ],
-  "charAge":"2",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":"WNA",
-  "charClass":"UM",
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Corey Johnson",
-    "Jodie Foster"
-  ],
-  "perBirthYear":[
-    1961,
-    1962
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"US",
-  "perRole":null,
-  "slug":"gb2021-012-the-mauritanian"
+  "synopsis":{
+    "native":"Mohamedou Ould Slahi fights for freedom after being detained and imprisoned without charge by the U.S. Government for years.",
+    "english":null
+  }
 }

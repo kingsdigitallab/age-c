@@ -1,49 +1,70 @@
 {
-  "filmId":"IT2023_121",
-  "title":"Da domani mi alzo tardi",
-  "titleEn":"Starting tomorrow, I'll get up late",
-  "director":"Stefano Veneruso",
-  "releaseType":"THE",
-  "releaseDate":1676332800000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2023_121",
+  "type":"film",
+  "slug":"it2023-121-da-domani-mi-alzo-tardi",
+  "title":{
+    "native":"Da domani mi alzo tardi",
+    "english":"Starting tomorrow, I'll get up late"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1676332800000,
+    "year":2023
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=eDkD7plYOV0",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9063050\/mediaviewer\/rm2167351297\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "DRA",
-    "COM",
     "BIO",
-    "ROM"
+    "DRA",
+    "ROM",
+    "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=eDkD7plYOV0",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9063050\/mediaviewer\/rm2167351297\/?ref_=tt_ov_i",
-  "synopsis":"Massimo, attore di successo, e Anna, affermata sceneggiatrice, decidono di prendere in affitto una casa, per scrivere in totale isolamento un nuovo film. Il rapporto conflittuale e intenso che li ha uniti in passato si riaccende. Riaffiorano inevitabilmente flashback divertenti e dolorosi della vita che hanno condiviso, del modo di pensare e anche di far ridere di Massimo. Anna ricorda tutto di lui, molto pi\u00f9 di quanto non ricordi egli stesso.",
-  "synopsisEn":"Massimo Troisi, is away for a long time and reappears . He contact his friend Gaetano, and Anna, the woman of his life. Anna and Massimo rent a house in Naples, to write the screenplay of a new movie.",
-  "country":"IT",
-  "productionShare":"MAJ",
   "tags":[
-    "physical illness",
+    "artistic creation",
     "partnership",
-    "artistic creation"
+    "physical illness"
   ],
-  "charId":"IT2023_121_01",
-  "perId":"John Lynch",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"SE",
-  "charAbility":"CI",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2023-121-da-domani-mi-alzo-tardi"
+  "director":[
+    {
+      "id":"Stefano Veneruso",
+      "name":"Stefano Veneruso",
+      "birthYear":1968,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2023_121_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"John Lynch",
+        "name":"John Lynch",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IE"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Massimo, attore di successo, e Anna, affermata sceneggiatrice, decidono di prendere in affitto una casa, per scrivere in totale isolamento un nuovo film. Il rapporto conflittuale e intenso che li ha uniti in passato si riaccende. Riaffiorano inevitabilmente flashback divertenti e dolorosi della vita che hanno condiviso, del modo di pensare e anche di far ridere di Massimo. Anna ricorda tutto di lui, molto pi\u00f9 di quanto non ricordi egli stesso.",
+    "english":"Massimo Troisi, is away for a long time and reappears . He contact his friend Gaetano, and Anna, the woman of his life. Anna and Massimo rent a house in Naples, to write the screenplay of a new movie."
+  }
 }

@@ -1,52 +1,69 @@
 {
-  "filmId":"FR2021_040",
-  "title":"C'est la vie",
-  "titleEn":"Labor Day",
-  "director":"Julien Rambaldi",
-  "releaseType":"THE",
-  "releaseDate":1627430400000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=0SK487x25Gg",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/254\/110\/225022\/format_page\/labor-day.jpg",
-  "synopsis":"Pour son dernier jour avant la retraite, Dominique, une sage-femme au caract\u00e8re bien tremp\u00e9, est forc\u00e9e de coop\u00e9rer avec un jeune obst\u00e9tricien arrogant. Ensemble, ils vont devoir accompagner cinq femmes \u00e0 accoucher. Elles s\u2019en souviendront toute leur vie\u2026",
-  "synopsisEn":"Labor day is more about what happens before! Before giving life. It\u2019s about crossing the entire country to be with your wife in time to hear your baby\u2019s first cry, about saving an international crisis in between two contractions, about finding the strength to put aside your father\u2019s death when your wife has decided to go through with giving birth in a Jacuzzi, or when you steal the cellphone of your patient to find out who the father is. All of this makes for a very special labor day.",
-  "country":[
-    "BE",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+  "id":"FR2021_040",
+  "type":"film",
+  "slug":"fr2021-040-c-est-la-vie",
+  "title":{
+    "native":"C'est la vie",
+    "english":"Labor Day"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1627430400000,
+    "year":2021
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=0SK487x25Gg",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/254\/110\/225022\/format_page\/labor-day.jpg"
+  },
+  "genre":[
+    "COM"
   ],
   "tags":[
-    "high rank employment",
-    "mentorship",
-    "caregiving",
     "intergenerational conflict",
-    "hospital"
+    "mentorship",
+    "hospital",
+    "caregiving",
+    "high rank employment"
   ],
-  "charId":"FR2021_040_01",
-  "perId":"Josiane Balasko",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2021-040-c-est-la-vie"
+  "director":[
+    {
+      "id":"Julien Rambaldi",
+      "name":"Julien Rambaldi",
+      "birthYear":1971,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2021_040_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Josiane Balasko",
+        "name":"Josiane Balasko",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Pour son dernier jour avant la retraite, Dominique, une sage-femme au caract\u00e8re bien tremp\u00e9, est forc\u00e9e de coop\u00e9rer avec un jeune obst\u00e9tricien arrogant. Ensemble, ils vont devoir accompagner cinq femmes \u00e0 accoucher. Elles s\u2019en souviendront toute leur vie\u2026",
+    "english":"Labor day is more about what happens before! Before giving life. It\u2019s about crossing the entire country to be with your wife in time to hear your baby\u2019s first cry, about saving an international crisis in between two contractions, about finding the strength to put aside your father\u2019s death when your wife has decided to go through with giving birth in a Jacuzzi, or when you steal the cellphone of your patient to find out who the father is. All of this makes for a very special labor day."
+  }
 }

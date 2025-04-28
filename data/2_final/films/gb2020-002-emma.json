@@ -1,65 +1,79 @@
 {
-  "filmId":"GB2020_002",
-  "title":"Emma",
-  "titleEn":null,
-  "director":"Autumn de Wilde",
-  "releaseType":"THE",
-  "releaseDate":1581638400000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2020_002",
+  "type":"film",
+  "slug":"gb2020-002-emma",
+  "title":{
+    "native":"Emma",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1581638400000,
+    "year":2020
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":null,
+    "posterUrl":null
+  },
   "genre":[
     "HIS",
-    "ROM",
     "COA",
+    "ROM",
     "COM"
   ],
-  "trailerUrl":null,
-  "posterUrl":null,
-  "synopsis":null,
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB",
-    "CN"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
+    "disability",
     "wealth",
+    "widowhood",
+    "intergenerational friendship",
+    "marriage",
     "rural",
     "independent home",
-    "fatherhood",
-    "intergenerational friendship",
-    "disability",
     "homosociality",
-    "grief",
-    "marriage",
+    "fatherhood",
     "class solidarity",
-    "gender discrimination",
-    "widowhood"
+    "grief",
+    "gender discrimination"
   ],
-  "charId":"GB2020_002_01",
-  "perId":"Bill Nighy",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UC",
-  "charProfession":"RE",
-  "charAbility":"CI",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2020-002-emma"
+  "director":[
+    {
+      "id":"Autumn de Wilde",
+      "name":"Autumn de Wilde",
+      "birthYear":1970,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"US"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2020_002_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"RE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Bill Nighy",
+        "name":"Bill Nighy",
+        "birthYear":1949.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":null,
+    "english":null
+  }
 }

@@ -1,108 +1,129 @@
 {
-  "filmId":"GB2023_005",
-  "title":"The Great Escaper",
-  "titleEn":null,
-  "director":"Oliver Parker",
-  "releaseType":"THE",
-  "releaseDate":1696550400000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Oliver Parker",
-  "directorBirthYear":1960,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2023_005",
+  "type":"film",
+  "slug":"gb2023-005-the-great-escaper",
+  "title":{
+    "native":"The Great Escaper",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1696550400000,
+    "year":2023
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt14124080\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_The%2520Great%2520Escaper",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14124080\/mediaviewer\/rm2374851329\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "COM",
     "ROA"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt14124080\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_The%2520Great%2520Escaper",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14124080\/mediaviewer\/rm2374851329\/?ref_=tt_ov_i",
-  "synopsis":"Bernard Jordan escapes from his care home to attend the 70th Anniversary of the D-Day Landings in France.",
-  "synopsisEn":null,
-  "country":[
-    "SE",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
+    "national identity",
+    "substance abuse",
+    "homosociality",
+    "personal trauma",
+    "last mission",
+    "physical illness",
+    "personal memory",
+    "state institutions",
+    "intragenerational friendship",
+    "pilgrimage",
     "war",
     "intergenerational friendship",
-    "intragenerational friendship",
-    "mentorship",
-    "pilgrimage",
-    "physical illness",
-    "national identity",
-    "retirement home",
-    "homosociality",
-    "supranational institutions",
-    "well-being",
-    "retirement",
-    "substance abuse",
-    "personal memory",
-    "personal trauma",
-    "state institutions",
     "celebrity",
-    "caregiving",
-    "mass media",
-    "medical treatment",
-    "last mission",
+    "retirement",
     "grief",
-    "marriage"
+    "retirement home",
+    "mentorship",
+    "mass media",
+    "marriage",
+    "caregiving",
+    "medical treatment",
+    "well-being",
+    "supranational institutions"
   ],
-  "charId":[
-    "GB2023_005_02",
-    "GB2023_005_03",
-    "GB2023_005_01"
+  "director":[
+    {
+      "id":"Oliver Parker",
+      "name":"Oliver Parker",
+      "birthYear":1960,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Michael Caine",
-    "John Standing",
-    "Glenda Jackson"
+  "character":[
+    {
+      "id":"GB2023_005_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Michael Caine",
+        "name":"Michael Caine",
+        "birthYear":1933.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_005_03",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"John Standing",
+        "name":"John Standing",
+        "birthYear":1934.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_005_02",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"Glenda Jackson",
+        "name":"Glenda Jackson",
+        "birthYear":1936.0,
+        "deathYear":2023.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"4",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":"RE",
-  "charAbility":[
-    "AB",
-    "PD"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Michael Caine",
-    "John Standing",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1933,
-    1934
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    null,
-    "M"
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2023-005-the-great-escaper"
+  "synopsis":{
+    "native":"Bernard Jordan escapes from his care home to attend the 70th Anniversary of the D-Day Landings in France.",
+    "english":null
+  }
 }

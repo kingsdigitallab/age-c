@@ -1,56 +1,90 @@
 {
-  "filmId":"FR2021_047",
-  "title":"C'est quoi ce papy ?!",
-  "titleEn":"When Granny Meets Grandpa",
-  "director":"Gabriel Julien-Laferri\u00e8re",
-  "releaseType":"THE",
-  "releaseDate":1628640000000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Dgr3IjYDNhc",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/233\/156\/236777\/format_page\/when-granny-meets-grandpa.jpg",
-  "synopsis":"Aurore, la plus d\u00e9jant\u00e9e des mamies fait une chute spectaculaire lors d\u2019une danse endiabl\u00e9e. Elle perd la m\u00e9moire et se retrouve en convalescence dans une maison de repos. Elle ne parle que d\u2019un myst\u00e9rieux G\u00e9g\u00e9\u2026qui pourrait \u00eatre son amour de jeunesse et lui faire retrouver toute sa t\u00eate. Ses sept petits enfants d\u00e9cident de faire le mur pour faire \u00e9vader leur mamie. Ils partent \u00e0 travers la France \u00e0 la recherche de celui qu\u2019ils croient \u00eatre leur Papy. Mais quand Mamie rencontre Papy\u2026La famille n\u2019est pas au bout de ses surprises !",
-  "synopsisEn":"Everyone's favorite fun-loving Granny Aurore goes overboard while partying and has a little accident! She loses her memory and gets put in a nursing home. When her grandkids hear her mention a mysterious man named \"Gerry\", they put all seven of their heads together to figure out who he is: Aurore's first and only true love who just might turn out to be their long-lost grandfather, too! Hoping to trigger old memories that could snap her out of her amnesia, they join forces to sneak Aurore out of the nursing home and set out into the wilderness on a mission to find the legendary \"Grandpa Gerry\". But the adventure turns out to be a lot more than they bargained for!",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2021_047",
+  "type":"film",
+  "slug":"fr2021-047-c-est-quoi-ce-papy",
+  "title":{
+    "native":"C'est quoi ce papy ?!",
+    "english":"When Granny Meets Grandpa"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1628640000000,
+    "year":2021
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Dgr3IjYDNhc",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/233\/156\/236777\/format_page\/when-granny-meets-grandpa.jpg"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
-    "grandmotherhood",
-    "mental illness",
     "romance",
+    "mental illness",
+    "grandmotherhood",
     "medical treatment",
-    "retirement home",
-    "retirement"
+    "retirement",
+    "retirement home"
   ],
-  "charId":[
-    "FR2021_047_01",
-    "FR2021_047_02"
+  "director":[
+    {
+      "id":"Gabriel Julien-Laferri\u00e8re",
+      "name":"Gabriel Julien-Laferri\u00e8re",
+      "birthYear":1962,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
   ],
-  "perId":[
-    "Chantal Ladesou",
-    "Patrick Chesnais"
+  "character":[
+    {
+      "id":"FR2021_047_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Patrick Chesnais",
+        "name":"Patrick Chesnais",
+        "birthYear":1947.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    },
+    {
+      "id":"FR2021_047_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Chantal Ladesou",
+        "name":"Chantal Ladesou",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"RE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2021-047-c-est-quoi-ce-papy"
+  "synopsis":{
+    "native":"Aurore, la plus d\u00e9jant\u00e9e des mamies fait une chute spectaculaire lors d\u2019une danse endiabl\u00e9e. Elle perd la m\u00e9moire et se retrouve en convalescence dans une maison de repos. Elle ne parle que d\u2019un myst\u00e9rieux G\u00e9g\u00e9\u2026qui pourrait \u00eatre son amour de jeunesse et lui faire retrouver toute sa t\u00eate. Ses sept petits enfants d\u00e9cident de faire le mur pour faire \u00e9vader leur mamie. Ils partent \u00e0 travers la France \u00e0 la recherche de celui qu\u2019ils croient \u00eatre leur Papy. Mais quand Mamie rencontre Papy\u2026La famille n\u2019est pas au bout de ses surprises !",
+    "english":"Everyone's favorite fun-loving Granny Aurore goes overboard while partying and has a little accident! She loses her memory and gets put in a nursing home. When her grandkids hear her mention a mysterious man named \"Gerry\", they put all seven of their heads together to figure out who he is: Aurore's first and only true love who just might turn out to be their long-lost grandfather, too! Hoping to trigger old memories that could snap her out of her amnesia, they join forces to sneak Aurore out of the nursing home and set out into the wilderness on a mission to find the legendary \"Grandpa Gerry\". But the adventure turns out to be a lot more than they bargained for!"
+  }
 }

@@ -1,94 +1,134 @@
 {
-  "filmId":"GB2023_019",
-  "title":"Unwelcome",
-  "titleEn":null,
-  "director":"Jon Wright",
-  "releaseType":"THE",
-  "releaseDate":1674777600000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Jon Wright",
-  "directorBirthYear":1971,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2023_019",
+  "type":"film",
+  "slug":"gb2023-019-unwelcome",
+  "title":{
+    "native":"Unwelcome",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1674777600000,
+    "year":2023
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12447796\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Unwelcome",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt12447796\/mediaviewer\/rm121191425\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HOR",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12447796\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Unwelcome",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt12447796\/mediaviewer\/rm121191425\/?ref_=tt_ov_i",
-  "synopsis":"Married couple Maya and Jamie escape their urban nightmare to the tranquility of rural Ireland only to discover malevolent and murderous goblins lurking in the gnarled, ancient wood at the foot of their new garden.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "rural",
-    "abuse",
-    "self-employment",
     "supernatural entity",
-    "national identity",
-    "murder",
     "new start",
+    "rural",
+    "national identity",
     "class conflict",
-    "low rank employment"
+    "murder",
+    "low rank employment",
+    "self-employment",
+    "abuse"
   ],
-  "charId":[
-    "GB2023_019_02",
-    "GB2023_019_01",
-    "GB2023_019_04",
-    "GB2023_019_03"
+  "director":[
+    {
+      "id":"Jon Wright",
+      "name":"Jon Wright",
+      "birthYear":1971,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Lalor Roddy",
-    "Colm Meaney",
-    "Niamh Cusack",
-    "Finbar Lynch"
+  "character":[
+    {
+      "id":"GB2023_019_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Niamh Cusack",
+        "name":"Niamh Cusack",
+        "birthYear":1959.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IE"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_019_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Lalor Roddy",
+        "name":"Lalor Roddy",
+        "birthYear":1954.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_019_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Finbar Lynch",
+        "name":"Finbar Lynch",
+        "birthYear":1959.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IE"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_019_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Colm Meaney",
+        "name":null,
+        "birthYear":null,
+        "deathYear":null,
+        "gender":null,
+        "nationality":null
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "LC",
-    "MC",
-    null
-  ],
-  "charProfession":[
-    "SE",
-    "UN",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Lalor Roddy",
-    "Finbar Lynch",
-    "Niamh Cusack",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1954,
-    1959
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M",
-    null
-  ],
-  "perNationality":[
-    "IE",
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2023-019-unwelcome"
+  "synopsis":{
+    "native":"Married couple Maya and Jamie escape their urban nightmare to the tranquility of rural Ireland only to discover malevolent and murderous goblins lurking in the gnarled, ancient wood at the foot of their new garden.",
+    "english":null
+  }
 }

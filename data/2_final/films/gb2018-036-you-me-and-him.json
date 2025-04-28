@@ -1,71 +1,91 @@
 {
-  "filmId":"GB2018_036",
-  "title":"You, Me and Him",
-  "titleEn":null,
-  "director":"Daisy Aitkens",
-  "releaseType":"THE",
-  "releaseDate":1523577600000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Daisy Aitkens",
-  "directorBirthYear":1986,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"GB",
+  "id":"GB2018_036",
+  "type":"film",
+  "slug":"gb2018-036-you-me-and-him",
+  "title":{
+    "native":"You, Me and Him",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1523577600000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=274171",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt4928814\/mediaviewer\/rm1415732224\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "COM",
-    "ROM"
+    "ROM",
+    "COM"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=274171",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt4928814\/mediaviewer\/rm1415732224\/?ref_=tt_ov_i",
-  "synopsis":"In You, Me and Him we meet lesbian couple Olivia and Alex (Lucy Punch, Faye Marsay) who, despite their age difference, are very much in love. But as the question of pregnancy rears its head and their neighbour John (David Tennant) befriends them, they both start making some truly disastrous decisions.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "independent home",
-    "in-laws",
-    "parenthood",
     "lgbtqi",
-    "grandparenthood",
-    "marriage"
+    "in-laws",
+    "marriage",
+    "independent home",
+    "parenthood",
+    "grandparenthood"
   ],
-  "charId":[
-    "GB2018_036_01",
-    "GB2018_036_02"
+  "director":[
+    {
+      "id":"Daisy Aitkens",
+      "name":"Daisy Aitkens",
+      "birthYear":1986,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Gemma Jones",
-    "David Warner"
+  "character":[
+    {
+      "id":"GB2018_036_01",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Gemma Jones",
+        "name":"Gemma Jones",
+        "birthYear":1942.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_036_02",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"David Warner",
+        "name":"David Warner",
+        "birthYear":1941.0,
+        "deathYear":2022.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"4",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"RE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Gemma Jones",
-    "David Warner"
-  ],
-  "perBirthYear":[
-    1941,
-    1942
-  ],
-  "perDeathYear":[
-    0,
-    2022
-  ],
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2018-036-you-me-and-him"
+  "synopsis":{
+    "native":"In You, Me and Him we meet lesbian couple Olivia and Alex (Lucy Punch, Faye Marsay) who, despite their age difference, are very much in love. But as the question of pregnancy rears its head and their neighbour John (David Tennant) befriends them, they both start making some truly disastrous decisions.",
+    "english":null
+  }
 }

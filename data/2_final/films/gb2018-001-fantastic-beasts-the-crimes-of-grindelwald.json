@@ -1,106 +1,136 @@
 {
-  "filmId":"GB2018_001",
-  "title":"Fantastic Beasts: The Crimes of Grindelwald",
-  "titleEn":null,
-  "director":"David Yates",
-  "releaseType":"THE",
-  "releaseDate":1542326400000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"David Yates",
-  "directorBirthYear":1963,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2018_001",
+  "type":"film",
+  "slug":"gb2018-001-fantastic-beasts-the-crimes-of-grindelwald",
+  "title":{
+    "native":"Fantastic Beasts: The Crimes of Grindelwald",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1542326400000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=vvFybpmyB9E",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt4123430\/mediaviewer\/rm3813896960\/?ref_=tt_ov_i"
+  },
   "genre":[
     "ACT",
     "FAN"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=vvFybpmyB9E",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt4123430\/mediaviewer\/rm3813896960\/?ref_=tt_ov_i",
-  "synopsis":"The second installment of the \"Fantastic Beasts\" series featuring the adventures of Magizoologist Newt Scamander.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "wealth",
-    "war",
-    "non-human companionship",
-    "cultural memory",
-    "supernatural entity",
     "abuse",
+    "supernatural entity",
+    "wealth",
     "friendship betrayal",
     "homosociality",
     "crime",
-    "revenge",
-    "interracial relationships"
+    "cultural memory",
+    "war",
+    "non-human companionship",
+    "interracial relationships",
+    "revenge"
   ],
-  "charId":[
-    "GB2018_001_01",
-    "GB2018_001_02",
-    "GB2018_001_03",
-    "GB2018_001_04"
+  "director":[
+    {
+      "id":"David Yates",
+      "name":"David Yates",
+      "birthYear":1963,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Johnny Depp",
-    "Cornell John",
-    "Wolf Roth",
-    "Ingvar Sigurdsson"
+  "character":[
+    {
+      "id":"GB2018_001_04",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Ingvar Sigurdsson",
+        "name":"Ingvar Sigurdsson",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IS"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_001_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HO",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Johnny Depp",
+        "name":"Johnny Depp",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_001_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Wolf Roth",
+        "name":"Wolf Roth",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"DE"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_001_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"BWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Cornell John",
+        "name":"Cornell John",
+        "birthYear":1944.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":[
-    "HO",
-    null
-  ],
-  "charOrigin":[
-    "BWE",
-    "WWE"
-  ],
-  "charClass":[
-    "UC",
-    null
-  ],
-  "charProfession":[
-    "SE",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    null
-  ],
-  "assistedMobility":"N",
-  "perName":[
-    "Ingvar Sigurdsson",
-    "Cornell John",
-    "Wolf Roth",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1963,
-    1944
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "M",
-    null
-  ],
-  "perNationality":[
-    "IS",
-    "DE",
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2018-001-fantastic-beasts-the-crimes-of-grindelwald"
+  "synopsis":{
+    "native":"The second installment of the \"Fantastic Beasts\" series featuring the adventures of Magizoologist Newt Scamander.",
+    "english":null
+  }
 }

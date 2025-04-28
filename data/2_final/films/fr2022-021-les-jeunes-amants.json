@@ -1,59 +1,74 @@
 {
-  "filmId":"FR2022_021",
-  "title":"Les Jeunes Amants",
-  "titleEn":"The Young Lovers",
-  "director":"Carine Tardieu",
-  "releaseType":"THE",
-  "releaseDate":1643760000000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"FR2022_021",
+  "type":"film",
+  "slug":"fr2022-021-les-jeunes-amants",
+  "title":{
+    "native":"Les Jeunes Amants",
+    "english":"The Young Lovers"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1643760000000,
+    "year":2022
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=cgu3ZHkUwjI",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/49\/188\/244785\/format_page\/les-jeunes-amants.jpg"
+  },
   "genre":[
     "DRA",
     "ROM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=cgu3ZHkUwjI",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/49\/188\/244785\/format_page\/les-jeunes-amants.jpg",
-  "synopsis":"Shauna, 70 ans, libre et ind\u00e9pendante, a mis sa vie amoureuse de c\u00f4t\u00e9. Elle est cependant troubl\u00e9e par la pr\u00e9sence de Pierre, cet homme de 45 ans qu\u2019elle avait bri\u00e8vement crois\u00e9, des ann\u00e9es plus t\u00f4t. Et contre toute attente, Pierre ne voit pas en elle \u00ab une femme d\u2019un certain \u00e2ge \u00bb, mais une femme, d\u00e9sirable, qu\u2019il n\u2019a pas peur d\u2019aimer. \u00c0 ceci pr\u00e8s que Pierre est mari\u00e9 et p\u00e8re de famille.",
-  "synopsisEn":"Elegant, retired architect Shauna (70) crosses paths with Pierre, a happily married doctor in his 40s, who first made an impression on her in a brief meeting 15 years ago. Both are quite troubled to meet again and begin an affair. While Pierre\u2019s family life is soon turned upside down, Shauna struggles with feelings she thought belonged to the past.",
-  "country":[
-    "BE",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "sex",
-    "independent home",
-    "may-december",
-    "parenthood",
-    "grandparenthood",
-    "retirement",
+    "widowhood",
     "urban",
     "multigenerational family",
-    "widowhood"
+    "independent home",
+    "parenthood",
+    "sex",
+    "retirement",
+    "may-december",
+    "grandparenthood"
   ],
-  "charId":"FR2022_021_01",
-  "perId":"Fanny Ardant",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"RE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2022-021-les-jeunes-amants"
+  "director":[
+    {
+      "id":"Carine Tardieu",
+      "name":"Carine Tardieu",
+      "birthYear":1973,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2022_021_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Fanny Ardant",
+        "name":"Fanny Ardant",
+        "birthYear":1949.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Shauna, 70 ans, libre et ind\u00e9pendante, a mis sa vie amoureuse de c\u00f4t\u00e9. Elle est cependant troubl\u00e9e par la pr\u00e9sence de Pierre, cet homme de 45 ans qu\u2019elle avait bri\u00e8vement crois\u00e9, des ann\u00e9es plus t\u00f4t. Et contre toute attente, Pierre ne voit pas en elle \u00ab une femme d\u2019un certain \u00e2ge \u00bb, mais une femme, d\u00e9sirable, qu\u2019il n\u2019a pas peur d\u2019aimer. \u00c0 ceci pr\u00e8s que Pierre est mari\u00e9 et p\u00e8re de famille.",
+    "english":"Elegant, retired architect Shauna (70) crosses paths with Pierre, a happily married doctor in his 40s, who first made an impression on her in a brief meeting 15 years ago. Both are quite troubled to meet again and begin an affair. While Pierre\u2019s family life is soon turned upside down, Shauna struggles with feelings she thought belonged to the past."
+  }
 }

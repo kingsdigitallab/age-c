@@ -1,104 +1,123 @@
 {
-  "filmId":"GB2021_018",
-  "title":"The Dig",
-  "titleEn":null,
-  "director":"Simon Stone",
-  "releaseType":"VOD",
-  "releaseDate":1611878400000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2021_018",
+  "type":"film",
+  "slug":"gb2021-018-the-dig",
+  "title":{
+    "native":"The Dig",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"VOD",
+    "date":1611878400000,
+    "year":2021
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=JZQz0rkNajo",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt3661210\/mediaviewer\/rm4196523009\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
-    "DRA",
     "BIO",
+    "DRA",
+    "HIS",
     "ROM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=JZQz0rkNajo",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt3661210\/mediaviewer\/rm4196523009\/?ref_=tt_ov_i",
-  "synopsis":"An archaeologist embarks on the historically important excavation of Sutton Hoo in 1938.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "war",
-    "rural",
-    "cultural memory",
-    "independent home",
-    "intergenerational friendship",
     "disappearing professions",
     "superior-employee relationship",
-    "homosociality",
-    "high rank employment",
+    "precarity",
+    "intergenerational friendship",
     "marriage",
+    "rural",
+    "independent home",
+    "homosociality",
     "daily routine",
     "education",
-    "precarity",
+    "high rank employment",
     "class conflict",
-    "gender discrimination",
-    "low rank employment"
+    "cultural memory",
+    "low rank employment",
+    "war",
+    "gender discrimination"
   ],
-  "charId":[
-    "GB2021_018_02",
-    "GB2021_018_03",
-    "GB2021_018_01"
+  "director":[
+    {
+      "id":"Simon Stone",
+      "name":"Simon Stone",
+      "birthYear":1984,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"AU"
+    }
   ],
-  "perId":[
-    "Ken Stott",
-    "Danny Webb",
-    "Ralph Fiennes"
+  "character":[
+    {
+      "id":"GB2021_018_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Danny Webb",
+        "name":"Danny Webb",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_018_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"Ken Stott",
+        "name":"Ken Stott",
+        "birthYear":1954.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_018_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ralph Fiennes",
+        "name":"Ralph Fiennes",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "LC",
-    "UM",
-    null
-  ],
-  "charProfession":[
-    "EM",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    "PD",
-    null
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Ken Stott",
-    "Danny Webb",
-    "Ralph Fiennes"
-  ],
-  "perBirthYear":[
-    1954,
-    1962,
-    1958
-  ],
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2021-018-the-dig"
+  "synopsis":{
+    "native":"An archaeologist embarks on the historically important excavation of Sutton Hoo in 1938.",
+    "english":null
+  }
 }

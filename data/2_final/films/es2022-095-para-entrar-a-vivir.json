@@ -1,64 +1,70 @@
 {
-  "filmId":"ES2022_095",
-  "title":"Para entrar a vivir",
-  "titleEn":null,
-  "director":[
-    "Marta Cabrera",
-    "Pablo Arag\u00fc\u00e9s"
-  ],
-  "releaseType":"THE",
-  "releaseDate":1667606400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":[
-    "Pablo Arag\u00fc\u00e9s",
-    null
-  ],
-  "directorBirthYear":[
-    0,
-    1982
-  ],
-  "directorDeathYear":0,
-  "directorGender":[
-    null,
-    "M"
-  ],
-  "directorNationality":[
-    null,
-    "ES"
-  ],
+  "id":"ES2022_095",
+  "type":"film",
+  "slug":"es2022-095-para-entrar-a-vivir",
+  "title":{
+    "native":"Para entrar a vivir",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1667606400000,
+    "year":2022
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=894676",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt16270906\/mediaviewer\/rm143464449\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
-    "FAN",
-    "COM"
+    "COM",
+    "FAN"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=894676",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt16270906\/mediaviewer\/rm143464449\/?ref_=tt_ov_i",
-  "synopsis":"Ana y Maxi son una pareja de treinta\u00f1eros que acaban de encontrar la casa de sus sue\u00f1os. Todo es perfecto hasta que se dan cuenta de que es a\u00fan mejor: la casa les da todo lo que piden.",
-  "synopsisEn":"Ana and Maxi are a couple in their 30's who have just found the house of their dreams. Everything is perfect until they realize that it is even better: the house gives them everything they ask for. But, what will happen if they stop doing it?",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "supernatural entity",
     "gentrification",
-    "low rank employment",
-    "independent home"
+    "supernatural entity",
+    "independent home",
+    "low rank employment"
   ],
-  "charId":"ES2022_095_01",
-  "perId":"Luisa Gavasa",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Luisa Gavasa",
-  "perBirthYear":1951,
-  "perDeathYear":0,
-  "perGender":"F",
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"es2022-095-para-entrar-a-vivir"
+  "director":[
+    {
+      "id":"Pablo Arag\u00fc\u00e9s",
+      "name":"Pablo Arag\u00fc\u00e9s",
+      "birthYear":1982,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
+  ],
+  "character":[
+    {
+      "id":"ES2022_095_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Luisa Gavasa",
+        "name":"Luisa Gavasa",
+        "birthYear":1951.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Ana y Maxi son una pareja de treinta\u00f1eros que acaban de encontrar la casa de sus sue\u00f1os. Todo es perfecto hasta que se dan cuenta de que es a\u00fan mejor: la casa les da todo lo que piden.",
+    "english":"Ana and Maxi are a couple in their 30's who have just found the house of their dreams. Everything is perfect until they realize that it is even better: the house gives them everything they ask for. But, what will happen if they stop doing it?"
+  }
 }

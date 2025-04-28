@@ -1,54 +1,106 @@
 {
-  "filmId":"IT2021_036",
-  "title":"The Italian banker",
-  "titleEn":null,
-  "director":"Alessandro Rossetto",
-  "releaseType":"THE",
-  "releaseDate":1625875200000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=O5zyetBZ1EA",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt15434050\/mediaviewer\/rm2905993473\/?ref_=tt_ov_i",
-  "synopsis":"Gli assistenti di una festa esclusiva in una villa palladiana hanno perso milioni con il crollo della Banca Popolare del Nordest. Esplode la violenza con l'arrivo dell'ex presidente della banca, vuole raccontare la sua verit\u00e0 sul crack.",
-  "synopsisEn":"In the halls of a large villa in Veneto, an exclusive party is taking place: men in blue jackets, ladies in long dresses. Many of them have lost millions in the collapse of \u201cBanca Popolare del Nordest\u201d. Between a glass of champagne and a round of dancing, personal tensions intertwine with collective frustration. The violence explodes with the arrival of the bank's former director, determined to tell the truth about the collapse. But with the dawn comes the good news of the positive outcome of surgery on a little girl.",
-  "country":"IT",
-  "productionShare":"MAJ",
+  "id":"IT2021_036",
+  "type":"film",
+  "slug":"it2021-036-the-italian-banker",
+  "title":{
+    "native":"The Italian banker",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1625875200000,
+    "year":2021
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=O5zyetBZ1EA",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt15434050\/mediaviewer\/rm2905993473\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
+  ],
   "tags":[
     "corruption",
     "wealth"
   ],
-  "charId":[
-    "IT2021_036_02",
-    "IT2021_036_01",
-    "IT2021_036_03"
+  "director":[
+    {
+      "id":"Alessandro Rossetto",
+      "name":"Alessandro Rossetto",
+      "birthYear":1963,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
   ],
-  "perId":[
-    "Mirko Artuso",
-    "Diego Ribon",
-    "Fabio Sartor"
+  "character":[
+    {
+      "id":"IT2021_036_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Fabio Sartor",
+        "name":"Fabio Sartor",
+        "birthYear":1954.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2021_036_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Diego Ribon",
+        "name":"Diego Ribon",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2021_036_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Mirko Artuso",
+        "name":"Mirko Artuso",
+        "birthYear":1966.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2021-036-the-italian-banker"
+  "synopsis":{
+    "native":"Gli assistenti di una festa esclusiva in una villa palladiana hanno perso milioni con il crollo della Banca Popolare del Nordest. Esplode la violenza con l'arrivo dell'ex presidente della banca, vuole raccontare la sua verit\u00e0 sul crack.",
+    "english":"In the halls of a large villa in Veneto, an exclusive party is taking place: men in blue jackets, ladies in long dresses. Many of them have lost millions in the collapse of \u201cBanca Popolare del Nordest\u201d. Between a glass of champagne and a round of dancing, personal tensions intertwine with collective frustration. The violence explodes with the arrival of the bank's former director, determined to tell the truth about the collapse. But with the dawn comes the good news of the positive outcome of surgery on a little girl."
+  }
 }

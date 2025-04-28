@@ -1,53 +1,76 @@
 {
-  "filmId":"GB2018_060",
-  "title":"Possum",
-  "titleEn":null,
-  "director":"Matthew Holness",
-  "releaseType":"THE",
-  "releaseDate":1540512000000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Matthew Holness",
-  "directorBirthYear":1975,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
-  "genre":"HOR",
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt6081670\/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_Possum",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6081670\/mediaviewer\/rm3347084032\/?ref_=tt_ov_i",
-  "synopsis":"After returning to his childhood home, a disgraced children's puppeteer is forced to confront his wicked stepfather and the secrets that have tortured his entire life.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
-  "tags":[
-    "rural",
-    "personal trauma",
-    "abuse",
-    "fatherhood",
-    "independent home",
-    "mental illness",
-    "homosociality",
-    "return home",
-    "natural",
-    "new start",
-    "intergenerational conflict",
-    "widowhood"
+  "id":"GB2018_060",
+  "type":"film",
+  "slug":"gb2018-060-possum",
+  "title":{
+    "native":"Possum",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1540512000000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt6081670\/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_Possum",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6081670\/mediaviewer\/rm3347084032\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "HOR"
   ],
-  "charId":"GB2018_060_01",
-  "perId":"Alun Armstrong",
-  "charAge":"4",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":"RE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2018-060-possum"
+  "tags":[
+    "intergenerational conflict",
+    "mental illness",
+    "widowhood",
+    "rural",
+    "return home",
+    "independent home",
+    "natural",
+    "homosociality",
+    "fatherhood",
+    "personal trauma",
+    "new start",
+    "abuse"
+  ],
+  "director":[
+    {
+      "id":"Matthew Holness",
+      "name":"Matthew Holness",
+      "birthYear":1975,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2018_060_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Alun Armstrong",
+        "name":"Alun Armstrong",
+        "birthYear":1946.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"After returning to his childhood home, a disgraced children's puppeteer is forced to confront his wicked stepfather and the secrets that have tortured his entire life.",
+    "english":null
+  }
 }

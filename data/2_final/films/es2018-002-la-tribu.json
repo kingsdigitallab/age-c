@@ -1,55 +1,78 @@
 {
-  "filmId":"ES2018_002",
-  "title":"La tribu",
-  "titleEn":"The Tribe",
-  "director":"Fernando Colomo",
-  "releaseType":"THE",
-  "releaseDate":1521158400000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=umEai78TAPI",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6708044\/mediaviewer\/rm2355123456\/?ref_=tt_ov_i",
-  "synopsis":"Virginia (Carmen Machi), limpiadora de profesi\u00f3n y \u201cstreetdancer\u201d vocacional, recupera al hijo que dio en adopci\u00f3n: Fidel (Paco Le\u00f3n), un ejecutivo que lo ha perdido todo, incluida la memoria. Junto a \u201cLas Mamis\u201d, el extravagante grupo de baile que forman las compa\u00f1eras de Virginia, madre e hijo descubrir\u00e1n que a pesar de venir de mundos muy diferentes, ambos llevan el ritmo en la sangre.",
-  "synopsisEn":"A cleaner woman with vocational street dancer tries to recover her long-stranded son that she gave for adoption, a former CEO who lost everything, including his memories.",
-  "country":"ES",
-  "productionShare":"MAJ",
-  "tags":[
-    "desire",
-    "independent home",
-    "intergenerational friendship",
-    "new start",
-    "celibacy",
-    "motherhood",
-    "homosociality",
-    "daily routine",
-    "well-being",
-    "urban",
-    "precarity",
-    "caregiving",
-    "class conflict",
-    "low rank employment"
+  "id":"ES2018_002",
+  "type":"film",
+  "slug":"es2018-002-la-tribu",
+  "title":{
+    "native":"La tribu",
+    "english":"The Tribe"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1521158400000,
+    "year":2018
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=umEai78TAPI",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6708044\/mediaviewer\/rm2355123456\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "COM"
   ],
-  "charId":"ES2018_002_01",
-  "perId":"Carmen Machi",
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"es2018-002-la-tribu"
+  "tags":[
+    "precarity",
+    "intergenerational friendship",
+    "urban",
+    "independent home",
+    "caregiving",
+    "celibacy",
+    "homosociality",
+    "well-being",
+    "class conflict",
+    "daily routine",
+    "low rank employment",
+    "desire",
+    "new start",
+    "motherhood"
+  ],
+  "director":[
+    {
+      "id":"Fernando Colomo",
+      "name":"Fernando Colomo",
+      "birthYear":1946,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
+  ],
+  "character":[
+    {
+      "id":"ES2018_002_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Carmen Machi",
+        "name":"Carmen Machi",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Virginia (Carmen Machi), limpiadora de profesi\u00f3n y \u201cstreetdancer\u201d vocacional, recupera al hijo que dio en adopci\u00f3n: Fidel (Paco Le\u00f3n), un ejecutivo que lo ha perdido todo, incluida la memoria. Junto a \u201cLas Mamis\u201d, el extravagante grupo de baile que forman las compa\u00f1eras de Virginia, madre e hijo descubrir\u00e1n que a pesar de venir de mundos muy diferentes, ambos llevan el ritmo en la sangre.",
+    "english":"A cleaner woman with vocational street dancer tries to recover her long-stranded son that she gave for adoption, a former CEO who lost everything, including his memories."
+  }
 }

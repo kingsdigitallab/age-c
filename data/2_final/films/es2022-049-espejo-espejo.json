@@ -1,97 +1,136 @@
 {
-  "filmId":"ES2022_049",
-  "title":"Espejo, Espejo",
-  "titleEn":"Mirror, Mirror",
-  "director":"Marc Crehuet",
-  "releaseType":"THE",
-  "releaseDate":1653004800000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Marc Crehuet",
-  "directorBirthYear":1978,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12358208\/?ref_=nv_sr_srsg_0_tt_5_nm_3_in_0_q_espejo%252C%2520espejo",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt12358208\/mediaviewer\/rm679549441\/?ref_=tt_ov_i",
-  "synopsis":"Cuatro empleados de una oficina se preparan para la celebraci\u00f3n de los 50 a\u00f1os de la empresa mientras intentan resolver ciertos problemas. \u00c1lvaro (Santi Mill\u00e1n), Cristina (Malena Alterio), Paula (Natalia de Molina) y Alberto (Carlos Areces) son cuatro personas en crisis que trabajan para la misma empresa de cosm\u00e9tica. Luchan por lo que quieren mientras se enfrentan a sus propios reflejos ante el espejo. Ambici\u00f3n, miedo, amor y traici\u00f3n se mezclan en una historia sobre la identidad. A veces tu peor enemigo eres t\u00fa mismo.",
-  "synopsisEn":"4 staffers at a cosmetics firm in its 50th year: the marketing director who is almost as old himself, a 25 year old ambitious female assistant, her sister being pushed to \"come out,\" and an insecure chubby 40 year old administrator.",
-  "country":"ES",
-  "productionShare":"MAJ",
+  "id":"ES2022_049",
+  "type":"film",
+  "slug":"es2022-049-espejo-espejo",
+  "title":{
+    "native":"Espejo, Espejo",
+    "english":"Mirror, Mirror"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1653004800000,
+    "year":2022
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12358208\/?ref_=nv_sr_srsg_0_tt_5_nm_3_in_0_q_espejo%252C%2520espejo",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt12358208\/mediaviewer\/rm679549441\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
-    "substance abuse",
-    "self-employment",
-    "fatherhood",
-    "medical treatment",
     "mental illness",
-    "physical illness",
     "superior-employee relationship",
-    "homosociality",
-    "high rank employment",
+    "hospital",
     "festivities",
-    "motherhood",
-    "hospital"
+    "substance abuse",
+    "medical treatment",
+    "homosociality",
+    "fatherhood",
+    "high rank employment",
+    "self-employment",
+    "physical illness",
+    "motherhood"
   ],
-  "charId":[
-    "ES2022_049_03",
-    "ES2022_049_04",
-    "ES2022_049_01",
-    "ES2022_049_02"
+  "director":[
+    {
+      "id":"Marc Crehuet",
+      "name":"Marc Crehuet",
+      "birthYear":1978,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Loles Le\u00f3n",
-    "Ver\u00f3nica Forqu\u00e9",
-    "Tito Valverde",
-    "Carlos Bardem"
+  "character":[
+    {
+      "id":"ES2022_049_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"TD",
+      "assistedMobility":"TD",
+      "person":{
+        "id":"Tito Valverde",
+        "name":"Tito Valverde",
+        "birthYear":1951.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2022_049_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Loles Le\u00f3n",
+        "name":"Loles Le\u00f3n",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2022_049_04",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ver\u00f3nica Forqu\u00e9",
+        "name":"Ver\u00f3nica Forqu\u00e9",
+        "birthYear":1955.0,
+        "deathYear":2022.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2022_049_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Carlos Bardem",
+        "name":"Carlos Bardem",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":[
-    "SE",
-    "EM",
-    "RE"
-  ],
-  "charAbility":[
-    "AB",
-    "TD"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Loles Le\u00f3n",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1950
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    null
-  ],
-  "perNationality":[
-    "ES",
-    null
-  ],
-  "perRole":null,
-  "slug":"es2022-049-espejo-espejo"
+  "synopsis":{
+    "native":"Cuatro empleados de una oficina se preparan para la celebraci\u00f3n de los 50 a\u00f1os de la empresa mientras intentan resolver ciertos problemas. \u00c1lvaro (Santi Mill\u00e1n), Cristina (Malena Alterio), Paula (Natalia de Molina) y Alberto (Carlos Areces) son cuatro personas en crisis que trabajan para la misma empresa de cosm\u00e9tica. Luchan por lo que quieren mientras se enfrentan a sus propios reflejos ante el espejo. Ambici\u00f3n, miedo, amor y traici\u00f3n se mezclan en una historia sobre la identidad. A veces tu peor enemigo eres t\u00fa mismo.",
+    "english":"4 staffers at a cosmetics firm in its 50th year: the marketing director who is almost as old himself, a 25 year old ambitious female assistant, her sister being pushed to \"come out,\" and an insecure chubby 40 year old administrator."
+  }
 }

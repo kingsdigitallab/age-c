@@ -1,51 +1,74 @@
 {
-  "filmId":"FR2020_032",
-  "title":"Mine de rien",
-  "titleEn":"Mine Your Own Business",
-  "director":"Mathias Mlekuz",
-  "releaseType":"THE",
-  "releaseDate":1582675200000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Px2JNDXD3_w",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/202\/82\/217802\/format_page\/mine-de-rien.png",
-  "synopsis":"Dans une r\u00e9gion qui fut le fleuron de l\u2019industrie mini\u00e8re, deux ch\u00f4meurs de longue dur\u00e9e ont l\u2019id\u00e9e de construire un parc d\u2019attraction \u00ab artisanal \u00bb sur une ancienne mine de charbon d\u00e9saffect\u00e9e. En sauvant la mine et sa m\u00e9moire, ils vont retrouver force et dignit\u00e9.",
-  "synopsisEn":"In a region that was once the flagship of the mining industry, two long-term unemployed people imagine a \u201ccraft\u201d theme park on an old abandoned coal mine. By saving the mine and its memory, they will find strength and dignity.",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2020_032",
+  "type":"film",
+  "slug":"fr2020-032-mine-de-rien",
+  "title":{
+    "native":"Mine de rien",
+    "english":"Mine Your Own Business"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1582675200000,
+    "year":2020
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Px2JNDXD3_w",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/202\/82\/217802\/format_page\/mine-de-rien.png"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
     "activism",
-    "volunteering",
-    "communal housing",
-    "intergenerational friendship",
-    "unemployment",
-    "precarity",
     "new start",
-    "class conflict",
+    "intergenerational friendship",
+    "precarity",
     "elderhood (friendship among elders)",
+    "class conflict",
+    "communal housing",
+    "unemployment",
+    "volunteering",
     "motherhood"
   ],
-  "charId":"FR2020_032_01",
-  "perId":"Philippe Rebbot",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":"UN",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2020-032-mine-de-rien"
+  "director":[
+    {
+      "id":"Mathias Mlekuz",
+      "name":"Mathias Mlekuz",
+      "birthYear":1966,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2020_032_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Philippe Rebbot",
+        "name":"Philippe Rebbot",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Dans une r\u00e9gion qui fut le fleuron de l\u2019industrie mini\u00e8re, deux ch\u00f4meurs de longue dur\u00e9e ont l\u2019id\u00e9e de construire un parc d\u2019attraction \u00ab artisanal \u00bb sur une ancienne mine de charbon d\u00e9saffect\u00e9e. En sauvant la mine et sa m\u00e9moire, ils vont retrouver force et dignit\u00e9.",
+    "english":"In a region that was once the flagship of the mining industry, two long-term unemployed people imagine a \u201ccraft\u201d theme park on an old abandoned coal mine. By saving the mine and its memory, they will find strength and dignity."
+  }
 }

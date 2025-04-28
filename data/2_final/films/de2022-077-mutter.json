@@ -1,52 +1,90 @@
 {
-  "filmId":"DE2022_077",
-  "title":"Mutter",
-  "titleEn":null,
-  "director":"Carolin Schmitz",
-  "releaseType":"THE",
-  "releaseDate":1664409600000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Carolin Schmitz",
-  "directorBirthYear":1967,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"DE",
+  "id":"DE2022_077",
+  "type":"film",
+  "slug":"de2022-077-mutter",
+  "title":{
+    "native":"Mutter",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1664409600000,
+    "year":2022
+  },
+  "production":{
+    "country":"DE",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=EbBb3-L6-1s&ab_channel=FilmtoastTrailer",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt21104158\/mediaviewer\/rm2188925697\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "DPE"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=EbBb3-L6-1s&ab_channel=FilmtoastTrailer",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt21104158\/mediaviewer\/rm2188925697\/?ref_=tt_ov_i",
-  "synopsis":"Acht Originalstimmen von Frauen, die durch die Darstellung von Anke Engelke in einer inszenierten Figur zusammengef\u00fchrt werden und ein vielschichtiges Bild von Mutterschaft beschreiben. Der Film widmet sich dem komplexen Thema Mutterschaft und erz\u00e4hlt von Freude und Zweifel, Macht und Ohnmacht, Wut und Liebe.",
-  "synopsisEn":"Seven women relate their experiences of being mothers and wives struggling to combine their chores with their careers. Their playback voices are all lip-synced and enacted by one onscreen actress, Anke Engelke.",
-  "country":"DE",
-  "productionShare":"MAJ",
   "tags":[
+    "multigenerational family",
     "artistic creation",
     "parenthood",
-    "multigenerational family",
     "women empowerment",
     "motherhood"
   ],
-  "charId":"DE2022_077_01",
-  "perId":"Anke Engelke",
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Anke Engelke",
-  "perBirthYear":1965,
-  "perDeathYear":0,
-  "perGender":"F",
-  "perNationality":[
-    "DE",
-    "CA"
+  "director":[
+    {
+      "id":"Carolin Schmitz",
+      "name":"Carolin Schmitz",
+      "birthYear":1967,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"DE"
+    }
   ],
-  "perRole":null,
-  "slug":"de2022-077-mutter"
+  "character":[
+    {
+      "id":"DE2022_077_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Anke Engelke",
+        "name":"Anke Engelke",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"DE"
+      },
+      "role":null
+    },
+    {
+      "id":"DE2022_077_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Anke Engelke",
+        "name":"Anke Engelke",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"CA"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Acht Originalstimmen von Frauen, die durch die Darstellung von Anke Engelke in einer inszenierten Figur zusammengef\u00fchrt werden und ein vielschichtiges Bild von Mutterschaft beschreiben. Der Film widmet sich dem komplexen Thema Mutterschaft und erz\u00e4hlt von Freude und Zweifel, Macht und Ohnmacht, Wut und Liebe.",
+    "english":"Seven women relate their experiences of being mothers and wives struggling to combine their chores with their careers. Their playback voices are all lip-synced and enacted by one onscreen actress, Anke Engelke."
+  }
 }

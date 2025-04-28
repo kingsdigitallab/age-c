@@ -1,86 +1,97 @@
 {
-  "filmId":"GB2022_041",
-  "title":"Amulet",
-  "titleEn":null,
-  "director":"Romola Garai",
-  "releaseType":"THE",
-  "releaseDate":1643328000000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Romola Garai",
-  "directorBirthYear":1982,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"GB",
+  "id":"GB2022_041",
+  "type":"film",
+  "slug":"gb2022-041-amulet",
+  "title":{
+    "native":"Amulet",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1643328000000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt8332802\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Amulet",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt8332802\/mediaviewer\/rm2365763329\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HOR",
     "FAN",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt8332802\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Amulet",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt8332802\/mediaviewer\/rm2365763329\/?ref_=tt_ov_i",
-  "synopsis":"An ex-soldier, living homeless in London, is offered a place to stay at a decaying house inhabited by a young woman and her dying mother. As he starts to fall for her, he cannot ignore his suspicion that something sinister is going on.",
-  "synopsisEn":null,
-  "country":[
-    "GB",
-    "AE"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "rural",
-    "low rank employment",
-    "supernatural entity",
-    "abuse",
-    "independent home",
-    "physical illness",
     "intergenerational conflict",
+    "supernatural entity",
     "mentorship",
-    "religion",
+    "rural",
+    "independent home",
     "caregiving",
+    "low rank employment",
+    "religion",
+    "abuse",
+    "physical illness",
     "motherhood"
   ],
-  "charId":[
-    "GB2022_041_01",
-    "GB2022_041_02"
+  "director":[
+    {
+      "id":"Romola Garai",
+      "name":"Romola Garai",
+      "birthYear":1982,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Anah Ruddin",
-    "Imelda Staunton"
+  "character":[
+    {
+      "id":"GB2022_041_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"Anah Ruddin",
+        "name":"Anah Ruddin",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_041_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Imelda Staunton",
+        "name":"Imelda Staunton",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":[
-    "EM",
-    "RE"
-  ],
-  "charAbility":[
-    "AB",
-    "PD"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Anah Ruddin",
-    "Imelda Staunton"
-  ],
-  "perBirthYear":[
-    0,
-    1956
-  ],
-  "perDeathYear":0,
-  "perGender":"F",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2022-041-amulet"
+  "synopsis":{
+    "native":"An ex-soldier, living homeless in London, is offered a place to stay at a decaying house inhabited by a young woman and her dying mother. As he starts to fall for her, he cannot ignore his suspicion that something sinister is going on.",
+    "english":null
+  }
 }

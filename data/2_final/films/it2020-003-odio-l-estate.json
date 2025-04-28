@@ -1,58 +1,107 @@
 {
-  "filmId":"IT2020_003",
-  "title":"Odio l'estate",
-  "titleEn":"I hate Summer",
-  "director":"Massimo Venier",
-  "releaseType":"THE",
-  "releaseDate":1580342400000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=GxKcPDgzjIw",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt10492998\/mediaviewer\/rm23625729\/?ref_=tt_ov_i",
-  "synopsis":"Aldo Giovanni e Giacomo partono per le vacanze estive, non potrebbero avere delle famiglie e delle vite pi\u00f9 diverse. Si incontrano accidentalmente in una piccola isola: stessa spiaggia, stesso mare, ma sopratutto stessa casa in affitto.",
-  "synopsisEn":"Three families end up in the same rented house. Throughout the summer, they become friends and rediscover how to enjoy life.",
-  "country":"IT",
-  "productionShare":"MAJ",
+  "id":"IT2020_003",
+  "type":"film",
+  "slug":"it2020-003-odio-l-estate",
+  "title":{
+    "native":"Odio l'estate",
+    "english":"I hate Summer"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1580342400000,
+    "year":2020
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=GxKcPDgzjIw",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt10492998\/mediaviewer\/rm23625729\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
-    "holiday",
     "marriage",
-    "fatherhood"
+    "fatherhood",
+    "holiday"
   ],
-  "charId":[
-    "IT2020_003_01",
-    "IT2020_003_02",
-    "IT2020_003_03"
+  "director":[
+    {
+      "id":"Massimo Venier",
+      "name":"Massimo Venier",
+      "birthYear":1967,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
   ],
-  "perId":[
-    "Giacomo Poretti",
-    "Giovanni Storti",
-    "Aldo Baglio"
+  "character":[
+    {
+      "id":"IT2020_003_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Giovanni Storti",
+        "name":"Giovanni Storti",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2020_003_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Aldo Baglio",
+        "name":"Aldo Baglio",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2020_003_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Giacomo Poretti",
+        "name":"Giacomo Poretti",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
   ],
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2020-003-odio-l-estate"
+  "synopsis":{
+    "native":"Aldo Giovanni e Giacomo partono per le vacanze estive, non potrebbero avere delle famiglie e delle vite pi\u00f9 diverse. Si incontrano accidentalmente in una piccola isola: stessa spiaggia, stesso mare, ma sopratutto stessa casa in affitto.",
+    "english":"Three families end up in the same rented house. Throughout the summer, they become friends and rediscover how to enjoy life."
+  }
 }

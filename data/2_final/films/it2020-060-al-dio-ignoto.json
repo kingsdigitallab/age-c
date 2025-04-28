@@ -1,46 +1,69 @@
 {
-  "filmId":"IT2020_060",
-  "title":"Al Dio ignoto",
-  "titleEn":"To the Unknown God",
-  "director":"Rodolfo Bisatti",
-  "releaseType":"VOD",
-  "releaseDate":1588291200000,
-  "type":"D",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=sQBzwaIuRkA",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9434832\/mediaviewer\/rm2351740417\/?ref_=tt_ov_i",
-  "synopsis":"Una madre, Lucia, vive sola con il figlio minore Gabriel, un adolescente di 17 anni. Il marito \u00e8 fuggito in seguito alla scomparsa della primogenita Anna, morta di leucemia sette anni prima. Lucia tenta di elaborare il lutto: affronta il dolore lavorando come infermiera in un hospice, a contatto con i malati terminali. Qui incontra degli ospiti che si riveleranno dei \u201cmaestri\u201d, indicandole la strada che porta alla liberazione dall\u2019angoscia.",
-  "synopsisEn":"Lucia lives with her 17-year old son Gabriel. Her husband left her eight years before, when their first daughter Anna died for leukemia. Lucia works in a hospice, in contact with terminal patients. Here she meets Giulio Redetti, a former professor who teaches her how to deal with her angst. Meanwhile, Gabriel follows a reckless lifestyle to prove that living involves the risk of dying.",
-  "country":"IT",
-  "productionShare":"MAJ",
+  "id":"IT2020_060",
+  "type":"film",
+  "slug":"it2020-060-al-dio-ignoto",
+  "title":{
+    "native":"Al Dio ignoto",
+    "english":"To the Unknown God"
+  },
+  "filmType":"D",
+  "release":{
+    "type":"VOD",
+    "date":1588291200000,
+    "year":2020
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=sQBzwaIuRkA",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9434832\/mediaviewer\/rm2351740417\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
+  ],
   "tags":[
-    "retirement home",
+    "mentorship",
+    "caregiving",
     "grief",
     "agony",
-    "mentorship",
-    "caregiving"
+    "retirement home"
   ],
-  "charId":"IT2020_060_01",
-  "perId":"Paolo Bonacelli",
-  "charAge":"4",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":null,
-  "charProfession":"RE",
-  "charAbility":"PD",
-  "assistedMobility":"N",
-  "perName":"Paolo Bonacelli",
-  "perBirthYear":1937,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"IT",
-  "perRole":null,
-  "slug":"it2020-060-al-dio-ignoto"
+  "director":[
+    {
+      "id":"Rodolfo Bisatti",
+      "name":"Rodolfo Bisatti",
+      "birthYear":1960,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2020_060_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":"RE",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"Paolo Bonacelli",
+        "name":"Paolo Bonacelli",
+        "birthYear":1937.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Una madre, Lucia, vive sola con il figlio minore Gabriel, un adolescente di 17 anni. Il marito \u00e8 fuggito in seguito alla scomparsa della primogenita Anna, morta di leucemia sette anni prima. Lucia tenta di elaborare il lutto: affronta il dolore lavorando come infermiera in un hospice, a contatto con i malati terminali. Qui incontra degli ospiti che si riveleranno dei \u201cmaestri\u201d, indicandole la strada che porta alla liberazione dall\u2019angoscia.",
+    "english":"Lucia lives with her 17-year old son Gabriel. Her husband left her eight years before, when their first daughter Anna died for leukemia. Lucia works in a hospice, in contact with terminal patients. Here she meets Giulio Redetti, a former professor who teaches her how to deal with her angst. Meanwhile, Gabriel follows a reckless lifestyle to prove that living involves the risk of dying."
+  }
 }

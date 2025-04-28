@@ -1,62 +1,83 @@
 {
-  "filmId":"ES2020_013",
-  "title":"La lista de los deseos",
-  "titleEn":"Wishlist",
-  "director":"\u00c1lvaro D\u00edaz Lorenzo",
-  "releaseType":"THE",
-  "releaseDate":1592870400000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"ES2020_013",
+  "type":"film",
+  "slug":"es2020-013-la-lista-de-los-deseos",
+  "title":{
+    "native":"La lista de los deseos",
+    "english":"Wishlist"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1592870400000,
+    "year":2020
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=42qN4fhuNak",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9660666\/mediaviewer\/rm2439166209\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
-    "COM",
     "ROM",
+    "COM",
     "ROA"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=42qN4fhuNak",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9660666\/mediaviewer\/rm2439166209\/?ref_=tt_ov_i",
-  "synopsis":"Eva y Carmen, dos mujeres que se conocen en las sesiones de quimio, deciden hacer juntas un viaje con el que cumplir sus suen\u0303os aparcados. Las acompan\u0303a la mejor amiga de una de ellas, Mar, recie\u0301n separada.",
-  "synopsisEn":"Two women with breast cancer plus a friend make a bucket list with all the things they always wanted to do but never did.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "pilgrimage",
-    "rural",
-    "substance abuse",
-    "intergenerational friendship",
-    "tourism",
-    "medical treatment",
-    "physical illness",
-    "regional identity",
-    "bucket list",
     "romance",
+    "hospital",
+    "intergenerational friendship",
+    "rural",
+    "regional identity",
     "natural",
+    "substance abuse",
+    "medical treatment",
     "homosociality",
-    "agony",
-    "holiday",
+    "tourism",
+    "bucket list",
+    "pilgrimage",
     "women empowerment",
-    "hospital"
+    "agony",
+    "physical illness",
+    "holiday"
   ],
-  "charId":"ES2020_013_01",
-  "perId":"Victoria Abril",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":"CI",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"es2020-013-la-lista-de-los-deseos"
+  "director":[
+    {
+      "id":"\u00c1lvaro D\u00edaz Lorenzo",
+      "name":"\u00c1lvaro D\u00edaz Lorenzo",
+      "birthYear":1977,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
+  ],
+  "character":[
+    {
+      "id":"ES2020_013_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Victoria Abril",
+        "name":"Victoria Abril",
+        "birthYear":1959.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Eva y Carmen, dos mujeres que se conocen en las sesiones de quimio, deciden hacer juntas un viaje con el que cumplir sus suen\u0303os aparcados. Las acompan\u0303a la mejor amiga de una de ellas, Mar, recie\u0301n separada.",
+    "english":"Two women with breast cancer plus a friend make a bucket list with all the things they always wanted to do but never did."
+  }
 }

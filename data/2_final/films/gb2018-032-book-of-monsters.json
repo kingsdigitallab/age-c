@@ -1,47 +1,68 @@
 {
-  "filmId":"GB2018_032",
-  "title":"Book of Monsters",
-  "titleEn":null,
-  "director":"Stewart Sparke",
-  "releaseType":"FES",
-  "releaseDate":1535155200000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Stewart Sparke",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2018_032",
+  "type":"film",
+  "slug":"gb2018-032-book-of-monsters",
+  "title":{
+    "native":"Book of Monsters",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"FES",
+    "date":1535155200000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt7260818\/?ref_=ttrel",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt7260818\/mediaviewer\/rm4248398848\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HOR",
     "COA",
+    "HOR",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt7260818\/?ref_=ttrel",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt7260818\/mediaviewer\/rm4248398848\/?ref_=tt_ov_i",
-  "synopsis":"Sophie's 18th birthday becomes a bloodbath when monsters descend upon her house and start to devour the party guests. Sophie and her friends must rally together to send their party crashers back to hell.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "fatherhood",
-    "rural"
+    "rural",
+    "fatherhood"
   ],
-  "charId":"GB2018_032_01",
-  "perId":"Nicholas Vince",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Nicholas Vince",
-  "perBirthYear":1958,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"DE",
-  "perRole":null,
-  "slug":"gb2018-032-book-of-monsters"
+  "director":[
+    {
+      "id":"Stewart Sparke",
+      "name":"Stewart Sparke",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2018_032_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Nicholas Vince",
+        "name":"Nicholas Vince",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"DE"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Sophie's 18th birthday becomes a bloodbath when monsters descend upon her house and start to devour the party guests. Sophie and her friends must rally together to send their party crashers back to hell.",
+    "english":null
+  }
 }

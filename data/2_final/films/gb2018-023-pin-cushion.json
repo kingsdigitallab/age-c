@@ -1,85 +1,93 @@
 {
-  "filmId":"GB2018_023",
-  "title":"Pin Cushion",
-  "titleEn":null,
-  "director":"Deborah Haywood",
-  "releaseType":"THE",
-  "releaseDate":1531440000000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Deborah Haywood",
-  "directorBirthYear":1970,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"GB",
+  "id":"GB2018_023",
+  "type":"film",
+  "slug":"gb2018-023-pin-cushion",
+  "title":{
+    "native":"Pin Cushion",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1531440000000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=kc_EtjJ_oqQ",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6190348\/mediaviewer\/rm904122113\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "COA",
     "FAN"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=kc_EtjJ_oqQ",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6190348\/mediaviewer\/rm904122113\/?ref_=tt_ov_i",
-  "synopsis":"When a socially awkward teen and her outcast mother become targets for the petty and cruel denizens of their small town, they seek refuge in an elaborate fantasy world of their own making.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "rural",
-    "abuse",
-    "independent home",
-    "loneliness",
-    "homosociality",
     "precarity",
+    "rural",
+    "independent home",
+    "homosociality",
+    "loneliness",
+    "abuse",
     "motherhood"
   ],
-  "charId":[
-    "GB2018_023_01",
-    "GB2018_023_02"
+  "director":[
+    {
+      "id":"Deborah Haywood",
+      "name":"Deborah Haywood",
+      "birthYear":1970,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "John Henshaw",
-    "Joanna Scanlan"
+  "character":[
+    {
+      "id":"GB2018_023_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"John Henshaw",
+        "name":"John Henshaw",
+        "birthYear":1951.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"DE"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_023_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Joanna Scanlan",
+        "name":"Joanna Scanlan",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "LM"
-  ],
-  "charProfession":null,
-  "charAbility":[
-    "AB",
-    null
-  ],
-  "assistedMobility":"N",
-  "perName":[
-    "John Henshaw",
-    "Joanna Scanlan"
-  ],
-  "perBirthYear":[
-    1961,
-    1951
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":[
-    "DE",
-    "GB"
-  ],
-  "perRole":null,
-  "slug":"gb2018-023-pin-cushion"
+  "synopsis":{
+    "native":"When a socially awkward teen and her outcast mother become targets for the petty and cruel denizens of their small town, they seek refuge in an elaborate fantasy world of their own making.",
+    "english":null
+  }
 }

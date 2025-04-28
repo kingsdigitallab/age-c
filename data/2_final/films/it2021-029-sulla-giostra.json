@@ -1,45 +1,68 @@
 {
-  "filmId":"IT2021_029",
-  "title":"Sulla giostra",
-  "titleEn":null,
-  "director":"Giorgia Cecere",
-  "releaseType":"THE",
-  "releaseDate":1632960000000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"ROM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=X27EIzw_FcI",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14993748\/mediaviewer\/rm3055219201\/?ref_=tt_ov_i",
-  "synopsis":"Due donne profondamente diverse, due generazioni a confronto che si ritrovano dopo anni in una vecchia ed elegante casa di campagna nel profondo Salento.",
-  "synopsisEn":null,
-  "country":"IT",
-  "productionShare":"MAJ",
+  "id":"IT2021_029",
+  "type":"film",
+  "slug":"it2021-029-sulla-giostra",
+  "title":{
+    "native":"Sulla giostra",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1632960000000,
+    "year":2021
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=X27EIzw_FcI",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14993748\/mediaviewer\/rm3055219201\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "ROM"
+  ],
   "tags":[
+    "intergenerational conflict",
     "extended family",
     "class conflict",
-    "intergenerational conflict",
     "independent home"
   ],
-  "charId":"IT2021_029_01",
-  "perId":"Lucia Sardo",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2021-029-sulla-giostra"
+  "director":[
+    {
+      "id":"Giorgia Cecere",
+      "name":"Giorgia Cecere",
+      "birthYear":1961,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2021_029_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Lucia Sardo",
+        "name":"Lucia Sardo",
+        "birthYear":1952.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Due donne profondamente diverse, due generazioni a confronto che si ritrovano dopo anni in una vecchia ed elegante casa di campagna nel profondo Salento.",
+    "english":null
+  }
 }

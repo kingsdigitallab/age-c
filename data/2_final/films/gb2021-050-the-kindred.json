@@ -1,83 +1,114 @@
 {
-  "filmId":"GB2021_050",
-  "title":"The Kindred",
-  "titleEn":null,
-  "director":"Jamie Patterson",
-  "releaseType":"FES",
-  "releaseDate":1627776000000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":"Jamie Patterson",
-  "directorBirthYear":1986,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2021_050",
+  "type":"film",
+  "slug":"gb2021-050-the-kindred",
+  "title":{
+    "native":"The Kindred",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"FES",
+    "date":1627776000000,
+    "year":2021
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt10306450\/?ref_=ttrel_ov",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt10306450\/mediaviewer\/rm2283404801\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HOR",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt10306450\/?ref_=ttrel_ov",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt10306450\/mediaviewer\/rm2283404801\/?ref_=tt_ov_i",
-  "synopsis":"A woman suffering from amnesia pieces together the events that led to her father's suicide, only to be haunted by the ghosts of children that she begins to suspect were murdered by him.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "personal trauma",
-    "abuse",
     "supernatural entity",
-    "fatherhood",
     "suicide",
-    "crime",
     "urban",
-    "revenge",
-    "religion"
+    "personal trauma",
+    "crime",
+    "fatherhood",
+    "religion",
+    "abuse",
+    "revenge"
   ],
-  "charId":[
-    "GB2021_050_01",
-    "GB2021_050_03",
-    "GB2021_050_02"
+  "director":[
+    {
+      "id":"Jamie Patterson",
+      "name":"Jamie Patterson",
+      "birthYear":1986,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "James Cosmo",
-    "Samantha Bond",
-    "Patrick Bergin"
+  "character":[
+    {
+      "id":"GB2021_050_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Samantha Bond",
+        "name":"Samantha Bond",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_050_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"James Cosmo",
+        "name":"James Cosmo",
+        "birthYear":1947.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_050_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Patrick Bergin",
+        "name":"Patrick Bergin",
+        "birthYear":1951.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IE"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":[
-    "EM",
-    "RE",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "James Cosmo",
-    "Patrick Bergin",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1947,
-    1951
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "M",
-    null
-  ],
-  "perNationality":[
-    "IE",
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2021-050-the-kindred"
+  "synopsis":{
+    "native":"A woman suffering from amnesia pieces together the events that led to her father's suicide, only to be haunted by the ghosts of children that she begins to suspect were murdered by him.",
+    "english":null
+  }
 }

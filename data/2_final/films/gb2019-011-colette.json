@@ -1,89 +1,132 @@
 {
-  "filmId":"GB2019_011",
-  "title":"Colette",
-  "titleEn":null,
-  "director":"Wash Westmoreland",
-  "releaseType":"THE",
-  "releaseDate":1547164800000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Wash Westmoreland",
-  "directorBirthYear":1966,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2019_011",
+  "type":"film",
+  "slug":"gb2019-011-colette",
+  "title":{
+    "native":"Colette",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1547164800000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Mqdyyk-iOvY",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5437928\/mediaviewer\/rm3958734592\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
     "DRA",
+    "HIS",
     "ROM"
-  ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Mqdyyk-iOvY",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5437928\/mediaviewer\/rm3958734592\/?ref_=tt_ov_i",
-  "synopsis":"Colette is pushed by her husband to write novels under his name. Upon their success, she fights to make her talents known, challenging gender norms.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB",
-    "HU"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
   ],
   "tags":[
     "wealth",
-    "cultural memory",
-    "fatherhood",
     "mentorship",
+    "fatherhood",
+    "cultural memory",
     "gender discrimination",
     "motherhood"
   ],
-  "charId":[
-    "GB2019_011_02",
-    "GB2019_011_01",
-    "GB2019_011_03"
+  "director":[
+    {
+      "id":"Wash Westmoreland",
+      "name":"Wash Westmoreland",
+      "birthYear":1966,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Robert Pugh",
-    "Arabella Weir",
-    "Fiona Shaw"
+  "character":[
+    {
+      "id":"GB2019_011_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Fiona Shaw",
+        "name":"Fiona Shaw",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IE"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_011_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Fiona Shaw",
+        "name":"Fiona Shaw",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_011_03",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Arabella Weir",
+        "name":"Arabella Weir",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_011_02",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Robert Pugh",
+        "name":"Robert Pugh",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Robert Pugh",
-    "Arabella Weir",
-    "Fiona Shaw"
-  ],
-  "perBirthYear":[
-    1948,
-    1957,
-    1958
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":[
-    "GB",
-    "IE"
-  ],
-  "perRole":null,
-  "slug":"gb2019-011-colette"
+  "synopsis":{
+    "native":"Colette is pushed by her husband to write novels under his name. Upon their success, she fights to make her talents known, challenging gender norms.",
+    "english":null
+  }
 }

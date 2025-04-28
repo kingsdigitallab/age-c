@@ -1,91 +1,117 @@
 {
-  "filmId":"GB2021_017",
-  "title":"Six Minutes to Midnight",
-  "titleEn":null,
-  "director":"Andy Goddard",
-  "releaseType":"THE",
-  "releaseDate":1616716800000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2021_017",
+  "type":"film",
+  "slug":"gb2021-017-six-minutes-to-midnight",
+  "title":{
+    "native":"Six Minutes to Midnight",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1616716800000,
+    "year":2021
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=3Mb-Y-tUZm0",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5114840\/mediaviewer\/rm1809893377\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "THR",
     "ACT",
+    "THR",
     "SPY",
     "HIS",
     "WAR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=3Mb-Y-tUZm0",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5114840\/mediaviewer\/rm1809893377\/?ref_=tt_ov_i",
-  "synopsis":"UK, Aug. 15, 1939: 17 days before WWII, an English teacher and his camera disappear from a coastal boarding school with 20 German teen girls. Miller gets the job six days later, secretly trying to find out what happened.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "war",
-    "rural",
-    "self-employment",
-    "national identity",
-    "superior-employee relationship",
     "collective trauma",
     "mentorship",
+    "superior-employee relationship",
+    "rural",
+    "national identity",
     "education",
-    "low rank employment"
+    "low rank employment",
+    "war",
+    "self-employment"
   ],
-  "charId":[
-    "GB2021_017_01",
-    "GB2021_017_03",
-    "GB2021_017_02"
+  "director":[
+    {
+      "id":"Andy Goddard",
+      "name":"Andy Goddard",
+      "birthYear":1968,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Jim Broadbent",
-    "Eddie Izzard",
-    "Judi Dench"
+  "character":[
+    {
+      "id":"GB2021_017_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jim Broadbent",
+        "name":"Jim Broadbent",
+        "birthYear":1949.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_017_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Judi Dench",
+        "name":"Judi Dench",
+        "birthYear":1934.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_017_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Eddie Izzard",
+        "name":"Eddie Izzard",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":null,
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Jim Broadbent",
-    "Eddie Izzard",
-    "Judi Dench"
-  ],
-  "perBirthYear":[
-    1962,
-    1949,
-    1934
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M",
-    null
-  ],
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2021-017-six-minutes-to-midnight"
+  "synopsis":{
+    "native":"UK, Aug. 15, 1939: 17 days before WWII, an English teacher and his camera disappear from a coastal boarding school with 20 German teen girls. Miller gets the job six days later, secretly trying to find out what happened.",
+    "english":null
+  }
 }

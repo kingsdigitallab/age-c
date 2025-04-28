@@ -1,93 +1,116 @@
 {
-  "filmId":"GB2020_011",
-  "title":"23 walks",
-  "titleEn":null,
-  "director":"Paul Morrison",
-  "releaseType":"THE",
-  "releaseDate":1600992000000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":"Paul Morrison",
-  "directorBirthYear":1944,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2020_011",
+  "type":"film",
+  "slug":"gb2020-011-23-walks",
+  "title":{
+    "native":"23 walks",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1600992000000,
+    "year":2020
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=591401",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9699620\/mediaviewer\/rm3049174017\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
-    "COM",
-    "ROM"
+    "ROM",
+    "COM"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=591401",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9699620\/mediaviewer\/rm3049174017\/?ref_=tt_ov_i",
-  "synopsis":"A gentle, sweet, funny, romantic story of love in later life following a couple in their sixties, Dave and Fern, who get to know one another over the course of 23 dog walks",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "non-human companionship",
-    "rural",
-    "desire",
-    "independent home",
     "romance",
-    "loneliness",
-    "daily routine",
-    "well-being",
     "precarity",
-    "homelessness"
+    "rural",
+    "independent home",
+    "well-being",
+    "daily routine",
+    "homelessness",
+    "desire",
+    "loneliness",
+    "non-human companionship"
   ],
-  "charId":[
-    "GB2020_011_02",
-    "GB2020_011_03",
-    "GB2020_011_01"
+  "director":[
+    {
+      "id":"Paul Morrison",
+      "name":"Paul Morrison",
+      "birthYear":1944,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Bob Goody",
-    "Alison Steadman",
-    "Dave Johns"
+  "character":[
+    {
+      "id":"GB2020_011_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Bob Goody",
+        "name":"Bob Goody",
+        "birthYear":1951.0,
+        "deathYear":2023.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_011_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Alison Steadman",
+        "name":"Alison Steadman",
+        "birthYear":1946.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_011_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Dave Johns",
+        "name":"Dave Johns",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "LC",
-    "MC",
-    null
-  ],
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Bob Goody",
-    null,
-    "Dave Johns"
-  ],
-  "perBirthYear":[
-    0,
-    1956,
-    1951
-  ],
-  "perDeathYear":[
-    0,
-    2023
-  ],
-  "perGender":[
-    null,
-    "M"
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2020-011-23-walks"
+  "synopsis":{
+    "native":"A gentle, sweet, funny, romantic story of love in later life following a couple in their sixties, Dave and Fern, who get to know one another over the course of 23 dog walks",
+    "english":null
+  }
 }

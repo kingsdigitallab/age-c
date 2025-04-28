@@ -1,126 +1,243 @@
 {
-  "filmId":"GB2021_034",
-  "title":"Undergods",
-  "titleEn":null,
-  "director":"Chino Moya",
-  "releaseType":"THE",
-  "releaseDate":1621209600000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2021_034",
+  "type":"film",
+  "slug":"gb2021-034-undergods",
+  "title":{
+    "native":"Undergods",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1621209600000,
+    "year":2021
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=_2NQjAHZyc0",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt8043434\/mediaviewer\/rm155561217\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
-    "THR",
+    "DYS",
     "MPF",
-    "SCI",
-    "DYS"
-  ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=_2NQjAHZyc0",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt8043434\/mediaviewer\/rm155561217\/?ref_=tt_ov_i",
-  "synopsis":"An otherworldly journey through a Europe in decline - a collection of darkly humorous, fantasy tales about ill-fated characters and doomed fortune.",
-  "synopsisEn":null,
-  "country":[
-    "RS",
-    "BE",
-    "EE",
-    "SE",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "THR",
+    "SCI"
   ],
   "tags":[
-    "personal trauma",
-    "sex",
-    "abuse",
-    "fatherhood",
-    "independent home",
-    "mental illness",
     "infidelity",
-    "state institutions",
-    "homosociality",
-    "murder",
-    "marriage",
-    "segregation",
-    "urban",
+    "mental illness",
     "precarity",
-    "class conflict"
+    "urban",
+    "marriage",
+    "state institutions",
+    "independent home",
+    "homosociality",
+    "sex",
+    "fatherhood",
+    "personal trauma",
+    "murder",
+    "class conflict",
+    "segregation",
+    "abuse"
   ],
-  "charId":[
-    "GB2021_034_02",
-    "GB2021_034_01",
-    "GB2021_034_06",
-    "GB2021_034_08",
-    "GB2021_034_05",
-    "GB2021_034_07",
-    "GB2021_034_04",
-    "GB2021_034_03"
+  "director":[
+    {
+      "id":"Chino Moya",
+      "name":"Chino Moya",
+      "birthYear":1976,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Eric Godon",
-    "Michael Gould",
-    "Sam Louwyck",
-    "Adrian Rawlins",
-    "Hayley Carmichael",
-    "Ned Dennehy",
-    "Lorraine Hilton",
-    "Jan Bijvoet"
+  "character":[
+    {
+      "id":"GB2021_034_05",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WEE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jan Bijvoet",
+        "name":"Jan Bijvoet",
+        "birthYear":1966.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"BE"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_034_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ned Dennehy",
+        "name":"Ned Dennehy",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IR"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_034_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Michael Gould",
+        "name":"Michael Gould",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_034_07",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Sam Louwyck",
+        "name":"Sam Louwyck",
+        "birthYear":1966.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"BE"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_034_06",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Lorraine Hilton",
+        "name":"Lorraine Hilton",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":null
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_034_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Eric Godon",
+        "name":null,
+        "birthYear":null,
+        "deathYear":null,
+        "gender":null,
+        "nationality":null
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_034_02",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Hayley Carmichael",
+        "name":"Hayley Carmichael",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_034_08",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Adrian Rawlins",
+        "name":"Adrian Rawlins",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_034_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ned Dennehy",
+        "name":"Ned Dennehy",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IE"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":[
-    "WWE",
-    "WEE"
-  ],
-  "charClass":[
-    "UM",
-    "MC",
-    "LM"
-  ],
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Michael Gould",
-    null,
-    "Ned Dennehy",
-    "Lorraine Hilton",
-    "Jan Bijvoet"
-  ],
-  "perBirthYear":[
-    0,
-    1961,
-    1965,
-    1966
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    null,
-    "M"
-  ],
-  "perNationality":[
-    "BE",
-    "IE",
-    null,
-    "IR",
-    "GB"
-  ],
-  "perRole":null,
-  "slug":"gb2021-034-undergods"
+  "synopsis":{
+    "native":"An otherworldly journey through a Europe in decline - a collection of darkly humorous, fantasy tales about ill-fated characters and doomed fortune.",
+    "english":null
+  }
 }

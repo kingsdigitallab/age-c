@@ -1,107 +1,197 @@
 {
-  "filmId":"ES2018_022",
-  "title":"Miau",
-  "titleEn":null,
-  "director":"Ignacio Estaregui",
-  "releaseType":"THE",
-  "releaseDate":1539907200000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Ignacio Estaregui",
-  "directorBirthYear":1978,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2018_022",
+  "type":"film",
+  "slug":"es2018-022-miau",
+  "title":{
+    "native":"Miau",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1539907200000,
+    "year":2018
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"youtube.com\/watch?v=v9gD_JfnS7w",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt7105008\/mediaviewer\/rm250757632\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HEI",
     "COM"
   ],
-  "trailerUrl":"youtube.com\/watch?v=v9gD_JfnS7w",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt7105008\/mediaviewer\/rm250757632\/?ref_=tt_ov_i",
-  "synopsis":"Cuatro jubilados trazan un plan para sentirse vivos: van a robarle al aburrimiento y a la vida. Telmo ocupa su tiempo escribiendo un ensayo sobre el origen de su chiste favorito cuando se reencuentra casualmente con dos amigos de juventud. Un tercero, Monreal, sale de la c\u00e1rcel con la intenci\u00f3n de revolucionar al grupo, proponi\u00e9ndoles un rocambolesco plan y poniendo patas arriba su mon\u00f3tona rutina. Sin nada que perder, el variopinto grupo se ver\u00e1 inmerso en el robo a un museo... Adaptaci\u00f3n de la novela \"Hilo musical para una piscifactor\u00eda\", de Juan Luis Salda\u00f1a.",
-  "synopsisEn":null,
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "search for meaning",
     "romance",
+    "search for meaning",
     "state institutions",
-    "organized crime",
-    "last mission",
-    "crime",
+    "urban",
+    "elderhood (friendship among elders)",
     "well-being",
     "intragenerational friendship",
+    "crime",
     "retirement",
-    "urban",
+    "last mission",
     "interracial relationships",
-    "elderhood (friendship among elders)"
+    "organized crime"
   ],
-  "charId":[
-    "ES2018_022_04",
-    "ES2018_022_01",
-    "ES2018_022_05",
-    "ES2018_022_03",
-    "ES2018_022_02"
+  "director":[
+    {
+      "id":"Ignacio Estaregui",
+      "name":"Ignacio Estaregui",
+      "birthYear":1978,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Manuel Manqui\u00f1a",
-    "Luisa Gavasa",
-    "Kao Chenmin",
-    "Jos\u00e9 Luis Gil",
-    "\u00c1lvaro de Luna"
+  "character":[
+    {
+      "id":"ES2018_022_05",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"EAS",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Kao Chenmin",
+        "name":"Kao Chenmin",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"CH"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_022_05",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"EAS",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Kao Chenmin",
+        "name":"Kao Chenmin",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"CN"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_022_04",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"\u00c1lvaro de Luna",
+        "name":"\u00c1lvaro de Luna",
+        "birthYear":1935.0,
+        "deathYear":2018.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_022_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Manuel Manqui\u00f1a",
+        "name":"Manuel Manqui\u00f1a",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_022_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jos\u00e9 Luis Gil",
+        "name":"Jos\u00e9 Luis Gil",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_022_05",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"EAS",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Kao Chenmin",
+        "name":"Kao Chenmin",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_022_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Luisa Gavasa",
+        "name":"Luisa Gavasa",
+        "birthYear":1951.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":[
-    "EAS",
-    "WWE"
-  ],
-  "charClass":[
-    "UM",
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "RE"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    null,
-    "Manuel Manqui\u00f1a",
-    "Luisa Gavasa",
-    "Kao Chenmin",
-    "Jos\u00e9 Luis Gil"
-  ],
-  "perBirthYear":[
-    0,
-    1953,
-    1957,
-    1951
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    null,
-    "M"
-  ],
-  "perNationality":[
-    "CH",
-    null,
-    "CN",
-    "ES"
-  ],
-  "perRole":null,
-  "slug":"es2018-022-miau"
+  "synopsis":{
+    "native":"Cuatro jubilados trazan un plan para sentirse vivos: van a robarle al aburrimiento y a la vida. Telmo ocupa su tiempo escribiendo un ensayo sobre el origen de su chiste favorito cuando se reencuentra casualmente con dos amigos de juventud. Un tercero, Monreal, sale de la c\u00e1rcel con la intenci\u00f3n de revolucionar al grupo, proponi\u00e9ndoles un rocambolesco plan y poniendo patas arriba su mon\u00f3tona rutina. Sin nada que perder, el variopinto grupo se ver\u00e1 inmerso en el robo a un museo... Adaptaci\u00f3n de la novela \"Hilo musical para una piscifactor\u00eda\", de Juan Luis Salda\u00f1a.",
+    "english":null
+  }
 }

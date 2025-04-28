@@ -1,104 +1,120 @@
 {
-  "filmId":"ES2018_003",
-  "title":"Todos lo saben",
-  "titleEn":"Everybody Knows",
-  "director":"Asghar Farhadi",
-  "releaseType":"THE",
-  "releaseDate":1536883200000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"ES2018_003",
+  "type":"film",
+  "slug":"es2018-003-todos-lo-saben",
+  "title":{
+    "native":"Todos lo saben",
+    "english":"Everybody Knows"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1536883200000,
+    "year":2018
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=w7cvj9RabiA",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt4964788\/mediaviewer\/rm3064296960\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=w7cvj9RabiA",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt4964788\/mediaviewer\/rm3064296960\/?ref_=tt_ov_i",
-  "synopsis":"Laura viaja con su familia desde Buenos Aires a su pueblo natal, en Espa\u00f1a, para asistir a la boda de su hermana. Lo que iba a ser una breve visita familiar se ver\u00e1 trastocada por unos acontecimientos imprevistos, que sacudir\u00e1n las vidas de los implicados.",
-  "synopsisEn":"Laura, a Spanish woman living in Buenos Aires, returns to her hometown outside Madrid with her two children to attend her sister's wedding. However, the trip is upset by unexpected events that bring secrets into the open.",
-  "country":[
-    "IT",
-    "FR",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "rural",
-    "personal memory",
-    "personal trauma",
-    "abuse",
-    "fatherhood",
-    "self-employment",
-    "extended family",
     "disability",
-    "independent home",
-    "homosociality",
-    "return home",
+    "personal memory",
     "marriage",
-    "grief",
+    "rural",
+    "return home",
+    "independent home",
+    "multigenerational family",
+    "homosociality",
+    "fatherhood",
+    "personal trauma",
     "crime",
-    "multigenerational family"
+    "grief",
+    "extended family",
+    "self-employment",
+    "abuse"
   ],
-  "charId":[
-    "ES2018_003_02",
-    "ES2018_003_01",
-    "ES2018_003_03"
+  "director":[
+    {
+      "id":"Asghar Farhadi",
+      "name":"Asghar Farhadi",
+      "birthYear":1972,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IR"
+    }
   ],
-  "perId":[
-    "Jos\u00e9 \u00c1ngel Egido",
-    "Ram\u00f3n Barea",
-    "Ricardo Dar\u00edn"
+  "character":[
+    {
+      "id":"ES2018_003_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WLA",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ricardo Dar\u00edn",
+        "name":"Ricardo Dar\u00edn",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"AR"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_003_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"Ram\u00f3n Barea",
+        "name":"Ram\u00f3n Barea",
+        "birthYear":1949.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_003_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jos\u00e9 \u00c1ngel Egido",
+        "name":"Jos\u00e9 \u00c1ngel Egido",
+        "birthYear":1951.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":[
-    "WWE",
-    "WLA"
-  ],
-  "charClass":"MC",
-  "charProfession":[
-    "SE",
-    "EM",
-    "RE"
-  ],
-  "charAbility":[
-    "AB",
-    "PD"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Jos\u00e9 \u00c1ngel Egido",
-    "Ram\u00f3n Barea",
-    "Ricardo Dar\u00edn"
-  ],
-  "perBirthYear":[
-    1957,
-    1949,
-    1951
-  ],
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":[
-    "AR",
-    "ES"
-  ],
-  "perRole":null,
-  "slug":"es2018-003-todos-lo-saben"
+  "synopsis":{
+    "native":"Laura viaja con su familia desde Buenos Aires a su pueblo natal, en Espa\u00f1a, para asistir a la boda de su hermana. Lo que iba a ser una breve visita familiar se ver\u00e1 trastocada por unos acontecimientos imprevistos, que sacudir\u00e1n las vidas de los implicados.",
+    "english":"Laura, a Spanish woman living in Buenos Aires, returns to her hometown outside Madrid with her two children to attend her sister's wedding. However, the trip is upset by unexpected events that bring secrets into the open."
+  }
 }

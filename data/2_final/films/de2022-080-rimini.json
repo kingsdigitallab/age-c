@@ -1,58 +1,72 @@
 {
-  "filmId":"DE2022_080",
-  "title":"Rimini",
-  "titleEn":"Rimini",
-  "director":"Ulrich Seidl",
-  "releaseType":"THE",
-  "releaseDate":1665014400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Ulrich Seidl",
-  "directorBirthYear":1952,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"AT",
+  "id":"DE2022_080",
+  "type":"film",
+  "slug":"de2022-080-rimini",
+  "title":{
+    "native":"Rimini",
+    "english":"Rimini"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1665014400000,
+    "year":2022
+  },
+  "production":{
+    "country":"DE",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/video\/vi1722467353\/?playlistId=tt8956284&ref_=tt_ov_vi",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt8956284\/mediaviewer\/rm3983401985\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "HEM",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/video\/vi1722467353\/?playlistId=tt8956284&ref_=tt_ov_vi",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt8956284\/mediaviewer\/rm3983401985\/?ref_=tt_ov_i",
-  "synopsis":"Richie Bravo, einst ein gefeierter Schlagerstar, jagt im winterlichen Rimini seinem verblichenen Ruhm hinterher. Mit Auftritten vor Bustouristen und Liebesdiensten an weiblichen Fans finanziert er seinen ausschweifenden Lebensstil zwischen Dauerrausch und Spielsucht. Als eines Tages seine erwachsene Tochter vor ihm steht und das Geld einfordert, das er ihr nie gegeben hat, beginnt seine Welt zu kollabieren. W\u00e4hrenddessen zieht sein greiser, an Demenz erkrankter Vater in einem \u00f6sterreichischen Pflegeheim die immer gleichen Kreise und wird von seiner Nazi-Vergangenheit eingeholt.",
-  "synopsisEn":"The death of his mother brings Richie Bravo back from his adopted home in Italy to his teenage bedroom in Lower Austria, where Charlton Heston is still flexing his biceps and Winnetou is still alive.",
-  "country":[
-    "AT",
-    "DE",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "brotherhood",
+    "return home",
     "rural",
-    "independent home",
     "artistic creation",
-    "parenthood",
-    "return home"
+    "brotherhood",
+    "independent home",
+    "parenthood"
   ],
-  "charId":"DE2022_080_01",
-  "perId":"Michael Thomas",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Michael Thomas",
-  "perBirthYear":1962,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"DE",
-  "perRole":null,
-  "slug":"de2022-080-rimini"
+  "director":[
+    {
+      "id":"Ulrich Seidl",
+      "name":"Ulrich Seidl",
+      "birthYear":1952,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"AT"
+    }
+  ],
+  "character":[
+    {
+      "id":"DE2022_080_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Michael Thomas",
+        "name":"Michael Thomas",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"DE"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Richie Bravo, einst ein gefeierter Schlagerstar, jagt im winterlichen Rimini seinem verblichenen Ruhm hinterher. Mit Auftritten vor Bustouristen und Liebesdiensten an weiblichen Fans finanziert er seinen ausschweifenden Lebensstil zwischen Dauerrausch und Spielsucht. Als eines Tages seine erwachsene Tochter vor ihm steht und das Geld einfordert, das er ihr nie gegeben hat, beginnt seine Welt zu kollabieren. W\u00e4hrenddessen zieht sein greiser, an Demenz erkrankter Vater in einem \u00f6sterreichischen Pflegeheim die immer gleichen Kreise und wird von seiner Nazi-Vergangenheit eingeholt.",
+    "english":"The death of his mother brings Richie Bravo back from his adopted home in Italy to his teenage bedroom in Lower Austria, where Charlton Heston is still flexing his biceps and Winnetou is still alive."
+  }
 }

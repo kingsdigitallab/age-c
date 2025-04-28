@@ -1,54 +1,89 @@
 {
-  "filmId":"IT2020_050",
-  "title":"La partita",
-  "titleEn":"The Match",
-  "director":"Francesco Carnesecchi",
-  "releaseType":"THE",
-  "releaseDate":1582761600000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2020_050",
+  "type":"film",
+  "slug":"it2020-050-la-partita",
+  "title":{
+    "native":"La partita",
+    "english":"The Match"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1582761600000,
+    "year":2020
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=QY2DI2QNkNc",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt8776686\/mediaviewer\/rm1594527489\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "SPO"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=QY2DI2QNkNc",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt8776686\/mediaviewer\/rm1594527489\/?ref_=tt_ov_i",
-  "synopsis":"Sul campo da calcio non si decide solo il destino del campionato, ma la vita di coloro che hanno deciso di dare una svolta alla propria esistenza. Mentre fuori dal campo il mondo continua a vivere, a morire e ad essere pieno di contraddizioni, durante la partita il tempo si ferma perch\u00e9 quello \u00e8 il momento pi\u00f9 importante di sempre.",
-  "synopsisEn":"The next ninety minutes will change their lives, forever.",
-  "country":"IT",
-  "productionShare":"MAJ",
   "tags":[
-    "corruption",
     "homosociality",
     "superior-employee relationship",
+    "corruption",
     "precarity"
   ],
-  "charId":[
-    "IT2020_050_02",
-    "IT2020_050_01"
+  "director":[
+    {
+      "id":"Francesco Carnesecchi",
+      "name":"Francesco Carnesecchi",
+      "birthYear":1984,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
   ],
-  "perId":[
-    "Alberto Di Stasio",
-    "Francesco Pannofino"
+  "character":[
+    {
+      "id":"IT2020_050_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Francesco Pannofino",
+        "name":"Francesco Pannofino",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2020_050_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Alberto Di Stasio",
+        "name":"Alberto Di Stasio",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
   ],
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2020-050-la-partita"
+  "synopsis":{
+    "native":"Sul campo da calcio non si decide solo il destino del campionato, ma la vita di coloro che hanno deciso di dare una svolta alla propria esistenza. Mentre fuori dal campo il mondo continua a vivere, a morire e ad essere pieno di contraddizioni, durante la partita il tempo si ferma perch\u00e9 quello \u00e8 il momento pi\u00f9 importante di sempre.",
+    "english":"The next ninety minutes will change their lives, forever."
+  }
 }

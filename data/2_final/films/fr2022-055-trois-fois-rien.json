@@ -1,53 +1,70 @@
 {
-  "filmId":"FR2022_055",
-  "title":"Trois fois rien",
-  "titleEn":"Three Times Nothing",
-  "director":"Nad\u00e8ge Loiseau",
-  "releaseType":"THE",
-  "releaseDate":1647388800000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=OCWexItHRFE",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/51\/194\/246323\/format_page\/trois-fois-rien.jpg",
-  "synopsis":"Brindille, Casquette et La Fl\u00e8che vivent comme ils peuvent, au jour le jour, dans le bois de Vincennes. Mais leur situation pr\u00e9caire devrait changer du tout au tout le jour o\u00f9 ils gagnent au Loto. Encore faut-il pouvoir encaisser l\u2019argent, car sans domicile, pas de carte d\u2019identit\u00e9 \u00e0 jour et sans compte bancaire, pas de paiement !",
-  "synopsisEn":"Twig, Cap and Rusty live however they can in the Bois de Vincennes, east of Paris. This may completely change the day they learn they are the national lottery winner \u2013 though it is less than expected! Yet, they still need to collect the money and share it in equal parts. The hardest part of all will be to resume a \u201cnormal\u201d life, filled with surprises and contradictions.",
-  "country":[
-    "FR",
-    "CA"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+  "id":"FR2022_055",
+  "type":"film",
+  "slug":"fr2022-055-trois-fois-rien",
+  "title":{
+    "native":"Trois fois rien",
+    "english":"Three Times Nothing"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1647388800000,
+    "year":2022
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=OCWexItHRFE",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/51\/194\/246323\/format_page\/trois-fois-rien.jpg"
+  },
+  "genre":[
+    "COM"
   ],
   "tags":[
-    "intergenerational friendship",
-    "unemployment",
-    "urban",
     "precarity",
+    "urban",
+    "intergenerational friendship",
+    "communal housing",
     "homelessness",
-    "communal housing"
+    "unemployment"
   ],
-  "charId":"FR2022_055_01",
-  "perId":"Philippe Rebbot",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"LC",
-  "charProfession":"UN",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2022-055-trois-fois-rien"
+  "director":[
+    {
+      "id":"Nad\u00e8ge Loiseau",
+      "name":"Nad\u00e8ge Loiseau",
+      "birthYear":1977,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2022_055_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Philippe Rebbot",
+        "name":"Philippe Rebbot",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Brindille, Casquette et La Fl\u00e8che vivent comme ils peuvent, au jour le jour, dans le bois de Vincennes. Mais leur situation pr\u00e9caire devrait changer du tout au tout le jour o\u00f9 ils gagnent au Loto. Encore faut-il pouvoir encaisser l\u2019argent, car sans domicile, pas de carte d\u2019identit\u00e9 \u00e0 jour et sans compte bancaire, pas de paiement !",
+    "english":"Twig, Cap and Rusty live however they can in the Bois de Vincennes, east of Paris. This may completely change the day they learn they are the national lottery winner \u2013 though it is less than expected! Yet, they still need to collect the money and share it in equal parts. The hardest part of all will be to resume a \u201cnormal\u201d life, filled with surprises and contradictions."
+  }
 }

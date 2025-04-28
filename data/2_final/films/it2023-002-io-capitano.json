@@ -1,56 +1,48 @@
 {
-  "filmId":"IT2023_002",
-  "title":"Io capitano",
-  "titleEn":"Io capitano",
-  "director":"Matteo Garrone",
-  "releaseType":"THE",
-  "releaseDate":1694044800000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=idErmD0bA_M",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14225838\/mediaviewer\/rm2311747841\/?ref_=tt_ov_i",
-  "synopsis":"IO CAPITANO racconta il viaggio avventuroso di due giovani, Seydou e Moussa, che lasciano Dakar per raggiungere l'Europa. Un'Odissea contemporanea attraverso le insidie del deserto, gli orrori dei centri di detenzione in Libia e i pericoli del mare.",
-  "synopsisEn":"Io Capitano tells the story of the adventurous journey of Seydou and Moussa, two young men who leave Dakar to make their way to Europe. A contemporary Odyssey through the dangers of the desert, the horrors of the detention centers in Libya and the perils of the sea.",
-  "country":[
-    "IT",
-    "BE",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+  "id":"IT2023_002",
+  "type":"film",
+  "slug":"it2023-002-io-capitano",
+  "title":{
+    "native":"Io capitano",
+    "english":"Io capitano"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1694044800000,
+    "year":2023
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=idErmD0bA_M",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14225838\/mediaviewer\/rm2311747841\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
   ],
   "tags":[
+    "migration",
     "racial discrimination",
-    "motherhood",
-    "migration"
+    "motherhood"
   ],
-  "charId":null,
-  "perId":null,
-  "charAge":null,
-  "charGender":null,
-  "charSexuality":null,
-  "charOrigin":null,
-  "charClass":null,
-  "charProfession":null,
-  "charAbility":null,
-  "assistedMobility":null,
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":[
-    "DIR:::Matteo Garrone",
-    "MIN:::Affif Ben Badra",
-    "SUP:::Ndeye Khady Sy",
-    "SUP:::Issaka Sawadogo"
+  "director":[
+    {
+      "id":"Matteo Garrone",
+      "name":"Matteo Garrone",
+      "birthYear":1968,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
   ],
-  "slug":"it2023-002-io-capitano"
+  "character":[
+
+  ],
+  "synopsis":{
+    "native":"IO CAPITANO racconta il viaggio avventuroso di due giovani, Seydou e Moussa, che lasciano Dakar per raggiungere l'Europa. Un'Odissea contemporanea attraverso le insidie del deserto, gli orrori dei centri di detenzione in Libia e i pericoli del mare.",
+    "english":"Io Capitano tells the story of the adventurous journey of Seydou and Moussa, two young men who leave Dakar to make their way to Europe. A contemporary Odyssey through the dangers of the desert, the horrors of the detention centers in Libya and the perils of the sea."
+  }
 }

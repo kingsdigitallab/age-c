@@ -1,100 +1,154 @@
 {
-  "filmId":"ES2021_005",
-  "title":"Garc\u00eda y Garc\u00eda",
-  "titleEn":"Garcia & Garcia",
-  "director":"Ana Murugarren",
-  "releaseType":"THE",
-  "releaseDate":1629763200000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"ES2021_005",
+  "type":"film",
+  "slug":"es2021-005-garcia-y-garcia",
+  "title":{
+    "native":"Garc\u00eda y Garc\u00eda",
+    "english":"Garcia & Garcia"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1629763200000,
+    "year":2021
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=xrX4Q8SivUo",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt11613746\/mediaviewer\/rm3106339073\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "ACT",
-    "COM"
+    "COM",
+    "ACT"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=xrX4Q8SivUo",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt11613746\/mediaviewer\/rm3106339073\/?ref_=tt_ov_i",
-  "synopsis":"Hispavia, una aerol\u00ednea low cost de poca monta, se encuentra en graves dificultades. Ni sus n\u00fameros cuadran, ni sus aviones vuelan. En un intento desesperado por salvar la compa\u00f1\u00eda, deciden contratar simult\u00e1neamente a un prestigioso consultor de aerol\u00edneas y a un experto mec\u00e1nico en paro. Los dos se llaman Javier Garc\u00eda. La casualidad y la desorganizaci\u00f3n de la empresa har\u00e1n que sean confundidos e intercambien sus papeles, y mientras el mec\u00e1nico es atendido por el due\u00f1o de la compa\u00f1\u00eda y alojado en hoteles de lujo, el ejecutivo acaba en el hangar, enfundado en un mono grasiento. Perplejos y sin saber qu\u00e9 est\u00e1 sucediendo, ambos se van enfrentando a los cometidos del otro, hasta que los dos Javier Garc\u00eda se encuentran y descubren el error.",
-  "synopsisEn":"Two men with the same name endure the funny consequences of getting mixed up during a business trip.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "fraud",
     "wealth",
-    "technology",
-    "fatherhood",
+    "fraud",
     "homosociality",
-    "high rank employment",
-    "class solidarity",
     "intragenerational friendship",
-    "low rank employment"
+    "fatherhood",
+    "high rank employment",
+    "low rank employment",
+    "technology",
+    "class solidarity"
   ],
-  "charId":[
-    "ES2021_005_03",
-    "ES2021_005_01",
-    "ES2021_005_02",
-    "ES2021_005_05",
-    "ES2021_005_04"
+  "director":[
+    {
+      "id":"Ana Murugarren",
+      "name":"Ana Murugarren",
+      "birthYear":1965,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Pepe Viyuela",
-    "Ram\u00f3n Barea",
-    "Antonio Resines",
-    "Jordi S\u00e1nchez",
-    "Jos\u00e9 Mota"
+  "character":[
+    {
+      "id":"ES2021_005_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Ram\u00f3n Barea",
+        "name":"Ram\u00f3n Barea",
+        "birthYear":1949.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2021_005_01",
+      "age":"1",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jos\u00e9 Mota",
+        "name":"Jos\u00e9 Mota",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2021_005_05",
+      "age":"1",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jordi S\u00e1nchez",
+        "name":"Jordi S\u00e1nchez",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2021_005_02",
+      "age":"1",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Pepe Viyuela",
+        "name":"Pepe Viyuela",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2021_005_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Antonio Resines",
+        "name":"Antonio Resines",
+        "birthYear":1954.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3",
-    "1"
-  ],
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "LM",
-    null
-  ],
-  "charProfession":[
-    "EM",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    null
-  ],
-  "assistedMobility":"N",
-  "perName":[
-    "Pepe Viyuela",
-    null,
-    "Ram\u00f3n Barea",
-    "Jordi S\u00e1nchez",
-    "Jos\u00e9 Mota"
-  ],
-  "perBirthYear":[
-    0,
-    1963,
-    1964,
-    1965,
-    1949
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    null,
-    "M"
-  ],
-  "perNationality":[
-    null,
-    "ES"
-  ],
-  "perRole":null,
-  "slug":"es2021-005-garcia-y-garcia"
+  "synopsis":{
+    "native":"Hispavia, una aerol\u00ednea low cost de poca monta, se encuentra en graves dificultades. Ni sus n\u00fameros cuadran, ni sus aviones vuelan. En un intento desesperado por salvar la compa\u00f1\u00eda, deciden contratar simult\u00e1neamente a un prestigioso consultor de aerol\u00edneas y a un experto mec\u00e1nico en paro. Los dos se llaman Javier Garc\u00eda. La casualidad y la desorganizaci\u00f3n de la empresa har\u00e1n que sean confundidos e intercambien sus papeles, y mientras el mec\u00e1nico es atendido por el due\u00f1o de la compa\u00f1\u00eda y alojado en hoteles de lujo, el ejecutivo acaba en el hangar, enfundado en un mono grasiento. Perplejos y sin saber qu\u00e9 est\u00e1 sucediendo, ambos se van enfrentando a los cometidos del otro, hasta que los dos Javier Garc\u00eda se encuentran y descubren el error.",
+    "english":"Two men with the same name endure the funny consequences of getting mixed up during a business trip."
+  }
 }

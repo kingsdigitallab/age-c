@@ -1,89 +1,99 @@
 {
-  "filmId":"ES2023_075",
-  "title":"Liuben",
-  "titleEn":null,
-  "director":"Venci Kostov",
-  "releaseType":"THE",
-  "releaseDate":1688601600000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Venci Kostov",
-  "directorBirthYear":1987,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":[
-    "BG",
-    "ES"
-  ],
+  "id":"ES2023_075",
+  "type":"film",
+  "slug":"es2023-075-liuben",
+  "title":{
+    "native":"Liuben",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1688601600000,
+    "year":2023
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt14734810\/?ref_=nv_sr_srsg_0_tt_1_nm_7_in_0_q_Liuben",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14734810\/mediaviewer\/rm4132056065\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "COA",
     "ROM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt14734810\/?ref_=nv_sr_srsg_0_tt_1_nm_7_in_0_q_Liuben",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14734810\/mediaviewer\/rm4132056065\/?ref_=tt_ov_i",
-  "synopsis":"V\u00edctor vuelve a Bulgaria, su pa\u00eds, durante las vacaciones de verano. Tiene veinte y pocos y vive desde hace a\u00f1os en Madrid. Hace as\u00ed un viaje que le enfrenta con sus ra\u00edces, en un pueblo semideshabitado perdido en los Balcanes. All\u00ed conoce a Liuben, un adolescente hu\u00e9rfano de etnia gitana que se gana la vida, entre otras cosas, vendiendo frutas junto a una cuneta.",
-  "synopsisEn":"Victor returns to his childhood home in Bulgaria for his grandfather's funeral, and decides to stay for the summer.",
-  "country":[
-    "BG",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
     "burial",
-    "racial discrimination",
     "fatherhood",
     "extended family",
-    "interracial relationships"
+    "interracial relationships",
+    "racial discrimination"
   ],
-  "charId":[
-    "ES2023_075_01",
-    "ES2023_075_02"
+  "director":[
+    {
+      "id":"Venci Kostov",
+      "name":"Venci Kostov",
+      "birthYear":1987,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"BG"
+    },
+    {
+      "id":"Venci Kostov",
+      "name":"Venci Kostov",
+      "birthYear":1987,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Stefan Denolyubov",
-    "Antonia San Juan"
+  "character":[
+    {
+      "id":"ES2023_075_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WEE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Stefan Denolyubov",
+        "name":"Stefan Denolyubov",
+        "birthYear":1968.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"BG"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_075_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WEE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Antonia San Juan",
+        "name":"Antonia San Juan",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":"WEE",
-  "charClass":[
-    "MC",
-    null
-  ],
-  "charProfession":null,
-  "charAbility":[
-    "AB",
-    null
-  ],
-  "assistedMobility":"N",
-  "perName":[
-    "Stefan Denolyubov",
-    "Antonia San Juan"
-  ],
-  "perBirthYear":[
-    1968,
-    1961
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":[
-    "BG",
-    "ES"
-  ],
-  "perRole":null,
-  "slug":"es2023-075-liuben"
+  "synopsis":{
+    "native":"V\u00edctor vuelve a Bulgaria, su pa\u00eds, durante las vacaciones de verano. Tiene veinte y pocos y vive desde hace a\u00f1os en Madrid. Hace as\u00ed un viaje que le enfrenta con sus ra\u00edces, en un pueblo semideshabitado perdido en los Balcanes. All\u00ed conoce a Liuben, un adolescente hu\u00e9rfano de etnia gitana que se gana la vida, entre otras cosas, vendiendo frutas junto a una cuneta.",
+    "english":"Victor returns to his childhood home in Bulgaria for his grandfather's funeral, and decides to stay for the summer."
+  }
 }

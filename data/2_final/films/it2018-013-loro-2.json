@@ -1,68 +1,91 @@
 {
-  "filmId":"IT2018_013",
-  "title":"Loro 2",
-  "titleEn":null,
-  "director":"Paolo Sorrentino",
-  "releaseType":"THE",
-  "releaseDate":1525910400000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2018_013",
+  "type":"film",
+  "slug":"it2018-013-loro-2",
+  "title":{
+    "native":"Loro 2",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1525910400000,
+    "year":2018
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":null,
+    "posterUrl":null
+  },
   "genre":[
-    "DRA",
-    "BIO"
-  ],
-  "trailerUrl":null,
-  "posterUrl":null,
-  "synopsis":null,
-  "synopsisEn":null,
-  "country":[
-    "IT",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "BIO",
+    "DRA"
   ],
   "tags":[
     "corruption",
-    "wealth",
-    "desire",
-    "professional politics",
     "state institutions",
-    "celebrity"
+    "wealth",
+    "celebrity",
+    "professional politics",
+    "desire"
   ],
-  "charId":[
-    "IT2018_013_02",
-    "IT2018_013_01"
+  "director":[
+    {
+      "id":"Paolo Sorrentino",
+      "name":"Paolo Sorrentino",
+      "birthYear":1970,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
   ],
-  "perId":[
-    "Elena Sofia Ricci",
-    "Toni Servillo"
+  "character":[
+    {
+      "id":"IT2018_013_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Toni Servillo",
+        "name":"Toni Servillo",
+        "birthYear":1959.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2018_013_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Elena Sofia Ricci",
+        "name":"Elena Sofia Ricci",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UC",
-  "charProfession":[
-    "EM",
-    "UN"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2018-013-loro-2"
+  "synopsis":{
+    "native":null,
+    "english":null
+  }
 }

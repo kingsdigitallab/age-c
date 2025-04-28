@@ -1,52 +1,73 @@
 {
-  "filmId":"ES2020_009",
-  "title":"El arte de volver",
-  "titleEn":"The Art of Return",
-  "director":"Pedro Collantes",
-  "releaseType":"THE",
-  "releaseDate":1599868800000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":"Pedro Collantes",
-  "directorBirthYear":1980,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2020_009",
+  "type":"film",
+  "slug":"es2020-009-el-arte-de-volver",
+  "title":{
+    "native":"El arte de volver",
+    "english":"The Art of Return"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1599868800000,
+    "year":2020
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=evsTraa2NZw",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt11865946\/mediaviewer\/rm994500353\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "COA",
     "ROM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=evsTraa2NZw",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt11865946\/mediaviewer\/rm994500353\/?ref_=tt_ov_i",
-  "synopsis":"Cuenta la historia de Noem\u00ed, una joven actriz que vuelve a casa para presentarse a un casting que podr\u00eda cambiar su vida. Durante esas veinticuatro horas, Noem\u00ed tendr\u00e1 una serie de encuentros con extra\u00f1os, familiares y amigos que la llevar\u00e1n a replantearse su lugar en el mundo.",
-  "synopsisEn":"Noem\u00ed is a young actress who returns home after 6 years in New York for an audition that could change her career. During the first 24 hours back in Madrid, she has a series of encounters that teach her how to cherish the seasons of life.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "technology",
+    "mentorship",
+    "return home",
     "independent home",
     "medical treatment",
-    "physical illness",
-    "return home",
-    "mentorship",
-    "grandfatherhood"
+    "grandfatherhood",
+    "technology",
+    "physical illness"
   ],
-  "charId":"ES2020_009_01",
-  "perId":"Celso Bugallo",
-  "charAge":"4",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"RE",
-  "charAbility":"CI",
-  "assistedMobility":"Y",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"es2020-009-el-arte-de-volver"
+  "director":[
+    {
+      "id":"Pedro Collantes",
+      "name":"Pedro Collantes",
+      "birthYear":1980,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
+  ],
+  "character":[
+    {
+      "id":"ES2020_009_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Celso Bugallo",
+        "name":"Celso Bugallo",
+        "birthYear":1947.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Cuenta la historia de Noem\u00ed, una joven actriz que vuelve a casa para presentarse a un casting que podr\u00eda cambiar su vida. Durante esas veinticuatro horas, Noem\u00ed tendr\u00e1 una serie de encuentros con extra\u00f1os, familiares y amigos que la llevar\u00e1n a replantearse su lugar en el mundo.",
+    "english":"Noem\u00ed is a young actress who returns home after 6 years in New York for an audition that could change her career. During the first 24 hours back in Madrid, she has a series of encounters that teach her how to cherish the seasons of life."
+  }
 }

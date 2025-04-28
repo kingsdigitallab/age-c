@@ -1,47 +1,61 @@
 {
-  "filmId":"RO2020_005",
-  "title":"Urma",
-  "titleEn":"Legacy",
-  "director":"Dorian Bogu\u021b\u0103",
-  "releaseType":"THE",
-  "releaseDate":1583452800000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"RO2020_005",
+  "type":"film",
+  "slug":"ro2020-005-urma",
+  "title":{
+    "native":"Urma",
+    "english":"Legacy"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1583452800000,
+    "year":2020
+  },
+  "production":{
+    "country":"RO",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.cinemagia.ro\/trailer\/urma-22347\/",
+    "posterUrl":"https:\/\/www.cinemagia.ro\/filme\/urma-623541\/postere\/3792455\/#gallery"
+  },
   "genre":[
-    "DRA",
     "DTH",
+    "DRA",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.cinemagia.ro\/trailer\/urma-22347\/",
-  "posterUrl":"https:\/\/www.cinemagia.ro\/filme\/urma-623541\/postere\/3792455\/#gallery",
-  "synopsis":"Anton (Marin Grigore), un pianist celebru, este dat disp\u0103rut. Poli\u0163istul (Teodor Corban) care preia cazul afl\u0103 treptat despre destinul zbuciumat al artistului, rela\u0163iile sale bizare \u015fi deciziile care au declan\u015fat un v\u00e2rtej de evenimente surprinz\u0103toare. Dup\u0103 moartea p\u0103rin\u0163ilor s\u0103i, Anton devenise obsedat de fericirea surorii sale, Ana (Irina R\u0103dulescu), dincolo de limitele iubirii fraterne.",
-  "synopsisEn":"Anton, a famous pianist, is missing. The policeman who takes over the case gradually learns about the artist's troubled destiny, his bizarre relationships and the decisions that triggered a whirl of surprising events. After the death of his parents, Anton had become obsessed with the happiness of his sister Ana, beyond the confines of brotherly love.",
-  "country":"RO",
-  "productionShare":"MAJ",
   "tags":[
-    "state institutions",
-    "rescue mission"
+    "rescue mission",
+    "state institutions"
   ],
-  "charId":"RO2020_005_01",
-  "perId":"Teodor Corban",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WEE",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Teodor Corban",
-  "perBirthYear":1957,
-  "perDeathYear":2022,
-  "perGender":"M",
-  "perNationality":"RO",
-  "perRole":null,
-  "slug":"ro2020-005-urma"
+  "director":[
+
+  ],
+  "character":[
+    {
+      "id":"RO2020_005_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WEE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Teodor Corban",
+        "name":"Teodor Corban",
+        "birthYear":1957.0,
+        "deathYear":2022.0,
+        "gender":"M",
+        "nationality":"RO"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Anton (Marin Grigore), un pianist celebru, este dat disp\u0103rut. Poli\u0163istul (Teodor Corban) care preia cazul afl\u0103 treptat despre destinul zbuciumat al artistului, rela\u0163iile sale bizare \u015fi deciziile care au declan\u015fat un v\u00e2rtej de evenimente surprinz\u0103toare. Dup\u0103 moartea p\u0103rin\u0163ilor s\u0103i, Anton devenise obsedat de fericirea surorii sale, Ana (Irina R\u0103dulescu), dincolo de limitele iubirii fraterne.",
+    "english":"Anton, a famous pianist, is missing. The policeman who takes over the case gradually learns about the artist's troubled destiny, his bizarre relationships and the decisions that triggered a whirl of surprising events. After the death of his parents, Anton had become obsessed with the happiness of his sister Ana, beyond the confines of brotherly love."
+  }
 }

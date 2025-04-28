@@ -1,94 +1,121 @@
 {
-  "filmId":"GB2019_015",
-  "title":"All Is True",
-  "titleEn":null,
-  "director":"Kenneth Branagh",
-  "releaseType":"THE",
-  "releaseDate":1549584000000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Kenneth Branagh",
-  "directorBirthYear":1960,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2019_015",
+  "type":"film",
+  "slug":"gb2019-015-all-is-true",
+  "title":{
+    "native":"All Is True",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1549584000000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=vt4K5-5_N1s",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9206798\/mediaviewer\/rm55998208\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
+    "BIO",
     "DRA",
-    "BIO"
+    "HIS"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=vt4K5-5_N1s",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9206798\/mediaviewer\/rm55998208\/?ref_=tt_ov_i",
-  "synopsis":"A look at the final days in the life of renowned playwright William Shakespeare.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "legacy",
+    "mentorship",
     "wealth",
-    "reignited passion",
-    "rural",
-    "cultural memory",
-    "independent home",
-    "may-december",
-    "artistic creation",
-    "parenthood",
-    "grief",
-    "return home",
     "marriage",
+    "return home",
+    "rural",
+    "independent home",
+    "artistic creation",
     "well-being",
+    "parenthood",
+    "reignited passion",
+    "legacy",
     "retirement",
-    "mentorship"
+    "may-december",
+    "grief",
+    "cultural memory"
   ],
-  "charId":[
-    "GB2019_015_02",
-    "GB2019_015_01",
-    "GB2019_015_03"
+  "director":[
+    {
+      "id":"Kenneth Branagh",
+      "name":"Kenneth Branagh",
+      "birthYear":1960,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Kenneth Branagh",
-    "Judi Dench",
-    "Ian McKellen"
+  "character":[
+    {
+      "id":"GB2019_015_03",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ian McKellen",
+        "name":"Ian McKellen",
+        "birthYear":1939.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_015_02",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Judi Dench",
+        "name":"Judi Dench",
+        "birthYear":1934.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_015_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Kenneth Branagh",
+        "name":"Kenneth Branagh",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "4"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "UC"
-  ],
-  "charProfession":[
-    "SE",
-    "RE"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Kenneth Branagh",
-    "Judi Dench",
-    "Ian McKellen"
-  ],
-  "perBirthYear":[
-    1960,
-    1939,
-    1934
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2019-015-all-is-true"
+  "synopsis":{
+    "native":"A look at the final days in the life of renowned playwright William Shakespeare.",
+    "english":null
+  }
 }

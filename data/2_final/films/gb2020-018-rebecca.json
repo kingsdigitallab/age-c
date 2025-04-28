@@ -1,84 +1,101 @@
 {
-  "filmId":"GB2020_018",
-  "title":"Rebecca",
-  "titleEn":null,
-  "director":"Ben Wheatley",
-  "releaseType":"THE",
-  "releaseDate":1602806400000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2020_018",
+  "type":"film",
+  "slug":"gb2020-018-rebecca",
+  "title":{
+    "native":"Rebecca",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1602806400000,
+    "year":2020
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=187222",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt2235695\/mediaviewer\/rm2343412993\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "ROM",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=187222",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt2235695\/mediaviewer\/rm2343412993\/?ref_=tt_ov_i",
-  "synopsis":"A young newlywed arrives at her husband's imposing family estate on a windswept English coast and finds herself battling the shadow of his first wife, Rebecca, whose legacy lives on in the house long after her death.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "wealth",
-    "rural",
-    "personal memory",
-    "desire",
-    "abuse",
-    "independent home",
-    "suicide",
-    "celibacy",
-    "superior-employee relationship",
     "lgbtqi",
-    "homosociality",
-    "mentorship",
     "intergenerational conflict",
+    "mentorship",
+    "personal memory",
+    "wealth",
+    "suicide",
+    "superior-employee relationship",
+    "rural",
+    "independent home",
+    "celibacy",
+    "homosociality",
     "class conflict",
-    "low rank employment"
+    "desire",
+    "low rank employment",
+    "abuse"
   ],
-  "charId":[
-    "GB2020_018_01",
-    "GB2020_018_02"
+  "director":[
+    {
+      "id":"Ben Wheatley",
+      "name":"Ben Wheatley",
+      "birthYear":1972,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Ann Dowd",
-    "Kristin Scott Thomas"
+  "character":[
+    {
+      "id":"GB2020_018_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HO",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Kristin Scott Thomas",
+        "name":"Kristin Scott Thomas",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"UK"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_018_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ann Dowd",
+        "name":null,
+        "birthYear":null,
+        "deathYear":null,
+        "gender":null,
+        "nationality":null
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"F",
-  "charSexuality":[
-    "HO",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UC",
-    "LM"
-  ],
-  "charProfession":[
-    "EM",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2020-018-rebecca"
+  "synopsis":{
+    "native":"A young newlywed arrives at her husband's imposing family estate on a windswept English coast and finds herself battling the shadow of his first wife, Rebecca, whose legacy lives on in the house long after her death.",
+    "english":null
+  }
 }

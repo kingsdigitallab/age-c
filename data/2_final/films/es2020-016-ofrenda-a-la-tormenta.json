@@ -1,103 +1,167 @@
 {
-  "filmId":"ES2020_016",
-  "title":"Ofrenda a la tormenta",
-  "titleEn":"Offering to the Storm",
-  "director":"Fernando Gonz\u00e1lez Molina",
-  "releaseType":"VOD",
-  "releaseDate":1595548800000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"ES2020_016",
+  "type":"film",
+  "slug":"es2020-016-ofrenda-a-la-tormenta",
+  "title":{
+    "native":"Ofrenda a la tormenta",
+    "english":"Offering to the Storm"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"VOD",
+    "date":1595548800000,
+    "year":2020
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=cyWUHYF-ITk",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt7304824\/mediaviewer\/rm751810561\/?ref_=tt_ov_i"
+  },
   "genre":[
     "NOI",
-    "ACT",
     "DRA",
+    "ACT",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=cyWUHYF-ITk",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt7304824\/mediaviewer\/rm751810561\/?ref_=tt_ov_i",
-  "synopsis":"Ha pasado ya un tiempo desde que la inspectora Amaia Salazar se enfrent\u00f3 a su madre. Pero a pesar de que tanto la Guardia Civil como el juez Markina dan por cerrado el caso, Amaia siente que no est\u00e1 libre de peligro. La muerte s\u00fabita de una ni\u00f1a en Elizondo resulta sospechosa y los an\u00e1lisis forenses llevan a Amaia a investigar otras muertes de origen similar que conducir\u00e1n a la inspectora a la resoluci\u00f3n final de los sucesos que han asolado el valle de Bazt\u00e1n. Tercera entrega de la 'Trilog\u00eda del Bazt\u00e1n', basada en las novelas de Dolores Redondo.",
-  "synopsisEn":"Inspector Amaia Salazar confronts the origins of her nightmares as she unfolds the darkest secrets of the Baztan valley.",
-  "country":[
-    "DE",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "extended family",
-    "suicide",
-    "spirituality",
-    "motherhood",
-    "wealth",
-    "rural",
-    "abuse",
     "mental illness",
-    "celibacy",
-    "personal memory",
+    "hospital",
+    "suicide",
+    "rural",
     "personal trauma",
-    "organized crime",
-    "religion",
-    "caregiving",
     "low-rank employment",
+    "extended family",
+    "religion",
+    "organized crime",
+    "wealth",
+    "personal memory",
     "independent home",
-    "grief",
-    "marriage",
     "natural",
-    "hospital"
+    "spirituality",
+    "grief",
+    "abuse",
+    "motherhood",
+    "marriage",
+    "caregiving",
+    "celibacy"
   ],
-  "charId":[
-    "ES2020_016_05",
-    "ES2020_016_03",
-    "ES2020_016_02",
-    "ES2020_016_04",
-    "ES2020_016_01"
+  "director":[
+    {
+      "id":"Fernando Gonz\u00e1lez Molina",
+      "name":"Fernando Gonz\u00e1lez Molina",
+      "birthYear":1975,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Ana Wagener",
-    "Alicia S\u00e1nchez",
-    "Susi S\u00e1nchez",
-    "Imanol Arias",
-    "Itziar Aizpuru"
+  "character":[
+    {
+      "id":"ES2020_016_03",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Alicia S\u00e1nchez",
+        "name":"Alicia S\u00e1nchez",
+        "birthYear":1949.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2020_016_02",
+      "age":"4",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Itziar Aizpuru",
+        "name":"Itziar Aizpuru",
+        "birthYear":1939.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2020_016_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Imanol Arias",
+        "name":"Imanol Arias",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2020_016_04",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ana Wagener",
+        "name":"Ana Wagener",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2020_016_05",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"Susi S\u00e1nchez",
+        "name":"Susi S\u00e1nchez",
+        "birthYear":1955.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "UC"
-  ],
-  "charProfession":[
-    "EM",
-    "RE"
-  ],
-  "charAbility":[
-    "AB",
-    "PD"
-  ],
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"es2020-016-ofrenda-a-la-tormenta"
+  "synopsis":{
+    "native":"Ha pasado ya un tiempo desde que la inspectora Amaia Salazar se enfrent\u00f3 a su madre. Pero a pesar de que tanto la Guardia Civil como el juez Markina dan por cerrado el caso, Amaia siente que no est\u00e1 libre de peligro. La muerte s\u00fabita de una ni\u00f1a en Elizondo resulta sospechosa y los an\u00e1lisis forenses llevan a Amaia a investigar otras muertes de origen similar que conducir\u00e1n a la inspectora a la resoluci\u00f3n final de los sucesos que han asolado el valle de Bazt\u00e1n. Tercera entrega de la 'Trilog\u00eda del Bazt\u00e1n', basada en las novelas de Dolores Redondo.",
+    "english":"Inspector Amaia Salazar confronts the origins of her nightmares as she unfolds the darkest secrets of the Baztan valley."
+  }
 }

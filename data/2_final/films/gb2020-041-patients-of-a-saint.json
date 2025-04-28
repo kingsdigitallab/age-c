@@ -1,74 +1,94 @@
 {
-  "filmId":"GB2020_041",
-  "title":"Patients of a Saint",
-  "titleEn":"Immate Zero",
-  "director":"Russell Owen",
-  "releaseType":"THE",
-  "releaseDate":1580342400000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":"Russell Owen",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2020_041",
+  "type":"film",
+  "slug":"gb2020-041-patients-of-a-saint",
+  "title":{
+    "native":"Patients of a Saint",
+    "english":"Immate Zero"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1580342400000,
+    "year":2020
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=461547",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt8406660\/mediaviewer\/rm2316862977\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HOR",
     "ACT"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=461547",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt8406660\/mediaviewer\/rm2316862977\/?ref_=tt_ov_i",
-  "synopsis":"There's a zombie outbreak after a medical trial in an international detention and medical facility on an isolated island. An ex US Special Forces\/bodyguard woman inmate and a guard form a team.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "abuse",
-    "medical treatment",
-    "physical illness",
+    "gender discrimination",
     "state institutions",
+    "hospital",
+    "medical treatment",
     "parenthood",
     "murder",
     "religion",
-    "gender discrimination",
-    "hospital"
+    "abuse",
+    "physical illness"
   ],
-  "charId":[
-    "GB2020_041_01",
-    "GB2020_041_02"
+  "director":[
+    {
+      "id":"Russell Owen",
+      "name":"Russell Owen",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Christopher Dunne",
-    "Gabz Barker"
+  "character":[
+    {
+      "id":"GB2020_041_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Gabz Barker",
+        "name":"Gabz Barker",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_041_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Christopher Dunne",
+        "name":"Christopher Dunne",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IE"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    null
-  ],
-  "charProfession":[
-    "EM",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    null
-  ],
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2020-041-patients-of-a-saint"
+  "synopsis":{
+    "native":"There's a zombie outbreak after a medical trial in an international detention and medical facility on an isolated island. An ex US Special Forces\/bodyguard woman inmate and a guard form a team.",
+    "english":null
+  }
 }

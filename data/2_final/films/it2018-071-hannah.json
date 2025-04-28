@@ -1,54 +1,70 @@
 {
-  "filmId":"IT2018_071",
-  "title":"Hannah",
-  "titleEn":"Hannah",
-  "director":"Andrea Pallaoro",
-  "releaseType":"THE",
-  "releaseDate":1518652800000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=3ZNTmh_TiMQ",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt4432006\/mediaviewer\/rm2810848256\/?ref_=tt_ov_i",
-  "synopsis":"Hannah \u00e8 il ritratto intimo di una donna che non riesce ad accettare la realt\u00e0 che la circonda. Rimasta sola, alle prese con le conseguenze dell\u2019arresto del marito, Hannah inizia a sgretolarsi. Attraverso l\u2019esplorazione del suo graduale crollo emotivo e psicologico, il film indaga il confine delicato tra l\u2019identit\u00e0 del singolo, le relazioni umane e le pressioni sociali.",
-  "synopsisEn":"Hannah is the intimate portrait of a woman\u2019s loss of identity as she teeters between denial and reality. Left alone grappling with the consequences of her husband's imprisonment, Hannah begins to unravel. Through the exploration of her fractured sense of identity and loss of self-control, the film investigates modern day alienation, the struggle to connect, and the dividing lines between individual identity, personal relationships, and societal pressures.",
-  "country":[
-    "IT",
-    "BE",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+  "id":"IT2018_071",
+  "type":"film",
+  "slug":"it2018-071-hannah",
+  "title":{
+    "native":"Hannah",
+    "english":"Hannah"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1518652800000,
+    "year":2018
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=3ZNTmh_TiMQ",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt4432006\/mediaviewer\/rm2810848256\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
   ],
   "tags":[
-    "personal trauma",
     "grandmotherhood",
-    "loneliness",
-    "crime",
     "daily routine",
+    "personal trauma",
+    "crime",
+    "loneliness",
     "motherhood"
   ],
-  "charId":"IT2018_071_01",
-  "perId":"Charlotte Rampling",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2018-071-hannah"
+  "director":[
+    {
+      "id":"Andrea Pallaoro",
+      "name":"Andrea Pallaoro",
+      "birthYear":1982,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2018_071_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Charlotte Rampling",
+        "name":"Charlotte Rampling",
+        "birthYear":1946.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Hannah \u00e8 il ritratto intimo di una donna che non riesce ad accettare la realt\u00e0 che la circonda. Rimasta sola, alle prese con le conseguenze dell\u2019arresto del marito, Hannah inizia a sgretolarsi. Attraverso l\u2019esplorazione del suo graduale crollo emotivo e psicologico, il film indaga il confine delicato tra l\u2019identit\u00e0 del singolo, le relazioni umane e le pressioni sociali.",
+    "english":"Hannah is the intimate portrait of a woman\u2019s loss of identity as she teeters between denial and reality. Left alone grappling with the consequences of her husband's imprisonment, Hannah begins to unravel. Through the exploration of her fractured sense of identity and loss of self-control, the film investigates modern day alienation, the struggle to connect, and the dividing lines between individual identity, personal relationships, and societal pressures."
+  }
 }

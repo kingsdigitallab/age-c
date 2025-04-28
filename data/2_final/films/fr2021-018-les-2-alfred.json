@@ -1,46 +1,69 @@
 {
-  "filmId":"FR2021_018",
-  "title":"Les 2 Alfred",
-  "titleEn":"French Tech",
-  "director":"Bruno Podalyd\u00e8s",
-  "releaseType":"THE",
-  "releaseDate":1623801600000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=JgDiO4znpVg",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/201\/121\/227785\/format_page\/french-tech.jpg",
-  "synopsis":"Alexandre, ch\u00f4meur d\u00e9class\u00e9, a deux mois pour prouver \u00e0 sa femme qu'il peut s'occuper de ses deux jeunes enfants et \u00eatre autonome financi\u00e8rement. Probl\u00e8me: The Box, la start-up tr\u00e8s friendly qui veut l'embaucher \u00e0 l'essai a pour dogme : \u00ab Pas d'enfant! \u00bb, et S\u00e9verine, sa future sup\u00e9rieure, est une \u00ab tueuse \u00bb au caract\u00e8re \u00e9ruptif. Pour obtenir ce poste, Alexandre doit donc mentir... La rencontre avec Arcimboldo, \u00ab entrepreneur de lui-m\u00eame \u00bb et roi des petits boulots sur applis, aidera-t-elle cet homme vaillant et d\u00e9boussol\u00e9 \u00e0 surmonter tous ces d\u00e9fis?",
-  "synopsisEn":"Alexandre is unemployed and his bank account has been frozen. His wife is on a two-month top secret nuclear submarine mission. While she\u2019s away, he has to prove that he can take care of the children and find a job. Following a surreal interview, he is hired at The Box on a trial basis \u2013 and thus Alexandre enters the 24-7 world of a greenwashed start-up with a strict no-child policy. He meets Arcimboldo, who juggles different jobs and apps and offers to look after the kids in exchange for accommodation. Between Alexandre\u2019s killer colleague Severine, incessant conference calls and endless team building sessions, keeping his secret is no easy challenge\u2026",
-  "country":"FR",
-  "productionShare":"MAJ",
-  "tags":[
-    "technology",
-    "fatherhood",
-    "marriage",
-    "unemployment",
-    "low rank employment"
+  "id":"FR2021_018",
+  "type":"film",
+  "slug":"fr2021-018-les-2-alfred",
+  "title":{
+    "native":"Les 2 Alfred",
+    "english":"French Tech"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1623801600000,
+    "year":2021
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=JgDiO4znpVg",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/201\/121\/227785\/format_page\/french-tech.jpg"
+  },
+  "genre":[
+    "COM"
   ],
-  "charId":"FR2021_018_01",
-  "perId":"Denis Podalyd\u00e8s",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2021-018-les-2-alfred"
+  "tags":[
+    "marriage",
+    "fatherhood",
+    "technology",
+    "low rank employment",
+    "unemployment"
+  ],
+  "director":[
+    {
+      "id":"Bruno Podalyd\u00e8s",
+      "name":"Bruno Podalyd\u00e8s",
+      "birthYear":1961,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2021_018_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Denis Podalyd\u00e8s",
+        "name":"Denis Podalyd\u00e8s",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Alexandre, ch\u00f4meur d\u00e9class\u00e9, a deux mois pour prouver \u00e0 sa femme qu'il peut s'occuper de ses deux jeunes enfants et \u00eatre autonome financi\u00e8rement. Probl\u00e8me: The Box, la start-up tr\u00e8s friendly qui veut l'embaucher \u00e0 l'essai a pour dogme : \u00ab Pas d'enfant! \u00bb, et S\u00e9verine, sa future sup\u00e9rieure, est une \u00ab tueuse \u00bb au caract\u00e8re \u00e9ruptif. Pour obtenir ce poste, Alexandre doit donc mentir... La rencontre avec Arcimboldo, \u00ab entrepreneur de lui-m\u00eame \u00bb et roi des petits boulots sur applis, aidera-t-elle cet homme vaillant et d\u00e9boussol\u00e9 \u00e0 surmonter tous ces d\u00e9fis?",
+    "english":"Alexandre is unemployed and his bank account has been frozen. His wife is on a two-month top secret nuclear submarine mission. While she\u2019s away, he has to prove that he can take care of the children and find a job. Following a surreal interview, he is hired at The Box on a trial basis \u2013 and thus Alexandre enters the 24-7 world of a greenwashed start-up with a strict no-child policy. He meets Arcimboldo, who juggles different jobs and apps and offers to look after the kids in exchange for accommodation. Between Alexandre\u2019s killer colleague Severine, incessant conference calls and endless team building sessions, keeping his secret is no easy challenge\u2026"
+  }
 }

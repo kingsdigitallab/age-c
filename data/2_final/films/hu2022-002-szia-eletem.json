@@ -1,56 +1,76 @@
 {
-  "filmId":"HU2022_002",
-  "title":"Szia, \u00e9letem!",
-  "titleEn":"Daddy and Other Wolves",
-  "director":[
-    "G\u00e1bor Rohonyi",
-    "Csaba V\u00e9kes"
-  ],
-  "releaseType":"THE",
-  "releaseDate":1661385600000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":[
-    "G\u00e1bor Rohonyi",
-    "Csaba V\u00e9kes"
-  ],
-  "directorBirthYear":[
-    1966,
-    1983
-  ],
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"HU",
+  "id":"HU2022_002",
+  "type":"film",
+  "slug":"hu2022-002-szia-eletem",
+  "title":{
+    "native":"Szia, \u00e9letem!",
+    "english":"Daddy and Other Wolves"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1661385600000,
+    "year":2022
+  },
+  "production":{
+    "country":"HU",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=SnkkYKBxomM",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt12720014\/mediaviewer\/rm4132507393\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "FAN",
+    "CHI",
     "COM",
-    "CHI"
+    "FAN"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=SnkkYKBxomM",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt12720014\/mediaviewer\/rm4132507393\/?ref_=tt_ov_i",
-  "synopsis":"A fantasy elemekkel d\u00fas\u00edtott, egyedi v\u00edgj\u00e1t\u00e9k egy n\u00e9pszer\u0171, de ihlethi\u00e1nyos \u00edr\u00f3nak \u2013 Thur\u00f3czy Szabolcs alak\u00edt\u00e1s\u00e1ban \u2013 \u00e9s sosem l\u00e1tott kisfi\u00e1nak nem v\u00e1rt tal\u00e1lkoz\u00e1s\u00e1r\u00f3l sz\u00f3l. A hirtelen nyakukba szakadt, k\u00e9nyszer\u0171 egy\u00fcttl\u00e9t fordulatos, vid\u00e1m \u00e9s \u00e9rzelmes t\u00f6rt\u00e9nete a fi\u00fa fant\u00e1zi\u00e1j\u00e1nak k\u00f6sz\u00f6nhet\u0151en \u00e1tl\u00e9pi a val\u00f3s\u00e1g kereteit is.",
-  "synopsisEn":"A burnt-out writer's life is turned upside down when his never-before-seen son walks into his life.",
-  "country":"HU",
-  "productionShare":"MAJ",
   "tags":[
     "fatherhood",
     "artistic creation"
   ],
-  "charId":"HU2022_002_01",
-  "perId":"Szabolcs Thur\u00f3czy",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"CEU",
-  "charClass":"UM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Szabolcs Thur\u00f3czy",
-  "perBirthYear":1971,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"HU",
-  "perRole":null,
-  "slug":"hu2022-002-szia-eletem"
+  "director":[
+    {
+      "id":"Csaba V\u00e9kes",
+      "name":"Csaba V\u00e9kes",
+      "birthYear":1983,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"HU"
+    },
+    {
+      "id":"G\u00e1bor Rohonyi",
+      "name":"G\u00e1bor Rohonyi",
+      "birthYear":1966,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"HU"
+    }
+  ],
+  "character":[
+    {
+      "id":"HU2022_002_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"CEU",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Szabolcs Thur\u00f3czy",
+        "name":"Szabolcs Thur\u00f3czy",
+        "birthYear":1971.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"HU"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"A fantasy elemekkel d\u00fas\u00edtott, egyedi v\u00edgj\u00e1t\u00e9k egy n\u00e9pszer\u0171, de ihlethi\u00e1nyos \u00edr\u00f3nak \u2013 Thur\u00f3czy Szabolcs alak\u00edt\u00e1s\u00e1ban \u2013 \u00e9s sosem l\u00e1tott kisfi\u00e1nak nem v\u00e1rt tal\u00e1lkoz\u00e1s\u00e1r\u00f3l sz\u00f3l. A hirtelen nyakukba szakadt, k\u00e9nyszer\u0171 egy\u00fcttl\u00e9t fordulatos, vid\u00e1m \u00e9s \u00e9rzelmes t\u00f6rt\u00e9nete a fi\u00fa fant\u00e1zi\u00e1j\u00e1nak k\u00f6sz\u00f6nhet\u0151en \u00e1tl\u00e9pi a val\u00f3s\u00e1g kereteit is.",
+    "english":"A burnt-out writer's life is turned upside down when his never-before-seen son walks into his life."
+  }
 }

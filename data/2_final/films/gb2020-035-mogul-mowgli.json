@@ -1,58 +1,73 @@
 {
-  "filmId":"GB2020_035",
-  "title":"Mogul Mowgli",
-  "titleEn":null,
-  "director":"Bassam Tariq",
-  "releaseType":"THE",
-  "releaseDate":1604016000000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2020_035",
+  "type":"film",
+  "slug":"gb2020-035-mogul-mowgli",
+  "title":{
+    "native":"Mogul Mowgli",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1604016000000,
+    "year":2020
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt9892094\/?ref_=tt_mv_close",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9892094\/mediaviewer\/rm1086586625\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "MUS"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt9892094\/?ref_=tt_mv_close",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9892094\/mediaviewer\/rm1086586625\/?ref_=tt_ov_i",
-  "synopsis":"A British Pakistani rapper is on the cusp of his first world tour, but is struck down by an illness that threatens to derail his big break.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
+    "hospital",
+    "urban",
     "national identity",
     "artistic creation",
-    "segregation",
-    "urban",
-    "religion",
     "caregiving",
-    "motherhood",
-    "hospital"
+    "segregation",
+    "religion",
+    "motherhood"
   ],
-  "charId":"GB2020_035_01",
-  "perId":"Sudha Bhuchar",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":null,
-  "charOrigin":"SOA",
-  "charClass":"LM",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2020-035-mogul-mowgli"
+  "director":[
+    {
+      "id":"Bassam Tariq",
+      "name":"Bassam Tariq",
+      "birthYear":1986,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"PK"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2020_035_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"SOA",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Sudha Bhuchar",
+        "name":"Sudha Bhuchar",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"A British Pakistani rapper is on the cusp of his first world tour, but is struck down by an illness that threatens to derail his big break.",
+    "english":null
+  }
 }

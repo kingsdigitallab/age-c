@@ -1,61 +1,85 @@
 {
-  "filmId":"IT2020_032",
-  "title":"Ammen",
-  "titleEn":null,
-  "director":"Ciro Villano",
-  "releaseType":"THE",
-  "releaseDate":1593648000000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=_zCBljV97I4",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt10885722\/mediaviewer\/rm2226434049\/?ref_=tt_ov_i",
-  "synopsis":"Un parroco di Roccatranquilla, don Vincenzo, impersonato da Maurizio Mattioli, arriva a Montecalvo Irpino a seguito di un incidente automobilistico e comincia a raccontare tutti i peccati dei suoi fedeli. Ne vengono fuori diversi equivoci ed eventi esilaranti.",
-  "synopsisEn":null,
-  "country":"IT",
-  "productionShare":"MAJ",
-  "tags":"religion",
-  "charId":[
-    "IT2020_032_02",
-    "IT2020_032_01"
+  "id":"IT2020_032",
+  "type":"film",
+  "slug":"it2020-032-ammen",
+  "title":{
+    "native":"Ammen",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1593648000000,
+    "year":2020
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=_zCBljV97I4",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt10885722\/mediaviewer\/rm2226434049\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "COM"
   ],
-  "perId":[
-    "Maurizio Mattioli",
-    "Davide Marotta"
+  "tags":[
+    "religion"
   ],
-  "charAge":[
-    "4",
-    "3"
+  "director":[
+    {
+      "id":"Ciro Villano",
+      "name":"Ciro Villano",
+      "birthYear":1972,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
   ],
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
+  "character":[
+    {
+      "id":"IT2020_032_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Maurizio Mattioli",
+        "name":"Maurizio Mattioli",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2020_032_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"Davide Marotta",
+        "name":"Davide Marotta",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
   ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "LM",
-    null
-  ],
-  "charProfession":[
-    "EM",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    "PD"
-  ],
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2020-032-ammen"
+  "synopsis":{
+    "native":"Un parroco di Roccatranquilla, don Vincenzo, impersonato da Maurizio Mattioli, arriva a Montecalvo Irpino a seguito di un incidente automobilistico e comincia a raccontare tutti i peccati dei suoi fedeli. Ne vengono fuori diversi equivoci ed eventi esilaranti.",
+    "english":null
+  }
 }

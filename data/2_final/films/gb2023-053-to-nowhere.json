@@ -1,43 +1,66 @@
 {
-  "filmId":"GB2023_053",
-  "title":"To Nowhere",
-  "titleEn":null,
-  "director":"Sian Astor-Lewis",
-  "releaseType":"THE",
-  "releaseDate":1688083200000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Sian Astor-Lewis",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"GB",
+  "id":"GB2023_053",
+  "type":"film",
+  "slug":"gb2023-053-to-nowhere",
+  "title":{
+    "native":"To Nowhere",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1688083200000,
+    "year":2023
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt9748136\/?ref_=nm_flmg_knf_t_1",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9748136\/mediaviewer\/rm1751117569\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "COA"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt9748136\/?ref_=nm_flmg_knf_t_1",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9748136\/mediaviewer\/rm1751117569\/?ref_=tt_ov_i",
-  "synopsis":"Two self-destructive teenage friends embark on an alcohol-fuelled trip around a lonely corner of London. Spiralling out of control, they must confront unspoken trauma and love or lose each other forever.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
-  "tags":"grandmotherhood",
-  "charId":"GB2023_053_01",
-  "perId":"Jane Wood",
-  "charAge":"4",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Jane Wood",
-  "perBirthYear":1943,
-  "perDeathYear":0,
-  "perGender":"F",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2023-053-to-nowhere"
+  "tags":[
+    "grandmotherhood"
+  ],
+  "director":[
+    {
+      "id":"Sian Astor-Lewis",
+      "name":"Sian Astor-Lewis",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2023_053_01",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jane Wood",
+        "name":"Jane Wood",
+        "birthYear":1943.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Two self-destructive teenage friends embark on an alcohol-fuelled trip around a lonely corner of London. Spiralling out of control, they must confront unspoken trauma and love or lose each other forever.",
+    "english":null
+  }
 }

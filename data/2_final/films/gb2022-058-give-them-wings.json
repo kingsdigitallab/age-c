@@ -1,100 +1,140 @@
 {
-  "filmId":"GB2022_058",
-  "title":"Give Them Wings",
-  "titleEn":null,
-  "director":"Sean Cronin",
-  "releaseType":"THE",
-  "releaseDate":1651968000000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Sean Cronin",
-  "directorBirthYear":1964,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2022_058",
+  "type":"film",
+  "slug":"gb2022-058-give-them-wings",
+  "title":{
+    "native":"Give Them Wings",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1651968000000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt4277138\/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_Give%2520Them%2520Wings",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt4277138\/mediaviewer\/rm194413313\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "DRA",
-    "BIO"
+    "BIO",
+    "DRA"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt4277138\/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_Give%2520Them%2520Wings",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt4277138\/mediaviewer\/rm194413313\/?ref_=tt_ov_i",
-  "synopsis":"Based on the heart-rending true story of wheelchair user Paul Hodgson.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "natural death",
-    "burial",
-    "fatherhood",
-    "medical treatment",
     "disability",
-    "parenthood",
-    "motherhood",
-    "homosociality",
-    "grief",
-    "class solidarity",
-    "marriage",
+    "burial",
+    "hospital",
     "urban",
+    "marriage",
     "caregiving",
+    "natural death",
+    "medical treatment",
+    "parenthood",
+    "homosociality",
+    "fatherhood",
+    "class solidarity",
     "low rank employment",
-    "hospital"
+    "grief",
+    "motherhood"
   ],
-  "charId":[
-    "GB2022_058_02",
-    "GB2022_058_01",
-    "GB2022_058_03",
-    "GB2022_058_04"
+  "director":[
+    {
+      "id":"Sean Cronin",
+      "name":"Sean Cronin",
+      "birthYear":1964,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Sean Cronin",
-    "Toyah Wilcox",
-    "Bruce Payne",
-    "Bill Fellows"
+  "character":[
+    {
+      "id":"GB2022_058_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Bill Fellows",
+        "name":"Bill Fellows",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_058_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Bruce Payne",
+        "name":"Bruce Payne",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_058_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Sean Cronin",
+        "name":"Sean Cronin",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_058_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Toyah Wilcox",
+        "name":"Toyah Wilcox",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "EM",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Sean Cronin",
-    "Bruce Payne",
-    "Bill Fellows",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1964,
-    1957,
-    1958
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    null,
-    "M"
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2022-058-give-them-wings"
+  "synopsis":{
+    "native":"Based on the heart-rending true story of wheelchair user Paul Hodgson.",
+    "english":null
+  }
 }

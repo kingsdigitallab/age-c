@@ -1,81 +1,92 @@
 {
-  "filmId":"GB2023_022",
-  "title":"Medusa Deluxe",
-  "titleEn":null,
-  "director":"Thomas Hardiman",
-  "releaseType":"THE",
-  "releaseDate":1686268800000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Thomas Hardiman",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2023_022",
+  "type":"film",
+  "slug":"gb2023-022-medusa-deluxe",
+  "title":{
+    "native":"Medusa Deluxe",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1686268800000,
+    "year":2023
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt14773478\/?ref_=nv_sr_srsg_0_tt_4_nm_1_in_0_q_medusa%2520deluxe",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14773478\/mediaviewer\/rm792535041\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "COM",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt14773478\/?ref_=nv_sr_srsg_0_tt_4_nm_1_in_0_q_medusa%2520deluxe",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14773478\/mediaviewer\/rm792535041\/?ref_=tt_ov_i",
-  "synopsis":"A murder mystery set in a competitive hairdressing contest. Extravagance and excess collide, as the death of a contestant sows seeds of division in a community whose passion for hair verges on obsession.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "abuse",
-    "self-employment",
     "artistic creation",
     "body norms",
-    "revenge",
-    "interracial relationships"
+    "self-employment",
+    "abuse",
+    "interracial relationships",
+    "revenge"
   ],
-  "charId":[
-    "GB2023_022_02",
-    "GB2023_022_01"
+  "director":[
+    {
+      "id":"Thomas Hardiman",
+      "name":"Thomas Hardiman",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Darrell D'Silva",
-    "Clare Perkins"
+  "character":[
+    {
+      "id":"GB2023_022_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"BWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Clare Perkins",
+        "name":"Clare Perkins",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_022_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Darrell D'Silva",
+        "name":"Darrell D'Silva",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":[
-    "BWE",
-    "WWE"
-  ],
-  "charClass":[
-    "UM",
-    null
-  ],
-  "charProfession":[
-    "SE",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    null
-  ],
-  "assistedMobility":"N",
-  "perName":[
-    "Darrell D'Silva",
-    "Clare Perkins"
-  ],
-  "perBirthYear":[
-    1963,
-    1965
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2023-022-medusa-deluxe"
+  "synopsis":{
+    "native":"A murder mystery set in a competitive hairdressing contest. Extravagance and excess collide, as the death of a contestant sows seeds of division in a community whose passion for hair verges on obsession.",
+    "english":null
+  }
 }

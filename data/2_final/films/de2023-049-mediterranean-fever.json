@@ -1,55 +1,68 @@
 {
-  "filmId":"DE2023_049",
-  "title":"Mediterranean Fever",
-  "titleEn":"Mediterranean Fever",
-  "director":"Maha Haj",
-  "releaseType":"THE",
-  "releaseDate":1683158400000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Maha Haj",
-  "directorBirthYear":1970,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"IL",
+  "id":"DE2023_049",
+  "type":"film",
+  "slug":"de2023-049-mediterranean-fever",
+  "title":{
+    "native":"Mediterranean Fever",
+    "english":"Mediterranean Fever"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1683158400000,
+    "year":2023
+  },
+  "production":{
+    "country":"DE",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/video\/vi3942433305\/?playlistId=tt19785426&ref_=tt_ov_pr_ov_vi",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt19785426\/mediaviewer\/rm566300929\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/video\/vi3942433305\/?playlistId=tt19785426&ref_=tt_ov_pr_ov_vi",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt19785426\/mediaviewer\/rm566300929\/?ref_=tt_ov_i",
-  "synopsis":"Der 40 Jahre alte Waleed (Amer Hlehel) steckt in einer Sackgasse. Zwar hat er Frau und Kinder, mit denen er in der israelischen Metropole Haifa lebt. Aber er leidet auch unter Depressionen und hat es bisher einfach nicht geschafft, sich den Traum von einer Karriere als Schriftsteller zu erf\u00fcllen. Erst, als er den neuen Nachbarn Jalal (Ashraf Farah) kennenlernt, scheint ein Licht am Ende des dunklen Tunnels aufzutauchen.",
-  "synopsisEn":"Waleed dreams of a writing career while suffering from depression. He develops a relationship with his neighbor - a small-time crook. While the scheme turns into an unexpected friendship, it leads them into a journey of dark encounters.",
-  "country":[
-    "CY",
-    "DE",
-    "FR",
-    "PS"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "intergenerational friendship",
     "homosociality",
-    "class conflict"
+    "class conflict",
+    "intergenerational friendship"
   ],
-  "charId":"DE2023_049_01",
-  "perId":"Amer Hlehel",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"MEA",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Amer Hlehel",
-  "perBirthYear":1953,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":null,
-  "perRole":null,
-  "slug":"de2023-049-mediterranean-fever"
+  "director":[
+    {
+      "id":"Maha Haj",
+      "name":"Maha Haj",
+      "birthYear":1970,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"IL"
+    }
+  ],
+  "character":[
+    {
+      "id":"DE2023_049_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"MEA",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Amer Hlehel",
+        "name":"Amer Hlehel",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":null
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Der 40 Jahre alte Waleed (Amer Hlehel) steckt in einer Sackgasse. Zwar hat er Frau und Kinder, mit denen er in der israelischen Metropole Haifa lebt. Aber er leidet auch unter Depressionen und hat es bisher einfach nicht geschafft, sich den Traum von einer Karriere als Schriftsteller zu erf\u00fcllen. Erst, als er den neuen Nachbarn Jalal (Ashraf Farah) kennenlernt, scheint ein Licht am Ende des dunklen Tunnels aufzutauchen.",
+    "english":"Waleed dreams of a writing career while suffering from depression. He develops a relationship with his neighbor - a small-time crook. While the scheme turns into an unexpected friendship, it leads them into a journey of dark encounters."
+  }
 }

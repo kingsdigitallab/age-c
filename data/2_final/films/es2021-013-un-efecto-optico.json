@@ -1,87 +1,114 @@
 {
-  "filmId":"ES2021_013",
-  "title":"Un efecto \u00f3ptico",
-  "titleEn":"An Optical Illusion",
-  "director":"Juan Cavestany",
-  "releaseType":"THE",
-  "releaseDate":1616716800000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":"Juan Cavestany",
-  "directorBirthYear":1967,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2021_013",
+  "type":"film",
+  "slug":"es2021-013-un-efecto-optico",
+  "title":{
+    "native":"Un efecto \u00f3ptico",
+    "english":"An Optical Illusion"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1616716800000,
+    "year":2021
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=itJCUJIeem4",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt11333854\/mediaviewer\/rm545040129\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
-    "FAN",
-    "COM"
+    "COM",
+    "FAN"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=itJCUJIeem4",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt11333854\/mediaviewer\/rm545040129\/?ref_=tt_ov_i",
-  "synopsis":"Alfredo y Teresa son un matrimonio de Burgos que viaja a Nueva York con la intenci\u00f3n de \"desconectar\" y hacer todos los planes que vienen en la gu\u00eda. Pero nada m\u00e1s aterrizar empiezan a percibir se\u00f1ales, sutiles y no tanto, de que en realidad no est\u00e1n en la ciudad que les vendieron en la agencia. \u00bfD\u00f3nde est\u00e1n entonces?",
-  "synopsisEn":"Alfredo and Teresa are a Spanish couple that decide to travel to New York to \"unplug\". Soon after landing, they start to feel that they are probably not in the city the agency has sold them, but they don't know where they are.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "empty nest",
+    "urban",
+    "marriage",
     "independent home",
-    "self-employment",
     "parenthood",
     "daily routine",
-    "marriage",
-    "urban",
+    "empty nest",
+    "self-employment",
     "holiday"
   ],
-  "charId":[
-    "ES2021_013_02",
-    "ES2021_013_01",
-    "ES2021_013_03"
+  "director":[
+    {
+      "id":"Juan Cavestany",
+      "name":"Juan Cavestany",
+      "birthYear":1967,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Lola Cord\u00f3n",
-    "Pep\u00f3n Nieto",
-    "Carmen Machi"
+  "character":[
+    {
+      "id":"ES2021_013_03",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Lola Cord\u00f3n",
+        "name":"Lola Cord\u00f3n",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2021_013_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Carmen Machi",
+        "name":"Carmen Machi",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2021_013_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Pep\u00f3n Nieto",
+        "name":"Pep\u00f3n Nieto",
+        "birthYear":1967.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "4"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":[
-    "SE",
-    "RE"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Lola Cord\u00f3n",
-    "Pep\u00f3n Nieto",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1967
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M",
-    null
-  ],
-  "perNationality":[
-    "ES",
-    null
-  ],
-  "perRole":null,
-  "slug":"es2021-013-un-efecto-optico"
+  "synopsis":{
+    "native":"Alfredo y Teresa son un matrimonio de Burgos que viaja a Nueva York con la intenci\u00f3n de \"desconectar\" y hacer todos los planes que vienen en la gu\u00eda. Pero nada m\u00e1s aterrizar empiezan a percibir se\u00f1ales, sutiles y no tanto, de que en realidad no est\u00e1n en la ciudad que les vendieron en la agencia. \u00bfD\u00f3nde est\u00e1n entonces?",
+    "english":"Alfredo and Teresa are a Spanish couple that decide to travel to New York to \"unplug\". Soon after landing, they start to feel that they are probably not in the city the agency has sold them, but they don't know where they are."
+  }
 }

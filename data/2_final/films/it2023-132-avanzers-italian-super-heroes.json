@@ -1,43 +1,66 @@
 {
-  "filmId":"IT2023_132",
-  "title":"Avanzers Italian Super Heroes",
-  "titleEn":null,
-  "director":"Cosimo Bosco",
-  "releaseType":"THE",
-  "releaseDate":1689811200000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=V12vRYQU5UA",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt17352108\/mediaviewer\/rm1297036545\/?ref_=tt_ov_i",
-  "synopsis":"Il film \u00e8 una reinterpretazione italiana e parodistica del celebre The Avengers, basato sui fumettiMarvel. Questa \u00e8 una continuazione del percorso iniziato con Anatar, parodia del grande successo di James Cameron, e sar\u00e0 seguita da altri \"mockbuster\".",
-  "synopsisEn":null,
-  "country":"IT",
-  "productionShare":"MAJ",
-  "tags":[
-    "state institutions",
-    "supernatural entity"
+  "id":"IT2023_132",
+  "type":"film",
+  "slug":"it2023-132-avanzers-italian-super-heroes",
+  "title":{
+    "native":"Avanzers Italian Super Heroes",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1689811200000,
+    "year":2023
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=V12vRYQU5UA",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt17352108\/mediaviewer\/rm1297036545\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "COM"
   ],
-  "charId":"IT2023_132_01",
-  "perId":"Maurizio Mattioli",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WNA",
-  "charClass":"UM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2023-132-avanzers-italian-super-heroes"
+  "tags":[
+    "supernatural entity",
+    "state institutions"
+  ],
+  "director":[
+    {
+      "id":"Cosimo Bosco",
+      "name":"Cosimo Bosco",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2023_132_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Maurizio Mattioli",
+        "name":"Maurizio Mattioli",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Il film \u00e8 una reinterpretazione italiana e parodistica del celebre The Avengers, basato sui fumettiMarvel. Questa \u00e8 una continuazione del percorso iniziato con Anatar, parodia del grande successo di James Cameron, e sar\u00e0 seguita da altri \"mockbuster\".",
+    "english":null
+  }
 }

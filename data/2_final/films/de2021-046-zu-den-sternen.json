@@ -1,64 +1,90 @@
 {
-  "filmId":"DE2021_046",
-  "title":"Zu den Sternen",
-  "titleEn":null,
-  "director":"Nicolai Tegeler",
-  "releaseType":"THE",
-  "releaseDate":1632960000000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":"Nicolai Tegeler",
-  "directorBirthYear":1978,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"DE",
+  "id":"DE2021_046",
+  "type":"film",
+  "slug":"de2021-046-zu-den-sternen",
+  "title":{
+    "native":"Zu den Sternen",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1632960000000,
+    "year":2021
+  },
+  "production":{
+    "country":"DE",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=-_DKIuRs9po&ab_channel=vipmagazinKino",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt13729548\/mediaviewer\/rm3054422785\/?ref_=tt_ov_i."
+  },
   "genre":[
     "DRA",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=-_DKIuRs9po&ab_channel=vipmagazinKino",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt13729548\/mediaviewer\/rm3054422785\/?ref_=tt_ov_i.",
-  "synopsis":"Zwei alte Freunde begegnen sich nach Jahrzehnten wieder, doch ihr Aufeinandertreffen l\u00e4uft anders als erwartet. Pl\u00f6tzlich geht es um Leben und Tod.",
-  "synopsisEn":"After the fall of the Berlin Wall, Hoffmann reached the peak of his popularity. The former front man of a GDR rock combo is suddenly accused by his former band colleague Hinze of being the \"IM singer\" who betrayed him to the Stasi.",
-  "country":"DE",
-  "productionShare":"MAJ",
   "tags":[
-    "non-human companionship",
-    "cultural memory",
     "friendship betrayal",
     "artistic creation",
-    "homosociality"
+    "homosociality",
+    "cultural memory",
+    "non-human companionship"
   ],
-  "charId":[
-    "DE2021_050_01",
-    "DE2021_050_02"
+  "director":[
+    {
+      "id":"Nicolai Tegeler",
+      "name":"Nicolai Tegeler",
+      "birthYear":1978,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"DE"
+    }
   ],
-  "perId":[
-    "G\u00fcnter Barton",
-    "Florian Martens"
+  "character":[
+    {
+      "id":"DE2021_050_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Florian Martens",
+        "name":"Florian Martens",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"DE"
+      },
+      "role":null
+    },
+    {
+      "id":"DE2021_050_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"G\u00fcnter Barton",
+        "name":"G\u00fcnter Barton",
+        "birthYear":1955.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"DE"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":[
-    "SE",
-    "UN"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "G\u00fcnter Barton",
-    "Florian Martens"
-  ],
-  "perBirthYear":[
-    1955,
-    1958
-  ],
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"DE",
-  "perRole":null,
-  "slug":"de2021-046-zu-den-sternen"
+  "synopsis":{
+    "native":"Zwei alte Freunde begegnen sich nach Jahrzehnten wieder, doch ihr Aufeinandertreffen l\u00e4uft anders als erwartet. Pl\u00f6tzlich geht es um Leben und Tod.",
+    "english":"After the fall of the Berlin Wall, Hoffmann reached the peak of his popularity. The former front man of a GDR rock combo is suddenly accused by his former band colleague Hinze of being the \"IM singer\" who betrayed him to the Stasi."
+  }
 }

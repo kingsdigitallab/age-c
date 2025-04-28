@@ -1,77 +1,87 @@
 {
-  "filmId":"ES2019_069",
-  "title":"La noche de las dos lunas",
-  "titleEn":"The Night of the Two Moons",
-  "director":"Miguel Ferrari",
-  "releaseType":"THE",
-  "releaseDate":1567123200000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Miguel Ferrari",
-  "directorBirthYear":1963,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"VE",
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt6034002\/?ref_=ttrel_ov",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6034002\/mediaviewer\/rm1020754688\/?ref_=tt_ov_i",
-  "synopsis":"Al tercer mes de embarazo, Federica descubre que el beb\u00e9 que est\u00e1 esperando no tiene su ADN. Acude a la cl\u00ednica donde se realiz\u00f3 el tratamiento de fecundaci\u00f3n in vitro y all\u00ed reconocen haber cometido un error, intercambiando su embri\u00f3n con el de otra pareja. La cl\u00ednica identifica a la mujer a quien le implantaron su embri\u00f3n, pero \u00e9sta ha tenido un aborto. Federica decide continuar con su embarazo y quedarse con el beb\u00e9, pero los padres biol\u00f3gicos emprender\u00e1n una batalla para recuperarlo.",
-  "synopsisEn":"In the third month of pregnancy, Federica finds out that the baby she's expecting doesn't share her DNA.",
-  "country":[
-    "VE",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+  "id":"ES2019_069",
+  "type":"film",
+  "slug":"es2019-069-la-noche-de-las-dos-lunas",
+  "title":{
+    "native":"La noche de las dos lunas",
+    "english":"The Night of the Two Moons"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1567123200000,
+    "year":2019
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt6034002\/?ref_=ttrel_ov",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6034002\/mediaviewer\/rm1020754688\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
   ],
   "tags":[
-    "high rank employment",
     "medical treatment",
+    "high rank employment",
     "motherhood"
   ],
-  "charId":[
-    "ES2019_069_01",
-    "ES2019_069_02"
+  "director":[
+    {
+      "id":"Miguel Ferrari",
+      "name":"Miguel Ferrari",
+      "birthYear":1963,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"VE"
+    }
   ],
-  "perId":[
-    "Mar\u00eda Barranco",
-    "Juan Jes\u00fas Valverde"
+  "character":[
+    {
+      "id":"ES2019_069_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Mar\u00eda Barranco",
+        "name":"Mar\u00eda Barranco",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2019_069_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Juan Jes\u00fas Valverde",
+        "name":"Juan Jes\u00fas Valverde",
+        "birthYear":1943.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":[
-    "EM",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":null,
-  "perName":[
-    "Mar\u00eda Barranco",
-    "Juan Jes\u00fas Valverde"
-  ],
-  "perBirthYear":[
-    1961,
-    1943
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"es2019-069-la-noche-de-las-dos-lunas"
+  "synopsis":{
+    "native":"Al tercer mes de embarazo, Federica descubre que el beb\u00e9 que est\u00e1 esperando no tiene su ADN. Acude a la cl\u00ednica donde se realiz\u00f3 el tratamiento de fecundaci\u00f3n in vitro y all\u00ed reconocen haber cometido un error, intercambiando su embri\u00f3n con el de otra pareja. La cl\u00ednica identifica a la mujer a quien le implantaron su embri\u00f3n, pero \u00e9sta ha tenido un aborto. Federica decide continuar con su embarazo y quedarse con el beb\u00e9, pero los padres biol\u00f3gicos emprender\u00e1n una batalla para recuperarlo.",
+    "english":"In the third month of pregnancy, Federica finds out that the baby she's expecting doesn't share her DNA."
+  }
 }

@@ -1,58 +1,73 @@
 {
-  "filmId":"FR2019_181",
-  "title":"La Belle \u00c9poque",
-  "titleEn":"La Belle \u00c9poque",
-  "director":"Nicolas Bedos",
-  "releaseType":"THE",
-  "releaseDate":1572998400000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"FR2019_181",
+  "type":"film",
+  "slug":"fr2019-181-la-belle-epoque",
+  "title":{
+    "native":"La Belle \u00c9poque",
+    "english":"La Belle \u00c9poque"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1572998400000,
+    "year":2019
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=PzhAQ2LhvPs",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/106\/34\/205418\/format_page\/la-belle-epoque.jpg"
+  },
   "genre":[
     "DRA",
     "ROM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=PzhAQ2LhvPs",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/106\/34\/205418\/format_page\/la-belle-epoque.jpg",
-  "synopsis":"Victor, un sexag\u00e9naire d\u00e9sabus\u00e9, voit sa vie boulevers\u00e9e le jour o\u00f9 Antoine, un brillant entrepreneur, lui propose une attraction d\u2019un genre nouveau : m\u00e9langeant artifices th\u00e9\u00e2traux et reconstitution historique, cette entreprise propose \u00e0 ses clients de replonger dans l\u2019\u00e9poque de leur choix. Victor choisit alors de revivre la semaine la plus marquante de sa vie : celle o\u00f9, 40 ans plus t\u00f4t, il rencontra le grand amour...",
-  "synopsisEn":"Victor, sixtysomething, has his life turned upside down the day that Antoine, a flourishing entrepreneur, offers him a unique new brand of entertainment. Using a combination of theatrical artifice and historical re-enactment, his company gives its clients the opportunity to delve back into the period of their choice. Victor decides to relive the most memorable week of his existence, 40 years earlier, when he met the love of his life...",
-  "country":[
-    "BE",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "personal memory",
-    "self-employment",
     "romance",
+    "personal memory",
+    "urban",
+    "separation",
     "parenthood",
     "high rank employment",
-    "urban",
     "low rank employment",
-    "separation"
+    "self-employment"
   ],
-  "charId":"FR2019_181_01",
-  "perId":"Daniel Auteuil",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"RE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2019-181-la-belle-epoque"
+  "director":[
+    {
+      "id":"Nicolas Bedos",
+      "name":"Nicolas Bedos",
+      "birthYear":1979,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2019_181_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Daniel Auteuil",
+        "name":"Daniel Auteuil",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Victor, un sexag\u00e9naire d\u00e9sabus\u00e9, voit sa vie boulevers\u00e9e le jour o\u00f9 Antoine, un brillant entrepreneur, lui propose une attraction d\u2019un genre nouveau : m\u00e9langeant artifices th\u00e9\u00e2traux et reconstitution historique, cette entreprise propose \u00e0 ses clients de replonger dans l\u2019\u00e9poque de leur choix. Victor choisit alors de revivre la semaine la plus marquante de sa vie : celle o\u00f9, 40 ans plus t\u00f4t, il rencontra le grand amour...",
+    "english":"Victor, sixtysomething, has his life turned upside down the day that Antoine, a flourishing entrepreneur, offers him a unique new brand of entertainment. Using a combination of theatrical artifice and historical re-enactment, his company gives its clients the opportunity to delve back into the period of their choice. Victor decides to relive the most memorable week of his existence, 40 years earlier, when he met the love of his life..."
+  }
 }

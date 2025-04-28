@@ -1,71 +1,97 @@
 {
-  "filmId":"GB2020_013",
-  "title":"Love Sarah",
-  "titleEn":null,
-  "director":"Eliza Schroeder",
-  "releaseType":"THE",
-  "releaseDate":1594339200000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":"Eliza Schroeder",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"DE",
+  "id":"GB2020_013",
+  "type":"film",
+  "slug":"gb2020-013-love-sarah",
+  "title":{
+    "native":"Love Sarah",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1594339200000,
+    "year":2020
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=286540",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9448932\/mediaviewer\/rm2359732993\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "ROM",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=286540",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9448932\/mediaviewer\/rm2359732993\/?ref_=tt_ov_i",
-  "synopsis":"A young woman wishes to fulfill her mother's dream of opening her own bakery in Notting Hill, London. To do this, she enlists the help of an old friend and her grandma.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "burial",
-    "desire",
-    "grandmotherhood",
-    "self-employment",
-    "intergenerational friendship",
     "romance",
-    "gentrification",
-    "grief",
+    "burial",
     "mentorship",
     "new start",
+    "intergenerational friendship",
+    "gentrification",
+    "grandmotherhood",
+    "grief",
+    "desire",
+    "self-employment",
     "motherhood"
   ],
-  "charId":[
-    "GB2020_013_01",
-    "GB2020_013_02"
+  "director":[
+    {
+      "id":"Eliza Schroeder",
+      "name":"Eliza Schroeder",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"DE"
+    }
   ],
-  "perId":[
-    "Bill Patterson",
-    "Celia Imrie"
+  "character":[
+    {
+      "id":"GB2020_013_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Celia Imrie",
+        "name":"Celia Imrie",
+        "birthYear":1952.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_013_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Bill Patterson",
+        "name":"Bill Patterson",
+        "birthYear":1945.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2020-013-love-sarah"
+  "synopsis":{
+    "native":"A young woman wishes to fulfill her mother's dream of opening her own bakery in Notting Hill, London. To do this, she enlists the help of an old friend and her grandma.",
+    "english":null
+  }
 }

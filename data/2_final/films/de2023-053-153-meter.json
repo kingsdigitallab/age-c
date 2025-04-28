@@ -1,50 +1,71 @@
 {
-  "filmId":"DE2023_053",
-  "title":"153 Meter",
-  "titleEn":"153 Meter",
-  "director":"Anton von Heiseler",
-  "releaseType":"THE",
-  "releaseDate":1683763200000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Anton von Heiseler",
-  "directorBirthYear":1905,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"DE",
+  "id":"DE2023_053",
+  "type":"film",
+  "slug":"de2023-053-153-meter",
+  "title":{
+    "native":"153 Meter",
+    "english":"153 Meter"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1683763200000,
+    "year":2023
+  },
+  "production":{
+    "country":"DE",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=dL33cWnHChI&ab_channel=FilmtoastTrailer",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt27867935\/mediaviewer\/rm3173131009\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "DRA",
-    "EXP"
+    "EXP",
+    "DRA"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=dL33cWnHChI&ab_channel=FilmtoastTrailer",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt27867935\/mediaviewer\/rm3173131009\/?ref_=tt_ov_i",
-  "synopsis":"Lana (Michaela Caspar) verdient sich ihren Lebensunterhalt als Hausmeisterin. Gemeinsam mit ihrer Mutter lebt sie unter einem Dach in einer kleinen Wohnung. Um auf andere Gedanken zu kommen und ihrem tristen Alltag zu entfliehen, beobachtet sie durch eine Videokamera eine Frau im gegen\u00fcberliegenden Wohnblock. Dabei baut sie in ihrer Fantasie eine innige Beziehung zu ihr auf. Eines Tages sieht sie das Gl\u00fcck ihrer neuen Freundin bedroht und verl\u00e4sst daraufhin ihre Position als stille Beobachterin und greift in das Geschehen ein.",
-  "synopsisEn":"The caretaker Lana shares a small apartment with her mother who needs care. In order to escape from her difficult everyday life, she observes a young woman in the opposite block of flats through a video camera and builds up an intimate relationship with her in her imagination. When Lana sees her new friend's happiness threatened, she leaves the role of the silent observer and intervenes in the events. Two opposite prefabricated buildings, three women, three generations, a video camera. The Story of an Obsession.",
-  "country":"DE",
-  "productionShare":"MAJ",
   "tags":[
-    "independent home",
-    "loneliness",
-    "daily routine",
     "urban",
+    "independent home",
     "caregiving",
+    "daily routine",
+    "loneliness",
     "motherhood"
   ],
-  "charId":"DE2023_053_01",
-  "perId":"Michaela Caspar",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Michaela Caspar",
-  "perBirthYear":1960,
-  "perDeathYear":0,
-  "perGender":"F",
-  "perNationality":"DE",
-  "perRole":null,
-  "slug":"de2023-053-153-meter"
+  "director":[
+    {
+      "id":"Anton von Heiseler",
+      "name":"Anton von Heiseler",
+      "birthYear":1905,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"DE"
+    }
+  ],
+  "character":[
+    {
+      "id":"DE2023_053_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Michaela Caspar",
+        "name":"Michaela Caspar",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"DE"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Lana (Michaela Caspar) verdient sich ihren Lebensunterhalt als Hausmeisterin. Gemeinsam mit ihrer Mutter lebt sie unter einem Dach in einer kleinen Wohnung. Um auf andere Gedanken zu kommen und ihrem tristen Alltag zu entfliehen, beobachtet sie durch eine Videokamera eine Frau im gegen\u00fcberliegenden Wohnblock. Dabei baut sie in ihrer Fantasie eine innige Beziehung zu ihr auf. Eines Tages sieht sie das Gl\u00fcck ihrer neuen Freundin bedroht und verl\u00e4sst daraufhin ihre Position als stille Beobachterin und greift in das Geschehen ein.",
+    "english":"The caretaker Lana shares a small apartment with her mother who needs care. In order to escape from her difficult everyday life, she observes a young woman in the opposite block of flats through a video camera and builds up an intimate relationship with her in her imagination. When Lana sees her new friend's happiness threatened, she leaves the role of the silent observer and intervenes in the events. Two opposite prefabricated buildings, three women, three generations, a video camera. The Story of an Obsession."
+  }
 }

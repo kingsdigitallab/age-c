@@ -1,78 +1,95 @@
 {
-  "filmId":"GB2018_037",
-  "title":"Winter Ridge",
-  "titleEn":null,
-  "director":"Dom Lenoir",
-  "releaseType":"THE",
-  "releaseDate":1536883200000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Dom Lenoir",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2018_037",
+  "type":"film",
+  "slug":"gb2018-037-winter-ridge",
+  "title":{
+    "native":"Winter Ridge",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1536883200000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt5973658\/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_winter%2520ridge",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5973658\/mediaviewer\/rm1420786432\/?ref_=tt_ov_i"
+  },
   "genre":[
+    "DTH",
     "DRA",
-    "NOI",
-    "DTH"
+    "NOI"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt5973658\/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_winter%2520ridge",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5973658\/mediaviewer\/rm1420786432\/?ref_=tt_ov_i",
-  "synopsis":"A young detective is torn apart after his wife ends up in a coma while hunting a serial-killer at the same time.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
+    "state institutions",
+    "hospital",
     "rural",
     "dementia",
-    "abuse",
     "medical treatment",
-    "state institutions",
     "homosociality",
     "crime",
     "murder",
-    "hospital"
+    "abuse"
   ],
-  "charId":[
-    "GB2018_037_01",
-    "GB2018_037_02"
+  "director":[
+    {
+      "id":"Dom Lenoir",
+      "name":"Dom Lenoir",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Alan Ford",
-    "Michael McKell"
+  "character":[
+    {
+      "id":"GB2018_037_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Michael McKell",
+        "name":"Michael McKell",
+        "birthYear":1959.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_037_02",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Alan Ford",
+        "name":"Alan Ford",
+        "birthYear":1938.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "4"
-  ],
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":[
-    "EM",
-    "RE"
-  ],
-  "charAbility":[
-    "AB",
-    "CI"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Alan Ford",
-    "Michael McKell"
-  ],
-  "perBirthYear":[
-    1938,
-    1959
-  ],
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2018-037-winter-ridge"
+  "synopsis":{
+    "native":"A young detective is torn apart after his wife ends up in a coma while hunting a serial-killer at the same time.",
+    "english":null
+  }
 }

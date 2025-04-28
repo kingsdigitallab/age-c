@@ -1,54 +1,75 @@
 {
-  "filmId":"FR2022_011",
-  "title":"La Place d'une autre",
-  "titleEn":"Secret Name",
-  "director":"Aur\u00e9lia Georges",
-  "releaseType":"THE",
-  "releaseDate":1642550400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"FR2022_011",
+  "type":"film",
+  "slug":"fr2022-011-la-place-d-une-autre",
+  "title":{
+    "native":"La Place d'une autre",
+    "english":"Secret Name"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1642550400000,
+    "year":2022
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Qml5y9Q-8CQ",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/112\/186\/244336\/format_page\/la-place-d-une-autre.jpg"
+  },
   "genre":[
-    "HIS",
-    "DRA"
+    "DRA",
+    "HIS"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Qml5y9Q-8CQ",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/112\/186\/244336\/format_page\/la-place-d-une-autre.jpg",
-  "synopsis":"N\u00e9lie a \u00e9chapp\u00e9 \u00e0 une existence mis\u00e9rable en devenant infirmi\u00e8re auxiliaire sur le front en 1914. Un jour, elle prend l\u2019identit\u00e9 de Rose, une jeune femme qu\u2019elle a vue mourir sous ses yeux, et promise \u00e0 un meilleur avenir. N\u00e9lie se pr\u00e9sente \u00e0 sa place chez une riche veuve, El\u00e9onore, dont elle devient la lectrice. Le mensonge fonctionne au-del\u00e0 de ses esp\u00e9rances.",
-  "synopsisEn":"Nelie escaped a miserable existence by becoming a frontline nurse in 1914. One day, she takes the identity of Rose, a young woman from a good family, who dies in front of her. She presents herself in her place at Madame de Lengwil's house, to become the reader of this wealthy woman. The lie works beyond her expectations.",
-  "country":"FR",
-  "productionShare":"MAJ",
   "tags":[
     "wealth",
-    "independent home",
+    "widowhood",
     "intergenerational friendship",
-    "extended family",
-    "state institutions",
     "superior-employee relationship",
-    "unemployment",
-    "religion",
+    "state institutions",
+    "independent home",
     "class conflict",
-    "widowhood"
+    "extended family",
+    "religion",
+    "unemployment"
   ],
-  "charId":"FR2022_011_01",
-  "perId":"Sabine Az\u00e9ma",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UC",
-  "charProfession":"UN",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2022-011-la-place-d-une-autre"
+  "director":[
+    {
+      "id":"Aur\u00e9lia Georges",
+      "name":"Aur\u00e9lia Georges",
+      "birthYear":1973,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2022_011_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Sabine Az\u00e9ma",
+        "name":"Sabine Az\u00e9ma",
+        "birthYear":1949.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"N\u00e9lie a \u00e9chapp\u00e9 \u00e0 une existence mis\u00e9rable en devenant infirmi\u00e8re auxiliaire sur le front en 1914. Un jour, elle prend l\u2019identit\u00e9 de Rose, une jeune femme qu\u2019elle a vue mourir sous ses yeux, et promise \u00e0 un meilleur avenir. N\u00e9lie se pr\u00e9sente \u00e0 sa place chez une riche veuve, El\u00e9onore, dont elle devient la lectrice. Le mensonge fonctionne au-del\u00e0 de ses esp\u00e9rances.",
+    "english":"Nelie escaped a miserable existence by becoming a frontline nurse in 1914. One day, she takes the identity of Rose, a young woman from a good family, who dies in front of her. She presents herself in her place at Madame de Lengwil's house, to become the reader of this wealthy woman. The lie works beyond her expectations."
+  }
 }

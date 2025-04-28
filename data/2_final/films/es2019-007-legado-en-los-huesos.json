@@ -1,99 +1,163 @@
 {
-  "filmId":"ES2019_007",
-  "title":"Legado en los huesos",
-  "titleEn":"The Legacy of the Bones",
-  "director":"Fernando Gonz\u00e1lez Molina",
-  "releaseType":"THE",
-  "releaseDate":1575504000000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"ES2019_007",
+  "type":"film",
+  "slug":"es2019-007-legado-en-los-huesos",
+  "title":{
+    "native":"Legado en los huesos",
+    "english":"The Legacy of the Bones"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1575504000000,
+    "year":2019
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=2offbiQcsLQ",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt7304802\/mediaviewer\/rm2287635201\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "DRA",
     "NOI",
+    "DRA",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=2offbiQcsLQ",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt7304802\/mediaviewer\/rm2287635201\/?ref_=tt_ov_i",
-  "synopsis":"Ha pasado un a\u00f1o desde que Amaia Salazar resolviera los cr\u00edmenes que aterrorizaron al valle del Bazt\u00e1n. Embarazada y decidida a dejar atr\u00e1s lo vivido en Elizondo, la vida de la inspectora se ve de nuevo alterada por un suceso inesperado: el suicidio de varios presos que dejan una \u00fanica palabra escrita en la pared de sus celdas, \"Tarttalo\". Los peligros que Amaia cre\u00eda haber dejado atr\u00e1s regresan con m\u00e1s fuerza que nunca y la inspectora deber\u00e1 enfrentarse a este nuevo caso en una vertiginosa investigaci\u00f3n amenazada por la presencia de su propia madre. Segunda entrega de la 'Trilog\u00eda del Bazt\u00e1n', basada en las novelas de Dolores Redondo.",
-  "synopsisEn":"Inspector Amaia Salazar returns to the Bazt\u00e1n's valley for a new case, and this time even her loved ones won't be safe.",
-  "country":[
-    "DE",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "corruption",
-    "rural",
-    "personal memory",
-    "personal trauma",
-    "abuse",
-    "religion",
-    "extended family",
-    "medical treatment",
+    "intergenerational conflict",
     "mental illness",
+    "corruption",
+    "hospital",
+    "personal memory",
     "state institutions",
+    "rural",
+    "natural",
     "celibacy",
+    "medical treatment",
+    "personal trauma",
     "high rank employment",
     "crime",
-    "intergenerational conflict",
-    "natural",
-    "motherhood",
-    "hospital"
+    "extended family",
+    "religion",
+    "abuse",
+    "motherhood"
   ],
-  "charId":[
-    "ES2019_007_04",
-    "ES2019_007_05",
-    "ES2019_007_03",
-    "ES2019_007_02",
-    "ES2019_007_01"
+  "director":[
+    {
+      "id":"Fernando Gonz\u00e1lez Molina",
+      "name":"Fernando Gonz\u00e1lez Molina",
+      "birthYear":1975,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Ana Wagener",
-    "Susi S\u00e1nchez",
-    "Francesc Orella",
-    "Imanol Arias",
-    "Itziar Aizpuru"
+  "character":[
+    {
+      "id":"ES2019_007_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Imanol Arias",
+        "name":"Imanol Arias",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2019_007_03",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ana Wagener",
+        "name":"Ana Wagener",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2019_007_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Susi S\u00e1nchez",
+        "name":"Susi S\u00e1nchez",
+        "birthYear":1955.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2019_007_04",
+      "age":"4",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Itziar Aizpuru",
+        "name":"Itziar Aizpuru",
+        "birthYear":1939.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2019_007_05",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Francesc Orella",
+        "name":"Francesc Orella",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":[
-    "EM",
-    "RE"
-  ],
-  "charAbility":[
-    "AB",
-    "CI"
-  ],
-  "assistedMobility":null,
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"es2019-007-legado-en-los-huesos"
+  "synopsis":{
+    "native":"Ha pasado un a\u00f1o desde que Amaia Salazar resolviera los cr\u00edmenes que aterrorizaron al valle del Bazt\u00e1n. Embarazada y decidida a dejar atr\u00e1s lo vivido en Elizondo, la vida de la inspectora se ve de nuevo alterada por un suceso inesperado: el suicidio de varios presos que dejan una \u00fanica palabra escrita en la pared de sus celdas, \"Tarttalo\". Los peligros que Amaia cre\u00eda haber dejado atr\u00e1s regresan con m\u00e1s fuerza que nunca y la inspectora deber\u00e1 enfrentarse a este nuevo caso en una vertiginosa investigaci\u00f3n amenazada por la presencia de su propia madre. Segunda entrega de la 'Trilog\u00eda del Bazt\u00e1n', basada en las novelas de Dolores Redondo.",
+    "english":"Inspector Amaia Salazar returns to the Bazt\u00e1n's valley for a new case, and this time even her loved ones won't be safe."
+  }
 }

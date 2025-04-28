@@ -1,88 +1,96 @@
 {
-  "filmId":"GB2022_010",
-  "title":"Emily",
-  "titleEn":null,
-  "director":"Frances O'Connor",
-  "releaseType":"THE",
-  "releaseDate":1665705600000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Frances O'Connor",
-  "directorBirthYear":1967,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"GB",
+  "id":"GB2022_010",
+  "type":"film",
+  "slug":"gb2022-010-emily",
+  "title":{
+    "native":"Emily",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1665705600000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12374656\/?ref_=nm_flmg_knf_t_1",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt12374656\/mediaviewer\/rm919813121\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
-    "BIO",
     "ROM",
-    "COA",
-    "HIS"
-  ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12374656\/?ref_=nm_flmg_knf_t_1",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt12374656\/mediaviewer\/rm919813121\/?ref_=tt_ov_i",
-  "synopsis":"\"Emily\" imagines the transformative, exhilarating, and uplifting journey to womanhood of a rebel and a misfit, one of the world's most famous, enigmatic, and provocative writers, who died, too soon, at age 30.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "BIO",
+    "HIS",
+    "COA"
   ],
   "tags":[
-    "power",
+    "intergenerational conflict",
     "rural",
     "independent home",
-    "fatherhood",
-    "extended family",
     "natural",
-    "gender discrimination",
-    "intergenerational conflict"
+    "fatherhood",
+    "power",
+    "extended family",
+    "gender discrimination"
   ],
-  "charId":[
-    "GB2022_010_01",
-    "GB2022_010_02"
+  "director":[
+    {
+      "id":"Frances O'Connor",
+      "name":"Frances O'Connor",
+      "birthYear":1967,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Adrian Dunbar",
-    "Gemma Jones"
+  "character":[
+    {
+      "id":"GB2022_010_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Adrian Dunbar",
+        "name":"Adrian Dunbar",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_010_02",
+      "age":"4",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Gemma Jones",
+        "name":"Gemma Jones",
+        "birthYear":1942.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":[
-    "SE",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Adrian Dunbar",
-    "Gemma Jones"
-  ],
-  "perBirthYear":[
-    1942,
-    1958
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2022-010-emily"
+  "synopsis":{
+    "native":"\"Emily\" imagines the transformative, exhilarating, and uplifting journey to womanhood of a rebel and a misfit, one of the world's most famous, enigmatic, and provocative writers, who died, too soon, at age 30.",
+    "english":null
+  }
 }

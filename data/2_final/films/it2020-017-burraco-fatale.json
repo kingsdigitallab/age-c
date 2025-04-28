@@ -1,44 +1,67 @@
 {
-  "filmId":"IT2020_017",
-  "title":"Burraco fatale",
-  "titleEn":"Ace of Hearts",
-  "director":"Giuliana Gamba",
-  "releaseType":"THE",
-  "releaseDate":1601510400000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=IAhuS-Lx4wI",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt10368460\/mediaviewer\/rm3318587393\/?ref_=tt_ov_i",
-  "synopsis":"Irma, Eugenia, Miranda e Rina sono quattro donne diverse, ognuna con il proprio carattere, le proprie debolezze e le proprie eccentricit\u00e0, ma legate da una conoscenza profonda e duratura nel tempo, unita e scandita dalle loro irrinunciabili partite a carte. Quando decidono di partecipare ad un torneo nazionale di burraco e uscire dalla loro quotidianit\u00e0, si ritroveranno improvvisamente a carte scoperte. La vita offre sempre una seconda occasione e l\u2019amore pu\u00f2 tornare a stravolgere a qualsiasi et\u00e0. Del resto, \u00e8 proprio il gioco del burraco ad avergli insegnato che una partita va giocata tutta, fino in fondo, e che nessun risultato \u00e8 mai scontato.",
-  "synopsisEn":"Irma, Eugenia, Miranda and Rina are four different women, each with their character, their weaknesses and their eccentricities, but linked by a deep and lasting knowledge over time, united and marked by their indispensable games. cards.",
-  "country":"IT",
-  "productionShare":"MAJ",
+  "id":"IT2020_017",
+  "type":"film",
+  "slug":"it2020-017-burraco-fatale",
+  "title":{
+    "native":"Burraco fatale",
+    "english":"Ace of Hearts"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1601510400000,
+    "year":2020
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=IAhuS-Lx4wI",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt10368460\/mediaviewer\/rm3318587393\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
     "homosociality",
-    "marriage",
-    "infidelity"
+    "infidelity",
+    "marriage"
   ],
-  "charId":"IT2020_017_01",
-  "perId":"Angela Finocchiaro",
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"UN",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2020-017-burraco-fatale"
+  "director":[
+    {
+      "id":"Giuliana Gamba",
+      "name":"Giuliana Gamba",
+      "birthYear":1953,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2020_017_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Angela Finocchiaro",
+        "name":"Angela Finocchiaro",
+        "birthYear":1955.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Irma, Eugenia, Miranda e Rina sono quattro donne diverse, ognuna con il proprio carattere, le proprie debolezze e le proprie eccentricit\u00e0, ma legate da una conoscenza profonda e duratura nel tempo, unita e scandita dalle loro irrinunciabili partite a carte. Quando decidono di partecipare ad un torneo nazionale di burraco e uscire dalla loro quotidianit\u00e0, si ritroveranno improvvisamente a carte scoperte. La vita offre sempre una seconda occasione e l\u2019amore pu\u00f2 tornare a stravolgere a qualsiasi et\u00e0. Del resto, \u00e8 proprio il gioco del burraco ad avergli insegnato che una partita va giocata tutta, fino in fondo, e che nessun risultato \u00e8 mai scontato.",
+    "english":"Irma, Eugenia, Miranda and Rina are four different women, each with their character, their weaknesses and their eccentricities, but linked by a deep and lasting knowledge over time, united and marked by their indispensable games. cards."
+  }
 }

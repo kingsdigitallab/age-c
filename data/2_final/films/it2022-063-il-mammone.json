@@ -1,56 +1,87 @@
 {
-  "filmId":"IT2022_063",
-  "title":"Il mammone",
-  "titleEn":null,
-  "director":"Giovanni Bognetti",
-  "releaseType":"THE",
-  "releaseDate":1646697600000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=VJNwVNUFpZc",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt13070586\/mediaviewer\/rm141953025\/?ref_=tt_ov_i",
-  "synopsis":"L'antico proverbio giapponese \u201cQuando sei mamma lo sei per sempre\u201d \u00e8 un mantra nella famiglia Bonelli. Aldo, figlio unico di Piero e Anna, nonostante i suoi 35 anni suonati, l\u2019indipendenza economica, una brillante carriera accademica come professore universitario e innumerevoli occasioni di lavoro all\u2019estero, vive ancora felicemente a casa con la madre e il padre. Un giorno per\u00f2 i genitori realizzano quello che mai avrebbero pensato: non lo sopportano pi\u00f9! Inizia in casa una vera e propria guerra fredda, nella quale i coniugi Bonelli cercano di far emancipare Aldo e metterlo alla porta con ogni mezzo a loro disposizione. Il ragazzo per\u00f2 ha delle risorse inaspettate e non \u00e8 un tipo che si arrende facilmente.",
-  "synopsisEn":null,
-  "country":"IT",
-  "productionShare":"MAJ",
+  "id":"IT2022_063",
+  "type":"film",
+  "slug":"it2022-063-il-mammone",
+  "title":{
+    "native":"Il mammone",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1646697600000,
+    "year":2022
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=VJNwVNUFpZc",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt13070586\/mediaviewer\/rm141953025\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
-    "empty nest",
     "marriage",
-    "parenthood"
+    "parenthood",
+    "empty nest"
   ],
-  "charId":[
-    "IT2022_063_01",
-    "IT2022_063_02"
+  "director":[
+    {
+      "id":"Giovanni Bognetti",
+      "name":"Giovanni Bognetti",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
   ],
-  "perId":[
-    "Diego Abatantuono",
-    "Angela Finocchiaro"
+  "character":[
+    {
+      "id":"IT2022_063_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Angela Finocchiaro",
+        "name":"Angela Finocchiaro",
+        "birthYear":1955.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2022_063_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Diego Abatantuono",
+        "name":"Diego Abatantuono",
+        "birthYear":1955.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":[
-    "SE",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2022-063-il-mammone"
+  "synopsis":{
+    "native":"L'antico proverbio giapponese \u201cQuando sei mamma lo sei per sempre\u201d \u00e8 un mantra nella famiglia Bonelli. Aldo, figlio unico di Piero e Anna, nonostante i suoi 35 anni suonati, l\u2019indipendenza economica, una brillante carriera accademica come professore universitario e innumerevoli occasioni di lavoro all\u2019estero, vive ancora felicemente a casa con la madre e il padre. Un giorno per\u00f2 i genitori realizzano quello che mai avrebbero pensato: non lo sopportano pi\u00f9! Inizia in casa una vera e propria guerra fredda, nella quale i coniugi Bonelli cercano di far emancipare Aldo e metterlo alla porta con ogni mezzo a loro disposizione. Il ragazzo per\u00f2 ha delle risorse inaspettate e non \u00e8 un tipo che si arrende facilmente.",
+    "english":null
+  }
 }

@@ -1,52 +1,73 @@
 {
-  "filmId":"ES2022_057",
-  "title":"Toscana",
-  "titleEn":null,
-  "director":"Pau Dur\u00e0",
-  "releaseType":"THE",
-  "releaseDate":1652918400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Pau Dur\u00e0",
-  "directorBirthYear":1972,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2022_057",
+  "type":"film",
+  "slug":"es2022-057-toscana",
+  "title":{
+    "native":"Toscana",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1652918400000,
+    "year":2022
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt14033476\/?ref_=nv_sr_srsg_2_tt_8_nm_0_in_0_q_Toscana",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14033476\/mediaviewer\/rm1568020993\/?ref_=tt_ov_i"
+  },
   "genre":[
     "CRI",
     "COM",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt14033476\/?ref_=nv_sr_srsg_2_tt_8_nm_0_in_0_q_Toscana",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14033476\/mediaviewer\/rm1568020993\/?ref_=tt_ov_i",
-  "synopsis":"Atravesando en vespa la ciudad, y llevando en el bolsillo un frasco con esperma, Santi va hacia una cl\u00ednica de reproducci\u00f3n asistida para hacer una in vitro con su mujer. De repente, un coche lo tumba y la conductora se larga. Incapaz de poner en marcha la moto, para a un taxi. No dispone de cambio y entra en un restaurante que hay cerca: el Toscana. All\u00ed, Ram\u00f3n, el propietario, discute en el tel\u00e9fono por un dinero -que suponemos negro- destinados a la reforma del local. Cuando Santi le pide cambio, entra un t\u00edo llamado Tom\u00e1s reclamando el finiquito que se le debe. Ramon se niega: el negocio va mal. Entonces Tom\u00e1s saca una escopeta de caza: desesperado, ha consumido el paro, debe pagar la terapia y ha dejado de enviarle dinero a Heidi, su ex sueca que vive en Florencia con su hijo Valter.",
-  "synopsisEn":"Santi collides on a scooter with a vehicle whose driver is on the run. Seeking help, he gets trapped in the Toscana restaurant where, at gunpoint, an ex-chef demands a severance pay from his owner.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "abuse",
-    "self-employment",
-    "organized crime",
-    "homosociality",
     "urban",
+    "homosociality",
+    "class conflict",
+    "self-employment",
+    "abuse",
     "revenge",
-    "class conflict"
+    "organized crime"
   ],
-  "charId":"ES2022_057_01",
-  "perId":"Francesc Orella",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"es2022-057-toscana"
+  "director":[
+    {
+      "id":"Pau Dur\u00e0",
+      "name":"Pau Dur\u00e0",
+      "birthYear":1972,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
+  ],
+  "character":[
+    {
+      "id":"ES2022_057_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Francesc Orella",
+        "name":"Francesc Orella",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Atravesando en vespa la ciudad, y llevando en el bolsillo un frasco con esperma, Santi va hacia una cl\u00ednica de reproducci\u00f3n asistida para hacer una in vitro con su mujer. De repente, un coche lo tumba y la conductora se larga. Incapaz de poner en marcha la moto, para a un taxi. No dispone de cambio y entra en un restaurante que hay cerca: el Toscana. All\u00ed, Ram\u00f3n, el propietario, discute en el tel\u00e9fono por un dinero -que suponemos negro- destinados a la reforma del local. Cuando Santi le pide cambio, entra un t\u00edo llamado Tom\u00e1s reclamando el finiquito que se le debe. Ramon se niega: el negocio va mal. Entonces Tom\u00e1s saca una escopeta de caza: desesperado, ha consumido el paro, debe pagar la terapia y ha dejado de enviarle dinero a Heidi, su ex sueca que vive en Florencia con su hijo Valter.",
+    "english":"Santi collides on a scooter with a vehicle whose driver is on the run. Seeking help, he gets trapped in the Toscana restaurant where, at gunpoint, an ex-chef demands a severance pay from his owner."
+  }
 }

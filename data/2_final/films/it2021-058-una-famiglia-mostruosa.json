@@ -1,47 +1,68 @@
 {
-  "filmId":"IT2021_058",
-  "title":"Una famiglia mostruosa",
-  "titleEn":"Help! My In-Laws Are Vampires!",
-  "director":"Volfango De Biasi",
-  "releaseType":"THE",
-  "releaseDate":1637798400000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2021_058",
+  "type":"film",
+  "slug":"it2021-058-una-famiglia-mostruosa",
+  "title":{
+    "native":"Una famiglia mostruosa",
+    "english":"Help! My In-Laws Are Vampires!"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1637798400000,
+    "year":2021
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=vV6mV6BPsdI",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt11847758\/mediaviewer\/rm1475476993\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "FAN",
-    "COM"
+    "COM",
+    "FAN"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=vV6mV6BPsdI",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt11847758\/mediaviewer\/rm1475476993\/?ref_=tt_ov_i",
-  "synopsis":"Luna e Adalberto scoprono di aspettare un figlio, cos\u00ec per l\u2019uomo giunge il momento di presentare la fidanzata alla sua blasonata famiglia, non meno \"mostruosa\" nel vero senso del termine: un padre vampiro, una madre strega, una nonna fantasma e uno zio zombie. L\u2019unione con una comune mortale non \u00e8 da dare per scontata.",
-  "synopsisEn":"Adalberto and Luna meet and fall in love. Far from home, they can't get to know each other's family. This has to change once Luna gets pregnant.",
-  "country":"IT",
-  "productionShare":"MAJ",
   "tags":[
-    "in-laws",
+    "parenthood",
     "extended family",
-    "parenthood"
+    "in-laws"
   ],
-  "charId":"IT2021_058_01",
-  "perId":"Massimo Ghini",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2021-058-una-famiglia-mostruosa"
+  "director":[
+    {
+      "id":"Volfango De Biasi",
+      "name":"Volfango De Biasi",
+      "birthYear":1972,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2021_058_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Massimo Ghini",
+        "name":"Massimo Ghini",
+        "birthYear":1954.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Luna e Adalberto scoprono di aspettare un figlio, cos\u00ec per l\u2019uomo giunge il momento di presentare la fidanzata alla sua blasonata famiglia, non meno \"mostruosa\" nel vero senso del termine: un padre vampiro, una madre strega, una nonna fantasma e uno zio zombie. L\u2019unione con una comune mortale non \u00e8 da dare per scontata.",
+    "english":"Adalberto and Luna meet and fall in love. Far from home, they can't get to know each other's family. This has to change once Luna gets pregnant."
+  }
 }

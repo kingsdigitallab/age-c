@@ -1,66 +1,88 @@
 {
-  "filmId":"GB2019_021",
-  "title":"Ordinary love",
-  "titleEn":null,
-  "director":"Lisa Barros D'Sa and Glenn Leyburn",
-  "releaseType":"THE",
-  "releaseDate":1575590400000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2019_021",
+  "type":"film",
+  "slug":"gb2019-021-ordinary-love",
+  "title":{
+    "native":"Ordinary love",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1575590400000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=P6ihjNXgMdk",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6012380\/mediaviewer\/rm1209762049\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "ROM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=P6ihjNXgMdk",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6012380\/mediaviewer\/rm1209762049\/?ref_=tt_ov_i",
-  "synopsis":"An extraordinary look at the lives of a middle-aged couple in the midst of the wife's breast cancer diagnosis.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "sex",
-    "independent home",
-    "medical treatment",
-    "physical illness",
-    "daily routine",
+    "hospital",
     "marriage",
-    "well-being",
-    "agony",
+    "independent home",
     "caregiving",
-    "hospital"
+    "medical treatment",
+    "well-being",
+    "daily routine",
+    "sex",
+    "agony",
+    "physical illness"
   ],
-  "charId":[
-    "GB2019_021_02",
-    "GB2019_021_01"
+  "director":[
+
   ],
-  "perId":[
-    "Liam Neeson",
-    "Lesley Manville"
+  "character":[
+    {
+      "id":"GB2019_021_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Lesley Manville",
+        "name":"Lesley Manville",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"UK"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_021_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Liam Neeson",
+        "name":"Liam Neeson",
+        "birthYear":1952.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"UK"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"RE",
-  "charAbility":[
-    "AB",
-    "CI"
-  ],
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2019-021-ordinary-love"
+  "synopsis":{
+    "native":"An extraordinary look at the lives of a middle-aged couple in the midst of the wife's breast cancer diagnosis.",
+    "english":null
+  }
 }

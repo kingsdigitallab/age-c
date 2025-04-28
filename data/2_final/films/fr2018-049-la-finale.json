@@ -1,58 +1,73 @@
 {
-  "filmId":"FR2018_049",
-  "title":"La Finale",
-  "titleEn":"In The Game",
-  "director":"Robin Sykes",
-  "releaseType":"THE",
-  "releaseDate":1521590400000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Robin Sykes",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"FR",
+  "id":"FR2018_049",
+  "type":"film",
+  "slug":"fr2018-049-la-finale",
+  "title":{
+    "native":"La Finale",
+    "english":"In The Game"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1521590400000,
+    "year":2018
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=_2YpIWTcoXM",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/74\/221\/187722\/format_page\/in-the-game.jpg"
+  },
   "genre":[
     "DRA",
     "COM",
     "SPO"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=_2YpIWTcoXM",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/74\/221\/187722\/format_page\/in-the-game.jpg",
-  "synopsis":"Toute la famille Verdi est aux petits soins pour s\u2019occuper de Roland, le grand-p\u00e8re, qui perd un peu la boule ces derniers temps. Tous sauf JB, l'ado de la famille, qui n'a qu'un seul but : monter a\u0300 Paris pour disputer sa finale de basket. Mais ses parents, bloqu\u00e9s ce week-end-l\u00e0, lui demandent d\u2019y renoncer pour surveiller son grand-p\u00e8re. JB d\u00e9cide alors de l\u2019embarquer avec lui. Pendant ce voyage, rien ne se passera comme pr\u00e9vu...",
-  "synopsisEn":"A rebellious teenager must travel the country with his sick grandpa to get to his basketball game.",
-  "country":[
-    "BE",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "dementia",
     "in-laws",
-    "parenthood",
-    "grandparenthood",
-    "retirement",
     "marriage",
-    "multigenerational family"
+    "multigenerational family",
+    "dementia",
+    "parenthood",
+    "retirement",
+    "grandparenthood"
   ],
-  "charId":"FR2018_049_01",
-  "perId":"Thierry Lhermitte",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"RE",
-  "charAbility":"CI",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2018-049-la-finale"
+  "director":[
+    {
+      "id":"Robin Sykes",
+      "name":"Robin Sykes",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2018_049_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Thierry Lhermitte",
+        "name":"Thierry Lhermitte",
+        "birthYear":1952.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Toute la famille Verdi est aux petits soins pour s\u2019occuper de Roland, le grand-p\u00e8re, qui perd un peu la boule ces derniers temps. Tous sauf JB, l'ado de la famille, qui n'a qu'un seul but : monter a\u0300 Paris pour disputer sa finale de basket. Mais ses parents, bloqu\u00e9s ce week-end-l\u00e0, lui demandent d\u2019y renoncer pour surveiller son grand-p\u00e8re. JB d\u00e9cide alors de l\u2019embarquer avec lui. Pendant ce voyage, rien ne se passera comme pr\u00e9vu...",
+    "english":"A rebellious teenager must travel the country with his sick grandpa to get to his basketball game."
+  }
 }

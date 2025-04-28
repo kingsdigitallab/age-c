@@ -1,132 +1,247 @@
 {
-  "filmId":"GB2018_007",
-  "title":"Finding Your Feet",
-  "titleEn":null,
-  "director":"Richard Loncraine",
-  "releaseType":"THE",
-  "releaseDate":1519344000000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Richard Loncraine",
-  "directorBirthYear":1946,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2018_007",
+  "type":"film",
+  "slug":"gb2018-007-finding-your-feet",
+  "title":{
+    "native":"Finding Your Feet",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1519344000000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=6-Cp6ba2Y0g",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt4538916\/mediaviewer\/rm4227683328\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "COM",
-    "ROM"
+    "ROM",
+    "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=6-Cp6ba2Y0g",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt4538916\/mediaviewer\/rm4227683328\/?ref_=tt_ov_i",
-  "synopsis":"On the eve of retirement a middle class, judgmental snob discovers her husband has been having an affair with her best friend and is forced into exile with her bohemian sister who lives on an impoverished inner-city council estate.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
+    "urban",
+    "homosociality",
+    "class conflict",
+    "women empowerment",
+    "cross-gender friendship",
+    "physical illness",
+    "holiday",
+    "infidelity",
+    "romance",
+    "personal memory",
+    "elderhood (friendship among elders)",
+    "independent home",
     "sex",
     "intragenerational friendship",
-    "body norms",
-    "urban",
-    "class conflict",
-    "cross-gender friendship",
     "tourism",
-    "physical illness",
-    "homosociality",
-    "well-being",
+    "separation",
+    "high rank employment",
     "retirement",
     "new start",
-    "women empowerment",
-    "separation",
-    "personal memory",
+    "well-being",
     "sisterhood",
-    "high rank employment",
-    "holiday",
-    "independent home",
-    "romance",
-    "infidelity",
-    "elderhood (friendship among elders)"
+    "body norms"
   ],
-  "charId":[
-    "GB2018_007_06",
-    "GB2018_007_04",
-    "GB2018_007_08",
-    "GB2018_007_09",
-    "GB2018_007_05",
-    "GB2018_007_03",
-    "GB2018_007_01",
-    "GB2018_007_02",
-    "GB2018_007_07"
+  "director":[
+    {
+      "id":"Richard Loncraine",
+      "name":"Richard Loncraine",
+      "birthYear":1946,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Larrington Walker",
-    "David Hayman",
-    "Phoebe Nicholls",
-    "Imelda Staunton",
-    "Joanna Lumley",
-    "John Sessions",
-    "Sian Thomas",
-    "Timothy Spall",
-    "Celia Imrie"
+  "character":[
+    {
+      "id":"GB2018_007_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Timothy Spall",
+        "name":"Timothy Spall",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_007_04",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Joanna Lumley",
+        "name":"Joanna Lumley",
+        "birthYear":1946.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_007_07",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Phoebe Nicholls",
+        "name":"Phoebe Nicholls",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_007_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Celia Imrie",
+        "name":"Celia Imrie",
+        "birthYear":1952.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_007_05",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"David Hayman",
+        "name":"David Hayman",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_007_06",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"John Sessions",
+        "name":"John Sessions",
+        "birthYear":1953.0,
+        "deathYear":2020.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_007_08",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Sian Thomas",
+        "name":"Sian Thomas",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_007_09",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"BWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Larrington Walker",
+        "name":"Larrington Walker",
+        "birthYear":1946.0,
+        "deathYear":2017.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_007_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Imelda Staunton",
+        "name":"Imelda Staunton",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":[
-    "BWE",
-    "WWE"
-  ],
-  "charClass":[
-    "UM",
-    "MC",
-    "LM",
-    null
-  ],
-  "charProfession":[
-    "SE",
-    "RE",
-    "UN",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Larrington Walker",
-    "David Hayman",
-    "Phoebe Nicholls",
-    null,
-    "Sian Thomas",
-    "Joanna Lumley",
-    "John Sessions",
-    "Imelda Staunton"
-  ],
-  "perBirthYear":[
-    0,
-    1953,
-    1956,
-    1957,
-    1946,
-    1948
-  ],
-  "perDeathYear":[
-    0,
-    2017,
-    2020
-  ],
-  "perGender":[
-    "F",
-    "M",
-    null
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2018-007-finding-your-feet"
+  "synopsis":{
+    "native":"On the eve of retirement a middle class, judgmental snob discovers her husband has been having an affair with her best friend and is forced into exile with her bohemian sister who lives on an impoverished inner-city council estate.",
+    "english":null
+  }
 }

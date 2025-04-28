@@ -1,110 +1,145 @@
 {
-  "filmId":"GB2018_028",
-  "title":"The Chaperone",
-  "titleEn":null,
-  "director":"Michael Engler",
-  "releaseType":"FES",
-  "releaseDate":1537660800000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Michael Engler",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"US",
+  "id":"GB2018_028",
+  "type":"film",
+  "slug":"gb2018-028-the-chaperone",
+  "title":{
+    "native":"The Chaperone",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"FES",
+    "date":1537660800000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt2690226\/?ref_=ttrel",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt2690226\/mediaviewer\/rm2099342848\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
     "DRA",
+    "HIS",
     "ROM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt2690226\/?ref_=ttrel",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt2690226\/mediaviewer\/rm2099342848\/?ref_=tt_ov_i",
-  "synopsis":"In the early 1920s, a Kansas woman finds her life forever changed when she accompanies a young dancer on her fame-seeking journey to New York City.",
-  "synopsisEn":null,
-  "country":[
-    "AU",
-    "GB",
-    "US"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "sex",
-    "desire",
-    "intergenerational friendship",
-    "self-employment",
-    "body norms",
-    "mentorship",
     "urban",
-    "motherhood",
-    "wealth",
-    "volunteering",
-    "may-december",
     "homosociality",
     "women empowerment",
-    "personal memory",
-    "class solidarity",
-    "romance",
     "infidelity",
+    "romance",
+    "wealth",
+    "personal memory",
+    "sex",
+    "desire",
+    "self-employment",
+    "volunteering",
+    "intergenerational friendship",
+    "gender discrimination",
+    "motherhood",
+    "mentorship",
     "marriage",
-    "gender discrimination"
+    "class solidarity",
+    "may-december",
+    "body norms"
   ],
-  "charId":[
-    "GB2018_028_01",
-    "GB2018_028_03",
-    "GB2018_028_02",
-    "GB2018_028_04"
+  "director":[
+    {
+      "id":"Michael Engler",
+      "name":"Michael Engler",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"US"
+    }
   ],
-  "perId":[
-    "Jayne Houdyshell",
-    "Campbell Scott",
-    "Elizabeth McGovern",
-    "Blythe Danner"
+  "character":[
+    {
+      "id":"GB2018_028_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Campbell Scott",
+        "name":"Campbell Scott",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_028_03",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"UC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Blythe Danner",
+        "name":"Blythe Danner",
+        "birthYear":1943.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_028_04",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WNA",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jayne Houdyshell",
+        "name":"Jayne Houdyshell",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_028_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Elizabeth McGovern",
+        "name":"Elizabeth McGovern",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"US"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WNA",
-  "charClass":[
-    "UM",
-    "MC",
-    "UC"
-  ],
-  "charProfession":[
-    "SE",
-    "EM",
-    "UN"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Jayne Houdyshell",
-    "Campbell Scott",
-    "Elizabeth McGovern",
-    "Blythe Danner"
-  ],
-  "perBirthYear":[
-    1961,
-    1953,
-    1943
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"US",
-  "perRole":null,
-  "slug":"gb2018-028-the-chaperone"
+  "synopsis":{
+    "native":"In the early 1920s, a Kansas woman finds her life forever changed when she accompanies a young dancer on her fame-seeking journey to New York City.",
+    "english":null
+  }
 }

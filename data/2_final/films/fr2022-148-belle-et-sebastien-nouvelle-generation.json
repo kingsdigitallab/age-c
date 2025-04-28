@@ -1,46 +1,69 @@
 {
-  "filmId":"FR2022_148",
-  "title":"Belle et S\u00e9bastien : Nouvelle g\u00e9n\u00e9ration",
-  "titleEn":"Belle and Sebastian - Next Generation",
-  "director":"Pierre Cor\u00e9",
-  "releaseType":"THE",
-  "releaseDate":1666137600000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"CHI",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=lsHJK0bgyRw",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/62\/225\/254270\/format_page\/belle-et-sebastien-nouvelle-generation.png",
-  "synopsis":"S\u00e9bastien, 10 ans, passe ses vacances \u00e0 contrec\u0153ur \u00e0 la montagne chez sa grand-m\u00e8re et sa tante. Il doit donner un coup de main \u00e0 la bergerie, rien de bien excitant pour un gar\u00e7on des villes comme lui\u2026 mais c\u2019est sans compter sur sa rencontre avec Belle, une chienne immense et maltrait\u00e9e par son ma\u00eetre. Pr\u00eat \u00e0 tout pour \u00e9viter les injustices et prot\u00e9ger sa nouvelle amie, S\u00e9bastien va vivre l\u2019\u00e9t\u00e9 le plus fou de sa vie.",
-  "synopsisEn":"10-year-old Sebastien reluctantly spends his vacation in the mountains with his grandmother and aunt. He is to help them with the sheep, hardly an exciting prospect for a city boy like him... but that is without considering his encounter with Belle, a huge dog mistreated by her owner. Ready to do anything to fight injustice and to protect his new-found friend, Sebastien will spend the craziest summer of his life.",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2022_148",
+  "type":"film",
+  "slug":"fr2022-148-belle-et-sebastien-nouvelle-generation",
+  "title":{
+    "native":"Belle et S\u00e9bastien : Nouvelle g\u00e9n\u00e9ration",
+    "english":"Belle and Sebastian - Next Generation"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1666137600000,
+    "year":2022
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=lsHJK0bgyRw",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/62\/225\/254270\/format_page\/belle-et-sebastien-nouvelle-generation.png"
+  },
+  "genre":[
+    "CHI"
+  ],
   "tags":[
     "rural",
+    "multigenerational family",
     "independent home",
     "self-employment",
-    "grandparenthood",
-    "multigenerational family"
+    "grandparenthood"
   ],
-  "charId":"FR2022_148_01",
-  "perId":"Mich\u00e8le Laroque",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2022-148-belle-et-sebastien-nouvelle-generation"
+  "director":[
+    {
+      "id":"Pierre Cor\u00e9",
+      "name":"Pierre Cor\u00e9",
+      "birthYear":1969,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2022_148_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Mich\u00e8le Laroque",
+        "name":"Mich\u00e8le Laroque",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"S\u00e9bastien, 10 ans, passe ses vacances \u00e0 contrec\u0153ur \u00e0 la montagne chez sa grand-m\u00e8re et sa tante. Il doit donner un coup de main \u00e0 la bergerie, rien de bien excitant pour un gar\u00e7on des villes comme lui\u2026 mais c\u2019est sans compter sur sa rencontre avec Belle, une chienne immense et maltrait\u00e9e par son ma\u00eetre. Pr\u00eat \u00e0 tout pour \u00e9viter les injustices et prot\u00e9ger sa nouvelle amie, S\u00e9bastien va vivre l\u2019\u00e9t\u00e9 le plus fou de sa vie.",
+    "english":"10-year-old Sebastien reluctantly spends his vacation in the mountains with his grandmother and aunt. He is to help them with the sheep, hardly an exciting prospect for a city boy like him... but that is without considering his encounter with Belle, a huge dog mistreated by her owner. Ready to do anything to fight injustice and to protect his new-found friend, Sebastien will spend the craziest summer of his life."
+  }
 }

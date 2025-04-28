@@ -1,78 +1,111 @@
 {
-  "filmId":"GB2023_050",
-  "title":"Big Trouble in Little India",
-  "titleEn":null,
-  "director":"Bee2",
-  "releaseType":"THE",
-  "releaseDate":1700784000000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Bee2",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=_L5zsN-Ez8s",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt27836355\/mediaviewer\/rm3257160705\/?ref_=tt_ov_i",
-  "synopsis":"The narrative revolves around Guruji, a smooth-talking conman who exploits the vulnerabilities of his clients by convincing them of his supernatural ability to communicate with the departed.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
+  "id":"GB2023_050",
+  "type":"film",
+  "slug":"gb2023-050-big-trouble-in-little-india",
+  "title":{
+    "native":"Big Trouble in Little India",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1700784000000,
+    "year":2023
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=_L5zsN-Ez8s",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt27836355\/mediaviewer\/rm3257160705\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
     "fraud",
-    "power",
-    "grandmotherhood",
-    "migration",
-    "organized crime",
     "urban",
-    "grandfatherhood"
+    "grandmotherhood",
+    "grandfatherhood",
+    "power",
+    "migration",
+    "organized crime"
   ],
-  "charId":[
-    "GB2023_050_01",
-    "GB2023_050_03",
-    "GB2023_050_02"
+  "director":[
+    {
+      "id":"Bee2",
+      "name":"Bee2",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Murali Vidhyadharan",
-    "Nirmal Rishi",
-    "Deepak Anand"
+  "character":[
+    {
+      "id":"GB2023_050_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"SOA",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Murali Vidhyadharan",
+        "name":"Murali Vidhyadharan",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IN"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_050_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"SOA",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Deepak Anand",
+        "name":"Deepak Anand",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IN"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_050_02",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"SOA",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Nirmal Rishi",
+        "name":"Nirmal Rishi",
+        "birthYear":1943.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IN"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"SOA",
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":[
-    "SE",
-    "RE"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Murali Vidhyadharan",
-    "Nirmal Rishi",
-    "Deepak Anand"
-  ],
-  "perBirthYear":[
-    0,
-    1943
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"IN",
-  "perRole":null,
-  "slug":"gb2023-050-big-trouble-in-little-india"
+  "synopsis":{
+    "native":"The narrative revolves around Guruji, a smooth-talking conman who exploits the vulnerabilities of his clients by convincing them of his supernatural ability to communicate with the departed.",
+    "english":null
+  }
 }

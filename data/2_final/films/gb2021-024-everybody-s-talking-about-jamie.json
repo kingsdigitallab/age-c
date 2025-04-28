@@ -1,103 +1,110 @@
 {
-  "filmId":"GB2021_024",
-  "title":"Everybody's Talking About Jamie",
-  "titleEn":null,
-  "director":[
-    "Tom MacRae",
-    "Dan Gillespie Sells",
-    "Jonathan Butterell"
-  ],
-  "releaseType":"THE",
-  "releaseDate":1633737600000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":[
-    "Dan Gillespie Sells",
-    "Jonathan Butterell",
-    null
-  ],
-  "directorBirthYear":[
-    0,
-    1978
-  ],
-  "directorDeathYear":0,
-  "directorGender":[
-    null,
-    "M"
-  ],
-  "directorNationality":[
-    "GB",
-    null
-  ],
+  "id":"GB2021_024",
+  "type":"film",
+  "slug":"gb2021-024-everybody-s-talking-about-jamie",
+  "title":{
+    "native":"Everybody's Talking About Jamie",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1633737600000,
+    "year":2021
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=CpOeZw7xdfI",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt8635092\/mediaviewer\/rm2894265345\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "DRA",
+    "MUS",
     "COA",
     "COM",
-    "MUS"
-  ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=CpOeZw7xdfI",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt8635092\/mediaviewer\/rm2894265345\/?ref_=tt_ov_i",
-  "synopsis":"Despite obstacles, 16-year-old Jamie has the courage to fabulously follow his unconventional dream.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "DRA"
   ],
   "tags":[
+    "lgbtqi",
+    "mentorship",
+    "urban",
     "intergenerational friendship",
     "artistic creation",
-    "lgbtqi",
     "homosociality",
-    "urban",
-    "mentorship",
     "motherhood"
   ],
-  "charId":[
-    "GB2021_024_02",
-    "GB2021_024_01"
+  "director":[
+    {
+      "id":"Tom MacRae",
+      "name":"Tom MacRae",
+      "birthYear":1977,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    },
+    {
+      "id":"Jonathan Butterell",
+      "name":"Jonathan Butterell",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    },
+    {
+      "id":"Dan Gillespie Sells",
+      "name":"Dan Gillespie Sells",
+      "birthYear":1978,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Sarah Lancashire",
-    "Richard E. Grant"
+  "character":[
+    {
+      "id":"GB2021_024_02",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Sarah Lancashire",
+        "name":"Sarah Lancashire",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_024_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HO",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Richard E. Grant",
+        "name":"Richard E. Grant",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HO",
-    "HE"
-  ],
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Richard E. Grant",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1957
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    null,
-    "M"
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2021-024-everybody-s-talking-about-jamie"
+  "synopsis":{
+    "native":"Despite obstacles, 16-year-old Jamie has the courage to fabulously follow his unconventional dream.",
+    "english":null
+  }
 }

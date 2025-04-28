@@ -1,51 +1,72 @@
 {
-  "filmId":"GB2018_071",
-  "title":"Dark River",
-  "titleEn":null,
-  "director":"Clio Barnard",
-  "releaseType":"THE",
-  "releaseDate":1519344000000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Clio Barnard",
-  "directorBirthYear":1965,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"GB",
+  "id":"GB2018_071",
+  "type":"film",
+  "slug":"gb2018-071-dark-river",
+  "title":{
+    "native":"Dark River",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1519344000000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=L0PMTh9s_ac",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5700176\/mediaviewer\/rm1463967744\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=L0PMTh9s_ac",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5700176\/mediaviewer\/rm1463967744\/?ref_=tt_ov_i",
-  "synopsis":"Following the death of her father, Alice (Ruth Wilson) returns to her home village for the first time in 15 years, to claim the tenancy to the family farm she believes is rightfully hers.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "rural",
-    "abuse",
-    "fatherhood",
-    "independent home",
     "pedophilia",
+    "rural",
+    "independent home",
+    "inheritance",
+    "fatherhood",
     "self-employment",
-    "inheritance"
+    "abuse"
   ],
-  "charId":"GB2018_071_01",
-  "perId":"Sean Bean",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Sean Bean",
-  "perBirthYear":1959,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2018-071-dark-river"
+  "director":[
+    {
+      "id":"Clio Barnard",
+      "name":"Clio Barnard",
+      "birthYear":1965,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2018_071_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Sean Bean",
+        "name":"Sean Bean",
+        "birthYear":1959.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Following the death of her father, Alice (Ruth Wilson) returns to her home village for the first time in 15 years, to claim the tenancy to the family farm she believes is rightfully hers.",
+    "english":null
+  }
 }

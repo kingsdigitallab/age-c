@@ -1,74 +1,98 @@
 {
-  "filmId":"GB2018_024",
-  "title":"Euphoria",
-  "titleEn":null,
-  "director":"Lisa Langseth",
-  "releaseType":"THE",
-  "releaseDate":1517529600000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Lisa Langseth",
-  "directorBirthYear":1975,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"SE",
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=R7yPUgWjpsw",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5698320\/mediaviewer\/rm120822017\/?ref_=tt_ov_i",
-  "synopsis":"Sisters in conflict travelling through Europe toward a mystery destination.",
-  "synopsisEn":null,
-  "country":[
-    "SE",
-    "DE",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+  "id":"GB2018_024",
+  "type":"film",
+  "slug":"gb2018-024-euphoria",
+  "title":{
+    "native":"Euphoria",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1517529600000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=R7yPUgWjpsw",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5698320\/mediaviewer\/rm120822017\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
   ],
   "tags":[
-    "power",
-    "dementia",
-    "intergenerational friendship",
-    "self-employment",
-    "medical treatment",
-    "artistic creation",
-    "spirituality",
-    "homosociality",
-    "well-being",
     "mentorship",
-    "natural",
+    "intergenerational friendship",
+    "artistic creation",
     "caregiving",
-    "cross-gender friendship",
-    "communal housing"
+    "dementia",
+    "natural",
+    "medical treatment",
+    "well-being",
+    "homosociality",
+    "communal housing",
+    "spirituality",
+    "power",
+    "self-employment",
+    "cross-gender friendship"
   ],
-  "charId":[
-    "GB2018_024_02",
-    "GB2018_024_01"
+  "director":[
+    {
+      "id":"Lisa Langseth",
+      "name":"Lisa Langseth",
+      "birthYear":1975,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"SE"
+    }
   ],
-  "perId":[
-    "Charlotte Rampling",
-    "Charles Dance"
+  "character":[
+    {
+      "id":"GB2018_024_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Charlotte Rampling",
+        "name":"Charlotte Rampling",
+        "birthYear":1946.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_024_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Charles Dance",
+        "name":"Charles Dance",
+        "birthYear":1946.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2018-024-euphoria"
+  "synopsis":{
+    "native":"Sisters in conflict travelling through Europe toward a mystery destination.",
+    "english":null
+  }
 }

@@ -1,54 +1,75 @@
 {
-  "filmId":"ES2023_027",
-  "title":"Las buenas compa\u00f1\u00edas",
-  "titleEn":"In the Company of Women",
-  "director":"Silvia Munt",
-  "releaseType":"THE",
-  "releaseDate":1683072000000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Silvia Munt",
-  "directorBirthYear":1957,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"ES",
+  "id":"ES2023_027",
+  "type":"film",
+  "slug":"es2023-027-las-buenas-companias",
+  "title":{
+    "native":"Las buenas compa\u00f1\u00edas",
+    "english":"In the Company of Women"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1683072000000,
+    "year":2023
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=153982",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt21957904\/mediaviewer\/rm4287837953\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
     "DRA",
+    "HIS",
     "ROM"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=153982",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt21957904\/mediaviewer\/rm4287837953\/?ref_=tt_ov_i",
-  "synopsis":"Verano de 1976. Bea tiene 16 a\u00f1os y se suma a los aires de cambio que recorren el pa\u00eds; colabora con un grupo de mujeres para visibilizar la causa feminista y lograr la aprobaci\u00f3n del derecho al aborto. La rebeld\u00eda que siente en la sangre se mezclar\u00e1 con un sentimiento inesperado que trastocar\u00e1 su mundo interior. A lo largo de estos meses, Bea entablar\u00e1 una amistad muy especial con Miren, una chica algo mayor que ella y de buena familia. Su compromiso pol\u00edtico y su relaci\u00f3n con Miren convertir\u00e1n ese verano en una etapa que marcar\u00e1 un antes y un despu\u00e9s en su vida.",
-  "synopsisEn":"A group of women fought for rights in Spain throughout the 1970s, helping many to cross the border into France.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "wealth",
-    "grandmotherhood",
-    "independent home",
-    "state institutions",
-    "regional identity",
-    "superior-employee relationship",
     "lgbtqi",
     "collective trauma",
+    "superior-employee relationship",
+    "state institutions",
+    "wealth",
+    "grandmotherhood",
+    "regional identity",
+    "independent home",
     "class conflict"
   ],
-  "charId":"ES2023_027_01",
-  "perId":"Itziar Aizpuru",
-  "charAge":"4",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"RE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"es2023-027-las-buenas-companias"
+  "director":[
+    {
+      "id":"Silvia Munt",
+      "name":"Silvia Munt",
+      "birthYear":1957,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"ES"
+    }
+  ],
+  "character":[
+    {
+      "id":"ES2023_027_01",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Itziar Aizpuru",
+        "name":"Itziar Aizpuru",
+        "birthYear":1939.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Verano de 1976. Bea tiene 16 a\u00f1os y se suma a los aires de cambio que recorren el pa\u00eds; colabora con un grupo de mujeres para visibilizar la causa feminista y lograr la aprobaci\u00f3n del derecho al aborto. La rebeld\u00eda que siente en la sangre se mezclar\u00e1 con un sentimiento inesperado que trastocar\u00e1 su mundo interior. A lo largo de estos meses, Bea entablar\u00e1 una amistad muy especial con Miren, una chica algo mayor que ella y de buena familia. Su compromiso pol\u00edtico y su relaci\u00f3n con Miren convertir\u00e1n ese verano en una etapa que marcar\u00e1 un antes y un despu\u00e9s en su vida.",
+    "english":"A group of women fought for rights in Spain throughout the 1970s, helping many to cross the border into France."
+  }
 }

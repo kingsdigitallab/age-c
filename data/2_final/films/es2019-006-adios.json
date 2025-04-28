@@ -1,50 +1,71 @@
 {
-  "filmId":"ES2019_006",
-  "title":"Adi\u00f3s",
-  "titleEn":null,
-  "director":"Paco Cabezas",
-  "releaseType":"THE",
-  "releaseDate":1574380800000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Paco Cabezas",
-  "directorBirthYear":1976,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2019_006",
+  "type":"film",
+  "slug":"es2019-006-adios",
+  "title":{
+    "native":"Adi\u00f3s",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1574380800000,
+    "year":2019
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=9XEEQtH81H8",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9786512\/mediaviewer\/rm2421134593\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
-    "ACT",
     "CRI",
+    "ACT",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=9XEEQtH81H8",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9786512\/mediaviewer\/rm2421134593\/?ref_=tt_ov_i",
-  "synopsis":"Sevilla. Juan (Mario Casas) es un convicto que comienza a disfrutar de su libertad durante los fines de semana, despu\u00e9s de pasar a\u00f1os en la c\u00e1rcel. Tras la muerte accidental de su hija peque\u00f1a, Juan acudir\u00e1 a su brutal familia, apodados Los Santos, para aclarar lo ocurrido y ejercer su propia justicia. Mientras Eli (Ruth D\u00edaz), la agente de polic\u00eda a cargo de la investigaci\u00f3n, tratar\u00e1 de evitar que el dolido padre se tome la justicia por su mano. El choque entre Eli y Juan por esclarecer la muerte de la peque\u00f1a, destapar\u00e1 ante ambos toda una red de secretos y mentiras que transitan a lo largo de la delgada y difusa l\u00ednea que es la justicia.",
-  "synopsisEn":"A con man with freedom supervised starts a bloody path of revenge when his little daughter dies in a car crash after of First Communion's celebration.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
+    "urban",
     "low rank employment",
     "state institutions",
-    "organized crime",
-    "urban"
+    "organized crime"
   ],
-  "charId":"ES2019_006_01",
-  "perId":"Carlos Bardem",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":null,
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"es2019-006-adios"
+  "director":[
+    {
+      "id":"Paco Cabezas",
+      "name":"Paco Cabezas",
+      "birthYear":1976,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
+  ],
+  "character":[
+    {
+      "id":"ES2019_006_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Carlos Bardem",
+        "name":"Carlos Bardem",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Sevilla. Juan (Mario Casas) es un convicto que comienza a disfrutar de su libertad durante los fines de semana, despu\u00e9s de pasar a\u00f1os en la c\u00e1rcel. Tras la muerte accidental de su hija peque\u00f1a, Juan acudir\u00e1 a su brutal familia, apodados Los Santos, para aclarar lo ocurrido y ejercer su propia justicia. Mientras Eli (Ruth D\u00edaz), la agente de polic\u00eda a cargo de la investigaci\u00f3n, tratar\u00e1 de evitar que el dolido padre se tome la justicia por su mano. El choque entre Eli y Juan por esclarecer la muerte de la peque\u00f1a, destapar\u00e1 ante ambos toda una red de secretos y mentiras que transitan a lo largo de la delgada y difusa l\u00ednea que es la justicia.",
+    "english":"A con man with freedom supervised starts a bloody path of revenge when his little daughter dies in a car crash after of First Communion's celebration."
+  }
 }

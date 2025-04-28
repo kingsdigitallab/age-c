@@ -1,53 +1,74 @@
 {
-  "filmId":"GB2020_043",
-  "title":"The Banishing",
-  "titleEn":null,
-  "director":"Christopher Smith",
-  "releaseType":"FES",
-  "releaseDate":1603324800000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":"Christopher Smith",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2020_043",
+  "type":"film",
+  "slug":"gb2020-043-the-banishing",
+  "title":{
+    "native":"The Banishing",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"FES",
+    "date":1603324800000,
+    "year":2020
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt7329642\/?ref_=ttrel_ov",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt7329642\/mediaviewer\/rm592762625\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HIS",
     "HOR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt7329642\/?ref_=ttrel_ov",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt7329642\/mediaviewer\/rm592762625\/?ref_=tt_ov_i",
-  "synopsis":"The Banishing tells the story of the most haunted house in England. In the 1930s, a young reverend, his wife and daughter move into a manor with a horrifying secret.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "power",
-    "rural",
+    "collective trauma",
     "supernatural entity",
-    "celibacy",
     "superior-employee relationship",
+    "rural",
+    "celibacy",
     "homosociality",
     "high rank employment",
-    "collective trauma",
+    "power",
     "religion"
   ],
-  "charId":"GB2020_043_01",
-  "perId":"John Lynch",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2020-043-the-banishing"
+  "director":[
+    {
+      "id":"Christopher Smith",
+      "name":"Christopher Smith",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2020_043_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"John Lynch",
+        "name":"John Lynch",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IE"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"The Banishing tells the story of the most haunted house in England. In the 1930s, a young reverend, his wife and daughter move into a manor with a horrifying secret.",
+    "english":null
+  }
 }

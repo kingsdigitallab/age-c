@@ -1,52 +1,67 @@
 {
-  "filmId":"IT2021_014",
-  "title":"Occhi blu",
-  "titleEn":"Blue Eyes",
-  "director":"Michela Cescon",
-  "releaseType":"THE",
-  "releaseDate":1628121600000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2021_014",
+  "type":"film",
+  "slug":"it2021-014-occhi-blu",
+  "title":{
+    "native":"Occhi blu",
+    "english":"Blue Eyes"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1628121600000,
+    "year":2021
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=qILFlklUPSA",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt11543292\/mediaviewer\/rm348257025\/?ref_=tt_ov_i"
+  },
   "genre":[
     "NOI",
     "THR"
-  ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=qILFlklUPSA",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt11543292\/mediaviewer\/rm348257025\/?ref_=tt_ov_i",
-  "synopsis":"Un rapinatore solitario, in sella a un maxi scooter ogni volta diverso, deruba una banca e una gioielleria dietro l\u2019altra svicolando a grande velocit\u00e0 tra le pieghe di Roma, tra le sue bellezze antiche e le sue archeologie urbane, riuscendo sempre a seminare i suoi inseguitori e infine a svanire nel nulla. Il caso \u00e8 nelle mani di un commissario romano, verace e cinico che, non riuscendo a venirne a capo, chiede aiuto a un suo amico parigino, detto il Francese, un ex commissario famoso per la sua perspicacia psicologica e per avere risolto decine di casi impossibili. Tutti, tranne quello che riguarda la morte della figlia, per il cui anniversario torna in citt\u00e0 ogni anno. Sar\u00e0 lui a scoprire l\u2019identit\u00e0 del rapinatore, una persona insospettabile quanto di grande intelligenza, con il quale ingaggia una sfida dalle conseguenze imprevedibili.",
-  "synopsisEn":"A solo bank and jewelry store robber always manages to escape the cops on a new maxi scooter. The crimes are the talk of the town, and the police commissioner on the case doesn\u2019t know which way to turn.",
-  "country":[
-    "IT",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
   ],
   "tags":[
     "crime",
     "urban"
   ],
-  "charId":"IT2021_014_01",
-  "perId":"Valeria Golino",
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2021-014-occhi-blu"
+  "director":[
+    {
+      "id":"Michela Cescon",
+      "name":"Michela Cescon",
+      "birthYear":1971,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2021_014_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Valeria Golino",
+        "name":"Valeria Golino",
+        "birthYear":1966.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Un rapinatore solitario, in sella a un maxi scooter ogni volta diverso, deruba una banca e una gioielleria dietro l\u2019altra svicolando a grande velocit\u00e0 tra le pieghe di Roma, tra le sue bellezze antiche e le sue archeologie urbane, riuscendo sempre a seminare i suoi inseguitori e infine a svanire nel nulla. Il caso \u00e8 nelle mani di un commissario romano, verace e cinico che, non riuscendo a venirne a capo, chiede aiuto a un suo amico parigino, detto il Francese, un ex commissario famoso per la sua perspicacia psicologica e per avere risolto decine di casi impossibili. Tutti, tranne quello che riguarda la morte della figlia, per il cui anniversario torna in citt\u00e0 ogni anno. Sar\u00e0 lui a scoprire l\u2019identit\u00e0 del rapinatore, una persona insospettabile quanto di grande intelligenza, con il quale ingaggia una sfida dalle conseguenze imprevedibili.",
+    "english":"A solo bank and jewelry store robber always manages to escape the cops on a new maxi scooter. The crimes are the talk of the town, and the police commissioner on the case doesn\u2019t know which way to turn."
+  }
 }

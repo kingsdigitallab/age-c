@@ -1,54 +1,80 @@
 {
-  "filmId":"FR2021_081",
-  "title":"Tralala",
-  "titleEn":"Tralala",
-  "director":[
-    "Jean-Marie Larrieu",
-    "Arnaud Larrieu"
-  ],
-  "releaseType":"THE",
-  "releaseDate":1633478400000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"FR2021_081",
+  "type":"film",
+  "slug":"fr2021-081-tralala",
+  "title":{
+    "native":"Tralala",
+    "english":"Tralala"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1633478400000,
+    "year":2021
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=op3U4HWk4VM",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/110\/163\/238446\/format_page\/tralala.jpg"
+  },
   "genre":[
     "MUS",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=op3U4HWk4VM",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/110\/163\/238446\/format_page\/tralala.jpg",
-  "synopsis":"Tralala, la quarantaine, chanteur dans les rues de Paris, croise un soir une jeune femme qui lui adresse un seul message avant de disparaitre : \"Surtout ne soyez pas vous-m\u00eame\". Tralala a t-il r\u00eav\u00e9 ? Il quitte la capitale et finit par retrouver \u00e0 Lourdes celle dont il est d\u00e9j\u00e0 amoureux. Elle ne se souvient plus de lui. Mais une \u00e9mouvante sexag\u00e9naire croit reconna\u00eetre en Tralala son propre fils, Pat, disparu vingt ans avant aux Etats-Unis. Tralala d\u00e9cide d\u2019endosser le \"r\u00f4le\". Il va se d\u00e9couvrir une nouvelle famille et trouver le g\u00e9nie qu\u2019il n\u2019a jamais eu.",
-  "synopsisEn":"Tralala, in his forties, a singer in the streets of Paris, meets one night a very beautiful young woman who sends him a single message before disappearing: \u00abAbove all, don\u2019t be yourself\u00bb. Did Tralala dream? He leaves the capital and ends up finding in Lourdes the woman he\u2019s already in love with. She doesn\u2019t remember him. But a moving sexagenarian believes that Tralala is actually her own son, Pat, who disappeared twenty years ago in the United States. Tralala decides to take on the \u00abrole\u00bb. He will find for himself a new family and discover the genius he never had.",
-  "country":"FR",
-  "productionShare":"MAJ",
   "tags":[
+    "precarity",
     "fraud",
+    "urban",
     "artistic creation",
     "grief",
-    "urban",
     "religion",
-    "precarity",
     "motherhood"
   ],
-  "charId":"FR2021_081_01",
-  "perId":"Mathieu Amalric",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LC",
-  "charProfession":"UN",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2021-081-tralala"
+  "director":[
+    {
+      "id":"Arnaud Larrieu",
+      "name":"Arnaud Larrieu",
+      "birthYear":1966,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    },
+    {
+      "id":"Jean-Marie Larrieu",
+      "name":"Jean-Marie Larrieu",
+      "birthYear":1965,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2021_081_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Mathieu Amalric",
+        "name":"Mathieu Amalric",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Tralala, la quarantaine, chanteur dans les rues de Paris, croise un soir une jeune femme qui lui adresse un seul message avant de disparaitre : \"Surtout ne soyez pas vous-m\u00eame\". Tralala a t-il r\u00eav\u00e9 ? Il quitte la capitale et finit par retrouver \u00e0 Lourdes celle dont il est d\u00e9j\u00e0 amoureux. Elle ne se souvient plus de lui. Mais une \u00e9mouvante sexag\u00e9naire croit reconna\u00eetre en Tralala son propre fils, Pat, disparu vingt ans avant aux Etats-Unis. Tralala d\u00e9cide d\u2019endosser le \"r\u00f4le\". Il va se d\u00e9couvrir une nouvelle famille et trouver le g\u00e9nie qu\u2019il n\u2019a jamais eu.",
+    "english":"Tralala, in his forties, a singer in the streets of Paris, meets one night a very beautiful young woman who sends him a single message before disappearing: \u00abAbove all, don\u2019t be yourself\u00bb. Did Tralala dream? He leaves the capital and ends up finding in Lourdes the woman he\u2019s already in love with. She doesn\u2019t remember him. But a moving sexagenarian believes that Tralala is actually her own son, Pat, who disappeared twenty years ago in the United States. Tralala decides to take on the \u00abrole\u00bb. He will find for himself a new family and discover the genius he never had."
+  }
 }

@@ -1,49 +1,70 @@
 {
-  "filmId":"FR2021_091",
-  "title":"Les H\u00e9ro\u00efques",
-  "titleEn":"The Heroics",
-  "director":"Maxime Roy",
-  "releaseType":"THE",
-  "releaseDate":1634688000000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"FR2021_091",
+  "type":"film",
+  "slug":"fr2021-091-les-heroiques",
+  "title":{
+    "native":"Les H\u00e9ro\u00efques",
+    "english":"The Heroics"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1634688000000,
+    "year":2021
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=oqhE_A5hv-M",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/153\/168\/239769\/format_page\/the-heroics.jpg"
+  },
   "genre":[
     "DRA",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=oqhE_A5hv-M",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/153\/168\/239769\/format_page\/the-heroics.jpg",
-  "synopsis":"Michel, ancien junkie, est un \u00e9ternel gamin qui ne r\u00eave que de motos et traine avec son grand fils L\u00e9o et ses copains. \u00c0 cinquante ans, il doit g\u00e9rer le b\u00e9b\u00e9 qu\u2019il vient d\u2019avoir avec son ex, et se bat pour ne pas r\u00e9p\u00e9ter les m\u00eames erreurs et \u00eatre un mec bien.",
-  "synopsisEn":"Michel, a former junkie, is an eternal kid who only dreams of motorcycles and hangs out with his eldest son, Leo, and his buddies. At 50, he has to deal with the baby he just had with his ex, and struggles not to repeat the same mistakes, while trying to be a good guy.",
-  "country":"FR",
-  "productionShare":"MAJ",
   "tags":[
+    "precarity",
     "substance abuse",
     "fatherhood",
-    "unemployment",
-    "precarity",
-    "homelessness"
+    "homelessness",
+    "unemployment"
   ],
-  "charId":"FR2021_091_01",
-  "perId":"Fran\u00e7ois Cr\u00e9ton",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":"UN",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2021-091-les-heroiques"
+  "director":[
+    {
+      "id":"Maxime Roy",
+      "name":"Maxime Roy",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2021_091_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Fran\u00e7ois Cr\u00e9ton",
+        "name":null,
+        "birthYear":null,
+        "deathYear":null,
+        "gender":null,
+        "nationality":null
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Michel, ancien junkie, est un \u00e9ternel gamin qui ne r\u00eave que de motos et traine avec son grand fils L\u00e9o et ses copains. \u00c0 cinquante ans, il doit g\u00e9rer le b\u00e9b\u00e9 qu\u2019il vient d\u2019avoir avec son ex, et se bat pour ne pas r\u00e9p\u00e9ter les m\u00eames erreurs et \u00eatre un mec bien.",
+    "english":"Michel, a former junkie, is an eternal kid who only dreams of motorcycles and hangs out with his eldest son, Leo, and his buddies. At 50, he has to deal with the baby he just had with his ex, and struggles not to repeat the same mistakes, while trying to be a good guy."
+  }
 }

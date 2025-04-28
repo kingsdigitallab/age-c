@@ -1,45 +1,68 @@
 {
-  "filmId":"IT2023_100",
-  "title":"Con la grazia di un Dio",
-  "titleEn":null,
-  "director":"Alessandro Roja",
-  "releaseType":"THE",
-  "releaseDate":1701302400000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=i7lPXFA8W88",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt28635913\/mediaviewer\/rm860050689\/?ref_=tt_ov_i",
-  "synopsis":"Tornato a Genova dopo venticinque anni per partecipare ai funerali del migliore amico della sua giovinezza, Luca ritrova i vecchi compagni di un tempo. Tutti sembrano convinti che quella morte sia l'esito scontato di una vita di eccessi; tutti tranne Luca, che vuole vederci chiaro, indagare, capire. Scavando nella memoria, e in una citt\u00e0 cambiata almeno quanto lui, lascer\u00e0 riaffiorare fantasmi e verit\u00e0 che sembravano sepolte, insieme alla propria vera natura, che pensava di aver domato per sempre.",
-  "synopsisEn":"Back in Genoa for the first time in twenty-five years, to attend the funeral of his best friend from when he was growing up, Luca reunites with the old gang of yore. All of them are sure that the late lamented had brought it on himself, with his dissipated lifestyle. Not Luca: he wants to know, investigate, understand. He searches his memory, in a city as changed as he is, as characters and situations reemerge ghost-like from a buried past, along with Luca\u2019s own true nature, which he thought he had definitively tamed.",
-  "country":"IT",
-  "productionShare":"MAJ",
+  "id":"IT2023_100",
+  "type":"film",
+  "slug":"it2023-100-con-la-grazia-di-un-dio",
+  "title":{
+    "native":"Con la grazia di un Dio",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1701302400000,
+    "year":2023
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=i7lPXFA8W88",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt28635913\/mediaviewer\/rm860050689\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
+  ],
   "tags":[
-    "grief",
     "return home",
     "personal memory",
+    "grief",
     "substance abuse"
   ],
-  "charId":"IT2023_100_01",
-  "perId":"Tommaso Ragno",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2023-100-con-la-grazia-di-un-dio"
+  "director":[
+    {
+      "id":"Alessandro Roja",
+      "name":"Alessandro Roja",
+      "birthYear":1978,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2023_100_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Tommaso Ragno",
+        "name":"Tommaso Ragno",
+        "birthYear":1967.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Tornato a Genova dopo venticinque anni per partecipare ai funerali del migliore amico della sua giovinezza, Luca ritrova i vecchi compagni di un tempo. Tutti sembrano convinti che quella morte sia l'esito scontato di una vita di eccessi; tutti tranne Luca, che vuole vederci chiaro, indagare, capire. Scavando nella memoria, e in una citt\u00e0 cambiata almeno quanto lui, lascer\u00e0 riaffiorare fantasmi e verit\u00e0 che sembravano sepolte, insieme alla propria vera natura, che pensava di aver domato per sempre.",
+    "english":"Back in Genoa for the first time in twenty-five years, to attend the funeral of his best friend from when he was growing up, Luca reunites with the old gang of yore. All of them are sure that the late lamented had brought it on himself, with his dissipated lifestyle. Not Luca: he wants to know, investigate, understand. He searches his memory, in a city as changed as he is, as characters and situations reemerge ghost-like from a buried past, along with Luca\u2019s own true nature, which he thought he had definitively tamed."
+  }
 }

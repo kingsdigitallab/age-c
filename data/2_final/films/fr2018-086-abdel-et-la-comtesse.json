@@ -1,51 +1,74 @@
 {
-  "filmId":"FR2018_086",
-  "title":"Abdel et la Comtesse",
-  "titleEn":"Abdel and the Countess",
-  "director":"Isabelle Doval",
-  "releaseType":"THE",
-  "releaseDate":1525824000000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Isabelle Doval",
-  "directorBirthYear":1962,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"FR",
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=zAZ5Qir85vk",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/128\/234\/191104\/format_page\/abdel-and-the-countess.jpg",
-  "synopsis":"\u00c0 la mort du comte, la comtesse de Montarbie d\u2019Haust doit transmettre le titre de noblesse et le domaine \u00e0 un homme de la famille, comme le veut la tradition aristocratique. Elle ne peut cependant se r\u00e9soudre \u00e0 transmettre le domaine \u00e0 Gonzague, un neveu arrogant et cupide, plut\u00f4t qu\u2019\u00e0 sa fille. Quand Abdel, un jeune de cit\u00e9 d\u00e9brouillard et astucieux, trouve refuge dans leur ch\u00e2teau, sa rencontre avec la comtesse va faire des \u00e9tincelles ! Issus de deux mondes que tout oppose, ils pourraient bien s\u2019aider mutuellement...",
-  "synopsisEn":"Abdel, a young French Arab from the hood, has an unusual talent for spotting rare antiques. His last heist brings him to a youth detention centre, sponsored by the Countess of Montberier, whose husband recently passed away. The next male heir is a nephew the Countess cannot stand. On one of the Countess' visits to the youth detention centre, Abdel escapes in the trunk of her car. After numerous trials and tribulations, an unlikely friendship ensues between the aristocrat and the young man; and they are both able to help each other out of their respective jams.",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2018_086",
+  "type":"film",
+  "slug":"fr2018-086-abdel-et-la-comtesse",
+  "title":{
+    "native":"Abdel et la Comtesse",
+    "english":"Abdel and the Countess"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1525824000000,
+    "year":2018
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=zAZ5Qir85vk",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/128\/234\/191104\/format_page\/abdel-and-the-countess.jpg"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
     "wealth",
-    "independent home",
-    "extended family",
-    "parenthood",
+    "widowhood",
     "superior-employee relationship",
+    "independent home",
     "inheritance",
-    "grief",
+    "parenthood",
     "class conflict",
-    "interracial relationships",
-    "widowhood"
+    "grief",
+    "extended family",
+    "interracial relationships"
   ],
-  "charId":"FR2018_086_01",
-  "perId":"Charlotte de Turckheim",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UC",
-  "charProfession":"UN",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2018-086-abdel-et-la-comtesse"
+  "director":[
+    {
+      "id":"Isabelle Doval",
+      "name":"Isabelle Doval",
+      "birthYear":1962,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2018_086_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Charlotte de Turckheim",
+        "name":"Charlotte de Turckheim",
+        "birthYear":1955.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"\u00c0 la mort du comte, la comtesse de Montarbie d\u2019Haust doit transmettre le titre de noblesse et le domaine \u00e0 un homme de la famille, comme le veut la tradition aristocratique. Elle ne peut cependant se r\u00e9soudre \u00e0 transmettre le domaine \u00e0 Gonzague, un neveu arrogant et cupide, plut\u00f4t qu\u2019\u00e0 sa fille. Quand Abdel, un jeune de cit\u00e9 d\u00e9brouillard et astucieux, trouve refuge dans leur ch\u00e2teau, sa rencontre avec la comtesse va faire des \u00e9tincelles ! Issus de deux mondes que tout oppose, ils pourraient bien s\u2019aider mutuellement...",
+    "english":"Abdel, a young French Arab from the hood, has an unusual talent for spotting rare antiques. His last heist brings him to a youth detention centre, sponsored by the Countess of Montberier, whose husband recently passed away. The next male heir is a nephew the Countess cannot stand. On one of the Countess' visits to the youth detention centre, Abdel escapes in the trunk of her car. After numerous trials and tribulations, an unlikely friendship ensues between the aristocrat and the young man; and they are both able to help each other out of their respective jams."
+  }
 }

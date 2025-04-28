@@ -1,49 +1,70 @@
 {
-  "filmId":"IT2020_042",
-  "title":"Sulle mie spalle",
-  "titleEn":"On My Shoulders",
-  "director":"Antonello Belluco",
-  "releaseType":"THE",
-  "releaseDate":1600905600000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2020_042",
+  "type":"film",
+  "slug":"it2020-042-sulle-mie-spalle",
+  "title":{
+    "native":"Sulle mie spalle",
+    "english":"On My Shoulders"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1600905600000,
+    "year":2020
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=JTwjK5wNMMc",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5649630\/mediaviewer\/rm738896385\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
+    "BIO",
     "DRA",
-    "BIO"
+    "HIS"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=JTwjK5wNMMc",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5649630\/mediaviewer\/rm738896385\/?ref_=tt_ov_i",
-  "synopsis":"Le confessioni di un uomo pronto a terminare la sua vita di fronte alle difficolt\u00e0 economiche, la cui anima \u00e8 salvata da padre Leopoldo Mandic, un piccolo frate cappuccino capace di toccare le vite di un\u2019intera citt\u00e0.",
-  "synopsisEn":"The confessions of a man ready to end his life when faced with economic hardship, whose soul is saved by Father Leopoldo Mandic, a little Capuchin brother able to touch the lives of an entire city.",
-  "country":"IT",
-  "productionShare":"MAJ",
   "tags":[
     "religion",
     "caregiving",
-    "suicide",
-    "cultural memory"
+    "cultural memory",
+    "suicide"
   ],
-  "charId":"IT2020_042_01",
-  "perId":"Paolo De Vita",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WEE",
-  "charClass":"LM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2020-042-sulle-mie-spalle"
+  "director":[
+    {
+      "id":"Antonello Belluco",
+      "name":"Antonello Belluco",
+      "birthYear":1956,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2020_042_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WEE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Paolo De Vita",
+        "name":"Paolo De Vita",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Le confessioni di un uomo pronto a terminare la sua vita di fronte alle difficolt\u00e0 economiche, la cui anima \u00e8 salvata da padre Leopoldo Mandic, un piccolo frate cappuccino capace di toccare le vite di un\u2019intera citt\u00e0.",
+    "english":"The confessions of a man ready to end his life when faced with economic hardship, whose soul is saved by Father Leopoldo Mandic, a little Capuchin brother able to touch the lives of an entire city."
+  }
 }

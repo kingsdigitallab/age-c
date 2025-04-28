@@ -1,77 +1,87 @@
 {
-  "filmId":"GB2019_048",
-  "title":"The Courier",
-  "titleEn":null,
-  "director":"Zackary Adler",
-  "releaseType":"THE",
-  "releaseDate":1576800000000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2019_048",
+  "type":"film",
+  "slug":"gb2019-048-the-courier",
+  "title":{
+    "native":"The Courier",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1576800000000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt8075016\/?ref_=nv_sr_srsg_5_tt_8_nm_0_in_0_q_The%2520Courier",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt8075016\/mediaviewer\/rm4000353025\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "ACT",
     "CRI",
+    "ACT",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt8075016\/?ref_=nv_sr_srsg_5_tt_8_nm_0_in_0_q_The%2520Courier",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt8075016\/mediaviewer\/rm4000353025\/?ref_=tt_ov_i",
-  "synopsis":"A courier in London discovers that one of the packages she's transporting is a bomb.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
+    "terrorism",
     "wealth",
+    "state institutions",
+    "urban",
+    "low rank employment",
     "power",
     "abuse",
-    "state institutions",
-    "organized crime",
-    "terrorism",
-    "urban",
-    "low rank employment"
+    "organized crime"
   ],
-  "charId":[
-    "GB2019_048_02",
-    "GB2019_048_01"
+  "director":[
+
   ],
-  "perId":[
-    "Dermot Mulroney",
-    "Gary Oldman"
+  "character":[
+    {
+      "id":"GB2019_048_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Dermot Mulroney",
+        "name":"Dermot Mulroney",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_048_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Gary Oldman",
+        "name":"Gary Oldman",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "UC"
-  ],
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Dermot Mulroney",
-    "Gary Oldman"
-  ],
-  "perBirthYear":[
-    1963,
-    1958
-  ],
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":[
-    "US",
-    "GB"
-  ],
-  "perRole":null,
-  "slug":"gb2019-048-the-courier"
+  "synopsis":{
+    "native":"A courier in London discovers that one of the packages she's transporting is a bomb.",
+    "english":null
+  }
 }

@@ -1,123 +1,203 @@
 {
-  "filmId":"ES2023_071",
-  "title":"Literato",
-  "titleEn":null,
-  "director":"Carlos Navarro",
-  "releaseType":"THE",
-  "releaseDate":1700697600000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"ES2023_071",
+  "type":"film",
+  "slug":"es2023-071-literato",
+  "title":{
+    "native":"Literato",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1700697600000,
+    "year":2023
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=127281",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt29672380\/mediaviewer\/rm688543233\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=127281",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt29672380\/mediaviewer\/rm688543233\/?ref_=tt_ov_i",
-  "synopsis":"Narra, con tintes autobiogr\u00e1ficos, la historia de un actor que vuelve de Madrid a su pueblo natal en las cuencas mineras asturianas.",
-  "synopsisEn":"Max, a man in his 50s with a broken marriage and a failed carrier as actor, is forced to come back from Madrid to his natal home in a mining town in Asturias.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
+    "disability",
     "search for meaning",
+    "precarity",
+    "return home",
+    "regional identity",
     "rural",
-    "desire",
+    "artistic creation",
+    "separation",
+    "caregiving",
+    "homosociality",
+    "independent home",
     "sex",
     "fatherhood",
-    "independent home",
-    "may-december",
-    "disability",
-    "physical illness",
-    "regional identity",
-    "artistic creation",
-    "homosociality",
-    "return home",
     "intragenerational friendship",
+    "desire",
+    "may-december",
     "unemployment",
-    "precarity",
-    "caregiving",
-    "separation"
+    "physical illness"
   ],
-  "charId":[
-    "ES2023_071_04",
-    "ES2023_071_02",
-    "ES2023_071_01",
-    "ES2023_071_06",
-    "ES2023_071_03",
-    "ES2023_071_05",
-    "ES2023_071_07"
+  "director":[
+    {
+      "id":"Carlos Navarro",
+      "name":"Carlos Navarro",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":null,
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Nina Garcia",
-    "Manuel Pizarro",
-    "Fernando Marrot",
-    "Pedro Civera",
-    "Maxi Rodr\u00edguez",
-    "\u00c1ngel H\u00e9ctor S\u00e1nchez",
-    "Isabel Ay\u00facar"
+  "character":[
+    {
+      "id":"ES2023_071_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Manuel Pizarro",
+        "name":"Manuel Pizarro",
+        "birthYear":1951.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_071_05",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Nina Garcia",
+        "name":"Nina Garcia",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_071_07",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":null,
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"\u00c1ngel H\u00e9ctor S\u00e1nchez",
+        "name":"\u00c1ngel H\u00e9ctor S\u00e1nchez",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_071_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Isabel Ay\u00facar",
+        "name":"Isabel Ay\u00facar",
+        "birthYear":1947.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_071_06",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Fernando Marrot",
+        "name":"Fernando Marrot",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_071_03",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"Pedro Civera",
+        "name":"Pedro Civera",
+        "birthYear":1941.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_071_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Maxi Rodr\u00edguez",
+        "name":"Maxi Rodr\u00edguez",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":[
-    "WWE",
-    null
-  ],
-  "charClass":[
-    "LM",
-    null
-  ],
-  "charProfession":[
-    "EM",
-    "RE",
-    "UN",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    "PD"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Nina Garcia",
-    "Manuel Pizarro",
-    "Fernando Marrot",
-    "Pedro Civera",
-    "Maxi Rodr\u00edguez",
-    "\u00c1ngel H\u00e9ctor S\u00e1nchez",
-    "Isabel Ay\u00facar"
-  ],
-  "perBirthYear":[
-    0,
-    1958,
-    1965,
-    1941,
-    1947,
-    1951
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"es2023-071-literato"
+  "synopsis":{
+    "native":"Narra, con tintes autobiogr\u00e1ficos, la historia de un actor que vuelve de Madrid a su pueblo natal en las cuencas mineras asturianas.",
+    "english":"Max, a man in his 50s with a broken marriage and a failed carrier as actor, is forced to come back from Madrid to his natal home in a mining town in Asturias."
+  }
 }

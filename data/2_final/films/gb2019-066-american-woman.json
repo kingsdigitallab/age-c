@@ -1,57 +1,72 @@
 {
-  "filmId":"GB2019_066",
-  "title":"American Woman",
-  "titleEn":null,
-  "director":"Jake Scott",
-  "releaseType":"THE",
-  "releaseDate":1318982400000,
-  "type":"F",
-  "releaseYear":2011,
-  "directorName":"Jake Scott",
-  "directorBirthYear":1965,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2019_066",
+  "type":"film",
+  "slug":"gb2019-066-american-woman",
+  "title":{
+    "native":"American Woman",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1318982400000,
+    "year":2011
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt4465572\/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_American%2520Woman",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt4465572\/mediaviewer\/rm1029806593\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "DRA",
     "NOI",
+    "DRA",
     "THR"
-  ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt4465572\/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_American%2520Woman",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt4465572\/mediaviewer\/rm1029806593\/?ref_=tt_ov_i",
-  "synopsis":"A woman raises her young grandson after her daughter goes missing.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
   ],
   "tags":[
     "rural",
-    "independent home",
     "grandmotherhood",
-    "grief",
+    "independent home",
     "caregiving",
+    "grief",
     "motherhood"
   ],
-  "charId":"GB2019_066_01",
-  "perId":"Amy Madigan",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WNA",
-  "charClass":"UM",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Amy Madigan",
-  "perBirthYear":1950,
-  "perDeathYear":0,
-  "perGender":"F",
-  "perNationality":"US",
-  "perRole":null,
-  "slug":"gb2019-066-american-woman"
+  "director":[
+    {
+      "id":"Jake Scott",
+      "name":"Jake Scott",
+      "birthYear":1965,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2019_066_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Amy Madigan",
+        "name":"Amy Madigan",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"US"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"A woman raises her young grandson after her daughter goes missing.",
+    "english":null
+  }
 }

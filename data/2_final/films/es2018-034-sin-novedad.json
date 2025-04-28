@@ -1,88 +1,109 @@
 {
-  "filmId":"ES2018_034",
-  "title":"Sin novedad",
-  "titleEn":null,
-  "director":"Miguel Berzal de Miguel",
-  "releaseType":"THE",
-  "releaseDate":1292630400000,
-  "type":"F",
-  "releaseYear":2010,
-  "directorName":"Miguel Berzal de Miguel",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
-  "genre":"DRA",
-  "trailerUrl":null,
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt7123960\/mediaviewer\/rm2358435073\/?ref_=tt_ov_i",
-  "synopsis":"Lola, vive sola con su hijo Jorge cerca de un pol\u00edgono industrial en Madrid. Trabaja muchas horas para un jefe taca\u00f1o y estricto en una empresa de trasteros. Una noche, Jorge confiesa a su madre que ha empezado a entablar relaci\u00f3n con su padre, Marcos, que les abandon\u00f3 hace muchos a\u00f1os.",
-  "synopsisEn":null,
-  "country":"ES",
-  "productionShare":"MAJ",
+  "id":"ES2018_034",
+  "type":"film",
+  "slug":"es2018-034-sin-novedad",
+  "title":{
+    "native":"Sin novedad",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1292630400000,
+    "year":2010
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":null,
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt7123960\/mediaviewer\/rm2358435073\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
+  ],
   "tags":[
-    "fatherhood",
     "superior-employee relationship",
-    "high rank employment",
     "urban",
-    "separation"
+    "separation",
+    "fatherhood",
+    "high rank employment"
   ],
-  "charId":[
-    "ES2018_034_03",
-    "ES2018_034_02",
-    "ES2018_034_01"
+  "director":[
+    {
+      "id":"Miguel Berzal de Miguel",
+      "name":"Miguel Berzal de Miguel",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Gonzalo de Castro",
-    "Lola Casamayor",
-    "Fernando Guill\u00e9n Cuervo"
+  "character":[
+    {
+      "id":"ES2018_034_03",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Lola Casamayor",
+        "name":"Lola Casamayor",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_034_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Fernando Guill\u00e9n Cuervo",
+        "name":"Fernando Guill\u00e9n Cuervo",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_034_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Gonzalo de Castro",
+        "name":"Gonzalo de Castro",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC",
-    null
-  ],
-  "charProfession":[
-    "SE",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    null
-  ],
-  "assistedMobility":"N",
-  "perName":[
-    "Lola Casamayor",
-    "Fernando Guill\u00e9n Cuervo",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1963,
-    1958
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    null,
-    "M"
-  ],
-  "perNationality":[
-    null,
-    "ES"
-  ],
-  "perRole":null,
-  "slug":"es2018-034-sin-novedad"
+  "synopsis":{
+    "native":"Lola, vive sola con su hijo Jorge cerca de un pol\u00edgono industrial en Madrid. Trabaja muchas horas para un jefe taca\u00f1o y estricto en una empresa de trasteros. Una noche, Jorge confiesa a su madre que ha empezado a entablar relaci\u00f3n con su padre, Marcos, que les abandon\u00f3 hace muchos a\u00f1os.",
+    "english":null
+  }
 }

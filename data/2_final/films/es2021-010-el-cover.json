@@ -1,90 +1,113 @@
 {
-  "filmId":"ES2021_010",
-  "title":"El Cover",
-  "titleEn":"The Cover",
-  "director":"Secun de la Rosa",
-  "releaseType":"THE",
-  "releaseDate":1626998400000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"ES2021_010",
+  "type":"film",
+  "slug":"es2021-010-el-cover",
+  "title":{
+    "native":"El Cover",
+    "english":"The Cover"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1626998400000,
+    "year":2021
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=1iPcdvZZ7pY",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt11206172\/mediaviewer\/rm386777089\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "ROM",
     "MUS",
+    "ROM",
     "COM",
     "COA"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=1iPcdvZZ7pY",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt11206172\/mediaviewer\/rm386777089\/?ref_=tt_ov_i",
-  "synopsis":"Dani ha heredado de su familia el amor por la m\u00fasica y tambi\u00e9n el miedo al fracaso. As\u00ed que trabaja de camarero antes que malvivir de su sue\u00f1o como sus padres. Este a\u00f1o, como cada verano, Benidorm se llena de artistas que vienen a cantar en sus bares, hoteles y salas de fiesta. All\u00ed Dani conoce a Sandra, quien cambiar\u00e1 su forma de entender el arte.",
-  "synopsisEn":"Dani is torn: he loves music but is afraid to fail. One summer, between his job as a waiter and night out with friends, he meets Sandra. With her, he discovers love and what it means to be one among many.",
-  "country":[
-    "PT",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "intergenerational friendship",
-    "physical illness",
-    "artistic creation",
     "mentorship",
+    "precarity",
     "urban",
-    "precarity"
+    "intergenerational friendship",
+    "artistic creation",
+    "physical illness"
   ],
-  "charId":[
-    "ES2021_010_03",
-    "ES2021_010_01",
-    "ES2021_010_02"
+  "director":[
+    {
+      "id":"Secun de la Rosa",
+      "name":"Secun de la Rosa",
+      "birthYear":1969,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Juan Diego",
-    "Susi S\u00e1nchez",
-    "Carmen Machi"
+  "character":[
+    {
+      "id":"ES2021_010_03",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Susi S\u00e1nchez",
+        "name":"Susi S\u00e1nchez",
+        "birthYear":1955.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2021_010_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Carmen Machi",
+        "name":"Carmen Machi",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2021_010_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Juan Diego",
+        "name":"Juan Diego",
+        "birthYear":1942.0,
+        "deathYear":2022.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":[
-    "LC",
-    "LM"
-  ],
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Juan Diego",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1942
-  ],
-  "perDeathYear":[
-    0,
-    2022
-  ],
-  "perGender":[
-    "M",
-    null
-  ],
-  "perNationality":[
-    "ES",
-    null
-  ],
-  "perRole":null,
-  "slug":"es2021-010-el-cover"
+  "synopsis":{
+    "native":"Dani ha heredado de su familia el amor por la m\u00fasica y tambi\u00e9n el miedo al fracaso. As\u00ed que trabaja de camarero antes que malvivir de su sue\u00f1o como sus padres. Este a\u00f1o, como cada verano, Benidorm se llena de artistas que vienen a cantar en sus bares, hoteles y salas de fiesta. All\u00ed Dani conoce a Sandra, quien cambiar\u00e1 su forma de entender el arte.",
+    "english":"Dani is torn: he loves music but is afraid to fail. One summer, between his job as a waiter and night out with friends, he meets Sandra. With her, he discovers love and what it means to be one among many."
+  }
 }

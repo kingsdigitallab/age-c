@@ -1,53 +1,76 @@
 {
-  "filmId":"GB2019_023",
-  "title":"Ray & Liz",
-  "titleEn":null,
-  "director":"Richard Billingham",
-  "releaseType":"THE",
-  "releaseDate":1552003200000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Richard Billingham",
-  "directorBirthYear":1970,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=X4-lgpUlKt8",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6601502\/mediaviewer\/rm2956150528\/?ref_=tt_ov_i",
-  "synopsis":"Photographer Richard Billingham returns to the squalid council flat outside of Birmingham where he and his brother were raised, in a confrontation and reconciliation with parents Ray and Liz.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
+  "id":"GB2019_023",
+  "type":"film",
+  "slug":"gb2019-023-ray-liz",
+  "title":{
+    "native":"Ray & Liz",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1552003200000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=X4-lgpUlKt8",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6601502\/mediaviewer\/rm2956150528\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
+  ],
   "tags":[
-    "non-human companionship",
-    "substance abuse",
     "personal memory",
+    "stages of life",
+    "marriage",
+    "urban",
+    "return home",
+    "precarity",
     "independent home",
     "regional identity",
+    "substance abuse",
     "parenthood",
-    "return home",
-    "marriage",
     "daily routine",
-    "urban",
-    "precarity",
-    "stages of life"
+    "non-human companionship"
   ],
-  "charId":"GB2019_023_01",
-  "perId":"Patrick Romer",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LC",
-  "charProfession":"UN",
-  "charAbility":"CI",
-  "assistedMobility":"N",
-  "perName":"Patrick Romer",
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2019-023-ray-liz"
+  "director":[
+    {
+      "id":"Richard Billingham",
+      "name":"Richard Billingham",
+      "birthYear":1970,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2019_023_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LC",
+      "profession":"UN",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Patrick Romer",
+        "name":"Patrick Romer",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Photographer Richard Billingham returns to the squalid council flat outside of Birmingham where he and his brother were raised, in a confrontation and reconciliation with parents Ray and Liz.",
+    "english":null
+  }
 }

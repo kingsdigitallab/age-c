@@ -1,56 +1,70 @@
 {
-  "filmId":"DE2021_051",
-  "title":"T\u00f6chter",
-  "titleEn":null,
-  "director":"Nana Neul",
-  "releaseType":"THE",
-  "releaseDate":1633564800000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":"Nana Neul",
-  "directorBirthYear":1974,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"DE",
+  "id":"DE2021_051",
+  "type":"film",
+  "slug":"de2021-051-tochter",
+  "title":{
+    "native":"T\u00f6chter",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1633564800000,
+    "year":2021
+  },
+  "production":{
+    "country":"DE",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=7Ut81IfrDCo&ab_channel=KinoCheck",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14072134\/mediaviewer\/rm243594753\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "COM",
     "ROA"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=7Ut81IfrDCo&ab_channel=KinoCheck",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14072134\/mediaviewer\/rm243594753\/?ref_=tt_ov_i",
-  "synopsis":"Ihr schwerkranker Vater Kurt (Josef Bierbichler) will Sterbehilfe beanspruchen und sie soll ihn daf\u00fcr in die Schweiz begleiten. Daher bittet sie ihre beste Freundin Betty (Birgit Minichmayr) um Hilfe \u2013 auch weil sich Martha seit einem traumatisierenden Unfall nicht mehr ans Steuer setzt.",
-  "synopsisEn":"A dying man asks his daughter and her friend to drive him to Switzerland and adventures ensue. Their journeys take them across Germany, Italy and a Greek island.",
-  "country":[
-    "IT",
-    "DE",
-    "GR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "fatherhood",
-    "search for meaning",
     "assisted death",
-    "intergenerational conflict"
+    "intergenerational conflict",
+    "search for meaning",
+    "fatherhood"
   ],
-  "charId":"DE2021_005_01",
-  "perId":"Josef Bierbichler",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WEE",
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":"TD",
-  "assistedMobility":"N",
-  "perName":"Josef Bierbichler",
-  "perBirthYear":1948,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"DE",
-  "perRole":null,
-  "slug":"de2021-051-tochter"
+  "director":[
+    {
+      "id":"Nana Neul",
+      "name":"Nana Neul",
+      "birthYear":1974,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"DE"
+    }
+  ],
+  "character":[
+    {
+      "id":"DE2021_005_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WEE",
+      "class":"MC",
+      "profession":null,
+      "ability":"TD",
+      "assistedMobility":"TD",
+      "person":{
+        "id":"Josef Bierbichler",
+        "name":"Josef Bierbichler",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"DE"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Ihr schwerkranker Vater Kurt (Josef Bierbichler) will Sterbehilfe beanspruchen und sie soll ihn daf\u00fcr in die Schweiz begleiten. Daher bittet sie ihre beste Freundin Betty (Birgit Minichmayr) um Hilfe \u2013 auch weil sich Martha seit einem traumatisierenden Unfall nicht mehr ans Steuer setzt.",
+    "english":"A dying man asks his daughter and her friend to drive him to Switzerland and adventures ensue. Their journeys take them across Germany, Italy and a Greek island."
+  }
 }

@@ -1,44 +1,60 @@
 {
-  "filmId":"IT2018_022",
-  "title":"Io c'\u00e8",
-  "titleEn":null,
-  "director":"Alessandro Aronadio",
-  "releaseType":"THE",
-  "releaseDate":1522281600000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=-K9XaW6rLWY",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt7648416\/mediaviewer\/rm690702848\/?ref_=tt_ov_i",
-  "synopsis":"Per salvare il proprio B&B dal fallimento, Massimo decide di trasformarlo in un luogo di culto creando una nuova religione.",
-  "synopsisEn":"To save his B&B from failure, Massimo decides to turn it into a place of worship, creating a new religion.",
-  "country":"IT",
-  "productionShare":"MAJ",
+  "id":"IT2018_022",
+  "type":"film",
+  "slug":"it2018-022-io-c-e",
+  "title":{
+    "native":"Io c'\u00e8",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1522281600000,
+    "year":2018
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=-K9XaW6rLWY",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt7648416\/mediaviewer\/rm690702848\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
     "spirituality",
-    "fraud",
-    "religion"
+    "religion",
+    "fraud"
   ],
-  "charId":"IT2018_022_01",
-  "perId":"Margherita Buy",
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2018-022-io-c-e"
+  "director":[
+
+  ],
+  "character":[
+    {
+      "id":"IT2018_022_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Margherita Buy",
+        "name":"Margherita Buy",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Per salvare il proprio B&B dal fallimento, Massimo decide di trasformarlo in un luogo di culto creando una nuova religione.",
+    "english":"To save his B&B from failure, Massimo decides to turn it into a place of worship, creating a new religion."
+  }
 }

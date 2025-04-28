@@ -1,119 +1,226 @@
 {
-  "filmId":"ES2019_025",
-  "title":"Agur Etxebeste",
-  "titleEn":null,
-  "director":[
-    "Telmo Esnal",
-    "Asier Altuna"
-  ],
-  "releaseType":"THE",
-  "releaseDate":1569456000000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=5HByjXLXQoU",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9076378\/mediaviewer\/rm3325466113\/?ref_=tt_ov_i",
-  "synopsis":"Por \"problemas de salud\", Patrizio Etxebeste se ve obligado a dejar la alcald\u00eda. Aun as\u00ed, para no perder el mandato del ayuntamiento, nombra a su mujer Mar\u00eda Luisa como la primera alcaldesa del pueblo. Pero Mar\u00eda Luisa tomar\u00e1 muy en serio su trabajo y cambiar\u00e1 de arriba a abajo el funcionamiento del ayuntamiento, poniendo patas arriba su relaci\u00f3n de pareja.",
-  "synopsisEn":"When Patrizio Etxebeste is forced to give up his position as mayor, he names his wife as his replacement. But Maria Luisa has no intention of being her husband's puppet and soon starts changing the way things are run.",
-  "country":[
-    "FR",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+  "id":"ES2019_025",
+  "type":"film",
+  "slug":"es2019-025-agur-etxebeste",
+  "title":{
+    "native":"Agur Etxebeste",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1569456000000,
+    "year":2019
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=5HByjXLXQoU",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9076378\/mediaviewer\/rm3325466113\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "COM"
   ],
   "tags":[
     "corruption",
-    "rural",
-    "power",
-    "professional politics",
+    "hospital",
     "state institutions",
-    "regional identity",
-    "parenthood",
-    "homosociality",
-    "grandparenthood",
     "marriage",
+    "rural",
+    "regional identity",
+    "homosociality",
+    "parenthood",
+    "professional politics",
     "intragenerational friendship",
     "high rank employment",
+    "power",
     "women empowerment",
-    "hospital"
+    "grandparenthood"
   ],
-  "charId":[
-    "ES2019_025_03",
-    "ES2019_025_04",
-    "ES2019_025_08",
-    "ES2019_025_06",
-    "ES2019_025_01",
-    "ES2019_025_07",
-    "ES2019_025_02",
-    "ES2019_025_05"
+  "director":[
+    {
+      "id":"Asier Altuna",
+      "name":"Asier Altuna",
+      "birthYear":1969,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    },
+    {
+      "id":"Telmo Esnal",
+      "name":"Telmo Esnal",
+      "birthYear":1966,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "I\u00f1ake Irastorza",
-    "Aitzpea Goenaga",
-    "Elena Irureta",
-    "Ane Gabarain",
-    "Ram\u00f3n Agirre",
-    "Kandido Uranga",
-    "Paco Sagarzazu",
-    "Zorion Eguileor"
+  "character":[
+    {
+      "id":"ES2019_025_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ram\u00f3n Agirre",
+        "name":"Ram\u00f3n Agirre",
+        "birthYear":1949.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2019_025_07",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Zorion Eguileor",
+        "name":"Zorion Eguileor",
+        "birthYear":1946.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2019_025_08",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Kandido Uranga",
+        "name":"Kandido Uranga",
+        "birthYear":1955.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2019_025_03",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"I\u00f1ake Irastorza",
+        "name":"I\u00f1ake Irastorza",
+        "birthYear":1955.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2019_025_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Paco Sagarzazu",
+        "name":"Paco Sagarzazu",
+        "birthYear":1940.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2019_025_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Elena Irureta",
+        "name":"Elena Irureta",
+        "birthYear":1955.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2019_025_06",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Aitzpea Goenaga",
+        "name":"Aitzpea Goenaga",
+        "birthYear":1959.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2019_025_05",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ane Gabarain",
+        "name":"Ane Gabarain",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC",
-    null
-  ],
-  "charProfession":[
-    "EM",
-    "RE",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":null,
-  "perName":[
-    "Elena Irureta",
-    "Ane Gabarain",
-    "Ram\u00f3n Agirre",
-    null,
-    "Kandido Uranga",
-    "Paco Sagarzazu"
-  ],
-  "perBirthYear":[
-    0,
-    1955,
-    1963,
-    1940,
-    1949
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    null,
-    "M"
-  ],
-  "perNationality":[
-    null,
-    "ES"
-  ],
-  "perRole":null,
-  "slug":"es2019-025-agur-etxebeste"
+  "synopsis":{
+    "native":"Por \"problemas de salud\", Patrizio Etxebeste se ve obligado a dejar la alcald\u00eda. Aun as\u00ed, para no perder el mandato del ayuntamiento, nombra a su mujer Mar\u00eda Luisa como la primera alcaldesa del pueblo. Pero Mar\u00eda Luisa tomar\u00e1 muy en serio su trabajo y cambiar\u00e1 de arriba a abajo el funcionamiento del ayuntamiento, poniendo patas arriba su relaci\u00f3n de pareja.",
+    "english":"When Patrizio Etxebeste is forced to give up his position as mayor, he names his wife as his replacement. But Maria Luisa has no intention of being her husband's puppet and soon starts changing the way things are run."
+  }
 }

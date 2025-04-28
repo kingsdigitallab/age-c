@@ -1,71 +1,110 @@
 {
-  "filmId":"GB2023_060",
-  "title":"The Hunting of the Snark",
-  "titleEn":null,
-  "director":"Simon Davison",
-  "releaseType":"THE",
-  "releaseDate":1688083200000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Simon Davison",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2023_060",
+  "type":"film",
+  "slug":"gb2023-060-the-hunting-of-the-snark",
+  "title":{
+    "native":"The Hunting of the Snark",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1688083200000,
+    "year":2023
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt22171734\/?ref_=nm_ov_bio_lk",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt22171734\/mediaviewer\/rm610543873\/?ref_=tt_ov_i"
+  },
   "genre":[
     "ADV",
     "FAN"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt22171734\/?ref_=nm_ov_bio_lk",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt22171734\/mediaviewer\/rm610543873\/?ref_=tt_ov_i",
-  "synopsis":"The Hunting of the Snark follows Lewis Carroll's characters on a quest to find the elusive Snark creature on a tropical island. They encounter surreal adventures and twisted logic as they search for meaning and understanding.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "supernatural entity",
-    "intergenerational friendship",
     "mental illness",
+    "supernatural entity",
     "mentorship",
+    "intergenerational friendship",
     "natural"
   ],
-  "charId":[
-    "GB2023_060_02",
-    "GB2023_060_01",
-    "GB2023_060_03"
+  "director":[
+    {
+      "id":"Simon Davison",
+      "name":"Simon Davison",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Ramon Tikaram",
-    "Tim J. Henley",
-    "Ralph Arliss"
+  "character":[
+    {
+      "id":"GB2023_060_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ralph Arliss",
+        "name":"Ralph Arliss",
+        "birthYear":1947.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_060_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Tim J. Henley",
+        "name":"Tim J. Henley",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_060_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ramon Tikaram",
+        "name":"Ramon Tikaram",
+        "birthYear":1967.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"SG"
+      },
+      "role":null
+    }
   ],
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":[
-    "SE",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Ramon Tikaram",
-    "Tim J. Henley",
-    "Ralph Arliss"
-  ],
-  "perBirthYear":[
-    0,
-    1947,
-    1967
-  ],
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":[
-    "GB",
-    "SG"
-  ],
-  "perRole":null,
-  "slug":"gb2023-060-the-hunting-of-the-snark"
+  "synopsis":{
+    "native":"The Hunting of the Snark follows Lewis Carroll's characters on a quest to find the elusive Snark creature on a tropical island. They encounter surreal adventures and twisted logic as they search for meaning and understanding.",
+    "english":null
+  }
 }

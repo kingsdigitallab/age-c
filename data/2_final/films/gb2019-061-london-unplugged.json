@@ -1,131 +1,226 @@
 {
-  "filmId":"GB2019_061",
-  "title":"London Unplugged",
-  "titleEn":null,
-  "director":[
-    "Gaelle Mourre",
-    "Nick Cohen",
-    "Andrew Cryan",
-    "Natalia Casali",
-    "Qi Zhang",
-    "Andres Heger-Bratterud",
-    "Rosanna Lowe",
-    "Ben Jacobson",
-    "George Taylor",
-    "Kaki Wong",
-    "Mitchell Crawford",
-    "Layke Anderson"
-  ],
-  "releaseType":"THE",
-  "releaseDate":1547769600000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":[
-    "Nick Cohen",
-    "Natalia Casali",
-    "Andrew Cryan",
-    "Qi Zhang",
-    "Andres Heger-Bratterud",
-    null,
-    "Ben Jacobson",
-    "Rosanna Lowe",
-    "George Taylor",
-    "Kaki Wong",
-    "Layke Anderson"
-  ],
-  "directorBirthYear":[
-    0,
-    1985,
-    1973,
-    1983
-  ],
-  "directorDeathYear":0,
-  "directorGender":[
-    "F",
-    null,
-    "M"
-  ],
-  "directorNationality":[
-    "HK",
-    "NO",
-    "GB",
-    null
-  ],
+  "id":"GB2019_061",
+  "type":"film",
+  "slug":"gb2019-061-london-unplugged",
+  "title":{
+    "native":"London Unplugged",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1547769600000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=288597",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6051312\/mediaviewer\/rm1256957953\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "DRA",
-    "MPF",
     "ANT",
-    "ROM"
+    "DRA",
+    "ROM",
+    "MPF"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=288597",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6051312\/mediaviewer\/rm1256957953\/?ref_=tt_ov_i",
-  "synopsis":"A portmanteau exploration of disparate characters scattered across London, many of whose lives intersect unpredictably. A refreshing take on the complexities, contradictions and compromises of modern living in the greatest city on Earth.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
+    "intergenerational conflict",
+    "urban",
+    "regional identity",
     "sex for hire",
     "desire",
     "self-employment",
-    "regional identity",
-    "motherhood",
-    "urban",
-    "intergenerational conflict"
+    "motherhood"
   ],
-  "charId":[
-    "GB2019_061_02",
-    "GB2019_061_01",
-    "GB2019_061_03",
-    "GB2019_061_05",
-    "GB2019_061_04"
+  "director":[
+    {
+      "id":"Nick Cohen",
+      "name":"Nick Cohen",
+      "birthYear":1973,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    },
+    {
+      "id":"Kaki Wong",
+      "name":"Kaki Wong",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"HK"
+    },
+    {
+      "id":"Rosanna Lowe",
+      "name":"Rosanna Lowe",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":null
+    },
+    {
+      "id":"Layke Anderson",
+      "name":"Layke Anderson",
+      "birthYear":1983,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    },
+    {
+      "id":"Natalia Casali",
+      "name":"Natalia Casali",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":null
+    },
+    {
+      "id":"Qi Zhang",
+      "name":"Qi Zhang",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":null,
+      "nationality":null
+    },
+    {
+      "id":"George Taylor",
+      "name":"George Taylor",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    },
+    {
+      "id":"Andrew Cryan",
+      "name":"Andrew Cryan",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    },
+    {
+      "id":"Andres Heger-Bratterud",
+      "name":"Andres Heger-Bratterud",
+      "birthYear":1985,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"NO"
+    },
+    {
+      "id":"Ben Jacobson",
+      "name":"Ben Jacobson",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Juliet Stevenson",
-    "Eve Pearce",
-    "Shaun Prendergrast",
-    "Mark Forstater",
-    "Chris Barritt"
+  "character":[
+    {
+      "id":"GB2019_061_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Juliet Stevenson",
+        "name":"Juliet Stevenson",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_061_05",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Mark Forstater",
+        "name":"Mark Forstater",
+        "birthYear":1943.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_061_01",
+      "age":"4",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Eve Pearce",
+        "name":"Eve Pearce",
+        "birthYear":1929.0,
+        "deathYear":2023.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_061_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Shaun Prendergrast",
+        "name":"Shaun Prendergrast",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_061_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Chris Barritt",
+        "name":"Chris Barritt",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":null,
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Juliet Stevenson",
-    "Eve Pearce",
-    "Shaun Prendergrast",
-    "Mark Forstater",
-    "Chris Barritt"
-  ],
-  "perBirthYear":[
-    0,
-    1956,
-    1958,
-    1929,
-    1943
-  ],
-  "perDeathYear":[
-    0,
-    2023
-  ],
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":[
-    "US",
-    "GB"
-  ],
-  "perRole":null,
-  "slug":"gb2019-061-london-unplugged"
+  "synopsis":{
+    "native":"A portmanteau exploration of disparate characters scattered across London, many of whose lives intersect unpredictably. A refreshing take on the complexities, contradictions and compromises of modern living in the greatest city on Earth.",
+    "english":null
+  }
 }

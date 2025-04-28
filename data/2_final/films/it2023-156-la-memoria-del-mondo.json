@@ -1,45 +1,68 @@
 {
-  "filmId":"IT2023_156",
-  "title":"La memoria del mondo",
-  "titleEn":null,
-  "director":"Mirko Locatelli",
-  "releaseType":"THE",
-  "releaseDate":1677715200000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=NP1N3Su8Eio",
-  "posterUrl":"https:\/\/www.mymovies.it\/film\/2022\/la-memoria-del-mondo\/poster\/0\/",
-  "synopsis":"Adrien, studioso d\u2019arte e biografo dell\u2019artista Ernst Bollinger, si ritrova coinvolto nella storia di cui \u00e8 autore, coprotagonista del capitolo conclusivo della vita artistica del grande Maestro. Immersi nell\u2019atmosfera rarefatta di una laguna invernale, i due uomini, accompagnati da un giovane barcaiolo, condivideranno l\u2019esperienza di un pellegrinaggio laico alla ricerca di una donna scomparsa, ritrovandosi ad esplorare territori interiori inaspettati e a riconoscersi figli di una memoria comune.",
-  "synopsisEn":"Adrien, art scholar and biographer of the artist Ernst Bollinger, finds himself involved as the author and co-star in the final chapter of the great Master\u2019s artistic life. Immersed in the rarefied atmosphere of a winter lagoon, the two men, accompanied by a young boatman, share the experience of a lay pilgrimage in search of a missing woman, leading them to explore unexpected inner territories and recognize themselves as children of a common memory.",
-  "country":"IT",
-  "productionShare":"MAJ",
+  "id":"IT2023_156",
+  "type":"film",
+  "slug":"it2023-156-la-memoria-del-mondo",
+  "title":{
+    "native":"La memoria del mondo",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1677715200000,
+    "year":2023
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=NP1N3Su8Eio",
+    "posterUrl":"https:\/\/www.mymovies.it\/film\/2022\/la-memoria-del-mondo\/poster\/0\/"
+  },
+  "genre":[
+    "DRA"
+  ],
   "tags":[
-    "intergenerational friendship",
+    "artistic creation",
     "natural",
     "personal memory",
-    "artistic creation"
+    "intergenerational friendship"
   ],
-  "charId":"IT2023_156_01",
-  "perId":"Maurizio Sold\u00e0",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"SE",
-  "charAbility":"CI",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2023-156-la-memoria-del-mondo"
+  "director":[
+    {
+      "id":"Mirko Locatelli",
+      "name":"Mirko Locatelli",
+      "birthYear":1974,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2023_156_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Maurizio Sold\u00e0",
+        "name":"Maurizio Sold\u00e0",
+        "birthYear":1951.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Adrien, studioso d\u2019arte e biografo dell\u2019artista Ernst Bollinger, si ritrova coinvolto nella storia di cui \u00e8 autore, coprotagonista del capitolo conclusivo della vita artistica del grande Maestro. Immersi nell\u2019atmosfera rarefatta di una laguna invernale, i due uomini, accompagnati da un giovane barcaiolo, condivideranno l\u2019esperienza di un pellegrinaggio laico alla ricerca di una donna scomparsa, ritrovandosi ad esplorare territori interiori inaspettati e a riconoscersi figli di una memoria comune.",
+    "english":"Adrien, art scholar and biographer of the artist Ernst Bollinger, finds himself involved as the author and co-star in the final chapter of the great Master\u2019s artistic life. Immersed in the rarefied atmosphere of a winter lagoon, the two men, accompanied by a young boatman, share the experience of a lay pilgrimage in search of a missing woman, leading them to explore unexpected inner territories and recognize themselves as children of a common memory."
+  }
 }

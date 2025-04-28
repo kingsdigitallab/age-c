@@ -1,82 +1,93 @@
 {
-  "filmId":"GB2023_035",
-  "title":"Inland",
-  "titleEn":null,
-  "director":"Fridtjof Ryder",
-  "releaseType":"THE",
-  "releaseDate":1686873600000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Fridtjof Ryder",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2023_035",
+  "type":"film",
+  "slug":"gb2023-035-inland",
+  "title":{
+    "native":"Inland",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1686873600000,
+    "year":2023
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=lcvP5owp7x4",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt13002232\/mediaviewer\/rm3515744513\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
-    "FAN",
-    "THR"
+    "THR",
+    "FAN"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=lcvP5owp7x4",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt13002232\/mediaviewer\/rm3515744513\/?ref_=tt_ov_i",
-  "synopsis":"INLAND is a modern fairy tale that explores the fractured identity of a young man after the mysterious disappearance of his mother.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "personal memory",
-    "independent home",
-    "intergenerational friendship",
-    "homosociality",
+    "intergenerational conflict",
     "mentorship",
+    "personal memory",
+    "intergenerational friendship",
+    "independent home",
     "natural",
-    "intergenerational conflict"
+    "homosociality"
   ],
-  "charId":[
-    "GB2023_035_01",
-    "GB2023_035_02"
+  "director":[
+    {
+      "id":"Fridtjof Ryder",
+      "name":"Fridtjof Ryder",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Kathryn Hunter",
-    "Mark Rylance"
+  "character":[
+    {
+      "id":"GB2023_035_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WNA",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Kathryn Hunter",
+        "name":"Kathryn Hunter",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_035_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"LM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Mark Rylance",
+        "name":"Mark Rylance",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WNA",
-  "charClass":[
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Kathryn Hunter",
-    "Mark Rylance"
-  ],
-  "perBirthYear":[
-    1960,
-    1957
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":[
-    "US",
-    "GB"
-  ],
-  "perRole":null,
-  "slug":"gb2023-035-inland"
+  "synopsis":{
+    "native":"INLAND is a modern fairy tale that explores the fractured identity of a young man after the mysterious disappearance of his mother.",
+    "english":null
+  }
 }

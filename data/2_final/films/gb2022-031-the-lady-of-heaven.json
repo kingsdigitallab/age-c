@@ -1,86 +1,100 @@
 {
-  "filmId":"GB2022_031",
-  "title":"The Lady of Heaven",
-  "titleEn":null,
-  "director":"Eli King",
-  "releaseType":"THE",
-  "releaseDate":1654214400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Eli King",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":null,
+  "id":"GB2022_031",
+  "type":"film",
+  "slug":"gb2022-031-the-lady-of-heaven",
+  "title":{
+    "native":"The Lady of Heaven",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1654214400000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt13097336\/?ref_=nv_sr_srsg_3_tt_1_nm_7_in_0_q_The%2520Lady%2520of%2520Heaven",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt13097336\/mediaviewer\/rm2780028161\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
     "DRA",
-    "ACT",
-    "WAR"
+    "HIS",
+    "WAR",
+    "ACT"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt13097336\/?ref_=nv_sr_srsg_3_tt_1_nm_7_in_0_q_The%2520Lady%2520of%2520Heaven",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt13097336\/mediaviewer\/rm2780028161\/?ref_=tt_ov_i",
-  "synopsis":"Two stories separated by 1400 years. After losing his mother in the midst of a war-torn country, an Iraqi child, learns the importance and power of patience by discovering the historical story of Lady Fatima and her suffering.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "war",
-    "power",
-    "rural",
-    "cultural memory",
-    "abuse",
-    "fatherhood",
-    "superior-employee relationship",
     "terrorism",
+    "power",
     "mentorship",
-    "religion",
-    "caregiving",
+    "superior-employee relationship",
     "gender discrimination",
-    "low rank employment"
+    "rural",
+    "caregiving",
+    "fatherhood",
+    "cultural memory",
+    "low rank employment",
+    "war",
+    "religion",
+    "abuse"
   ],
-  "charId":[
-    "GB2022_031_01",
-    "GB2022_031_02"
+  "director":[
+    {
+      "id":"Eli King",
+      "name":"Eli King",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":null
+    }
   ],
-  "perId":[
-    "Dimitri Andreas",
-    "Denise Black"
+  "character":[
+    {
+      "id":"GB2022_031_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"MEA",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Dimitri Andreas",
+        "name":"Dimitri Andreas",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":null
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_031_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"MEA",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Denise Black",
+        "name":"Denise Black",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":"MEA",
-  "charClass":[
-    "UC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Dimitri Andreas",
-    "Denise Black"
-  ],
-  "perBirthYear":[
-    0,
-    1958
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2022-031-the-lady-of-heaven"
+  "synopsis":{
+    "native":"Two stories separated by 1400 years. After losing his mother in the midst of a war-torn country, an Iraqi child, learns the importance and power of patience by discovering the historical story of Lady Fatima and her suffering.",
+    "english":null
+  }
 }

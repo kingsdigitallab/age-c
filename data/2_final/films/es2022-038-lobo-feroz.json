@@ -1,83 +1,93 @@
 {
-  "filmId":"ES2022_038",
-  "title":"Lobo Feroz",
-  "titleEn":null,
-  "director":"Gustavo Hern\u00e1ndez",
-  "releaseType":"THE",
-  "releaseDate":1670544000000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Gustavo Hern\u00e1ndez",
-  "directorBirthYear":1973,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"UY",
+  "id":"ES2022_038",
+  "type":"film",
+  "slug":"es2022-038-lobo-feroz",
+  "title":{
+    "native":"Lobo Feroz",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1670544000000,
+    "year":2022
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=526907",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14118246\/mediaviewer\/rm4011001089\/?ref_=tt_ov_i"
+  },
   "genre":[
+    "DTH",
     "DRA",
     "HOR",
-    "DTH",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=526907",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14118246\/mediaviewer\/rm4011001089\/?ref_=tt_ov_i",
-  "synopsis":"Un polic\u00eda al borde de la ley y una mujer en busca de venganza cruzan sus caminos obsesionados con descubrir al asesino que se esconde tras los brutales cr\u00edmenes de varias ni\u00f1as. Ambos est\u00e1n dispuestos a hacer lo que sea necesario para lograr su confesi\u00f3n, aunque para ello tengan que tomarse la justicia por su mano. Una mod\u00e9lica detective luchar\u00e1 contra el reloj evitar que se cometan errores irreparables y que esa desesperada b\u00fasqueda de la verdad se convierta en el m\u00e1s feroz de los lobos.",
-  "synopsisEn":"A detective on trail of a suspected child killer, was arrested for the crime, but was allowed to walk free after a clerical error. The detective enlists the mother of the murdered child to exact a justice the legal system can't provide.",
-  "country":[
-    "UY",
-    "AR",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "fatherhood",
     "state institutions",
-    "grief",
+    "fatherhood",
     "crime",
+    "grief",
     "revenge",
     "motherhood"
   ],
-  "charId":[
-    "ES2022_038_02",
-    "ES2022_038_01"
+  "director":[
+    {
+      "id":"Gustavo Hern\u00e1ndez",
+      "name":"Gustavo Hern\u00e1ndez",
+      "birthYear":1973,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"UY"
+    }
   ],
-  "perId":[
-    "Antonio Dechent",
-    "Fernando Tejero"
+  "character":[
+    {
+      "id":"ES2022_038_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Antonio Dechent",
+        "name":"Antonio Dechent",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2022_038_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Fernando Tejero",
+        "name":"Fernando Tejero",
+        "birthYear":1967.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":[
-    "EM",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Fernando Tejero",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1967
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "M",
-    null
-  ],
-  "perNationality":[
-    "ES",
-    null
-  ],
-  "perRole":null,
-  "slug":"es2022-038-lobo-feroz"
+  "synopsis":{
+    "native":"Un polic\u00eda al borde de la ley y una mujer en busca de venganza cruzan sus caminos obsesionados con descubrir al asesino que se esconde tras los brutales cr\u00edmenes de varias ni\u00f1as. Ambos est\u00e1n dispuestos a hacer lo que sea necesario para lograr su confesi\u00f3n, aunque para ello tengan que tomarse la justicia por su mano. Una mod\u00e9lica detective luchar\u00e1 contra el reloj evitar que se cometan errores irreparables y que esa desesperada b\u00fasqueda de la verdad se convierta en el m\u00e1s feroz de los lobos.",
+    "english":"A detective on trail of a suspected child killer, was arrested for the crime, but was allowed to walk free after a clerical error. The detective enlists the mother of the murdered child to exact a justice the legal system can't provide."
+  }
 }

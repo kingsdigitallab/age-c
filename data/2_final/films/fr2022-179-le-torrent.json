@@ -1,47 +1,70 @@
 {
-  "filmId":"FR2022_179",
-  "title":"Le Torrent",
-  "titleEn":"Spiral",
-  "director":"Anne Le Ny",
-  "releaseType":"THE",
-  "releaseDate":1669766400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=RCVQ64yBZlQ",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/130\/236\/257154\/format_page\/le-torrent.jpg",
-  "synopsis":"Lorsqu\u2019il d\u00e9couvre que Juliette, sa femme, le trompe, Alexandre est d\u00e9vast\u00e9. Fuyant la confrontation, Juliette quitte pr\u00e9cipitamment la maison. Alors qu\u2019il cherche a\u0300 la rattraper, celle-ci prend peur et fait une chute mortelle dans un ravin... Pris de court, Alexandre d\u00e9cide de ne pas alerter la police. Le lendemain, r\u00e9alisant qu\u2019il risque d\u2019\u00eatre accuse\u0301 du meurtre de sa femme, Alexandre panique. Lison, sa fille de 18 ans, effray\u00e9e a\u0300 l\u2019id\u00e9e de perdre son p\u00e8re, se laisse convaincre et ment pour le couvrir. C\u2019est le d\u00e9but d\u2019un terrible engrenage...",
-  "synopsisEn":"One night, after discovering that his wife cheats on him, Alexandre accidently kills her. Worried that the police would not buy the accident, he decides to hide the truth. He only shares his terrible secret with his daughter from a previous marriage, Lison. As an official investigation begins, Lison starts doubting her father\u2019s honesty. What if he was just using her, as he manipulates everyone else around him? It is the beginning of a downward spiral...",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2022_179",
+  "type":"film",
+  "slug":"fr2022-179-le-torrent",
+  "title":{
+    "native":"Le Torrent",
+    "english":"Spiral"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1669766400000,
+    "year":2022
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=RCVQ64yBZlQ",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/130\/236\/257154\/format_page\/le-torrent.jpg"
+  },
+  "genre":[
+    "DRA"
+  ],
   "tags":[
-    "rural",
     "in-laws",
+    "rural",
+    "multigenerational family",
     "parenthood",
     "grief",
-    "grandparenthood",
-    "multigenerational family"
+    "grandparenthood"
   ],
-  "charId":"FR2022_179_01",
-  "perId":"Andr\u00e9 Dussollier",
-  "charAge":"4",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"RE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2022-179-le-torrent"
+  "director":[
+    {
+      "id":"Anne Le Ny",
+      "name":"Anne Le Ny",
+      "birthYear":1962,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2022_179_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Andr\u00e9 Dussollier",
+        "name":"Andr\u00e9 Dussollier",
+        "birthYear":1946.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Lorsqu\u2019il d\u00e9couvre que Juliette, sa femme, le trompe, Alexandre est d\u00e9vast\u00e9. Fuyant la confrontation, Juliette quitte pr\u00e9cipitamment la maison. Alors qu\u2019il cherche a\u0300 la rattraper, celle-ci prend peur et fait une chute mortelle dans un ravin... Pris de court, Alexandre d\u00e9cide de ne pas alerter la police. Le lendemain, r\u00e9alisant qu\u2019il risque d\u2019\u00eatre accuse\u0301 du meurtre de sa femme, Alexandre panique. Lison, sa fille de 18 ans, effray\u00e9e a\u0300 l\u2019id\u00e9e de perdre son p\u00e8re, se laisse convaincre et ment pour le couvrir. C\u2019est le d\u00e9but d\u2019un terrible engrenage...",
+    "english":"One night, after discovering that his wife cheats on him, Alexandre accidently kills her. Worried that the police would not buy the accident, he decides to hide the truth. He only shares his terrible secret with his daughter from a previous marriage, Lison. As an official investigation begins, Lison starts doubting her father\u2019s honesty. What if he was just using her, as he manipulates everyone else around him? It is the beginning of a downward spiral..."
+  }
 }

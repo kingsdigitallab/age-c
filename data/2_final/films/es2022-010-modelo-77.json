@@ -1,52 +1,73 @@
 {
-  "filmId":"ES2022_010",
-  "title":"Modelo 77",
-  "titleEn":"Prison 77",
-  "director":"Alberto Rodr\u00edguez",
-  "releaseType":"THE",
-  "releaseDate":1663891200000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Alberto Rodr\u00edguez",
-  "directorBirthYear":1971,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2022_010",
+  "type":"film",
+  "slug":"es2022-010-modelo-77",
+  "title":{
+    "native":"Modelo 77",
+    "english":"Prison 77"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1663891200000,
+    "year":2022
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt15128358\/?ref_=vp_close",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt15128358\/mediaviewer\/rm3681553409\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
     "DRA",
+    "HIS",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt15128358\/?ref_=vp_close",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt15128358\/mediaviewer\/rm3681553409\/?ref_=tt_ov_i",
-  "synopsis":"C\u00e1rcel Modelo. Barcelona, 1977. Manuel (Miguel Herr\u00e1n), un joven contable, encarcelado y pendiente de juicio por cometer un desfalco, se enfrenta a una posible pena de entre 10 y 20 a\u00f1os, un castigo desproporcionado para la cuant\u00eda de su delito. Pronto, junto a su compa\u00f1ero de celda, Pino (Javier Guti\u00e9rrez), se une a un grupo de presos comunes que se est\u00e1 organizando para exigir una amnist\u00eda. Se inicia una guerra por la libertad que har\u00e1 tambalearse al sistema penitenciario espa\u00f1ol. Si las cosas est\u00e1n cambiando fuera, dentro tambi\u00e9n tendr\u00e1n que hacerlo.",
-  "synopsisEn":"A young accountant, awaiting trial in 1977 for embezzlement with a possible 20 years sentence, joins a group of prisoners demanding amnesty.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
     "activism",
-    "cultural memory",
     "state institutions",
     "national identity",
     "homosociality",
+    "class conflict",
     "crime",
-    "class conflict"
+    "cultural memory"
   ],
-  "charId":"ES2022_010_01",
-  "perId":"Fernando Tejero",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"LC",
-  "charProfession":"UN",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Fernando Tejero",
-  "perBirthYear":1967,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"es2022-010-modelo-77"
+  "director":[
+    {
+      "id":"Alberto Rodr\u00edguez",
+      "name":"Alberto Rodr\u00edguez",
+      "birthYear":1971,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
+  ],
+  "character":[
+    {
+      "id":"ES2022_010_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Fernando Tejero",
+        "name":"Fernando Tejero",
+        "birthYear":1967.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"C\u00e1rcel Modelo. Barcelona, 1977. Manuel (Miguel Herr\u00e1n), un joven contable, encarcelado y pendiente de juicio por cometer un desfalco, se enfrenta a una posible pena de entre 10 y 20 a\u00f1os, un castigo desproporcionado para la cuant\u00eda de su delito. Pronto, junto a su compa\u00f1ero de celda, Pino (Javier Guti\u00e9rrez), se une a un grupo de presos comunes que se est\u00e1 organizando para exigir una amnist\u00eda. Se inicia una guerra por la libertad que har\u00e1 tambalearse al sistema penitenciario espa\u00f1ol. Si las cosas est\u00e1n cambiando fuera, dentro tambi\u00e9n tendr\u00e1n que hacerlo.",
+    "english":"A young accountant, awaiting trial in 1977 for embezzlement with a possible 20 years sentence, joins a group of prisoners demanding amnesty."
+  }
 }

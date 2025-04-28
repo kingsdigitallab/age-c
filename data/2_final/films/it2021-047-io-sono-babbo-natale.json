@@ -1,63 +1,89 @@
 {
-  "filmId":"IT2021_047",
-  "title":"Io sono Babbo Natale",
-  "titleEn":"I Am Santa Claus",
-  "director":"Edoardo Falcone",
-  "releaseType":"THE",
-  "releaseDate":1635897600000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2021_047",
+  "type":"film",
+  "slug":"it2021-047-io-sono-babbo-natale",
+  "title":{
+    "native":"Io sono Babbo Natale",
+    "english":"I Am Santa Claus"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1635897600000,
+    "year":2021
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=YMJQT7FQDBk",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt12617312\/mediaviewer\/rm3907449857\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "FAN",
-    "COM"
+    "COM",
+    "FAN"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=YMJQT7FQDBk",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt12617312\/mediaviewer\/rm3907449857\/?ref_=tt_ov_i",
-  "synopsis":"Ettore (Marco Giallini) \u00e8 un ex galeotto dalla vita turbolenta e sgangherata. Non ha grandi prospettive se non quella di continuare la sua carriera da rapinatore. \u00c8 cos\u00ec che si ritrova a casa di Nicola (Gigi Proietti), un simpatico signore che non possiede oggetti di valore ma ha una incredibile rivelazione da fare: \u201csono Babbo Natale!\u201d Ma sar\u00e0 davvero lui?",
-  "synopsisEn":"Veteran Italian comedian Gigi Proietti as Santa Claus and Marco Giallini as a thief just out of jail. The two go on a journey of self discovery together.",
-  "country":"IT",
-  "productionShare":"MAJ",
   "tags":[
-    "intergenerational friendship",
     "retirement",
+    "mentorship",
     "festivities",
-    "mentorship"
+    "intergenerational friendship"
   ],
-  "charId":[
-    "IT2021_047_02",
-    "IT2021_047_01"
+  "director":[
+    {
+      "id":"Edoardo Falcone",
+      "name":"Edoardo Falcone",
+      "birthYear":1968,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
   ],
-  "perId":[
-    "Gigi Proietti",
-    "Marco Giallini"
+  "character":[
+    {
+      "id":"IT2021_047_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Gigi Proietti",
+        "name":"Gigi Proietti",
+        "birthYear":1940.0,
+        "deathYear":2020.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2021_047_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Marco Giallini",
+        "name":"Marco Giallini",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
   ],
-  "charAge":[
-    "2",
-    "4"
-  ],
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "UN"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2021-047-io-sono-babbo-natale"
+  "synopsis":{
+    "native":"Ettore (Marco Giallini) \u00e8 un ex galeotto dalla vita turbolenta e sgangherata. Non ha grandi prospettive se non quella di continuare la sua carriera da rapinatore. \u00c8 cos\u00ec che si ritrova a casa di Nicola (Gigi Proietti), un simpatico signore che non possiede oggetti di valore ma ha una incredibile rivelazione da fare: \u201csono Babbo Natale!\u201d Ma sar\u00e0 davvero lui?",
+    "english":"Veteran Italian comedian Gigi Proietti as Santa Claus and Marco Giallini as a thief just out of jail. The two go on a journey of self discovery together."
+  }
 }

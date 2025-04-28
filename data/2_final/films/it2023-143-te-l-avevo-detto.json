@@ -1,46 +1,69 @@
 {
-  "filmId":"IT2023_143",
-  "title":"Te l'avevo detto",
-  "titleEn":"I Told You So",
-  "director":"Ginevra Elkann",
-  "releaseType":"THE",
-  "releaseDate":1694131200000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":null,
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt18233134\/mediaviewer\/rm3988603393\/?ref_=tt_ov_i",
-  "synopsis":"A Roma, durante un fine settimana di gennaio, arriva un'improvvisa ondata di caldo. Il sole \u00e8 inizialmente piacevole, ma il caldo raggiunge rapidamente un livello spaventoso, con il risultato che persone e animali perdono l'autocontrollo.",
-  "synopsisEn":"It\u2019s a January weekend in Rome, when a sudden heat wave arrives disrupting the peace. In this surreal climate, people and animals start losing control. It\u2019s the beginning of a whole new chapter: suddenly, people are confronted with the things they have been carefully avoiding through their ordinary daily routines, be it food, sex, drugs, religion, or excessive romance. They can no longer escape - they must push through the heat, be transformed by it in its own voice and pace.",
-  "country":"IT",
-  "productionShare":"MAJ",
+  "id":"IT2023_143",
+  "type":"film",
+  "slug":"it2023-143-te-l-avevo-detto",
+  "title":{
+    "native":"Te l'avevo detto",
+    "english":"I Told You So"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1694131200000,
+    "year":2023
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":null,
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt18233134\/mediaviewer\/rm3988603393\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
+  ],
   "tags":[
-    "ecology",
-    "anti-ageing practices",
     "urban",
+    "anti-ageing practices",
+    "ecology",
     "religion",
     "motherhood"
   ],
-  "charId":"IT2023_143_01",
-  "perId":"Valeria Bruni Tedeschi",
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2023-143-te-l-avevo-detto"
+  "director":[
+    {
+      "id":"Ginevra Elkann",
+      "name":"Ginevra Elkann",
+      "birthYear":1979,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2023_143_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Valeria Bruni Tedeschi",
+        "name":"Valeria Bruni Tedeschi",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"A Roma, durante un fine settimana di gennaio, arriva un'improvvisa ondata di caldo. Il sole \u00e8 inizialmente piacevole, ma il caldo raggiunge rapidamente un livello spaventoso, con il risultato che persone e animali perdono l'autocontrollo.",
+    "english":"It\u2019s a January weekend in Rome, when a sudden heat wave arrives disrupting the peace. In this surreal climate, people and animals start losing control. It\u2019s the beginning of a whole new chapter: suddenly, people are confronted with the things they have been carefully avoiding through their ordinary daily routines, be it food, sex, drugs, religion, or excessive romance. They can no longer escape - they must push through the heat, be transformed by it in its own voice and pace."
+  }
 }

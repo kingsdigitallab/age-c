@@ -1,55 +1,69 @@
 {
-  "filmId":"GB2019_028",
-  "title":"My Zoe",
-  "titleEn":null,
-  "director":"Julie Delpy",
-  "releaseType":"FES",
-  "releaseDate":1567814400000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2019_028",
+  "type":"film",
+  "slug":"gb2019-028-my-zoe",
+  "title":{
+    "native":"My Zoe",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"FES",
+    "date":1567814400000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt6290584\/?ref_=nv_sr_srsg_2_tt_7_nm_1_in_0_q_My%2520Zoe",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6290584\/mediaviewer\/rm1787939329\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "SCI"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt6290584\/?ref_=nv_sr_srsg_2_tt_7_nm_1_in_0_q_My%2520Zoe",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6290584\/mediaviewer\/rm1787939329\/?ref_=tt_ov_i",
-  "synopsis":"A divorced mother looks to protect her daughter after an unexpected tragedy.",
-  "synopsisEn":null,
-  "country":[
-    "DE",
-    "FR",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
+    "grandmotherhood",
     "mentorship",
     "grief",
-    "motherhood",
-    "grandmotherhood"
+    "motherhood"
   ],
-  "charId":"GB2019_028_01",
-  "perId":"Lindsay Duncan",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"RE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Lindsay Duncan",
-  "perBirthYear":1950,
-  "perDeathYear":0,
-  "perGender":"F",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2019-028-my-zoe"
+  "director":[
+    {
+      "id":"Julie Delpy",
+      "name":"Julie Delpy",
+      "birthYear":1969,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2019_028_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Lindsay Duncan",
+        "name":"Lindsay Duncan",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"A divorced mother looks to protect her daughter after an unexpected tragedy.",
+    "english":null
+  }
 }

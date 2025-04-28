@@ -1,69 +1,88 @@
 {
-  "filmId":"RO2022_003",
-  "title":"Capra cu trei iezi",
-  "titleEn":"The Goat with Three Kids",
-  "director":"Victor Canache",
-  "releaseType":"THE",
-  "releaseDate":1666915200000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Victor Canache",
-  "directorBirthYear":1986,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"RO",
-  "genre":"HOR",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=xGhrFm7bhMg",
-  "posterUrl":"https:\/\/www.cinemagia.ro\/filme\/capra-cu-trei-iezi-3203681\/postere\/4669557\/#gallery",
-  "synopsis":"\u00cen Rom\u00e2nia rural\u0103 a secolului al XIX-lea, izolat\u0103 de lume, o v\u0103duv\u0103 \u0219i mam\u0103 a trei copii (actri\u021ba Maia Morgenstern) este nevoit\u0103 s\u0103 \u021bin\u0103 piept unui vechi prieten de familie care, v\u0103z\u00e2ndu-i f\u0103r\u0103 ap\u0103rare, \u00ee\u0219i d\u0103-n vileag adev\u0103rata natur\u0103 sadic\u0103 (actorul Marius Bodochi). Bazat pe una din cele mai cunoscute pove\u0219ti rom\u00e2ne\u015fti (\"Capra cu trei iezi\", de Ion Creang\u0103), filmul \u00ee\u015fi propune s\u0103 dezv\u0103luie adev\u0103rata natur\u0103 a faimoasei pove\u015fti pentru copii \u015fi s\u0103 prezinte publicului o nou\u0103 perspectiv\u0103, una care ofer\u0103 imaginea real\u0103 a tragediei, dincolo de personific\u0103ri \u0219i c\u00e2ntece vesele.",
-  "synopsisEn":"Secluded from the world, in XIX century rural Romania, a widow and mother of three must defend what's left of her family, at all costs, from an old family friend turned foe. Based on one of the best-known Romanian folk tales (The Goat and Her Three Kids by Ion Creanga), this film aims to unveil the true nature of the famed bedtime story and to treat the audience to a different perspective, one that offers a glimpse of what the tragedy looks like beyond the happy songs and affable characters.",
-  "country":"RO",
-  "productionShare":"MAJ",
+  "id":"RO2022_003",
+  "type":"film",
+  "slug":"ro2022-003-capra-cu-trei-iezi",
+  "title":{
+    "native":"Capra cu trei iezi",
+    "english":"The Goat with Three Kids"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1666915200000,
+    "year":2022
+  },
+  "production":{
+    "country":"RO",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=xGhrFm7bhMg",
+    "posterUrl":"https:\/\/www.cinemagia.ro\/filme\/capra-cu-trei-iezi-3203681\/postere\/4669557\/#gallery"
+  },
+  "genre":[
+    "HOR"
+  ],
   "tags":[
-    "natural",
     "independent home",
-    "motherhood",
-    "abuse"
+    "abuse",
+    "natural",
+    "motherhood"
   ],
-  "charId":[
-    "RO2022_003_02",
-    "RO2022_003_01"
+  "director":[
+    {
+      "id":"Victor Canache",
+      "name":"Victor Canache",
+      "birthYear":1986,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"RO"
+    }
   ],
-  "perId":[
-    "Maia Morgenstern",
-    "Marius Bodochi"
+  "character":[
+    {
+      "id":"RO2022_003_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WEE",
+      "class":"LC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Marius Bodochi",
+        "name":"Marius Bodochi",
+        "birthYear":1959.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"RO"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"RO2022_003_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WEE",
+      "class":"LC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Maia Morgenstern",
+        "name":"Maia Morgenstern",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"RO"
+      },
+      "role":"LEA"
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WEE",
-  "charClass":"LC",
-  "charProfession":[
-    "SE",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Maia Morgenstern",
-    "Marius Bodochi"
-  ],
-  "perBirthYear":[
-    1962,
-    1959
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"RO",
-  "perRole":null,
-  "slug":"ro2022-003-capra-cu-trei-iezi"
+  "synopsis":{
+    "native":"\u00cen Rom\u00e2nia rural\u0103 a secolului al XIX-lea, izolat\u0103 de lume, o v\u0103duv\u0103 \u0219i mam\u0103 a trei copii (actri\u021ba Maia Morgenstern) este nevoit\u0103 s\u0103 \u021bin\u0103 piept unui vechi prieten de familie care, v\u0103z\u00e2ndu-i f\u0103r\u0103 ap\u0103rare, \u00ee\u0219i d\u0103-n vileag adev\u0103rata natur\u0103 sadic\u0103 (actorul Marius Bodochi). Bazat pe una din cele mai cunoscute pove\u0219ti rom\u00e2ne\u015fti (\"Capra cu trei iezi\", de Ion Creang\u0103), filmul \u00ee\u015fi propune s\u0103 dezv\u0103luie adev\u0103rata natur\u0103 a faimoasei pove\u015fti pentru copii \u015fi s\u0103 prezinte publicului o nou\u0103 perspectiv\u0103, una care ofer\u0103 imaginea real\u0103 a tragediei, dincolo de personific\u0103ri \u0219i c\u00e2ntece vesele.",
+    "english":"Secluded from the world, in XIX century rural Romania, a widow and mother of three must defend what's left of her family, at all costs, from an old family friend turned foe. Based on one of the best-known Romanian folk tales (The Goat and Her Three Kids by Ion Creanga), this film aims to unveil the true nature of the famed bedtime story and to treat the audience to a different perspective, one that offers a glimpse of what the tragedy looks like beyond the happy songs and affable characters."
+  }
 }

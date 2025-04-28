@@ -1,53 +1,74 @@
 {
-  "filmId":"FR2019_142",
-  "title":"Ma famille et le loup",
-  "titleEn":"My Family and the Wolf",
-  "director":"Adria Garcia",
-  "releaseType":"THE",
-  "releaseDate":1566345600000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"FR2019_142",
+  "type":"film",
+  "slug":"fr2019-142-ma-famille-et-le-loup",
+  "title":{
+    "native":"Ma famille et le loup",
+    "english":"My Family and the Wolf"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1566345600000,
+    "year":2019
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=M3lNKhIFoJI",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/82\/40\/206930\/format_page\/ma-famille-et-le-loup.jpg"
+  },
   "genre":[
-    "COM",
-    "CHI"
+    "CHI",
+    "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=M3lNKhIFoJI",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/82\/40\/206930\/format_page\/ma-famille-et-le-loup.jpg",
-  "synopsis":"C\u2019est l\u2019\u00e9t\u00e9. Hugo, un petit gar\u00e7on de neuf ans, va passer l\u2019\u00e9t\u00e9 dans la maison du bord de mer o\u00f9 son p\u00e8re a grandi. C\u2019est Mamie Sara qui a voulu r\u00e9unir toute la famille pour son anniversaire. Un soir, elle raconte qu\u2019un loup viendra la chercher le jour de ses 80 ans, comme convenu il y a tr\u00e8s longtemps. Pour les adultes, c\u2019est une vieille l\u00e9gende invent\u00e9e par Mamie Sara, mais pour les enfants, c\u2019est une grande et myst\u00e9rieuse aventure qui commence.",
-  "synopsisEn":"Everybody is gathered to celebrate Granny Sara\u2019s 80th birthday at the seaside family house. It\u2019s a beautiful summer for 9 years old Hugo. However this year, Granny Sara has fallen ill. One night, she brings together the family to tell the story of the Wolf. Someday the animal will come and take her away forever. Will Hugo manage to protect his grandma from the mysterious beast?",
-  "country":"FR",
-  "productionShare":"MAJ",
   "tags":[
-    "festivities",
     "personal memory",
-    "independent home",
+    "festivities",
     "in-laws",
-    "extended family",
-    "parenthood",
-    "grandparenthood",
     "multigenerational family",
+    "independent home",
+    "parenthood",
+    "extended family",
+    "grandparenthood",
     "rescue mission"
   ],
-  "charId":"FR2019_142_01",
-  "perId":"Carmen Maura",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"RE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2019-142-ma-famille-et-le-loup"
+  "director":[
+    {
+      "id":"Adria Garcia",
+      "name":"Adria Garcia",
+      "birthYear":1978,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2019_142_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Carmen Maura",
+        "name":"Carmen Maura",
+        "birthYear":1945.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"C\u2019est l\u2019\u00e9t\u00e9. Hugo, un petit gar\u00e7on de neuf ans, va passer l\u2019\u00e9t\u00e9 dans la maison du bord de mer o\u00f9 son p\u00e8re a grandi. C\u2019est Mamie Sara qui a voulu r\u00e9unir toute la famille pour son anniversaire. Un soir, elle raconte qu\u2019un loup viendra la chercher le jour de ses 80 ans, comme convenu il y a tr\u00e8s longtemps. Pour les adultes, c\u2019est une vieille l\u00e9gende invent\u00e9e par Mamie Sara, mais pour les enfants, c\u2019est une grande et myst\u00e9rieuse aventure qui commence.",
+    "english":"Everybody is gathered to celebrate Granny Sara\u2019s 80th birthday at the seaside family house. It\u2019s a beautiful summer for 9 years old Hugo. However this year, Granny Sara has fallen ill. One night, she brings together the family to tell the story of the Wolf. Someday the animal will come and take her away forever. Will Hugo manage to protect his grandma from the mysterious beast?"
+  }
 }

@@ -1,83 +1,94 @@
 {
-  "filmId":"ES2019_044",
-  "title":"The Chain",
-  "titleEn":"Chain of Death",
-  "director":"David Mart\u00edn Porras",
-  "releaseType":"THE",
-  "releaseDate":1559260800000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"David Mart\u00edn Porras",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2019_044",
+  "type":"film",
+  "slug":"es2019-044-the-chain",
+  "title":{
+    "native":"The Chain",
+    "english":"Chain of Death"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1559260800000,
+    "year":2019
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt7094374\/?ref_=nm_flmg_knf_t_2",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt7094374\/mediaviewer\/rm2823789569\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HOR",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt7094374\/?ref_=nm_flmg_knf_t_2",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt7094374\/mediaviewer\/rm2823789569\/?ref_=tt_ov_i",
-  "synopsis":"Mike decide ponerle fin a su vida cuando descubre que tiene la misma enfermedad neurol\u00f3gica que su padre. Para ello, entrar\u00e1 en una turbia cadena de suicidios asistidos que opera bajo una regla: si quieres morir, tienes que matar a alguien primero.",
-  "synopsisEn":"A man enlists the services of an assisted suicide company but discovers in order to take part he must kill someone first.",
-  "country":[
-    "US",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "assisted death",
-    "abuse",
-    "fatherhood",
-    "mental illness",
-    "medical treatment",
-    "murder",
-    "caregiving",
     "intergenerational conflict",
-    "hospital"
+    "mental illness",
+    "hospital",
+    "caregiving",
+    "medical treatment",
+    "fatherhood",
+    "murder",
+    "assisted death",
+    "abuse"
   ],
-  "charId":[
-    "ES2019_044_01",
-    "ES2019_044_02"
+  "director":[
+    {
+      "id":"David Mart\u00edn Porras",
+      "name":"David Mart\u00edn Porras",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Adrienne Barbeau",
-    "Ray Wise"
+  "character":[
+    {
+      "id":"ES2019_044_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WNA",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Adrienne Barbeau",
+        "name":"Adrienne Barbeau",
+        "birthYear":1945.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2019_044_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"MC",
+      "profession":null,
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"Ray Wise",
+        "name":"Ray Wise",
+        "birthYear":1947.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WNA",
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":[
-    "AB",
-    "PD"
-  ],
-  "assistedMobility":null,
-  "perName":[
-    "Adrienne Barbeau",
-    "Ray Wise"
-  ],
-  "perBirthYear":[
-    1945,
-    1947
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"US",
-  "perRole":null,
-  "slug":"es2019-044-the-chain"
+  "synopsis":{
+    "native":"Mike decide ponerle fin a su vida cuando descubre que tiene la misma enfermedad neurol\u00f3gica que su padre. Para ello, entrar\u00e1 en una turbia cadena de suicidios asistidos que opera bajo una regla: si quieres morir, tienes que matar a alguien primero.",
+    "english":"A man enlists the services of an assisted suicide company but discovers in order to take part he must kill someone first."
+  }
 }

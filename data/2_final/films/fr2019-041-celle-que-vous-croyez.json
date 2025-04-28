@@ -1,58 +1,75 @@
 {
-  "filmId":"FR2019_041",
-  "title":"Celle que vous croyez",
-  "titleEn":"Who You Think I Am",
-  "director":"Safy Nebbou",
-  "releaseType":"THE",
-  "releaseDate":1551225600000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=x8Rb4SJrrEQ",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/210\/15\/200658\/format_page\/celle-que-vous-croyez.jpg",
-  "synopsis":"Pour \u00e9pier son amant Ludo, Claire, la cinquantaine, se cr\u00e9e un faux profil sur les r\u00e9seaux sociaux et devient Clara, une magnifique jeune femme de 24 ans. Alex, le meilleur ami de Ludo, est imm\u00e9diatement s\u00e9duit. Dans l'engrenage, Claire, tombe \u00e0 son tour \u00e9perdument amoureuse de lui. Si tout se joue dans le virtuel, les sentiments sont bien r\u00e9els. Une histoire vertigineuse o\u00f9 r\u00e9alit\u00e9 et mensonge se confondent.",
-  "synopsisEn":"To spy on her lover Ludo, 50 year-old Claire Millaud creates a fake profile on social media and becomes Clara, a beautiful 24 year-old. Alex, Ludo\u2019s friend is instantly enamored. Claire, trapped by her avatar, falls madly in love with him. Although everything is played out in the virtual world, the feelings that blossom are quite real. A beguiling story where lies are entangled with reality.",
-  "country":[
-    "BE",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+  "id":"FR2019_041",
+  "type":"film",
+  "slug":"fr2019-041-celle-que-vous-croyez",
+  "title":{
+    "native":"Celle que vous croyez",
+    "english":"Who You Think I Am"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1551225600000,
+    "year":2019
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=x8Rb4SJrrEQ",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/210\/15\/200658\/format_page\/celle-que-vous-croyez.jpg"
+  },
+  "genre":[
+    "DRA"
   ],
   "tags":[
     "fraud",
-    "personal trauma",
-    "desire",
-    "self-employment",
-    "may-december",
-    "extended family",
-    "loneliness",
+    "separation",
+    "caregiving",
     "parenthood",
     "high rank employment",
-    "caregiving",
-    "separation"
+    "personal trauma",
+    "may-december",
+    "desire",
+    "loneliness",
+    "extended family",
+    "self-employment"
   ],
-  "charId":"FR2019_041_01",
-  "perId":"Juliette Binoche",
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Juliette Binoche",
-  "perBirthYear":1964,
-  "perDeathYear":0,
-  "perGender":"F",
-  "perNationality":"FR",
-  "perRole":null,
-  "slug":"fr2019-041-celle-que-vous-croyez"
+  "director":[
+    {
+      "id":"Safy Nebbou",
+      "name":"Safy Nebbou",
+      "birthYear":1968,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2019_041_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Juliette Binoche",
+        "name":"Juliette Binoche",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Pour \u00e9pier son amant Ludo, Claire, la cinquantaine, se cr\u00e9e un faux profil sur les r\u00e9seaux sociaux et devient Clara, une magnifique jeune femme de 24 ans. Alex, le meilleur ami de Ludo, est imm\u00e9diatement s\u00e9duit. Dans l'engrenage, Claire, tombe \u00e0 son tour \u00e9perdument amoureuse de lui. Si tout se joue dans le virtuel, les sentiments sont bien r\u00e9els. Une histoire vertigineuse o\u00f9 r\u00e9alit\u00e9 et mensonge se confondent.",
+    "english":"To spy on her lover Ludo, 50 year-old Claire Millaud creates a fake profile on social media and becomes Clara, a beautiful 24 year-old. Alex, Ludo\u2019s friend is instantly enamored. Claire, trapped by her avatar, falls madly in love with him. Although everything is played out in the virtual world, the feelings that blossom are quite real. A beguiling story where lies are entangled with reality."
+  }
 }

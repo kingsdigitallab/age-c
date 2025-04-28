@@ -1,76 +1,99 @@
 {
-  "filmId":"ES2023_020",
-  "title":"Te estoy amando locamente",
-  "titleEn":"Love & Revolution",
-  "director":"Alejandro Mar\u00edn",
-  "releaseType":"THE",
-  "releaseDate":1687824000000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Alejandro Mar\u00edn",
-  "directorBirthYear":1993,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2023_020",
+  "type":"film",
+  "slug":"es2023-020-te-estoy-amando-locamente",
+  "title":{
+    "native":"Te estoy amando locamente",
+    "english":"Love & Revolution"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1687824000000,
+    "year":2023
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt22643896\/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_Te%2520estoy%2520amando%2520locamente",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt22643896\/mediaviewer\/rm1970285825\/?ref_=tt_ov_i"
+  },
   "genre":[
+    "MUS",
     "HIS",
     "ROM",
-    "COM",
-    "MUS"
+    "COM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt22643896\/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_Te%2520estoy%2520amando%2520locamente",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt22643896\/mediaviewer\/rm1970285825\/?ref_=tt_ov_i",
-  "synopsis":"Sevilla, 1977. En un momento en el que la homosexualidad es delito, Reme, una madre tradicional movida por el amor hacia su hijo, un adolescente aspirante a artista, se involucrar\u00e1 en el movimiento LGTBI andaluz, gestado parad\u00f3jicamente en el seno de la Iglesia.",
-  "synopsisEn":"It follows a mother who is involved in the homosexual movement of the seventies.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "activism",
-    "low rank employment",
-    "cultural memory",
-    "state institutions",
-    "regional identity",
     "lgbtqi",
-    "class solidarity",
-    "collective trauma",
     "intergenerational conflict",
+    "collective trauma",
+    "activism",
+    "state institutions",
     "urban",
+    "regional identity",
+    "class solidarity",
+    "cultural memory",
+    "low rank employment",
     "religion",
     "motherhood"
   ],
-  "charId":[
-    "ES2023_020_01",
-    "ES2023_020_02"
+  "director":[
+    {
+      "id":"Alejandro Mar\u00edn",
+      "name":"Alejandro Mar\u00edn",
+      "birthYear":1993,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Ana Wagener",
-    "Manuel Mor\u00f3n"
+  "character":[
+    {
+      "id":"ES2023_020_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Manuel Mor\u00f3n",
+        "name":"Manuel Mor\u00f3n",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_020_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ana Wagener",
+        "name":"Ana Wagener",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "EM",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"es2023-020-te-estoy-amando-locamente"
+  "synopsis":{
+    "native":"Sevilla, 1977. En un momento en el que la homosexualidad es delito, Reme, una madre tradicional movida por el amor hacia su hijo, un adolescente aspirante a artista, se involucrar\u00e1 en el movimiento LGTBI andaluz, gestado parad\u00f3jicamente en el seno de la Iglesia.",
+    "english":"It follows a mother who is involved in the homosexual movement of the seventies."
+  }
 }

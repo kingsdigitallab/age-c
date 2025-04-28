@@ -1,57 +1,89 @@
 {
-  "filmId":"IT2023_126",
-  "title":"L'orafo",
-  "titleEn":"The Goldsmith",
-  "director":"Vincenzo Ricchiuto",
-  "releaseType":"THE",
-  "releaseDate":1676937600000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2023_126",
+  "type":"film",
+  "slug":"it2023-126-l-orafo",
+  "title":{
+    "native":"L'orafo",
+    "english":"The Goldsmith"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1676937600000,
+    "year":2023
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=n_WMExrSfCc",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt15307448\/mediaviewer\/rm3883991809\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HOR",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=n_WMExrSfCc",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt15307448\/mediaviewer\/rm3883991809\/?ref_=tt_ov_i",
-  "synopsis":"Tre giovani rapinatori si introducono nella casa di campagna di una coppia di anziani per saccheggiare il loro laboratorio di oreficeria. Scopriranno sulla loro pelle che i due vecchietti sono tutt\u2019altro che innocui, e vivranno l\u2019esperienza pi\u00f9 terrificante della loro vita.",
-  "synopsisEn":"Three young robbers break into an elderly couple's country house to ransack their goldsmith's workshop. They will discover that the two old people are anything but harmless, and they will live the most terrifying experience of their life.",
-  "country":"IT",
-  "productionShare":"MAJ",
   "tags":[
-    "crime",
-    "independent home",
     "marriage",
-    "abuse"
+    "independent home",
+    "abuse",
+    "crime"
   ],
-  "charId":[
-    "IT2023_126_01",
-    "IT2023_126_02"
+  "director":[
+    {
+      "id":"Vincenzo Ricchiuto",
+      "name":"Vincenzo Ricchiuto",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
   ],
-  "perId":[
-    "Stefania Casini",
-    "Giuseppe Pambieri"
+  "character":[
+    {
+      "id":"IT2023_126_02",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Stefania Casini",
+        "name":"Stefania Casini",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2023_126_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Giuseppe Pambieri",
+        "name":"Giuseppe Pambieri",
+        "birthYear":1944.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
   ],
-  "charAge":"4",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2023-126-l-orafo"
+  "synopsis":{
+    "native":"Tre giovani rapinatori si introducono nella casa di campagna di una coppia di anziani per saccheggiare il loro laboratorio di oreficeria. Scopriranno sulla loro pelle che i due vecchietti sono tutt\u2019altro che innocui, e vivranno l\u2019esperienza pi\u00f9 terrificante della loro vita.",
+    "english":"Three young robbers break into an elderly couple's country house to ransack their goldsmith's workshop. They will discover that the two old people are anything but harmless, and they will live the most terrifying experience of their life."
+  }
 }

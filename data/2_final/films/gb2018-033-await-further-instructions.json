@@ -1,57 +1,78 @@
 {
-  "filmId":"GB2018_033",
-  "title":"Await Further Instructions",
-  "titleEn":null,
-  "director":"Johnny Kevorkian",
-  "releaseType":"THE",
-  "releaseDate":1544140800000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Johnny Kevorkian",
-  "directorBirthYear":1978,
-  "directorDeathYear":2020,
-  "directorGender":"M",
-  "directorNationality":"CY",
+  "id":"GB2018_033",
+  "type":"film",
+  "slug":"gb2018-033-await-further-instructions",
+  "title":{
+    "native":"Await Further Instructions",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1544140800000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=279181",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt4971408\/mediaviewer\/rm3703272449\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "HOR",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=279181",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt4971408\/mediaviewer\/rm3703272449\/?ref_=tt_ov_i",
-  "synopsis":"A family's Christmas takes a strange turn when they awake to find themselves trapped inside and begin receiving mysterious instructions through the television.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "racial discrimination",
-    "independent home",
-    "supernatural entity",
-    "abuse",
-    "migration",
     "disability",
-    "murder",
-    "caregiving",
+    "intergenerational conflict",
+    "supernatural entity",
     "mass media",
     "festivities",
-    "intergenerational conflict",
-    "grandfatherhood"
+    "independent home",
+    "caregiving",
+    "grandfatherhood",
+    "murder",
+    "abuse",
+    "migration",
+    "racial discrimination"
   ],
-  "charId":"GB2018_033_01",
-  "perId":"David Bradley",
-  "charAge":"4",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"RE",
-  "charAbility":"PD",
-  "assistedMobility":"Y",
-  "perName":"David Bradley",
-  "perBirthYear":1942,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2018-033-await-further-instructions"
+  "director":[
+    {
+      "id":"Johnny Kevorkian",
+      "name":"Johnny Kevorkian",
+      "birthYear":1978,
+      "deathYear":2020,
+      "gender":"M",
+      "nationality":"CY"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2018_033_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"David Bradley",
+        "name":"David Bradley",
+        "birthYear":1942.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"A family's Christmas takes a strange turn when they awake to find themselves trapped inside and begin receiving mysterious instructions through the television.",
+    "english":null
+  }
 }

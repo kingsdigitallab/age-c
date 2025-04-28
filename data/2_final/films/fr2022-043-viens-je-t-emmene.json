@@ -1,60 +1,75 @@
 {
-  "filmId":"FR2022_043",
-  "title":"Viens je t'emm\u00e8ne",
-  "titleEn":"Nobody's Hero",
-  "director":"Alain Guiraudie",
-  "releaseType":"THE",
-  "releaseDate":1646179200000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"FR2022_043",
+  "type":"film",
+  "slug":"fr2022-043-viens-je-t-emmene",
+  "title":{
+    "native":"Viens je t'emm\u00e8ne",
+    "english":"Nobody's Hero"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1646179200000,
+    "year":2022
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=tb25ytzrxMQ",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/184\/193\/246200\/format_page\/viens-je-t-emmene.jpg"
+  },
   "genre":[
     "DRA",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=tb25ytzrxMQ",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/184\/193\/246200\/format_page\/viens-je-t-emmene.jpg",
-  "synopsis":"\u00c0 Clermont-Ferrand, M\u00e9d\u00e9ric tombe amoureux d\u2019Isadora, une prostitu\u00e9e de 50 ans, mais elle est mari\u00e9e. Alors que le centre-ville est le th\u00e9\u00e2tre d\u2019une attaque terroriste, Selim, un jeune sans-abri se r\u00e9fugie dans l\u2019immeuble de M\u00e9d\u00e9ric provoquant une parano\u00efa collective. Tout se complique dans la vie de M\u00e9d\u00e9ric, tiraill\u00e9 entre son empathie pour S\u00e9lim et son d\u00e9sir de vivre une liaison avec Isadora.",
-  "synopsisEn":"Clermont-Ferrand, central France. M\u00e9d\u00e9ric (35) meets and falls in love with middle-aged sex worker Isadora, who is married. When the city center is the scene of a terrorist attack, Selim, a young, homeless guy, provokes a wave of paranoia by taking refuge in M\u00e9d\u00e9ric's building. Sympathizing with Selim, crazy about Isadora, Mederic's life suddenly turns into a mess...",
-  "country":[
-    "BE",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "racial discrimination",
-    "desire",
-    "abuse",
-    "sex",
-    "self-employment",
     "infidelity",
-    "marriage",
     "urban",
+    "marriage",
     "sex work",
-    "interracial relationships"
+    "sex",
+    "desire",
+    "self-employment",
+    "abuse",
+    "interracial relationships",
+    "racial discrimination"
   ],
-  "charId":"FR2022_043_01",
-  "perId":"No\u00e9mie Lvovsky",
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2022-043-viens-je-t-emmene"
+  "director":[
+    {
+      "id":"Alain Guiraudie",
+      "name":"Alain Guiraudie",
+      "birthYear":1964,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2022_043_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"No\u00e9mie Lvovsky",
+        "name":"No\u00e9mie Lvovsky",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"\u00c0 Clermont-Ferrand, M\u00e9d\u00e9ric tombe amoureux d\u2019Isadora, une prostitu\u00e9e de 50 ans, mais elle est mari\u00e9e. Alors que le centre-ville est le th\u00e9\u00e2tre d\u2019une attaque terroriste, Selim, un jeune sans-abri se r\u00e9fugie dans l\u2019immeuble de M\u00e9d\u00e9ric provoquant une parano\u00efa collective. Tout se complique dans la vie de M\u00e9d\u00e9ric, tiraill\u00e9 entre son empathie pour S\u00e9lim et son d\u00e9sir de vivre une liaison avec Isadora.",
+    "english":"Clermont-Ferrand, central France. M\u00e9d\u00e9ric (35) meets and falls in love with middle-aged sex worker Isadora, who is married. When the city center is the scene of a terrorist attack, Selim, a young, homeless guy, provokes a wave of paranoia by taking refuge in M\u00e9d\u00e9ric's building. Sympathizing with Selim, crazy about Isadora, Mederic's life suddenly turns into a mess..."
+  }
 }

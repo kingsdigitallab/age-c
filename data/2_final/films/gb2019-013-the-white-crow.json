@@ -1,61 +1,75 @@
 {
-  "filmId":"GB2019_013",
-  "title":"The White Crow",
-  "titleEn":null,
-  "director":"Ralph Fiennes",
-  "releaseType":"THE",
-  "releaseDate":1553212800000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Ralph Fiennes",
-  "directorBirthYear":1962,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2019_013",
+  "type":"film",
+  "slug":"gb2019-013-the-white-crow",
+  "title":{
+    "native":"The White Crow",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1553212800000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=BklqjGWxNMs",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5460858\/mediaviewer\/rm2102222848\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
+    "BIO",
     "DRA",
-    "BIO"
-  ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=BklqjGWxNMs",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5460858\/mediaviewer\/rm2102222848\/?ref_=tt_ov_i",
-  "synopsis":"The story of Rudolf Nureyev's defection to the West.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB",
-    "RS"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "HIS"
   ],
   "tags":[
-    "cultural memory",
-    "national identity",
-    "artistic creation",
+    "collective trauma",
+    "mentorship",
     "superior-employee relationship",
     "state institutions",
+    "national identity",
+    "artistic creation",
     "homosociality",
     "high rank employment",
-    "collective trauma",
-    "mentorship"
+    "cultural memory"
   ],
-  "charId":"GB2019_013_01",
-  "perId":"Ralph Fiennes",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WEE",
-  "charClass":"UM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Ralph Fiennes",
-  "perBirthYear":1962,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2019-013-the-white-crow"
+  "director":[
+    {
+      "id":"Ralph Fiennes",
+      "name":"Ralph Fiennes",
+      "birthYear":1962,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2019_013_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WEE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ralph Fiennes",
+        "name":"Ralph Fiennes",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"The story of Rudolf Nureyev's defection to the West.",
+    "english":null
+  }
 }

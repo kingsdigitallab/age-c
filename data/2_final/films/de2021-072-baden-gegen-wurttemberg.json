@@ -1,63 +1,81 @@
 {
-  "filmId":"DE2021_072",
-  "title":"Baden gegen W\u00fcrttemberg",
-  "titleEn":null,
-  "director":"Andreas K\u00f6ller",
-  "releaseType":"THE",
-  "releaseDate":1637798400000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"HIS",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=_Gfgvx5xhQY&ab_channel=KinoCheckIndie",
-  "posterUrl":"https:\/\/www.filmposter-archiv.de\/filmplakat.php?id=34700",
-  "synopsis":"Vor 70 Jahren wurde Baden-W\u00fcrttemberg gegr\u00fcndet. W\u00e4hrend der Frauenfunk aus Stuttgart emanzipierte Ratschl\u00e4ge f\u00fcr das t\u00e4gliche \u00dcberleben in der Nachkriegszeit sendet und damit vielen Menschen, vor allem aber Frauen, unter die Arme greift, schmieden Politiker gro\u00dfe Pl\u00e4ne und Intrigen im Hintergrund. Die Dokumentation zeigt dabei auf, wie ...",
-  "synopsisEn":"Baden-W\u00fcrttemberg was founded 70 years ago. While the women's radio from Stuttgart broadcasts emancipated advice for daily survival in the post-war period and thus helps many people, especially women, politicians are making big plans and intrigues in the background. The documentation shows how...",
-  "country":"DE",
-  "productionShare":"MAJ",
+  "id":"DE2021_072",
+  "type":"film",
+  "slug":"de2021-072-baden-gegen-wurttemberg",
+  "title":{
+    "native":"Baden gegen W\u00fcrttemberg",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1637798400000,
+    "year":2021
+  },
+  "production":{
+    "country":"DE",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=_Gfgvx5xhQY&ab_channel=KinoCheckIndie",
+    "posterUrl":"https:\/\/www.filmposter-archiv.de\/filmplakat.php?id=34700"
+  },
+  "genre":[
+    "HIS"
+  ],
   "tags":[
     "professional politics",
-    "state institutions",
     "gender discrimination",
-    "cultural memory"
+    "cultural memory",
+    "state institutions"
   ],
-  "charId":[
-    "DE2021_072_01",
-    "DE2021_072_02"
+  "director":[
+
   ],
-  "perId":[
-    "Babett Arens",
-    "Stephan Baumecker"
+  "character":[
+    {
+      "id":"DE2021_072_02",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Babett Arens",
+        "name":"Babett Arens",
+        "birthYear":1959.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"DE"
+      },
+      "role":null
+    },
+    {
+      "id":"DE2021_072_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Stephan Baumecker",
+        "name":"Stephan Baumecker",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"DE"
+      },
+      "role":null
+    }
   ],
-  "charAge":"2",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Babett Arens",
-    "Stephan Baumecker"
-  ],
-  "perBirthYear":[
-    1961,
-    1959
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"DE",
-  "perRole":null,
-  "slug":"de2021-072-baden-gegen-wurttemberg"
+  "synopsis":{
+    "native":"Vor 70 Jahren wurde Baden-W\u00fcrttemberg gegr\u00fcndet. W\u00e4hrend der Frauenfunk aus Stuttgart emanzipierte Ratschl\u00e4ge f\u00fcr das t\u00e4gliche \u00dcberleben in der Nachkriegszeit sendet und damit vielen Menschen, vor allem aber Frauen, unter die Arme greift, schmieden Politiker gro\u00dfe Pl\u00e4ne und Intrigen im Hintergrund. Die Dokumentation zeigt dabei auf, wie ...",
+    "english":"Baden-W\u00fcrttemberg was founded 70 years ago. While the women's radio from Stuttgart broadcasts emancipated advice for daily survival in the post-war period and thus helps many people, especially women, politicians are making big plans and intrigues in the background. The documentation shows how..."
+  }
 }

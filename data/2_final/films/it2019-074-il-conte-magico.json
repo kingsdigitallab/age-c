@@ -1,66 +1,97 @@
 {
-  "filmId":"IT2019_074",
-  "title":"Il conte magico",
-  "titleEn":null,
-  "director":[
-    "Marco Melluso",
-    "Diego Schiavo"
-  ],
-  "releaseType":"THE",
-  "releaseDate":1561507200000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2019_074",
+  "type":"film",
+  "slug":"it2019-074-il-conte-magico",
+  "title":{
+    "native":"Il conte magico",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1561507200000,
+    "year":2019
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=ls9hXxE7H4E",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt10871578\/mediaviewer\/rm4291529729\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HIS",
+    "CHI",
     "ADV",
-    "COM",
-    "CHI"
+    "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=ls9hXxE7H4E",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt10871578\/mediaviewer\/rm4291529729\/?ref_=tt_ov_i",
-  "synopsis":"Alcuni amici youtubers, dopo aver ricevuto delle critiche anonime, si mettono sulle tracce di questo particolare commentatore",
-  "synopsisEn":null,
-  "country":"IT",
-  "productionShare":"MAJ",
   "tags":[
     "education",
     "technology"
   ],
-  "charId":[
-    "IT2019_074_02",
-    "IT2019_074_01"
+  "director":[
+    {
+      "id":"Marco Melluso",
+      "name":"Marco Melluso",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    },
+    {
+      "id":"Diego Schiavo",
+      "name":"Diego Schiavo",
+      "birthYear":1976,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
   ],
-  "perId":[
-    "Luciano Manzalini",
-    "Eraldo Turra"
+  "character":[
+    {
+      "id":"IT2019_074_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Eraldo Turra",
+        "name":"Eraldo Turra",
+        "birthYear":1955.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2019_074_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"Luciano Manzalini",
+        "name":"Luciano Manzalini",
+        "birthYear":1952.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":null,
-  "charProfession":null,
-  "charAbility":[
-    "AB",
-    "PD"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2019-074-il-conte-magico"
+  "synopsis":{
+    "native":"Alcuni amici youtubers, dopo aver ricevuto delle critiche anonime, si mettono sulle tracce di questo particolare commentatore",
+    "english":null
+  }
 }

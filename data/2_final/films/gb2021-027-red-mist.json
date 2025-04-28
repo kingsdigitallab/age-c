@@ -1,55 +1,76 @@
 {
-  "filmId":"GB2021_027",
-  "title":"Red Mist",
-  "titleEn":null,
-  "director":"Chris Crow",
-  "releaseType":"THE",
-  "releaseDate":1632441600000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2021_027",
+  "type":"film",
+  "slug":"gb2021-027-red-mist",
+  "title":{
+    "native":"Red Mist",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1632441600000,
+    "year":2021
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=jDS8STxSUao",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5045682\/mediaviewer\/rm989637377\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "CRI",
     "ROM",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=jDS8STxSUao",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5045682\/mediaviewer\/rm989637377\/?ref_=tt_ov_i",
-  "synopsis":"Chris Blythe returns to his home town in Wales after losing a fortune in Canada. He falls in love with Elen, a volatile and charismatic woman. But Elen's father Billy is a dangerous man and Chris Blythe finds himself torn between love and hate..",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "rural",
-    "abuse",
-    "fatherhood",
-    "in-laws",
-    "self-employment",
-    "organized crime",
+    "intergenerational conflict",
     "superior-employee relationship",
+    "in-laws",
+    "rural",
     "homosociality",
-    "intergenerational conflict"
+    "fatherhood",
+    "self-employment",
+    "abuse",
+    "organized crime"
   ],
-  "charId":"GB2021_027_01",
-  "perId":"David Hayman",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"David Hayman",
-  "perBirthYear":1948,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2021-027-red-mist"
+  "director":[
+    {
+      "id":"Chris Crow",
+      "name":"Chris Crow",
+      "birthYear":1972,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2021_027_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"David Hayman",
+        "name":"David Hayman",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Chris Blythe returns to his home town in Wales after losing a fortune in Canada. He falls in love with Elen, a volatile and charismatic woman. But Elen's father Billy is a dangerous man and Chris Blythe finds himself torn between love and hate..",
+    "english":null
+  }
 }

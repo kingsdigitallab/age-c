@@ -1,48 +1,69 @@
 {
-  "filmId":"GB2023_052",
-  "title":"God's Petting You",
-  "titleEn":null,
-  "director":"Jamie Patterson",
-  "releaseType":"THE",
-  "releaseDate":1682035200000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Jamie Patterson",
-  "directorBirthYear":1986,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2023_052",
+  "type":"film",
+  "slug":"gb2023-052-god-s-petting-you",
+  "title":{
+    "native":"God's Petting You",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1682035200000,
+    "year":2023
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt5250516\/?ref_=tt_mv_close",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5250516\/mediaviewer\/rm2192517889\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HEI",
     "CRI",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt5250516\/?ref_=tt_mv_close",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5250516\/mediaviewer\/rm2192517889\/?ref_=tt_ov_i",
-  "synopsis":"A dark, twisted comedy set in the Brighton underworld. Charlie, a down on his luck heroin addict, falls in love with a struggling sex addict. Together they hatch a hair-brained scheme to steal money from a criminally inclined porn star.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "crime",
     "intergenerational conflict",
-    "abuse"
+    "abuse",
+    "crime"
   ],
-  "charId":"GB2023_052_01",
-  "perId":"Patrick Bergin",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WNA",
-  "charClass":"LM",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Patrick Bergin",
-  "perBirthYear":1951,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"IE",
-  "perRole":null,
-  "slug":"gb2023-052-god-s-petting-you"
+  "director":[
+    {
+      "id":"Jamie Patterson",
+      "name":"Jamie Patterson",
+      "birthYear":1986,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2023_052_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Patrick Bergin",
+        "name":"Patrick Bergin",
+        "birthYear":1951.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IE"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"A dark, twisted comedy set in the Brighton underworld. Charlie, a down on his luck heroin addict, falls in love with a struggling sex addict. Together they hatch a hair-brained scheme to steal money from a criminally inclined porn star.",
+    "english":null
+  }
 }

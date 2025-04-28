@@ -1,89 +1,94 @@
 {
-  "filmId":"GB2020_012",
-  "title":"Come Away",
-  "titleEn":null,
-  "director":"Brenda Chapman",
-  "releaseType":"THE",
-  "releaseDate":1608249600000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":"Brenda Chapman",
-  "directorBirthYear":1963,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"US",
+  "id":"GB2020_012",
+  "type":"film",
+  "slug":"gb2020-012-come-away",
+  "title":{
+    "native":"Come Away",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1608249600000,
+    "year":2020
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=543447",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5714470\/mediaviewer\/rm675272705\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
-    "FAN",
+    "CHI",
     "ADV",
-    "CHI"
+    "FAN"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=543447",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5714470\/mediaviewer\/rm675272705\/?ref_=tt_ov_i",
-  "synopsis":"When their eldest brother dies, Peter and Alice seek to save their parents from despair until they are forced to choose between home and imagination, setting the stage for their iconic journeys into Wonderland and Neverland.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "supernatural entity",
+    "intergenerational conflict",
     "mental illness",
-    "superior-employee relationship",
-    "urban",
     "mentorship",
-    "natural",
-    "intergenerational conflict"
+    "supernatural entity",
+    "urban",
+    "superior-employee relationship",
+    "natural"
   ],
-  "charId":[
-    "GB2020_012_02",
-    "GB2020_012_01"
+  "director":[
+    {
+      "id":"Brenda Chapman",
+      "name":"Brenda Chapman",
+      "birthYear":1963,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"US"
+    }
   ],
-  "perId":[
-    "Michael Caine",
-    "Clarke Peters"
+  "character":[
+    {
+      "id":"GB2020_012_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Michael Caine",
+        "name":"Michael Caine",
+        "birthYear":1933.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_012_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"BNA",
+      "class":"MC",
+      "profession":"UN",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"Clarke Peters",
+        "name":"Clarke Peters",
+        "birthYear":1952.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":[
-    "BNA",
-    "WWE"
-  ],
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":[
-    "SE",
-    "UN"
-  ],
-  "charAbility":[
-    "AB",
-    "PD"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Michael Caine",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1933
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    null,
-    "M"
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2020-012-come-away"
+  "synopsis":{
+    "native":"When their eldest brother dies, Peter and Alice seek to save their parents from despair until they are forced to choose between home and imagination, setting the stage for their iconic journeys into Wonderland and Neverland.",
+    "english":null
+  }
 }

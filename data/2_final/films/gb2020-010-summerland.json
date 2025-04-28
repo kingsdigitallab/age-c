@@ -1,100 +1,122 @@
 {
-  "filmId":"GB2020_010",
-  "title":"Summerland",
-  "titleEn":null,
-  "director":"Jessica Swale",
-  "releaseType":"THE",
-  "releaseDate":1596153600000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":"Jessica Swale",
-  "directorBirthYear":1982,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"GB",
+  "id":"GB2020_010",
+  "type":"film",
+  "slug":"gb2020-010-summerland",
+  "title":{
+    "native":"Summerland",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1596153600000,
+    "year":2020
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=710063",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6841122\/mediaviewer\/rm484946945\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
     "DRA",
-    "COA"
+    "COA",
+    "HIS"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=710063",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6841122\/mediaviewer\/rm484946945\/?ref_=tt_ov_i",
-  "synopsis":"During World War II, an Englishwoman opens her heart to an evacuee after initially resolving to be rid of him in this moving journey of womanhood, love and friendship.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "war",
-    "rural",
-    "personal memory",
-    "cultural memory",
-    "independent home",
-    "self-employment",
-    "national identity",
-    "artistic creation",
     "lgbtqi",
-    "grief",
     "collective trauma",
     "mentorship",
-    "education",
-    "caregiving",
+    "personal memory",
     "stages of life",
-    "low rank employment"
+    "rural",
+    "national identity",
+    "independent home",
+    "caregiving",
+    "artistic creation",
+    "education",
+    "cultural memory",
+    "low rank employment",
+    "war",
+    "grief",
+    "self-employment"
   ],
-  "charId":[
-    "GB2020_010_03",
-    "GB2020_010_01",
-    "GB2020_010_02"
+  "director":[
+    {
+      "id":"Jessica Swale",
+      "name":"Jessica Swale",
+      "birthYear":1982,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Penelope Wilton",
-    "Tom Courtenay",
-    "Si\u00e2n Phillips"
+  "character":[
+    {
+      "id":"GB2020_010_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Tom Courtenay",
+        "name":"Tom Courtenay",
+        "birthYear":1937.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_010_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HO",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Penelope Wilton",
+        "name":"Penelope Wilton",
+        "birthYear":1943.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_010_03",
+      "age":"4",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Si\u00e2n Phillips",
+        "name":"Si\u00e2n Phillips",
+        "birthYear":1933.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HO",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    null
-  ],
-  "charProfession":[
-    "SE",
-    "EM",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    null
-  ],
-  "assistedMobility":"N",
-  "perName":[
-    "Penelope Wilton",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1943
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    null
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2020-010-summerland"
+  "synopsis":{
+    "native":"During World War II, an Englishwoman opens her heart to an evacuee after initially resolving to be rid of him in this moving journey of womanhood, love and friendship.",
+    "english":null
+  }
 }

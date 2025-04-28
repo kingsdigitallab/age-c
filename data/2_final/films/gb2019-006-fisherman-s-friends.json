@@ -1,98 +1,141 @@
 {
-  "filmId":"GB2019_006",
-  "title":"Fisherman's Friends",
-  "titleEn":null,
-  "director":"Chris Foggin",
-  "releaseType":"THE",
-  "releaseDate":1552608000000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Chris Foggin",
-  "directorBirthYear":1985,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2019_006",
+  "type":"film",
+  "slug":"gb2019-006-fisherman-s-friends",
+  "title":{
+    "native":"Fisherman's Friends",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1552608000000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=ONd3AlSfMIs",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt1648186\/mediaviewer\/rm2031056384\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "ROM",
     "MUS",
+    "ROM",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=ONd3AlSfMIs",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt1648186\/mediaviewer\/rm2031056384\/?ref_=tt_ov_i",
-  "synopsis":"Ten fisherman from Cornwall are signed by Universal Records and achieve a top ten hit with their debut album, \"Sea Shanties.\"",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "elderhood",
-    "rural",
-    "independent home",
-    "self-employment",
-    "fatherhood",
-    "intergenerational friendship",
     "disappearing professions",
-    "artistic creation",
-    "homosociality",
-    "marriage",
-    "intragenerational friendship",
-    "class solidarity",
     "precarity",
+    "intergenerational friendship",
+    "marriage",
+    "rural",
+    "artistic creation",
+    "independent home",
+    "homosociality",
+    "fatherhood",
     "wedding",
-    "low rank employment"
+    "intragenerational friendship",
+    "low rank employment",
+    "class solidarity",
+    "self-employment",
+    "elderhood"
   ],
-  "charId":[
-    "GB2019_006_01",
-    "GB2019_006_04",
-    "GB2019_006_03",
-    "GB2019_006_02"
+  "director":[
+    {
+      "id":"Chris Foggin",
+      "name":"Chris Foggin",
+      "birthYear":1985,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "David Hayman",
-    "Dave Johns",
-    "James Purefoy",
-    "Maggie Steed"
+  "character":[
+    {
+      "id":"GB2019_006_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Dave Johns",
+        "name":"Dave Johns",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_006_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"David Hayman",
+        "name":"David Hayman",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_006_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Maggie Steed",
+        "name":null,
+        "birthYear":null,
+        "deathYear":null,
+        "gender":null,
+        "nationality":null
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_006_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"James Purefoy",
+        "name":"James Purefoy",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "David Hayman",
-    "Dave Johns",
-    "James Purefoy",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1948,
-    1956,
-    1964
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    null,
-    "M"
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2019-006-fisherman-s-friends"
+  "synopsis":{
+    "native":"Ten fisherman from Cornwall are signed by Universal Records and achieve a top ten hit with their debut album, \"Sea Shanties.\"",
+    "english":null
+  }
 }

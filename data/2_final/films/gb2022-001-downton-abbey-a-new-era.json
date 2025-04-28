@@ -1,139 +1,268 @@
 {
-  "filmId":"GB2022_001",
-  "title":"Downton Abbey: A New Era",
-  "titleEn":null,
-  "director":"Simon Curtis",
-  "releaseType":"THE",
-  "releaseDate":1651190400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Simon Curtis",
-  "directorBirthYear":1960,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2022_001",
+  "type":"film",
+  "slug":"gb2022-001-downton-abbey-a-new-era",
+  "title":{
+    "native":"Downton Abbey: A New Era",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1651190400000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt11703710\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Downton%2520Abbey%253A%2520A%2520New%2520Era",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt11703710\/mediaviewer\/rm3485867009\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
+    "MET",
     "DRA",
-    "COM",
-    "MET"
-  ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt11703710\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Downton%2520Abbey%253A%2520A%2520New%2520Era",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt11703710\/mediaviewer\/rm3485867009\/?ref_=tt_ov_i",
-  "synopsis":"The Crawleys go on a grand journey to the south of France to uncover the mystery of the Dowager Countess' newly inherited villa.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "HIS",
+    "COM"
   ],
   "tags":[
-    "extended family",
-    "mentorship",
-    "class conflict",
-    "motherhood",
-    "wealth",
     "rural",
-    "power",
-    "cultural memory",
     "national identity",
-    "parenthood",
     "homosociality",
-    "personal memory",
-    "grandmotherhood",
+    "class conflict",
     "fatherhood",
+    "low rank employment",
+    "cultural memory",
+    "power",
+    "extended family",
+    "wealth",
+    "personal memory",
+    "independent home",
+    "parenthood",
+    "superior-employee relationship",
     "inheritance",
     "high rank employment",
+    "motherhood",
     "mass media",
-    "independent home",
-    "superior-employee relationship",
+    "mentorship",
     "marriage",
-    "low rank employment"
+    "grandmotherhood"
   ],
-  "charId":[
-    "GB2022_001_06",
-    "GB2022_001_03",
-    "GB2022_001_09",
-    "GB2022_001_10",
-    "GB2022_001_04",
-    "GB2022_001_02",
-    "GB2022_001_07",
-    "GB2022_001_08",
-    "GB2022_001_05",
-    "GB2022_001_01"
+  "director":[
+    {
+      "id":"Simon Curtis",
+      "name":"Simon Curtis",
+      "birthYear":1960,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Maggie Smith",
-    "Samantha Bond",
-    "Hugh Bonneville",
-    "Douglas Reith",
-    "Penelope Wilton",
-    "Jim Carter",
-    "Imelda Staunton",
-    "Phyllis Logan",
-    "Elizabeth McGovern",
-    "Lesley Nicol"
+  "character":[
+    {
+      "id":"GB2022_001_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Elizabeth McGovern",
+        "name":"Elizabeth McGovern",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_001_04",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Imelda Staunton",
+        "name":"Imelda Staunton",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_001_06",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Penelope Wilton",
+        "name":"Penelope Wilton",
+        "birthYear":1943.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_001_09",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Lesley Nicol",
+        "name":"Lesley Nicol",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_001_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Hugh Bonneville",
+        "name":"Hugh Bonneville",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_001_10",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Maggie Smith",
+        "name":"Maggie Smith",
+        "birthYear":1934.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_001_07",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Douglas Reith",
+        "name":"Douglas Reith",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_001_05",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Samantha Bond",
+        "name":"Samantha Bond",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_001_08",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Phyllis Logan",
+        "name":"Phyllis Logan",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_001_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jim Carter",
+        "name":"Jim Carter",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "UC",
-    "LM",
-    null
-  ],
-  "charProfession":[
-    "EM",
-    "UN",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    null
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Douglas Reith",
-    null,
-    "Penelope Wilton",
-    "Jim Carter",
-    "Imelda Staunton",
-    "Phyllis Logan",
-    "Elizabeth McGovern",
-    "Lesley Nicol"
-  ],
-  "perBirthYear":[
-    0,
-    1953,
-    1956,
-    1961,
-    1943,
-    1948
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M",
-    null
-  ],
-  "perNationality":[
-    "GB",
-    "US",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2022-001-downton-abbey-a-new-era"
+  "synopsis":{
+    "native":"The Crawleys go on a grand journey to the south of France to uncover the mystery of the Dowager Countess' newly inherited villa.",
+    "english":null
+  }
 }

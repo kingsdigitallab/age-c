@@ -1,50 +1,71 @@
 {
-  "filmId":"ES2022_060",
-  "title":"La jefa",
-  "titleEn":"Under Her Control",
-  "director":"Fran Torres",
-  "releaseType":"THE",
-  "releaseDate":1651190400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Fran Torres",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2022_060",
+  "type":"film",
+  "slug":"es2022-060-la-jefa",
+  "title":{
+    "native":"La jefa",
+    "english":"Under Her Control"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1651190400000,
+    "year":2022
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt15006754\/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_La%2520jefa",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt15006754\/mediaviewer\/rm1224546305\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt15006754\/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_La%2520jefa",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt15006754\/mediaviewer\/rm1224546305\/?ref_=tt_ov_i",
-  "synopsis":"Sof\u00eda, una joven ambiciosa que trabaja en una multinacional de moda se queda embarazada sin haberlo planeado. Sin familia en Espa\u00f1a y con dudas sobre el futuro de su maternidad, Sof\u00eda parece abocada a volver a su pa\u00eds y abandonar la prometedora carrera profesional por la que tanto ha luchado. Sin embargo, su jefa, una mujer hecha a s\u00ed misma a la que Sof\u00eda admira por encima de todo le hace una inusual proposici\u00f3n: Darle el hijo en adopci\u00f3n a ella y a cambio poder continuar con su promoci\u00f3n dentro de la empresa. Sof\u00eda acepta la oferta sin saber que no todo es como su jefa le ha contado\u2026",
-  "synopsisEn":"When a fashion employee thinks she will have to end her promising career after getting pregnant, her boss offers to adopt the child.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
     "wealth",
-    "abuse",
-    "self-employment",
-    "high rank employment",
     "class conflict",
+    "high rank employment",
+    "self-employment",
+    "abuse",
     "cross-gender friendship"
   ],
-  "charId":"ES2022_060_01",
-  "perId":"Pedro Casablanc",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Pedro Casablanc",
-  "perBirthYear":1963,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"es2022-060-la-jefa"
+  "director":[
+    {
+      "id":"Fran Torres",
+      "name":"Fran Torres",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
+  ],
+  "character":[
+    {
+      "id":"ES2022_060_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Pedro Casablanc",
+        "name":"Pedro Casablanc",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Sof\u00eda, una joven ambiciosa que trabaja en una multinacional de moda se queda embarazada sin haberlo planeado. Sin familia en Espa\u00f1a y con dudas sobre el futuro de su maternidad, Sof\u00eda parece abocada a volver a su pa\u00eds y abandonar la prometedora carrera profesional por la que tanto ha luchado. Sin embargo, su jefa, una mujer hecha a s\u00ed misma a la que Sof\u00eda admira por encima de todo le hace una inusual proposici\u00f3n: Darle el hijo en adopci\u00f3n a ella y a cambio poder continuar con su promoci\u00f3n dentro de la empresa. Sof\u00eda acepta la oferta sin saber que no todo es como su jefa le ha contado\u2026",
+    "english":"When a fashion employee thinks she will have to end her promising career after getting pregnant, her boss offers to adopt the child."
+  }
 }

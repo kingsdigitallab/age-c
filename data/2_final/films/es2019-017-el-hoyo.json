@@ -1,77 +1,94 @@
 {
-  "filmId":"ES2019_017",
-  "title":"El hoyo",
-  "titleEn":"The Platform",
-  "director":"Galder Gaztelu-Urrutia",
-  "releaseType":"THE",
-  "releaseDate":1573171200000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"ES2019_017",
+  "type":"film",
+  "slug":"es2019-017-el-hoyo",
+  "title":{
+    "native":"El hoyo",
+    "english":"The Platform"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1573171200000,
+    "year":2019
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=24Lf7fmKIXI",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt8228288\/mediaviewer\/rm2615576577\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "HOR",
     "DYS",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=24Lf7fmKIXI",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt8228288\/mediaviewer\/rm2615576577\/?ref_=tt_ov_i",
-  "synopsis":"El futuro, en una distop\u00eda. Dos personas por nivel. Un n\u00famero desconocido de niveles. Una plataforma con comida para todos ellos. \u00bfEres de los que piensan demasiado cuando est\u00e1n arriba? \u00bfO de los que no tienen agallas cuando est\u00e1n abajo? Si lo descubres demasiado tarde, no saldr\u00e1s vivo del hoyo.",
-  "synopsisEn":"A vertical prison with one cell per level. Two people per cell. Only one food platform and two minutes per day to feed. An endless nightmare trapped in The Hole.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "abuse",
     "state institutions",
-    "homosociality",
-    "murder",
     "precarity",
+    "homosociality",
     "class conflict",
+    "murder",
+    "abuse",
     "interracial relationships"
   ],
-  "charId":[
-    "ES2019_017_01",
-    "ES2019_017_02"
+  "director":[
+    {
+      "id":"Galder Gaztelu-Urrutia",
+      "name":"Galder Gaztelu-Urrutia",
+      "birthYear":1974,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Zorion Eguileor",
-    "Antonia San Juan"
+  "character":[
+    {
+      "id":"ES2019_017_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Antonia San Juan",
+        "name":"Antonia San Juan",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2019_017_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Zorion Eguileor",
+        "name":"Zorion Eguileor",
+        "birthYear":1946.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"LC",
-  "charProfession":"UN",
-  "charAbility":"AB",
-  "assistedMobility":null,
-  "perName":[
-    null,
-    "Antonia San Juan"
-  ],
-  "perBirthYear":[
-    0,
-    1961
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    null
-  ],
-  "perNationality":[
-    null,
-    "ES"
-  ],
-  "perRole":null,
-  "slug":"es2019-017-el-hoyo"
+  "synopsis":{
+    "native":"El futuro, en una distop\u00eda. Dos personas por nivel. Un n\u00famero desconocido de niveles. Una plataforma con comida para todos ellos. \u00bfEres de los que piensan demasiado cuando est\u00e1n arriba? \u00bfO de los que no tienen agallas cuando est\u00e1n abajo? Si lo descubres demasiado tarde, no saldr\u00e1s vivo del hoyo.",
+    "english":"A vertical prison with one cell per level. Two people per cell. Only one food platform and two minutes per day to feed. An endless nightmare trapped in The Hole."
+  }
 }

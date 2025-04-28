@@ -1,58 +1,73 @@
 {
-  "filmId":"GB2018_045",
-  "title":"Viking Destiny",
-  "titleEn":null,
-  "director":"David L.G. Hughes",
-  "releaseType":"THE",
-  "releaseDate":1532044800000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"David L.G. Hughes",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2018_045",
+  "type":"film",
+  "slug":"gb2018-045-viking-destiny",
+  "title":{
+    "native":"Viking Destiny",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1532044800000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt5657280\/?ref_=ttrel",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5657280\/mediaviewer\/rm3342039040\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HIS",
     "ACT",
     "FAN",
     "WAR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt5657280\/?ref_=ttrel",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5657280\/mediaviewer\/rm3342039040\/?ref_=tt_ov_i",
-  "synopsis":"A Viking Princess is forced to flee her kingdom after being framed for the murder of her father, the King. Under the guidance of the God Odin, she travels the world gaining wisdom and building the army she needs to win back her throne.",
-  "synopsisEn":null,
-  "country":[
-    "BE",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "war",
     "power",
     "supernatural entity",
-    "self-employment",
     "mentorship",
-    "religion"
+    "war",
+    "religion",
+    "self-employment"
   ],
-  "charId":"GB2018_045_01",
-  "perId":"Terence Stamp",
-  "charAge":"4",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"NOE",
-  "charClass":"UC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2018-045-viking-destiny"
+  "director":[
+    {
+      "id":"David L.G. Hughes",
+      "name":"David L.G. Hughes",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2018_045_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"NOE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Terence Stamp",
+        "name":"Terence Stamp",
+        "birthYear":1938.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"A Viking Princess is forced to flee her kingdom after being framed for the murder of her father, the King. Under the guidance of the God Odin, she travels the world gaining wisdom and building the army she needs to win back her throne.",
+    "english":null
+  }
 }

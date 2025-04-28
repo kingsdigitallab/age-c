@@ -1,92 +1,120 @@
 {
-  "filmId":"GB2018_034",
-  "title":"Sink",
-  "titleEn":null,
-  "director":"Mark Gillis",
-  "releaseType":"THE",
-  "releaseDate":1350518400000,
-  "type":"F",
-  "releaseYear":2012,
-  "directorName":"Mark Gillis",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=qiRpo2uQEGI",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt3362670\/mediaviewer\/rm4135230209\/?ref_=tt_ov_i",
-  "synopsis":"Shot mainly in South East London, it's about Micky Mason, a skilled manual worker who, since the Crash, can find nothing but menial zero hours jobs. He takes a course of action that is completely out of character, but it's the only way he can see of keeping his family together. It is about surviving, but it's not all anguish and despair - it's also warm and tender, and funny. It's about people finding their way through. It's about Micky Mason; a man out there, right now, doing his best.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
+  "id":"GB2018_034",
+  "type":"film",
+  "slug":"gb2018-034-sink",
+  "title":{
+    "native":"Sink",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1350518400000,
+    "year":2012
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=qiRpo2uQEGI",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt3362670\/mediaviewer\/rm4135230209\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
+  ],
   "tags":[
-    "2008 crisis",
-    "low rank employment",
-    "sex",
-    "independent home",
-    "fatherhood",
-    "state institutions",
+    "intergenerational conflict",
     "partnership",
-    "homosociality",
-    "cross-gender friendship",
-    "well-being",
-    "class solidarity",
-    "unemployment",
-    "urban",
+    "state institutions",
     "precarity",
+    "urban",
     "multigenerational family",
-    "intergenerational conflict"
+    "independent home",
+    "homosociality",
+    "well-being",
+    "sex",
+    "fatherhood",
+    "class solidarity",
+    "low rank employment",
+    "2008 crisis",
+    "unemployment",
+    "cross-gender friendship"
   ],
-  "charId":[
-    "GB2018_034_02",
-    "GB2018_034_01",
-    "GB2018_034_03"
+  "director":[
+    {
+      "id":"Mark Gillis",
+      "name":"Mark Gillis",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Martin Herdman",
-    "Marlene Sidaway",
-    "Ian Hogg"
+  "character":[
+    {
+      "id":"GB2018_034_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Martin Herdman",
+        "name":"Martin Herdman",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_034_02",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ian Hogg",
+        "name":"Ian Hogg",
+        "birthYear":1937.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_034_03",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Marlene Sidaway",
+        "name":null,
+        "birthYear":null,
+        "deathYear":null,
+        "gender":null,
+        "nationality":null
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "LC",
-    "LM"
-  ],
-  "charProfession":[
-    "RE",
-    "UN",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Martin Herdman",
-    "Ian Hogg",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1937,
-    1956
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    null,
-    "M"
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2018-034-sink"
+  "synopsis":{
+    "native":"Shot mainly in South East London, it's about Micky Mason, a skilled manual worker who, since the Crash, can find nothing but menial zero hours jobs. He takes a course of action that is completely out of character, but it's the only way he can see of keeping his family together. It is about surviving, but it's not all anguish and despair - it's also warm and tender, and funny. It's about people finding their way through. It's about Micky Mason; a man out there, right now, doing his best.",
+    "english":null
+  }
 }

@@ -1,65 +1,91 @@
 {
-  "filmId":"IT2019_013",
-  "title":"L'uomo del labirinto",
-  "titleEn":"Into the Labyrinth",
-  "director":"Donato Carrisi",
-  "releaseType":"THE",
-  "releaseDate":1572393600000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2019_013",
+  "type":"film",
+  "slug":"it2019-013-l-uomo-del-labirinto",
+  "title":{
+    "native":"L'uomo del labirinto",
+    "english":"Into the Labyrinth"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1572393600000,
+    "year":2019
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=eLYeXFfD0yQ",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt8594376\/mediaviewer\/rm1965532417\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
-    "HOR",
     "CRI",
+    "HOR",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=eLYeXFfD0yQ",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt8594376\/mediaviewer\/rm1965532417\/?ref_=tt_ov_i",
-  "synopsis":"\u00abQuesto \u00e8 un gioco, vero?\u00bb Samantha Andretti \u00e8 stata rapita una mattina d\u2019inverno mentre andava a scuola. Quindici anni dopo, si risveglia in una stanza d\u2019ospedale senza ricordare dove \u00e8 stata n\u00e9 cosa le \u00e8 accaduto in tutto quel tempo. Accanto a lei c\u2019\u00e8 un \u00abprofiler\u00bb, il dottor Green: sostiene che l\u2019aiuter\u00e0 a recuperare la memoria e che insieme cattureranno il mostro. Ma l\u2019avverte che la caccia non avverr\u00e0 l\u00e0 fuori, nel mondo reale. Bens\u00ec nella sua mente. \u00abQuesto \u00e8 un gioco, vero?\u00bb ripete, dubbiosa, la ragazza. Bruno Genko \u00e8 un investigatore privato. Quindici anni prima \u00e8 stato ingaggiato dai genitori di Samantha per ritrovare la figlia. Adesso che la ragazza \u00e8 riapparsa, sente di avere un debito con lei e prover\u00e0 a catturare l\u2019uomo senza volto che l\u2019ha rapita. Ma quella di Genko \u00e8 anche una lotta contro il tempo. Perch\u00e9 un medico gli ha detto che gli restano due mesi di vita. E, per uno scherzo del destino, quei due mesi sono scaduti proprio nel giorno in cui Samantha \u00e8 tornata indietro dal buio. Chi giunger\u00e0 prima alla verit\u00e0: l\u2019investigatore o il profiler?... Ma siamo sicuri che, alla fine di tutto, ci sia un\u2019unica verit\u00e0? Perch\u00e9 questa non \u00e8 un\u2019indagine come le altre\u2026 Qualcuno ha un segreto, qualcuno sta mentendo. E da qualche parte, l\u00e0 fuori, c\u2019\u00e8 un labirinto pieno di porte. E dietro ognuna si nasconde un enigma, un inganno. In questo gioco nella mente dello spettatore, il labirinto di cui sei prigioniero \u00e8 gi\u00e0 dentro di te.",
-  "synopsisEn":"A young woman wakes up in a hospital bed. She has a broken leg, she is also disoriented and can\u2019t remember anything. The room she is in has no windows, only a huge mirror lining one wall, although she can\u2019t see her reflection in it. With her is a man who introduces himself as Dr Green, a criminal profiler. He explains to the girl that her name is Samantha, that she has been kidnapped and kept prisoner, but managed to escape, and that his job is to find the kidnapper. However, the hunt will not take place in the outside world, but in Samantha\u2019s mind. White reveals to Samantha that she is no longer thirteen, which was her age when she was kidnapped, but twenty-eight. With his help, she gradually starts to recall certain episodes from her captivity. In a city overcome by a ferocious heatwave, where the people have taken to sleeping during the day, and leaving their homes only at night, a private detective called Bruno Genko, who has spent years investigating Samantha\u2019s disappearance, learns of her liberation. Now, stricken with a heart disease, the detective has only two months to live, but nonetheless, he takes up the hunt once more.",
-  "country":"IT",
-  "productionShare":"MAJ",
   "tags":[
+    "last mission",
     "high rank employment",
     "physical illness",
-    "last mission",
     "sex for hire"
   ],
-  "charId":[
-    "IT2019_013_02",
-    "IT2019_013_01"
+  "director":[
+    {
+      "id":"Donato Carrisi",
+      "name":"Donato Carrisi",
+      "birthYear":1973,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
   ],
-  "perId":[
-    "Toni Servillo",
-    "Dustin Hoffman"
+  "character":[
+    {
+      "id":"IT2019_013_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Toni Servillo",
+        "name":"Toni Servillo",
+        "birthYear":1959.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2019_013_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Dustin Hoffman",
+        "name":"Dustin Hoffman",
+        "birthYear":1937.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":"LEA"
+    }
   ],
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "LM"
-  ],
-  "charProfession":"EM",
-  "charAbility":[
-    "AB",
-    "CI"
-  ],
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2019-013-l-uomo-del-labirinto"
+  "synopsis":{
+    "native":"\u00abQuesto \u00e8 un gioco, vero?\u00bb Samantha Andretti \u00e8 stata rapita una mattina d\u2019inverno mentre andava a scuola. Quindici anni dopo, si risveglia in una stanza d\u2019ospedale senza ricordare dove \u00e8 stata n\u00e9 cosa le \u00e8 accaduto in tutto quel tempo. Accanto a lei c\u2019\u00e8 un \u00abprofiler\u00bb, il dottor Green: sostiene che l\u2019aiuter\u00e0 a recuperare la memoria e che insieme cattureranno il mostro. Ma l\u2019avverte che la caccia non avverr\u00e0 l\u00e0 fuori, nel mondo reale. Bens\u00ec nella sua mente. \u00abQuesto \u00e8 un gioco, vero?\u00bb ripete, dubbiosa, la ragazza. Bruno Genko \u00e8 un investigatore privato. Quindici anni prima \u00e8 stato ingaggiato dai genitori di Samantha per ritrovare la figlia. Adesso che la ragazza \u00e8 riapparsa, sente di avere un debito con lei e prover\u00e0 a catturare l\u2019uomo senza volto che l\u2019ha rapita. Ma quella di Genko \u00e8 anche una lotta contro il tempo. Perch\u00e9 un medico gli ha detto che gli restano due mesi di vita. E, per uno scherzo del destino, quei due mesi sono scaduti proprio nel giorno in cui Samantha \u00e8 tornata indietro dal buio. Chi giunger\u00e0 prima alla verit\u00e0: l\u2019investigatore o il profiler?... Ma siamo sicuri che, alla fine di tutto, ci sia un\u2019unica verit\u00e0? Perch\u00e9 questa non \u00e8 un\u2019indagine come le altre\u2026 Qualcuno ha un segreto, qualcuno sta mentendo. E da qualche parte, l\u00e0 fuori, c\u2019\u00e8 un labirinto pieno di porte. E dietro ognuna si nasconde un enigma, un inganno. In questo gioco nella mente dello spettatore, il labirinto di cui sei prigioniero \u00e8 gi\u00e0 dentro di te.",
+    "english":"A young woman wakes up in a hospital bed. She has a broken leg, she is also disoriented and can\u2019t remember anything. The room she is in has no windows, only a huge mirror lining one wall, although she can\u2019t see her reflection in it. With her is a man who introduces himself as Dr Green, a criminal profiler. He explains to the girl that her name is Samantha, that she has been kidnapped and kept prisoner, but managed to escape, and that his job is to find the kidnapper. However, the hunt will not take place in the outside world, but in Samantha\u2019s mind. White reveals to Samantha that she is no longer thirteen, which was her age when she was kidnapped, but twenty-eight. With his help, she gradually starts to recall certain episodes from her captivity. In a city overcome by a ferocious heatwave, where the people have taken to sleeping during the day, and leaving their homes only at night, a private detective called Bruno Genko, who has spent years investigating Samantha\u2019s disappearance, learns of her liberation. Now, stricken with a heart disease, the detective has only two months to live, but nonetheless, he takes up the hunt once more."
+  }
 }

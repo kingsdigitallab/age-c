@@ -1,74 +1,97 @@
 {
-  "filmId":"GB2019_004",
-  "title":"Mary Queen of Scots",
-  "titleEn":null,
-  "director":"Josie Rourke",
-  "releaseType":"THE",
-  "releaseDate":1547769600000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Josie Rourke",
-  "directorBirthYear":1976,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"GB",
+  "id":"GB2019_004",
+  "type":"film",
+  "slug":"gb2019-004-mary-queen-of-scots",
+  "title":{
+    "native":"Mary Queen of Scots",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1547769600000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=T5l8cvuo7IA",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt2328900\/mediaviewer\/rm1024949504\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
-    "DRA",
     "BIO",
+    "DRA",
+    "HIS",
     "WAR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=T5l8cvuo7IA",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt2328900\/mediaviewer\/rm1024949504\/?ref_=tt_ov_i",
-  "synopsis":"Mary Stuart's (Saoirse Ronan's) attempt to overthrow her cousin Elizabeth I (Margot Robbie), Queen of England, finds her condemned to years of imprisonment before facing execution.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "wealth",
-    "war",
     "power",
-    "cultural memory",
-    "abuse",
-    "professional politics",
-    "national identity",
+    "wealth",
     "state institutions",
+    "national identity",
+    "professional politics",
     "high rank employment",
-    "religion"
+    "cultural memory",
+    "war",
+    "religion",
+    "abuse"
   ],
-  "charId":[
-    "GB2019_004_02",
-    "GB2019_004_01"
+  "director":[
+    {
+      "id":"Josie Rourke",
+      "name":"Josie Rourke",
+      "birthYear":1976,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Richard Cant",
-    "Simon Russell Beale"
+  "character":[
+    {
+      "id":"GB2019_004_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Richard Cant",
+        "name":"Richard Cant",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_004_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Simon Russell Beale",
+        "name":"Simon Russell Beale",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UC",
-  "charProfession":"SE",
-  "charAbility":null,
-  "assistedMobility":"N",
-  "perName":[
-    "Richard Cant",
-    "Simon Russell Beale"
-  ],
-  "perBirthYear":[
-    1961,
-    1964
-  ],
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2019-004-mary-queen-of-scots"
+  "synopsis":{
+    "native":"Mary Stuart's (Saoirse Ronan's) attempt to overthrow her cousin Elizabeth I (Margot Robbie), Queen of England, finds her condemned to years of imprisonment before facing execution.",
+    "english":null
+  }
 }

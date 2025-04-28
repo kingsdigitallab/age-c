@@ -1,48 +1,69 @@
 {
-  "filmId":"RO2019_008",
-  "title":"Mo",
-  "titleEn":"Mo",
-  "director":"Radu Dragomir",
-  "releaseType":"THE",
-  "releaseDate":1570147200000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Radu Dragomir",
-  "directorBirthYear":1967,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"RO",
+  "id":"RO2019_008",
+  "type":"film",
+  "slug":"ro2019-008-mo",
+  "title":{
+    "native":"Mo",
+    "english":"Mo"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1570147200000,
+    "year":2019
+  },
+  "production":{
+    "country":"RO",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.cinemagia.ro\/trailer\/mo-21767\/",
+    "posterUrl":"https:\/\/www.cinemagia.ro\/filme\/mo-2723799\/postere\/3610347\/#gallery"
+  },
   "genre":[
     "DRA",
     "COA",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.cinemagia.ro\/trailer\/mo-21767\/",
-  "posterUrl":"https:\/\/www.cinemagia.ro\/filme\/mo-2723799\/postere\/3610347\/#gallery",
-  "synopsis":"Mo \u015fi prietena ei sunt prinse copiind de c\u0103tre cel mai sever profesor din facultate. Dup\u0103 ce \u00eel roag\u0103 s\u0103 mai dea o data examenul, profesorul le invit\u0103 la el acas\u0103. Aici, cele dou\u0103 studente vor fi supuse unui examen nea\u015fteptat. Totul pare o glum\u0103, p\u00e2n\u0103 c\u00e2nd Mo \u00ee\u015fi pierde controlul.",
-  "synopsisEn":"Mo and her best friend Vera are caught cheating during exam by Ursu, the toughest professor in the university. After she asks him for a second chance, the professor invites them to his place. Here, the students will have to pass an unexpected examination. It's all fun and games, until Mo loses control.",
-  "country":"RO",
-  "productionShare":"MAJ",
   "tags":[
-    "superior-employee relationship",
+    "education",
     "high rank employment",
-    "education"
+    "superior-employee relationship"
   ],
-  "charId":"RO2019_008_01",
-  "perId":"R\u0103zvan Vasilescu",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WEE",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"R\u0103zvan Vasilescu",
-  "perBirthYear":1954,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"RO",
-  "perRole":null,
-  "slug":"ro2019-008-mo"
+  "director":[
+    {
+      "id":"Radu Dragomir",
+      "name":"Radu Dragomir",
+      "birthYear":1967,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"RO"
+    }
+  ],
+  "character":[
+    {
+      "id":"RO2019_008_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WEE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"R\u0103zvan Vasilescu",
+        "name":"R\u0103zvan Vasilescu",
+        "birthYear":1954.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"RO"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Mo \u015fi prietena ei sunt prinse copiind de c\u0103tre cel mai sever profesor din facultate. Dup\u0103 ce \u00eel roag\u0103 s\u0103 mai dea o data examenul, profesorul le invit\u0103 la el acas\u0103. Aici, cele dou\u0103 studente vor fi supuse unui examen nea\u015fteptat. Totul pare o glum\u0103, p\u00e2n\u0103 c\u00e2nd Mo \u00ee\u015fi pierde controlul.",
+    "english":"Mo and her best friend Vera are caught cheating during exam by Ursu, the toughest professor in the university. After she asks him for a second chance, the professor invites them to his place. Here, the students will have to pass an unexpected examination. It's all fun and games, until Mo loses control."
+  }
 }

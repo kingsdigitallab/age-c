@@ -1,98 +1,100 @@
 {
-  "filmId":"GB2018_044",
-  "title":"Waiting for You",
-  "titleEn":null,
-  "director":"Charles Garrad",
-  "releaseType":"THE",
-  "releaseDate":1540512000000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Charles Garrad",
-  "directorBirthYear":1952,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2018_044",
+  "type":"film",
+  "slug":"gb2018-044-waiting-for-you",
+  "title":{
+    "native":"Waiting for You",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1540512000000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt4727128\/?ref_=ttrel",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt4727128\/mediaviewer\/rm245114368\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt4727128\/?ref_=ttrel",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt4727128\/mediaviewer\/rm245114368\/?ref_=tt_ov_i",
-  "synopsis":"Paul (Morgan) investigates his late father's increasingly disturbing past and becomes suspicious of the mysterious, melancholic, and possibly dangerous Madeleine (Ardant).",
-  "synopsisEn":null,
-  "country":[
-    "FR",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "natural death",
-    "rural",
+    "infidelity",
+    "intergenerational conflict",
     "burial",
     "personal memory",
+    "rural",
     "independent home",
+    "caregiving",
+    "separation",
     "fatherhood",
+    "crime",
+    "grief",
+    "low rank employment",
     "abuse",
     "physical illness",
-    "infidelity",
-    "grief",
-    "crime",
-    "intergenerational conflict",
-    "caregiving",
-    "low rank employment",
-    "separation"
+    "natural death"
   ],
-  "charId":[
-    "GB2018_044_01",
-    "GB2018_044_02"
+  "director":[
+    {
+      "id":"Charles Garrad",
+      "name":"Charles Garrad",
+      "birthYear":1952,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Abdelkrim Bahloul",
-    "Fanny Ardant"
+  "character":[
+    {
+      "id":"GB2018_044_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"NAF",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Abdelkrim Bahloul",
+        "name":"Abdelkrim Bahloul",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"DZ"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_044_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Fanny Ardant",
+        "name":"Fanny Ardant",
+        "birthYear":1949.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":[
-    "WWE",
-    "NAF"
-  ],
-  "charClass":[
-    "UM",
-    "LM"
-  ],
-  "charProfession":[
-    "EM",
-    "RE"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Abdelkrim Bahloul",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1950
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "M",
-    null
-  ],
-  "perNationality":[
-    "DZ",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2018-044-waiting-for-you"
+  "synopsis":{
+    "native":"Paul (Morgan) investigates his late father's increasingly disturbing past and becomes suspicious of the mysterious, melancholic, and possibly dangerous Madeleine (Ardant).",
+    "english":null
+  }
 }

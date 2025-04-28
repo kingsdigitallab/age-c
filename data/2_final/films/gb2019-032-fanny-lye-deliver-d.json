@@ -1,63 +1,78 @@
 {
-  "filmId":"GB2019_032",
-  "title":"Fanny Lye Deliver'd",
-  "titleEn":"The Delivered",
-  "director":"Thomas Clay",
-  "releaseType":"FES",
-  "releaseDate":1287446400000,
-  "type":"F",
-  "releaseYear":2010,
-  "directorName":"Thomas Clay",
-  "directorBirthYear":1979,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2019_032",
+  "type":"film",
+  "slug":"gb2019-032-fanny-lye-deliver-d",
+  "title":{
+    "native":"Fanny Lye Deliver'd",
+    "english":"The Delivered"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"FES",
+    "date":1287446400000,
+    "year":2010
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt5686112\/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_Fanny%2520Lye%2520Deliver%27d",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5686112\/mediaviewer\/rm4208972545\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
     "DRA",
+    "HIS",
     "WES"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt5686112\/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_Fanny%2520Lye%2520Deliver%27d",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5686112\/mediaviewer\/rm4208972545\/?ref_=tt_ov_i",
-  "synopsis":"Fanny lives in an English farmhouse in 1657 when militant Puritans rule. Two fugitives with radical new ideas arrive. When the sheriff arrives, things deteriorate badly prompting Fanny to make drastic decisions about her life.",
-  "synopsisEn":null,
-  "country":[
-    "DE",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "rural",
-    "power",
-    "cultural memory",
-    "abuse",
-    "fatherhood",
-    "independent home",
-    "self-employment",
     "infidelity",
+    "intergenerational conflict",
     "marriage",
+    "rural",
+    "independent home",
+    "fatherhood",
     "religion",
+    "cultural memory",
+    "power",
     "gender discrimination",
-    "intergenerational conflict"
+    "self-employment",
+    "abuse"
   ],
-  "charId":"GB2019_032_01",
-  "perId":"Charles Dance",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2019-032-fanny-lye-deliver-d"
+  "director":[
+    {
+      "id":"Thomas Clay",
+      "name":"Thomas Clay",
+      "birthYear":1979,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2019_032_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Charles Dance",
+        "name":"Charles Dance",
+        "birthYear":1946.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Fanny lives in an English farmhouse in 1657 when militant Puritans rule. Two fugitives with radical new ideas arrive. When the sheriff arrives, things deteriorate badly prompting Fanny to make drastic decisions about her life.",
+    "english":null
+  }
 }

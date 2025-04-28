@@ -1,61 +1,78 @@
 {
-  "filmId":"ES2023_057",
-  "title":"El fant\u00e1stico caso del Golem",
-  "titleEn":null,
-  "director":[
-    "Juan Gonz\u00e1lez",
-    "Nando Mart\u00ednez"
-  ],
-  "releaseType":"THE",
-  "releaseDate":1686873600000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":[
-    "Juan Gonz\u00e1lez",
-    "Nando Mart\u00ednez"
-  ],
-  "directorBirthYear":1991,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2023_057",
+  "type":"film",
+  "slug":"es2023-057-el-fantastico-caso-del-golem",
+  "title":{
+    "native":"El fant\u00e1stico caso del Golem",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1686873600000,
+    "year":2023
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt20599230\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_El%2520fant%25C3%25A1stico%2520caso%2520del%2520Golem",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt20599230\/mediaviewer\/rm2164531457\/?ref_=tt_ov_i"
+  },
   "genre":[
     "COM",
     "SCI"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt20599230\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_El%2520fant%25C3%25A1stico%2520caso%2520del%2520Golem",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt20599230\/mediaviewer\/rm2164531457\/?ref_=tt_ov_i",
-  "synopsis":"Tras una noche de fiesta, David se precipita borracho desde una terraza ante la impotente mirada de su amigo Juan. El cuerpo de David impacta contra el cap\u00f3 de un coche desintegr\u00e1ndose en mil pedazos. Como nadie parece escandalizarse, Juan se propone descubrir qu\u00e9 ha pasado. Y as\u00ed, se ve inmerso en un laberinto de incongruencias y pianos que caen del cielo...",
-  "synopsisEn":"Follows two friends, Juan and David, they will find themselves on a rooftop terrace after an intense party in Madrid. Juan witnesses David falling to the void, and his body disintegrating into ceramic pieces after hitting a car.",
-  "country":[
-    "EE",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "power",
-    "self-employment",
     "homosociality",
+    "ai",
     "high rank employment",
-    "ai"
+    "power",
+    "self-employment"
   ],
-  "charId":"ES2023_057_01",
-  "perId":"Tito Valverde",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"es2023-057-el-fantastico-caso-del-golem"
+  "director":[
+    {
+      "id":"Juan Gonz\u00e1lez",
+      "name":"Juan Gonz\u00e1lez",
+      "birthYear":1991,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    },
+    {
+      "id":"Nando Mart\u00ednez",
+      "name":"Nando Mart\u00ednez",
+      "birthYear":1991,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
+  ],
+  "character":[
+    {
+      "id":"ES2023_057_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Tito Valverde",
+        "name":"Tito Valverde",
+        "birthYear":1951.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Tras una noche de fiesta, David se precipita borracho desde una terraza ante la impotente mirada de su amigo Juan. El cuerpo de David impacta contra el cap\u00f3 de un coche desintegr\u00e1ndose en mil pedazos. Como nadie parece escandalizarse, Juan se propone descubrir qu\u00e9 ha pasado. Y as\u00ed, se ve inmerso en un laberinto de incongruencias y pianos que caen del cielo...",
+    "english":"Follows two friends, Juan and David, they will find themselves on a rooftop terrace after an intense party in Madrid. Juan witnesses David falling to the void, and his body disintegrating into ceramic pieces after hitting a car."
+  }
 }

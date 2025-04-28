@@ -1,91 +1,118 @@
 {
-  "filmId":"GB2022_074",
-  "title":"Hounded",
-  "titleEn":null,
-  "director":"Tommy Boulding",
-  "releaseType":"THE",
-  "releaseDate":1666915200000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Tommy Boulding",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2022_074",
+  "type":"film",
+  "slug":"gb2022-074-hounded",
+  "title":{
+    "native":"Hounded",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1666915200000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt15241758\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Hounded",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt15241758\/mediaviewer\/rm2500660993\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "ACT",
     "HOR",
+    "ACT",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt15241758\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Hounded",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt15241758\/mediaviewer\/rm2500660993\/?ref_=tt_ov_i",
-  "synopsis":"After being hired to rob a stately home, a group of friends are caught by the homeowners and hunted across the estate. To survive the homeowners' sick brand of entertainment, the group must band together and fight for their survival.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "legacy",
+    "intergenerational conflict",
     "wealth",
     "rural",
-    "abuse",
     "independent home",
-    "fatherhood",
     "siblinghood",
-    "motherhood",
-    "crime",
     "class conflict",
+    "legacy",
+    "fatherhood",
+    "crime",
+    "abuse",
     "interracial relationships",
-    "intergenerational conflict"
+    "motherhood"
   ],
-  "charId":[
-    "GB2022_074_01",
-    "GB2022_074_02",
-    "GB2022_074_03"
+  "director":[
+    {
+      "id":"Tommy Boulding",
+      "name":"Tommy Boulding",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Larry Lamb",
-    "James Faulkner",
-    "Samantha Bond"
+  "character":[
+    {
+      "id":"GB2022_074_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Larry Lamb",
+        "name":"Larry Lamb",
+        "birthYear":1947.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_074_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"James Faulkner",
+        "name":"James Faulkner",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_074_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Samantha Bond",
+        "name":"Samantha Bond",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UC",
-    null
-  ],
-  "charProfession":[
-    "SE",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "James Faulkner",
-    "Larry Lamb",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1947,
-    1948
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "M",
-    null
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2022-074-hounded"
+  "synopsis":{
+    "native":"After being hired to rob a stately home, a group of friends are caught by the homeowners and hunted across the estate. To survive the homeowners' sick brand of entertainment, the group must band together and fight for their survival.",
+    "english":null
+  }
 }

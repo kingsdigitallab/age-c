@@ -1,87 +1,94 @@
 {
-  "filmId":"ES2018_018",
-  "title":"Figuras",
-  "titleEn":"Figures",
-  "director":"Eugenio Canevari",
-  "releaseType":"FES",
-  "releaseDate":1537833600000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Eugenio Canevari",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"AR",
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt7730856\/?ref_=ev_nom",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt7730856\/mediaviewer\/rm2638511104\/?ref_=tt_ov_i",
-  "synopsis":"Stella, una mujer argentina que vive en Espa\u00f1a, sufre esclerosis lateral amiotr\u00f3fica (ELA) y necesita atenci\u00f3n constante. Paco, su compa\u00f1ero desde hace mucho tiempo, la ayuda a moverse, comer y comunicarse. Valeria, la hija de Stella, los visita espor\u00e1dicamente, y angustiada por el visible deterioro de su madre, encuentra una v\u00eda de escape saliendo de fiesta. Mientras esperan una respuesta sobre un piso de protecci\u00f3n oficial, tratan de lidiar con la situaci\u00f3n a trav\u00e9s del humor y el amor. Una familia real interpretando una historia real.",
-  "synopsisEn":"The last moments in the life of an ALS patient.",
-  "country":[
-    "AR",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+  "id":"ES2018_018",
+  "type":"film",
+  "slug":"es2018-018-figuras",
+  "title":{
+    "native":"Figuras",
+    "english":"Figures"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"FES",
+    "date":1537833600000,
+    "year":2018
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt7730856\/?ref_=ev_nom",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt7730856\/mediaviewer\/rm2638511104\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
   ],
   "tags":[
-    "independent home",
-    "technology",
     "disability",
-    "medical treatment",
-    "physical illness",
-    "daily routine",
     "marriage",
-    "body norms",
+    "independent home",
     "caregiving",
+    "medical treatment",
+    "daily routine",
+    "body norms",
+    "technology",
+    "physical illness",
     "motherhood"
   ],
-  "charId":[
-    "ES2018_018_01",
-    "ES2018_018_02"
+  "director":[
+    {
+      "id":"Eugenio Canevari",
+      "name":"Eugenio Canevari",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"AR"
+    }
   ],
-  "perId":[
-    "Francisco Dom\u00ednguez",
-    "Stella Maris Santo"
+  "character":[
+    {
+      "id":"ES2018_018_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Francisco Dom\u00ednguez",
+        "name":"Francisco Dom\u00ednguez",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_018_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WLA",
+      "class":"MC",
+      "profession":"UN",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Stella Maris Santo",
+        "name":"Stella Maris Santo",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"AR"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":[
-    "WWE",
-    "WLA"
-  ],
-  "charClass":"MC",
-  "charProfession":[
-    "UN",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    "CI"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Francisco Dom\u00ednguez",
-    "Stella Maris Santo"
-  ],
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":[
-    "AR",
-    "ES"
-  ],
-  "perRole":null,
-  "slug":"es2018-018-figuras"
+  "synopsis":{
+    "native":"Stella, una mujer argentina que vive en Espa\u00f1a, sufre esclerosis lateral amiotr\u00f3fica (ELA) y necesita atenci\u00f3n constante. Paco, su compa\u00f1ero desde hace mucho tiempo, la ayuda a moverse, comer y comunicarse. Valeria, la hija de Stella, los visita espor\u00e1dicamente, y angustiada por el visible deterioro de su madre, encuentra una v\u00eda de escape saliendo de fiesta. Mientras esperan una respuesta sobre un piso de protecci\u00f3n oficial, tratan de lidiar con la situaci\u00f3n a trav\u00e9s del humor y el amor. Una familia real interpretando una historia real.",
+    "english":"The last moments in the life of an ALS patient."
+  }
 }

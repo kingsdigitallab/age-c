@@ -1,79 +1,109 @@
 {
-  "filmId":"ES2023_083",
-  "title":"Una noche con Adela",
-  "titleEn":null,
-  "director":"Hugo Ru\u00edz",
-  "releaseType":"THE",
-  "releaseDate":1701388800000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Hugo Ru\u00edz",
-  "directorBirthYear":1972,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2023_083",
+  "type":"film",
+  "slug":"es2023-083-una-noche-con-adela",
+  "title":{
+    "native":"Una noche con Adela",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1701388800000,
+    "year":2023
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=698596",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt17001588\/mediaviewer\/rm2974232065\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=698596",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt17001588\/mediaviewer\/rm2974232065\/?ref_=tt_ov_i",
-  "synopsis":"Adela, una barrendera del turno de noche en la ciudad de Madrid, es una persona vac\u00eda, triste y perturbada. Esta noche, cuando acabe su turno de trabajo, ajustar\u00e1 cuentas con quienes considera culpables de convertirla en lo que es, una ruina humana.",
-  "synopsisEn":"Adela goes on a drug-fueled, violent rampage of furious revenge on those who ruined her in this remarkably paced, audacious debut.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
     "homosociality",
-    "mass media",
     "parenthood",
-    "abuse"
+    "abuse",
+    "mass media"
   ],
-  "charId":[
-    "ES2023_083_01",
-    "ES2023_083_02",
-    "ES2023_083_03"
+  "director":[
+    {
+      "id":"Hugo Ru\u00edz",
+      "name":"Hugo Ru\u00edz",
+      "birthYear":1972,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Fernando Moraleda",
-    "Gemma Nierga",
-    "Rosal\u00eda Omil"
+  "character":[
+    {
+      "id":"ES2023_083_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Fernando Moraleda",
+        "name":"Fernando Moraleda",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_083_03",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Rosal\u00eda Omil",
+        "name":"Rosal\u00eda Omil",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_083_02",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Gemma Nierga",
+        "name":"Gemma Nierga",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":"2",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":[
-    "EM",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Fernando Moraleda",
-    "Gemma Nierga",
-    "Rosal\u00eda Omil"
-  ],
-  "perBirthYear":[
-    0,
-    1963,
-    1965
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"es2023-083-una-noche-con-adela"
+  "synopsis":{
+    "native":"Adela, una barrendera del turno de noche en la ciudad de Madrid, es una persona vac\u00eda, triste y perturbada. Esta noche, cuando acabe su turno de trabajo, ajustar\u00e1 cuentas con quienes considera culpables de convertirla en lo que es, una ruina humana.",
+    "english":"Adela goes on a drug-fueled, violent rampage of furious revenge on those who ruined her in this remarkably paced, audacious debut."
+  }
 }

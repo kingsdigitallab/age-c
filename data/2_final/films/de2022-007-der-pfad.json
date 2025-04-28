@@ -1,50 +1,67 @@
 {
-  "filmId":"DE2022_007",
-  "title":"Der Pfad",
-  "titleEn":"The Path",
-  "director":"Tobias Wiemann",
-  "releaseType":"THE",
-  "releaseDate":1645056000000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Tobias Wiemann",
-  "directorBirthYear":1981,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"DE",
+  "id":"DE2022_007",
+  "type":"film",
+  "slug":"de2022-007-der-pfad",
+  "title":{
+    "native":"Der Pfad",
+    "english":"The Path"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1645056000000,
+    "year":2022
+  },
+  "production":{
+    "country":"DE",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=yFqzuORoeW4&ab_channel=WarnerBros.DE",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt13453138\/mediaviewer\/rm668394241\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
     "DRA",
-    "CHI"
+    "CHI",
+    "HIS"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=yFqzuORoeW4&ab_channel=WarnerBros.DE",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt13453138\/mediaviewer\/rm668394241\/?ref_=tt_ov_i",
-  "synopsis":"1940: Der zw\u00f6lfj\u00e4hrige Rolf Kirsch (Julius Weckauf) ist ein ausgebuffter Junge. Er liebt nicht nur den Roman \u201eDer 35. Mai\u201c von Erich K\u00e4stner, sondern besitzt das Buch sogar auch mit pers\u00f6nlicher Signatur. Immer an seiner Seite ist sein treuer Terrier Adi und mit Vorliebe vergr\u00e4bt er sich in verr\u00fcckten Fantasiespielen und Tagtr\u00e4umen: Kein Abenteuer ist imposant genug, dass Rolf es vor seinem geistigen Auge nicht m\u00fchelos meistern k\u00f6nnte. So hat Rolf einen Weg gefunden, um sich irgendwie von der schrecklichen Realit\u00e4t abzulenken, denn der Zweite Weltkrieg l\u00e4uft auf Hochtouren. Sein Vater Ludwig (Volker Bruch) hat sich mit Rolf bis ins franz\u00f6sische Marseille durchgeschlagen, nachdem sie keine M\u00f6glichkeit mehr f\u00fcr sich sahen, in der Hauptstadt Paris zu bleiben. Als \u00fcberaus kritischer Journalist ist Ludwig den nationalsozialistischen Machthabern n\u00e4mlich ein Dorn im Auge \u2013 und er steht auf deren schwarzen Liste. Sollte Ludwig den Nazis in den H\u00e4nde fallen, droht ihm der Tod...",
-  "synopsisEn":"Two children and a dog on the run from the Nazis.",
-  "country":[
-    "DE",
-    "ES"
+  "tags":[
+    "cultural memory"
   ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+  "director":[
+    {
+      "id":"Tobias Wiemann",
+      "name":"Tobias Wiemann",
+      "birthYear":1981,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"DE"
+    }
   ],
-  "tags":"cultural memory",
-  "charId":"DE2022_007_01",
-  "perId":"Corinna Harfouch",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Corinna Harfouch",
-  "perBirthYear":1954,
-  "perDeathYear":0,
-  "perGender":"F",
-  "perNationality":"DE",
-  "perRole":null,
-  "slug":"de2022-007-der-pfad"
+  "character":[
+    {
+      "id":"DE2022_007_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Corinna Harfouch",
+        "name":"Corinna Harfouch",
+        "birthYear":1954.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"DE"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"1940: Der zw\u00f6lfj\u00e4hrige Rolf Kirsch (Julius Weckauf) ist ein ausgebuffter Junge. Er liebt nicht nur den Roman \u201eDer 35. Mai\u201c von Erich K\u00e4stner, sondern besitzt das Buch sogar auch mit pers\u00f6nlicher Signatur. Immer an seiner Seite ist sein treuer Terrier Adi und mit Vorliebe vergr\u00e4bt er sich in verr\u00fcckten Fantasiespielen und Tagtr\u00e4umen: Kein Abenteuer ist imposant genug, dass Rolf es vor seinem geistigen Auge nicht m\u00fchelos meistern k\u00f6nnte. So hat Rolf einen Weg gefunden, um sich irgendwie von der schrecklichen Realit\u00e4t abzulenken, denn der Zweite Weltkrieg l\u00e4uft auf Hochtouren. Sein Vater Ludwig (Volker Bruch) hat sich mit Rolf bis ins franz\u00f6sische Marseille durchgeschlagen, nachdem sie keine M\u00f6glichkeit mehr f\u00fcr sich sahen, in der Hauptstadt Paris zu bleiben. Als \u00fcberaus kritischer Journalist ist Ludwig den nationalsozialistischen Machthabern n\u00e4mlich ein Dorn im Auge \u2013 und er steht auf deren schwarzen Liste. Sollte Ludwig den Nazis in den H\u00e4nde fallen, droht ihm der Tod...",
+    "english":"Two children and a dog on the run from the Nazis."
+  }
 }

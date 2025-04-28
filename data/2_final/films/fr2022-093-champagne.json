@@ -1,49 +1,72 @@
 {
-  "filmId":"FR2022_093",
-  "title":"Champagne !",
-  "titleEn":"Champagne!",
-  "director":"Nicolas Vanier",
-  "releaseType":"THE",
-  "releaseDate":1654646400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=xP8D6u9Jl9o",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/102\/208\/249958\/format_page\/champagne.jpg",
-  "synopsis":"Jean, Patrick, Joanna, Romane et Guillaume se connaissent maintenant depuis plus de 30 ans. Leurs mariages et leurs enfants n\u2019ont pas r\u00e9ussi \u00e0 les \u00e9loigner et justement, ce weekend, la bande de cinquantenaires se retrouve en Champagne pour l\u2019enterrement de vie de gar\u00e7on de Patrick, le dernier c\u00e9libataire de la bande. Mais la future \u00e9pouse, arriv\u00e9e \u00e0 l\u2019improviste, ne semble pas faire l\u2019unanimit\u00e9\u2026 Dans ce sublime vignoble, au fil des fous rires, des engueulades et des r\u00e9conciliations, les tensions rejaillissent\u2026 car en amiti\u00e9, tout le monde trinque !",
-  "synopsisEn":"Jean, Patrick, Joanna, Romane and Guillaume have known each other for over 30 years. Their marriages and their children have not succeeded in keeping them away and this weekend, the band of fifty-somethings finds itself in Champagne for Patrick's bachelor party, being the last bachelor of the bunch. But his wife-to-be, who arrived unexpectedly, does not exactly please to everyone... In this sublime vineyard, over the giggles, shouting matches and reconciliations, tensions rebound...",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2022_093",
+  "type":"film",
+  "slug":"fr2022-093-champagne",
+  "title":{
+    "native":"Champagne !",
+    "english":"Champagne!"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1654646400000,
+    "year":2022
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=xP8D6u9Jl9o",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/102\/208\/249958\/format_page\/champagne.jpg"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
-    "rural",
-    "may-december",
     "partnership",
-    "high rank employment",
+    "festivities",
     "marriage",
     "elderhood (friendship among elders)",
-    "holiday",
-    "festivities"
+    "rural",
+    "high rank employment",
+    "may-december",
+    "holiday"
   ],
-  "charId":"FR2022_093_01",
-  "perId":"St\u00e9phane De Groodt",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2022-093-champagne"
+  "director":[
+    {
+      "id":"Nicolas Vanier",
+      "name":"Nicolas Vanier",
+      "birthYear":1962,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2022_093_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"St\u00e9phane De Groodt",
+        "name":"St\u00e9phane De Groodt",
+        "birthYear":1966.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"BE"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Jean, Patrick, Joanna, Romane et Guillaume se connaissent maintenant depuis plus de 30 ans. Leurs mariages et leurs enfants n\u2019ont pas r\u00e9ussi \u00e0 les \u00e9loigner et justement, ce weekend, la bande de cinquantenaires se retrouve en Champagne pour l\u2019enterrement de vie de gar\u00e7on de Patrick, le dernier c\u00e9libataire de la bande. Mais la future \u00e9pouse, arriv\u00e9e \u00e0 l\u2019improviste, ne semble pas faire l\u2019unanimit\u00e9\u2026 Dans ce sublime vignoble, au fil des fous rires, des engueulades et des r\u00e9conciliations, les tensions rejaillissent\u2026 car en amiti\u00e9, tout le monde trinque !",
+    "english":"Jean, Patrick, Joanna, Romane and Guillaume have known each other for over 30 years. Their marriages and their children have not succeeded in keeping them away and this weekend, the band of fifty-somethings finds itself in Champagne for Patrick's bachelor party, being the last bachelor of the bunch. But his wife-to-be, who arrived unexpectedly, does not exactly please to everyone... In this sublime vineyard, over the giggles, shouting matches and reconciliations, tensions rebound..."
+  }
 }

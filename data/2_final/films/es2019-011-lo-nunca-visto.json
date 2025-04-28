@@ -1,100 +1,126 @@
 {
-  "filmId":"ES2019_011",
-  "title":"Lo nunca visto",
-  "titleEn":"A Remarkable Tale",
-  "director":"Marina Seresesky",
-  "releaseType":"THE",
-  "releaseDate":1562889600000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Marina Seresesky",
-  "directorBirthYear":1969,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"AR",
+  "id":"ES2019_011",
+  "type":"film",
+  "slug":"es2019-011-lo-nunca-visto",
+  "title":{
+    "native":"Lo nunca visto",
+    "english":"A Remarkable Tale"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1562889600000,
+    "year":2019
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=QRF4Bl_VnIE",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt8296660\/mediaviewer\/rm1357876737\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "COM",
-    "ROM"
+    "ROM",
+    "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=QRF4Bl_VnIE",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt8296660\/mediaviewer\/rm1357876737\/?ref_=tt_ov_i",
-  "synopsis":"Teresa (Carmen Machi) ve apagarse Fuentejuela de Arriba, la peque\u00f1a aldea de la monta\u00f1a donde ha vivido toda su vida. Pero el pueblo recibe una visita inesperada: en medio de la nieve aparece un desubicado grupo de africanos\u2026 cuya llegada conmociona la aldea. Teresa lo tiene claro: huidos de una situaci\u00f3n de explotaci\u00f3n a la que hab\u00edan llegado enga\u00f1ados, los africanos quieren quedarse en Espa\u00f1a como sea\u2026 y esa puede ser la soluci\u00f3n al problema de falta de habitantes en el pueblo. Con ayuda de sus amigos Jaime (Pep\u00f3n Nieto), y el \u201cGuiri\u201d (Jon Kortajarena) decide ocultarlos y armar un plan. Poniendo patas arriba prejuicios y expectativas, los reci\u00e9n llegados y los habitantes locales trabajar\u00e1n juntos para que su hogar contin\u00fae existiendo.",
-  "synopsisEn":"A town at the edge of the missing take desperate measures to avoid it.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "desire",
-    "sex",
-    "self-employment",
-    "daily routine",
-    "intragenerational friendship",
+    "rural",
+    "loneliness",
+    "women empowerment",
     "cross-gender friendship",
     "interracial relationships",
-    "motherhood",
-    "rural",
-    "may-december",
-    "women empowerment",
-    "separation",
-    "racial discrimination",
-    "loneliness",
+    "romance",
     "state institutions",
-    "class solidarity",
     "independent home",
     "professional politics",
-    "romance",
+    "daily routine",
+    "sex",
+    "intragenerational friendship",
+    "desire",
+    "self-employment",
+    "racial discrimination",
+    "intergenerational conflict",
+    "separation",
     "gender discrimination",
-    "intergenerational conflict"
+    "motherhood",
+    "class solidarity",
+    "may-december"
   ],
-  "charId":[
-    "ES2019_011_02",
-    "ES2019_011_03",
-    "ES2019_011_01"
+  "director":[
+    {
+      "id":"Marina Seresesky",
+      "name":"Marina Seresesky",
+      "birthYear":1969,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"AR"
+    }
   ],
-  "perId":[
-    "Paco Tous",
-    "Carmen Machi",
-    "Kiti M\u00e1nver"
+  "character":[
+    {
+      "id":"ES2019_011_01",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Kiti M\u00e1nver",
+        "name":"Kiti M\u00e1nver",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2019_011_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Paco Tous",
+        "name":"Paco Tous",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2019_011_02",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Carmen Machi",
+        "name":"Carmen Machi",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "4"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "RE"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":null,
-  "perName":[
-    "Paco Tous",
-    null,
-    "Kiti M\u00e1nver"
-  ],
-  "perBirthYear":[
-    0,
-    1953,
-    1964
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M",
-    null
-  ],
-  "perNationality":[
-    null,
-    "ES"
-  ],
-  "perRole":null,
-  "slug":"es2019-011-lo-nunca-visto"
+  "synopsis":{
+    "native":"Teresa (Carmen Machi) ve apagarse Fuentejuela de Arriba, la peque\u00f1a aldea de la monta\u00f1a donde ha vivido toda su vida. Pero el pueblo recibe una visita inesperada: en medio de la nieve aparece un desubicado grupo de africanos\u2026 cuya llegada conmociona la aldea. Teresa lo tiene claro: huidos de una situaci\u00f3n de explotaci\u00f3n a la que hab\u00edan llegado enga\u00f1ados, los africanos quieren quedarse en Espa\u00f1a como sea\u2026 y esa puede ser la soluci\u00f3n al problema de falta de habitantes en el pueblo. Con ayuda de sus amigos Jaime (Pep\u00f3n Nieto), y el \u201cGuiri\u201d (Jon Kortajarena) decide ocultarlos y armar un plan. Poniendo patas arriba prejuicios y expectativas, los reci\u00e9n llegados y los habitantes locales trabajar\u00e1n juntos para que su hogar contin\u00fae existiendo.",
+    "english":"A town at the edge of the missing take desperate measures to avoid it."
+  }
 }

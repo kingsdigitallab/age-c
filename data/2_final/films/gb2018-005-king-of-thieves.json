@@ -1,113 +1,200 @@
 {
-  "filmId":"GB2018_005",
-  "title":"King of Thieves",
-  "titleEn":null,
-  "director":"James Marsh",
-  "releaseType":"THE",
-  "releaseDate":1536883200000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"James Marsh",
-  "directorBirthYear":1963,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2018_005",
+  "type":"film",
+  "slug":"gb2018-005-king-of-thieves",
+  "title":{
+    "native":"King of Thieves",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1536883200000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=eeQAY_9vG8M",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5789976\/mediaviewer\/rm2776856576\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HEI",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=eeQAY_9vG8M",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5789976\/mediaviewer\/rm2776856576\/?ref_=tt_ov_i",
-  "synopsis":"A true crime movie about a crew of retired crooks who pull off a major heist in London's jewelry district. What starts off as their last criminal hurrah, quickly turns into a brutal nightmare due to greed.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
     "wealth",
-    "substance abuse",
-    "self-employment",
-    "friendship betrayal",
     "state institutions",
-    "physical illness",
-    "last mission",
+    "friendship betrayal",
+    "marriage",
+    "elderhood (friendship among elders)",
+    "urban",
+    "substance abuse",
     "homosociality",
+    "intragenerational friendship",
     "crime",
     "retirement",
-    "intragenerational friendship",
-    "marriage",
-    "urban",
     "class solidarity",
-    "elderhood (friendship among elders)"
+    "last mission",
+    "self-employment",
+    "physical illness"
   ],
-  "charId":[
-    "GB2018_005_07",
-    "GB2018_005_04",
-    "GB2018_005_01",
-    "GB2018_005_03",
-    "GB2018_005_05",
-    "GB2018_005_02",
-    "GB2018_005_06"
+  "director":[
+    {
+      "id":"James Marsh",
+      "name":"James Marsh",
+      "birthYear":1963,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Paul Whitehouse",
-    "Michael Gambon",
-    "Michael Caine",
-    "Francesca Annis",
-    "Jim Broadbent",
-    "Tom Courtenay",
-    "Ray Winstone"
+  "character":[
+    {
+      "id":"GB2018_005_05",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ray Winstone",
+        "name":"Ray Winstone",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_005_02",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Francesca Annis",
+        "name":"Francesca Annis",
+        "birthYear":1945.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_005_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Michael Caine",
+        "name":"Michael Caine",
+        "birthYear":1933.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_005_07",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Michael Gambon",
+        "name":"Michael Gambon",
+        "birthYear":1940.0,
+        "deathYear":2023.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_005_04",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Tom Courtenay",
+        "name":"Tom Courtenay",
+        "birthYear":1937.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_005_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jim Broadbent",
+        "name":"Jim Broadbent",
+        "birthYear":1949.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_005_06",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Paul Whitehouse",
+        "name":"Paul Whitehouse",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Paul Whitehouse",
-    "Michael Gambon",
-    "Michael Caine",
-    "Francesca Annis",
-    "Jim Broadbent",
-    null,
-    "Ray Winstone"
-  ],
-  "perBirthYear":[
-    0,
-    1957,
-    1958,
-    1933,
-    1940,
-    1945,
-    1949
-  ],
-  "perDeathYear":[
-    0,
-    2023
-  ],
-  "perGender":[
-    "F",
-    null,
-    "M"
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2018-005-king-of-thieves"
+  "synopsis":{
+    "native":"A true crime movie about a crew of retired crooks who pull off a major heist in London's jewelry district. What starts off as their last criminal hurrah, quickly turns into a brutal nightmare due to greed.",
+    "english":null
+  }
 }

@@ -1,98 +1,117 @@
 {
-  "filmId":"ES2018_008",
-  "title":"Petra",
-  "titleEn":null,
-  "director":"Jaime Rosales",
-  "releaseType":"THE",
-  "releaseDate":1539907200000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Jaime Rosales",
-  "directorBirthYear":1970,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2018_008",
+  "type":"film",
+  "slug":"es2018-008-petra",
+  "title":{
+    "native":"Petra",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1539907200000,
+    "year":2018
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=o9pq83Q6jjU",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6040806\/mediaviewer\/rm1024412928\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=o9pq83Q6jjU",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6040806\/mediaviewer\/rm1024412928\/?ref_=tt_ov_i",
-  "synopsis":"Petra no sabe qui\u00e9n es su padre, se lo han ocultado a lo largo de su vida. Tras la muerte de su madre inicia una b\u00fasqueda que le conduce a Jaume, un c\u00e9lebre artista pl\u00e1stico poderoso y despiadado. En su camino por conocer la verdad, Petra tambi\u00e9n entra en contacto con Lucas, hijo de Jaume, y Marisa, esposa de Jaume y madre de Lucas. A partir de ese momento, la historia de estos personajes se va entretejiendo en una espiral de maldad, secretos familiares y violencia que los lleva a todos al l\u00edmite. El destino dar\u00e1 un giro a su l\u00f3gica cruel abriendo un camino para la esperanza y la redenci\u00f3n.",
-  "synopsisEn":"The identity of Petra's father has been hidden from her all her life. When her mother dies, Petra embarks on a quest which leads to Jaume, a celebrated artist and a powerful, ruthless man.",
-  "country":[
-    "DK",
-    "FR",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "power",
+    "intergenerational conflict",
     "burial",
-    "abuse",
-    "fatherhood",
-    "independent home",
-    "self-employment",
-    "artistic creation",
-    "homosociality",
-    "marriage",
     "mentorship",
+    "marriage",
+    "artistic creation",
+    "independent home",
     "natural",
-    "intergenerational conflict"
+    "homosociality",
+    "fatherhood",
+    "power",
+    "self-employment",
+    "abuse"
   ],
-  "charId":[
-    "ES2018_008_03",
-    "ES2018_008_02",
-    "ES2018_008_01"
+  "director":[
+    {
+      "id":"Jaime Rosales",
+      "name":"Jaime Rosales",
+      "birthYear":1970,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Marisa Paredes",
-    "Petra Mart\u00ednez",
-    "Joan Botey"
+  "character":[
+    {
+      "id":"ES2018_008_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Joan Botey",
+        "name":"Joan Botey",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_008_03",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Petra Mart\u00ednez",
+        "name":"Petra Mart\u00ednez",
+        "birthYear":1944.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_008_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Marisa Paredes",
+        "name":"Marisa Paredes",
+        "birthYear":1946.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "RE",
-    "UN"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Petra Mart\u00ednez",
-    null,
-    "Joan Botey"
-  ],
-  "perBirthYear":[
-    0,
-    1944
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    null,
-    "M"
-  ],
-  "perNationality":[
-    null,
-    "ES"
-  ],
-  "perRole":null,
-  "slug":"es2018-008-petra"
+  "synopsis":{
+    "native":"Petra no sabe qui\u00e9n es su padre, se lo han ocultado a lo largo de su vida. Tras la muerte de su madre inicia una b\u00fasqueda que le conduce a Jaume, un c\u00e9lebre artista pl\u00e1stico poderoso y despiadado. En su camino por conocer la verdad, Petra tambi\u00e9n entra en contacto con Lucas, hijo de Jaume, y Marisa, esposa de Jaume y madre de Lucas. A partir de ese momento, la historia de estos personajes se va entretejiendo en una espiral de maldad, secretos familiares y violencia que los lleva a todos al l\u00edmite. El destino dar\u00e1 un giro a su l\u00f3gica cruel abriendo un camino para la esperanza y la redenci\u00f3n.",
+    "english":"The identity of Petra's father has been hidden from her all her life. When her mother dies, Petra embarks on a quest which leads to Jaume, a celebrated artist and a powerful, ruthless man."
+  }
 }

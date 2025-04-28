@@ -1,45 +1,68 @@
 {
-  "filmId":"IT2022_025",
-  "title":"La mia ombra \u00e8 tua",
-  "titleEn":"My shadow is your shadow",
-  "director":"Eugenio Cappuccio",
-  "releaseType":"THE",
-  "releaseDate":1656460800000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=-r762Per_0g",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt15137984\/mediaviewer\/rm4077458433\/?ref_=tt_ov_i",
-  "synopsis":"Il venticinquenne Emiliano accompagna uno scrittore sulla sessantina, Vittorio, a una fiera milanese dove lo scrittore romper\u00e0 un silenzio da vent'anni e terr\u00e0 un discorso.",
-  "synopsisEn":"25 year old Emiliano accompanies a 60 something writer, Vittorio, to a Milan fair where the writer will break a 20 years silence and give a talk.",
-  "country":"IT",
-  "productionShare":"MAJ",
-  "tags":[
-    "intergenerational friendship",
-    "reignited passion",
-    "substance abuse",
-    "artistic creation"
+  "id":"IT2022_025",
+  "type":"film",
+  "slug":"it2022-025-la-mia-ombra-e-tua",
+  "title":{
+    "native":"La mia ombra \u00e8 tua",
+    "english":"My shadow is your shadow"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1656460800000,
+    "year":2022
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=-r762Per_0g",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt15137984\/mediaviewer\/rm4077458433\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
   ],
-  "charId":"IT2022_025_01",
-  "perId":"Marco Giallini",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2022-025-la-mia-ombra-e-tua"
+  "tags":[
+    "reignited passion",
+    "artistic creation",
+    "substance abuse",
+    "intergenerational friendship"
+  ],
+  "director":[
+    {
+      "id":"Eugenio Cappuccio",
+      "name":"Eugenio Cappuccio",
+      "birthYear":1961,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2022_025_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Marco Giallini",
+        "name":"Marco Giallini",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Il venticinquenne Emiliano accompagna uno scrittore sulla sessantina, Vittorio, a una fiera milanese dove lo scrittore romper\u00e0 un silenzio da vent'anni e terr\u00e0 un discorso.",
+    "english":"25 year old Emiliano accompanies a 60 something writer, Vittorio, to a Milan fair where the writer will break a 20 years silence and give a talk."
+  }
 }

@@ -1,57 +1,91 @@
 {
-  "filmId":"FR2019_110",
-  "title":"Beaux-parents",
-  "titleEn":"My Out-Laws",
-  "director":"H\u00e9ctor Cabello Reyes",
-  "releaseType":"THE",
-  "releaseDate":1560902400000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=HFia318AcZY",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/236\/35\/205804\/format_page\/beaux-parents.jpg",
-  "synopsis":"Coline et Andr\u00e9 sont en parfaite harmonie avec leur fille, Garance, et leur gendre Harold. Mais Garance se s\u00e9pare d\u2019Harold et ordonne \u00e0 ses parents de ne plus jamais le revoir. Les beaux-parents ne peuvent s\u2019y r\u00e9soudre : elle l\u2019a largu\u00e9, mais pas eux ! Ils devront mener une double vie pour continuer \u00e0 voir leur gendre ador\u00e9, en cachette de leur fille, qui ne va pas les l\u00e2cher...",
-  "synopsisEn":"Coline and Andr\u00e9 are in perfect harmony with their daughter Garance, and their son-in-law Harold. But when Garance breaks up with Harold, she instructs her parents to never see him again. The in-laws can\u2019t come to terms with it: she dumped him, but they didn\u2019t! They\u2019re going to have to lead a double life in order to keep seeing their beloved son-in-law, hiding from their daughter, who is not going to leave them alone\u2026",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2019_110",
+  "type":"film",
+  "slug":"fr2019-110-beaux-parents",
+  "title":{
+    "native":"Beaux-parents",
+    "english":"My Out-Laws"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1560902400000,
+    "year":2019
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=HFia318AcZY",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/236\/35\/205804\/format_page\/beaux-parents.jpg"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
-    "independent home",
     "in-laws",
-    "extended family",
-    "parenthood",
-    "grandparenthood",
     "marriage",
-    "retirement"
+    "independent home",
+    "parenthood",
+    "retirement",
+    "extended family",
+    "grandparenthood"
   ],
-  "charId":[
-    "FR2019_110_01",
-    "FR2019_110_02"
+  "director":[
+    {
+      "id":"H\u00e9ctor Cabello Reyes",
+      "name":"H\u00e9ctor Cabello Reyes",
+      "birthYear":1970,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
   ],
-  "perId":[
-    "Josiane Balasko",
-    "Didier Bourdon"
+  "character":[
+    {
+      "id":"FR2019_110_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Didier Bourdon",
+        "name":"Didier Bourdon",
+        "birthYear":1959.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    },
+    {
+      "id":"FR2019_110_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Josiane Balasko",
+        "name":"Josiane Balasko",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"RE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2019-110-beaux-parents"
+  "synopsis":{
+    "native":"Coline et Andr\u00e9 sont en parfaite harmonie avec leur fille, Garance, et leur gendre Harold. Mais Garance se s\u00e9pare d\u2019Harold et ordonne \u00e0 ses parents de ne plus jamais le revoir. Les beaux-parents ne peuvent s\u2019y r\u00e9soudre : elle l\u2019a largu\u00e9, mais pas eux ! Ils devront mener une double vie pour continuer \u00e0 voir leur gendre ador\u00e9, en cachette de leur fille, qui ne va pas les l\u00e2cher...",
+    "english":"Coline and Andr\u00e9 are in perfect harmony with their daughter Garance, and their son-in-law Harold. But when Garance breaks up with Harold, she instructs her parents to never see him again. The in-laws can\u2019t come to terms with it: she dumped him, but they didn\u2019t! They\u2019re going to have to lead a double life in order to keep seeing their beloved son-in-law, hiding from their daughter, who is not going to leave them alone\u2026"
+  }
 }

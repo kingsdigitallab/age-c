@@ -1,50 +1,67 @@
 {
-  "filmId":"FR2020_015",
-  "title":"Les Traducteurs",
-  "titleEn":"The Translators",
-  "director":"R\u00e9gis Roinsard",
-  "releaseType":"THE",
-  "releaseDate":1580256000000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"THR",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=K3cMMLmKm4w",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/204\/105\/223692\/format_page\/les-traducteurs.jpg",
-  "synopsis":"Isol\u00e9s dans une luxueuse demeure sans aucun contact possible avec l'ext\u00e9rieur, neuf traducteurs sont rassembl\u00e9s pour travailler sur le dernier tome d'un des plus grands succ\u00e8s de la litt\u00e9rature mondiale. Mais lorsque les dix premi\u00e8res pages du roman sont publi\u00e9es sur internet, et qu'un pirate menace de d\u00e9voiler la suite si on ne lui verse pas une ran\u00e7on colossale, une question devient obs\u00e9dante : d'o\u00f9 vient la fuite ?",
-  "synopsisEn":"Nine translators, hired to translate the eagerly awaited final book of a bestselling trilogy, are confined in a luxurious bunker. When the first ten pages of the top-secret manuscript appear online, the dream job becomes a nightmare \u2013 the thief is one of them and the publisher (Lambert Wilson) is ready to do whatever it takes to unmask him\u2026 or her. A suspenseful, edge-of-the-seat whodunit that will keep you riveted till the very end.",
-  "country":[
-    "BE",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+  "id":"FR2020_015",
+  "type":"film",
+  "slug":"fr2020-015-les-traducteurs",
+  "title":{
+    "native":"Les Traducteurs",
+    "english":"The Translators"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1580256000000,
+    "year":2020
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=K3cMMLmKm4w",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/204\/105\/223692\/format_page\/les-traducteurs.jpg"
+  },
+  "genre":[
+    "THR"
   ],
   "tags":[
     "high rank employment",
-    "superior-employee relationship",
-    "abuse"
+    "abuse",
+    "superior-employee relationship"
   ],
-  "charId":"FR2020_015_01",
-  "perId":"Lambert Wilson",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"UC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2020-015-les-traducteurs"
+  "director":[
+    {
+      "id":"R\u00e9gis Roinsard",
+      "name":"R\u00e9gis Roinsard",
+      "birthYear":1972,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2020_015_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Lambert Wilson",
+        "name":"Lambert Wilson",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Isol\u00e9s dans une luxueuse demeure sans aucun contact possible avec l'ext\u00e9rieur, neuf traducteurs sont rassembl\u00e9s pour travailler sur le dernier tome d'un des plus grands succ\u00e8s de la litt\u00e9rature mondiale. Mais lorsque les dix premi\u00e8res pages du roman sont publi\u00e9es sur internet, et qu'un pirate menace de d\u00e9voiler la suite si on ne lui verse pas une ran\u00e7on colossale, une question devient obs\u00e9dante : d'o\u00f9 vient la fuite ?",
+    "english":"Nine translators, hired to translate the eagerly awaited final book of a bestselling trilogy, are confined in a luxurious bunker. When the first ten pages of the top-secret manuscript appear online, the dream job becomes a nightmare \u2013 the thief is one of them and the publisher (Lambert Wilson) is ready to do whatever it takes to unmask him\u2026 or her. A suspenseful, edge-of-the-seat whodunit that will keep you riveted till the very end."
+  }
 }

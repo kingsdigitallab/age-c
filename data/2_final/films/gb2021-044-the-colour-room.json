@@ -1,90 +1,135 @@
 {
-  "filmId":"GB2021_044",
-  "title":"The Colour Room",
-  "titleEn":null,
-  "director":"Claire McCarthy",
-  "releaseType":"THE",
-  "releaseDate":1324425600000,
-  "type":"F",
-  "releaseYear":2011,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2021_044",
+  "type":"film",
+  "slug":"gb2021-044-the-colour-room",
+  "title":{
+    "native":"The Colour Room",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1324425600000,
+    "year":2011
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=gQPFloejuCQ",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt13468436\/mediaviewer\/rm1302457089\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
-    "DRA",
     "BIO",
+    "DRA",
+    "HIS",
     "ROM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=gQPFloejuCQ",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt13468436\/mediaviewer\/rm1302457089\/?ref_=tt_ov_i",
-  "synopsis":"Clarice Cliff breaks the glass ceiling and revolutionizes the workplace at a pottery factory in 1920s England.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
+    "intergenerational conflict",
     "wealth",
-    "artistic creation",
     "superior-employee relationship",
+    "artistic creation",
     "homosociality",
-    "high rank employment",
     "class conflict",
-    "gender discrimination",
-    "intergenerational conflict"
+    "high rank employment",
+    "gender discrimination"
   ],
-  "charId":[
-    "GB2021_044_02",
-    "GB2021_044_04",
-    "GB2021_044_01",
-    "GB2021_044_03"
+  "director":[
+    {
+      "id":"Claire McCarthy",
+      "name":"Claire McCarthy",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"AU"
+    }
   ],
-  "perId":[
-    "Tony Pitts",
-    "Adrian Rawlins",
-    "Bill Patterson",
-    "David Morrissey"
+  "character":[
+    {
+      "id":"GB2021_044_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Tony Pitts",
+        "name":"Tony Pitts",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_044_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Adrian Rawlins",
+        "name":"Adrian Rawlins",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_044_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Bill Patterson",
+        "name":"Bill Patterson",
+        "birthYear":1945.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_044_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"David Morrissey",
+        "name":"David Morrissey",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "UC",
-    null
-  ],
-  "charProfession":[
-    "SE",
-    "EM",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    null
-  ],
-  "assistedMobility":"N",
-  "perName":[
-    "David Morrissey",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1964
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "M",
-    null
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2021-044-the-colour-room"
+  "synopsis":{
+    "native":"Clarice Cliff breaks the glass ceiling and revolutionizes the workplace at a pottery factory in 1920s England.",
+    "english":null
+  }
 }

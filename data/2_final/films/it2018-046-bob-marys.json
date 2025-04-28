@@ -1,62 +1,91 @@
 {
-  "filmId":"IT2018_046",
-  "title":"Bob & Marys",
-  "titleEn":"Bob & Marys",
-  "director":"Francesco Prisco",
-  "releaseType":"THE",
-  "releaseDate":1522886400000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2018_046",
+  "type":"film",
+  "slug":"it2018-046-bob-marys",
+  "title":{
+    "native":"Bob & Marys",
+    "english":"Bob & Marys"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1522886400000,
+    "year":2018
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=V1nBoZeak_Y",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt8069436\/mediaviewer\/rm2416334080\/?ref_=tt_ov_i"
+  },
   "genre":[
     "CRI",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=V1nBoZeak_Y",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt8069436\/mediaviewer\/rm2416334080\/?ref_=tt_ov_i",
-  "synopsis":"Roberto (Rocco Papaleo) e Marisa (Laura Morante) sono una coppia sposata da quasi trent\u2019anni, che conduce una vita priva di sussulti: istruttore di scuola guida lui e operatrice volontaria lei, vivono in un equilibrio di grigia abitudine. Fino a quando una notte, un manipolo di criminali spietati si introduce in casa loro e la riempie di pacchi dal contenuto misterioso, ma sicuramente illegale. \u201cAcc\u00f9ppatura\u201d, \u00e8 questo il nome della pratica criminale che costringe i due malcapitati a custodire in casa merce illecita, senza possibilit\u00e0 alcuna di denunciare e, soprattutto, col serio rischio di passare un guaio con la legge. Ma col passare dei giorni, sotto scacco dei malviventi e con gli sguardi indiscreti del vicinato da eludere, i due coniugi cominciano a rendersi conto che quella rocambolesca disavventura delittuosa ha ridato alla coppia il brio che mancava da decenni.",
-  "synopsisEn":"A married couple must get their hands dirty when a bunch of mobsters start using their new home as a deposit for illegal material.",
-  "country":"IT",
-  "productionShare":"MAJ",
   "tags":[
-    "sex",
-    "independent home",
-    "organized crime",
-    "parenthood",
     "marriage",
-    "new start"
+    "independent home",
+    "parenthood",
+    "sex",
+    "new start",
+    "organized crime"
   ],
-  "charId":[
-    "IT2018_046_01",
-    "IT2018_046_02"
+  "director":[
+    {
+      "id":"Francesco Prisco",
+      "name":"Francesco Prisco",
+      "birthYear":1976,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
   ],
-  "perId":[
-    "Laura Morante",
-    "Rocco Papaleo"
+  "character":[
+    {
+      "id":"IT2018_046_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Rocco Papaleo",
+        "name":"Rocco Papaleo",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2018_046_02",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Laura Morante",
+        "name":"Laura Morante",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
   ],
-  "charAge":"2",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":[
-    "EM",
-    "UN"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2018-046-bob-marys"
+  "synopsis":{
+    "native":"Roberto (Rocco Papaleo) e Marisa (Laura Morante) sono una coppia sposata da quasi trent\u2019anni, che conduce una vita priva di sussulti: istruttore di scuola guida lui e operatrice volontaria lei, vivono in un equilibrio di grigia abitudine. Fino a quando una notte, un manipolo di criminali spietati si introduce in casa loro e la riempie di pacchi dal contenuto misterioso, ma sicuramente illegale. \u201cAcc\u00f9ppatura\u201d, \u00e8 questo il nome della pratica criminale che costringe i due malcapitati a custodire in casa merce illecita, senza possibilit\u00e0 alcuna di denunciare e, soprattutto, col serio rischio di passare un guaio con la legge. Ma col passare dei giorni, sotto scacco dei malviventi e con gli sguardi indiscreti del vicinato da eludere, i due coniugi cominciano a rendersi conto che quella rocambolesca disavventura delittuosa ha ridato alla coppia il brio che mancava da decenni.",
+    "english":"A married couple must get their hands dirty when a bunch of mobsters start using their new home as a deposit for illegal material."
+  }
 }

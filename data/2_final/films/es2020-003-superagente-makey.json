@@ -1,73 +1,96 @@
 {
-  "filmId":"ES2020_003",
-  "title":"Superagente Makey",
-  "titleEn":null,
-  "director":"Alfonso S\u00e1nchez",
-  "releaseType":"THE",
-  "releaseDate":1594944000000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"ES2020_003",
+  "type":"film",
+  "slug":"es2020-003-superagente-makey",
+  "title":{
+    "native":"Superagente Makey",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1594944000000,
+    "year":2020
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=COcW_gSqsco",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt10419566\/mediaviewer\/rm2457974529\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "ACT",
-    "COM"
+    "COM",
+    "ACT"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=COcW_gSqsco",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt10419566\/mediaviewer\/rm2457974529\/?ref_=tt_ov_i",
-  "synopsis":"Jos\u00e9 Miguel \u201cMakey\u201d es un polic\u00eda campechano que adora su trabajo en el barrio de Carabanchel y con un sentido de la responsabilidad y el honor desmesurado. Su vida da un vuelco cuando es degradado a agente de movilidad (vaya, de los que ponen multas) y destinado a la Costa del Sol debido a un error garrafal. All\u00ed Makey se reencontrar\u00e1 con su hija con la que hace a\u00f1os que no se habla y se ver\u00e1, sin comerlo ni beberlo, envuelto en una peligrosa trama de narcotr\u00e1fico internacional. Makey est\u00e1 a punto de convertirse en el protagonista de las pel\u00edculas de acci\u00f3n con las que siempre ha so\u00f1ado.",
-  "synopsisEn":"A naive police officer gets caught in the middle of a dangerous international drug operation in the Costa del Sol.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "substance abuse",
-    "technology",
-    "tourism",
-    "state institutions",
+    "intergenerational conflict",
     "superior-employee relationship",
+    "state institutions",
+    "urban",
+    "new start",
+    "substance abuse",
     "homosociality",
     "intragenerational friendship",
-    "urban",
-    "intergenerational conflict",
-    "new start",
-    "low-rank employment"
+    "technology",
+    "low-rank employment",
+    "tourism"
   ],
-  "charId":[
-    "ES2020_003_02",
-    "ES2020_003_01"
+  "director":[
+    {
+      "id":"Alfonso S\u00e1nchez",
+      "name":"Alfonso S\u00e1nchez",
+      "birthYear":1978,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Leo Harlem",
-    "Jordi S\u00e1nchez"
+  "character":[
+    {
+      "id":"ES2020_003_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Leo Harlem",
+        "name":"Leo Harlem",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2020_003_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jordi S\u00e1nchez",
+        "name":"Jordi S\u00e1nchez",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "EM",
-    "UN"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Leo Harlem",
-    "Jordi S\u00e1nchez"
-  ],
-  "perBirthYear":[
-    1964,
-    1965
-  ],
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"es2020-003-superagente-makey"
+  "synopsis":{
+    "native":"Jos\u00e9 Miguel \u201cMakey\u201d es un polic\u00eda campechano que adora su trabajo en el barrio de Carabanchel y con un sentido de la responsabilidad y el honor desmesurado. Su vida da un vuelco cuando es degradado a agente de movilidad (vaya, de los que ponen multas) y destinado a la Costa del Sol debido a un error garrafal. All\u00ed Makey se reencontrar\u00e1 con su hija con la que hace a\u00f1os que no se habla y se ver\u00e1, sin comerlo ni beberlo, envuelto en una peligrosa trama de narcotr\u00e1fico internacional. Makey est\u00e1 a punto de convertirse en el protagonista de las pel\u00edculas de acci\u00f3n con las que siempre ha so\u00f1ado.",
+    "english":"A naive police officer gets caught in the middle of a dangerous international drug operation in the Costa del Sol."
+  }
 }

@@ -1,50 +1,54 @@
 {
-  "filmId":"FR2022_020",
-  "title":"H6",
-  "titleEn":"H6",
-  "director":"Ye Ye",
-  "releaseType":"THE",
-  "releaseDate":1643760000000,
-  "type":"D",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DOB",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=hTWcN4QoDNE",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/217\/178\/242393\/format_page\/h6.jpg",
-  "synopsis":"Le destin de cinq familles se joue \u00e0 l\u2019h\u00f4pital N\u00b06 de Shanghai. A travers leurs histoires crois\u00e9es se dessine un portrait de la Chine d\u2019aujourd\u2019hui entre culture traditionnelle et modernit\u00e9. La solidarit\u00e9, la tendresse et le sens de l\u2019humour permettent aux familles et patients de tenir le cap face aux al\u00e9as de la vie.",
-  "synopsisEn":"Shanghai Sixth People's Hospital is one of the largest in the city. Here, medical staff, patients, and families with disrupted lives rub shoulders. Through their intersecting stories, a portrait of today's China, oscillating between capitalism and traditional culture, is drawn. In the face of life's ups and downs and unequal access to health care, Chinese tenderness and humor emerge when least expected.",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2022_020",
+  "type":"film",
+  "slug":"fr2022-020-h6",
+  "title":{
+    "native":"H6",
+    "english":"H6"
+  },
+  "filmType":"D",
+  "release":{
+    "type":"THE",
+    "date":1643760000000,
+    "year":2022
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=hTWcN4QoDNE",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/217\/178\/242393\/format_page\/h6.jpg"
+  },
+  "genre":[
+    "DOB"
+  ],
   "tags":[
-    "siblinghood",
     "disability",
-    "physical illness",
+    "hospital",
+    "urban",
+    "caregiving",
+    "siblinghood",
     "medical treatment",
     "parenthood",
     "grandparenthood",
-    "urban",
-    "caregiving",
-    "hospital"
+    "physical illness"
   ],
-  "charId":null,
-  "perId":null,
-  "charAge":null,
-  "charGender":null,
-  "charSexuality":null,
-  "charOrigin":null,
-  "charClass":null,
-  "charProfession":null,
-  "charAbility":null,
-  "assistedMobility":null,
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2022-020-h6"
+  "director":[
+    {
+      "id":"Ye Ye",
+      "name":"Ye Ye",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"CN"
+    }
+  ],
+  "character":[
+
+  ],
+  "synopsis":{
+    "native":"Le destin de cinq familles se joue \u00e0 l\u2019h\u00f4pital N\u00b06 de Shanghai. A travers leurs histoires crois\u00e9es se dessine un portrait de la Chine d\u2019aujourd\u2019hui entre culture traditionnelle et modernit\u00e9. La solidarit\u00e9, la tendresse et le sens de l\u2019humour permettent aux familles et patients de tenir le cap face aux al\u00e9as de la vie.",
+    "english":"Shanghai Sixth People's Hospital is one of the largest in the city. Here, medical staff, patients, and families with disrupted lives rub shoulders. Through their intersecting stories, a portrait of today's China, oscillating between capitalism and traditional culture, is drawn. In the face of life's ups and downs and unequal access to health care, Chinese tenderness and humor emerge when least expected."
+  }
 }

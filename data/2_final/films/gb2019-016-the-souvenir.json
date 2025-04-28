@@ -1,96 +1,95 @@
 {
-  "filmId":"GB2019_016",
-  "title":"The Souvenir",
-  "titleEn":null,
-  "director":"Joanna Hogg",
-  "releaseType":"THE",
-  "releaseDate":1567123200000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Joanna Hogg",
-  "directorBirthYear":1960,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"GB",
+  "id":"GB2019_016",
+  "type":"film",
+  "slug":"gb2019-016-the-souvenir",
+  "title":{
+    "native":"The Souvenir",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1567123200000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=t9Al2nC0vzY",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6920356\/mediaviewer\/rm3538316288\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "DRA",
-    "MET"
-  ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=t9Al2nC0vzY",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6920356\/mediaviewer\/rm3538316288\/?ref_=tt_ov_i",
-  "synopsis":"A young film student in the early '80s becomes romantically involved with a complicated and untrustworthy man.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "MET",
+    "DRA"
   ],
   "tags":[
-    "wealth",
-    "rural",
-    "independent home",
-    "in-laws",
-    "artistic creation",
     "intergenerational conflict",
+    "wealth",
+    "widowhood",
+    "in-laws",
+    "rural",
+    "artistic creation",
+    "independent home",
     "education",
     "class conflict",
-    "motherhood",
-    "widowhood"
+    "motherhood"
   ],
-  "charId":[
-    "GB2019_016_02",
-    "GB2019_016_01"
+  "director":[
+    {
+      "id":"Joanna Hogg",
+      "name":"Joanna Hogg",
+      "birthYear":1960,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Tilda Swinton",
-    "Dick Fontaine"
+  "character":[
+    {
+      "id":"GB2019_016_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Tilda Swinton",
+        "name":"Tilda Swinton",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"UK"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_016_02",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Dick Fontaine",
+        "name":"Dick Fontaine",
+        "birthYear":1939.0,
+        "deathYear":2023.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "UC"
-  ],
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Dick Fontaine",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1939
-  ],
-  "perDeathYear":[
-    0,
-    2023
-  ],
-  "perGender":[
-    "M",
-    null
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2019-016-the-souvenir"
+  "synopsis":{
+    "native":"A young film student in the early '80s becomes romantically involved with a complicated and untrustworthy man.",
+    "english":null
+  }
 }

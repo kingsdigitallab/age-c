@@ -1,98 +1,122 @@
 {
-  "filmId":"GB2022_020",
-  "title":"Benediction",
-  "titleEn":null,
-  "director":"Terence Davies",
-  "releaseType":"THE",
-  "releaseDate":1653004800000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Terence Davies",
-  "directorBirthYear":1945,
-  "directorDeathYear":2023,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2022_020",
+  "type":"film",
+  "slug":"gb2022-020-benediction",
+  "title":{
+    "native":"Benediction",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1653004800000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt6852178\/?ref_=nv_sr_srsg_1_tt_7_nm_0_in_0_q_Benediction",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6852178\/mediaviewer\/rm1956060929\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
-    "DRA",
     "BIO",
+    "DRA",
+    "HIS",
     "WAR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt6852178\/?ref_=nv_sr_srsg_1_tt_7_nm_0_in_0_q_Benediction",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6852178\/mediaviewer\/rm1956060929\/?ref_=tt_ov_i",
-  "synopsis":"Legendary 20th century English war poet Siegfried Sassoon embarks on a life-long quest for personal salvation through his experiences with family, war, his writing, and destructive relationships. True salvation can only come from within.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "legacy",
-    "wealth",
-    "activism",
+    "lgbtqi",
     "search for meaning",
+    "collective trauma",
+    "wealth",
     "personal memory",
-    "war",
-    "sex",
-    "medical treatment",
+    "stages of life",
+    "activism",
     "national identity",
     "artistic creation",
-    "lgbtqi",
-    "collective trauma",
+    "medical treatment",
+    "sex",
+    "legacy",
+    "war",
     "religion",
-    "stages of life",
     "motherhood"
   ],
-  "charId":[
-    "GB2022_020_02",
-    "GB2022_020_01",
-    "GB2022_020_03"
+  "director":[
+    {
+      "id":"Terence Davies",
+      "name":"Terence Davies",
+      "birthYear":1945,
+      "deathYear":2023,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Peter Capaldi",
-    "Simon Russell Beale",
-    "Geraldine James"
+  "character":[
+    {
+      "id":"GB2022_020_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Geraldine James",
+        "name":"Geraldine James",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_020_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Simon Russell Beale",
+        "name":"Simon Russell Beale",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_020_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HO",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Peter Capaldi",
+        "name":"Peter Capaldi",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HO",
-    "HE"
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "UC"
-  ],
-  "charProfession":[
-    "RE",
-    "UN"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Peter Capaldi",
-    "Simon Russell Beale",
-    "Geraldine James"
-  ],
-  "perBirthYear":[
-    1961,
-    1958,
-    1950
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2022-020-benediction"
+  "synopsis":{
+    "native":"Legendary 20th century English war poet Siegfried Sassoon embarks on a life-long quest for personal salvation through his experiences with family, war, his writing, and destructive relationships. True salvation can only come from within.",
+    "english":null
+  }
 }

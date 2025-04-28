@@ -1,72 +1,89 @@
 {
-  "filmId":"HU2019_022",
-  "title":"Spanyolul tudni kell",
-  "titleEn":null,
-  "director":"Zolt\u00e1n Galambos",
-  "releaseType":"THE",
-  "releaseDate":1561593600000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Zolt\u00e1n Galambos",
-  "directorBirthYear":1966,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"HU",
+  "id":"HU2019_022",
+  "type":"film",
+  "slug":"hu2019-022-spanyolul-tudni-kell",
+  "title":{
+    "native":"Spanyolul tudni kell",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1561593600000,
+    "year":2019
+  },
+  "production":{
+    "country":"HU",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=O0BXOe-6wso",
+    "posterUrl":"https:\/\/port.hu\/galeria\/spanyolul-tudni-kell\/movie-210870?openwith=1147586"
+  },
   "genre":[
     "ROM",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=O0BXOe-6wso",
-  "posterUrl":"https:\/\/port.hu\/galeria\/spanyolul-tudni-kell\/movie-210870?openwith=1147586",
-  "synopsis":"Egy bukott k\u00f6z\u00e9p-amerikai mini \u00e1llam dikt\u00e1tora csek\u00e9ly k\u00eds\u00e9ret\u00e9vel meg\u00e9rkezik bujdos\u00e1s\u00e1nak sz\u00ednhely\u00e9re, egy bakonyterebesi panzi\u00f3ba. Az \u00f6zvegy panzi\u00f3sn\u00e9 spanyoltud\u00e1s\u00e1val (is) leveszi a f\u00e9rfit a l\u00e1b\u00e1r\u00f3l, a k\u00fclf\u00f6ldi f\u00e9rjre v\u00e1gy\u00f3 fiatal l\u00e1ny pedig belebotlik a dikt\u00e1tor fi\u00e1ba. A diadalmas katonai visszat\u00e9r\u00e9s szervez\u00e9se az idilli kertben kellemes vend\u00e9gesked\u00e9ss\u00e9 \u00e9s szerelmi kalandok helysz\u00edn\u00e9v\u00e9 szel\u00edd\u00fcl. Tabi L\u00e1szl\u00f3 \u00f6r\u00f6kbecs\u0171 zen\u00e9s sz\u00edndarabja egy teljesen abszurd alaphelyzetet f\u0171szerez a hetvenes \u00e9vek hangulat\u00e1val. A sz\u00edndarabot azonos szereposzt\u00e1ssal a legut\u00f3bbi \u00e9vekig nagy sikerrel j\u00e1tszotta a K\u00f6r\u00fati Sz\u00ednh\u00e1z t\u00e1rsulata. Ahogy a sz\u00ednpadon, a filmes \u00e1tiratban is a tavaly elhunyt Kossuth-d\u00edjas sz\u00ednm\u0171v\u00e9sz, Tahi-T\u00f3th L\u00e1szl\u00f3 j\u00e1t\u00e9k\u00e1t \u00e9lvezhetj\u00fck a dikt\u00e1tor miniszter\u00e9nek szerep\u00e9ben. A tov\u00e1bbi f\u0151szerepekben V\u00e1ndor \u00c9va J\u00e1szai Mari-d\u00edjas sz\u00edn\u00e9szn\u0151 \u00e9s Pusztaszeri Korn\u00e9l kom\u00e9di\u00e1zik.",
-  "synopsisEn":null,
-  "country":"HU",
-  "productionShare":"MAJ",
   "tags":[
     "professional politics",
     "romance",
     "rural",
     "widowhood"
   ],
-  "charId":[
-    "HU2019_022_01",
-    "HU2019_022_02"
+  "director":[
+    {
+      "id":"Zolt\u00e1n Galambos",
+      "name":"Zolt\u00e1n Galambos",
+      "birthYear":1966,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"HU"
+    }
   ],
-  "perId":[
-    "\u00c9va V\u00e1ndor",
-    "Korn\u00e9l Pusztaszeri"
+  "character":[
+    {
+      "id":"HU2019_022_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"CEU",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"\u00c9va V\u00e1ndor",
+        "name":"\u00c9va V\u00e1ndor",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"HU"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"HU2019_022_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"CEU",
+      "class":"UC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Korn\u00e9l Pusztaszeri",
+        "name":"Korn\u00e9l Pusztaszeri",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"HU"
+      },
+      "role":"LEA"
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"CEU",
-  "charClass":[
-    "UC",
-    "MC"
-  ],
-  "charProfession":[
-    "EM",
-    "UN"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "\u00c9va V\u00e1ndor",
-    "Korn\u00e9l Pusztaszeri"
-  ],
-  "perBirthYear":[
-    1960,
-    1953
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"HU",
-  "perRole":null,
-  "slug":"hu2019-022-spanyolul-tudni-kell"
+  "synopsis":{
+    "native":"Egy bukott k\u00f6z\u00e9p-amerikai mini \u00e1llam dikt\u00e1tora csek\u00e9ly k\u00eds\u00e9ret\u00e9vel meg\u00e9rkezik bujdos\u00e1s\u00e1nak sz\u00ednhely\u00e9re, egy bakonyterebesi panzi\u00f3ba. Az \u00f6zvegy panzi\u00f3sn\u00e9 spanyoltud\u00e1s\u00e1val (is) leveszi a f\u00e9rfit a l\u00e1b\u00e1r\u00f3l, a k\u00fclf\u00f6ldi f\u00e9rjre v\u00e1gy\u00f3 fiatal l\u00e1ny pedig belebotlik a dikt\u00e1tor fi\u00e1ba. A diadalmas katonai visszat\u00e9r\u00e9s szervez\u00e9se az idilli kertben kellemes vend\u00e9gesked\u00e9ss\u00e9 \u00e9s szerelmi kalandok helysz\u00edn\u00e9v\u00e9 szel\u00edd\u00fcl. Tabi L\u00e1szl\u00f3 \u00f6r\u00f6kbecs\u0171 zen\u00e9s sz\u00edndarabja egy teljesen abszurd alaphelyzetet f\u0171szerez a hetvenes \u00e9vek hangulat\u00e1val. A sz\u00edndarabot azonos szereposzt\u00e1ssal a legut\u00f3bbi \u00e9vekig nagy sikerrel j\u00e1tszotta a K\u00f6r\u00fati Sz\u00ednh\u00e1z t\u00e1rsulata. Ahogy a sz\u00ednpadon, a filmes \u00e1tiratban is a tavaly elhunyt Kossuth-d\u00edjas sz\u00ednm\u0171v\u00e9sz, Tahi-T\u00f3th L\u00e1szl\u00f3 j\u00e1t\u00e9k\u00e1t \u00e9lvezhetj\u00fck a dikt\u00e1tor miniszter\u00e9nek szerep\u00e9ben. A tov\u00e1bbi f\u0151szerepekben V\u00e1ndor \u00c9va J\u00e1szai Mari-d\u00edjas sz\u00edn\u00e9szn\u0151 \u00e9s Pusztaszeri Korn\u00e9l kom\u00e9di\u00e1zik.",
+    "english":null
+  }
 }

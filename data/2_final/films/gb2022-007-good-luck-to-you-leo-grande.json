@@ -1,61 +1,79 @@
 {
-  "filmId":"GB2022_007",
-  "title":"Good Luck to You, Leo Grande",
-  "titleEn":null,
-  "director":"Sophie Hyde",
-  "releaseType":"THE",
-  "releaseDate":1655424000000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Sophie Hyde",
-  "directorBirthYear":1977,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"AU",
+  "id":"GB2022_007",
+  "type":"film",
+  "slug":"gb2022-007-good-luck-to-you-leo-grande",
+  "title":{
+    "native":"Good Luck to You, Leo Grande",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1655424000000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt13352968\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_good%2520luck%2520to%2520you",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt13352968\/mediaviewer\/rm3647935233\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt13352968\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_good%2520luck%2520to%2520you",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt13352968\/mediaviewer\/rm3647935233\/?ref_=tt_ov_i",
-  "synopsis":"Nancy Stokes, a retired school teacher, is yearning for some adventure, and some sex. And she has a plan, which involves hiring a young sex worker named Leo Grande.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":"MAJ",
   "tags":[
+    "intergenerational conflict",
+    "widowhood",
     "personal memory",
-    "sex",
-    "desire",
     "sex for hire",
-    "may-december",
+    "education",
+    "sex",
     "menopause",
     "bucket list",
+    "may-december",
+    "desire",
     "retirement",
-    "intergenerational conflict",
-    "education",
-    "new start",
     "women empowerment",
-    "motherhood",
-    "widowhood"
+    "new start",
+    "motherhood"
   ],
-  "charId":"GB2022_007_01",
-  "perId":"Emma Thompson",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"RE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Emma Thompson",
-  "perBirthYear":1959,
-  "perDeathYear":0,
-  "perGender":"F",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2022-007-good-luck-to-you-leo-grande"
+  "director":[
+    {
+      "id":"Sophie Hyde",
+      "name":"Sophie Hyde",
+      "birthYear":1977,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"AU"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2022_007_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Emma Thompson",
+        "name":"Emma Thompson",
+        "birthYear":1959.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Nancy Stokes, a retired school teacher, is yearning for some adventure, and some sex. And she has a plan, which involves hiring a young sex worker named Leo Grande.",
+    "english":null
+  }
 }

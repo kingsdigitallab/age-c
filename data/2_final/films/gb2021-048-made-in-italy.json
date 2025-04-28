@@ -1,105 +1,157 @@
 {
-  "filmId":"GB2021_048",
-  "title":"Made in Italy",
-  "titleEn":null,
-  "director":"James D'Arcy",
-  "releaseType":"THE",
-  "releaseDate":1623369600000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":"James D'Arcy",
-  "directorBirthYear":1975,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2021_048",
+  "type":"film",
+  "slug":"gb2021-048-made-in-italy",
+  "title":{
+    "native":"Made in Italy",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1623369600000,
+    "year":2021
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt9207700\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Made%2520in%2520Italy",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9207700\/mediaviewer\/rm3330254849\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
-    "COM",
-    "ROM"
-  ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt9207700\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Made%2520in%2520Italy",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9207700\/mediaviewer\/rm3330254849\/?ref_=tt_ov_i",
-  "synopsis":"A bohemian artist travels from London to Italy with his estranged son to sell the house they inherited from their late wife\/mother.",
-  "synopsisEn":null,
-  "country":[
-    "IT",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "ROM",
+    "COM"
   ],
   "tags":[
+    "romance",
     "search for meaning",
+    "intergenerational conflict",
+    "widowhood",
     "personal memory",
     "rural",
     "independent home",
-    "fatherhood",
-    "romance",
-    "grief",
     "inheritance",
-    "holiday",
-    "intergenerational conflict",
-    "widowhood"
+    "fatherhood",
+    "grief",
+    "holiday"
   ],
-  "charId":[
-    "GB2021_048_03",
-    "GB2021_048_01",
-    "GB2021_048_02"
+  "director":[
+    {
+      "id":"James D'Arcy",
+      "name":"James D'Arcy",
+      "birthYear":1975,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Liam Neeson",
-    "Souad Faress",
-    "Lindsay Duncan"
+  "character":[
+    {
+      "id":"GB2021_048_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Liam Neeson",
+        "name":"Liam Neeson",
+        "birthYear":1952.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"UK"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_048_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"AWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Souad Faress",
+        "name":"Souad Faress",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IE"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_048_03",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Lindsay Duncan",
+        "name":"Lindsay Duncan",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_048_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"AWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Souad Faress",
+        "name":"Souad Faress",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GH"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_048_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"AWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Souad Faress",
+        "name":"Souad Faress",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"SY"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":[
-    "WWE",
-    "AWE"
-  ],
-  "charClass":[
-    "UM",
-    null
-  ],
-  "charProfession":[
-    "SE",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    null
-  ],
-  "assistedMobility":"N",
-  "perName":[
-    "Souad Faress",
-    "Lindsay Duncan",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1948,
-    1950
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    null
-  ],
-  "perNationality":[
-    "SY",
-    "IE",
-    null,
-    "GH",
-    "GB"
-  ],
-  "perRole":null,
-  "slug":"gb2021-048-made-in-italy"
+  "synopsis":{
+    "native":"A bohemian artist travels from London to Italy with his estranged son to sell the house they inherited from their late wife\/mother.",
+    "english":null
+  }
 }

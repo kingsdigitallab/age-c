@@ -1,71 +1,91 @@
 {
-  "filmId":"GB2021_046",
-  "title":"Rare Beasts",
-  "titleEn":null,
-  "director":"Billie Piper",
-  "releaseType":"THE",
-  "releaseDate":1621555200000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2021_046",
+  "type":"film",
+  "slug":"gb2021-046-rare-beasts",
+  "title":{
+    "native":"Rare Beasts",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1621555200000,
+    "year":2021
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=1mopsKvtXf0",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt8419594\/mediaviewer\/rm4029857793\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "COM",
-    "ROM"
+    "ROM",
+    "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=1mopsKvtXf0",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt8419594\/mediaviewer\/rm4029857793\/?ref_=tt_ov_i",
-  "synopsis":"An anti rom-com about Mandy, a career-driven single mother, who falls in love with the charming, traditionalist Pete.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "substance abuse",
-    "independent home",
-    "fatherhood",
     "in-laws",
+    "urban",
     "marriage",
-    "urban"
+    "independent home",
+    "substance abuse",
+    "fatherhood"
   ],
-  "charId":[
-    "GB2021_046_01",
-    "GB2021_046_02"
+  "director":[
+    {
+      "id":"Billie Piper",
+      "name":"Billie Piper",
+      "birthYear":1982,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Kerry Fox",
-    "David Thewlis"
+  "character":[
+    {
+      "id":"GB2021_046_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"David Thewlis",
+        "name":"David Thewlis",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_046_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Kerry Fox",
+        "name":"Kerry Fox",
+        "birthYear":1966.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"NZ"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Kerry Fox",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1966
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    null
-  ],
-  "perNationality":[
-    "NZ",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2021-046-rare-beasts"
+  "synopsis":{
+    "native":"An anti rom-com about Mandy, a career-driven single mother, who falls in love with the charming, traditionalist Pete.",
+    "english":null
+  }
 }

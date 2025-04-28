@@ -1,47 +1,68 @@
 {
-  "filmId":"GB2019_064",
-  "title":"Destination: Dewsbury",
-  "titleEn":null,
-  "director":"Jack Spring",
-  "releaseType":"THE",
-  "releaseDate":1551398400000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Jack Spring",
-  "directorBirthYear":1996,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2019_064",
+  "type":"film",
+  "slug":"gb2019-064-destination-dewsbury",
+  "title":{
+    "native":"Destination: Dewsbury",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1551398400000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt5275128\/?ref_=ttrel_ov",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5275128\/mediaviewer\/rm1854237440\/?ref_=tt_ov_i"
+  },
   "genre":[
     "COM",
     "ROA"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt5275128\/?ref_=ttrel_ov",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5275128\/mediaviewer\/rm1854237440\/?ref_=tt_ov_i",
-  "synopsis":"A laugh out loud comedy follows four middle-aged men on a botched road trip across the UK to see their dying schoolfriend for one last time. Outrageously funny, rude, offensive schoolboy British comedy at its finest.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
+    "education",
     "fatherhood",
-    "homosociality",
-    "education"
+    "homosociality"
   ],
-  "charId":"GB2019_064_01",
-  "perId":"Maurice Byrne",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Maurice Byrne",
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"IE",
-  "perRole":null,
-  "slug":"gb2019-064-destination-dewsbury"
+  "director":[
+    {
+      "id":"Jack Spring",
+      "name":"Jack Spring",
+      "birthYear":1996,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2019_064_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Maurice Byrne",
+        "name":"Maurice Byrne",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IE"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"A laugh out loud comedy follows four middle-aged men on a botched road trip across the UK to see their dying schoolfriend for one last time. Outrageously funny, rude, offensive schoolboy British comedy at its finest.",
+    "english":null
+  }
 }

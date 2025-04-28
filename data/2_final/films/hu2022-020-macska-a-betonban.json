@@ -1,24 +1,28 @@
 {
-  "filmId":"HU2022_020",
-  "title":"Macska a betonban",
-  "titleEn":null,
-  "director":"Ferenc Dalnoky",
-  "releaseType":"THE",
-  "releaseDate":1653609600000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Ferenc Dalnoky",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"HU",
-  "genre":"MOC",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Tkk06Ejx2uk",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt21209676\/mediaviewer\/rm2569082113\/?ref_=tt_ov_i",
-  "synopsis":"A k\u00e9pzeletbeli Nagybegyesen (ahol az esem\u00e9nyek zajlanak) 1972-ben g\u00e1zrobban\u00e1s t\u00f6rt\u00e9nt. A t\u00f6bb napig tombol\u00f3 t\u00fczet v\u00e9g\u00fcl siker\u00fclt elfojtani, de az\u00f3ta a faluban megszaporodtak a nehezen magyar\u00e1zhat\u00f3 dolgok. A faluban \u00e9l az \u00f6tven\u00f6t \u00e9ves P\u00e9ter. A helyi v\u00edzm\u0171n\u00e9l dolgozik v\u00edz\u00f3ra leolvas\u00f3k\u00e9nt, gondozza a kertet, \u00e9s n\u00e9ha elj\u00e1r a helyi kocsm\u00e1ba. P\u00e9ternek akad egy furcsa hobbija: szabadidej\u00e9ben macska-etol\u00f3gi\u00e1val foglalkozik. Megfigyelte, hogy a g\u00e1zkit\u00f6r\u00e9s \u00f3ta sz\u00e1mtalan macska a norm\u00e1list\u00f3l elt\u00e9r\u0151en kezdett viselkedni, \u00e9s ezek gazd\u00e1ival is mindig t\u00f6rt\u00e9nik valami izgalmas. A falu macsk\u00e1inak megismer\u00e9s\u00e9n kereszt\u00fcl a n\u00e9z\u0151 vid\u00e1m t\u00f6rt\u00e9netek sorozat\u00e1ba fog belecs\u00f6ppenni.",
-  "synopsisEn":null,
-  "country":"HU",
-  "productionShare":"MAJ",
+  "id":"HU2022_020",
+  "type":"film",
+  "slug":"hu2022-020-macska-a-betonban",
+  "title":{
+    "native":"Macska a betonban",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1653609600000,
+    "year":2022
+  },
+  "production":{
+    "country":"HU",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Tkk06Ejx2uk",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt21209676\/mediaviewer\/rm2569082113\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "MOC"
+  ],
   "tags":[
     "rural",
     "substance abuse",
@@ -26,21 +30,40 @@
     "spirituality",
     "low rank employment"
   ],
-  "charId":"HU2022_020_01",
-  "perId":"P\u00e9ter Erdei",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"CEU",
-  "charClass":"LM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"P\u00e9ter Erdei",
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"HU",
-  "perRole":null,
-  "slug":"hu2022-020-macska-a-betonban"
+  "director":[
+    {
+      "id":"Ferenc Dalnoky",
+      "name":"Ferenc Dalnoky",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"HU"
+    }
+  ],
+  "character":[
+    {
+      "id":"HU2022_020_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"CEU",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"P\u00e9ter Erdei",
+        "name":"P\u00e9ter Erdei",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"HU"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"A k\u00e9pzeletbeli Nagybegyesen (ahol az esem\u00e9nyek zajlanak) 1972-ben g\u00e1zrobban\u00e1s t\u00f6rt\u00e9nt. A t\u00f6bb napig tombol\u00f3 t\u00fczet v\u00e9g\u00fcl siker\u00fclt elfojtani, de az\u00f3ta a faluban megszaporodtak a nehezen magyar\u00e1zhat\u00f3 dolgok. A faluban \u00e9l az \u00f6tven\u00f6t \u00e9ves P\u00e9ter. A helyi v\u00edzm\u0171n\u00e9l dolgozik v\u00edz\u00f3ra leolvas\u00f3k\u00e9nt, gondozza a kertet, \u00e9s n\u00e9ha elj\u00e1r a helyi kocsm\u00e1ba. P\u00e9ternek akad egy furcsa hobbija: szabadidej\u00e9ben macska-etol\u00f3gi\u00e1val foglalkozik. Megfigyelte, hogy a g\u00e1zkit\u00f6r\u00e9s \u00f3ta sz\u00e1mtalan macska a norm\u00e1list\u00f3l elt\u00e9r\u0151en kezdett viselkedni, \u00e9s ezek gazd\u00e1ival is mindig t\u00f6rt\u00e9nik valami izgalmas. A falu macsk\u00e1inak megismer\u00e9s\u00e9n kereszt\u00fcl a n\u00e9z\u0151 vid\u00e1m t\u00f6rt\u00e9netek sorozat\u00e1ba fog belecs\u00f6ppenni.",
+    "english":null
+  }
 }

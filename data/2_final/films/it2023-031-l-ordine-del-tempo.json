@@ -1,48 +1,69 @@
 {
-  "filmId":"IT2023_031",
-  "title":"L'ordine del tempo",
-  "titleEn":"The Order of Time",
-  "director":"Liliana Cavani",
-  "releaseType":"THE",
-  "releaseDate":1693440000000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2023_031",
+  "type":"film",
+  "slug":"it2023-031-l-ordine-del-tempo",
+  "title":{
+    "native":"L'ordine del tempo",
+    "english":"The Order of Time"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1693440000000,
+    "year":2023
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=VMy0_s1UfXQ",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt15205344\/mediaviewer\/rm3790494465\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "MPF"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=VMy0_s1UfXQ",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt15205344\/mediaviewer\/rm3790494465\/?ref_=tt_ov_i",
-  "synopsis":"E se scoprissimo che il mondo potrebbe finire nel giro di poche ore? \u00c8 quello che accade una sera a un gruppo di amici di vecchia data che, come ogni anno, si ritrova in una villa sul mare per festeggiare un compleanno. Da quel momento, il tempo che li separa dalla possibile fine del mondo sembrer\u00e0 scorrere diversamente, veloce ed eterno, durante una notte d'estate che cambier\u00e0 le loro vite.",
-  "synopsisEn":"The book from which the film is based is an analysis of the mystery that everyone experiences in every moment: time.",
-  "country":"IT",
-  "productionShare":"MAJ",
   "tags":[
-    "personal memory",
     "marriage",
+    "festivities",
     "infidelity",
-    "festivities"
+    "personal memory"
   ],
-  "charId":"IT2023_031_01",
-  "perId":"Alessandro Gassmann",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2023-031-l-ordine-del-tempo"
+  "director":[
+    {
+      "id":"Liliana Cavani",
+      "name":"Liliana Cavani",
+      "birthYear":1933,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2023_031_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Alessandro Gassmann",
+        "name":"Alessandro Gassmann",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"E se scoprissimo che il mondo potrebbe finire nel giro di poche ore? \u00c8 quello che accade una sera a un gruppo di amici di vecchia data che, come ogni anno, si ritrova in una villa sul mare per festeggiare un compleanno. Da quel momento, il tempo che li separa dalla possibile fine del mondo sembrer\u00e0 scorrere diversamente, veloce ed eterno, durante una notte d'estate che cambier\u00e0 le loro vite.",
+    "english":"The book from which the film is based is an analysis of the mystery that everyone experiences in every moment: time."
+  }
 }

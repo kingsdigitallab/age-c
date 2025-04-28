@@ -1,82 +1,90 @@
 {
-  "filmId":"GB2022_071",
-  "title":"Lady Chatterley's Lover",
-  "titleEn":null,
-  "director":"Laure de Clermont-Tonnerre",
-  "releaseType":"THE",
-  "releaseDate":1669334400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Laure de Clermont-Tonnerre",
-  "directorBirthYear":1983,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"FR",
+  "id":"GB2022_071",
+  "type":"film",
+  "slug":"gb2022-071-lady-chatterley-s-lover",
+  "title":{
+    "native":"Lady Chatterley's Lover",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1669334400000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt14369780\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Lady%2520Chatterley%27s%2520Lover",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14369780\/mediaviewer\/rm478872577\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
     "DRA",
+    "HIS",
     "ROM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt14369780\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Lady%2520Chatterley%27s%2520Lover",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14369780\/mediaviewer\/rm478872577\/?ref_=tt_ov_i",
-  "synopsis":"An unhappily married aristocrat begins a torrid affair with the gamekeeper on her husband's country estate.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
+    "rural",
     "fatherhood",
     "wealth",
-    "rural",
     "class conflict"
   ],
-  "charId":[
-    "GB2022_071_02",
-    "GB2022_071_01"
+  "director":[
+    {
+      "id":"Laure de Clermont-Tonnerre",
+      "name":"Laure de Clermont-Tonnerre",
+      "birthYear":1983,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"FR"
+    }
   ],
-  "perId":[
-    "Alistair Findlay",
-    "Joely Richardson"
+  "character":[
+    {
+      "id":"GB2022_071_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Alistair Findlay",
+        "name":"Alistair Findlay",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_071_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Joely Richardson",
+        "name":"Joely Richardson",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "UC",
-    null
-  ],
-  "charProfession":[
-    "SE",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Alistair Findlay",
-    "Joely Richardson"
-  ],
-  "perBirthYear":[
-    0,
-    1965
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2022-071-lady-chatterley-s-lover"
+  "synopsis":{
+    "native":"An unhappily married aristocrat begins a torrid affair with the gamekeeper on her husband's country estate.",
+    "english":null
+  }
 }

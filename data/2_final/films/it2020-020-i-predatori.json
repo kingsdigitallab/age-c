@@ -1,47 +1,68 @@
 {
-  "filmId":"IT2020_020",
-  "title":"I predatori",
-  "titleEn":"The Predators",
-  "director":"Pietro Castellitto",
-  "releaseType":"THE",
-  "releaseDate":1603324800000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2020_020",
+  "type":"film",
+  "slug":"it2020-020-i-predatori",
+  "title":{
+    "native":"I predatori",
+    "english":"The Predators"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1603324800000,
+    "year":2020
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=KkBSsymntnw",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt10948820\/mediaviewer\/rm1038395137\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=KkBSsymntnw",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt10948820\/mediaviewer\/rm1038395137\/?ref_=tt_ov_i",
-  "synopsis":"\u00c8 mattina presto, il mare di Ostia \u00e8 calmo. Un uomo bussa a casa di una signora: le vender\u00e0 un orologio. \u00c8 sempre mattina presto quando, qualche giorno dopo, un giovane assistente di filosofia verr\u00e0 lasciato fuori dal gruppo scelto per la riesumazione del corpo di Nietzsche. Due torti subiti. Due famiglie apparentemente incompatibili: i Pavone e i Vismara. Borghese e intellettuale la prima, proletaria e fascista la seconda. Nuclei opposti che condividono la stessa giungla, Roma. Un banale incidente far\u00e0 collidere quei due poli. E la follia di un ragazzo di 25 anni scoprir\u00e0 le carte per rivelare che tutti hanno un segreto e nessuno \u00e8 ci\u00f2 che sembra. E che siamo tutti predatori.",
-  "synopsisEn":"Two families, one bourgeois and intellectual and the other proletarian and fascist, are brought together by a trivial accident that will bring these two polar-opposites together and set them on a collision course.",
-  "country":"IT",
-  "productionShare":"MAJ",
   "tags":[
+    "intergenerational conflict",
     "extended family",
-    "class conflict",
-    "intergenerational conflict"
+    "class conflict"
   ],
-  "charId":"IT2020_020_01",
-  "perId":"Massimo Popolizio",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2020-020-i-predatori"
+  "director":[
+    {
+      "id":"Pietro Castellitto",
+      "name":"Pietro Castellitto",
+      "birthYear":1991,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2020_020_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Massimo Popolizio",
+        "name":"Massimo Popolizio",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"\u00c8 mattina presto, il mare di Ostia \u00e8 calmo. Un uomo bussa a casa di una signora: le vender\u00e0 un orologio. \u00c8 sempre mattina presto quando, qualche giorno dopo, un giovane assistente di filosofia verr\u00e0 lasciato fuori dal gruppo scelto per la riesumazione del corpo di Nietzsche. Due torti subiti. Due famiglie apparentemente incompatibili: i Pavone e i Vismara. Borghese e intellettuale la prima, proletaria e fascista la seconda. Nuclei opposti che condividono la stessa giungla, Roma. Un banale incidente far\u00e0 collidere quei due poli. E la follia di un ragazzo di 25 anni scoprir\u00e0 le carte per rivelare che tutti hanno un segreto e nessuno \u00e8 ci\u00f2 che sembra. E che siamo tutti predatori.",
+    "english":"Two families, one bourgeois and intellectual and the other proletarian and fascist, are brought together by a trivial accident that will bring these two polar-opposites together and set them on a collision course."
+  }
 }

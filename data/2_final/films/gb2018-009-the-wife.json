@@ -1,106 +1,123 @@
 {
-  "filmId":"GB2018_009",
-  "title":"The Wife",
-  "titleEn":null,
-  "director":"Bj\u00f6rn Runge",
-  "releaseType":"THE",
-  "releaseDate":1538092800000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Bj\u00f6rn Runge",
-  "directorBirthYear":1961,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"SE",
+  "id":"GB2018_009",
+  "type":"film",
+  "slug":"gb2018-009-the-wife",
+  "title":{
+    "native":"The Wife",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1538092800000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=d81IM0loH7o",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt3750872\/mediaviewer\/rm2858369024\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=d81IM0loH7o",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt3750872\/mediaviewer\/rm2858369024\/?ref_=tt_ov_i",
-  "synopsis":"A wife questions her life choices as she travels to Stockholm to see her husband receive the Nobel Prize for Literature.",
-  "synopsisEn":null,
-  "country":[
-    "SE",
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
+    "infidelity",
     "wealth",
     "festivities",
-    "power",
     "personal memory",
-    "independent home",
-    "fatherhood",
-    "may-december",
-    "infidelity",
-    "artistic creation",
-    "homosociality",
-    "high rank employment",
     "marriage",
-    "women empowerment",
-    "education",
-    "revenge",
+    "artistic creation",
+    "independent home",
     "celebrity",
+    "education",
+    "homosociality",
+    "fatherhood",
+    "high rank employment",
+    "may-december",
+    "power",
+    "women empowerment",
     "gender discrimination",
+    "revenge",
     "motherhood"
   ],
-  "charId":[
-    "GB2018_009_01",
-    "GB2018_009_02",
-    "GB2018_009_03"
+  "director":[
+    {
+      "id":"Bj\u00f6rn Runge",
+      "name":"Bj\u00f6rn Runge",
+      "birthYear":1961,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"SE"
+    }
   ],
-  "perId":[
-    "Jonathan Pryce",
-    "Glenn Close",
-    "Elizabeth McGovern"
+  "character":[
+    {
+      "id":"GB2018_009_03",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WNA",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Elizabeth McGovern",
+        "name":"Elizabeth McGovern",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_009_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"UM",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Glenn Close",
+        "name":"Glenn Close",
+        "birthYear":1947.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_009_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jonathan Pryce",
+        "name":"Jonathan Pryce",
+        "birthYear":1947.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":[
-    "WNA",
-    "WWE"
-  ],
-  "charClass":"UM",
-  "charProfession":[
-    "SE",
-    "EM",
-    "UN"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Jonathan Pryce",
-    "Glenn Close",
-    "Elizabeth McGovern"
-  ],
-  "perBirthYear":[
-    1961,
-    1947
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":[
-    "GB",
-    "US"
-  ],
-  "perRole":null,
-  "slug":"gb2018-009-the-wife"
+  "synopsis":{
+    "native":"A wife questions her life choices as she travels to Stockholm to see her husband receive the Nobel Prize for Literature.",
+    "english":null
+  }
 }

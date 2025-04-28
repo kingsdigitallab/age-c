@@ -1,101 +1,158 @@
 {
-  "filmId":"GB2018_014",
-  "title":"Happy New Year, Colin Burstead",
-  "titleEn":null,
-  "director":"Ben Wheatley",
-  "releaseType":"FES",
-  "releaseDate":1318896000000,
-  "type":"F",
-  "releaseYear":2011,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2018_014",
+  "type":"film",
+  "slug":"gb2018-014-happy-new-year-colin-burstead",
+  "title":{
+    "native":"Happy New Year, Colin Burstead",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"FES",
+    "date":1318896000000,
+    "year":2011
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=NddnV45hnzY",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt8122018\/mediaviewer\/rm490502400\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=NddnV45hnzY",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt8122018\/mediaviewer\/rm490502400\/?ref_=tt_ov_i",
-  "synopsis":"Colin hires a lavish country manor for his extended family to celebrate New Year. Unfortunately for Colin his position of power in the family is under serious threat from the arrival of his estranged brother David.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "wealth",
-    "power",
-    "independent home",
-    "fatherhood",
-    "extended family",
-    "parenthood",
     "lgbtqi",
-    "homosociality",
-    "marriage",
     "intergenerational conflict",
-    "class conflict",
+    "wealth",
     "festivities",
+    "marriage",
+    "independent home",
+    "homosociality",
+    "parenthood",
+    "class conflict",
+    "fatherhood",
+    "power",
+    "extended family",
     "motherhood"
   ],
-  "charId":[
-    "GB2018_014_03",
-    "GB2018_014_05",
-    "GB2018_014_02",
-    "GB2018_014_01",
-    "GB2018_014_04"
+  "director":[
+    {
+      "id":"Ben Wheatley",
+      "name":"Ben Wheatley",
+      "birthYear":1972,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Vincent Ebrahim",
-    "Bill Patterson",
-    "Charles Dance",
-    "Sudha Bhuchar",
-    "Doon Mackichan"
+  "character":[
+    {
+      "id":"GB2018_014_03",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"AWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Sudha Bhuchar",
+        "name":"Sudha Bhuchar",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_014_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Bill Patterson",
+        "name":"Bill Patterson",
+        "birthYear":1945.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_014_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"BWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Vincent Ebrahim",
+        "name":"Vincent Ebrahim",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ZA"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_014_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Doon Mackichan",
+        "name":"Doon Mackichan",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_014_05",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Charles Dance",
+        "name":"Charles Dance",
+        "birthYear":1946.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":[
-    "BWE",
-    "WWE",
-    "AWE"
-  ],
-  "charClass":[
-    "UM",
-    null
-  ],
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Doon Mackichan",
-    "Vincent Ebrahim",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1962,
-    1950
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M",
-    null
-  ],
-  "perNationality":[
-    "ZA",
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2018-014-happy-new-year-colin-burstead"
+  "synopsis":{
+    "native":"Colin hires a lavish country manor for his extended family to celebrate New Year. Unfortunately for Colin his position of power in the family is under serious threat from the arrival of his estranged brother David.",
+    "english":null
+  }
 }

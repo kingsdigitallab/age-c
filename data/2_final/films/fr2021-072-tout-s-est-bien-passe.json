@@ -1,74 +1,93 @@
 {
-  "filmId":"FR2021_072",
-  "title":"Tout s'est bien pass\u00e9",
-  "titleEn":"Everything Went Fine",
-  "director":"Fran\u00e7ois Ozon",
-  "releaseType":"THE",
-  "releaseDate":1632268800000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=zgBkLyB2MB4",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/24\/160\/237592\/format_page\/everything-went-fine.jpg",
-  "synopsis":"Emmanu\u00e8le, romanci\u00e8re \u00e9panouie dans sa vie priv\u00e9e et professionnelle, se pr\u00e9cipite \u00e0 l\u2019h\u00f4pital, son p\u00e8re Andr\u00e9 vient de faire un AVC. Fantasque, aimant passionn\u00e9ment la vie mais diminu\u00e9, il demande \u00e0 sa fille de l\u2019aider \u00e0 en finir. Avec l\u2019aide de sa s\u0153ur Pascale, elle va devoir choisir : accepter la volont\u00e9 de son p\u00e8re ou le convaincre de changer d\u2019avis.",
-  "synopsisEn":"When Andr\u00e9, 85, has a stroke, Emmanu\u00e8le hurries to her father\u2019s bedside. Sick and half-paralyzed in his hospital bed, he asks Emmanu\u00e8le to help him end his life. But how can you honor such a request when it\u2019s your own father?",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2021_072",
+  "type":"film",
+  "slug":"fr2021-072-tout-s-est-bien-passe",
+  "title":{
+    "native":"Tout s'est bien pass\u00e9",
+    "english":"Everything Went Fine"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1632268800000,
+    "year":2021
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=zgBkLyB2MB4",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/24\/160\/237592\/format_page\/everything-went-fine.jpg"
+  },
+  "genre":[
+    "DRA"
+  ],
   "tags":[
+    "lgbtqi",
+    "hospital",
+    "suicide",
+    "medical treatment",
+    "parenthood",
     "cultural memory",
     "may-december",
-    "medical treatment",
-    "physical illness",
-    "suicide",
-    "lgbtqi",
-    "parenthood",
     "agony",
-    "hospital"
+    "physical illness"
   ],
-  "charId":[
-    "FR2021_072_02",
-    "FR2021_072_01"
+  "director":[
+    {
+      "id":"Fran\u00e7ois Ozon",
+      "name":"Fran\u00e7ois Ozon",
+      "birthYear":1967,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
   ],
-  "perId":[
-    "Sophie Marceau",
-    "Andr\u00e9 Dussollier"
+  "character":[
+    {
+      "id":"FR2021_072_02",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Sophie Marceau",
+        "name":"Sophie Marceau",
+        "birthYear":1966.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    },
+    {
+      "id":"FR2021_072_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"BI",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Andr\u00e9 Dussollier",
+        "name":"Andr\u00e9 Dussollier",
+        "birthYear":1946.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "4"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "BI",
-    "HE"
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":[
-    "SE",
-    "RE"
-  ],
-  "charAbility":[
-    "AB",
-    "CI"
-  ],
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2021-072-tout-s-est-bien-passe"
+  "synopsis":{
+    "native":"Emmanu\u00e8le, romanci\u00e8re \u00e9panouie dans sa vie priv\u00e9e et professionnelle, se pr\u00e9cipite \u00e0 l\u2019h\u00f4pital, son p\u00e8re Andr\u00e9 vient de faire un AVC. Fantasque, aimant passionn\u00e9ment la vie mais diminu\u00e9, il demande \u00e0 sa fille de l\u2019aider \u00e0 en finir. Avec l\u2019aide de sa s\u0153ur Pascale, elle va devoir choisir : accepter la volont\u00e9 de son p\u00e8re ou le convaincre de changer d\u2019avis.",
+    "english":"When Andr\u00e9, 85, has a stroke, Emmanu\u00e8le hurries to her father\u2019s bedside. Sick and half-paralyzed in his hospital bed, he asks Emmanu\u00e8le to help him end his life. But how can you honor such a request when it\u2019s your own father?"
+  }
 }

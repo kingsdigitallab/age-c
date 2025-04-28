@@ -1,107 +1,125 @@
 {
-  "filmId":"GB2023_014",
-  "title":"The Eternal Daughter",
-  "titleEn":null,
-  "director":"Joanna Hogg",
-  "releaseType":"THE",
-  "releaseDate":1700784000000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Joanna Hogg",
-  "directorBirthYear":1960,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"GB",
+  "id":"GB2023_014",
+  "type":"film",
+  "slug":"gb2023-014-the-eternal-daughter",
+  "title":{
+    "native":"The Eternal Daughter",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1700784000000,
+    "year":2023
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt13874422\/?ref_=nv_sr_srsg_0_tt_2_nm_0_in_0_q_The%2520Eternal%2520Daughter",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt13874422\/mediaviewer\/rm493370113\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "HOR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt13874422\/?ref_=nv_sr_srsg_0_tt_2_nm_0_in_0_q_The%2520Eternal%2520Daughter",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt13874422\/mediaviewer\/rm493370113\/?ref_=tt_ov_i",
-  "synopsis":"Returning to a hotel now haunted by its mysterious past, an artist and her elderly mother confront long-buried secrets in their former family home.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB",
-    "IE"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "intergenerational friendship",
-    "self-employment",
+    "return home",
+    "rural",
+    "low rank employment",
     "cross-gender friendship",
-    "motherhood",
+    "physical illness",
+    "holiday",
     "interracial relationships",
     "wealth",
-    "search for meaning",
-    "rural",
-    "physical illness",
-    "artistic creation",
-    "return home",
-    "retirement",
-    "natural death",
-    "personal memory",
-    "holiday",
-    "caregiving",
     "widowhood",
+    "personal memory",
+    "artistic creation",
+    "self-employment",
     "non-human companionship",
+    "search for meaning",
+    "intergenerational friendship",
+    "retirement",
     "grief",
-    "low rank employment"
+    "motherhood",
+    "caregiving",
+    "natural death"
   ],
-  "charId":[
-    "GB2023_014_02",
-    "GB2023_014_01",
-    "GB2023_014_03"
+  "director":[
+    {
+      "id":"Joanna Hogg",
+      "name":"Joanna Hogg",
+      "birthYear":1960,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Tilda Swinton",
-    "Joseph Mydell"
+  "character":[
+    {
+      "id":"GB2023_014_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Tilda Swinton",
+        "name":"Tilda Swinton",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"UK"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_014_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"BWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Joseph Mydell",
+        "name":"Joseph Mydell",
+        "birthYear":1945.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_014_01",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Tilda Swinton",
+        "name":"Tilda Swinton",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"UK"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":[
-    "BWE",
-    "WWE"
-  ],
-  "charClass":[
-    "UM",
-    "UC",
-    "LM"
-  ],
-  "charProfession":[
-    "EM",
-    "SE",
-    "RE"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Joseph Mydell",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1945
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "M",
-    null
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2023-014-the-eternal-daughter"
+  "synopsis":{
+    "native":"Returning to a hotel now haunted by its mysterious past, an artist and her elderly mother confront long-buried secrets in their former family home.",
+    "english":null
+  }
 }

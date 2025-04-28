@@ -1,81 +1,130 @@
 {
-  "filmId":"GB2022_063",
-  "title":"Tomorrow Morning",
-  "titleEn":null,
-  "director":"Nick Winston",
-  "releaseType":"THE",
-  "releaseDate":1644364800000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Nick Winston",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2022_063",
+  "type":"film",
+  "slug":"gb2022-063-tomorrow-morning",
+  "title":{
+    "native":"Tomorrow Morning",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1644364800000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt14074150\/?ref_=nv_sr_srsg_1_tt_8_nm_0_in_0_q_Tomorrow%2520Morning",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14074150\/mediaviewer\/rm1643841793\/?ref_=tt_ov_i"
+  },
   "genre":[
     "MUS",
     "ROM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt14074150\/?ref_=nv_sr_srsg_1_tt_8_nm_0_in_0_q_Tomorrow%2520Morning",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14074150\/mediaviewer\/rm1643841793\/?ref_=tt_ov_i",
-  "synopsis":"The musical follows the relationships of what at first seems like two different couples separated by a span of time; one couple is getting married and the other is getting divorced. It turns out they are actually the same couple at two points in their relationship-a decade apart.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "grandmotherhood",
-    "marriage",
     "urban",
+    "marriage",
+    "grandmotherhood",
     "wedding",
     "motherhood"
   ],
-  "charId":[
-    "GB2022_063_03",
-    "GB2022_063_01",
-    "GB2022_063_02",
-    "GB2022_063_04"
+  "director":[
+    {
+      "id":"Nick Winston",
+      "name":"Nick Winston",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Henry Goodman",
-    "Joan Collins",
-    "Anita Dobson",
-    "Harriet Thorpe"
+  "character":[
+    {
+      "id":"GB2022_063_01",
+      "age":"4",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Joan Collins",
+        "name":"Joan Collins",
+        "birthYear":1933.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_063_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Anita Dobson",
+        "name":"Anita Dobson",
+        "birthYear":1949.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_063_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Henry Goodman",
+        "name":"Henry Goodman",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_063_04",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Harriet Thorpe",
+        "name":"Harriet Thorpe",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    null
-  ],
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Henry Goodman",
-    "Joan Collins",
-    "Anita Dobson",
-    "Harriet Thorpe"
-  ],
-  "perBirthYear":[
-    1950,
-    1933,
-    1949,
-    1957
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2022-063-tomorrow-morning"
+  "synopsis":{
+    "native":"The musical follows the relationships of what at first seems like two different couples separated by a span of time; one couple is getting married and the other is getting divorced. It turns out they are actually the same couple at two points in their relationship-a decade apart.",
+    "english":null
+  }
 }

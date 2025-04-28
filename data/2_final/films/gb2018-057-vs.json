@@ -1,49 +1,70 @@
 {
-  "filmId":"GB2018_057",
-  "title":"VS.",
-  "titleEn":null,
-  "director":"Ed Lilly",
-  "releaseType":"THE",
-  "releaseDate":1539907200000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Ed Lilly",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2018_057",
+  "type":"film",
+  "slug":"gb2018-057-vs",
+  "title":{
+    "native":"VS.",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1539907200000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt4177018\/?ref_=nm_flmg_knf_t_1",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt4177018\/mediaviewer\/rm3163126784\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "COA",
     "MUS"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt4177018\/?ref_=nm_flmg_knf_t_1",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt4177018\/mediaviewer\/rm3163126784\/?ref_=tt_ov_i",
-  "synopsis":"VS. is an urban rites of passage drama set in the hostile and exciting UK rap battle scene.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "caregiving",
-    "urban",
     "grandmotherhood",
-    "independent home"
+    "independent home",
+    "caregiving",
+    "urban"
   ],
-  "charId":"GB2018_057_01",
-  "perId":"Ruth Sheen",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Ruth Sheen",
-  "perBirthYear":1950,
-  "perDeathYear":0,
-  "perGender":"F",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2018-057-vs"
+  "director":[
+    {
+      "id":"Ed Lilly",
+      "name":"Ed Lilly",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2018_057_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ruth Sheen",
+        "name":"Ruth Sheen",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"VS. is an urban rites of passage drama set in the hostile and exciting UK rap battle scene.",
+    "english":null
+  }
 }

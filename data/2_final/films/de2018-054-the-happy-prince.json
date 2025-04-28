@@ -1,60 +1,73 @@
 {
-  "filmId":"DE2018_054",
-  "title":"The Happy Prince",
-  "titleEn":"The Happy Prince",
-  "director":"Rupert Everett",
-  "releaseType":"THE",
-  "releaseDate":1527120000000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Rupert Everett",
-  "directorBirthYear":1959,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"DE2018_054",
+  "type":"film",
+  "slug":"de2018-054-the-happy-prince",
+  "title":{
+    "native":"The Happy Prince",
+    "english":"The Happy Prince"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1527120000000,
+    "year":2018
+  },
+  "production":{
+    "country":"DE",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/video\/vi1130674969\/?playlistId=tt2404639&ref_=tt_ov_pr_ov_vi",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt2404639\/mediaviewer\/rm143358720\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "DRA",
-    "BIO"
-  ],
-  "trailerUrl":"https:\/\/www.imdb.com\/video\/vi1130674969\/?playlistId=tt2404639&ref_=tt_ov_pr_ov_vi",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt2404639\/mediaviewer\/rm143358720\/?ref_=tt_ov_i",
-  "synopsis":"1897: Der wegen seiner Homosexualit\u00e4t verurteilte Schriftsteller Oscar Wilde (Rupert Everett) wird aus dem Gef\u00e4ngnis entlassen. Weil das Stigma, ein Schwuler zu sein, immer noch an ihm haftet, fl\u00fcchtet er nach Paris ins Exil. Dort ertr\u00e4nkt der sensible K\u00fcnstler seine Sorgen in Alkohol. Er s\u00e4uft und feiert wie ein Bekloppter, bis er auf einmal mit leeren Taschen dasteht. Sein Liebhaber Lord Alfred Douglas (Colin Morgan), den jeder nur Bosie nennt, \u00fcberredet ihn, gemeinsam mit ihm f\u00fcr einen l\u00e4ngeren Zeitraum nach Neapel zu reisen. Wildes Freunde Reggie Turner (Colin Firth) und Robbie Ross (Edwin Thomas) warnen ihn vor dem jungen Bosie, der vorgibt, viel reicher zu sein als er ist. Als Oscar Wildes Ehefrau Constance (Emily Watson) die finanzielle Unterst\u00fctzung des Dichters beendet, droht der finanzielle Ruin...",
-  "synopsisEn":"The untold story of the last days in the tragic times of Oscar Wilde, a person who observes his own failure with ironic distance and regards the difficulties that beset his life with detachment and humor.",
-  "country":[
-    "IT",
-    "DE",
-    "BE",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "BIO",
+    "DRA"
   ],
   "tags":[
-    "cultural memory",
-    "friendship betrayal",
-    "may-december",
-    "state institutions",
-    "artistic creation",
     "lgbtqi",
+    "state institutions",
+    "friendship betrayal",
+    "precarity",
+    "artistic creation",
     "homosociality",
-    "precarity"
+    "may-december",
+    "cultural memory"
   ],
-  "charId":"DE2018_054_01",
-  "perId":"Rupert Everett",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HO",
-  "charOrigin":"WWE",
-  "charClass":"UC",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Rupert Everett",
-  "perBirthYear":1959,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"de2018-054-the-happy-prince"
+  "director":[
+    {
+      "id":"Rupert Everett",
+      "name":"Rupert Everett",
+      "birthYear":1959,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"DE2018_054_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HO",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Rupert Everett",
+        "name":"Rupert Everett",
+        "birthYear":1959.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"1897: Der wegen seiner Homosexualit\u00e4t verurteilte Schriftsteller Oscar Wilde (Rupert Everett) wird aus dem Gef\u00e4ngnis entlassen. Weil das Stigma, ein Schwuler zu sein, immer noch an ihm haftet, fl\u00fcchtet er nach Paris ins Exil. Dort ertr\u00e4nkt der sensible K\u00fcnstler seine Sorgen in Alkohol. Er s\u00e4uft und feiert wie ein Bekloppter, bis er auf einmal mit leeren Taschen dasteht. Sein Liebhaber Lord Alfred Douglas (Colin Morgan), den jeder nur Bosie nennt, \u00fcberredet ihn, gemeinsam mit ihm f\u00fcr einen l\u00e4ngeren Zeitraum nach Neapel zu reisen. Wildes Freunde Reggie Turner (Colin Firth) und Robbie Ross (Edwin Thomas) warnen ihn vor dem jungen Bosie, der vorgibt, viel reicher zu sein als er ist. Als Oscar Wildes Ehefrau Constance (Emily Watson) die finanzielle Unterst\u00fctzung des Dichters beendet, droht der finanzielle Ruin...",
+    "english":"The untold story of the last days in the tragic times of Oscar Wilde, a person who observes his own failure with ironic distance and regards the difficulties that beset his life with detachment and humor."
+  }
 }

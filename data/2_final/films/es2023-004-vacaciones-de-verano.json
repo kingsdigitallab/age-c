@@ -1,84 +1,116 @@
 {
-  "filmId":"ES2023_004",
-  "title":"Vacaciones de verano",
-  "titleEn":null,
-  "director":"Santiago Segura",
-  "releaseType":"THE",
-  "releaseDate":1688601600000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"ES2023_004",
+  "type":"film",
+  "slug":"es2023-004-vacaciones-de-verano",
+  "title":{
+    "native":"Vacaciones de verano",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1688601600000,
+    "year":2023
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt26756609\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Vacaciones%2520de%2520verano",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt26756609\/mediaviewer\/rm1462970625\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "COM",
-    "CHI"
+    "CHI",
+    "COM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt26756609\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Vacaciones%2520de%2520verano",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt26756609\/mediaviewer\/rm1462970625\/?ref_=tt_ov_i",
-  "synopsis":"Dos amigos, Oscar y F\u00e9lix, pierden su trabajo y se ven obligados a aceptar un trabajo temporal como animadores infantiles en un hotel de lujo. Al ser ambos divorciados, les tocan sus hijos un mes de verano y les es imposible compaginarlo con el trabajo, con lo cual deciden llevarse a los ni\u00f1os y ocultarlos en el hotel, escondidos en la zona de empleados... pero el plan resulta ser un desastre.",
-  "synopsisEn":"Two friends have to take care of their kids for a month while trying to balance it with their temporary jobs at a luxury hotel.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "fatherhood",
-    "homosociality",
-    "intragenerational friendship",
-    "unemployment",
     "intergenerational conflict",
-    "holiday",
-    "precarity",
     "new start",
+    "precarity",
+    "separation",
+    "homosociality",
     "class conflict",
+    "fatherhood",
+    "intragenerational friendship",
     "low rank employment",
-    "separation"
+    "unemployment",
+    "holiday"
   ],
-  "charId":[
-    "ES2023_004_03",
-    "ES2023_004_01",
-    "ES2023_004_02"
+  "director":[
+    {
+      "id":"Santiago Segura",
+      "name":"Santiago Segura",
+      "birthYear":1965,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Leo Harlem",
-    "Antonio Resines",
-    "Santiago Segura"
+  "character":[
+    {
+      "id":"ES2023_004_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Antonio Resines",
+        "name":"Antonio Resines",
+        "birthYear":1954.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_004_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Leo Harlem",
+        "name":"Leo Harlem",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_004_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Santiago Segura",
+        "name":"Santiago Segura",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "EM",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Leo Harlem",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1965
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "M",
-    null
-  ],
-  "perNationality":[
-    "ES",
-    null
-  ],
-  "perRole":null,
-  "slug":"es2023-004-vacaciones-de-verano"
+  "synopsis":{
+    "native":"Dos amigos, Oscar y F\u00e9lix, pierden su trabajo y se ven obligados a aceptar un trabajo temporal como animadores infantiles en un hotel de lujo. Al ser ambos divorciados, les tocan sus hijos un mes de verano y les es imposible compaginarlo con el trabajo, con lo cual deciden llevarse a los ni\u00f1os y ocultarlos en el hotel, escondidos en la zona de empleados... pero el plan resulta ser un desastre.",
+    "english":"Two friends have to take care of their kids for a month while trying to balance it with their temporary jobs at a luxury hotel."
+  }
 }

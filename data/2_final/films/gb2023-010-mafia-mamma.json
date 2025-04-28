@@ -1,92 +1,121 @@
 {
-  "filmId":"GB2023_010",
-  "title":"Mafia Mamma",
-  "titleEn":null,
-  "director":"Catherine Hardwicke",
-  "releaseType":"VOD",
-  "releaseDate":1700784000000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2023_010",
+  "type":"film",
+  "slug":"gb2023-010-mafia-mamma",
+  "title":{
+    "native":"Mafia Mamma",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"VOD",
+    "date":1700784000000,
+    "year":2023
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt13923456\/?ref_=nv_sr_srsg_0_tt_4_nm_4_in_0_q_Mafia%2520Mamma",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt13923456\/mediaviewer\/rm3759814401\/?ref_=tt_ov_i"
+  },
   "genre":[
     "CRI",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt13923456\/?ref_=nv_sr_srsg_0_tt_4_nm_4_in_0_q_Mafia%2520Mamma",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt13923456\/mediaviewer\/rm3759814401\/?ref_=tt_ov_i",
-  "synopsis":"An American mom inherits her grandfather's mafia empire in Italy. Guided by the firm's consigliere, she hilariously defies everyone's expectations as the new head of the family business.",
-  "synopsisEn":null,
-  "country":[
-    "IT",
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "wealth",
-    "burial",
-    "abuse",
-    "intergenerational friendship",
-    "independent home",
-    "medical treatment",
     "disability",
-    "celibacy",
+    "burial",
+    "mentorship",
+    "wealth",
+    "intergenerational friendship",
     "superior-employee relationship",
+    "independent home",
     "inheritance",
+    "celibacy",
+    "medical treatment",
     "homosociality",
+    "grandfatherhood",
+    "high rank employment",
     "murder",
     "grief",
-    "high rank employment",
-    "mentorship",
-    "grandfatherhood"
+    "abuse"
   ],
-  "charId":[
-    "GB2023_010_01",
-    "GB2023_010_03",
-    "GB2023_010_02"
+  "director":[
+    {
+      "id":"Catherine Hardwicke",
+      "name":"Catherine Hardwicke",
+      "birthYear":1955,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"US"
+    }
   ],
-  "perId":[
-    "Alessandro Bressanello",
-    "Dora Romano",
-    "Monica Bellucci"
+  "character":[
+    {
+      "id":"GB2023_010_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Monica Bellucci",
+        "name":"Monica Bellucci",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IT"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_010_02",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Alessandro Bressanello",
+        "name":"Alessandro Bressanello",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_010_03",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Dora Romano",
+        "name":"Dora Romano",
+        "birthYear":1955.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IT"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC",
-    "UC"
-  ],
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2023-010-mafia-mamma"
+  "synopsis":{
+    "native":"An American mom inherits her grandfather's mafia empire in Italy. Guided by the firm's consigliere, she hilariously defies everyone's expectations as the new head of the family business.",
+    "english":null
+  }
 }

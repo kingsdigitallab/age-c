@@ -1,40 +1,65 @@
 {
-  "filmId":"IT2020_015",
-  "title":"Lasciami andare",
-  "titleEn":"You Came Back",
-  "director":"Stefano Mordini",
-  "releaseType":"THE",
-  "releaseDate":1602115200000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=fIUykE6ZSjE",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9421456\/mediaviewer\/rm2015471105\/?ref_=tt_ov_i",
-  "synopsis":"Marco e Anita scoprono di aspettare un bambino. Finalmente un raggio di luce nella vita di Marco, messo a dura prova dal dolore per la scomparsa di Leo, suo primogenito con la prima moglie Clara.",
-  "synopsisEn":"Marco and Anita discover they are expecting a child. Finally a ray of light in the life of Marco, put to the test by the pain for the disappearance of Leo, his firstborn with his first wife Clara.",
-  "country":"IT",
-  "productionShare":"MAJ",
-  "tags":"personal trauma",
-  "charId":"IT2020_015_01",
-  "perId":"Valeria Golino",
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2020-015-lasciami-andare"
+  "id":"IT2020_015",
+  "type":"film",
+  "slug":"it2020-015-lasciami-andare",
+  "title":{
+    "native":"Lasciami andare",
+    "english":"You Came Back"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1602115200000,
+    "year":2020
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=fIUykE6ZSjE",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9421456\/mediaviewer\/rm2015471105\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
+  ],
+  "tags":[
+    "personal trauma"
+  ],
+  "director":[
+    {
+      "id":"Stefano Mordini",
+      "name":"Stefano Mordini",
+      "birthYear":1968,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2020_015_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Valeria Golino",
+        "name":"Valeria Golino",
+        "birthYear":1966.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Marco e Anita scoprono di aspettare un bambino. Finalmente un raggio di luce nella vita di Marco, messo a dura prova dal dolore per la scomparsa di Leo, suo primogenito con la prima moglie Clara.",
+    "english":"Marco and Anita discover they are expecting a child. Finally a ray of light in the life of Marco, put to the test by the pain for the disappearance of Leo, his firstborn with his first wife Clara."
+  }
 }

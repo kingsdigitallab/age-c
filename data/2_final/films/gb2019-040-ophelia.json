@@ -1,59 +1,74 @@
 {
-  "filmId":"GB2019_040",
-  "title":"Ophelia",
-  "titleEn":null,
-  "director":"Claire McCarthy",
-  "releaseType":"THE",
-  "releaseDate":1574380800000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2019_040",
+  "type":"film",
+  "slug":"gb2019-040-ophelia",
+  "title":{
+    "native":"Ophelia",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1574380800000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt5690810\/?ref_=nv_sr_srsg_3_tt_4_nm_4_in_0_q_Ophelia",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5690810\/mediaviewer\/rm2639684608\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "ROM",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt5690810\/?ref_=nv_sr_srsg_3_tt_4_nm_4_in_0_q_Ophelia",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5690810\/mediaviewer\/rm2639684608\/?ref_=tt_ov_i",
-  "synopsis":"A reimagining of Hamlet, told from Ophelia's perspective.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "wealth",
-    "power",
     "burial",
-    "fatherhood",
+    "wealth",
+    "marriage",
     "inheritance",
+    "fatherhood",
     "high rank employment",
     "murder",
-    "marriage"
+    "power"
   ],
-  "charId":"GB2019_040_01",
-  "perId":"Nathaniel Parker",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Nathaniel Parker",
-  "perBirthYear":1962,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2019-040-ophelia"
+  "director":[
+    {
+      "id":"Claire McCarthy",
+      "name":"Claire McCarthy",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"AU"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2019_040_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Nathaniel Parker",
+        "name":"Nathaniel Parker",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"A reimagining of Hamlet, told from Ophelia's perspective.",
+    "english":null
+  }
 }

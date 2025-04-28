@@ -1,75 +1,92 @@
 {
-  "filmId":"GB2018_065",
-  "title":"Postcards from London",
-  "titleEn":null,
-  "director":"Steve McLean",
-  "releaseType":"THE",
-  "releaseDate":1542931200000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Steve McLean",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2018_065",
+  "type":"film",
+  "slug":"gb2018-065-postcards-from-london",
+  "title":{
+    "native":"Postcards from London",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1542931200000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt6280608\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Postcards%2520from%2520London",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6280608\/mediaviewer\/rm205602049\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "FAN"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt6280608\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Postcards%2520from%2520London",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6280608\/mediaviewer\/rm205602049\/?ref_=tt_ov_i",
-  "synopsis":"A stylish, sexy film about a young man's journey into an unusual form of escort work, set in an imaginary vision of London's Soho.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "sex for hire",
-    "desire",
-    "mental illness",
-    "artistic creation",
     "lgbtqi",
+    "mental illness",
+    "urban",
+    "artistic creation",
+    "sex for hire",
     "homosociality",
-    "urban"
+    "desire"
   ],
-  "charId":[
-    "GB2018_065_02",
-    "GB2018_065_01"
+  "director":[
+    {
+      "id":"Steve McLean",
+      "name":"Steve McLean",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Richard Durden",
-    "Stephen Boxer"
+  "character":[
+    {
+      "id":"GB2018_065_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Stephen Boxer",
+        "name":"Stephen Boxer",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_065_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HO",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Richard Durden",
+        "name":"Richard Durden",
+        "birthYear":1944.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":[
-    "HO",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":[
-    "SE",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Richard Durden",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1944
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "M",
-    null
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2018-065-postcards-from-london"
+  "synopsis":{
+    "native":"A stylish, sexy film about a young man's journey into an unusual form of escort work, set in an imaginary vision of London's Soho.",
+    "english":null
+  }
 }

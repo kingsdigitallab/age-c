@@ -1,117 +1,170 @@
 {
-  "filmId":"ES2023_013",
-  "title":"Alima\u00f1as",
-  "titleEn":null,
-  "director":[
-    "Jordi S\u00e1nchez",
-    "Pep Anton G\u00f3mez"
-  ],
-  "releaseType":"THE",
-  "releaseDate":1698364800000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":[
-    "Jordi S\u00e1nchez",
-    "Pep Anton G\u00f3mez"
-  ],
-  "directorBirthYear":[
-    1964,
-    1966
-  ],
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2023_013",
+  "type":"film",
+  "slug":"es2023-013-alimanas",
+  "title":{
+    "native":"Alima\u00f1as",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1698364800000,
+    "year":2023
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt14443260\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_alimanas",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14443260\/mediaviewer\/rm1688623873\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "COM",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt14443260\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_alimanas",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14443260\/mediaviewer\/rm1688623873\/?ref_=tt_ov_i",
-  "synopsis":"Dos hermanos muy distintos entre ellos, Carlos y Paco (Carlos Areces y Jordi S\u00e1nchez), acaban unidos por la ambici\u00f3n de heredar un edificio propiedad de su madre, ya anciana. En ese lugar ambos tienen puestas todas sus esperanzas para mejorar su precaria situaci\u00f3n econ\u00f3mica.",
-  "synopsisEn":"Two very different and estranged brothers end up united by the ambition of inheriting a building owned by their elderly mother.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "brotherhood",
-    "natural death",
-    "assisted death",
-    "independent home",
-    "abuse",
-    "medical treatment",
-    "disability",
     "ageism",
-    "inheritance",
-    "homosociality",
-    "murder",
+    "disability",
     "intergenerational conflict",
-    "urban",
     "precarity",
+    "urban",
+    "independent home",
+    "brotherhood",
+    "inheritance",
     "caregiving",
-    "motherhood"
+    "medical treatment",
+    "homosociality",
+    "motherhood",
+    "murder",
+    "assisted death",
+    "abuse",
+    "natural death"
   ],
-  "charId":[
-    "ES2023_013_03",
-    "ES2023_013_05",
-    "ES2023_013_01",
-    "ES2023_013_02",
-    "ES2023_013_04"
+  "director":[
+    {
+      "id":"Pep Anton G\u00f3mez",
+      "name":"Pep Anton G\u00f3mez",
+      "birthYear":1966,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    },
+    {
+      "id":"Jordi S\u00e1nchez",
+      "name":"Jordi S\u00e1nchez",
+      "birthYear":1964,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Carmina Barrios",
-    "Mara Ballestero",
-    "Antonio Resines",
-    "Loles Le\u00f3n",
-    "Jordi S\u00e1nchez"
+  "character":[
+    {
+      "id":"ES2023_013_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Antonio Resines",
+        "name":"Antonio Resines",
+        "birthYear":1954.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_013_05",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"Mara Ballestero",
+        "name":"Mara Ballestero",
+        "birthYear":1943.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_013_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jordi S\u00e1nchez",
+        "name":"Jordi S\u00e1nchez",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_013_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Loles Le\u00f3n",
+        "name":"Loles Le\u00f3n",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_013_03",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Carmina Barrios",
+        "name":"Carmina Barrios",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "EM",
-    "SE",
-    "RE"
-  ],
-  "charAbility":[
-    "AB",
-    "PD"
-  ],
-  "assistedMobility":"N",
-  "perName":[
-    "Loles Le\u00f3n",
-    "Jordi S\u00e1nchez",
-    "Mara Ballestero",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1964,
-    1950,
-    1943
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    null,
-    "M"
-  ],
-  "perNationality":[
-    null,
-    "ES"
-  ],
-  "perRole":null,
-  "slug":"es2023-013-alimanas"
+  "synopsis":{
+    "native":"Dos hermanos muy distintos entre ellos, Carlos y Paco (Carlos Areces y Jordi S\u00e1nchez), acaban unidos por la ambici\u00f3n de heredar un edificio propiedad de su madre, ya anciana. En ese lugar ambos tienen puestas todas sus esperanzas para mejorar su precaria situaci\u00f3n econ\u00f3mica.",
+    "english":"Two very different and estranged brothers end up united by the ambition of inheriting a building owned by their elderly mother."
+  }
 }

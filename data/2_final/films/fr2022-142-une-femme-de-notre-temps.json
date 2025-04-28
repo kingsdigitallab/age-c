@@ -1,48 +1,71 @@
 {
-  "filmId":"FR2022_142",
-  "title":"Une femme de notre temps",
-  "titleEn":"A Woman",
-  "director":"Jean-Paul Civeyrac",
-  "releaseType":"THE",
-  "releaseDate":1664928000000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=AzR9bGASMhw",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/158\/226\/254622\/format_page\/une-femme-de-notre-temps.jpg",
-  "synopsis":"Juliane, commissaire de police a\u0300 Paris, est une femme d\u2019une grande inte\u0301grite\u0301 morale. Mais la de\u0301couverte de la double vie de son mari va soudain la conduire a\u0300 commettre des actes dont elle ne se serait jamais crue capable\u2026",
-  "synopsisEn":"Juliane, a police commissioner in Paris, is a woman with great moral integrity. But when she discovers her husband\u2019s double life, she starts committing acts she never would have thought herself capable of\u2026",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2022_142",
+  "type":"film",
+  "slug":"fr2022-142-une-femme-de-notre-temps",
+  "title":{
+    "native":"Une femme de notre temps",
+    "english":"A Woman"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1664928000000,
+    "year":2022
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=AzR9bGASMhw",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/158\/226\/254622\/format_page\/une-femme-de-notre-temps.jpg"
+  },
+  "genre":[
+    "DRA"
+  ],
   "tags":[
+    "infidelity",
+    "marriage",
     "rural",
     "sex",
-    "infidelity",
     "high rank employment",
-    "marriage",
     "crime",
     "rescue mission"
   ],
-  "charId":"FR2022_142_01",
-  "perId":"Sophie Marceau",
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2022-142-une-femme-de-notre-temps"
+  "director":[
+    {
+      "id":"Jean-Paul Civeyrac",
+      "name":"Jean-Paul Civeyrac",
+      "birthYear":1964,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2022_142_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Sophie Marceau",
+        "name":"Sophie Marceau",
+        "birthYear":1966.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Juliane, commissaire de police a\u0300 Paris, est une femme d\u2019une grande inte\u0301grite\u0301 morale. Mais la de\u0301couverte de la double vie de son mari va soudain la conduire a\u0300 commettre des actes dont elle ne se serait jamais crue capable\u2026",
+    "english":"Juliane, a police commissioner in Paris, is a woman with great moral integrity. But when she discovers her husband\u2019s double life, she starts committing acts she never would have thought herself capable of\u2026"
+  }
 }

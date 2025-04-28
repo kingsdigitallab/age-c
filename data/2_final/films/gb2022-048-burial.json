@@ -1,49 +1,70 @@
 {
-  "filmId":"GB2022_048",
-  "title":"Burial",
-  "titleEn":null,
-  "director":"Ben Parker",
-  "releaseType":"FES",
-  "releaseDate":1661731200000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Ben Parker",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2022_048",
+  "type":"film",
+  "slug":"gb2022-048-burial",
+  "title":{
+    "native":"Burial",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"FES",
+    "date":1661731200000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt13063384\/?ref_=nv_sr_srsg_3_tt_7_nm_1_in_0_q_Burial",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt13063384\/mediaviewer\/rm3369077505\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HOR",
-    "THR",
-    "WAR"
+    "WAR",
+    "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt13063384\/?ref_=nv_sr_srsg_3_tt_7_nm_1_in_0_q_Burial",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt13063384\/mediaviewer\/rm3369077505\/?ref_=tt_ov_i",
-  "synopsis":"A small group of Russian soldiers have the task of taking Hitler's discovered remains back to Stalin in Moscow.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
     "war",
-    "state institutions",
     "collective trauma",
-    "supernatural entity"
+    "supernatural entity",
+    "state institutions"
   ],
-  "charId":"GB2022_048_01",
-  "perId":"Harriet Walter",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":null,
-  "charOrigin":null,
-  "charClass":null,
-  "charProfession":null,
-  "charAbility":null,
-  "assistedMobility":"N",
-  "perName":"Harriet Walter",
-  "perBirthYear":1950,
-  "perDeathYear":0,
-  "perGender":"F",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2022-048-burial"
+  "director":[
+    {
+      "id":"Ben Parker",
+      "name":"Ben Parker",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2022_048_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":null,
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Harriet Walter",
+        "name":"Harriet Walter",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"A small group of Russian soldiers have the task of taking Hitler's discovered remains back to Stalin in Moscow.",
+    "english":null
+  }
 }

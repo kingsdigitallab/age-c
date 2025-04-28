@@ -1,82 +1,117 @@
 {
-  "filmId":"GB2021_014",
-  "title":"To Olivia",
-  "titleEn":null,
-  "director":"John Hay",
-  "releaseType":"VOD",
-  "releaseDate":1613692800000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":"John Hay",
-  "directorBirthYear":1959,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2021_014",
+  "type":"film",
+  "slug":"gb2021-014-to-olivia",
+  "title":{
+    "native":"To Olivia",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"VOD",
+    "date":1613692800000,
+    "year":2021
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=lXVoQWzlAxw",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt7598106\/mediaviewer\/rm3411986945\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
-    "DRA",
     "BIO",
+    "DRA",
+    "HIS",
     "ROM"
-  ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=lXVoQWzlAxw",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt7598106\/mediaviewer\/rm3411986945\/?ref_=tt_ov_i",
-  "synopsis":"The story of the tumultuous marriage between actress Patricia Neal and renowned writer Roald Dahl.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
   ],
   "tags":[
     "search for meaning",
-    "personal trauma",
-    "independent home",
-    "fatherhood",
-    "intergenerational friendship",
     "self-employment",
-    "artistic creation",
-    "grief",
+    "intergenerational friendship",
     "marriage",
+    "independent home",
+    "artistic creation",
+    "fatherhood",
+    "personal trauma",
+    "grief",
     "new start"
   ],
-  "charId":[
-    "GB2021_014_01",
-    "GB2021_014_03",
-    "GB2021_014_02"
+  "director":[
+    {
+      "id":"John Hay",
+      "name":"John Hay",
+      "birthYear":1959,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Geoffrey Palmer",
-    "Hugh Bonneville",
-    "Conleth Hill"
+  "character":[
+    {
+      "id":"GB2021_014_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Geoffrey Palmer",
+        "name":"Geoffrey Palmer",
+        "birthYear":1927.0,
+        "deathYear":2020.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_014_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Conleth Hill",
+        "name":null,
+        "birthYear":null,
+        "deathYear":null,
+        "gender":null,
+        "nationality":null
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_014_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Hugh Bonneville",
+        "name":"Hugh Bonneville",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    null
-  ],
-  "charProfession":[
-    "SE",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    null
-  ],
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2021-014-to-olivia"
+  "synopsis":{
+    "native":"The story of the tumultuous marriage between actress Patricia Neal and renowned writer Roald Dahl.",
+    "english":null
+  }
 }

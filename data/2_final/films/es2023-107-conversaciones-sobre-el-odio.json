@@ -1,70 +1,81 @@
 {
-  "filmId":"ES2023_107",
-  "title":"Conversaciones sobre el odio",
-  "titleEn":null,
-  "director":[
-    "Diego Mart\u00ednez",
-    "Vera Fogwill"
-  ],
-  "releaseType":"THE",
-  "releaseDate":1697760000000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":[
-    "Diego Mart\u00ednez",
-    "Vera Fogwill"
-  ],
-  "directorBirthYear":[
-    1977,
-    1972
-  ],
-  "directorDeathYear":0,
-  "directorGender":[
-    "F",
-    "M"
-  ],
-  "directorNationality":"AR",
+  "id":"ES2023_107",
+  "type":"film",
+  "slug":"es2023-107-conversaciones-sobre-el-odio",
+  "title":{
+    "native":"Conversaciones sobre el odio",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1697760000000,
+    "year":2023
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=245863",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt18749340\/mediaviewer\/rm2933996289\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=245863",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt18749340\/mediaviewer\/rm2933996289\/?ref_=tt_ov_i",
-  "synopsis":"Thriller psicol\u00f3gico que narra en tiempo real el \u00faltimo encuentro entre dos mujeres. En esta conversaci\u00f3n \u00edntima y profunda, discuten sus puntos de vista sobre la maternidad, la amistad y sus formas de enfrentar la enfermedad. D\u00e9bora es una manipuladora agente de talentos que poco a poco desata su ira sobre D\u00e9borah, una actriz seria e intelectual.",
-  "synopsisEn":"Conversations on Hatred narrates in real-time the farewell between two ill women. In this intimate and deep conversation, they discuss their views on maternity, friendship, and their ways of dealing with the disease. D\u00e9bora (Cecilia Roth) is a manipulative talent agent who gradually unleashes her rage on D\u00e9borah, a serious and intellectual actress (Maricel \u00c1lvarez). A manifesto against the discrimination of the so-called toxic people; against the idea that people getting sick is their own fault and that they can get better at will; against the selling marketing and the unreal consumption of happiness and well being. A film based on the Bechdel test (a method for measuring the gender gap in movies): two women, a conversation where no one speaks of men.",
-  "country":[
-    "AR",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "intergenerational friendship",
-    "self-employment",
+    "intergenerational conflict",
     "friendship betrayal",
-    "physical illness",
+    "intergenerational friendship",
     "artistic creation",
     "homosociality",
     "women empowerment",
-    "intergenerational conflict"
+    "self-employment",
+    "physical illness"
   ],
-  "charId":"ES2023_107_01",
-  "perId":"Cecilia Roth",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WLA",
-  "charClass":"MC",
-  "charProfession":"SE",
-  "charAbility":"CI",
-  "assistedMobility":"N",
-  "perName":"Cecilia Roth",
-  "perBirthYear":1956,
-  "perDeathYear":0,
-  "perGender":"F",
-  "perNationality":"AR",
-  "perRole":null,
-  "slug":"es2023-107-conversaciones-sobre-el-odio"
+  "director":[
+    {
+      "id":"Vera Fogwill",
+      "name":"Vera Fogwill",
+      "birthYear":1972,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"AR"
+    },
+    {
+      "id":"Diego Mart\u00ednez",
+      "name":"Diego Mart\u00ednez",
+      "birthYear":1977,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"AR"
+    }
+  ],
+  "character":[
+    {
+      "id":"ES2023_107_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WLA",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Cecilia Roth",
+        "name":"Cecilia Roth",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"AR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Thriller psicol\u00f3gico que narra en tiempo real el \u00faltimo encuentro entre dos mujeres. En esta conversaci\u00f3n \u00edntima y profunda, discuten sus puntos de vista sobre la maternidad, la amistad y sus formas de enfrentar la enfermedad. D\u00e9bora es una manipuladora agente de talentos que poco a poco desata su ira sobre D\u00e9borah, una actriz seria e intelectual.",
+    "english":"Conversations on Hatred narrates in real-time the farewell between two ill women. In this intimate and deep conversation, they discuss their views on maternity, friendship, and their ways of dealing with the disease. D\u00e9bora (Cecilia Roth) is a manipulative talent agent who gradually unleashes her rage on D\u00e9borah, a serious and intellectual actress (Maricel \u00c1lvarez). A manifesto against the discrimination of the so-called toxic people; against the idea that people getting sick is their own fault and that they can get better at will; against the selling marketing and the unreal consumption of happiness and well being. A film based on the Bechdel test (a method for measuring the gender gap in movies): two women, a conversation where no one speaks of men."
+  }
 }

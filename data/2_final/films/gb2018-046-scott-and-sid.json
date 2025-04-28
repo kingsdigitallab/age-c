@@ -1,82 +1,118 @@
 {
-  "filmId":"GB2018_046",
-  "title":"Scott and Sid",
-  "titleEn":null,
-  "director":[
-    "Sid Sadowskyj",
-    "Scott Elliott"
-  ],
-  "releaseType":"THE",
-  "releaseDate":1520553600000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":[
-    "Sid Sadowskyj",
-    "Scott Elliott"
-  ],
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":[
-    "GB",
-    null
-  ],
+  "id":"GB2018_046",
+  "type":"film",
+  "slug":"gb2018-046-scott-and-sid",
+  "title":{
+    "native":"Scott and Sid",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1520553600000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt4702346\/?ref_=nv_sr_srsg_0_tt_3_nm_5_in_0_q_Scott%2520and%2520Sid",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt4702346\/mediaviewer\/rm1291274241\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "COA"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt4702346\/?ref_=nv_sr_srsg_0_tt_3_nm_5_in_0_q_Scott%2520and%2520Sid",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt4702346\/mediaviewer\/rm1291274241\/?ref_=tt_ov_i",
-  "synopsis":"Scott is a whimsical dreamer, determined to make his way through life and raising a metaphorical middle finger to anyone who tries to stop him.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "power",
+    "intergenerational conflict",
     "state institutions",
     "education",
-    "intergenerational conflict",
-    "low rank employment"
+    "low rank employment",
+    "power"
   ],
-  "charId":[
-    "GB2018_046_01",
-    "GB2018_046_02",
-    "GB2018_046_03"
+  "director":[
+    {
+      "id":"Scott Elliott",
+      "name":"Scott Elliott",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    },
+    {
+      "id":"Sid Sadowskyj",
+      "name":"Sid Sadowskyj",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":null
+    }
   ],
-  "perId":[
-    "David Summer",
-    "Jerrie Anderson",
-    "Maggie Daniels"
+  "character":[
+    {
+      "id":"GB2018_046_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jerrie Anderson",
+        "name":"Jerrie Anderson",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_046_02",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Maggie Daniels",
+        "name":"Maggie Daniels",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_046_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"David Summer",
+        "name":"David Summer",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "David Summer",
-    "Jerrie Anderson",
-    "Maggie Daniels"
-  ],
-  "perBirthYear":[
-    0,
-    1961
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2018-046-scott-and-sid"
+  "synopsis":{
+    "native":"Scott is a whimsical dreamer, determined to make his way through life and raising a metaphorical middle finger to anyone who tries to stop him.",
+    "english":null
+  }
 }

@@ -1,58 +1,92 @@
 {
-  "filmId":"FR2022_109",
-  "title":"Joyeuse retraite ! 2",
-  "titleEn":"Finally Retired!",
-  "director":"Fabrice Bracq",
-  "releaseType":"THE",
-  "releaseDate":1658275200000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=3kO9Ujtx8Es",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/166\/215\/251814\/format_page\/joyeuse-retraite-2.jpg",
-  "synopsis":"lls pensaient enfin passer une retraite tranquille\u2026 3 ans ont pass\u00e9. Marilou et Philippe d\u00e9cident de faire d\u00e9couvrir \u00e0 leurs petits-enfants leur nouvelle maison de vacances au Portugal. Mais une fois sur place, ils d\u00e9couvrent horrifi\u00e9s que la maison est encore en chantier ! Ce n\u2019est que le d\u00e9but des gal\u00e8res pour les grands-parents car bient\u00f4t\u2026 ils perdent les gamins. Il ne leur reste plus que deux jours pour les retrouver, avant que leurs parents ne les rejoignent\u2026",
-  "synopsisEn":"Marilou and Philippe are finally moving to Portugal! They dreamt of their new house, a cocoon to spend time with their family and enjoy their retirement. When they arrive, they discover that the house isn\u2019t finished and that the land developer disappeared. It couldn\u2019t get worse\u2026 until they loose their grandkids. They only have 24 hours to find them before their daughter C\u00e9cile arrives!",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2022_109",
+  "type":"film",
+  "slug":"fr2022-109-joyeuse-retraite-2",
+  "title":{
+    "native":"Joyeuse retraite ! 2",
+    "english":"Finally Retired!"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1658275200000,
+    "year":2022
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=3kO9Ujtx8Es",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/166\/215\/251814\/format_page\/joyeuse-retraite-2.jpg"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
-    "tourism",
-    "extended family",
-    "parenthood",
-    "grandparenthood",
-    "retirement",
     "marriage",
-    "holiday",
-    "multigenerational family"
+    "multigenerational family",
+    "parenthood",
+    "retirement",
+    "extended family",
+    "tourism",
+    "grandparenthood",
+    "holiday"
   ],
-  "charId":[
-    "FR2022_109_01",
-    "FR2022_109_02"
+  "director":[
+    {
+      "id":"Fabrice Bracq",
+      "name":"Fabrice Bracq",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
   ],
-  "perId":[
-    "Thierry Lhermitte",
-    "Mich\u00e8le Laroque"
+  "character":[
+    {
+      "id":"FR2022_109_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Mich\u00e8le Laroque",
+        "name":"Mich\u00e8le Laroque",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    },
+    {
+      "id":"FR2022_109_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Thierry Lhermitte",
+        "name":"Thierry Lhermitte",
+        "birthYear":1952.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"RE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2022-109-joyeuse-retraite-2"
+  "synopsis":{
+    "native":"lls pensaient enfin passer une retraite tranquille\u2026 3 ans ont pass\u00e9. Marilou et Philippe d\u00e9cident de faire d\u00e9couvrir \u00e0 leurs petits-enfants leur nouvelle maison de vacances au Portugal. Mais une fois sur place, ils d\u00e9couvrent horrifi\u00e9s que la maison est encore en chantier ! Ce n\u2019est que le d\u00e9but des gal\u00e8res pour les grands-parents car bient\u00f4t\u2026 ils perdent les gamins. Il ne leur reste plus que deux jours pour les retrouver, avant que leurs parents ne les rejoignent\u2026",
+    "english":"Marilou and Philippe are finally moving to Portugal! They dreamt of their new house, a cocoon to spend time with their family and enjoy their retirement. When they arrive, they discover that the house isn\u2019t finished and that the land developer disappeared. It couldn\u2019t get worse\u2026 until they loose their grandkids. They only have 24 hours to find them before their daughter C\u00e9cile arrives!"
+  }
 }

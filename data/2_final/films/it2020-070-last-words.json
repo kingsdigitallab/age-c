@@ -1,87 +1,105 @@
 {
-  "filmId":"IT2020_070",
-  "title":"Last words",
-  "titleEn":null,
-  "director":"Joanthan Nossiter",
-  "releaseType":"FES",
-  "releaseDate":1589241600000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2020_070",
+  "type":"film",
+  "slug":"it2020-070-last-words",
+  "title":{
+    "native":"Last words",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"FES",
+    "date":1589241600000,
+    "year":2020
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=RRLjfjx_A4M",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt12443726\/mediaviewer\/rm650833665\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "DRA",
+    "DIS",
     "MPF",
-    "DIS"
-  ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=RRLjfjx_A4M",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt12443726\/mediaviewer\/rm650833665\/?ref_=tt_ov_i",
-  "synopsis":"Nel 2086 il mondo che noi conosciamo non esiste pi\u00f9. Pochissimi uomini sono sopravvissuti. Un giovane intraprende un lungo viaggio alla ricerca di una ultima comunit\u00e0 di uomini.",
-  "synopsisEn":"It is 2085. A young man, one of the few survivors of the human community of old, embarks on a long voyage to find others.",
-  "country":[
-    "IT",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "DRA"
   ],
   "tags":[
     "personal memory",
-    "ecology",
     "intergenerational friendship",
     "artistic creation",
     "natural",
+    "ecology",
     "interracial relationships"
   ],
-  "charId":[
-    "IT2020_070_03",
-    "IT2020_070_02",
-    "IT2020_070_01"
+  "director":[
+
   ],
-  "perId":[
-    "Nick Nolte",
-    "Charlotte Rampling",
-    "Stellan Skarsg\u00e5rd"
+  "character":[
+    {
+      "id":"IT2020_070_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"CEU",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Stellan Skarsg\u00e5rd",
+        "name":"Stellan Skarsg\u00e5rd",
+        "birthYear":1951.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"CH"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2020_070_02",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Nick Nolte",
+        "name":"Nick Nolte",
+        "birthYear":1941.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2020_070_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"NEU",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Charlotte Rampling",
+        "name":"Charlotte Rampling",
+        "birthYear":1946.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":"LEA"
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":[
-    "WNA",
-    "NEU",
-    "CEU"
-  ],
-  "charClass":null,
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Nick Nolte",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1941
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "M",
-    null
-  ],
-  "perNationality":[
-    "US",
-    null
-  ],
-  "perRole":null,
-  "slug":"it2020-070-last-words"
+  "synopsis":{
+    "native":"Nel 2086 il mondo che noi conosciamo non esiste pi\u00f9. Pochissimi uomini sono sopravvissuti. Un giovane intraprende un lungo viaggio alla ricerca di una ultima comunit\u00e0 di uomini.",
+    "english":"It is 2085. A young man, one of the few survivors of the human community of old, embarks on a long voyage to find others."
+  }
 }

@@ -1,46 +1,67 @@
 {
-  "filmId":"IT2018_105",
-  "title":"Cattivi & Cattivi",
-  "titleEn":null,
-  "director":"Stefano Calvagna",
-  "releaseType":"THE",
-  "releaseDate":1533772800000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2018_105",
+  "type":"film",
+  "slug":"it2018-105-cattivi-cattivi",
+  "title":{
+    "native":"Cattivi & Cattivi",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1533772800000,
+    "year":2018
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=qmUrsN6VGI8",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9045158\/mediaviewer\/rm602894336\/?ref_=tt_ov_i"
+  },
   "genre":[
     "CRI",
     "MPF"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=qmUrsN6VGI8",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9045158\/mediaviewer\/rm602894336\/?ref_=tt_ov_i",
-  "synopsis":"Spacci, corruzione, violenza e prepotenza fanno da contorno ad una Roma natalizia, decorata di delinquenza, nella quale nessuno, nemmeno la polizia, sembra riuscire a fermare la lotta fra due bande criminali.",
-  "synopsisEn":"Stories of crime in a Christmas-decorated Rome.",
-  "country":"IT",
-  "productionShare":"MAJ",
   "tags":[
     "state institutions",
     "organized crime"
   ],
-  "charId":"IT2018_105_01",
-  "perId":"Massimo Bonetti",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2018-105-cattivi-cattivi"
+  "director":[
+    {
+      "id":"Stefano Calvagna",
+      "name":"Stefano Calvagna",
+      "birthYear":1970,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2018_105_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Massimo Bonetti",
+        "name":"Massimo Bonetti",
+        "birthYear":1951.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Spacci, corruzione, violenza e prepotenza fanno da contorno ad una Roma natalizia, decorata di delinquenza, nella quale nessuno, nemmeno la polizia, sembra riuscire a fermare la lotta fra due bande criminali.",
+    "english":"Stories of crime in a Christmas-decorated Rome."
+  }
 }

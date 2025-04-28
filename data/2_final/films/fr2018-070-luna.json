@@ -1,44 +1,48 @@
 {
-  "filmId":"FR2018_070",
-  "title":"Luna",
-  "titleEn":"Luna",
-  "director":"Elsa Diringer",
-  "releaseType":"THE",
-  "releaseDate":1523404800000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Elsa Diringer",
-  "directorBirthYear":1982,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"FR",
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=74GpvlpJGU0",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/160\/224\/188576\/format_page\/luna.jpg",
-  "synopsis":"Luna vit pr\u00e8s de Montpellier et travaille dans une exploitation maraich\u00e8re. Elle est belle, dr\u00f4le, elle d\u00e9vore la vie. Elle serait pr\u00eate \u00e0 tout pour garder l\u2019amour de Ruben. Au cours d\u2019une soir\u00e9e trop arros\u00e9e avec ses amis, ils agressent un jeune inconnu. Quelques semaines plus tard, celui-ci r\u00e9apparait dans la vie de Luna. Elle va devoir faire des choix.",
-  "synopsisEn":"Luna lives in the South of France, near Montpellier, and works in a farming exploitation. Luna is beautiful, funny and devours life. She would do anything to keep Ruben's love. During one evening of party drinking with her friends, they assault a young unknown. A few weeks later, he re-appears in Luna's life. She will have to make choices",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2018_070",
+  "type":"film",
+  "slug":"fr2018-070-luna",
+  "title":{
+    "native":"Luna",
+    "english":"Luna"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1523404800000,
+    "year":2018
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=74GpvlpJGU0",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/160\/224\/188576\/format_page\/luna.jpg"
+  },
+  "genre":[
+    "DRA"
+  ],
   "tags":[
-    "self-employment",
     "romance",
+    "self-employment",
     "superior-employee relationship"
   ],
-  "charId":null,
-  "perId":null,
-  "charAge":null,
-  "charGender":null,
-  "charSexuality":null,
-  "charOrigin":null,
-  "charClass":null,
-  "charProfession":null,
-  "charAbility":null,
-  "assistedMobility":null,
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2018-070-luna"
+  "director":[
+    {
+      "id":"Elsa Diringer",
+      "name":"Elsa Diringer",
+      "birthYear":1982,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+
+  ],
+  "synopsis":{
+    "native":"Luna vit pr\u00e8s de Montpellier et travaille dans une exploitation maraich\u00e8re. Elle est belle, dr\u00f4le, elle d\u00e9vore la vie. Elle serait pr\u00eate \u00e0 tout pour garder l\u2019amour de Ruben. Au cours d\u2019une soir\u00e9e trop arros\u00e9e avec ses amis, ils agressent un jeune inconnu. Quelques semaines plus tard, celui-ci r\u00e9apparait dans la vie de Luna. Elle va devoir faire des choix.",
+    "english":"Luna lives in the South of France, near Montpellier, and works in a farming exploitation. Luna is beautiful, funny and devours life. She would do anything to keep Ruben's love. During one evening of party drinking with her friends, they assault a young unknown. A few weeks later, he re-appears in Luna's life. She will have to make choices"
+  }
 }

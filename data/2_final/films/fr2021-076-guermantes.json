@@ -1,44 +1,48 @@
 {
-  "filmId":"FR2021_076",
-  "title":"Guermantes",
-  "titleEn":"Guermantes",
-  "director":"Christophe Honor\u00e9",
-  "releaseType":"THE",
-  "releaseDate":1632873600000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=kSg6Ip5uVMk",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/37\/164\/238629\/format_page\/guermantes.jpg",
-  "synopsis":"Paris, \u00e9t\u00e9 2020. Une troupe r\u00e9p\u00e8te une pi\u00e8ce d\u2019apr\u00e8s Marcel Proust. Quand on lui annonce soudain que le spectacle est annul\u00e9, elle choisit de continuer \u00e0 jouer malgr\u00e9 tout, pour la beaut\u00e9, la douceur et le plaisir de rester ensemble.",
-  "synopsisEn":"Paris, summer 2020. Actors from la \u201cCom\u00e9die-Fran\u00e7aise\u201d, France's most prestigious theater, rehearse a new play, an adaptation of Marcel Proust's The Guermantes Way. When the show is suddenly canceled, the drama group decides to go ahead with it anyway, in the name of art and for the joy of acting together.",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2021_076",
+  "type":"film",
+  "slug":"fr2021-076-guermantes",
+  "title":{
+    "native":"Guermantes",
+    "english":"Guermantes"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1632873600000,
+    "year":2021
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=kSg6Ip5uVMk",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/37\/164\/238629\/format_page\/guermantes.jpg"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
     "high rank employment",
     "artistic creation",
     "covid-19"
   ],
-  "charId":null,
-  "perId":null,
-  "charAge":null,
-  "charGender":null,
-  "charSexuality":null,
-  "charOrigin":null,
-  "charClass":null,
-  "charProfession":null,
-  "charAbility":null,
-  "assistedMobility":null,
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2021-076-guermantes"
+  "director":[
+    {
+      "id":"Christophe Honor\u00e9",
+      "name":"Christophe Honor\u00e9",
+      "birthYear":1970,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+
+  ],
+  "synopsis":{
+    "native":"Paris, \u00e9t\u00e9 2020. Une troupe r\u00e9p\u00e8te une pi\u00e8ce d\u2019apr\u00e8s Marcel Proust. Quand on lui annonce soudain que le spectacle est annul\u00e9, elle choisit de continuer \u00e0 jouer malgr\u00e9 tout, pour la beaut\u00e9, la douceur et le plaisir de rester ensemble.",
+    "english":"Paris, summer 2020. Actors from la \u201cCom\u00e9die-Fran\u00e7aise\u201d, France's most prestigious theater, rehearse a new play, an adaptation of Marcel Proust's The Guermantes Way. When the show is suddenly canceled, the drama group decides to go ahead with it anyway, in the name of art and for the joy of acting together."
+  }
 }

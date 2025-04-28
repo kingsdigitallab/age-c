@@ -1,50 +1,71 @@
 {
-  "filmId":"ES2022_040",
-  "title":"Todos lo hacen",
-  "titleEn":null,
-  "director":"Mart\u00edn Cuervo",
-  "releaseType":"THE",
-  "releaseDate":1672185600000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Mart\u00edn Cuervo",
-  "directorBirthYear":1987,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2022_040",
+  "type":"film",
+  "slug":"es2022-040-todos-lo-hacen",
+  "title":{
+    "native":"Todos lo hacen",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1672185600000,
+    "year":2022
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=469997",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14909012\/mediaviewer\/rm259917057\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DTH",
     "COM",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=469997",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14909012\/mediaviewer\/rm259917057\/?ref_=tt_ov_i",
-  "synopsis":"Cuatro parejas reciben una invitaci\u00f3n para pasar un fin de semana en el hotel donde se casaron. Lo que no saben es que el anfitri\u00f3n quiere chantajearles. Y mucho menos que, al d\u00eda siguiente, aparecer\u00e1\u0301 muerto.",
-  "synopsisEn":"Several couples at different points in their relationship return to the hotel where they got married, summoned by the owner, to solve a certain tax problem.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
+    "state institutions",
     "fraud",
     "rural",
-    "self-employment",
-    "state institutions",
-    "murder"
+    "murder",
+    "self-employment"
   ],
-  "charId":"ES2022_040_01",
-  "perId":"Pablo Carbonell",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Pablo Carbonell",
-  "perBirthYear":1962,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"es2022-040-todos-lo-hacen"
+  "director":[
+    {
+      "id":"Mart\u00edn Cuervo",
+      "name":"Mart\u00edn Cuervo",
+      "birthYear":1987,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
+  ],
+  "character":[
+    {
+      "id":"ES2022_040_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Pablo Carbonell",
+        "name":"Pablo Carbonell",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Cuatro parejas reciben una invitaci\u00f3n para pasar un fin de semana en el hotel donde se casaron. Lo que no saben es que el anfitri\u00f3n quiere chantajearles. Y mucho menos que, al d\u00eda siguiente, aparecer\u00e1\u0301 muerto.",
+    "english":"Several couples at different points in their relationship return to the hotel where they got married, summoned by the owner, to solve a certain tax problem."
+  }
 }

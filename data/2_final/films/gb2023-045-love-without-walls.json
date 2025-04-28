@@ -1,70 +1,87 @@
 {
-  "filmId":"GB2023_045",
-  "title":"Love Without Walls",
-  "titleEn":null,
-  "director":"Jane Gull",
-  "releaseType":"THE",
-  "releaseDate":1686268800000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Jane Gull",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"GB",
+  "id":"GB2023_045",
+  "type":"film",
+  "slug":"gb2023-045-love-without-walls",
+  "title":{
+    "native":"Love Without Walls",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1686268800000,
+    "year":2023
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=ZDdjXnvObvI",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt13224758\/mediaviewer\/rm3271782401\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "ROM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=ZDdjXnvObvI",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt13224758\/mediaviewer\/rm3271782401\/?ref_=tt_ov_i",
-  "synopsis":"A young married couple struggle when made suddenly homeless in this emotionally charged British drama, set in a recognisable social setting, which tells a story of love attempting to survive in the face of adversity.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "precarity",
-    "homelessness"
+    "homelessness",
+    "precarity"
   ],
-  "charId":[
-    "GB2023_045_02",
-    "GB2023_045_01"
+  "director":[
+    {
+      "id":"Jane Gull",
+      "name":"Jane Gull",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Paul Barber",
-    "Sheila Reid"
+  "character":[
+    {
+      "id":"GB2023_045_01",
+      "age":"4",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Sheila Reid",
+        "name":"Sheila Reid",
+        "birthYear":1937.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_045_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"BWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Paul Barber",
+        "name":"Paul Barber",
+        "birthYear":1951.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":[
-    "BWE",
-    "WWE"
-  ],
-  "charClass":null,
-  "charProfession":null,
-  "charAbility":null,
-  "assistedMobility":"N",
-  "perName":[
-    "Paul Barber",
-    "Sheila Reid"
-  ],
-  "perBirthYear":[
-    1937,
-    1951
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2023-045-love-without-walls"
+  "synopsis":{
+    "native":"A young married couple struggle when made suddenly homeless in this emotionally charged British drama, set in a recognisable social setting, which tells a story of love attempting to survive in the face of adversity.",
+    "english":null
+  }
 }

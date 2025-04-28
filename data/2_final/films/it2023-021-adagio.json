@@ -1,48 +1,69 @@
 {
-  "filmId":"IT2023_021",
-  "title":"Adagio",
-  "titleEn":null,
-  "director":"Stefano Sollima",
-  "releaseType":"THE",
-  "releaseDate":1702512000000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2023_021",
+  "type":"film",
+  "slug":"it2023-021-adagio",
+  "title":{
+    "native":"Adagio",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1702512000000,
+    "year":2023
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=qpFQwM4Wo0I",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt22001304\/mediaviewer\/rm3855777025\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "ACT",
     "CRI",
+    "ACT",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=qpFQwM4Wo0I",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt22001304\/mediaviewer\/rm3855777025\/?ref_=tt_ov_i",
-  "synopsis":"Manuel ha sedici anni e cerca di godersi la vita come puo\u0300, mentre si prende cura dell\u2019anziano padre. Vittima di un ricatto, va a una festa per scattare alcune foto a un misterioso individuo ma, sentendosi raggirato, decide di scappare, ritrovandosi invischiato in questioni ben oltre la sua portata. Infatti i ricattatori che lo inseguono si rivelano essere estremamente pericolosi e determinati a eliminare quello che ritengono uno scomodo testimone e il ragazzo dovra\u0300 chiedere protezione a due ex-criminali, vecchie conoscenze del padre.",
-  "synopsisEn":"Manuel is sixteen years old and trying to enjoy his life as much as he can, while taking care of his elderly father. Subjected to blackmail, he goes to a party to take photos of a mysterious individual but, feeling that he has been duped, decides to flee, finding himself embroiled in matters that are far beyond him. In fact the blackmailers that pursue him turn out to be extremely dangerous and determined to get rid of what they regard as an inconvenient witness and the boy will have to turn for protection to two former criminals, old acquaintances of his father.",
-  "country":"IT",
-  "productionShare":"MAJ",
   "tags":[
     "fatherhood",
     "dementia",
     "organized crime"
   ],
-  "charId":"IT2023_021_01",
-  "perId":"Toni Servillo",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LC",
-  "charProfession":null,
-  "charAbility":"CI",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2023-021-adagio"
+  "director":[
+    {
+      "id":"Stefano Sollima",
+      "name":"Stefano Sollima",
+      "birthYear":1966,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2023_021_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LC",
+      "profession":null,
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Toni Servillo",
+        "name":"Toni Servillo",
+        "birthYear":1959.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Manuel ha sedici anni e cerca di godersi la vita come puo\u0300, mentre si prende cura dell\u2019anziano padre. Vittima di un ricatto, va a una festa per scattare alcune foto a un misterioso individuo ma, sentendosi raggirato, decide di scappare, ritrovandosi invischiato in questioni ben oltre la sua portata. Infatti i ricattatori che lo inseguono si rivelano essere estremamente pericolosi e determinati a eliminare quello che ritengono uno scomodo testimone e il ragazzo dovra\u0300 chiedere protezione a due ex-criminali, vecchie conoscenze del padre.",
+    "english":"Manuel is sixteen years old and trying to enjoy his life as much as he can, while taking care of his elderly father. Subjected to blackmail, he goes to a party to take photos of a mysterious individual but, feeling that he has been duped, decides to flee, finding himself embroiled in matters that are far beyond him. In fact the blackmailers that pursue him turn out to be extremely dangerous and determined to get rid of what they regard as an inconvenient witness and the boy will have to turn for protection to two former criminals, old acquaintances of his father."
+  }
 }

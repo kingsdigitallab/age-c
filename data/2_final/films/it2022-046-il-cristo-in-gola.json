@@ -1,43 +1,86 @@
 {
-  "filmId":"IT2022_046",
-  "title":"Il Cristo in gola",
-  "titleEn":null,
-  "director":"Antonio Rezza",
-  "releaseType":"THE",
-  "releaseDate":1669507200000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=L_hFj7znG7c",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt23830470\/mediaviewer\/rm1149254401\/?ref_=tt_ov_i",
-  "synopsis":"Il Vangelo secondo Antonio Rezza, gi\u00e0 Leone d'oro per il teatro: un film comico, satirico, tragico, religioso.",
-  "synopsisEn":"The Gospel according to Antonio Rezza, the winner of a Golden Lion for theatre: a funny, satirical, tragic, and religious movie.",
-  "country":"IT",
-  "productionShare":"MAJ",
+  "id":"IT2022_046",
+  "type":"film",
+  "slug":"it2022-046-il-cristo-in-gola",
+  "title":{
+    "native":"Il Cristo in gola",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1669507200000,
+    "year":2022
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=L_hFj7znG7c",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt23830470\/mediaviewer\/rm1149254401\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
+  ],
   "tags":[
     "religion",
     "regional identity"
   ],
-  "charId":"IT2022_046_01",
-  "perId":"Antonio Rezza",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":null,
-  "charClass":null,
-  "charProfession":null,
-  "charAbility":null,
-  "assistedMobility":null,
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2022-046-il-cristo-in-gola"
+  "director":[
+    {
+      "id":"Antonio Rezza",
+      "name":"Antonio Rezza",
+      "birthYear":1965,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2022_046_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":null,
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Antonio Rezza",
+        "name":"Antonio Rezza",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2022_046_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":null,
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Antonio Rezza",
+        "name":"Antonio Rezza",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"DIR"
+    }
+  ],
+  "synopsis":{
+    "native":"Il Vangelo secondo Antonio Rezza, gi\u00e0 Leone d'oro per il teatro: un film comico, satirico, tragico, religioso.",
+    "english":"The Gospel according to Antonio Rezza, the winner of a Golden Lion for theatre: a funny, satirical, tragic, and religious movie."
+  }
 }

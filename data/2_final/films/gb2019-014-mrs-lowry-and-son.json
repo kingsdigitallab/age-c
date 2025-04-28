@@ -1,101 +1,120 @@
 {
-  "filmId":"GB2019_014",
-  "title":"Mrs Lowry and Son",
-  "titleEn":null,
-  "director":"Adrian Noble",
-  "releaseType":"THE",
-  "releaseDate":1567123200000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Adrian Noble",
-  "directorBirthYear":1950,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2019_014",
+  "type":"film",
+  "slug":"gb2019-014-mrs-lowry-and-son",
+  "title":{
+    "native":"Mrs Lowry and Son",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1567123200000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Sj8t8j3gWkA",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt7590074\/mediaviewer\/rm4058944001\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "DRA",
-    "BIO"
+    "BIO",
+    "DRA"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Sj8t8j3gWkA",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt7590074\/mediaviewer\/rm4058944001\/?ref_=tt_ov_i",
-  "synopsis":"A portrait of the artist L.S. Lowry and the relationship with his mother, who tries to dissuade him from pursuing his passion.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "search for meaning",
-    "low rank employment",
-    "abuse",
-    "independent home",
     "disability",
-    "physical illness",
+    "search for meaning",
+    "widowhood",
+    "urban",
+    "precarity",
+    "independent home",
+    "caregiving",
     "celibacy",
     "artistic creation",
     "daily routine",
     "class solidarity",
-    "urban",
-    "precarity",
-    "caregiving",
-    "motherhood",
-    "widowhood"
+    "low rank employment",
+    "abuse",
+    "physical illness",
+    "motherhood"
   ],
-  "charId":[
-    "GB2019_014_02",
-    "GB2019_014_03",
-    "GB2019_014_01"
+  "director":[
+    {
+      "id":"Adrian Noble",
+      "name":"Adrian Noble",
+      "birthYear":1950,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "David Schaal",
-    "Timothy Spall",
-    "Vanessa Redgrave"
+  "character":[
+    {
+      "id":"GB2019_014_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Timothy Spall",
+        "name":"Timothy Spall",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_014_02",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"Vanessa Redgrave",
+        "name":"Vanessa Redgrave",
+        "birthYear":1937.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_014_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"David Schaal",
+        "name":"David Schaal",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "4"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "EM",
-    "RE"
-  ],
-  "charAbility":[
-    "AB",
-    "PD"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "David Schaal",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1963
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "M",
-    null
-  ],
-  "perNationality":[
-    "US",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2019-014-mrs-lowry-and-son"
+  "synopsis":{
+    "native":"A portrait of the artist L.S. Lowry and the relationship with his mother, who tries to dissuade him from pursuing his passion.",
+    "english":null
+  }
 }

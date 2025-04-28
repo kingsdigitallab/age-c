@@ -1,130 +1,225 @@
 {
-  "filmId":"ES2023_046",
-  "title":"La manzana de oro",
-  "titleEn":null,
-  "director":"Jaime Ch\u00e1varri",
-  "releaseType":"THE",
-  "releaseDate":1693267200000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"ES2023_046",
+  "type":"film",
+  "slug":"es2023-046-la-manzana-de-oro",
+  "title":{
+    "native":"La manzana de oro",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1693267200000,
+    "year":2023
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=315737",
+    "posterUrl":"https:\/\/www.filmaffinity.com\/es\/film315737.html"
+  },
   "genre":[
     "DRA",
-    "MPF",
-    "COM"
-  ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=315737",
-  "posterUrl":"https:\/\/www.filmaffinity.com\/es\/film315737.html",
-  "synopsis":"La llegada de un invitado inesperado desestabiliza las Jornadas Po\u00e9ticas que cada a\u00f1o re\u00fane en un aislado convento del noroeste peninsular a distintas tendencias de la poes\u00eda espa\u00f1ola. Durante un acelerado fin de semana, mientras los poetas escriben, recitan y se vigilan, persiguiendo un premio dorado, una sospecha de plagio, la batalla por la presencia en una futura antolog\u00eda, la irreverencia de un rapero, el cumplea\u00f1os de un poeta centenario, unas setas venenosas, los imprevistos cruces sexuales y el despertar de amores tard\u00edos culminar\u00e1n en una noche tormentosa... Adaptaci\u00f3n de la novela \u201c\u00c1vidas pretensiones\u201d, de Fernando Aramburu.",
-  "synopsisEn":"Three generations of poets meet every year in an isolated convent to compete for a prize.",
-  "country":[
-    "PT",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "COM",
+    "MPF"
   ],
   "tags":[
-    "sex",
-    "desire",
-    "intergenerational friendship",
-    "self-employment",
-    "intragenerational friendship",
-    "mentorship",
-    "cross-gender friendship",
-    "festivities",
     "rural",
-    "disability",
-    "gray face",
-    "artistic creation",
-    "communal housing",
     "substance abuse",
-    "personal memory",
     "religion",
+    "cross-gender friendship",
     "romance",
-    "marriage",
-    "intergenerational conflict"
+    "personal memory",
+    "festivities",
+    "artistic creation",
+    "sex",
+    "intragenerational friendship",
+    "desire",
+    "gray face",
+    "self-employment",
+    "intergenerational conflict",
+    "intergenerational friendship",
+    "communal housing",
+    "disability",
+    "mentorship",
+    "marriage"
   ],
-  "charId":[
-    "ES2023_046_07",
-    "ES2023_046_06",
-    "ES2023_046_01",
-    "ES2023_046_08",
-    "ES2023_046_03",
-    "ES2023_046_02",
-    "ES2023_046_04",
-    "ES2023_046_05"
+  "director":[
+    {
+      "id":"Jaime Ch\u00e1varri",
+      "name":"Jaime Ch\u00e1varri",
+      "birthYear":1943,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Joaqu\u00edn Climent",
-    "Gin\u00e9s Garc\u00eda Mill\u00e1n",
-    "Sergi L\u00f3pez",
-    "Roberto Enr\u00edquez",
-    "Vicky Pe\u00f1a",
-    "Celso Bugallo",
-    "Elena Seijo",
-    "Paca Gabald\u00f3n"
+  "character":[
+    {
+      "id":"ES2023_046_07",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Gin\u00e9s Garc\u00eda Mill\u00e1n",
+        "name":"Gin\u00e9s Garc\u00eda Mill\u00e1n",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_046_05",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Joaqu\u00edn Climent",
+        "name":"Joaqu\u00edn Climent",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_046_06",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Paca Gabald\u00f3n",
+        "name":"Paca Gabald\u00f3n",
+        "birthYear":1949.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_046_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Vicky Pe\u00f1a",
+        "name":"Vicky Pe\u00f1a",
+        "birthYear":1954.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_046_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Sergi L\u00f3pez",
+        "name":"Sergi L\u00f3pez",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_046_04",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Roberto Enr\u00edquez",
+        "name":"Roberto Enr\u00edquez",
+        "birthYear":1968.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_046_08",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "person":{
+        "id":"Celso Bugallo",
+        "name":"Celso Bugallo",
+        "birthYear":1947.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_046_03",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Elena Seijo",
+        "name":"Elena Seijo",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":[
-    "RE",
-    "SE",
-    "EM"
-  ],
-  "charAbility":[
-    "AB",
-    "PD"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Joaqu\u00edn Climent",
-    "Roberto Enr\u00edquez",
-    null,
-    "Elena Seijo",
-    "Paca Gabald\u00f3n"
-  ],
-  "perBirthYear":[
-    0,
-    1958,
-    1962,
-    1968,
-    1949
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M",
-    null
-  ],
-  "perNationality":[
-    "ES",
-    null
-  ],
-  "perRole":null,
-  "slug":"es2023-046-la-manzana-de-oro"
+  "synopsis":{
+    "native":"La llegada de un invitado inesperado desestabiliza las Jornadas Po\u00e9ticas que cada a\u00f1o re\u00fane en un aislado convento del noroeste peninsular a distintas tendencias de la poes\u00eda espa\u00f1ola. Durante un acelerado fin de semana, mientras los poetas escriben, recitan y se vigilan, persiguiendo un premio dorado, una sospecha de plagio, la batalla por la presencia en una futura antolog\u00eda, la irreverencia de un rapero, el cumplea\u00f1os de un poeta centenario, unas setas venenosas, los imprevistos cruces sexuales y el despertar de amores tard\u00edos culminar\u00e1n en una noche tormentosa... Adaptaci\u00f3n de la novela \u201c\u00c1vidas pretensiones\u201d, de Fernando Aramburu.",
+    "english":"Three generations of poets meet every year in an isolated convent to compete for a prize."
+  }
 }

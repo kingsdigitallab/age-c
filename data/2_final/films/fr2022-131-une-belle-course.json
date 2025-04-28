@@ -1,58 +1,73 @@
 {
-  "filmId":"FR2022_131",
-  "title":"Une belle course",
-  "titleEn":"Driving Madeleine",
-  "director":"Christian Carion",
-  "releaseType":"THE",
-  "releaseDate":1663718400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"FR2022_131",
+  "type":"film",
+  "slug":"fr2022-131-une-belle-course",
+  "title":{
+    "native":"Une belle course",
+    "english":"Driving Madeleine"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1663718400000,
+    "year":2022
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=HMaiuxtXiLE",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/47\/215\/251695\/format_page\/une-belle-course.jpg"
+  },
   "genre":[
     "DRA",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=HMaiuxtXiLE",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/47\/215\/251695\/format_page\/une-belle-course.jpg",
-  "synopsis":"Madeleine, 92 ans, appelle un taxi pour rejoindre la maison de retraite o\u00f9 elle doit vivre d\u00e9sormais. Elle demande \u00e0 Charles, un chauffeur un peu d\u00e9sabus\u00e9, de passer par les lieux qui ont compt\u00e9 dans sa vie, pour les revoir une derni\u00e8re fois. Peu \u00e0 peu, au d\u00e9tour des rues de Paris, surgit un pass\u00e9 hors du commun qui bouleverse Charles. Il y a des voyages en taxi qui peuvent changer une vie\u2026",
-  "synopsisEn":"Madeleine, leaves small suburban to join a nursing home, on the other side of Paris. Charles, a taxi driver, comes to pick her and in no hurry to reach, she asks him to go through places of the capital, which have counted in her life.",
-  "country":[
-    "BE",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
     "personal memory",
     "intergenerational friendship",
-    "stages of life",
-    "retirement home",
-    "retirement",
+    "widowhood",
     "urban",
-    "cross-gender friendship",
-    "widowhood"
+    "stages of life",
+    "retirement",
+    "retirement home",
+    "cross-gender friendship"
   ],
-  "charId":"FR2022_131_01",
-  "perId":"Line Renaud",
-  "charAge":"4",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"RE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2022-131-une-belle-course"
+  "director":[
+    {
+      "id":"Christian Carion",
+      "name":"Christian Carion",
+      "birthYear":1963,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2022_131_01",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Line Renaud",
+        "name":"Line Renaud",
+        "birthYear":1928.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Madeleine, 92 ans, appelle un taxi pour rejoindre la maison de retraite o\u00f9 elle doit vivre d\u00e9sormais. Elle demande \u00e0 Charles, un chauffeur un peu d\u00e9sabus\u00e9, de passer par les lieux qui ont compt\u00e9 dans sa vie, pour les revoir une derni\u00e8re fois. Peu \u00e0 peu, au d\u00e9tour des rues de Paris, surgit un pass\u00e9 hors du commun qui bouleverse Charles. Il y a des voyages en taxi qui peuvent changer une vie\u2026",
+    "english":"Madeleine, leaves small suburban to join a nursing home, on the other side of Paris. Charles, a taxi driver, comes to pick her and in no hurry to reach, she asks him to go through places of the capital, which have counted in her life."
+  }
 }

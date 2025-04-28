@@ -1,52 +1,73 @@
 {
-  "filmId":"GB2018_012",
-  "title":"Lean on Pete",
-  "titleEn":null,
-  "director":"Andrew Haigh",
-  "releaseType":"THE",
-  "releaseDate":1525392000000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Andrew Haigh",
-  "directorBirthYear":1973,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2018_012",
+  "type":"film",
+  "slug":"gb2018-012-lean-on-pete",
+  "title":{
+    "native":"Lean on Pete",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1525392000000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=nzlazAyylw8",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt5340300\/mediaviewer\/rm2419482368\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "COA",
     "WES",
     "ROA"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=nzlazAyylw8",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5340300\/mediaviewer\/rm2419482368\/?ref_=tt_ov_i",
-  "synopsis":"A teenager gets a summer job working for a horse trainer and befriends the fading racehorse, Lean on Pete.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "rural",
-    "non-human companionship",
-    "self-employment",
-    "homosociality",
+    "intergenerational conflict",
     "mentorship",
-    "intergenerational conflict"
+    "rural",
+    "homosociality",
+    "self-employment",
+    "non-human companionship"
   ],
-  "charId":"GB2018_012_01",
-  "perId":"Steve Buscemi",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WNA",
-  "charClass":"MC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Steve Buscemi",
-  "perBirthYear":1957,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"US",
-  "perRole":null,
-  "slug":"gb2018-012-lean-on-pete"
+  "director":[
+    {
+      "id":"Andrew Haigh",
+      "name":"Andrew Haigh",
+      "birthYear":1973,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2018_012_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Steve Buscemi",
+        "name":"Steve Buscemi",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"A teenager gets a summer job working for a horse trainer and befriends the fading racehorse, Lean on Pete.",
+    "english":null
+  }
 }

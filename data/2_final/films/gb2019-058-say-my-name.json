@@ -1,51 +1,72 @@
 {
-  "filmId":"GB2019_058",
-  "title":"Say My Name",
-  "titleEn":null,
-  "director":"Jay Stern",
-  "releaseType":"THE",
-  "releaseDate":1552608000000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Jay Stern",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2019_058",
+  "type":"film",
+  "slug":"gb2019-058-say-my-name",
+  "title":{
+    "native":"Say My Name",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1552608000000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt7250378\/?ref_=nv_sr_srsg_2_tt_8_nm_0_in_0_q_Say%2520My%2520Name",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt7250378\/mediaviewer\/rm1975547904\/?ref_=tt_ov_i"
+  },
   "genre":[
     "CRI",
     "ROM",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt7250378\/?ref_=nv_sr_srsg_2_tt_8_nm_0_in_0_q_Say%2520My%2520Name",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt7250378\/mediaviewer\/rm1975547904\/?ref_=tt_ov_i",
-  "synopsis":"Mary and Statton's one-night stand at a hotel gets interrupted by a robbery, and the complete strangers are forced to help each other navigate the seedy underbelly of a sleepy Welsh island in order to get back their stolen property.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "rural",
+    "mentorship",
     "state institutions",
+    "rural",
     "regional identity",
     "celibacy",
-    "mentorship",
     "religion"
   ],
-  "charId":"GB2019_058_01",
-  "perId":"Craig Fairbrass",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Craig Fairbrass",
-  "perBirthYear":1964,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2019-058-say-my-name"
+  "director":[
+    {
+      "id":"Jay Stern",
+      "name":"Jay Stern",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2019_058_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Craig Fairbrass",
+        "name":"Craig Fairbrass",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Mary and Statton's one-night stand at a hotel gets interrupted by a robbery, and the complete strangers are forced to help each other navigate the seedy underbelly of a sleepy Welsh island in order to get back their stolen property.",
+    "english":null
+  }
 }

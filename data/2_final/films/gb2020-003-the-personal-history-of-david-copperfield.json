@@ -1,96 +1,122 @@
 {
-  "filmId":"GB2020_003",
-  "title":"The Personal History of David Copperfield",
-  "titleEn":null,
-  "director":"Armando Ianucci",
-  "releaseType":"THE",
-  "releaseDate":1579824000000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2020_003",
+  "type":"film",
+  "slug":"gb2020-003-the-personal-history-of-david-copperfield",
+  "title":{
+    "native":"The Personal History of David Copperfield",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1579824000000,
+    "year":2020
+  },
+  "production":{
+    "country":"US",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":null,
+    "posterUrl":null
+  },
   "genre":[
     "ROM",
     "ADV",
-    "COA",
     "HIS",
+    "COA",
     "COM"
   ],
-  "trailerUrl":null,
-  "posterUrl":null,
-  "synopsis":null,
-  "synopsisEn":null,
-  "country":[
-    "GB",
-    "US"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "fraud",
-    "personal memory",
-    "independent home",
-    "extended family",
     "mental illness",
-    "class conflict",
-    "inheritance",
-    "marriage",
-    "unemployment",
     "mentorship",
-    "urban",
     "precarity",
+    "urban",
+    "marriage",
+    "personal memory",
+    "fraud",
+    "independent home",
     "caregiving",
-    "homelessness"
+    "inheritance",
+    "class conflict",
+    "homelessness",
+    "extended family",
+    "unemployment"
   ],
-  "charId":[
-    "GB2020_003_03",
-    "GB2020_003_02",
-    "GB2020_003_01"
+  "director":[
+    {
+      "id":"Armando Ianucci",
+      "name":"Armando Ianucci",
+      "birthYear":1963,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Tilda Swinton",
-    "Peter Capaldi",
-    "Hugh Laurie"
+  "character":[
+    {
+      "id":"GB2020_003_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Tilda Swinton",
+        "name":"Tilda Swinton",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"UK"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_003_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Hugh Laurie",
+        "name":"Hugh Laurie",
+        "birthYear":1959.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_003_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Peter Capaldi",
+        "name":"Peter Capaldi",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "LC",
-    "UC"
-  ],
-  "charProfession":[
-    "SE",
-    "UN"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Peter Capaldi",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1958
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "M",
-    null
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2020-003-the-personal-history-of-david-copperfield"
+  "synopsis":{
+    "native":null,
+    "english":null
+  }
 }

@@ -1,62 +1,98 @@
 {
-  "filmId":"IT2022_060",
-  "title":"Le voci sole",
-  "titleEn":"Lonely Voices",
-  "director":[
-    "Andrea Brusa",
-    "Marco Scotuzzi"
+  "id":"IT2022_060",
+  "type":"film",
+  "slug":"it2022-060-le-voci-sole",
+  "title":{
+    "native":"Le voci sole",
+    "english":"Lonely Voices"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1649289600000,
+    "year":2022
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=mE7yxQqApq4",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt15220294\/mediaviewer\/rm2413895169\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
   ],
-  "releaseType":"THE",
-  "releaseDate":1649289600000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=mE7yxQqApq4",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt15220294\/mediaviewer\/rm2413895169\/?ref_=tt_ov_i",
-  "synopsis":"Marito e moglie diventano inaspettatamente popolari in internet. L\u2019improvvisa notoriet\u00e0 si rivela ben presto una minaccia all\u2019unione della famiglia.",
-  "synopsisEn":"One family's life goes haywire at the start of the pandemic as the matriarch-now without her steady housekeeper income-encounters a new kind of fame and celebrity when she begins teaching cooking lessons over the internet.",
-  "country":"IT",
-  "productionShare":"MAJ",
   "tags":[
-    "migration",
-    "technology",
-    "parenthood",
-    "marriage",
     "precarity",
-    "celebrity"
+    "marriage",
+    "celebrity",
+    "parenthood",
+    "technology",
+    "migration"
   ],
-  "charId":[
-    "IT2022_060_01",
-    "IT2022_060_02"
+  "director":[
+    {
+      "id":"Marco Scotuzzi",
+      "name":"Marco Scotuzzi",
+      "birthYear":1983,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    },
+    {
+      "id":"Andrea Brusa",
+      "name":"Andrea Brusa",
+      "birthYear":1984,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
   ],
-  "perId":[
-    "Giovanni Storti",
-    "Alessandra Faiella"
+  "character":[
+    {
+      "id":"IT2022_060_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Alessandra Faiella",
+        "name":"Alessandra Faiella",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2022_060_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Giovanni Storti",
+        "name":"Giovanni Storti",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2022-060-le-voci-sole"
+  "synopsis":{
+    "native":"Marito e moglie diventano inaspettatamente popolari in internet. L\u2019improvvisa notoriet\u00e0 si rivela ben presto una minaccia all\u2019unione della famiglia.",
+    "english":"One family's life goes haywire at the start of the pandemic as the matriarch-now without her steady housekeeper income-encounters a new kind of fame and celebrity when she begins teaching cooking lessons over the internet."
+  }
 }

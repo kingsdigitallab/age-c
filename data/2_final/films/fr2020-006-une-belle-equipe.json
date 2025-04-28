@@ -1,50 +1,71 @@
 {
-  "filmId":"FR2020_006",
-  "title":"Une belle \u00e9quipe",
-  "titleEn":"Quenns of the Field",
-  "director":"Mohamed Hamidi",
-  "releaseType":"THE",
-  "releaseDate":1579046400000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"FR2020_006",
+  "type":"film",
+  "slug":"fr2020-006-une-belle-equipe",
+  "title":{
+    "native":"Une belle \u00e9quipe",
+    "english":"Quenns of the Field"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1579046400000,
+    "year":2020
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=pJI6SQH7EHg",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/200\/65\/213448\/format_page\/une-belle-equipe.jpg"
+  },
   "genre":[
     "COM",
     "SPO"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=pJI6SQH7EHg",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/200\/65\/213448\/format_page\/une-belle-equipe.jpg",
-  "synopsis":"Apr\u00e8s une bagarre, toute l'\u00e9quipe de foot de Clourri\u00e8res est suspendue jusqu'\u00e0 la fin de la saison. Afin de sauver ce petit club du Nord qui risque de dispara\u00eetre, le coach d\u00e9cide de former une \u00e9quipe compos\u00e9e exclusivement de femmes pour finir le championnat. Cette situation va compl\u00e8tement bouleverser le quotidien des familles et changer les codes bien \u00e9tablis de la petite communaut\u00e9...",
-  "synopsisEn":"After its football team is disqualified for insulting a referee during a major game, a small country town risks losing its funding along with its field. To avoid this disaster, there is only one solution: creating a new team made up exclusively of women to defend the city\u2019s colors! But in a community where football has always been an activity reserved for men, these women\u2019s new status will be sure to shake up the daily lives of the town\u2019s residents\u2026",
-  "country":"FR",
-  "productionShare":"MAJ",
   "tags":[
-    "volunteering",
+    "mentorship",
     "intergenerational friendship",
     "fatherhood",
-    "mentorship",
-    "rescue mission",
-    "low rank employment"
+    "volunteering",
+    "low rank employment",
+    "rescue mission"
   ],
-  "charId":"FR2020_006_01",
-  "perId":"Kad Merad",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"NAF",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2020-006-une-belle-equipe"
+  "director":[
+    {
+      "id":"Mohamed Hamidi",
+      "name":"Mohamed Hamidi",
+      "birthYear":1972,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"DZ"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2020_006_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"NAF",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Kad Merad",
+        "name":"Kad Merad",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"DZ"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Apr\u00e8s une bagarre, toute l'\u00e9quipe de foot de Clourri\u00e8res est suspendue jusqu'\u00e0 la fin de la saison. Afin de sauver ce petit club du Nord qui risque de dispara\u00eetre, le coach d\u00e9cide de former une \u00e9quipe compos\u00e9e exclusivement de femmes pour finir le championnat. Cette situation va compl\u00e8tement bouleverser le quotidien des familles et changer les codes bien \u00e9tablis de la petite communaut\u00e9...",
+    "english":"After its football team is disqualified for insulting a referee during a major game, a small country town risks losing its funding along with its field. To avoid this disaster, there is only one solution: creating a new team made up exclusively of women to defend the city\u2019s colors! But in a community where football has always been an activity reserved for men, these women\u2019s new status will be sure to shake up the daily lives of the town\u2019s residents\u2026"
+  }
 }

@@ -1,90 +1,107 @@
 {
-  "filmId":"GB2019_008",
-  "title":"Blinded by the Light",
-  "titleEn":null,
-  "director":"Gurinder Chadha",
-  "releaseType":"THE",
-  "releaseDate":1565308800000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2019_008",
+  "type":"film",
+  "slug":"gb2019-008-blinded-by-the-light",
+  "title":{
+    "native":"Blinded by the Light",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1565308800000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=f1YFA_J5JBU",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt8266310\/mediaviewer\/rm2050592769\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "DRA",
+    "MUS",
     "COA",
     "COM",
-    "MUS"
-  ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=f1YFA_J5JBU",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt8266310\/mediaviewer\/rm2050592769\/?ref_=tt_ov_i",
-  "synopsis":"In England in 1987, a teenager from an Asian family learns to live his life, understand his family and find his own voice through the music of American rock star Bruce Springsteen.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "DRA"
   ],
   "tags":[
-    "cultural memory",
-    "migration",
+    "mentorship",
+    "urban",
     "national identity",
     "education",
-    "urban",
-    "mentorship",
-    "low rank employment"
+    "low rank employment",
+    "cultural memory",
+    "migration"
   ],
-  "charId":[
-    "GB2019_008_02",
-    "GB2019_008_01",
-    "GB2019_008_03"
+  "director":[
+
   ],
-  "perId":[
-    "David Hayman",
-    "Lorraine Ashbourne",
-    "Jeff Mirza"
+  "character":[
+    {
+      "id":"GB2019_008_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"AWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jeff Mirza",
+        "name":"Jeff Mirza",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_008_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"David Hayman",
+        "name":"David Hayman",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_008_02",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Lorraine Ashbourne",
+        "name":"Lorraine Ashbourne",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":[
-    "WWE",
-    "AWE"
-  ],
-  "charClass":"MC",
-  "charProfession":[
-    "EM",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "David Hayman",
-    "Lorraine Ashbourne",
-    "Jeff Mirza"
-  ],
-  "perBirthYear":[
-    1961,
-    1964,
-    1948
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2019-008-blinded-by-the-light"
+  "synopsis":{
+    "native":"In England in 1987, a teenager from an Asian family learns to live his life, understand his family and find his own voice through the music of American rock star Bruce Springsteen.",
+    "english":null
+  }
 }

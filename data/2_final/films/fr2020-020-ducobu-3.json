@@ -1,55 +1,70 @@
 {
-  "filmId":"FR2020_020",
-  "title":"Ducobu 3",
-  "titleEn":null,
-  "director":"\u00c9lie Semoun",
-  "releaseType":"THE",
-  "releaseDate":1580860800000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"FR2020_020",
+  "type":"film",
+  "slug":"fr2020-020-ducobu-3",
+  "title":{
+    "native":"Ducobu 3",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1580860800000,
+    "year":2020
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=uT7uRMG5SFk",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/64\/80\/217152\/format_page\/ducobu-3.jpg"
+  },
   "genre":[
-    "COM",
-    "CHI"
-  ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=uT7uRMG5SFk",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/64\/80\/217152\/format_page\/ducobu-3.jpg",
-  "synopsis":"Nouvelle rentr\u00e9e des classes pour l'\u00e9l\u00e8ve Ducobu, L\u00e9onie Gratin et l'instituteur Latouche. Mais cette ann\u00e9e, un rival de taille pour Ducobu d\u00e9barque \u00e0 l\u2019\u00e9cole : \u00ab TGV \u00bb, le roi de la triche 3.0. Alors que la situation financi\u00e8re de Saint-Potache devient d\u00e9sastreuse, les deux cancres vont devoir unir leurs cr\u00e9ativit\u00e9s pour remporter un concours de chant et sauver leur \u00e9cole.",
-  "synopsisEn":"New back to school for Ducobu student. But this year, a major rival for Ducobu arrives at school: \"TGV\", the king of cheating. The two dunces will have to unite their creativity to win a song contest and save their school.",
-  "country":[
-    "BE",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "CHI",
+    "COM"
   ],
   "tags":[
-    "abuse",
-    "self-employment",
     "celibacy",
+    "education",
     "high rank employment",
-    "education"
+    "self-employment",
+    "abuse"
   ],
-  "charId":"FR2020_020_01",
-  "perId":"\u00c9lie Semoun",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"NAF",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2020-020-ducobu-3"
+  "director":[
+    {
+      "id":"\u00c9lie Semoun",
+      "name":"\u00c9lie Semoun",
+      "birthYear":1963,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2020_020_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"NAF",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"\u00c9lie Semoun",
+        "name":"\u00c9lie Semoun",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Nouvelle rentr\u00e9e des classes pour l'\u00e9l\u00e8ve Ducobu, L\u00e9onie Gratin et l'instituteur Latouche. Mais cette ann\u00e9e, un rival de taille pour Ducobu d\u00e9barque \u00e0 l\u2019\u00e9cole : \u00ab TGV \u00bb, le roi de la triche 3.0. Alors que la situation financi\u00e8re de Saint-Potache devient d\u00e9sastreuse, les deux cancres vont devoir unir leurs cr\u00e9ativit\u00e9s pour remporter un concours de chant et sauver leur \u00e9cole.",
+    "english":"New back to school for Ducobu student. But this year, a major rival for Ducobu arrives at school: \"TGV\", the king of cheating. The two dunces will have to unite their creativity to win a song contest and save their school."
+  }
 }

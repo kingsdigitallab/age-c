@@ -1,47 +1,70 @@
 {
-  "filmId":"IT2022_070",
-  "title":"Mindemic",
-  "titleEn":"Mindemic",
-  "director":"Giovanni Basso",
-  "releaseType":"THE",
-  "releaseDate":1655251200000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=15xDbz5QH00",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt15170222\/mediaviewer\/rm1615271425\/?ref_=tt_ov_i",
-  "synopsis":"Un regista di cinema, caduto in disgrazia e rinchiuso in un appartamento di periferia, tenter\u00e0 di scrivere un nuovo film, la sua eterna opera zero.",
-  "synopsisEn":"A retired film director locked up in a suburban Rome apartment will attempt to write a new movie, his eternal opera zero.",
-  "country":"IT",
-  "productionShare":"MAJ",
+  "id":"IT2022_070",
+  "type":"film",
+  "slug":"it2022-070-mindemic",
+  "title":{
+    "native":"Mindemic",
+    "english":"Mindemic"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1655251200000,
+    "year":2022
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=15xDbz5QH00",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt15170222\/mediaviewer\/rm1615271425\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
+  ],
   "tags":[
     "search for meaning",
-    "personal memory",
-    "sex for hire",
     "mental illness",
-    "loneliness",
-    "artistic creation"
+    "personal memory",
+    "artistic creation",
+    "sex for hire",
+    "loneliness"
   ],
-  "charId":"IT2022_070_01",
-  "perId":"Giorgio Colangeli",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":"SE",
-  "charAbility":null,
-  "assistedMobility":"N",
-  "perName":"Giorgio Colangeli",
-  "perBirthYear":1949,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"IT",
-  "perRole":null,
-  "slug":"it2022-070-mindemic"
+  "director":[
+    {
+      "id":"Giovanni Basso",
+      "name":"Giovanni Basso",
+      "birthYear":1984,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2022_070_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"SE",
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Giorgio Colangeli",
+        "name":"Giorgio Colangeli",
+        "birthYear":1949.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Un regista di cinema, caduto in disgrazia e rinchiuso in un appartamento di periferia, tenter\u00e0 di scrivere un nuovo film, la sua eterna opera zero.",
+    "english":"A retired film director locked up in a suburban Rome apartment will attempt to write a new movie, his eternal opera zero."
+  }
 }

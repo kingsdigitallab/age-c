@@ -1,51 +1,74 @@
 {
-  "filmId":"FR2019_003",
-  "title":"Les Invisibles",
-  "titleEn":"Invisibles",
-  "director":"Louis-Julien Petit",
-  "releaseType":"THE",
-  "releaseDate":1546992000000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=05Fhc4WS48A",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/130\/1\/196994\/format_page\/les-invisibles.jpg",
-  "synopsis":"Suite \u00e0 une d\u00e9cision municipale, L'Envol, centre d'accueil pour femmes SDF, va fermer. Il reste trois mois aux travailleuses sociales pour tenter de r\u00e9ins\u00e9rer les femmes dont elles s'occupent : falsifications, pistons, mensonges... D\u00e9sormais tout est permis !",
-  "synopsisEn":"After a municipal decision, a shelter for homeless women, \u2018l\u2019Envol\u2019, is about to close. With only three months to reintegrate the women they care for, the social workers do everything they can: pulling-strings, bending the truth, and even outright lies... From now on, everything goes!",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2019_003",
+  "type":"film",
+  "slug":"fr2019-003-les-invisibles",
+  "title":{
+    "native":"Les Invisibles",
+    "english":"Invisibles"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1546992000000,
+    "year":2019
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=05Fhc4WS48A",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/130\/1\/196994\/format_page\/les-invisibles.jpg"
+  },
+  "genre":[
+    "COM"
+  ],
   "tags":[
     "activism",
-    "well-being",
-    "class solidarity",
-    "unemployment",
-    "urban",
     "precarity",
-    "new start",
+    "urban",
+    "unemployment",
+    "well-being",
+    "communal housing",
+    "class solidarity",
     "homelessness",
-    "rescue mission",
-    "communal housing"
+    "new start",
+    "rescue mission"
   ],
-  "charId":"FR2019_003_01",
-  "perId":"Corinne Masiero",
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2019-003-les-invisibles"
+  "director":[
+    {
+      "id":"Louis-Julien Petit",
+      "name":"Louis-Julien Petit",
+      "birthYear":1983,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2019_003_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Corinne Masiero",
+        "name":"Corinne Masiero",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Suite \u00e0 une d\u00e9cision municipale, L'Envol, centre d'accueil pour femmes SDF, va fermer. Il reste trois mois aux travailleuses sociales pour tenter de r\u00e9ins\u00e9rer les femmes dont elles s'occupent : falsifications, pistons, mensonges... D\u00e9sormais tout est permis !",
+    "english":"After a municipal decision, a shelter for homeless women, \u2018l\u2019Envol\u2019, is about to close. With only three months to reintegrate the women they care for, the social workers do everything they can: pulling-strings, bending the truth, and even outright lies... From now on, everything goes!"
+  }
 }

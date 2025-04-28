@@ -1,79 +1,95 @@
 {
-  "filmId":"ES2018_010",
-  "title":"La enfermedad del domingo",
-  "titleEn":"Sunday's Illness",
-  "director":"Ram\u00f3n Salazar",
-  "releaseType":"THE",
-  "releaseDate":1519344000000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Ram\u00f3n Salazar",
-  "directorBirthYear":1973,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=DFhK6kUD04c",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6053948\/mediaviewer\/rm2369542656\/?ref_=tt_ov_i",
-  "synopsis":"Anabel (Susi S\u00e1nchez) abandon\u00f3 a su hija Chiara (B\u00e1rbara Lennie) cuando esta apenas ten\u00eda ocho a\u00f1os. Treinta y cinco a\u00f1os despu\u00e9s, Chiara regresa con una extra\u00f1a petici\u00f3n para su madre: que pasen diez d\u00edas juntas. Anabel ve en ese viaje la oportunidad de recuperar a su hija, pero no sabe qu\u00e9 intenciones tiene Chiara.",
-  "synopsisEn":"Wealthy Anabel, 65, receives an unexpected visit from Chiara, the daughter she abandoned 30 years ago. Chiara has a request: that they spend 10 days together. Anabel goes out of guilt, but there are conditions of which she is unaware.",
-  "country":"ES",
-  "productionShare":"MAJ",
+  "id":"ES2018_010",
+  "type":"film",
+  "slug":"es2018-010-la-enfermedad-del-domingo",
+  "title":{
+    "native":"La enfermedad del domingo",
+    "english":"Sunday's Illness"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1519344000000,
+    "year":2018
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=DFhK6kUD04c",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt6053948\/mediaviewer\/rm2369542656\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
+  ],
   "tags":[
+    "intergenerational conflict",
     "wealth",
     "personal memory",
-    "personal trauma",
-    "independent home",
-    "abuse",
-    "homosociality",
-    "return home",
     "marriage",
-    "intergenerational conflict",
+    "return home",
+    "independent home",
     "natural",
+    "homosociality",
+    "personal trauma",
+    "abuse",
     "motherhood"
   ],
-  "charId":[
-    "ES2018_010_01",
-    "ES2018_010_02"
+  "director":[
+    {
+      "id":"Ram\u00f3n Salazar",
+      "name":"Ram\u00f3n Salazar",
+      "birthYear":1973,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Miguel \u00c1ngel Sol\u00e1",
-    "Susi S\u00e1nchez"
+  "character":[
+    {
+      "id":"ES2018_010_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WLA",
+      "class":"UC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Miguel \u00c1ngel Sol\u00e1",
+        "name":"Miguel \u00c1ngel Sol\u00e1",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"AR"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_010_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Susi S\u00e1nchez",
+        "name":"Susi S\u00e1nchez",
+        "birthYear":1955.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":[
-    "WWE",
-    "WLA"
-  ],
-  "charClass":"UC",
-  "charProfession":[
-    "UN",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Miguel \u00c1ngel Sol\u00e1",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1950
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "M",
-    null
-  ],
-  "perNationality":[
-    "AR",
-    null
-  ],
-  "perRole":null,
-  "slug":"es2018-010-la-enfermedad-del-domingo"
+  "synopsis":{
+    "native":"Anabel (Susi S\u00e1nchez) abandon\u00f3 a su hija Chiara (B\u00e1rbara Lennie) cuando esta apenas ten\u00eda ocho a\u00f1os. Treinta y cinco a\u00f1os despu\u00e9s, Chiara regresa con una extra\u00f1a petici\u00f3n para su madre: que pasen diez d\u00edas juntas. Anabel ve en ese viaje la oportunidad de recuperar a su hija, pero no sabe qu\u00e9 intenciones tiene Chiara.",
+    "english":"Wealthy Anabel, 65, receives an unexpected visit from Chiara, the daughter she abandoned 30 years ago. Chiara has a request: that they spend 10 days together. Anabel goes out of guilt, but there are conditions of which she is unaware."
+  }
 }

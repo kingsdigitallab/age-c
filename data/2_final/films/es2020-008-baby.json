@@ -1,73 +1,96 @@
 {
-  "filmId":"ES2020_008",
-  "title":"Baby",
-  "titleEn":"Baby",
-  "director":"Juanma Bajo Ulloa",
-  "releaseType":"THE",
-  "releaseDate":1583971200000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":"Juanma Bajo Ulloa",
-  "directorBirthYear":1967,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2020_008",
+  "type":"film",
+  "slug":"es2020-008-baby",
+  "title":{
+    "native":"Baby",
+    "english":"Baby"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1583971200000,
+    "year":2020
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=6CyzBBTt-Dg",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9760852\/mediaviewer\/rm2184169473\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "HOR",
     "FAN",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=6CyzBBTt-Dg",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9760852\/mediaviewer\/rm2184169473\/?ref_=tt_ov_i",
-  "synopsis":"Una joven adicta, da a luz en medio de una de sus crisis. Incapaz de ocuparse del beb\u00e9, lo vende a una matrona dedicada al comercio infantil. Arrepentida, tratar\u00e1 de recuperarlo descubriendo una realidad sobrecogedora.",
-  "synopsisEn":"A young girl drug addict, gives birth in the middle of one her breakdowns. Unable to give proper care to her baby, she sells him to a disturbing woman who works in the child trade business. The girl will soon regret her decision and she will have to overcome her weaknesses and face her deepest fears.",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "rural",
-    "power",
-    "abuse",
-    "independent home",
+    "intergenerational conflict",
     "mental illness",
     "trauma",
-    "motherhood",
+    "rural",
+    "independent home",
     "caregiving",
-    "intergenerational conflict"
+    "power",
+    "abuse",
+    "motherhood"
   ],
-  "charId":[
-    "ES2020_008_02",
-    "ES2020_008_01"
+  "director":[
+    {
+      "id":"Juanma Bajo Ulloa",
+      "name":"Juanma Bajo Ulloa",
+      "birthYear":1967,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Charo L\u00f3pez",
-    "Harriet Sansom Harris"
+  "character":[
+    {
+      "id":"ES2020_008_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Harriet Sansom Harris",
+        "name":"Harriet Sansom Harris",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2020_008_02",
+      "age":"4",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Charo L\u00f3pez",
+        "name":"Charo L\u00f3pez",
+        "birthYear":1943.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":"F",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":[
-    "UC",
-    null
-  ],
-  "charProfession":null,
-  "charAbility":[
-    "AB",
-    null
-  ],
-  "assistedMobility":[
-    "N",
-    null
-  ],
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"es2020-008-baby"
+  "synopsis":{
+    "native":"Una joven adicta, da a luz en medio de una de sus crisis. Incapaz de ocuparse del beb\u00e9, lo vende a una matrona dedicada al comercio infantil. Arrepentida, tratar\u00e1 de recuperarlo descubriendo una realidad sobrecogedora.",
+    "english":"A young girl drug addict, gives birth in the middle of one her breakdowns. Unable to give proper care to her baby, she sells him to a disturbing woman who works in the child trade business. The girl will soon regret her decision and she will have to overcome her weaknesses and face her deepest fears."
+  }
 }

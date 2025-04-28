@@ -1,86 +1,117 @@
 {
-  "filmId":"ES2020_058",
-  "title":"La dona il\u00b7legal",
-  "titleEn":"Illegal Woman",
-  "director":"Ramon T\u00e9rmens",
-  "releaseType":"THE",
-  "releaseDate":1324339200000,
-  "type":"F",
-  "releaseYear":2011,
-  "directorName":"Ramon T\u00e9rmens",
-  "directorBirthYear":1974,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2020_058",
+  "type":"film",
+  "slug":"es2020-058-la-dona-il-legal",
+  "title":{
+    "native":"La dona il\u00b7legal",
+    "english":"Illegal Woman"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1324339200000,
+    "year":2011
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=904765",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt10101806\/mediaviewer\/rm3659118081\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "COU",
     "DRA",
+    "COU",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=904765",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt10101806\/mediaviewer\/rm3659118081\/?ref_=tt_ov_i",
-  "synopsis":"Un abogado y una mujer nigeriana atrapada en una red de prostituci\u00f3n unen sus fuerzas para luchar contra la corrupci\u00f3n del sistema de deportaci\u00f3n del Estado espa\u00f1ol.",
-  "synopsisEn":"The life of an immigration lawyer changes radically when his new client appears dead in suspicious circumstances inside a CIE (immigration detention center).",
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "racial discrimination",
-    "sex for hire",
-    "abuse",
     "migration",
-    "self-employment",
-    "state institutions",
-    "organized crime",
     "high-rank employment",
-    "gender discrimination",
+    "state institutions",
     "urban",
-    "rescue mission"
+    "sex for hire",
+    "gender discrimination",
+    "self-employment",
+    "abuse",
+    "rescue mission",
+    "racial discrimination",
+    "organized crime"
   ],
-  "charId":[
-    "ES2020_058_02",
-    "ES2020_058_01",
-    "ES2020_058_03"
+  "director":[
+    {
+      "id":"Ramon T\u00e9rmens",
+      "name":"Ramon T\u00e9rmens",
+      "birthYear":1974,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Boris Ruiz",
-    "Daniel Faraldo",
-    "Abdel Aziz El Mountassir"
+  "character":[
+    {
+      "id":"ES2020_058_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Boris Ruiz",
+        "name":"Boris Ruiz",
+        "birthYear":1952.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2020_058_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WLA",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Daniel Faraldo",
+        "name":"Daniel Faraldo",
+        "birthYear":1949.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2020_058_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"NAF",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Abdel Aziz El Mountassir",
+        "name":"Abdel Aziz El Mountassir",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"MA"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":[
-    "WWE",
-    "NAF",
-    "WLA"
-  ],
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Boris Ruiz",
-    "Daniel Faraldo",
-    "Abdel Aziz El Mountassir"
-  ],
-  "perBirthYear":[
-    1952,
-    1949,
-    1958
-  ],
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":[
-    "MA",
-    "US",
-    "ES"
-  ],
-  "perRole":null,
-  "slug":"es2020-058-la-dona-il-legal"
+  "synopsis":{
+    "native":"Un abogado y una mujer nigeriana atrapada en una red de prostituci\u00f3n unen sus fuerzas para luchar contra la corrupci\u00f3n del sistema de deportaci\u00f3n del Estado espa\u00f1ol.",
+    "english":"The life of an immigration lawyer changes radically when his new client appears dead in suspicious circumstances inside a CIE (immigration detention center)."
+  }
 }

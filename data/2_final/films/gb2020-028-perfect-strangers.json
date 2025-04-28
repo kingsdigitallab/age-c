@@ -1,68 +1,115 @@
 {
-  "filmId":"GB2020_028",
-  "title":"Perfect Strangers",
-  "titleEn":null,
-  "director":"Ryan Hendrick",
-  "releaseType":"THE",
-  "releaseDate":1607040000000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":"Ryan Hendrick",
-  "directorBirthYear":1984,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2020_028",
+  "type":"film",
+  "slug":"gb2020-028-perfect-strangers",
+  "title":{
+    "native":"Perfect Strangers",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1607040000000,
+    "year":2020
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=591346",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9144004\/mediaviewer\/rm3934509825\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "COM",
-    "ROM"
+    "ROM",
+    "COM"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=591346",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9144004\/mediaviewer\/rm3934509825\/?ref_=tt_ov_i",
-  "synopsis":"Two down-on-their-luck strangers come together to try and get home for Christmas.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
     "festivities",
-    "rural",
-    "loneliness",
-    "regional identity",
-    "homosociality",
-    "cross-gender friendship",
-    "retirement",
-    "intragenerational friendship",
     "elderhood (friendship among elders)",
-    "separation"
+    "rural",
+    "regional identity",
+    "separation",
+    "homosociality",
+    "intragenerational friendship",
+    "retirement",
+    "loneliness",
+    "cross-gender friendship"
   ],
-  "charId":[
-    "GB2020_028_03",
-    "GB2020_028_01",
-    "GB2020_028_02"
+  "director":[
+    {
+      "id":"Ryan Hendrick",
+      "name":"Ryan Hendrick",
+      "birthYear":1984,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Frazer Hines",
-    "Sylvester McCoy",
-    "Clare Grogan"
+  "character":[
+    {
+      "id":"GB2020_028_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Frazer Hines",
+        "name":"Frazer Hines",
+        "birthYear":1944.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_028_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Sylvester McCoy",
+        "name":"Sylvester McCoy",
+        "birthYear":1943.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_028_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Clare Grogan",
+        "name":"Clare Grogan",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":[
-    "RE",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2020-028-perfect-strangers"
+  "synopsis":{
+    "native":"Two down-on-their-luck strangers come together to try and get home for Christmas.",
+    "english":null
+  }
 }

@@ -1,50 +1,71 @@
 {
-  "filmId":"FR2021_045",
-  "title":"Messe basse",
-  "titleEn":"The Lodger",
-  "director":"Baptiste Drapeau",
-  "releaseType":"THE",
-  "releaseDate":1628035200000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"FR2021_045",
+  "type":"film",
+  "slug":"fr2021-045-messe-basse",
+  "title":{
+    "native":"Messe basse",
+    "english":"The Lodger"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1628035200000,
+    "year":2021
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=HNrGYyLQLac",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/168\/156\/236712\/format_page\/the-lodger.jpg"
+  },
   "genre":[
     "HOR",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=HNrGYyLQLac",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/168\/156\/236712\/format_page\/the-lodger.jpg",
-  "synopsis":"Dans une grande maison bourgeoise, deux femmes, une veuve et une \u00e9tudiante, se disputent l\u2019amour d\u2019un homme disparu jusqu\u2019\u00e0 sombrer dans la folie.",
-  "synopsisEn":"Julie just strated university in Bordeaux. She moves into the house of Elizabeth, an old widow who lends her a room in exchange for her help with daily chores. There\u2019s one condition : acting as if Victor, Elizabeth\u2019s dead husband, was still alive. But soon, Julie starts feeling his presence\u2026and an inescapable and dangerous love triangle begins.",
-  "country":"FR",
-  "productionShare":"MAJ",
   "tags":[
+    "intergenerational conflict",
+    "mental illness",
     "wealth",
     "independent home",
-    "mental illness",
-    "grief",
     "crime",
-    "intergenerational conflict"
+    "grief"
   ],
-  "charId":"FR2021_045_01",
-  "perId":"Jacqueline Bisset",
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"RE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2021-045-messe-basse"
+  "director":[
+    {
+      "id":"Baptiste Drapeau",
+      "name":"Baptiste Drapeau",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2021_045_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jacqueline Bisset",
+        "name":"Jacqueline Bisset",
+        "birthYear":1944.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Dans une grande maison bourgeoise, deux femmes, une veuve et une \u00e9tudiante, se disputent l\u2019amour d\u2019un homme disparu jusqu\u2019\u00e0 sombrer dans la folie.",
+    "english":"Julie just strated university in Bordeaux. She moves into the house of Elizabeth, an old widow who lends her a room in exchange for her help with daily chores. There\u2019s one condition : acting as if Victor, Elizabeth\u2019s dead husband, was still alive. But soon, Julie starts feeling his presence\u2026and an inescapable and dangerous love triangle begins."
+  }
 }

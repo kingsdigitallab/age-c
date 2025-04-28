@@ -1,50 +1,67 @@
 {
-  "filmId":"IT2023_058",
-  "title":"La caccia",
-  "titleEn":"The Hunt",
-  "director":"Marco Bocci",
-  "releaseType":"THE",
-  "releaseDate":1683763200000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=R6WiuF9ilBI",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt16308190\/mediaviewer\/rm3383307521\/?ref_=tt_ov_i",
-  "synopsis":"Un dramma familiare che segue la storia di quattro fratelli, tre maschi e una femmina, che si riuniscono, dopo svariati anni di lontananza, per l\u2019improvvisa morte del padre.",
-  "synopsisEn":"Giorgio, Mattia, Silvia and Luca. At the death of their father, the foursome will have to come to terms with the murder of their mother at the hands of their father, and with financial woes. Therefore they finally accept a challenge launched by Luca: a hunting expedition in the woods, of the kind they used to go on as children. The one who catches the biggest prey will automatically win the right to keep the entire inheritance.",
-  "country":[
-    "SK",
-    "IT"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+  "id":"IT2023_058",
+  "type":"film",
+  "slug":"it2023-058-la-caccia",
+  "title":{
+    "native":"La caccia",
+    "english":"The Hunt"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1683763200000,
+    "year":2023
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=R6WiuF9ilBI",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt16308190\/mediaviewer\/rm3383307521\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
   ],
   "tags":[
-    "inheritance",
     "crime",
-    "siblinghood"
+    "siblinghood",
+    "inheritance"
   ],
-  "charId":"IT2023_058_01",
-  "perId":"Paolo Pierobon",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2023-058-la-caccia"
+  "director":[
+    {
+      "id":"Marco Bocci",
+      "name":"Marco Bocci",
+      "birthYear":1978,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
+  ],
+  "character":[
+    {
+      "id":"IT2023_058_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Paolo Pierobon",
+        "name":"Paolo Pierobon",
+        "birthYear":1967.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
+  ],
+  "synopsis":{
+    "native":"Un dramma familiare che segue la storia di quattro fratelli, tre maschi e una femmina, che si riuniscono, dopo svariati anni di lontananza, per l\u2019improvvisa morte del padre.",
+    "english":"Giorgio, Mattia, Silvia and Luca. At the death of their father, the foursome will have to come to terms with the murder of their mother at the hands of their father, and with financial woes. Therefore they finally accept a challenge launched by Luca: a hunting expedition in the woods, of the kind they used to go on as children. The one who catches the biggest prey will automatically win the right to keep the entire inheritance."
+  }
 }

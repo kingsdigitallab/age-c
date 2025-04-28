@@ -1,98 +1,111 @@
 {
-  "filmId":"GB2018_021",
-  "title":"Cake",
-  "titleEn":null,
-  "director":"Asim Abbasi",
-  "releaseType":"THE",
-  "releaseDate":1522368000000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Asim Abbasi",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":[
-    "GB",
-    "PK"
-  ],
+  "id":"GB2018_021",
+  "type":"film",
+  "slug":"gb2018-021-cake",
+  "title":{
+    "native":"Cake",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1522368000000,
+    "year":2018
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=cr96skoXSuM",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt7715988\/mediaviewer\/rm1367625472\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "ROM",
+    "HEM",
     "THR",
-    "COM",
-    "HEM"
-  ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=cr96skoXSuM",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt7715988\/mediaviewer\/rm1367625472\/?ref_=tt_ov_i",
-  "synopsis":"A woman who takes care of her aging parents and their land is joined by her sister when their parents' health worsens.",
-  "synopsisEn":null,
-  "country":[
-    "GB",
-    "PK"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "COM"
   ],
   "tags":[
     "wealth",
-    "rural",
-    "personal memory",
-    "migration",
-    "fatherhood",
-    "independent home",
-    "medical treatment",
     "physical illness",
-    "national identity",
-    "parenthood",
-    "return home",
+    "personal memory",
     "marriage",
+    "hospital",
+    "return home",
+    "rural",
+    "independent home",
     "caregiving",
-    "motherhood",
-    "hospital"
+    "national identity",
+    "medical treatment",
+    "parenthood",
+    "fatherhood",
+    "migration",
+    "motherhood"
   ],
-  "charId":[
-    "GB2018_021_01",
-    "GB2018_021_02"
+  "director":[
+    {
+      "id":"Asim Abbasi",
+      "name":"Asim Abbasi",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    },
+    {
+      "id":"Asim Abbasi",
+      "name":"Asim Abbasi",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"PK"
+    }
   ],
-  "perId":[
-    "Beo Raana Zafar",
-    "Mohammad Ahmad"
+  "character":[
+    {
+      "id":"GB2018_021_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"SOA",
+      "class":"UC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Beo Raana Zafar",
+        "name":"Beo Raana Zafar",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"PK"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2018_021_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"SOA",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Mohammad Ahmad",
+        "name":"Mohammad Ahmad",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"PK"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"SOA",
-  "charClass":"UC",
-  "charProfession":[
-    "SE",
-    "UN"
-  ],
-  "charAbility":[
-    "AB",
-    "CI"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Beo Raana Zafar",
-    "Mohammad Ahmad"
-  ],
-  "perBirthYear":[
-    0,
-    1957
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"PK",
-  "perRole":null,
-  "slug":"gb2018-021-cake"
+  "synopsis":{
+    "native":"A woman who takes care of her aging parents and their land is joined by her sister when their parents' health worsens.",
+    "english":null
+  }
 }

@@ -1,110 +1,124 @@
 {
-  "filmId":"GB2019_003",
-  "title":"Stan & Ollie",
-  "titleEn":null,
-  "director":"Jon S. Baird",
-  "releaseType":"THE",
-  "releaseDate":1547164800000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Jon S. Baird",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2019_003",
+  "type":"film",
+  "slug":"gb2019-003-stan-ollie",
+  "title":{
+    "native":"Stan & Ollie",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1547164800000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=MdcBNrjc3wo",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt3385524\/mediaviewer\/rm3227480064\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
-    "BIO",
     "MET",
+    "BIO",
     "HIS",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=MdcBNrjc3wo",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt3385524\/mediaviewer\/rm3227480064\/?ref_=tt_ov_i",
-  "synopsis":"Laurel and Hardy, the world's most famous comedy duo, attempt to reignite their film careers as they embark on what becomes their swan song: a grueling theatre tour of post-war Britain.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB",
-    "CA"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "wealth",
-    "cultural memory",
-    "friendship betrayal",
-    "may-december",
-    "physical illness",
-    "last mission",
-    "artistic creation",
-    "gray face",
-    "superior-employee relationship",
-    "homosociality",
-    "high rank employment",
-    "marriage",
-    "intragenerational friendship",
     "ageism",
+    "wealth",
+    "friendship betrayal",
+    "superior-employee relationship",
+    "marriage",
+    "mass media",
+    "artistic creation",
     "celebrity",
-    "mass media"
+    "homosociality",
+    "intragenerational friendship",
+    "high rank employment",
+    "may-december",
+    "gray face",
+    "cultural memory",
+    "last mission",
+    "physical illness"
   ],
-  "charId":[
-    "GB2019_003_02",
-    "GB2019_003_01",
-    "GB2019_003_03"
+  "director":[
+    {
+      "id":"Jon S. Baird",
+      "name":"Jon S. Baird",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Danny Huston",
-    "Steve Coogan",
-    "John C. Reilly"
+  "character":[
+    {
+      "id":"GB2019_003_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Steve Coogan",
+        "name":"Steve Coogan",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_003_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"John C. Reilly",
+        "name":"John C. Reilly",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_003_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WNA",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Danny Huston",
+        "name":"Danny Huston",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":[
-    "WNA",
-    "WWE"
-  ],
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":[
-    "AB",
-    "CI"
-  ],
-  "assistedMobility":"N",
-  "perName":[
-    "John C. Reilly",
-    "Danny Huston",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1962,
-    1965
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    null,
-    "M"
-  ],
-  "perNationality":[
-    "US",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2019-003-stan-ollie"
+  "synopsis":{
+    "native":"Laurel and Hardy, the world's most famous comedy duo, attempt to reignite their film careers as they embark on what becomes their swan song: a grueling theatre tour of post-war Britain.",
+    "english":null
+  }
 }

@@ -1,76 +1,93 @@
 {
-  "filmId":"ES2022_026",
-  "title":"H\u00e9roes de barrio",
-  "titleEn":null,
-  "director":"\u00c1ngeles Rein\u00e9",
-  "releaseType":"THE",
-  "releaseDate":1658793600000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"ES2022_026",
+  "type":"film",
+  "slug":"es2022-026-heroes-de-barrio",
+  "title":{
+    "native":"H\u00e9roes de barrio",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1658793600000,
+    "year":2022
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=208735",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14326062\/mediaviewer\/rm1846020097\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "SPO",
+    "CHI",
     "COM",
-    "CHI"
+    "SPO"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=208735",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14326062\/mediaviewer\/rm1846020097\/?ref_=tt_ov_i",
-  "synopsis":"Paula es una ni\u00f1a que juega en un equipo de f\u00fatbol infantil femenino y pide a su padre, Lu\u00eds, que le traiga a final de temporada al jugador del Betis Joaqu\u00edn, de qui\u00e9n \u00e9ste finge ser un buen amigo. Lu\u00eds se apoya en su padre, un ex boxeador, y en su amigo Lito para intentar recuperar el amor de su mujer, que ahora vive con una nueva pareja.",
-  "synopsisEn":null,
-  "country":"ES",
-  "productionShare":"MAJ",
   "tags":[
-    "fatherhood",
-    "self-employment",
-    "regional identity",
-    "class solidarity",
     "urban",
+    "regional identity",
+    "grandfatherhood",
+    "fatherhood",
+    "class solidarity",
     "low rank employment",
-    "grandfatherhood"
+    "self-employment"
   ],
-  "charId":[
-    "ES2022_026_02",
-    "ES2022_026_01"
+  "director":[
+    {
+      "id":"\u00c1ngeles Rein\u00e9",
+      "name":"\u00c1ngeles Rein\u00e9",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"ES"
+    }
   ],
-  "perId":[
-    "Antonio Dechent",
-    "Bruto Pomeroy"
+  "character":[
+    {
+      "id":"ES2022_026_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Bruto Pomeroy",
+        "name":"Bruto Pomeroy",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2022_026_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Antonio Dechent",
+        "name":"Antonio Dechent",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "LM"
-  ],
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Bruto Pomeroy",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1958
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "M",
-    null
-  ],
-  "perNationality":[
-    "ES",
-    null
-  ],
-  "perRole":null,
-  "slug":"es2022-026-heroes-de-barrio"
+  "synopsis":{
+    "native":"Paula es una ni\u00f1a que juega en un equipo de f\u00fatbol infantil femenino y pide a su padre, Lu\u00eds, que le traiga a final de temporada al jugador del Betis Joaqu\u00edn, de qui\u00e9n \u00e9ste finge ser un buen amigo. Lu\u00eds se apoya en su padre, un ex boxeador, y en su amigo Lito para intentar recuperar el amor de su mujer, que ahora vive con una nueva pareja.",
+    "english":null
+  }
 }

@@ -1,50 +1,67 @@
 {
-  "filmId":"ES2022_034",
-  "title":"Girasoles silvestres",
-  "titleEn":"Wild Flowers",
-  "director":"Jaime Rosales",
-  "releaseType":"THE",
-  "releaseDate":1664150400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Jaime Rosales",
-  "directorBirthYear":1970,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt13774830\/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_Girasoles%2520silvestres",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt13774830\/mediaviewer\/rm1023936513\/?ref_=tt_ov_i",
-  "synopsis":"Julia, una joven de 22 a\u00f1os y madre de dos ni\u00f1os, se enamora de \u00d3scar, un chico conflictivo con el que comienza una relaci\u00f3n. A medida que pasan tiempo juntos, Julia empezar\u00e1 a plantearse si \u00d3scar es la persona que realmente necesita a su lado, lo que la llevar\u00e1 a iniciar un viaje personal en busca de su felicidad y la de su familia",
-  "synopsisEn":"A mother battles to defend her children while at the same time embarking on a love affair with a boy.",
-  "country":[
-    "FR",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+  "id":"ES2022_034",
+  "type":"film",
+  "slug":"es2022-034-girasoles-silvestres",
+  "title":{
+    "native":"Girasoles silvestres",
+    "english":"Wild Flowers"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1664150400000,
+    "year":2022
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt13774830\/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_Girasoles%2520silvestres",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt13774830\/mediaviewer\/rm1023936513\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DRA"
   ],
   "tags":[
     "fatherhood",
-    "precarity",
-    "class solidarity"
+    "class solidarity",
+    "precarity"
   ],
-  "charId":"ES2022_034_01",
-  "perId":"Manolo Solo",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Manolo Solo",
-  "perBirthYear":1964,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"es2022-034-girasoles-silvestres"
+  "director":[
+    {
+      "id":"Jaime Rosales",
+      "name":"Jaime Rosales",
+      "birthYear":1970,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
+  ],
+  "character":[
+    {
+      "id":"ES2022_034_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Manolo Solo",
+        "name":"Manolo Solo",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Julia, una joven de 22 a\u00f1os y madre de dos ni\u00f1os, se enamora de \u00d3scar, un chico conflictivo con el que comienza una relaci\u00f3n. A medida que pasan tiempo juntos, Julia empezar\u00e1 a plantearse si \u00d3scar es la persona que realmente necesita a su lado, lo que la llevar\u00e1 a iniciar un viaje personal en busca de su felicidad y la de su familia",
+    "english":"A mother battles to defend her children while at the same time embarking on a love affair with a boy."
+  }
 }

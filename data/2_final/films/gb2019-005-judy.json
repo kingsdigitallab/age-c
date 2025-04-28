@@ -1,58 +1,72 @@
 {
-  "filmId":"GB2019_005",
-  "title":"Judy",
-  "titleEn":null,
-  "director":"Rupert Goold",
-  "releaseType":"THE",
-  "releaseDate":1570147200000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Rupert Goold",
-  "directorBirthYear":1972,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2019_005",
+  "type":"film",
+  "slug":"gb2019-005-judy",
+  "title":{
+    "native":"Judy",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1570147200000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=98t7aXRaA6w",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt7549996\/mediaviewer\/rm332045313\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "DRA",
     "BIO",
+    "DRA",
     "MUS"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=98t7aXRaA6w",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt7549996\/mediaviewer\/rm332045313\/?ref_=tt_ov_i",
-  "synopsis":"Legendary performer Judy Garland arrives in London in the winter of 1968 to perform a series of sold-out concerts.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "FR",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "wealth",
-    "power",
-    "self-employment",
-    "artistic creation",
     "superior-employee relationship",
-    "high rank employment"
+    "wealth",
+    "artistic creation",
+    "high rank employment",
+    "power",
+    "self-employment"
   ],
-  "charId":"GB2019_005_01",
-  "perId":"Michael Gambon",
-  "charAge":"4",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Michael Gambon",
-  "perBirthYear":1940,
-  "perDeathYear":2023,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2019-005-judy"
+  "director":[
+    {
+      "id":"Rupert Goold",
+      "name":"Rupert Goold",
+      "birthYear":1972,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2019_005_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Michael Gambon",
+        "name":"Michael Gambon",
+        "birthYear":1940.0,
+        "deathYear":2023.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Legendary performer Judy Garland arrives in London in the winter of 1968 to perform a series of sold-out concerts.",
+    "english":null
+  }
 }

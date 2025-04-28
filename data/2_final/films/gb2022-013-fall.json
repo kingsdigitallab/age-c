@@ -1,53 +1,68 @@
 {
-  "filmId":"GB2022_013",
-  "title":"Fall",
-  "titleEn":null,
-  "director":"Scott Mann",
-  "releaseType":"THE",
-  "releaseDate":1662076800000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Scott Mann",
-  "directorBirthYear":1979,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2022_013",
+  "type":"film",
+  "slug":"gb2022-013-fall",
+  "title":{
+    "native":"Fall",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1662076800000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt15325794\/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_Fall",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt15325794\/mediaviewer\/rm1783895553\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt15325794\/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_Fall",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt15325794\/mediaviewer\/rm1783895553\/?ref_=tt_ov_i",
-  "synopsis":"When a high-rise climb goes wrong, best friends Becky and Hunter find themselves stuck at the top of a 2,000-foot TV tower.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
     "fatherhood",
-    "grief",
-    "mentorship"
+    "mentorship",
+    "grief"
   ],
-  "charId":"GB2022_013_01",
-  "perId":"Jeffrey Dean Morgan",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Jeffrey Dean Morgan",
-  "perBirthYear":1966,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"US",
-  "perRole":null,
-  "slug":"gb2022-013-fall"
+  "director":[
+    {
+      "id":"Scott Mann",
+      "name":"Scott Mann",
+      "birthYear":1979,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2022_013_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jeffrey Dean Morgan",
+        "name":"Jeffrey Dean Morgan",
+        "birthYear":1966.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"When a high-rise climb goes wrong, best friends Becky and Hunter find themselves stuck at the top of a 2,000-foot TV tower.",
+    "english":null
+  }
 }

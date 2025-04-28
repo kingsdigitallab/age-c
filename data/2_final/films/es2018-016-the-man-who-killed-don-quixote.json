@@ -1,109 +1,111 @@
 {
-  "filmId":"ES2018_016",
-  "title":"The Man Who Killed Don Quixote",
-  "titleEn":null,
-  "director":"Terry Gilliam",
-  "releaseType":"THE",
-  "releaseDate":1527811200000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"ES2018_016",
+  "type":"film",
+  "slug":"es2018-016-the-man-who-killed-don-quixote",
+  "title":{
+    "native":"The Man Who Killed Don Quixote",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1527811200000,
+    "year":2018
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=yiiRZJUTT2k",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt1318517\/mediaviewer\/rm3143394816\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "ADV",
     "MET",
-    "ROA",
-    "COM"
-  ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=yiiRZJUTT2k",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt1318517\/mediaviewer\/rm3143394816\/?ref_=tt_ov_i",
-  "synopsis":"Toby, un director de cine muy c\u00ednico, se ve envuelto en los estrafalarios delirios de un viejo zapatero espa\u00f1ol que se cree el mismo Don Quijote. A lo largo de sus aventuras c\u00f3micas, y cada vez m\u00e1s surrealistas, Toby se ve abocado a enfrentarse con las tr\u00e1gicas repercusiones de la pel\u00edcula que rod\u00f3 cuando era un joven idealista, una pel\u00edcula que cambi\u00f3 los sue\u00f1os y esperanzas de un peque\u00f1o pueblo espa\u00f1ol para siempre. \u00bfPodr\u00e1 Toby reparar los da\u00f1os y recuperar su propia humanidad? \u00bfPodr\u00e1 Don Quijote sobrevivir a su propia locura y muerte inminente? \u00bfEl amor lo conquistar\u00e1 todo?",
-  "synopsisEn":"Toby, a disillusioned film director, is pulled into a world of time-jumping fantasy when a Spanish cobbler believes himself to be Sancho Panza. He gradually becomes unable to tell dreams from reality.",
-  "country":[
-    "PT",
-    "BE",
-    "FR",
-    "ES",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
+    "COM",
+    "ROA"
   ],
   "tags":[
-    "desire",
-    "technology",
-    "intragenerational friendship",
-    "mentorship",
-    "wealth",
-    "search for meaning",
-    "rural",
-    "power",
-    "cultural memory",
-    "abuse",
-    "may-december",
-    "mental illness",
-    "artistic creation",
-    "homosociality",
-    "personal memory",
-    "ageism",
-    "high rank employment",
-    "non-human companionship",
     "disappearing professions",
-    "infidelity",
-    "superior-employee relationship",
+    "mental illness",
+    "rural",
+    "homosociality",
     "crime",
-    "marriage"
+    "technology",
+    "cultural memory",
+    "power",
+    "infidelity",
+    "wealth",
+    "personal memory",
+    "artistic creation",
+    "intragenerational friendship",
+    "desire",
+    "non-human companionship",
+    "search for meaning",
+    "superior-employee relationship",
+    "high rank employment",
+    "abuse",
+    "ageism",
+    "mentorship",
+    "marriage",
+    "may-december"
   ],
-  "charId":[
-    "ES2018_016_02",
-    "ES2018_016_01"
+  "director":[
+    {
+      "id":"Terry Gilliam",
+      "name":"Terry Gilliam",
+      "birthYear":1940,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"UK"
+    }
   ],
-  "perId":[
-    "Jonathan Pryce",
-    "Stellan Skarsg\u00e5rd"
+  "character":[
+    {
+      "id":"ES2018_016_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Stellan Skarsg\u00e5rd",
+        "name":"Stellan Skarsg\u00e5rd",
+        "birthYear":1951.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"CH"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2018_016_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"UN",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Jonathan Pryce",
+        "name":"Jonathan Pryce",
+        "birthYear":1947.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":[
-    "WNA",
-    "WWE"
-  ],
-  "charClass":[
-    "UC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "UN"
-  ],
-  "charAbility":[
-    "AB",
-    "CI"
-  ],
-  "assistedMobility":"N",
-  "perName":[
-    "Jonathan Pryce",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1947
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    null,
-    "M"
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"es2018-016-the-man-who-killed-don-quixote"
+  "synopsis":{
+    "native":"Toby, un director de cine muy c\u00ednico, se ve envuelto en los estrafalarios delirios de un viejo zapatero espa\u00f1ol que se cree el mismo Don Quijote. A lo largo de sus aventuras c\u00f3micas, y cada vez m\u00e1s surrealistas, Toby se ve abocado a enfrentarse con las tr\u00e1gicas repercusiones de la pel\u00edcula que rod\u00f3 cuando era un joven idealista, una pel\u00edcula que cambi\u00f3 los sue\u00f1os y esperanzas de un peque\u00f1o pueblo espa\u00f1ol para siempre. \u00bfPodr\u00e1 Toby reparar los da\u00f1os y recuperar su propia humanidad? \u00bfPodr\u00e1 Don Quijote sobrevivir a su propia locura y muerte inminente? \u00bfEl amor lo conquistar\u00e1 todo?",
+    "english":"Toby, a disillusioned film director, is pulled into a world of time-jumping fantasy when a Spanish cobbler believes himself to be Sancho Panza. He gradually becomes unable to tell dreams from reality."
+  }
 }

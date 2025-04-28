@@ -1,110 +1,141 @@
 {
-  "filmId":"GB2020_007",
-  "title":"Misbehaviour",
-  "titleEn":null,
-  "director":"Philippa Lowthorpe",
-  "releaseType":"THE",
-  "releaseDate":1584057600000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":"Philippa Lowthorpe",
-  "directorBirthYear":1962,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"GB",
+  "id":"GB2020_007",
+  "type":"film",
+  "slug":"gb2020-007-misbehaviour",
+  "title":{
+    "native":"Misbehaviour",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1584057600000,
+    "year":2020
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=163790",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt9148706\/mediaviewer\/rm3221652225\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
     "BIO",
+    "HIS",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=163790",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt9148706\/mediaviewer\/rm3221652225\/?ref_=tt_ov_i",
-  "synopsis":"A group of women hatch a plan to disrupt the 1970 Miss World beauty competition in London.",
-  "synopsisEn":null,
-  "country":[
-    "FR",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "activism",
-    "grandmotherhood",
-    "may-december",
     "romance",
-    "gray face",
     "superior-employee relationship",
-    "gender discrimination",
-    "high rank employment",
-    "marriage",
-    "body norms",
+    "activism",
     "urban",
-    "celebrity",
+    "marriage",
     "mass media",
+    "grandmotherhood",
+    "celebrity",
+    "high rank employment",
+    "may-december",
+    "gray face",
     "women empowerment",
+    "gender discrimination",
+    "body norms",
     "motherhood"
   ],
-  "charId":[
-    "GB2020_007_04",
-    "GB2020_007_02",
-    "GB2020_007_03",
-    "GB2020_007_01"
+  "director":[
+    {
+      "id":"Philippa Lowthorpe",
+      "name":"Philippa Lowthorpe",
+      "birthYear":1962,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Greg Kinnear",
-    "Phyllis Logan",
-    "Lesley Manville",
-    "Stephen Boxer"
+  "character":[
+    {
+      "id":"GB2020_007_03",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Phyllis Logan",
+        "name":"Phyllis Logan",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_007_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Stephen Boxer",
+        "name":"Stephen Boxer",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_007_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Greg Kinnear",
+        "name":"Greg Kinnear",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2020_007_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Lesley Manville",
+        "name":"Lesley Manville",
+        "birthYear":1956.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"UK"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":[
-    "WNA",
-    "WWE"
-  ],
-  "charClass":[
-    "UM",
-    "UC",
-    "MC"
-  ],
-  "charProfession":[
-    "EM",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    null
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Phyllis Logan",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1956
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    null
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2020-007-misbehaviour"
+  "synopsis":{
+    "native":"A group of women hatch a plan to disrupt the 1970 Miss World beauty competition in London.",
+    "english":null
+  }
 }

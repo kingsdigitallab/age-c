@@ -1,82 +1,95 @@
 {
-  "filmId":"GB2023_037",
-  "title":"Doctor Jekyll",
-  "titleEn":null,
-  "director":"Joe Stephenson",
-  "releaseType":"THE",
-  "releaseDate":1698364800000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2023_037",
+  "type":"film",
+  "slug":"gb2023-037-doctor-jekyll",
+  "title":{
+    "native":"Doctor Jekyll",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1698364800000,
+    "year":2023
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12637946\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Doctor%2520Jekyll",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt12637946\/mediaviewer\/rm3142341377\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "FAN",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12637946\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Doctor%2520Jekyll",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt12637946\/mediaviewer\/rm3142341377\/?ref_=tt_ov_i",
-  "synopsis":"A modern re-imagining of the infamous Dr. Jekyll from Robert Louis Stevenson's 1886 novella The Strange Case of Dr Jekyll and Mr Hyde",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
+    "lgbtqi",
+    "intergenerational conflict",
+    "mental illness",
     "wealth",
+    "superior-employee relationship",
+    "mentorship",
+    "rural",
+    "independent home",
+    "celibacy",
+    "substance abuse",
+    "class conflict",
+    "crime",
     "low rank employment",
     "power",
-    "rural",
-    "substance abuse",
-    "abuse",
-    "independent home",
     "self-employment",
-    "mental illness",
-    "celibacy",
-    "lgbtqi",
-    "superior-employee relationship",
-    "crime",
-    "mentorship",
-    "class conflict",
-    "intergenerational conflict"
+    "abuse"
   ],
-  "charId":[
-    "GB2023_037_01",
-    "GB2023_037_02"
+  "director":[
+
   ],
-  "perId":[
-    "Eddie Izzard",
-    "Lindsay Duncan"
+  "character":[
+    {
+      "id":"GB2023_037_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Eddie Izzard",
+        "name":"Eddie Izzard",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":null,
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_037_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Lindsay Duncan",
+        "name":"Lindsay Duncan",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "UC"
-  ],
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Eddie Izzard",
-    "Lindsay Duncan"
-  ],
-  "perBirthYear":[
-    1962,
-    1950
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    null
-  ],
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2023-037-doctor-jekyll"
+  "synopsis":{
+    "native":"A modern re-imagining of the infamous Dr. Jekyll from Robert Louis Stevenson's 1886 novella The Strange Case of Dr Jekyll and Mr Hyde",
+    "english":null
+  }
 }

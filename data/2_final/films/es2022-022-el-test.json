@@ -1,43 +1,66 @@
 {
-  "filmId":"ES2022_022",
-  "title":"El Test",
-  "titleEn":null,
-  "director":"Dani de la Orden",
-  "releaseType":"THE",
-  "releaseDate":1662076800000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Dani de la Orden",
-  "directorBirthYear":1989,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
-  "genre":"COM",
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt15502648\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_El%2520Test",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt15502648\/mediaviewer\/rm1406537217\/?ref_=tt_ov_i",
-  "synopsis":"\u00bfQu\u00e9 escoger\u00edas, cien mil euros ahora o un mill\u00f3n dentro de diez a\u00f1os? La premisa parece sencilla. Un matrimonio, H\u00e9ctor de 38 a\u00f1os y Paula de 37, se enfrenta a serios problemas econ\u00f3micos que se pondr\u00e1n a prueba por su rico amigo Toni, pero primero deben ponerse de acuerdo sobre su elecci\u00f3n. H\u00e9ctor quiere 100.000 euros para intentar renovar su bar ruinoso y poco rentable y convertirlo en negocio de \u00e9xito, pero Paula prefiere esperar al gran premio. Adaptaci\u00f3n de la obra de Jordi Vallejo.",
-  "synopsisEn":"Based on the play by Jordi Vallejo, follows a group of people who must decide whether they want to get 100,000 euros now, or wait ten years to get one million.",
-  "country":"ES",
-  "productionShare":"MAJ",
-  "tags":[
-    "class conflict",
-    "intergenerational conflict"
+  "id":"ES2022_022",
+  "type":"film",
+  "slug":"es2022-022-el-test",
+  "title":{
+    "native":"El Test",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1662076800000,
+    "year":2022
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt15502648\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_El%2520Test",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt15502648\/mediaviewer\/rm1406537217\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "COM"
   ],
-  "charId":"ES2022_022_01",
-  "perId":"Antonio Resines",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"RE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"es2022-022-el-test"
+  "tags":[
+    "intergenerational conflict",
+    "class conflict"
+  ],
+  "director":[
+    {
+      "id":"Dani de la Orden",
+      "name":"Dani de la Orden",
+      "birthYear":1989,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
+  ],
+  "character":[
+    {
+      "id":"ES2022_022_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Antonio Resines",
+        "name":"Antonio Resines",
+        "birthYear":1954.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"\u00bfQu\u00e9 escoger\u00edas, cien mil euros ahora o un mill\u00f3n dentro de diez a\u00f1os? La premisa parece sencilla. Un matrimonio, H\u00e9ctor de 38 a\u00f1os y Paula de 37, se enfrenta a serios problemas econ\u00f3micos que se pondr\u00e1n a prueba por su rico amigo Toni, pero primero deben ponerse de acuerdo sobre su elecci\u00f3n. H\u00e9ctor quiere 100.000 euros para intentar renovar su bar ruinoso y poco rentable y convertirlo en negocio de \u00e9xito, pero Paula prefiere esperar al gran premio. Adaptaci\u00f3n de la obra de Jordi Vallejo.",
+    "english":"Based on the play by Jordi Vallejo, follows a group of people who must decide whether they want to get 100,000 euros now, or wait ten years to get one million."
+  }
 }

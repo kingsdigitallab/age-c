@@ -1,46 +1,69 @@
 {
-  "filmId":"FR2022_061",
-  "title":"Une m\u00e8re",
-  "titleEn":"An Ordinary Mother",
-  "director":"Sylvie Audcoeur",
-  "releaseType":"THE",
-  "releaseDate":1647993600000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":"DRA",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=VkrR8VKrbOM",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/95\/197\/247135\/format_page\/une-mere.jpg",
-  "synopsis":"Aline n\u2019a jamais r\u00e9ussi \u00e0 faire le deuil de son fils mort \u00e0 17 ans dans une rixe. Quand elle croise par hasard son agresseur, tout juste sorti de prison, elle d\u00e9cide d'\u00e9chafauder un plan pour se venger. Aussi d\u00e9termin\u00e9e soit-elle, Aline commence \u00e0 douter au fur et \u00e0 mesure qu\u2019elle apprend \u00e0 conna\u00eetre le jeune homme.",
-  "synopsisEn":"Aline never managed to get closure from the death of her 17-year-old son in a street fight. When she sees the assailant recently released from prison, she decides to cook up a plan to avenge her dead son. Things go unexpectedly as she gets to know the young man and her determination is tested.",
-  "country":"FR",
-  "productionShare":"MAJ",
+  "id":"FR2022_061",
+  "type":"film",
+  "slug":"fr2022-061-une-mere",
+  "title":{
+    "native":"Une m\u00e8re",
+    "english":"An Ordinary Mother"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1647993600000,
+    "year":2022
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=VkrR8VKrbOM",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/95\/197\/247135\/format_page\/une-mere.jpg"
+  },
+  "genre":[
+    "DRA"
+  ],
   "tags":[
-    "rural",
     "partnership",
+    "rural",
     "celibacy",
     "grief",
     "revenge"
   ],
-  "charId":"FR2022_061_01",
-  "perId":"Karin Viard",
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2022-061-une-mere"
+  "director":[
+    {
+      "id":"Sylvie Audcoeur",
+      "name":"Sylvie Audcoeur",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"FR"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2022_061_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Karin Viard",
+        "name":"Karin Viard",
+        "birthYear":1966.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Aline n\u2019a jamais r\u00e9ussi \u00e0 faire le deuil de son fils mort \u00e0 17 ans dans une rixe. Quand elle croise par hasard son agresseur, tout juste sorti de prison, elle d\u00e9cide d'\u00e9chafauder un plan pour se venger. Aussi d\u00e9termin\u00e9e soit-elle, Aline commence \u00e0 douter au fur et \u00e0 mesure qu\u2019elle apprend \u00e0 conna\u00eetre le jeune homme.",
+    "english":"Aline never managed to get closure from the death of her 17-year-old son in a street fight. When she sees the assailant recently released from prison, she decides to cook up a plan to avenge her dead son. Things go unexpectedly as she gets to know the young man and her determination is tested."
+  }
 }

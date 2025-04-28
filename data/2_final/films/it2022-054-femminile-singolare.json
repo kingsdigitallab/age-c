@@ -1,72 +1,145 @@
 {
-  "filmId":"IT2022_054",
-  "title":"Femminile Singolare",
-  "titleEn":null,
-  "director":[
-    "Rafael Farina Issas",
-    "Kristian Gianfreda",
-    "James Bort",
-    "Elena Beatrice",
-    "More Raca",
-    "Daniele Lince",
-    "Matteo Pianezzi",
-    "Adriano Morelli"
-  ],
-  "releaseType":"THE",
-  "releaseDate":1667606400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"IT2022_054",
+  "type":"film",
+  "slug":"it2022-054-femminile-singolare",
+  "title":{
+    "native":"Femminile Singolare",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1667606400000,
+    "year":2022
+  },
+  "production":{
+    "country":"IT",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=au0P6V-hwmo",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt20193758\/mediaviewer\/rm1850872321\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "DRA",
-    "ANT"
+    "ANT",
+    "DRA"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=au0P6V-hwmo",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt20193758\/mediaviewer\/rm1850872321\/?ref_=tt_ov_i",
-  "synopsis":"Sette episodi, un film, sette storie che raccontano le donne sotto variegati punti di vista, sfaccettature, colori. In Il Vestito Da Sposa, Simona \u00e8 moglie, madre, lavoratrice. Tra i turni in fabbrica, il marito disoccupato, il figlio adolescente e un fratello perdigiorno, l'unica sua gioia \u00e8 la figlia Deborah e il vestito da sposa che sogna per lei: un desiderio che finisce per trasformarsi in ossessione. In Ballerina, una prostituta viene scaricata di notte da un'auto, si rialza in una periferia desolata, sale su un autobus. Nel percorso, realt\u00e0 e sogno si confondono: una bimba le racconta il sogno di diventare ballerina, un ragazzo molesta una coetanea, la ragazza, sfinita, affronta degli energumeni. In Rise Of A Star, Emma sta per diventare prima ballerina, ma qualcosa la disturba: un segreto che potrebbe minare il coronamento del suo sogno. In Ajo, Zana deve prendere una decisione coraggiosa, quando a sua madre viene chiesto di tacere su quello che le \u00e8 successo. In Waiting For \u00e8 il rapporto tra madre e figlia, mai uguale, a volte problematico al centro, tra esperienze vissute e amore reciproco. In Revirgination, una coppia nell'Albania del 2018 decide di sposarsi, ma si scontrer\u00e0 con la vecchia tradizione per cui la madre dello sposo deve essere presente alla prima notte di nozze per assicurarsi che la sposa sia vergine. Infine, in Hand In Cap una madre di quarant'anni, vive con il figlio ventenne Andrea, affetto da gravi danni motori e neurologici. Andrea sente la necessit\u00e0 di masturbarsi. Niente sembra essere efficace, nemmeno l'aiuto di una prostituta. Andrea non sa e non sapr\u00e0 mai, ma chiede amore...",
-  "synopsisEn":"Seven episodes, one film, seven stories about women.",
-  "country":"IT",
-  "productionShare":"MAJ",
   "tags":[
-    "women empowerement",
     "gender discrimination",
-    "motherhood",
-    "precarity"
+    "women empowerement",
+    "precarity",
+    "motherhood"
   ],
-  "charId":[
-    "IT2022_054_01",
-    "IT2022_054_02"
+  "director":[
+    {
+      "id":"Matteo Pianezzi",
+      "name":"Matteo Pianezzi",
+      "birthYear":1987,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    },
+    {
+      "id":"Kristian Gianfreda",
+      "name":"Kristian Gianfreda",
+      "birthYear":1976,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    },
+    {
+      "id":"Rafael Farina Issas",
+      "name":"Rafael Farina Issas",
+      "birthYear":1990,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"BR"
+    },
+    {
+      "id":"Elena Beatrice",
+      "name":"Elena Beatrice",
+      "birthYear":1987,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"IT"
+    },
+    {
+      "id":"James Bort",
+      "name":"James Bort",
+      "birthYear":1982,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    },
+    {
+      "id":"More Raca",
+      "name":"More Raca",
+      "birthYear":1991,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":null
+    },
+    {
+      "id":"Adriano Morelli",
+      "name":"Adriano Morelli",
+      "birthYear":1985,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    },
+    {
+      "id":"Daniele Lince",
+      "name":"Daniele Lince",
+      "birthYear":1986,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"IT"
+    }
   ],
-  "perId":[
-    "Catherine Deneuve",
-    "Monica Guerritore"
+  "character":[
+    {
+      "id":"IT2022_054_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Catherine Deneuve",
+        "name":"Catherine Deneuve",
+        "birthYear":1943.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"FR"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2022_054_02",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Monica Guerritore",
+        "name":"Monica Guerritore",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"IT"
+      },
+      "role":"LEA"
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"F",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "LM"
-  ],
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"it2022-054-femminile-singolare"
+  "synopsis":{
+    "native":"Sette episodi, un film, sette storie che raccontano le donne sotto variegati punti di vista, sfaccettature, colori. In Il Vestito Da Sposa, Simona \u00e8 moglie, madre, lavoratrice. Tra i turni in fabbrica, il marito disoccupato, il figlio adolescente e un fratello perdigiorno, l'unica sua gioia \u00e8 la figlia Deborah e il vestito da sposa che sogna per lei: un desiderio che finisce per trasformarsi in ossessione. In Ballerina, una prostituta viene scaricata di notte da un'auto, si rialza in una periferia desolata, sale su un autobus. Nel percorso, realt\u00e0 e sogno si confondono: una bimba le racconta il sogno di diventare ballerina, un ragazzo molesta una coetanea, la ragazza, sfinita, affronta degli energumeni. In Rise Of A Star, Emma sta per diventare prima ballerina, ma qualcosa la disturba: un segreto che potrebbe minare il coronamento del suo sogno. In Ajo, Zana deve prendere una decisione coraggiosa, quando a sua madre viene chiesto di tacere su quello che le \u00e8 successo. In Waiting For \u00e8 il rapporto tra madre e figlia, mai uguale, a volte problematico al centro, tra esperienze vissute e amore reciproco. In Revirgination, una coppia nell'Albania del 2018 decide di sposarsi, ma si scontrer\u00e0 con la vecchia tradizione per cui la madre dello sposo deve essere presente alla prima notte di nozze per assicurarsi che la sposa sia vergine. Infine, in Hand In Cap una madre di quarant'anni, vive con il figlio ventenne Andrea, affetto da gravi danni motori e neurologici. Andrea sente la necessit\u00e0 di masturbarsi. Niente sembra essere efficace, nemmeno l'aiuto di una prostituta. Andrea non sa e non sapr\u00e0 mai, ma chiede amore...",
+    "english":"Seven episodes, one film, seven stories about women."
+  }
 }

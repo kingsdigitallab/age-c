@@ -1,48 +1,69 @@
 {
-  "filmId":"GB2023_023",
-  "title":"Typist Artist Pirate King",
-  "titleEn":null,
-  "director":"Carol Morley",
-  "releaseType":"THE",
-  "releaseDate":1698364800000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Carol Morley",
-  "directorBirthYear":1966,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"GB",
+  "id":"GB2023_023",
+  "type":"film",
+  "slug":"gb2023-023-typist-artist-pirate-king",
+  "title":{
+    "native":"Typist Artist Pirate King",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1698364800000,
+    "year":2023
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Ilq_FiqQah4",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt16060476\/mediaviewer\/rm1769358593\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "DRA",
     "BIO",
+    "DRA",
     "ROA"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Ilq_FiqQah4",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt16060476\/mediaviewer\/rm1769358593\/?ref_=tt_ov_i",
-  "synopsis":"The growing friendship between two women as they hit the road in an electric car looking for endings and reconciliation.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "sisterhood",
     "rural",
+    "sisterhood",
     "artistic creation"
   ],
-  "charId":"GB2023_023_01",
-  "perId":"Gina McKee",
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2023-023-typist-artist-pirate-king"
+  "director":[
+    {
+      "id":"Carol Morley",
+      "name":"Carol Morley",
+      "birthYear":1966,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2023_023_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Gina McKee",
+        "name":"Gina McKee",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"The growing friendship between two women as they hit the road in an electric car looking for endings and reconciliation.",
+    "english":null
+  }
 }

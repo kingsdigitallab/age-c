@@ -1,59 +1,80 @@
 {
-  "filmId":"GB2020_004",
-  "title":"Military Wives",
-  "titleEn":null,
-  "director":"Peter Cattaneo",
-  "releaseType":"THE",
-  "releaseDate":1583452800000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":"Peter Cattaneo",
-  "directorBirthYear":1964,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2020_004",
+  "type":"film",
+  "slug":"gb2020-004-military-wives",
+  "title":{
+    "native":"Military Wives",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1583452800000,
+    "year":2020
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=503439",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt8951692\/mediaviewer\/rm749318401\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "MUS",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=503439",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt8951692\/mediaviewer\/rm749318401\/?ref_=tt_ov_i",
-  "synopsis":"With their partners away serving in Afghanistan, a group of women on the home front form a choir and quickly find themselves at the center of a media sensation and global movement.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "war",
     "search for meaning",
-    "volunteering",
-    "independent home",
+    "festivities",
     "intergenerational friendship",
-    "national identity",
-    "artistic creation",
-    "state institutions",
-    "homosociality",
-    "grief",
     "marriage",
+    "state institutions",
+    "national identity",
+    "independent home",
+    "artistic creation",
+    "homosociality",
     "class solidarity",
+    "grief",
+    "war",
     "women empowerment",
-    "festivities"
+    "volunteering"
   ],
-  "charId":"GB2020_004_01",
-  "perId":"Kristin Scott Thomas",
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"UN",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"gb2020-004-military-wives"
+  "director":[
+    {
+      "id":"Peter Cattaneo",
+      "name":"Peter Cattaneo",
+      "birthYear":1964,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
+  ],
+  "character":[
+    {
+      "id":"GB2020_004_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Kristin Scott Thomas",
+        "name":"Kristin Scott Thomas",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"UK"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"With their partners away serving in Afghanistan, a group of women on the home front form a choir and quickly find themselves at the center of a media sensation and global movement.",
+    "english":null
+  }
 }

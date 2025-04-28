@@ -1,71 +1,91 @@
 {
-  "filmId":"GB2021_022",
-  "title":"The Football Monologues",
-  "titleEn":null,
-  "director":"Greg Cruttwell",
-  "releaseType":"THE",
-  "releaseDate":1635465600000,
-  "type":"F",
-  "releaseYear":2021,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"GB2021_022",
+  "type":"film",
+  "slug":"gb2021-022-the-football-monologues",
+  "title":{
+    "native":"The Football Monologues",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1635465600000,
+    "year":2021
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=lzSEbebLL58",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14442522\/mediaviewer\/rm2141700865\/"
+  },
   "genre":[
-    "MPF",
     "COM",
+    "MPF",
     "SPO"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=lzSEbebLL58",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14442522\/mediaviewer\/rm2141700865\/",
-  "synopsis":"Seven people tell their life stories in and around the beautiful game.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
     "activism",
-    "volunteering",
-    "class solidarity",
     "urban",
-    "spirituality"
+    "spirituality",
+    "class solidarity",
+    "volunteering"
   ],
-  "charId":[
-    "GB2021_022_01",
-    "GB2021_022_02"
+  "director":[
+    {
+      "id":"Greg Cruttwell",
+      "name":"Greg Cruttwell",
+      "birthYear":1960,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Brian Bovell",
-    "Stephen Boxer"
+  "character":[
+    {
+      "id":"GB2021_022_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"BWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Brian Bovell",
+        "name":"Brian Bovell",
+        "birthYear":1954.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_022_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Stephen Boxer",
+        "name":"Stephen Boxer",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":[
-    "BWE",
-    "WWE"
-  ],
-  "charClass":"MC",
-  "charProfession":null,
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Brian Bovell",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1954
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    null,
-    "M"
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2021-022-the-football-monologues"
+  "synopsis":{
+    "native":"Seven people tell their life stories in and around the beautiful game.",
+    "english":null
+  }
 }

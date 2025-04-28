@@ -1,91 +1,96 @@
 {
-  "filmId":"GB2022_067",
-  "title":"Mambo Man",
-  "titleEn":null,
-  "director":[
-    "Mo Fini",
-    "Edesio Alejandro"
-  ],
-  "releaseType":"THE",
-  "releaseDate":1651190400000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":[
-    null,
-    "Edesio Alejandro"
-  ],
-  "directorBirthYear":[
-    0,
-    1958
-  ],
-  "directorDeathYear":0,
-  "directorGender":[
-    null,
-    "M"
-  ],
-  "directorNationality":[
-    "CU",
-    null
-  ],
+  "id":"GB2022_067",
+  "type":"film",
+  "slug":"gb2022-067-mambo-man",
+  "title":{
+    "native":"Mambo Man",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1651190400000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=839339",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt12600214\/mediaviewer\/rm4055540481\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "MUS",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=839339",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt12600214\/mediaviewer\/rm4055540481\/?ref_=tt_ov_i",
-  "synopsis":"It is the story of a Cuban farmer and music promoter who gambles everything on a deal that appears too good to be true.",
-  "synopsisEn":null,
-  "country":[
-    "GB",
-    "CU"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
+    "precarity",
+    "urban",
+    "marriage",
     "fraud",
     "rural",
-    "independent home",
-    "fatherhood",
-    "self-employment",
     "artistic creation",
+    "independent home",
     "homosociality",
-    "marriage",
-    "urban",
-    "precarity"
+    "fatherhood",
+    "self-employment"
   ],
-  "charId":[
-    "GB2022_067_01",
-    "GB2022_067_02"
+  "director":[
+    {
+      "id":"Edesio Alejandro",
+      "name":"Edesio Alejandro",
+      "birthYear":1958,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"CU"
+    }
   ],
-  "perId":[
-    "H\u00e9ctor Noas",
-    "Alejandro Palomino"
+  "character":[
+    {
+      "id":"GB2022_067_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WLA",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Alejandro Palomino",
+        "name":"Alejandro Palomino",
+        "birthYear":1964.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"CU"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_067_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WLA",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"H\u00e9ctor Noas",
+        "name":"H\u00e9ctor Noas",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"CU"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WLA",
-  "charClass":"MC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "H\u00e9ctor Noas",
-    "Alejandro Palomino"
-  ],
-  "perBirthYear":[
-    1960,
-    1964
-  ],
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"CU",
-  "perRole":null,
-  "slug":"gb2022-067-mambo-man"
+  "synopsis":{
+    "native":"It is the story of a Cuban farmer and music promoter who gambles everything on a deal that appears too good to be true.",
+    "english":null
+  }
 }

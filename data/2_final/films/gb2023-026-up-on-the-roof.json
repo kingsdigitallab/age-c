@@ -1,70 +1,90 @@
 {
-  "filmId":"GB2023_026",
-  "title":"Up on the Roof",
-  "titleEn":null,
-  "director":"Ben Hecking",
-  "releaseType":"THE",
-  "releaseDate":1680825600000,
-  "type":"F",
-  "releaseYear":2023,
-  "directorName":"Ben Hecking",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2023_026",
+  "type":"film",
+  "slug":"gb2023-026-up-on-the-roof",
+  "title":{
+    "native":"Up on the Roof",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1680825600000,
+    "year":2023
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=znE029L64Qs",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt14904720\/mediaviewer\/rm1195845633\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "ROM"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=znE029L64Qs",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt14904720\/mediaviewer\/rm1195845633\/?ref_=tt_ov_i",
-  "synopsis":"We invite you to see \"UP ON THE ROOF\" an extremely engaging, gripping love story with a dose of of comedy, drama and numerous twists and turns.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "self-employment",
+    "mentorship",
     "intergenerational friendship",
     "homosociality",
-    "mentorship",
+    "self-employment",
     "motherhood"
   ],
-  "charId":[
-    "GB2023_026_02",
-    "GB2023_026_01"
+  "director":[
+    {
+      "id":"Ben Hecking",
+      "name":"Ben Hecking",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Nathaniel Parker",
-    "Deborah Findlay"
+  "character":[
+    {
+      "id":"GB2023_026_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Deborah Findlay",
+        "name":"Deborah Findlay",
+        "birthYear":1947.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2023_026_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Nathaniel Parker",
+        "name":"Nathaniel Parker",
+        "birthYear":1962.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":"3",
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":[
-    "SE",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Nathaniel Parker",
-    "Deborah Findlay"
-  ],
-  "perBirthYear":[
-    1962,
-    1947
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"gb2023-026-up-on-the-roof"
+  "synopsis":{
+    "native":"We invite you to see \"UP ON THE ROOF\" an extremely engaging, gripping love story with a dose of of comedy, drama and numerous twists and turns.",
+    "english":null
+  }
 }

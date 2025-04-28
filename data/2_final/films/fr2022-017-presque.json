@@ -1,58 +1,78 @@
 {
-  "filmId":"FR2022_017",
-  "title":"Presque",
-  "titleEn":"Beautiful Minds",
-  "director":[
-    "Bernard Campan",
-    "Alexandre Jollien"
-  ],
-  "releaseType":"THE",
-  "releaseDate":1643155200000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
+  "id":"FR2022_017",
+  "type":"film",
+  "slug":"fr2022-017-presque",
+  "title":{
+    "native":"Presque",
+    "english":"Beautiful Minds"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1643155200000,
+    "year":2022
+  },
+  "production":{
+    "country":"FR",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=YI-5T8sU4dM",
+    "posterUrl":"https:\/\/medias.unifrance.org\/medias\/212\/170\/240340\/format_page\/presque.jpg"
+  },
   "genre":[
     "DRA",
     "COM",
     "ROA"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=YI-5T8sU4dM",
-  "posterUrl":"https:\/\/medias.unifrance.org\/medias\/212\/170\/240340\/format_page\/presque.jpg",
-  "synopsis":"Louis est directeur d\u2019une soci\u00e9t\u00e9 de pompes fun\u00e8bres. Croquemort, c\u2019est comme \u00e7a qu\u2019on dit. C\u00e9libataire endurci, \u00e0 58 ans il ne peut se r\u00e9soudre \u00e0 prendre sa retraite. Igor a 40 ans, un esprit vif dans un corps handicap\u00e9. Infirme moteur c\u00e9r\u00e9bral, c\u2019est comme \u00e7a qu\u2019on dit aussi. F\u00e9ru de philosophie, ses compagnons de route sont Socrate, Spinoza et Nietzsche. Des autres qu\u2019il fr\u00f4le, il ne conna\u00eet rien, ignorant tout ou presque de la sensualit\u00e9, de l\u2019amiti\u00e9, du sexe et des vraies rencontres. Par un hasard qui n\u2019appartient qu\u2019\u00e0 la vie, les chemins de Louis et d\u2019Igor se croisent. Tous deux embarquent dans une aventure qui les d\u00e9passe et de loin.",
-  "synopsisEn":"Louis is the director of a funeral home. Sworn bachelor at 58 he devotes himself entirely to his job and can't bring himself to retire. Igor is 40 years old, a sharp mind stuck in a disabled body. Cerebral palsy they call it. Fond of philosophy, his travel companions are Socrates, Spinoza and Nietzsche. He keeps himself well away from the world and knows nothing or very little about friendship, sexuality, and real encounters. In a coincidence that only happens in real life, the paths of Louis and Igor cross. They embark on a funeral car for an unconventional road-trip that will teach them to see beyond their own issues and rethink their lives.",
-  "country":[
-    "FR",
-    "CH"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "intergenerational friendship",
     "parenthood",
     "celibacy",
-    "low rank employment"
+    "low rank employment",
+    "intergenerational friendship"
   ],
-  "charId":"FR2022_017_01",
-  "perId":"Bernard Campan",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"fr2022-017-presque"
+  "director":[
+    {
+      "id":"Bernard Campan",
+      "name":"Bernard Campan",
+      "birthYear":1958,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"FR"
+    },
+    {
+      "id":"Alexandre Jollien",
+      "name":"Alexandre Jollien",
+      "birthYear":1975,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"CH"
+    }
+  ],
+  "character":[
+    {
+      "id":"FR2022_017_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Bernard Campan",
+        "name":"Bernard Campan",
+        "birthYear":1958.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"FR"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Louis est directeur d\u2019une soci\u00e9t\u00e9 de pompes fun\u00e8bres. Croquemort, c\u2019est comme \u00e7a qu\u2019on dit. C\u00e9libataire endurci, \u00e0 58 ans il ne peut se r\u00e9soudre \u00e0 prendre sa retraite. Igor a 40 ans, un esprit vif dans un corps handicap\u00e9. Infirme moteur c\u00e9r\u00e9bral, c\u2019est comme \u00e7a qu\u2019on dit aussi. F\u00e9ru de philosophie, ses compagnons de route sont Socrate, Spinoza et Nietzsche. Des autres qu\u2019il fr\u00f4le, il ne conna\u00eet rien, ignorant tout ou presque de la sensualit\u00e9, de l\u2019amiti\u00e9, du sexe et des vraies rencontres. Par un hasard qui n\u2019appartient qu\u2019\u00e0 la vie, les chemins de Louis et d\u2019Igor se croisent. Tous deux embarquent dans une aventure qui les d\u00e9passe et de loin.",
+    "english":"Louis is the director of a funeral home. Sworn bachelor at 58 he devotes himself entirely to his job and can't bring himself to retire. Igor is 40 years old, a sharp mind stuck in a disabled body. Cerebral palsy they call it. Fond of philosophy, his travel companions are Socrates, Spinoza and Nietzsche. He keeps himself well away from the world and knows nothing or very little about friendship, sexuality, and real encounters. In a coincidence that only happens in real life, the paths of Louis and Igor cross. They embark on a funeral car for an unconventional road-trip that will teach them to see beyond their own issues and rethink their lives."
+  }
 }

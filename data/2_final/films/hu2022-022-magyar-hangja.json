@@ -1,60 +1,48 @@
 {
-  "filmId":"HU2022_022",
-  "title":"Magyar hangja...",
-  "titleEn":"The Art of Dubbing",
-  "director":"Andr\u00e1s Csap\u00f3",
-  "releaseType":"THE",
-  "releaseDate":1663200000000,
-  "type":"D",
-  "releaseYear":2022,
-  "directorName":"Andr\u00e1s Csap\u00f3",
-  "directorBirthYear":1991,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"HU",
-  "genre":"DEX",
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=uDN017oGdLY",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt21387900\/mediaviewer\/rm2010320385\/?ref_=tt_ov_i",
-  "synopsis":"A Magyar hangja\u2026 \u00e1tfog\u00f3 k\u00e9pet szeretne ny\u00fajtani a szakm\u00e1r\u00f3l \u00e9s annak fort\u00e9lyair\u00f3l. A hiteless\u00e9g jegy\u00e9ben k\u00e9sz\u00fclt negyven interj\u00faban t\u00f6bb tucat ismert sz\u00edn\u00e9sz \u00e9s szakember besz\u00e9l a szinkronszakm\u00e1r\u00f3l. A filmben megsz\u00f3lal Moln\u00e1r Piroska \u00e9s Szacsvay L\u00e1szl\u00f3, a Nemzet Sz\u00edn\u00e9szei, valamint m\u00e1sok mellett Bogd\u00e1nyi Titanilla, Csank\u00f3 Zolt\u00e1n, Cs\u0151re G\u00e1bor, Epres Attila, Galambos P\u00e9ter, G\u00e1ti Oszk\u00e1r, Hev\u00e9r G\u00e1bor, Holl N\u00e1ndor, K\u00e1lid Art\u00far, Kerekes J\u00f3zsef, Nagy Ervin, Pog\u00e1ny Judit, Seszt\u00e1k Szabolcs, Stohl Andr\u00e1s, Zsigmond Tamara. A szinkronszakma remek szakemberei k\u00f6z\u00fcl t\u00f6bbek k\u00f6z\u00f6tt B\u00e1thory Orsolya, D\u00f3czi Orsolya, Orosz Ildik\u00f3, Nikod\u00e9m Zsigmond szinkronrendez\u0151k, \u00e9s Pataricza Eszter, T\u00f3th Tam\u00e1s dramaturgok besz\u00e9lnek a szinkronk\u00e9sz\u00edt\u00e9sr\u0151l. Megsz\u00f3lal a Mafilm Audio jelenlegi vezet\u0151je Haber Andrea, valamint olyan legend\u00e1s szakemberek, mint Dallos Szilvia \u00e9s Haber Ferenc.",
-  "synopsisEn":"The Art of Dubbing... is a feature-length documentary about the history, past, present and possible future of Hungarian dubbing. The film explores how dubbing and some emblematic Hungarian dubbed versions became part of Hungarian cultural heritage and assets as well as the difficulties faced by professionals in the digital transition and the challenges of dubbing in the past and present. Important dubbing projects and dubbing roles are discussed, with a special focus on dubbing animated films, from Hungarian folk tales to South Park and Family Guy. The Art of Dubbing... provides a comprehensive overview of the profession, with dozens of well-known actors and professionals talking about the world of dubbing.",
-  "country":"HU",
-  "productionShare":"MAJ",
+  "id":"HU2022_022",
+  "type":"film",
+  "slug":"hu2022-022-magyar-hangja",
+  "title":{
+    "native":"Magyar hangja...",
+    "english":"The Art of Dubbing"
+  },
+  "filmType":"D",
+  "release":{
+    "type":"THE",
+    "date":1663200000000,
+    "year":2022
+  },
+  "production":{
+    "country":"HU",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=uDN017oGdLY",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt21387900\/mediaviewer\/rm2010320385\/?ref_=tt_ov_i"
+  },
+  "genre":[
+    "DEX"
+  ],
   "tags":[
     "national identity",
     "artistic creation",
     "cultural memory"
   ],
-  "charId":null,
-  "perId":null,
-  "charAge":null,
-  "charGender":null,
-  "charSexuality":null,
-  "charOrigin":null,
-  "charClass":null,
-  "charProfession":null,
-  "charAbility":null,
-  "assistedMobility":null,
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":[
-    "DOC:::Margit F\u00f6ldessy",
-    "DOC:::Zolt\u00e1n Csank\u00f3",
-    "DOC:::Edit Farkasinszky",
-    "DOC:::G\u00e1bor Cs\u0151re",
-    "DOC:::Attila Epres",
-    "DOC:::Szilvia Dallos",
-    "DOC:::Ferenc Haber",
-    "DOC:::Orsolya B\u00e1thory",
-    "DOC:::P\u00e9ter Galambos",
-    "DOC:::G\u00e1bor Hev\u00e9r",
-    "DOC:::Art\u00far K\u00e1lid",
-    "DOC:::J\u00f3zsef Kerekes",
-    "DIR:::Andr\u00e1s Csap\u00f3",
-    "DOC:::Oszk\u00e1r G\u00e1ti",
-    "DOC:::N\u00e1ndor Holl"
+  "director":[
+    {
+      "id":"Andr\u00e1s Csap\u00f3",
+      "name":"Andr\u00e1s Csap\u00f3",
+      "birthYear":1991,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"HU"
+    }
   ],
-  "slug":"hu2022-022-magyar-hangja"
+  "character":[
+
+  ],
+  "synopsis":{
+    "native":"A Magyar hangja\u2026 \u00e1tfog\u00f3 k\u00e9pet szeretne ny\u00fajtani a szakm\u00e1r\u00f3l \u00e9s annak fort\u00e9lyair\u00f3l. A hiteless\u00e9g jegy\u00e9ben k\u00e9sz\u00fclt negyven interj\u00faban t\u00f6bb tucat ismert sz\u00edn\u00e9sz \u00e9s szakember besz\u00e9l a szinkronszakm\u00e1r\u00f3l. A filmben megsz\u00f3lal Moln\u00e1r Piroska \u00e9s Szacsvay L\u00e1szl\u00f3, a Nemzet Sz\u00edn\u00e9szei, valamint m\u00e1sok mellett Bogd\u00e1nyi Titanilla, Csank\u00f3 Zolt\u00e1n, Cs\u0151re G\u00e1bor, Epres Attila, Galambos P\u00e9ter, G\u00e1ti Oszk\u00e1r, Hev\u00e9r G\u00e1bor, Holl N\u00e1ndor, K\u00e1lid Art\u00far, Kerekes J\u00f3zsef, Nagy Ervin, Pog\u00e1ny Judit, Seszt\u00e1k Szabolcs, Stohl Andr\u00e1s, Zsigmond Tamara. A szinkronszakma remek szakemberei k\u00f6z\u00fcl t\u00f6bbek k\u00f6z\u00f6tt B\u00e1thory Orsolya, D\u00f3czi Orsolya, Orosz Ildik\u00f3, Nikod\u00e9m Zsigmond szinkronrendez\u0151k, \u00e9s Pataricza Eszter, T\u00f3th Tam\u00e1s dramaturgok besz\u00e9lnek a szinkronk\u00e9sz\u00edt\u00e9sr\u0151l. Megsz\u00f3lal a Mafilm Audio jelenlegi vezet\u0151je Haber Andrea, valamint olyan legend\u00e1s szakemberek, mint Dallos Szilvia \u00e9s Haber Ferenc.",
+    "english":"The Art of Dubbing... is a feature-length documentary about the history, past, present and possible future of Hungarian dubbing. The film explores how dubbing and some emblematic Hungarian dubbed versions became part of Hungarian cultural heritage and assets as well as the difficulties faced by professionals in the digital transition and the challenges of dubbing in the past and present. Important dubbing projects and dubbing roles are discussed, with a special focus on dubbing animated films, from Hungarian folk tales to South Park and Family Guy. The Art of Dubbing... provides a comprehensive overview of the profession, with dozens of well-known actors and professionals talking about the world of dubbing."
+  }
 }

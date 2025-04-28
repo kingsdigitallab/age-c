@@ -1,114 +1,134 @@
 {
-  "filmId":"GB2022_075",
-  "title":"Belfast",
-  "titleEn":null,
-  "director":"Kenneth Branagh",
-  "releaseType":"THE",
-  "releaseDate":1642723200000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Kenneth Branagh",
-  "directorBirthYear":1960,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2022_075",
+  "type":"film",
+  "slug":"gb2022-075-belfast",
+  "title":{
+    "native":"Belfast",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1642723200000,
+    "year":2022
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12789558\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Belfast",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt12789558\/mediaviewer\/rm1094514433\/?ref_=tt_ov_i"
+  },
   "genre":[
-    "HIS",
     "DRA",
+    "HIS",
     "COM"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12789558\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Belfast",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt12789558\/mediaviewer\/rm1094514433\/?ref_=tt_ov_i",
-  "synopsis":"A young boy and his working-class Belfast family experience the tumultuous late 1960s.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "grandparenthood",
+    "hospital",
+    "in-laws",
     "urban",
-    "motherhood",
-    "physical illness",
     "national identity",
-    "parenthood",
-    "homosociality",
-    "retirement",
-    "multigenerational family",
-    "grandfatherhood",
-    "natural death",
     "substance abuse",
-    "grandmotherhood",
+    "homosociality",
     "fatherhood",
     "loneliness",
-    "state institutions",
-    "terrorism",
-    "class solidarity",
-    "collective trauma",
     "religion",
+    "grandparenthood",
+    "physical illness",
     "widowhood",
-    "burial",
+    "state institutions",
     "independent home",
-    "in-laws",
-    "medical treatment",
+    "parenthood",
+    "grandfatherhood",
+    "terrorism",
+    "retirement",
     "grief",
+    "motherhood",
+    "burial",
+    "collective trauma",
     "marriage",
-    "hospital"
+    "grandmotherhood",
+    "multigenerational family",
+    "medical treatment",
+    "class solidarity",
+    "natural death"
   ],
-  "charId":[
-    "GB2022_075_02",
-    "GB2022_075_01",
-    "GB2022_075_03"
+  "director":[
+    {
+      "id":"Kenneth Branagh",
+      "name":"Kenneth Branagh",
+      "birthYear":1960,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Judi Dench",
-    "Michael Maloney",
-    "Ciar\u00e1n Hinds"
+  "character":[
+    {
+      "id":"GB2022_075_02",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "person":{
+        "id":"Ciar\u00e1n Hinds",
+        "name":"Ciar\u00e1n Hinds",
+        "birthYear":1953.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IE"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_075_01",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Judi Dench",
+        "name":"Judi Dench",
+        "birthYear":1934.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2022_075_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Michael Maloney",
+        "name":"Michael Maloney",
+        "birthYear":1957.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "EM",
-    "RE"
-  ],
-  "charAbility":[
-    "AB",
-    "CI"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":[
-    "Judi Dench",
-    "Michael Maloney",
-    null
-  ],
-  "perBirthYear":[
-    0,
-    1957,
-    1934
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M",
-    null
-  ],
-  "perNationality":[
-    "GB",
-    null
-  ],
-  "perRole":null,
-  "slug":"gb2022-075-belfast"
+  "synopsis":{
+    "native":"A young boy and his working-class Belfast family experience the tumultuous late 1960s.",
+    "english":null
+  }
 }

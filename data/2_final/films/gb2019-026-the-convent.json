@@ -1,96 +1,142 @@
 {
-  "filmId":"GB2019_026",
-  "title":"The Convent",
-  "titleEn":null,
-  "director":"Paul Hyett",
-  "releaseType":"THE",
-  "releaseDate":1559260800000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Paul Hyett",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
+  "id":"GB2019_026",
+  "type":"film",
+  "slug":"gb2019-026-the-convent",
+  "title":{
+    "native":"The Convent",
+    "english":""
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1559260800000,
+    "year":2019
+  },
+  "production":{
+    "country":"GB",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.imdb.com\/title\/tt3111516\/?ref_=nv_sr_srsg_2_tt_8_nm_0_in_0_q_The%2520Convent",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt3111516\/mediaviewer\/rm1724342272\/?ref_=tt_ov_i"
+  },
   "genre":[
     "HIS",
     "HOR",
     "FAN"
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt3111516\/?ref_=nv_sr_srsg_2_tt_8_nm_0_in_0_q_The%2520Convent",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt3111516\/mediaviewer\/rm1724342272\/?ref_=tt_ov_i",
-  "synopsis":"During the 17th Century a young woman is saved from execution and led to a priory to repent her sins but discovers a greater evil lies within.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
   "tags":[
-    "corruption",
-    "power",
-    "rural",
-    "communal housing",
+    "intergenerational conflict",
     "supernatural entity",
-    "abuse",
     "mental illness",
     "state institutions",
-    "homosociality",
-    "high rank employment",
+    "corruption",
+    "gender discrimination",
+    "rural",
     "education",
+    "homosociality",
+    "class conflict",
+    "communal housing",
+    "high rank employment",
+    "power",
     "religion",
     "new start",
-    "class conflict",
-    "gender discrimination",
-    "intergenerational conflict"
+    "abuse"
   ],
-  "charId":[
-    "GB2019_026_03",
-    "GB2019_026_01",
-    "GB2019_026_02"
+  "director":[
+    {
+      "id":"Paul Hyett",
+      "name":"Paul Hyett",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"GB"
+    }
   ],
-  "perId":[
-    "Clare Higgins",
-    "Michael Ironside",
-    "Ania Marson"
+  "character":[
+    {
+      "id":"GB2019_026_03",
+      "age":"4",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ania Marson",
+        "name":"Ania Marson",
+        "birthYear":1949.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_026_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Michael Ironside",
+        "name":"Michael Ironside",
+        "birthYear":1950.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"CA"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_026_03",
+      "age":"4",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ania Marson",
+        "name":"Ania Marson",
+        "birthYear":1949.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"PL"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2019_026_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Clare Higgins",
+        "name":"Clare Higgins",
+        "birthYear":1955.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
+      },
+      "role":null
+    }
   ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":[
-    "F",
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":[
-    "Clare Higgins",
-    "Michael Ironside",
-    "Ania Marson"
-  ],
-  "perBirthYear":[
-    1955,
-    1949,
-    1950
-  ],
-  "perDeathYear":0,
-  "perGender":[
-    "F",
-    "M"
-  ],
-  "perNationality":[
-    "GB",
-    "CA",
-    "PL"
-  ],
-  "perRole":null,
-  "slug":"gb2019-026-the-convent"
+  "synopsis":{
+    "native":"During the 17th Century a young woman is saved from execution and led to a priory to repent her sins but discovers a greater evil lies within.",
+    "english":null
+  }
 }

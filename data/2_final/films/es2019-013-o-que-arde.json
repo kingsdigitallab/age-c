@@ -1,65 +1,79 @@
 {
-  "filmId":"ES2019_013",
-  "title":"O que arde",
-  "titleEn":"Fire Will Come",
-  "director":"\u00d3liver Laxe",
-  "releaseType":"THE",
-  "releaseDate":1287446400000,
-  "type":"F",
-  "releaseYear":2010,
-  "directorName":"\u00d3liver Laxe",
-  "directorBirthYear":1982,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"ES",
+  "id":"ES2019_013",
+  "type":"film",
+  "slug":"es2019-013-o-que-arde",
+  "title":{
+    "native":"O que arde",
+    "english":"Fire Will Come"
+  },
+  "filmType":"F",
+  "release":{
+    "type":"THE",
+    "date":1287446400000,
+    "year":2010
+  },
+  "production":{
+    "country":"ES",
+    "share":"MAJ"
+  },
+  "media":{
+    "trailerUrl":"https:\/\/www.youtube.com\/watch?v=ElkZYe2jY1g",
+    "posterUrl":"https:\/\/www.imdb.com\/title\/tt8212958\/mediaviewer\/rm1307944193\/?ref_=tt_ov_i"
+  },
   "genre":[
     "DRA",
     "DIS",
     "THR"
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=ElkZYe2jY1g",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt8212958\/mediaviewer\/rm1307944193\/?ref_=tt_ov_i",
-  "synopsis":"Nadie espera a Amador cuando sale de la c\u00e1rcel tras cumplir condena por haber provocado un incendio. Regresa a su casa, una aldea perdida de las monta\u00f1as lucenses, donde volver\u00e1 a convivir, al ritmo sosegado de la naturaleza, con su madre, Benedicta, su perra Luna y sus tres vacas.",
-  "synopsisEn":"Amador returns home to his aging mother after serving a sentence for arson. He tries to adapt to daily farm life and coping with the villagers' memories of his past actions.",
-  "country":[
-    "LU",
-    "FR",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
   "tags":[
-    "rural",
-    "ecology",
-    "independent home",
-    "self-employment",
     "mental illness",
-    "loneliness",
+    "precarity",
     "state institutions",
-    "regional identity",
+    "rural",
     "return home",
+    "independent home",
+    "regional identity",
     "daily routine",
     "crime",
-    "precarity",
+    "loneliness",
+    "ecology",
+    "self-employment",
     "motherhood"
   ],
-  "charId":"ES2019_013_01",
-  "perId":"Benedicta S\u00e1nchez",
-  "charAge":"4",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":null,
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"es2019-013-o-que-arde"
+  "director":[
+    {
+      "id":"\u00d3liver Laxe",
+      "name":"\u00d3liver Laxe",
+      "birthYear":1982,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    }
+  ],
+  "character":[
+    {
+      "id":"ES2019_013_01",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Benedicta S\u00e1nchez",
+        "name":"Benedicta S\u00e1nchez",
+        "birthYear":1935.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    }
+  ],
+  "synopsis":{
+    "native":"Nadie espera a Amador cuando sale de la c\u00e1rcel tras cumplir condena por haber provocado un incendio. Regresa a su casa, una aldea perdida de las monta\u00f1as lucenses, donde volver\u00e1 a convivir, al ritmo sosegado de la naturaleza, con su madre, Benedicta, su perra Luna y sus tres vacas.",
+    "english":"Amador returns home to his aging mother after serving a sentence for arson. He tries to adapt to daily farm life and coping with the villagers' memories of his past actions."
+  }
 }
