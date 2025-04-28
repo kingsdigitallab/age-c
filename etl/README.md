@@ -23,6 +23,98 @@ the JSON data is stored in the `data/2_final` folder.
 The JSON data is then used by the frontend application to display and explore
 the data.
 
+## Data model
+
+```mermaid
+erDiagram
+    Film }o--o{ Genre : categorised_as
+    Film {
+        string film_id
+        string nat_title
+        string eng_title
+        string director
+        string release_type
+        string release_date
+        string film_type
+    }
+    Genre {
+        string film_id
+        string nat_title
+        string film_genre
+    }
+    Film ||--|| Marketing : promoted_by
+    Marketing {
+        string film_id
+        string nat_title
+        string eng_title
+        string trailer_url
+        string poster_url
+        string nat_synopsis
+        string eng_synopsis
+    }
+    Film ||--|| Production : produced_by
+    Production {
+        string film_id
+        string nat_title
+        string film_country
+        string prod_share
+    }
+    Film ||--o{ Role : cast_with
+    Role {
+        string film_id
+        string nat_title
+        string person_id
+        string person_name
+        string role_class
+    }
+    Film }o--o{ Tag : tagged_with
+    Tag {
+        string film_id
+        string nat_title
+        string tag_id
+        string tag_name
+    }
+    Film ||--o{ Character : contains
+    Character {
+        string film_id
+        string nat_title
+        string character_id
+        string person_id
+        string ch_age
+        string ch_gender
+        string ch_sexuality
+        string ch_porigin
+        string ch_class
+        string ch_profession
+        string ch_ability
+        string assisted_mobility
+    }
+    Character ||--|| Biography : played_by
+    Biography {
+        string person_id
+        string person_name
+        string birth_year
+        string death_year
+        string gender
+        string sexuality
+    }
+    Role }o--|| Biography : acted_by
+    Role {
+        string film_id
+        string nat_title
+        string person_id
+        string person_name
+        string role_class
+    }
+    Biography ||--o{ Country : nationality
+    Country {
+        string person_id
+        string person_name
+        string person_nationality
+    }
+    Production ||--|{ Country : produced_in
+```
+
 ## Data processing pipeline
 
 The following diagram shows the data processing pipeline for the AGE-C project.
