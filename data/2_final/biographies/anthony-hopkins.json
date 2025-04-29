@@ -1,105 +1,77 @@
 {
-  "perId":"Anthony Hopkins",
-  "filmId":[
-    "GB2021_005",
-    "GB2023_007"
+  "id":"Anthony Hopkins",
+  "type":"person",
+  "slug":"anthony-hopkins",
+  "name":"Anthony Hopkins",
+  "birthYear":1937,
+  "deathYear":0,
+  "nationality":"GB",
+  "gender":"M",
+  "character":[
+    {
+      "id":"GB2021_005_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2021_005",
+        "slug":"gb2021-005-the-father",
+        "title":{
+          "native":"The Father",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"HOR",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"daily routine",
+        "production":{
+          "country":"FR",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"GB2023_007_03",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2023_007",
+        "slug":"gb2023-007-the-son",
+        "title":{
+          "native":"The Son",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"independent home",
+        "production":{
+          "country":"FR",
+          "share":"MIN"
+        }
+      }
+    }
   ],
-  "title":[
-    "The Son",
-    "The Father"
-  ],
-  "titleEn":null,
-  "director":"Florian Zeller",
-  "releaseType":"THE",
-  "releaseDate":[
-    1676592000000,
-    1636156800000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2021,
-    2023
-  ],
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":[
-    "DRA",
-    "HOR"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=OFnoRaLAclg",
-    "https:\/\/www.imdb.com\/title\/tt14458442\/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_The%2520Son"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt14458442\/mediaviewer\/rm2309621249\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt10272386\/mediaviewer\/rm525706753\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "A man refuses all assistance from his daughter as he ages. As he tries to make sense of his changing circumstances, he begins to doubt his loved ones, his own mind and even the fabric of his reality.",
-    "Peter has his busy life with new partner Beth and their baby thrown into disarray when his ex-wife Kate turns up with their teenage son, Nicholas."
-  ],
-  "synopsisEn":null,
-  "country":[
-    "FR",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "sex",
-    "daily routine",
-    "urban",
-    "motherhood",
-    "wealth",
-    "may-december",
-    "artistic creation",
-    "retirement home",
-    "return home",
-    "retirement",
-    "grandfatherhood",
-    "separation",
-    "personal memory",
-    "fatherhood",
-    "high rank employment",
-    "caregiving",
-    "widowhood",
-    "dementia",
-    "independent home",
-    "medical treatment",
-    "marriage",
-    "intergenerational conflict"
-  ],
-  "charId":[
-    "GB2023_007_03",
-    "GB2021_005_01"
-  ],
-  "charAge":"4",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "UC"
-  ],
-  "charProfession":[
-    "SE",
-    "RE"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":"Anthony Hopkins",
-  "perBirthYear":1937,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"anthony-hopkins"
+  "director":[
+
+  ]
 }

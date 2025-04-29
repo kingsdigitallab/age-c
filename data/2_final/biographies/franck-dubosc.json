@@ -1,174 +1,687 @@
 {
-  "perId":"Franck Dubosc",
-  "filmId":[
-    "FR2020_029",
-    "FR2022_013",
-    "FR2019_205",
-    "FR2019_031",
-    "FR2021_026",
-    "FR2018_043",
-    "FR2022_154"
-  ],
-  "title":[
-    "All Inclusive",
-    "10 jours sans maman",
-    "Rumba la vie",
-    "Toute ressemblance",
-    "Plancha",
-    "Tout le monde debout",
-    "Le Sens de la famille"
-  ],
-  "titleEn":[
-    "Disclaimer",
-    "Rumba Therapy",
-    "Rolling to You",
-    "Happy 50",
-    "All Inclusive",
-    "10 Days with Dad",
-    "Family Swap"
+  "id":"Franck Dubosc",
+  "type":"person",
+  "slug":"franck-dubosc",
+  "name":"Franck Dubosc",
+  "birthYear":1963,
+  "deathYear":0,
+  "nationality":"FR",
+  "gender":"M",
+  "character":[
+    {
+      "id":"FR2022_154_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2022_154",
+        "slug":"fr2022-154-plancha",
+        "title":{
+          "native":"Plancha",
+          "english":"Happy 50"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"regional identity",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2020_029_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2020_029",
+        "slug":"fr2020-029-10-jours-sans-maman",
+        "title":{
+          "native":"10 jours sans maman",
+          "english":"10 Days with Dad"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2020
+        },
+        "tags":"superior-employee relationship",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2019_205_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2019_205",
+        "slug":"fr2019-205-toute-ressemblance",
+        "title":{
+          "native":"Toute ressemblance",
+          "english":"Disclaimer"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"urban",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2019_031_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2019_031",
+        "slug":"fr2019-031-all-inclusive",
+        "title":{
+          "native":"All Inclusive",
+          "english":"All Inclusive"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"tourism",
+        "production":{
+          "country":"BE",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"FR2022_013_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2022_013",
+        "slug":"fr2022-013-rumba-la-vie",
+        "title":{
+          "native":"Rumba la vie",
+          "english":"Rumba Therapy"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"search for meaning",
+        "production":{
+          "country":"BE",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"FR2018_043_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2018_043",
+        "slug":"fr2018-043-tout-le-monde-debout",
+        "title":{
+          "native":"Tout le monde debout",
+          "english":"Rolling to You"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"fraud",
+        "production":{
+          "country":"BE",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"FR2021_026_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2021_026",
+        "slug":"fr2021-026-le-sens-de-la-famille",
+        "title":{
+          "native":"Le Sens de la famille",
+          "english":"Family Swap"
+        },
+        "filmType":"F",
+        "genre":"FAN",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"intergenerational conflict",
+        "production":{
+          "country":"BE",
+          "share":"MIN"
+        }
+      }
+    }
   ],
   "director":[
-    "Michel Denisot",
-    "Eric Lavaine",
-    "Ludovic Bernard",
-    "Fabien Onteniente",
-    "Jean-Patrick Benes",
-    "Franck Dubosc"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1582070400000,
-    1550016000000,
-    1666742400000,
-    1642550400000,
-    1574812800000,
-    1520985600000,
-    1625011200000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2018,
-    2019,
-    2020,
-    2021,
-    2022
-  ],
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":[
-    "FAN",
-    "COM"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=zdcexv1FChs",
-    "https:\/\/www.youtube.com\/watch?v=RRY2Qx1PFDw",
-    "https:\/\/www.youtube.com\/watch?v=ElViJnWzUlE",
-    "https:\/\/www.youtube.com\/watch?v=9zSEPbmDAfs",
-    "https:\/\/www.youtube.com\/watch?v=42hFreb2JF8",
-    "https:\/\/www.youtube.com\/watch?v=gAZ-1XY9HWM",
-    "https:\/\/youtu.be\/35p4fEEgL78"
-  ],
-  "posterUrl":[
-    "https:\/\/medias.unifrance.org\/medias\/25\/66\/213529\/format_page\/toute-ressemblance.png",
-    "https:\/\/medias.unifrance.org\/medias\/135\/138\/232071\/format_page\/family-swap.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/172\/75\/215980\/format_page\/10-jours-sans-maman.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/56\/219\/252728\/format_page\/rumba-la-vie.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/205\/16\/200909\/format_page\/all-inclusive.png",
-    "https:\/\/medias.unifrance.org\/medias\/240\/225\/188912\/format_page\/rolling-to-you.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/119\/228\/255095\/format_page\/plancha.jpg"
-  ],
-  "synopsis":[
-    "Un matin, les Morel se r\u00e9veillent avec un gros probl\u00e8me. Ils d\u00e9couvrent que l'esprit de chacun est coinc\u00e9 dans le corps d\u2019un autre membre de la famille ! Chacha, 6 ans, est dans le corps de Papa, Papa dans le corps de son ado de fils, le fils dans le corps de la grande s\u0153ur, la grande s\u0153ur dans le corps de la m\u00e8re, et la m\u00e8re dans le corps de Chacha\u2026. Vous n\u2019avez pas suivi ? Eux non plus. Et ce n\u2019est que le d\u00e9but.",
-    "Antoine, DRH d'une grande enseigne de bricolage, est en passe de devenir le num\u00e9ro 1 de sa bo\u00eete. C\u2019est le moment que choisit sa femme Isabelle pour faire une pause et prendre l\u2019air quelques jours pour s\u2019occuper d\u2019elle. Antoine se retrouve alors seul \u00e0 devoir g\u00e9rer la maison et leurs 4 enfants. Il est vite d\u00e9pass\u00e9 par les \u00e9v\u00e9nements ! 10 jours sans maman qui risquent bien de faire capoter sa nomination.",
-    "Jocelyn, homme d'affaire en pleine r\u00e9ussite, \u00e9go\u00efste et misogyne, lass\u00e9 d'\u00eatre lui-m\u00eame, se retrouve malgr\u00e9 lui \u00e0 s\u00e9duire une jeune et jolie femme en se faisant passer pour un handicap\u00e9. Jusqu'au jour o\u00f9 elle lui pr\u00e9sente sa soeur elle-m\u00eame handicap\u00e9e...",
-    "Depuis son arriv\u00e9e fracassante \u00e0 la t\u00eate du 20 Heures, C\u00e9dric Saint Gu\u00e9rande, dit \u00ab CSG \u00bb est LE pr\u00e9sentateur pr\u00e9f\u00e9r\u00e9 des fran\u00e7ais. Ses audiences insolentes attisent les jalousies m\u00eame au sein de La Grande Cha\u00eene dont il est la star incontest\u00e9e. Sa soif de pouvoir est sans limites, ce qui d\u00e9plait au nouveau pr\u00e9sident de la cha\u00eene. La guerre est d\u00e9clar\u00e9e entre les deux hommes pour le plus grand plaisir de CSG. Jeux de pouvoir, r\u00e9seautage, manipulations et coups bas : la lutte sera sans merci, et l\u2019issue forc\u00e9ment spectaculaire. Bienvenue dans les jeux du cirque m\u00e9diatique !",
-    "Plant\u00e9 par sa fianc\u00e9e \u00e0 l\u2019a\u00e9roport, Bruno s\u2019envole seul pour sa semaine de lune de miel dans un club \u00ab All Inclusive \u00bb aux Cara\u00efbes. Une mauvaise nouvelle n\u2019arrivant jamais seule, il va devoir partager sa chambre avec Jean-Paul Cisse, \u00e9ternel c\u00e9libataire tr\u00e8s envahissant...",
-    "Tony, la cinquantaine, chauffeur d\u2019autobus scolaire renferm\u00e9 sur lui-m\u00eame, vit seul apr\u00e8s avoir abandonn\u00e9 femme et enfant vingt ans plus t\u00f4t. Bouscul\u00e9 par un malaise cardiaque, il trouve le courage n\u00e9cessaire pour affronter son pass\u00e9 et s\u2019inscrire incognito dans le cours de danse dirig\u00e9 par sa fille, qu\u2019il n\u2019a jamais connue, dans le but de la (re)conqu\u00e9rir et de donner un sens \u00e0 sa vie.",
-    "Un groupe d\u2019amis se r\u00e9jouit de f\u00eater les 50 ans de l\u2019un d\u2019entre eux, Yves, en Gr\u00e8ce. Mais l\u2019annulation de leur vol les contraint \u00e0 se rabattre sur le Finist\u00e8re, dans le manoir familial de Yves, qui, en tant que parfait breton, leur a bross\u00e9 un portrait idyllique de la Bretagne : vieilles pierres, lande fascinante, plages de sable fin et Fest Noz endiabl\u00e9s. Tout y est, en effet, mais sous la pluie. Et surtout, l\u2019anniversaire de Yves va \u00eatre l\u2019occasion de r\u00e9v\u00e9lations inattendues\u2026"
-  ],
-  "synopsisEn":[
-    "Welcome to the mediatic circus games! Since his big arrival at the head of the Evening News, C\u00e9dric Saint Gu\u00e9rande, aka \u201cCSG\u201d, is THE favourite anchor in France. His ratings are through the roof and are stirring jealousy even inside La Grande Cha\u00eene where he\u2019s the undisputed star. Power play, manipulations and dirty tricks: the struggle is relentless, and the outcome, necessarily spectacular.",
-    "Dumped by his ance\u0301e at the airport, Bruno goes alone to his honeymoon vacation in an \u201cAll Inclusive\u201d club in the Caribbean. As bad news never come alone, he has to share his room with Jean-Paul Cisse, a very intrusive eternal bachelor...",
-    "To celebrate Yves\u2019 50th birthday, his friends plan to take him to the sunny paradise of Paros in Greece. But due to a flight cancellation, the holiday will take place in a far less popular and much rainier destination: Yves\u2019 family home in Brittany. During the vacation, Antoine unveils an unusual gift: a DNA ancestry test for Yves and his family. This supposedly harmless joke has unforeseen consequences, and the friendship of the group is once again put to the test\u2026",
-    "Tony is in his fifties, a school bus driver shut up in himself and living alone after having left his wife and daughter 20 years earlier. Shaken up by a cardiac alert, he finds the courage necessary to confront his past and sign up incognito for a dance course run by the daughter he never knew. All to (re)conquer her and give his life meaning.",
-    "Antoine is the Head of HR of a big company. Managing people is his thing, so when his overwhelmed wife suddenly decides to go on holiday and leave him with the responsibility of the house and their four kids, he knows it will be a piece of cake for him. But Antoine has drastically underestimated the mess that four mischievous kids can cause...",
-    "One morning, the Morel family wakes up with a major problem on their hands: their bodies and souls have undergone a total reshuffling. The 6-year-old girl now finds herself in the body of her father, who is now in the body of his teenage son, who is now in the body of his older sister, who is now in the body of her mother, who is now in the body of 6-year-old Chacha\u2026 You don't get it? Neither do they. And this is just the beginning.",
-    "Jocelyn is a womanizer and a seducer... One day, he pretends to be paraplegic to seduce a young caregiver. How could he imagine that he would fall in love with her sister, who is really in a wheelchair? And so Jocelyn is finally trapped in his own scam..."
-  ],
-  "country":[
-    "BE",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "desire",
-    "self-employment",
-    "intergenerational friendship",
-    "intragenerational friendship",
-    "body norms",
-    "urban",
-    "fraud",
-    "wealth",
-    "power",
-    "low rank employment",
-    "search for meaning",
-    "rural",
-    "tourism",
-    "celibacy",
-    "artistic creation",
-    "parenthood",
-    "regional identity",
-    "homosociality",
-    "retirement",
-    "grandmotherhood",
-    "fatherhood",
-    "high rank employment",
-    "holiday",
-    "celebrity",
-    "mass media",
-    "independent home",
-    "romance",
-    "superior-employee relationship",
-    "grief",
-    "marriage",
-    "intergenerational conflict"
-  ],
-  "charId":[
-    "FR2019_031_01",
-    "FR2022_154_02",
-    "FR2020_029_01",
-    "FR2021_026_01",
-    "FR2022_013_01",
-    "FR2018_043_01",
-    "FR2019_205_01"
-  ],
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "UC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "EM",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"franck-dubosc"
+    {
+      "id":"FR2022_013",
+      "slug":"fr2022-013-rumba-la-vie",
+      "title":{
+        "native":"Rumba la vie",
+        "english":"Rumba Therapy"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2022
+      },
+      "tags":"celibacy",
+      "production":{
+        "country":"BE",
+        "share":"MIN"
+      }
+    },
+    {
+      "id":"FR2022_013",
+      "slug":"fr2022-013-rumba-la-vie",
+      "title":{
+        "native":"Rumba la vie",
+        "english":"Rumba Therapy"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2022
+      },
+      "tags":"parenthood",
+      "production":{
+        "country":"BE",
+        "share":"MIN"
+      }
+    },
+    {
+      "id":"FR2018_043",
+      "slug":"fr2018-043-tout-le-monde-debout",
+      "title":{
+        "native":"Tout le monde debout",
+        "english":"Rolling to You"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"wealth",
+      "production":{
+        "country":"BE",
+        "share":"MIN"
+      }
+    },
+    {
+      "id":"FR2018_043",
+      "slug":"fr2018-043-tout-le-monde-debout",
+      "title":{
+        "native":"Tout le monde debout",
+        "english":"Rolling to You"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"intergenerational friendship",
+      "production":{
+        "country":"BE",
+        "share":"MIN"
+      }
+    },
+    {
+      "id":"FR2018_043",
+      "slug":"fr2018-043-tout-le-monde-debout",
+      "title":{
+        "native":"Tout le monde debout",
+        "english":"Rolling to You"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"fraud",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_043",
+      "slug":"fr2018-043-tout-le-monde-debout",
+      "title":{
+        "native":"Tout le monde debout",
+        "english":"Rolling to You"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"romance",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2022_013",
+      "slug":"fr2022-013-rumba-la-vie",
+      "title":{
+        "native":"Rumba la vie",
+        "english":"Rumba Therapy"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2022
+      },
+      "tags":"parenthood",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2022_013",
+      "slug":"fr2022-013-rumba-la-vie",
+      "title":{
+        "native":"Rumba la vie",
+        "english":"Rumba Therapy"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2022
+      },
+      "tags":"low rank employment",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_043",
+      "slug":"fr2018-043-tout-le-monde-debout",
+      "title":{
+        "native":"Tout le monde debout",
+        "english":"Rolling to You"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"self-employment",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_043",
+      "slug":"fr2018-043-tout-le-monde-debout",
+      "title":{
+        "native":"Tout le monde debout",
+        "english":"Rolling to You"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"grief",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2022_013",
+      "slug":"fr2022-013-rumba-la-vie",
+      "title":{
+        "native":"Rumba la vie",
+        "english":"Rumba Therapy"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2022
+      },
+      "tags":"celibacy",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_043",
+      "slug":"fr2018-043-tout-le-monde-debout",
+      "title":{
+        "native":"Tout le monde debout",
+        "english":"Rolling to You"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"body norms",
+      "production":{
+        "country":"BE",
+        "share":"MIN"
+      }
+    },
+    {
+      "id":"FR2018_043",
+      "slug":"fr2018-043-tout-le-monde-debout",
+      "title":{
+        "native":"Tout le monde debout",
+        "english":"Rolling to You"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"self-employment",
+      "production":{
+        "country":"BE",
+        "share":"MIN"
+      }
+    },
+    {
+      "id":"FR2018_043",
+      "slug":"fr2018-043-tout-le-monde-debout",
+      "title":{
+        "native":"Tout le monde debout",
+        "english":"Rolling to You"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"romance",
+      "production":{
+        "country":"BE",
+        "share":"MIN"
+      }
+    },
+    {
+      "id":"FR2022_013",
+      "slug":"fr2022-013-rumba-la-vie",
+      "title":{
+        "native":"Rumba la vie",
+        "english":"Rumba Therapy"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2022
+      },
+      "tags":"search for meaning",
+      "production":{
+        "country":"BE",
+        "share":"MIN"
+      }
+    },
+    {
+      "id":"FR2022_013",
+      "slug":"fr2022-013-rumba-la-vie",
+      "title":{
+        "native":"Rumba la vie",
+        "english":"Rumba Therapy"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2022
+      },
+      "tags":"artistic creation",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2022_013",
+      "slug":"fr2022-013-rumba-la-vie",
+      "title":{
+        "native":"Rumba la vie",
+        "english":"Rumba Therapy"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2022
+      },
+      "tags":"low rank employment",
+      "production":{
+        "country":"BE",
+        "share":"MIN"
+      }
+    },
+    {
+      "id":"FR2018_043",
+      "slug":"fr2018-043-tout-le-monde-debout",
+      "title":{
+        "native":"Tout le monde debout",
+        "english":"Rolling to You"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"grief",
+      "production":{
+        "country":"BE",
+        "share":"MIN"
+      }
+    },
+    {
+      "id":"FR2022_013",
+      "slug":"fr2022-013-rumba-la-vie",
+      "title":{
+        "native":"Rumba la vie",
+        "english":"Rumba Therapy"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2022
+      },
+      "tags":"artistic creation",
+      "production":{
+        "country":"BE",
+        "share":"MIN"
+      }
+    },
+    {
+      "id":"FR2018_043",
+      "slug":"fr2018-043-tout-le-monde-debout",
+      "title":{
+        "native":"Tout le monde debout",
+        "english":"Rolling to You"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"body norms",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_043",
+      "slug":"fr2018-043-tout-le-monde-debout",
+      "title":{
+        "native":"Tout le monde debout",
+        "english":"Rolling to You"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"wealth",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2022_013",
+      "slug":"fr2022-013-rumba-la-vie",
+      "title":{
+        "native":"Rumba la vie",
+        "english":"Rumba Therapy"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2022
+      },
+      "tags":"search for meaning",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_043",
+      "slug":"fr2018-043-tout-le-monde-debout",
+      "title":{
+        "native":"Tout le monde debout",
+        "english":"Rolling to You"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"intergenerational friendship",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_043",
+      "slug":"fr2018-043-tout-le-monde-debout",
+      "title":{
+        "native":"Tout le monde debout",
+        "english":"Rolling to You"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"fraud",
+      "production":{
+        "country":"BE",
+        "share":"MIN"
+      }
+    }
+  ]
 }

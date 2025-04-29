@@ -1,121 +1,77 @@
 {
-  "perId":"John Hurt",
-  "filmId":[
-    "GB2018_025",
-    "GB2018_049"
+  "id":"John Hurt",
+  "type":"person",
+  "slug":"john-hurt",
+  "name":"John Hurt",
+  "birthYear":1940,
+  "deathYear":2017,
+  "nationality":"GB",
+  "gender":"M",
+  "character":[
+    {
+      "id":"GB2018_049_02",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2018_049",
+        "slug":"gb2018-049-damascus-cover",
+        "title":{
+          "native":"Damascus Cover",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"ACT",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"power",
+        "production":{
+          "country":"GB",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"GB2018_025_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "role":null,
+      "film":{
+        "id":"GB2018_025",
+        "slug":"gb2018-025-that-good-night",
+        "title":{
+          "native":"That Good Night",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"wealth",
+        "production":{
+          "country":"PT",
+          "share":"MIN"
+        }
+      }
+    }
   ],
-  "title":[
-    "Damascus Cover",
-    "That Good Night"
-  ],
-  "titleEn":null,
   "director":[
-    "Daniel Zelik Berk",
-    "Eric Styles"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1533254400000,
-    1525996800000
-  ],
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":[
-    "Daniel Zelik Berk",
-    "Eric Styles"
-  ],
-  "directorBirthYear":[
-    0,
-    1967
-  ],
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":[
-    "GB",
-    null
-  ],
-  "genre":[
-    "DRA",
-    "ACT",
-    "SPY",
-    "THR"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=p9i714NYiDw",
-    "https:\/\/www.imdb.com\/title\/tt3457508\/?ref_=ttrel"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt3457508\/mediaviewer\/rm1588477952\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt5271794\/mediaviewer\/rm3341221888\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "A spy navigates the precarious terrain of love and survival during an undercover mission in Syria.",
-    "Ralph, a once-famous screenwriter, is in his seventies and terminally ill. He has two final missions: to be reconciled to his son, Michael, and, secretly, to ensure he is not a burden to his wife, Anna, as he goes \"into that good night\"."
-  ],
-  "synopsisEn":null,
-  "country":[
-    "PT",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "intergenerational friendship",
-    "mentorship",
-    "urban",
-    "wealth",
-    "power",
-    "abuse",
-    "may-december",
-    "physical illness",
-    "homosociality",
-    "return home",
-    "natural death",
-    "substance abuse",
-    "assisted death",
-    "fatherhood",
-    "state institutions",
-    "inheritance",
-    "high rank employment",
-    "independent home",
-    "in-laws",
-    "superior-employee relationship",
-    "agony",
-    "marriage",
-    "intergenerational conflict",
-    "hospital"
-  ],
-  "charId":[
-    "GB2018_049_02",
-    "GB2018_025_01"
-  ],
-  "charAge":"4",
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":[
-    "EM",
-    "RE"
-  ],
-  "charAbility":[
-    "AB",
-    "CI"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":"John Hurt",
-  "perBirthYear":1940,
-  "perDeathYear":2017,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"john-hurt"
+
+  ]
 }

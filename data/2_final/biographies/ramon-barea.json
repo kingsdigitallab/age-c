@@ -1,302 +1,356 @@
 {
-  "perId":"Ram\u00f3n Barea",
-  "filmId":[
-    "ES2019_019",
-    "ES2019_010",
-    "ES2018_003",
-    "ES2022_016",
-    "ES2020_004",
-    "ES2023_005",
-    "ES2018_053",
-    "ES2021_005",
-    "ES2021_008",
-    "ES2021_022",
-    "ES2022_076"
-  ],
-  "title":[
-    "Oh! Mammy Blue",
-    "Ed\u00e9n",
-    "Abuelos",
-    "Garc\u00eda y Garc\u00eda",
-    "Todos lo saben",
-    "La peque\u00f1a Suiza",
-    "\u00a1Vaya vacaciones!",
-    "La boda de Rosa",
-    "Nora",
-    "La vida era eso",
-    "Cinco lobitos"
-  ],
-  "titleEn":[
-    "Garcia & Garcia",
-    "That Was Life",
-    "Rosa's Wedding",
-    "Nora",
-    "Lullaby",
-    null,
-    "One Hell of a Holiday!",
-    "Grandfathers",
-    "Everybody Knows",
-    "The Little Switzerland"
+  "id":"Ram\u00f3n Barea",
+  "type":"person",
+  "slug":"ramon-barea",
+  "name":"Ram\u00f3n Barea",
+  "birthYear":1949,
+  "deathYear":0,
+  "nationality":"ES",
+  "gender":"M",
+  "character":[
+    {
+      "id":"ES2021_022_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "role":null,
+      "film":{
+        "id":"ES2021_022",
+        "slug":"es2021-022-nora",
+        "title":{
+          "native":"Nora",
+          "english":"Nora"
+        },
+        "filmType":"F",
+        "genre":"ROA",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"regional identity",
+        "production":{
+          "country":"FR",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"ES2021_005_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "role":null,
+      "film":{
+        "id":"ES2021_005",
+        "slug":"es2021-005-garcia-y-garcia",
+        "title":{
+          "native":"Garc\u00eda y Garc\u00eda",
+          "english":"Garcia & Garcia"
+        },
+        "filmType":"F",
+        "genre":"ACT",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"class solidarity",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2022_016_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2022_016",
+        "slug":"es2022-016-cinco-lobitos",
+        "title":{
+          "native":"Cinco lobitos",
+          "english":"Lullaby"
+        },
+        "filmType":"F",
+        "genre":"HEM",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"personal memory",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2022_076_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2022_076",
+        "slug":"es2022-076-eden",
+        "title":{
+          "native":"Ed\u00e9n",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"THR",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"communal housing",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2018_003_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "role":null,
+      "film":{
+        "id":"ES2018_003",
+        "slug":"es2018-003-todos-lo-saben",
+        "title":{
+          "native":"Todos lo saben",
+          "english":"Everybody Knows"
+        },
+        "filmType":"F",
+        "genre":"THR",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"crime",
+        "production":{
+          "country":"IT",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"ES2021_008_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2021_008",
+        "slug":"es2021-008-la-vida-era-eso",
+        "title":{
+          "native":"La vida era eso",
+          "english":"That Was Life"
+        },
+        "filmType":"F",
+        "genre":"ROA",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"migration",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2018_053_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2018_053",
+        "slug":"es2018-053-oh-mammy-blue",
+        "title":{
+          "native":"Oh! Mammy Blue",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"MUS",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"ageism",
+        "production":{
+          "country":"DE",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"ES2023_005_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2023_005",
+        "slug":"es2023-005-vaya-vacaciones",
+        "title":{
+          "native":"\u00a1Vaya vacaciones!",
+          "english":"One Hell of a Holiday!"
+        },
+        "filmType":"F",
+        "genre":"CHI",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"independent home",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2019_010_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2019_010",
+        "slug":"es2019-010-la-pequena-suiza",
+        "title":{
+          "native":"La peque\u00f1a Suiza",
+          "english":"The Little Switzerland"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"intragenerational friendship",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2019_019_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2019_019",
+        "slug":"es2019-019-abuelos",
+        "title":{
+          "native":"Abuelos",
+          "english":"Grandfathers"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2011
+        },
+        "tags":"class solidarity",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2020_004_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2020_004",
+        "slug":"es2020-004-la-boda-de-rosa",
+        "title":{
+          "native":"La boda de Rosa",
+          "english":"Rosa's Wedding"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2020
+        },
+        "tags":"body norms",
+        "production":{
+          "country":"FR",
+          "share":"MIN"
+        }
+      }
+    }
   ],
   "director":[
-    "David Mart\u00edn de los Santos",
-    "Antonio Hens",
-    "Lara Izagirre",
-    "Ic\u00edar Bolla\u00edn",
-    "Kepa Sojo",
-    "Ana Murugarren",
-    "Asghar Farhadi",
-    "Alauda Ruiz de Az\u00faa",
-    "Santiago Requejo",
-    "V\u00edctor Garc\u00eda Le\u00f3n",
-    "Estefan\u00eda Cort\u00e9s"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1652745600000,
-    1597968000000,
-    1682035200000,
-    1556236800000,
-    1631404800000,
-    1615248000000,
-    1666915200000,
-    1536883200000,
-    1530230400000,
-    1318982400000,
-    1629763200000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2018,
-    2019,
-    2020,
-    2021,
-    2022,
-    2023,
-    2011
-  ],
-  "directorName":[
-    "David Mart\u00edn de los Santos",
-    "Lara Izagirre",
-    "Kepa Sojo",
-    null,
-    "Alauda Ruiz de Az\u00faa",
-    "V\u00edctor Garc\u00eda Le\u00f3n",
-    "Estefan\u00eda Cort\u00e9s"
-  ],
-  "directorBirthYear":[
-    0,
-    1985,
-    1968,
-    1976,
-    1978
-  ],
-  "directorDeathYear":0,
-  "directorGender":[
-    "F",
-    "M",
-    null
-  ],
-  "directorNationality":[
-    "ES",
-    null
-  ],
-  "genre":[
-    "DRA",
-    "ROM",
-    "THR",
-    "ACT",
-    "ROA",
-    "MUS",
-    "COM",
-    "CHI",
-    "HEM"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=yh7ipaLDASA",
-    "https:\/\/www.imdb.com\/title\/tt6769258\/?ref_=ttrel_ov",
-    "https:\/\/www.imdb.com\/title\/tt14755038\/?ref_=nv_sr_srsg_0_tt_5_nm_0_in_0_q_Cinco%2520lobitos",
-    "https:\/\/www.youtube.com\/watch?v=w7cvj9RabiA",
-    "https:\/\/www.youtube.com\/watch?v=jrAML3wM1ug",
-    "https:\/\/www.imdb.com\/title\/tt6636962\/?ref_=nm_ov_bio_lk",
-    "https:\/\/www.youtube.com\/watch?v=_aWZuaLr5mg",
-    "https:\/\/www.youtube.com\/watch?v=dG-Sed_h3NU",
-    "https:\/\/www.imdb.com\/title\/tt15523334\/?ref_=nv_sr_srsg_0_tt_6_nm_0_in_0_q_%25C2%25A1Vaya%2520vacaciones!",
-    "https:\/\/www.youtube.com\/watch?v=KQDlvKuh3MY",
-    "https:\/\/www.youtube.com\/watch?v=xrX4Q8SivUo"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt10077544\/mediaviewer\/rm907195393\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt6769258\/mediaviewer\/rm3305262336\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt6636962\/mediaviewer\/rm970327553\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt15523334\/mediaviewer\/rm888616193\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt4964788\/mediaviewer\/rm3064296960\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt14755038\/mediaviewer\/rm1174018305\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt11613746\/mediaviewer\/rm3106339073\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt8092586\/mediaviewer\/rm768961792\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt10395398\/mediaviewer\/rm1503782657\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt9100028\/mediaviewer\/rm3811926784\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt11123392\/mediaviewer\/rm799909633\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "Hispavia, una aerol\u00ednea low cost de poca monta, se encuentra en graves dificultades. Ni sus n\u00fameros cuadran, ni sus aviones vuelan. En un intento desesperado por salvar la compa\u00f1\u00eda, deciden contratar simult\u00e1neamente a un prestigioso consultor de aerol\u00edneas y a un experto mec\u00e1nico en paro. Los dos se llaman Javier Garc\u00eda. La casualidad y la desorganizaci\u00f3n de la empresa har\u00e1n que sean confundidos e intercambien sus papeles, y mientras el mec\u00e1nico es atendido por el due\u00f1o de la compa\u00f1\u00eda y alojado en hoteles de lujo, el ejecutivo acaba en el hangar, enfundado en un mono grasiento. Perplejos y sin saber qu\u00e9 est\u00e1 sucediendo, ambos se van enfrentando a los cometidos del otro, hasta que los dos Javier Garc\u00eda se encuentran y descubren el error.",
-    "Amaia (Laia Costa) acaba de ser madre y se da cuenta de que no sabe muy bien c\u00f3mo serlo. Al ausentarse su pareja por trabajo unas semanas, decide volver a casa de sus padres, en un bonito pueblo costero del Pa\u00eds Vasco, y as\u00ed compartir la responsabilidad de cuidar a su beb\u00e9. Lo que no sabe Amaia es que, aunque ahora sea madre, no dejar\u00e1 de ser hija.",
-    "Laura es una legendaria cantante de rock espa\u00f1ol que arruin\u00f3 su carrera y ahora vive en una casa de ancianos. All\u00ed trata de animar a sus compa\u00f1eros formando una banda folk ante las reticencias de Marta, la directora del centro. De repente, Laura recibe la visita de un nieto desconocido, Jaime, quien le pide que le ense\u00f1e c\u00f3mo ser un m\u00fasico de rock. Ella decide ayudarle e incluso le escribir\u00e1 una canci\u00f3n para usar en un concurso de rock. Pero para participar deber\u00e1n componer una banda, y Laura lleva mucho tiempo retirada\u2026",
-    "Dos mujeres espa\u00f1olas de distintas generaciones coinciden en la habitaci\u00f3n de un hospital en B\u00e9lgica. Mar\u00eda vive all\u00ed desde hace d\u00e9cadas tras emigrar en su juventud, y Ver\u00f3nica es una joven reci\u00e9n llegada en busca de las oportunidades que nunca encontr\u00f3 en Espa\u00f1a. Entre ellas se forja una peculiar amistad que llevar\u00e1 a Mar\u00eda a emprender un viaje de vuelta al sur de Espa\u00f1a con una ins\u00f3lita misi\u00f3n. Lo que comienza como un viaje en busca de las ra\u00edces de Ver\u00f3nica, se convertir\u00e1 en una oportunidad para cuestionarse ciertos principios en los que bas\u00f3 su vida.",
-    "Narra las peripecias de los habitantes de un imaginario pueblo castellano enclavado en el centro del Pa\u00eds Vasco llamado Teller\u00eda, que desea, tras 700 a\u00f1os de historia, pasar a ser parte del territorio vasco. Tras la negativa del gobierno, un curioso hallazgo en el santuario del pueblo originar\u00e1 que los osados habitantes de Teller\u00eda pidan su anexi\u00f3n, nada menos que a uno de los pa\u00edses m\u00e1s ricos del mundo: Su",
-    "Manuela y Jos\u00e9 quieren mucho a sus hijos y, sobre todo, idolatran a sus nietos. Pero los primeros han tomado por costumbre dejar a sus reto\u00f1os al cuidado de sus abuelos, y \u00e9stos ya no recuerdan la \u00faltima vez que tuvieron un rato para ellos mismos. Para colmo, este verano han tenido que cancelar el viaje de sus sue\u00f1os porque a sus hijos les ha salido un important\u00edsimo viaje de trabajo... aunque pronto van a descubrir la verdad: en realidad est\u00e1n de vacaciones en Bali. Es la gota que colma el vaso. \u00a1Se acab\u00f3! Manuela y Jos\u00e9 dejar\u00e1n de ser los entra\u00f1ables abuelitos y har\u00e1n que sus nietos pasen el peor verano de sus vidas, har\u00e1n que llamen a sus padres y les supliquen que vayan a recogerles. Pero Carla, Guille y Ali tienen tambi\u00e9n sus propias ideas sobre c\u00f3mo pasar el verano, plantando batalla a sus abuelos en una guerra sin cuartel.",
-    "A punto de cumplir 45, Rosa se da cuenta de que ha vivido siempre por y para los dem\u00e1s y decide apretar el bot\u00f3n nuclear, mandarlo todo a paseo y tomar las riendas de su vida. Pero antes, quiere embarcarse en un compromiso muy especial: un matrimonio consigo misma. Pronto descubrir\u00e1 que su padre, sus hermanos y su hija tienen otros planes, y que cambiar de vida no es tan sencillo si no est\u00e1 en el guion familiar. Casarse, aunque sea con ella misma, va a ser lo m\u00e1s dif\u00edcil que haya hecho nunca.",
-    "Laura viaja con su familia desde Buenos Aires a su pueblo natal, en Espa\u00f1a, para asistir a la boda de su hermana. Lo que iba a ser una breve visita familiar se ver\u00e1 trastocada por unos acontecimientos imprevistos, que sacudir\u00e1n las vidas de los implicados.",
-    "Cuatro desconocidos acuden a Ede\u0301n, una empresa clandestina en plena naturaleza para acabar con su vida. Una joven rota por la culpa que no puede olvidar su pasado; un anciano que quiere evitar el dolor de sus seres queridos; una carisma\u0301tica mujer con un trastorno de la personalidad; y un hombre desesperado que esconde un oscuro secreto. Ede\u0301n les une en el momento previo a su muerte, pero \u00bfes tan sencillo escapar de la vida?",
-    "Nora tiene 30 a\u00f1os, vive con su abuelo argentino Nicol\u00e1s y su vida no es la que ella imaginaba. Tiene peque\u00f1os trabajos y casi no ha salido de su pueblo. Cuando pierde a su abuelo, decide iniciar un viaje por la costa del Pa\u00eds Vasco para llevar sus cenizas junto a las de la abuela.",
-    "Isidro Hern\u00e1ndez (Carlos Iglesias) es un parado de 59 a\u00f1os al que la crisis expuls\u00f3 del mercado laboral. Tras dos a\u00f1os sin recibir ofertas de trabajo llega a la conclusi\u00f3n que la \u00fanica forma de volver a trabajar y sentirse \u00fatil es montando su propio negocio. Pero \u00bfqu\u00e9 puede emprender alguien de su edad a quien la sociedad relega simplemente al cuidado de sus nietos? La respuesta es clara: con la ayuda de Arturo (Roberto \u00c1lvarez), un exitoso escritor de novelas rom\u00e1nticas, y de Desiderio (Ram\u00f3n Barea), un jubilado con ganas de ser abuelo, se embarcar\u00e1n en el ambicioso proyecto de intentar montar una guarder\u00eda. Para desarrollarlo, los tres amigos se adentrar\u00e1n en un 'coworking' repleto de j\u00f3venes, donde tendr\u00e1n que sacar al emprendedor que llevan dentro."
-  ],
-  "synopsisEn":[
-    "Nora is in her 30s and has barely left her village. When her grandfather passes away, Nora decides to journey along the Basque coast to reunite his ashes' with her grandma's.",
-    "Amaia, who has just become a mother, decides to return for guidance after her partner is temporarily away, to her parents' house along the Basque coast.",
-    "Rosa is about to turn 45 and realises that she's always lived her life to serve everyone else. So she decides to leave it all behind and take charge of her life and fulfil her dream of starting her own business",
-    "Laura is a legendary Spanish rock singer who ruined her career and now lives in a nursing home. There she tries to cheer up his teammates by forming a folk band although Marta is reluctant, the director of the center. Suddenly, Laura receives the visit of an unknown grandson, Jaime, who asks her to teach him how to be a rock musician.",
-    "Three aged friends looking for create their own job to show that still are useful.",
-    "A fictional Castillian village but located in Basque Country tries become part of Switzerland after a surprising discovery.",
-    "Maria's stable, retired life drastically changes when the condition of a young patient sharing a hospital room abruptly worsens. This road movie celebrates human dignity with the ageless possibilities of life.",
-    "It follows Marina, a young girl that has been trying to escape the ghosts that follow her after a tragic event. She goes to Ed\u00e9n, a clandestine company located in the middle of nature to put an end to her suffering.",
-    "Two men with the same name endure the funny consequences of getting mixed up during a business trip.",
-    "Laura, a Spanish woman living in Buenos Aires, returns to her hometown outside Madrid with her two children to attend her sister's wedding. However, the trip is upset by unexpected events that bring secrets into the open.",
-    "It tells the story of Manuela and Jos\u00e9. Even though they are delighted with taking care of their grandchildren, they are a bit fed up with no longer having time to dedicate to themselves."
-  ],
-  "country":[
-    "FR",
-    "VE",
-    "ES",
-    "IT",
-    "DE"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "desire",
-    "sex",
-    "self-employment",
-    "intergenerational friendship",
-    "extended family",
-    "technology",
-    "migration",
-    "daily routine",
-    "grandparenthood",
-    "intragenerational friendship",
-    "body norms",
-    "urban",
-    "mentorship",
-    "precarity",
-    "festivities",
-    "motherhood",
-    "fraud",
-    "wealth",
-    "activism",
-    "rural",
-    "reignited passion",
-    "low rank employment",
-    "search for meaning",
-    "abuse",
-    "siblinghood",
-    "pilgrimage",
-    "disability",
-    "national identity",
-    "artistic creation",
-    "parenthood",
-    "retirement home",
-    "regional identity",
-    "homosociality",
-    "return home",
-    "retirement",
-    "well-being",
-    "physical illness",
-    "new start",
-    "multigenerational family",
-    "women empowerment",
-    "grandfatherhood",
-    "separation",
-    "communal housing",
-    "natural death",
-    "personal memory",
-    "personal trauma",
-    "assisted death",
-    "grandmotherhood",
-    "fatherhood",
-    "state institutions",
-    "ageism",
-    "loneliness",
-    "high rank employment",
-    "class solidarity",
-    "unemployment",
-    "holiday",
-    "caregiving",
-    "celebrity",
-    "mass media",
-    "widowhood",
-    "dementia",
-    "independent home",
-    "professional politics",
-    "in-laws",
-    "romance",
-    "medical treatment",
-    "last mission",
-    "grief",
-    "crime",
-    "marriage",
-    "natural",
-    "elderhood (friendship among elders)",
-    "intergenerational conflict",
-    "hospital"
-  ],
-  "charId":[
-    "ES2022_016_02",
-    "ES2021_022_01",
-    "ES2018_053_02",
-    "ES2019_010_01",
-    "ES2023_005_03",
-    "ES2021_008_02",
-    "ES2020_004_02",
-    "ES2018_003_02",
-    "ES2021_005_04",
-    "ES2019_019_03",
-    "ES2022_076_01"
-  ],
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "LM",
-    null
-  ],
-  "charProfession":[
-    "SE",
-    "RE",
-    "UN",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    "PD",
-    null
-  ],
-  "assistedMobility":[
-    "N",
-    "Y",
-    null
-  ],
-  "perName":"Ram\u00f3n Barea",
-  "perBirthYear":1949,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"ramon-barea"
+
+  ]
 }

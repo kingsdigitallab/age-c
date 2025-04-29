@@ -1,160 +1,307 @@
 {
-  "perId":"Rocco Papaleo",
-  "filmId":[
-    "IT2019_045",
-    "IT2018_005",
-    "IT2018_037",
-    "IT2018_046",
-    "IT2023_025",
-    "IT2023_016"
-  ],
-  "title":[
-    "Moschettieri del re: La Penultima Missione",
-    "Scordato",
-    "Il grande spirito",
-    "Bob & Marys",
-    "Tu mi nascondi qualcosa",
-    "I peggiori giorni"
-  ],
-  "titleEn":[
-    "The King's Musketeers",
-    "Bob & Marys",
-    null
+  "id":"Rocco Papaleo",
+  "type":"person",
+  "slug":"rocco-papaleo",
+  "name":"Rocco Papaleo",
+  "birthYear":1958,
+  "deathYear":0,
+  "nationality":"IT",
+  "gender":"M",
+  "character":[
+    {
+      "id":"IT2023_016_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"SE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "role":"LEA",
+      "film":{
+        "id":"IT2023_016",
+        "slug":"it2023-016-scordato",
+        "title":{
+          "native":"Scordato",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"regional identity",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2023_016_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"SE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "role":"DIR",
+      "film":{
+        "id":"IT2023_016",
+        "slug":"it2023-016-scordato",
+        "title":{
+          "native":"Scordato",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"regional identity",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2018_005_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2018_005",
+        "slug":"it2018-005-moschettieri-del-re-la-penultima-missione",
+        "title":{
+          "native":"Moschettieri del re: La Penultima Missione",
+          "english":"The King's Musketeers"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"last mission",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2019_045_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LC",
+      "profession":null,
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "role":"LEA",
+      "film":{
+        "id":"IT2019_045",
+        "slug":"it2019-045-il-grande-spirito",
+        "title":{
+          "native":"Il grande spirito",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"homosociality",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2018_037_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"TD",
+      "assistedMobility":"TD",
+      "role":"LEA",
+      "film":{
+        "id":"IT2018_037",
+        "slug":"it2018-037-tu-mi-nascondi-qualcosa",
+        "title":{
+          "native":"Tu mi nascondi qualcosa",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"MPF",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"mental illness",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2023_025_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2023_025",
+        "slug":"it2023-025-i-peggiori-giorni",
+        "title":{
+          "native":"I peggiori giorni",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"suicide",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2018_046_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2018_046",
+        "slug":"it2018-046-bob-marys",
+        "title":{
+          "native":"Bob & Marys",
+          "english":"Bob & Marys"
+        },
+        "filmType":"F",
+        "genre":"CRI",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"new start",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    }
   ],
   "director":[
-    "Giovanni Veronesi",
-    "Giuseppe Lo Console",
-    "Rocco Papaleo",
-    "Sergio Rubini",
-    "Francesco Prisco",
-    "Massimiliano Bruno",
-    "Edoardo Leo"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1691971200000,
-    1567641600000,
-    1524614400000,
-    1681344000000,
-    1545868800000,
-    1522886400000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2018,
-    2019,
-    2023
-  ],
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":[
-    "DRA",
-    "ANT",
-    "ADV",
-    "MPF",
-    "COM",
-    "CRI"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=gnNl3M6gqO0",
-    "https:\/\/www.youtube.com\/watch?v=NVGebRDKX78",
-    "https:\/\/www.youtube.com\/watch?v=ia8Q3iVnOPs",
-    "https:\/\/www.youtube.com\/watch?v=HKNuWRJ7NDk",
-    "https:\/\/www.youtube.com\/watch?v=xbUHsiqnlW4",
-    "https:\/\/www.youtube.com\/watch?v=V1nBoZeak_Y"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt7797962\/mediaviewer\/rm2221106688\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt7325902\/mediaviewer\/rm2753317376\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt8069436\/mediaviewer\/rm2416334080\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt8418652\/mediaviewer\/rm4211635712\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt15198932\/mediaviewer\/rm3742839809\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt21412448\/mediaviewer\/rm1333010945\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "Roberto (Rocco Papaleo) e Marisa (Laura Morante) sono una coppia sposata da quasi trent\u2019anni, che conduce una vita priva di sussulti: istruttore di scuola guida lui e operatrice volontaria lei, vivono in un equilibrio di grigia abitudine. Fino a quando una notte, un manipolo di criminali spietati si introduce in casa loro e la riempie di pacchi dal contenuto misterioso, ma sicuramente illegale. \u201cAcc\u00f9ppatura\u201d, \u00e8 questo il nome della pratica criminale che costringe i due malcapitati a custodire in casa merce illecita, senza possibilit\u00e0 alcuna di denunciare e, soprattutto, col serio rischio di passare un guaio con la legge. Ma col passare dei giorni, sotto scacco dei malviventi e con gli sguardi indiscreti del vicinato da eludere, i due coniugi cominciano a rendersi conto che quella rocambolesca disavventura delittuosa ha ridato alla coppia il brio che mancava da decenni.",
-    "In un quartiere della periferia di Taranto, durante una rapina, uno dei tre complici, un cinquantenne dall\u2019aria malmessa, Tonino detto Barboncino (Sergio Rubini) approfittando della distrazione degli altri due, ruba tutto il malloppo e scappa. La sua corsa procede verso l\u2019alto, di tetto in tetto fino a raggiungere la terrazza pi\u00f9 elevata, per rifugiarsi in un vecchio lavatoio, dove trova uno strano individuo (Rocco Papaleo) dall\u2019aspetto eccentrico: sostiene di chiamarsi Cervo Nero e di appartenere alla trib\u00f9 dei Sioux. Dal suo canto Tonino \u00e8 sotto assedio: il quartiere \u00e8 presidiato dai suoi inseguitori, gli angoli delle strade controllate. In questa immobilit\u00e0 forzata, realizzando di essere completamente solo, a Tonino non rimane che un\u2019unica disperata alternativa: allearsi con quello squilibrato che si comporta come un pellerossa e che, proprio perch\u00e9 guarda il mondo da un\u2019altra prospettiva, potr\u00e0 forse fornirgli la chiave per uscire dal vicolo cieco in cui \u00e8 finito.",
-    "La vita di Orlando, mite accordatore di pianoforti, tormentato da dolori alla schiena, cambia quando incontra Olga, un\u2019affascinante fisioterapista, che gli diagnostica una contrattura \"emotiva\" e gli chiede di portarle una sua foto da giovane, cos\u00ec che lei possa aiutarlo a risolvere i suoi problemi. L'insolita richiesta spinger\u00e0 Orlando a mettersi in viaggio e a rivivere quasi come uno spettatore gli eventi della sua vita che lo hanno reso l\u2019uomo solitario e \"contratto\" che \u00e8 oggi.",
-    "Quanto \u00e8 bello stare in famiglia a Natale. O no? E il Primo Maggio \u00e8 davvero la festa di tutti i lavoratori? Ferragosto in spensieratezza tra una grigliata e un tuffo in piscina? Ad Halloween ci si traveste per fare dolcetto o scherzetto agli sconosciuti Tre fratelli si trovano a tirare a sorte, proprio il giorno di Natale, per decidere chi, tra loro, dovr\u00e0 sacrificarsi e donare un rene per salvare la vita al padre. Un imprenditore sul lastrico viene preso ostaggio il Primo Maggio dal suo ex dipendente che, licenziato senza giusta causa, \u00e8 pronto a tutto per riuscire a prendere i soldi della liquidazione. Lo scontro tra classi sociali si accende a Ferragosto davanti a una grigliata e a causa di figli adolescenti alle prese con i rischi di un party ad alto tasso alcolico e i pericoli della rete. Infine, Halloween e lo scherzo che il destino gioca a un malcapitato mago che si ritrova ad essere ingaggiato a sua insaputa dal suo storico rivale in amore. Dopo i migliori giorni arrivano sempre i peggiori giorni! Quattro nuovi episodi per un film corale che, fra ironia e amarezza, sonda l\u2019animo umano e le sue miserie.",
-    "D\u2019Artagnan (Pierfrancesco Favino), Athos (Rocco Papaleo), Aramis (Sergio Rubini) e Porthos (Valerio Mastandrea). Oggi sono un allevatore di bestiame sgrammaticato, un castellano lussurioso, un frate indebitato e un locandiere ubriacone, che per amor patrio saranno di nuovo moschettieri. Un po\u2019 attempati, cinici e disillusi, ma sempre abilissimi con spade e moschetti, richiamati all\u2019avventura dopo oltre vent\u2019anni dalla Regina Anna (Margherita Buy) per salvare la Francia dalle trame ordite a corte dal perfido Cardinale Mazzarino (Alessandro Haber) con la sua cospiratrice Milady (Giulia Bevilacqua). Affiancati nelle loro gesta dall\u2019inscalfibile Servo (Lele Vannoli) muto, e da un\u2019esuberante Ancella (Matilde Gioli), i quattro - in sella a destrieri pi\u00f9 o meno fedeli - combatteranno per la libert\u00e0 dei perseguitati Ugonotti e per la salvezza del giovanissimo, parruccato e dissoluto Luigi XIV. Muovendosi al confine tra eroico e prosaico, i nostri si spingeranno fino a Suppergi\u00f9, provando a portare a termine un\u2019altra incredibile missione. Difficile dire se sar\u00e0 l\u2019ultima o la penultima.",
-    "Valeria (Sarah Felberbaum), fotografa provvisoriamente impiegata nell\u2019agenzia investigativa del padre (Ninni Bruschetta), si trova per errore a pedinare la persona sbagliata e scopre che la compagna di Francesco (Giuseppe Battiston) lo tradisce. Quando lui lo scopre per\u00f2, \u00e8 lei che lo lascia. Francesco piomba in depressione e Valeria viene assalita dai sensi di colpa. Irene (Olga Rossi) fa un appello in tv denunciando la scomparsa di suo marito Alberto (Rocco Papaleo). L\u2019uomo, ripescato in mare aperto, viene rintracciato in un ospedale dov\u2019\u00e8 ricoverato, sta bene ma ha perso completamente la memoria. Quando Irene raggiunge il marito, trova un\u2019amara sorpresa: un\u2019altra moglie tunisina (Roc\u00edo Mu\u00f1oz Morales) \u00e8 gi\u00e0 al suo capezzale. Ezio (Alessandro Tiberi) e Linda (Stella Egitto) sono una coppia molto affiatata, nonostante l\u2019insolito mestiere di lei: Linda infatti \u00e8 un\u2019acclamata pornostar ed lui non ne \u00e8 affatto geloso. Ma la questione cambia quando comincia a sospettare che tra Linda e il suo collega di set ci sia qualcosa di pi\u00f9."
-  ],
-  "synopsisEn":[
-    "How nice it is to be with family at Christmas. Or not? And is May Day really a holiday for all workers? Mid-August in lightheartedness between a barbecue and a dip in the pool? Do you dress up on Halloween to trick or treat strangers? Three brothers find themselves drawing lots, on Christmas day, to decide who, among them, will have to sacrifice himself and donate a kidney to save their father\u2019s life. A businessman on the streets is taken hostage on May Day by his former employee who, fired without just cause, is ready to do anything to be able to take the severance money. The clash between social classes ignites on August 15th in front of a barbecue and because of teenage children grappling with the risks of a high-alcohol party and the dangers of the Internet. Finally, Halloween is the joke that fate plays on an unfortunate wizard who finds himself being hired without his knowledge by his historic rival in love. After the best days always come the worst days! Four new episodes for an ensemble film which, between irony and bitterness, probes the human soul and its miseries.",
-    "A piano tuner, tormented by back pain, meets a charming physiotherapist.",
-    "In a neighbourhood on the outskirts of Taranto, during a robbery, one of the three accomplices, Tonino aka Barboncino, a shabby-looking fifty-year old, takes advantage of the other two men\u2019s distraction, grabs the whole loot, and runs off. Tonino , runs from rooftop to rooftop until he reaches the uppermost terrace, beyond which there is a precipice that forces him to take refuge in an old washhouse. Someone surprisingly helps him hide successfully. This strange individual wears a bird\u2019s feather behind his ear: he says he\u2019s called Black Deer and belongs to the Sioux tribe. Tonino, soon realizes he is under siege: the neighbourhood is manned by his pursuers, and the street corners are monitored. In these days of forced immobility, as his impracticable attempts to recover the loot and organize an escape with his ex-companion Milena fail, Tonino comes to the bitter conclusion that he is all alone. he has only one desperate alternative left: to join forces with this eccentric man who acts like an Indian and who, precisely because he looks at the world from another perspective, might perhaps provide him with the key out of the dead end where he has ended up.",
-    "A private eye mistakenly tells a client his wife is cheating, an amnesiac learns about his two wives and a man suspects his girlfriend of infidelity.",
-    "The band of musketeers; D'Artagnan, Porthos, Aramis and Athos, portrayed in a purely self-ironic and disenchanted key, in a series of adventures in order to save King Louis XIV.",
-    "A married couple must get their hands dirty when a bunch of mobsters start using their new home as a deposit for illegal material."
-  ],
-  "country":"IT",
-  "productionShare":"MAJ",
-  "tags":[
-    "sex",
-    "extended family",
-    "suicide",
-    "class conflict",
-    "festivities",
-    "search for meaning",
-    "siblinghood",
-    "may-december",
-    "mental illness",
-    "physical illness",
-    "regional identity",
-    "parenthood",
-    "homosociality",
-    "new start",
-    "natural death",
-    "personal memory",
-    "fatherhood",
-    "organized crime",
-    "widowhood",
-    "independent home",
-    "infidelity",
-    "last mission",
-    "crime",
-    "marriage"
-  ],
-  "charId":[
-    "IT2018_005_01",
-    "IT2023_016_01",
-    "IT2018_037_01",
-    "IT2019_045_02",
-    "IT2018_046_01",
-    "IT2023_025_01"
-  ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "LC",
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "EM",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    "PD",
-    "CI",
-    "TD"
-  ],
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"rocco-papaleo"
+    {
+      "id":"IT2023_016",
+      "slug":"it2023-016-scordato",
+      "title":{
+        "native":"Scordato",
+        "english":""
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2023
+      },
+      "tags":"personal memory",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"IT2023_016",
+      "slug":"it2023-016-scordato",
+      "title":{
+        "native":"Scordato",
+        "english":""
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2023
+      },
+      "tags":"regional identity",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"IT2023_016",
+      "slug":"it2023-016-scordato",
+      "title":{
+        "native":"Scordato",
+        "english":""
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2023
+      },
+      "tags":"search for meaning",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"IT2023_016",
+      "slug":"it2023-016-scordato",
+      "title":{
+        "native":"Scordato",
+        "english":""
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2023
+      },
+      "tags":"may-december",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    }
+  ]
 }

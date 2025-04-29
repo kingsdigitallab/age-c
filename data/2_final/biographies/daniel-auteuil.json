@@ -1,181 +1,466 @@
 {
-  "perId":"Daniel Auteuil",
-  "filmId":[
-    "FR2018_187",
-    "FR2022_149",
-    "FR2022_002",
-    "FR2018_080",
-    "FR2019_181",
-    "FR2019_053"
-  ],
-  "title":[
-    "Le Nouveau Jouet",
-    "Adieu Monsieur Haffmann",
-    "La Belle \u00c9poque",
-    "R\u00e9mi sans famille",
-    "Amoureux de ma femme",
-    "Depuis Mediapart"
-  ],
-  "titleEn":[
-    "La Belle \u00c9poque",
-    null,
-    "The New Toy",
-    "The Other Woman",
-    "Farewell Mr Haffmann",
-    "Remi, Nobody's Boy"
+  "id":"Daniel Auteuil",
+  "type":"person",
+  "slug":"daniel-auteuil",
+  "name":"Daniel Auteuil",
+  "birthYear":1950,
+  "deathYear":0,
+  "nationality":"FR",
+  "gender":"M",
+  "character":[
+    {
+      "id":"FR2019_181_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2019_181",
+        "slug":"fr2019-181-la-belle-epoque",
+        "title":{
+          "native":"La Belle \u00c9poque",
+          "english":"La Belle \u00c9poque"
+        },
+        "filmType":"F",
+        "genre":"ROM",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"low rank employment",
+        "production":{
+          "country":"BE",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"FR2022_002_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2022_002",
+        "slug":"fr2022-002-adieu-monsieur-haffmann",
+        "title":{
+          "native":"Adieu Monsieur Haffmann",
+          "english":"Farewell Mr Haffmann"
+        },
+        "filmType":"F",
+        "genre":"HIS",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"superior-employee relationship",
+        "production":{
+          "country":"BE",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"FR2018_080_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2018_080",
+        "slug":"fr2018-080-amoureux-de-ma-femme",
+        "title":{
+          "native":"Amoureux de ma femme",
+          "english":"The Other Woman"
+        },
+        "filmType":"F",
+        "genre":"ROM",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"desire",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2022_149_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2022_149",
+        "slug":"fr2022-149-le-nouveau-jouet",
+        "title":{
+          "native":"Le Nouveau Jouet",
+          "english":"The New Toy"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"low rank employment",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2018_187_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2018_187",
+        "slug":"fr2018-187-remi-sans-famille",
+        "title":{
+          "native":"R\u00e9mi sans famille",
+          "english":"Remi, Nobody's Boy"
+        },
+        "filmType":"F",
+        "genre":"CHI",
+        "release":{
+          "type":"THE",
+          "year":2012
+        },
+        "tags":"stages of life",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2019_053_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2019_053",
+        "slug":"fr2019-053-depuis-mediapart",
+        "title":{
+          "native":"Depuis Mediapart",
+          "english":""
+        },
+        "filmType":"D",
+        "genre":"DPA",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"mass media",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    }
   ],
   "director":[
-    "Fred Cavay\u00e9",
-    "James Huth",
-    "Antoine Blossier",
-    "Nicolas Bedos",
-    "Naruna Kaplan de Macedo",
-    "Daniel Auteuil"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1552435200000,
-    1572998400000,
-    1524614400000,
-    1666137600000,
-    1355788800000,
-    1641945600000
-  ],
-  "type":[
-    "F",
-    "D"
-  ],
-  "releaseYear":[
-    2018,
-    2019,
-    2012,
-    2022
-  ],
-  "directorName":[
-    "Antoine Blossier",
-    null
-  ],
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":[
-    "M",
-    null
-  ],
-  "directorNationality":[
-    "FR",
-    null
-  ],
-  "genre":[
-    "DRA",
-    "ADV",
-    "ROM",
-    "DOB",
-    "HIS",
-    "COM",
-    "CHI",
-    "DPA"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=rhe-8LSwXqI",
-    "https:\/\/www.youtube.com\/watch?v=j51q5OJz61Y",
-    "https:\/\/www.youtube.com\/watch?v=PzhAQ2LhvPs",
-    "https:\/\/www.youtube.com\/watch?v=DSoG9aRipVU",
-    "https:\/\/www.youtube.com\/watch?v=ynh8hXoLza8",
-    "https:\/\/www.youtube.com\/watch?v=ohJCcXagGSM"
-  ],
-  "posterUrl":[
-    "https:\/\/medias.unifrance.org\/medias\/23\/173\/240919\/format_page\/farewell-mr-haffmann.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/86\/228\/255062\/format_page\/le-nouveau-jouet.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/107\/231\/190315\/format_page\/amoureux-de-ma-femme.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/4\/20\/201732\/format_page\/depuis-mediapart.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/114\/243\/193394\/format_page\/remi-nobody-s-boy.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/106\/34\/205418\/format_page\/la-belle-epoque.jpg"
-  ],
-  "synopsis":[
-    "En installant sa cam\u00e9ra au c\u0153ur des locaux de la r\u00e9daction du journal en ligne Mediapart, avant, pendant et apr\u00e8s l\u2019\u00e9lection pr\u00e9sidentielle fran\u00e7aise de 2017, Naruna Kaplan de Macedo a pu suivre le quotidien de celles et ceux qui y travaillent. Sur fond de dossiers comme l\u2019affaire Baupin, les Football Leaks, les financements libyens, le film nous donne \u00e0 voir comme jamais les coulisses d\u2019un certain journalisme d\u2019investigation.",
-    "R\u00e9mi sans famille, adaptation du c\u00e9l\u00e8bre roman d\u2019Hector Malot, retrace les aventures du jeune R\u00e9mi, orphelin recueilli par la douce Madame Barberin. A l\u2019\u00e2ge de 10 ans, il est arrach\u00e9 \u00e0 sa m\u00e8re adoptive et confi\u00e9 au Signor Vitalis, un myst\u00e9rieux musicien ambulant. A ses c\u00f4t\u00e9s, il va apprendre la rude vie de saltimbanque et \u00e0 chanter pour gagner son pain. Accompagn\u00e9 du fid\u00e8le chien Capi et du petit singe Joli-C\u0153ur, son long voyage \u00e0 travers la France, fait de rencontres, d\u2019amiti\u00e9s et d\u2019entraide, le m\u00e8ne au secret de ses origines\u2026",
-    "Daniel est tr\u00e8s amoureux de sa femme, mais il a beaucoup d'imagination et un meilleur ami parfois encombrant. Lorsque celui-ci insiste pour un d\u00eener \"entre couples\" afin de lui pr\u00e9senter sa toute nouvelle, et tr\u00e8s belle, amie, Daniel se retrouve coinc\u00e9 entre son \u00e9pouse qui le conna\u00eet par coeur et des r\u00eaves qui le surprennent lui-m\u00eame.",
-    "Victor, un sexag\u00e9naire d\u00e9sabus\u00e9, voit sa vie boulevers\u00e9e le jour o\u00f9 Antoine, un brillant entrepreneur, lui propose une attraction d\u2019un genre nouveau : m\u00e9langeant artifices th\u00e9\u00e2traux et reconstitution historique, cette entreprise propose \u00e0 ses clients de replonger dans l\u2019\u00e9poque de leur choix. Victor choisit alors de revivre la semaine la plus marquante de sa vie : celle o\u00f9, 40 ans plus t\u00f4t, il rencontra le grand amour...",
-    "Sami vit heureux dans une cit\u00e9 de banlieue, entre ses amis, voisins et sa femme Alice. Pour l\u2019anniversaire de son fils, l\u2019homme le plus riche de France fait ouvrir le grand magasin qui lui appartient. Alexandre choisit Sami, le gardien de nuit, comme nouveau jouet\u2026",
-    "Paris 1941. Fran\u00e7ois Mercier est un homme ordinaire qui n\u2019aspire qu\u2019\u00e0 fonder une famille avec la femme qu\u2019il aime, Blanche. Il est aussi l\u2019employ\u00e9 d\u2019un joaillier talentueux, Mr Haffmann. Mais face \u00e0 l\u2019occupation allemande, les deux hommes n\u2019auront d\u2019autre choix que de conclure un accord dont les cons\u00e9quences, au fil des mois, bouleverseront le destin de nos trois personnages."
-  ],
-  "synopsisEn":[
-    "Samy lives happily outside the system, in the housing projects, alongside his childhood friends and his wife Jihane, who is expecting their first child. To provide for the needs of his future family \u2013 very reluctantly \u2013 he takes a job as a night watchman in a luxury goods store. Philippe Etienne is the wealthiest man in France. Cold, unfeeling, since his wife died a year ago, he has devoted himself entirely to his business. Alexandre \u2013 his only son, and heir to the entire Etienne fortune \u2013 keeps his father at arms\u2019 length, seeking refuge in the lonely world of the spoiled child. For his birthday, Philippe opens the toy department of the store where Samy works and tells Alexandre he can take whatever he wants. Alexandre chooses Samy!",
-    "A man fantasizes about his best friend's new girlfriend. He is willing to throw caution to the wind to fulfill his wildest dreams.",
-    "Paris 1941. Fran\u00e7ois Mercier is an ordinary man whose only goal is to start a family with Blanche, the woman he loves. Fran\u00e7ois works for Mr. Haffmann, a talented Jewish jeweler. Under the German occupation, the employer and employee are forced to strike a deal which, over the following months, will upend the fate of our three protagonists.",
-    "By installing his camera in the heart of the editorial office of the online journal Mediapart, before, during and after the French presidential election of 2017, Naruna Kaplan de Macedo was able to follow the daily lives of those who work there. On the back of issues such as the Baupin affair, the Football Leaks, and Libyan financing, the film gives us a never-before-seen view of some investigative journalism.",
-    "Victor, sixtysomething, has his life turned upside down the day that Antoine, a flourishing entrepreneur, offers him a unique new brand of entertainment. Using a combination of theatrical artifice and historical re-enactment, his company gives its clients the opportunity to delve back into the period of their choice. Victor decides to relive the most memorable week of his existence, 40 years earlier, when he met the love of his life...",
-    "Raised by a kindly peasant woman after being found as a baby, ten-year-old Remi is brutally taken from his adopted mother and sold by her husband to Signor Vitalis, an old travelling street musician with a shadowy past. Remi sets off on a long journey through France with his new master, their faithful dog Capi and mischievous monkey Mister Joli-C\u0153ur. From adventures to misadventures, young Remi endears himself to Vitalis, who teaches him to read and helps him discover his extraordinary singing talent. The boy learns the rough life of a travelling showman and suffers through hunger, cold and sometimes great injustice. He also learns life, makes great friends and gains a mentor and father in Vitalis. But when the clothes he was found in as an infant and a mysterious lullaby from his distant past bring him closer to his origins, Remi is suddenly faced with a new set of challenges that could reveal his true identity and change forever the course of his young life."
-  ],
-  "country":[
-    "BE",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "desire",
-    "intergenerational friendship",
-    "self-employment",
-    "intragenerational friendship",
-    "segregation",
-    "urban",
-    "precarity",
-    "wealth",
-    "abuse",
-    "may-december",
-    "artistic creation",
-    "parenthood",
-    "separation",
-    "natural death",
-    "personal memory",
-    "racial discrimination",
-    "partnership",
-    "high rank employment",
-    "mass media",
-    "stages of life",
-    "widowhood",
-    "non-human companionship",
-    "independent home",
-    "romance",
-    "superior-employee relationship",
-    "marriage",
-    "low rank employment"
-  ],
-  "charId":[
-    "FR2018_187_01",
-    "FR2022_149_01",
-    "FR2018_080_01",
-    "FR2019_053_01",
-    "FR2022_002_01",
-    "FR2019_181_01"
-  ],
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "LC",
-    "UM",
-    "UC",
-    "MC"
-  ],
-  "charProfession":[
-    "SE",
-    "RE"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"daniel-auteuil"
+    {
+      "id":"FR2018_080",
+      "slug":"fr2018-080-amoureux-de-ma-femme",
+      "title":{
+        "native":"Amoureux de ma femme",
+        "english":"The Other Woman"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"intragenerational friendship",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_080",
+      "slug":"fr2018-080-amoureux-de-ma-femme",
+      "title":{
+        "native":"Amoureux de ma femme",
+        "english":"The Other Woman"
+      },
+      "filmType":"F",
+      "genre":"ROM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"intragenerational friendship",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_080",
+      "slug":"fr2018-080-amoureux-de-ma-femme",
+      "title":{
+        "native":"Amoureux de ma femme",
+        "english":"The Other Woman"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"urban",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_080",
+      "slug":"fr2018-080-amoureux-de-ma-femme",
+      "title":{
+        "native":"Amoureux de ma femme",
+        "english":"The Other Woman"
+      },
+      "filmType":"F",
+      "genre":"ROM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"marriage",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_080",
+      "slug":"fr2018-080-amoureux-de-ma-femme",
+      "title":{
+        "native":"Amoureux de ma femme",
+        "english":"The Other Woman"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"partnership",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_080",
+      "slug":"fr2018-080-amoureux-de-ma-femme",
+      "title":{
+        "native":"Amoureux de ma femme",
+        "english":"The Other Woman"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"marriage",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_080",
+      "slug":"fr2018-080-amoureux-de-ma-femme",
+      "title":{
+        "native":"Amoureux de ma femme",
+        "english":"The Other Woman"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"may-december",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_080",
+      "slug":"fr2018-080-amoureux-de-ma-femme",
+      "title":{
+        "native":"Amoureux de ma femme",
+        "english":"The Other Woman"
+      },
+      "filmType":"F",
+      "genre":"ROM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"high rank employment",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_080",
+      "slug":"fr2018-080-amoureux-de-ma-femme",
+      "title":{
+        "native":"Amoureux de ma femme",
+        "english":"The Other Woman"
+      },
+      "filmType":"F",
+      "genre":"ROM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"urban",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_080",
+      "slug":"fr2018-080-amoureux-de-ma-femme",
+      "title":{
+        "native":"Amoureux de ma femme",
+        "english":"The Other Woman"
+      },
+      "filmType":"F",
+      "genre":"ROM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"may-december",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_080",
+      "slug":"fr2018-080-amoureux-de-ma-femme",
+      "title":{
+        "native":"Amoureux de ma femme",
+        "english":"The Other Woman"
+      },
+      "filmType":"F",
+      "genre":"ROM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"partnership",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_080",
+      "slug":"fr2018-080-amoureux-de-ma-femme",
+      "title":{
+        "native":"Amoureux de ma femme",
+        "english":"The Other Woman"
+      },
+      "filmType":"F",
+      "genre":"ROM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"desire",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_080",
+      "slug":"fr2018-080-amoureux-de-ma-femme",
+      "title":{
+        "native":"Amoureux de ma femme",
+        "english":"The Other Woman"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"desire",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"FR2018_080",
+      "slug":"fr2018-080-amoureux-de-ma-femme",
+      "title":{
+        "native":"Amoureux de ma femme",
+        "english":"The Other Woman"
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2018
+      },
+      "tags":"high rank employment",
+      "production":{
+        "country":"FR",
+        "share":"MAJ"
+      }
+    }
+  ]
 }

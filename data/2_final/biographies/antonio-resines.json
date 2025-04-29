@@ -1,285 +1,690 @@
 {
-  "perId":"Antonio Resines",
-  "filmId":[
-    "ES2019_001",
-    "ES2020_007",
-    "ES2022_063",
-    "ES2023_013",
-    "ES2022_022",
-    "ES2021_005",
-    "ES2023_003",
-    "ES2023_004",
-    "ES2023_007",
-    "ES2023_032",
-    "ES2018_004",
-    "ES2018_006"
-  ],
-  "title":[
-    "Ola de cr\u00edmenes",
-    "Miamor perdido",
-    "El Test",
-    "Alima\u00f1as",
-    "Ocho apellidos marroqu\u00eds",
-    "Vacaciones de verano",
-    "Garc\u00eda y Garc\u00eda",
-    "Or\u00edgenes secretos",
-    "En temporada baja",
-    "Si yo fuera rico",
-    "El hotel de los l\u00edos. Garc\u00eda y Garc\u00eda 2",
-    "De Caperucita a loba"
-  ],
-  "titleEn":[
-    "Garcia & Garcia",
-    "Unknown Origins",
-    null,
-    "Wave of Crimes",
-    "Mylove Lost",
-    "If I Were a Rich Man",
-    "A Moroccan Affair"
+  "id":"Antonio Resines",
+  "type":"person",
+  "slug":"antonio-resines",
+  "name":"Antonio Resines",
+  "birthYear":1954,
+  "deathYear":0,
+  "nationality":"ES",
+  "gender":"M",
+  "character":[
+    {
+      "id":"ES2018_006_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2018_006",
+        "slug":"es2018-006-miamor-perdido",
+        "title":{
+          "native":"Miamor perdido",
+          "english":"Mylove Lost"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"state institutions",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2020_007_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2020_007",
+        "slug":"es2020-007-origenes-secretos",
+        "title":{
+          "native":"Or\u00edgenes secretos",
+          "english":"Unknown Origins"
+        },
+        "filmType":"F",
+        "genre":"ROM",
+        "release":{
+          "type":"VOD",
+          "year":2020
+        },
+        "tags":"state institutions",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2023_032_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2023_032",
+        "slug":"es2023-032-de-caperucita-a-loba",
+        "title":{
+          "native":"De Caperucita a loba",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"may-december",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2021_005_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2021_005",
+        "slug":"es2021-005-garcia-y-garcia",
+        "title":{
+          "native":"Garc\u00eda y Garc\u00eda",
+          "english":"Garcia & Garcia"
+        },
+        "filmType":"F",
+        "genre":"ACT",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"class solidarity",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2023_013_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2023_013",
+        "slug":"es2023-013-alimanas",
+        "title":{
+          "native":"Alima\u00f1as",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"THR",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"ageism",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2023_003_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2023_003",
+        "slug":"es2023-003-ocho-apellidos-marroquis",
+        "title":{
+          "native":"Ocho apellidos marroqu\u00eds",
+          "english":"A Moroccan Affair"
+        },
+        "filmType":"F",
+        "genre":"ROM",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"national identity",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2018_004_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2018_004",
+        "slug":"es2018-004-ola-de-crimenes",
+        "title":{
+          "native":"Ola de cr\u00edmenes",
+          "english":"Wave of Crimes"
+        },
+        "filmType":"F",
+        "genre":"CRI",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"regional identity",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2019_001_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2019_001",
+        "slug":"es2019-001-si-yo-fuera-rico",
+        "title":{
+          "native":"Si yo fuera rico",
+          "english":"If I Were a Rich Man"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"fraud",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2022_022_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2022_022",
+        "slug":"es2022-022-el-test",
+        "title":{
+          "native":"El Test",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"class conflict",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2023_007_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2023_007",
+        "slug":"es2023-007-el-hotel-de-los-lios-garcia-y-garcia-2",
+        "title":{
+          "native":"El hotel de los l\u00edos. Garc\u00eda y Garc\u00eda 2",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"CHI",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"rural",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2022_063_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2022_063",
+        "slug":"es2022-063-en-temporada-baja",
+        "title":{
+          "native":"En temporada baja",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"class conflict",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2023_004_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2023_004",
+        "slug":"es2023-004-vacaciones-de-verano",
+        "title":{
+          "native":"Vacaciones de verano",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"CHI",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"precarity",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    }
   ],
   "director":[
-    "\u00c1lvaro Fern\u00e1ndez Armero",
-    "Pep Anton G\u00f3mez",
-    "Emilio Mart\u00ednez L\u00e1zaro",
-    "Ana Murugarren",
-    "David Gal\u00e1n Galindo",
-    "Gracia Querejeta",
-    "Dani de la Orden",
-    "Chus Guti\u00e9rrez",
-    "David Marqu\u00e9s",
-    "Jordi S\u00e1nchez",
-    "Santiago Segura"
-  ],
-  "releaseType":[
-    "THE",
-    "VOD"
-  ],
-  "releaseDate":[
-    1680566400000,
-    1662076800000,
-    1679616000000,
-    1701388800000,
-    1573776000000,
-    1688601600000,
-    1544745600000,
-    1667520000000,
-    1698364800000,
-    1598572800000,
-    1629763200000,
-    1538697600000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2018,
-    2019,
-    2020,
-    2021,
-    2022,
-    2023
-  ],
-  "directorName":[
-    "Pep Anton G\u00f3mez",
-    "Emilio Mart\u00ednez L\u00e1zaro",
-    "David Gal\u00e1n Galindo",
-    null,
-    "Dani de la Orden",
-    "David Marqu\u00e9s",
-    "Jordi S\u00e1nchez"
-  ],
-  "directorBirthYear":[
-    0,
-    1989,
-    1964,
-    1966,
-    1972,
-    1945,
-    1981
-  ],
-  "directorDeathYear":0,
-  "directorGender":[
-    "M",
-    null
-  ],
-  "directorNationality":[
-    "ES",
-    null
-  ],
-  "genre":[
-    "DRA",
-    "SUP",
-    "ROM",
-    "THR",
-    "ACT",
-    "NOI",
-    "COM",
-    "CHI",
-    "CRI"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.imdb.com\/title\/tt21957640\/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_El%2520hotel%2520de%2520los%2520l%25C3%25ADos.%2520Garc%25C3%25A",
-    "https:\/\/www.imdb.com\/title\/tt13017740\/?ref_=nv_sr_srsg_0_tt_3_nm_1_in_0_q_De%2520Caperucita%2520a%2520loba",
-    "https:\/\/www.youtube.com\/watch?v=rX9Vm5KfK5w",
-    "https:\/\/www.imdb.com\/title\/tt15502648\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_El%2520Test",
-    "https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=559710",
-    "https:\/\/www.youtube.com\/watch?v=VLubyNpveEs",
-    "https:\/\/www.imdb.com\/title\/tt26756609\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Vacaciones%2520de%2520verano",
-    "https:\/\/www.youtube.com\/watch?v=SI7sgNO3PVE",
-    "https:\/\/www.imdb.com\/title\/tt14443260\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_alimanas",
-    "https:\/\/www.youtube.com\/watch?v=gokpndth4Jk",
-    "https:\/\/www.imdb.com\/title\/tt15477794\/?ref_=nv_sr_srsg_0_tt_4_nm_1_in_0_q_En%2520temporada%2520baja",
-    "https:\/\/www.youtube.com\/watch?v=xrX4Q8SivUo"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt21114104\/mediaviewer\/rm1304506881\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt21957640\/mediaviewer\/rm1999131393\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt15502648\/mediaviewer\/rm1406537217\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt11613746\/mediaviewer\/rm3106339073\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt7459182\/mediaviewer\/rm495862784\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt26756609\/mediaviewer\/rm1462970625\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt9010802\/mediaviewer\/rm3230175489\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt13017740\/mediaviewer\/rm720844289\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt5827790\/mediaviewer\/rm1864150273\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt15477794\/mediaviewer\/rm2336558337\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt14443260\/mediaviewer\/rm1688623873\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt7575440\/mediaviewer\/rm3552526336\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "Hispavia, una aerol\u00ednea low cost de poca monta, se encuentra en graves dificultades. Ni sus n\u00fameros cuadran, ni sus aviones vuelan. En un intento desesperado por salvar la compa\u00f1\u00eda, deciden contratar simult\u00e1neamente a un prestigioso consultor de aerol\u00edneas y a un experto mec\u00e1nico en paro. Los dos se llaman Javier Garc\u00eda. La casualidad y la desorganizaci\u00f3n de la empresa har\u00e1n que sean confundidos e intercambien sus papeles, y mientras el mec\u00e1nico es atendido por el due\u00f1o de la compa\u00f1\u00eda y alojado en hoteles de lujo, el ejecutivo acaba en el hangar, enfundado en un mono grasiento. Perplejos y sin saber qu\u00e9 est\u00e1 sucediendo, ambos se van enfrentando a los cometidos del otro, hasta que los dos Javier Garc\u00eda se encuentran y descubren el error.",
-    "Mario y Olivia se enamoran locamente. Una tarde, plante\u00e1ndose que toda relaci\u00f3n se acaba, terminan rompiendo. Durante la bronca, Miamor, el gato callejero adoptado por ambos y que s\u00f3lo atiende si le hablan en valenciano, se escapa y desaparece, como el amor que les un\u00eda. Durante un tiempo, Olivia dar\u00e1 por muerto al amor y al minino, mientras Mario lo mantiene con vida a escondidas. Como el gato de Schr\u00f6dinger, el amor entre los dos permanece vivo y muerto al mismo tiempo, hasta que un buen d\u00eda, en el que parece haber resucitado definitivamente, Olivia se siente v\u00edctima de un enga\u00f1o y decide declararle a Mario la guerra; una en la que, como en el amor que a\u00fan respira, todo puede valer.",
-    "Alberto, \u201cel crack\u201d, es un otrora exitoso representante de futbolistas que malvive en un camping a las afueras de Valencia. Un d\u00eda conoce a Charly, un polic\u00eda divorciado que duerme en el trabajo mientras trata de reconquistar a su exmujer. Alberto instala a Charly en el camping y le presenta a sus amigos. Entre todos intentar\u00e1n apoyarse en una supuesta camarader\u00eda.",
-    "Marta consigue pasar de Caperucita a loba cuando decide usar cada situaci\u00f3n pat\u00e9tica en que la pone el amor para aprender a re\u00edrse de s\u00ed misma m\u00e1s fuerte que nadie. Intern\u00e1ndose en el bosque del drama, llegar\u00e1 a convertirse en la protagonista de su propia comedia al descubrir que del drama brota la risa y de la risa, \u00a1el poder!",
-    "Tras hacerse cargo de un hotelito destartalado, comprado por error en una subasta por un precio desorbitado, los dos Javier Garc\u00eda viven una nueva aventura, ayudados esta vez, muy a su pesar, por un grupo de ni\u00f1os superdotados que se alojan en el hotel para asistir a la Final Nacional de Talentos. Junto a su explosiva profe, Martina, los ni\u00f1os se enfrentar\u00e1n al mafioso Benito Camarena, que con sus secuaces - su madre y su hermano - tratar\u00e1n de arrebatar a los Garc\u00eda el bot\u00edn escondido en el hotel, antigua guarida de los facinerosos. Spin-off de 'Garc\u00eda y Garc\u00eda' (2021).",
-    "Dos amigos, Oscar y F\u00e9lix, pierden su trabajo y se ven obligados a aceptar un trabajo temporal como animadores infantiles en un hotel de lujo. Al ser ambos divorciados, les tocan sus hijos un mes de verano y les es imposible compaginarlo con el trabajo, con lo cual deciden llevarse a los ni\u00f1os y ocultarlos en el hotel, escondidos en la zona de empleados... pero el plan resulta ser un desastre.",
-    "Or\u00edgenes secretos sigue la historia de un asesino en serie que est\u00e1 sembrando el caos en la capital espa\u00f1ola. Personas an\u00f3nimas y sin conexi\u00f3n est\u00e1n siendo asesinadas imitando las primeras apariciones de los superh\u00e9roes m\u00e1s conocidos. Cosme es el mejor detective de su comisar\u00eda y est\u00e1 a punto de jubilarse contra su voluntad. David es su relevo y es joven e impulsivo. Ambos tendr\u00e1n la misi\u00f3n de encajar las piezas en un juego, del que desconocen completamente las reglas.",
-    "\u00bfQu\u00e9 escoger\u00edas, cien mil euros ahora o un mill\u00f3n dentro de diez a\u00f1os? La premisa parece sencilla. Un matrimonio, H\u00e9ctor de 38 a\u00f1os y Paula de 37, se enfrenta a serios problemas econ\u00f3micos que se pondr\u00e1n a prueba por su rico amigo Toni, pero primero deben ponerse de acuerdo sobre su elecci\u00f3n. H\u00e9ctor quiere 100.000 euros para intentar renovar su bar ruinoso y poco rentable y convertirlo en negocio de \u00e9xito, pero Paula prefiere esperar al gran premio. Adaptaci\u00f3n de la obra de Jordi Vallejo.",
-    "Carmen (Elena Irureta) quiere cumplir la \u00faltima voluntad de Jos\u00e9 Mar\u00eda, su marido y patriarca de la familia: recuperar el 'Sardinete', el primer barco pesquero de su flota, que se encuentra anclado en un puerto marroqu\u00ed. En su viaje de Cantabria a Marruecos, la acompa\u00f1ar\u00e1n su hija Bego\u00f1a (Michelle Jenner) y el ex de esta, Guillermo (Juli\u00e1n L\u00f3pez), desesperado por recuperar su amor. Entre choques culturales, descubrir\u00e1n adem\u00e1s el gran secreto de Jos\u00e9 Mar\u00eda.",
-    "El hijo adolescente de Leyre (Maribel Verd\u00fa), un ama de casa acomodadamente divorciada, mata a su padre en un arrebato. Ella decide hacer lo imposible por ocultarlo, desatando a su pesar una ca\u00f3tica ola de cr\u00edmenes en la ciudad de Bilbao. Mientras, la nueva esposa del difunto (Paula Echevarr\u00eda) y su implacable abogada (Juana Acosta) tratan de ocultar la jugosa trama de corrupci\u00f3n en la que se mov\u00edan. Pero no hab\u00edan contado con la perseverancia de la pareja de inspectores de la Ertzaintza (Antonio Resines y Ra\u00fal Pe\u00f1a) encargados del caso\u2026",
-    "Dos hermanos muy distintos entre ellos, Carlos y Paco (Carlos Areces y Jordi S\u00e1nchez), acaban unidos por la ambici\u00f3n de heredar un edificio propiedad de su madre, ya anciana. En ese lugar ambos tienen puestas todas sus esperanzas para mejorar su precaria situaci\u00f3n econ\u00f3mica.",
-    "Santi es un joven en apuros que, de la noche a la ma\u00f1ana, se vuelve rico. Muy rico. El problema es que lo \u201cmejor\u201d que podr\u00e1 hacer es no cont\u00e1rselo a sus amigos. Y mucho menos a su pareja, claro."
-  ],
-  "synopsisEn":[
-    "Two very different and estranged brothers end up united by the ambition of inheriting a building owned by their elderly mother.",
-    "Mario and Olivia fall madly in love. One afternoon, considering that every relationship ends, they end up breaking up. During the big fight, Miamor, the street cat adopted by both, escapes and disappears, like the love that united them.",
-    "A desperate housewife tries to cover up her son after he kills his father.",
-    "Based on the play by Jordi Vallejo, follows a group of people who must decide whether they want to get 100,000 euros now, or wait ten years to get one million.",
-    "A man which wife is filing to divorce him wins 25 million EUR in the lotto, hiding her to prevent sharing the half of the prize.",
-    null,
-    "An unexpected friendship arises among four men who have been left by their wives end up living in a camp due to their economic situation.",
-    "Two men with the same name endure the funny consequences of getting mixed up during a business trip.",
-    "Two friends have to take care of their kids for a month while trying to balance it with their temporary jobs at a luxury hotel.",
-    "Follows the D\u00edaz-Aguirre family, whose perfect universe turns upside down after the death of the patriarch, who in his will asks his wife to recover the 'Sardinete', his first fishing boat which is rusting in a Moroccan port.",
-    "Madrid, 2019. A serial killer is spreading chaos. Anonymous people with no apparent connection are being murdered while imitating the first appearances of the most famous superheroes.",
-    "Marta manages to go from Little Red Riding Hood to wolf when she decides to use every pathetic situation that love puts her in to learn to laugh at herself harder than anyone else. Going into the forest of drama, she will become the protagonist of her own comedy when she discovers that laughter springs from drama and from laughter, power!"
-  ],
-  "country":"ES",
-  "productionShare":"MAJ",
-  "tags":[
-    "technology",
-    "intergenerational friendship",
-    "self-employment",
-    "supernatural entity",
-    "intragenerational friendship",
-    "urban",
-    "intergenerational conflict",
-    "precarity",
-    "class conflict",
-    "interracial relationships",
-    "motherhood",
-    "corruption",
-    "wealth",
-    "fraud",
-    "rural",
-    "brotherhood",
-    "abuse",
-    "tourism",
-    "may-december",
-    "disability",
-    "national identity",
-    "regional identity",
-    "parenthood",
-    "homosociality",
-    "retirement",
-    "education",
-    "new start",
-    "rescue mission",
-    "communal housing",
-    "separation",
-    "women empowerment",
-    "natural death",
-    "racial discrimination",
-    "substance abuse",
-    "assisted death",
-    "grandmotherhood",
-    "fatherhood",
-    "state institutions",
-    "ageism",
-    "inheritance",
-    "high rank employment",
-    "class solidarity",
-    "unemployment",
-    "religion",
-    "holiday",
-    "caregiving",
-    "mass media",
-    "widowhood",
-    "non-human companionship",
-    "burial",
-    "independent home",
-    "in-laws",
-    "medical treatment",
-    "romance",
-    "grief",
-    "murder",
-    "marriage",
-    "wedding",
-    "low rank employment"
-  ],
-  "charId":[
-    "ES2023_004_03",
-    "ES2019_001_01",
-    "ES2021_005_03",
-    "ES2023_003_02",
-    "ES2018_004_01",
-    "ES2023_032_02",
-    "ES2020_007_01",
-    "ES2022_022_01",
-    "ES2023_007_04",
-    "ES2018_006_01",
-    "ES2023_013_04",
-    "ES2022_063_01"
-  ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "LC",
-    "UM",
-    "MC",
-    null
-  ],
-  "charProfession":[
-    "EM",
-    "RE",
-    "UN",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":[
-    "N",
-    null
-  ],
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"antonio-resines"
+    {
+      "id":"ES2019_015",
+      "slug":"es2019-015-historias-de-nuestro-cine",
+      "title":{
+        "native":"Historias de nuestro cine",
+        "english":""
+      },
+      "filmType":"D",
+      "genre":"MET",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"cultural memory",
+      "production":{
+        "country":"ES",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"ES2019_015",
+      "slug":"es2019-015-historias-de-nuestro-cine",
+      "title":{
+        "native":"Historias de nuestro cine",
+        "english":""
+      },
+      "filmType":"D",
+      "genre":"MET",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"celebrity",
+      "production":{
+        "country":"ES",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"ES2019_015",
+      "slug":"es2019-015-historias-de-nuestro-cine",
+      "title":{
+        "native":"Historias de nuestro cine",
+        "english":""
+      },
+      "filmType":"D",
+      "genre":"DPA",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"high rank employment",
+      "production":{
+        "country":"ES",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"ES2019_015",
+      "slug":"es2019-015-historias-de-nuestro-cine",
+      "title":{
+        "native":"Historias de nuestro cine",
+        "english":""
+      },
+      "filmType":"D",
+      "genre":"DPA",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"artistic creation",
+      "production":{
+        "country":"ES",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"ES2019_015",
+      "slug":"es2019-015-historias-de-nuestro-cine",
+      "title":{
+        "native":"Historias de nuestro cine",
+        "english":""
+      },
+      "filmType":"D",
+      "genre":"MET",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"self-employment",
+      "production":{
+        "country":"ES",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"ES2019_015",
+      "slug":"es2019-015-historias-de-nuestro-cine",
+      "title":{
+        "native":"Historias de nuestro cine",
+        "english":""
+      },
+      "filmType":"D",
+      "genre":"MET",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"high rank employment",
+      "production":{
+        "country":"ES",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"ES2019_015",
+      "slug":"es2019-015-historias-de-nuestro-cine",
+      "title":{
+        "native":"Historias de nuestro cine",
+        "english":""
+      },
+      "filmType":"D",
+      "genre":"DPA",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"cultural memory",
+      "production":{
+        "country":"ES",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"ES2019_015",
+      "slug":"es2019-015-historias-de-nuestro-cine",
+      "title":{
+        "native":"Historias de nuestro cine",
+        "english":""
+      },
+      "filmType":"D",
+      "genre":"DPA",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"elderhood (friendship among elders)",
+      "production":{
+        "country":"ES",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"ES2019_015",
+      "slug":"es2019-015-historias-de-nuestro-cine",
+      "title":{
+        "native":"Historias de nuestro cine",
+        "english":""
+      },
+      "filmType":"D",
+      "genre":"DPA",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"celebrity",
+      "production":{
+        "country":"ES",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"ES2019_015",
+      "slug":"es2019-015-historias-de-nuestro-cine",
+      "title":{
+        "native":"Historias de nuestro cine",
+        "english":""
+      },
+      "filmType":"D",
+      "genre":"DPA",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"personal memory",
+      "production":{
+        "country":"ES",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"ES2019_015",
+      "slug":"es2019-015-historias-de-nuestro-cine",
+      "title":{
+        "native":"Historias de nuestro cine",
+        "english":""
+      },
+      "filmType":"D",
+      "genre":"MET",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"personal memory",
+      "production":{
+        "country":"ES",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"ES2019_015",
+      "slug":"es2019-015-historias-de-nuestro-cine",
+      "title":{
+        "native":"Historias de nuestro cine",
+        "english":""
+      },
+      "filmType":"D",
+      "genre":"MET",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"national identity",
+      "production":{
+        "country":"ES",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"ES2019_015",
+      "slug":"es2019-015-historias-de-nuestro-cine",
+      "title":{
+        "native":"Historias de nuestro cine",
+        "english":""
+      },
+      "filmType":"D",
+      "genre":"DPA",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"self-employment",
+      "production":{
+        "country":"ES",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"ES2019_015",
+      "slug":"es2019-015-historias-de-nuestro-cine",
+      "title":{
+        "native":"Historias de nuestro cine",
+        "english":""
+      },
+      "filmType":"D",
+      "genre":"MET",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"elderhood (friendship among elders)",
+      "production":{
+        "country":"ES",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"ES2019_015",
+      "slug":"es2019-015-historias-de-nuestro-cine",
+      "title":{
+        "native":"Historias de nuestro cine",
+        "english":""
+      },
+      "filmType":"D",
+      "genre":"DPA",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"national identity",
+      "production":{
+        "country":"ES",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"ES2019_015",
+      "slug":"es2019-015-historias-de-nuestro-cine",
+      "title":{
+        "native":"Historias de nuestro cine",
+        "english":""
+      },
+      "filmType":"D",
+      "genre":"MET",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"artistic creation",
+      "production":{
+        "country":"ES",
+        "share":"MAJ"
+      }
+    }
+  ]
 }

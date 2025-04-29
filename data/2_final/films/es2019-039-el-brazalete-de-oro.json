@@ -22,32 +22,34 @@
   },
   "genre":[
     "ROM",
-    "ADV",
+    "FAN",
     "ACT",
-    "FAN"
+    "ADV"
   ],
   "tags":[
-    "mentorship",
+    "last mission",
     "education",
     "communal housing",
-    "high rank employment",
-    "cultural memory",
-    "last mission",
     "religion",
-    "abuse"
+    "cultural memory",
+    "abuse",
+    "mentorship",
+    "high rank employment"
   ],
   "director":[
     {
-      "id":"Jos\u00e9 Manuel Fern\u00e1ndez-Jard\u00f3n",
-      "name":"Jos\u00e9 Manuel Fern\u00e1ndez-Jard\u00f3n",
+      "id":"Luis Fern\u00e1ndez-Jard\u00f3n",
+      "slug":"luis-fernandez-jardon",
+      "name":"Luis Fern\u00e1ndez-Jard\u00f3n",
       "birthYear":0,
       "deathYear":0,
       "gender":"M",
       "nationality":"ES"
     },
     {
-      "id":"Luis Fern\u00e1ndez-Jard\u00f3n",
-      "name":"Luis Fern\u00e1ndez-Jard\u00f3n",
+      "id":"Jos\u00e9 Manuel Fern\u00e1ndez-Jard\u00f3n",
+      "slug":"jose-manuel-fernandez-jardon",
+      "name":"Jos\u00e9 Manuel Fern\u00e1ndez-Jard\u00f3n",
       "birthYear":0,
       "deathYear":0,
       "gender":"M",
@@ -55,26 +57,6 @@
     }
   ],
   "character":[
-    {
-      "id":"ES2019_039_01",
-      "age":"3",
-      "gender":"M",
-      "sexuality":null,
-      "origin":"WWE",
-      "class":"MC",
-      "profession":"EM",
-      "ability":"AB",
-      "assistedMobility":"AB",
-      "person":{
-        "id":"Emilio Linder",
-        "name":"Emilio Linder",
-        "birthYear":1949.0,
-        "deathYear":0.0,
-        "gender":"M",
-        "nationality":"AR"
-      },
-      "role":null
-    },
     {
       "id":"ES2019_039_02",
       "age":"3",
@@ -92,6 +74,26 @@
         "deathYear":0.0,
         "gender":"M",
         "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2019_039_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Emilio Linder",
+        "name":"Emilio Linder",
+        "birthYear":1949.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"AR"
       },
       "role":null
     }

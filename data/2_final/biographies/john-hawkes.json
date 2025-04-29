@@ -1,80 +1,46 @@
 {
-  "perId":"John Hawkes",
-  "filmId":"GB2018_004",
-  "title":"Three Billboards Outside Ebbing, Missouri",
-  "titleEn":null,
-  "director":"Martin McDonagh",
-  "releaseType":"THE",
-  "releaseDate":1515715200000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"Martin McDonagh",
-  "directorBirthYear":1970,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"IE",
-  "genre":[
-    "DRA",
-    "DTH",
-    "COM",
-    "WES"
+  "id":"John Hawkes",
+  "type":"person",
+  "slug":"john-hawkes",
+  "name":"John Hawkes",
+  "birthYear":1959,
+  "deathYear":0,
+  "nationality":"US",
+  "gender":"M",
+  "character":[
+    {
+      "id":"GB2018_004_04",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2018_004",
+        "slug":"gb2018-004-three-billboards-outside-ebbing-missouri",
+        "title":{
+          "native":"Three Billboards Outside Ebbing, Missouri",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"WES",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"body norms",
+        "production":{
+          "country":"US",
+          "share":"MIN"
+        }
+      }
+    }
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Jit3YhGx5pU",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt5027774\/mediaviewer\/rm3800849152\/?ref_=tt_ov_i",
-  "synopsis":"A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "intergenerational friendship",
-    "suicide",
-    "body norms",
-    "mentorship",
-    "revenge",
-    "precarity",
-    "class conflict",
-    "cross-gender friendship",
-    "motherhood",
-    "activism",
-    "rural",
-    "abuse",
-    "homosociality",
-    "women empowerment",
-    "separation",
-    "substance abuse",
-    "personal trauma",
-    "racial discrimination",
-    "fatherhood",
-    "state institutions",
-    "burial",
-    "independent home",
-    "romance",
-    "superior-employee relationship",
-    "grief",
-    "marriage",
-    "gender discrimination",
-    "low rank employment"
-  ],
-  "charId":"GB2018_004_04",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WNA",
-  "charClass":"LM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"John Hawkes",
-  "perBirthYear":1959,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"US",
-  "perRole":null,
-  "slug":"john-hawkes"
+  "director":[
+
+  ]
 }

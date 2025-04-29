@@ -22,18 +22,19 @@
   },
   "genre":[
     "ROM",
-    "COM",
-    "FAN"
+    "FAN",
+    "COM"
   ],
   "tags":[
-    "spirituality",
-    "self-employment",
     "artistic creation",
-    "urban"
+    "urban",
+    "self-employment",
+    "spirituality"
   ],
   "director":[
     {
       "id":"Edward Hall",
+      "slug":"edward-hall",
       "name":"Edward Hall",
       "birthYear":1966,
       "deathYear":0,
@@ -43,21 +44,21 @@
   ],
   "character":[
     {
-      "id":"GB2021_047_04",
+      "id":"GB2021_047_02",
       "age":"3",
-      "gender":"F",
+      "gender":"M",
       "sexuality":null,
       "origin":"WWE",
-      "class":"LC",
-      "profession":"EM",
-      "ability":"AB",
-      "assistedMobility":"AB",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
       "person":{
-        "id":"Michele Dotrice",
-        "name":"Michele Dotrice",
-        "birthYear":1948.0,
+        "id":"Dave Johns",
+        "name":"Dave Johns",
+        "birthYear":1956.0,
         "deathYear":0.0,
-        "gender":"F",
+        "gender":"M",
         "nationality":"GB"
       },
       "role":null
@@ -83,26 +84,6 @@
       "role":null
     },
     {
-      "id":"GB2021_047_02",
-      "age":"3",
-      "gender":"M",
-      "sexuality":null,
-      "origin":"WWE",
-      "class":null,
-      "profession":null,
-      "ability":null,
-      "assistedMobility":null,
-      "person":{
-        "id":"Dave Johns",
-        "name":"Dave Johns",
-        "birthYear":1956.0,
-        "deathYear":0.0,
-        "gender":"M",
-        "nationality":"GB"
-      },
-      "role":null
-    },
-    {
       "id":"GB2021_047_01",
       "age":"3",
       "gender":"M",
@@ -119,6 +100,26 @@
         "deathYear":0.0,
         "gender":"M",
         "nationality":"CA"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_047_04",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Michele Dotrice",
+        "name":"Michele Dotrice",
+        "birthYear":1948.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"GB"
       },
       "role":null
     }

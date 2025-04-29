@@ -1,67 +1,46 @@
 {
-  "perId":"Hugh Laurie",
-  "filmId":"GB2020_003",
-  "title":"The Personal History of David Copperfield",
-  "titleEn":null,
-  "director":"Armando Ianucci",
-  "releaseType":"THE",
-  "releaseDate":1579824000000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":[
-    "ROM",
-    "ADV",
-    "COA",
-    "HIS",
-    "COM"
+  "id":"Hugh Laurie",
+  "type":"person",
+  "slug":"hugh-laurie",
+  "name":"Hugh Laurie",
+  "birthYear":1959,
+  "deathYear":0,
+  "nationality":"GB",
+  "gender":"M",
+  "character":[
+    {
+      "id":"GB2020_003_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2020_003",
+        "slug":"gb2020-003-the-personal-history-of-david-copperfield",
+        "title":{
+          "native":"The Personal History of David Copperfield",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2020
+        },
+        "tags":"class conflict",
+        "production":{
+          "country":"GB",
+          "share":"MIN"
+        }
+      }
+    }
   ],
-  "trailerUrl":null,
-  "posterUrl":null,
-  "synopsis":null,
-  "synopsisEn":null,
-  "country":[
-    "GB",
-    "US"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "fraud",
-    "personal memory",
-    "independent home",
-    "extended family",
-    "mental illness",
-    "class conflict",
-    "inheritance",
-    "marriage",
-    "unemployment",
-    "mentorship",
-    "urban",
-    "precarity",
-    "caregiving",
-    "homelessness"
-  ],
-  "charId":"GB2020_003_01",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"hugh-laurie"
+  "director":[
+
+  ]
 }

@@ -21,9 +21,9 @@
     "posterUrl":"https:\/\/www.imdb.com\/title\/tt6149154\/mediaviewer\/rm1882041089\/?ref_=tt_ov_i"
   },
   "genre":[
-    "DRA",
     "HIS",
-    "WAR"
+    "WAR",
+    "DRA"
   ],
   "tags":[
     "power",
@@ -32,6 +32,7 @@
   "director":[
     {
       "id":"Ciro Guerra",
+      "slug":"ciro-guerra",
       "name":"Ciro Guerra",
       "birthYear":1981,
       "deathYear":0,
@@ -40,26 +41,6 @@
     }
   ],
   "character":[
-    {
-      "id":"IT2020_011_02",
-      "age":"3",
-      "gender":"M",
-      "sexuality":"HE",
-      "origin":"WWE",
-      "class":"UM",
-      "profession":"EM",
-      "ability":"AB",
-      "assistedMobility":"AB",
-      "person":{
-        "id":"Johnny Depp",
-        "name":"Johnny Depp",
-        "birthYear":1963.0,
-        "deathYear":0.0,
-        "gender":"M",
-        "nationality":"US"
-      },
-      "role":"LEA"
-    },
     {
       "id":"IT2020_011_01",
       "age":"3",
@@ -77,6 +58,26 @@
         "deathYear":0.0,
         "gender":"M",
         "nationality":"GB"
+      },
+      "role":"LEA"
+    },
+    {
+      "id":"IT2020_011_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Johnny Depp",
+        "name":"Johnny Depp",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"US"
       },
       "role":"LEA"
     }

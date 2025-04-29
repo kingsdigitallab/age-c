@@ -1,152 +1,201 @@
 {
-  "perId":"Massimo Ghini",
-  "filmId":[
-    "IT2021_058",
-    "IT2022_077",
-    "IT2020_043",
-    "IT2023_044",
-    "IT2020_067",
-    "IT2022_073"
-  ],
-  "title":[
-    "La volta buona",
-    "Una famiglia mostruosa",
-    "Un matrimonio mostruoso",
-    "I cassamortari",
-    "Amici per la pelle",
-    "La mia banda suona il pop"
-  ],
-  "titleEn":[
-    "The Good One",
-    "Help! My In-Laws Are Vampires!",
-    "A Freaking Wedding",
-    null
+  "id":"Massimo Ghini",
+  "type":"person",
+  "slug":"massimo-ghini",
+  "name":"Massimo Ghini",
+  "birthYear":1954,
+  "deathYear":0,
+  "nationality":"IT",
+  "gender":"M",
+  "character":[
+    {
+      "id":"IT2023_044_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2023_044",
+        "slug":"it2023-044-un-matrimonio-mostruoso",
+        "title":{
+          "native":"Un matrimonio mostruoso",
+          "english":"A Freaking Wedding"
+        },
+        "filmType":"F",
+        "genre":"FAN",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"extended family",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2020_067_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"IT2020_067",
+        "slug":"it2020-067-la-mia-banda-suona-il-pop",
+        "title":{
+          "native":"La mia banda suona il pop",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"MPF",
+        "release":{
+          "type":"THE",
+          "year":2020
+        },
+        "tags":"artistic creation",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2020_043_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2020_043",
+        "slug":"it2020-043-la-volta-buona",
+        "title":{
+          "native":"La volta buona",
+          "english":"The Good One"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2020
+        },
+        "tags":"mentorship",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2022_077_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2022_077",
+        "slug":"it2022-077-i-cassamortari",
+        "title":{
+          "native":"I cassamortari",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"celebrity",
+        "production":{
+          "country":"ES",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"IT2021_058_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2021_058",
+        "slug":"it2021-058-una-famiglia-mostruosa",
+        "title":{
+          "native":"Una famiglia mostruosa",
+          "english":"Help! My In-Laws Are Vampires!"
+        },
+        "filmType":"F",
+        "genre":"FAN",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"extended family",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2022_073_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2022_073",
+        "slug":"it2022-073-amici-per-la-pelle",
+        "title":{
+          "native":"Amici per la pelle",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"caregiving",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    }
   ],
   "director":[
-    "Pierluigi Di Lallo",
-    "Fausto Brizzi",
-    "Volfango De Biasi",
-    "Vincenzo Marra",
-    "Claudio Amendola"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1687305600000,
-    1646611200000,
-    1666828800000,
-    1582156800000,
-    1593648000000,
-    1637798400000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2020,
-    2021,
-    2022,
-    2023
-  ],
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":[
-    "DRA",
-    "FAN",
-    "SPO",
-    "MPF",
-    "COM"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=vV6mV6BPsdI",
-    "https:\/\/www.youtube.com\/watch?v=OTU1a9UseFU",
-    "https:\/\/www.youtube.com\/watch?v=U1HZQHCl22M",
-    "https:\/\/www.youtube.com\/watch?v=zpOBM41uvVU",
-    "https:\/\/www.youtube.com\/watch?v=fa_S75v_CXE",
-    "https:\/\/www.youtube.com\/watch?v=AKBSJn8kWuk"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt12580324\/mediaviewer\/rm2177046785\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt11847758\/mediaviewer\/rm1475476993\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt18765042\/mediaviewer\/rm2506773505\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt10715104\/mediaviewer\/rm3521690369\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt10204756\/mediaviewer\/rm611616769\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt15815138\/mediaviewer\/rm677519361\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "Tornano i simpatici protagonisti di \u201cUna Famiglia Mostruosa\u201d: questa volta Vladimiro e Brunilde sono alle prese con la scomparsa di Nando, il capofamiglia del clan Cornicioni, finito in una doccia di cemento a presa rapida. Il triste evento ha riunito la famiglia umana di Luna, figlia di Nando, e quella mostruosa del marito Adalberto. Umani, vampiri, streghe, lupi mannari e fantasmi si troveranno alle prese con un nuovo matrimonio mostruoso\u2026",
-    "Nel corso di una vacanza negli Stati Uniti, il protagonista viene colto da forti dolori addominali che lo obbligano a rientrare in modo rocambolesco in Italia e ad essere ricoverato d'urgenza. Il responso dei medici non lascia dubbi: \u00e8 necessario un immediato trapianto di fegato. Sar\u00e0 l'inizio di un'odissea che obbligher\u00e0 un ragazzo di 20 anni a prendere decisioni importanti e a rinunciare temporaneamente alle proprie passioni. Sar\u00e0 per\u00f2 la sua voglia di vivere, unita al profondo legame con genitori, a consentirgli di affrontare con il sorriso questa difficile situazione.",
-    "Luna e Adalberto scoprono di aspettare un figlio, cos\u00ec per l\u2019uomo giunge il momento di presentare la fidanzata alla sua blasonata famiglia, non meno \"mostruosa\" nel vero senso del termine: un padre vampiro, una madre strega, una nonna fantasma e uno zio zombie. L\u2019unione con una comune mortale non \u00e8 da dare per scontata.",
-    "Il magnate russo Ivanov sogna una r\u00e9union a Pietroburgo del suo complesso musicale italiano preferito, i Popcorn, (Christian De Sica, Massimo Ghini, Paolo Rossi, Angela Finocchiaro) famosissimi negli anni \u201980. Il manager della band, Franco (Diego Abatantuono), che vive tra Italia e Russia, viene contattato a questo proposito da tale Olga, donna di fiducia di Ivanov. Franco tenta di dissuaderlo perch\u00e9 lui in fondo i Popcorn li odia e preferisce controproporre alternative a suo avviso ben pi\u00f9 valide (Pupo, Sabrina Salerno\u2026). Ma con Ivanov non si discute, vuole i Popcorn e cos\u00ec sar\u00e0. Tuttavia i quattro membri della band, ognuno per un motivo diverso, rifiutano l\u2019offerta per inseguire sogni e obiettivi pi\u00f9 appetibili. Ma evidentemente \u00e8 scritto che la r\u00e9union si faccia perch\u00e9 i suddetti \u201csogni e obiettivi\u201d, come in un beffardo gioco del destino, vengono tutti improvvisamente meno inducendo i vecchi compagni ad accettare la bizzarra proposta. Gli artisti, un po\u2019 arrugginiti, sono pronti alla nuova avventura, depressi ma pronti\u2026 Tra prove costumi, sound check, liti, vecchi amori e vecchi rancori, i quattro scoprono con stupore di dover fungere da cavallo di troia per una colossale rapina ai danni di Ivanov progettata da Olga. Le loro resistenze sono inutili. Ma le perplessit\u00e0 si convertono ben presto in sentimenti di polarit\u00e0 opposta. I quattro vedono nel progetto criminale un potenziale salvifico per le vite di tutti\u2026 Che succederebbe quindi se provassero a rubarli loro quei soldi? Perch\u00e9 non tentare il colpaccio?",
-    "Una commedia nera, corale, cinica e dissacrante che gioca sui difetti e sulle meschinit\u00e0 della nostra societ\u00e0 e sulla morte.",
-    "Bartolomeo, procuratore sportivo, vive di espedienti e piccoli imbrogli. Negli anni ha sprecato le tante occasioni che ha avuto, il vizio del gioco gli ha fatto perdere soldi e famiglia e ora passa le giornate nei campetti di periferia sperando di trovare il nuovo Maradona. Sempre alla ricerca del colpo di fortuna, un giorno riceve una telefonata: in Uruguay c\u2019\u00e8 un ragazzino, Pablito, che \u00e8 un vero fenomeno, un fuoriclasse che sicuramente sfonder\u00e0 nel calcio italiano. Per Bartolomeo \u00e8 finalmente arrivata l\u2019occasione per riprendersi tutto quello che ha perso. Per Pablito si pu\u00f2 realizzare il sogno di una vita migliore. Per entrambi sembra essere la volta buona\u2026"
-  ],
-  "synopsisEn":[
-    "The Russian magnate Ivanov dreams about having The Popcorn, his favorite Italian musical band from the 80s in Saint Petersburg.",
-    "Adalberto and Luna meet and fall in love. Far from home, they can't get to know each other's family. This has to change once Luna gets pregnant.",
-    "In Rome, the Cassamortari are people who work in the funeral business. The Pasti family's agency was founded by Giuseppe, who is willing to do anything to turn a corpse into money, preferably in black.",
-    "During a holiday in the United States, the protagonist is seized by severe abdominal pain that forces him to return to Italy in a daring way and to be hospitalized urgently. The response of the doctors leaves no doubt: an immediate liver transplant is needed. It will be the beginning of an odyssey that will force a 20-year-old boy to make important decisions and temporarily give up his passions. However, it will be his will to live, combined with the deep bond with his parents, to allow him to face this difficult situation with a smile.",
-    "An Italian football sports agent looking for young talents finds an Uruguay child prodigy and helps him starting a career into Italian football to fulfill a lifelong dream of success and fame.",
-    "Vladimiro and Brunilde are grappling with the disappearance of Nando, the head of the family. The sad event brought together the human family of Luna, daughter of Nando, and the monstrous one of her husband Adalberto. Humans, vampires, witches, werewolves and ghosts will find themselves in the throes of a new monstrous marriage..."
-  ],
-  "country":[
-    "IT",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "elderhood",
-    "legacy",
-    "search for meaning",
-    "celebrity",
-    "supernatural entity",
-    "intergenerational friendship",
-    "in-laws",
-    "extended family",
-    "self-employment",
-    "last mission",
-    "artistic creation",
-    "parenthood",
-    "crime",
-    "marriage",
-    "mentorship",
-    "precarity",
-    "caregiving",
-    "wedding"
-  ],
-  "charId":[
-    "IT2021_058_01",
-    "IT2023_044_01",
-    "IT2022_073_01",
-    "IT2020_067_02",
-    "IT2022_077_01",
-    "IT2020_043_01"
-  ],
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "EM",
-    "UN",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"massimo-ghini"
+
+  ]
 }

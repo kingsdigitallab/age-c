@@ -21,62 +21,44 @@
     "posterUrl":"https:\/\/www.imdb.com\/title\/tt21114028\/mediaviewer\/rm616716289\/?ref_=tt_ov_i"
   },
   "genre":[
+    "SCI",
     "DRA",
-    "COM",
-    "SCI"
+    "COM"
   ],
   "tags":[
-    "in-laws",
-    "natural death",
-    "medical treatment",
     "homosociality",
+    "natural death",
     "intragenerational friendship",
+    "in-laws",
+    "medical treatment",
     "bucket list",
-    "technology",
     "women empowerment",
-    "agony",
+    "technology",
     "physical illness",
+    "agony",
     "motherhood"
   ],
   "director":[
     {
       "id":"Paco Arango",
-      "name":"Paco Arango",
-      "birthYear":1966,
-      "deathYear":0,
-      "gender":"M",
-      "nationality":"MX"
-    },
-    {
-      "id":"Paco Arango",
+      "slug":"paco-arango",
       "name":"Paco Arango",
       "birthYear":1966,
       "deathYear":0,
       "gender":"M",
       "nationality":"ES"
+    },
+    {
+      "id":"Paco Arango",
+      "slug":"paco-arango",
+      "name":"Paco Arango",
+      "birthYear":1966,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"MX"
     }
   ],
   "character":[
-    {
-      "id":"ES2023_019_03",
-      "age":"4",
-      "gender":"F",
-      "sexuality":"HE",
-      "origin":"WWE",
-      "class":"MC",
-      "profession":"RE",
-      "ability":"AB",
-      "assistedMobility":"AB",
-      "person":{
-        "id":"Mar\u00eda Jos\u00e9 Alfonso",
-        "name":"Mar\u00eda Jos\u00e9 Alfonso",
-        "birthYear":1940.0,
-        "deathYear":0.0,
-        "gender":"F",
-        "nationality":"ES"
-      },
-      "role":null
-    },
     {
       "id":"ES2023_019_01",
       "age":"4",
@@ -91,6 +73,86 @@
         "id":"Carmen Maura",
         "name":"Carmen Maura",
         "birthYear":1945.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_019_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Fernando Albizu",
+        "name":"Fernando Albizu",
+        "birthYear":1963.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_019_05",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Marisol Ayuso",
+        "name":"Marisol Ayuso",
+        "birthYear":1943.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_019_08",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Mariano Pe\u00f1a",
+        "name":"Mariano Pe\u00f1a",
+        "birthYear":1960.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2023_019_03",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Mar\u00eda Jos\u00e9 Alfonso",
+        "name":"Mar\u00eda Jos\u00e9 Alfonso",
+        "birthYear":1940.0,
         "deathYear":0.0,
         "gender":"F",
         "nationality":"ES"
@@ -118,46 +180,6 @@
       "role":null
     },
     {
-      "id":"ES2023_019_07",
-      "age":"2",
-      "gender":"F",
-      "sexuality":null,
-      "origin":"WWE",
-      "class":"UM",
-      "profession":"EM",
-      "ability":"AB",
-      "assistedMobility":"AB",
-      "person":{
-        "id":"Aitana S\u00e1nchez-Gij\u00f3n",
-        "name":"Aitana S\u00e1nchez-Gij\u00f3n",
-        "birthYear":1968.0,
-        "deathYear":0.0,
-        "gender":"F",
-        "nationality":"ES"
-      },
-      "role":null
-    },
-    {
-      "id":"ES2023_019_05",
-      "age":"4",
-      "gender":"F",
-      "sexuality":"HE",
-      "origin":"WWE",
-      "class":"MC",
-      "profession":"RE",
-      "ability":"AB",
-      "assistedMobility":"AB",
-      "person":{
-        "id":"Marisol Ayuso",
-        "name":"Marisol Ayuso",
-        "birthYear":1943.0,
-        "deathYear":0.0,
-        "gender":"F",
-        "nationality":"ES"
-      },
-      "role":null
-    },
-    {
       "id":"ES2023_019_06",
       "age":"3",
       "gender":"M",
@@ -178,41 +200,21 @@
       "role":null
     },
     {
-      "id":"ES2023_019_02",
+      "id":"ES2023_019_07",
       "age":"2",
-      "gender":"M",
-      "sexuality":"HE",
+      "gender":"F",
+      "sexuality":null,
       "origin":"WWE",
-      "class":"MC",
+      "class":"UM",
       "profession":"EM",
       "ability":"AB",
       "assistedMobility":"AB",
       "person":{
-        "id":"Fernando Albizu",
-        "name":"Fernando Albizu",
-        "birthYear":1963.0,
+        "id":"Aitana S\u00e1nchez-Gij\u00f3n",
+        "name":"Aitana S\u00e1nchez-Gij\u00f3n",
+        "birthYear":1968.0,
         "deathYear":0.0,
-        "gender":"M",
-        "nationality":"ES"
-      },
-      "role":null
-    },
-    {
-      "id":"ES2023_019_08",
-      "age":"3",
-      "gender":"M",
-      "sexuality":null,
-      "origin":"WWE",
-      "class":"MC",
-      "profession":null,
-      "ability":"AB",
-      "assistedMobility":"AB",
-      "person":{
-        "id":"Mariano Pe\u00f1a",
-        "name":"Mariano Pe\u00f1a",
-        "birthYear":1960.0,
-        "deathYear":0.0,
-        "gender":"M",
+        "gender":"F",
         "nationality":"ES"
       },
       "role":null

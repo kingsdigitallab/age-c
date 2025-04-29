@@ -1,142 +1,108 @@
 {
-  "perId":"Michael Gambon",
-  "filmId":[
-    "GB2019_005",
-    "GB2018_003",
-    "GB2018_005"
+  "id":"Michael Gambon",
+  "type":"person",
+  "slug":"michael-gambon",
+  "name":"Michael Gambon",
+  "birthYear":1940,
+  "deathYear":2023,
+  "nationality":"GB",
+  "gender":"M",
+  "character":[
+    {
+      "id":"GB2019_005_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2019_005",
+        "slug":"gb2019-005-judy",
+        "title":{
+          "native":"Judy",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"MUS",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"power",
+        "production":{
+          "country":"FR",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"GB2018_003_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2018_003",
+        "slug":"gb2018-003-johnny-english-strikes-again",
+        "title":{
+          "native":"Johnny English Strikes Again",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"ACT",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"national identity",
+        "production":{
+          "country":"CN",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"GB2018_005_07",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2018_005",
+        "slug":"gb2018-005-king-of-thieves",
+        "title":{
+          "native":"King of Thieves",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"class solidarity",
+        "production":{
+          "country":"GB",
+          "share":"MAJ"
+        }
+      }
+    }
   ],
-  "title":[
-    "Judy",
-    "Johnny English Strikes Again",
-    "King of Thieves"
-  ],
-  "titleEn":null,
   "director":[
-    "Rupert Goold",
-    "James Marsh",
-    "David Kerr"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1536883200000,
-    1570147200000,
-    1538697600000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2018,
-    2019
-  ],
-  "directorName":[
-    "Rupert Goold",
-    "James Marsh",
-    "David Kerr"
-  ],
-  "directorBirthYear":[
-    1963,
-    1972,
-    1967
-  ],
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
-  "genre":[
-    "DRA",
-    "HEI",
-    "BIO",
-    "ROM",
-    "ACT",
-    "SPY",
-    "MUS",
-    "COM"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=-Qv6p6pTz5I",
-    "https:\/\/www.youtube.com\/watch?v=98t7aXRaA6w",
-    "https:\/\/www.youtube.com\/watch?v=eeQAY_9vG8M"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt7549996\/mediaviewer\/rm332045313\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt6921996\/mediaviewer\/rm2084336640\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt5789976\/mediaviewer\/rm2776856576\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "Legendary performer Judy Garland arrives in London in the winter of 1968 to perform a series of sold-out concerts.",
-    "A true crime movie about a crew of retired crooks who pull off a major heist in London's jewelry district. What starts off as their last criminal hurrah, quickly turns into a brutal nightmare due to greed.",
-    "After a cyber-attack reveals the identity of all of the active undercover agents in Britain, Johnny English is forced to come out of retirement to find the mastermind hacker."
-  ],
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "FR",
-    "GB",
-    "CN"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "technology",
-    "self-employment",
-    "friendship betrayal",
-    "intragenerational friendship",
-    "urban",
-    "wealth",
-    "power",
-    "rural",
-    "abuse",
-    "may-december",
-    "national identity",
-    "physical illness",
-    "artistic creation",
-    "homosociality",
-    "retirement",
-    "rescue mission",
-    "substance abuse",
-    "state institutions",
-    "terrorism",
-    "high rank employment",
-    "class solidarity",
-    "professional politics",
-    "romance",
-    "last mission",
-    "superior-employee relationship",
-    "crime",
-    "marriage",
-    "elderhood (friendship among elders)"
-  ],
-  "charId":[
-    "GB2018_005_07",
-    "GB2018_003_03",
-    "GB2019_005_01"
-  ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC"
-  ],
-  "charProfession":[
-    "SE",
-    "EM",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Michael Gambon",
-  "perBirthYear":1940,
-  "perDeathYear":2023,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"michael-gambon"
+
+  ]
 }

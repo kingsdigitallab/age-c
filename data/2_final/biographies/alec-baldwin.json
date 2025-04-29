@@ -1,59 +1,46 @@
 {
-  "perId":"Alec Baldwin",
-  "filmId":"GB2020_008",
-  "title":"Pixie",
-  "titleEn":null,
-  "director":"Barnaby Thompson",
-  "releaseType":"THE",
-  "releaseDate":1603411200000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":[
-    "HEI",
-    "ACT",
-    "WES",
-    "ROA",
-    "CRI"
+  "id":"Alec Baldwin",
+  "type":"person",
+  "slug":"alec-baldwin",
+  "name":"Alec Baldwin",
+  "birthYear":1958,
+  "deathYear":0,
+  "nationality":"US",
+  "gender":"M",
+  "character":[
+    {
+      "id":"GB2020_008_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2020_008",
+        "slug":"gb2020-008-pixie",
+        "title":{
+          "native":"Pixie",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"WES",
+        "release":{
+          "type":"THE",
+          "year":2020
+        },
+        "tags":"national identity",
+        "production":{
+          "country":"GB",
+          "share":"MAJ"
+        }
+      }
+    }
   ],
-  "trailerUrl":"https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=578532",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt10831086\/mediaviewer\/rm2577114625\/?ref_=tt_ov_i",
-  "synopsis":"To avenge her mother's death, Pixie masterminds a heist but must flee across Ireland from gangsters, take on the patriarchy, and choose her own destiny.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
-  "tags":[
-    "rural",
-    "substance abuse",
-    "abuse",
-    "self-employment",
-    "extended family",
-    "national identity",
-    "organized crime",
-    "superior-employee relationship",
-    "homosociality",
-    "murder",
-    "religion",
-    "intergenerational conflict"
-  ],
-  "charId":"GB2020_008_01",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Alec Baldwin",
-  "perBirthYear":1958,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"US",
-  "perRole":null,
-  "slug":"alec-baldwin"
+  "director":[
+
+  ]
 }

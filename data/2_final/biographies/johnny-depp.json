@@ -1,154 +1,108 @@
 {
-  "perId":"Johnny Depp",
-  "filmId":[
-    "GB2018_001",
-    "IT2020_011",
-    "GB2021_003"
+  "id":"Johnny Depp",
+  "type":"person",
+  "slug":"johnny-depp",
+  "name":"Johnny Depp",
+  "birthYear":1963,
+  "deathYear":0,
+  "nationality":"US",
+  "gender":"M",
+  "character":[
+    {
+      "id":"GB2021_003_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2021_003",
+        "slug":"gb2021-003-minamata",
+        "title":{
+          "native":"Minamata",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"CRI",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"mass media",
+        "production":{
+          "country":"AE",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"IT2020_011_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2020_011",
+        "slug":"it2020-011-waiting-for-the-barbarians",
+        "title":{
+          "native":"Waiting for the Barbarians",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"WAR",
+        "release":{
+          "type":"THE",
+          "year":2020
+        },
+        "tags":"colony",
+        "production":{
+          "country":"US",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"GB2018_001_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HO",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2018_001",
+        "slug":"gb2018-001-fantastic-beasts-the-crimes-of-grindelwald",
+        "title":{
+          "native":"Fantastic Beasts: The Crimes of Grindelwald",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"ACT",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"interracial relationships",
+        "production":{
+          "country":"US",
+          "share":"MIN"
+        }
+      }
+    }
   ],
-  "title":[
-    "Waiting for the Barbarians",
-    "Minamata",
-    "Fantastic Beasts: The Crimes of Grindelwald"
-  ],
-  "titleEn":null,
   "director":[
-    "Andrew Levitas",
-    "Ciro Guerra",
-    "David Yates"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1628812800000,
-    1542326400000,
-    1600905600000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2018,
-    2020,
-    2021
-  ],
-  "directorName":[
-    "David Yates",
-    null
-  ],
-  "directorBirthYear":[
-    0,
-    1963
-  ],
-  "directorDeathYear":0,
-  "directorGender":[
-    "M",
-    null
-  ],
-  "directorNationality":[
-    "GB",
-    null
-  ],
-  "genre":[
-    "DRA",
-    "BIO",
-    "FAN",
-    "ACT",
-    "HIS",
-    "CRI",
-    "WAR"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=SpiDG8a_67M",
-    "https:\/\/www.imdb.com\/title\/tt9179096\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_minamata",
-    "https:\/\/www.youtube.com\/watch?v=vvFybpmyB9E",
-    "https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=592538"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt6439020\/mediaviewer\/rm982813185\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt9179096\/mediaviewer\/rm3948013057\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt6149154\/mediaviewer\/rm1882041089\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt4123430\/mediaviewer\/rm3813896960\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "Il Magistrato, amministratore di un isolato insediamento di frontiera al confine di un impero senza nome, \u00e8 in attesa di andare in pensione con l'arrivo del Colonnello Joll, il cui compito \u00e8 di riferire sulle attivit\u00e0 dei \"barbari\" e sulla situazione di sicurezza al confine. Joll inizia a condurre una serie di spietati interrogatori. Il trattamento dei \"barbari\" per mano del Colonnello e la tortura di una giovane donna \"barbara\" portano il Magistrato a una crisi di coscienza e a un atto di ribellione.",
-    "A modern take on Charles Dickens's classic tale of a young orphan who is able to triumph over many obstacles.",
-    "The second installment of the \"Fantastic Beasts\" series featuring the adventures of Magizoologist Newt Scamander.",
-    "War photographer W. Eugene Smith travels back to Japan where he documents the devastating effect of mercury poisoning in coastal communities."
-  ],
-  "synopsisEn":[
-    "At an isolated frontier outpost, a colonial magistrate suffers a crisis of conscience when an army colonel arrives looking to interrogate the locals about an impending uprising, using cruel tactics that horrify the magistrate.",
-    null
-  ],
-  "country":[
-    "IT",
-    "GB",
-    "US",
-    "AE"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "war",
-    "supernatural entity",
-    "intergenerational friendship",
-    "friendship betrayal",
-    "urban",
-    "revenge",
-    "precarity",
-    "class conflict",
-    "interracial relationships",
-    "corruption",
-    "wealth",
-    "activism",
-    "power",
-    "search for meaning",
-    "cultural memory",
-    "abuse",
-    "artistic creation",
-    "homosociality",
-    "high rank employment",
-    "collective trauma",
-    "mass media",
-    "non-human companionship",
-    "ecology",
-    "colony",
-    "last mission",
-    "superior-employee relationship",
-    "crime",
-    "low rank employment"
-  ],
-  "charId":[
-    "IT2020_011_02",
-    "GB2018_001_01",
-    "GB2021_003_01"
-  ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":[
-    "HO",
-    "HE"
-  ],
-  "charOrigin":[
-    "WNA",
-    "WWE"
-  ],
-  "charClass":[
-    "UM",
-    "UC"
-  ],
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"johnny-depp"
+
+  ]
 }

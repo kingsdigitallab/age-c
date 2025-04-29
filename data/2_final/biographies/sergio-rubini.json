@@ -1,130 +1,397 @@
 {
-  "perId":"Sergio Rubini",
-  "filmId":[
-    "IT2019_045",
-    "IT2018_005",
-    "IT2023_042",
-    "IT2018_055"
-  ],
-  "title":[
-    "Il bene mio",
-    "Il grande spirito",
-    "Moschettieri del re: La Penultima Missione",
-    "Educazione fisica"
-  ],
-  "titleEn":[
-    "My Own Good",
-    "The King's Musketeers",
-    "Gym class",
-    null
+  "id":"Sergio Rubini",
+  "type":"person",
+  "slug":"sergio-rubini",
+  "name":"Sergio Rubini",
+  "birthYear":1959,
+  "deathYear":0,
+  "nationality":"IT",
+  "gender":"M",
+  "character":[
+    {
+      "id":"IT2018_005_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2018_005",
+        "slug":"it2018-005-moschettieri-del-re-la-penultima-missione",
+        "title":{
+          "native":"Moschettieri del re: La Penultima Missione",
+          "english":"The King's Musketeers"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"last mission",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2023_042_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2023_042",
+        "slug":"it2023-042-educazione-fisica",
+        "title":{
+          "native":"Educazione fisica",
+          "english":"Gym class"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"crime",
+        "production":{
+          "country":"PL",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"IT2019_045_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2019_045",
+        "slug":"it2019-045-il-grande-spirito",
+        "title":{
+          "native":"Il grande spirito",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"homosociality",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2018_055_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2018_055",
+        "slug":"it2018-055-il-bene-mio",
+        "title":{
+          "native":"Il bene mio",
+          "english":"My Own Good"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"state institutions",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2019_045_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"DIR",
+      "film":{
+        "id":"IT2019_045",
+        "slug":"it2019-045-il-grande-spirito",
+        "title":{
+          "native":"Il grande spirito",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"homosociality",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    }
   ],
   "director":[
-    "Pippo Mezzapesa",
-    "Stefano Cipani",
-    "Giovanni Veronesi",
-    "Sergio Rubini"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1678924800000,
-    1538611200000,
-    1567641600000,
-    1545868800000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2018,
-    2019,
-    2023
-  ],
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":[
-    "DRA",
-    "COM",
-    "CRI",
-    "ADV"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=C17Ttkzf-6k",
-    "https:\/\/www.youtube.com\/watch?v=gnNl3M6gqO0",
-    "https:\/\/www.youtube.com\/watch?v=ia8Q3iVnOPs",
-    "https:\/\/www.youtube.com\/watch?v=8S-nZKcbTvQ"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt7856424\/mediaviewer\/rm4263933952\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt8418652\/mediaviewer\/rm4211635712\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt13968752\/mediaviewer\/rm734213633\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt7797962\/mediaviewer\/rm2221106688\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "D\u2019Artagnan (Pierfrancesco Favino), Athos (Rocco Papaleo), Aramis (Sergio Rubini) e Porthos (Valerio Mastandrea). Oggi sono un allevatore di bestiame sgrammaticato, un castellano lussurioso, un frate indebitato e un locandiere ubriacone, che per amor patrio saranno di nuovo moschettieri. Un po\u2019 attempati, cinici e disillusi, ma sempre abilissimi con spade e moschetti, richiamati all\u2019avventura dopo oltre vent\u2019anni dalla Regina Anna (Margherita Buy) per salvare la Francia dalle trame ordite a corte dal perfido Cardinale Mazzarino (Alessandro Haber) con la sua cospiratrice Milady (Giulia Bevilacqua). Affiancati nelle loro gesta dall\u2019inscalfibile Servo (Lele Vannoli) muto, e da un\u2019esuberante Ancella (Matilde Gioli), i quattro - in sella a destrieri pi\u00f9 o meno fedeli - combatteranno per la libert\u00e0 dei perseguitati Ugonotti e per la salvezza del giovanissimo, parruccato e dissoluto Luigi XIV. Muovendosi al confine tra eroico e prosaico, i nostri si spingeranno fino a Suppergi\u00f9, provando a portare a termine un\u2019altra incredibile missione. Difficile dire se sar\u00e0 l\u2019ultima o la penultima.",
-    "I genitori di tre alunni vengono convocati dalla preside di una scuola media di provincia: \u00e8 successo un fattaccio, di cui i loro figli sono i responsabili. Ma \u00e8 difficile da credere e da accettare. La palestra si trasforma in un\u2019aula di tribunale improvvisata, dove ha inizio un processo feroce nel tentativo ostinato di smentire e nascondere la verit\u00e0.",
-    "Elia, ultimo abitante di Provvidenza, paese distrutto da un terremoto, rifiuta di adeguarsi al resto della comunit\u00e0 che, trasferendosi a \u201cNuova Provvidenza\u201d, ha preferito dimenticare. Per Elia, invece, il suo paese vive ancora e, grazie all\u2019aiuto del suo vecchio amico Gesualdo, cerca di tenerne vivo il ricordo. Quando il Sindaco gli intima di abbandonare Provvidenza, Elia sembrerebbe quasi convincersi a lasciare tutto, se non cominciasse, d\u2019un tratto, ad avvertire una strana presenza. In realt\u00e0, a nascondersi tra le macerie della scuola, dove durante il terremoto perse la vita sua moglie, \u00e8 Noor. Lei \u00e8 una giovane donna in fuga e sar\u00e0 questo incontro, insieme al desiderio di continuare a custodire la memoria di Provvidenza, a mettere Elia di fronte a una inesorabile scelta.",
-    "In un quartiere della periferia di Taranto, durante una rapina, uno dei tre complici, un cinquantenne dall\u2019aria malmessa, Tonino detto Barboncino (Sergio Rubini) approfittando della distrazione degli altri due, ruba tutto il malloppo e scappa. La sua corsa procede verso l\u2019alto, di tetto in tetto fino a raggiungere la terrazza pi\u00f9 elevata, per rifugiarsi in un vecchio lavatoio, dove trova uno strano individuo (Rocco Papaleo) dall\u2019aspetto eccentrico: sostiene di chiamarsi Cervo Nero e di appartenere alla trib\u00f9 dei Sioux. Dal suo canto Tonino \u00e8 sotto assedio: il quartiere \u00e8 presidiato dai suoi inseguitori, gli angoli delle strade controllate. In questa immobilit\u00e0 forzata, realizzando di essere completamente solo, a Tonino non rimane che un\u2019unica disperata alternativa: allearsi con quello squilibrato che si comporta come un pellerossa e che, proprio perch\u00e9 guarda il mondo da un\u2019altra prospettiva, potr\u00e0 forse fornirgli la chiave per uscire dal vicolo cieco in cui \u00e8 finito."
-  ],
-  "synopsisEn":[
-    "The band of musketeers; D'Artagnan, Porthos, Aramis and Athos, portrayed in a purely self-ironic and disenchanted key, in a series of adventures in order to save King Louis XIV.",
-    "The last remaining inhabitant of Provvidenza, a village destroyed by an earthquake, Elia refuses to go along with the rest of the community, which has resettled in Nuova Provvidenza and put the past behind them. To Elia, his town is still alive, and thanks to the help of an old friend, Gesualdo, he strains to keep its memory alive as well. When the mayor orders him to abandon Provvidenza, Elia seems to be on the point of pulling up stakes, when he suddenly senses a strange presence. In fact, a young woman, Noor, is hiding in the rubble of the school, where Elia's wife had lost her life. Noor is on the run, and this chance encounter, coupled with Elia's own desire as keeper of the flame for Provvidenza, brings him up against a decision from which there is no going back.",
-    "The parents of three students are summoned by the principal of a small-town middle school: a crime has been committed, and their kids are responsible. But the parents struggle to accept the truth. The school\u2019s gym is thus transformed into a makeshift courtroom, where a ferocious trial begins in a stubborn attempt to deny and cover up the truth.",
-    "In a neighbourhood on the outskirts of Taranto, during a robbery, one of the three accomplices, Tonino aka Barboncino, a shabby-looking fifty-year old, takes advantage of the other two men\u2019s distraction, grabs the whole loot, and runs off. Tonino , runs from rooftop to rooftop until he reaches the uppermost terrace, beyond which there is a precipice that forces him to take refuge in an old washhouse. Someone surprisingly helps him hide successfully. This strange individual wears a bird\u2019s feather behind his ear: he says he\u2019s called Black Deer and belongs to the Sioux tribe. Tonino, soon realizes he is under siege: the neighbourhood is manned by his pursuers, and the street corners are monitored. In these days of forced immobility, as his impracticable attempts to recover the loot and organize an escape with his ex-companion Milena fail, Tonino comes to the bitter conclusion that he is all alone. he has only one desperate alternative left: to join forces with this eccentric man who acts like an Indian and who, precisely because he looks at the world from another perspective, might perhaps provide him with the key out of the dead end where he has ended up."
-  ],
-  "country":[
-    "IT",
-    "PL"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "personal memory",
-    "mental illness",
-    "loneliness",
-    "last mission",
-    "state institutions",
-    "parenthood",
-    "homosociality",
-    "crime",
-    "collective trauma",
-    "interracial relationships",
-    "widowhood"
-  ],
-  "charId":[
-    "IT2018_055_01",
-    "IT2018_005_02",
-    "IT2023_042_01",
-    "IT2019_045_01"
-  ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "LC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "EM",
-    "UN"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"sergio-rubini"
+    {
+      "id":"IT2019_045",
+      "slug":"it2019-045-il-grande-spirito",
+      "title":{
+        "native":"Il grande spirito",
+        "english":""
+      },
+      "filmType":"F",
+      "genre":"CRI",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"homosociality",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"IT2021_065",
+      "slug":"it2021-065-i-fratelli-de-filippo",
+      "title":{
+        "native":"I fratelli De Filippo",
+        "english":""
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2021
+      },
+      "tags":"multigenerational family",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"IT2021_065",
+      "slug":"it2021-065-i-fratelli-de-filippo",
+      "title":{
+        "native":"I fratelli De Filippo",
+        "english":""
+      },
+      "filmType":"F",
+      "genre":"DRA",
+      "release":{
+        "type":"THE",
+        "year":2021
+      },
+      "tags":"artistic creation",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"IT2019_045",
+      "slug":"it2019-045-il-grande-spirito",
+      "title":{
+        "native":"Il grande spirito",
+        "english":""
+      },
+      "filmType":"F",
+      "genre":"DRA",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"homosociality",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"IT2019_045",
+      "slug":"it2019-045-il-grande-spirito",
+      "title":{
+        "native":"Il grande spirito",
+        "english":""
+      },
+      "filmType":"F",
+      "genre":"DRA",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"mental illness",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"IT2021_065",
+      "slug":"it2021-065-i-fratelli-de-filippo",
+      "title":{
+        "native":"I fratelli De Filippo",
+        "english":""
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2021
+      },
+      "tags":"artistic creation",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"IT2021_065",
+      "slug":"it2021-065-i-fratelli-de-filippo",
+      "title":{
+        "native":"I fratelli De Filippo",
+        "english":""
+      },
+      "filmType":"F",
+      "genre":"DRA",
+      "release":{
+        "type":"THE",
+        "year":2021
+      },
+      "tags":"legacy",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"IT2019_045",
+      "slug":"it2019-045-il-grande-spirito",
+      "title":{
+        "native":"Il grande spirito",
+        "english":""
+      },
+      "filmType":"F",
+      "genre":"CRI",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"crime",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"IT2019_045",
+      "slug":"it2019-045-il-grande-spirito",
+      "title":{
+        "native":"Il grande spirito",
+        "english":""
+      },
+      "filmType":"F",
+      "genre":"CRI",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"mental illness",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"IT2021_065",
+      "slug":"it2021-065-i-fratelli-de-filippo",
+      "title":{
+        "native":"I fratelli De Filippo",
+        "english":""
+      },
+      "filmType":"F",
+      "genre":"DRA",
+      "release":{
+        "type":"THE",
+        "year":2021
+      },
+      "tags":"multigenerational family",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"IT2019_045",
+      "slug":"it2019-045-il-grande-spirito",
+      "title":{
+        "native":"Il grande spirito",
+        "english":""
+      },
+      "filmType":"F",
+      "genre":"DRA",
+      "release":{
+        "type":"THE",
+        "year":2019
+      },
+      "tags":"crime",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"IT2021_065",
+      "slug":"it2021-065-i-fratelli-de-filippo",
+      "title":{
+        "native":"I fratelli De Filippo",
+        "english":""
+      },
+      "filmType":"F",
+      "genre":"COM",
+      "release":{
+        "type":"THE",
+        "year":2021
+      },
+      "tags":"legacy",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    }
+  ]
 }

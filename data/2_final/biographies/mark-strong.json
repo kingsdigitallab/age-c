@@ -1,59 +1,46 @@
 {
-  "perId":"Mark Strong",
-  "filmId":"GB2020_001",
-  "title":"1917",
-  "titleEn":null,
-  "director":"Sam Mendes",
-  "releaseType":"THE",
-  "releaseDate":1578614400000,
-  "type":"F",
-  "releaseYear":2020,
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":[
-    "DRA",
-    "COA",
-    "WAR"
+  "id":"Mark Strong",
+  "type":"person",
+  "slug":"mark-strong",
+  "name":"Mark Strong",
+  "birthYear":1963,
+  "deathYear":0,
+  "nationality":"GB",
+  "gender":"M",
+  "character":[
+    {
+      "id":"GB2020_001_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2020_001",
+        "slug":"gb2020-001-1917",
+        "title":{
+          "native":"1917",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"COA",
+        "release":{
+          "type":"THE",
+          "year":2020
+        },
+        "tags":"state institutions",
+        "production":{
+          "country":"US",
+          "share":"MIN"
+        }
+      }
+    }
   ],
-  "trailerUrl":null,
-  "posterUrl":null,
-  "synopsis":null,
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "war",
-    "power",
-    "cultural memory",
-    "national identity",
-    "state institutions",
-    "superior-employee relationship",
-    "homosociality",
-    "high rank employment"
-  ],
-  "charId":"GB2020_001_01",
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Mark Strong",
-  "perBirthYear":1963,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"mark-strong"
+  "director":[
+
+  ]
 }

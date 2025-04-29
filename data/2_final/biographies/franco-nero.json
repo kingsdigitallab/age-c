@@ -1,194 +1,295 @@
 {
-  "perId":"Franco Nero",
-  "filmId":[
-    "ES2022_031",
-    "GB2021_011",
-    "IT2023_123",
-    "IT2023_089",
-    "IT2019_072"
-  ],
-  "title":[
-    "La piel del tambor",
-    "Giorni Felici",
-    "Off the rails",
-    "Ed \u00e8 subito sera",
-    "L'uomo che disegn\u00f2 Dio"
-  ],
-  "titleEn":[
-    "The Man from Rome",
-    "The Man Who Drew God",
-    null
+  "id":"Franco Nero",
+  "type":"person",
+  "slug":"franco-nero",
+  "name":"Franco Nero",
+  "birthYear":1941,
+  "deathYear":0,
+  "nationality":"IT",
+  "gender":"M",
+  "character":[
+    {
+      "id":"IT2023_089_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"SE",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "role":"DIR",
+      "film":{
+        "id":"IT2023_089",
+        "slug":"it2023-089-l-uomo-che-disegno-dio",
+        "title":{
+          "native":"L'uomo che disegn\u00f2 Dio",
+          "english":"The Man Who Drew God"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"artistic creation",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2023_089_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"SE",
+      "ability":"PD",
+      "assistedMobility":"PD",
+      "role":"LEA",
+      "film":{
+        "id":"IT2023_089",
+        "slug":"it2023-089-l-uomo-che-disegno-dio",
+        "title":{
+          "native":"L'uomo che disegn\u00f2 Dio",
+          "english":"The Man Who Drew God"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"artistic creation",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2022_031_03",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2022_031",
+        "slug":"es2022-031-la-piel-del-tambor",
+        "title":{
+          "native":"La piel del tambor",
+          "english":"The Man from Rome"
+        },
+        "filmType":"F",
+        "genre":"ACT",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"superior-employee relationship",
+        "production":{
+          "country":"US",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"GB2021_011_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2021_011",
+        "slug":"gb2021-011-off-the-rails",
+        "title":{
+          "native":"Off the rails",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"ROM",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"eu",
+        "production":{
+          "country":"GB",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2019_072_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2019_072",
+        "slug":"it2019-072-ed-e-subito-sera",
+        "title":{
+          "native":"Ed \u00e8 subito sera",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"CRI",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"state institutions",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2023_123_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2023_123",
+        "slug":"it2023-123-giorni-felici",
+        "title":{
+          "native":"Giorni Felici",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"ROM",
+        "release":{
+          "type":"THE",
+          "year":2011
+        },
+        "tags":"medical treatment",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    }
   ],
   "director":[
-    "Jules Williamson",
-    "Claudio Insegno",
-    "Simone Petralia",
-    "Sergio Dow",
-    "Franco Nero"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1626998400000,
-    1666310400000,
-    1553126400000,
-    1324598400000,
-    1677715200000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2019,
-    2021,
-    2022,
-    2023,
-    2011
-  ],
-  "directorName":[
-    "Jules Williamson",
-    "Sergio Dow",
-    null
-  ],
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":[
-    "F",
-    "M",
-    null
-  ],
-  "directorNationality":[
-    "ES",
-    "GB",
-    null
-  ],
-  "genre":[
-    "DRA",
-    "ROM",
-    "THR",
-    "ACT",
-    "ROA",
-    "COM",
-    "CRI"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=k0Q1aQFMRfM",
-    "https:\/\/www.youtube.com\/watch?v=-br-OFltf2s",
-    "https:\/\/www.imdb.com\/title\/tt4194974\/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_The%2520Man%2520from%2520Rome",
-    "https:\/\/www.youtube.com\/watch?v=KTtDRrLGifM",
-    "https:\/\/www.youtube.com\/watch?v=URSMHpONb_k"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt4194974\/mediaviewer\/rm2294808833\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt7718894\/mediaviewer\/rm1644126464\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt27454451\/mediaviewer\/rm3062452993\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt9383986\/mediaviewer\/rm509864193\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt9686350\/mediaviewer\/rm3019238913\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "Un film tratto dalla storia di una vittima innocente della faida di Scampia, Dario Scherillo. Dario fu ucciso nel 2004 a Casavatore mentre era in sella al suo scooter. I sicari lo scambiarono per un affiliato di un clan rivale durante la sanguinosa guerra tra i Di Lauro e gli \"scissionisti\". Un errore che \u00e8 costato la vita a un bravo ragazzo.",
-    "Emanuele \u00e8 un anziano, solitario e cieco, con un grande dono: la capacit\u00e0 di ritrarre chiunque semplicemente udendone la voce. Nessuno conosce questa \"magia\", tranne la sua assistente sociale Pola e gli studenti della scuola serale dove insegna ritrattistica a carboncino. La sua vita viene sconvolta quando Pola gli presenta due immigranti africane: Maria, una vedova che \u00e8 venuta in Italia sperando in un futuro migliore, e sua figlia Iaia. Le due si trasferiscono da lui occupandosi in cambio della casa. Una sera, Iaia registra l\u2019anziano mentre sta disegnando un suo ritratto e carica il video online. La \"magia\" diventa virale in brevissimo tempo. Emanuele viene notato dal \u201cTalent Circus\u201d, uno show televisivo che scopre straordinari talenti che sfrutta per audience. Una favola sulla necessit\u00e0 di riscoprire il miracoloso potere della dignit\u00e0 in un mondo dove il rumore dei media ha risolto il problema dell'imperfezione dell'uomo semplicemente eliminando il problema stesso.",
-    "Margherita \u00e8 un\u2019attrice di fama internazionale con alle spalle una carriera ricca di successi e riconoscimenti. Vive a Roma in un appartamento pieno di ricordi, spesso in compagnia della sua agente Michela, di alcuni amici e di suo figlio Enea, musicista infelice. A breve, Margherita sar\u00e0 impegnata a Los Angeles nelle riprese di un film diretto da un giovane regista americano. Improvvisamente viene colpita da problemi fisici e gli esami rivelano una grave forma di sclerosi, la SLA. Ad assisterla arriva Antonio, il suo ex compagno, regista insoddisfatto e padre di Enea. A causa della malattia, Margherita deve rinunciare al film e in poco tempo si ritrova impossibilitata a muoversi. Antonio e Margherita, separati da tanti anni, nella sofferenza ricostruiscono il loro rapporto, e insieme decidono di scrivere il gran finale della loro vita.",
-    "Ciudad del Vaticano, 1995. Un hacker inform\u00e1tico irrumpe en el ordenador personal del Papa dej\u00e1ndole un mensaje en el que asegura que la Iglesia de Nuestra Se\u00f1ora de las L\u00e1grimas mata para defenderse. Intrigado, el Santo Padre ordena que se investigue el asunto. Monse\u00f1or Spada (Paul Guilfoyle) asignar\u00e1 la misi\u00f3n a su mejor agente, el sacerdote Quart (Richard Armitage), poseedor de una larga experiencia en los asuntos oscuros de la Santa Sede. Entre tanto, en Sevilla, la arist\u00f3crata Macarena Bruner (Amaia Salamanca), una hermosa divorciada que es due\u00f1a de los derechos sobre el terreno donde se alza Nuestra Se\u00f1ora de las L\u00e1grimas, escandaliza a la ciudad con sus amores inapropiados con un bailaor flamenco, mientras coquetea por Sevilla y hace parte principal de un grupo que se resiste a dejar demoler la Iglesia.",
-    "Three fifty-something women set out to repeat the European inter-railing adventures of their youth, after their close friend passes away leaving them rail tickets, and a final request: to take her teenage daughter with them."
-  ],
-  "synopsisEn":[
-    "Vatican intelligence officer Father Quart (Richard Armitage) investigates a message sent to the pope about a crumbling Spanish church that \"kills to defend itself.\" A deep conspiracy unfolds that challenges the Father's loyalty and faith.",
-    null,
-    "Inspired by a true story, the rise and fall of a blind artist who has the extraordinary gift of making true-to-life portraits just by listening to the human voice, who becomes a TV talent star in the process. A fable on the need to rediscover the miraculous power of dignity in a world where media\u2019s noise has solved the problem of man\u2019s imperfection simply by removing the problem itself.",
-    "Margherita is an internationally renowned actress whose career is full of successes and prizes. She lives in Rome, and on the eve of a journey to Los Angeles, is struck by physical problems and diagnosed with amyotrophic lateral sclerosis (ALS). Antonio, her ex-companion, offers to help her and the two of them, separated for many years, reconstruct their relationship through suffering.",
-    "In the background of a small drug-dealing square at the foot of the Vesuvius, there are dreams and hopes of three families that come from different social origins. The one of Dario, which is honest and industrious who wants to renovate the driving schools owned by his family. The one of the magistrate De Martino, who would like to eradicate the cancer of the Camorra. And more so, the family of Moccuso, a cowardly boss on the rise."
-  ],
-  "country":[
-    "CO",
-    "ES",
-    "IT",
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "sex",
-    "desire",
-    "intergenerational friendship",
-    "technology",
-    "intragenerational friendship",
-    "segregation",
-    "mentorship",
-    "urban",
-    "interracial relationships",
-    "motherhood",
-    "corruption",
-    "pilgrimage",
-    "wealth",
-    "rural",
-    "power",
-    "cultural memory",
-    "abuse",
-    "tourism",
-    "disability",
-    "physical illness",
-    "artistic creation",
-    "parenthood",
-    "menopause",
-    "celibacy",
-    "homosociality",
-    "eu",
-    "personal memory",
-    "grandmotherhood",
-    "state institutions",
-    "organized crime",
-    "high rank employment",
-    "holiday",
-    "religion",
-    "caregiving",
-    "burial",
-    "medical treatment",
-    "romance",
-    "superior-employee relationship",
-    "spirituality"
-  ],
-  "charId":[
-    "ES2022_031_03",
-    "IT2019_072_01",
-    "GB2021_011_04",
-    "IT2023_089_01",
-    "IT2023_123_02"
-  ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "UC",
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "EM",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    "PD"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y"
-  ],
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"franco-nero"
+    {
+      "id":"IT2023_089",
+      "slug":"it2023-089-l-uomo-che-disegno-dio",
+      "title":{
+        "native":"L'uomo che disegn\u00f2 Dio",
+        "english":"The Man Who Drew God"
+      },
+      "filmType":"F",
+      "genre":"DRA",
+      "release":{
+        "type":"THE",
+        "year":2023
+      },
+      "tags":"artistic creation",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"IT2023_089",
+      "slug":"it2023-089-l-uomo-che-disegno-dio",
+      "title":{
+        "native":"L'uomo che disegn\u00f2 Dio",
+        "english":"The Man Who Drew God"
+      },
+      "filmType":"F",
+      "genre":"DRA",
+      "release":{
+        "type":"THE",
+        "year":2023
+      },
+      "tags":"disability",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"IT2023_089",
+      "slug":"it2023-089-l-uomo-che-disegno-dio",
+      "title":{
+        "native":"L'uomo che disegn\u00f2 Dio",
+        "english":"The Man Who Drew God"
+      },
+      "filmType":"F",
+      "genre":"DRA",
+      "release":{
+        "type":"THE",
+        "year":2023
+      },
+      "tags":"interracial relationships",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"IT2023_089",
+      "slug":"it2023-089-l-uomo-che-disegno-dio",
+      "title":{
+        "native":"L'uomo che disegn\u00f2 Dio",
+        "english":"The Man Who Drew God"
+      },
+      "filmType":"F",
+      "genre":"DRA",
+      "release":{
+        "type":"THE",
+        "year":2023
+      },
+      "tags":"intergenerational friendship",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    },
+    {
+      "id":"IT2023_089",
+      "slug":"it2023-089-l-uomo-che-disegno-dio",
+      "title":{
+        "native":"L'uomo che disegn\u00f2 Dio",
+        "english":"The Man Who Drew God"
+      },
+      "filmType":"F",
+      "genre":"DRA",
+      "release":{
+        "type":"THE",
+        "year":2023
+      },
+      "tags":"segregation",
+      "production":{
+        "country":"IT",
+        "share":"MAJ"
+      }
+    }
+  ]
 }

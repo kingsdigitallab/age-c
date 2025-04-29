@@ -22,31 +22,32 @@
   },
   "genre":[
     "DRA",
-    "DYS",
+    "SCI",
     "MPF",
-    "THR",
-    "SCI"
+    "DYS",
+    "THR"
   ],
   "tags":[
-    "infidelity",
-    "mental illness",
-    "precarity",
-    "urban",
-    "marriage",
     "state institutions",
-    "independent home",
     "homosociality",
-    "sex",
-    "fatherhood",
+    "class conflict",
+    "precarity",
+    "segregation",
     "personal trauma",
     "murder",
-    "class conflict",
-    "segregation",
-    "abuse"
+    "infidelity",
+    "abuse",
+    "urban",
+    "independent home",
+    "marriage",
+    "mental illness",
+    "fatherhood",
+    "sex"
   ],
   "director":[
     {
       "id":"Chino Moya",
+      "slug":"chino-moya",
       "name":"Chino Moya",
       "birthYear":1976,
       "deathYear":0,
@@ -56,49 +57,9 @@
   ],
   "character":[
     {
-      "id":"GB2021_034_05",
+      "id":"GB2021_034_02",
       "age":"2",
-      "gender":"M",
-      "sexuality":null,
-      "origin":"WEE",
-      "class":"UM",
-      "profession":null,
-      "ability":"AB",
-      "assistedMobility":"AB",
-      "person":{
-        "id":"Jan Bijvoet",
-        "name":"Jan Bijvoet",
-        "birthYear":1966.0,
-        "deathYear":0.0,
-        "gender":"M",
-        "nationality":"BE"
-      },
-      "role":null
-    },
-    {
-      "id":"GB2021_034_03",
-      "age":"2",
-      "gender":"M",
-      "sexuality":"HE",
-      "origin":"WWE",
-      "class":"LM",
-      "profession":null,
-      "ability":"AB",
-      "assistedMobility":"AB",
-      "person":{
-        "id":"Ned Dennehy",
-        "name":"Ned Dennehy",
-        "birthYear":1965.0,
-        "deathYear":0.0,
-        "gender":"M",
-        "nationality":"IR"
-      },
-      "role":null
-    },
-    {
-      "id":"GB2021_034_01",
-      "age":"2",
-      "gender":"M",
+      "gender":"F",
       "sexuality":"HE",
       "origin":"WWE",
       "class":"MC",
@@ -106,11 +67,11 @@
       "ability":"AB",
       "assistedMobility":"AB",
       "person":{
-        "id":"Michael Gould",
-        "name":"Michael Gould",
-        "birthYear":1961.0,
+        "id":"Hayley Carmichael",
+        "name":"Hayley Carmichael",
+        "birthYear":0.0,
         "deathYear":0.0,
-        "gender":"M",
+        "gender":"F",
         "nationality":"GB"
       },
       "role":null
@@ -136,66 +97,6 @@
       "role":null
     },
     {
-      "id":"GB2021_034_06",
-      "age":"3",
-      "gender":"F",
-      "sexuality":null,
-      "origin":"WWE",
-      "class":"MC",
-      "profession":null,
-      "ability":"AB",
-      "assistedMobility":"AB",
-      "person":{
-        "id":"Lorraine Hilton",
-        "name":"Lorraine Hilton",
-        "birthYear":0.0,
-        "deathYear":0.0,
-        "gender":"F",
-        "nationality":null
-      },
-      "role":null
-    },
-    {
-      "id":"GB2021_034_04",
-      "age":"3",
-      "gender":"M",
-      "sexuality":null,
-      "origin":"WWE",
-      "class":"UM",
-      "profession":null,
-      "ability":"AB",
-      "assistedMobility":"AB",
-      "person":{
-        "id":"Eric Godon",
-        "name":null,
-        "birthYear":null,
-        "deathYear":null,
-        "gender":null,
-        "nationality":null
-      },
-      "role":null
-    },
-    {
-      "id":"GB2021_034_02",
-      "age":"2",
-      "gender":"F",
-      "sexuality":"HE",
-      "origin":"WWE",
-      "class":"MC",
-      "profession":null,
-      "ability":"AB",
-      "assistedMobility":"AB",
-      "person":{
-        "id":"Hayley Carmichael",
-        "name":"Hayley Carmichael",
-        "birthYear":0.0,
-        "deathYear":0.0,
-        "gender":"F",
-        "nationality":"GB"
-      },
-      "role":null
-    },
-    {
       "id":"GB2021_034_08",
       "age":"2",
       "gender":"M",
@@ -216,6 +117,66 @@
       "role":null
     },
     {
+      "id":"GB2021_034_05",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WEE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Jan Bijvoet",
+        "name":"Jan Bijvoet",
+        "birthYear":1966.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"BE"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_034_06",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Lorraine Hilton",
+        "name":"Lorraine Hilton",
+        "birthYear":0.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":""
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_034_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Ned Dennehy",
+        "name":"Ned Dennehy",
+        "birthYear":1965.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"IR"
+      },
+      "role":null
+    },
+    {
       "id":"GB2021_034_03",
       "age":"2",
       "gender":"M",
@@ -232,6 +193,46 @@
         "deathYear":0.0,
         "gender":"M",
         "nationality":"IE"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_034_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Michael Gould",
+        "name":"Michael Gould",
+        "birthYear":1961.0,
+        "deathYear":0.0,
+        "gender":"M",
+        "nationality":"GB"
+      },
+      "role":null
+    },
+    {
+      "id":"GB2021_034_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "person":{
+        "id":"Eric Godon",
+        "name":null,
+        "birthYear":null,
+        "deathYear":null,
+        "gender":null,
+        "nationality":null
       },
       "role":null
     }

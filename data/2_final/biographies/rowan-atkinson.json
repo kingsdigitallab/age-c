@@ -1,70 +1,46 @@
 {
-  "perId":"Rowan Atkinson",
-  "filmId":"GB2018_003",
-  "title":"Johnny English Strikes Again",
-  "titleEn":null,
-  "director":"David Kerr",
-  "releaseType":"THE",
-  "releaseDate":1538697600000,
-  "type":"F",
-  "releaseYear":2018,
-  "directorName":"David Kerr",
-  "directorBirthYear":1967,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
-  "genre":[
-    "ACT",
-    "ROM",
-    "SPY",
-    "COM"
+  "id":"Rowan Atkinson",
+  "type":"person",
+  "slug":"rowan-atkinson",
+  "name":"Rowan Atkinson",
+  "birthYear":1955,
+  "deathYear":0,
+  "nationality":"GB",
+  "gender":"M",
+  "character":[
+    {
+      "id":"GB2018_003_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2018_003",
+        "slug":"gb2018-003-johnny-english-strikes-again",
+        "title":{
+          "native":"Johnny English Strikes Again",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"ACT",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"national identity",
+        "production":{
+          "country":"CN",
+          "share":"MIN"
+        }
+      }
+    }
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=-Qv6p6pTz5I",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6921996\/mediaviewer\/rm2084336640\/?ref_=tt_ov_i",
-  "synopsis":"After a cyber-attack reveals the identity of all of the active undercover agents in Britain, Johnny English is forced to come out of retirement to find the mastermind hacker.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "FR",
-    "GB",
-    "CN"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "power",
-    "rural",
-    "technology",
-    "professional politics",
-    "abuse",
-    "may-december",
-    "romance",
-    "state institutions",
-    "national identity",
-    "superior-employee relationship",
-    "homosociality",
-    "high rank employment",
-    "retirement",
-    "terrorism",
-    "urban",
-    "rescue mission"
-  ],
-  "charId":"GB2018_003_01",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"UM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Rowan Atkinson",
-  "perBirthYear":1955,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"rowan-atkinson"
+  "director":[
+
+  ]
 }

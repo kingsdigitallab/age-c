@@ -1,61 +1,46 @@
 {
-  "perId":"Adrian Dunbar",
-  "filmId":"GB2022_010",
-  "title":"Emily",
-  "titleEn":null,
-  "director":"Frances O'Connor",
-  "releaseType":"THE",
-  "releaseDate":1665705600000,
-  "type":"F",
-  "releaseYear":2022,
-  "directorName":"Frances O'Connor",
-  "directorBirthYear":1967,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"GB",
-  "genre":[
-    "DRA",
-    "BIO",
-    "ROM",
-    "COA",
-    "HIS"
+  "id":"Adrian Dunbar",
+  "type":"person",
+  "slug":"adrian-dunbar",
+  "name":"Adrian Dunbar",
+  "birthYear":1958,
+  "deathYear":0,
+  "nationality":"GB",
+  "gender":"M",
+  "character":[
+    {
+      "id":"GB2022_010_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2022_010",
+        "slug":"gb2022-010-emily",
+        "title":{
+          "native":"Emily",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"HIS",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"gender discrimination",
+        "production":{
+          "country":"US",
+          "share":"MIN"
+        }
+      }
+    }
   ],
-  "trailerUrl":"https:\/\/www.imdb.com\/title\/tt12374656\/?ref_=nm_flmg_knf_t_1",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt12374656\/mediaviewer\/rm919813121\/?ref_=tt_ov_i",
-  "synopsis":"\"Emily\" imagines the transformative, exhilarating, and uplifting journey to womanhood of a rebel and a misfit, one of the world's most famous, enigmatic, and provocative writers, who died, too soon, at age 30.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "power",
-    "rural",
-    "independent home",
-    "fatherhood",
-    "extended family",
-    "natural",
-    "gender discrimination",
-    "intergenerational conflict"
-  ],
-  "charId":"GB2022_010_01",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"SE",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Adrian Dunbar",
-  "perBirthYear":1958,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"adrian-dunbar"
+  "director":[
+
+  ]
 }

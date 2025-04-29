@@ -1,246 +1,387 @@
 {
-  "perId":"Toni Servillo",
-  "filmId":[
-    "IT2019_013",
-    "IT2018_013",
-    "IT2019_032",
-    "IT2023_021",
-    "IT2023_010",
-    "IT2023_023",
-    "IT2021_022",
-    "IT2022_002",
-    "IT2023_079",
-    "IT2018_006",
-    "IT2021_038",
-    "IT2021_056"
-  ],
-  "title":[
-    "Ariaferma",
-    "5 \u00e8 il numero perfetto",
-    "La stranezza",
-    "Loro 1",
-    "Qui rido io",
-    "Il primo giorno della mia vita",
-    "Adagio",
-    "La Divina Cometa",
-    "\u00c8 stata la mano di Dio",
-    "L'uomo del labirinto",
-    "Il ritorno di Casanova",
-    "Loro 2"
-  ],
-  "titleEn":[
-    "The Hand of God",
-    "The King of Laughter",
-    "Strangeness",
-    "Into the Labyrinth",
-    null,
-    "5 Is the Perfect Number",
-    "The Inner Cage",
-    "The First Day of My Life",
-    "Casanova's Return"
+  "id":"Toni Servillo",
+  "type":"person",
+  "slug":"toni-servillo",
+  "name":"Toni Servillo",
+  "birthYear":1959,
+  "deathYear":0,
+  "nationality":"IT",
+  "gender":"M",
+  "character":[
+    {
+      "id":"IT2022_002_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2022_002",
+        "slug":"it2022-002-la-stranezza",
+        "title":{
+          "native":"La stranezza",
+          "english":"Strangeness"
+        },
+        "filmType":"F",
+        "genre":"HIS",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"intergenerational friendship",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2018_006_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2018_006",
+        "slug":"it2018-006-loro-1",
+        "title":{
+          "native":"Loro 1",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"desire",
+        "production":{
+          "country":"FR",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"IT2021_022_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2021_022",
+        "slug":"it2021-022-qui-rido-io",
+        "title":{
+          "native":"Qui rido io",
+          "english":"The King of Laughter"
+        },
+        "filmType":"F",
+        "genre":"BIO",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"mentorship",
+        "production":{
+          "country":"ES",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"IT2019_032_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2019_032",
+        "slug":"it2019-032-5-e-il-numero-perfetto",
+        "title":{
+          "native":"5 \u00e8 il numero perfetto",
+          "english":"5 Is the Perfect Number"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"new start",
+        "production":{
+          "country":"FR",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"IT2018_013_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2018_013",
+        "slug":"it2018-013-loro-2",
+        "title":{
+          "native":"Loro 2",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"desire",
+        "production":{
+          "country":"FR",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"IT2023_010_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2023_010",
+        "slug":"it2023-010-il-primo-giorno-della-mia-vita",
+        "title":{
+          "native":"Il primo giorno della mia vita",
+          "english":"The First Day of My Life"
+        },
+        "filmType":"F",
+        "genre":"FAN",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"personal trauma",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2023_079_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2023_079",
+        "slug":"it2023-079-la-divina-cometa",
+        "title":{
+          "native":"La Divina Cometa",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"artistic creation",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2021_038_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2021_038",
+        "slug":"it2021-038-ariaferma",
+        "title":{
+          "native":"Ariaferma",
+          "english":"The Inner Cage"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"crime",
+        "production":{
+          "country":"CH",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"IT2023_023_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2023_023",
+        "slug":"it2023-023-il-ritorno-di-casanova",
+        "title":{
+          "native":"Il ritorno di Casanova",
+          "english":"Casanova's Return"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"celebrity",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2021_056_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":"LEA",
+      "film":{
+        "id":"IT2021_056",
+        "slug":"it2021-056-e-stata-la-mano-di-dio",
+        "title":{
+          "native":"\u00c8 stata la mano di Dio",
+          "english":"The Hand of God"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"extended family",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2023_021_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LC",
+      "profession":null,
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "role":"LEA",
+      "film":{
+        "id":"IT2023_021",
+        "slug":"it2023-021-adagio",
+        "title":{
+          "native":"Adagio",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"CRI",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"dementia",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2019_013_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "role":"LEA",
+      "film":{
+        "id":"IT2019_013",
+        "slug":"it2019-013-l-uomo-del-labirinto",
+        "title":{
+          "native":"L'uomo del labirinto",
+          "english":"Into the Labyrinth"
+        },
+        "filmType":"F",
+        "genre":"HOR",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"high rank employment",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    }
   ],
   "director":[
-    "Donato Carrisi",
-    "Stefano Sollima",
-    "Paolo Sorrentino",
-    "Mimmo Paladino",
-    "Mario Martone",
-    "Leonardo Di Costanzo",
-    "Gabriele Salvatores",
-    "Roberto And\u00f2",
-    "Igor Tuveri",
-    "Paolo Genovese"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1567036800000,
-    1683763200000,
-    1674691200000,
-    1637712000000,
-    1525910400000,
-    1572393600000,
-    1524528000000,
-    1680134400000,
-    1634169600000,
-    1631145600000,
-    1702512000000,
-    1666828800000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2018,
-    2019,
-    2021,
-    2022,
-    2023
-  ],
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":[
-    "DRA",
-    "BIO",
-    "THR",
-    "FAN",
-    "NOI",
-    "ACT",
-    "COA",
-    "HIS",
-    "HOR",
-    "COM",
-    "CRI"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=oWElOMT3j9w",
-    "https:\/\/www.youtube.com\/watch?v=7QrFC80FN4k",
-    "https:\/\/www.youtube.com\/watch?v=aTdURif595Y",
-    "https:\/\/www.youtube.com\/watch?v=sH5jUMx0uek",
-    "https:\/\/www.youtube.com\/watch?v=kMa8CXTn2TA",
-    "https:\/\/www.youtube.com\/watch?v=WRBs7a09kig",
-    "https:\/\/www.youtube.com\/watch?v=eLYeXFfD0yQ",
-    null,
-    "https:\/\/www.youtube.com\/watch?v=4yXtEwCcbWc",
-    "https:\/\/www.youtube.com\/watch?v=i_1VW_0i6vo",
-    "https:\/\/www.youtube.com\/watch?v=qpFQwM4Wo0I",
-    "https:\/\/www.youtube.com\/watch?v=GZeQ6GR6w-c"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt8351646\/mediaviewer\/rm1928240897\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt14170058\/mediaviewer\/rm2872848641\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt12680684\/mediaviewer\/rm2432523009\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt12744120\/mediaviewer\/rm2123821825\/?ref_=tt_ov_i",
-    null,
-    "https:\/\/www.imdb.com\/title\/tt22001304\/mediaviewer\/rm3855777025\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt8594376\/mediaviewer\/rm1965532417\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt17374778\/mediaviewer\/rm4126541313\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt6748466\/mediaviewer\/rm580405504\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt17737640\/mediaviewer\/rm4195419393\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt9526392\/mediaviewer\/rm1041628929\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt6832210\/mediaviewer\/rm3916119809\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "Un film sulla vita di Silvio Berlusconi",
-    "\u00abQuesto \u00e8 un gioco, vero?\u00bb Samantha Andretti \u00e8 stata rapita una mattina d\u2019inverno mentre andava a scuola. Quindici anni dopo, si risveglia in una stanza d\u2019ospedale senza ricordare dove \u00e8 stata n\u00e9 cosa le \u00e8 accaduto in tutto quel tempo. Accanto a lei c\u2019\u00e8 un \u00abprofiler\u00bb, il dottor Green: sostiene che l\u2019aiuter\u00e0 a recuperare la memoria e che insieme cattureranno il mostro. Ma l\u2019avverte che la caccia non avverr\u00e0 l\u00e0 fuori, nel mondo reale. Bens\u00ec nella sua mente. \u00abQuesto \u00e8 un gioco, vero?\u00bb ripete, dubbiosa, la ragazza. Bruno Genko \u00e8 un investigatore privato. Quindici anni prima \u00e8 stato ingaggiato dai genitori di Samantha per ritrovare la figlia. Adesso che la ragazza \u00e8 riapparsa, sente di avere un debito con lei e prover\u00e0 a catturare l\u2019uomo senza volto che l\u2019ha rapita. Ma quella di Genko \u00e8 anche una lotta contro il tempo. Perch\u00e9 un medico gli ha detto che gli restano due mesi di vita. E, per uno scherzo del destino, quei due mesi sono scaduti proprio nel giorno in cui Samantha \u00e8 tornata indietro dal buio. Chi giunger\u00e0 prima alla verit\u00e0: l\u2019investigatore o il profiler?... Ma siamo sicuri che, alla fine di tutto, ci sia un\u2019unica verit\u00e0? Perch\u00e9 questa non \u00e8 un\u2019indagine come le altre\u2026 Qualcuno ha un segreto, qualcuno sta mentendo. E da qualche parte, l\u00e0 fuori, c\u2019\u00e8 un labirinto pieno di porte. E dietro ognuna si nasconde un enigma, un inganno. In questo gioco nella mente dello spettatore, il labirinto di cui sei prigioniero \u00e8 gi\u00e0 dentro di te.",
-    "Un vecchio carcere ottocentesco, situato in una zona impervia e imprecisata del territorio italiano, \u00e8 in dismissione. Per problemi burocratici i trasferimenti si bloccano e una dozzina di detenuti con pochi agenti rimangono in attesa di nuove destinazioni. In un'atmosfera sospesa, le regole di separazione si allentano e tra gli uomini rimasti si intravedono nuove forme di relazioni.",
-    "Manuel ha sedici anni e cerca di godersi la vita come puo\u0300, mentre si prende cura dell\u2019anziano padre. Vittima di un ricatto, va a una festa per scattare alcune foto a un misterioso individuo ma, sentendosi raggirato, decide di scappare, ritrovandosi invischiato in questioni ben oltre la sua portata. Infatti i ricattatori che lo inseguono si rivelano essere estremamente pericolosi e determinati a eliminare quello che ritengono uno scomodo testimone e il ragazzo dovra\u0300 chiedere protezione a due ex-criminali, vecchie conoscenze del padre.",
-    "Leo Bernardi \u00e8 un affermato e acclamato regista alla fine della sua carriera, che non ha alcuna intenzione di accettare il suo lento declino. Per la sua ultima opera, Leo ha scelto di raccontare il Casanova di Arthur Schnitzler, un personaggio incredibilmente simile a lui, pi\u00f9 di quanto lui stesso possa immaginare. Quello raccontato da Schnitzler \u00e8 un Casanova che ha ormai superato la sua giovent\u00f9, i tempi di gloria sono andati: non ha pi\u00f9 il suo fascino e il suo potere sulle donne, non ha pi\u00f9 un soldo in tasca, non ha pi\u00f9 voglia di girare l\u2019Europa. Dopo anni di esilio, ha un solo obiettivo: tornare a Venezia, casa sua. Nel suo viaggio verso casa, Casanova conosce una ragazza, Marcolina, che riaccende una fame di conquista che non sentiva da anni. Nel tentativo di sedurla, Casanova arriver\u00e0 alla pi\u00f9 tragica delle conclusioni: \u00e8 diventato vecchio. Non \u00e8 un caso se Leo Bernardi abbia deciso di raccontare questa storia proprio adesso, in un momento cruciale della sua vita e della sua carriera. Le inquietudini e i dubbi dei due sono incredibilmente simili. \u00c8 pi\u00f9 importante il Cinema o la Vita? Continuare a recitare il proprio personaggio o lasciarsi andare alle sorprese che la Vita ti propone?",
-    "Peppino Lo Cicero \u00e8 un sicario ormai in pensione, orgoglioso della carriera del figlio Nino, che lavora anche lui per la famiglia criminale. Quando questo, mandato in missione nel cuore di Napoli, viene freddato in un agguato, Peppino sente che la famiglia ha tradito, che qualcosa si \u00e8 rotto nell\u2019antico patto di lealt\u00e0 che regolava la vecchia malavita. Chiama Tot\u00f2, detto o\u2019 Macellaio, l\u2019amico di un tempo, sicario come lui, per scovare il mandante e regolare i conti. Si danno appuntamento al vecchio nascondiglio delle armi per capire il da farsi. Sar\u00e0 l\u00ec che Peppino ritrover\u00e0 Rita, detta \u2018a Maestrina, la donna che lo ama da sempre e che subito si offre di dargli una mano. La pace della vita di pensionato sembra un ricordo lontano. Per prima cosa i due vecchi sicari andranno, come la regola prescrive, dal loro boss. Don Guarino. Da qui comincer\u00e0 il regolamento dei conti. Peppino uccider\u00e0 il suo stesso boss scatenando la furia della sua \u2018famiglia\u2019. Tra inseguimenti, sparatorie e rapimenti, Peppino dovr\u00e0 ritrovare la freddezza di un tempo e dimostrare di essere pi\u00f9 abile dei suoi inseguitori per salvare la vita propria e quella delle persone che ama. Catapultato di nuovo in una spirale infinita di violenza Peppino sar\u00e0 costretto a riconsiderare il senso di una vita devota al crimine e ai valori che la regolano.",
-    null,
-    "Dal regista e sceneggiatore Premio Oscar Paolo Sorrentino, la storia di un ragazzo nella tumultuosa Napoli degli anni Ottanta. Una vicenda costellata da gioie inattese, come l\u2019arrivo della leggenda del calcio Diego Maradona, e una tragedia altrettanto inattesa. Ma il destino trama dietro le quinte e gioia e tragedia s\u2019intrecciano, indicando la strada per il futuro di Fabietto. Sorrentino torna nella sua citt\u00e0 natale per raccontare la sua storia pi\u00f9 personale, un racconto di destino e famiglia, sport e cinema, amore e perdita.",
-    "Agli inizi del \u2018900, nella Napoli della Belle \u00c9poque, splendono i teatri e il cinematografo. Il grande attore comico Eduardo Scarpetta \u00e8 il re del botteghino. Il successo lo ha reso un uomo ricchissimo: di umili origini si \u00e8 affermato grazie alle sue commedie e alla maschera di Felice Sciosciammocca che nel cuore del pubblico napoletano ha soppiantato Pulcinella. Il teatro \u00e8 la sua vita e attorno al teatro gravita anche tutto il suo complesso nucleo familiare, composto da mogli, compagne, amanti, figli legittimi e illegittimi tra cui Titina, Eduardo e Peppino De Filippo. Al culmine del successo Scarpetta si concede quello che si riveler\u00e0 un pericoloso azzardo. Decide di realizzare la parodia de La figlia di Iorio, tragedia del pi\u00f9 grande poeta italiano del tempo, Gabriele D\u2019Annunzio. La sera del debutto in teatro si scatena un putiferio: la commedia viene interrotta tra urla, fischi e improperi sollevati dai poeti e drammaturghi della nuova generazione che gridano allo scandalo e Scarpetta finisce con l\u2019essere denunciato per plagio dallo stesso D\u2019Annunzio. Inizia, cos\u00ec, la prima storica causa sul diritto d\u2019autore in Italia. Gli anni del processo saranno logoranti per lui e per tutta la famiglia tanto che il delicato equilibrio che la teneva insieme pare sul punto di dissolversi. Tutto nella vita di Scarpetta sembra andare in frantumi, ma con un numero da grande attore sapr\u00e0 sfidare il destino che lo voleva perduto e vincer\u00e0 la sua ultima partita.",
-    "Nel 1920 in Sicilia per un breve soggiorno, Luigi Pirandello s\u2019imbatte in un imprevisto che lo porter\u00e0 a incontrare due singolari figure di teatranti, Onofrio Principato e Sebastiano Vella, due dilettanti che stanno provando con gli attori della loro filodrammatica un nuovo spettacolo. L\u2019incontro tra il geniale autore dei Sei personaggi in cerca d\u2019autore e questa scalcinata compagnia amatoriale sar\u00e0 foriero di molte sorprese.",
-    "Un uomo misterioso si presenta a quattro persone che hanno toccato il fondo e vogliono farla finita per proporre loro un patto: una settimana di tempo per farle rinnamorare della vita. Il suo intento \u00e8 quello di offrire la possibilit\u00e0 di scoprire come potrebbe essere il mondo senza di loro e aiutarle a trovare un nuovo senso alle proprie esistenze. Una storia sulla forza di ricominciare quando tutto intorno sembra crollare.",
-    "Un treno porta a destinazione un attore e una famiglia di senzatetto. Il loro viaggio non \u00e8 solo la ricerca di una casa ma una messa in scena: l\u2019attore prende le vesti di un Dante che nessuno accompagner\u00e0 all\u2019inferno, la famigliola vaga alla ricerca della casa promessagli. Un numerologo prova a trovare un senso a tutta questa commedia, a raccontare il viaggio tra i gironi infernali e le grotte del presepe. Si arriver\u00e0 a riveder le stelle?"
-  ],
-  "synopsisEn":[
-    "A film about the life of Silvio Berlusconi.",
-    "Leo Bernardi is a successful Italian director. He's approaching the end of his career but he cannot accept his slow decline. He has just finished shooting his last movie which is inspired by Schnitzler's novel, Casanova.",
-    "Peppino, a retired hitman for the Camorra, has now fully passed on his job and know-how to his single son, Nino. But when Nino is brutally assassinated, the old man is back in business to take revenge. Aside his everlasting love Rita and his longtime henchman Toto, Peppino will go to any lengths,",
-    "The biography of Neapolitan comic theater legend Eduardo Scarpetta.",
-    "During a trip to Sicily in 1920, Luigi Pirandello meets Onofrio Principato and Sebastiano Vella, two actors rehearsing a new show with the actors of their amateur dramatics. This meeting brings great surprises.",
-    "A young woman wakes up in a hospital bed. She has a broken leg, she is also disoriented and can\u2019t remember anything. The room she is in has no windows, only a huge mirror lining one wall, although she can\u2019t see her reflection in it. With her is a man who introduces himself as Dr Green, a criminal profiler. He explains to the girl that her name is Samantha, that she has been kidnapped and kept prisoner, but managed to escape, and that his job is to find the kidnapper. However, the hunt will not take place in the outside world, but in Samantha\u2019s mind. White reveals to Samantha that she is no longer thirteen, which was her age when she was kidnapped, but twenty-eight. With his help, she gradually starts to recall certain episodes from her captivity. In a city overcome by a ferocious heatwave, where the people have taken to sleeping during the day, and leaving their homes only at night, a private detective called Bruno Genko, who has spent years investigating Samantha\u2019s disappearance, learns of her liberation. Now, stricken with a heart disease, the detective has only two months to live, but nonetheless, he takes up the hunt once more.",
-    null,
-    "In 1980s Naples, young Fabietto pursues his love for football as family tragedy strikes, shaping his uncertain but promising future as a filmmaker.",
-    "Manuel is sixteen years old and trying to enjoy his life as much as he can, while taking care of his elderly father. Subjected to blackmail, he goes to a party to take photos of a mysterious individual but, feeling that he has been duped, decides to flee, finding himself embroiled in matters that are far beyond him. In fact the blackmailers that pursue him turn out to be extremely dangerous and determined to get rid of what they regard as an inconvenient witness and the boy will have to turn for protection to two former criminals, old acquaintances of his father.",
-    "A train is carrying an actor and a homeless family to their destination. The journey is not only the search for a home, but also for a performance: the actor assumes the role of a Dante whom no one will guide through Inferno, while the family wanders around in search of their promised home. A numerologist tries to find a meaning in all of this, to tell the story of the journey through the circles of hell and the grottoes of the crib. Will they be able to see the stars once again?",
-    "The last remains of a prison, guards and a few inmates, are waiting to be transferred and gradually the rules seem to make less and less sense and the waiting men become a new fragile community.",
-    "In the exact moment they\u2019re hitting rock bottom, a man, two women and a boy meet a mysterious man capable of gifting them a week of time where they\u2019ll discover how the world would be without them. Will they find the strength to start over and fall in love with life again?"
-  ],
-  "country":[
-    "BE",
-    "FR",
-    "ES",
-    "IT",
-    "CH"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "desire",
-    "sex",
-    "intergenerational friendship",
-    "friendship betrayal",
-    "extended family",
-    "mentorship",
-    "revenge",
-    "corruption",
-    "wealth",
-    "reignited passion",
-    "may-december",
-    "physical illness",
-    "artistic creation",
-    "parenthood",
-    "regional identity",
-    "homosociality",
-    "new start",
-    "personal trauma",
-    "fatherhood",
-    "state institutions",
-    "organized crime",
-    "high rank employment",
-    "celebrity",
-    "legacy",
-    "dementia",
-    "sex for hire",
-    "professional politics",
-    "infidelity",
-    "last mission",
-    "grief",
-    "crime",
-    "marriage",
-    "intergenerational conflict"
-  ],
-  "charId":[
-    "IT2021_038_01",
-    "IT2021_056_01",
-    "IT2018_013_01",
-    "IT2023_010_01",
-    "IT2022_002_01",
-    "IT2021_022_01",
-    "IT2023_021_01",
-    "IT2018_006_01",
-    "IT2019_013_02",
-    "IT2023_023_01",
-    "IT2023_079_01",
-    "IT2019_032_01"
-  ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UC",
-    null,
-    "MC",
-    "LC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "EM",
-    "RE",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    "CI"
-  ],
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"toni-servillo"
+
+  ]
 }

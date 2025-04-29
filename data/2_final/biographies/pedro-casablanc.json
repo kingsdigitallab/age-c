@@ -1,285 +1,325 @@
 {
-  "perId":"Pedro Casablanc",
-  "filmId":[
-    "ES2022_048",
-    "ES2023_016",
-    "ES2022_056",
-    "ES2022_060",
-    "ES2018_033",
-    "ES2020_010",
-    "ES2023_056",
-    "ES2020_012",
-    "ES2019_018",
-    "ES2022_054"
-  ],
-  "title":[
-    "La espera",
-    "El universo de \u00d3liver",
-    "Saben aquell",
-    "La jefa",
-    "Invisibles",
-    "Sin ti no puedo",
-    "Nieva en Benidorm",
-    "El crack cero",
-    "El fred que crema",
-    "Alegr\u00eda, tristeza"
-  ],
-  "titleEn":[
-    "It Snows in Benidorm",
-    "Under Her Control",
-    null,
-    "The Crack: Inception",
-    "The Burning Cold",
-    "The Invisible",
-    "Can't Live Without You",
-    "Jokes & Cigarettes",
-    "The Wait"
+  "id":"Pedro Casablanc",
+  "type":"person",
+  "slug":"pedro-casablanc",
+  "name":"Pedro Casablanc",
+  "birthYear":1963,
+  "deathYear":0,
+  "nationality":"ES",
+  "gender":"M",
+  "character":[
+    {
+      "id":"ES2022_056_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2022_056",
+        "slug":"es2022-056-el-universo-de-oliver",
+        "title":{
+          "native":"El universo de \u00d3liver",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"class solidarity",
+        "production":{
+          "country":"RO",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"ES2018_033_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2018_033",
+        "slug":"es2018-033-alegria-tristeza",
+        "title":{
+          "native":"Alegr\u00eda, tristeza",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"low rank employment",
+        "production":{
+          "country":"BE",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"ES2023_056_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2023_056",
+        "slug":"es2023-056-la-espera",
+        "title":{
+          "native":"La espera",
+          "english":"The Wait"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"class conflict",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2022_048_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"TD",
+      "assistedMobility":"TD",
+      "role":null,
+      "film":{
+        "id":"ES2022_048",
+        "slug":"es2022-048-el-fred-que-crema",
+        "title":{
+          "native":"El fred que crema",
+          "english":"The Burning Cold"
+        },
+        "filmType":"F",
+        "genre":"HIS",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"racial discrimination",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2020_010_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2020_010",
+        "slug":"es2020-010-nieva-en-benidorm",
+        "title":{
+          "native":"Nieva en Benidorm",
+          "english":"It Snows in Benidorm"
+        },
+        "filmType":"F",
+        "genre":"ROM",
+        "release":{
+          "type":"THE",
+          "year":2020
+        },
+        "tags":"anti-ageing practices",
+        "production":{
+          "country":"GB",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"ES2019_018_03",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2019_018",
+        "slug":"es2019-018-el-crack-cero",
+        "title":{
+          "native":"El crack cero",
+          "english":"The Crack: Inception"
+        },
+        "filmType":"F",
+        "genre":"HIS",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"corruption",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2023_016_05",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2023_016",
+        "slug":"es2023-016-saben-aquell",
+        "title":{
+          "native":"Saben aquell",
+          "english":"Jokes & Cigarettes"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"self-employment",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2022_054_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2022_054",
+        "slug":"es2022-054-sin-ti-no-puedo",
+        "title":{
+          "native":"Sin ti no puedo",
+          "english":"Can't Live Without You"
+        },
+        "filmType":"F",
+        "genre":"THR",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"marriage",
+        "production":{
+          "country":"MX",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"ES2022_060_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2022_060",
+        "slug":"es2022-060-la-jefa",
+        "title":{
+          "native":"La jefa",
+          "english":"Under Her Control"
+        },
+        "filmType":"F",
+        "genre":"THR",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"class conflict",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2020_012_04",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2020_012",
+        "slug":"es2020-012-invisibles",
+        "title":{
+          "native":"Invisibles",
+          "english":"The Invisible"
+        },
+        "filmType":"F",
+        "genre":"ROM",
+        "release":{
+          "type":"THE",
+          "year":2020
+        },
+        "tags":"body norms",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    }
   ],
   "director":[
-    "Ib\u00f3n Cormenzana",
-    "Jos\u00e9 Luis Garci",
-    "Santi Trullenque",
-    "Fran Torres",
-    "Isabel Coixet",
-    "Gracia Querejeta",
-    "Chus Guti\u00e9rrez",
-    "F. Javier Guti\u00e9rrez",
-    "Alexis Morante",
-    "David Trueba"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1604534400000,
-    1570147200000,
-    1671148800000,
-    1698796800000,
-    1651190400000,
-    1582243200000,
-    1653868800000,
-    1702598400000,
-    1542326400000,
-    1652227200000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2018,
-    2019,
-    2020,
-    2022,
-    2023
-  ],
-  "directorName":[
-    "Ib\u00f3n Cormenzana",
-    "Jos\u00e9 Luis Garci",
-    "Santi Trullenque",
-    "Fran Torres",
-    null,
-    "F. Javier Guti\u00e9rrez",
-    "Alexis Morante"
-  ],
-  "directorBirthYear":[
-    0,
-    1972,
-    1973,
-    1974,
-    1944,
-    1978
-  ],
-  "directorDeathYear":0,
-  "directorGender":[
-    null,
-    "M"
-  ],
-  "directorNationality":[
-    null,
-    "ES"
-  ],
-  "genre":[
-    "DRA",
-    "BIO",
-    "ROM",
-    "THR",
-    "FAN",
-    "NOI",
-    "COA",
-    "WES",
-    "HIS",
-    "HOR",
-    "COM"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=hI5RmvyPGTg",
-    "https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=398907",
-    "https:\/\/www.imdb.com\/title\/tt7040858\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Alegr%25C3%25ADa%252C%2520tristeza",
-    "https:\/\/www.youtube.com\/watch?v=2om1hkU3nYM",
-    "https:\/\/www.imdb.com\/title\/tt15006754\/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_La%2520jefa",
-    "https:\/\/www.imdb.com\/title\/tt14488434\/?ref_=nv_sr_srsg_1_tt_8_nm_0_in_0_q_Sin%2520ti%2520no%2520puedo",
-    "https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=875386",
-    "https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=848364",
-    "https:\/\/www.imdb.com\/title\/tt12484918\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_La%2520espera",
-    "https:\/\/www.youtube.com\/watch?v=ajs5906Izwo"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt11934038\/mediaviewer\/rm1928017921\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt12484918\/mediaviewer\/rm1488340993\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt7040858\/mediaviewer\/rm523533568\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt9806468\/mediaviewer\/rm2259133697\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt9563096\/mediaviewer\/rm3050733569\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt14488434\/mediaviewer\/rm1805458433\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt11807698\/mediaviewer\/rm3308854017\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt6793710\/mediaviewer\/rm518430465\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt27672387\/mediaviewer\/rm1482707457\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt15006754\/mediaviewer\/rm1224546305\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "A\u00f1o 1985. \u00d3liver, un ni\u00f1o con una imaginaci\u00f3n desbordante, se muda con su familia al rinc\u00f3n m\u00e1s al sur de Europa, justo cuando est\u00e1 a punto de pasar el Cometa Halley. Estos acontecimientos marcar\u00e1n un antes y un despu\u00e9s en la vida emocional de \u00d3liver, que buscar\u00e1 en las estrellas la soluci\u00f3n a sus problemas en el nuevo colegio, en el barrio y en casa. Para colmo, su abuelo, apodado \u201cel majara\u201d, se anima a ayudarle a interpretar el mensaje del cometa y dar un paso al frente en su nuevo universo.",
-    "David es un empresario de \u00e9xito que tiene una vida acomodada junto a su novio \u00c1lex, un atractivo monitor de gimnasio. \u00c1lex siempre ha querido ser padre y a menudo se plantea qu\u00e9 camino seguir para lograrlo... \u00bfAdopci\u00f3n? \u00bfVientre de alquiler? Aunque David no quiere ni o\u00edr hablar del tema. Todo sigue su curso hasta que irrumpe en sus vidas Blanca, la hermana de David con la que rompi\u00f3 toda relaci\u00f3n tras un oscuro suceso del pasado. Ahora empieza una nueva etapa y decidida a recuperar la \u00fanica familia que tiene: su hermano David. Y ser\u00e1 capaz de hacer cualquier cosa para que su hermano vuelva a aceptarla en su vida.",
-    "Pel\u00edcula sobre los primeros a\u00f1os de carrera del humorista Eugenio. Barcelona, finales de los 60. Eugenio Jofra, un joven joyero, conoce a Conchita y el flechazo es instant\u00e1neo. Eugenio aprende a tocar la guitarra para acompa\u00f1ar a Conchita, para lo que tendr\u00e1 que luchar contra el miedo esc\u00e9nico. Empieza as\u00ed la carrera musical de \u2018Els dos\u2019. Cuando Conchita se tiene que ausentar durante dos semanas de Barcelona, convence a Eugenio de que lleve las actuaciones a cabo \u00e9l solo. Cuando regresa, Eugenio se ha convertido en un fen\u00f3meno del humor underground de la ciudad. Poco a poco, entre los dos ir\u00e1n construyendo al personaje: las gafas, la camisa negra, el taburete, los cigarrillos y el vaso de tubo, que se convertir\u00e1 en un \u00e9xito inesperado en una Espa\u00f1a deprimida que busca desesperadamente re\u00edrse con ese singular c\u00f3mico que empieza todos sus chistes con \u2018Saben aquell que diu\u2026\".",
-    "Marcos (Roberto \u00c1lamo), Sandra (Maggie Civantos) y su hija Lola (Claudia Placer) forman una familia vital y carism\u00e1tica. Marcos, bombero de profesi\u00f3n y acostumbrado a vivir situaciones l\u00edmite, recibir\u00e1 un duro golpe que har\u00e1 que su vida de un giro inesperado. A partir de entonces, sufrir\u00e1 un bloqueo que no le permitir\u00e1 reconocer las emociones de los dem\u00e1s ni empatizar con ellos. Con la ayuda de los suyos, iniciar\u00e1 un tratamiento para superar este shock. En el camino para volver a sentir, su hija Lola ser\u00e1 la clave para reconstruir de nuevo su universo.",
-    "Sof\u00eda, una joven ambiciosa que trabaja en una multinacional de moda se queda embarazada sin haberlo planeado. Sin familia en Espa\u00f1a y con dudas sobre el futuro de su maternidad, Sof\u00eda parece abocada a volver a su pa\u00eds y abandonar la prometedora carrera profesional por la que tanto ha luchado. Sin embargo, su jefa, una mujer hecha a s\u00ed misma a la que Sof\u00eda admira por encima de todo le hace una inusual proposici\u00f3n: Darle el hijo en adopci\u00f3n a ella y a cambio poder continuar con su promoci\u00f3n dentro de la empresa. Sof\u00eda acepta la oferta sin saber que no todo es como su jefa le ha contado\u2026",
-    "La historia refleja la vida de Julia, Elsa y Amelia, tres amigas que un d\u00eda decidieron comenzar a caminar juntas una vez por semana. Lo que empez\u00f3 por ser una mera distracci\u00f3n y una forma de hacer ejercicio se ha terminado por convertir en una necesidad. Porque esos paseos les sirven tambi\u00e9n para estar informadas de lo que a cada una de ellas les ocurre. Poco a poco ir\u00e1n descubriendo que la amistad no es siempre id\u00edlica, que en la amistad tambi\u00e9n se guardan secretos y se recurre a la mentira.",
-    "Peter Riordan es un hombre solitario y met\u00f3dico, obsesionado por los fen\u00f3menos meteorol\u00f3gicos. Obligado a jubilarse anticipadamente en el banco de Manchester donde ha trabajado toda su vida, decide visitar a su hermano Daniel, que vive en Benidorm. A su llegada, descubre que su hermano ha desaparecido y que era propietario de un club de burlesque donde trabaja Alex, una misteriosa mujer que ejerce una poderosa fascinaci\u00f3n sobre \u00e9l. Peter y Alex intentan averiguar qu\u00e9 ha sido de Daniel, ayudados por una polic\u00eda obsesionada por la presencia de Sylvia Plath en los a\u00f1os cincuenta en Benidorm. La ciudad de Benidorm, con su incre\u00edble geograf\u00eda y su peculiar mezcla de brit\u00e1nicos de vacaciones y jubilados espa\u00f1oles en pos de un merecido carpe diem, es un personaje m\u00e1s de este thriller rom\u00e1ntico en el que Peter descubre que la vida, la verdadera vida, puede empezar en cualquier momento, incluso cuando cre\u00edamos que ya no era posible. Pero si nieva en Benidorm, cualquier cosa es posible.",
-    "Eladio (V\u00edctor Clavijo), guarda de una finca, acepta el soborno de un cazador. Semanas despu\u00e9s su vida entera colapsa. Lo que parec\u00eda un vuelco favorable del destino se convertir\u00e1 en un macabro descenso a los infiernos en el que Eladio ver\u00e1 puesta a prueba su cordura.",
-    "Seis meses despu\u00e9s del suicidio del afamado sastre Narciso Benavides, una misteriosa y atractiva mujer casada visita a Germ\u00e1n Areta, prestigioso ex polic\u00eda de la Brigada Criminal y ahora detective privado, para que inicie una investigaci\u00f3n exhaustiva sobre el \u201cCaso Benavides\u201d. La mujer est\u00e1 convencida de que el sastre, que era su amante, fue asesinado. Aunque su instinto le dice a Areta que la gente s\u00f3lo mata por amor o por dinero, ir\u00e1 descubriendo que hay m\u00e1s motivos, y m\u00e1s de un sospechoso, para quitar de en medio al sastre... Precuela de \"El crack\" (1981), que narra de nuevo las investigaciones del detective Areta en los convulsos a\u00f1os de la Transici\u00f3n Espa\u00f1ola.",
-    "Invierno de 1943 en los Pirineos. Sara y Antoni viven en un peque\u00f1o pueblo de Andorra. Todos los d\u00edas reciben noticias de la Segunda Guerra Mundial. Un d\u00eda, su amigo Sendo vino con unos jud\u00edos para esconderlos. La vida se complica cuando los alemanes llegan a la ciudad en busca de los jud\u00edos."
-  ],
-  "synopsisEn":[
-    "Peter has worked all his life at a Manchester bank. When he is awarded an early retirement, he decides to visit his brother in Benidorm, only to discover that he's disappeared.",
-    "In this prequel, Germ\u00e1n Areta leaves his position as a policeman to become a private detective in post-Francoist Spain.",
-    "At late 60s, Eugenio is a young jeweler who falls in love with Conchita and they two create a musical duo. When she leaves music, he starts as humorist and eventually he turns in one of the most important comedians in Spain.",
-    "Marcos (Roberto \u00c1lamo) is a firefighter who, in spite of being used to extreme situations, goes into shock when life deals him a bad hand. His new inability to empathize with others affects both his personal and professional life. He seeks the help of a psychologist, Luna (Manuela Vell\u00e9s), who with his daughter Lola (Claudia Placer) helps him rebuild his life.",
-    "When a fashion employee thinks she will have to end her promising career after getting pregnant, her boss offers to adopt the child.",
-    "In the harsh winter of 1943, Sara and Antoni hide a Jewish family at home. Faced with the stalking of the Nazis, Sara will have to face her own contradictions and decide if she obeys reason or what her heart dictates.",
-    "Portrays the macabre descent into hell of a man facing the consequences of a morally fraught decision.",
-    "Oliver has an unimaginable imagination. And this change in his life will mark him for ever and ever.",
-    "A gay gym teacher wants to be a father and when his boyfriend's sister, a former addict, comes back on the scene there is now a possible solution.",
-    "Three women. One same age. Three ways to face it"
-  ],
-  "country":[
-    "BE",
-    "FR",
-    "ES",
-    "US",
-    "RO",
-    "MX",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "war",
-    "sex",
-    "desire",
-    "self-employment",
-    "extended family",
-    "daily routine",
-    "intragenerational friendship",
-    "body norms",
-    "urban",
-    "mentorship",
-    "revenge",
-    "precarity",
-    "class conflict",
-    "cross-gender friendship",
-    "brotherhood",
-    "wealth",
-    "corruption",
-    "search for meaning",
-    "rural",
-    "power",
-    "cultural memory",
-    "abuse",
-    "anti-ageing practices",
-    "tourism",
-    "mental illness",
-    "physical illness",
-    "regional identity",
-    "gentrification",
-    "parenthood",
-    "artistic creation",
-    "homosociality",
-    "retirement",
-    "well-being",
-    "multigenerational family",
-    "separation",
-    "grandfatherhood",
-    "racial discrimination",
-    "personal memory",
-    "fatherhood",
-    "loneliness",
-    "organized crime",
-    "state institutions",
-    "high rank employment",
-    "class solidarity",
-    "collective trauma",
-    "holiday",
-    "caregiving",
-    "mass media",
-    "low-rank employment",
-    "elderhood",
-    "independent home",
-    "in-laws",
-    "medical treatment",
-    "romance",
-    "infidelity",
-    "superior-employee relationship",
-    "grief",
-    "crime",
-    "murder",
-    "marriage",
-    "natural",
-    "low rank employment",
-    "hospital"
-  ],
-  "charId":[
-    "ES2022_056_01",
-    "ES2022_054_01",
-    "ES2019_018_03",
-    "ES2022_048_01",
-    "ES2022_060_01",
-    "ES2020_010_03",
-    "ES2023_016_05",
-    "ES2020_012_04",
-    "ES2018_033_02",
-    "ES2023_056_01"
-  ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "EM",
-    "RE",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    "TD"
-  ],
-  "assistedMobility":[
-    "N",
-    "Y",
-    null
-  ],
-  "perName":"Pedro Casablanc",
-  "perBirthYear":1963,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"pedro-casablanc"
+
+  ]
 }

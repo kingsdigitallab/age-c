@@ -1,201 +1,232 @@
 {
-  "perId":"Andr\u00e9 Dussollier",
-  "filmId":[
-    "FR2019_069",
-    "FR2022_120",
-    "FR2022_179",
-    "FR2021_072",
-    "FR2018_173",
-    "FR2021_051",
-    "FR2021_061"
-  ],
-  "title":[
-    "Attention au d\u00e9part",
-    "Le Torrent",
-    "Mauvaises Herbes",
-    "Bo\u00eete noire",
-    "Le Tigre et le Pr\u00e9sident",
-    "Tanguy, le retour",
-    "Tout s'est bien pass\u00e9"
-  ],
-  "titleEn":[
-    "Spiral",
-    "The Vanished President",
-    "Bad Seeds",
-    "All Aboard!",
-    "Black Box",
-    "Everything Went Fine",
-    "Tanguy is Back"
+  "id":"Andr\u00e9 Dussollier",
+  "type":"person",
+  "slug":"andre-dussollier",
+  "name":"Andr\u00e9 Dussollier",
+  "birthYear":1946,
+  "deathYear":0,
+  "nationality":"FR",
+  "gender":"M",
+  "character":[
+    {
+      "id":"FR2021_072_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"BI",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "role":null,
+      "film":{
+        "id":"FR2021_072",
+        "slug":"fr2021-072-tout-s-est-bien-passe",
+        "title":{
+          "native":"Tout s'est bien pass\u00e9",
+          "english":"Everything Went Fine"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"medical treatment",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2022_179_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2022_179",
+        "slug":"fr2022-179-le-torrent",
+        "title":{
+          "native":"Le Torrent",
+          "english":"Spiral"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"multigenerational family",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2018_173_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2018_173",
+        "slug":"fr2018-173-mauvaises-herbes",
+        "title":{
+          "native":"Mauvaises Herbes",
+          "english":"Bad Seeds"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"independent home",
+        "production":{
+          "country":"BE",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"FR2022_120_02",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2022_120",
+        "slug":"fr2022-120-le-tigre-et-le-president",
+        "title":{
+          "native":"Le Tigre et le Pr\u00e9sident",
+          "english":"The Vanished President"
+        },
+        "filmType":"F",
+        "genre":"BIO",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"national identity",
+        "production":{
+          "country":"BE",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"FR2021_051_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2021_051",
+        "slug":"fr2021-051-attention-au-depart",
+        "title":{
+          "native":"Attention au d\u00e9part",
+          "english":"All Aboard!"
+        },
+        "filmType":"F",
+        "genre":"ROA",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"in-laws",
+        "production":{
+          "country":"BE",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"FR2019_069_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2019_069",
+        "slug":"fr2019-069-tanguy-le-retour",
+        "title":{
+          "native":"Tanguy, le retour",
+          "english":"Tanguy is Back"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"intergenerational conflict",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2021_061_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2021_061",
+        "slug":"fr2021-061-boite-noire",
+        "title":{
+          "native":"Bo\u00eete noire",
+          "english":"Black Box"
+        },
+        "filmType":"F",
+        "genre":"THR",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"corruption",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    }
   ],
   "director":[
-    "Yann Gozlan",
-    "Kheiron",
-    "Fran\u00e7ois Ozon",
-    "Jean-Marc Peyrefitte",
-    "Benjamin Euvrard",
-    "\u00c9tienne Chatiliez",
-    "Anne Le Ny"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1662508800000,
-    1554854400000,
-    1542758400000,
-    1669766400000,
-    1629244800000,
-    1631059200000,
-    1632268800000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2018,
-    2019,
-    2021,
-    2022
-  ],
-  "directorName":[
-    "Kheiron",
-    null
-  ],
-  "directorBirthYear":[
-    0,
-    1982
-  ],
-  "directorDeathYear":0,
-  "directorGender":[
-    null,
-    "M"
-  ],
-  "directorNationality":[
-    "IR",
-    "FR",
-    null
-  ],
-  "genre":[
-    "DRA",
-    "BIO",
-    "THR",
-    "ROA",
-    "COM"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=LjT6YuwkOf4",
-    "https:\/\/www.youtube.com\/watch?v=NEXVa-FqfNw",
-    "https:\/\/www.youtube.com\/watch?v=ZiOIYs-Z-s4",
-    "https:\/\/www.youtube.com\/watch?v=zgBkLyB2MB4",
-    "https:\/\/www.youtube.com\/watch?v=mEhk__4A22s",
-    "https:\/\/www.youtube.com\/watch?v=KDJMbKGonzc",
-    "https:\/\/www.youtube.com\/watch?v=RCVQ64yBZlQ"
-  ],
-  "posterUrl":[
-    "https:\/\/medias.unifrance.org\/medias\/46\/153\/235822\/format_page\/black-box.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/209\/240\/192721\/format_page\/bad-seeds.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/27\/217\/252187\/format_page\/le-tigre-et-le-president.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/248\/157\/237048\/format_page\/all-aboard.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/24\/160\/237592\/format_page\/everything-went-fine.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/228\/29\/204260\/format_page\/tanguy-le-retour.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/130\/236\/257154\/format_page\/le-torrent.jpg"
-  ],
-  "synopsis":[
-    "Emmanu\u00e8le, romanci\u00e8re \u00e9panouie dans sa vie priv\u00e9e et professionnelle, se pr\u00e9cipite \u00e0 l\u2019h\u00f4pital, son p\u00e8re Andr\u00e9 vient de faire un AVC. Fantasque, aimant passionn\u00e9ment la vie mais diminu\u00e9, il demande \u00e0 sa fille de l\u2019aider \u00e0 en finir. Avec l\u2019aide de sa s\u0153ur Pascale, elle va devoir choisir : accepter la volont\u00e9 de son p\u00e8re ou le convaincre de changer d\u2019avis.",
-    "Rater le train, c'est moche. Alors le voir partir avec vos enfants et ceux de vos amis dont vous avez la charge, c\u2019est une autre histoire\u2026 Celle de la folle course-poursuite de Benjamin, papa poule un peu d\u00e9pass\u00e9 et Antoine, grand-p\u00e8re fantasque, qui doivent trouver une solution avant qu\u2019on apprenne\u2026 qu\u2019ils ont perdu les gosses ! Rattraper le train est leur seule chance de se rattraper...",
-    "Que s\u2019est-il pass\u00e9 \u00e0 bord du vol Duba\u00ef-Paris avant son crash dans le massif alpin ? Technicien au BEA, autorit\u00e9 responsable des enqu\u00eates de s\u00e9curit\u00e9 dans l\u2019aviation civile, Mathieu Vasseur est propuls\u00e9 enqu\u00eateur en chef sur une catastrophe a\u00e9rienne sans pr\u00e9c\u00e9dent. Erreur de pilotage ? D\u00e9faillance technique ? Acte terroriste ? L\u2019analyse minutieuse des bo\u00eetes noires va pousser Mathieu \u00e0 mener en secret sa propre investigation. Il ignore encore jusqu\u2019o\u00f9 va le mener sa qu\u00eate de v\u00e9rit\u00e9.",
-    "1920, les anne\u0301es folles. Georges Clemenceau vient de perdre l\u2019e\u0301lection pre\u0301sidentielle face a\u0300 l'inconnu Paul Deschanel, un ide\u0301aliste qui veut changer le pays. Mais un soir ce dernier tombe d'un train et se volatilise. Au petit matin, la France cherche son pre\u0301sident, une occasion en or pour le Tigre Clemenceau...",
-    "Lorsqu\u2019il d\u00e9couvre que Juliette, sa femme, le trompe, Alexandre est d\u00e9vast\u00e9. Fuyant la confrontation, Juliette quitte pr\u00e9cipitamment la maison. Alors qu\u2019il cherche a\u0300 la rattraper, celle-ci prend peur et fait une chute mortelle dans un ravin... Pris de court, Alexandre d\u00e9cide de ne pas alerter la police. Le lendemain, r\u00e9alisant qu\u2019il risque d\u2019\u00eatre accuse\u0301 du meurtre de sa femme, Alexandre panique. Lison, sa fille de 18 ans, effray\u00e9e a\u0300 l\u2019id\u00e9e de perdre son p\u00e8re, se laisse convaincre et ment pour le couvrir. C\u2019est le d\u00e9but d\u2019un terrible engrenage...",
-    "Wa\u00ebl, un ancien enfant des rues, vit en banlieue parisienne de petites arnaques qu\u2019il commet avec Monique, une femme \u00e0 la retraite qui tient visiblement beaucoup \u00e0 lui. Sa vie prend un tournant le jour o\u00f9 un ami de cette derni\u00e8re, Victor, lui offre, sur insistance de Monique, un petit job b\u00e9n\u00e9vole dans son centre d\u2019enfants exclus du syst\u00e8me scolaire. Wa\u00ebl se retrouve peu \u00e0 peu responsable d\u2019un groupe de six adolescents expuls\u00e9s pour absent\u00e9isme, insolence ou encore port d\u2019arme. De cette rencontre explosive entre \"mauvaises herbes\" va na\u00eetre un v\u00e9ritable miracle.",
-    "16 ans plus tard, Tanguy, qui a maintenant 44 ans, revient chez ses parents avec sa fille Zhu sous le bras car Me\u00ef Lin l\u2019a quitt\u00e9. Catastroph\u00e9s de voir leur \"tout-petit\" dans cet \u00e9tat, Paul et Edith font tout pour lui redonner go\u00fbt \u00e0 la vie, sans r\u00e9aliser que ce faisant, ils tressent la corde pour se pendre. Car Tanguy recommence \u00e0 se sentir bien chez ses parents..."
-  ],
-  "synopsisEn":[
-    "Mathieu is a young and talented black box analyst on a mission to solve the reason behind the deadly crash of a brand new aircraft. Yet, when the case is closed by authorities, Mathieu cannot help but sense there is something wrong with the evidence. As he listens to the tracks again, he starts detecting some seriously disturbing details. Could the tape have been modified? Going against his boss\u2019 orders, Mathieu begins his own rogue investigation \u2013 an obsessional and dangerous quest for truth that will quickly threaten far more than his career...",
-    "One night, after discovering that his wife cheats on him, Alexandre accidently kills her. Worried that the police would not buy the accident, he decides to hide the truth. He only shares his terrible secret with his daughter from a previous marriage, Lison. As an official investigation begins, Lison starts doubting her father\u2019s honesty. What if he was just using her, as he manipulates everyone else around him? It is the beginning of a downward spiral...",
-    "Wael (Kheiron) a former street child, makes a living from small scams with his adoptive mother and partner-in-crime Monique (Catherine Deneuve). When this unconventional duo swindles the wrong guy, Victor (Andr\u00e9 Dussollier), an old acquaintance of Monique now in charge of a support organization for troubled teens, they have no choice but to become his interim secretary and educator in order to redeem themselves. Facing six willful kids determined to spoil all his efforts, Wael's own personal story and inventive tricks become the key to gaining their trust - and he soon realizes that he too is given a chance to heal his past and find his place in society.",
-    "When Andr\u00e9, 85, has a stroke, Emmanu\u00e8le hurries to her father\u2019s bedside. Sick and half-paralyzed in his hospital bed, he asks Emmanu\u00e8le to help him end his life. But how can you honor such a request when it\u2019s your own father?",
-    "44-year-old Tanguy is devastated \u2013 his wife Mei Lin dumped him. So he does what everyone does and... goes back to his parents! With Zhu, his teenage daughter, he moves back with Edith and Paul. The concerned parents immediatly welcome their offsprings. As weeks go by, Edith and Paul realise that Tanguy and Zhu are here to stay. The family nest is way too confortable...",
-    "Finally, the holidays are here! Vlad and his friends are so excited! J\u00e9r\u00f4me, Vlad\u2019s father, is in charge. Andr\u00e9, the grandfather of Jeanne and Basile, is also here to help. Six kids, two adults, an eight-hour train trip. Nothing could go wrong. But J\u00e9r\u00f4me and Andr\u00e9 miss the train\u2026 and watch it leave the station with the kids on board. It\u2019s the beginning of a crazy race for the unlikely duo. While the unsupervised children go wild and have the time of their life, Andr\u00e9 and J\u00e9r\u00f4me go through various delays and adventures\u2026",
-    "1920. Against all odds, Paul Deschanel, an idealist unknown to the general public, is elected President of the French Republic. His first steps in power are impressive. He makes a series of audacious proposals : abolition of the death penalty, the right to vote for women, universal suffrage! But the cynicism of the political world, the game of institutions and the violence of media campaigns catch up with him and soon derail him. One evening, he falls off a train and vanishes\u2026 The whole world wonders: what happened to the French President?"
-  ],
-  "country":[
-    "BE",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "intergenerational friendship",
-    "extended family",
-    "suicide",
-    "grandparenthood",
-    "intragenerational friendship",
-    "urban",
-    "cross-gender friendship",
-    "corruption",
-    "rural",
-    "cultural memory",
-    "abuse",
-    "may-december",
-    "physical illness",
-    "national identity",
-    "parenthood",
-    "lgbtqi",
-    "return home",
-    "retirement",
-    "multigenerational family",
-    "grandfatherhood",
-    "state institutions",
-    "high rank employment",
-    "celebrity",
-    "independent home",
-    "in-laws",
-    "professional politics",
-    "medical treatment",
-    "grief",
-    "crime",
-    "marriage",
-    "agony",
-    "intergenerational conflict",
-    "hospital"
-  ],
-  "charId":[
-    "FR2022_120_02",
-    "FR2018_173_02",
-    "FR2021_072_01",
-    "FR2021_051_01",
-    "FR2019_069_02",
-    "FR2021_061_01",
-    "FR2022_179_01"
-  ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":[
-    "BI",
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "UC",
-    "MC"
-  ],
-  "charProfession":[
-    "EM",
-    "RE"
-  ],
-  "charAbility":[
-    "AB",
-    "CI"
-  ],
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"andre-dussollier"
+
+  ]
 }

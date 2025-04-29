@@ -1,189 +1,139 @@
 {
-  "perId":"Helen Mirren",
-  "filmId":[
-    "GB2023_011",
-    "DE2019_067",
-    "GB2022_076",
-    "IT2018_008"
-  ],
-  "title":[
-    "Golda",
-    "Und wer nimmt den Hund?",
-    "The Leisure Seeker",
-    "The Duke"
-  ],
-  "titleEn":[
-    "Lost in Separation",
-    "The Leisure Seeker",
-    null
+  "id":"Helen Mirren",
+  "type":"person",
+  "slug":"helen-mirren",
+  "name":"Helen Mirren",
+  "birthYear":1945,
+  "deathYear":0,
+  "nationality":"GB",
+  "gender":"F",
+  "character":[
+    {
+      "id":"GB2023_011_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":null,
+      "origin":null,
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2023_011",
+        "slug":"gb2023-011-golda",
+        "title":{
+          "native":"Golda",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"mass media",
+        "production":{
+          "country":"US",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"DE2019_067_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"DE2019_067",
+        "slug":"de2019-067-und-wer-nimmt-den-hund",
+        "title":{
+          "native":"Und wer nimmt den Hund?",
+          "english":"Lost in Separation"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"urban",
+        "production":{
+          "country":"DE",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"GB2022_076_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2022_076",
+        "slug":"gb2022-076-the-duke",
+        "title":{
+          "native":"The Duke",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"HIS",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"mass media",
+        "production":{
+          "country":"GB",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2018_008_01",
+      "age":"4",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "role":"LEA",
+      "film":{
+        "id":"IT2018_008",
+        "slug":"it2018-008-the-leisure-seeker",
+        "title":{
+          "native":"The Leisure Seeker",
+          "english":"The Leisure Seeker"
+        },
+        "filmType":"F",
+        "genre":"ROA",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"search for meaning",
+        "production":{
+          "country":"FR",
+          "share":"MIN"
+        }
+      }
+    }
   ],
   "director":[
-    "Guy Nattiv",
-    "Paolo Virz\u00ec",
-    "Rainer Kaufmann",
-    "Roger Michell"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1565222400000,
-    1516233600000,
-    1645747200000,
-    1696550400000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2018,
-    2019,
-    2022,
-    2023
-  ],
-  "directorName":[
-    "Rainer Kaufmann",
-    "Guy Nattiv",
-    "Roger Michell",
-    null
-  ],
-  "directorBirthYear":[
-    0,
-    1956,
-    1973,
-    1959
-  ],
-  "directorDeathYear":[
-    0,
-    2021
-  ],
-  "directorGender":[
-    "M",
-    null
-  ],
-  "directorNationality":[
-    "DE",
-    "IL",
-    "GB",
-    null
-  ],
-  "genre":[
-    "DRA",
-    "HEI",
-    "BIO",
-    "ROA",
-    "COU",
-    "HIS",
-    "COM",
-    "WAR"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=jvx4Kmf7_gY",
-    "https:\/\/www.imdb.com\/title\/tt11204094\/?ref_=nv_sr_srsg_3_tt_7_nm_1_in_0_q_The%2520Duke",
-    "https:\/\/www.imdb.com\/title\/tt14454876\/?ref_=nv_sr_srsg_3_tt_3_nm_5_in_0_q_Golda",
-    "https:\/\/www.imdb.com\/video\/vi256359449\/?playlistId=tt9302026&ref_=tt_ov_vi"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt9302026\/mediaviewer\/rm2508494849\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt11204094\/mediaviewer\/rm1237448961\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt3741632\/mediaviewer\/rm1918197504\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt14454876\/mediaviewer\/rm2876318977\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "Focuses on the intensely dramatic and high-stakes responsibilities and decisions that Golda Meir, also known as the 'Iron Lady of Israel,' faced during the Yom Kippur Wa",
-    "Nach \u00fcber 20 Jahren Beziehung geht der Ehe zwischen Doris (Martina Gedeck) und Georg (Ulrich Tukur) allm\u00e4hlich die Luft aus. Er l\u00e4sst sich auf eine Aff\u00e4re mit der wesentlich j\u00fcngeren Doktorandin Laura (Lucie Heinze) ein, was der Verbindung einen zus\u00e4tzlichen Tiefschlag verpasst. Die Hamburger galten immer als das perfekte Vorzeigepaar \u2013 nun stehen sie mit zwei Kindern, einem Haus und einem Hund vor den Tr\u00fcmmern ihrer Ehe und arbeiten ihre Vergangenheit in einer Trennungstherapie auf. Von einem Rosenkrieg zwischen dem ehemaligen Paar ist nach wie vor nichts zu merken. Ganz im Gegenteil: Da sie nun keine R\u00fccksicht mehr auf andere nehmen muss, nutzt Doris die unerwartete Freiheit, um endlich beruflich und privat durchzustarten. Doch bei der neuen Liebe ihres Noch-Mannes ziehen erste dunkle Wolken auf, w\u00e4hrend Doris ohne ihn aufbl\u00fcht. Schafft es Georg, alles wieder zum Guten zu wenden?",
-    "The Leisure Seeker \u00e8 il soprannome del vecchio camper con cui Ella e John Spencer andavano in vacanza coi figli negli anni Settanta. Una mattina d'estate, per sfuggire ad un destino di cure mediche che li separerebbe per sempre, la coppia sorprende i figli ormai adulti e invadenti e sale a bordo di quel veicolo anacronistico per scaraventarsi avventurosamente gi\u00f9 per la Old Route 1, destinazione Key West. John \u00e8 svanito e smemorato ma forte, Ella \u00e8 acciaccata e fragile ma lucidissima, insieme sembrano comporre a malapena una persona sola e quel loro viaggio in un'America che non riconoscono pi\u00f9 - tra momenti esilaranti ed altri di autentico terrore - \u00e8 l\u2019occasione per ripercorrere una storia d\u2019amore coniugale nutrita da passione e devozione, ma anche da ossessioni segrete che riemergono brutalmente, regalando rivelazioni sorprendenti fino all'ultimo istante.",
-    "In 1961, Kempton Bunton, a 60 year old taxi driver, steals Goya's portrait of the Duke of Wellington from the National Gallery in London."
-  ],
-  "synopsisEn":[
-    "A runaway couple go on an unforgettable journey in the faithful old RV they call \"The Leisure Seeker\".",
-    "After 26 years of marriage, Georg and Doris are headed for a divorce. While Georg is having some fun with a much younger co-worker, Doris wants the divorce to be kept quite, so the couple is undergoing separation therapy, and some rough sessions of it are ahead.",
-    null
-  ],
-  "country":[
-    "GB",
-    "FR",
-    "IT",
-    "DE",
-    "US"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "war",
-    "desire",
-    "suicide",
-    "urban",
-    "precarity",
-    "class conflict",
-    "motherhood",
-    "activism",
-    "search for meaning",
-    "power",
-    "reignited passion",
-    "cultural memory",
-    "marriage counselling",
-    "may-december",
-    "menopause",
-    "physical illness",
-    "national identity",
-    "bucket list",
-    "parenthood",
-    "women empowerment",
-    "personal memory",
-    "fatherhood",
-    "state institutions",
-    "high rank employment",
-    "collective trauma",
-    "religion",
-    "mass media",
-    "non-human companionship",
-    "dementia",
-    "independent home",
-    "professional politics",
-    "infidelity",
-    "last mission",
-    "crime",
-    "marriage",
-    "low rank employment"
-  ],
-  "charId":[
-    "GB2022_076_02",
-    "GB2023_011_01",
-    "IT2018_008_01",
-    "DE2019_067_01"
-  ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":"F",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":[
-    "WWE",
-    null
-  ],
-  "charClass":[
-    "MC",
-    "UC",
-    "LM"
-  ],
-  "charProfession":[
-    "EM",
-    "RE",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    "CI"
-  ],
-  "assistedMobility":"N",
-  "perName":"Helen Mirren",
-  "perBirthYear":1945,
-  "perDeathYear":0,
-  "perGender":"F",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"helen-mirren"
+
+  ]
 }

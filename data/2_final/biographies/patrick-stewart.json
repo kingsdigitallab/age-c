@@ -1,60 +1,46 @@
 {
-  "perId":"Patrick Stewart",
-  "filmId":"GB2019_007",
-  "title":"The Kid Who Would Be King",
-  "titleEn":null,
-  "director":"Joe Cornish",
-  "releaseType":"THE",
-  "releaseDate":1550188800000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Joe Cornish",
-  "directorBirthYear":1968,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
-  "genre":[
-    "ADV",
-    "FAN",
-    "CHI"
+  "id":"Patrick Stewart",
+  "type":"person",
+  "slug":"patrick-stewart",
+  "name":"Patrick Stewart",
+  "birthYear":1940,
+  "deathYear":0,
+  "nationality":"GB",
+  "gender":"M",
+  "character":[
+    {
+      "id":"GB2019_007_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2019_007",
+        "slug":"gb2019-007-the-kid-who-would-be-king",
+        "title":{
+          "native":"The Kid Who Would Be King",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"ADV",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"anti-ageing practices",
+        "production":{
+          "country":"US",
+          "share":"MIN"
+        }
+      }
+    }
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=Cg-h8TwQCgs",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt6811018\/mediaviewer\/rm1196193536\/?ref_=tt_ov_i",
-  "synopsis":"Alex, a 12-year-old boy, and his friends fight an evil sorceress with the help of Excalibur, the sword of King Arthur, in a bid to save the world from her atrocities.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "power",
-    "supernatural entity",
-    "self-employment",
-    "technology",
-    "anti-ageing practices",
-    "mentorship",
-    "natural",
-    "precarity",
-    "stages of life"
-  ],
-  "charId":"GB2019_007_01",
-  "charAge":"4",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"LM",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Patrick Stewart",
-  "perBirthYear":1940,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"patrick-stewart"
+  "director":[
+
+  ]
 }

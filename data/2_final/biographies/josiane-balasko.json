@@ -1,174 +1,232 @@
 {
-  "perId":"Josiane Balasko",
-  "filmId":[
-    "FR2020_016",
-    "FR2021_020",
-    "FR2021_124",
-    "FR2019_164",
-    "FR2019_110",
-    "FR2021_040",
-    "FR2021_115"
-  ],
-  "title":[
-    "La Pi\u00e8ce rapport\u00e9e",
-    "Mes tr\u00e8s chers enfants",
-    "Vous \u00eates jeunes, vous \u00eates beaux",
-    "Un tour chez ma fille",
-    "Beaux-parents",
-    "C'est la vie",
-    "L'Esprit de famille"
-  ],
-  "titleEn":[
-    "My Out-Laws",
-    "The Father Figure",
-    "Knock, Knock, It\u2019s Mom!",
-    "You Are Young You Are Pretty",
-    "The Unsophisticated Lady",
-    "Labor Day",
-    "Price of Parenting"
+  "id":"Josiane Balasko",
+  "type":"person",
+  "slug":"josiane-balasko",
+  "name":"Josiane Balasko",
+  "birthYear":1950,
+  "deathYear":0,
+  "nationality":"FR",
+  "gender":"F",
+  "character":[
+    {
+      "id":"FR2021_020_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2021_020",
+        "slug":"fr2021-020-un-tour-chez-ma-fille",
+        "title":{
+          "native":"Un tour chez ma fille",
+          "english":"Knock, Knock, It\u2019s Mom!"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"high rank employment",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2021_126_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2021_124",
+        "slug":"fr2021-124-mes-tres-chers-enfants",
+        "title":{
+          "native":"Mes tr\u00e8s chers enfants",
+          "english":"Price of Parenting"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"fraud",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2019_164_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2019_164",
+        "slug":"fr2019-164-vous-etes-jeunes-vous-etes-beaux",
+        "title":{
+          "native":"Vous \u00eates jeunes, vous \u00eates beaux",
+          "english":"You Are Young You Are Pretty"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"self-employment",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2020_016_02",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2020_016",
+        "slug":"fr2020-016-l-esprit-de-famille",
+        "title":{
+          "native":"L'Esprit de famille",
+          "english":"The Father Figure"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2020
+        },
+        "tags":"widowhood",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2021_116_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2021_115",
+        "slug":"fr2021-115-la-piece-rapportee",
+        "title":{
+          "native":"La Pi\u00e8ce rapport\u00e9e",
+          "english":"The Unsophisticated Lady"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"intergenerational conflict",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2019_110_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2019_110",
+        "slug":"fr2019-110-beaux-parents",
+        "title":{
+          "native":"Beaux-parents",
+          "english":"My Out-Laws"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"retirement",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2021_040_01",
+      "age":"3",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2021_040",
+        "slug":"fr2021-040-c-est-la-vie",
+        "title":{
+          "native":"C'est la vie",
+          "english":"Labor Day"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"intergenerational conflict",
+        "production":{
+          "country":"BE",
+          "share":"MIN"
+        }
+      }
+    }
   ],
   "director":[
-    "Julien Rambaldi",
-    "Alexandra Lecl\u00e8re",
-    "Eric Lavaine",
-    "\u00c9ric Besnard",
-    "Antonin Peretjatko",
-    "H\u00e9ctor Cabello Reyes",
-    "Franchin Don"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1623801600000,
-    1560902400000,
-    1638316800000,
-    1627430400000,
-    1580256000000,
-    1639526400000,
-    1569974400000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2019,
-    2020,
-    2021
-  ],
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":[
-    "DRA",
-    "COM"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=d0HSnG3OF9Q",
-    "https:\/\/www.youtube.com\/watch?v=Kxl7IaZskZE&pp=ygUkbGEgcGnDqGNlIHJhcHBvcnTDqWUgZW5nbGlzaCB0cmFpbGVy",
-    "https:\/\/www.youtube.com\/watch?v=8vIOOeqph08",
-    "https:\/\/www.youtube.com\/watch?v=HFia318AcZY",
-    "https:\/\/www.youtube.com\/watch?v=Om3E-t10mB0",
-    "https:\/\/www.youtube.com\/watch?v=0SK487x25Gg",
-    "https:\/\/www.youtube.com\/watch?v=-Oohd16qWa8"
-  ],
-  "posterUrl":[
-    "https:\/\/medias.unifrance.org\/medias\/77\/54\/210509\/format_page\/vous-etes-jeunes-vous-etes-beaux.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/254\/110\/225022\/format_page\/labor-day.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/166\/145\/233894\/format_page\/knock-knock-it-s-mom.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/213\/174\/241365\/format_page\/the-unsophisticated-lady.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/236\/35\/205804\/format_page\/beaux-parents.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/119\/67\/213879\/format_page\/l-esprit-de-famille.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/74\/169\/239946\/format_page\/price-of-parenting.jpg"
-  ],
-  "synopsis":[
-    "Paul Ch\u00e2teau-T\u00eatard, vieux gar\u00e7on de 45 ans et pur produit du 16e arrondissement de Paris, prend le m\u00e9tro pour la premi\u00e8re fois de sa vie et tombe amoureux d\u2019une jeune guicheti\u00e8re, Ava. Leur mariage n\u2019est pas du go\u00fbt de \u00ab maman \u00bb, Ad\u00e9la\u00efde Ch\u00e2teau-T\u00eatard, qu\u2019on appelle aussi la Reine M\u00e8re. Pourtant cette derni\u00e8re s\u2019en accommode : un h\u00e9ritier serait le bienvenu. Mais le b\u00e9b\u00e9 tarde \u00e0 venir... Une guerre sans piti\u00e9 s\u2019engage entre les deux femmes, la Reine-m\u00e8re \u00e9tant persuad\u00e9e qu\u2019Ava trompe son fils. Il doit bien y avoir un amant quelque part\u2026",
-    "Coline et Andr\u00e9 sont en parfaite harmonie avec leur fille, Garance, et leur gendre Harold. Mais Garance se s\u00e9pare d\u2019Harold et ordonne \u00e0 ses parents de ne plus jamais le revoir. Les beaux-parents ne peuvent s\u2019y r\u00e9soudre : elle l\u2019a largu\u00e9, mais pas eux ! Ils devront mener une double vie pour continuer \u00e0 voir leur gendre ador\u00e9, en cachette de leur fille, qui ne va pas les l\u00e2cher...",
-    "Pour son dernier jour avant la retraite, Dominique, une sage-femme au caract\u00e8re bien tremp\u00e9, est forc\u00e9e de coop\u00e9rer avec un jeune obst\u00e9tricien arrogant. Ensemble, ils vont devoir accompagner cinq femmes \u00e0 accoucher. Elles s\u2019en souviendront toute leur vie\u2026",
-    "Lucius, 73 ans, vit seul et modestement. Un jour, il fait la connaissance de Lahire qui lui propose d'am\u00e9liorer son maigre quotidien en participant \u00e0 des combats de boxe clandestins. Par n\u00e9cessit\u00e9 et parce qu\u2019il sait que ses jours sont compt\u00e9s, Lucius accepte la proposition. Fascin\u00e9 par cet univers, il prend go\u00fbt \u00e0 cette nouvelle existence. Cette \u00e9trange exp\u00e9rience va compl\u00e8tement bouleverser sa vie, sous les yeux de Mona, la seule personne dont il est proche...",
-    "Alexandre s'embrouille une nouvelle fois avec son p\u00e8re Jacques. A priori, il ne devrait pas, car ce dernier vient de d\u00e9c\u00e9der, mais Jacques, ou plut\u00f4t son esprit, est bien l\u00e0, \u00e0 r\u00e2ler \u00e0 ses c\u00f4t\u00e9s. Et comme Alexandre est le seul \u00e0 le voir et donc \u00e0 lui parler, sa m\u00e8re, sa femme et son fr\u00e8re commencent \u00e0 s\u2019inqui\u00e9ter de son \u00e9trange comportement.",
-    "Cette fois-ci, c\u2019est elle qui d\u00e9barque ! Jacqueline, en pleins travaux dans son appartement, est joyeusement contrainte d\u2019aller vivre \u00ab quelques jours \u00bb chez sa fille ain\u00e9e Carole et son gendre, en pleine th\u00e9rapie de couple. Ces \u00ab quelques jours \u00bb se transforment en \u00abquelques mois \u00bb, Jacqueline se sent vite chez elle, pr\u00e9pare les d\u00eeners, accapare la t\u00e9l\u00e9vision, r\u00e9organise la cuisine\u2026 Elle est l\u00e0 et on ne sait pas pour combien de temps !",
-    "Chantal et Christian vivent une retraite paisible. Mais depuis que leurs enfants Sandrine et St\u00e9phane ont quitt\u00e9 le nid, ceux-ci ne donnent plus beaucoup de nouvelles. Les occasions de se r\u00e9unir en famille se font de plus en plus rares... Quand les rejetons annoncent qu\u2019ils ne viendront pas f\u00eater No\u00ebl, c'en est trop pour Chantal et Christian ! Ils d\u00e9cident alors de leur faire croire qu'ils ont touch\u00e9 le jackpot. Une tentative d\u00e9sesp\u00e9r\u00e9e pour tenter de les faire revenir et un mensonge qui pourrait leur co\u00fbter cher\u2026"
-  ],
-  "synopsisEn":[
-    "Alexandre, a famous writer, can\u2019t get over his father Jacques\u2019 passing. Suddenly, Jacques, supposedly dead, reappears. After understanding he is talking to a ghost, Alexandre has to learn how to cope with the imposing presence of his father\u2019s spirit.",
-    "While her apartment is being renovated, Jacqueline is thrilled to be forced into spending \u201ca few days\u201d with her eldest daughter Carole and her son-in-law, who are both in couples therapy. These \u201cfew days\u201d turn into \u201ca few months\u201d. Jacqueline quickly feels at home. She prepares dinners, monopolizes the television, reorganizes the kitchen\u2026 She is here, and no one knows for how long!",
-    "Labor day is more about what happens before! Before giving life. It\u2019s about crossing the entire country to be with your wife in time to hear your baby\u2019s first cry, about saving an international crisis in between two contractions, about finding the strength to put aside your father\u2019s death when your wife has decided to go through with giving birth in a Jacuzzi, or when you steal the cellphone of your patient to find out who the father is. All of this makes for a very special labor day.",
-    "Paul Ch\u00e2teau-T\u00eatard, a 45-year-old bachelor from the best of Parisian nobility, has \u2013 for the first time in his life \u2013 to take the Metro, and even buy a ticket. It is with extraordinary luck that the beautiful young Ava happens to be sitting at the counter: a spark ignites and wedding bells begin ringing in the distance. However, Paul\u2019s mother, \u201cQueen\u201d Ad\u00e9la\u00efde, thinks little of the marriage and even less of Ava: An heir would be most welcome, but a baby is nowhere to be seen \u2013 and where does this lowly young lady spend the whole day anyway? Ad\u00e9la\u00efde sets shady detectives to sniff out affairs. The \u201cnobility\u201d collides with the \u201crabble\u201d.",
-    "Lucius Marnant is a retiree who feels that his life is three quarters behind him. Returning from a funeral, Lucius meets Lahire, a young man who proposes to improve his meager daily by participating in illegal clashes between old people. Very soon Lucius takes a liking to this new life, to money and to the forgetfulness of himself and of death.",
-    "Coline and Andr\u00e9 are in perfect harmony with their daughter Garance, and their son-in-law Harold. But when Garance breaks up with Harold, she instructs her parents to never see him again. The in-laws can\u2019t come to terms with it: she dumped him, but they didn\u2019t! They\u2019re going to have to lead a double life in order to keep seeing their beloved son-in-law, hiding from their daughter, who is not going to leave them alone\u2026",
-    "When Chantal and Christian's grown children finally break away from the nest, the lonely parents are outraged to be neglected and forgotten... until they come up with a wacky scheme to get Sandrine and Stephane interested in them again: pretend they've won the lottery! They have a blast pretending to be multi-millionaires, and the ruse works like a charm. Their starry-eyed kids practically throw their lives away just to be close to them. But then they demand to live the high life too, and Chantal and Christian are forced to pay up, even though it's way more than they can afford. Soon they get so caught up in the lie, there's no way out. The situation snowballs out of control but coming clean could mean losing them forever. How will they ever find a way to tell the truth?"
-  ],
-  "country":[
-    "BE",
-    "FR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "supernatural entity",
-    "self-employment",
-    "technology",
-    "extended family",
-    "grandparenthood",
-    "mentorship",
-    "class conflict",
-    "cross-gender friendship",
-    "motherhood",
-    "fraud",
-    "wealth",
-    "disability",
-    "physical illness",
-    "celibacy",
-    "parenthood",
-    "retirement",
-    "multigenerational family",
-    "separation",
-    "natural death",
-    "fatherhood",
-    "loneliness",
-    "high rank employment",
-    "caregiving",
-    "widowhood",
-    "empty nest",
-    "independent home",
-    "in-laws",
-    "grief",
-    "marriage",
-    "intergenerational conflict",
-    "hospital"
-  ],
-  "charId":[
-    "FR2019_164_02",
-    "FR2021_040_01",
-    "FR2021_116_01",
-    "FR2019_110_01",
-    "FR2020_016_02",
-    "FR2021_020_01",
-    "FR2021_126_01"
-  ],
-  "charAge":"3",
-  "charGender":"F",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "UC",
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "EM",
-    "RE",
-    "UN"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"josiane-balasko"
+
+  ]
 }

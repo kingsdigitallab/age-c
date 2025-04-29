@@ -1,201 +1,263 @@
 {
-  "perId":"Vincent Lindon",
-  "filmId":[
-    "FR2020_074",
-    "FR2022_115",
-    "FR2019_056",
-    "FR2022_024",
-    "FR2018_089",
-    "FR2018_026",
-    "FR2022_035",
-    "FR2021_036"
-  ],
-  "title":[
-    "L'Apparition",
-    "Avec amour et acharnement",
-    "Mon cousin",
-    "Dernier Amour",
-    "Titane",
-    "Enqu\u00eate sur un scandale d'\u00c9tat",
-    "Un autre monde",
-    "En guerre"
-  ],
-  "titleEn":[
-    "The Apparition",
-    "Casanova, Last Love",
-    "Both Sides of the Blade",
-    "At War",
-    "Undercover",
-    "Titane",
-    "Another World",
-    "My Cousin"
+  "id":"Vincent Lindon",
+  "type":"person",
+  "slug":"vincent-lindon",
+  "name":"Vincent Lindon",
+  "birthYear":1959,
+  "deathYear":0,
+  "nationality":"FR",
+  "gender":"M",
+  "character":[
+    {
+      "id":"FR2018_089_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2018_089",
+        "slug":"fr2018-089-en-guerre",
+        "title":{
+          "native":"En guerre",
+          "english":"At War"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"suicide",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2019_056_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"UN",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2019_056",
+        "slug":"fr2019-056-dernier-amour",
+        "title":{
+          "native":"Dernier Amour",
+          "english":"Casanova, Last Love"
+        },
+        "filmType":"F",
+        "genre":"ROM",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"wealth",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2018_026_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2018_026",
+        "slug":"fr2018-026-l-apparition",
+        "title":{
+          "native":"L'Apparition",
+          "english":"The Apparition"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"rural",
+        "production":{
+          "country":"JO",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"FR2022_035_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2022_035",
+        "slug":"fr2022-035-un-autre-monde",
+        "title":{
+          "native":"Un autre monde",
+          "english":"Another World"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"urban",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2020_075_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2020_074",
+        "slug":"fr2020-074-mon-cousin",
+        "title":{
+          "native":"Mon cousin",
+          "english":"My Cousin"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2020
+        },
+        "tags":"high rank employment",
+        "production":{
+          "country":"BE",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"FR2022_115_02",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"UM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2022_115",
+        "slug":"fr2022-115-avec-amour-et-acharnement",
+        "title":{
+          "native":"Avec amour et acharnement",
+          "english":"Both Sides of the Blade"
+        },
+        "filmType":"F",
+        "genre":"ROM",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"low rank employment",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2022_024_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2022_024",
+        "slug":"fr2022-024-enquete-sur-un-scandale-d-etat",
+        "title":{
+          "native":"Enqu\u00eate sur un scandale d'\u00c9tat",
+          "english":"Undercover"
+        },
+        "filmType":"F",
+        "genre":"BIO",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"high rank employment",
+        "production":{
+          "country":"FR",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"FR2021_036_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"FR2021_036",
+        "slug":"fr2021-036-titane",
+        "title":{
+          "native":"Titane",
+          "english":"Titane"
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"high rank employment",
+        "production":{
+          "country":"BE",
+          "share":"MIN"
+        }
+      }
+    }
   ],
   "director":[
-    "Xavier Giannoli",
-    "Jan Kounen",
-    "Claire Denis",
-    "Julia Ducournau",
-    "St\u00e9phane Briz\u00e9",
-    "Beno\u00eet Jacquot",
-    "Thierry de Peretti"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1526428800000,
-    1518566400000,
-    1626220800000,
-    1644364800000,
-    1553040000000,
-    1601424000000,
-    1661904000000,
-    1644969600000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2018,
-    2019,
-    2020,
-    2021,
-    2022
-  ],
-  "directorName":null,
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":null,
-  "directorNationality":null,
-  "genre":[
-    "DRA",
-    "DTH",
-    "ROM",
-    "THR",
-    "BIO",
-    "HIS",
-    "HOR",
-    "COM",
-    "CRI"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=uINvs08FQrE",
-    "https:\/\/www.youtube.com\/watch?v=bP65k2VQAnw",
-    "https:\/\/www.youtube.com\/watch?v=ZXkAd-NJRwM",
-    "https:\/\/www.youtube.com\/watch?v=LXvr1Mfd6KQ",
-    "https:\/\/www.youtube.com\/watch?v=LV1qkg9EEpc",
-    "https:\/\/www.youtube.com\/watch?v=KW6h5nM085U",
-    "https:\/\/www.youtube.com\/watch?v=HeHOKBv-l7k",
-    "https:\/\/www.youtube.com\/watch?v=CIy1nRkQ0gA"
-  ],
-  "posterUrl":[
-    "https:\/\/medias.unifrance.org\/medias\/10\/231\/190218\/format_page\/at-war.png",
-    "https:\/\/medias.unifrance.org\/medias\/114\/154\/236146\/format_page\/titane.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/78\/109\/224590\/format_page\/mon-cousin.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/67\/189\/245059\/format_page\/enquete-sur-un-scandale-d-etat.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/123\/216\/252027\/format_page\/avec-amour-et-acharnement.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/97\/20\/201825\/format_page\/dernier-amour.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/14\/217\/186638\/format_page\/the-apparition.jpg",
-    "https:\/\/medias.unifrance.org\/medias\/171\/180\/242859\/format_page\/un-autre-monde.jpg"
-  ],
-  "synopsis":[
-    "Malgr\u00e9 de lourds sacrifices financiers de la part des salari\u00e9s et un be\u0301ne\u0301fice record de leur entreprise, la direction de l\u2019usine Perrin Industrie d\u00e9cide n\u00e9anmoins la fermeture totale du site. Accord bafou\u00e9, promesses non respect\u00e9es, les 1100 salari\u00e9s, emmen\u00e9s par leur porte-parole Laurent Am\u00e9d\u00e9o, refusent cette de\u0301cision brutale et vont tout tenter pour sauver leur emploi.",
-    "Pierre est le PDG du groupe Pasti\u00e9, qui r\u00e9unit les plus grandes marques internationales d\u2019alcool et de grands crus class\u00e9s. Comme tous les cinq ans, il doit renouveler chez le notaire le contrat qui le lie \u00e0 son cousin Adrien. Un cousin qu\u2019il ne supporte pas : ce dernier, malgr\u00e9 lui, encha\u00eene les maladresses et les gaffes qui risquent une fois de plus de mettre la soci\u00e9t\u00e9 en p\u00e9ril ! Mais cette fois-ci, les choses vont mal tourner... Sur le ton de la com\u00e9die, les deux cousins aux temp\u00e9raments extraordinairement oppos\u00e9s vont se retrouver embarqu\u00e9s dans une aventure rocambolesque jusque dans les luxueux vignobles du Bordelais o\u00f9, face \u00e0 l\u2019adversit\u00e9, ils vont finir par se r\u00e9concilier.",
-    "Au XVIII\u00e8me si\u00e8cle, Casanova, connu pour son go\u00fbt du plaisir et du jeu, arrive \u00e0 Londres apr\u00e8s avoir d\u00fb s\u2019exiler. Dans cette ville dont il ignore tout, il rencontre \u00e0 plusieurs reprises une jeune courtisane, la Charpillon, qui l\u2019attire au point d\u2019en oublier les autres femmes. Casanova est pr\u00eat \u00e0 tout pour arriver \u00e0 ses fins mais La Charpillon se d\u00e9robe toujours sous les pr\u00e9textes les plus divers. Elle lui lance un d\u00e9fi, elle veut qu\u2019il l\u2019aime autant qu\u2019il la d\u00e9sire.",
-    "Jacques, grand reporter pour un quotidien fran\u00e7ais re\u00e7oit un jour un myst\u00e9rieux coup de t\u00e9l\u00e9phone du Vatican. Dans une petite ville du sud-est de la France une jeune fille de 18 ans a affirm\u00e9 avoir eu une apparition de la Vierge Marie. La rumeur s\u2019est vite r\u00e9pandue et le ph\u00e9nom\u00e8ne a pris une telle ampleur que des milliers de p\u00e8lerins viennent d\u00e9sormais se recueillir sur le lieu des apparitions pr\u00e9sum\u00e9es. Jacques qui n\u2019a rien \u00e0 voir avec ce monde-l\u00e0 accepte de faire partie d\u2019une commission d\u2019enqu\u00eate charg\u00e9e de faire la lumi\u00e8re sur ces \u00e9v\u00e9nements.",
-    "Un cadre d'entreprise, sa femme, sa famille, au moment ou\u0300 les choix professionnels de l'un font basculer la vie de tous. Philippe Lemesle et sa femme se se\u0301parent, un amour abime\u0301 par la pression du travail. Cadre performant dans un groupe industriel, Philippe ne sait plus re\u0301pondre aux injonctions incohe\u0301rentes de sa Direction. On le voulait hier dirigeant, on le veut aujourd'hui exe\u0301cutant. Il est a\u0300 l'instant ou\u0300 il lui faut de\u0301cider du sens de sa vie.",
-    "Octobre 2015. Les douanes fran\u00e7aises saisissent sept tonnes de cannabis en plein c\u0153ur de la capitale. Le jour m\u00eame, un ancien infiltr\u00e9 des stups au pass\u00e9 sulfureux, Hubert Antoine, contacte St\u00e9phane Vilner, jeune journaliste \u00e0 Lib\u00e9ration. Il pr\u00e9tend pouvoir d\u00e9montrer l\u2019existence d\u2019un trafic d\u2019\u00c9tat dirig\u00e9 par Jacques Billard, m\u00e9diatique patron des stups, haut grad\u00e9 de la police fran\u00e7aise. D\u2019abord m\u00e9fiant, St\u00e9phane finit par plonger dans une enqu\u00eate qui le m\u00e8nera jusqu\u2019au aux recoins les plus sombres de la R\u00e9publique.",
-    "Jean et Sara vivent ensemble depuis dix ans. Quand ils se sont rencontr\u00e9s, Sara partageait la vie de Fran\u00e7ois, le meilleur ami de Jean et son grand admirateur \u00e0 l\u2019\u00e9poque o\u00f9 Jean jouait au rugby en professionnel. Jean et Sara s\u2019aiment. Un jour, Sara aper\u00e7oit Fran\u00e7ois dans la rue. Il ne la remarque pas, mais elle est submerg\u00e9e par la sensation que sa vie pourrait soudainement changer. Pour la premi\u00e8re fois depuis des ann\u00e9es, Fran\u00e7ois reprend contact avec Jean et lui propose de retravailler ensemble. Se d\u00e9clenche alors une spirale incontr\u00f4lable\u2026",
-    "Apr\u00e8s une s\u00e9rie de crimes inexpliqu\u00e9s, un p\u00e8re retrouve son fils disparu depuis 10 ans. Titane : M\u00e9tal hautement r\u00e9sistant \u00e0 la chaleur et \u00e0 la corrosion, donnant des alliages tr\u00e8s durs."
-  ],
-  "synopsisEn":[
-    "October 2015. French customs seize seven tonnes of cannabis in the heart of the capital. The same day, Hubert Antoine, a former mole with a shady past, contacts Ste\u0301phane Vilner, a journalist at Libe\u0301ration. He claims to be able to demonstrate the existence of State drug trafficking led by Jacques Billard, prominent media figure and high-ranking French police officer. Suspicious at first, the young journalist finally dives into an investigation that will lead him to the darkest corners of the Republic.",
-    "Despite heavy financial sacrifices on the part of their employees and record profits that year, the management of Perrin Industries decides to shut down a factory. The 1100 employees, led by their spokesman Laurent Am\u00e9d\u00e9o, decide to fight this brutal decision, ready to do everything to save their jobs.",
-    "Jean and Sara have been living together for 10 years. When they first met, Sara was living with Fran\u00e7ois, Jean\u2019s best friend and an admirer from back when he played pro rugby. Jean and Sara love each other. One day, Sara sees Fran\u00e7ois in the street. He does not notice her, but she is overtaken by the sensation that her life could suddenly change. Fran\u00e7ois gets back in touch with Jean. For the first time in years. He suggests they start working together again. From here on, things spiral out of control.",
-    "Following a series of unexplained crimes, a father is reunited with the son who has been missing for 10 years. Titane : A metal highly resistant to heat and corrosion, with high tensile strength alloys.",
-    "Jacques is a journalist at a large regional newspaper in France. His reputation as an impartial and talented investigator attracts the attention of the Vatican who recruits him for a special task; taking part of a committee to investigate the veracity of a saintly apparition in a small French village \u2013 a true canonical investigation. Upon his arrival, he meets the young and sensitive Anna who claims to have personally witnessed the apparition of the Virgin Mary. A profound devout, she\u2019s garnered an impressive following in the village and is torn between her faith and the many solicitations she receives. Confronted with opposing views from clergy members and sceptics in the group, Jacques gradually uncovers the hidden motivations and pressures at work and sees his beliefs system profoundly shaken.",
-    "London, 18th century. Casanova, famous for his taste for pleasure and gambling, arrives from Paris, forced into exile. In this city he knows nothing about, the libertine meets on several occasions a young prostitute, Marianne de Charpillon. She attracts him to the point he starts disregarding all other women. The legendary seducer is ready to do anything to get her, but la Charpillon always escapes under various excuses. She challenges Casanova: \u201cYou will only have me if you stop desiring me!\u201d",
-    "An executive manager, his wife and his family, at the point when his professional choices are about to overturn all their lives. Philippe Lemesle and his wife are separating, their love irretrievably damaged by pressures of work. A successful executive in industrial conglomerate, Philippe no longer knows how to respond to the contradictory demands of his bosses. Yesterday they wanted a manager, today an enforcer. Now he must decide what his life really means.",
-    "Pierre is the CEO of the Pasti\u00e9 group, which includes the world's leading international alcohol brands as well as the most exclusive estate wines. Every five years, he has to see a notary to renew the contract binding him to his cousin, Adrien. A cousin he can't stand because the latter unintentionally makes one ham-fisted gaffe after another, putting the company at risk! But things really go haywire this time\u2026 The two cousins, with their wildly incompatible personalities, embark upon a crazy and comic adventure that leads them to the luxurious Bordeaux vineyards where, in the face of adversity, they finally reconcile."
-  ],
-  "country":[
-    "JO",
-    "BE",
-    "FR"
-  ],
-  "productionShare":[
-    "MIN",
-    "MAJ",
-    null
-  ],
-  "tags":[
-    "desire",
-    "sex",
-    "extended family",
-    "suicide",
-    "grandparenthood",
-    "urban",
-    "precarity",
-    "class conflict",
-    "corruption",
-    "wealth",
-    "activism",
-    "power",
-    "rural",
-    "anti-ageing practices",
-    "may-december",
-    "parenthood",
-    "well-being",
-    "separation",
-    "substance abuse",
-    "fatherhood",
-    "state institutions",
-    "inheritance",
-    "high rank employment",
-    "class solidarity",
-    "religion",
-    "mass media",
-    "independent home",
-    "romance",
-    "infidelity",
-    "superior-employee relationship",
-    "marriage",
-    "low rank employment"
-  ],
-  "charId":[
-    "FR2022_024_02",
-    "FR2022_115_02",
-    "FR2018_089_01",
-    "FR2018_026_01",
-    "FR2021_036_01",
-    "FR2022_035_01",
-    "FR2019_056_01",
-    "FR2020_075_01"
-  ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC",
-    "UC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "EM",
-    "UN"
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"vincent-lindon"
+
+  ]
 }

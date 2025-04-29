@@ -1,300 +1,356 @@
 {
-  "perId":"Carmen Machi",
-  "filmId":[
-    "ES2022_028",
-    "ES2022_013",
-    "ES2019_004",
-    "ES2021_010",
-    "ES2019_011",
-    "ES2020_010",
-    "ES2022_041",
-    "ES2018_002",
-    "ES2022_064",
-    "ES2023_029",
-    "ES2021_013"
-  ],
-  "title":[
-    "Llenos de Gracia",
-    "La voz del sol",
-    "Rainbow",
-    "El Cover",
-    "Nieva en Benidorm",
-    "Cerdita",
-    "Perdiendo el Este",
-    "Un efecto \u00f3ptico",
-    "La tribu",
-    "Lo nunca visto",
-    "La voluntaria"
-  ],
-  "titleEn":[
-    "It Snows in Benidorm",
-    "A Remarkable Tale",
-    "The Cover",
-    "Full of Grace",
-    "Off Course to China",
-    null,
-    "The Tribe",
-    "An Optical Illusion",
-    "Piggy"
+  "id":"Carmen Machi",
+  "type":"person",
+  "slug":"carmen-machi",
+  "name":"Carmen Machi",
+  "birthYear":1963,
+  "deathYear":0,
+  "nationality":"ES",
+  "gender":"F",
+  "character":[
+    {
+      "id":"ES2020_010_02",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2020_010",
+        "slug":"es2020-010-nieva-en-benidorm",
+        "title":{
+          "native":"Nieva en Benidorm",
+          "english":"It Snows in Benidorm"
+        },
+        "filmType":"F",
+        "genre":"ROM",
+        "release":{
+          "type":"THE",
+          "year":2020
+        },
+        "tags":"anti-ageing practices",
+        "production":{
+          "country":"GB",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"ES2021_013_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2021_013",
+        "slug":"es2021-013-un-efecto-optico",
+        "title":{
+          "native":"Un efecto \u00f3ptico",
+          "english":"An Optical Illusion"
+        },
+        "filmType":"F",
+        "genre":"FAN",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"daily routine",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2022_041_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2022_041",
+        "slug":"es2022-041-la-voluntaria",
+        "title":{
+          "native":"La voluntaria",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"segregation",
+        "production":{
+          "country":"GR",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"ES2019_004_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2019_004",
+        "slug":"es2019-004-perdiendo-el-este",
+        "title":{
+          "native":"Perdiendo el Este",
+          "english":"Off Course to China"
+        },
+        "filmType":"F",
+        "genre":"ROM",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"interracial relationships",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2023_029_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2023_029",
+        "slug":"es2023-029-la-voz-del-sol",
+        "title":{
+          "native":"La voz del sol",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"COA",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"superior-employee relationship",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2022_013_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2022_013",
+        "slug":"es2022-013-llenos-de-gracia",
+        "title":{
+          "native":"Llenos de Gracia",
+          "english":"Full of Grace"
+        },
+        "filmType":"F",
+        "genre":"CHI",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"class solidarity",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2022_028_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2022_028",
+        "slug":"es2022-028-cerdita",
+        "title":{
+          "native":"Cerdita",
+          "english":"Piggy"
+        },
+        "filmType":"F",
+        "genre":"THR",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"body norms",
+        "production":{
+          "country":"FR",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"ES2018_002_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2018_002",
+        "slug":"es2018-002-la-tribu",
+        "title":{
+          "native":"La tribu",
+          "english":"The Tribe"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"daily routine",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2022_064_02",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"UM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2022_064",
+        "slug":"es2022-064-rainbow",
+        "title":{
+          "native":"Rainbow",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"grandmotherhood",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2019_011_02",
+      "age":"2",
+      "gender":"F",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2019_011",
+        "slug":"es2019-011-lo-nunca-visto",
+        "title":{
+          "native":"Lo nunca visto",
+          "english":"A Remarkable Tale"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"women empowerment",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2021_010_01",
+      "age":"2",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LM",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2021_010",
+        "slug":"es2021-010-el-cover",
+        "title":{
+          "native":"El Cover",
+          "english":"The Cover"
+        },
+        "filmType":"F",
+        "genre":"ROM",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"artistic creation",
+        "production":{
+          "country":"PT",
+          "share":"MIN"
+        }
+      }
+    }
   ],
   "director":[
-    "Paco Caballero",
-    "Carlota Pereda",
-    "Carol Polakoff",
-    "Marina Seresesky",
-    "Fernando Colomo",
-    "Nely Reguera",
-    "Juan Cavestany",
-    "Roberto Bueso",
-    "Secun de la Rosa",
-    "Isabel Coixet",
-    "Paco Le\u00f3n"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1604534400000,
-    1695340800000,
-    1521158400000,
-    1626998400000,
-    1655683200000,
-    1550188800000,
-    1616716800000,
-    1654646400000,
-    1663891200000,
-    1665273600000,
-    1562889600000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2018,
-    2019,
-    2020,
-    2021,
-    2022,
-    2023
-  ],
-  "directorName":[
-    "Carlota Pereda",
-    "Carol Polakoff",
-    "Marina Seresesky",
-    "Nely Reguera",
-    "Juan Cavestany",
-    "Roberto Bueso",
-    null,
-    "Paco Le\u00f3n"
-  ],
-  "directorBirthYear":[
-    0,
-    1986,
-    1967,
-    1969,
-    1974,
-    1975,
-    1978
-  ],
-  "directorDeathYear":0,
-  "directorGender":[
-    "F",
-    "M",
-    null
-  ],
-  "directorNationality":[
-    "ES",
-    "AR",
-    "US",
-    null
-  ],
-  "genre":[
-    "DRA",
-    "ROM",
-    "FAN",
-    "SPO",
-    "THR",
-    "NOI",
-    "COA",
-    "HOR",
-    "MUS",
-    "COM",
-    "CHI"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=umEai78TAPI",
-    "https:\/\/www.youtube.com\/watch?v=hI5RmvyPGTg",
-    "https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=413855",
-    "https:\/\/www.youtube.com\/watch?v=SZYBr_umNao",
-    "https:\/\/www.imdb.com\/title\/tt10399608\/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_Cerdita",
-    "https:\/\/www.youtube.com\/watch?v=1iPcdvZZ7pY",
-    "https:\/\/www.imdb.com\/title\/tt15341168\/?ref_=nv_sr_srsg_0_tt_5_nm_0_in_0_q_Llenos%2520de%2520Gracia",
-    "https:\/\/www.imdb.com\/title\/tt12525878\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_La%2520voz%2520del%2520sol",
-    "https:\/\/www.imdb.com\/title\/tt14722598\/?ref_=nv_sr_srsg_7_tt_5_nm_3_in_0_q_Rainbow",
-    "https:\/\/www.youtube.com\/watch?v=itJCUJIeem4",
-    "https:\/\/www.youtube.com\/watch?v=QRF4Bl_VnIE"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt7806430\/mediaviewer\/rm1873444608\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt14722598\/mediaviewer\/rm2222132225\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt10270204\/mediaviewer\/rm3113359873\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt15341168\/mediaviewer\/rm3320126977\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt12525878\/mediaviewer\/rm3550828545\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt11333854\/mediaviewer\/rm545040129\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt11206172\/mediaviewer\/rm386777089\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt10399608\/mediaviewer\/rm1977737473\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt9806468\/mediaviewer\/rm2259133697\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt8296660\/mediaviewer\/rm1357876737\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt6708044\/mediaviewer\/rm2355123456\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "Virginia (Carmen Machi), limpiadora de profesi\u00f3n y \u201cstreetdancer\u201d vocacional, recupera al hijo que dio en adopci\u00f3n: Fidel (Paco Le\u00f3n), un ejecutivo que lo ha perdido todo, incluida la memoria. Junto a \u201cLas Mamis\u201d, el extravagante grupo de baile que forman las compa\u00f1eras de Virginia, madre e hijo descubrir\u00e1n que a pesar de venir de mundos muy diferentes, ambos llevan el ritmo en la sangre.",
-    "Alfredo y Teresa son un matrimonio de Burgos que viaja a Nueva York con la intenci\u00f3n de \"desconectar\" y hacer todos los planes que vienen en la gu\u00eda. Pero nada m\u00e1s aterrizar empiezan a percibir se\u00f1ales, sutiles y no tanto, de que en realidad no est\u00e1n en la ciudad que les vendieron en la agencia. \u00bfD\u00f3nde est\u00e1n entonces?",
-    "Dora es una adolescente con un talento extraordinario para la m\u00fasica y una energ\u00eda interior dif\u00edcil de contener. Tras una fuerte discusi\u00f3n con su padre el d\u00eda de su cumplea\u00f1os, Dora se marcha de casa en compa\u00f1\u00eda de su perro Tot\u00f3 y comienza un viaje en busca de su madre, a la que no ha conocido porque desapareci\u00f3 cuando ella era un bebe\u0301. Por el camino va haciendo nuevos amigos con los que se embarca en un road trip rumbo a Ciudad Capital, pero tambi\u00e9n se enfrenta a peligrosos enemigos que tratan de impedir por todos los medios que descubra el misterio de su pasado. Pero la vitalidad y la magia de Dora le ayudan a llegar al final de su viaje, que es el principio de otro. Versi\u00f3n contempor\u00e1nea y muy libre inspirada en el cl\u00e1sico literario \u201cEl maravilloso Mago de Oz\u201d.",
-    "Cansada de su vida de jubilada, y de compararse con sus amigas que son abuelas, Marisa decide viajar a un campo de refugiados griego donde, a su parecer, necesitan a gente exactamente como ella. Al llegar all\u00ed, descubre una realidad que no habr\u00eda podido imaginar y que le lleva a explorar los l\u00edmites entre el amor y la necesidad de sentirse \u00fatil.",
-    "Para Sara, el verano solo significa tener que soportar las continuas burlas de las otras chicas de su peque\u00f1o pueblo. Pero todo terminar\u00e1 cuando un desconocido llegue al pueblo y secuestre a sus acosadoras. Sara sabe m\u00e1s de lo que dice, y tendr\u00e1 que decidir entre hablar y salvar a las chicas, o no decir nada para proteger al extra\u00f1o hombre que la ha salvado...",
-    "Maruja y su esposo Manolo se vieron obligados a escapar de Espa\u00f1a tras la guerra civil. Viven en Par\u00eds desde entonces, pero jam\u00e1s han conseguido dejar atr\u00e1s su pasado y los motivos que les llevaron a exiliarse. Trabajan como servicio para un embajador estadounidense y su familia: los Jolis. \u00c9stos est\u00e1n abrumados por todas las reuniones sociales que tienen, por lo que su hijo Alan pr\u00e1cticamente ha sido criado por Maruja y Manolo. Este a\u00f1o, Maruja descubre que podr\u00eda ser su \u00faltimo verano, algo que la alentar\u00e1 a confrontar su pasado y volver a sus or\u00edgenes en un viaje a Espa\u00f1a donde tendr\u00e1 que asegurarse de que Alan crecer\u00e1 para ser un buen hombre. Al hacerlo, Manolo ser\u00e1 desafiado por los secretos que su matrimonio consigui\u00f3 enterrar hace mucho tiempo.",
-    "La hermana Marina es enviada a principios de los an\u0303os noventa a El Parral, un orfanato amenazado de cierre. A su llegada al colegio, los nin\u0303os esta\u0301n fuera de control, pero Marina capta su atenci\u00f3n con su carisma y desparpajo. Los chicos comienzan a mirar con curiosidad a esta nueva monja inmune a sus gamberradas. Sobre todo Valdo, con el que Marina conecta de una manera especial. Cuando Marina descubre las escapadas nocturnas de los chavales, algo prohibido, da con la idea que cambiara\u0301 para siempre El Parral: formar un equipo de f\u00fatbol.",
-    "Dani ha heredado de su familia el amor por la m\u00fasica y tambi\u00e9n el miedo al fracaso. As\u00ed que trabaja de camarero antes que malvivir de su sue\u00f1o como sus padres. Este a\u00f1o, como cada verano, Benidorm se llena de artistas que vienen a cantar en sus bares, hoteles y salas de fiesta. All\u00ed Dani conoce a Sandra, quien cambiar\u00e1 su forma de entender el arte.",
-    "Peter Riordan es un hombre solitario y met\u00f3dico, obsesionado por los fen\u00f3menos meteorol\u00f3gicos. Obligado a jubilarse anticipadamente en el banco de Manchester donde ha trabajado toda su vida, decide visitar a su hermano Daniel, que vive en Benidorm. A su llegada, descubre que su hermano ha desaparecido y que era propietario de un club de burlesque donde trabaja Alex, una misteriosa mujer que ejerce una poderosa fascinaci\u00f3n sobre \u00e9l. Peter y Alex intentan averiguar qu\u00e9 ha sido de Daniel, ayudados por una polic\u00eda obsesionada por la presencia de Sylvia Plath en los a\u00f1os cincuenta en Benidorm. La ciudad de Benidorm, con su incre\u00edble geograf\u00eda y su peculiar mezcla de brit\u00e1nicos de vacaciones y jubilados espa\u00f1oles en pos de un merecido carpe diem, es un personaje m\u00e1s de este thriller rom\u00e1ntico en el que Peter descubre que la vida, la verdadera vida, puede empezar en cualquier momento, incluso cuando cre\u00edamos que ya no era posible. Pero si nieva en Benidorm, cualquier cosa es posible.",
-    "Con mil trescientos millones de habitantes, y a punto de convertirse en la primera potencia econ\u00f3mica mundial, China ha traspasado el t\u00f3pico de pa\u00eds ex\u00f3tico de cultura milenaria, donde se come arroz con palillos y las erres se pronuncian eles, para convertirse en un pa\u00eds moderno y pujante, una nueva tierra de oportunidades en la que todo es posible. Por eso miles de j\u00f3venes, hijos de una vieja Europa cada vez m\u00e1s vieja, cargan sus ambiciones en sus maletas y cruzan nueve mil kil\u00f3metros de distancia dispuestos, como los pioneros, a conquistar el Lejano Este. Pero no es nada f\u00e1cil triunfar en una tierra que tiene un idioma, una cultura y unas costumbres que est\u00e1n a un mundo de distancia. Y no s\u00f3lo geogr\u00e1ficamente. Tras 'Perdiendo el norte' llegan las nuevas aventuras de la generaci\u00f3n perdida, que en su b\u00fasqueda de fortuna por el Lejano Oriente se va a encontrar m\u00e1s perdida que nunca.",
-    "Teresa (Carmen Machi) ve apagarse Fuentejuela de Arriba, la peque\u00f1a aldea de la monta\u00f1a donde ha vivido toda su vida. Pero el pueblo recibe una visita inesperada: en medio de la nieve aparece un desubicado grupo de africanos\u2026 cuya llegada conmociona la aldea. Teresa lo tiene claro: huidos de una situaci\u00f3n de explotaci\u00f3n a la que hab\u00edan llegado enga\u00f1ados, los africanos quieren quedarse en Espa\u00f1a como sea\u2026 y esa puede ser la soluci\u00f3n al problema de falta de habitantes en el pueblo. Con ayuda de sus amigos Jaime (Pep\u00f3n Nieto), y el \u201cGuiri\u201d (Jon Kortajarena) decide ocultarlos y armar un plan. Poniendo patas arriba prejuicios y expectativas, los reci\u00e9n llegados y los habitantes locales trabajar\u00e1n juntos para que su hogar contin\u00fae existiendo."
-  ],
-  "synopsisEn":[
-    "A retired doctor, decides to travel as a volunteer to a greek refugee camp. When she meets young Ahmed, the limits between the need to take care of somebody and of feeling useful begin to fade.",
-    "Peter has worked all his life at a Manchester bank. When he is awarded an early retirement, he decides to visit his brother in Benidorm, only to discover that he's disappeared.",
-    "Sister Marina, a very unorthodox nun, is sent during the summer of 1994 to El Parral, a boarding school for boys threatened to be closed soon. Even though the kids welcome Marina with all kinds of pranks, they will, little by little, become something very close to the family they never had.",
-    "Alfredo and Teresa are a Spanish couple that decide to travel to New York to \"unplug\". Soon after landing, they start to feel that they are probably not in the city the agency has sold them, but they don't know where they are.",
-    "After his misadventures in Berlin, Braulio moves to Hong Kong with Rafa and Hakan in search of new opportunities. However, succeeding is not easy in a land where language, culture, and customs are very different from those of Europe.",
-    "Set majorly Pamplona in 1965, follows the life of American writer Alan Jolis as he awakes to a vivid sensual world and grows up emotionally.",
-    "A cleaner woman with vocational street dancer tries to recover her long-stranded son that she gave for adoption, a former CEO who lost everything, including his memories.",
-    "A town at the edge of the missing take desperate measures to avoid it.",
-    "Dani is torn: he loves music but is afraid to fail. One summer, between his job as a waiter and night out with friends, he meets Sandra. With her, he discovers love and what it means to be one among many.",
-    "An overweight teen is bullied by a clique of cool girls poolside while holidaying in her village. The long walk home will change the rest of her life.",
-    "Modern day Dorothy (Wizard of Oz inspiration) faces the challenges of being a teenager nowdays and the harsh words of peers."
-  ],
-  "country":[
-    "GB",
-    "PT",
-    "FR",
-    "ES",
-    "GR"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "desire",
-    "migration",
-    "intergenerational friendship",
-    "self-employment",
-    "sex",
-    "regional identity",
-    "daily routine",
-    "intragenerational friendship",
-    "body norms",
-    "urban",
-    "intergenerational conflict",
-    "mentorship",
-    "precarity",
-    "segregation",
-    "class conflict",
-    "interracial relationships",
-    "motherhood",
-    "cross-gender friendship",
-    "brotherhood",
-    "wealth",
-    "rural",
-    "search for meaning",
-    "power",
-    "abuse",
-    "anti-ageing practices",
-    "tourism",
-    "may-december",
-    "national identity",
-    "celibacy",
-    "parenthood",
-    "gentrification",
-    "physical illness",
-    "homosociality",
-    "eu",
-    "well-being",
-    "retirement",
-    "artistic creation",
-    "education",
-    "supranational institutions",
-    "return home",
-    "new start",
-    "women empowerment",
-    "communal housing",
-    "separation",
-    "rescue mission",
-    "2008 crisis",
-    "racial discrimination",
-    "substance abuse",
-    "personal memory",
-    "grandmotherhood",
-    "fatherhood",
-    "loneliness",
-    "state institutions",
-    "organized crime",
-    "high rank employment",
-    "class solidarity",
-    "collective trauma",
-    "holiday",
-    "religion",
-    "caregiving",
-    "stages of life",
-    "empty nest",
-    "independent home",
-    "professional politics",
-    "romance",
-    "infidelity",
-    "superior-employee relationship",
-    "marriage",
-    "wedding",
-    "lgbtqi",
-    "gender discrimination",
-    "low rank employment"
-  ],
-  "charId":[
-    "ES2022_064_02",
-    "ES2022_041_01",
-    "ES2023_029_01",
-    "ES2019_011_02",
-    "ES2021_010_01",
-    "ES2018_002_01",
-    "ES2020_010_02",
-    "ES2019_004_01",
-    "ES2022_013_01",
-    "ES2022_028_01",
-    "ES2021_013_01"
-  ],
-  "charAge":"2",
-  "charGender":"F",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "UM",
-    "MC",
-    "LM"
-  ],
-  "charProfession":[
-    "SE",
-    "EM",
-    "RE",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":[
-    "N",
-    null
-  ],
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"carmen-machi"
+
+  ]
 }

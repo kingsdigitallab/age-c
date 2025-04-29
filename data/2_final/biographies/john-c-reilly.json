@@ -1,70 +1,46 @@
 {
-  "perId":"John C. Reilly",
-  "filmId":"GB2019_003",
-  "title":"Stan & Ollie",
-  "titleEn":null,
-  "director":"Jon S. Baird",
-  "releaseType":"THE",
-  "releaseDate":1547164800000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Jon S. Baird",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"M",
-  "directorNationality":"GB",
-  "genre":[
-    "DRA",
-    "BIO",
-    "MET",
-    "HIS",
-    "COM"
+  "id":"John C. Reilly",
+  "type":"person",
+  "slug":"john-c-reilly",
+  "name":"John C. Reilly",
+  "birthYear":1965,
+  "deathYear":0,
+  "nationality":"US",
+  "gender":"M",
+  "character":[
+    {
+      "id":"GB2019_003_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WNA",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "role":null,
+      "film":{
+        "id":"GB2019_003",
+        "slug":"gb2019-003-stan-ollie",
+        "title":{
+          "native":"Stan & Ollie",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"MET",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"ageism",
+        "production":{
+          "country":"US",
+          "share":"MIN"
+        }
+      }
+    }
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=MdcBNrjc3wo",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt3385524\/mediaviewer\/rm3227480064\/?ref_=tt_ov_i",
-  "synopsis":"Laurel and Hardy, the world's most famous comedy duo, attempt to reignite their film careers as they embark on what becomes their swan song: a grueling theatre tour of post-war Britain.",
-  "synopsisEn":null,
-  "country":[
-    "US",
-    "GB",
-    "CA"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "wealth",
-    "cultural memory",
-    "friendship betrayal",
-    "may-december",
-    "physical illness",
-    "last mission",
-    "artistic creation",
-    "gray face",
-    "superior-employee relationship",
-    "homosociality",
-    "high rank employment",
-    "marriage",
-    "intragenerational friendship",
-    "ageism",
-    "celebrity",
-    "mass media"
-  ],
-  "charId":"GB2019_003_03",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WNA",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"CI",
-  "assistedMobility":"N",
-  "perName":"John C. Reilly",
-  "perBirthYear":1965,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"US",
-  "perRole":null,
-  "slug":"john-c-reilly"
+  "director":[
+
+  ]
 }

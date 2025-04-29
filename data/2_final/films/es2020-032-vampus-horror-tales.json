@@ -21,20 +21,21 @@
     "posterUrl":"https:\/\/www.imdb.com\/title\/tt12454740\/mediaviewer\/rm2985075969\/?ref_=tt_ov_i"
   },
   "genre":[
-    "ANT",
     "ROM",
-    "HOR"
+    "HOR",
+    "ANT"
   ],
   "tags":[
     "romance",
-    "supernatural entity",
     "low-rank employment",
+    "supernatural entity",
     "non-human companionship",
     "abuse"
   ],
   "director":[
     {
       "id":"Manuel Mart\u00ednez Velasco",
+      "slug":"manuel-martinez-velasco",
       "name":"Manuel Mart\u00ednez Velasco",
       "birthYear":1976,
       "deathYear":0,
@@ -42,7 +43,26 @@
       "nationality":"ES"
     },
     {
+      "id":"Isaac Berrocal",
+      "slug":"isaac-berrocal",
+      "name":"Isaac Berrocal",
+      "birthYear":1978,
+      "deathYear":0,
+      "gender":"M",
+      "nationality":"ES"
+    },
+    {
+      "id":"Erika Elizalde",
+      "slug":"erika-elizalde",
+      "name":"Erika Elizalde",
+      "birthYear":0,
+      "deathYear":0,
+      "gender":"F",
+      "nationality":"UY"
+    },
+    {
       "id":"Piter Moreira",
+      "slug":"piter-moreira",
       "name":"Piter Moreira",
       "birthYear":0,
       "deathYear":0,
@@ -51,50 +71,15 @@
     },
     {
       "id":"V\u00edctor Matellano",
+      "slug":"victor-matellano",
       "name":"V\u00edctor Matellano",
       "birthYear":1971,
-      "deathYear":0,
-      "gender":"M",
-      "nationality":"ES"
-    },
-    {
-      "id":"Erika Elizalde",
-      "name":"Erika Elizalde",
-      "birthYear":0,
-      "deathYear":0,
-      "gender":"F",
-      "nationality":"UY"
-    },
-    {
-      "id":"Isaac Berrocal",
-      "name":"Isaac Berrocal",
-      "birthYear":1978,
       "deathYear":0,
       "gender":"M",
       "nationality":"ES"
     }
   ],
   "character":[
-    {
-      "id":"ES2020_032_01",
-      "age":"4",
-      "gender":"M",
-      "sexuality":null,
-      "origin":"WWE",
-      "class":null,
-      "profession":"EM",
-      "ability":"AB",
-      "assistedMobility":"AB",
-      "person":{
-        "id":"Saturnino Garc\u00eda",
-        "name":"Saturnino Garc\u00eda",
-        "birthYear":1935.0,
-        "deathYear":0.0,
-        "gender":"M",
-        "nationality":"ES"
-      },
-      "role":null
-    },
     {
       "id":"ES2020_032_02",
       "age":"4",
@@ -112,6 +97,26 @@
         "deathYear":2024.0,
         "gender":"M",
         "nationality":"ES"
+      },
+      "role":null
+    },
+    {
+      "id":"ES2020_032_04",
+      "age":"4",
+      "gender":"F",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "person":{
+        "id":"Lone Fleming",
+        "name":"Lone Fleming",
+        "birthYear":1945.0,
+        "deathYear":0.0,
+        "gender":"F",
+        "nationality":"DK"
       },
       "role":null
     },
@@ -136,22 +141,22 @@
       "role":null
     },
     {
-      "id":"ES2020_032_04",
+      "id":"ES2020_032_01",
       "age":"4",
-      "gender":"F",
+      "gender":"M",
       "sexuality":null,
       "origin":"WWE",
       "class":null,
-      "profession":null,
-      "ability":null,
-      "assistedMobility":null,
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
       "person":{
-        "id":"Lone Fleming",
-        "name":"Lone Fleming",
-        "birthYear":1945.0,
+        "id":"Saturnino Garc\u00eda",
+        "name":"Saturnino Garc\u00eda",
+        "birthYear":1935.0,
         "deathYear":0.0,
-        "gender":"F",
-        "nationality":"DK"
+        "gender":"M",
+        "nationality":"ES"
       },
       "role":null
     }

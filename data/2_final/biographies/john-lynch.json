@@ -1,114 +1,77 @@
 {
-  "perId":"John Lynch",
-  "filmId":[
-    "IT2023_121",
-    "GB2020_043"
-  ],
-  "title":[
-    "Da domani mi alzo tardi",
-    "The Banishing"
-  ],
-  "titleEn":[
-    null,
-    "Starting tomorrow, I'll get up late"
+  "id":"John Lynch",
+  "type":"person",
+  "slug":"john-lynch",
+  "name":"John Lynch",
+  "birthYear":1961,
+  "deathYear":0,
+  "nationality":"IE",
+  "gender":"M",
+  "character":[
+    {
+      "id":"GB2020_043_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2020_043",
+        "slug":"gb2020-043-the-banishing",
+        "title":{
+          "native":"The Banishing",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"HIS",
+        "release":{
+          "type":"FES",
+          "year":2020
+        },
+        "tags":"high rank employment",
+        "production":{
+          "country":"GB",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"IT2023_121_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"SE",
+      "ability":"CI",
+      "assistedMobility":"CI",
+      "role":"LEA",
+      "film":{
+        "id":"IT2023_121",
+        "slug":"it2023-121-da-domani-mi-alzo-tardi",
+        "title":{
+          "native":"Da domani mi alzo tardi",
+          "english":"Starting tomorrow, I'll get up late"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"physical illness",
+        "production":{
+          "country":"IT",
+          "share":"MAJ"
+        }
+      }
+    }
   ],
   "director":[
-    "Christopher Smith",
-    "Stefano Veneruso"
-  ],
-  "releaseType":[
-    "FES",
-    "THE"
-  ],
-  "releaseDate":[
-    1603324800000,
-    1676332800000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2020,
-    2023
-  ],
-  "directorName":[
-    "Christopher Smith",
-    null
-  ],
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":[
-    "M",
-    null
-  ],
-  "directorNationality":[
-    "GB",
-    null
-  ],
-  "genre":[
-    "DRA",
-    "BIO",
-    "ROM",
-    "HIS",
-    "HOR",
-    "COM"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.imdb.com\/title\/tt7329642\/?ref_=ttrel_ov",
-    "https:\/\/www.youtube.com\/watch?v=eDkD7plYOV0"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt7329642\/mediaviewer\/rm592762625\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt9063050\/mediaviewer\/rm2167351297\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "The Banishing tells the story of the most haunted house in England. In the 1930s, a young reverend, his wife and daughter move into a manor with a horrifying secret.",
-    "Massimo, attore di successo, e Anna, affermata sceneggiatrice, decidono di prendere in affitto una casa, per scrivere in totale isolamento un nuovo film. Il rapporto conflittuale e intenso che li ha uniti in passato si riaccende. Riaffiorano inevitabilmente flashback divertenti e dolorosi della vita che hanno condiviso, del modo di pensare e anche di far ridere di Massimo. Anna ricorda tutto di lui, molto pi\u00f9 di quanto non ricordi egli stesso."
-  ],
-  "synopsisEn":[
-    "Massimo Troisi, is away for a long time and reappears . He contact his friend Gaetano, and Anna, the woman of his life. Anna and Massimo rent a house in Naples, to write the screenplay of a new movie.",
-    null
-  ],
-  "country":[
-    "IT",
-    "GB"
-  ],
-  "productionShare":"MAJ",
-  "tags":[
-    "power",
-    "rural",
-    "supernatural entity",
-    "physical illness",
-    "partnership",
-    "artistic creation",
-    "superior-employee relationship",
-    "celibacy",
-    "homosociality",
-    "high rank employment",
-    "collective trauma",
-    "religion"
-  ],
-  "charId":[
-    "GB2020_043_01",
-    "IT2023_121_01"
-  ],
-  "charAge":"2",
-  "charGender":"M",
-  "charSexuality":"HE",
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":[
-    "SE",
-    "EM"
-  ],
-  "charAbility":[
-    "AB",
-    "CI"
-  ],
-  "assistedMobility":"N",
-  "perName":null,
-  "perBirthYear":0,
-  "perDeathYear":0,
-  "perGender":null,
-  "perNationality":null,
-  "perRole":null,
-  "slug":"john-lynch"
+
+  ]
 }

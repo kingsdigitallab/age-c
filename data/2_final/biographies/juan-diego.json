@@ -1,122 +1,77 @@
 {
-  "perId":"Juan Diego",
-  "filmId":[
-    "ES2021_010",
-    "ES2023_073"
-  ],
-  "title":[
-    "El Cover",
-    "Venus"
-  ],
-  "titleEn":[
-    "The Cover",
-    null
+  "id":"Juan Diego",
+  "type":"person",
+  "slug":"juan-diego",
+  "name":"Juan Diego",
+  "birthYear":1942,
+  "deathYear":2022,
+  "nationality":"ES",
+  "gender":"M",
+  "character":[
+    {
+      "id":"ES2021_010_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2021_010",
+        "slug":"es2021-010-el-cover",
+        "title":{
+          "native":"El Cover",
+          "english":"The Cover"
+        },
+        "filmType":"F",
+        "genre":"ROM",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"artistic creation",
+        "production":{
+          "country":"PT",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"ES2023_073_01",
+      "age":"4",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2023_073",
+        "slug":"es2023-073-venus",
+        "title":{
+          "native":"Venus",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"ROM",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"burial",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    }
   ],
   "director":[
-    "Secun de la Rosa",
-    "V\u00edctor Conde"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1626998400000,
-    1676678400000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2021,
-    2023
-  ],
-  "directorName":[
-    "V\u00edctor Conde",
-    null
-  ],
-  "directorBirthYear":[
-    0,
-    1973
-  ],
-  "directorDeathYear":0,
-  "directorGender":[
-    "M",
-    null
-  ],
-  "directorNationality":[
-    "ES",
-    null
-  ],
-  "genre":[
-    "DRA",
-    "ROM",
-    "COA",
-    "MUS",
-    "COM"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=1iPcdvZZ7pY",
-    "https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=959131"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt11206172\/mediaviewer\/rm386777089\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt10719596\/mediaviewer\/rm4099008257\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "En la d\u00e9cada de 1970, Paula y Miguel est\u00e1n a punto de realizar el \u00faltimo espect\u00e1culo de su banda: Venus. Casi cuarenta a\u00f1os despu\u00e9s Jorge llega al caf\u00e9 donde pasa su juventud. All\u00ed se encuentra con Alicia. Recuerdan los d\u00edas en que se conocieron.",
-    "Dani ha heredado de su familia el amor por la m\u00fasica y tambi\u00e9n el miedo al fracaso. As\u00ed que trabaja de camarero antes que malvivir de su sue\u00f1o como sus padres. Este a\u00f1o, como cada verano, Benidorm se llena de artistas que vienen a cantar en sus bares, hoteles y salas de fiesta. All\u00ed Dani conoce a Sandra, quien cambiar\u00e1 su forma de entender el arte."
-  ],
-  "synopsisEn":[
-    "Dani is torn: he loves music but is afraid to fail. One summer, between his job as a waiter and night out with friends, he meets Sandra. With her, he discovers love and what it means to be one among many.",
-    "In 1970's, Paula and Miguel are about to perform the last show of their band: VENUS. Almost forty years later Jorge arrives at the cafe where he spend his younger years. There he encounters Alicia They remember the days when they met."
-  ],
-  "country":[
-    "PT",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "natural death",
-    "personal memory",
-    "burial",
-    "intergenerational friendship",
-    "fatherhood",
-    "physical illness",
-    "artistic creation",
-    "mentorship",
-    "urban",
-    "precarity",
-    "stages of life",
-    "widowhood"
-  ],
-  "charId":[
-    "ES2023_073_01",
-    "ES2021_010_02"
-  ],
-  "charAge":[
-    "4",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "LC",
-    "MC"
-  ],
-  "charProfession":[
-    "RE",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Juan Diego",
-  "perBirthYear":1942,
-  "perDeathYear":2022,
-  "perGender":"M",
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"juan-diego"
+
+  ]
 }

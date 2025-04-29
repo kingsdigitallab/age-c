@@ -1,227 +1,232 @@
 {
-  "perId":"Kandido Uranga",
-  "filmId":[
-    "ES2019_010",
-    "ES2018_020",
-    "ES2021_040",
-    "ES2020_064",
-    "ES2023_029",
-    "ES2019_025",
-    "ES2022_051"
-  ],
-  "title":[
-    "Dos",
-    "La cima",
-    "La voz del sol",
-    "Hil-Kanpaiak",
-    "Agur Etxebeste",
-    "La peque\u00f1a Suiza",
-    "Cuando dejes de quererme"
-  ],
-  "titleEn":[
-    "When You No Longer Love Me",
-    null,
-    "Death Knell",
-    "Beyond the Summit",
-    "The Little Switzerland"
+  "id":"Kandido Uranga",
+  "type":"person",
+  "slug":"kandido-uranga",
+  "name":"Kandido Uranga",
+  "birthYear":1955,
+  "deathYear":0,
+  "nationality":"ES",
+  "gender":"M",
+  "character":[
+    {
+      "id":"ES2023_029_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"LM",
+      "profession":"SE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2023_029",
+        "slug":"es2023-029-la-voz-del-sol",
+        "title":{
+          "native":"La voz del sol",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"COA",
+        "release":{
+          "type":"THE",
+          "year":2023
+        },
+        "tags":"superior-employee relationship",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2022_051_02",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "role":null,
+      "film":{
+        "id":"ES2022_051",
+        "slug":"es2022-051-la-cima",
+        "title":{
+          "native":"La cima",
+          "english":"Beyond the Summit"
+        },
+        "filmType":"F",
+        "genre":"SPO",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"natural",
+        "production":{
+          "country":"FR",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"ES2019_025_08",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2019_025",
+        "slug":"es2019-025-agur-etxebeste",
+        "title":{
+          "native":"Agur Etxebeste",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"state institutions",
+        "production":{
+          "country":"FR",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"ES2021_040_01",
+      "age":null,
+      "gender":null,
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "role":null,
+      "film":{
+        "id":"ES2021_040",
+        "slug":"es2021-040-dos",
+        "title":{
+          "native":"Dos",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"THR",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"gender discrimination",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2019_010_03",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"RE",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2019_010",
+        "slug":"es2019-010-la-pequena-suiza",
+        "title":{
+          "native":"La peque\u00f1a Suiza",
+          "english":"The Little Switzerland"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"intragenerational friendship",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2018_020_04",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":null,
+      "assistedMobility":null,
+      "role":null,
+      "film":{
+        "id":"ES2018_020",
+        "slug":"es2018-020-cuando-dejes-de-quererme",
+        "title":{
+          "native":"Cuando dejes de quererme",
+          "english":"When You No Longer Love Me"
+        },
+        "filmType":"F",
+        "genre":"NOIR",
+        "release":{
+          "type":"THE",
+          "year":2018
+        },
+        "tags":"regional identity",
+        "production":{
+          "country":"AR",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"ES2020_064_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2020_064",
+        "slug":"es2020-064-hil-kanpaiak",
+        "title":{
+          "native":"Hil-Kanpaiak",
+          "english":"Death Knell"
+        },
+        "filmType":"F",
+        "genre":"NOI",
+        "release":{
+          "type":"THE",
+          "year":2020
+        },
+        "tags":"low-rank employment",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    }
   ],
   "director":[
-    "Ib\u00f3n Cormenzana",
-    "Igor Legarreta",
-    "Telmo Esnal",
-    "Carol Polakoff",
-    "Asier Altuna",
-    "Imanol Rayo",
-    "Kepa Sojo",
-    "Mar Targarona"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1695340800000,
-    1626998400000,
-    1556236800000,
-    1605830400000,
-    1569456000000,
-    1518739200000,
-    1647993600000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2018,
-    2019,
-    2020,
-    2021,
-    2022,
-    2023
-  ],
-  "directorName":[
-    "Ib\u00f3n Cormenzana",
-    "Carol Polakoff",
-    "Kepa Sojo",
-    null,
-    "Mar Targarona"
-  ],
-  "directorBirthYear":[
-    0,
-    1953,
-    1972,
-    1968
-  ],
-  "directorDeathYear":0,
-  "directorGender":[
-    "F",
-    "M",
-    null
-  ],
-  "directorNationality":[
-    "ES",
-    "US",
-    null
-  ],
-  "genre":[
-    "DRA",
-    "NOIR",
-    "DTH",
-    "ROM",
-    "THR",
-    "ADV",
-    "SPO",
-    "NOI",
-    "COA",
-    "HOR",
-    "COM"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.youtube.com\/watch?v=3h6FcpM61a8",
-    "https:\/\/www.imdb.com\/title\/tt11123278\/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_Hil-Kanpaiak",
-    "https:\/\/www.youtube.com\/watch?v=5HByjXLXQoU",
-    "https:\/\/www.imdb.com\/title\/tt13667044\/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_La%2520cima",
-    "https:\/\/www.imdb.com\/title\/tt12525878\/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_La%2520voz%2520del%2520sol",
-    "https:\/\/www.youtube.com\/watch?v=_aWZuaLr5mg",
-    "https:\/\/www.filmaffinity.com\/es\/film521755.html"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt9076378\/mediaviewer\/rm3325466113\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt11123278\/mediaviewer\/rm2514409473\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt12525878\/mediaviewer\/rm3550828545\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt12358104\/mediaviewer\/rm3955282689\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt3674018\/mediaviewer\/rm1918201344\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt9100028\/mediaviewer\/rm3811926784\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt13667044\/mediaviewer\/rm322428929\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "Un hombre y una mujer se despiertan pegados por el abdomen. David y Sara no se conocen. Ambos est\u00e1n desnudos. Ambos rondan los 35 a\u00f1os. Est\u00e1n en un lugar que no reconocen. Tras el susto inicial, tratan de mantener la calma e intentar pensar por qu\u00e9 est\u00e1n ah\u00ed. No recuerdan nada. David sugiere la posibilidad de que hayan sido drogados y secuestrados. Mientras intentan atar cabos, descubren que estar pegados dificulta en extremo hasta las actividades m\u00e1s mundanas. Ambos se ven obligados a compartir con un desconocido sus secretos m\u00e1s \u00edntimos y vergonzosos para poder descifrar el misterio.",
-    "Narra las peripecias de los habitantes de un imaginario pueblo castellano enclavado en el centro del Pa\u00eds Vasco llamado Teller\u00eda, que desea, tras 700 a\u00f1os de historia, pasar a ser parte del territorio vasco. Tras la negativa del gobierno, un curioso hallazgo en el santuario del pueblo originar\u00e1 que los osados habitantes de Teller\u00eda pidan su anexi\u00f3n, nada menos que a uno de los pa\u00edses m\u00e1s ricos del mundo: Su",
-    "Maruja y su esposo Manolo se vieron obligados a escapar de Espa\u00f1a tras la guerra civil. Viven en Par\u00eds desde entonces, pero jam\u00e1s han conseguido dejar atr\u00e1s su pasado y los motivos que les llevaron a exiliarse. Trabajan como servicio para un embajador estadounidense y su familia: los Jolis. \u00c9stos est\u00e1n abrumados por todas las reuniones sociales que tienen, por lo que su hijo Alan pr\u00e1cticamente ha sido criado por Maruja y Manolo. Este a\u00f1o, Maruja descubre que podr\u00eda ser su \u00faltimo verano, algo que la alentar\u00e1 a confrontar su pasado y volver a sus or\u00edgenes en un viaje a Espa\u00f1a donde tendr\u00e1 que asegurarse de que Alan crecer\u00e1 para ser un buen hombre. Al hacerlo, Manolo ser\u00e1 desafiado por los secretos que su matrimonio consigui\u00f3 enterrar hace mucho tiempo.",
-    "En los terrenos del caser\u00edo Garizmendi aparece un esqueleto enterrado. Sin saber a qu\u00e9 atenerse, Ferm\u00edn Araia y su mujer, Karmen, llaman a su hijo N\u00e9stor, que acude a hacerse cargo. A la ma\u00f1ana siguiente Ferm\u00edn no aparece y N\u00e9stor descubre que tambi\u00e9n han desaparecido los huesos. A su aviso acuden dos inspectores de la Secci\u00f3n Criminal, Ezpeleta y Kortazar, quien muestra especial inter\u00e9s por el caso, y mientras se encuentran en el caser\u00edo la campana de la ermita cercana comienza a doblar a muerto.",
-    "Por \"problemas de salud\", Patrizio Etxebeste se ve obligado a dejar la alcald\u00eda. Aun as\u00ed, para no perder el mandato del ayuntamiento, nombra a su mujer Mar\u00eda Luisa como la primera alcaldesa del pueblo. Pero Mar\u00eda Luisa tomar\u00e1 muy en serio su trabajo y cambiar\u00e1 de arriba a abajo el funcionamiento del ayuntamiento, poniendo patas arriba su relaci\u00f3n de pareja.",
-    "Mateo (Javier Rey) se enfrenta por primera vez a la monta\u00f1a m\u00e1s peligrosa del planeta, el Annapurna, con el reto de llegar hasta la cima y cumplir as\u00ed una antigua promesa. En su ascenso sufre un accidente que le deja inconsciente y gravemente herido. Horas m\u00e1s tarde es rescatado por Ione (Patricia L\u00f3pez Arnaiz), una alpinista experimentada que est\u00e1 pasando el invierno en un refugio, sola y alejada del mundo. A pesar de no entender las razones que han llevado a Mateo hasta all\u00ed, Ione intentar\u00e1 ayudarle a alcanzar su meta.",
-    "Laura (Flor Torrente) vive en Buenos Aires con su padrastro Fredo (Eduardo Blanco). Siendo una ni\u00f1a, ella y su madre se marcharon del Pa\u00eds Vasco, supuestamente tras ser abandonadas por su padre. Pero un d\u00eda recibe una llamada desde Espa\u00f1a: el cuerpo de su padre acaba de ser encontrado enterrado en un bosque cercano. Las pruebas forenses han sido claras: F\u00e9lix Careaga (Eneko Sagardoy) muri\u00f3 hace m\u00e1s de 30 a\u00f1os asesinado de un disparo en la nuca. Laura decide volar a Espa\u00f1a junto a Fredo para enterrar a su padre. En su viaje conocer\u00e1 a Javier Egoskue (Miki Esparb\u00e9), agente de seguros, que comunica a Laura la exis\u00adtencia de un seguro de vida firmado por su padre. Egoskue, intrigado por la historia del asesinato y atra\u00eddo por Laura, emprender\u00e1 junto a ella y Fredo una particular investigaci\u00f3n para descubrir qui\u00e9n acab\u00f3 con la vida de F\u00e9lix Careaga."
-  ],
-  "synopsisEn":[
-    "When Patrizio Etxebeste is forced to give up his position as mayor, he names his wife as his replacement. But Maria Luisa has no intention of being her husband's puppet and soon starts changing the way things are run.",
-    "An Argentinian girl returns to her natal town on Basque Country to discover who killed her father.",
-    "After a man seeking to finally reach his goal of climbing Annapurna has an accident, a woman climber who has been taking refuge tries to help him.",
-    "A fictional Castillian village but located in Basque Country tries become part of Switzerland after a surprising discovery.",
-    "Set majorly Pamplona in 1965, follows the life of American writer Alan Jolis as he awakes to a vivid sensual world and grows up emotionally.",
-    "Two people, a man and a woman, wake up naked and with their abdomens attached to each other.",
-    "When a skeleton turns up in their land, Fermin and Karmen reach out to their son Nestor, who comes to their aid. Next morning both Fermin and the skeleton are gone."
-  ],
-  "country":[
-    "AR",
-    "FR",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "migration",
-    "extended family",
-    "grandparenthood",
-    "intragenerational friendship",
-    "mentorship",
-    "festivities",
-    "corruption",
-    "activism",
-    "rural",
-    "power",
-    "cultural memory",
-    "abuse",
-    "national identity",
-    "regional identity",
-    "parenthood",
-    "homosociality",
-    "return home",
-    "women empowerment",
-    "personal memory",
-    "personal trauma",
-    "fatherhood",
-    "state institutions",
-    "high rank employment",
-    "collective trauma",
-    "religion",
-    "holiday",
-    "mass media",
-    "stages of life",
-    "low-rank employment",
-    "widowhood",
-    "professional politics",
-    "superior-employee relationship",
-    "crime",
-    "marriage",
-    "natural",
-    "gender discrimination",
-    "low rank employment",
-    "hospital"
-  ],
-  "charId":[
-    "ES2018_020_04",
-    "ES2020_064_01",
-    "ES2021_040_01",
-    "ES2019_025_08",
-    "ES2022_051_02",
-    "ES2023_029_03",
-    "ES2019_010_03"
-  ],
-  "charAge":[
-    "3",
-    null
-  ],
-  "charGender":[
-    null,
-    "M"
-  ],
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    "LM",
-    null
-  ],
-  "charProfession":[
-    "SE",
-    "EM",
-    "RE",
-    null
-  ],
-  "charAbility":[
-    "AB",
-    null
-  ],
-  "assistedMobility":[
-    "N",
-    null
-  ],
-  "perName":"Kandido Uranga",
-  "perBirthYear":1955,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"kandido-uranga"
+
+  ]
 }

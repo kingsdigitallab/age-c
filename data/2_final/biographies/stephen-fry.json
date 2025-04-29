@@ -1,49 +1,46 @@
 {
-  "perId":"Stephen Fry",
-  "filmId":"GB2019_068",
-  "title":"Tomorrow",
-  "titleEn":null,
-  "director":"Martha Pinson",
-  "releaseType":"THE",
-  "releaseDate":1569542400000,
-  "type":"F",
-  "releaseYear":2019,
-  "directorName":"Martha Pinson",
-  "directorBirthYear":0,
-  "directorDeathYear":0,
-  "directorGender":"F",
-  "directorNationality":"GB",
-  "genre":[
-    "DRA",
-    "WAR"
+  "id":"Stephen Fry",
+  "type":"person",
+  "slug":"stephen-fry",
+  "name":"Stephen Fry",
+  "birthYear":1957,
+  "deathYear":0,
+  "nationality":"GB",
+  "gender":"M",
+  "character":[
+    {
+      "id":"GB2019_068_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"GB2019_068",
+        "slug":"gb2019-068-tomorrow",
+        "title":{
+          "native":"Tomorrow",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"DRA",
+        "release":{
+          "type":"THE",
+          "year":2019
+        },
+        "tags":"hospital",
+        "production":{
+          "country":"GB",
+          "share":"MAJ"
+        }
+      }
+    }
   ],
-  "trailerUrl":"https:\/\/www.youtube.com\/watch?v=jm4U4L13ack",
-  "posterUrl":"https:\/\/www.imdb.com\/title\/tt2654536\/mediaviewer\/rm1271961089\/?ref_=tt_ov_i",
-  "synopsis":"A war veteran struggling to find a reason to live is befriended by a man who lives every day as though it's his last.",
-  "synopsisEn":null,
-  "country":"GB",
-  "productionShare":"MAJ",
-  "tags":[
-    "war",
-    "disability",
-    "homosociality",
-    "caregiving",
-    "hospital"
-  ],
-  "charId":"GB2019_068_01",
-  "charAge":"3",
-  "charGender":"M",
-  "charSexuality":null,
-  "charOrigin":"WWE",
-  "charClass":"MC",
-  "charProfession":"EM",
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Stephen Fry",
-  "perBirthYear":1957,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"GB",
-  "perRole":null,
-  "slug":"stephen-fry"
+  "director":[
+
+  ]
 }

@@ -1,148 +1,108 @@
 {
-  "perId":"Pere Ponce",
-  "filmId":[
-    "ES2022_102",
-    "ES2021_011",
-    "ES2023_018"
-  ],
-  "title":[
-    "Una pel\u00edcula p\u00f3stuma",
-    "El favor",
-    "El sustituto"
-  ],
-  "titleEn":[
-    "The Replacement",
-    "Just One Small Favour",
-    null
+  "id":"Pere Ponce",
+  "type":"person",
+  "slug":"pere-ponce",
+  "name":"Pere Ponce",
+  "birthYear":1964,
+  "deathYear":0,
+  "nationality":"ES",
+  "gender":"M",
+  "character":[
+    {
+      "id":"ES2022_102_01",
+      "age":"3",
+      "gender":"M",
+      "sexuality":"HE",
+      "origin":"WWE",
+      "class":"MC",
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2022_102",
+        "slug":"es2022-102-una-pelicula-postuma",
+        "title":{
+          "native":"Una pel\u00edcula p\u00f3stuma",
+          "english":""
+        },
+        "filmType":"F",
+        "genre":"EXP",
+        "release":{
+          "type":"THE",
+          "year":2022
+        },
+        "tags":"homosociality",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    },
+    {
+      "id":"ES2021_011_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":"MC",
+      "profession":"EM",
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2021_011",
+        "slug":"es2021-011-el-sustituto",
+        "title":{
+          "native":"El sustituto",
+          "english":"The Replacement"
+        },
+        "filmType":"F",
+        "genre":"NOI",
+        "release":{
+          "type":"THE",
+          "year":2021
+        },
+        "tags":"state institutions",
+        "production":{
+          "country":"BE",
+          "share":"MIN"
+        }
+      }
+    },
+    {
+      "id":"ES2023_018_01",
+      "age":"2",
+      "gender":"M",
+      "sexuality":null,
+      "origin":"WWE",
+      "class":null,
+      "profession":null,
+      "ability":"AB",
+      "assistedMobility":"AB",
+      "role":null,
+      "film":{
+        "id":"ES2023_018",
+        "slug":"es2023-018-el-favor",
+        "title":{
+          "native":"El favor",
+          "english":"Just One Small Favour"
+        },
+        "filmType":"F",
+        "genre":"COM",
+        "release":{
+          "type":"THE",
+          "year":2010
+        },
+        "tags":"rural",
+        "production":{
+          "country":"ES",
+          "share":"MAJ"
+        }
+      }
+    }
   ],
   "director":[
-    "Sigfrid Monle\u00f3n",
-    "\u00d3scar Aibar",
-    "Juana Mac\u00edas"
-  ],
-  "releaseType":"THE",
-  "releaseDate":[
-    1650672000000,
-    1635206400000,
-    1290470400000
-  ],
-  "type":"F",
-  "releaseYear":[
-    2010,
-    2021,
-    2022
-  ],
-  "directorName":[
-    "Sigfrid Monle\u00f3n",
-    "\u00d3scar Aibar",
-    "Juana Mac\u00edas"
-  ],
-  "directorBirthYear":[
-    1971,
-    1964,
-    1967
-  ],
-  "directorDeathYear":0,
-  "directorGender":[
-    "F",
-    "M"
-  ],
-  "directorNationality":"ES",
-  "genre":[
-    "DRA",
-    "THR",
-    "NOI",
-    "EXP",
-    "COM",
-    "CRI"
-  ],
-  "trailerUrl":[
-    "https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=355731",
-    "https:\/\/www.youtube.com\/watch?v=z5NhB9vYeCs",
-    "https:\/\/www.filmaffinity.com\/es\/evideos.php?movie_id=202480"
-  ],
-  "posterUrl":[
-    "https:\/\/www.imdb.com\/title\/tt20674380\/mediaviewer\/rm2286833921\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt18377522\/mediaviewer\/rm1686575873\/?ref_=tt_ov_i",
-    "https:\/\/www.imdb.com\/title\/tt11579538\/mediaviewer\/rm2870986241\/?ref_=tt_ov_i"
-  ],
-  "synopsis":[
-    "Un hombre de ciudad recibe la llamada de la mujer a la que am\u00f3 y emprende un viaje clandestino para reencontrarse con ella en una comunidad proscrita asentada en la cumbre de una monta\u00f1a. Dos gu\u00edas sucesivos le llevan a su destino: el reencuentro con una historia que no ha podido olvidar.",
-    "Los Gallardo son una familia rica y respetada que veranea en una preciosa mas\u00eda cuidada hasta el m\u00e1s m\u00ednimo detalle por Amparito, la querid\u00edsima Tata, que, para los tres hijos de la familia, Teresa, Benja y Aura, ha sido como una segunda madre. Cuando reciben la triste noticia de su muerte, los tres hermanos viajan al pueblo para darle el \u00faltimo adi\u00f3s y reencontrarse con Tom\u00e1s, \u00fanico hijo de la difunta. Lo que no esperaban es que la \u00faltima voluntad de Amparito fuese ser enterrada en el pante\u00f3n familiar. Los Gallardo lo tienen claro: \u00a1ni de broma! Tras negarse a cumplir este favor, reciben el legado de Amparito: unas cartas personalizadas dirigidas a los tres hermanos.",
-    "1982. Un joven polic\u00eda curtido en los barrios m\u00e1s duros de Madrid acepta un destino en un pueblo de mar con la esperanza de curar a su hija y de paso ganar algo de tranquilidad. Una vez all\u00ed se ve envuelto en la investigaci\u00f3n del extra\u00f1o asesinato del inspector al que ha de sustituir. Las pesquisas le llevar\u00e1n hasta un hotel playero donde una comunidad de ancianos nazis, reclamados por muchos pa\u00edses por cr\u00edmenes contra la humanidad, vive un retiro paradisiaco y feliz."
-  ],
-  "synopsisEn":[
-    "A young hardened police officer finds himself in the middle of the murder of the inspector he is now supposed to replace at a small sea town.",
-    "The Gallardos are a rich and respected family who spend their summers in a farmhouse cared for down to the smallest detail by Amparito, Tata, who, for the family's three children, Teresa, Benja and Aura, has been like a second mother.",
-    null
-  ],
-  "country":[
-    "BE",
-    "ES"
-  ],
-  "productionShare":[
-    "MAJ",
-    "MIN"
-  ],
-  "tags":[
-    "intergenerational friendship",
-    "extended family",
-    "mentorship",
-    "revenge",
-    "class conflict",
-    "motherhood",
-    "corruption",
-    "pilgrimage",
-    "wealth",
-    "rural",
-    "search for meaning",
-    "cultural memory",
-    "homosociality",
-    "retirement",
-    "natural death",
-    "substance abuse",
-    "personal memory",
-    "fatherhood",
-    "state institutions",
-    "loneliness",
-    "inheritance",
-    "burial",
-    "grief",
-    "crime",
-    "murder",
-    "natural",
-    "low rank employment"
-  ],
-  "charId":[
-    "ES2022_102_01",
-    "ES2023_018_01",
-    "ES2021_011_01"
-  ],
-  "charAge":[
-    "2",
-    "3"
-  ],
-  "charGender":"M",
-  "charSexuality":[
-    "HE",
-    null
-  ],
-  "charOrigin":"WWE",
-  "charClass":[
-    "MC",
-    null
-  ],
-  "charProfession":[
-    "EM",
-    null
-  ],
-  "charAbility":"AB",
-  "assistedMobility":"N",
-  "perName":"Pere Ponce",
-  "perBirthYear":1964,
-  "perDeathYear":0,
-  "perGender":"M",
-  "perNationality":"ES",
-  "perRole":null,
-  "slug":"pere-ponce"
+
+  ]
 }
