@@ -45,7 +45,6 @@ def combine_films_data() -> DataFrame:
     try:
         main_df = process_main()
 
-        # Process director data
         director_df = process_biographies()
         director_df.columns = [
             "person_id",
@@ -57,7 +56,6 @@ def combine_films_data() -> DataFrame:
             "slug",
         ]
 
-        # Create nested director object
         director_df["director_obj"] = director_df.apply(
             lambda x: {
                 "id": x["person_id"],
@@ -71,7 +69,6 @@ def combine_films_data() -> DataFrame:
             axis=1,
         )
 
-        # Merge director data
         main_df = main_df.merge(
             director_df[["person_id", "director_obj"]],
             left_on="director",
@@ -113,7 +110,6 @@ def process_main() -> DataFrame:
         lambda x: slugify(f"{x['film_id']}-{x['nat_title']}"), axis=1
     )
 
-    # Process title
     main_df["eng_title"] = main_df["eng_title"].fillna("")
     main_df["title"] = main_df.apply(
         lambda x: {
@@ -124,7 +120,6 @@ def process_main() -> DataFrame:
     )
     main_df = main_df.drop(columns=["nat_title", "eng_title"])
 
-    # Process release
     main_df["release_date"] = pd.to_datetime(
         main_df["release_date"], errors="coerce", format="mixed", cache=True
     )
@@ -140,12 +135,10 @@ def process_main() -> DataFrame:
     )
     main_df = main_df.drop(columns=["release_type", "release_date", "release_year"])
 
-    # Split directors and explode into separate rows
     main_df["director"] = main_df["director"].str.split(", ")
     main_df = main_df.explode("director")
     main_df["director"] = main_df["director"].str.strip()
 
-    # Process related film data
     data_files = [
         ("genre", ["film_id", "film_genre"]),
         (
@@ -166,21 +159,18 @@ def process_main() -> DataFrame:
         df = load_data(RAW_DIR / f"{FILE_PREFIX}-{suffix}.csv")
         main_df = main_df.merge(df[columns], on="film_id", how="left")
 
-    # Create nested media object
     main_df["media"] = main_df.apply(
         lambda x: {"trailerUrl": x["trailer_url"], "posterUrl": x["poster_url"]},
         axis=1,
     )
     main_df = main_df.drop(columns=["trailer_url", "poster_url"])
 
-    # Create nested synopsis object
     main_df["synopsis"] = main_df.apply(
         lambda x: {"native": x["nat_synopsis"], "english": x["eng_synopsis"]},
         axis=1,
     )
     main_df = main_df.drop(columns=["nat_synopsis", "eng_synopsis"])
 
-    # Create nested production object
     main_df["production"] = main_df.apply(
         lambda x: {"country": x["film_country"], "share": x["prod_share"]}, axis=1
     )
@@ -304,7 +294,6 @@ def process_characters() -> DataFrame:
         how="left",
     )
 
-    # Log any missing character biography data
     missing_biogs = character_tags_df[character_tags_df["person_name"].isna()][
         "person_id"
     ].unique()
