@@ -1,21 +1,36 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { searchConfig } from '$lib';
 	import SearchWorker from '$lib/search/worker?worker';
-	import { onMount, onDestroy } from 'svelte';
-	import { fade, slide } from 'svelte/transition';
-	import type { Component } from 'svelte';
-	import type { Item } from '$lib/types';
+	import { onDestroy, onMount } from 'svelte';
+	import type { SearchConfig } from './types';
+	import SearchInput from './SearchInput.svelte';
+	import SearchStatus from './SearchStatus.svelte';
+	import SearchShortcuts from './SearchShortcuts.svelte';
+	import SearchFilters from './SearchFilters.svelte';
+	import SearchResults from './SearchResults.svelte';
+	import SearchResultsItems from './SearchResultsItems.svelte';
 
 	const {
 		dataSource,
+		searchConfig,
 		title,
-		ItemComponent,
+		SearchShortcutsComponent = SearchShortcuts,
+		SearchStatusComponent = SearchStatus,
+		SearchInputComponent = SearchInput,
+		SearchFiltersComponent = SearchFilters,
+		SearchResultsComponent = SearchResults,
+		SearchResultsItemsComponent = SearchResultsItems,
 		minSearchQueryLength = 3
 	}: {
 		dataSource: keyof typeof searchConfig;
+		searchConfig: SearchConfig;
 		title: string;
-		ItemComponent: Component<{ item: Item }>;
+		SearchShortcutsComponent?: typeof SearchShortcuts;
+		SearchStatusComponent?: typeof SearchStatus;
+		SearchInputComponent?: typeof SearchInput;
+		SearchFiltersComponent?: typeof SearchFilters;
+		SearchResultsComponent?: typeof SearchResults;
+		SearchResultsItemsComponent?: typeof SearchResultsItems;
 		minSearchQueryLength?: number;
 	} = $props();
 
@@ -25,13 +40,10 @@
 	let searchWorker = $state<Worker | null>(null);
 	let searchError = $state<string | null>(null);
 
-	const aggregations = $derived(Object.entries(searchConfig[dataSource].aggregations));
-
 	let isLoading = $derived(['idle', 'load'].includes(searchStatus));
 
 	let showSearch = $state(false);
 
-	let isValidSearch = $derived(searchQuery.trim().length >= minSearchQueryLength);
 	let isSearching = $state(false);
 	let searchResults = $state([]);
 	// @ts-ignore
@@ -75,6 +87,10 @@
 		searchWorker.postMessage({ action: 'load', payload: { basePath: base, dataSource } });
 	}
 
+	function handleToggleSearch() {
+		showSearch = !showSearch;
+	}
+
 	function handleSearch() {
 		isSearching = true;
 		postSearchMessage();
@@ -113,160 +129,44 @@
 	});
 </script>
 
-<svelte:window
-	onkeydown={(e) => {
-		if (e.ctrlKey || e.metaKey) {
-			if (e.key === 'k' || e.key === 'K') {
-				e.preventDefault();
-				showSearch = !showSearch;
-			}
-		}
-	}}
-/>
+<SearchShortcutsComponent onToggleSearch={handleToggleSearch} />
 
-<h2>{title}</h2>
-<section>
-	{#if isLoading}
-		<p aria-busy={true}>Loading search engine...</p>
-	{:else if isSearching}
-		<p aria-busy={true}>Searching...</p>
-	{/if}
+<article>
+	<h1>{title}</h1>
 
-	{#if searchError}
-		<p role="alert" class="error">{searchError}</p>
-	{/if}
-</section>
-<section aria-busy={isSearching}>
-	{#if !isLoading}
-		<hgroup>
-			<h3>Results</h3>
-			<small>
-				{#if searchPagination?.total !== undefined}
-					{searchPagination.total.toLocaleString()}
-					{title.toLowerCase()} found
-				{:else}
-					No results
-				{/if}
-			</small>
-		</hgroup>
+	<SearchStatusComponent {isLoading} {isSearching} {searchError} />
 
-		<div transition:fade>
-			{#if searchItems?.length > 0}
-				<ItemComponent items={searchItems} />
-			{:else if searchQuery && !isSearching}
-				<p>No results found for "{searchQuery}"</p>
-			{/if}
-		</div>
-	{/if}
-</section>
+	<SearchInputComponent
+		bind:searchQuery
+		{isLoading}
+		{isSearching}
+		{minSearchQueryLength}
+		onSearch={handleSearch}
+		onReset={handleReset}
+	/>
 
-{#if showSearch}
-	<aside tabindex="-1" transition:slide={{ axis: 'x' }}>
-		<button
-			class="close-search-button"
-			aria-label="Close search"
-			onclick={() => (showSearch = false)}
-		>
-			<span aria-hidden="true">&times;</span>
+	<section>
+		<button on:click={handleToggleSearch} disabled={isLoading || isSearching || showSearch}>
+			Filters
 		</button>
-		<h2>Search</h2>
-		<form onsubmit={handleSearch} onreset={handleReset}>
-			<fieldset>
-				<input
-					id="search-query"
-					type="text"
-					bind:value={searchQuery}
-					disabled={isLoading || isSearching}
-					placeholder="Enter a search query..."
-					aria-label="Search query"
-				/>
-				<div role="group">
-					<button
-						type="submit"
-						disabled={isLoading || !isValidSearch}
-						aria-label={!isValidSearch
-							? `Please enter at least ${minSearchQueryLength} characters`
-							: 'Search'}>Search</button
-					>
-					<button type="reset" disabled={isLoading} aria-label="Reset search">Reset</button>
-				</div>
-			</fieldset>
-		</form>
+	</section>
 
-		<section>
-			<h3>Filters</h3>
-			{#if searchAggregations}
-				{#each aggregations as [key, aggregation]}
-					<details>
-						<summary>{aggregation.title}</summary>
-						<fieldset>
-							{#each searchAggregations[key].buckets as bucket}
-								<label>
-									<input
-										type="checkbox"
-										value={bucket.key}
-										bind:group={searchFilters[key]}
-										onchange={handleSearchFiltersChange}
-									/>
-									<span>{bucket.key}</span>
-									<small>({bucket.doc_count})</small>
-								</label>
-							{/each}
-						</fieldset>
-					</details>
-				{/each}
-			{/if}
-		</section>
-	</aside>
-{/if}
+	<SearchResultsComponent
+		{isLoading}
+		{isSearching}
+		{searchQuery}
+		{searchItems}
+		{searchPagination}
+		{SearchResultsItemsComponent}
+	/>
+</article>
 
-<style>
-	.columns {
-		display: grid;
-		grid-template-columns: 0.3fr 1fr;
-		gap: var(--pico-spacing);
-	}
-
-	@media (max-width: 768px) {
-		.columns {
-			grid-template-columns: 1fr;
-		}
-	}
-
-	aside {
-		background: var(--pico-background-color);
-		border: var(--pico-border-width) solid var(--pico-primary-border);
-		border-radius: var(--pico-border-radius);
-		height: 100vh;
-		left: 0;
-		overflow-y: auto;
-		padding: var(--pico-spacing);
-		position: fixed;
-		top: 0;
-		width: min(500px, 100vw);
-		z-index: 10;
-	}
-
-	.close-search-button {
-		background: transparent;
-		border: none;
-		color: var(--pico-muted-color);
-		padding: 0;
-		position: absolute;
-		right: var(--pico-spacing);
-		top: var(--pico-spacing);
-	}
-
-	.close-search-button:hover {
-		color: var(--pico-primary-color);
-	}
-
-	details fieldset {
-		max-height: var(--search-filter-height);
-		overflow-y: scroll;
-	}
-
-	label {
-		width: 100%;
-	}
-</style>
+<SearchFiltersComponent
+	show={showSearch}
+	bind:searchFilters
+	{searchAggregations}
+	{searchConfig}
+	{dataSource}
+	onClose={() => (showSearch = false)}
+	onFiltersChange={handleSearchFiltersChange}
+/>

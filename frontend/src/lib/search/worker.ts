@@ -7,13 +7,13 @@ addEventListener('message', async (event) => {
 	if (action === 'load') {
 		const { basePath, dataSource } = payload;
 		const config = searchConfig[dataSource as keyof typeof searchConfig];
-		const data = await fetch(`${basePath}/api/${dataSource}.json`).then((res) => res.json());
+		const data = await fetch(`${basePath}/api/search/${dataSource}.json`).then((res) => res.json());
 
 		initSearchEngine(dataSource, data, config);
 		postMessage({ action: 'ready' });
 	} else if (action === 'search') {
 		const { dataSource, query, filters } = payload;
-		const results = search(dataSource, query, filters);
+		const results = search({ dataSource, query, filters });
 
 		postMessage({ action: 'results', payload: { query, results } });
 	}

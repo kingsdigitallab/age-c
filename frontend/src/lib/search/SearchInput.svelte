@@ -1,0 +1,47 @@
+<script lang="ts">
+	let {
+		title = 'Search',
+		searchQuery = $bindable(''),
+		isLoading,
+		isSearching,
+		minSearchQueryLength = 3,
+		onSearch,
+		onReset
+	}: {
+		title: string;
+		searchQuery: string;
+		isLoading: boolean;
+		isSearching: boolean;
+		minSearchQueryLength?: number;
+		onSearch: () => void;
+		onReset: () => void;
+	} = $props();
+
+	let isValidSearch = $derived(searchQuery.trim().length >= minSearchQueryLength);
+</script>
+
+<section>
+	<h2>{title}</h2>
+	<form onsubmit={onSearch} onreset={onReset}>
+		<fieldset role="group">
+			<input
+				id="search-query"
+				type="text"
+				bind:value={searchQuery}
+				disabled={isLoading || isSearching}
+				placeholder={`Enter a ${title.toLowerCase()} query...`}
+				aria-label={`Enter a ${title.toLowerCase()} query...`}
+			/>
+			<button
+				type="submit"
+				disabled={isLoading || !isValidSearch}
+				aria-label={!isValidSearch
+					? `Please enter at least ${minSearchQueryLength} characters`
+					: 'Search'}
+			>
+				Search
+			</button>
+			<button type="reset" disabled={isLoading} aria-label="Reset search"> Reset </button>
+		</fieldset>
+	</form>
+</section>
