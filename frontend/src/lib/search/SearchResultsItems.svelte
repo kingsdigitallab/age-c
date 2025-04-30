@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import type { Item } from '$lib/types';
 
 	const {
@@ -11,7 +12,7 @@
 <ol>
 	{#each items as item}
 		<li>
-			<a href={`/${item.type}/${item.slug}`}>{item.title}</a>
+			<a href={`${base}/${item.type}/${item.slug}`}>{item.title}</a>
 		</li>
 	{/each}
 </ol>
