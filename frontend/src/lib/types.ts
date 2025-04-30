@@ -1,40 +1,73 @@
-export interface Item {
+export interface Director {
+	id: string;
 	slug: string;
-	filmId: string;
-	title: string;
-	titleEn?: string;
-	director: string;
-	releaseType?: string | string[];
-	releaseDate?: number;
-	type?: string;
-	releaseYear?: number;
-	directorName?: string;
-	directorBirthYear?: number;
-	directorDeathYear?: number;
-	directorGender?: string;
-	directorNationality?: string;
-	genre?: string[];
+	name: string;
+	birthYear: number;
+	deathYear: number;
+	gender: string;
+	nationality: string;
+}
+
+export interface Person {
+	id: string;
+	name: string;
+	birthYear: number;
+	deathYear: number;
+	gender: string;
+	nationality: string;
+}
+
+export interface Film {
+	id: string;
+	slug: string;
+	title: { native: string; english: string };
+	filmType: string;
+	genre: string[];
+	release: Release;
+	tags?: string[];
+	production: Production;
+}
+export interface Character {
+	id: string;
+	age: string;
+	gender: string;
+	sexuality: string;
+	origin: string;
+	class: string;
+	profession: string;
+	ability: string;
+	assistedMobility: string;
+	person?: Person;
+	film?: Film;
+	role: string;
+}
+
+export interface Release {
+	type: string;
+	date: string;
+	year: number;
+}
+
+export interface Production {
+	country: string;
+	share: string;
+}
+
+export interface Media {
 	trailerUrl?: string;
 	posterUrl?: string;
-	synopsis?: string;
-	synopsisEn?: string;
-	country?: string[];
-	productionShare?: string[];
-	tags?: string[];
-	charId?: string;
-	perId?: string | string[];
-	charAge?: string;
-	charGender?: string;
-	charSexuality?: string;
-	charOrigin?: string;
-	charClass?: string;
-	charProfession?: string | string[];
-	charAbility?: string;
-	assistedMobility?: string;
-	perName?: string;
-	perBirthYear?: number;
-	perDeathYear?: number;
-	perGender?: string;
-	perNationality?: string;
-	perRole?: string | string[];
+}
+
+export interface Item extends Film {
+	id: string;
+	type: 'film' | 'biography';
+	media: Media;
+	director: Director[];
+	character: Character[];
+	synopsis?: { native: string; english: string };
+	name?: string;
+	birthYear?: string;
+	deathYear?: string;
+	nationality?: string;
+	gender?: string;
 }
