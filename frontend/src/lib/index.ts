@@ -1,3 +1,5 @@
+import type { SearchConfig } from './search/types';
+
 export const config = {
 	siteName: 'AGE-C',
 	siteTitle: 'Ageing and Gender in European Cinema',
@@ -6,133 +8,120 @@ export const config = {
 	emptyPlaceholder: 'Unknown'
 };
 
-const filmSearchAggregations = {
+const searchAggregations = {
 	type: {
 		title: 'Type',
 		hide_zero_doc_count: true,
-		size: 1000,
+		size: 2,
+		sort: 'key'
+	},
+	filmType: {
+		title: 'Film type',
+		hide_zero_doc_count: true,
+		size: 5,
 		sort: 'key'
 	},
 	genre: {
 		title: 'Genre',
 		hide_zero_doc_count: true,
-		size: 1000,
-		sort: 'key'
-	},
-	country: {
-		title: 'Country',
-		hide_zero_doc_count: true,
-		size: 1000,
+		size: 100,
 		sort: 'key'
 	},
 	tags: {
 		title: 'Tags',
 		hide_zero_doc_count: true,
-		size: 1000,
+		size: 500,
+		sort: 'key'
+	},
+	gender: {
+		title: 'Person gender',
+		hide_zero_doc_count: true,
+		size: 10,
 		sort: 'key'
 	},
 	directorGender: {
 		title: 'Director gender',
 		hide_zero_doc_count: true,
-		size: 1000,
+		size: 10,
 		sort: 'key'
 	},
 	directorNationality: {
 		title: 'Director nationality',
 		hide_zero_doc_count: true,
-		size: 1000,
+		size: 300,
 		sort: 'key'
 	},
-	charAge: {
+	characterAge: {
 		title: 'Character age',
 		hide_zero_doc_count: true,
-		size: 1000,
+		size: 10,
 		sort: 'key'
 	},
-	charGender: {
+	characterGender: {
 		title: 'Character gender',
 		hide_zero_doc_count: true,
-		size: 1000,
+		size: 10,
 		sort: 'key'
 	},
-	charSexuality: {
+	characterSexuality: {
 		title: 'Character sexuality',
 		hide_zero_doc_count: true,
-		size: 1000,
+		size: 10,
 		sort: 'key'
 	},
-	charOrigin: {
+	characterOrigin: {
 		title: 'Character origin',
 		hide_zero_doc_count: true,
-		size: 1000,
+		size: 50,
 		sort: 'key'
 	},
-	charClass: {
+	characterClass: {
 		title: 'Character class',
 		hide_zero_doc_count: true,
-		size: 1000,
+		size: 20,
 		sort: 'key'
 	},
-	charProfession: {
+	characterProfession: {
 		title: 'Character profession',
 		hide_zero_doc_count: true,
-		size: 1000,
+		size: 10,
 		sort: 'key'
 	},
-	charAbility: {
+	characterAbility: {
 		title: 'Character ability',
 		hide_zero_doc_count: true,
-		size: 1000,
+		size: 10,
 		sort: 'key'
 	},
 	assistedMobility: {
 		title: 'Assisted mobility',
 		hide_zero_doc_count: true,
-		size: 1000,
+		size: 10,
 		sort: 'key'
 	}
 };
 
-const biographiesSearchAggregations = {
-	perGender: {
-		title: 'Gender',
-		hide_zero_doc_count: true,
-		size: 5,
-		sort: 'key'
-	},
-	perNationality: {
-		title: 'Nationality',
-		hide_zero_doc_count: true,
-		size: 5,
-		sort: 'key'
-	}
-};
-
-export const searchConfig = {
-	biographies: {
-		aggregations: biographiesSearchAggregations,
-		searchableFields: ['perName', Object.keys(biographiesSearchAggregations)],
+export const searchConfig: SearchConfig = {
+	corpus: {
+		aggregations: searchAggregations,
+		searchableFields: ['title', 'name', 'synopsis', Object.keys(searchAggregations)],
 		sortings: {
-			perName_asc: {
-				field: 'perName',
+			default_asc: {
+				field: 'title',
 				order: 'asc'
 			},
-			perName_desc: {
-				field: 'perName',
+			default_desc: {
+				field: 'title',
 				order: 'desc'
-			}
-		}
-	},
-	films: {
-		aggregations: filmSearchAggregations,
-		searchableFields: [
-			'title',
-			'titleEn',
-			'synopsis',
-			'synopsisEn',
-			Object.keys(filmSearchAggregations)
-		],
-		sortings: {
+			},
+			name_asc: {
+				field: 'name',
+				order: 'asc'
+			},
+			name_desc: {
+				field: 'name',
+				order: 'desc'
+			},
 			title_asc: {
 				field: 'title',
 				order: 'asc'
