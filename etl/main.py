@@ -1,7 +1,7 @@
 import json
 import logging
 from pathlib import Path
-from typing import Union
+from typing import Dict, Union
 
 import pandas as pd
 from pandas import DataFrame
@@ -24,15 +24,18 @@ def main() -> None:
     try:
         films_df = combine_films_data()
         films_df = aggregate_films_data(films_df)
+        films_df = films_df.fillna("")
         logger.info(f"Aggregated films dataframe with {len(films_df)} rows")
         save_data(films_df, "films", individual=True)
 
         biog_df = combine_bio_data()
         biog_df = aggregate_bio_data(biog_df)
+        biog_df = biog_df.fillna("")
         logger.info(f"Aggregated biographies dataframe with {len(biog_df)} rows")
         save_data(biog_df, "biographies", individual=True)
 
         corpus_df = pd.concat([films_df, biog_df], ignore_index=True)
+        corpus_df = corpus_df.fillna("")
         logger.info(f"Concatenated dataframe with {len(corpus_df)} rows")
         save_data(corpus_df, "corpus", individual=False)
     except Exception as e:
@@ -55,6 +58,7 @@ def combine_films_data() -> DataFrame:
             "person_nat",
             "slug",
         ]
+        director_df = director_df.fillna("")
 
         director_df["director_obj"] = director_df.apply(
             lambda x: {
@@ -158,6 +162,7 @@ def process_main() -> DataFrame:
     for suffix, columns in data_files:
         df = load_data(RAW_DIR / f"{FILE_PREFIX}-{suffix}.csv")
         main_df = main_df.merge(df[columns], on="film_id", how="left")
+        main_df = main_df.fillna("")
 
     main_df["media"] = main_df.apply(
         lambda x: {"trailerUrl": x["trailer_url"], "posterUrl": x["poster_url"]},
@@ -184,6 +189,7 @@ def process_main() -> DataFrame:
             "tag_name": "tags",
         }
     )
+    main_df = main_df.fillna("")
 
     return main_df
 
@@ -305,6 +311,7 @@ def process_characters() -> DataFrame:
         on=["film_id", "person_id"],
         how="left",
     )
+    character_tags_df = character_tags_df.fillna("")
 
     character_tags_df["character_obj"] = character_tags_df.apply(
         lambda x: {
@@ -387,11 +394,12 @@ def save_data(df: DataFrame, name: str, individual: bool = False) -> None:
         logger.info(f"Saved CSV to {csv_path}")
 
         json_path = FINAL_DIR / f"{name}.json"
+
+        records = df.to_dict("records")
+        records = [clean_deep(record) for record in records]
         with open(json_path, "w", encoding="utf-8") as f:
-            for _, row in df.iterrows():
-                row_dict = row.dropna().to_dict()
-                json.dump(row_dict, f, indent=2, default=str)
-                f.write("\n")
+            json.dump(records, f, indent=2, default=str)
+
         logger.info(f"Saved JSON to {json_path}")
 
         if individual:
@@ -399,13 +407,52 @@ def save_data(df: DataFrame, name: str, individual: bool = False) -> None:
             individual_dir.mkdir(exist_ok=True)
 
             for _, row in df.iterrows():
+                record = clean_deep(row.to_dict())
                 file_path = individual_dir / f"{row['slug']}.json"
-                row.to_json(file_path, indent=2)
+                with open(file_path, "w", encoding="utf-8") as f:
+                    json.dump(record, f, indent=2, default=str)
 
             logger.info(f"Saved {len(df)} individual JSON files to {individual_dir}")
     except Exception as e:
         logger.error(f"Error saving {name} data: {str(e)}")
         raise
+
+
+def clean_deep(data: Union[Dict, list]) -> Union[Dict, list]:
+    """Remove empty values from nested dictionaries and lists.
+
+    Empty values are:
+    - None
+    - Empty strings
+    - Empty lists
+    - Empty dictionaries
+    - 0 for numbers
+
+    Args:
+        data: Dictionary or list to clean
+
+    Returns:
+        Cleaned dictionary or list with empty values removed
+    """
+    if isinstance(data, list):
+        return [
+            clean_deep(item) for item in data if item not in (None, 0, 0.0, "", [], {})
+        ]
+
+    if isinstance(data, dict):
+        cleaned = {}
+
+        for key, value in data.items():
+            if isinstance(value, (dict, list)):
+                cleaned_value = clean_deep(value)
+                if cleaned_value not in (None, 0, 0.0, "", [], {}):
+                    cleaned[key] = cleaned_value
+            elif value not in (None, 0, 0.0, "", [], {}):
+                cleaned[key] = value
+
+        return cleaned
+
+    return data
 
 
 def combine_bio_data() -> DataFrame:
