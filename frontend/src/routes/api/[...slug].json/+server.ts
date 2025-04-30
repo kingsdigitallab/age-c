@@ -1,4 +1,3 @@
-import { base } from '$app/paths';
 import biographies from '$data/biographies.json' assert { type: 'json' };
 import films from '$data/films.json' assert { type: 'json' };
 import { getData } from '$lib/data';
