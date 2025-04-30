@@ -35,9 +35,6 @@
 			</ul>
 			<ul>
 				<li><a href={`${base}/about`}>About</a></li>
-				<li><a href={`${base}/films`}>Films</a></li>
-				<li><a href={`${base}/biographies`}>Biographies</a></li>
-				<li><a href={`${base}/explore`}>Explore</a></li>
 			</ul>
 		</nav>
 	</header>
