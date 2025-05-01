@@ -176,6 +176,8 @@
 	/>
 
 	<SearchPaginationComponent
+		{isLoading}
+		{isSearching}
 		count={searchPagination.total}
 		page={searchPagination.page}
 		perPage={searchPagination.per_page}
