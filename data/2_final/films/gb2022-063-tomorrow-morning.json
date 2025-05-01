@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-02-09 00:00:00",
+    "date": "2022-02-09",
     "year": 2022
   },
   "production": {
@@ -20,15 +20,15 @@
     "posterUrl": "https://www.imdb.com/title/tt14074150/mediaviewer/rm1643841793/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROM",
-    "MUS"
+    "MUS",
+    "ROM"
   ],
   "tags": [
-    "wedding",
-    "grandmotherhood",
-    "motherhood",
     "marriage",
-    "urban"
+    "wedding",
+    "motherhood",
+    "urban",
+    "grandmotherhood"
   ],
   "director": [
     {
@@ -41,37 +41,6 @@
   ],
   "character": [
     {
-      "id": "GB2022_063_04",
-      "age": "3",
-      "gender": "F",
-      "origin": "WWE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Harriet Thorpe",
-        "name": "Harriet Thorpe",
-        "birthYear": 1957.0,
-        "gender": "F",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2022_063_01",
-      "age": "4",
-      "gender": "F",
-      "origin": "WWE",
-      "class": "UM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Joan Collins",
-        "name": "Joan Collins",
-        "birthYear": 1933.0,
-        "gender": "F",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2022_063_03",
       "age": "3",
       "gender": "M",
@@ -81,6 +50,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Henry Goodman",
+        "slug": "henry-goodman",
         "name": "Henry Goodman",
         "birthYear": 1950.0,
         "gender": "M",
@@ -97,8 +67,42 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Anita Dobson",
+        "slug": "anita-dobson",
         "name": "Anita Dobson",
         "birthYear": 1949.0,
+        "gender": "F",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2022_063_01",
+      "age": "4",
+      "gender": "F",
+      "origin": "WWE",
+      "class": "UM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Joan Collins",
+        "slug": "joan-collins",
+        "name": "Joan Collins",
+        "birthYear": 1933.0,
+        "gender": "F",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2022_063_04",
+      "age": "3",
+      "gender": "F",
+      "origin": "WWE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Harriet Thorpe",
+        "slug": "harriet-thorpe",
+        "name": "Harriet Thorpe",
+        "birthYear": 1957.0,
         "gender": "F",
         "nationality": "GB"
       }

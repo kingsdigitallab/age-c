@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "VOD",
-    "date": "2021-02-19 00:00:00",
+    "date": "2021-02-19",
     "year": 2021
   },
   "production": {
@@ -20,22 +20,22 @@
     "posterUrl": "https://www.imdb.com/title/tt7598106/mediaviewer/rm3411986945/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROM",
-    "HIS",
     "BIO",
-    "DRA"
+    "ROM",
+    "DRA",
+    "HIS"
   ],
   "tags": [
-    "independent home",
-    "personal trauma",
-    "artistic creation",
-    "new start",
-    "fatherhood",
     "marriage",
-    "self-employment",
-    "search for meaning",
     "grief",
-    "intergenerational friendship"
+    "search for meaning",
+    "personal trauma",
+    "independent home",
+    "self-employment",
+    "intergenerational friendship",
+    "new start",
+    "artistic creation",
+    "fatherhood"
   ],
   "director": [
     {
@@ -56,11 +56,22 @@
       "origin": "WWE",
       "person": {
         "id": "Geoffrey Palmer",
+        "slug": "geoffrey-palmer",
         "name": "Geoffrey Palmer",
         "birthYear": 1927.0,
         "deathYear": 2020.0,
         "gender": "M",
         "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2021_014_03",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "person": {
+        "id": "Conleth Hill"
       }
     },
     {
@@ -75,20 +86,11 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Hugh Bonneville",
+        "slug": "hugh-bonneville",
         "name": "Hugh Bonneville",
         "birthYear": 1963.0,
         "gender": "M",
         "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2021_014_03",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "person": {
-        "id": "Conleth Hill"
       }
     }
   ],

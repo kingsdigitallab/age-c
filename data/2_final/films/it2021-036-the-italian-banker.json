@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2021-07-10 00:00:00",
+    "date": "2021-07-10",
     "year": 2021
   },
   "production": {
@@ -38,25 +38,6 @@
   ],
   "character": [
     {
-      "id": "IT2021_036_02",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Fabio Sartor",
-        "name": "Fabio Sartor",
-        "birthYear": 1954.0,
-        "gender": "M",
-        "nationality": "IT"
-      },
-      "role": "LEA"
-    },
-    {
       "id": "IT2021_036_03",
       "age": "2",
       "gender": "M",
@@ -68,6 +49,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Mirko Artuso",
+        "slug": "mirko-artuso",
         "name": "Mirko Artuso",
         "birthYear": 1966.0,
         "gender": "M",
@@ -87,8 +69,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Diego Ribon",
+        "slug": "diego-ribon",
         "name": "Diego Ribon",
         "birthYear": 1960.0,
+        "gender": "M",
+        "nationality": "IT"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2021_036_02",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Fabio Sartor",
+        "slug": "fabio-sartor",
+        "name": "Fabio Sartor",
+        "birthYear": 1954.0,
         "gender": "M",
         "nationality": "IT"
       },

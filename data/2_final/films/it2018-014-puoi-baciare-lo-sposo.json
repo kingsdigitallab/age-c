@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2018-03-01 00:00:00",
+    "date": "2018-03-01",
     "year": 2018
   },
   "production": {
@@ -24,11 +24,11 @@
     "COM"
   ],
   "tags": [
-    "wedding",
-    "lgbtqi",
-    "parenthood",
     "marriage",
-    "in-laws"
+    "in-laws",
+    "wedding",
+    "parenthood",
+    "lgbtqi"
   ],
   "director": [
     {
@@ -42,24 +42,6 @@
   ],
   "character": [
     {
-      "id": "IT2018_014_02",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Monica Guerritore",
-        "name": "Monica Guerritore",
-        "birthYear": 1958.0,
-        "gender": "F",
-        "nationality": "IT"
-      },
-      "role": "LEA"
-    },
-    {
       "id": "IT2018_014_01",
       "age": "3",
       "gender": "M",
@@ -71,9 +53,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Diego Abatantuono",
+        "slug": "diego-abatantuono",
         "name": "Diego Abatantuono",
         "birthYear": 1955.0,
         "gender": "M",
+        "nationality": "IT"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2018_014_02",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Monica Guerritore",
+        "slug": "monica-guerritore",
+        "name": "Monica Guerritore",
+        "birthYear": 1958.0,
+        "gender": "F",
         "nationality": "IT"
       },
       "role": "LEA"

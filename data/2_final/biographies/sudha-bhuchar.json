@@ -8,57 +8,57 @@
   "gender": "F",
   "character": [
     {
-      "id": "GB2020_035_01",
-      "age": "3",
-      "gender": "F",
-      "origin": "SOA",
-      "class": "LM",
       "ability": "AB",
+      "age": "3",
       "assistedMobility": "AB",
       "film": {
-        "id": "GB2020_035",
-        "slug": "gb2020-035-mogul-mowgli",
-        "title": {
-          "native": "Mogul Mowgli"
-        },
-        "filmType": "F",
-        "genre": "DRA",
-        "release": {
-          "type": "THE",
-          "year": 2020
-        },
-        "tags": "segregation",
-        "production": {
-          "country": "US",
-          "share": "MIN"
-        }
-      }
-    },
-    {
-      "id": "GB2018_014_03",
-      "age": "3",
-      "gender": "F",
-      "origin": "AWE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "film": {
-        "id": "GB2018_014",
-        "slug": "gb2018-014-happy-new-year-colin-burstead",
-        "title": {
-          "native": "Happy New Year, Colin Burstead"
-        },
         "filmType": "F",
         "genre": "COM",
+        "id": "GB2018_014",
+        "production": {
+          "country": "GB",
+          "share": "MAJ"
+        },
         "release": {
           "type": "FES",
           "year": 2011
         },
+        "slug": "gb2018-014-happy-new-year-colin-burstead",
         "tags": "class conflict",
-        "production": {
-          "country": "GB",
-          "share": "MAJ"
+        "title": {
+          "native": "Happy New Year, Colin Burstead"
         }
-      }
+      },
+      "gender": "F",
+      "id": "GB2018_014_03",
+      "origin": "AWE"
+    },
+    {
+      "ability": "AB",
+      "age": "3",
+      "assistedMobility": "AB",
+      "class": "LM",
+      "film": {
+        "filmType": "F",
+        "genre": "DRA",
+        "id": "GB2020_035",
+        "production": {
+          "country": "US",
+          "share": "MIN"
+        },
+        "release": {
+          "type": "THE",
+          "year": 2020
+        },
+        "slug": "gb2020-035-mogul-mowgli",
+        "tags": "segregation",
+        "title": {
+          "native": "Mogul Mowgli"
+        }
+      },
+      "gender": "F",
+      "id": "GB2020_035_01",
+      "origin": "SOA"
     }
   ]
 }

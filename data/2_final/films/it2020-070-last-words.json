@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "FES",
-    "date": "2020-05-12 00:00:00",
+    "date": "2020-05-12",
     "year": 2020
   },
   "production": {
@@ -20,19 +20,37 @@
     "posterUrl": "https://www.imdb.com/title/tt12443726/mediaviewer/rm650833665/?ref_=tt_ov_i"
   },
   "genre": [
-    "DIS",
     "MPF",
-    "DRA"
+    "DRA",
+    "DIS"
   ],
   "tags": [
-    "artistic creation",
-    "personal memory",
-    "interracial relationships",
     "ecology",
+    "personal memory",
     "intergenerational friendship",
-    "natural"
+    "natural",
+    "interracial relationships",
+    "artistic creation"
   ],
   "character": [
+    {
+      "id": "IT2020_070_01",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "NEU",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Charlotte Rampling",
+        "slug": "charlotte-rampling",
+        "name": "Charlotte Rampling",
+        "birthYear": 1946.0,
+        "gender": "F",
+        "nationality": "GB"
+      },
+      "role": "LEA"
+    },
     {
       "id": "IT2020_070_02",
       "age": "4",
@@ -43,6 +61,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Nick Nolte",
+        "slug": "nick-nolte",
         "name": "Nick Nolte",
         "birthYear": 1941.0,
         "gender": "M",
@@ -60,27 +79,11 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Stellan Skarsg\u00e5rd",
+        "slug": "stellan-skarsgard",
         "name": "Stellan Skarsg\u00e5rd",
         "birthYear": 1951.0,
         "gender": "M",
         "nationality": "CH"
-      },
-      "role": "LEA"
-    },
-    {
-      "id": "IT2020_070_01",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "NEU",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Charlotte Rampling",
-        "name": "Charlotte Rampling",
-        "birthYear": 1946.0,
-        "gender": "F",
-        "nationality": "GB"
       },
       "role": "LEA"
     }

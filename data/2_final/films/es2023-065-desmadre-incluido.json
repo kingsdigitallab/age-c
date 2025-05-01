@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-09-22 00:00:00",
+    "date": "2023-09-22",
     "year": 2023
   },
   "production": {
@@ -20,18 +20,18 @@
     "posterUrl": "https://www.imdb.com/title/tt28248308/mediaviewer/rm1481398785/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
-    "MPF"
+    "MPF",
+    "COM"
   ],
   "tags": [
-    "wedding",
+    "low rank employment",
     "abuse",
     "holiday",
-    "covid-19",
-    "motherhood",
-    "low rank employment",
     "self-employment",
-    "state institutions"
+    "wedding",
+    "state institutions",
+    "covid-19",
+    "motherhood"
   ],
   "director": [
     {
@@ -45,38 +45,6 @@
   ],
   "character": [
     {
-      "id": "ES2023_065_01",
-      "age": "4",
-      "gender": "M",
-      "origin": "WWE",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Saturnino Garc\u00eda",
-        "name": "Saturnino Garc\u00eda",
-        "birthYear": 1935.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2023_065_05",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Antonia San Juan",
-        "name": "Antonia San Juan",
-        "birthYear": 1961.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2023_065_04",
       "age": "3",
       "gender": "M",
@@ -87,6 +55,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Javivi",
+        "slug": "javivi",
         "name": "Javivi",
         "birthYear": 1961.0,
         "gender": "M",
@@ -104,9 +73,27 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Manuel Tallaf\u00e9",
+        "slug": "manuel-tallafe",
         "name": "Manuel Tallaf\u00e9",
         "birthYear": 1963.0,
         "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_065_05",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Antonia San Juan",
+        "slug": "antonia-san-juan",
+        "name": "Antonia San Juan",
+        "birthYear": 1961.0,
+        "gender": "F",
         "nationality": "ES"
       }
     },
@@ -122,9 +109,27 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Pilar Ord\u00f3\u00f1ez",
+        "slug": "pilar-ordonez",
         "name": "Pilar Ord\u00f3\u00f1ez",
         "birthYear": 1963.0,
         "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_065_01",
+      "age": "4",
+      "gender": "M",
+      "origin": "WWE",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Saturnino Garc\u00eda",
+        "slug": "saturnino-garcia",
+        "name": "Saturnino Garc\u00eda",
+        "birthYear": 1935.0,
+        "gender": "M",
         "nationality": "ES"
       }
     }

@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-07-06 00:00:00",
+    "date": "2023-07-06",
     "year": 2023
   },
   "production": {
@@ -24,17 +24,17 @@
     "CHI"
   ],
   "tags": [
-    "separation",
-    "unemployment",
-    "holiday",
-    "new start",
-    "precarity",
-    "fatherhood",
-    "homosociality",
-    "low rank employment",
-    "intragenerational friendship",
     "intergenerational conflict",
-    "class conflict"
+    "precarity",
+    "class conflict",
+    "low rank employment",
+    "homosociality",
+    "holiday",
+    "separation",
+    "intragenerational friendship",
+    "new start",
+    "unemployment",
+    "fatherhood"
   ],
   "director": [
     {
@@ -48,24 +48,6 @@
   ],
   "character": [
     {
-      "id": "ES2023_004_02",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Leo Harlem",
-        "name": "Leo Harlem",
-        "birthYear": 1965.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2023_004_01",
       "age": "2",
       "gender": "M",
@@ -77,6 +59,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Santiago Segura",
+        "slug": "santiago-segura",
         "name": "Santiago Segura",
         "birthYear": 1965.0,
         "gender": "M",
@@ -94,8 +77,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Antonio Resines",
+        "slug": "antonio-resines",
         "name": "Antonio Resines",
         "birthYear": 1954.0,
+        "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_004_02",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Leo Harlem",
+        "slug": "leo-harlem",
+        "name": "Leo Harlem",
+        "birthYear": 1965.0,
         "gender": "M",
         "nationality": "ES"
       }

@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2021-09-17 00:00:00",
+    "date": "2021-09-17",
     "year": 2021
   },
   "production": {
@@ -20,29 +20,29 @@
     "posterUrl": "https://www.imdb.com/title/tt13071366/mediaviewer/rm3357011969/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
-    "ROM",
     "MPF",
-    "ROA"
+    "ROA",
+    "COM",
+    "ROM"
   ],
   "tags": [
-    "romance",
-    "communal housing",
-    "new start",
-    "reproductive technologies",
-    "desire",
-    "class solidarity",
     "rescue mission",
-    "sex",
+    "retirement",
     "precarity",
-    "burial",
-    "intragenerational friendship",
     "may-december",
     "cross-gender friendship",
-    "retirement",
-    "elderhood (friendship among elders)",
+    "burial",
+    "intragenerational friendship",
+    "sex",
+    "class solidarity",
     "intergenerational friendship",
-    "natural"
+    "desire",
+    "elderhood (friendship among elders)",
+    "communal housing",
+    "romance",
+    "new start",
+    "natural",
+    "reproductive technologies"
   ],
   "director": [
     {
@@ -66,42 +66,9 @@
       "assistedMobility": "AB",
       "person": {
         "id": "William Thomas",
+        "slug": "william-thomas",
         "name": "William Thomas",
         "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2021_041_04",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "LC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Keith Allen",
-        "name": "Keith Allen",
-        "birthYear": 1953.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2021_041_03",
-      "age": "3",
-      "gender": "F",
-      "origin": "WWE",
-      "class": "LC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Di Botcher",
-        "name": "Di Botcher",
-        "birthYear": 1959.0,
-        "gender": "F",
         "nationality": "GB"
       }
     },
@@ -117,9 +84,46 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Melanie Walters",
+        "slug": "melanie-walters",
         "name": "Melanie Walters",
         "birthYear": 1962.0,
         "gender": "F",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2021_041_03",
+      "age": "3",
+      "gender": "F",
+      "origin": "WWE",
+      "class": "LC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Di Botcher",
+        "slug": "di-botcher",
+        "name": "Di Botcher",
+        "birthYear": 1959.0,
+        "gender": "F",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2021_041_04",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "LC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Keith Allen",
+        "slug": "keith-allen",
+        "name": "Keith Allen",
+        "birthYear": 1953.0,
+        "gender": "M",
         "nationality": "GB"
       }
     }

@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "FES",
-    "date": "2022-10-15 00:00:00",
+    "date": "2022-10-15",
     "year": 2022
   },
   "production": {
@@ -20,27 +20,27 @@
     "posterUrl": "https://www.imdb.com/title/tt13139228/mediaviewer/rm1900413185/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROM",
     "HIS",
+    "ROM",
     "DRA"
   ],
   "tags": [
-    "romance",
-    "personal trauma",
+    "collective trauma",
     "high rank employment",
-    "lgbtqi",
+    "marriage",
+    "education",
+    "grief",
+    "infidelity",
+    "personal trauma",
+    "low rank employment",
+    "friendship betrayal",
+    "personal memory",
     "desire",
     "state institutions",
-    "education",
-    "personal memory",
-    "marriage",
-    "collective trauma",
-    "low rank employment",
+    "lgbtqi",
     "urban",
-    "stages of life",
-    "infidelity",
-    "grief",
-    "friendship betrayal"
+    "romance",
+    "stages of life"
   ],
   "director": [
     {
@@ -54,24 +54,6 @@
   ],
   "character": [
     {
-      "id": "GB2022_059_02",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "BI",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Linus Roache",
-        "name": "Linus Roache",
-        "birthYear": 1964.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2022_059_01",
       "age": "2",
       "gender": "F",
@@ -83,9 +65,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Gina McKee",
+        "slug": "gina-mckee",
         "name": "Gina McKee",
         "birthYear": 1964.0,
         "gender": "F",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2022_059_02",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "BI",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Linus Roache",
+        "slug": "linus-roache",
+        "name": "Linus Roache",
+        "birthYear": 1964.0,
+        "gender": "M",
         "nationality": "GB"
       }
     },
@@ -101,6 +103,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Rupert Everett",
+        "slug": "rupert-everett",
         "name": "Rupert Everett",
         "birthYear": 1959.0,
         "gender": "M",

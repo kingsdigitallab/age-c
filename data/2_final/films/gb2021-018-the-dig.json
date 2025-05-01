@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "VOD",
-    "date": "2021-01-29 00:00:00",
+    "date": "2021-01-29",
     "year": 2021
   },
   "production": {
@@ -20,28 +20,28 @@
     "posterUrl": "https://www.imdb.com/title/tt3661210/mediaviewer/rm4196523009/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROM",
-    "HIS",
     "BIO",
-    "DRA"
+    "ROM",
+    "DRA",
+    "HIS"
   ],
   "tags": [
+    "marriage",
+    "superior-employee relationship",
+    "daily routine",
+    "precarity",
+    "education",
+    "low rank employment",
+    "homosociality",
+    "war",
     "independent home",
-    "high rank employment",
     "gender discrimination",
     "class conflict",
-    "precarity",
-    "daily routine",
+    "intergenerational friendship",
     "disappearing professions",
-    "education",
-    "homosociality",
-    "marriage",
-    "rural",
-    "low rank employment",
-    "war",
+    "high rank employment",
     "cultural memory",
-    "superior-employee relationship",
-    "intergenerational friendship"
+    "rural"
   ],
   "director": [
     {
@@ -55,19 +55,6 @@
   ],
   "character": [
     {
-      "id": "GB2021_018_02",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "person": {
-        "id": "Danny Webb",
-        "name": "Danny Webb",
-        "birthYear": 1958.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2021_018_01",
       "age": "2",
       "gender": "M",
@@ -79,6 +66,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Ralph Fiennes",
+        "slug": "ralph-fiennes",
         "name": "Ralph Fiennes",
         "birthYear": 1962.0,
         "gender": "M",
@@ -96,8 +84,23 @@
       "assistedMobility": "PD",
       "person": {
         "id": "Ken Stott",
+        "slug": "ken-stott",
         "name": "Ken Stott",
         "birthYear": 1954.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2021_018_02",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "person": {
+        "id": "Danny Webb",
+        "slug": "danny-webb",
+        "name": "Danny Webb",
+        "birthYear": 1958.0,
         "gender": "M",
         "nationality": "GB"
       }

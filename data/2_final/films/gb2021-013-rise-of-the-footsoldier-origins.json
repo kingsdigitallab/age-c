@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2021-03-09 00:00:00",
+    "date": "2021-03-09",
     "year": 2021
   },
   "production": {
@@ -24,18 +24,18 @@
     "ACT"
   ],
   "tags": [
-    "organized crime",
-    "abuse",
-    "de-ageing",
-    "sex",
-    "substance abuse",
-    "homosociality",
-    "low rank employment",
-    "self-employment",
-    "urban",
     "intergenerational conflict",
     "superior-employee relationship",
-    "sex for hire"
+    "low rank employment",
+    "homosociality",
+    "sex",
+    "abuse",
+    "self-employment",
+    "organized crime",
+    "de-ageing",
+    "substance abuse",
+    "sex for hire",
+    "urban"
   ],
   "director": [
     {
@@ -49,18 +49,21 @@
   ],
   "character": [
     {
-      "id": "GB2021_013_03",
+      "id": "GB2021_013_02",
       "age": "2",
-      "gender": "F",
+      "gender": "M",
       "sexuality": "HE",
       "origin": "WWE",
+      "class": "LM",
+      "profession": "SE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Michelle Collins",
-        "name": "Michelle Collins",
-        "birthYear": 1962.0,
-        "gender": "F",
+        "id": "Craig Fairbrass",
+        "slug": "craig-fairbrass",
+        "name": "Craig Fairbrass",
+        "birthYear": 1964.0,
+        "gender": "M",
         "nationality": "GB"
       }
     },
@@ -76,6 +79,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Vinnie Jones",
+        "slug": "vinnie-jones",
         "name": "Vinnie Jones",
         "birthYear": 1965.0,
         "gender": "M",
@@ -91,6 +95,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Billy Murray",
+        "slug": "billy-murray",
         "name": "Billy Murray",
         "birthYear": 1941.0,
         "gender": "M",
@@ -98,20 +103,19 @@
       }
     },
     {
-      "id": "GB2021_013_02",
+      "id": "GB2021_013_03",
       "age": "2",
-      "gender": "M",
+      "gender": "F",
       "sexuality": "HE",
       "origin": "WWE",
-      "class": "LM",
-      "profession": "SE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Craig Fairbrass",
-        "name": "Craig Fairbrass",
-        "birthYear": 1964.0,
-        "gender": "M",
+        "id": "Michelle Collins",
+        "slug": "michelle-collins",
+        "name": "Michelle Collins",
+        "birthYear": 1962.0,
+        "gender": "F",
         "nationality": "GB"
       }
     },
@@ -127,6 +131,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Keith Allen",
+        "slug": "keith-allen",
         "name": "Keith Allen",
         "birthYear": 1953.0,
         "gender": "M",

@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-01-19 00:00:00",
+    "date": "2022-01-19",
     "year": 2022
   },
   "production": {
@@ -21,23 +21,23 @@
     "posterUrl": "https://medias.unifrance.org/medias/181/164/238773/format_page/l-amour-c-est-mieux-que-la-vie.jpg"
   },
   "genre": [
-    "COM",
     "MUS",
+    "COM",
     "ROM"
   ],
   "tags": [
-    "romance",
-    "independent home",
-    "high rank employment",
-    "multigenerational family",
-    "physical illness",
-    "artistic creation",
     "natural death",
+    "physical illness",
     "homosociality",
     "self-employment",
-    "urban",
+    "independent home",
+    "multigenerational family",
+    "intergenerational friendship",
     "state institutions",
-    "intergenerational friendship"
+    "romance",
+    "high rank employment",
+    "urban",
+    "artistic creation"
   ],
   "director": [
     {
@@ -51,20 +51,15 @@
   ],
   "character": [
     {
-      "id": "FR2022_010_01",
-      "age": "3",
+      "id": "FR2022_010_02",
+      "age": "2",
       "gender": "M",
-      "sexuality": "HE",
-      "origin": "NAF",
+      "origin": "WWE",
       "class": "UM",
-      "ability": "CI",
-      "assistedMobility": "CI",
+      "ability": "AB",
+      "assistedMobility": "AB",
       "person": {
-        "id": "G\u00e9rard Darmon",
-        "name": "G\u00e9rard Darmon",
-        "birthYear": 1948.0,
-        "gender": "M",
-        "nationality": "FR"
+        "id": "Philippe Lelouche"
       }
     },
     {
@@ -79,6 +74,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Sandrine Bonnaire",
+        "slug": "sandrine-bonnaire",
         "name": "Sandrine Bonnaire",
         "birthYear": 1967.0,
         "gender": "F",
@@ -86,15 +82,21 @@
       }
     },
     {
-      "id": "FR2022_010_02",
-      "age": "2",
+      "id": "FR2022_010_01",
+      "age": "3",
       "gender": "M",
-      "origin": "WWE",
+      "sexuality": "HE",
+      "origin": "NAF",
       "class": "UM",
-      "ability": "AB",
-      "assistedMobility": "AB",
+      "ability": "CI",
+      "assistedMobility": "CI",
       "person": {
-        "id": "Philippe Lelouche"
+        "id": "G\u00e9rard Darmon",
+        "slug": "gerard-darmon",
+        "name": "G\u00e9rard Darmon",
+        "birthYear": 1948.0,
+        "gender": "M",
+        "nationality": "FR"
       }
     }
   ],

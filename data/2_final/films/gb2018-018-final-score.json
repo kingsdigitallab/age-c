@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-09-07 00:00:00",
+    "date": "2019-09-07",
     "year": 2019
   },
   "production": {
@@ -20,20 +20,20 @@
     "posterUrl": "https://www.imdb.com/title/tt5254610/mediaviewer/rm248478464/?ref_=tt_ov_i"
   },
   "genre": [
-    "ACT",
-    "THR"
+    "THR",
+    "ACT"
   ],
   "tags": [
-    "organized crime",
-    "terrorism",
-    "migration",
-    "abuse",
-    "high rank employment",
     "rescue mission",
+    "terrorism",
     "homosociality",
+    "abuse",
+    "organized crime",
     "self-employment",
-    "urban",
-    "state institutions"
+    "state institutions",
+    "high rank employment",
+    "migration",
+    "urban"
   ],
   "director": [
     {
@@ -47,23 +47,6 @@
   ],
   "character": [
     {
-      "id": "GB2018_018_01",
-      "age": "3",
-      "gender": "M",
-      "origin": "WEE",
-      "class": "MC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Pierce Brosnan",
-        "name": "Pierce Brosnan",
-        "birthYear": 1956.0,
-        "gender": "M",
-        "nationality": "IE"
-      }
-    },
-    {
       "id": "GB2018_018_02",
       "age": "3",
       "gender": "M",
@@ -74,10 +57,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Bill Fellows",
+        "slug": "bill-fellows",
         "name": "Bill Fellows",
         "birthYear": 1957.0,
         "gender": "M",
         "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2018_018_01",
+      "age": "3",
+      "gender": "M",
+      "origin": "WEE",
+      "class": "MC",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Pierce Brosnan",
+        "slug": "pierce-brosnan",
+        "name": "Pierce Brosnan",
+        "birthYear": 1956.0,
+        "gender": "M",
+        "nationality": "IE"
       }
     }
   ],

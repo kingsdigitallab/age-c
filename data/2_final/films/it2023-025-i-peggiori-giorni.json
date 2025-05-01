@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-08-14 00:00:00",
+    "date": "2023-08-14",
     "year": 2023
   },
   "production": {
@@ -21,28 +21,20 @@
   },
   "genre": [
     "ANT",
-    "DRA",
-    "COM"
+    "COM",
+    "DRA"
   ],
   "tags": [
+    "natural death",
+    "class conflict",
+    "festivities",
+    "physical illness",
     "widowhood",
     "siblinghood",
-    "physical illness",
-    "natural death",
-    "festivities",
-    "fatherhood",
     "suicide",
-    "class conflict"
+    "fatherhood"
   ],
   "director": [
-    {
-      "id": "Edoardo Leo",
-      "slug": "edoardo-leo",
-      "name": "Edoardo Leo",
-      "birthYear": 1972,
-      "gender": "M",
-      "nationality": "IT"
-    },
     {
       "id": "Massimiliano Bruno",
       "slug": "massimiliano-bruno",
@@ -50,61 +42,32 @@
       "birthYear": 1970,
       "gender": "M",
       "nationality": "IT"
+    },
+    {
+      "id": "Edoardo Leo",
+      "slug": "edoardo-leo",
+      "name": "Edoardo Leo",
+      "birthYear": 1972,
+      "gender": "M",
+      "nationality": "IT"
     }
   ],
   "character": [
     {
-      "id": "IT2023_025_03",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Neri Marcor\u00e8",
-        "name": "Neri Marcor\u00e8",
-        "birthYear": 1966.0,
-        "gender": "M",
-        "nationality": "IT"
-      },
-      "role": "LEA"
-    },
-    {
-      "id": "IT2023_025_01",
+      "id": "IT2023_025_05",
       "age": "3",
       "gender": "M",
       "sexuality": "HE",
       "origin": "WWE",
-      "class": "LM",
+      "class": "MC",
       "profession": "SE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Rocco Papaleo",
-        "name": "Rocco Papaleo",
-        "birthYear": 1958.0,
-        "gender": "M",
-        "nationality": "IT"
-      },
-      "role": "LEA"
-    },
-    {
-      "id": "IT2023_025_02",
-      "age": "4",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "CI",
-      "assistedMobility": "CI",
-      "person": {
-        "id": "Renato Carpentieri",
-        "name": "Renato Carpentieri",
-        "birthYear": 1943.0,
+        "id": "Fabrizio Bentivoglio",
+        "slug": "fabrizio-bentivoglio",
+        "name": "Fabrizio Bentivoglio",
+        "birthYear": 1957.0,
         "gender": "M",
         "nationality": "IT"
       },
@@ -122,6 +85,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Ricky Memphis",
+        "slug": "ricky-memphis",
         "name": "Ricky Memphis",
         "birthYear": 1968.0,
         "gender": "M",
@@ -130,19 +94,19 @@
       "role": "LEA"
     },
     {
-      "id": "IT2023_025_05",
-      "age": "3",
+      "id": "IT2023_025_06",
+      "age": "2",
       "gender": "M",
-      "sexuality": "HE",
       "origin": "WWE",
-      "class": "MC",
-      "profession": "SE",
+      "class": "LM",
+      "profession": "UN",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Fabrizio Bentivoglio",
-        "name": "Fabrizio Bentivoglio",
-        "birthYear": 1957.0,
+        "id": "Giuseppe Battiston",
+        "slug": "giuseppe-battiston",
+        "name": "Giuseppe Battiston",
+        "birthYear": 1968.0,
         "gender": "M",
         "nationality": "IT"
       },
@@ -160,6 +124,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Neri Marcor\u00e8",
+        "slug": "neri-marcore",
         "name": "Neri Marcor\u00e8",
         "birthYear": 1967.0,
         "gender": "M",
@@ -168,18 +133,60 @@
       "role": "LEA"
     },
     {
-      "id": "IT2023_025_06",
-      "age": "2",
+      "id": "IT2023_025_02",
+      "age": "4",
       "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "CI",
+      "assistedMobility": "CI",
+      "person": {
+        "id": "Renato Carpentieri",
+        "slug": "renato-carpentieri",
+        "name": "Renato Carpentieri",
+        "birthYear": 1943.0,
+        "gender": "M",
+        "nationality": "IT"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2023_025_01",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
       "origin": "WWE",
       "class": "LM",
-      "profession": "UN",
+      "profession": "SE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Giuseppe Battiston",
-        "name": "Giuseppe Battiston",
-        "birthYear": 1968.0,
+        "id": "Rocco Papaleo",
+        "slug": "rocco-papaleo",
+        "name": "Rocco Papaleo",
+        "birthYear": 1958.0,
+        "gender": "M",
+        "nationality": "IT"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2023_025_03",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Neri Marcor\u00e8",
+        "slug": "neri-marcore",
+        "name": "Neri Marcor\u00e8",
+        "birthYear": 1966.0,
         "gender": "M",
         "nationality": "IT"
       },

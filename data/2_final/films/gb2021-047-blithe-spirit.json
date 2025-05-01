@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "VOD",
-    "date": "2021-01-15 00:00:00",
+    "date": "2021-01-15",
     "year": 2021
   },
   "production": {
@@ -20,15 +20,15 @@
     "posterUrl": "https://www.imdb.com/title/tt10334148/mediaviewer/rm262846465/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
     "FAN",
+    "COM",
     "ROM"
   ],
   "tags": [
-    "spirituality",
-    "self-employment",
     "urban",
-    "artistic creation"
+    "artistic creation",
+    "self-employment",
+    "spirituality"
   ],
   "director": [
     {
@@ -42,19 +42,6 @@
   ],
   "character": [
     {
-      "id": "GB2021_047_02",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "person": {
-        "id": "Dave Johns",
-        "name": "Dave Johns",
-        "birthYear": 1956.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2021_047_03",
       "age": "4",
       "gender": "F",
@@ -65,6 +52,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Judi Dench",
+        "slug": "judi-dench",
         "name": "Judi Dench",
         "birthYear": 1934.0,
         "gender": "F",
@@ -78,6 +66,7 @@
       "origin": "WNA",
       "person": {
         "id": "Colin Stinton",
+        "slug": "colin-stinton",
         "name": "Colin Stinton",
         "birthYear": 1947.0,
         "gender": "M",
@@ -95,9 +84,24 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Michele Dotrice",
+        "slug": "michele-dotrice",
         "name": "Michele Dotrice",
         "birthYear": 1948.0,
         "gender": "F",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2021_047_02",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "person": {
+        "id": "Dave Johns",
+        "slug": "dave-johns",
+        "name": "Dave Johns",
+        "birthYear": 1956.0,
+        "gender": "M",
         "nationality": "GB"
       }
     }

@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2010-10-18 00:00:00",
+    "date": "2010-10-18",
     "year": 2010
   },
   "production": {
@@ -24,12 +24,12 @@
     "COM"
   ],
   "tags": [
+    "marriage",
     "extended family",
     "parenthood",
-    "marriage",
-    "urban",
     "fraud",
-    "wealth"
+    "wealth",
+    "urban"
   ],
   "director": [
     {
@@ -44,24 +44,6 @@
   ],
   "character": [
     {
-      "id": "FR2018_155_02",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "UN",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Charlotte Rampling",
-        "name": "Charlotte Rampling",
-        "birthYear": 1946.0,
-        "gender": "F",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "FR2018_155_01",
       "age": "3",
       "gender": "F",
@@ -73,10 +55,30 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Carole Bouquet",
+        "slug": "carole-bouquet",
         "name": "Carole Bouquet",
         "birthYear": 1957.0,
         "gender": "F",
         "nationality": "FR"
+      }
+    },
+    {
+      "id": "FR2018_155_02",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "UN",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Charlotte Rampling",
+        "slug": "charlotte-rampling",
+        "name": "Charlotte Rampling",
+        "birthYear": 1946.0,
+        "gender": "F",
+        "nationality": "GB"
       }
     }
   ],

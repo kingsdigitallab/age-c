@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-10-28 00:00:00",
+    "date": "2022-10-28",
     "year": 2022
   },
   "production": {
@@ -21,22 +21,22 @@
   },
   "genre": [
     "HOR",
-    "ACT",
-    "THR"
+    "THR",
+    "ACT"
   ],
   "tags": [
-    "independent home",
-    "abuse",
-    "siblinghood",
-    "legacy",
-    "fatherhood",
-    "motherhood",
-    "rural",
-    "interracial relationships",
     "intergenerational conflict",
-    "wealth",
+    "legacy",
     "class conflict",
-    "crime"
+    "abuse",
+    "independent home",
+    "rural",
+    "siblinghood",
+    "motherhood",
+    "crime",
+    "wealth",
+    "interracial relationships",
+    "fatherhood"
   ],
   "director": [
     {
@@ -49,24 +49,6 @@
   ],
   "character": [
     {
-      "id": "GB2022_074_02",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "James Faulkner",
-        "name": "James Faulkner",
-        "birthYear": 1948.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2022_074_03",
       "age": "3",
       "gender": "M",
@@ -75,6 +57,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Larry Lamb",
+        "slug": "larry-lamb",
         "name": "Larry Lamb",
         "birthYear": 1947.0,
         "gender": "M",
@@ -92,8 +75,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Samantha Bond",
+        "slug": "samantha-bond",
         "name": "Samantha Bond",
         "birthYear": 1961.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2022_074_02",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UC",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "James Faulkner",
+        "slug": "james-faulkner",
+        "name": "James Faulkner",
+        "birthYear": 1948.0,
         "gender": "M",
         "nationality": "GB"
       }

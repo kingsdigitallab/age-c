@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-09-21 00:00:00",
+    "date": "2023-09-21",
     "year": 2023
   },
   "production": {
@@ -21,8 +21,8 @@
   },
   "genre": [
     "COM",
-    "DRA",
-    "ROM"
+    "ROM",
+    "DRA"
   ],
   "tags": [
     "personal memory",
@@ -42,20 +42,6 @@
   ],
   "character": [
     {
-      "id": "DE2023_084_02",
-      "age": "4",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "G\u00fcnther Maria Halmer"
-      }
-    },
-    {
       "id": "DE2023_084_01",
       "age": "4",
       "gender": "F",
@@ -67,10 +53,25 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Senta Berger",
+        "slug": "senta-berger",
         "name": "Senta Berger",
         "birthYear": 1941.0,
         "gender": "F",
         "nationality": "AT"
+      }
+    },
+    {
+      "id": "DE2023_084_02",
+      "age": "4",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "G\u00fcnther Maria Halmer"
       }
     }
   ],

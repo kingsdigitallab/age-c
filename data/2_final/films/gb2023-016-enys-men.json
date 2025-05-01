@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-01-13 00:00:00",
+    "date": "2022-01-13",
     "year": 2022
   },
   "production": {
@@ -23,13 +23,13 @@
     "HOR"
   ],
   "tags": [
-    "abuse",
-    "supernatural entity",
-    "gender discrimination",
-    "sex",
-    "low rank employment",
-    "loneliness",
     "ecology",
+    "low rank employment",
+    "sex",
+    "abuse",
+    "gender discrimination",
+    "loneliness",
+    "supernatural entity",
     "natural"
   ],
   "director": [
@@ -44,19 +44,6 @@
   ],
   "character": [
     {
-      "id": "GB2023_016_02",
-      "age": "4",
-      "gender": "M",
-      "origin": "WWE",
-      "person": {
-        "id": "John Woodvine",
-        "name": "John Woodvine",
-        "birthYear": 1929.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2023_016_01",
       "age": "2",
       "gender": "F",
@@ -68,9 +55,24 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Mary Woodvine",
+        "slug": "mary-woodvine",
         "name": "Mary Woodvine",
         "birthYear": 1967.0,
         "gender": "F",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2023_016_02",
+      "age": "4",
+      "gender": "M",
+      "origin": "WWE",
+      "person": {
+        "id": "John Woodvine",
+        "slug": "john-woodvine",
+        "name": "John Woodvine",
+        "birthYear": 1929.0,
+        "gender": "M",
         "nationality": "GB"
       }
     }

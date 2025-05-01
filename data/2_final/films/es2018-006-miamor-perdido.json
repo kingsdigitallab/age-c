@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2018-12-14 00:00:00",
+    "date": "2018-12-14",
     "year": 2018
   },
   "production": {
@@ -21,18 +21,18 @@
     "posterUrl": "https://www.imdb.com/title/tt7575440/mediaviewer/rm3552526336/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROM",
-    "COM"
+    "COM",
+    "ROM"
   ],
   "tags": [
-    "non-human companionship",
-    "wedding",
     "rescue mission",
-    "homosociality",
     "low rank employment",
-    "urban",
+    "homosociality",
+    "intergenerational friendship",
+    "wedding",
     "state institutions",
-    "intergenerational friendship"
+    "urban",
+    "non-human companionship"
   ],
   "director": [
     {
@@ -46,33 +46,17 @@
   ],
   "character": [
     {
-      "id": "ES2018_006_01",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Antonio Resines",
-        "name": "Antonio Resines",
-        "birthYear": 1954.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2018_006_03",
+      "id": "ES2018_006_02",
       "age": "2",
       "gender": "M",
       "origin": "WWE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Antonio Dechent",
-        "name": "Antonio Dechent",
-        "birthYear": 1960.0,
+        "id": "Pablo Carbonell",
+        "slug": "pablo-carbonell",
+        "name": "Pablo Carbonell",
+        "birthYear": 1962.0,
         "gender": "M",
         "nationality": "ES"
       }
@@ -86,6 +70,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Javivi",
+        "slug": "javivi",
         "name": "Javivi",
         "birthYear": 1961.0,
         "gender": "M",
@@ -93,16 +78,35 @@
       }
     },
     {
-      "id": "ES2018_006_02",
+      "id": "ES2018_006_03",
       "age": "2",
       "gender": "M",
       "origin": "WWE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Pablo Carbonell",
-        "name": "Pablo Carbonell",
-        "birthYear": 1962.0,
+        "id": "Antonio Dechent",
+        "slug": "antonio-dechent",
+        "name": "Antonio Dechent",
+        "birthYear": 1960.0,
+        "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2018_006_01",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Antonio Resines",
+        "slug": "antonio-resines",
+        "name": "Antonio Resines",
+        "birthYear": 1954.0,
         "gender": "M",
         "nationality": "ES"
       }

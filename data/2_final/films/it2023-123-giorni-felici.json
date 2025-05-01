@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2011-12-23 00:00:00",
+    "date": "2011-12-23",
     "year": 2011
   },
   "production": {
@@ -24,12 +24,12 @@
     "DRA"
   ],
   "tags": [
-    "artistic creation",
-    "physical illness",
-    "parenthood",
-    "personal memory",
     "caregiving",
-    "medical treatment"
+    "physical illness",
+    "medical treatment",
+    "personal memory",
+    "parenthood",
+    "artistic creation"
   ],
   "director": [
     {
@@ -43,25 +43,6 @@
   ],
   "character": [
     {
-      "id": "IT2023_123_01",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "SE",
-      "ability": "PD",
-      "assistedMobility": "PD",
-      "person": {
-        "id": "Anna Galiena",
-        "name": "Anna Galiena",
-        "birthYear": 1954.0,
-        "gender": "F",
-        "nationality": "IT"
-      },
-      "role": "LEA"
-    },
-    {
       "id": "IT2023_123_02",
       "age": "3",
       "gender": "M",
@@ -73,9 +54,30 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Franco Nero",
+        "slug": "franco-nero",
         "name": "Franco Nero",
         "birthYear": 1941.0,
         "gender": "M",
+        "nationality": "IT"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2023_123_01",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "SE",
+      "ability": "PD",
+      "assistedMobility": "PD",
+      "person": {
+        "id": "Anna Galiena",
+        "slug": "anna-galiena",
+        "name": "Anna Galiena",
+        "birthYear": 1954.0,
+        "gender": "F",
         "nationality": "IT"
       },
       "role": "LEA"

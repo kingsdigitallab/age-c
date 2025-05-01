@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-10-25 00:00:00",
+    "date": "2019-10-25",
     "year": 2019
   },
   "production": {
@@ -20,25 +20,25 @@
     "posterUrl": "https://www.imdb.com/title/tt3951908/mediaviewer/rm1097209344/?ref_=tt_ov_i"
   },
   "genre": [
+    "ROA",
     "COM",
-    "DRA",
-    "ROA"
+    "DRA"
   ],
   "tags": [
-    "widowhood",
-    "pilgrimage",
-    "physical illness",
+    "collective trauma",
+    "intergenerational conflict",
     "precarity",
     "extended family",
+    "national identity",
     "homosociality",
-    "collective trauma",
-    "rural",
-    "interracial relationships",
-    "intergenerational conflict",
-    "segregation",
-    "colony",
+    "physical illness",
+    "widowhood",
     "intergenerational friendship",
-    "national identity"
+    "colony",
+    "pilgrimage",
+    "segregation",
+    "interracial relationships",
+    "rural"
   ],
   "director": [
     {
@@ -51,25 +51,6 @@
   ],
   "character": [
     {
-      "id": "GB2019_057_01",
-      "age": "4",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "NNA",
-      "class": "LM",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Dave Bald Eagle",
-        "name": "Dave Bald Eagle",
-        "birthYear": 1919.0,
-        "deathYear": 2016.0,
-        "gender": "M",
-        "nationality": "US"
-      }
-    },
-    {
       "id": "GB2019_057_02",
       "age": "3",
       "gender": "M",
@@ -81,8 +62,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Richard Ray Whitman",
+        "slug": "richard-ray-whitman",
         "name": "Richard Ray Whitman",
         "birthYear": 1949.0,
+        "gender": "M",
+        "nationality": "US"
+      }
+    },
+    {
+      "id": "GB2019_057_01",
+      "age": "4",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "NNA",
+      "class": "LM",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Dave Bald Eagle",
+        "slug": "dave-bald-eagle",
+        "name": "Dave Bald Eagle",
+        "birthYear": 1919.0,
+        "deathYear": 2016.0,
         "gender": "M",
         "nationality": "US"
       }

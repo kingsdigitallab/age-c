@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2021-10-28 00:00:00",
+    "date": "2021-10-28",
     "year": 2021
   },
   "production": {
@@ -16,15 +16,15 @@
     "share": "MAJ"
   },
   "genre": [
-    "COM",
-    "SCI",
     "ACT",
-    "COA"
+    "COM",
+    "COA",
+    "SCI"
   ],
   "tags": [
-    "segregation",
     "extended family",
-    "artistic creation"
+    "artistic creation",
+    "segregation"
   ],
   "director": [
     {
@@ -38,24 +38,6 @@
   ],
   "character": [
     {
-      "id": "IT2021_046_02",
-      "age": "2",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "LC",
-      "profession": "EM",
-      "ability": "PD",
-      "assistedMobility": "PD",
-      "person": {
-        "id": "Giancarlo Martini",
-        "name": "Giancarlo Martini",
-        "birthYear": 1963.0,
-        "gender": "M",
-        "nationality": "IT"
-      },
-      "role": "LEA"
-    },
-    {
       "id": "IT2021_046_01",
       "age": "2",
       "gender": "M",
@@ -66,8 +48,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Giorgio Tirabassi",
+        "slug": "giorgio-tirabassi",
         "name": "Giorgio Tirabassi",
         "birthYear": 1960.0,
+        "gender": "M",
+        "nationality": "IT"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2021_046_02",
+      "age": "2",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "LC",
+      "profession": "EM",
+      "ability": "PD",
+      "assistedMobility": "PD",
+      "person": {
+        "id": "Giancarlo Martini",
+        "slug": "giancarlo-martini",
+        "name": "Giancarlo Martini",
+        "birthYear": 1963.0,
         "gender": "M",
         "nationality": "IT"
       },

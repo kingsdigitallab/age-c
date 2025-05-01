@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "FES",
-    "date": "2018-09-23 00:00:00",
+    "date": "2018-09-23",
     "year": 2018
   },
   "production": {
@@ -20,30 +20,30 @@
     "posterUrl": "https://www.imdb.com/title/tt2690226/mediaviewer/rm2099342848/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROM",
     "HIS",
+    "ROM",
     "DRA"
   ],
   "tags": [
-    "mentorship",
-    "gender discrimination",
-    "body norms",
     "sex",
-    "women empowerment",
-    "motherhood",
-    "infidelity",
-    "wealth",
-    "romance",
-    "desire",
     "personal memory",
-    "may-december",
-    "volunteering",
-    "homosociality",
-    "marriage",
     "intergenerational friendship",
+    "desire",
+    "romance",
+    "women empowerment",
+    "may-december",
     "class solidarity",
     "self-employment",
-    "urban"
+    "motherhood",
+    "wealth",
+    "volunteering",
+    "body norms",
+    "infidelity",
+    "homosociality",
+    "urban",
+    "marriage",
+    "gender discrimination",
+    "mentorship"
   ],
   "director": [
     {
@@ -56,24 +56,6 @@
   ],
   "character": [
     {
-      "id": "GB2018_028_02",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WNA",
-      "class": "UM",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Campbell Scott",
-        "name": "Campbell Scott",
-        "birthYear": 1961.0,
-        "gender": "M",
-        "nationality": "US"
-      }
-    },
-    {
       "id": "GB2018_028_01",
       "age": "2",
       "gender": "F",
@@ -85,6 +67,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Elizabeth McGovern",
+        "slug": "elizabeth-mcgovern",
         "name": "Elizabeth McGovern",
         "birthYear": 1961.0,
         "gender": "F",
@@ -102,9 +85,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Jayne Houdyshell",
+        "slug": "jayne-houdyshell",
         "name": "Jayne Houdyshell",
         "birthYear": 1953.0,
         "gender": "F",
+        "nationality": "US"
+      }
+    },
+    {
+      "id": "GB2018_028_02",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WNA",
+      "class": "UM",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Campbell Scott",
+        "slug": "campbell-scott",
+        "name": "Campbell Scott",
+        "birthYear": 1961.0,
+        "gender": "M",
         "nationality": "US"
       }
     },
@@ -120,6 +123,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Blythe Danner",
+        "slug": "blythe-danner",
         "name": "Blythe Danner",
         "birthYear": 1943.0,
         "gender": "F",

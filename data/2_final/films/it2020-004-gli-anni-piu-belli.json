@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2020-02-13 00:00:00",
+    "date": "2020-02-13",
     "year": 2020
   },
   "production": {
@@ -22,14 +22,14 @@
   },
   "genre": [
     "MPF",
-    "DRA",
-    "ROM"
+    "ROM",
+    "DRA"
   ],
   "tags": [
     "personal memory",
-    "grayface",
     "homosociality",
-    "stages of life"
+    "stages of life",
+    "grayface"
   ],
   "director": [
     {
@@ -43,18 +43,19 @@
   ],
   "character": [
     {
-      "id": "IT2020_004_02",
+      "id": "IT2020_004_01",
       "age": "5",
       "gender": "M",
       "sexuality": "HE",
       "origin": "WWE",
-      "class": "LM",
-      "profession": "EM",
+      "class": "MC",
+      "profession": "SE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Kim Rossi Stuart",
-        "name": "Kim Rossi Stuart",
+        "id": "Pierfrancesco Favino",
+        "slug": "pierfrancesco-favino",
+        "name": "Pierfrancesco Favino",
         "birthYear": 1969.0,
         "gender": "M",
         "nationality": "IT"
@@ -72,28 +73,10 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Micaela Ramazzotti",
+        "slug": "micaela-ramazzotti",
         "name": "Micaela Ramazzotti",
         "birthYear": 1979.0,
         "gender": "F",
-        "nationality": "IT"
-      },
-      "role": "LEA"
-    },
-    {
-      "id": "IT2020_004_01",
-      "age": "5",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Pierfrancesco Favino",
-        "name": "Pierfrancesco Favino",
-        "birthYear": 1969.0,
-        "gender": "M",
         "nationality": "IT"
       },
       "role": "LEA"
@@ -110,8 +93,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Claudio Santamaria",
+        "slug": "claudio-santamaria",
         "name": "Claudio Santamaria",
         "birthYear": 1974.0,
+        "gender": "M",
+        "nationality": "IT"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2020_004_02",
+      "age": "5",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Kim Rossi Stuart",
+        "slug": "kim-rossi-stuart",
+        "name": "Kim Rossi Stuart",
+        "birthYear": 1969.0,
         "gender": "M",
         "nationality": "IT"
       },

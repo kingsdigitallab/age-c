@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2021-08-26 00:00:00",
+    "date": "2021-08-26",
     "year": 2021
   },
   "production": {
@@ -23,11 +23,11 @@
     "COM"
   ],
   "tags": [
-    "organized crime",
-    "romance",
     "last mission",
     "retirement home",
-    "elderhood"
+    "organized crime",
+    "elderhood",
+    "romance"
   ],
   "director": [
     {
@@ -41,45 +41,6 @@
   ],
   "character": [
     {
-      "id": "IT2021_020_01",
-      "age": "4",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WEE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Sandra Milo",
-        "name": "Sandra Milo",
-        "birthYear": 1933.0,
-        "deathYear": 2024.0,
-        "gender": "F",
-        "nationality": "IT"
-      },
-      "role": "LEA"
-    },
-    {
-      "id": "IT2021_020_05",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "MEA",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Babak Karimi",
-        "name": "Babak Karimi",
-        "birthYear": 1960.0,
-        "gender": "M",
-        "nationality": "CZ"
-      },
-      "role": "LEA"
-    },
-    {
       "id": "IT2021_020_06",
       "age": "3",
       "gender": "M",
@@ -91,8 +52,51 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Antonio Catania",
+        "slug": "antonio-catania",
         "name": "Antonio Catania",
         "birthYear": 1952.0,
+        "gender": "M",
+        "nationality": "IT"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2021_020_01",
+      "age": "4",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WEE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Sandra Milo",
+        "slug": "sandra-milo",
+        "name": "Sandra Milo",
+        "birthYear": 1933.0,
+        "deathYear": 2024.0,
+        "gender": "F",
+        "nationality": "IT"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2021_020_02",
+      "age": "4",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Ivano Marescotti",
+        "slug": "ivano-marescotti",
+        "name": "Ivano Marescotti",
+        "birthYear": 1946.0,
+        "deathYear": 2023.0,
         "gender": "M",
         "nationality": "IT"
       },
@@ -110,6 +114,7 @@
       "assistedMobility": "CI",
       "person": {
         "id": "Corinne Cl\u00e9ry",
+        "slug": "corinne-clery",
         "name": "Corinne Cl\u00e9ry",
         "birthYear": 1950.0,
         "gender": "F",
@@ -129,6 +134,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Enzo Salvi",
+        "slug": "enzo-salvi",
         "name": "Enzo Salvi",
         "birthYear": 1963.0,
         "gender": "M",
@@ -137,22 +143,22 @@
       "role": "LEA"
     },
     {
-      "id": "IT2021_020_02",
-      "age": "4",
+      "id": "IT2021_020_05",
+      "age": "3",
       "gender": "M",
       "sexuality": "HE",
-      "origin": "WWE",
+      "origin": "MEA",
       "class": "MC",
       "profession": "RE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Ivano Marescotti",
-        "name": "Ivano Marescotti",
-        "birthYear": 1946.0,
-        "deathYear": 2023.0,
+        "id": "Babak Karimi",
+        "slug": "babak-karimi",
+        "name": "Babak Karimi",
+        "birthYear": 1960.0,
         "gender": "M",
-        "nationality": "IT"
+        "nationality": "CZ"
       },
       "role": "LEA"
     }

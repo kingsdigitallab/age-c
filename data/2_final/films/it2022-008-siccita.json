@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-09-29 00:00:00",
+    "date": "2022-09-29",
     "year": 2022
   },
   "production": {
@@ -21,19 +21,19 @@
     "posterUrl": "https://www.imdb.com/title/tt13806164/mediaviewer/rm3736014593/?ref_=tt_ov_i"
   },
   "genre": [
-    "DIS",
     "MPF",
     "COM",
-    "DRA"
+    "DRA",
+    "DIS"
   ],
   "tags": [
-    "new start",
-    "fatherhood",
-    "urban",
+    "ecology",
     "homelessness",
     "celebrity",
     "technology",
-    "ecology"
+    "new start",
+    "urban",
+    "fatherhood"
   ],
   "director": [
     {
@@ -47,25 +47,6 @@
   ],
   "character": [
     {
-      "id": "IT2022_008_02",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "UN",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Tommaso Ragno",
-        "name": "Tommaso Ragno",
-        "birthYear": 1967.0,
-        "gender": "M",
-        "nationality": "IT"
-      },
-      "role": "LEA"
-    },
-    {
       "id": "IT2022_008_03",
       "age": "3",
       "gender": "M",
@@ -77,27 +58,9 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Max Tortora",
+        "slug": "max-tortora",
         "name": "Max Tortora",
         "birthYear": 1963.0,
-        "gender": "M",
-        "nationality": "IT"
-      },
-      "role": "LEA"
-    },
-    {
-      "id": "IT2022_008_01",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LC",
-      "profession": "UN",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Silvio Orlando",
-        "name": "Silvio Orlando",
-        "birthYear": 1957.0,
         "gender": "M",
         "nationality": "IT"
       },
@@ -115,8 +78,49 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Diego Ribon",
+        "slug": "diego-ribon",
         "name": "Diego Ribon",
         "birthYear": 1960.0,
+        "gender": "M",
+        "nationality": "IT"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2022_008_01",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LC",
+      "profession": "UN",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Silvio Orlando",
+        "slug": "silvio-orlando",
+        "name": "Silvio Orlando",
+        "birthYear": 1957.0,
+        "gender": "M",
+        "nationality": "IT"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2022_008_02",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "UN",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Tommaso Ragno",
+        "slug": "tommaso-ragno",
+        "name": "Tommaso Ragno",
+        "birthYear": 1967.0,
         "gender": "M",
         "nationality": "IT"
       },

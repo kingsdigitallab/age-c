@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-12-22 00:00:00",
+    "date": "2023-12-22",
     "year": 2023
   },
   "production": {
@@ -20,18 +20,18 @@
     "posterUrl": "https://www.imdb.com/title/tt17162460/mediaviewer/rm4110176769/?ref_=tt_ov_i"
   },
   "genre": [
+    "COM",
     "ROM",
-    "DRA",
-    "COM"
+    "DRA"
   ],
   "tags": [
-    "romance",
-    "motherhood",
+    "intergenerational conflict",
+    "sisterhood",
     "burial",
     "brotherhood",
-    "intergenerational conflict",
     "technology",
-    "sisterhood"
+    "motherhood",
+    "romance"
   ],
   "director": [
     {
@@ -45,24 +45,6 @@
   ],
   "character": [
     {
-      "id": "GB2023_042_03",
-      "age": "4",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Anna Calder-Marshall",
-        "name": "Anna Calder-Marshall",
-        "birthYear": 1947.0,
-        "gender": "F",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2023_042_01",
       "age": "3",
       "gender": "F",
@@ -73,6 +55,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Maggie O'Neill",
+        "slug": "maggie-o-neill",
         "name": "Maggie O'Neill",
         "birthYear": 1962.0,
         "gender": "F",
@@ -90,9 +73,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Tony Pitts",
+        "slug": "tony-pitts",
         "name": "Tony Pitts",
         "birthYear": 1962.0,
         "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2023_042_03",
+      "age": "4",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Anna Calder-Marshall",
+        "slug": "anna-calder-marshall",
+        "name": "Anna Calder-Marshall",
+        "birthYear": 1947.0,
+        "gender": "F",
         "nationality": "GB"
       }
     }

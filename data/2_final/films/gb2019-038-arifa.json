@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-06-28 00:00:00",
+    "date": "2019-06-28",
     "year": 2019
   },
   "production": {
@@ -20,26 +20,26 @@
     "posterUrl": "https://www.imdb.com/title/tt5346124/mediaviewer/rm925345537/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
     "CRI",
-    "DRA",
-    "ROM"
+    "COM",
+    "ROM",
+    "DRA"
   ],
   "tags": [
-    "independent home",
-    "migration",
-    "parenthood",
-    "fatherhood",
-    "motherhood",
-    "substance abuse",
-    "racial discrimination",
-    "marriage",
-    "urban",
-    "self-employment",
-    "mental illness",
     "intergenerational conflict",
+    "mental illness",
+    "marriage",
     "retirement",
-    "crime"
+    "independent home",
+    "self-employment",
+    "racial discrimination",
+    "parenthood",
+    "substance abuse",
+    "motherhood",
+    "crime",
+    "migration",
+    "urban",
+    "fatherhood"
   ],
   "director": [
     {
@@ -52,20 +52,20 @@
   ],
   "character": [
     {
-      "id": "GB2019_038_03",
-      "age": "3",
-      "gender": "M",
+      "id": "GB2019_038_01",
+      "age": "4",
+      "gender": "F",
       "sexuality": "HE",
-      "origin": "AWE",
-      "class": "LM",
-      "profession": "SE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Jeff Mirza",
-        "name": "Jeff Mirza",
-        "birthYear": 1964.0,
-        "gender": "M",
+        "id": "Tina Gray",
+        "slug": "tina-gray",
+        "name": "Tina Gray",
+        "gender": "F",
         "nationality": "GB"
       }
     },
@@ -80,6 +80,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Taru Devani",
+        "slug": "taru-devani",
         "name": "Taru Devani",
         "birthYear": 1951.0,
         "gender": "F",
@@ -87,19 +88,21 @@
       }
     },
     {
-      "id": "GB2019_038_01",
-      "age": "4",
-      "gender": "F",
+      "id": "GB2019_038_03",
+      "age": "3",
+      "gender": "M",
       "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
+      "origin": "AWE",
+      "class": "LM",
+      "profession": "SE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Tina Gray",
-        "name": "Tina Gray",
-        "gender": "F",
+        "id": "Jeff Mirza",
+        "slug": "jeff-mirza",
+        "name": "Jeff Mirza",
+        "birthYear": 1964.0,
+        "gender": "M",
         "nationality": "GB"
       }
     }

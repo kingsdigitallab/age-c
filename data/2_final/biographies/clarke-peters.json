@@ -8,85 +8,85 @@
   "gender": "M",
   "character": [
     {
-      "id": "GB2020_012_02",
       "age": "3",
-      "gender": "M",
-      "origin": "BNA",
-      "class": "MC",
-      "profession": "UN",
-      "ability": "PD",
-      "assistedMobility": "PD",
       "film": {
-        "id": "GB2020_012",
-        "slug": "gb2020-012-come-away",
-        "title": {
-          "native": "Come Away"
-        },
-        "filmType": "F",
-        "genre": "FAN",
-        "release": {
-          "type": "THE",
-          "year": 2020
-        },
-        "tags": "superior-employee relationship",
-        "production": {
-          "country": "GB",
-          "share": "MAJ"
-        }
-      }
-    },
-    {
-      "id": "GB2019_036_03",
-      "age": "3",
-      "gender": "M",
-      "origin": "BNA",
-      "film": {
-        "id": "GB2019_036",
-        "slug": "gb2019-036-division-19",
-        "title": {
-          "native": "Division 19"
-        },
         "filmType": "F",
         "genre": "ACT",
+        "id": "GB2019_036",
+        "production": {
+          "country": "US",
+          "share": "MIN"
+        },
         "release": {
           "type": "THE",
           "year": 2019
         },
+        "slug": "gb2019-036-division-19",
         "tags": "class conflict",
+        "title": {
+          "native": "Division 19"
+        }
+      },
+      "gender": "M",
+      "id": "GB2019_036_03",
+      "origin": "BNA"
+    },
+    {
+      "ability": "AB",
+      "age": "3",
+      "assistedMobility": "AB",
+      "class": "MC",
+      "film": {
+        "filmType": "F",
+        "genre": "WES",
+        "id": "GB2018_004",
         "production": {
           "country": "US",
           "share": "MIN"
-        }
-      }
-    },
-    {
-      "id": "GB2018_004_03",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "BNA",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "film": {
-        "id": "GB2018_004",
-        "slug": "gb2018-004-three-billboards-outside-ebbing-missouri",
-        "title": {
-          "native": "Three Billboards Outside Ebbing, Missouri"
         },
-        "filmType": "F",
-        "genre": "WES",
         "release": {
           "type": "THE",
           "year": 2018
         },
+        "slug": "gb2018-004-three-billboards-outside-ebbing-missouri",
         "tags": "body norms",
-        "production": {
-          "country": "US",
-          "share": "MIN"
+        "title": {
+          "native": "Three Billboards Outside Ebbing, Missouri"
         }
-      }
+      },
+      "gender": "M",
+      "id": "GB2018_004_03",
+      "origin": "BNA",
+      "profession": "EM",
+      "sexuality": "HE"
+    },
+    {
+      "ability": "PD",
+      "age": "3",
+      "assistedMobility": "PD",
+      "class": "MC",
+      "film": {
+        "filmType": "F",
+        "genre": "FAN",
+        "id": "GB2020_012",
+        "production": {
+          "country": "GB",
+          "share": "MAJ"
+        },
+        "release": {
+          "type": "THE",
+          "year": 2020
+        },
+        "slug": "gb2020-012-come-away",
+        "tags": "superior-employee relationship",
+        "title": {
+          "native": "Come Away"
+        }
+      },
+      "gender": "M",
+      "id": "GB2020_012_02",
+      "origin": "BNA",
+      "profession": "UN"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-09-07 00:00:00",
+    "date": "2023-09-07",
     "year": 2023
   },
   "production": {
@@ -25,31 +25,15 @@
     "DRA"
   ],
   "tags": [
-    "caregiving",
-    "women empowerment"
+    "women empowerment",
+    "caregiving"
   ],
   "director": [
-    {
-      "id": "Luc\u00eda Puenzo",
-      "slug": "lucia-puenzo",
-      "name": "Luc\u00eda Puenzo",
-      "birthYear": 1976,
-      "gender": "F",
-      "nationality": "AR"
-    },
     {
       "id": "Catherine Hardwicke",
       "slug": "catherine-hardwicke",
       "name": "Catherine Hardwicke",
       "birthYear": 1955,
-      "gender": "F",
-      "nationality": "US"
-    },
-    {
-      "id": "Taraji P. Henson",
-      "slug": "taraji-p-henson",
-      "name": "Taraji P. Henson",
-      "birthYear": 1970,
       "gender": "F",
       "nationality": "US"
     },
@@ -70,6 +54,22 @@
       "nationality": "IT"
     },
     {
+      "id": "Leena Yadav",
+      "slug": "leena-yadav",
+      "name": "Leena Yadav",
+      "birthYear": 1971,
+      "gender": "F",
+      "nationality": "IN"
+    },
+    {
+      "id": "Luc\u00eda Puenzo",
+      "slug": "lucia-puenzo",
+      "name": "Luc\u00eda Puenzo",
+      "birthYear": 1976,
+      "gender": "F",
+      "nationality": "AR"
+    },
+    {
       "id": "Mipo Oh",
       "slug": "mipo-oh",
       "name": "Mipo Oh",
@@ -78,33 +78,15 @@
       "nationality": "JP"
     },
     {
-      "id": "Leena Yadav",
-      "slug": "leena-yadav",
-      "name": "Leena Yadav",
-      "birthYear": 1971,
+      "id": "Taraji P. Henson",
+      "slug": "taraji-p-henson",
+      "name": "Taraji P. Henson",
+      "birthYear": 1970,
       "gender": "F",
-      "nationality": "IN"
+      "nationality": "US"
     }
   ],
   "character": [
-    {
-      "id": "IT2023_091_01",
-      "age": "3",
-      "gender": "F",
-      "origin": "WNA",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Marcia Gay Harden",
-        "name": "Marcia Gay Harden",
-        "birthYear": 1959.0,
-        "gender": "F",
-        "nationality": "US"
-      },
-      "role": "LEA"
-    },
     {
       "id": "IT2023_091_02",
       "age": "2",
@@ -116,10 +98,30 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Margherita Buy",
+        "slug": "margherita-buy",
         "name": "Margherita Buy",
         "birthYear": 1962.0,
         "gender": "F",
         "nationality": "IT"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2023_091_01",
+      "age": "3",
+      "gender": "F",
+      "origin": "WNA",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Marcia Gay Harden",
+        "slug": "marcia-gay-harden",
+        "name": "Marcia Gay Harden",
+        "birthYear": 1959.0,
+        "gender": "F",
+        "nationality": "US"
       },
       "role": "LEA"
     }

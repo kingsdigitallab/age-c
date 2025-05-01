@@ -8,63 +8,63 @@
   "gender": "M",
   "character": [
     {
-      "id": "IT2021_020_05",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "MEA",
-      "class": "MC",
-      "profession": "RE",
       "ability": "AB",
+      "age": "3",
       "assistedMobility": "AB",
-      "role": "LEA",
+      "class": "MC",
       "film": {
-        "id": "IT2021_020",
-        "slug": "it2021-020-free-liberi",
-        "title": {
-          "native": "Free - liberi"
-        },
         "filmType": "F",
         "genre": "COM",
+        "id": "IT2021_020",
+        "production": {
+          "country": "IT",
+          "share": "MAJ"
+        },
         "release": {
           "type": "THE",
           "year": 2021
         },
+        "slug": "it2021-020-free-liberi",
         "tags": "last mission",
+        "title": {
+          "native": "Free - liberi"
+        }
+      },
+      "gender": "M",
+      "id": "IT2021_020_05",
+      "origin": "MEA",
+      "profession": "RE",
+      "role": "LEA",
+      "sexuality": "HE"
+    },
+    {
+      "ability": "AB",
+      "age": "2",
+      "assistedMobility": "AB",
+      "class": "LM",
+      "film": {
+        "filmType": "D",
+        "genre": "HEI",
+        "id": "IT2022_071",
         "production": {
           "country": "IT",
           "share": "MAJ"
-        }
-      }
-    },
-    {
-      "id": "IT2022_071_01",
-      "age": "2",
-      "gender": "M",
-      "class": "LM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "role": "LEA",
-      "film": {
-        "id": "IT2022_071",
-        "slug": "it2022-071-im-perfetti-criminali",
-        "title": {
-          "native": "(Im)perfetti Criminali",
-          "english": "Fake Criminals"
         },
-        "filmType": "D",
-        "genre": "HEI",
         "release": {
           "type": "THE",
           "year": 2022
         },
+        "slug": "it2022-071-im-perfetti-criminali",
         "tags": "ageism",
-        "production": {
-          "country": "IT",
-          "share": "MAJ"
+        "title": {
+          "english": "Fake Criminals",
+          "native": "(Im)perfetti Criminali"
         }
-      }
+      },
+      "gender": "M",
+      "id": "IT2022_071_01",
+      "profession": "EM",
+      "role": "LEA"
     }
   ]
 }

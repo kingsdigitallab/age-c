@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-11-08 00:00:00",
+    "date": "2019-11-08",
     "year": 2019
   },
   "production": {
@@ -20,19 +20,19 @@
     "posterUrl": "https://www.imdb.com/title/tt10574932/mediaviewer/rm913088257/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROM",
-    "ACT",
     "ADV",
-    "FAN"
+    "FAN",
+    "ROM",
+    "ACT"
   ],
   "tags": [
-    "mentorship",
-    "abuse",
-    "high rank employment",
-    "last mission",
-    "communal housing",
     "education",
+    "last mission",
     "religion",
+    "abuse",
+    "communal housing",
+    "mentorship",
+    "high rank employment",
     "cultural memory"
   ],
   "director": [
@@ -53,22 +53,6 @@
   ],
   "character": [
     {
-      "id": "ES2019_039_02",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Alonso Posadas",
-        "name": "Alonso Posadas",
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2019_039_01",
       "age": "3",
       "gender": "M",
@@ -79,10 +63,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Emilio Linder",
+        "slug": "emilio-linder",
         "name": "Emilio Linder",
         "birthYear": 1949.0,
         "gender": "M",
         "nationality": "AR"
+      }
+    },
+    {
+      "id": "ES2019_039_02",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Alonso Posadas",
+        "slug": "alonso-posadas",
+        "name": "Alonso Posadas",
+        "gender": "M",
+        "nationality": "ES"
       }
     }
   ],

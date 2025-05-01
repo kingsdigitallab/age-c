@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "FES",
-    "date": "2011-10-18 00:00:00",
+    "date": "2011-10-18",
     "year": 2011
   },
   "production": {
@@ -24,19 +24,19 @@
     "DRA"
   ],
   "tags": [
-    "independent home",
-    "lgbtqi",
-    "festivities",
-    "parenthood",
-    "extended family",
-    "motherhood",
-    "fatherhood",
-    "homosociality",
-    "marriage",
     "intergenerational conflict",
-    "power",
+    "marriage",
+    "extended family",
+    "festivities",
+    "homosociality",
+    "class conflict",
+    "independent home",
+    "parenthood",
+    "motherhood",
+    "lgbtqi",
     "wealth",
-    "class conflict"
+    "power",
+    "fatherhood"
   ],
   "director": [
     {
@@ -59,6 +59,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Charles Dance",
+        "slug": "charles-dance",
         "name": "Charles Dance",
         "birthYear": 1946.0,
         "gender": "M",
@@ -75,25 +76,11 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Vincent Ebrahim",
+        "slug": "vincent-ebrahim",
         "name": "Vincent Ebrahim",
         "birthYear": 1950.0,
         "gender": "M",
         "nationality": "ZA"
-      }
-    },
-    {
-      "id": "GB2018_014_03",
-      "age": "3",
-      "gender": "F",
-      "origin": "AWE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Sudha Bhuchar",
-        "name": "Sudha Bhuchar",
-        "birthYear": 1961.0,
-        "gender": "F",
-        "nationality": "GB"
       }
     },
     {
@@ -107,9 +94,26 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Bill Patterson",
+        "slug": "bill-patterson",
         "name": "Bill Patterson",
         "birthYear": 1945.0,
         "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2018_014_03",
+      "age": "3",
+      "gender": "F",
+      "origin": "AWE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Sudha Bhuchar",
+        "slug": "sudha-bhuchar",
+        "name": "Sudha Bhuchar",
+        "birthYear": 1961.0,
+        "gender": "F",
         "nationality": "GB"
       }
     },
@@ -124,6 +128,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Doon Mackichan",
+        "slug": "doon-mackichan",
         "name": "Doon Mackichan",
         "birthYear": 1962.0,
         "gender": "F",

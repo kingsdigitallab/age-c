@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "VOD",
-    "date": "2023-11-24 00:00:00",
+    "date": "2023-11-24",
     "year": 2023
   },
   "production": {
@@ -20,25 +20,25 @@
     "posterUrl": "https://www.imdb.com/title/tt13923456/mediaviewer/rm3759814401/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
-    "CRI"
+    "CRI",
+    "COM"
   ],
   "tags": [
-    "intergenerational friendship",
-    "disability",
-    "mentorship",
-    "abuse",
-    "independent home",
-    "wealth",
-    "inheritance",
-    "high rank employment",
-    "superior-employee relationship",
     "murder",
-    "grandfatherhood",
-    "homosociality",
-    "burial",
+    "superior-employee relationship",
+    "disability",
     "grief",
+    "wealth",
+    "burial",
+    "inheritance",
+    "homosociality",
+    "abuse",
     "medical treatment",
+    "grandfatherhood",
+    "independent home",
+    "intergenerational friendship",
+    "mentorship",
+    "high rank employment",
     "celibacy"
   ],
   "director": [
@@ -53,23 +53,6 @@
   ],
   "character": [
     {
-      "id": "GB2023_010_01",
-      "age": "2",
-      "gender": "F",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Monica Bellucci",
-        "name": "Monica Bellucci",
-        "birthYear": 1964.0,
-        "gender": "F",
-        "nationality": "IT"
-      }
-    },
-    {
       "id": "GB2023_010_02",
       "age": "4",
       "gender": "M",
@@ -81,9 +64,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Alessandro Bressanello",
+        "slug": "alessandro-bressanello",
         "name": "Alessandro Bressanello",
         "birthYear": 1948.0,
         "gender": "M",
+        "nationality": "IT"
+      }
+    },
+    {
+      "id": "GB2023_010_01",
+      "age": "2",
+      "gender": "F",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Monica Bellucci",
+        "slug": "monica-bellucci",
+        "name": "Monica Bellucci",
+        "birthYear": 1964.0,
+        "gender": "F",
         "nationality": "IT"
       }
     },
@@ -98,6 +100,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Dora Romano",
+        "slug": "dora-romano",
         "name": "Dora Romano",
         "birthYear": 1955.0,
         "gender": "F",

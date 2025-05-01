@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-10-06 00:00:00",
+    "date": "2023-10-06",
     "year": 2023
   },
   "production": {
@@ -21,22 +21,22 @@
   },
   "genre": [
     "HIS",
-    "DRA",
     "BIO",
+    "DRA",
     "WAR"
   ],
   "tags": [
-    "high rank employment",
-    "women empowerment",
     "collective trauma",
-    "mass media",
-    "war",
+    "high rank employment",
+    "national identity",
     "religion",
-    "urban",
-    "power",
+    "war",
+    "mass media",
     "state institutions",
     "professional politics",
-    "national identity"
+    "women empowerment",
+    "urban",
+    "power"
   ],
   "director": [
     {
@@ -50,18 +50,19 @@
   ],
   "character": [
     {
-      "id": "GB2023_011_04",
-      "age": "2",
-      "gender": "M",
-      "class": "UM",
+      "id": "GB2023_011_01",
+      "age": "3",
+      "gender": "F",
+      "class": "UC",
       "profession": "EM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Dominic Mafham",
-        "name": "Dominic Mafham",
-        "birthYear": 1968.0,
-        "gender": "M",
+        "id": "Helen Mirren",
+        "slug": "helen-mirren",
+        "name": "Helen Mirren",
+        "birthYear": 1945.0,
+        "gender": "F",
         "nationality": "GB"
       }
     },
@@ -75,40 +76,9 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Henry Goodman",
+        "slug": "henry-goodman",
         "name": "Henry Goodman",
         "birthYear": 1950.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2023_011_01",
-      "age": "3",
-      "gender": "F",
-      "class": "UC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Helen Mirren",
-        "name": "Helen Mirren",
-        "birthYear": 1945.0,
-        "gender": "F",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2023_011_01",
-      "age": "3",
-      "gender": "F",
-      "class": "UC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Helen Mirren",
-        "name": "Helen Mirren",
-        "birthYear": 1945.0,
         "gender": "M",
         "nationality": "GB"
       }
@@ -123,10 +93,45 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Lior Ashkenazi",
+        "slug": "lior-ashkenazi",
         "name": "Lior Ashkenazi",
         "birthYear": 1968.0,
         "gender": "M",
         "nationality": "IL"
+      }
+    },
+    {
+      "id": "GB2023_011_04",
+      "age": "2",
+      "gender": "M",
+      "class": "UM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Dominic Mafham",
+        "slug": "dominic-mafham",
+        "name": "Dominic Mafham",
+        "birthYear": 1968.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2023_011_01",
+      "age": "3",
+      "gender": "F",
+      "class": "UC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Helen Mirren",
+        "slug": "helen-mirren",
+        "name": "Helen Mirren",
+        "birthYear": 1945.0,
+        "gender": "M",
+        "nationality": "GB"
       }
     }
   ],

@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2018-11-16 00:00:00",
+    "date": "2018-11-16",
     "year": 2018
   },
   "production": {
@@ -20,28 +20,28 @@
     "posterUrl": "https://www.imdb.com/title/tt3525168/mediaviewer/rm4243669248/?ref_=tt_ov_i"
   },
   "genre": [
-    "THR",
+    "CRI",
     "COM",
-    "ACT",
     "ROM",
-    "CRI"
+    "THR",
+    "ACT"
   ],
   "tags": [
-    "organized crime",
-    "independent home",
-    "last mission",
-    "abuse",
-    "migration",
-    "ageism",
-    "daily routine",
-    "homosociality",
-    "marriage",
-    "rural",
-    "low rank employment",
-    "urban",
     "intergenerational conflict",
+    "marriage",
+    "retirement",
+    "daily routine",
     "superior-employee relationship",
-    "retirement"
+    "last mission",
+    "low rank employment",
+    "homosociality",
+    "abuse",
+    "independent home",
+    "organized crime",
+    "ageism",
+    "migration",
+    "urban",
+    "rural"
   ],
   "director": [
     {
@@ -54,24 +54,6 @@
   ],
   "character": [
     {
-      "id": "GB2018_015_01",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Tom Wilkinson",
-        "name": "Tom Wilkinson",
-        "birthYear": 1948.0,
-        "gender": "M",
-        "nationality": "UK"
-      }
-    },
-    {
       "id": "GB2018_015_02",
       "age": "3",
       "gender": "F",
@@ -83,10 +65,30 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Marion Bailey",
+        "slug": "marion-bailey",
         "name": "Marion Bailey",
         "birthYear": 1951.0,
         "gender": "F",
         "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2018_015_01",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Tom Wilkinson",
+        "slug": "tom-wilkinson",
+        "name": "Tom Wilkinson",
+        "birthYear": 1948.0,
+        "gender": "M",
+        "nationality": "UK"
       }
     }
   ],

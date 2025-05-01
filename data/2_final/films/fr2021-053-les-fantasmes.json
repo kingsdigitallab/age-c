@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2021-08-18 00:00:00",
+    "date": "2021-08-18",
     "year": 2021
   },
   "production": {
@@ -21,17 +21,17 @@
     "posterUrl": "https://medias.unifrance.org/medias/69/157/236869/format_page/fantasies.jpg"
   },
   "genre": [
-    "COM",
-    "ANT",
     "MPF",
+    "ANT",
+    "COM",
     "ROM"
   ],
   "tags": [
-    "romance",
-    "retirement home",
-    "desire",
     "natural death",
-    "sex"
+    "retirement home",
+    "sex",
+    "desire",
+    "romance"
   ],
   "director": [
     {
@@ -53,41 +53,6 @@
   ],
   "character": [
     {
-      "id": "FR2021_053_01",
-      "age": "2",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Karin Viard",
-        "name": "Karin Viard",
-        "birthYear": 1966.0,
-        "gender": "F",
-        "nationality": "FR"
-      }
-    },
-    {
-      "id": "FR2021_053_04",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Denis Podalyd\u00e8s",
-        "name": "Denis Podalyd\u00e8s",
-        "birthYear": 1963.0,
-        "gender": "M",
-        "nationality": "FR"
-      }
-    },
-    {
       "id": "FR2021_053_02",
       "age": "2",
       "gender": "F",
@@ -98,6 +63,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Carole Bouquet",
+        "slug": "carole-bouquet",
         "name": "Carole Bouquet",
         "birthYear": 1957.0,
         "gender": "F",
@@ -115,10 +81,48 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Monica Bellucci",
+        "slug": "monica-bellucci",
         "name": "Monica Bellucci",
         "birthYear": 1964.0,
         "gender": "F",
         "nationality": "IT"
+      }
+    },
+    {
+      "id": "FR2021_053_04",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Denis Podalyd\u00e8s",
+        "slug": "denis-podalydes",
+        "name": "Denis Podalyd\u00e8s",
+        "birthYear": 1963.0,
+        "gender": "M",
+        "nationality": "FR"
+      }
+    },
+    {
+      "id": "FR2021_053_01",
+      "age": "2",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Karin Viard",
+        "slug": "karin-viard",
+        "name": "Karin Viard",
+        "birthYear": 1966.0,
+        "gender": "F",
+        "nationality": "FR"
       }
     }
   ],

@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-08-29 00:00:00",
+    "date": "2023-08-29",
     "year": 2023
   },
   "production": {
@@ -20,30 +20,30 @@
     "posterUrl": "https://www.filmaffinity.com/es/film315737.html"
   },
   "genre": [
-    "COM",
     "MPF",
+    "COM",
     "DRA"
   ],
   "tags": [
-    "mentorship",
-    "artistic creation",
-    "sex",
-    "rural",
-    "cross-gender friendship",
-    "intergenerational conflict",
-    "romance",
-    "desire",
     "festivities",
+    "sex",
     "personal memory",
-    "religion",
-    "disability",
-    "marriage",
-    "intragenerational friendship",
+    "desire",
     "intergenerational friendship",
-    "communal housing",
-    "substance abuse",
+    "romance",
+    "artistic creation",
+    "rural",
+    "religion",
     "self-employment",
-    "gray face"
+    "substance abuse",
+    "intragenerational friendship",
+    "disability",
+    "gray face",
+    "intergenerational conflict",
+    "marriage",
+    "cross-gender friendship",
+    "communal housing",
+    "mentorship"
   ],
   "director": [
     {
@@ -57,24 +57,6 @@
   ],
   "character": [
     {
-      "id": "ES2023_046_07",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Gin\u00e9s Garc\u00eda Mill\u00e1n",
-        "name": "Gin\u00e9s Garc\u00eda Mill\u00e1n",
-        "birthYear": 1964.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2023_046_04",
       "age": "2",
       "gender": "M",
@@ -85,9 +67,48 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Roberto Enr\u00edquez",
+        "slug": "roberto-enriquez",
         "name": "Roberto Enr\u00edquez",
         "birthYear": 1968.0,
         "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_046_05",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Joaqu\u00edn Climent",
+        "slug": "joaquin-climent",
+        "name": "Joaqu\u00edn Climent",
+        "birthYear": 1958.0,
+        "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_046_06",
+      "age": "4",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Paca Gabald\u00f3n",
+        "slug": "paca-gabaldon",
+        "name": "Paca Gabald\u00f3n",
+        "birthYear": 1949.0,
+        "gender": "F",
         "nationality": "ES"
       }
     },
@@ -102,6 +123,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Elena Seijo",
+        "slug": "elena-seijo",
         "name": "Elena Seijo",
         "birthYear": 1962.0,
         "gender": "F",
@@ -119,27 +141,10 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Vicky Pe\u00f1a",
+        "slug": "vicky-pena",
         "name": "Vicky Pe\u00f1a",
         "birthYear": 1954.0,
         "gender": "F",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2023_046_01",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Sergi L\u00f3pez",
-        "name": "Sergi L\u00f3pez",
-        "birthYear": 1965.0,
-        "gender": "M",
         "nationality": "ES"
       }
     },
@@ -155,6 +160,7 @@
       "assistedMobility": "PD",
       "person": {
         "id": "Celso Bugallo",
+        "slug": "celso-bugallo",
         "name": "Celso Bugallo",
         "birthYear": 1947.0,
         "gender": "M",
@@ -162,26 +168,27 @@
       }
     },
     {
-      "id": "ES2023_046_06",
-      "age": "4",
-      "gender": "F",
+      "id": "ES2023_046_07",
+      "age": "3",
+      "gender": "M",
       "sexuality": "HE",
       "origin": "WWE",
-      "class": "MC",
+      "class": "UM",
       "profession": "SE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Paca Gabald\u00f3n",
-        "name": "Paca Gabald\u00f3n",
-        "birthYear": 1949.0,
-        "gender": "F",
+        "id": "Gin\u00e9s Garc\u00eda Mill\u00e1n",
+        "slug": "gines-garcia-millan",
+        "name": "Gin\u00e9s Garc\u00eda Mill\u00e1n",
+        "birthYear": 1964.0,
+        "gender": "M",
         "nationality": "ES"
       }
     },
     {
-      "id": "ES2023_046_05",
-      "age": "3",
+      "id": "ES2023_046_01",
+      "age": "2",
       "gender": "M",
       "sexuality": "HE",
       "origin": "WWE",
@@ -190,9 +197,10 @@
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Joaqu\u00edn Climent",
-        "name": "Joaqu\u00edn Climent",
-        "birthYear": 1958.0,
+        "id": "Sergi L\u00f3pez",
+        "slug": "sergi-lopez",
+        "name": "Sergi L\u00f3pez",
+        "birthYear": 1965.0,
         "gender": "M",
         "nationality": "ES"
       }

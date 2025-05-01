@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2018-04-05 00:00:00",
+    "date": "2018-04-05",
     "year": 2018
   },
   "production": {
@@ -21,16 +21,16 @@
     "posterUrl": "https://www.imdb.com/title/tt8069436/mediaviewer/rm2416334080/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
-    "CRI"
+    "CRI",
+    "COM"
   ],
   "tags": [
-    "organized crime",
-    "independent home",
-    "new start",
-    "parenthood",
+    "marriage",
     "sex",
-    "marriage"
+    "independent home",
+    "organized crime",
+    "parenthood",
+    "new start"
   ],
   "director": [
     {
@@ -44,25 +44,6 @@
   ],
   "character": [
     {
-      "id": "IT2018_046_01",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Rocco Papaleo",
-        "name": "Rocco Papaleo",
-        "birthYear": 1958.0,
-        "gender": "M",
-        "nationality": "IT"
-      },
-      "role": "LEA"
-    },
-    {
       "id": "IT2018_046_02",
       "age": "2",
       "gender": "F",
@@ -74,9 +55,30 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Laura Morante",
+        "slug": "laura-morante",
         "name": "Laura Morante",
         "birthYear": 1956.0,
         "gender": "F",
+        "nationality": "IT"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2018_046_01",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Rocco Papaleo",
+        "slug": "rocco-papaleo",
+        "name": "Rocco Papaleo",
+        "birthYear": 1958.0,
+        "gender": "M",
         "nationality": "IT"
       },
       "role": "LEA"

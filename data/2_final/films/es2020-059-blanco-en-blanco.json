@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2020-07-31 00:00:00",
+    "date": "2020-07-31",
     "year": 2020
   },
   "production": {
@@ -22,27 +22,27 @@
   },
   "genre": [
     "HIS",
-    "THR",
+    "WES",
     "DRA",
-    "WES"
+    "THR"
   ],
   "tags": [
-    "wedding",
-    "abuse",
-    "power",
-    "artistic creation",
-    "natural",
-    "desire",
-    "homosociality",
-    "rural",
     "collective trauma",
-    "self-employment",
-    "racial discrimination",
-    "cultural memory",
-    "loneliness",
-    "colony",
     "superior-employee relationship",
-    "national identity"
+    "national identity",
+    "homosociality",
+    "abuse",
+    "self-employment",
+    "colony",
+    "desire",
+    "wedding",
+    "racial discrimination",
+    "loneliness",
+    "natural",
+    "artistic creation",
+    "cultural memory",
+    "power",
+    "rural"
   ],
   "director": [
     {
@@ -56,23 +56,6 @@
   ],
   "character": [
     {
-      "id": "ES2020_059_02",
-      "age": "3",
-      "gender": "M",
-      "origin": "WLA",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Alejandro Goic",
-        "name": "Alejandro Goic",
-        "birthYear": 1957.0,
-        "gender": "M",
-        "nationality": "CL"
-      }
-    },
-    {
       "id": "ES2020_059_01",
       "age": "3",
       "gender": "M",
@@ -83,8 +66,27 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Alfredo Castro",
+        "slug": "alfredo-castro",
         "name": "Alfredo Castro",
         "birthYear": 1955.0,
+        "gender": "M",
+        "nationality": "CL"
+      }
+    },
+    {
+      "id": "ES2020_059_02",
+      "age": "3",
+      "gender": "M",
+      "origin": "WLA",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Alejandro Goic",
+        "slug": "alejandro-goic",
+        "name": "Alejandro Goic",
+        "birthYear": 1957.0,
         "gender": "M",
         "nationality": "CL"
       }

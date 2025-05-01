@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "VOD",
-    "date": "2021-09-07 00:00:00",
+    "date": "2021-09-07",
     "year": 2021
   },
   "production": {
@@ -20,25 +20,25 @@
     "posterUrl": "https://www.imdb.com/title/tt10986214/mediaviewer/rm1149682945/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
     "CRI",
-    "MUS"
+    "MUS",
+    "COM"
   ],
   "tags": [
-    "organized crime",
-    "independent home",
-    "regional identity",
-    "legacy",
-    "substance abuse",
     "rescue mission",
-    "personal memory",
-    "rural",
-    "cross-gender friendship",
-    "elderhood (friendship among elders)",
     "interracial relationships",
-    "cultural memory",
+    "legacy",
+    "cross-gender friendship",
+    "independent home",
+    "organized crime",
+    "intergenerational friendship",
+    "personal memory",
+    "substance abuse",
+    "regional identity",
     "intragenerational friendship",
-    "intergenerational friendship"
+    "elderhood (friendship among elders)",
+    "cultural memory",
+    "rural"
   ],
   "director": [
     {
@@ -52,7 +52,24 @@
   ],
   "character": [
     {
-      "id": "GB2021_031_05",
+      "id": "GB2021_031_01",
+      "age": "3",
+      "gender": "F",
+      "origin": "WWE",
+      "class": "LM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Leslie Ash",
+        "slug": "leslie-ash",
+        "name": "Leslie Ash",
+        "birthYear": 1960.0,
+        "gender": "F",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2021_031_06",
       "age": "3",
       "gender": "M",
       "origin": "WWE",
@@ -60,9 +77,27 @@
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Gary Shail",
-        "name": "Gary Shail",
-        "birthYear": 1959.0,
+        "id": "Perry Benson",
+        "slug": "perry-benson",
+        "name": "Perry Benson",
+        "birthYear": 1961.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2021_031_02",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "LM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Mark Wingett",
+        "slug": "mark-wingett",
+        "name": "Mark Wingett",
+        "birthYear": 1961.0,
         "gender": "M",
         "nationality": "GB"
       }
@@ -77,6 +112,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Toyah Wilcox",
+        "slug": "toyah-wilcox",
         "name": "Toyah Wilcox",
         "birthYear": 1958.0,
         "gender": "F",
@@ -84,7 +120,7 @@
       }
     },
     {
-      "id": "GB2021_031_02",
+      "id": "GB2021_031_05",
       "age": "3",
       "gender": "M",
       "origin": "WWE",
@@ -92,26 +128,11 @@
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Mark Wingett",
-        "name": "Mark Wingett",
-        "birthYear": 1961.0,
+        "id": "Gary Shail",
+        "slug": "gary-shail",
+        "name": "Gary Shail",
+        "birthYear": 1959.0,
         "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2021_031_01",
-      "age": "3",
-      "gender": "F",
-      "origin": "WWE",
-      "class": "LM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Leslie Ash",
-        "name": "Leslie Ash",
-        "birthYear": 1960.0,
-        "gender": "F",
         "nationality": "GB"
       }
     },
@@ -125,24 +146,9 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Trevor Laird",
+        "slug": "trevor-laird",
         "name": "Trevor Laird",
         "birthYear": 1957.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2021_031_06",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "LM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Perry Benson",
-        "name": "Perry Benson",
-        "birthYear": 1961.0,
         "gender": "M",
         "nationality": "GB"
       }

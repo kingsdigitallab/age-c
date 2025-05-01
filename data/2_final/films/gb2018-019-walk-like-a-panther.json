@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-03-09 00:00:00",
+    "date": "2019-03-09",
     "year": 2019
   },
   "production": {
@@ -24,27 +24,27 @@
     "SPO"
   ],
   "tags": [
-    "mentorship",
-    "body norms",
-    "fatherhood",
-    "sex",
-    "rural",
-    "2008 crisis",
     "national identity",
-    "precarity",
-    "disappearing professions",
+    "sex",
+    "2008 crisis",
     "personal memory",
-    "mass media",
-    "cultural memory",
-    "gentrification",
-    "well-being",
-    "last mission",
-    "marriage",
-    "intragenerational friendship",
-    "elderhood (friendship among elders)",
-    "celebrity",
+    "rural",
     "class solidarity",
-    "self-employment"
+    "self-employment",
+    "mass media",
+    "intragenerational friendship",
+    "gentrification",
+    "body norms",
+    "last mission",
+    "disappearing professions",
+    "marriage",
+    "celebrity",
+    "precarity",
+    "well-being",
+    "mentorship",
+    "elderhood (friendship among elders)",
+    "cultural memory",
+    "fatherhood"
   ],
   "director": [
     {
@@ -69,6 +69,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Dave Johns",
+        "slug": "dave-johns",
         "name": "Dave Johns",
         "birthYear": 1956.0,
         "gender": "M",
@@ -87,25 +88,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Julian Sands",
-        "name": "Julian Sands",
-        "birthYear": 1958.0,
-        "deathYear": 2023.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2018_019_01",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Julian Sands",
+        "slug": "julian-sands",
         "name": "Julian Sands",
         "birthYear": 1958.0,
         "deathYear": 2023.0,
@@ -125,9 +108,30 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Sue Johnston",
+        "slug": "sue-johnston",
         "name": "Sue Johnston",
         "birthYear": 1943.0,
         "gender": "F",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2018_019_01",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Julian Sands",
+        "slug": "julian-sands",
+        "name": "Julian Sands",
+        "birthYear": 1958.0,
+        "deathYear": 2023.0,
+        "gender": "M",
         "nationality": "GB"
       }
     }

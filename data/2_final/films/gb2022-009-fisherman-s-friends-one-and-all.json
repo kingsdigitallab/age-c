@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-08-19 00:00:00",
+    "date": "2022-08-19",
     "year": 2022
   },
   "production": {
@@ -20,28 +20,35 @@
     "posterUrl": "https://www.imdb.com/title/tt10373344/mediaviewer/rm1765545217/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
     "MUS",
+    "COM",
     "ROM"
   ],
   "tags": [
-    "intergenerational friendship",
-    "regional identity",
-    "artistic creation",
-    "gender discrimination",
-    "substance abuse",
-    "fatherhood",
-    "homosociality",
-    "low rank employment",
-    "rural",
-    "mass media",
-    "elderhood (friendship among elders)",
     "celebrity",
     "grief",
     "class conflict",
-    "national identity"
+    "national identity",
+    "homosociality",
+    "low rank employment",
+    "fatherhood",
+    "rural",
+    "gender discrimination",
+    "mass media",
+    "intergenerational friendship",
+    "substance abuse",
+    "elderhood (friendship among elders)",
+    "artistic creation",
+    "regional identity"
   ],
   "director": [
+    {
+      "id": "Meg Leonard",
+      "slug": "meg-leonard",
+      "name": "Meg Leonard",
+      "gender": "F",
+      "nationality": "GB"
+    },
     {
       "id": "Nick Moorcroft",
       "slug": "nick-moorcroft",
@@ -49,52 +56,9 @@
       "birthYear": 1978,
       "gender": "M",
       "nationality": "GB"
-    },
-    {
-      "id": "Meg Leonard",
-      "slug": "meg-leonard",
-      "name": "Meg Leonard",
-      "gender": "F",
-      "nationality": "GB"
     }
   ],
   "character": [
-    {
-      "id": "GB2022_009_02",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Dave Johns",
-        "name": "Dave Johns",
-        "birthYear": 1956.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2022_009_01",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "James Purefoy",
-        "name": "James Purefoy",
-        "birthYear": 1964.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
     {
       "id": "GB2022_009_04",
       "age": "3",
@@ -107,8 +71,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "David Hayman",
+        "slug": "david-hayman",
         "name": "David Hayman",
         "birthYear": 1948.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2022_009_02",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Dave Johns",
+        "slug": "dave-johns",
+        "name": "Dave Johns",
+        "birthYear": 1956.0,
         "gender": "M",
         "nationality": "GB"
       }
@@ -125,6 +109,25 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Maggie Steed"
+      }
+    },
+    {
+      "id": "GB2022_009_01",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "James Purefoy",
+        "slug": "james-purefoy",
+        "name": "James Purefoy",
+        "birthYear": 1964.0,
+        "gender": "M",
+        "nationality": "GB"
       }
     }
   ],

@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-12-17 00:00:00",
+    "date": "2022-12-17",
     "year": 2022
   },
   "production": {
@@ -21,27 +21,27 @@
     "posterUrl": "https://www.imdb.com/title/tt7922238/mediaviewer/rm2355707393/?ref_=tt_ov_i"
   },
   "genre": [
-    "HOR",
-    "FAN",
     "EXP",
+    "FAN",
+    "HOR",
     "DRA"
   ],
   "tags": [
+    "collective trauma",
     "disability",
+    "grief",
+    "caregiving",
     "anti-ageing practices",
+    "physical illness",
+    "homosociality",
     "abuse",
     "personal trauma",
-    "physical illness",
+    "intergenerational friendship",
     "de-ageing",
-    "reproductive technologies",
-    "fatherhood",
-    "women empowerment",
     "motherhood",
-    "homosociality",
-    "collective trauma",
-    "caregiving",
-    "grief",
-    "intergenerational friendship"
+    "women empowerment",
+    "reproductive technologies",
+    "fatherhood"
   ],
   "director": [
     {
@@ -55,23 +55,6 @@
   ],
   "character": [
     {
-      "id": "ES2022_066_01",
-      "age": "2",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "\u00c1ngela Molina",
-        "name": "\u00c1ngela Molina",
-        "birthYear": 1955.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2022_066_02",
       "age": "2",
       "gender": "M",
@@ -82,9 +65,28 @@
       "assistedMobility": "PD",
       "person": {
         "id": "Antonio Dur\u00e1n \"Morris\"",
+        "slug": "antonio-duran-morris",
         "name": "Antonio Dur\u00e1n \"Morris\"",
         "birthYear": 1959.0,
         "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2022_066_01",
+      "age": "2",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "\u00c1ngela Molina",
+        "slug": "angela-molina",
+        "name": "\u00c1ngela Molina",
+        "birthYear": 1955.0,
+        "gender": "F",
         "nationality": "ES"
       }
     },
@@ -96,6 +98,7 @@
       "profession": "EM",
       "person": {
         "id": "Daniel Freire",
+        "slug": "daniel-freire",
         "name": "Daniel Freire",
         "birthYear": 1961.0,
         "gender": "M",

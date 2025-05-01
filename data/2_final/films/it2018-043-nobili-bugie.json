@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2018-05-24 00:00:00",
+    "date": "2018-05-24",
     "year": 2018
   },
   "production": {
@@ -21,17 +21,17 @@
     "posterUrl": "https://www.imdb.com/title/tt6975762/mediaviewer/rm1517298688/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
     "HIS",
+    "COM",
     "DRA"
   ],
   "tags": [
-    "independent home",
-    "precarity",
     "collective trauma",
+    "precarity",
+    "class conflict",
     "war",
-    "fraud",
-    "class conflict"
+    "independent home",
+    "fraud"
   ],
   "director": [
     {
@@ -45,25 +45,6 @@
   ],
   "character": [
     {
-      "id": "IT2018_043_01",
-      "age": "4",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UC",
-      "profession": "UN",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Claudia Cardinale",
-        "name": "Claudia Cardinale",
-        "birthYear": 1938.0,
-        "gender": "F",
-        "nationality": "IT"
-      },
-      "role": "LEA"
-    },
-    {
       "id": "IT2018_043_03",
       "age": "3",
       "gender": "M",
@@ -75,6 +56,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Ivano Marescotti",
+        "slug": "ivano-marescotti",
         "name": "Ivano Marescotti",
         "birthYear": 1946.0,
         "deathYear": 2023.0,
@@ -95,10 +77,31 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Raffaele Pisu",
+        "slug": "raffaele-pisu",
         "name": "Raffaele Pisu",
         "birthYear": 1925.0,
         "deathYear": 2019.0,
         "gender": "M",
+        "nationality": "IT"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2018_043_01",
+      "age": "4",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UC",
+      "profession": "UN",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Claudia Cardinale",
+        "slug": "claudia-cardinale",
+        "name": "Claudia Cardinale",
+        "birthYear": 1938.0,
+        "gender": "F",
         "nationality": "IT"
       },
       "role": "LEA"

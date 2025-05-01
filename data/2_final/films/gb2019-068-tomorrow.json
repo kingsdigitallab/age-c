@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-09-27 00:00:00",
+    "date": "2019-09-27",
     "year": 2019
   },
   "production": {
@@ -20,15 +20,15 @@
     "posterUrl": "https://www.imdb.com/title/tt2654536/mediaviewer/rm1271961089/?ref_=tt_ov_i"
   },
   "genre": [
-    "DRA",
-    "WAR"
+    "WAR",
+    "DRA"
   ],
   "tags": [
-    "disability",
-    "homosociality",
-    "war",
     "hospital",
-    "caregiving"
+    "disability",
+    "caregiving",
+    "homosociality",
+    "war"
   ],
   "director": [
     {
@@ -41,23 +41,6 @@
   ],
   "character": [
     {
-      "id": "GB2019_068_02",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "James Cosmo",
-        "name": "James Cosmo",
-        "birthYear": 1947.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2019_068_01",
       "age": "3",
       "gender": "M",
@@ -68,8 +51,27 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Stephen Fry",
+        "slug": "stephen-fry",
         "name": "Stephen Fry",
         "birthYear": 1957.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2019_068_02",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "James Cosmo",
+        "slug": "james-cosmo",
+        "name": "James Cosmo",
+        "birthYear": 1947.0,
         "gender": "M",
         "nationality": "GB"
       }

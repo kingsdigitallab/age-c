@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2018-01-18 00:00:00",
+    "date": "2018-01-18",
     "year": 2018
   },
   "production": {
@@ -21,18 +21,18 @@
     "posterUrl": "https://www.imdb.com/title/tt3741632/mediaviewer/rm1918197504/?ref_=tt_ov_i"
   },
   "genre": [
-    "DRA",
-    "ROA"
+    "ROA",
+    "DRA"
   ],
   "tags": [
     "bucket list",
-    "physical illness",
-    "parenthood",
-    "dementia",
-    "personal memory",
     "marriage",
     "search for meaning",
-    "suicide"
+    "physical illness",
+    "personal memory",
+    "parenthood",
+    "suicide",
+    "dementia"
   ],
   "director": [
     {
@@ -46,26 +46,6 @@
   ],
   "character": [
     {
-      "id": "IT2018_008_02",
-      "age": "4",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "profession": "RE",
-      "ability": "CI",
-      "assistedMobility": "CI",
-      "person": {
-        "id": "Donald Sutherland",
-        "name": "Donald Sutherland",
-        "birthYear": 1935.0,
-        "deathYear": 2024.0,
-        "gender": "M",
-        "nationality": "CA"
-      },
-      "role": "LEA"
-    },
-    {
       "id": "IT2018_008_01",
       "age": "4",
       "gender": "F",
@@ -77,6 +57,7 @@
       "assistedMobility": "CI",
       "person": {
         "id": "Helen Mirren",
+        "slug": "helen-mirren",
         "name": "Helen Mirren",
         "birthYear": 1945.0,
         "gender": "F",
@@ -96,10 +77,32 @@
       "assistedMobility": "CI",
       "person": {
         "id": "Helen Mirren",
+        "slug": "helen-mirren",
         "name": "Helen Mirren",
         "birthYear": 1945.0,
         "gender": "M",
         "nationality": "GB"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2018_008_02",
+      "age": "4",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LM",
+      "profession": "RE",
+      "ability": "CI",
+      "assistedMobility": "CI",
+      "person": {
+        "id": "Donald Sutherland",
+        "slug": "donald-sutherland",
+        "name": "Donald Sutherland",
+        "birthYear": 1935.0,
+        "deathYear": 2024.0,
+        "gender": "M",
+        "nationality": "CA"
       },
       "role": "LEA"
     }

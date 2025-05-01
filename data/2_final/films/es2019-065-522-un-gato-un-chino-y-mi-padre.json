@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-05-07 00:00:00",
+    "date": "2019-05-07",
     "year": 2019
   },
   "production": {
@@ -21,8 +21,8 @@
     "posterUrl": "https://www.imdb.com/title/tt8196026/mediaviewer/rm1471180032/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
     "ROA",
+    "COM",
     "ROM"
   ],
   "director": [
@@ -37,28 +37,30 @@
   ],
   "character": [
     {
-      "id": "ES2019_065_02",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "person": {
-        "id": "Jos\u00e9 Neto",
-        "name": "Jos\u00e9 Neto",
-        "birthYear": 1955.0,
-        "deathYear": 2023.0,
-        "gender": "M",
-        "nationality": "PT"
-      }
-    },
-    {
       "id": "ES2019_065_01",
       "age": "3",
       "gender": "M",
       "origin": "WWE",
       "person": {
         "id": "Jo\u00e3o Lagarto",
+        "slug": "joao-lagarto",
         "name": "Jo\u00e3o Lagarto",
         "birthYear": 1954.0,
+        "gender": "M",
+        "nationality": "PT"
+      }
+    },
+    {
+      "id": "ES2019_065_02",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "person": {
+        "id": "Jos\u00e9 Neto",
+        "slug": "jose-neto",
+        "name": "Jos\u00e9 Neto",
+        "birthYear": 1955.0,
+        "deathYear": 2023.0,
         "gender": "M",
         "nationality": "PT"
       }

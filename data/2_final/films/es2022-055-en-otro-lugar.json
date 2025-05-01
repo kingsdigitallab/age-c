@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-05-26 00:00:00",
+    "date": "2022-05-26",
     "year": 2022
   },
   "production": {
@@ -20,20 +20,20 @@
     "posterUrl": "https://www.imdb.com/title/tt13496136/mediaviewer/rm4158722561/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROM",
-    "COM"
+    "COM",
+    "ROM"
   ],
   "tags": [
-    "non-human companionship",
-    "siblinghood",
-    "supernatural entity",
-    "inheritance",
     "natural death",
+    "cross-gender friendship",
+    "burial",
+    "inheritance",
     "grandfatherhood",
     "personal memory",
-    "burial",
-    "cross-gender friendship",
-    "intragenerational friendship"
+    "siblinghood",
+    "intragenerational friendship",
+    "supernatural entity",
+    "non-human companionship"
   ],
   "director": [
     {
@@ -47,24 +47,6 @@
   ],
   "character": [
     {
-      "id": "ES2022_055_02",
-      "age": "4",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Mario Pardo",
-        "name": "Mario Pardo",
-        "birthYear": 1944.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2022_055_01",
       "age": "3",
       "gender": "F",
@@ -76,9 +58,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Mamen Garc\u00eda",
+        "slug": "mamen-garcia",
         "name": "Mamen Garc\u00eda",
         "birthYear": 1947.0,
         "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2022_055_02",
+      "age": "4",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Mario Pardo",
+        "slug": "mario-pardo",
+        "name": "Mario Pardo",
+        "birthYear": 1944.0,
+        "gender": "M",
         "nationality": "ES"
       }
     }

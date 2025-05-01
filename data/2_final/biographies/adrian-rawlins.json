@@ -8,56 +8,56 @@
   "gender": "M",
   "character": [
     {
-      "id": "GB2021_034_08",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "film": {
-        "id": "GB2021_034",
-        "slug": "gb2021-034-undergods",
-        "title": {
-          "native": "Undergods"
-        },
-        "filmType": "F",
-        "genre": "DYS",
-        "release": {
-          "type": "THE",
-          "year": 2021
-        },
-        "tags": "segregation",
-        "production": {
-          "country": "EE",
-          "share": "MIN"
-        }
-      }
-    },
-    {
-      "id": "GB2021_044_04",
       "age": "3",
-      "gender": "M",
-      "origin": "WWE",
       "film": {
-        "id": "GB2021_044",
-        "slug": "gb2021-044-the-colour-room",
-        "title": {
-          "native": "The Colour Room"
-        },
         "filmType": "F",
         "genre": "ROM",
+        "id": "GB2021_044",
+        "production": {
+          "country": "GB",
+          "share": "MAJ"
+        },
         "release": {
           "type": "THE",
           "year": 2011
         },
+        "slug": "gb2021-044-the-colour-room",
         "tags": "class conflict",
-        "production": {
-          "country": "GB",
-          "share": "MAJ"
+        "title": {
+          "native": "The Colour Room"
         }
-      }
+      },
+      "gender": "M",
+      "id": "GB2021_044_04",
+      "origin": "WWE"
+    },
+    {
+      "ability": "AB",
+      "age": "2",
+      "assistedMobility": "AB",
+      "class": "LM",
+      "film": {
+        "filmType": "F",
+        "genre": "DYS",
+        "id": "GB2021_034",
+        "production": {
+          "country": "EE",
+          "share": "MIN"
+        },
+        "release": {
+          "type": "THE",
+          "year": 2021
+        },
+        "slug": "gb2021-034-undergods",
+        "tags": "segregation",
+        "title": {
+          "native": "Undergods"
+        }
+      },
+      "gender": "M",
+      "id": "GB2021_034_08",
+      "origin": "WWE",
+      "sexuality": "HE"
     }
   ]
 }

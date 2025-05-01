@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-07-07 00:00:00",
+    "date": "2022-07-07",
     "year": 2022
   },
   "production": {
@@ -24,11 +24,11 @@
     "COM"
   ],
   "tags": [
-    "migration",
-    "parenthood",
-    "marriage",
     "intergenerational conflict",
-    "retirement"
+    "retirement",
+    "marriage",
+    "parenthood",
+    "migration"
   ],
   "director": [
     {
@@ -41,25 +41,6 @@
   ],
   "character": [
     {
-      "id": "IT2022_080_01",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Antonello Fassari",
-        "name": "Antonello Fassari",
-        "birthYear": 1952.0,
-        "gender": "M",
-        "nationality": "IT"
-      },
-      "role": "LEA"
-    },
-    {
       "id": "IT2022_080_02",
       "age": "3",
       "gender": "F",
@@ -71,10 +52,31 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Daniela Giordano",
+        "slug": "daniela-giordano",
         "name": "Daniela Giordano",
         "birthYear": 1946.0,
         "deathYear": 2022.0,
         "gender": "F",
+        "nationality": "IT"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2022_080_01",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LM",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Antonello Fassari",
+        "slug": "antonello-fassari",
+        "name": "Antonello Fassari",
+        "birthYear": 1952.0,
+        "gender": "M",
         "nationality": "IT"
       },
       "role": "LEA"

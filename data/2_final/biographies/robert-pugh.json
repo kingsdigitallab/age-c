@@ -8,59 +8,59 @@
   "gender": "M",
   "character": [
     {
-      "id": "GB2019_011_02",
-      "age": "4",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "UM",
       "ability": "AB",
-      "assistedMobility": "AB",
-      "film": {
-        "id": "GB2019_011",
-        "slug": "gb2019-011-colette",
-        "title": {
-          "native": "Colette"
-        },
-        "filmType": "F",
-        "genre": "ROM",
-        "release": {
-          "type": "THE",
-          "year": 2019
-        },
-        "tags": "gender discrimination",
-        "production": {
-          "country": "HU",
-          "share": "MIN"
-        }
-      }
-    },
-    {
-      "id": "GB2020_020_03",
       "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "ability": "AB",
       "assistedMobility": "AB",
+      "class": "LM",
       "film": {
-        "id": "GB2020_020",
-        "slug": "gb2020-020-eternal-beauty",
-        "title": {
-          "native": "Eternal Beauty"
-        },
         "filmType": "F",
         "genre": "ROM",
+        "id": "GB2020_020",
+        "production": {
+          "country": "GB",
+          "share": "MAJ"
+        },
         "release": {
           "type": "THE",
           "year": 2020
         },
+        "slug": "gb2020-020-eternal-beauty",
         "tags": "artistic creation",
-        "production": {
-          "country": "GB",
-          "share": "MAJ"
+        "title": {
+          "native": "Eternal Beauty"
         }
-      }
+      },
+      "gender": "M",
+      "id": "GB2020_020_03",
+      "origin": "WWE",
+      "sexuality": "HE"
+    },
+    {
+      "ability": "AB",
+      "age": "4",
+      "assistedMobility": "AB",
+      "class": "UM",
+      "film": {
+        "filmType": "F",
+        "genre": "ROM",
+        "id": "GB2019_011",
+        "production": {
+          "country": "HU",
+          "share": "MIN"
+        },
+        "release": {
+          "type": "THE",
+          "year": 2019
+        },
+        "slug": "gb2019-011-colette",
+        "tags": "gender discrimination",
+        "title": {
+          "native": "Colette"
+        }
+      },
+      "gender": "M",
+      "id": "GB2019_011_02",
+      "origin": "WWE"
     }
   ]
 }

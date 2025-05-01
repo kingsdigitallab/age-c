@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2018-11-02 00:00:00",
+    "date": "2018-11-02",
     "year": 2018
   },
   "production": {
@@ -20,24 +20,24 @@
   },
   "genre": [
     "CRI",
-    "ACT",
-    "THR"
+    "THR",
+    "ACT"
   ],
   "tags": [
-    "independent home",
-    "last mission",
-    "abuse",
-    "high rank employment",
-    "terrorism",
-    "parenthood",
-    "homosociality",
     "marriage",
-    "self-employment",
+    "last mission",
+    "terrorism",
+    "homosociality",
     "religion",
-    "interracial relationships",
+    "abuse",
+    "independent home",
+    "self-employment",
     "technology",
+    "parenthood",
+    "crime",
+    "high rank employment",
     "wealth",
-    "crime"
+    "interracial relationships"
   ],
   "director": [
     {
@@ -51,24 +51,6 @@
   ],
   "character": [
     {
-      "id": "GB2018_026_01",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Mark Wingett",
-        "name": "Mark Wingett",
-        "birthYear": 1961.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2018_026_02",
       "age": "2",
       "gender": "F",
@@ -80,9 +62,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Claire King",
+        "slug": "claire-king",
         "name": "Claire King",
         "birthYear": 1963.0,
         "gender": "F",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2018_026_01",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Mark Wingett",
+        "slug": "mark-wingett",
+        "name": "Mark Wingett",
+        "birthYear": 1961.0,
+        "gender": "M",
         "nationality": "GB"
       }
     }

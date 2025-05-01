@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-01-11 00:00:00",
+    "date": "2019-01-11",
     "year": 2019
   },
   "production": {
@@ -21,16 +21,16 @@
   },
   "genre": [
     "ROM",
-    "HIS",
-    "DRA"
+    "DRA",
+    "HIS"
   ],
   "tags": [
-    "mentorship",
     "gender discrimination",
-    "fatherhood",
     "motherhood",
+    "mentorship",
+    "wealth",
     "cultural memory",
-    "wealth"
+    "fatherhood"
   ],
   "director": [
     {
@@ -44,19 +44,20 @@
   ],
   "character": [
     {
-      "id": "GB2019_011_02",
-      "age": "4",
-      "gender": "M",
+      "id": "GB2019_011_01",
+      "age": "3",
+      "gender": "F",
       "origin": "WWE",
-      "class": "UM",
+      "class": "MC",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Robert Pugh",
-        "name": "Robert Pugh",
-        "birthYear": 1948.0,
-        "gender": "M",
-        "nationality": "GB"
+        "id": "Fiona Shaw",
+        "slug": "fiona-shaw",
+        "name": "Fiona Shaw",
+        "birthYear": 1958.0,
+        "gender": "F",
+        "nationality": "IE"
       }
     },
     {
@@ -69,6 +70,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Arabella Weir",
+        "slug": "arabella-weir",
         "name": "Arabella Weir",
         "birthYear": 1957.0,
         "gender": "F",
@@ -85,6 +87,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Fiona Shaw",
+        "slug": "fiona-shaw",
         "name": "Fiona Shaw",
         "birthYear": 1958.0,
         "gender": "F",
@@ -92,19 +95,20 @@
       }
     },
     {
-      "id": "GB2019_011_01",
-      "age": "3",
-      "gender": "F",
+      "id": "GB2019_011_02",
+      "age": "4",
+      "gender": "M",
       "origin": "WWE",
-      "class": "MC",
+      "class": "UM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Fiona Shaw",
-        "name": "Fiona Shaw",
-        "birthYear": 1958.0,
-        "gender": "F",
-        "nationality": "IE"
+        "id": "Robert Pugh",
+        "slug": "robert-pugh",
+        "name": "Robert Pugh",
+        "birthYear": 1948.0,
+        "gender": "M",
+        "nationality": "GB"
       }
     }
   ],

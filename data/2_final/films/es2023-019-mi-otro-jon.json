@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2010-10-23 00:00:00",
+    "date": "2010-10-23",
     "year": 2010
   },
   "production": {
@@ -21,21 +21,21 @@
   },
   "genre": [
     "COM",
-    "SCI",
-    "DRA"
+    "DRA",
+    "SCI"
   ],
   "tags": [
     "bucket list",
-    "physical illness",
-    "natural death",
-    "women empowerment",
-    "motherhood",
-    "homosociality",
-    "agony",
-    "intragenerational friendship",
     "in-laws",
+    "natural death",
+    "physical illness",
+    "homosociality",
+    "medical treatment",
     "technology",
-    "medical treatment"
+    "agony",
+    "motherhood",
+    "intragenerational friendship",
+    "women empowerment"
   ],
   "director": [
     {
@@ -44,7 +44,7 @@
       "name": "Paco Arango",
       "birthYear": 1966,
       "gender": "M",
-      "nationality": "MX"
+      "nationality": "ES"
     },
     {
       "id": "Paco Arango",
@@ -52,7 +52,7 @@
       "name": "Paco Arango",
       "birthYear": 1966,
       "gender": "M",
-      "nationality": "ES"
+      "nationality": "MX"
     }
   ],
   "character": [
@@ -68,6 +68,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Marisol Ayuso",
+        "slug": "marisol-ayuso",
         "name": "Marisol Ayuso",
         "birthYear": 1943.0,
         "gender": "F",
@@ -75,7 +76,7 @@
       }
     },
     {
-      "id": "ES2023_019_04",
+      "id": "ES2023_019_03",
       "age": "4",
       "gender": "F",
       "sexuality": "HE",
@@ -85,9 +86,10 @@
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Mar\u00eda Luisa Merlo",
-        "name": "Mar\u00eda Luisa Merlo",
-        "birthYear": 1941.0,
+        "id": "Mar\u00eda Jos\u00e9 Alfonso",
+        "slug": "maria-jose-alfonso",
+        "name": "Mar\u00eda Jos\u00e9 Alfonso",
+        "birthYear": 1940.0,
         "gender": "F",
         "nationality": "ES"
       }
@@ -103,6 +105,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Aitana S\u00e1nchez-Gij\u00f3n",
+        "slug": "aitana-sanchez-gijon",
         "name": "Aitana S\u00e1nchez-Gij\u00f3n",
         "birthYear": 1968.0,
         "gender": "F",
@@ -119,61 +122,9 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Mariano Pe\u00f1a",
+        "slug": "mariano-pena",
         "name": "Mariano Pe\u00f1a",
         "birthYear": 1960.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2023_019_03",
-      "age": "4",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Mar\u00eda Jos\u00e9 Alfonso",
-        "name": "Mar\u00eda Jos\u00e9 Alfonso",
-        "birthYear": 1940.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2023_019_06",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Enrique Vill\u00e9n",
-        "name": "Enrique Vill\u00e9n",
-        "birthYear": 1960.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2023_019_02",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Fernando Albizu",
-        "name": "Fernando Albizu",
-        "birthYear": 1963.0,
         "gender": "M",
         "nationality": "ES"
       }
@@ -190,9 +141,66 @@
       "assistedMobility": "CI",
       "person": {
         "id": "Carmen Maura",
+        "slug": "carmen-maura",
         "name": "Carmen Maura",
         "birthYear": 1945.0,
         "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_019_04",
+      "age": "4",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Mar\u00eda Luisa Merlo",
+        "slug": "maria-luisa-merlo",
+        "name": "Mar\u00eda Luisa Merlo",
+        "birthYear": 1941.0,
+        "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_019_02",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Fernando Albizu",
+        "slug": "fernando-albizu",
+        "name": "Fernando Albizu",
+        "birthYear": 1963.0,
+        "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_019_06",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Enrique Vill\u00e9n",
+        "slug": "enrique-villen",
+        "name": "Enrique Vill\u00e9n",
+        "birthYear": 1960.0,
+        "gender": "M",
         "nationality": "ES"
       }
     }

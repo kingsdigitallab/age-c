@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-04-07 00:00:00",
+    "date": "2022-04-07",
     "year": 2022
   },
   "production": {
@@ -24,22 +24,14 @@
     "DRA"
   ],
   "tags": [
-    "migration",
-    "precarity",
-    "parenthood",
     "marriage",
     "celebrity",
-    "technology"
+    "precarity",
+    "technology",
+    "parenthood",
+    "migration"
   ],
   "director": [
-    {
-      "id": "Marco Scotuzzi",
-      "slug": "marco-scotuzzi",
-      "name": "Marco Scotuzzi",
-      "birthYear": 1983,
-      "gender": "M",
-      "nationality": "IT"
-    },
     {
       "id": "Andrea Brusa",
       "slug": "andrea-brusa",
@@ -47,28 +39,17 @@
       "birthYear": 1984,
       "gender": "M",
       "nationality": "IT"
+    },
+    {
+      "id": "Marco Scotuzzi",
+      "slug": "marco-scotuzzi",
+      "name": "Marco Scotuzzi",
+      "birthYear": 1983,
+      "gender": "M",
+      "nationality": "IT"
     }
   ],
   "character": [
-    {
-      "id": "IT2022_060_02",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Alessandra Faiella",
-        "name": "Alessandra Faiella",
-        "birthYear": 1962.0,
-        "gender": "F",
-        "nationality": "IT"
-      },
-      "role": "LEA"
-    },
     {
       "id": "IT2022_060_01",
       "age": "3",
@@ -81,9 +62,30 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Giovanni Storti",
+        "slug": "giovanni-storti",
         "name": "Giovanni Storti",
         "birthYear": 1957.0,
         "gender": "M",
+        "nationality": "IT"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2022_060_02",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LM",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Alessandra Faiella",
+        "slug": "alessandra-faiella",
+        "name": "Alessandra Faiella",
+        "birthYear": 1962.0,
+        "gender": "F",
         "nationality": "IT"
       },
       "role": "LEA"

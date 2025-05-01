@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-11-03 00:00:00",
+    "date": "2023-11-03",
     "year": 2023
   },
   "production": {
@@ -25,18 +25,18 @@
     "THR"
   ],
   "tags": [
-    "organized crime",
-    "romance",
-    "abuse",
     "revenge",
     "murder",
-    "fatherhood",
-    "homosociality",
-    "burial",
-    "personal memory",
     "religion",
+    "burial",
     "self-employment",
-    "state institutions"
+    "organized crime",
+    "abuse",
+    "homosociality",
+    "personal memory",
+    "state institutions",
+    "romance",
+    "fatherhood"
   ],
   "director": [
     {
@@ -49,55 +49,20 @@
   ],
   "character": [
     {
-      "id": "GB2023_049_02",
-      "age": "2",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "UN",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Tara Fitzgerald",
-        "name": "Tara Fitzgerald",
-        "birthYear": 1967.0,
-        "gender": "F",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2023_049_03",
-      "age": "2",
+      "id": "GB2023_049_01",
+      "age": "3",
       "gender": "M",
       "sexuality": "HE",
       "origin": "WWE",
       "class": "MC",
-      "profession": "EM",
+      "profession": "SE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Marc Danbury",
-        "name": "Marc Danbury",
-        "birthYear": 1963.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2023_049_04",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Sean Gilder",
-        "name": "Sean Gilder",
-        "birthYear": 1964.0,
+        "id": "Paul McGann",
+        "slug": "paul-mcgann",
+        "name": "Paul McGann",
+        "birthYear": 1959.0,
         "gender": "M",
         "nationality": "GB"
       }
@@ -113,6 +78,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Murray Melvin",
+        "slug": "murray-melvin",
         "name": "Murray Melvin",
         "birthYear": 1932.0,
         "deathYear": 2023.0,
@@ -121,19 +87,58 @@
       }
     },
     {
-      "id": "GB2023_049_01",
-      "age": "3",
+      "id": "GB2023_049_03",
+      "age": "2",
       "gender": "M",
       "sexuality": "HE",
       "origin": "WWE",
       "class": "MC",
-      "profession": "SE",
+      "profession": "EM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Paul McGann",
-        "name": "Paul McGann",
-        "birthYear": 1959.0,
+        "id": "Marc Danbury",
+        "slug": "marc-danbury",
+        "name": "Marc Danbury",
+        "birthYear": 1963.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2023_049_02",
+      "age": "2",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "UN",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Tara Fitzgerald",
+        "slug": "tara-fitzgerald",
+        "name": "Tara Fitzgerald",
+        "birthYear": 1967.0,
+        "gender": "F",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2023_049_04",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Sean Gilder",
+        "slug": "sean-gilder",
+        "name": "Sean Gilder",
+        "birthYear": 1964.0,
         "gender": "M",
         "nationality": "GB"
       }

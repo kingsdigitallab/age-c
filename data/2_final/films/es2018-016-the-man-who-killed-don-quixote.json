@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2018-06-01 00:00:00",
+    "date": "2018-06-01",
     "year": 2018
   },
   "production": {
@@ -20,36 +20,36 @@
     "posterUrl": "https://www.imdb.com/title/tt1318517/mediaviewer/rm3143394816/?ref_=tt_ov_i"
   },
   "genre": [
-    "DRA",
     "ROA",
+    "DRA",
+    "MET",
     "COM",
-    "ADV",
-    "MET"
+    "ADV"
   ],
   "tags": [
-    "mentorship",
-    "artistic creation",
-    "rural",
     "mental illness",
-    "infidelity",
-    "superior-employee relationship",
-    "wealth",
-    "non-human companionship",
-    "desire",
-    "disappearing professions",
-    "personal memory",
-    "may-december",
-    "cultural memory",
-    "technology",
-    "ageism",
-    "homosociality",
-    "marriage",
-    "intragenerational friendship",
-    "power",
-    "crime",
     "abuse",
+    "desire",
+    "personal memory",
     "high rank employment",
-    "search for meaning"
+    "artistic creation",
+    "power",
+    "rural",
+    "superior-employee relationship",
+    "may-december",
+    "search for meaning",
+    "intragenerational friendship",
+    "wealth",
+    "infidelity",
+    "homosociality",
+    "ageism",
+    "technology",
+    "crime",
+    "non-human companionship",
+    "disappearing professions",
+    "marriage",
+    "mentorship",
+    "cultural memory"
   ],
   "director": [
     {
@@ -63,24 +63,6 @@
   ],
   "character": [
     {
-      "id": "ES2018_016_01",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "profession": "UN",
-      "ability": "CI",
-      "assistedMobility": "CI",
-      "person": {
-        "id": "Jonathan Pryce",
-        "name": "Jonathan Pryce",
-        "birthYear": 1947.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "ES2018_016_02",
       "age": "3",
       "gender": "M",
@@ -92,10 +74,30 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Stellan Skarsg\u00e5rd",
+        "slug": "stellan-skarsgard",
         "name": "Stellan Skarsg\u00e5rd",
         "birthYear": 1951.0,
         "gender": "M",
         "nationality": "CH"
+      }
+    },
+    {
+      "id": "ES2018_016_01",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LM",
+      "profession": "UN",
+      "ability": "CI",
+      "assistedMobility": "CI",
+      "person": {
+        "id": "Jonathan Pryce",
+        "slug": "jonathan-pryce",
+        "name": "Jonathan Pryce",
+        "birthYear": 1947.0,
+        "gender": "M",
+        "nationality": "GB"
       }
     }
   ],

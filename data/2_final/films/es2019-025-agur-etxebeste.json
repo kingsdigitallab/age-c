@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-09-26 00:00:00",
+    "date": "2019-09-26",
     "year": 2019
   },
   "production": {
@@ -23,30 +23,22 @@
     "COM"
   ],
   "tags": [
-    "regional identity",
     "high rank employment",
-    "parenthood",
-    "corruption",
-    "homosociality",
     "marriage",
-    "rural",
-    "women empowerment",
     "hospital",
+    "homosociality",
     "intragenerational friendship",
-    "power",
+    "corruption",
+    "professional politics",
     "state institutions",
+    "parenthood",
+    "regional identity",
     "grandparenthood",
-    "professional politics"
+    "women empowerment",
+    "power",
+    "rural"
   ],
   "director": [
-    {
-      "id": "Asier Altuna",
-      "slug": "asier-altuna",
-      "name": "Asier Altuna",
-      "birthYear": 1969,
-      "gender": "M",
-      "nationality": "ES"
-    },
     {
       "id": "Telmo Esnal",
       "slug": "telmo-esnal",
@@ -54,19 +46,66 @@
       "birthYear": 1966,
       "gender": "M",
       "nationality": "ES"
+    },
+    {
+      "id": "Asier Altuna",
+      "slug": "asier-altuna",
+      "name": "Asier Altuna",
+      "birthYear": 1969,
+      "gender": "M",
+      "nationality": "ES"
     }
   ],
   "character": [
     {
-      "id": "ES2019_025_03",
-      "age": "3",
+      "id": "ES2019_025_05",
+      "age": "2",
       "gender": "F",
       "origin": "WWE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "I\u00f1ake Irastorza",
-        "name": "I\u00f1ake Irastorza",
+        "id": "Ane Gabarain",
+        "slug": "ane-gabarain",
+        "name": "Ane Gabarain",
+        "birthYear": 1963.0,
+        "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2019_025_08",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Kandido Uranga",
+        "slug": "kandido-uranga",
+        "name": "Kandido Uranga",
+        "birthYear": 1955.0,
+        "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2019_025_01",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Elena Irureta",
+        "slug": "elena-irureta",
+        "name": "Elena Irureta",
         "birthYear": 1955.0,
         "gender": "F",
         "nationality": "ES"
@@ -84,27 +123,10 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Ram\u00f3n Agirre",
+        "slug": "ramon-agirre",
         "name": "Ram\u00f3n Agirre",
         "birthYear": 1949.0,
         "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2019_025_01",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Elena Irureta",
-        "name": "Elena Irureta",
-        "birthYear": 1955.0,
-        "gender": "F",
         "nationality": "ES"
       }
     },
@@ -117,56 +139,9 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Aitzpea Goenaga",
+        "slug": "aitzpea-goenaga",
         "name": "Aitzpea Goenaga",
         "birthYear": 1959.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2019_025_07",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Zorion Eguileor",
-        "name": "Zorion Eguileor",
-        "birthYear": 1946.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2019_025_08",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Kandido Uranga",
-        "name": "Kandido Uranga",
-        "birthYear": 1955.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2019_025_05",
-      "age": "2",
-      "gender": "F",
-      "origin": "WWE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Ane Gabarain",
-        "name": "Ane Gabarain",
-        "birthYear": 1963.0,
         "gender": "F",
         "nationality": "ES"
       }
@@ -180,8 +155,41 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Paco Sagarzazu",
+        "slug": "paco-sagarzazu",
         "name": "Paco Sagarzazu",
         "birthYear": 1940.0,
+        "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2019_025_03",
+      "age": "3",
+      "gender": "F",
+      "origin": "WWE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "I\u00f1ake Irastorza",
+        "slug": "inake-irastorza",
+        "name": "I\u00f1ake Irastorza",
+        "birthYear": 1955.0,
+        "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2019_025_07",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Zorion Eguileor",
+        "slug": "zorion-eguileor",
+        "name": "Zorion Eguileor",
+        "birthYear": 1946.0,
         "gender": "M",
         "nationality": "ES"
       }

@@ -8,60 +8,60 @@
   "gender": "M",
   "character": [
     {
-      "id": "GB2023_019_04",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "LC",
-      "profession": "UN",
       "ability": "AB",
+      "age": "3",
       "assistedMobility": "AB",
+      "class": "LC",
       "film": {
-        "id": "GB2023_019",
-        "slug": "gb2023-019-unwelcome",
-        "title": {
-          "native": "Unwelcome"
-        },
         "filmType": "F",
         "genre": "HOR",
+        "id": "GB2023_019",
+        "production": {
+          "country": "GB",
+          "share": "MAJ"
+        },
         "release": {
           "type": "THE",
           "year": 2023
         },
+        "slug": "gb2023-019-unwelcome",
         "tags": "class conflict",
+        "title": {
+          "native": "Unwelcome"
+        }
+      },
+      "gender": "M",
+      "id": "GB2023_019_04",
+      "origin": "WWE",
+      "profession": "UN"
+    },
+    {
+      "ability": "AB",
+      "age": "3",
+      "assistedMobility": "AB",
+      "class": "MC",
+      "film": {
+        "filmType": "F",
+        "genre": "HIS",
+        "id": "GB2018_063",
         "production": {
           "country": "GB",
           "share": "MAJ"
-        }
-      }
-    },
-    {
-      "id": "GB2018_063_01",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "film": {
-        "id": "GB2018_063",
-        "slug": "gb2018-063-the-devil-s-doorway",
-        "title": {
-          "native": "The Devil's Doorway"
         },
-        "filmType": "F",
-        "genre": "HIS",
         "release": {
           "type": "FES",
           "year": 2018
         },
+        "slug": "gb2018-063-the-devil-s-doorway",
         "tags": "national identity",
-        "production": {
-          "country": "GB",
-          "share": "MAJ"
+        "title": {
+          "native": "The Devil's Doorway"
         }
-      }
+      },
+      "gender": "M",
+      "id": "GB2018_063_01",
+      "origin": "WWE",
+      "profession": "EM"
     }
   ]
 }

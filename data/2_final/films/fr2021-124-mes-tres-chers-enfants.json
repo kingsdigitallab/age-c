@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2021-12-15 00:00:00",
+    "date": "2021-12-15",
     "year": 2021
   },
   "production": {
@@ -24,10 +24,10 @@
     "COM"
   ],
   "tags": [
-    "loneliness",
-    "parenthood",
     "marriage",
     "empty nest",
+    "parenthood",
+    "loneliness",
     "fraud",
     "wealth"
   ],
@@ -42,24 +42,6 @@
   ],
   "character": [
     {
-      "id": "FR2021_126_02",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Didier Bourdon",
-        "name": "Didier Bourdon",
-        "birthYear": 1959.0,
-        "gender": "M",
-        "nationality": "FR"
-      }
-    },
-    {
       "id": "FR2021_126_01",
       "age": "3",
       "gender": "F",
@@ -71,9 +53,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Josiane Balasko",
+        "slug": "josiane-balasko",
         "name": "Josiane Balasko",
         "birthYear": 1950.0,
         "gender": "F",
+        "nationality": "FR"
+      }
+    },
+    {
+      "id": "FR2021_126_02",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Didier Bourdon",
+        "slug": "didier-bourdon",
+        "name": "Didier Bourdon",
+        "birthYear": 1959.0,
+        "gender": "M",
         "nationality": "FR"
       }
     }

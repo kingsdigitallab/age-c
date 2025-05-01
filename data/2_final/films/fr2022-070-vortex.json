@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-04-13 00:00:00",
+    "date": "2022-04-13",
     "year": 2022
   },
   "production": {
@@ -24,13 +24,13 @@
     "DRA"
   ],
   "tags": [
+    "retirement",
+    "marriage",
     "independent home",
-    "artistic creation",
     "dementia",
     "parenthood",
-    "marriage",
     "urban",
-    "retirement"
+    "artistic creation"
   ],
   "director": [
     {
@@ -44,24 +44,6 @@
   ],
   "character": [
     {
-      "id": "FR2022_070_02",
-      "age": "4",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Fran\u00e7oise Lebrun",
-        "name": "Fran\u00e7oise Lebrun",
-        "birthYear": 1944.0,
-        "gender": "F",
-        "nationality": "FR"
-      }
-    },
-    {
       "id": "FR2022_070_01",
       "age": "4",
       "gender": "M",
@@ -73,10 +55,30 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Dario Argento",
+        "slug": "dario-argento",
         "name": "Dario Argento",
         "birthYear": 1943.0,
         "gender": "M",
         "nationality": "IT"
+      }
+    },
+    {
+      "id": "FR2022_070_02",
+      "age": "4",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Fran\u00e7oise Lebrun",
+        "slug": "francoise-lebrun",
+        "name": "Fran\u00e7oise Lebrun",
+        "birthYear": 1944.0,
+        "gender": "F",
+        "nationality": "FR"
       }
     }
   ],

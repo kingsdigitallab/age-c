@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-12-20 00:00:00",
+    "date": "2019-12-20",
     "year": 2019
   },
   "production": {
@@ -20,18 +20,18 @@
     "posterUrl": "https://www.imdb.com/title/tt5697572/mediaviewer/rm4019887361/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROM",
+    "FAN",
     "MUS",
-    "FAN"
+    "ROM"
   ],
   "tags": [
-    "mentorship",
-    "supernatural entity",
     "spirituality",
+    "class conflict",
+    "mentorship",
     "segregation",
-    "power",
+    "supernatural entity",
     "wealth",
-    "class conflict"
+    "power"
   ],
   "director": [
     {
@@ -53,23 +53,6 @@
   ],
   "character": [
     {
-      "id": "GB2019_002_01",
-      "age": "4",
-      "gender": "F",
-      "origin": "WWE",
-      "class": "UC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Judi Dench",
-        "name": "Judi Dench",
-        "birthYear": 1934.0,
-        "gender": "F",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2019_002_02",
       "age": "4",
       "gender": "M",
@@ -79,6 +62,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Ian McKellen",
+        "slug": "ian-mckellen",
         "name": "Ian McKellen",
         "birthYear": 1939.0,
         "gender": "M",
@@ -94,9 +78,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Ray Winstone",
+        "slug": "ray-winstone",
         "name": "Ray Winstone",
         "birthYear": 1957.0,
         "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2019_002_01",
+      "age": "4",
+      "gender": "F",
+      "origin": "WWE",
+      "class": "UC",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Judi Dench",
+        "slug": "judi-dench",
+        "name": "Judi Dench",
+        "birthYear": 1934.0,
+        "gender": "F",
         "nationality": "GB"
       }
     }

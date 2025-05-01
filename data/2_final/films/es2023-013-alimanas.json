@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-10-27 00:00:00",
+    "date": "2023-10-27",
     "year": 2023
   },
   "production": {
@@ -25,22 +25,22 @@
     "THR"
   ],
   "tags": [
-    "independent home",
-    "disability",
-    "abuse",
-    "inheritance",
-    "assisted death",
-    "ageism",
-    "precarity",
-    "natural death",
     "murder",
-    "motherhood",
-    "homosociality",
-    "brotherhood",
-    "urban",
     "intergenerational conflict",
+    "disability",
+    "natural death",
+    "precarity",
     "caregiving",
-    "medical treatment"
+    "inheritance",
+    "homosociality",
+    "independent home",
+    "brotherhood",
+    "medical treatment",
+    "abuse",
+    "ageism",
+    "motherhood",
+    "assisted death",
+    "urban"
   ],
   "director": [
     {
@@ -62,24 +62,6 @@
   ],
   "character": [
     {
-      "id": "ES2023_013_05",
-      "age": "4",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "RE",
-      "ability": "PD",
-      "assistedMobility": "PD",
-      "person": {
-        "id": "Mara Ballestero",
-        "name": "Mara Ballestero",
-        "birthYear": 1943.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2023_013_04",
       "age": "3",
       "gender": "M",
@@ -91,9 +73,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Antonio Resines",
+        "slug": "antonio-resines",
         "name": "Antonio Resines",
         "birthYear": 1954.0,
         "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_013_05",
+      "age": "4",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "RE",
+      "ability": "PD",
+      "assistedMobility": "PD",
+      "person": {
+        "id": "Mara Ballestero",
+        "slug": "mara-ballestero",
+        "name": "Mara Ballestero",
+        "birthYear": 1943.0,
+        "gender": "F",
         "nationality": "ES"
       }
     },
@@ -109,27 +111,10 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Jordi S\u00e1nchez",
+        "slug": "jordi-sanchez",
         "name": "Jordi S\u00e1nchez",
         "birthYear": 1964.0,
         "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2023_013_03",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Carmina Barrios",
-        "name": "Carmina Barrios",
-        "birthYear": 1953.0,
-        "gender": "F",
         "nationality": "ES"
       }
     },
@@ -145,8 +130,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Loles Le\u00f3n",
+        "slug": "loles-leon",
         "name": "Loles Le\u00f3n",
         "birthYear": 1950.0,
+        "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_013_03",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LM",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Carmina Barrios",
+        "slug": "carmina-barrios",
+        "name": "Carmina Barrios",
+        "birthYear": 1953.0,
         "gender": "F",
         "nationality": "ES"
       }

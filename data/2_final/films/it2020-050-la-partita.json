@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2020-02-27 00:00:00",
+    "date": "2020-02-27",
     "year": 2020
   },
   "production": {
@@ -21,14 +21,14 @@
     "posterUrl": "https://www.imdb.com/title/tt8776686/mediaviewer/rm1594527489/?ref_=tt_ov_i"
   },
   "genre": [
-    "SPO",
-    "DRA"
+    "DRA",
+    "SPO"
   ],
   "tags": [
     "homosociality",
-    "precarity",
     "superior-employee relationship",
-    "corruption"
+    "corruption",
+    "precarity"
   ],
   "director": [
     {
@@ -42,25 +42,6 @@
   ],
   "character": [
     {
-      "id": "IT2020_050_01",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Francesco Pannofino",
-        "name": "Francesco Pannofino",
-        "birthYear": 1958.0,
-        "gender": "M",
-        "nationality": "IT"
-      },
-      "role": "LEA"
-    },
-    {
       "id": "IT2020_050_02",
       "age": "3",
       "gender": "M",
@@ -72,8 +53,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Alberto Di Stasio",
+        "slug": "alberto-di-stasio",
         "name": "Alberto Di Stasio",
         "birthYear": 1950.0,
+        "gender": "M",
+        "nationality": "IT"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2020_050_01",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Francesco Pannofino",
+        "slug": "francesco-pannofino",
+        "name": "Francesco Pannofino",
+        "birthYear": 1958.0,
         "gender": "M",
         "nationality": "IT"
       },

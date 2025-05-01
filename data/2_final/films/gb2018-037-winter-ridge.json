@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2018-09-14 00:00:00",
+    "date": "2018-09-14",
     "year": 2018
   },
   "production": {
@@ -20,20 +20,20 @@
     "posterUrl": "https://www.imdb.com/title/tt5973658/mediaviewer/rm1420786432/?ref_=tt_ov_i"
   },
   "genre": [
-    "NOI",
     "DTH",
+    "NOI",
     "DRA"
   ],
   "tags": [
-    "abuse",
     "murder",
-    "dementia",
-    "homosociality",
-    "rural",
     "hospital",
-    "state institutions",
+    "homosociality",
+    "abuse",
     "medical treatment",
-    "crime"
+    "state institutions",
+    "crime",
+    "dementia",
+    "rural"
   ],
   "director": [
     {
@@ -46,23 +46,6 @@
   ],
   "character": [
     {
-      "id": "GB2018_037_01",
-      "age": "2",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Michael McKell",
-        "name": "Michael McKell",
-        "birthYear": 1959.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2018_037_02",
       "age": "4",
       "gender": "M",
@@ -73,8 +56,27 @@
       "assistedMobility": "CI",
       "person": {
         "id": "Alan Ford",
+        "slug": "alan-ford",
         "name": "Alan Ford",
         "birthYear": 1938.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2018_037_01",
+      "age": "2",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Michael McKell",
+        "slug": "michael-mckell",
+        "name": "Michael McKell",
+        "birthYear": 1959.0,
         "gender": "M",
         "nationality": "GB"
       }

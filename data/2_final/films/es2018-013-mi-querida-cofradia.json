@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2018-04-26 00:00:00",
+    "date": "2018-04-26",
     "year": 2018
   },
   "production": {
@@ -21,42 +21,24 @@
     "posterUrl": "https://www.imdb.com/title/tt6984534/mediaviewer/rm3395242752/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
-    "CRI"
+    "CRI",
+    "COM"
   ],
   "tags": [
-    "independent home",
-    "abuse",
-    "regional identity",
-    "gender discrimination",
-    "women empowerment",
-    "motherhood",
-    "rural",
-    "homosociality",
-    "religion",
     "in-laws",
+    "religion",
+    "homosociality",
+    "independent home",
+    "gender discrimination",
+    "abuse",
+    "intergenerational friendship",
+    "regional identity",
+    "motherhood",
+    "women empowerment",
     "power",
-    "intergenerational friendship"
+    "rural"
   ],
   "character": [
-    {
-      "id": "ES2018_013_01",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Gloria Mu\u00f1oz",
-        "name": "Gloria Mu\u00f1oz",
-        "birthYear": 1948.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
     {
       "id": "ES2018_013_02",
       "age": "3",
@@ -69,9 +51,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Juan Gea",
+        "slug": "juan-gea",
         "name": "Juan Gea",
         "birthYear": 1953.0,
         "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2018_013_01",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Gloria Mu\u00f1oz",
+        "slug": "gloria-munoz",
+        "name": "Gloria Mu\u00f1oz",
+        "birthYear": 1948.0,
+        "gender": "F",
         "nationality": "ES"
       }
     },
@@ -86,6 +88,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Rosario Pardo",
+        "slug": "rosario-pardo",
         "name": "Rosario Pardo",
         "birthYear": 1959.0,
         "gender": "F",

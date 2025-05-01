@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-07-14 00:00:00",
+    "date": "2022-07-14",
     "year": 2022
   },
   "production": {
@@ -25,20 +25,20 @@
     "CHI"
   ],
   "tags": [
-    "separation",
-    "migration",
-    "multigenerational family",
-    "de-ageing",
+    "marriage",
+    "in-laws",
     "grandmotherhood",
     "festivities",
-    "grandfatherhood",
-    "fatherhood",
-    "motherhood",
     "low rank employment",
-    "marriage",
-    "self-employment",
     "brotherhood",
-    "in-laws"
+    "self-employment",
+    "grandfatherhood",
+    "multigenerational family",
+    "separation",
+    "de-ageing",
+    "motherhood",
+    "migration",
+    "fatherhood"
   ],
   "director": [
     {
@@ -52,24 +52,6 @@
   ],
   "character": [
     {
-      "id": "ES2022_002_05",
-      "age": "2",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "ILA",
-      "class": "LM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Wendy Ramos",
-        "name": "Wendy Ramos",
-        "birthYear": 1966.0,
-        "gender": "F",
-        "nationality": "PE"
-      }
-    },
-    {
       "id": "ES2022_002_01",
       "age": "1",
       "gender": "M",
@@ -81,6 +63,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Santiago Segura",
+        "slug": "santiago-segura",
         "name": "Santiago Segura",
         "birthYear": 1965.0,
         "gender": "M",
@@ -88,19 +71,20 @@
       }
     },
     {
-      "id": "ES2022_002_03",
-      "age": "3",
+      "id": "ES2022_002_04",
+      "age": "2",
       "gender": "M",
       "sexuality": "HE",
       "origin": "WWE",
       "class": "MC",
-      "profession": "RE",
+      "profession": "EM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Carlos Iglesias",
-        "name": "Carlos Iglesias",
-        "birthYear": 1955.0,
+        "id": "Leo Harlem",
+        "slug": "leo-harlem",
+        "name": "Leo Harlem",
+        "birthYear": 1965.0,
         "gender": "M",
         "nationality": "ES"
       }
@@ -117,6 +101,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Loles Le\u00f3n",
+        "slug": "loles-leon",
         "name": "Loles Le\u00f3n",
         "birthYear": 1950.0,
         "gender": "F",
@@ -124,21 +109,41 @@
       }
     },
     {
-      "id": "ES2022_002_04",
-      "age": "2",
+      "id": "ES2022_002_03",
+      "age": "3",
       "gender": "M",
       "sexuality": "HE",
       "origin": "WWE",
       "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Carlos Iglesias",
+        "slug": "carlos-iglesias",
+        "name": "Carlos Iglesias",
+        "birthYear": 1955.0,
+        "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2022_002_05",
+      "age": "2",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "ILA",
+      "class": "LM",
       "profession": "EM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Leo Harlem",
-        "name": "Leo Harlem",
-        "birthYear": 1965.0,
-        "gender": "M",
-        "nationality": "ES"
+        "id": "Wendy Ramos",
+        "slug": "wendy-ramos",
+        "name": "Wendy Ramos",
+        "birthYear": 1966.0,
+        "gender": "F",
+        "nationality": "PE"
       }
     }
   ],

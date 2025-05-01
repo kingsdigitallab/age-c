@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-03-24 00:00:00",
+    "date": "2023-03-24",
     "year": 2023
   },
   "production": {
@@ -24,15 +24,15 @@
     "CHI"
   ],
   "tags": [
-    "supernatural entity",
-    "holiday",
-    "new start",
+    "intergenerational conflict",
     "education",
     "homosociality",
-    "rural",
+    "holiday",
     "self-employment",
     "intragenerational friendship",
-    "intergenerational conflict"
+    "supernatural entity",
+    "new start",
+    "rural"
   ],
   "director": [
     {
@@ -46,36 +46,20 @@
   ],
   "character": [
     {
-      "id": "ES2023_007_03",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Meteora Fontana",
-        "name": "Meteora Fontana",
-        "birthYear": 1958.0,
-        "gender": "F",
-        "nationality": "IT"
-      }
-    },
-    {
-      "id": "ES2023_007_04",
-      "age": "3",
+      "id": "ES2023_007_02",
+      "age": "2",
       "gender": "M",
       "sexuality": "HE",
       "origin": "WWE",
       "class": "MC",
-      "profession": "EM",
+      "profession": "SE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Antonio Resines",
-        "name": "Antonio Resines",
-        "birthYear": 1954.0,
+        "id": "Pepe Viyuela",
+        "slug": "pepe-viyuela",
+        "name": "Pepe Viyuela",
+        "birthYear": 1963.0,
         "gender": "M",
         "nationality": "ES"
       }
@@ -92,6 +76,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Jos\u00e9 Mota",
+        "slug": "jose-mota",
         "name": "Jos\u00e9 Mota",
         "birthYear": 1965.0,
         "gender": "M",
@@ -99,21 +84,40 @@
       }
     },
     {
-      "id": "ES2023_007_02",
-      "age": "2",
+      "id": "ES2023_007_04",
+      "age": "3",
       "gender": "M",
       "sexuality": "HE",
       "origin": "WWE",
       "class": "MC",
-      "profession": "SE",
+      "profession": "EM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Pepe Viyuela",
-        "name": "Pepe Viyuela",
-        "birthYear": 1963.0,
+        "id": "Antonio Resines",
+        "slug": "antonio-resines",
+        "name": "Antonio Resines",
+        "birthYear": 1954.0,
         "gender": "M",
         "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_007_03",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Meteora Fontana",
+        "slug": "meteora-fontana",
+        "name": "Meteora Fontana",
+        "birthYear": 1958.0,
+        "gender": "F",
+        "nationality": "IT"
       }
     }
   ],

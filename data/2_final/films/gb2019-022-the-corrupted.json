@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-05-10 00:00:00",
+    "date": "2019-05-10",
     "year": 2019
   },
   "production": {
@@ -20,28 +20,28 @@
     "posterUrl": "https://www.imdb.com/title/tt5687270/mediaviewer/rm3969482753/?ref_=tt_ov_i"
   },
   "genre": [
-    "DET",
     "ACT",
-    "THR"
+    "THR",
+    "DET"
   ],
   "tags": [
-    "organized crime",
+    "murder",
+    "gentrification",
     "superior-employee relationship",
+    "marriage",
+    "class conflict",
+    "homosociality",
     "independent home",
+    "organized crime",
+    "corruption",
+    "multigenerational family",
+    "state institutions",
     "regional identity",
     "high rank employment",
-    "multigenerational family",
-    "class conflict",
-    "murder",
-    "fatherhood",
-    "corruption",
-    "homosociality",
-    "marriage",
+    "wealth",
     "urban",
-    "gentrification",
     "power",
-    "state institutions",
-    "wealth"
+    "fatherhood"
   ],
   "director": [
     {
@@ -54,18 +54,20 @@
   ],
   "character": [
     {
-      "id": "GB2019_022_03",
-      "age": "3",
+      "id": "GB2019_022_02",
+      "age": "2",
       "gender": "M",
+      "sexuality": "HE",
       "origin": "WWE",
-      "class": "MC",
+      "class": "UM",
       "profession": "EM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "David Hayman",
-        "name": "David Hayman",
-        "birthYear": 1948.0,
+        "id": "Hugh Bonneville",
+        "slug": "hugh-bonneville",
+        "name": "Hugh Bonneville",
+        "birthYear": 1963.0,
         "gender": "M",
         "nationality": "GB"
       }
@@ -82,27 +84,10 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Lorraine Ashbourne",
+        "slug": "lorraine-ashbourne",
         "name": "Lorraine Ashbourne",
         "birthYear": 1961.0,
         "gender": "F",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2019_022_02",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Hugh Bonneville",
-        "name": "Hugh Bonneville",
-        "birthYear": 1963.0,
-        "gender": "M",
         "nationality": "GB"
       }
     },
@@ -118,8 +103,27 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Timothy Spall",
+        "slug": "timothy-spall",
         "name": "Timothy Spall",
         "birthYear": 1957.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2019_022_03",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "David Hayman",
+        "slug": "david-hayman",
+        "name": "David Hayman",
+        "birthYear": 1948.0,
         "gender": "M",
         "nationality": "GB"
       }

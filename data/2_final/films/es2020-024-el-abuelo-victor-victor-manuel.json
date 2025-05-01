@@ -8,7 +8,7 @@
   "filmType": "D",
   "release": {
     "type": "THE",
-    "date": "2020-07-09 00:00:00",
+    "date": "2020-07-09",
     "year": 2020
   },
   "production": {
@@ -24,14 +24,14 @@
     "DPA"
   ],
   "tags": [
+    "marriage",
+    "celebrity",
+    "self-employment",
+    "grandfatherhood",
+    "intragenerational friendship",
     "activism",
     "artistic creation",
-    "grandfatherhood",
-    "marriage",
-    "self-employment",
-    "cultural memory",
-    "intragenerational friendship",
-    "celebrity"
+    "cultural memory"
   ],
   "director": [
     {
@@ -45,122 +45,6 @@
   ],
   "character": [
     {
-      "id": "ES2020_024_07",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Carlos Manuel D\u00edaz",
-        "name": "Carlos Manuel D\u00edaz",
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2020_024_05",
-      "age": "4",
-      "gender": "M",
-      "origin": "WWE",
-      "person": {
-        "id": "Saturnino Garc\u00eda",
-        "name": "Saturnino Garc\u00eda",
-        "birthYear": 1935.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2020_024_01",
-      "age": "4",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Mar\u00eda Jos\u00e9 Alfonso",
-        "name": "Mar\u00eda Jos\u00e9 Alfonso",
-        "birthYear": 1940.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2020_024_10",
-      "age": "4",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Jes\u00fas Guzm\u00e1n",
-        "name": "Jes\u00fas Guzm\u00e1n",
-        "birthYear": 1926.0,
-        "deathYear": 2023.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2020_024_09",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Tony Antonio",
-        "name": "Tony Antonio",
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2020_024_06",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Mariano Venancio",
-        "name": "Mariano Venancio",
-        "birthYear": 1947.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2020_024_08",
-      "age": "4",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Silvia Casanova",
-        "name": "Silvia Casanova",
-        "birthYear": 1933.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2020_024_03",
       "age": "4",
       "gender": "M",
@@ -172,6 +56,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Manuel Zarzo",
+        "slug": "manuel-zarzo",
         "name": "Manuel Zarzo",
         "birthYear": 1932.0,
         "gender": "M",
@@ -190,9 +75,133 @@
       "assistedMobility": "AB",
       "person": {
         "id": "M\u00e1ximo Valverde",
+        "slug": "maximo-valverde",
         "name": "M\u00e1ximo Valverde",
         "birthYear": 1944.0,
         "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2020_024_06",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Mariano Venancio",
+        "slug": "mariano-venancio",
+        "name": "Mariano Venancio",
+        "birthYear": 1947.0,
+        "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2020_024_10",
+      "age": "4",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Jes\u00fas Guzm\u00e1n",
+        "slug": "jesus-guzman",
+        "name": "Jes\u00fas Guzm\u00e1n",
+        "birthYear": 1926.0,
+        "deathYear": 2023.0,
+        "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2020_024_07",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Carlos Manuel D\u00edaz",
+        "slug": "carlos-manuel-diaz",
+        "name": "Carlos Manuel D\u00edaz",
+        "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2020_024_05",
+      "age": "4",
+      "gender": "M",
+      "origin": "WWE",
+      "person": {
+        "id": "Saturnino Garc\u00eda",
+        "slug": "saturnino-garcia",
+        "name": "Saturnino Garc\u00eda",
+        "birthYear": 1935.0,
+        "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2020_024_09",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Tony Antonio",
+        "slug": "tony-antonio",
+        "name": "Tony Antonio",
+        "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2020_024_08",
+      "age": "4",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Silvia Casanova",
+        "slug": "silvia-casanova",
+        "name": "Silvia Casanova",
+        "birthYear": 1933.0,
+        "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2020_024_01",
+      "age": "4",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Mar\u00eda Jos\u00e9 Alfonso",
+        "slug": "maria-jose-alfonso",
+        "name": "Mar\u00eda Jos\u00e9 Alfonso",
+        "birthYear": 1940.0,
+        "gender": "F",
         "nationality": "ES"
       }
     },
@@ -207,6 +216,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Guillermo Montesinos",
+        "slug": "guillermo-montesinos",
         "name": "Guillermo Montesinos",
         "birthYear": 1948.0,
         "gender": "M",

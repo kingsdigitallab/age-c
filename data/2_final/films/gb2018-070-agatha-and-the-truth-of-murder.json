@@ -7,8 +7,7 @@
   },
   "filmType": "F",
   "release": {
-    "type": "THE",
-    "date": "NaT"
+    "type": "THE"
   },
   "production": {
     "country": "GB",
@@ -19,16 +18,16 @@
     "posterUrl": "https://www.imdb.com/title/tt9381998/mediaviewer/rm3125702400/?ref_=tt_ov_i"
   },
   "genre": [
-    "HIS",
-    "DTH"
+    "DTH",
+    "HIS"
   ],
   "tags": [
-    "independent home",
-    "abuse",
-    "rural",
-    "wealth",
     "class conflict",
-    "crime"
+    "abuse",
+    "independent home",
+    "crime",
+    "wealth",
+    "rural"
   ],
   "director": [
     {
@@ -40,22 +39,6 @@
   ],
   "character": [
     {
-      "id": "GB2018_070_02",
-      "age": "2",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "UM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Michael McElhatton",
-        "name": "Michael McElhatton",
-        "birthYear": 1963.0,
-        "gender": "M",
-        "nationality": "IE"
-      }
-    },
-    {
       "id": "GB2018_070_01",
       "age": "2",
       "gender": "F",
@@ -65,6 +48,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Pippa Haywood",
+        "slug": "pippa-haywood",
         "name": "Pippa Haywood",
         "birthYear": 1961.0,
         "gender": "F",
@@ -81,10 +65,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Tim McInnerny",
+        "slug": "tim-mcinnerny",
         "name": "Tim McInnerny",
         "birthYear": 1956.0,
         "gender": "M",
         "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2018_070_02",
+      "age": "2",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "UM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Michael McElhatton",
+        "slug": "michael-mcelhatton",
+        "name": "Michael McElhatton",
+        "birthYear": 1963.0,
+        "gender": "M",
+        "nationality": "IE"
       }
     }
   ],

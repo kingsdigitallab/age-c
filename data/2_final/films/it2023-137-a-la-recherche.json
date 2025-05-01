@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-11-02 00:00:00",
+    "date": "2023-11-02",
     "year": 2023
   },
   "production": {
@@ -20,14 +20,14 @@
     "posterUrl": "https://www.imdb.com/title/tt11898692/mediaviewer/rm3655291393/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROM",
     "MET",
+    "ROM",
     "DRA"
   ],
   "tags": [
-    "class conflict",
     "sex",
-    "artistic creation"
+    "artistic creation",
+    "class conflict"
   ],
   "director": [
     {
@@ -52,31 +52,13 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Giulio Base",
+        "slug": "giulio-base",
         "name": "Giulio Base",
         "birthYear": 1964.0,
         "gender": "M",
         "nationality": "IT"
       },
       "role": "DIR"
-    },
-    {
-      "id": "IT2023_137_02",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Giulio Base",
-        "name": "Giulio Base",
-        "birthYear": 1964.0,
-        "gender": "M",
-        "nationality": "IT"
-      },
-      "role": "LEA"
     },
     {
       "id": "IT2023_137_01",
@@ -90,10 +72,31 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Anne Parillaud",
+        "slug": "anne-parillaud",
         "name": "Anne Parillaud",
         "birthYear": 1960.0,
         "gender": "F",
         "nationality": "FR"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2023_137_02",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LM",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Giulio Base",
+        "slug": "giulio-base",
+        "name": "Giulio Base",
+        "birthYear": 1964.0,
+        "gender": "M",
+        "nationality": "IT"
       },
       "role": "LEA"
     }

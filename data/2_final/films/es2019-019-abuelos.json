@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2011-10-19 00:00:00",
+    "date": "2011-10-19",
     "year": 2011
   },
   "production": {
@@ -25,24 +25,24 @@
     "DRA"
   ],
   "tags": [
-    "separation",
-    "unemployment",
-    "multigenerational family",
-    "new start",
-    "ageism",
-    "precarity",
-    "class solidarity",
-    "grandfatherhood",
-    "homosociality",
     "marriage",
+    "precarity",
+    "caregiving",
+    "homosociality",
     "intragenerational friendship",
     "self-employment",
-    "urban",
-    "reignited passion",
-    "elderhood (friendship among elders)",
-    "caregiving",
+    "class solidarity",
+    "grandfatherhood",
+    "multigenerational family",
+    "unemployment",
+    "separation",
     "technology",
-    "state institutions"
+    "ageism",
+    "state institutions",
+    "reignited passion",
+    "urban",
+    "new start",
+    "elderhood (friendship among elders)"
   ],
   "director": [
     {
@@ -55,19 +55,21 @@
   ],
   "character": [
     {
-      "id": "ES2019_019_04",
+      "id": "ES2019_019_01",
       "age": "3",
-      "gender": "F",
+      "gender": "M",
       "sexuality": "HE",
       "origin": "WWE",
-      "class": "MC",
+      "class": "LM",
+      "profession": "UN",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Mercedes Sampietro",
-        "name": "Mercedes Sampietro",
-        "birthYear": 1947.0,
-        "gender": "F",
+        "id": "Carlos Iglesias",
+        "slug": "carlos-iglesias",
+        "name": "Carlos Iglesias",
+        "birthYear": 1955.0,
+        "gender": "M",
         "nationality": "ES"
       }
     },
@@ -83,6 +85,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Roberto \u00c1lvarez",
+        "slug": "roberto-alvarez",
         "name": "Roberto \u00c1lvarez",
         "birthYear": 1956.0,
         "gender": "M",
@@ -101,6 +104,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Ram\u00f3n Barea",
+        "slug": "ramon-barea",
         "name": "Ram\u00f3n Barea",
         "birthYear": 1949.0,
         "gender": "M",
@@ -108,20 +112,20 @@
       }
     },
     {
-      "id": "ES2019_019_01",
+      "id": "ES2019_019_04",
       "age": "3",
-      "gender": "M",
+      "gender": "F",
       "sexuality": "HE",
       "origin": "WWE",
-      "class": "LM",
-      "profession": "UN",
+      "class": "MC",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Carlos Iglesias",
-        "name": "Carlos Iglesias",
-        "birthYear": 1955.0,
-        "gender": "M",
+        "id": "Mercedes Sampietro",
+        "slug": "mercedes-sampietro",
+        "name": "Mercedes Sampietro",
+        "birthYear": 1947.0,
+        "gender": "F",
         "nationality": "ES"
       }
     }

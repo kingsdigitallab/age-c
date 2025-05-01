@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2018-09-14 00:00:00",
+    "date": "2018-09-14",
     "year": 2018
   },
   "production": {
@@ -24,21 +24,21 @@
     "HEI"
   ],
   "tags": [
-    "wealth",
+    "retirement",
+    "marriage",
     "last mission",
     "physical illness",
-    "class solidarity",
-    "substance abuse",
     "homosociality",
-    "marriage",
-    "intragenerational friendship",
-    "self-employment",
-    "retirement",
-    "urban",
-    "elderhood (friendship among elders)",
-    "state institutions",
     "friendship betrayal",
-    "crime"
+    "self-employment",
+    "class solidarity",
+    "state institutions",
+    "substance abuse",
+    "crime",
+    "intragenerational friendship",
+    "urban",
+    "wealth",
+    "elderhood (friendship among elders)"
   ],
   "director": [
     {
@@ -52,24 +52,6 @@
   ],
   "character": [
     {
-      "id": "GB2018_005_01",
-      "age": "4",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Michael Caine",
-        "name": "Michael Caine",
-        "birthYear": 1933.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2018_005_06",
       "age": "3",
       "gender": "M",
@@ -80,6 +62,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Paul Whitehouse",
+        "slug": "paul-whitehouse",
         "name": "Paul Whitehouse",
         "birthYear": 1958.0,
         "gender": "M",
@@ -97,26 +80,10 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Michael Gambon",
+        "slug": "michael-gambon",
         "name": "Michael Gambon",
         "birthYear": 1940.0,
         "deathYear": 2023.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2018_005_04",
-      "age": "4",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Tom Courtenay",
-        "name": "Tom Courtenay",
-        "birthYear": 1937.0,
         "gender": "M",
         "nationality": "GB"
       }
@@ -133,26 +100,10 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Francesca Annis",
+        "slug": "francesca-annis",
         "name": "Francesca Annis",
         "birthYear": 1945.0,
         "gender": "F",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2018_005_03",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Jim Broadbent",
-        "name": "Jim Broadbent",
-        "birthYear": 1949.0,
-        "gender": "M",
         "nationality": "GB"
       }
     },
@@ -167,8 +118,64 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Ray Winstone",
+        "slug": "ray-winstone",
         "name": "Ray Winstone",
         "birthYear": 1957.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2018_005_04",
+      "age": "4",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Tom Courtenay",
+        "slug": "tom-courtenay",
+        "name": "Tom Courtenay",
+        "birthYear": 1937.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2018_005_03",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Jim Broadbent",
+        "slug": "jim-broadbent",
+        "name": "Jim Broadbent",
+        "birthYear": 1949.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2018_005_01",
+      "age": "4",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Michael Caine",
+        "slug": "michael-caine",
+        "name": "Michael Caine",
+        "birthYear": 1933.0,
         "gender": "M",
         "nationality": "GB"
       }

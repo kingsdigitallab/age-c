@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2018-01-12 00:00:00",
+    "date": "2018-01-12",
     "year": 2018
   },
   "production": {
@@ -20,54 +20,36 @@
     "posterUrl": "https://www.imdb.com/title/tt4555426/mediaviewer/rm955142400/?ref_=tt_ov_i"
   },
   "genre": [
-    "HIS",
-    "DRA",
-    "THR",
     "BIO",
-    "WAR"
+    "DRA",
+    "HIS",
+    "WAR",
+    "THR"
   ],
   "tags": [
-    "collective trauma",
-    "superior-employee relationship",
-    "wealth",
     "national identity",
-    "non-human companionship",
-    "mass media",
     "war",
-    "cultural memory",
+    "high rank employment",
+    "power",
+    "superior-employee relationship",
+    "class solidarity",
+    "mass media",
+    "substance abuse",
+    "intragenerational friendship",
+    "wealth",
+    "collective trauma",
     "physical illness",
     "homosociality",
-    "marriage",
-    "intragenerational friendship",
-    "power",
-    "state institutions",
-    "high rank employment",
-    "class solidarity",
-    "natural death",
-    "substance abuse",
     "gray face",
+    "state institutions",
     "urban",
-    "professional politics"
+    "non-human companionship",
+    "marriage",
+    "natural death",
+    "professional politics",
+    "cultural memory"
   ],
   "character": [
-    {
-      "id": "GB2018_002_08",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Hilton McRae",
-        "name": "Hilton McRae",
-        "birthYear": 1949.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
     {
       "id": "GB2018_002_01",
       "age": "3",
@@ -80,26 +62,9 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Gary Oldman",
+        "slug": "gary-oldman",
         "name": "Gary Oldman",
         "birthYear": 1958.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2018_002_06",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "David Schofield",
-        "name": "David Schofield",
-        "birthYear": 1951.0,
         "gender": "M",
         "nationality": "GB"
       }
@@ -116,27 +81,9 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Malcolm Storry",
+        "slug": "malcolm-storry",
         "name": "Malcolm Storry",
         "birthYear": 1948.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2018_002_03",
-      "age": "4",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UC",
-      "profession": "EM",
-      "ability": "CI",
-      "assistedMobility": "CI",
-      "person": {
-        "id": "Ronald Pickup",
-        "name": "Ronald Pickup",
-        "birthYear": 1940.0,
-        "deathYear": 2021.0,
         "gender": "M",
         "nationality": "GB"
       }
@@ -153,8 +100,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Nicholas Jones",
+        "slug": "nicholas-jones",
         "name": "Nicholas Jones",
         "birthYear": 1946.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2018_002_06",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "David Schofield",
+        "slug": "david-schofield",
+        "name": "David Schofield",
+        "birthYear": 1951.0,
         "gender": "M",
         "nationality": "GB"
       }
@@ -171,6 +138,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Stephen Dillane",
+        "slug": "stephen-dillane",
         "name": "Stephen Dillane",
         "birthYear": 1957.0,
         "gender": "M",
@@ -189,10 +157,50 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Kristin Scott Thomas",
+        "slug": "kristin-scott-thomas",
         "name": "Kristin Scott Thomas",
         "birthYear": 1960.0,
         "gender": "F",
         "nationality": "UK"
+      }
+    },
+    {
+      "id": "GB2018_002_03",
+      "age": "4",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UC",
+      "profession": "EM",
+      "ability": "CI",
+      "assistedMobility": "CI",
+      "person": {
+        "id": "Ronald Pickup",
+        "slug": "ronald-pickup",
+        "name": "Ronald Pickup",
+        "birthYear": 1940.0,
+        "deathYear": 2021.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2018_002_08",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Hilton McRae",
+        "slug": "hilton-mcrae",
+        "name": "Hilton McRae",
+        "birthYear": 1949.0,
+        "gender": "M",
+        "nationality": "GB"
       }
     }
   ],

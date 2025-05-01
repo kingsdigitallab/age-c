@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2018-03-30 00:00:00",
+    "date": "2018-03-30",
     "year": 2018
   },
   "production": {
@@ -21,27 +21,27 @@
   },
   "genre": [
     "DRA",
-    "THR",
+    "HEM",
     "COM",
     "ROM",
-    "HEM"
+    "THR"
   ],
   "tags": [
-    "independent home",
-    "migration",
-    "physical illness",
-    "return home",
-    "parenthood",
-    "fatherhood",
-    "motherhood",
     "marriage",
-    "rural",
-    "personal memory",
     "hospital",
+    "return home",
     "caregiving",
     "wealth",
+    "physical illness",
+    "fatherhood",
+    "independent home",
+    "national identity",
     "medical treatment",
-    "national identity"
+    "personal memory",
+    "parenthood",
+    "motherhood",
+    "migration",
+    "rural"
   ],
   "director": [
     {
@@ -61,23 +61,6 @@
   ],
   "character": [
     {
-      "id": "GB2018_021_02",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "SOA",
-      "class": "UC",
-      "profession": "UN",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Beo Raana Zafar",
-        "name": "Beo Raana Zafar",
-        "gender": "F",
-        "nationality": "PK"
-      }
-    },
-    {
       "id": "GB2018_021_01",
       "age": "3",
       "gender": "M",
@@ -89,9 +72,28 @@
       "assistedMobility": "CI",
       "person": {
         "id": "Mohammad Ahmad",
+        "slug": "mohammad-ahmad",
         "name": "Mohammad Ahmad",
         "birthYear": 1957.0,
         "gender": "M",
+        "nationality": "PK"
+      }
+    },
+    {
+      "id": "GB2018_021_02",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "SOA",
+      "class": "UC",
+      "profession": "UN",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Beo Raana Zafar",
+        "slug": "beo-raana-zafar",
+        "name": "Beo Raana Zafar",
+        "gender": "F",
         "nationality": "PK"
       }
     }

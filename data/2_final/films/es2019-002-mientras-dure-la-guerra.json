@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-11-27 00:00:00",
+    "date": "2019-11-27",
     "year": 2019
   },
   "production": {
@@ -21,35 +21,35 @@
     "posterUrl": "https://www.imdb.com/title/tt7818580/mediaviewer/rm2788069889/?ref_=tt_ov_i"
   },
   "genre": [
-    "WAR",
     "HIS",
+    "WAR",
     "BIO",
     "DRA"
   ],
   "tags": [
-    "artistic creation",
-    "collective trauma",
-    "intergenerational conflict",
-    "superior-employee relationship",
     "national identity",
-    "de-ageing",
-    "extended family",
-    "low rank employment",
     "war",
-    "religion",
-    "cultural memory",
-    "grief",
-    "disability",
-    "activism",
-    "homosociality",
-    "state institutions",
-    "intergenerational friendship",
-    "friendship betrayal",
-    "independent home",
     "abuse",
+    "intergenerational friendship",
     "high rank employment",
+    "artistic creation",
+    "superior-employee relationship",
+    "grief",
+    "extended family",
+    "religion",
+    "de-ageing",
+    "activism",
+    "collective trauma",
+    "disability",
+    "homosociality",
+    "independent home",
+    "friendship betrayal",
     "gray face",
-    "professional politics"
+    "state institutions",
+    "intergenerational conflict",
+    "low rank employment",
+    "professional politics",
+    "cultural memory"
   ],
   "director": [
     {
@@ -63,19 +63,19 @@
   ],
   "character": [
     {
-      "id": "ES2019_002_01",
-      "age": "3",
+      "id": "ES2019_002_05",
+      "age": "2",
       "gender": "M",
-      "sexuality": "HE",
       "origin": "WWE",
       "class": "UM",
       "profession": "EM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Karra Elejalde",
-        "name": "Karra Elejalde",
-        "birthYear": 1960.0,
+        "id": "Pep Tosar",
+        "slug": "pep-tosar",
+        "name": "Pep Tosar",
+        "birthYear": 1961.0,
         "gender": "M",
         "nationality": "ES"
       }
@@ -92,25 +92,9 @@
       "assistedMobility": "PD",
       "person": {
         "id": "Eduard Fern\u00e1ndez",
+        "slug": "eduard-fernandez",
         "name": "Eduard Fern\u00e1ndez",
         "birthYear": 1964.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2019_002_04",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "UC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Tito Valverde",
-        "name": "Tito Valverde",
-        "birthYear": 1951.0,
         "gender": "M",
         "nationality": "ES"
       }
@@ -126,9 +110,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Itziar Aizpuru",
+        "slug": "itziar-aizpuru",
         "name": "Itziar Aizpuru",
         "birthYear": 1939.0,
         "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2019_002_04",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "UC",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Tito Valverde",
+        "slug": "tito-valverde",
+        "name": "Tito Valverde",
+        "birthYear": 1951.0,
+        "gender": "M",
         "nationality": "ES"
       }
     },
@@ -144,6 +147,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Santi Prego",
+        "slug": "santi-prego",
         "name": "Santi Prego",
         "birthYear": 1962.0,
         "gender": "M",
@@ -151,18 +155,20 @@
       }
     },
     {
-      "id": "ES2019_002_05",
-      "age": "2",
+      "id": "ES2019_002_01",
+      "age": "3",
       "gender": "M",
+      "sexuality": "HE",
       "origin": "WWE",
       "class": "UM",
       "profession": "EM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Pep Tosar",
-        "name": "Pep Tosar",
-        "birthYear": 1961.0,
+        "id": "Karra Elejalde",
+        "slug": "karra-elejalde",
+        "name": "Karra Elejalde",
+        "birthYear": 1960.0,
         "gender": "M",
         "nationality": "ES"
       }

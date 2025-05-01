@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-05-20 00:00:00",
+    "date": "2022-05-20",
     "year": 2022
   },
   "production": {
@@ -24,18 +24,18 @@
     "COM"
   ],
   "tags": [
-    "high rank employment",
-    "physical illness",
-    "festivities",
-    "fatherhood",
-    "substance abuse",
-    "homosociality",
-    "motherhood",
-    "self-employment",
-    "hospital",
     "mental illness",
     "superior-employee relationship",
-    "medical treatment"
+    "hospital",
+    "festivities",
+    "homosociality",
+    "physical illness",
+    "self-employment",
+    "medical treatment",
+    "substance abuse",
+    "motherhood",
+    "high rank employment",
+    "fatherhood"
   ],
   "director": [
     {
@@ -49,23 +49,6 @@
   ],
   "character": [
     {
-      "id": "ES2022_049_02",
-      "age": "3",
-      "gender": "F",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Loles Le\u00f3n",
-        "name": "Loles Le\u00f3n",
-        "birthYear": 1950.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2022_049_03",
       "age": "3",
       "gender": "M",
@@ -77,6 +60,7 @@
       "assistedMobility": "TD",
       "person": {
         "id": "Tito Valverde",
+        "slug": "tito-valverde",
         "name": "Tito Valverde",
         "birthYear": 1951.0,
         "gender": "M",
@@ -95,9 +79,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Ver\u00f3nica Forqu\u00e9",
+        "slug": "veronica-forque",
         "name": "Ver\u00f3nica Forqu\u00e9",
         "birthYear": 1955.0,
         "deathYear": 2022.0,
+        "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2022_049_02",
+      "age": "3",
+      "gender": "F",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Loles Le\u00f3n",
+        "slug": "loles-leon",
+        "name": "Loles Le\u00f3n",
+        "birthYear": 1950.0,
         "gender": "F",
         "nationality": "ES"
       }
@@ -114,6 +117,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Carlos Bardem",
+        "slug": "carlos-bardem",
         "name": "Carlos Bardem",
         "birthYear": 1963.0,
         "gender": "M",

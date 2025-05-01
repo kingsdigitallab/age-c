@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2021-03-26 00:00:00",
+    "date": "2021-03-26",
     "year": 2021
   },
   "production": {
@@ -20,22 +20,22 @@
     "posterUrl": "https://www.imdb.com/title/tt5114840/mediaviewer/rm1809893377/?ref_=tt_ov_i"
   },
   "genre": [
-    "HIS",
-    "THR",
-    "ACT",
     "SPY",
-    "WAR"
+    "HIS",
+    "WAR",
+    "THR",
+    "ACT"
   ],
   "tags": [
-    "mentorship",
-    "education",
     "collective trauma",
-    "low rank employment",
-    "rural",
-    "self-employment",
-    "war",
     "superior-employee relationship",
-    "national identity"
+    "education",
+    "low rank employment",
+    "national identity",
+    "war",
+    "self-employment",
+    "mentorship",
+    "rural"
   ],
   "director": [
     {
@@ -49,23 +49,6 @@
   ],
   "character": [
     {
-      "id": "GB2021_017_02",
-      "age": "3",
-      "gender": "F",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Judi Dench",
-        "name": "Judi Dench",
-        "birthYear": 1934.0,
-        "gender": "F",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2021_017_03",
       "age": "3",
       "gender": "M",
@@ -76,9 +59,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Jim Broadbent",
+        "slug": "jim-broadbent",
         "name": "Jim Broadbent",
         "birthYear": 1949.0,
         "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2021_017_02",
+      "age": "3",
+      "gender": "F",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Judi Dench",
+        "slug": "judi-dench",
+        "name": "Judi Dench",
+        "birthYear": 1934.0,
+        "gender": "F",
         "nationality": "GB"
       }
     },
@@ -93,6 +95,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Eddie Izzard",
+        "slug": "eddie-izzard",
         "name": "Eddie Izzard",
         "birthYear": 1962.0,
         "nationality": "GB"

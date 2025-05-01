@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-12-16 00:00:00",
+    "date": "2022-12-16",
     "year": 2022
   },
   "production": {
@@ -20,17 +20,17 @@
     "posterUrl": "https://www.imdb.com/title/tt22784204/mediaviewer/rm3763353857/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
+    "MET",
     "MOC",
-    "MET"
+    "COM"
   ],
   "tags": [
     "return home",
-    "personal memory",
-    "rural",
     "homosociality",
+    "personal memory",
     "state institutions",
-    "crime"
+    "crime",
+    "rural"
   ],
   "director": [
     {
@@ -44,23 +44,6 @@
   ],
   "character": [
     {
-      "id": "GB2022_073_02",
-      "age": "2",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Mat Fraser",
-        "name": "Mat Fraser",
-        "birthYear": 1962.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2022_073_03",
       "age": "2",
       "gender": "M",
@@ -71,6 +54,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Keith Brymer Jones",
+        "slug": "keith-brymer-jones",
         "name": "Keith Brymer Jones",
         "birthYear": 1965.0,
         "gender": "M",
@@ -88,8 +72,27 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Geoff Bell",
+        "slug": "geoff-bell",
         "name": "Geoff Bell",
         "birthYear": 1963.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2022_073_02",
+      "age": "2",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Mat Fraser",
+        "slug": "mat-fraser",
+        "name": "Mat Fraser",
+        "birthYear": 1962.0,
         "gender": "M",
         "nationality": "GB"
       }

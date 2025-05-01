@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-10-07 00:00:00",
+    "date": "2022-10-07",
     "year": 2022
   },
   "production": {
@@ -20,18 +20,18 @@
     "posterUrl": "https://www.imdb.com/title/tt13421498/mediaviewer/rm3626698753/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
-    "BIO"
+    "BIO",
+    "COM"
   ],
   "tags": [
-    "gender discrimination",
-    "fatherhood",
-    "education",
+    "intergenerational conflict",
     "marriage",
+    "education",
     "low rank employment",
+    "gender discrimination",
     "urban",
     "cultural memory",
-    "intergenerational conflict"
+    "fatherhood"
   ],
   "director": [
     {
@@ -45,19 +45,19 @@
   ],
   "character": [
     {
-      "id": "GB2022_012_01",
-      "age": "2",
+      "id": "GB2022_012_03",
+      "age": "3",
       "gender": "M",
-      "sexuality": "HE",
       "origin": "WWE",
-      "class": "MC",
+      "class": "UM",
       "profession": "EM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Steve Coogan",
-        "name": "Steve Coogan",
-        "birthYear": 1965.0,
+        "id": "James Fleet",
+        "slug": "james-fleet",
+        "name": "James Fleet",
+        "birthYear": 1952.0,
         "gender": "M",
         "nationality": "GB"
       }
@@ -73,6 +73,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Julian Firth",
+        "slug": "julian-firth",
         "name": "Julian Firth",
         "birthYear": 1960.0,
         "gender": "M",
@@ -80,18 +81,20 @@
       }
     },
     {
-      "id": "GB2022_012_03",
-      "age": "3",
+      "id": "GB2022_012_01",
+      "age": "2",
       "gender": "M",
+      "sexuality": "HE",
       "origin": "WWE",
-      "class": "UM",
+      "class": "MC",
       "profession": "EM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "James Fleet",
-        "name": "James Fleet",
-        "birthYear": 1952.0,
+        "id": "Steve Coogan",
+        "slug": "steve-coogan",
+        "name": "Steve Coogan",
+        "birthYear": 1965.0,
         "gender": "M",
         "nationality": "GB"
       }

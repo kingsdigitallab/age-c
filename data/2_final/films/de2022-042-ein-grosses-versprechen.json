@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-06-09 00:00:00",
+    "date": "2022-06-09",
     "year": 2022
   },
   "production": {
@@ -23,10 +23,10 @@
     "DRA"
   ],
   "tags": [
-    "independent home",
-    "physical illness",
     "marriage",
     "caregiving",
+    "physical illness",
+    "independent home",
     "medical treatment"
   ],
   "director": [
@@ -40,24 +40,6 @@
   ],
   "character": [
     {
-      "id": "DE2022_042_01",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UC",
-      "profession": "RE",
-      "ability": "PD",
-      "assistedMobility": "PD",
-      "person": {
-        "id": "Dagmar Manzel",
-        "name": "Dagmar Manzel",
-        "birthYear": 1958.0,
-        "gender": "F",
-        "nationality": "DE"
-      }
-    },
-    {
       "id": "DE2022_042_02",
       "age": "3",
       "gender": "M",
@@ -69,10 +51,30 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Rolf Lassg\u00e5rd",
+        "slug": "rolf-lassgard",
         "name": "Rolf Lassg\u00e5rd",
         "birthYear": 1955.0,
         "gender": "M",
         "nationality": "SE"
+      }
+    },
+    {
+      "id": "DE2022_042_01",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UC",
+      "profession": "RE",
+      "ability": "PD",
+      "assistedMobility": "PD",
+      "person": {
+        "id": "Dagmar Manzel",
+        "slug": "dagmar-manzel",
+        "name": "Dagmar Manzel",
+        "birthYear": 1958.0,
+        "gender": "F",
+        "nationality": "DE"
       }
     }
   ],

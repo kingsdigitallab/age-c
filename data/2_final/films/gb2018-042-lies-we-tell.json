@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2018-02-02 00:00:00",
+    "date": "2018-02-02",
     "year": 2018
   },
   "production": {
@@ -21,38 +21,38 @@
   },
   "genre": [
     "CRI",
-    "ACT",
     "DRA",
-    "THR"
+    "THR",
+    "ACT"
   ],
   "tags": [
-    "fatherhood",
-    "sex",
-    "cross-gender friendship",
-    "infidelity",
-    "wealth",
-    "national identity",
-    "migration",
     "rescue mission",
-    "burial",
-    "low rank employment",
-    "may-december",
+    "national identity",
+    "sex",
+    "abuse",
+    "intergenerational friendship",
+    "high rank employment",
+    "power",
     "grief",
-    "organized crime",
+    "may-december",
+    "class conflict",
+    "self-employment",
     "widowhood",
+    "wealth",
+    "infidelity",
     "last mission",
     "homosociality",
-    "marriage",
-    "interracial relationships",
-    "power",
-    "intergenerational friendship",
-    "class conflict",
     "independent home",
-    "abuse",
-    "high rank employment",
+    "organized crime",
+    "migration",
+    "urban",
+    "marriage",
     "natural death",
-    "self-employment",
-    "urban"
+    "cross-gender friendship",
+    "low rank employment",
+    "burial",
+    "interracial relationships",
+    "fatherhood"
   ],
   "character": [
     {
@@ -67,28 +67,11 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Harvey Keitel",
+        "slug": "harvey-keitel",
         "name": "Harvey Keitel",
         "birthYear": 1939.0,
         "gender": "M",
         "nationality": "US"
-      }
-    },
-    {
-      "id": "GB2018_042_04",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "SOA",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Manzar Sebhai",
-        "name": "Manzar Sebhai",
-        "birthYear": 1950.0,
-        "gender": "M",
-        "nationality": "PK"
       }
     },
     {
@@ -103,10 +86,30 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Toyah Wilcox",
+        "slug": "toyah-wilcox",
         "name": "Toyah Wilcox",
         "birthYear": 1958.0,
         "gender": "F",
         "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2018_042_04",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "SOA",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Manzar Sebhai",
+        "slug": "manzar-sebhai",
+        "name": "Manzar Sebhai",
+        "birthYear": 1950.0,
+        "gender": "M",
+        "nationality": "PK"
       }
     },
     {
@@ -121,6 +124,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Gabriel Byrne",
+        "slug": "gabriel-byrne",
         "name": "Gabriel Byrne",
         "birthYear": 1950.0,
         "gender": "M",

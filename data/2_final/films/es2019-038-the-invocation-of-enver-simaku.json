@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-05-03 00:00:00",
+    "date": "2019-05-03",
     "year": 2019
   },
   "production": {
@@ -23,17 +23,17 @@
     "HOR"
   ],
   "tags": [
-    "independent home",
-    "abuse",
-    "supernatural entity",
-    "parenthood",
-    "rural",
-    "religion",
-    "cultural memory",
-    "caregiving",
     "grief",
+    "caregiving",
+    "national identity",
+    "religion",
     "personal trauma",
-    "national identity"
+    "abuse",
+    "independent home",
+    "parenthood",
+    "supernatural entity",
+    "cultural memory",
+    "rural"
   ],
   "director": [
     {
@@ -47,34 +47,6 @@
   ],
   "character": [
     {
-      "id": "ES2019_038_04",
-      "age": "4",
-      "gender": "M",
-      "origin": "WEE",
-      "class": "LM",
-      "person": {
-        "id": "Viktor Zhusti",
-        "name": "Viktor Zhusti",
-        "birthYear": 1942.0,
-        "gender": "M",
-        "nationality": "AL"
-      }
-    },
-    {
-      "id": "ES2019_038_03",
-      "age": "4",
-      "gender": "F",
-      "origin": "WEE",
-      "class": "LM",
-      "person": {
-        "id": "Tinka Kurti",
-        "name": "Tinka Kurti",
-        "birthYear": 1932.0,
-        "gender": "F",
-        "nationality": "AL"
-      }
-    },
-    {
       "id": "ES2019_038_01",
       "age": "4",
       "gender": "M",
@@ -82,6 +54,7 @@
       "class": "LM",
       "person": {
         "id": "Piro Milkani",
+        "slug": "piro-milkani",
         "name": "Piro Milkani",
         "birthYear": 1939.0,
         "gender": "M",
@@ -96,9 +69,40 @@
       "class": "LM",
       "person": {
         "id": "Margarita Xhepa",
+        "slug": "margarita-xhepa",
         "name": "Margarita Xhepa",
         "birthYear": 1932.0,
         "gender": "F",
+        "nationality": "AL"
+      }
+    },
+    {
+      "id": "ES2019_038_03",
+      "age": "4",
+      "gender": "F",
+      "origin": "WEE",
+      "class": "LM",
+      "person": {
+        "id": "Tinka Kurti",
+        "slug": "tinka-kurti",
+        "name": "Tinka Kurti",
+        "birthYear": 1932.0,
+        "gender": "F",
+        "nationality": "AL"
+      }
+    },
+    {
+      "id": "ES2019_038_04",
+      "age": "4",
+      "gender": "M",
+      "origin": "WEE",
+      "class": "LM",
+      "person": {
+        "id": "Viktor Zhusti",
+        "slug": "viktor-zhusti",
+        "name": "Viktor Zhusti",
+        "birthYear": 1942.0,
+        "gender": "M",
         "nationality": "AL"
       }
     }

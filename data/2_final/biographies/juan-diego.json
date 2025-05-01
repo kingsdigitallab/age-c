@@ -9,61 +9,61 @@
   "gender": "M",
   "character": [
     {
-      "id": "ES2021_010_02",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "LC",
       "ability": "AB",
-      "assistedMobility": "AB",
-      "film": {
-        "id": "ES2021_010",
-        "slug": "es2021-010-el-cover",
-        "title": {
-          "native": "El Cover",
-          "english": "The Cover"
-        },
-        "filmType": "F",
-        "genre": "ROM",
-        "release": {
-          "type": "THE",
-          "year": 2021
-        },
-        "tags": "artistic creation",
-        "production": {
-          "country": "PT",
-          "share": "MIN"
-        }
-      }
-    },
-    {
-      "id": "ES2023_073_01",
       "age": "4",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
       "assistedMobility": "AB",
+      "class": "MC",
       "film": {
-        "id": "ES2023_073",
-        "slug": "es2023-073-venus",
-        "title": {
-          "native": "Venus"
-        },
         "filmType": "F",
         "genre": "ROM",
+        "id": "ES2023_073",
+        "production": {
+          "country": "ES",
+          "share": "MAJ"
+        },
         "release": {
           "type": "THE",
           "year": 2023
         },
+        "slug": "es2023-073-venus",
         "tags": "burial",
-        "production": {
-          "country": "ES",
-          "share": "MAJ"
+        "title": {
+          "native": "Venus"
         }
-      }
+      },
+      "gender": "M",
+      "id": "ES2023_073_01",
+      "origin": "WWE",
+      "profession": "RE",
+      "sexuality": "HE"
+    },
+    {
+      "ability": "AB",
+      "age": "3",
+      "assistedMobility": "AB",
+      "class": "LC",
+      "film": {
+        "filmType": "F",
+        "genre": "ROM",
+        "id": "ES2021_010",
+        "production": {
+          "country": "PT",
+          "share": "MIN"
+        },
+        "release": {
+          "type": "THE",
+          "year": 2021
+        },
+        "slug": "es2021-010-el-cover",
+        "tags": "artistic creation",
+        "title": {
+          "english": "The Cover",
+          "native": "El Cover"
+        }
+      },
+      "gender": "M",
+      "id": "ES2021_010_02",
+      "origin": "WWE"
     }
   ]
 }

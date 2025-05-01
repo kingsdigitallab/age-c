@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2018-11-16 00:00:00",
+    "date": "2018-11-16",
     "year": 2018
   },
   "production": {
@@ -20,21 +20,21 @@
     "posterUrl": "https://www.imdb.com/title/tt4123430/mediaviewer/rm3813896960/?ref_=tt_ov_i"
   },
   "genre": [
-    "ACT",
-    "FAN"
+    "FAN",
+    "ACT"
   ],
   "tags": [
-    "non-human companionship",
-    "abuse",
-    "supernatural entity",
     "revenge",
+    "interracial relationships",
     "homosociality",
     "war",
-    "interracial relationships",
-    "cultural memory",
-    "wealth",
     "friendship betrayal",
-    "crime"
+    "abuse",
+    "crime",
+    "supernatural entity",
+    "wealth",
+    "non-human companionship",
+    "cultural memory"
   ],
   "director": [
     {
@@ -48,25 +48,13 @@
   ],
   "character": [
     {
-      "id": "GB2018_001_04",
-      "age": "2",
-      "gender": "M",
-      "origin": "WWE",
-      "person": {
-        "id": "Ingvar Sigurdsson",
-        "name": "Ingvar Sigurdsson",
-        "birthYear": 1963.0,
-        "gender": "M",
-        "nationality": "IS"
-      }
-    },
-    {
       "id": "GB2018_001_02",
       "age": "3",
       "gender": "M",
       "origin": "WWE",
       "person": {
         "id": "Wolf Roth",
+        "slug": "wolf-roth",
         "name": "Wolf Roth",
         "gender": "M",
         "nationality": "DE"
@@ -79,10 +67,25 @@
       "origin": "BWE",
       "person": {
         "id": "Cornell John",
+        "slug": "cornell-john",
         "name": "Cornell John",
         "birthYear": 1944.0,
         "gender": "M",
         "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2018_001_04",
+      "age": "2",
+      "gender": "M",
+      "origin": "WWE",
+      "person": {
+        "id": "Ingvar Sigurdsson",
+        "slug": "ingvar-sigurdsson",
+        "name": "Ingvar Sigurdsson",
+        "birthYear": 1963.0,
+        "gender": "M",
+        "nationality": "IS"
       }
     },
     {
@@ -97,6 +100,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Johnny Depp",
+        "slug": "johnny-depp",
         "name": "Johnny Depp",
         "birthYear": 1963.0,
         "gender": "M",

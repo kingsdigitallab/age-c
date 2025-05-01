@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-10-20 00:00:00",
+    "date": "2022-10-20",
     "year": 2022
   },
   "production": {
@@ -21,15 +21,15 @@
     "posterUrl": "https://www.imdb.com/title/tt14005338/mediaviewer/rm3803049729/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
-    "MPF"
+    "MPF",
+    "COM"
   ],
   "tags": [
-    "multigenerational family",
-    "holiday",
-    "extended family",
+    "intergenerational conflict",
     "in-laws",
-    "intergenerational conflict"
+    "extended family",
+    "holiday",
+    "multigenerational family"
   ],
   "director": [
     {
@@ -43,20 +43,21 @@
   ],
   "character": [
     {
-      "id": "DE2022_085_02",
+      "id": "DE2022_085_01",
       "age": "3",
-      "gender": "M",
+      "gender": "F",
       "sexuality": "HE",
       "origin": "WWE",
       "class": "UC",
-      "profession": "EM",
+      "profession": "UN",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Christoph Maria Herbst",
-        "name": "Christoph Maria Herbst",
-        "birthYear": 1966.0,
-        "gender": "M",
+        "id": "Iris Berben",
+        "slug": "iris-berben",
+        "name": "Iris Berben",
+        "birthYear": 1950.0,
+        "gender": "F",
         "nationality": "DE"
       }
     },
@@ -72,6 +73,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Justus von Dohn\u00e1nyi",
+        "slug": "justus-von-dohnanyi",
         "name": "Justus von Dohn\u00e1nyi",
         "birthYear": 1960.0,
         "gender": "M",
@@ -79,20 +81,21 @@
       }
     },
     {
-      "id": "DE2022_085_01",
+      "id": "DE2022_085_02",
       "age": "3",
-      "gender": "F",
+      "gender": "M",
       "sexuality": "HE",
       "origin": "WWE",
       "class": "UC",
-      "profession": "UN",
+      "profession": "EM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Iris Berben",
-        "name": "Iris Berben",
-        "birthYear": 1950.0,
-        "gender": "F",
+        "id": "Christoph Maria Herbst",
+        "slug": "christoph-maria-herbst",
+        "name": "Christoph Maria Herbst",
+        "birthYear": 1966.0,
+        "gender": "M",
         "nationality": "DE"
       }
     }

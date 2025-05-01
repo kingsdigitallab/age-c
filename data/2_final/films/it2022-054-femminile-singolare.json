@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-11-05 00:00:00",
+    "date": "2022-11-05",
     "year": 2022
   },
   "production": {
@@ -24,10 +24,10 @@
     "DRA"
   ],
   "tags": [
-    "motherhood",
     "women empowerement",
-    "precarity",
-    "gender discrimination"
+    "gender discrimination",
+    "motherhood",
+    "precarity"
   ],
   "director": [
     {
@@ -39,35 +39,20 @@
       "nationality": "IT"
     },
     {
-      "id": "Daniele Lince",
-      "slug": "daniele-lince",
-      "name": "Daniele Lince",
-      "birthYear": 1986,
-      "gender": "M",
-      "nationality": "IT"
-    },
-    {
-      "id": "Elena Beatrice",
-      "slug": "elena-beatrice",
-      "name": "Elena Beatrice",
-      "birthYear": 1987,
-      "gender": "F",
-      "nationality": "IT"
-    },
-    {
-      "id": "More Raca",
-      "slug": "more-raca",
-      "name": "More Raca",
-      "birthYear": 1991,
-      "gender": "F"
-    },
-    {
       "id": "Rafael Farina Issas",
       "slug": "rafael-farina-issas",
       "name": "Rafael Farina Issas",
       "birthYear": 1990,
       "gender": "M",
       "nationality": "BR"
+    },
+    {
+      "id": "Daniele Lince",
+      "slug": "daniele-lince",
+      "name": "Daniele Lince",
+      "birthYear": 1986,
+      "gender": "M",
+      "nationality": "IT"
     },
     {
       "id": "Matteo Pianezzi",
@@ -78,11 +63,18 @@
       "nationality": "IT"
     },
     {
-      "id": "Adriano Morelli",
-      "slug": "adriano-morelli",
-      "name": "Adriano Morelli",
-      "birthYear": 1985,
-      "gender": "M",
+      "id": "More Raca",
+      "slug": "more-raca",
+      "name": "More Raca",
+      "birthYear": 1991,
+      "gender": "F"
+    },
+    {
+      "id": "Elena Beatrice",
+      "slug": "elena-beatrice",
+      "name": "Elena Beatrice",
+      "birthYear": 1987,
+      "gender": "F",
       "nationality": "IT"
     },
     {
@@ -92,9 +84,36 @@
       "birthYear": 1982,
       "gender": "M",
       "nationality": "FR"
+    },
+    {
+      "id": "Adriano Morelli",
+      "slug": "adriano-morelli",
+      "name": "Adriano Morelli",
+      "birthYear": 1985,
+      "gender": "M",
+      "nationality": "IT"
     }
   ],
   "character": [
+    {
+      "id": "IT2022_054_01",
+      "age": "3",
+      "gender": "F",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Catherine Deneuve",
+        "slug": "catherine-deneuve",
+        "name": "Catherine Deneuve",
+        "birthYear": 1943.0,
+        "gender": "F",
+        "nationality": "FR"
+      },
+      "role": "LEA"
+    },
     {
       "id": "IT2022_054_02",
       "age": "2",
@@ -107,28 +126,11 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Monica Guerritore",
+        "slug": "monica-guerritore",
         "name": "Monica Guerritore",
         "birthYear": 1958.0,
         "gender": "F",
         "nationality": "IT"
-      },
-      "role": "LEA"
-    },
-    {
-      "id": "IT2022_054_01",
-      "age": "3",
-      "gender": "F",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Catherine Deneuve",
-        "name": "Catherine Deneuve",
-        "birthYear": 1943.0,
-        "gender": "F",
-        "nationality": "FR"
       },
       "role": "LEA"
     }

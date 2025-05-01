@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-09-29 00:00:00",
+    "date": "2023-09-29",
     "year": 2023
   },
   "production": {
@@ -21,46 +21,46 @@
     "posterUrl": "https://www.imdb.com/title/tt21284358/mediaviewer/rm85022721/?ref_=tt_ov_i"
   },
   "genre": [
-    "NOI",
     "MET",
+    "NOI",
     "DRA"
   ],
   "tags": [
-    "artistic creation",
-    "daily routine",
-    "dementia",
-    "fatherhood",
-    "rural",
-    "cross-gender friendship",
-    "caregiving",
-    "celibacy",
-    "non-human companionship",
-    "romance",
-    "precarity",
     "rescue mission",
+    "intergenerational friendship",
     "personal memory",
-    "low rank employment",
-    "mass media",
-    "religion",
-    "cultural memory",
+    "loneliness",
+    "romance",
+    "high rank employment",
+    "unemployment",
+    "dementia",
+    "artistic creation",
+    "rural",
     "grief",
-    "well-being",
+    "search for meaning",
+    "religion",
+    "mass media",
+    "substance abuse",
+    "intragenerational friendship",
+    "personal trauma",
     "retirement home",
     "homosociality",
-    "intragenerational friendship",
-    "celebrity",
-    "state institutions",
-    "intergenerational friendship",
-    "medical treatment",
     "independent home",
-    "unemployment",
-    "high rank employment",
-    "substance abuse",
+    "medical treatment",
     "gray face",
+    "state institutions",
+    "non-human companionship",
     "urban",
-    "search for meaning",
-    "loneliness",
-    "personal trauma"
+    "daily routine",
+    "celebrity",
+    "precarity",
+    "caregiving",
+    "cross-gender friendship",
+    "low rank employment",
+    "well-being",
+    "celibacy",
+    "cultural memory",
+    "fatherhood"
   ],
   "director": [
     {
@@ -74,23 +74,6 @@
   ],
   "character": [
     {
-      "id": "ES2023_017_04",
-      "age": "3",
-      "gender": "F",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Petra Mart\u00ednez",
-        "name": "Petra Mart\u00ednez",
-        "birthYear": 1944.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2023_017_06",
       "age": "3",
       "gender": "M",
@@ -101,26 +84,9 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Antonio Dechent",
+        "slug": "antonio-dechent",
         "name": "Antonio Dechent",
         "birthYear": 1960.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2023_017_05",
-      "age": "4",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Mario Pardo",
-        "name": "Mario Pardo",
-        "birthYear": 1944.0,
         "gender": "M",
         "nationality": "ES"
       }
@@ -137,26 +103,10 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Manolo Solo",
+        "slug": "manolo-solo",
         "name": "Manolo Solo",
         "birthYear": 1964.0,
         "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2023_017_03",
-      "age": "2",
-      "gender": "F",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Ana Torrent",
-        "name": "Ana Torrent",
-        "birthYear": 1966.0,
-        "gender": "F",
         "nationality": "ES"
       }
     },
@@ -171,9 +121,46 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Josep Maria Pou",
+        "slug": "josep-maria-pou",
         "name": "Josep Maria Pou",
         "birthYear": 1944.0,
         "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_017_04",
+      "age": "3",
+      "gender": "F",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Petra Mart\u00ednez",
+        "slug": "petra-martinez",
+        "name": "Petra Mart\u00ednez",
+        "birthYear": 1944.0,
+        "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_017_03",
+      "age": "2",
+      "gender": "F",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Ana Torrent",
+        "slug": "ana-torrent",
+        "name": "Ana Torrent",
+        "birthYear": 1966.0,
+        "gender": "F",
         "nationality": "ES"
       }
     },
@@ -189,8 +176,28 @@
       "assistedMobility": "PD",
       "person": {
         "id": "Jos\u00e9 Coronado",
+        "slug": "jose-coronado",
         "name": "Jos\u00e9 Coronado",
         "birthYear": 1957.0,
+        "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_017_05",
+      "age": "4",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Mario Pardo",
+        "slug": "mario-pardo",
+        "name": "Mario Pardo",
+        "birthYear": 1944.0,
         "gender": "M",
         "nationality": "ES"
       }

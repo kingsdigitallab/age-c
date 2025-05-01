@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2020-11-27 00:00:00",
+    "date": "2020-11-27",
     "year": 2020
   },
   "production": {
@@ -20,15 +20,15 @@
     "posterUrl": "https://www.imdb.com/title/tt6841828/mediaviewer/rm1865657601/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROM",
-    "COM"
+    "COM",
+    "ROM"
   ],
   "tags": [
-    "independent home",
+    "retirement",
     "festivities",
-    "urban",
+    "independent home",
     "wealth",
-    "retirement"
+    "urban"
   ],
   "director": [
     {
@@ -41,23 +41,6 @@
   ],
   "character": [
     {
-      "id": "GB2020_026_02",
-      "age": "4",
-      "gender": "F",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Joan Collins",
-        "name": "Joan Collins",
-        "birthYear": 1933.0,
-        "gender": "F",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2020_026_01",
       "age": "3",
       "gender": "M",
@@ -68,10 +51,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Guy Siner",
+        "slug": "guy-siner",
         "name": "Guy Siner",
         "birthYear": 1947.0,
         "gender": "M",
         "nationality": "US"
+      }
+    },
+    {
+      "id": "GB2020_026_02",
+      "age": "4",
+      "gender": "F",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Joan Collins",
+        "slug": "joan-collins",
+        "name": "Joan Collins",
+        "birthYear": 1933.0,
+        "gender": "F",
+        "nationality": "GB"
       }
     }
   ],

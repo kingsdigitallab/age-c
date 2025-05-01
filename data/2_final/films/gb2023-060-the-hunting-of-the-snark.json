@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-06-30 00:00:00",
+    "date": "2023-06-30",
     "year": 2023
   },
   "production": {
@@ -20,14 +20,14 @@
     "posterUrl": "https://www.imdb.com/title/tt22171734/mediaviewer/rm610543873/?ref_=tt_ov_i"
   },
   "genre": [
-    "ADV",
-    "FAN"
+    "FAN",
+    "ADV"
   ],
   "tags": [
-    "mentorship",
-    "supernatural entity",
     "mental illness",
     "intergenerational friendship",
+    "mentorship",
+    "supernatural entity",
     "natural"
   ],
   "director": [
@@ -41,20 +41,19 @@
   ],
   "character": [
     {
-      "id": "GB2023_060_01",
+      "id": "GB2023_060_03",
       "age": "2",
       "gender": "M",
       "origin": "WWE",
       "class": "MC",
-      "profession": "SE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Ramon Tikaram",
-        "name": "Ramon Tikaram",
-        "birthYear": 1967.0,
+        "id": "Tim J. Henley",
+        "slug": "tim-j-henley",
+        "name": "Tim J. Henley",
         "gender": "M",
-        "nationality": "SG"
+        "nationality": "GB"
       }
     },
     {
@@ -67,6 +66,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Ralph Arliss",
+        "slug": "ralph-arliss",
         "name": "Ralph Arliss",
         "birthYear": 1947.0,
         "gender": "M",
@@ -74,18 +74,21 @@
       }
     },
     {
-      "id": "GB2023_060_03",
+      "id": "GB2023_060_01",
       "age": "2",
       "gender": "M",
       "origin": "WWE",
       "class": "MC",
+      "profession": "SE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Tim J. Henley",
-        "name": "Tim J. Henley",
+        "id": "Ramon Tikaram",
+        "slug": "ramon-tikaram",
+        "name": "Ramon Tikaram",
+        "birthYear": 1967.0,
         "gender": "M",
-        "nationality": "GB"
+        "nationality": "SG"
       }
     }
   ],

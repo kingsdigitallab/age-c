@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2020-01-24 00:00:00",
+    "date": "2020-01-24",
     "year": 2020
   },
   "production": {
@@ -16,27 +16,27 @@
     "share": "MAJ"
   },
   "genre": [
-    "HIS",
-    "COM",
-    "ADV",
     "COA",
+    "COM",
+    "HIS",
+    "ADV",
     "ROM"
   ],
   "tags": [
-    "mentorship",
-    "independent home",
-    "unemployment",
-    "inheritance",
+    "mental illness",
+    "marriage",
+    "homelessness",
     "precarity",
     "extended family",
-    "personal memory",
-    "marriage",
-    "urban",
-    "mental illness",
-    "homelessness",
     "caregiving",
+    "inheritance",
+    "class conflict",
+    "independent home",
+    "unemployment",
+    "personal memory",
+    "mentorship",
     "fraud",
-    "class conflict"
+    "urban"
   ],
   "director": [
     {
@@ -50,19 +50,20 @@
   ],
   "character": [
     {
-      "id": "GB2020_003_03",
+      "id": "GB2020_003_01",
       "age": "3",
       "gender": "M",
       "sexuality": "HE",
       "origin": "WWE",
-      "class": "LC",
-      "profession": "UN",
+      "class": "UC",
+      "profession": "SE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Peter Capaldi",
-        "name": "Peter Capaldi",
-        "birthYear": 1958.0,
+        "id": "Hugh Laurie",
+        "slug": "hugh-laurie",
+        "name": "Hugh Laurie",
+        "birthYear": 1959.0,
         "gender": "M",
         "nationality": "GB"
       }
@@ -79,6 +80,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Tilda Swinton",
+        "slug": "tilda-swinton",
         "name": "Tilda Swinton",
         "birthYear": 1960.0,
         "gender": "F",
@@ -86,19 +88,20 @@
       }
     },
     {
-      "id": "GB2020_003_01",
+      "id": "GB2020_003_03",
       "age": "3",
       "gender": "M",
       "sexuality": "HE",
       "origin": "WWE",
-      "class": "UC",
-      "profession": "SE",
+      "class": "LC",
+      "profession": "UN",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Hugh Laurie",
-        "name": "Hugh Laurie",
-        "birthYear": 1959.0,
+        "id": "Peter Capaldi",
+        "slug": "peter-capaldi",
+        "name": "Peter Capaldi",
+        "birthYear": 1958.0,
         "gender": "M",
         "nationality": "GB"
       }

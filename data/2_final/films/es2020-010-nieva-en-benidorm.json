@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2020-11-05 00:00:00",
+    "date": "2020-11-05",
     "year": 2020
   },
   "production": {
@@ -21,29 +21,29 @@
     "posterUrl": "https://www.imdb.com/title/tt9806468/mediaviewer/rm2259133697/?ref_=tt_ov_i"
   },
   "genre": [
+    "ROM",
     "COM",
     "NOI",
-    "DRA",
-    "ROM"
+    "DRA"
   ],
   "tags": [
-    "organized crime",
-    "romance",
-    "independent home",
-    "abuse",
-    "anti-ageing practices",
-    "holiday",
-    "daily routine",
-    "sex",
-    "tourism",
-    "brotherhood",
-    "urban",
     "gentrification",
+    "retirement",
+    "daily routine",
     "search for meaning",
-    "loneliness",
     "infidelity",
+    "anti-ageing practices",
+    "sex",
+    "brotherhood",
+    "holiday",
+    "abuse",
+    "independent home",
+    "organized crime",
     "state institutions",
-    "retirement"
+    "loneliness",
+    "romance",
+    "urban",
+    "tourism"
   ],
   "director": [
     {
@@ -57,19 +57,21 @@
   ],
   "character": [
     {
-      "id": "ES2020_010_03",
+      "id": "ES2020_010_02",
       "age": "2",
-      "gender": "M",
+      "gender": "F",
+      "sexuality": "HE",
       "origin": "WWE",
       "class": "MC",
-      "profession": "SE",
+      "profession": "EM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Pedro Casablanc",
-        "name": "Pedro Casablanc",
+        "id": "Carmen Machi",
+        "slug": "carmen-machi",
+        "name": "Carmen Machi",
         "birthYear": 1963.0,
-        "gender": "M",
+        "gender": "F",
         "nationality": "ES"
       }
     },
@@ -85,6 +87,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Timothy Spall",
+        "slug": "timothy-spall",
         "name": "Timothy Spall",
         "birthYear": 1957.0,
         "gender": "M",
@@ -92,20 +95,20 @@
       }
     },
     {
-      "id": "ES2020_010_02",
+      "id": "ES2020_010_03",
       "age": "2",
-      "gender": "F",
-      "sexuality": "HE",
+      "gender": "M",
       "origin": "WWE",
       "class": "MC",
-      "profession": "EM",
+      "profession": "SE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Carmen Machi",
-        "name": "Carmen Machi",
+        "id": "Pedro Casablanc",
+        "slug": "pedro-casablanc",
+        "name": "Pedro Casablanc",
         "birthYear": 1963.0,
-        "gender": "F",
+        "gender": "M",
         "nationality": "ES"
       }
     }

@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-01-13 00:00:00",
+    "date": "2023-01-13",
     "year": 2023
   },
   "production": {
@@ -41,23 +41,6 @@
   ],
   "character": [
     {
-      "id": "IT2023_111_01",
-      "age": "3",
-      "gender": "M",
-      "origin": "WNA",
-      "class": "LM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Tom Arnold",
-        "name": "Tom Arnold",
-        "birthYear": 1959.0,
-        "gender": "M",
-        "nationality": "US"
-      },
-      "role": "LEA"
-    },
-    {
       "id": "IT2023_111_02",
       "age": "3",
       "gender": "M",
@@ -68,8 +51,27 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Michael Madsen",
+        "slug": "michael-madsen",
         "name": "Michael Madsen",
         "birthYear": 1957.0,
+        "gender": "M",
+        "nationality": "US"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2023_111_01",
+      "age": "3",
+      "gender": "M",
+      "origin": "WNA",
+      "class": "LM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Tom Arnold",
+        "slug": "tom-arnold",
+        "name": "Tom Arnold",
+        "birthYear": 1959.0,
         "gender": "M",
         "nationality": "US"
       },

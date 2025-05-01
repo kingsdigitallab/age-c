@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-05-20 00:00:00",
+    "date": "2022-05-20",
     "year": 2022
   },
   "production": {
@@ -20,27 +20,27 @@
     "posterUrl": "https://www.imdb.com/title/tt6852178/mediaviewer/rm1956060929/?ref_=tt_ov_i"
   },
   "genre": [
-    "WAR",
     "HIS",
+    "WAR",
     "BIO",
     "DRA"
   ],
   "tags": [
+    "collective trauma",
     "activism",
-    "lgbtqi",
-    "artistic creation",
     "legacy",
+    "search for meaning",
+    "national identity",
+    "religion",
     "sex",
+    "war",
+    "medical treatment",
     "personal memory",
     "motherhood",
-    "collective trauma",
-    "religion",
-    "war",
-    "stages of life",
-    "search for meaning",
+    "lgbtqi",
     "wealth",
-    "medical treatment",
-    "national identity"
+    "stages of life",
+    "artistic creation"
   ],
   "director": [
     {
@@ -55,24 +55,6 @@
   ],
   "character": [
     {
-      "id": "GB2022_020_03",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HO",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Peter Capaldi",
-        "name": "Peter Capaldi",
-        "birthYear": 1958.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2022_020_01",
       "age": "3",
       "gender": "F",
@@ -84,9 +66,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Geraldine James",
+        "slug": "geraldine-james",
         "name": "Geraldine James",
         "birthYear": 1950.0,
         "gender": "F",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2022_020_03",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HO",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Peter Capaldi",
+        "slug": "peter-capaldi",
+        "name": "Peter Capaldi",
+        "birthYear": 1958.0,
+        "gender": "M",
         "nationality": "GB"
       }
     },
@@ -102,6 +104,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Simon Russell Beale",
+        "slug": "simon-russell-beale",
         "name": "Simon Russell Beale",
         "birthYear": 1961.0,
         "gender": "M",

@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-10-02 00:00:00",
+    "date": "2019-10-02",
     "year": 2019
   },
   "production": {
@@ -24,10 +24,10 @@
     "DRA"
   ],
   "tags": [
-    "physical illness",
-    "cross-gender friendship",
-    "self-employment",
     "retirement",
+    "cross-gender friendship",
+    "physical illness",
+    "self-employment",
     "celibacy"
   ],
   "director": [
@@ -41,24 +41,6 @@
   ],
   "character": [
     {
-      "id": "FR2019_164_02",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Josiane Balasko",
-        "name": "Josiane Balasko",
-        "birthYear": 1950.0,
-        "gender": "F",
-        "nationality": "FR"
-      }
-    },
-    {
       "id": "FR2019_164_01",
       "age": "3",
       "gender": "M",
@@ -70,9 +52,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "G\u00e9rard Darmon",
+        "slug": "gerard-darmon",
         "name": "G\u00e9rard Darmon",
         "birthYear": 1948.0,
         "gender": "M",
+        "nationality": "FR"
+      }
+    },
+    {
+      "id": "FR2019_164_02",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LM",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Josiane Balasko",
+        "slug": "josiane-balasko",
+        "name": "Josiane Balasko",
+        "birthYear": 1950.0,
+        "gender": "F",
         "nationality": "FR"
       }
     }

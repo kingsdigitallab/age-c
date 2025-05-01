@@ -8,85 +8,85 @@
   "gender": "M",
   "character": [
     {
-      "id": "ES2019_070_02",
+      "ability": "AB",
       "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "ability": "PD",
-      "assistedMobility": "PD",
+      "assistedMobility": "AB",
+      "class": "LM",
       "film": {
-        "id": "ES2019_070",
-        "slug": "es2019-070-viva-la-vida",
-        "title": {
-          "native": "Viva la vida"
-        },
-        "filmType": "F",
-        "genre": "CRI",
-        "release": {
-          "type": "THE",
-          "year": 2019
-        },
-        "tags": "independent home",
+        "filmType": "D",
+        "genre": "BIO",
+        "id": "ES2020_024",
         "production": {
           "country": "ES",
           "share": "MAJ"
-        }
-      }
-    },
-    {
-      "id": "ES2021_011_03",
-      "age": "2",
-      "gender": "M",
-      "origin": "WWE",
-      "film": {
-        "id": "ES2021_011",
-        "slug": "es2021-011-el-sustituto",
-        "title": {
-          "native": "El sustituto",
-          "english": "The Replacement"
         },
-        "filmType": "F",
-        "genre": "NOI",
-        "release": {
-          "type": "THE",
-          "year": 2021
-        },
-        "tags": "state institutions",
-        "production": {
-          "country": "BE",
-          "share": "MIN"
-        }
-      }
-    },
-    {
-      "id": "ES2020_024_04",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "LM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "film": {
-        "id": "ES2020_024",
-        "slug": "es2020-024-el-abuelo-victor-victor-manuel",
-        "title": {
-          "native": "El abuelo V\u00edctor - V\u00edctor Manuel"
-        },
-        "filmType": "D",
-        "genre": "BIO",
         "release": {
           "type": "THE",
           "year": 2020
         },
+        "slug": "es2020-024-el-abuelo-victor-victor-manuel",
         "tags": "self-employment",
+        "title": {
+          "native": "El abuelo V\u00edctor - V\u00edctor Manuel"
+        }
+      },
+      "gender": "M",
+      "id": "ES2020_024_04",
+      "origin": "WWE",
+      "profession": "EM"
+    },
+    {
+      "ability": "PD",
+      "age": "3",
+      "assistedMobility": "PD",
+      "class": "MC",
+      "film": {
+        "filmType": "F",
+        "genre": "CRI",
+        "id": "ES2019_070",
         "production": {
           "country": "ES",
           "share": "MAJ"
+        },
+        "release": {
+          "type": "THE",
+          "year": 2019
+        },
+        "slug": "es2019-070-viva-la-vida",
+        "tags": "independent home",
+        "title": {
+          "native": "Viva la vida"
         }
-      }
+      },
+      "gender": "M",
+      "id": "ES2019_070_02",
+      "origin": "WWE",
+      "sexuality": "HE"
+    },
+    {
+      "age": "2",
+      "film": {
+        "filmType": "F",
+        "genre": "NOI",
+        "id": "ES2021_011",
+        "production": {
+          "country": "BE",
+          "share": "MIN"
+        },
+        "release": {
+          "type": "THE",
+          "year": 2021
+        },
+        "slug": "es2021-011-el-sustituto",
+        "tags": "state institutions",
+        "title": {
+          "english": "The Replacement",
+          "native": "El sustituto"
+        }
+      },
+      "gender": "M",
+      "id": "ES2021_011_03",
+      "origin": "WWE"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2020-11-26 00:00:00",
+    "date": "2020-11-26",
     "year": 2020
   },
   "production": {
@@ -20,33 +20,18 @@
     "posterUrl": "https://www.imdb.com/title/tt12454740/mediaviewer/rm2985075969/?ref_=tt_ov_i"
   },
   "genre": [
-    "HOR",
     "ANT",
-    "ROM"
+    "ROM",
+    "HOR"
   ],
   "tags": [
-    "non-human companionship",
-    "romance",
+    "low-rank employment",
     "abuse",
+    "romance",
     "supernatural entity",
-    "low-rank employment"
+    "non-human companionship"
   ],
   "director": [
-    {
-      "id": "Piter Moreira",
-      "slug": "piter-moreira",
-      "name": "Piter Moreira",
-      "gender": "M",
-      "nationality": "UY"
-    },
-    {
-      "id": "Manuel Mart\u00ednez Velasco",
-      "slug": "manuel-martinez-velasco",
-      "name": "Manuel Mart\u00ednez Velasco",
-      "birthYear": 1976,
-      "gender": "M",
-      "nationality": "ES"
-    },
     {
       "id": "Erika Elizalde",
       "slug": "erika-elizalde",
@@ -69,18 +54,37 @@
       "birthYear": 1978,
       "gender": "M",
       "nationality": "ES"
+    },
+    {
+      "id": "Piter Moreira",
+      "slug": "piter-moreira",
+      "name": "Piter Moreira",
+      "gender": "M",
+      "nationality": "UY"
+    },
+    {
+      "id": "Manuel Mart\u00ednez Velasco",
+      "slug": "manuel-martinez-velasco",
+      "name": "Manuel Mart\u00ednez Velasco",
+      "birthYear": 1976,
+      "gender": "M",
+      "nationality": "ES"
     }
   ],
   "character": [
     {
-      "id": "ES2020_032_03",
-      "age": "3",
+      "id": "ES2020_032_01",
+      "age": "4",
       "gender": "M",
       "origin": "WWE",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
       "person": {
-        "id": "Micky Molina",
-        "name": "Micky Molina",
-        "birthYear": 1963.0,
+        "id": "Saturnino Garc\u00eda",
+        "slug": "saturnino-garcia",
+        "name": "Saturnino Garc\u00eda",
+        "birthYear": 1935.0,
         "gender": "M",
         "nationality": "ES"
       }
@@ -92,6 +96,7 @@
       "origin": "WWE",
       "person": {
         "id": "Lone Fleming",
+        "slug": "lone-fleming",
         "name": "Lone Fleming",
         "birthYear": 1945.0,
         "gender": "F",
@@ -99,17 +104,15 @@
       }
     },
     {
-      "id": "ES2020_032_01",
-      "age": "4",
+      "id": "ES2020_032_03",
+      "age": "3",
       "gender": "M",
       "origin": "WWE",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
       "person": {
-        "id": "Saturnino Garc\u00eda",
-        "name": "Saturnino Garc\u00eda",
-        "birthYear": 1935.0,
+        "id": "Micky Molina",
+        "slug": "micky-molina",
+        "name": "Micky Molina",
+        "birthYear": 1963.0,
         "gender": "M",
         "nationality": "ES"
       }
@@ -121,6 +124,7 @@
       "origin": "WWE",
       "person": {
         "id": "Jos\u00e9 Lifante",
+        "slug": "jose-lifante",
         "name": "Jos\u00e9 Lifante",
         "birthYear": 1943.0,
         "deathYear": 2024.0,

@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-03-10 00:00:00",
+    "date": "2023-03-10",
     "year": 2023
   },
   "production": {
@@ -20,18 +20,18 @@
     "posterUrl": "https://www.imdb.com/title/tt25668132/mediaviewer/rm3287232513/?ref_=tt_ov_i"
   },
   "genre": [
-    "HIS",
-    "DRA"
+    "DRA",
+    "HIS"
   ],
   "tags": [
-    "regional identity",
     "activism",
-    "state institutions",
     "mass media",
+    "state institutions",
+    "professional politics",
+    "high-rank employment",
     "cultural memory",
     "power",
-    "high-rank employment",
-    "professional politics"
+    "regional identity"
   ],
   "director": [
     {
@@ -45,23 +45,6 @@
   ],
   "character": [
     {
-      "id": "GB2023_033_01",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Mark Lewis Jones",
-        "name": "Mark Lewis Jones",
-        "birthYear": 1964.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2023_033_02",
       "age": "2",
       "gender": "F",
@@ -72,9 +55,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Eiry Thomas",
+        "slug": "eiry-thomas",
         "name": "Eiry Thomas",
         "birthYear": 1968.0,
         "gender": "F",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2023_033_01",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Mark Lewis Jones",
+        "slug": "mark-lewis-jones",
+        "name": "Mark Lewis Jones",
+        "birthYear": 1964.0,
+        "gender": "M",
         "nationality": "GB"
       }
     }

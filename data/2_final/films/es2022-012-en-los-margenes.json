@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-10-06 00:00:00",
+    "date": "2022-10-06",
     "year": 2022
   },
   "production": {
@@ -25,20 +25,20 @@
     "DRA"
   ],
   "tags": [
-    "intergenerational friendship",
-    "independent home",
-    "unemployment",
-    "migration",
-    "activism",
-    "precarity",
-    "class solidarity",
     "education",
-    "homosociality",
+    "precarity",
+    "class conflict",
     "low rank employment",
-    "urban",
+    "homosociality",
+    "class solidarity",
+    "independent home",
     "2008 crisis",
+    "intergenerational friendship",
+    "unemployment",
     "state institutions",
-    "class conflict"
+    "urban",
+    "migration",
+    "activism"
   ],
   "director": [
     {
@@ -47,7 +47,7 @@
       "name": "Juan Diego Botto",
       "birthYear": 1975,
       "gender": "M",
-      "nationality": "AR"
+      "nationality": "ES"
     },
     {
       "id": "Juan Diego Botto",
@@ -55,27 +55,10 @@
       "name": "Juan Diego Botto",
       "birthYear": 1975,
       "gender": "M",
-      "nationality": "ES"
+      "nationality": "AR"
     }
   ],
   "character": [
-    {
-      "id": "ES2022_012_02",
-      "age": "2",
-      "gender": "F",
-      "origin": "ILA",
-      "class": "LM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Mar\u00eda Isabel D\u00edaz Lago",
-        "name": "Mar\u00eda Isabel D\u00edaz Lago",
-        "birthYear": 1964.0,
-        "gender": "F",
-        "nationality": "CU"
-      }
-    },
     {
       "id": "ES2022_012_01",
       "age": "2",
@@ -87,10 +70,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Adelfa Calvo",
+        "slug": "adelfa-calvo",
         "name": "Adelfa Calvo",
         "birthYear": 1962.0,
         "gender": "F",
         "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2022_012_02",
+      "age": "2",
+      "gender": "F",
+      "origin": "ILA",
+      "class": "LM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Mar\u00eda Isabel D\u00edaz Lago",
+        "slug": "maria-isabel-diaz-lago",
+        "name": "Mar\u00eda Isabel D\u00edaz Lago",
+        "birthYear": 1964.0,
+        "gender": "F",
+        "nationality": "CU"
       }
     }
   ],

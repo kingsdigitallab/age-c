@@ -8,61 +8,61 @@
   "gender": "M",
   "character": [
     {
-      "id": "ES2020_059_01",
-      "age": "3",
-      "gender": "M",
-      "origin": "WLA",
-      "class": "MC",
-      "profession": "SE",
       "ability": "AB",
-      "assistedMobility": "AB",
-      "film": {
-        "id": "ES2020_059",
-        "slug": "es2020-059-blanco-en-blanco",
-        "title": {
-          "native": "Blanco en blanco",
-          "english": "White on White"
-        },
-        "filmType": "F",
-        "genre": "THR",
-        "release": {
-          "type": "THE",
-          "year": 2020
-        },
-        "tags": "racial discrimination",
-        "production": {
-          "country": "DE",
-          "share": "MIN"
-        }
-      }
-    },
-    {
-      "id": "ES2021_021_03",
       "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WLA",
-      "ability": "AB",
       "assistedMobility": "AB",
       "film": {
-        "id": "ES2021_021",
-        "slug": "es2021-021-las-consecuencias",
-        "title": {
-          "native": "Las consecuencias",
-          "english": "The Consequences"
-        },
         "filmType": "F",
         "genre": "THR",
+        "id": "ES2021_021",
+        "production": {
+          "country": "BE",
+          "share": "MIN"
+        },
         "release": {
           "type": "THE",
           "year": 2021
         },
+        "slug": "es2021-021-las-consecuencias",
         "tags": "rural",
-        "production": {
-          "country": "BE",
-          "share": "MIN"
+        "title": {
+          "english": "The Consequences",
+          "native": "Las consecuencias"
         }
-      }
+      },
+      "gender": "M",
+      "id": "ES2021_021_03",
+      "origin": "WLA",
+      "sexuality": "HE"
+    },
+    {
+      "ability": "AB",
+      "age": "3",
+      "assistedMobility": "AB",
+      "class": "MC",
+      "film": {
+        "filmType": "F",
+        "genre": "THR",
+        "id": "ES2020_059",
+        "production": {
+          "country": "DE",
+          "share": "MIN"
+        },
+        "release": {
+          "type": "THE",
+          "year": 2020
+        },
+        "slug": "es2020-059-blanco-en-blanco",
+        "tags": "racial discrimination",
+        "title": {
+          "english": "White on White",
+          "native": "Blanco en blanco"
+        }
+      },
+      "gender": "M",
+      "id": "ES2020_059_01",
+      "origin": "WLA",
+      "profession": "SE"
     }
   ]
 }

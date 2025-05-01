@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-07-14 00:00:00",
+    "date": "2023-07-14",
     "year": 2023
   },
   "production": {
@@ -21,28 +21,28 @@
     "posterUrl": "https://www.imdb.com/title/tt7710588/mediaviewer/rm1996162049/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
     "BIO",
-    "DRA",
-    "ROM"
+    "COM",
+    "ROM",
+    "DRA"
   ],
   "tags": [
     "superior-employee relationship",
-    "abuse",
-    "artistic creation",
-    "class conflict",
-    "fatherhood",
-    "substance abuse",
-    "homosociality",
-    "rural",
-    "self-employment",
-    "cultural memory",
-    "partnership",
     "celebrity",
+    "class conflict",
+    "national identity",
+    "homosociality",
+    "partnership",
+    "self-employment",
+    "abuse",
+    "rural",
     "state institutions",
-    "wealth",
+    "substance abuse",
     "crime",
-    "national identity"
+    "wealth",
+    "artistic creation",
+    "cultural memory",
+    "fatherhood"
   ],
   "director": [
     {
@@ -55,16 +55,21 @@
   ],
   "character": [
     {
-      "id": "ES2023_041_05",
+      "id": "ES2023_041_03",
       "age": "3",
-      "gender": "M",
+      "gender": "F",
       "origin": "WWE",
+      "class": "UC",
+      "profession": "UN",
+      "ability": "AB",
+      "assistedMobility": "AB",
       "person": {
-        "id": "Bruno Raffaelli",
-        "name": "Bruno Raffaelli",
-        "birthYear": 1950.0,
-        "gender": "M",
-        "nationality": "FR"
+        "id": "Vicky Pe\u00f1a",
+        "slug": "vicky-pena",
+        "name": "Vicky Pe\u00f1a",
+        "birthYear": 1954.0,
+        "gender": "F",
+        "nationality": "ES"
       }
     },
     {
@@ -78,6 +83,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Jos\u00e9 Garcia",
+        "slug": "jose-garcia",
         "name": "Jos\u00e9 Garcia",
         "birthYear": 1966.0,
         "gender": "M",
@@ -95,6 +101,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Pep Cruz",
+        "slug": "pep-cruz",
         "name": "Pep Cruz",
         "birthYear": 1948.0,
         "gender": "M",
@@ -110,6 +117,7 @@
       "profession": "SE",
       "person": {
         "id": "Gal Soler",
+        "slug": "gal-soler",
         "name": "Gal Soler",
         "birthYear": 1943.0,
         "gender": "M",
@@ -117,16 +125,17 @@
       }
     },
     {
-      "id": "ES2023_041_04",
+      "id": "ES2023_041_05",
       "age": "3",
       "gender": "M",
       "origin": "WWE",
       "person": {
-        "id": "Jos\u00e9 \u00c1ngel Egido",
-        "name": "Jos\u00e9 \u00c1ngel Egido",
-        "birthYear": 1951.0,
+        "id": "Bruno Raffaelli",
+        "slug": "bruno-raffaelli",
+        "name": "Bruno Raffaelli",
+        "birthYear": 1950.0,
         "gender": "M",
-        "nationality": "ES"
+        "nationality": "FR"
       }
     },
     {
@@ -140,6 +149,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Paco Tous",
+        "slug": "paco-tous",
         "name": "Paco Tous",
         "birthYear": 1964.0,
         "gender": "M",
@@ -147,19 +157,16 @@
       }
     },
     {
-      "id": "ES2023_041_03",
+      "id": "ES2023_041_04",
       "age": "3",
-      "gender": "F",
+      "gender": "M",
       "origin": "WWE",
-      "class": "UC",
-      "profession": "UN",
-      "ability": "AB",
-      "assistedMobility": "AB",
       "person": {
-        "id": "Vicky Pe\u00f1a",
-        "name": "Vicky Pe\u00f1a",
-        "birthYear": 1954.0,
-        "gender": "F",
+        "id": "Jos\u00e9 \u00c1ngel Egido",
+        "slug": "jose-angel-egido",
+        "name": "Jos\u00e9 \u00c1ngel Egido",
+        "birthYear": 1951.0,
+        "gender": "M",
         "nationality": "ES"
       }
     }

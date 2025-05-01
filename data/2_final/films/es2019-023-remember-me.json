@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-08-01 00:00:00",
+    "date": "2019-08-01",
     "year": 2019
   },
   "production": {
@@ -20,24 +20,24 @@
     "posterUrl": "https://www.imdb.com/title/tt4999290/mediaviewer/rm646031617/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROM",
-    "COM"
+    "COM",
+    "ROM"
   ],
   "tags": [
-    "romance",
-    "well-being",
-    "retirement home",
-    "desire",
-    "substance abuse",
-    "dementia",
-    "homosociality",
-    "fatherhood",
-    "motherhood",
-    "personal memory",
-    "reignited passion",
-    "intragenerational friendship",
     "caregiving",
-    "fraud"
+    "retirement home",
+    "homosociality",
+    "intragenerational friendship",
+    "well-being",
+    "desire",
+    "personal memory",
+    "fraud",
+    "substance abuse",
+    "reignited passion",
+    "motherhood",
+    "romance",
+    "dementia",
+    "fatherhood"
   ],
   "director": [
     {
@@ -51,21 +51,40 @@
   ],
   "character": [
     {
-      "id": "ES2019_023_04",
-      "age": "3",
-      "gender": "F",
-      "origin": "WWE",
+      "id": "ES2019_023_01",
+      "age": "4",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WNA",
       "class": "MC",
-      "profession": "EM",
+      "profession": "RE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Ver\u00f3nica Forqu\u00e9",
-        "name": "Ver\u00f3nica Forqu\u00e9",
-        "birthYear": 1955.0,
-        "deathYear": 2022.0,
-        "gender": "F",
-        "nationality": "ES"
+        "id": "Bruce Dern",
+        "slug": "bruce-dern",
+        "name": "Bruce Dern",
+        "birthYear": 1936.0,
+        "gender": "M",
+        "nationality": "US"
+      }
+    },
+    {
+      "id": "ES2019_023_03",
+      "age": "4",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Brian Cox",
+        "slug": "brian-cox",
+        "name": "Brian Cox",
+        "birthYear": 1946.0,
+        "gender": "M",
+        "nationality": "GB"
       }
     },
     {
@@ -80,6 +99,7 @@
       "assistedMobility": "PD",
       "person": {
         "id": "Caroline Silhol",
+        "slug": "caroline-silhol",
         "name": "Caroline Silhol",
         "birthYear": 1949.0,
         "gender": "F",
@@ -87,38 +107,22 @@
       }
     },
     {
-      "id": "ES2019_023_03",
-      "age": "4",
-      "gender": "M",
+      "id": "ES2019_023_04",
+      "age": "3",
+      "gender": "F",
       "origin": "WWE",
       "class": "MC",
-      "profession": "RE",
+      "profession": "EM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Brian Cox",
-        "name": "Brian Cox",
-        "birthYear": 1946.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "ES2019_023_01",
-      "age": "4",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WNA",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Bruce Dern",
-        "name": "Bruce Dern",
-        "birthYear": 1936.0,
-        "gender": "M",
-        "nationality": "US"
+        "id": "Ver\u00f3nica Forqu\u00e9",
+        "slug": "veronica-forque",
+        "name": "Ver\u00f3nica Forqu\u00e9",
+        "birthYear": 1955.0,
+        "deathYear": 2022.0,
+        "gender": "F",
+        "nationality": "ES"
       }
     }
   ],

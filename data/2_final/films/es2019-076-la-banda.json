@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-07-06 00:00:00",
+    "date": "2019-07-06",
     "year": 2019
   },
   "production": {
@@ -21,17 +21,17 @@
     "posterUrl": "https://www.imdb.com/title/tt7973858/mediaviewer/rm2946730753/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROM",
-    "COM",
     "COA",
+    "COM",
+    "ROM",
     "DRA"
   ],
   "tags": [
-    "wedding",
-    "migration",
+    "marriage",
     "return home",
+    "wedding",
     "parenthood",
-    "marriage"
+    "migration"
   ],
   "director": [
     {
@@ -45,23 +45,6 @@
   ],
   "character": [
     {
-      "id": "ES2019_076_01",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Enric Benavent",
-        "name": "Enric Benavent",
-        "birthYear": 1953.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2019_076_02",
       "age": "2",
       "gender": "F",
@@ -72,9 +55,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Inma Sancho",
+        "slug": "inma-sancho",
         "name": "Inma Sancho",
         "birthYear": 1964.0,
         "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2019_076_01",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Enric Benavent",
+        "slug": "enric-benavent",
+        "name": "Enric Benavent",
+        "birthYear": 1953.0,
+        "gender": "M",
         "nationality": "ES"
       }
     }

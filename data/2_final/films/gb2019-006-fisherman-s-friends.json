@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-03-15 00:00:00",
+    "date": "2019-03-15",
     "year": 2019
   },
   "production": {
@@ -20,26 +20,26 @@
     "posterUrl": "https://www.imdb.com/title/tt1648186/mediaviewer/rm2031056384/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
     "MUS",
+    "COM",
     "ROM"
   ],
   "tags": [
-    "wedding",
-    "independent home",
-    "artistic creation",
-    "precarity",
-    "class solidarity",
-    "fatherhood",
-    "disappearing professions",
-    "homosociality",
-    "low rank employment",
-    "rural",
-    "self-employment",
-    "elderhood",
     "marriage",
+    "precarity",
+    "low rank employment",
+    "homosociality",
+    "class solidarity",
+    "self-employment",
+    "rural",
+    "elderhood",
+    "independent home",
+    "intergenerational friendship",
+    "wedding",
+    "disappearing professions",
     "intragenerational friendship",
-    "intergenerational friendship"
+    "artistic creation",
+    "fatherhood"
   ],
   "director": [
     {
@@ -53,24 +53,6 @@
   ],
   "character": [
     {
-      "id": "GB2019_006_03",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Dave Johns",
-        "name": "Dave Johns",
-        "birthYear": 1956.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2019_006_04",
       "age": "3",
       "gender": "M",
@@ -82,26 +64,9 @@
       "assistedMobility": "AB",
       "person": {
         "id": "David Hayman",
+        "slug": "david-hayman",
         "name": "David Hayman",
         "birthYear": 1948.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2019_006_01",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "James Purefoy",
-        "name": "James Purefoy",
-        "birthYear": 1964.0,
         "gender": "M",
         "nationality": "GB"
       }
@@ -118,6 +83,44 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Maggie Steed"
+      }
+    },
+    {
+      "id": "GB2019_006_03",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Dave Johns",
+        "slug": "dave-johns",
+        "name": "Dave Johns",
+        "birthYear": 1956.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2019_006_01",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "James Purefoy",
+        "slug": "james-purefoy",
+        "name": "James Purefoy",
+        "birthYear": 1964.0,
+        "gender": "M",
+        "nationality": "GB"
       }
     }
   ],

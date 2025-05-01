@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-02-23 00:00:00",
+    "date": "2022-02-23",
     "year": 2022
   },
   "production": {
@@ -21,36 +21,28 @@
     "posterUrl": "https://www.imdb.com/title/tt11700260/mediaviewer/rm2769031169/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
     "MET",
+    "COM",
     "DRA"
   ],
   "tags": [
-    "romance",
-    "superior-employee relationship",
-    "abuse",
-    "high rank employment",
-    "migration",
-    "artistic creation",
-    "desire",
-    "legacy",
-    "fatherhood",
-    "homosociality",
     "marriage",
-    "may-december",
     "hospital",
+    "legacy",
+    "superior-employee relationship",
+    "may-december",
+    "homosociality",
+    "abuse",
+    "desire",
+    "migration",
+    "romance",
+    "high rank employment",
+    "wealth",
     "urban",
-    "wealth"
+    "artistic creation",
+    "fatherhood"
   ],
   "director": [
-    {
-      "id": "Gast\u00f3n Duprat",
-      "slug": "gaston-duprat",
-      "name": "Gast\u00f3n Duprat",
-      "birthYear": 1969,
-      "gender": "M",
-      "nationality": "AR"
-    },
     {
       "id": "Mariano Cohn",
       "slug": "mariano-cohn",
@@ -58,27 +50,17 @@
       "birthYear": 1975,
       "gender": "M",
       "nationality": "AR"
+    },
+    {
+      "id": "Gast\u00f3n Duprat",
+      "slug": "gaston-duprat",
+      "name": "Gast\u00f3n Duprat",
+      "birthYear": 1969,
+      "gender": "M",
+      "nationality": "AR"
     }
   ],
   "character": [
-    {
-      "id": "ES2022_006_03",
-      "age": "4",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Jos\u00e9 Luis G\u00f3mez",
-        "name": "Jos\u00e9 Luis G\u00f3mez",
-        "birthYear": 1940.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
     {
       "id": "ES2022_006_01",
       "age": "3",
@@ -91,6 +73,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Antonio Banderas",
+        "slug": "antonio-banderas",
         "name": "Antonio Banderas",
         "birthYear": 1960.0,
         "gender": "M",
@@ -98,19 +81,20 @@
       }
     },
     {
-      "id": "ES2022_006_04",
-      "age": "2",
+      "id": "ES2022_006_03",
+      "age": "4",
       "gender": "M",
       "sexuality": "HE",
       "origin": "WWE",
-      "class": "UM",
-      "profession": "EM",
+      "class": "UC",
+      "profession": "SE",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Manolo Solo",
-        "name": "Manolo Solo",
-        "birthYear": 1964.0,
+        "id": "Jos\u00e9 Luis G\u00f3mez",
+        "slug": "jose-luis-gomez",
+        "name": "Jos\u00e9 Luis G\u00f3mez",
+        "birthYear": 1940.0,
         "gender": "M",
         "nationality": "ES"
       }
@@ -127,10 +111,30 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Oscar Mart\u00ednez",
+        "slug": "oscar-martinez",
         "name": "Oscar Mart\u00ednez",
         "birthYear": 1949.0,
         "gender": "M",
         "nationality": "AR"
+      }
+    },
+    {
+      "id": "ES2022_006_04",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Manolo Solo",
+        "slug": "manolo-solo",
+        "name": "Manolo Solo",
+        "birthYear": 1964.0,
+        "gender": "M",
+        "nationality": "ES"
       }
     }
   ],

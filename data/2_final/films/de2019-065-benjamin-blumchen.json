@@ -9,7 +9,7 @@
   "filmType": "A",
   "release": {
     "type": "THE",
-    "date": "2019-08-08 00:00:00",
+    "date": "2019-08-08",
     "year": 2019
   },
   "production": {
@@ -21,14 +21,14 @@
     "posterUrl": "https://www.imdb.com/title/tt6688324/mediaviewer/rm617060865/?ref_=tt_ov_i"
   },
   "genre": [
-    "CHI",
     "FAN",
-    "COM"
+    "COM",
+    "CHI"
   ],
   "tags": [
-    "mentorship",
-    "non-human companionship",
     "supernatural entity",
+    "non-human companionship",
+    "mentorship",
     "voice mismatch"
   ],
   "director": [
@@ -43,24 +43,6 @@
   ],
   "character": [
     {
-      "id": "DE2019_065_01",
-      "age": "2",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Martina Gedeck",
-        "name": "Martina Gedeck",
-        "birthYear": 1961.0,
-        "gender": "F",
-        "nationality": "DE"
-      }
-    },
-    {
       "id": "DE2019_065_02",
       "age": "3",
       "gender": "M",
@@ -72,9 +54,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Ulrich Tukur",
+        "slug": "ulrich-tukur",
         "name": "Ulrich Tukur",
         "birthYear": 1957.0,
         "gender": "M",
+        "nationality": "DE"
+      }
+    },
+    {
+      "id": "DE2019_065_01",
+      "age": "2",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Martina Gedeck",
+        "slug": "martina-gedeck",
+        "name": "Martina Gedeck",
+        "birthYear": 1961.0,
+        "gender": "F",
         "nationality": "DE"
       }
     }

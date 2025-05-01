@@ -8,57 +8,57 @@
   "gender": "M",
   "character": [
     {
-      "id": "GB2023_002_03",
+      "ability": "AB",
       "age": "3",
-      "gender": "M",
-      "origin": "WWE",
+      "assistedMobility": "AB",
+      "class": "UC",
       "film": {
-        "id": "GB2023_002",
-        "slug": "gb2023-002-empire-of-light",
-        "title": {
-          "native": "Empire of Light"
-        },
         "filmType": "F",
-        "genre": "ROM",
-        "release": {
-          "type": "THE",
-          "year": 2023
-        },
-        "tags": "national identity",
+        "genre": "WAR",
+        "id": "GB2021_002",
         "production": {
           "country": "US",
           "share": "MIN"
-        }
-      }
-    },
-    {
-      "id": "GB2021_002_05",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "CEU",
-      "class": "UC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "film": {
-        "id": "GB2021_002",
-        "slug": "gb2021-002-the-king-s-man",
-        "title": {
-          "native": "The King's Man"
         },
-        "filmType": "F",
-        "genre": "WAR",
         "release": {
           "type": "THE",
           "year": 2021
         },
+        "slug": "gb2021-002-the-king-s-man",
         "tags": "activism",
+        "title": {
+          "native": "The King's Man"
+        }
+      },
+      "gender": "M",
+      "id": "GB2021_002_05",
+      "origin": "CEU",
+      "profession": "SE",
+      "sexuality": "HE"
+    },
+    {
+      "age": "3",
+      "film": {
+        "filmType": "F",
+        "genre": "ROM",
+        "id": "GB2023_002",
         "production": {
           "country": "US",
           "share": "MIN"
+        },
+        "release": {
+          "type": "THE",
+          "year": 2023
+        },
+        "slug": "gb2023-002-empire-of-light",
+        "tags": "national identity",
+        "title": {
+          "native": "Empire of Light"
         }
-      }
+      },
+      "gender": "M",
+      "id": "GB2023_002_03",
+      "origin": "WWE"
     }
   ]
 }

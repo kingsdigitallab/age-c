@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2020-09-24 00:00:00",
+    "date": "2020-09-24",
     "year": 2020
   },
   "production": {
@@ -20,8 +20,8 @@
     "posterUrl": "https://www.imdb.com/title/tt6149154/mediaviewer/rm1882041089/?ref_=tt_ov_i"
   },
   "genre": [
-    "WAR",
     "HIS",
+    "WAR",
     "DRA"
   ],
   "tags": [
@@ -40,25 +40,6 @@
   ],
   "character": [
     {
-      "id": "IT2020_011_02",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Johnny Depp",
-        "name": "Johnny Depp",
-        "birthYear": 1963.0,
-        "gender": "M",
-        "nationality": "US"
-      },
-      "role": "LEA"
-    },
-    {
       "id": "IT2020_011_01",
       "age": "3",
       "gender": "M",
@@ -70,10 +51,31 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Mark Rylance",
+        "slug": "mark-rylance",
         "name": "Mark Rylance",
         "birthYear": 1960.0,
         "gender": "M",
         "nationality": "GB"
+      },
+      "role": "LEA"
+    },
+    {
+      "id": "IT2020_011_02",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Johnny Depp",
+        "slug": "johnny-depp",
+        "name": "Johnny Depp",
+        "birthYear": 1963.0,
+        "gender": "M",
+        "nationality": "US"
       },
       "role": "LEA"
     }

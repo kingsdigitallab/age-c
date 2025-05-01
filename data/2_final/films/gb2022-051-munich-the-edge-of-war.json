@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-01-07 00:00:00",
+    "date": "2022-01-07",
     "year": 2022
   },
   "production": {
@@ -20,24 +20,24 @@
     "posterUrl": "https://www.imdb.com/title/tt7475578/mediaviewer/rm4115197697/?ref_=tt_ov_i"
   },
   "genre": [
-    "HIS",
-    "SPY",
     "WAR",
+    "SPY",
+    "HIS",
     "THR"
   ],
   "tags": [
-    "abuse",
-    "high rank employment",
-    "physical illness",
-    "state institutions",
     "collective trauma",
-    "homosociality",
-    "war",
-    "urban",
-    "power",
+    "high rank employment",
     "superior-employee relationship",
+    "national identity",
+    "physical illness",
+    "war",
+    "abuse",
+    "homosociality",
+    "state institutions",
     "professional politics",
-    "national identity"
+    "urban",
+    "power"
   ],
   "director": [
     {
@@ -51,6 +51,25 @@
   ],
   "character": [
     {
+      "id": "GB2022_051_06",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UC",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Ulrich Matthes",
+        "slug": "ulrich-matthes",
+        "name": "Ulrich Matthes",
+        "birthYear": 1959.0,
+        "gender": "M",
+        "nationality": "DE"
+      }
+    },
+    {
       "id": "GB2022_051_02",
       "age": "2",
       "gender": "M",
@@ -62,26 +81,9 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Mark Lewis Jones",
+        "slug": "mark-lewis-jones",
         "name": "Mark Lewis Jones",
         "birthYear": 1964.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2022_051_04",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Nicholas Farrell",
-        "name": "Nicholas Farrell",
-        "birthYear": 1955.0,
         "gender": "M",
         "nationality": "GB"
       }
@@ -98,26 +100,9 @@
       "assistedMobility": "CI",
       "person": {
         "id": "Jeremy Irons",
+        "slug": "jeremy-irons",
         "name": "Jeremy Irons",
         "birthYear": 1948.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2022_051_03",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Alex Jennings",
-        "name": "Alex Jennings",
-        "birthYear": 1957.0,
         "gender": "M",
         "nationality": "GB"
       }
@@ -134,6 +119,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "St\u00e9phane Boucher",
+        "slug": "stephane-boucher",
         "name": "St\u00e9phane Boucher",
         "birthYear": 1958.0,
         "gender": "M",
@@ -141,21 +127,41 @@
       }
     },
     {
-      "id": "GB2022_051_06",
-      "age": "2",
+      "id": "GB2022_051_04",
+      "age": "3",
       "gender": "M",
       "sexuality": "HE",
       "origin": "WWE",
       "class": "UC",
-      "profession": "SE",
+      "profession": "EM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Ulrich Matthes",
-        "name": "Ulrich Matthes",
-        "birthYear": 1959.0,
+        "id": "Nicholas Farrell",
+        "slug": "nicholas-farrell",
+        "name": "Nicholas Farrell",
+        "birthYear": 1955.0,
         "gender": "M",
-        "nationality": "DE"
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2022_051_03",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Alex Jennings",
+        "slug": "alex-jennings",
+        "name": "Alex Jennings",
+        "birthYear": 1957.0,
+        "gender": "M",
+        "nationality": "GB"
       }
     }
   ],

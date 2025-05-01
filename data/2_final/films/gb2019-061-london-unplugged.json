@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-01-18 00:00:00",
+    "date": "2019-01-18",
     "year": 2019
   },
   "production": {
@@ -20,27 +20,69 @@
     "posterUrl": "https://www.imdb.com/title/tt6051312/mediaviewer/rm1256957953/?ref_=tt_ov_i"
   },
   "genre": [
-    "ANT",
-    "DRA",
     "MPF",
-    "ROM"
+    "ANT",
+    "ROM",
+    "DRA"
   ],
   "tags": [
-    "regional identity",
+    "intergenerational conflict",
+    "self-employment",
     "desire",
     "motherhood",
-    "self-employment",
+    "sex for hire",
     "urban",
-    "intergenerational conflict",
-    "sex for hire"
+    "regional identity"
   ],
   "director": [
+    {
+      "id": "Andres Heger-Bratterud",
+      "slug": "andres-heger-bratterud",
+      "name": "Andres Heger-Bratterud",
+      "birthYear": 1985,
+      "gender": "M",
+      "nationality": "NO"
+    },
     {
       "id": "Kaki Wong",
       "slug": "kaki-wong",
       "name": "Kaki Wong",
       "gender": "F",
       "nationality": "HK"
+    },
+    {
+      "id": "Nick Cohen",
+      "slug": "nick-cohen",
+      "name": "Nick Cohen",
+      "birthYear": 1973,
+      "gender": "M",
+      "nationality": "GB"
+    },
+    {
+      "id": "Layke Anderson",
+      "slug": "layke-anderson",
+      "name": "Layke Anderson",
+      "birthYear": 1983,
+      "gender": "M",
+      "nationality": "GB"
+    },
+    {
+      "id": "Ben Jacobson",
+      "slug": "ben-jacobson",
+      "name": "Ben Jacobson",
+      "gender": "M",
+      "nationality": "GB"
+    },
+    {
+      "id": "Qi Zhang",
+      "slug": "qi-zhang",
+      "name": "Qi Zhang"
+    },
+    {
+      "id": "Rosanna Lowe",
+      "slug": "rosanna-lowe",
+      "name": "Rosanna Lowe",
+      "gender": "F"
     },
     {
       "id": "George Taylor",
@@ -61,67 +103,9 @@
       "name": "Andrew Cryan",
       "gender": "M",
       "nationality": "GB"
-    },
-    {
-      "id": "Ben Jacobson",
-      "slug": "ben-jacobson",
-      "name": "Ben Jacobson",
-      "gender": "M",
-      "nationality": "GB"
-    },
-    {
-      "id": "Layke Anderson",
-      "slug": "layke-anderson",
-      "name": "Layke Anderson",
-      "birthYear": 1983,
-      "gender": "M",
-      "nationality": "GB"
-    },
-    {
-      "id": "Rosanna Lowe",
-      "slug": "rosanna-lowe",
-      "name": "Rosanna Lowe",
-      "gender": "F"
-    },
-    {
-      "id": "Qi Zhang",
-      "slug": "qi-zhang",
-      "name": "Qi Zhang"
-    },
-    {
-      "id": "Nick Cohen",
-      "slug": "nick-cohen",
-      "name": "Nick Cohen",
-      "birthYear": 1973,
-      "gender": "M",
-      "nationality": "GB"
-    },
-    {
-      "id": "Andres Heger-Bratterud",
-      "slug": "andres-heger-bratterud",
-      "name": "Andres Heger-Bratterud",
-      "birthYear": 1985,
-      "gender": "M",
-      "nationality": "NO"
     }
   ],
   "character": [
-    {
-      "id": "GB2019_061_01",
-      "age": "4",
-      "gender": "F",
-      "origin": "WWE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Eve Pearce",
-        "name": "Eve Pearce",
-        "birthYear": 1929.0,
-        "deathYear": 2023.0,
-        "gender": "F",
-        "nationality": "GB"
-      }
-    },
     {
       "id": "GB2019_061_04",
       "age": "3",
@@ -131,6 +115,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Chris Barritt",
+        "slug": "chris-barritt",
         "name": "Chris Barritt",
         "gender": "M",
         "nationality": "GB"
@@ -145,6 +130,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Juliet Stevenson",
+        "slug": "juliet-stevenson",
         "name": "Juliet Stevenson",
         "birthYear": 1956.0,
         "gender": "F",
@@ -160,9 +146,27 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Shaun Prendergrast",
+        "slug": "shaun-prendergrast",
         "name": "Shaun Prendergrast",
         "birthYear": 1958.0,
         "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2019_061_01",
+      "age": "4",
+      "gender": "F",
+      "origin": "WWE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Eve Pearce",
+        "slug": "eve-pearce",
+        "name": "Eve Pearce",
+        "birthYear": 1929.0,
+        "deathYear": 2023.0,
+        "gender": "F",
         "nationality": "GB"
       }
     },
@@ -175,6 +179,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Mark Forstater",
+        "slug": "mark-forstater",
         "name": "Mark Forstater",
         "birthYear": 1943.0,
         "gender": "M",

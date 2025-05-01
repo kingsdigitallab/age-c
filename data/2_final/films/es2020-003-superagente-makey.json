@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2020-07-17 00:00:00",
+    "date": "2020-07-17",
     "year": 2020
   },
   "production": {
@@ -24,17 +24,17 @@
     "ACT"
   ],
   "tags": [
-    "superior-employee relationship",
-    "new start",
-    "substance abuse",
-    "homosociality",
-    "tourism",
-    "low-rank employment",
-    "urban",
-    "intragenerational friendship",
     "intergenerational conflict",
+    "low-rank employment",
+    "superior-employee relationship",
+    "homosociality",
+    "intragenerational friendship",
     "technology",
-    "state institutions"
+    "state institutions",
+    "substance abuse",
+    "new start",
+    "urban",
+    "tourism"
   ],
   "director": [
     {
@@ -48,23 +48,6 @@
   ],
   "character": [
     {
-      "id": "ES2020_003_01",
-      "age": "2",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Leo Harlem",
-        "name": "Leo Harlem",
-        "birthYear": 1965.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2020_003_02",
       "age": "2",
       "gender": "M",
@@ -75,8 +58,27 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Jordi S\u00e1nchez",
+        "slug": "jordi-sanchez",
         "name": "Jordi S\u00e1nchez",
         "birthYear": 1964.0,
+        "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2020_003_01",
+      "age": "2",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Leo Harlem",
+        "slug": "leo-harlem",
+        "name": "Leo Harlem",
+        "birthYear": 1965.0,
         "gender": "M",
         "nationality": "ES"
       }

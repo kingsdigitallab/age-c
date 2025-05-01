@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-03-01 00:00:00",
+    "date": "2019-03-01",
     "year": 2019
   },
   "production": {
@@ -21,28 +21,28 @@
     "posterUrl": "https://www.imdb.com/title/tt8242160/mediaviewer/rm1398643713/?ref_=tt_ov_i"
   },
   "genre": [
+    "ROA",
     "COM",
     "ROM",
-    "DRA",
-    "ROA"
+    "DRA"
   ],
   "tags": [
-    "last mission",
-    "pilgrimage",
-    "physical illness",
-    "precarity",
     "natural death",
-    "substance abuse",
-    "fatherhood",
-    "homosociality",
-    "personal memory",
-    "agony",
-    "self-employment",
-    "interracial relationships",
-    "partnership",
+    "precarity",
     "search for meaning",
+    "last mission",
+    "physical illness",
     "caregiving",
-    "intergenerational friendship"
+    "homosociality",
+    "partnership",
+    "self-employment",
+    "intergenerational friendship",
+    "personal memory",
+    "substance abuse",
+    "pilgrimage",
+    "agony",
+    "interracial relationships",
+    "fatherhood"
   ],
   "director": [
     {
@@ -56,24 +56,6 @@
   ],
   "character": [
     {
-      "id": "ES2019_020_01",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Jean Reno",
-        "name": "Jean Reno",
-        "birthYear": 1948.0,
-        "gender": "M",
-        "nationality": "FR"
-      }
-    },
-    {
       "id": "ES2019_020_02",
       "age": "3",
       "gender": "M",
@@ -85,11 +67,31 @@
       "assistedMobility": "CI",
       "person": {
         "id": "Enrique San Francisco",
+        "slug": "enrique-san-francisco",
         "name": "Enrique San Francisco",
         "birthYear": 1955.0,
         "deathYear": 2021.0,
         "gender": "M",
         "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2019_020_01",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Jean Reno",
+        "slug": "jean-reno",
+        "name": "Jean Reno",
+        "birthYear": 1948.0,
+        "gender": "M",
+        "nationality": "FR"
       }
     }
   ],

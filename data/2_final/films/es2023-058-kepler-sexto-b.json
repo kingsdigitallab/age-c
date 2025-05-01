@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-06-16 00:00:00",
+    "date": "2023-06-16",
     "year": 2023
   },
   "production": {
@@ -20,24 +20,24 @@
     "posterUrl": "https://www.imdb.com/title/tt17503424/mediaviewer/rm1862741761/?ref_=tt_ov_i"
   },
   "genre": [
-    "SCI",
     "COA",
-    "DRA"
+    "DRA",
+    "SCI"
   ],
   "tags": [
-    "mentorship",
-    "independent home",
-    "2008 crisis",
-    "unemployment",
-    "precarity",
-    "rescue mission",
-    "cross-gender friendship",
-    "urban",
     "mental illness",
     "homelessness",
-    "loneliness",
+    "rescue mission",
+    "precarity",
+    "cross-gender friendship",
+    "independent home",
+    "2008 crisis",
+    "intergenerational friendship",
+    "unemployment",
     "state institutions",
-    "intergenerational friendship"
+    "loneliness",
+    "mentorship",
+    "urban"
   ],
   "director": [
     {
@@ -51,36 +51,19 @@
   ],
   "character": [
     {
-      "id": "ES2023_058_04",
+      "id": "ES2023_058_03",
       "age": "3",
-      "gender": "M",
+      "gender": "F",
       "origin": "WWE",
       "class": "MC",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Juli Mira",
-        "name": "Juli Mira",
+        "id": "Mariana Cordero",
+        "slug": "mariana-cordero",
+        "name": "Mariana Cordero",
         "birthYear": 1949.0,
-        "deathYear": 2024.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2023_058_02",
-      "age": "2",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Ramiro Blas",
-        "name": "Ramiro Blas",
-        "birthYear": 1966.0,
-        "gender": "M",
+        "gender": "F",
         "nationality": "ES"
       }
     },
@@ -96,6 +79,7 @@
       "assistedMobility": "CI",
       "person": {
         "id": "Karra Elejalde",
+        "slug": "karra-elejalde",
         "name": "Karra Elejalde",
         "birthYear": 1960.0,
         "gender": "M",
@@ -103,18 +87,38 @@
       }
     },
     {
-      "id": "ES2023_058_03",
+      "id": "ES2023_058_02",
+      "age": "2",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Ramiro Blas",
+        "slug": "ramiro-blas",
+        "name": "Ramiro Blas",
+        "birthYear": 1966.0,
+        "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_058_04",
       "age": "3",
-      "gender": "F",
+      "gender": "M",
       "origin": "WWE",
       "class": "MC",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Mariana Cordero",
-        "name": "Mariana Cordero",
+        "id": "Juli Mira",
+        "slug": "juli-mira",
+        "name": "Juli Mira",
         "birthYear": 1949.0,
-        "gender": "F",
+        "deathYear": 2024.0,
+        "gender": "M",
         "nationality": "ES"
       }
     }

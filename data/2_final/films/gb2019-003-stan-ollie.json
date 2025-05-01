@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-01-11 00:00:00",
+    "date": "2019-01-11",
     "year": 2019
   },
   "production": {
@@ -20,29 +20,29 @@
     "posterUrl": "https://www.imdb.com/title/tt3385524/mediaviewer/rm3227480064/?ref_=tt_ov_i"
   },
   "genre": [
-    "HIS",
-    "DRA",
-    "COM",
     "BIO",
-    "MET"
+    "DRA",
+    "MET",
+    "COM",
+    "HIS"
   ],
   "tags": [
-    "superior-employee relationship",
-    "last mission",
     "high rank employment",
-    "physical illness",
-    "artistic creation",
-    "ageism",
-    "homosociality",
     "marriage",
-    "mass media",
-    "may-december",
-    "gray face",
-    "cultural memory",
-    "intragenerational friendship",
+    "superior-employee relationship",
     "celebrity",
+    "last mission",
+    "may-december",
+    "physical illness",
+    "homosociality",
+    "friendship betrayal",
+    "mass media",
+    "ageism",
+    "gray face",
+    "intragenerational friendship",
     "wealth",
-    "friendship betrayal"
+    "artistic creation",
+    "cultural memory"
   ],
   "director": [
     {
@@ -55,19 +55,19 @@
   ],
   "character": [
     {
-      "id": "GB2019_003_03",
-      "age": "3",
+      "id": "GB2019_003_01",
+      "age": "2",
       "gender": "M",
-      "sexuality": "HE",
       "origin": "WNA",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "CI",
-      "assistedMobility": "CI",
+      "class": "UM",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
       "person": {
-        "id": "John C. Reilly",
-        "name": "John C. Reilly",
-        "birthYear": 1965.0,
+        "id": "Danny Huston",
+        "slug": "danny-huston",
+        "name": "Danny Huston",
+        "birthYear": 1962.0,
         "gender": "M",
         "nationality": "US"
       }
@@ -84,6 +84,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Steve Coogan",
+        "slug": "steve-coogan",
         "name": "Steve Coogan",
         "birthYear": 1965.0,
         "gender": "M",
@@ -91,18 +92,20 @@
       }
     },
     {
-      "id": "GB2019_003_01",
-      "age": "2",
+      "id": "GB2019_003_03",
+      "age": "3",
       "gender": "M",
+      "sexuality": "HE",
       "origin": "WNA",
-      "class": "UM",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "CI",
+      "assistedMobility": "CI",
       "person": {
-        "id": "Danny Huston",
-        "name": "Danny Huston",
-        "birthYear": 1962.0,
+        "id": "John C. Reilly",
+        "slug": "john-c-reilly",
+        "name": "John C. Reilly",
+        "birthYear": 1965.0,
         "gender": "M",
         "nationality": "US"
       }

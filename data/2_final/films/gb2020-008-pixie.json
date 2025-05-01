@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2020-10-23 00:00:00",
+    "date": "2020-10-23",
     "year": 2020
   },
   "production": {
@@ -20,25 +20,25 @@
     "posterUrl": "https://www.imdb.com/title/tt10831086/mediaviewer/rm2577114625/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROA",
-    "ACT",
-    "WES",
     "CRI",
-    "HEI"
+    "ROA",
+    "HEI",
+    "WES",
+    "ACT"
   ],
   "tags": [
-    "organized crime",
-    "abuse",
-    "murder",
-    "extended family",
-    "substance abuse",
-    "homosociality",
-    "rural",
-    "self-employment",
-    "religion",
     "intergenerational conflict",
+    "murder",
     "superior-employee relationship",
-    "national identity"
+    "extended family",
+    "national identity",
+    "homosociality",
+    "religion",
+    "abuse",
+    "self-employment",
+    "organized crime",
+    "substance abuse",
+    "rural"
   ],
   "director": [
     {
@@ -51,40 +51,6 @@
   ],
   "character": [
     {
-      "id": "GB2020_008_03",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Ned Dennehy",
-        "name": "Ned Dennehy",
-        "birthYear": 1965.0,
-        "gender": "M",
-        "nationality": "IR"
-      }
-    },
-    {
-      "id": "GB2020_008_03",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Ned Dennehy",
-        "name": "Ned Dennehy",
-        "birthYear": 1965.0,
-        "gender": "M",
-        "nationality": "IE"
-      }
-    },
-    {
       "id": "GB2020_008_01",
       "age": "3",
       "gender": "M",
@@ -95,6 +61,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Alec Baldwin",
+        "slug": "alec-baldwin",
         "name": "Alec Baldwin",
         "birthYear": 1958.0,
         "gender": "M",
@@ -113,6 +80,42 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Colm Meaney"
+      }
+    },
+    {
+      "id": "GB2020_008_03",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Ned Dennehy",
+        "slug": "ned-dennehy",
+        "name": "Ned Dennehy",
+        "birthYear": 1965.0,
+        "gender": "M",
+        "nationality": "IE"
+      }
+    },
+    {
+      "id": "GB2020_008_03",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Ned Dennehy",
+        "slug": "ned-dennehy",
+        "name": "Ned Dennehy",
+        "birthYear": 1965.0,
+        "gender": "M",
+        "nationality": "IR"
       }
     }
   ],

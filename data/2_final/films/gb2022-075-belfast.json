@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-01-21 00:00:00",
+    "date": "2022-01-21",
     "year": 2022
   },
   "production": {
@@ -20,39 +20,39 @@
     "posterUrl": "https://www.imdb.com/title/tt12789558/mediaviewer/rm1094514433/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
     "HIS",
+    "COM",
     "DRA"
   ],
   "tags": [
-    "fatherhood",
-    "motherhood",
-    "collective trauma",
-    "hospital",
-    "in-laws",
-    "national identity",
-    "multigenerational family",
-    "burial",
-    "religion",
-    "grief",
-    "widowhood",
-    "physical illness",
-    "grandmotherhood",
-    "homosociality",
-    "marriage",
-    "state institutions",
-    "medical treatment",
     "retirement",
-    "independent home",
     "terrorism",
-    "class solidarity",
-    "natural death",
+    "national identity",
     "grandfatherhood",
-    "substance abuse",
-    "parenthood",
-    "urban",
     "loneliness",
-    "grandparenthood"
+    "hospital",
+    "grief",
+    "religion",
+    "class solidarity",
+    "widowhood",
+    "substance abuse",
+    "motherhood",
+    "grandparenthood",
+    "collective trauma",
+    "in-laws",
+    "physical illness",
+    "homosociality",
+    "independent home",
+    "medical treatment",
+    "state institutions",
+    "urban",
+    "grandmotherhood",
+    "marriage",
+    "natural death",
+    "burial",
+    "multigenerational family",
+    "parenthood",
+    "fatherhood"
   ],
   "director": [
     {
@@ -66,24 +66,6 @@
   ],
   "character": [
     {
-      "id": "GB2022_075_02",
-      "age": "4",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "profession": "RE",
-      "ability": "CI",
-      "assistedMobility": "CI",
-      "person": {
-        "id": "Ciar\u00e1n Hinds",
-        "name": "Ciar\u00e1n Hinds",
-        "birthYear": 1953.0,
-        "gender": "M",
-        "nationality": "IE"
-      }
-    },
-    {
       "id": "GB2022_075_03",
       "age": "3",
       "gender": "M",
@@ -95,6 +77,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Michael Maloney",
+        "slug": "michael-maloney",
         "name": "Michael Maloney",
         "birthYear": 1957.0,
         "gender": "M",
@@ -113,10 +96,30 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Judi Dench",
+        "slug": "judi-dench",
         "name": "Judi Dench",
         "birthYear": 1934.0,
         "gender": "F",
         "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2022_075_02",
+      "age": "4",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LM",
+      "profession": "RE",
+      "ability": "CI",
+      "assistedMobility": "CI",
+      "person": {
+        "id": "Ciar\u00e1n Hinds",
+        "slug": "ciaran-hinds",
+        "name": "Ciar\u00e1n Hinds",
+        "birthYear": 1953.0,
+        "gender": "M",
+        "nationality": "IE"
       }
     }
   ],

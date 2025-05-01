@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2021-08-27 00:00:00",
+    "date": "2021-08-27",
     "year": 2021
   },
   "production": {
@@ -20,43 +20,27 @@
     "posterUrl": "https://www.imdb.com/title/tt9410034/mediaviewer/rm3813795329/?ref_=tt_ov_i"
   },
   "genre": [
-    "DRA",
-    "ROA"
+    "ROA",
+    "DRA"
   ],
   "tags": [
-    "independent home",
-    "last mission",
-    "pilgrimage",
-    "ageism",
-    "natural death",
-    "personal memory",
-    "burial",
     "marriage",
-    "rural",
-    "gray face",
     "retirement",
-    "mass media",
-    "search for meaning",
+    "natural death",
     "grief",
-    "intergenerational friendship"
+    "search for meaning",
+    "last mission",
+    "burial",
+    "independent home",
+    "mass media",
+    "ageism",
+    "gray face",
+    "intergenerational friendship",
+    "personal memory",
+    "pilgrimage",
+    "rural"
   ],
   "character": [
-    {
-      "id": "GB2021_010_02",
-      "age": "4",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "person": {
-        "id": "Phyllis Logan",
-        "name": "Phyllis Logan",
-        "birthYear": 1956.0,
-        "gender": "F",
-        "nationality": "GB"
-      }
-    },
     {
       "id": "GB2021_010_01",
       "age": "4",
@@ -69,9 +53,27 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Timothy Spall",
+        "slug": "timothy-spall",
         "name": "Timothy Spall",
         "birthYear": 1957.0,
         "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2021_010_02",
+      "age": "4",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "person": {
+        "id": "Phyllis Logan",
+        "slug": "phyllis-logan",
+        "name": "Phyllis Logan",
+        "birthYear": 1956.0,
+        "gender": "F",
         "nationality": "GB"
       }
     }

@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2010-11-23 00:00:00",
+    "date": "2010-11-23",
     "year": 2010
   },
   "production": {
@@ -24,18 +24,18 @@
     "COM"
   ],
   "tags": [
-    "inheritance",
     "revenge",
     "natural death",
     "extended family",
-    "fatherhood",
-    "motherhood",
+    "class conflict",
+    "inheritance",
     "burial",
     "low rank employment",
-    "personal memory",
     "rural",
+    "personal memory",
+    "motherhood",
     "wealth",
-    "class conflict"
+    "fatherhood"
   ],
   "director": [
     {
@@ -49,24 +49,6 @@
   ],
   "character": [
     {
-      "id": "ES2023_018_04",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Isabel Ordaz",
-        "name": "Isabel Ordaz",
-        "birthYear": 1957.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2023_018_03",
       "age": "3",
       "gender": "M",
@@ -78,6 +60,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Gonzalo de Castro",
+        "slug": "gonzalo-de-castro",
         "name": "Gonzalo de Castro",
         "birthYear": 1963.0,
         "gender": "M",
@@ -94,6 +77,7 @@
       "profession": "EM",
       "person": {
         "id": "Luisa Gavasa",
+        "slug": "luisa-gavasa",
         "name": "Luisa Gavasa",
         "birthYear": 1951.0,
         "gender": "F",
@@ -109,9 +93,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Pere Ponce",
+        "slug": "pere-ponce",
         "name": "Pere Ponce",
         "birthYear": 1964.0,
         "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_018_04",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Isabel Ordaz",
+        "slug": "isabel-ordaz",
+        "name": "Isabel Ordaz",
+        "birthYear": 1957.0,
+        "gender": "F",
         "nationality": "ES"
       }
     }

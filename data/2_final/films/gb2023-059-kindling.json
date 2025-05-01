@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-04-21 00:00:00",
+    "date": "2023-04-21",
     "year": 2023
   },
   "production": {
@@ -20,33 +20,18 @@
     "posterUrl": "https://www.imdb.com/title/tt15184804/mediaviewer/rm284250625/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROM",
     "COA",
+    "ROM",
     "DRA"
   ],
   "tags": [
+    "caregiving",
     "physical illness",
     "parenthood",
-    "rural",
     "agony",
-    "caregiving"
+    "rural"
   ],
   "character": [
-    {
-      "id": "GB2023_059_02",
-      "age": "2",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "person": {
-        "id": "Tara Fitzgerald",
-        "name": "Tara Fitzgerald",
-        "birthYear": 1967.0,
-        "gender": "F",
-        "nationality": "GB"
-      }
-    },
     {
       "id": "GB2023_059_01",
       "age": "2",
@@ -58,9 +43,26 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Geoff Bell",
+        "slug": "geoff-bell",
         "name": "Geoff Bell",
         "birthYear": 1963.0,
         "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2023_059_02",
+      "age": "2",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "person": {
+        "id": "Tara Fitzgerald",
+        "slug": "tara-fitzgerald",
+        "name": "Tara Fitzgerald",
+        "birthYear": 1967.0,
+        "gender": "F",
         "nationality": "GB"
       }
     }

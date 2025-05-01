@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2021-05-17 00:00:00",
+    "date": "2021-05-17",
     "year": 2021
   },
   "production": {
@@ -20,28 +20,28 @@
     "posterUrl": "https://www.imdb.com/title/tt8043434/mediaviewer/rm155561217/?ref_=tt_ov_i"
   },
   "genre": [
-    "DRA",
-    "THR",
     "MPF",
     "DYS",
-    "SCI"
+    "DRA",
+    "SCI",
+    "THR"
   ],
   "tags": [
-    "independent home",
+    "murder",
+    "mental illness",
+    "marriage",
+    "precarity",
+    "infidelity",
+    "personal trauma",
+    "homosociality",
+    "sex",
     "abuse",
     "class conflict",
-    "precarity",
-    "murder",
-    "fatherhood",
-    "sex",
-    "homosociality",
-    "marriage",
-    "urban",
-    "mental illness",
-    "segregation",
-    "infidelity",
+    "independent home",
     "state institutions",
-    "personal trauma"
+    "segregation",
+    "urban",
+    "fatherhood"
   ],
   "director": [
     {
@@ -55,68 +55,15 @@
   ],
   "character": [
     {
-      "id": "GB2021_034_07",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Sam Louwyck",
-        "name": "Sam Louwyck",
-        "birthYear": 1966.0,
-        "gender": "M",
-        "nationality": "BE"
-      }
-    },
-    {
-      "id": "GB2021_034_08",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Adrian Rawlins",
-        "name": "Adrian Rawlins",
-        "birthYear": 1958.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2021_034_06",
+      "id": "GB2021_034_04",
       "age": "3",
-      "gender": "F",
-      "origin": "WWE",
-      "class": "MC",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Lorraine Hilton",
-        "name": "Lorraine Hilton",
-        "gender": "F"
-      }
-    },
-    {
-      "id": "GB2021_034_03",
-      "age": "2",
       "gender": "M",
-      "sexuality": "HE",
       "origin": "WWE",
-      "class": "LM",
+      "class": "UM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Ned Dennehy",
-        "name": "Ned Dennehy",
-        "birthYear": 1965.0,
-        "gender": "M",
-        "nationality": "IE"
+        "id": "Eric Godon"
       }
     },
     {
@@ -130,6 +77,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Hayley Carmichael",
+        "slug": "hayley-carmichael",
         "name": "Hayley Carmichael",
         "gender": "F",
         "nationality": "GB"
@@ -146,10 +94,26 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Ned Dennehy",
+        "slug": "ned-dennehy",
         "name": "Ned Dennehy",
         "birthYear": 1965.0,
         "gender": "M",
         "nationality": "IR"
+      }
+    },
+    {
+      "id": "GB2021_034_06",
+      "age": "3",
+      "gender": "F",
+      "origin": "WWE",
+      "class": "MC",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Lorraine Hilton",
+        "slug": "lorraine-hilton",
+        "name": "Lorraine Hilton",
+        "gender": "F"
       }
     },
     {
@@ -163,6 +127,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Michael Gould",
+        "slug": "michael-gould",
         "name": "Michael Gould",
         "birthYear": 1961.0,
         "gender": "M",
@@ -170,15 +135,21 @@
       }
     },
     {
-      "id": "GB2021_034_04",
-      "age": "3",
+      "id": "GB2021_034_03",
+      "age": "2",
       "gender": "M",
+      "sexuality": "HE",
       "origin": "WWE",
-      "class": "UM",
+      "class": "LM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Eric Godon"
+        "id": "Ned Dennehy",
+        "slug": "ned-dennehy",
+        "name": "Ned Dennehy",
+        "birthYear": 1965.0,
+        "gender": "M",
+        "nationality": "IE"
       }
     },
     {
@@ -191,7 +162,44 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Jan Bijvoet",
+        "slug": "jan-bijvoet",
         "name": "Jan Bijvoet",
+        "birthYear": 1966.0,
+        "gender": "M",
+        "nationality": "BE"
+      }
+    },
+    {
+      "id": "GB2021_034_08",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Adrian Rawlins",
+        "slug": "adrian-rawlins",
+        "name": "Adrian Rawlins",
+        "birthYear": 1958.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2021_034_07",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Sam Louwyck",
+        "slug": "sam-louwyck",
+        "name": "Sam Louwyck",
         "birthYear": 1966.0,
         "gender": "M",
         "nationality": "BE"

@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-03-29 00:00:00",
+    "date": "2019-03-29",
     "year": 2019
   },
   "production": {
@@ -23,19 +23,26 @@
     "COM"
   ],
   "tags": [
-    "regional identity",
-    "inheritance",
     "natural death",
+    "sisterhood",
     "extended family",
-    "substance abuse",
-    "motherhood",
+    "inheritance",
     "burial",
     "homosociality",
-    "rural",
+    "substance abuse",
+    "regional identity",
+    "motherhood",
     "intragenerational friendship",
-    "sisterhood"
+    "rural"
   ],
   "director": [
+    {
+      "id": "Rafa Montesinos",
+      "slug": "rafa-montesinos",
+      "name": "Rafa Montesinos",
+      "gender": "M",
+      "nationality": "ES"
+    },
     {
       "id": "Frank Ariza",
       "slug": "frank-ariza",
@@ -43,32 +50,9 @@
       "birthYear": 1981,
       "gender": "M",
       "nationality": "ES"
-    },
-    {
-      "id": "Rafa Montesinos",
-      "slug": "rafa-montesinos",
-      "name": "Rafa Montesinos",
-      "gender": "M",
-      "nationality": "ES"
     }
   ],
   "character": [
-    {
-      "id": "ES2019_072_01",
-      "age": "4",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Mar\u00eda Alfonsa Rosso",
-        "name": "Mar\u00eda Alfonsa Rosso",
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
     {
       "id": "ES2019_072_02",
       "age": "4",
@@ -80,9 +64,27 @@
       "assistedMobility": "CI",
       "person": {
         "id": "Terele P\u00e1vez",
+        "slug": "terele-pavez",
         "name": "Terele P\u00e1vez",
         "birthYear": 1939.0,
         "deathYear": 2017.0,
+        "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2019_072_01",
+      "age": "4",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Mar\u00eda Alfonsa Rosso",
+        "slug": "maria-alfonsa-rosso",
+        "name": "Mar\u00eda Alfonsa Rosso",
         "gender": "F",
         "nationality": "ES"
       }

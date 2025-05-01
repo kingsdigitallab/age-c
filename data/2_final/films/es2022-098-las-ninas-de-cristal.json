@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-04-02 00:00:00",
+    "date": "2022-04-02",
     "year": 2022
   },
   "production": {
@@ -25,9 +25,9 @@
     "THR"
   ],
   "tags": [
+    "artistic creation",
     "motherhood",
-    "fatherhood",
-    "artistic creation"
+    "fatherhood"
   ],
   "director": [
     {
@@ -41,23 +41,6 @@
   ],
   "character": [
     {
-      "id": "ES2022_098_01",
-      "age": "2",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Ana Wagener",
-        "name": "Ana Wagener",
-        "birthYear": 1962.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2022_098_02",
       "age": "3",
       "gender": "M",
@@ -68,8 +51,27 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Javier Lago",
+        "slug": "javier-lago",
         "name": "Javier Lago",
         "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2022_098_01",
+      "age": "2",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Ana Wagener",
+        "slug": "ana-wagener",
+        "name": "Ana Wagener",
+        "birthYear": 1962.0,
+        "gender": "F",
         "nationality": "ES"
       }
     }

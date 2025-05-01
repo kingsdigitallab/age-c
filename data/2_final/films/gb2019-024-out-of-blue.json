@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-03-29 00:00:00",
+    "date": "2019-03-29",
     "year": 2019
   },
   "production": {
@@ -20,22 +20,22 @@
     "posterUrl": "https://www.imdb.com/title/tt6874254/mediaviewer/rm628254976/?ref_=tt_ov_i"
   },
   "genre": [
-    "DET",
     "NOI",
-    "THR"
+    "THR",
+    "DET"
   ],
   "tags": [
-    "abuse",
-    "fatherhood",
-    "education",
-    "homosociality",
-    "marriage",
-    "low rank employment",
     "ecology",
+    "marriage",
+    "education",
+    "grief",
     "search for meaning",
+    "low rank employment",
+    "homosociality",
+    "abuse",
     "state institutions",
     "wealth",
-    "grief"
+    "fatherhood"
   ],
   "director": [
     {
@@ -59,27 +59,10 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Patricia Clarkson",
+        "slug": "patricia-clarkson",
         "name": "Patricia Clarkson",
         "birthYear": 1959.0,
         "gender": "F",
-        "nationality": "US"
-      }
-    },
-    {
-      "id": "GB2019_024_03",
-      "age": "4",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WNA",
-      "class": "UC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "James Caan",
-        "name": "James Caan",
-        "birthYear": 1940.0,
-        "gender": "M",
         "nationality": "US"
       }
     },
@@ -95,10 +78,30 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Jacki Weaver",
+        "slug": "jacki-weaver",
         "name": "Jacki Weaver",
         "birthYear": 1947.0,
         "gender": "F",
         "nationality": "AU"
+      }
+    },
+    {
+      "id": "GB2019_024_03",
+      "age": "4",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WNA",
+      "class": "UC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "James Caan",
+        "slug": "james-caan",
+        "name": "James Caan",
+        "birthYear": 1940.0,
+        "gender": "M",
+        "nationality": "US"
       }
     }
   ],

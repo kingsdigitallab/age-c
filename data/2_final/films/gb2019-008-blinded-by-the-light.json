@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-08-09 00:00:00",
+    "date": "2019-08-09",
     "year": 2019
   },
   "production": {
@@ -20,37 +20,21 @@
     "posterUrl": "https://www.imdb.com/title/tt8266310/mediaviewer/rm2050592769/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
     "MUS",
-    "COA",
-    "DRA"
+    "COM",
+    "DRA",
+    "COA"
   ],
   "tags": [
-    "mentorship",
-    "migration",
     "education",
     "low rank employment",
+    "national identity",
+    "mentorship",
+    "migration",
     "urban",
-    "cultural memory",
-    "national identity"
+    "cultural memory"
   ],
   "character": [
-    {
-      "id": "GB2019_008_01",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "MC",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "David Hayman",
-        "name": "David Hayman",
-        "birthYear": 1948.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
     {
       "id": "GB2019_008_02",
       "age": "2",
@@ -62,9 +46,27 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Lorraine Ashbourne",
+        "slug": "lorraine-ashbourne",
         "name": "Lorraine Ashbourne",
         "birthYear": 1961.0,
         "gender": "F",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2019_008_01",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "MC",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "David Hayman",
+        "slug": "david-hayman",
+        "name": "David Hayman",
+        "birthYear": 1948.0,
+        "gender": "M",
         "nationality": "GB"
       }
     },
@@ -79,6 +81,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Jeff Mirza",
+        "slug": "jeff-mirza",
         "name": "Jeff Mirza",
         "birthYear": 1964.0,
         "gender": "M",

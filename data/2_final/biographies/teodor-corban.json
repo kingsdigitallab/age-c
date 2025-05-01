@@ -9,66 +9,66 @@
   "gender": "M",
   "character": [
     {
-      "id": "RO2020_005_01",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WEE",
-      "class": "MC",
-      "profession": "EM",
       "ability": "AB",
+      "age": "3",
       "assistedMobility": "AB",
-      "role": "LEA",
+      "class": "MC",
       "film": {
-        "id": "RO2020_005",
-        "slug": "ro2020-005-urma",
-        "title": {
-          "native": "Urma",
-          "english": "Legacy"
-        },
         "filmType": "F",
         "genre": "DTH",
+        "id": "RO2020_005",
+        "production": {
+          "country": "RO",
+          "share": "MAJ"
+        },
         "release": {
           "type": "THE",
           "year": 2020
         },
+        "slug": "ro2020-005-urma",
         "tags": "state institutions",
+        "title": {
+          "english": "Legacy",
+          "native": "Urma"
+        }
+      },
+      "gender": "M",
+      "id": "RO2020_005_01",
+      "origin": "WEE",
+      "profession": "EM",
+      "role": "LEA",
+      "sexuality": "HE"
+    },
+    {
+      "ability": "CI",
+      "age": "3",
+      "assistedMobility": "CI",
+      "class": "LC",
+      "film": {
+        "filmType": "F",
+        "genre": "DRA",
+        "id": "RO2019_016",
         "production": {
           "country": "RO",
           "share": "MAJ"
-        }
-      }
-    },
-    {
-      "id": "RO2019_016_01",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WEE",
-      "class": "LC",
-      "profession": "RE",
-      "ability": "CI",
-      "assistedMobility": "CI",
-      "role": "LEA",
-      "film": {
-        "id": "RO2019_016",
-        "slug": "ro2019-016-carturan",
-        "title": {
-          "native": "C\u0103rturan",
-          "english": "C\u0103rturan"
         },
-        "filmType": "F",
-        "genre": "DRA",
         "release": {
           "type": "THE",
           "year": 2019
         },
+        "slug": "ro2019-016-carturan",
         "tags": "religion",
-        "production": {
-          "country": "RO",
-          "share": "MAJ"
+        "title": {
+          "english": "C\u0103rturan",
+          "native": "C\u0103rturan"
         }
-      }
+      },
+      "gender": "M",
+      "id": "RO2019_016_01",
+      "origin": "WEE",
+      "profession": "RE",
+      "role": "LEA",
+      "sexuality": "HE"
     }
   ]
 }

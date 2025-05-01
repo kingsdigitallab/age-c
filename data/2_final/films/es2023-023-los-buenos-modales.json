@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-04-28 00:00:00",
+    "date": "2023-04-28",
     "year": 2023
   },
   "production": {
@@ -24,33 +24,15 @@
     "DRA"
   ],
   "tags": [
-    "independent home",
-    "grandmotherhood",
-    "homosociality",
-    "burial",
-    "personal memory",
     "superior-employee relationship",
-    "sisterhood"
+    "sisterhood",
+    "burial",
+    "homosociality",
+    "independent home",
+    "personal memory",
+    "grandmotherhood"
   ],
   "character": [
-    {
-      "id": "ES2023_023_01",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Elena Irureta",
-        "name": "Elena Irureta",
-        "birthYear": 1955.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
     {
       "id": "ES2023_023_03",
       "age": "3",
@@ -62,6 +44,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Mar\u00eda Alfonsa Rosso",
+        "slug": "maria-alfonsa-rosso",
         "name": "Mar\u00eda Alfonsa Rosso",
         "gender": "F",
         "nationality": "ES"
@@ -79,8 +62,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Gloria Mu\u00f1oz",
+        "slug": "gloria-munoz",
         "name": "Gloria Mu\u00f1oz",
         "birthYear": 1948.0,
+        "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_023_01",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Elena Irureta",
+        "slug": "elena-irureta",
+        "name": "Elena Irureta",
+        "birthYear": 1955.0,
         "gender": "F",
         "nationality": "ES"
       }

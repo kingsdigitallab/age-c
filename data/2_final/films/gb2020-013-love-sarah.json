@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2020-07-10 00:00:00",
+    "date": "2020-07-10",
     "year": 2020
   },
   "production": {
@@ -21,21 +21,21 @@
   },
   "genre": [
     "COM",
-    "DRA",
-    "ROM"
+    "ROM",
+    "DRA"
   ],
   "tags": [
-    "mentorship",
-    "romance",
-    "new start",
-    "grandmotherhood",
-    "desire",
-    "motherhood",
-    "burial",
-    "self-employment",
     "gentrification",
     "grief",
-    "intergenerational friendship"
+    "burial",
+    "self-employment",
+    "intergenerational friendship",
+    "desire",
+    "motherhood",
+    "romance",
+    "new start",
+    "mentorship",
+    "grandmotherhood"
   ],
   "director": [
     {
@@ -48,24 +48,6 @@
   ],
   "character": [
     {
-      "id": "GB2020_013_01",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Celia Imrie",
-        "name": "Celia Imrie",
-        "birthYear": 1952.0,
-        "gender": "F",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2020_013_02",
       "age": "3",
       "gender": "M",
@@ -77,9 +59,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Bill Patterson",
+        "slug": "bill-patterson",
         "name": "Bill Patterson",
         "birthYear": 1945.0,
         "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2020_013_01",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Celia Imrie",
+        "slug": "celia-imrie",
+        "name": "Celia Imrie",
+        "birthYear": 1952.0,
+        "gender": "F",
         "nationality": "GB"
       }
     }

@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2021-07-23 00:00:00",
+    "date": "2021-07-23",
     "year": 2021
   },
   "production": {
@@ -21,18 +21,18 @@
     "posterUrl": "https://www.imdb.com/title/tt11206172/mediaviewer/rm386777089/?ref_=tt_ov_i"
   },
   "genre": [
-    "COM",
     "MUS",
-    "COA",
-    "ROM"
+    "COM",
+    "ROM",
+    "COA"
   ],
   "tags": [
-    "mentorship",
-    "physical illness",
-    "artistic creation",
     "precarity",
+    "physical illness",
+    "intergenerational friendship",
+    "mentorship",
     "urban",
-    "intergenerational friendship"
+    "artistic creation"
   ],
   "director": [
     {
@@ -46,22 +46,6 @@
   ],
   "character": [
     {
-      "id": "ES2021_010_01",
-      "age": "2",
-      "gender": "F",
-      "origin": "WWE",
-      "class": "LM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Carmen Machi",
-        "name": "Carmen Machi",
-        "birthYear": 1963.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2021_010_03",
       "age": "3",
       "gender": "F",
@@ -71,8 +55,26 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Susi S\u00e1nchez",
+        "slug": "susi-sanchez",
         "name": "Susi S\u00e1nchez",
         "birthYear": 1955.0,
+        "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2021_010_01",
+      "age": "2",
+      "gender": "F",
+      "origin": "WWE",
+      "class": "LM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Carmen Machi",
+        "slug": "carmen-machi",
+        "name": "Carmen Machi",
+        "birthYear": 1963.0,
         "gender": "F",
         "nationality": "ES"
       }
@@ -87,6 +89,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Juan Diego",
+        "slug": "juan-diego",
         "name": "Juan Diego",
         "birthYear": 1942.0,
         "deathYear": 2022.0,

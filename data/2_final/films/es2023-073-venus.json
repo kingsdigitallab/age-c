@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-02-18 00:00:00",
+    "date": "2023-02-18",
     "year": 2023
   },
   "production": {
@@ -24,12 +24,12 @@
     "DRA"
   ],
   "tags": [
-    "widowhood",
     "natural death",
-    "fatherhood",
-    "personal memory",
     "burial",
-    "stages of life"
+    "widowhood",
+    "personal memory",
+    "stages of life",
+    "fatherhood"
   ],
   "director": [
     {
@@ -43,20 +43,6 @@
   ],
   "character": [
     {
-      "id": "ES2023_073_02",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Lolita"
-      }
-    },
-    {
       "id": "ES2023_073_01",
       "age": "4",
       "gender": "M",
@@ -68,11 +54,26 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Juan Diego",
+        "slug": "juan-diego",
         "name": "Juan Diego",
         "birthYear": 1942.0,
         "deathYear": 2022.0,
         "gender": "M",
         "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_073_02",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Lolita"
       }
     }
   ],

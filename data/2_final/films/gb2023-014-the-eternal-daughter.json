@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-11-24 00:00:00",
+    "date": "2023-11-24",
     "year": 2023
   },
   "production": {
@@ -24,26 +24,26 @@
     "DRA"
   ],
   "tags": [
-    "artistic creation",
-    "motherhood",
-    "rural",
-    "cross-gender friendship",
-    "caregiving",
-    "wealth",
-    "non-human companionship",
-    "return home",
-    "personal memory",
-    "low rank employment",
-    "grief",
-    "widowhood",
-    "physical illness",
-    "interracial relationships",
     "retirement",
-    "intergenerational friendship",
+    "return home",
     "holiday",
-    "natural death",
+    "intergenerational friendship",
+    "personal memory",
+    "artistic creation",
+    "rural",
+    "grief",
+    "search for meaning",
     "self-employment",
-    "search for meaning"
+    "widowhood",
+    "motherhood",
+    "wealth",
+    "physical illness",
+    "non-human companionship",
+    "natural death",
+    "caregiving",
+    "cross-gender friendship",
+    "low rank employment",
+    "interracial relationships"
   ],
   "director": [
     {
@@ -57,24 +57,6 @@
   ],
   "character": [
     {
-      "id": "GB2023_014_03",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "BWE",
-      "class": "LM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Joseph Mydell",
-        "name": "Joseph Mydell",
-        "birthYear": 1945.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2023_014_02",
       "age": "3",
       "gender": "F",
@@ -86,6 +68,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Tilda Swinton",
+        "slug": "tilda-swinton",
         "name": "Tilda Swinton",
         "birthYear": 1960.0,
         "gender": "F",
@@ -104,10 +87,30 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Tilda Swinton",
+        "slug": "tilda-swinton",
         "name": "Tilda Swinton",
         "birthYear": 1960.0,
         "gender": "F",
         "nationality": "UK"
+      }
+    },
+    {
+      "id": "GB2023_014_03",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "BWE",
+      "class": "LM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Joseph Mydell",
+        "slug": "joseph-mydell",
+        "name": "Joseph Mydell",
+        "birthYear": 1945.0,
+        "gender": "M",
+        "nationality": "GB"
       }
     }
   ],

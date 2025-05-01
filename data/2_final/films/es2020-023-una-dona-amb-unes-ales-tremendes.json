@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2020-10-23 00:00:00",
+    "date": "2020-10-23",
     "year": 2020
   },
   "production": {
@@ -20,21 +20,21 @@
     "posterUrl": "https://www.imdb.com/title/tt13393808/mediaviewer/rm3127237889/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROM",
     "CRI",
+    "ROM",
     "DRA"
   ],
   "tags": [
-    "widowhood",
-    "independent home",
-    "state institutions",
-    "murder",
-    "daily routine",
-    "marriage",
-    "rural",
     "woman empowerment",
+    "murder",
+    "marriage",
+    "daily routine",
+    "grief",
+    "independent home",
+    "widowhood",
+    "state institutions",
     "loneliness",
-    "grief"
+    "rural"
   ],
   "director": [
     {
@@ -48,25 +48,6 @@
   ],
   "character": [
     {
-      "id": "ES2020_023_02",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Juli Mira",
-        "name": "Juli Mira",
-        "birthYear": 1949.0,
-        "deathYear": 2024.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2020_023_01",
       "age": "3",
       "gender": "F",
@@ -78,8 +59,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Victoria Salvador",
+        "slug": "victoria-salvador",
         "name": "Victoria Salvador",
         "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2020_023_02",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Juli Mira",
+        "slug": "juli-mira",
+        "name": "Juli Mira",
+        "birthYear": 1949.0,
+        "deathYear": 2024.0,
+        "gender": "M",
         "nationality": "ES"
       }
     }

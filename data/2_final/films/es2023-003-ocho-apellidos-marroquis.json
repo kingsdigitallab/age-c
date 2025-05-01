@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-12-01 00:00:00",
+    "date": "2023-12-01",
     "year": 2023
   },
   "production": {
@@ -25,21 +25,21 @@
     "ROM"
   ],
   "tags": [
-    "widowhood",
-    "holiday",
+    "in-laws",
     "natural death",
-    "substance abuse",
-    "fatherhood",
-    "motherhood",
-    "burial",
-    "racial discrimination",
+    "class conflict",
+    "national identity",
     "religion",
+    "burial",
+    "holiday",
+    "widowhood",
+    "racial discrimination",
+    "substance abuse",
+    "motherhood",
+    "wealth",
     "interracial relationships",
     "tourism",
-    "in-laws",
-    "wealth",
-    "class conflict",
-    "national identity"
+    "fatherhood"
   ],
   "director": [
     {
@@ -53,23 +53,6 @@
   ],
   "character": [
     {
-      "id": "ES2023_003_01",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Elena Irureta",
-        "name": "Elena Irureta",
-        "birthYear": 1955.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2023_003_03",
       "age": "3",
       "gender": "M",
@@ -80,6 +63,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Carlos Olalla",
+        "slug": "carlos-olalla",
         "name": "Carlos Olalla",
         "birthYear": 1957.0,
         "gender": "M",
@@ -97,9 +81,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Antonio Resines",
+        "slug": "antonio-resines",
         "name": "Antonio Resines",
         "birthYear": 1954.0,
         "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2023_003_01",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Elena Irureta",
+        "slug": "elena-irureta",
+        "name": "Elena Irureta",
+        "birthYear": 1955.0,
+        "gender": "F",
         "nationality": "ES"
       }
     }

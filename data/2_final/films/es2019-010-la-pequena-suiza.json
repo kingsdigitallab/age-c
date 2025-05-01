@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-04-26 00:00:00",
+    "date": "2019-04-26",
     "year": 2019
   },
   "production": {
@@ -21,22 +21,22 @@
     "posterUrl": "https://www.imdb.com/title/tt9100028/mediaviewer/rm3811926784/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROM",
-    "COM"
+    "COM",
+    "ROM"
   ],
   "tags": [
-    "regional identity",
-    "activism",
-    "festivities",
-    "parenthood",
-    "fatherhood",
-    "homosociality",
     "marriage",
+    "festivities",
+    "homosociality",
+    "national identity",
+    "intragenerational friendship",
     "rural",
     "mass media",
-    "intragenerational friendship",
+    "parenthood",
+    "regional identity",
     "professional politics",
-    "national identity"
+    "activism",
+    "fatherhood"
   ],
   "director": [
     {
@@ -50,24 +50,6 @@
   ],
   "character": [
     {
-      "id": "ES2019_010_01",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Ram\u00f3n Barea",
-        "name": "Ram\u00f3n Barea",
-        "birthYear": 1949.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2019_010_02",
       "age": "3",
       "gender": "M",
@@ -79,6 +61,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Enrique Vill\u00e9n",
+        "slug": "enrique-villen",
         "name": "Enrique Vill\u00e9n",
         "birthYear": 1960.0,
         "gender": "M",
@@ -97,8 +80,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Kandido Uranga",
+        "slug": "kandido-uranga",
         "name": "Kandido Uranga",
         "birthYear": 1955.0,
+        "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2019_010_01",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Ram\u00f3n Barea",
+        "slug": "ramon-barea",
+        "name": "Ram\u00f3n Barea",
+        "birthYear": 1949.0,
         "gender": "M",
         "nationality": "ES"
       }

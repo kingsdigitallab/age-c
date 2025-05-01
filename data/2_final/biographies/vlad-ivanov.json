@@ -8,66 +8,66 @@
   "gender": "M",
   "character": [
     {
-      "id": "RO2019_004_01",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WEE",
-      "class": "UC",
-      "profession": "EM",
       "ability": "AB",
-      "assistedMobility": "AB",
-      "role": "LEA",
-      "film": {
-        "id": "RO2019_004",
-        "slug": "ro2019-004-la-gomera",
-        "title": {
-          "native": "La Gomera",
-          "english": "The Whistlers"
-        },
-        "filmType": "F",
-        "genre": "THR",
-        "release": {
-          "type": "THE",
-          "year": 2019
-        },
-        "tags": "state institutions",
-        "production": {
-          "country": "SE",
-          "share": "MIN"
-        }
-      }
-    },
-    {
-      "id": "HU2018_017_01",
       "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UC",
-      "profession": "SE",
-      "ability": "AB",
       "assistedMobility": "AB",
-      "role": "LEA",
+      "class": "UC",
       "film": {
-        "id": "HU2018_017",
-        "slug": "hu2018-017-tegnap",
-        "title": {
-          "native": "Tegnap",
-          "english": "Yesterday"
-        },
         "filmType": "F",
         "genre": "ROM",
+        "id": "HU2018_017",
+        "production": {
+          "country": "DE",
+          "share": "MIN"
+        },
         "release": {
           "type": "THE",
           "year": 2018
         },
+        "slug": "hu2018-017-tegnap",
         "tags": "high rank employment",
-        "production": {
-          "country": "DE",
-          "share": "MIN"
+        "title": {
+          "english": "Yesterday",
+          "native": "Tegnap"
         }
-      }
+      },
+      "gender": "M",
+      "id": "HU2018_017_01",
+      "origin": "WWE",
+      "profession": "SE",
+      "role": "LEA",
+      "sexuality": "HE"
+    },
+    {
+      "ability": "AB",
+      "age": "2",
+      "assistedMobility": "AB",
+      "class": "UC",
+      "film": {
+        "filmType": "F",
+        "genre": "THR",
+        "id": "RO2019_004",
+        "production": {
+          "country": "SE",
+          "share": "MIN"
+        },
+        "release": {
+          "type": "THE",
+          "year": 2019
+        },
+        "slug": "ro2019-004-la-gomera",
+        "tags": "state institutions",
+        "title": {
+          "english": "The Whistlers",
+          "native": "La Gomera"
+        }
+      },
+      "gender": "M",
+      "id": "RO2019_004_01",
+      "origin": "WEE",
+      "profession": "EM",
+      "role": "LEA",
+      "sexuality": "HE"
     }
   ]
 }

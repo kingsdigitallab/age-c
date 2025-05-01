@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-02-15 00:00:00",
+    "date": "2019-02-15",
     "year": 2019
   },
   "production": {
@@ -25,17 +25,17 @@
     "ROM"
   ],
   "tags": [
-    "wedding",
-    "migration",
-    "precarity",
-    "parenthood",
     "marriage",
-    "self-employment",
-    "urban",
     "interracial relationships",
+    "precarity",
+    "national identity",
+    "self-employment",
     "2008 crisis",
     "eu",
-    "national identity"
+    "wedding",
+    "parenthood",
+    "migration",
+    "urban"
   ],
   "director": [
     {
@@ -48,24 +48,6 @@
   ],
   "character": [
     {
-      "id": "ES2019_004_02",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Leo Harlem",
-        "name": "Leo Harlem",
-        "birthYear": 1965.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2019_004_01",
       "age": "2",
       "gender": "F",
@@ -77,9 +59,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Carmen Machi",
+        "slug": "carmen-machi",
         "name": "Carmen Machi",
         "birthYear": 1963.0,
         "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2019_004_02",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Leo Harlem",
+        "slug": "leo-harlem",
+        "name": "Leo Harlem",
+        "birthYear": 1965.0,
+        "gender": "M",
         "nationality": "ES"
       }
     }

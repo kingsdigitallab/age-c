@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-05-08 00:00:00",
+    "date": "2022-05-08",
     "year": 2022
   },
   "production": {
@@ -24,21 +24,21 @@
     "DRA"
   ],
   "tags": [
+    "marriage",
+    "hospital",
     "disability",
-    "class solidarity",
     "natural death",
-    "fatherhood",
+    "caregiving",
+    "low rank employment",
+    "class solidarity",
+    "homosociality",
+    "burial",
+    "grief",
+    "medical treatment",
     "parenthood",
     "motherhood",
-    "low rank employment",
-    "marriage",
-    "homosociality",
-    "hospital",
-    "burial",
     "urban",
-    "caregiving",
-    "grief",
-    "medical treatment"
+    "fatherhood"
   ],
   "director": [
     {
@@ -52,35 +52,19 @@
   ],
   "character": [
     {
-      "id": "GB2022_058_03",
+      "id": "GB2022_058_04",
       "age": "3",
       "gender": "M",
-      "sexuality": "HE",
       "origin": "WWE",
       "class": "MC",
+      "profession": "EM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Bill Fellows",
-        "name": "Bill Fellows",
-        "birthYear": 1957.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2022_058_01",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Sean Cronin",
-        "name": "Sean Cronin",
-        "birthYear": 1964.0,
+        "id": "Bruce Payne",
+        "slug": "bruce-payne",
+        "name": "Bruce Payne",
+        "birthYear": 1958.0,
         "gender": "M",
         "nationality": "GB"
       }
@@ -96,6 +80,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Toyah Wilcox",
+        "slug": "toyah-wilcox",
         "name": "Toyah Wilcox",
         "birthYear": 1958.0,
         "gender": "F",
@@ -103,18 +88,37 @@
       }
     },
     {
-      "id": "GB2022_058_04",
-      "age": "3",
+      "id": "GB2022_058_01",
+      "age": "2",
       "gender": "M",
+      "sexuality": "HE",
       "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
+      "class": "LM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Bruce Payne",
-        "name": "Bruce Payne",
-        "birthYear": 1958.0,
+        "id": "Sean Cronin",
+        "slug": "sean-cronin",
+        "name": "Sean Cronin",
+        "birthYear": 1964.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2022_058_03",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Bill Fellows",
+        "slug": "bill-fellows",
+        "name": "Bill Fellows",
+        "birthYear": 1957.0,
         "gender": "M",
         "nationality": "GB"
       }

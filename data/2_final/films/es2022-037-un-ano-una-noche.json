@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-10-21 00:00:00",
+    "date": "2022-10-21",
     "year": 2022
   },
   "production": {
@@ -24,11 +24,11 @@
     "DRA"
   ],
   "tags": [
+    "collective trauma",
+    "personal trauma",
     "terrorism",
     "parenthood",
-    "collective trauma",
-    "urban",
-    "personal trauma"
+    "urban"
   ],
   "director": [
     {
@@ -42,21 +42,6 @@
   ],
   "character": [
     {
-      "id": "ES2022_037_01",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "person": {
-        "id": "Bruno Todeschini",
-        "name": "Bruno Todeschini",
-        "birthYear": 1962.0,
-        "gender": "M",
-        "nationality": "CH"
-      }
-    },
-    {
       "id": "ES2022_037_02",
       "age": "2",
       "gender": "F",
@@ -65,10 +50,27 @@
       "class": "MC",
       "person": {
         "id": "Sophie Broustal",
+        "slug": "sophie-broustal",
         "name": "Sophie Broustal",
         "birthYear": 1967.0,
         "gender": "F",
         "nationality": "FR"
+      }
+    },
+    {
+      "id": "ES2022_037_01",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "person": {
+        "id": "Bruno Todeschini",
+        "slug": "bruno-todeschini",
+        "name": "Bruno Todeschini",
+        "birthYear": 1962.0,
+        "gender": "M",
+        "nationality": "CH"
       }
     }
   ],

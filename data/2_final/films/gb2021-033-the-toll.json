@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2021-08-27 00:00:00",
+    "date": "2021-08-27",
     "year": 2021
   },
   "production": {
@@ -21,22 +21,22 @@
   },
   "genre": [
     "CRI",
-    "ACT",
-    "COM"
+    "COM",
+    "ACT"
   ],
   "tags": [
-    "organized crime",
-    "last mission",
-    "abuse",
-    "regional identity",
     "revenge",
     "murder",
-    "homosociality",
-    "personal memory",
-    "rural",
-    "self-employment",
     "intergenerational conflict",
-    "state institutions"
+    "last mission",
+    "homosociality",
+    "abuse",
+    "self-employment",
+    "organized crime",
+    "personal memory",
+    "state institutions",
+    "regional identity",
+    "rural"
   ],
   "director": [
     {
@@ -50,23 +50,6 @@
   ],
   "character": [
     {
-      "id": "GB2021_033_02",
-      "age": "3",
-      "gender": "M",
-      "origin": "BWE",
-      "class": "UM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Gary Beadle",
-        "name": "Gary Beadle",
-        "birthYear": 1965.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2021_033_01",
       "age": "3",
       "gender": "M",
@@ -77,6 +60,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Michael Smiley",
+        "slug": "michael-smiley",
         "name": "Michael Smiley",
         "birthYear": 1963.0,
         "gender": "M",
@@ -90,8 +74,27 @@
       "origin": "WWE",
       "person": {
         "id": "Julian Glover",
+        "slug": "julian-glover",
         "name": "Julian Glover",
         "birthYear": 1935.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2021_033_02",
+      "age": "3",
+      "gender": "M",
+      "origin": "BWE",
+      "class": "UM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Gary Beadle",
+        "slug": "gary-beadle",
+        "name": "Gary Beadle",
+        "birthYear": 1965.0,
         "gender": "M",
         "nationality": "GB"
       }

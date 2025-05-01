@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2018-02-16 00:00:00",
+    "date": "2018-02-16",
     "year": 2018
   },
   "production": {
@@ -21,25 +21,25 @@
     "posterUrl": "https://www.imdb.com/title/tt3674018/mediaviewer/rm1918201344/?ref_=tt_ov_i"
   },
   "genre": [
-    "NOIR",
     "DTH",
-    "DRA"
+    "DRA",
+    "NOIR"
   ],
   "tags": [
-    "widowhood",
-    "abuse",
-    "high rank employment",
-    "regional identity",
     "return home",
-    "fatherhood",
     "extended family",
-    "personal memory",
-    "rural",
     "religion",
+    "abuse",
+    "rural",
+    "widowhood",
+    "personal memory",
+    "state institutions",
+    "regional identity",
+    "crime",
+    "high rank employment",
     "cultural memory",
     "power",
-    "state institutions",
-    "crime"
+    "fatherhood"
   ],
   "director": [
     {
@@ -53,19 +53,34 @@
   ],
   "character": [
     {
-      "id": "ES2018_020_03",
-      "age": "2",
+      "id": "ES2018_020_01",
+      "age": "3",
       "gender": "M",
       "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
+      "origin": "WLA",
+      "class": "MC",
       "profession": "EM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Antonio Dechent",
-        "name": "Antonio Dechent",
-        "birthYear": 1960.0,
+        "id": "Eduardo Blanco",
+        "slug": "eduardo-blanco",
+        "name": "Eduardo Blanco",
+        "birthYear": 1958.0,
+        "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2018_020_04",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "person": {
+        "id": "Kandido Uranga",
+        "slug": "kandido-uranga",
+        "name": "Kandido Uranga",
+        "birthYear": 1955.0,
         "gender": "M",
         "nationality": "ES"
       }
@@ -82,56 +97,9 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Joaqu\u00edn Climent",
+        "slug": "joaquin-climent",
         "name": "Joaqu\u00edn Climent",
         "birthYear": 1958.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2018_020_05",
-      "age": "4",
-      "gender": "F",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Itziar Aizpuru",
-        "name": "Itziar Aizpuru",
-        "birthYear": 1939.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2018_020_01",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WLA",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Eduardo Blanco",
-        "name": "Eduardo Blanco",
-        "birthYear": 1958.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2018_020_04",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "person": {
-        "id": "Kandido Uranga",
-        "name": "Kandido Uranga",
-        "birthYear": 1955.0,
         "gender": "M",
         "nationality": "ES"
       }
@@ -147,9 +115,47 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Mario Pardo",
+        "slug": "mario-pardo",
         "name": "Mario Pardo",
         "birthYear": 1944.0,
         "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2018_020_03",
+      "age": "2",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Antonio Dechent",
+        "slug": "antonio-dechent",
+        "name": "Antonio Dechent",
+        "birthYear": 1960.0,
+        "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2018_020_05",
+      "age": "4",
+      "gender": "F",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Itziar Aizpuru",
+        "slug": "itziar-aizpuru",
+        "name": "Itziar Aizpuru",
+        "birthYear": 1939.0,
+        "gender": "F",
         "nationality": "ES"
       }
     }

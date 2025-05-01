@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-10-21 00:00:00",
+    "date": "2022-10-21",
     "year": 2022
   },
   "production": {
@@ -22,24 +22,24 @@
   },
   "genre": [
     "CRI",
-    "ACT",
-    "THR"
+    "THR",
+    "ACT"
   ],
   "tags": [
-    "organized crime",
     "superior-employee relationship",
-    "abuse",
-    "high rank employment",
-    "state institutions",
-    "corruption",
-    "homosociality",
+    "wealth",
     "religion",
+    "homosociality",
+    "abuse",
+    "organized crime",
+    "corruption",
+    "state institutions",
+    "technology",
+    "high rank employment",
+    "celibacy",
     "urban",
     "cultural memory",
-    "technology",
-    "power",
-    "wealth",
-    "celibacy"
+    "power"
   ],
   "director": [
     {
@@ -52,23 +52,6 @@
   ],
   "character": [
     {
-      "id": "ES2022_031_04",
-      "age": "4",
-      "gender": "F",
-      "origin": "WWE",
-      "class": "UC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Fionnula Flanagan",
-        "name": "Fionnula Flanagan",
-        "birthYear": 1941.0,
-        "gender": "F",
-        "nationality": "IE"
-      }
-    },
-    {
       "id": "ES2022_031_02",
       "age": "4",
       "gender": "M",
@@ -79,6 +62,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Paul Freeman",
+        "slug": "paul-freeman",
         "name": "Paul Freeman",
         "birthYear": 1943.0,
         "gender": "M",
@@ -96,6 +80,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Paul Guilfoyle",
+        "slug": "paul-guilfoyle",
         "name": "Paul Guilfoyle",
         "birthYear": 1949.0,
         "gender": "M",
@@ -113,10 +98,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Franco Nero",
+        "slug": "franco-nero",
         "name": "Franco Nero",
         "birthYear": 1941.0,
         "gender": "M",
         "nationality": "IT"
+      }
+    },
+    {
+      "id": "ES2022_031_04",
+      "age": "4",
+      "gender": "F",
+      "origin": "WWE",
+      "class": "UC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Fionnula Flanagan",
+        "slug": "fionnula-flanagan",
+        "name": "Fionnula Flanagan",
+        "birthYear": 1941.0,
+        "gender": "F",
+        "nationality": "IE"
       }
     }
   ],

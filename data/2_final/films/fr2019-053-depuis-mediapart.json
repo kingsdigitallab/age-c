@@ -8,7 +8,7 @@
   "filmType": "D",
   "release": {
     "type": "THE",
-    "date": "2019-03-13 00:00:00",
+    "date": "2019-03-13",
     "year": 2019
   },
   "production": {
@@ -38,24 +38,6 @@
   ],
   "character": [
     {
-      "id": "FR2019_053_02",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Catherine Frot",
-        "name": "Catherine Frot",
-        "birthYear": 1956.0,
-        "gender": "F",
-        "nationality": "FR"
-      }
-    },
-    {
       "id": "FR2019_053_01",
       "age": "3",
       "gender": "M",
@@ -67,6 +49,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Daniel Auteuil",
+        "slug": "daniel-auteuil",
         "name": "Daniel Auteuil",
         "birthYear": 1950.0,
         "gender": "M",
@@ -85,9 +68,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Bernard Le Coq",
+        "slug": "bernard-le-coq",
         "name": "Bernard Le Coq",
         "birthYear": 1950.0,
         "gender": "M",
+        "nationality": "FR"
+      }
+    },
+    {
+      "id": "FR2019_053_02",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Catherine Frot",
+        "slug": "catherine-frot",
+        "name": "Catherine Frot",
+        "birthYear": 1956.0,
+        "gender": "F",
         "nationality": "FR"
       }
     }

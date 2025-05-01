@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-10-21 00:00:00",
+    "date": "2022-10-21",
     "year": 2022
   },
   "production": {
@@ -20,25 +20,18 @@
     "posterUrl": "https://www.imdb.com/title/tt8344316/mediaviewer/rm3647931137/?ref_=tt_ov_i"
   },
   "genre": [
+    "ADV",
     "CHI",
-    "SCI",
-    "ADV"
+    "SCI"
   ],
   "tags": [
-    "mentorship",
     "abuse",
-    "self-employment",
     "brotherhood",
-    "technology"
+    "self-employment",
+    "technology",
+    "mentorship"
   ],
   "director": [
-    {
-      "id": "Danny Stack",
-      "slug": "danny-stack",
-      "name": "Danny Stack",
-      "gender": "M",
-      "nationality": "IE"
-    },
     {
       "id": "Tim Clague",
       "slug": "tim-clague",
@@ -46,26 +39,16 @@
       "birthYear": 1973,
       "gender": "M",
       "nationality": "GB"
+    },
+    {
+      "id": "Danny Stack",
+      "slug": "danny-stack",
+      "name": "Danny Stack",
+      "gender": "M",
+      "nationality": "IE"
     }
   ],
   "character": [
-    {
-      "id": "GB2022_057_02",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "UM",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Griff Rhys Jones",
-        "name": "Griff Rhys Jones",
-        "birthYear": 1953.0,
-        "gender": "M",
-        "nationality": "GB"
-      }
-    },
     {
       "id": "GB2022_057_01",
       "age": "3",
@@ -77,6 +60,25 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Griff Rhys Jones",
+        "slug": "griff-rhys-jones",
+        "name": "Griff Rhys Jones",
+        "birthYear": 1953.0,
+        "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2022_057_02",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "UM",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Griff Rhys Jones",
+        "slug": "griff-rhys-jones",
         "name": "Griff Rhys Jones",
         "birthYear": 1953.0,
         "gender": "M",

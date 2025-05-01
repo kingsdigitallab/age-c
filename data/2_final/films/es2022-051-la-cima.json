@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2022-03-23 00:00:00",
+    "date": "2022-03-23",
     "year": 2022
   },
   "production": {
@@ -21,8 +21,8 @@
     "posterUrl": "https://www.imdb.com/title/tt13667044/mediaviewer/rm322428929/?ref_=tt_ov_i"
   },
   "genre": [
-    "SPO",
     "ADV",
+    "SPO",
     "DRA"
   ],
   "tags": [
@@ -40,28 +40,30 @@
   ],
   "character": [
     {
-      "id": "ES2022_051_02",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "person": {
-        "id": "Kandido Uranga",
-        "name": "Kandido Uranga",
-        "birthYear": 1955.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2022_051_01",
       "age": "3",
       "gender": "F",
       "origin": "WWE",
       "person": {
         "id": "Blanca Apil\u00e1nez",
+        "slug": "blanca-apilanez",
         "name": "Blanca Apil\u00e1nez",
         "birthYear": 1961.0,
         "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2022_051_02",
+      "age": "3",
+      "gender": "M",
+      "origin": "WWE",
+      "person": {
+        "id": "Kandido Uranga",
+        "slug": "kandido-uranga",
+        "name": "Kandido Uranga",
+        "birthYear": 1955.0,
+        "gender": "M",
         "nationality": "ES"
       }
     }

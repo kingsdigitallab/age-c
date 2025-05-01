@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2018-06-15 00:00:00",
+    "date": "2018-06-15",
     "year": 2018
   },
   "production": {
@@ -20,20 +20,20 @@
     "posterUrl": "https://www.imdb.com/title/tt6111634/mediaviewer/rm3997784832/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROM",
     "COU",
+    "ROM",
     "DRA"
   ],
   "tags": [
-    "disability",
-    "well-being",
-    "independent home",
-    "retirement home",
-    "physical illness",
-    "ageism",
     "marriage",
     "hospital",
+    "disability",
     "caregiving",
+    "retirement home",
+    "physical illness",
+    "independent home",
+    "well-being",
+    "ageism",
     "state institutions"
   ],
   "director": [
@@ -55,23 +55,10 @@
       "profession": "RE",
       "person": {
         "id": "David Hargreaves",
+        "slug": "david-hargreaves",
         "name": "David Hargreaves",
         "birthYear": 1940.0,
         "gender": "M",
-        "nationality": "GB"
-      }
-    },
-    {
-      "id": "GB2018_053_03",
-      "age": "4",
-      "gender": "F",
-      "origin": "WWE",
-      "profession": "RE",
-      "person": {
-        "id": "Amanda Barrie",
-        "name": "Amanda Barrie",
-        "birthYear": 1935.0,
-        "gender": "F",
         "nationality": "GB"
       }
     },
@@ -87,10 +74,26 @@
       "assistedMobility": "PD",
       "person": {
         "id": "Peter Bowles",
+        "slug": "peter-bowles",
         "name": "Peter Bowles",
         "birthYear": 1936.0,
         "deathYear": 2022.0,
         "gender": "M",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2018_053_03",
+      "age": "4",
+      "gender": "F",
+      "origin": "WWE",
+      "profession": "RE",
+      "person": {
+        "id": "Amanda Barrie",
+        "slug": "amanda-barrie",
+        "name": "Amanda Barrie",
+        "birthYear": 1935.0,
+        "gender": "F",
         "nationality": "GB"
       }
     },
@@ -106,6 +109,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Sylvia Sims",
+        "slug": "sylvia-sims",
         "name": "Sylvia Sims",
         "birthYear": 1934.0,
         "deathYear": 2023.0,

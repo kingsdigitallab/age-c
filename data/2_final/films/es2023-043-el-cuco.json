@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2023-09-15 00:00:00",
+    "date": "2023-09-15",
     "year": 2023
   },
   "production": {
@@ -24,15 +24,15 @@
     "HOR"
   ],
   "tags": [
-    "independent home",
-    "abuse",
-    "holiday",
-    "legacy",
-    "marriage",
-    "rural",
     "intergenerational conflict",
+    "marriage",
     "retirement",
-    "national identity"
+    "legacy",
+    "national identity",
+    "abuse",
+    "independent home",
+    "holiday",
+    "rural"
   ],
   "director": [
     {
@@ -46,23 +46,6 @@
   ],
   "character": [
     {
-      "id": "ES2023_043_02",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "UM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Rainer Reiners",
-        "name": "Rainer Reiners",
-        "birthYear": 1959.0,
-        "gender": "M",
-        "nationality": "DE"
-      }
-    },
-    {
       "id": "ES2023_043_01",
       "age": "3",
       "gender": "F",
@@ -73,9 +56,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Hildegard Schroedter",
+        "slug": "hildegard-schroedter",
         "name": "Hildegard Schroedter",
         "birthYear": 1958.0,
         "gender": "F",
+        "nationality": "DE"
+      }
+    },
+    {
+      "id": "ES2023_043_02",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "UM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Rainer Reiners",
+        "slug": "rainer-reiners",
+        "name": "Rainer Reiners",
+        "birthYear": 1959.0,
+        "gender": "M",
         "nationality": "DE"
       }
     }

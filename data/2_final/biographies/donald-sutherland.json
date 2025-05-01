@@ -9,63 +9,63 @@
   "gender": "M",
   "character": [
     {
-      "id": "GB2020_042_02",
-      "age": "4",
-      "gender": "M",
-      "origin": "WNA",
-      "class": "UM",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "film": {
-        "id": "GB2020_042",
-        "slug": "gb2020-042-the-burnt-orange-heresy",
-        "title": {
-          "native": "The Burnt Orange Heresy"
-        },
-        "filmType": "F",
-        "genre": "THR",
-        "release": {
-          "type": "THE",
-          "year": 2020
-        },
-        "tags": "independent home",
-        "production": {
-          "country": "IT",
-          "share": "MIN"
-        }
-      }
-    },
-    {
-      "id": "IT2018_008_02",
-      "age": "4",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "profession": "RE",
       "ability": "CI",
+      "age": "4",
       "assistedMobility": "CI",
-      "role": "LEA",
+      "class": "LM",
       "film": {
-        "id": "IT2018_008",
-        "slug": "it2018-008-the-leisure-seeker",
-        "title": {
-          "native": "The Leisure Seeker",
-          "english": "The Leisure Seeker"
-        },
         "filmType": "F",
         "genre": "ROA",
+        "id": "IT2018_008",
+        "production": {
+          "country": "FR",
+          "share": "MIN"
+        },
         "release": {
           "type": "THE",
           "year": 2018
         },
+        "slug": "it2018-008-the-leisure-seeker",
         "tags": "search for meaning",
-        "production": {
-          "country": "FR",
-          "share": "MIN"
+        "title": {
+          "english": "The Leisure Seeker",
+          "native": "The Leisure Seeker"
         }
-      }
+      },
+      "gender": "M",
+      "id": "IT2018_008_02",
+      "origin": "WWE",
+      "profession": "RE",
+      "role": "LEA",
+      "sexuality": "HE"
+    },
+    {
+      "ability": "AB",
+      "age": "4",
+      "assistedMobility": "AB",
+      "class": "UM",
+      "film": {
+        "filmType": "F",
+        "genre": "THR",
+        "id": "GB2020_042",
+        "production": {
+          "country": "IT",
+          "share": "MIN"
+        },
+        "release": {
+          "type": "THE",
+          "year": 2020
+        },
+        "slug": "gb2020-042-the-burnt-orange-heresy",
+        "tags": "independent home",
+        "title": {
+          "native": "The Burnt Orange Heresy"
+        }
+      },
+      "gender": "M",
+      "id": "GB2020_042_02",
+      "origin": "WNA",
+      "profession": "SE"
     }
   ]
 }

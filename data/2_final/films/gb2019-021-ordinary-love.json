@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-12-06 00:00:00",
+    "date": "2019-12-06",
     "year": 2019
   },
   "production": {
@@ -24,36 +24,18 @@
     "DRA"
   ],
   "tags": [
-    "independent home",
-    "well-being",
-    "physical illness",
-    "daily routine",
-    "sex",
     "marriage",
-    "agony",
+    "daily routine",
     "hospital",
     "caregiving",
-    "medical treatment"
+    "physical illness",
+    "sex",
+    "independent home",
+    "well-being",
+    "medical treatment",
+    "agony"
   ],
   "character": [
-    {
-      "id": "GB2019_021_01",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Liam Neeson",
-        "name": "Liam Neeson",
-        "birthYear": 1952.0,
-        "gender": "M",
-        "nationality": "UK"
-      }
-    },
     {
       "id": "GB2019_021_02",
       "age": "3",
@@ -66,9 +48,29 @@
       "assistedMobility": "CI",
       "person": {
         "id": "Lesley Manville",
+        "slug": "lesley-manville",
         "name": "Lesley Manville",
         "birthYear": 1956.0,
         "gender": "F",
+        "nationality": "UK"
+      }
+    },
+    {
+      "id": "GB2019_021_01",
+      "age": "3",
+      "gender": "M",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Liam Neeson",
+        "slug": "liam-neeson",
+        "name": "Liam Neeson",
+        "birthYear": 1952.0,
+        "gender": "M",
         "nationality": "UK"
       }
     }

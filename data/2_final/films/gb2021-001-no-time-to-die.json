@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2021-09-28 00:00:00",
+    "date": "2021-09-28",
     "year": 2021
   },
   "production": {
@@ -20,21 +20,21 @@
     "posterUrl": "https://www.imdb.com/title/tt8579674/mediaviewer/rm144738817/?ref_=tt_ov_i"
   },
   "genre": [
-    "ACT",
     "SPY",
-    "DRA"
+    "DRA",
+    "ACT"
   ],
   "tags": [
-    "last mission",
-    "high rank employment",
-    "terrorism",
-    "state institutions",
     "murder",
-    "homosociality",
-    "technology",
-    "power",
     "superior-employee relationship",
-    "national identity"
+    "last mission",
+    "terrorism",
+    "homosociality",
+    "national identity",
+    "technology",
+    "state institutions",
+    "high rank employment",
+    "power"
   ],
   "director": [
     {
@@ -48,6 +48,24 @@
   ],
   "character": [
     {
+      "id": "GB2021_001_01",
+      "age": "2",
+      "gender": "M",
+      "origin": "WWE",
+      "class": "UC",
+      "profession": "SE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Christoph Waltz",
+        "slug": "christoph-waltz",
+        "name": "Christoph Waltz",
+        "birthYear": 1956.0,
+        "gender": "M",
+        "nationality": "AT"
+      }
+    },
+    {
       "id": "GB2021_001_03",
       "age": "2",
       "gender": "M",
@@ -58,6 +76,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Ralph Fiennes",
+        "slug": "ralph-fiennes",
         "name": "Ralph Fiennes",
         "birthYear": 1962.0,
         "gender": "M",
@@ -75,27 +94,11 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Jeffrey Wright",
+        "slug": "jeffrey-wright",
         "name": "Jeffrey Wright",
         "birthYear": 1965.0,
         "gender": "M",
         "nationality": "US"
-      }
-    },
-    {
-      "id": "GB2021_001_01",
-      "age": "2",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "UC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Christoph Waltz",
-        "name": "Christoph Waltz",
-        "birthYear": 1956.0,
-        "gender": "M",
-        "nationality": "AT"
       }
     }
   ],

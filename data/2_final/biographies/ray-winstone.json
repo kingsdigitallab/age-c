@@ -8,58 +8,58 @@
   "gender": "M",
   "character": [
     {
-      "id": "GB2019_002_03",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
       "ability": "AB",
-      "assistedMobility": "AB",
-      "film": {
-        "id": "GB2019_002",
-        "slug": "gb2019-002-cats",
-        "title": {
-          "native": "Cats"
-        },
-        "filmType": "F",
-        "genre": "ROM",
-        "release": {
-          "type": "THE",
-          "year": 2019
-        },
-        "tags": "segregation",
-        "production": {
-          "country": "US",
-          "share": "MIN"
-        }
-      }
-    },
-    {
-      "id": "GB2018_005_05",
       "age": "3",
-      "gender": "M",
-      "origin": "WWE",
+      "assistedMobility": "AB",
       "class": "MC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
       "film": {
-        "id": "GB2018_005",
-        "slug": "gb2018-005-king-of-thieves",
-        "title": {
-          "native": "King of Thieves"
-        },
         "filmType": "F",
         "genre": "COM",
+        "id": "GB2018_005",
+        "production": {
+          "country": "GB",
+          "share": "MAJ"
+        },
         "release": {
           "type": "THE",
           "year": 2018
         },
+        "slug": "gb2018-005-king-of-thieves",
         "tags": "class solidarity",
-        "production": {
-          "country": "GB",
-          "share": "MAJ"
+        "title": {
+          "native": "King of Thieves"
         }
-      }
+      },
+      "gender": "M",
+      "id": "GB2018_005_05",
+      "origin": "WWE",
+      "profession": "SE"
+    },
+    {
+      "ability": "AB",
+      "age": "3",
+      "assistedMobility": "AB",
+      "film": {
+        "filmType": "F",
+        "genre": "ROM",
+        "id": "GB2019_002",
+        "production": {
+          "country": "US",
+          "share": "MIN"
+        },
+        "release": {
+          "type": "THE",
+          "year": 2019
+        },
+        "slug": "gb2019-002-cats",
+        "tags": "segregation",
+        "title": {
+          "native": "Cats"
+        }
+      },
+      "gender": "M",
+      "id": "GB2019_002_03",
+      "origin": "WWE"
     }
   ]
 }

@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "VOD",
-    "date": "2020-07-24 00:00:00",
+    "date": "2020-07-24",
     "year": 2020
   },
   "production": {
@@ -21,32 +21,32 @@
     "posterUrl": "https://www.imdb.com/title/tt7304824/mediaviewer/rm751810561/?ref_=tt_ov_i"
   },
   "genre": [
-    "ACT",
     "DRA",
     "NOI",
-    "THR"
+    "THR",
+    "ACT"
   ],
   "tags": [
-    "motherhood",
+    "mental illness",
+    "abuse",
+    "personal memory",
+    "natural",
     "rural",
     "hospital",
-    "mental illness",
-    "caregiving",
-    "wealth",
-    "suicide",
-    "celibacy",
-    "spirituality",
-    "extended family",
-    "personal memory",
-    "religion",
     "grief",
-    "organized crime",
-    "marriage",
-    "low-rank employment",
-    "independent home",
-    "abuse",
+    "extended family",
+    "religion",
+    "motherhood",
+    "suicide",
+    "wealth",
+    "spirituality",
     "personal trauma",
-    "natural"
+    "independent home",
+    "organized crime",
+    "low-rank employment",
+    "marriage",
+    "caregiving",
+    "celibacy"
   ],
   "director": [
     {
@@ -60,41 +60,6 @@
   ],
   "character": [
     {
-      "id": "ES2020_016_03",
-      "age": "4",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Alicia S\u00e1nchez",
-        "name": "Alicia S\u00e1nchez",
-        "birthYear": 1949.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2020_016_04",
-      "age": "2",
-      "gender": "F",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Ana Wagener",
-        "name": "Ana Wagener",
-        "birthYear": 1962.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
-    },
-    {
       "id": "ES2020_016_02",
       "age": "4",
       "gender": "F",
@@ -105,6 +70,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Itziar Aizpuru",
+        "slug": "itziar-aizpuru",
         "name": "Itziar Aizpuru",
         "birthYear": 1939.0,
         "gender": "F",
@@ -123,6 +89,7 @@
       "assistedMobility": "PD",
       "person": {
         "id": "Susi S\u00e1nchez",
+        "slug": "susi-sanchez",
         "name": "Susi S\u00e1nchez",
         "birthYear": 1955.0,
         "gender": "F",
@@ -140,9 +107,47 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Imanol Arias",
+        "slug": "imanol-arias",
         "name": "Imanol Arias",
         "birthYear": 1956.0,
         "gender": "M",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2020_016_04",
+      "age": "2",
+      "gender": "F",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Ana Wagener",
+        "slug": "ana-wagener",
+        "name": "Ana Wagener",
+        "birthYear": 1962.0,
+        "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2020_016_03",
+      "age": "4",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Alicia S\u00e1nchez",
+        "slug": "alicia-sanchez",
+        "name": "Alicia S\u00e1nchez",
+        "birthYear": 1949.0,
+        "gender": "F",
         "nationality": "ES"
       }
     }

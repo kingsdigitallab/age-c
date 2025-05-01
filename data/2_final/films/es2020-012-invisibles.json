@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2020-02-21 00:00:00",
+    "date": "2020-02-21",
     "year": 2020
   },
   "production": {
@@ -22,23 +22,23 @@
   },
   "genre": [
     "COM",
-    "DRA",
-    "ROM"
+    "ROM",
+    "DRA"
   ],
   "tags": [
-    "romance",
-    "well-being",
-    "separation",
-    "anti-ageing practices",
-    "body norms",
-    "desire",
-    "daily routine",
-    "homosociality",
     "low-rank employment",
+    "daily routine",
+    "body norms",
+    "anti-ageing practices",
+    "homosociality",
+    "well-being",
     "elderhood",
-    "urban",
+    "desire",
+    "separation",
+    "loneliness",
+    "romance",
     "intragenerational friendship",
-    "loneliness"
+    "urban"
   ],
   "director": [
     {
@@ -52,20 +52,20 @@
   ],
   "character": [
     {
-      "id": "ES2020_012_01",
+      "id": "ES2020_012_04",
       "age": "2",
-      "gender": "F",
+      "gender": "M",
       "sexuality": "HE",
       "origin": "WWE",
       "class": "MC",
-      "profession": "EM",
       "ability": "AB",
       "assistedMobility": "AB",
       "person": {
-        "id": "Emma Su\u00e1rez",
-        "name": "Emma Su\u00e1rez",
-        "birthYear": 1964.0,
-        "gender": "F",
+        "id": "Pedro Casablanc",
+        "slug": "pedro-casablanc",
+        "name": "Pedro Casablanc",
+        "birthYear": 1963.0,
+        "gender": "M",
         "nationality": "ES"
       }
     },
@@ -80,26 +80,10 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Adriana Ozores",
+        "slug": "adriana-ozores",
         "name": "Adriana Ozores",
         "birthYear": 1959.0,
         "gender": "F",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2020_012_04",
-      "age": "2",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Pedro Casablanc",
-        "name": "Pedro Casablanc",
-        "birthYear": 1963.0,
-        "gender": "M",
         "nationality": "ES"
       }
     },
@@ -114,8 +98,28 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Blanca Portillo",
+        "slug": "blanca-portillo",
         "name": "Blanca Portillo",
         "birthYear": 1963.0,
+        "gender": "F",
+        "nationality": "ES"
+      }
+    },
+    {
+      "id": "ES2020_012_01",
+      "age": "2",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Emma Su\u00e1rez",
+        "slug": "emma-suarez",
+        "name": "Emma Su\u00e1rez",
+        "birthYear": 1964.0,
         "gender": "F",
         "nationality": "ES"
       }

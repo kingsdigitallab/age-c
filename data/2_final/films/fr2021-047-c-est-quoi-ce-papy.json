@@ -9,7 +9,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2021-08-11 00:00:00",
+    "date": "2021-08-11",
     "year": 2021
   },
   "production": {
@@ -24,12 +24,12 @@
     "COM"
   ],
   "tags": [
-    "romance",
-    "retirement home",
-    "grandmotherhood",
-    "medical treatment",
     "mental illness",
-    "retirement"
+    "retirement",
+    "retirement home",
+    "medical treatment",
+    "romance",
+    "grandmotherhood"
   ],
   "director": [
     {
@@ -43,24 +43,6 @@
   ],
   "character": [
     {
-      "id": "FR2021_047_01",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "MC",
-      "profession": "RE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Chantal Ladesou",
-        "name": "Chantal Ladesou",
-        "birthYear": 1948.0,
-        "gender": "F",
-        "nationality": "FR"
-      }
-    },
-    {
       "id": "FR2021_047_02",
       "age": "3",
       "gender": "M",
@@ -72,9 +54,29 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Patrick Chesnais",
+        "slug": "patrick-chesnais",
         "name": "Patrick Chesnais",
         "birthYear": 1947.0,
         "gender": "M",
+        "nationality": "FR"
+      }
+    },
+    {
+      "id": "FR2021_047_01",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "MC",
+      "profession": "RE",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Chantal Ladesou",
+        "slug": "chantal-ladesou",
+        "name": "Chantal Ladesou",
+        "birthYear": 1948.0,
+        "gender": "F",
         "nationality": "FR"
       }
     }

@@ -8,7 +8,7 @@
   "filmType": "F",
   "release": {
     "type": "THE",
-    "date": "2019-07-19 00:00:00",
+    "date": "2019-07-19",
     "year": 2019
   },
   "production": {
@@ -21,19 +21,19 @@
   },
   "genre": [
     "MPF",
-    "DRA",
-    "WAR"
+    "WAR",
+    "DRA"
   ],
   "tags": [
-    "independent home",
-    "grandmotherhood",
-    "motherhood",
-    "marriage",
     "collective trauma",
-    "war",
-    "rural",
+    "marriage",
+    "grief",
     "caregiving",
-    "grief"
+    "war",
+    "independent home",
+    "rural",
+    "motherhood",
+    "grandmotherhood"
   ],
   "director": [
     {
@@ -47,23 +47,6 @@
   ],
   "character": [
     {
-      "id": "GB2019_052_03",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "WWE",
-      "class": "LM",
-      "profession": "EM",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Joanne Howarth",
-        "name": "Joanne Howarth",
-        "gender": "F",
-        "nationality": "GB"
-      }
-    },
-    {
       "id": "GB2019_052_01",
       "age": "3",
       "gender": "F",
@@ -75,6 +58,7 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Deborah Findlay",
+        "slug": "deborah-findlay",
         "name": "Deborah Findlay",
         "birthYear": 1947.0,
         "gender": "F",
@@ -93,8 +77,27 @@
       "assistedMobility": "AB",
       "person": {
         "id": "Barbara Marten",
+        "slug": "barbara-marten",
         "name": "Barbara Marten",
         "birthYear": 1947.0,
+        "gender": "F",
+        "nationality": "GB"
+      }
+    },
+    {
+      "id": "GB2019_052_03",
+      "age": "3",
+      "gender": "F",
+      "sexuality": "HE",
+      "origin": "WWE",
+      "class": "LM",
+      "profession": "EM",
+      "ability": "AB",
+      "assistedMobility": "AB",
+      "person": {
+        "id": "Joanne Howarth",
+        "slug": "joanne-howarth",
+        "name": "Joanne Howarth",
         "gender": "F",
         "nationality": "GB"
       }
