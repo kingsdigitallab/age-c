@@ -98,6 +98,7 @@
 	function handleSearch(e: Event) {
 		e.preventDefault();
 
+		searchPage = 1;
 		isSearching = true;
 		postSearchMessage();
 	}
@@ -118,6 +119,7 @@
 
 	function handleReset() {
 		searchQuery = '';
+		searchPage = 1;
 		searchFilters = {};
 		postSearchMessage();
 	}
@@ -128,6 +130,7 @@
 	}
 
 	function handleSearchFiltersChange() {
+		searchPage = 1;
 		postSearchMessage();
 	}
 
