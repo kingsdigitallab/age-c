@@ -104,7 +104,7 @@ const searchAggregations = {
 export const searchConfig: SearchConfig = {
 	corpus: {
 		aggregations: searchAggregations,
-		searchableFields: ['title', 'name', 'synopsis', Object.keys(searchAggregations)],
+		searchableFields: ['title', 'name', 'synopsis', ...Object.keys(searchAggregations)],
 		sortings: {
 			default_asc: {
 				field: 'title',
