@@ -1,0 +1,38 @@
+# <type>(optional-scope): <description>
+#
+# [optional body]
+#
+# [optional footer]
+#
+# Commit Types:
+# feat:     A new feature
+# fix:      A bug fix
+# docs:     Documentation only changes
+# style:    Changes that do not affect the meaning of the code (formatting, etc)
+# refactor: A code change that neither fixes a bug nor adds a feature
+# perf:     A code change that improves performance
+# test:     Adding missing tests or correcting existing tests
+# build:    Changes that affect the build system or external dependencies
+# ci:       Changes to our CI configuration files and scripts
+# chore:    Other changes that don't modify src or test files
+#
+# Scope (optional): What part of the codebase is affected. It can be, in order
+# of preference, a package or directory, a component or file, a function,
+# a test, etc.
+#
+# Description: A short description of the changes made, written in imperative
+# mood ("add", not "adds/added"), capitalised, no period (.) at the end.
+#
+# Body (optional): A more detailed description of the changes, including the
+# motivation for the changes and the trade-offs considered.
+#
+# Footer (optional): Information about breaking changes and other relevant
+# information. Can refer to tickets, issues, etc. Note breaking changes should
+# be indicated by a BREAKING CHANGE: prefix.
+#
+# Examples:
+#   feat(frontend): add links to the research themes
+#   fix(blog): remove invalid image
+#   docs(readme): update installation instructions
+#
+# Reminder: Lines starting with '#' are ignored.
