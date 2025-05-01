@@ -8,7 +8,7 @@
 		onSearch,
 		onReset
 	}: {
-		title: string;
+		title?: string;
 		searchQuery: string;
 		isLoading: boolean;
 		isSearching: boolean;
