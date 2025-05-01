@@ -33,6 +33,7 @@ export type SearchEngineKey = string;
 export interface SearchParams {
 	dataSource: SearchEngineKey;
 	query: string;
+	page?: number;
 	perPage?: number;
 	sort?: string;
 	filters?: Record<string, string[]>;
