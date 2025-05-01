@@ -3,13 +3,15 @@
 	import type { Item } from '$lib/types';
 
 	const {
-		items
+		items,
+		start = 1
 	}: {
 		items: Item[];
+		start?: number;
 	} = $props();
 </script>
 
-<ol>
+<ol {start}>
 	{#each items as item}
 		<li>
 			<a href={`${base}/${item.type}/${item.slug}`}>{item.title}</a>
