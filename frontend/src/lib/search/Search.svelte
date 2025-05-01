@@ -3,12 +3,13 @@
 	import SearchWorker from '$lib/search/worker?worker';
 	import { onDestroy, onMount } from 'svelte';
 	import type { SearchConfig } from './types';
-	import SearchInput from './SearchInput.svelte';
-	import SearchStatus from './SearchStatus.svelte';
-	import SearchShortcuts from './SearchShortcuts.svelte';
 	import SearchFilters from './SearchFilters.svelte';
+	import SearchInput from './SearchInput.svelte';
+	import SearchPagination from './SearchPagination.svelte';
 	import SearchResults from './SearchResults.svelte';
 	import SearchResultsItems from './SearchResultsItems.svelte';
+	import SearchShortcuts from './SearchShortcuts.svelte';
+	import SearchStatus from './SearchStatus.svelte';
 
 	const {
 		dataSource,
@@ -20,6 +21,7 @@
 		SearchFiltersComponent = SearchFilters,
 		SearchResultsComponent = SearchResults,
 		SearchResultsItemsComponent = SearchResultsItems,
+		SearchPaginationComponent = SearchPagination,
 		minSearchQueryLength = 3
 	}: {
 		dataSource: keyof typeof searchConfig;
@@ -31,10 +33,12 @@
 		SearchFiltersComponent?: typeof SearchFilters;
 		SearchResultsComponent?: typeof SearchResults;
 		SearchResultsItemsComponent?: typeof SearchResultsItems;
+		SearchPaginationComponent?: typeof SearchPagination;
 		minSearchQueryLength?: number;
 	} = $props();
 
 	let searchQuery = $state('');
+	let searchPage = $state(1);
 	let searchFilters = $state<Record<string, string[]>>({});
 	let searchStatus = $state<'idle' | 'load' | 'ready'>('idle');
 	let searchWorker = $state<Worker | null>(null);
@@ -47,11 +51,11 @@
 	let isSearching = $state(false);
 	let searchResults = $state([]);
 	// @ts-ignore
-	const searchAggregations = $derived(searchResults?.data?.aggregations);
+	const searchAggregations = $derived(searchResults?.data?.aggregations || {});
 	// @ts-ignore
-	const searchItems = $derived(searchResults?.data?.items);
+	const searchItems = $derived(searchResults?.data?.items || []);
 	// @ts-ignore
-	const searchPagination = $derived(searchResults?.pagination);
+	let searchPagination = $derived(searchResults?.pagination || {});
 
 	onMount(() => {
 		initSearchEngine();
@@ -105,6 +109,7 @@
 				payload: {
 					dataSource,
 					query: searchQuery,
+					page: searchPage,
 					filters: $state.snapshot(searchFilters)
 				}
 			});
@@ -114,6 +119,11 @@
 	function handleReset() {
 		searchQuery = '';
 		searchFilters = {};
+		postSearchMessage();
+	}
+
+	function handlePageChange(page: number) {
+		searchPage = page;
 		postSearchMessage();
 	}
 
@@ -160,6 +170,13 @@
 		{searchItems}
 		{searchPagination}
 		{SearchResultsItemsComponent}
+	/>
+
+	<SearchPaginationComponent
+		count={searchPagination.total}
+		page={searchPagination.page}
+		perPage={searchPagination.per_page}
+		onPageChange={handlePageChange}
 	/>
 </article>
 
