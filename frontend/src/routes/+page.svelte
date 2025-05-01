@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { config } from '$lib';
 	import { searchConfig } from '$lib/index';
+	import SearchResultsItems from '$lib/components/SearchResultsItems.svelte';
 	import Search from '$lib/search/Search.svelte';
 
 	const dataSource = $state('corpus');
@@ -10,7 +11,14 @@
 	<h1>{config.siteTitle}</h1>
 </section>
 
-<Search {dataSource} {searchConfig} title="Explore the dataset" />
+<section>
+	<Search
+		{dataSource}
+		{searchConfig}
+		title="Explore the dataset"
+		SearchResultsItemsComponent={SearchResultsItems}
+	/>
+</section>
 
 <style>
 	h1 {
