@@ -1,0 +1,101 @@
+<script lang="ts">
+	import { base } from '$app/paths';
+	import type { Item } from '$lib/types';
+
+	const {
+		items
+	}: {
+		items: Item[];
+	} = $props();
+</script>
+
+<ol>
+	{#each items as item}
+		<li>
+			<a href={`${base}/${item.type}/${item.slug}`}><strong>{item.title}</strong></a>
+			{#if item.type === 'film'}
+				<ul>
+					{#if item?.release?.year}
+						<li>
+							<time datetime={item.release.date} class="year">{item.release.year}</time>
+						</li>
+					{/if}
+					{#if item?.production?.country}
+						<li>
+							{item.production.country}
+						</li>
+					{/if}
+				</ul>
+				{#if item.director && item.director.length > 0}
+					<ul>
+						<li>Director</li>
+						{#each item.director as director}
+							<li>
+								<a href={`${base}/person/${director.slug}`}
+									>{director.name} ({director.gender}, {director.birthYear} - {director.deathYear})</a
+								>
+							</li>
+						{/each}
+					</ul>
+				{/if}
+				{#if item.character && item.character.length > 0}
+					<ul>
+						{#each item.character as character}
+							{@const person = character.person}
+							<li>
+								<a href={`${base}/person/${person?.slug}`}
+									>{person?.name}
+									({person?.gender}, {person?.birthYear} - {person?.deathYear})
+								</a>
+							</li>
+						{/each}
+					</ul>
+				{/if}
+			{:else}
+				{#if item.director && item.director.length > 0}
+					<ul>
+						<li>Director</li>
+						{#each item.director as director}
+							<li>
+								<a href={`${base}/film/${director.slug}`}>{director.title?.native}</a>
+							</li>
+						{/each}
+					</ul>
+				{/if}
+				{#if item.character && item.character.length > 0}
+					<ul>
+						<li>Character</li>
+						{#each item.character as character}
+							{@const film = character.film}
+							<li>
+								<a href={`${base}/film/${film?.slug}`}>{film?.title?.native} </a>
+							</li>
+						{/each}
+					</ul>
+				{/if}
+			{/if}
+		</li>
+	{/each}
+</ol>
+
+<style>
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	ul > li {
+		list-style: none;
+	}
+
+	ul > li:not(:last-child) {
+		margin-right: calc(var(--pico-spacing) / 2);
+	}
+
+	ul > li:not(:last-child)::after {
+		content: ', ';
+	}
+</style>
