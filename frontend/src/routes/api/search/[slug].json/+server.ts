@@ -1,6 +1,8 @@
 import { getDataForSearch } from '$lib/data';
 import { error, json } from '@sveltejs/kit';
-import type { RequestHandler } from './$types';
+import type { EntryGenerator, RequestHandler } from './$types';
+
+export const prerender = true;
 
 export const GET: RequestHandler = async ({ params: { slug } }) => {
 	try {
@@ -9,4 +11,8 @@ export const GET: RequestHandler = async ({ params: { slug } }) => {
 	} catch (e) {
 		error(404, `Failed to load ${slug}: ${e instanceof Error ? e.message : e}`);
 	}
+};
+
+export const entries: EntryGenerator = async () => {
+	return [{ slug: 'corpus' }];
 };

@@ -12,7 +12,7 @@
 		<p><em>{film.title.english}</em></p>
 	</hgroup>
 
-	<blockquote>{film.synopsis.english}</blockquote>
+	<blockquote>{film.synopsis?.english}</blockquote>
 
 	<dl>
 		<dt>Genre</dt>
