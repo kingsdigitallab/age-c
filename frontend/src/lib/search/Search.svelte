@@ -91,7 +91,9 @@
 		showSearch = !showSearch;
 	}
 
-	function handleSearch() {
+	function handleSearch(e: Event) {
+		e.preventDefault();
+
 		isSearching = true;
 		postSearchMessage();
 	}
@@ -146,7 +148,7 @@
 	/>
 
 	<section>
-		<button on:click={handleToggleSearch} disabled={isLoading || isSearching || showSearch}>
+		<button onclick={handleToggleSearch} disabled={isLoading || isSearching || showSearch}>
 			Filters
 		</button>
 	</section>
