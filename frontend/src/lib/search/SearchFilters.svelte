@@ -20,7 +20,7 @@
 		dataSource: keyof typeof searchConfig;
 		onClose: () => void;
 		onFiltersChange: () => void;
-		children: Snippet | null | undefined;
+		children?: Snippet | null | undefined;
 	} = $props();
 
 	const aggregations = $derived(Object.entries(searchConfig[dataSource].aggregations));
