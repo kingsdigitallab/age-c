@@ -12,8 +12,8 @@ addEventListener('message', async (event) => {
 		initSearchEngine(dataSource, data, config);
 		postMessage({ action: 'ready' });
 	} else if (action === 'search') {
-		const { dataSource, query, filters } = payload;
-		const results = search({ dataSource, query, filters });
+		const { dataSource, query, filters, page } = payload;
+		const results = search({ dataSource, query, filters, page });
 
 		postMessage({ action: 'results', payload: { query, results } });
 	}

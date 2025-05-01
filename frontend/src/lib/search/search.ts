@@ -20,6 +20,7 @@ export function initSearchEngine(
 export function search({
 	dataSource,
 	query,
+	page = 1,
 	perPage = 25,
 	sort = 'title_asc',
 	filters = {}
@@ -30,5 +31,5 @@ export function search({
 		throw new Error(`Search engine for ${dataSource} is not initialised`);
 	}
 
-	return engine.search({ per_page: perPage, query, sort, filters });
+	return engine.search({ per_page: perPage, page, query, sort, filters });
 }
