@@ -17,7 +17,7 @@
 		searchQuery: string;
 		searchItems: Item[];
 		searchPagination: { total?: number };
-		title: string;
+		title?: string;
 		SearchResultsItemsComponent: typeof SearchResultsItems;
 	} = $props();
 </script>
