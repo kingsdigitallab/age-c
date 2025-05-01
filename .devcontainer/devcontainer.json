@@ -1,6 +1,9 @@
 {
   "name": "default-sveltekit-devcontainer",
-  "image": "oven/bun:slim",
+  "image": "node:20",
+  "features": {
+    "ghcr.io/michidk/devcontainers-features/bun:1": {}
+  },
   "customizations": {
     "vscode": {
       "extensions": [
