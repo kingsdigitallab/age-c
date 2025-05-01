@@ -37,7 +37,10 @@
 
 		<div transition:fade>
 			{#if searchItems?.length > 0}
-				<SearchResultsItemsComponent items={searchItems} />
+				<SearchResultsItemsComponent
+					items={searchItems}
+					start={searchPagination.page * searchPagination.per_page - searchPagination.per_page + 1}
+				/>
 			{:else if searchQuery && !isSearching}
 				<p>No results found for "{searchQuery}"</p>
 			{/if}
