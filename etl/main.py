@@ -132,7 +132,9 @@ def process_main() -> DataFrame:
     main_df["release"] = main_df.apply(
         lambda x: {
             "type": x["release_type"],
-            "date": x["release_date"],
+            "date": x["release_date"].strftime("%Y-%m-%d")
+            if pd.notnull(x["release_date"])
+            else None,
             "year": x["release_year"],
         },
         axis=1,
@@ -289,6 +291,7 @@ def process_characters() -> DataFrame:
         biog_df[
             [
                 "person_id",
+                "slug",
                 "person_name",
                 "birth_year",
                 "death_year",
@@ -326,6 +329,7 @@ def process_characters() -> DataFrame:
             "assistedMobility": x["ch_ability"],
             "person": {
                 "id": x["person_id"],
+                "slug": x["slug"],
                 "name": x["person_name"],
                 "birthYear": x["birth_year"],
                 "deathYear": x["death_year"],
@@ -342,10 +346,21 @@ def process_characters() -> DataFrame:
 
 def aggregate_films_data(df: DataFrame) -> DataFrame:
     """Aggregate data by film ID, creating nested structures for related data."""
-    dict_columns = ["character", "director"]
+    dict_columns = [
+        "character",
+        "director",
+        "media",
+        "production",
+        "release",
+        "synopsis",
+        "tags",
+        "title",
+    ]
 
     for column in dict_columns:
         df[column] = df[column].apply(lambda x: json.dumps(x))
+
+    df = df.drop_duplicates()
 
     grouped = df.groupby("id")
 
@@ -367,18 +382,21 @@ def aggregate_films_data(df: DataFrame) -> DataFrame:
     ).reset_index()
 
     for column in dict_columns:
-        result[column] = result[column].apply(
-            lambda x: [
-                json.loads(item)
-                for item in x
-                if item and item != "null" and not pd.isna(item)
-            ]
-            if isinstance(x, list)
-            else []
-        )
-        result[column] = result[column].apply(
-            lambda x: [item for item in x if not pd.isna(item)]
-        )
+        if column in ["character", "director", "genre", "tags"]:
+            result[column] = result[column].apply(
+                lambda x: [
+                    json.loads(item)
+                    for item in x
+                    if item and item != "null" and not pd.isna(item)
+                ]
+                if isinstance(x, list)
+                else []
+            )
+            result[column] = result[column].apply(
+                lambda x: [item for item in x if not pd.isna(item)]
+            )
+        else:
+            result[column] = result[column].apply(json.loads)
 
     return result
 
@@ -554,7 +572,9 @@ def aggregate_bio_data(df: DataFrame) -> DataFrame:
     dict_columns = ["character", "director"]
 
     for column in dict_columns:
-        df[column] = df[column].apply(lambda x: json.dumps(x))
+        df[column] = df[column].apply(lambda x: json.dumps(x, sort_keys=True))
+
+    df = df.drop_duplicates()
 
     grouped = df.groupby("id")
 
@@ -583,8 +603,29 @@ def aggregate_bio_data(df: DataFrame) -> DataFrame:
             else []
         )
         result[column] = result[column].apply(
-            lambda x: [item for item in x if not pd.isna(item)]
+            lambda x: [
+                item
+                for item in x
+                if (isinstance(item, list) and len(item) > 0) or not pd.isna(item)
+            ]
         )
+
+    def unique_list(x):
+        if len(x) == 0:
+            return None
+
+        unique_ids = []
+        unique_values = []
+
+        for item in x:
+            if item["id"] not in unique_ids:
+                unique_ids.append(item["id"])
+                unique_values.append(item)
+
+        return unique_values
+
+    for column in dict_columns:
+        result[column] = result[column].apply(unique_list)
 
     return result
 
