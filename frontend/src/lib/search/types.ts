@@ -18,7 +18,7 @@ type SearchAggregations = {
 
 type CorpusConfig = {
 	aggregations: SearchAggregations;
-	searchableFields: (string | string[])[];
+	searchableFields: string[];
 	sortings: {
 		[key: string]: Sorting;
 	};
