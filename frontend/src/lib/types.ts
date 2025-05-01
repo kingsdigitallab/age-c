@@ -10,6 +10,7 @@ export interface Director {
 
 export interface Person {
 	id: string;
+	slug: string;
 	name: string;
 	birthYear: number;
 	deathYear: number;
