@@ -50,6 +50,16 @@
 			<ul>
 				<li><small>{config.siteName}</small></li>
 			</ul>
+			<ul>
+				<li><small><a href={config.repoUrl}>GitHub</a></small></li>
+				<li>
+					<code>
+						<a href="{config.repoUrl}/blob/v{config.appVersion}/CHANGELOG.md"
+							>v{config.appVersion}</a
+						>
+					</code>
+				</li>
+			</ul>
 		</nav>
 		<p>
 			<small>
@@ -78,5 +88,13 @@
 
 	footer {
 		border-top: var(--pico-border-width) solid var(--pico-primary-border);
+	}
+
+	footer code {
+		--pico-font-family: var(--pico-font-family);
+	}
+
+	footer p {
+		text-align: center;
 	}
 </style>
