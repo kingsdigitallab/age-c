@@ -24,15 +24,22 @@
 	} = $props();
 
 	let expandFilters = $state(false);
-	const searchFiltersCount = $derived(Object.keys(searchFilters).length);
-	const hasFilters = $derived(searchFiltersCount > 0);
+	const hasFilters = $derived(Object.keys(searchFilters).length > 0);
+	const currentFilters = $derived(
+		Object.entries(searchFilters).filter(([_, value]) => value.length > 0)
+	);
 
 	const aggregations = $derived(Object.entries(searchConfig[dataSource].aggregations));
 
-	const handleClearFilters = () => {
+	function handleClearFilters() {
 		searchFilters = {};
 		onFiltersChange();
-	};
+	}
+
+	function handleRemoveFilter(key: string, value: string) {
+		searchFilters[key] = searchFilters[key].filter((v) => v !== value);
+		onFiltersChange();
+	}
 </script>
 
 {#if show}
@@ -59,6 +66,26 @@
 			>
 				Clear all filters
 			</button>
+		</section>
+
+		<section class="search-filters-current-filters">
+			<ul>
+				{#each currentFilters as [key, values]}
+					{#each values as value}
+						<li>
+							<button
+								class="search-filters-current-filter-button secondary"
+								aria-label="Remove filter {key} with value {value}"
+								title="Remove filter {key} with value {value}"
+								onclick={() => handleRemoveFilter(key, value)}
+							>
+								{value}
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</li>
+					{/each}
+				{/each}
+			</ul>
 		</section>
 
 		{#if children}
@@ -130,13 +157,28 @@
 		text-decoration: underline;
 	}
 
+	.search-filters-current-filters ul {
+		display: flex;
+		flex-wrap: wrap;
+		gap: calc(var(--pico-spacing) / 2);
+		padding: 0;
+	}
+
+	.search-filters-current-filters ul li {
+		padding: 0;
+	}
+
+	.search-filters-current-filter-button {
+		padding-block: calc(var(--pico-form-element-spacing-vertical) / 4);
+	}
+
 	details {
 		border-bottom: var(--pico-border-width) solid var(--pico-primary-border);
 		padding-bottom: var(--pico-spacing);
 	}
 
 	details fieldset {
-		background: var(--pico-code-background-color);
+		background: var(--pico-form-element-background-color);
 		max-height: var(--search-filter-height);
 		overflow-y: scroll;
 		padding-block: calc(var(--pico-spacing) / 4);
