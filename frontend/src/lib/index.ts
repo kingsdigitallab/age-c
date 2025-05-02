@@ -5,7 +5,9 @@ export const config = {
 	siteTitle: 'Ageing and Gender in European Cinema',
 	siteDescription: 'An exploratory database of ageing and gender in European cinema',
 	siteKeywords: ['ageing', 'gender', 'cinema', 'european cinema'],
-	emptyPlaceholder: 'Unknown'
+	emptyPlaceholder: 'Unknown',
+	appVersion: import.meta.env.APP_VERSION,
+	repoUrl: 'https://github.com/kingsdigitallab/age-c'
 };
 
 const searchAggregations = {
