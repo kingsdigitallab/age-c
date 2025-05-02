@@ -37,7 +37,7 @@
 
 {#if show}
 	<aside tabindex="-1" transition:slide={{ axis: 'x' }}>
-		<h3>Filters ({searchFiltersCount})</h3>
+		<h3>Filters</h3>
 
 		<button class="close-search-filters-button" aria-label="Close search filters" onclick={onClose}>
 			<span aria-hidden="true">&times;</span>
@@ -51,16 +51,14 @@
 			>
 				{expandFilters ? 'Collapse' : 'Expand'} all filters
 			</button>
-
-			{#if hasFilters}
-				<button
-					class="clear-search-filters-button"
-					aria-label="Clear search filters"
-					onclick={handleClearFilters}
-				>
-					Clear all filters
-				</button>
-			{/if}
+			<button
+				class="clear-search-filters-button"
+				aria-label="Clear search filters"
+				onclick={handleClearFilters}
+				disabled={!hasFilters}
+			>
+				Clear all filters
+			</button>
 		</section>
 
 		{#if children}
@@ -69,7 +67,7 @@
 
 		{#if searchAggregations}
 			{#each aggregations as [key, aggregation]}
-				<section>
+				<section class="search-filters-section">
 					<details open={expandFilters}>
 						<summary>{aggregation.title}</summary>
 						<fieldset>
@@ -121,6 +119,15 @@
 
 	.close-search-filters-button:hover {
 		color: var(--pico-primary-color);
+	}
+
+	.search-filters-controls button {
+		--pico-background-color: transparent;
+		--pico-color: var(--pico-primary);
+
+		border: none;
+		padding: 0;
+		text-decoration: underline;
 	}
 
 	details {
