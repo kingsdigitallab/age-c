@@ -45,7 +45,7 @@
 	.search-controls {
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
+		align-items: flex-start;
 	}
 
 	.search-controls select {
