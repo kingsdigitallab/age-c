@@ -159,6 +159,11 @@
 	}
 
 	function handleSearchFiltersChange() {
+		// remove empty keys, i.e. filters that no longer have any values
+		searchFilters = Object.fromEntries(
+			Object.entries(searchFilters).filter(([_, value]) => value.length > 0)
+		);
+
 		searchPage = 1;
 		postSearchMessage();
 	}
