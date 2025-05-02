@@ -28,7 +28,7 @@
 	}
 
 	.hero h1 {
-		--pico-color: var(--pico-secondary);
+		--pico-color: var(--pico-primary);
 		--pico-font-family: var(--font-family-gothic);
 		--pico-font-size: clamp(4rem, 20vw, 10rem);
 		--pico-font-weight: 400;
