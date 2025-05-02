@@ -1,6 +1,7 @@
 type SortOrder = 'asc' | 'desc';
 
 type Sorting = {
+	label: string;
 	field: string;
 	order: SortOrder;
 };
