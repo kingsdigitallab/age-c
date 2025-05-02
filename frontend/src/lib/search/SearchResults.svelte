@@ -20,6 +20,12 @@
 		title?: string;
 		SearchResultsItemsComponent: typeof SearchResultsItems;
 	} = $props();
+
+	const start = $derived(
+		searchPagination?.page && searchPagination?.per_page
+			? searchPagination.page * searchPagination.per_page - searchPagination.per_page + 1
+			: 1
+	);
 </script>
 
 <section>
@@ -28,6 +34,7 @@
 		<small aria-busy={isLoading || isSearching} aria-live="polite">
 			{#if searchPagination?.total !== undefined}
 				{searchPagination.total.toLocaleString()} found
+				{#if searchQuery}for <span class="search-query">{searchQuery}</span>{/if}
 			{:else}
 				No results
 			{/if}
@@ -36,12 +43,21 @@
 
 	<div transition:fade aria-live="polite">
 		{#if searchItems?.length > 0}
-			<SearchResultsItemsComponent
-				items={searchItems}
-				start={searchPagination.page * searchPagination.per_page - searchPagination.per_page + 1}
-			/>
+			<SearchResultsItemsComponent items={searchItems} {start} />
 		{:else if searchQuery && !isSearching}
 			<p>No results found for "{searchQuery}"</p>
 		{/if}
 	</div>
 </section>
+
+<style>
+	.search-query::before {
+		content: '"';
+		font-weight: normal;
+	}
+
+	.search-query::after {
+		content: '"';
+		font-weight: normal;
+	}
+</style>
