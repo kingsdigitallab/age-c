@@ -3,6 +3,7 @@
 	import SearchWorker from '$lib/search/worker?worker';
 	import { onDestroy, onMount } from 'svelte';
 	import type { SearchConfig } from './types';
+	import SearchControls from './SearchControls.svelte';
 	import SearchFilters from './SearchFilters.svelte';
 	import SearchInput from './SearchInput.svelte';
 	import SearchPagination from './SearchPagination.svelte';
@@ -19,6 +20,7 @@
 		SearchStatusComponent = SearchStatus,
 		SearchInputComponent = SearchInput,
 		SearchFiltersComponent = SearchFilters,
+		SearchControlsComponent = SearchControls,
 		SearchResultsComponent = SearchResults,
 		SearchResultsItemsComponent = SearchResultsItems,
 		SearchPaginationComponent = SearchPagination,
@@ -31,6 +33,7 @@
 		SearchStatusComponent?: typeof SearchStatus;
 		SearchInputComponent?: typeof SearchInput;
 		SearchFiltersComponent?: typeof SearchFilters;
+		SearchControlsComponent?: typeof SearchControls;
 		SearchResultsComponent?: typeof SearchResults;
 		SearchResultsItemsComponent?: typeof SearchResultsItems;
 		SearchPaginationComponent?: typeof SearchPagination;
@@ -40,16 +43,27 @@
 	let searchQuery = $state('');
 	let searchPage = $state(1);
 	let searchFilters = $state<Record<string, string[]>>({});
+	const searchFiltersCount = $derived(Object.keys(searchFilters).length);
+	const searchSort = $state<{
+		options: string[];
+		by: string;
+		order: 'asc' | 'desc';
+	}>({
+		options: [...new Set(Object.values(searchConfig[dataSource].sortings).map((s) => s.field))],
+		by: '',
+		order: 'asc'
+	});
+
 	let searchStatus = $state<'idle' | 'load' | 'ready'>('idle');
 	let searchWorker = $state<Worker | null>(null);
 	let searchError = $state<string | null>(null);
+	let searchResults = $state([]);
 
-	let isLoading = $derived(['idle', 'load'].includes(searchStatus));
+	const isLoading = $derived(['idle', 'load'].includes(searchStatus));
+	let isSearching = $state(false);
 
 	let showSearch = $state(false);
 
-	let isSearching = $state(false);
-	let searchResults = $state([]);
 	// @ts-ignore
 	const searchAggregations = $derived(searchResults?.data?.aggregations || {});
 	// @ts-ignore
@@ -111,6 +125,7 @@
 					dataSource,
 					query: searchQuery,
 					page: searchPage,
+					sort: searchSort.by ? `${searchSort.by}_${searchSort.order}` : undefined,
 					filters: $state.snapshot(searchFilters)
 				}
 			});
@@ -121,6 +136,20 @@
 		searchQuery = '';
 		searchPage = 1;
 		searchFilters = {};
+		postSearchMessage();
+	}
+
+	function handleSortByChange(e: Event) {
+		e.preventDefault();
+
+		searchPage = 1;
+		postSearchMessage();
+	}
+
+	function handleSortOrderChange(e: Event) {
+		e.preventDefault();
+
+		searchSort.order = searchSort.order === 'asc' ? 'desc' : 'asc';
 		postSearchMessage();
 	}
 
@@ -160,11 +189,18 @@
 		onReset={handleReset}
 	/>
 
-	<section>
-		<button onclick={handleToggleSearch} disabled={isLoading || isSearching || showSearch}>
-			Filters
-		</button>
-	</section>
+	<SearchControlsComponent
+		{isLoading}
+		{isSearching}
+		{showSearch}
+		{searchFiltersCount}
+		sortOptions={searchSort.options}
+		bind:sortBy={searchSort.by}
+		sortOrder={searchSort.order}
+		onToggleFilters={handleToggleSearch}
+		onSortByChange={handleSortByChange}
+		onSortOrderChange={handleSortOrderChange}
+	/>
 
 	<SearchResultsComponent
 		{isLoading}
