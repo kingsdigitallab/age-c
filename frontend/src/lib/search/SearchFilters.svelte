@@ -3,7 +3,7 @@
 	import type { Snippet } from 'svelte';
 	import { slide } from 'svelte/transition';
 
-	const {
+	let {
 		show,
 		searchFilters = $bindable({}),
 		searchAggregations,
@@ -23,16 +23,45 @@
 		children?: Snippet | null | undefined;
 	} = $props();
 
+	let expandFilters = $state(false);
+	const searchFiltersCount = $derived(Object.keys(searchFilters).length);
+	const hasFilters = $derived(searchFiltersCount > 0);
+
 	const aggregations = $derived(Object.entries(searchConfig[dataSource].aggregations));
+
+	const handleClearFilters = () => {
+		searchFilters = {};
+		onFiltersChange();
+	};
 </script>
 
 {#if show}
 	<aside tabindex="-1" transition:slide={{ axis: 'x' }}>
-		<h3>Filters</h3>
+		<h3>Filters ({searchFiltersCount})</h3>
 
 		<button class="close-search-filters-button" aria-label="Close search filters" onclick={onClose}>
 			<span aria-hidden="true">&times;</span>
 		</button>
+
+		<section class="search-filters-controls">
+			<button
+				class="expand-search-filters-button"
+				aria-label="{expandFilters ? 'Collapse' : 'Expand'} search filters"
+				onclick={() => (expandFilters = !expandFilters)}
+			>
+				{expandFilters ? 'Collapse' : 'Expand'} all filters
+			</button>
+
+			{#if hasFilters}
+				<button
+					class="clear-search-filters-button"
+					aria-label="Clear search filters"
+					onclick={handleClearFilters}
+				>
+					Clear all filters
+				</button>
+			{/if}
+		</section>
 
 		{#if children}
 			{@render children()}
@@ -41,12 +70,13 @@
 		{#if searchAggregations}
 			{#each aggregations as [key, aggregation]}
 				<section>
-					<details>
+					<details open={expandFilters}>
 						<summary>{aggregation.title}</summary>
 						<fieldset>
 							{#each searchAggregations[key].buckets as bucket}
 								<label>
 									<input
+										name={key}
 										type="checkbox"
 										value={bucket.key}
 										bind:group={searchFilters[key]}
@@ -93,9 +123,17 @@
 		color: var(--pico-primary-color);
 	}
 
+	details {
+		border-bottom: var(--pico-border-width) solid var(--pico-primary-border);
+		padding-bottom: var(--pico-spacing);
+	}
+
 	details fieldset {
+		background: var(--pico-code-background-color);
 		max-height: var(--search-filter-height);
 		overflow-y: scroll;
+		padding-block: calc(var(--pico-spacing) / 4);
+		padding-inline: calc(var(--pico-spacing) / 2);
 	}
 
 	label {
