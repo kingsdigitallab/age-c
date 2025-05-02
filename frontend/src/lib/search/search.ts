@@ -22,7 +22,7 @@ export function search({
 	query,
 	page = 1,
 	perPage = 25,
-	sort = 'default_asc',
+	sort = 'title_asc',
 	filters = {}
 }: SearchParams) {
 	const engine = searchEngines[dataSource];
