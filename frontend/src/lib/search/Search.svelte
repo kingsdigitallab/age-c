@@ -44,15 +44,13 @@
 	let searchPage = $state(1);
 	let searchFilters = $state<Record<string, string[]>>({});
 	const searchFiltersCount = $derived(Object.keys(searchFilters).length);
-	const searchSort = $state<{
-		options: string[];
-		by: string;
-		order: 'asc' | 'desc';
-	}>({
-		options: [...new Set(Object.values(searchConfig[dataSource].sortings).map((s) => s.field))],
-		by: '',
-		order: 'asc'
-	});
+	const searchSortOptions = $derived(
+		Object.entries(searchConfig[dataSource].sortings).map(([key, value]) => ({
+			label: value.label,
+			value: key
+		}))
+	);
+	let searchSortBy = $state<string>('');
 
 	let searchStatus = $state<'idle' | 'load' | 'ready'>('idle');
 	let searchWorker = $state<Worker | null>(null);
@@ -125,7 +123,7 @@
 					dataSource,
 					query: searchQuery,
 					page: searchPage,
-					sort: searchSort.by ? `${searchSort.by}_${searchSort.order}` : undefined,
+					sort: searchSortBy || undefined,
 					filters: $state.snapshot(searchFilters)
 				}
 			});
@@ -143,13 +141,6 @@
 		e.preventDefault();
 
 		searchPage = 1;
-		postSearchMessage();
-	}
-
-	function handleSortOrderChange(e: Event) {
-		e.preventDefault();
-
-		searchSort.order = searchSort.order === 'asc' ? 'desc' : 'asc';
 		postSearchMessage();
 	}
 
@@ -199,12 +190,10 @@
 		{isSearching}
 		{showSearch}
 		{searchFiltersCount}
-		sortOptions={searchSort.options}
-		bind:sortBy={searchSort.by}
-		sortOrder={searchSort.order}
+		sortOptions={searchSortOptions}
+		bind:sortBy={searchSortBy}
 		onToggleFilters={handleToggleSearch}
 		onSortByChange={handleSortByChange}
-		onSortOrderChange={handleSortOrderChange}
 	/>
 
 	<SearchResultsComponent
