@@ -57,7 +57,7 @@
 	let searchStatus = $state<'idle' | 'load' | 'ready'>('idle');
 	let searchWorker = $state<Worker | null>(null);
 	let searchError = $state<string | null>(null);
-	let searchResults = $state([]);
+	let searchResults = $state({ query: '', results: [] });
 
 	const isLoading = $derived(['idle', 'load'].includes(searchStatus));
 	let isSearching = $state(false);
@@ -65,11 +65,11 @@
 	let showSearch = $state(false);
 
 	// @ts-ignore
-	const searchAggregations = $derived(searchResults?.data?.aggregations || {});
+	const searchAggregations = $derived(searchResults.results?.data?.aggregations || {});
 	// @ts-ignore
-	const searchItems = $derived(searchResults?.data?.items || []);
+	const searchItems = $derived(searchResults.results?.data?.items || []);
 	// @ts-ignore
-	let searchPagination = $derived(searchResults?.pagination || {});
+	let searchPagination = $derived(searchResults.results?.pagination || {});
 
 	onMount(() => {
 		initSearchEngine();
@@ -91,7 +91,7 @@
 				searchStatus = 'ready';
 				postSearchMessage();
 			} else if (action === 'results') {
-				searchResults = payload.results;
+				searchResults = { query: payload.query, results: payload.results };
 				isSearching = false;
 			}
 		};
@@ -205,7 +205,7 @@
 	<SearchResultsComponent
 		{isLoading}
 		{isSearching}
-		{searchQuery}
+		searchQuery={searchResults.query}
 		{searchItems}
 		{searchPagination}
 		{SearchResultsItemsComponent}
