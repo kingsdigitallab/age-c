@@ -106,27 +106,23 @@ export const searchConfig: SearchConfig = {
 		aggregations: searchAggregations,
 		searchableFields: ['title', 'name', 'synopsis', ...Object.keys(searchAggregations)],
 		sortings: {
-			default_asc: {
-				field: 'title',
-				order: 'asc'
-			},
-			default_desc: {
-				field: 'title',
-				order: 'desc'
-			},
-			name_asc: {
+			person_name_asc: {
+				label: 'Person name (A-Z)',
 				field: 'name',
 				order: 'asc'
 			},
-			name_desc: {
+			person_name_desc: {
+				label: 'Person name (Z-A)',
 				field: 'name',
 				order: 'desc'
 			},
-			title_asc: {
+			film_title_asc: {
+				label: 'Film title (A-Z)',
 				field: 'title',
 				order: 'asc'
 			},
-			title_desc: {
+			film_title_desc: {
+				label: 'Film title (Z-A)',
 				field: 'title',
 				order: 'desc'
 			}
