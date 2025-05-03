@@ -30,6 +30,7 @@
 	);
 
 	const aggregations = $derived(Object.entries(searchConfig[dataSource].aggregations));
+	const filterSearchTerms = $state<Record<string, string>>({});
 
 	function handleClearFilters() {
 		searchFilters = {};
@@ -39,6 +40,16 @@
 	function handleRemoveFilter(key: string, value: string) {
 		searchFilters[key] = searchFilters[key].filter((v) => v !== value);
 		onFiltersChange();
+	}
+
+	function searchBuckets(key: string, buckets: Array<{ key: string; doc_count: number }>) {
+		if (!filterSearchTerms[key]) {
+			return buckets;
+		}
+
+		return buckets.filter((bucket) =>
+			bucket.key.toLowerCase().includes(filterSearchTerms[key].toLowerCase())
+		);
 	}
 </script>
 
@@ -94,11 +105,23 @@
 
 		{#if searchAggregations}
 			{#each aggregations as [key, aggregation]}
+				{@const buckets = searchBuckets(key, searchAggregations[key].buckets)}
 				<section class="search-filters-section">
 					<details open={expandFilters}>
-						<summary>{aggregation.title}</summary>
+						<summary>
+							{aggregation.title} <small>({searchAggregations[key].buckets.length})</small>
+						</summary>
+						{#if searchAggregations[key].buckets.length > 10}
+							<input
+								name="search-filters-search-{key}"
+								type="text"
+								placeholder="Search {aggregation.title.toLowerCase()} options..."
+								aria-label="Search {aggregation.title.toLowerCase()} options..."
+								bind:value={filterSearchTerms[key]}
+							/>
+						{/if}
 						<fieldset>
-							{#each searchAggregations[key].buckets as bucket}
+							{#each buckets as bucket}
 								<label>
 									<input
 										name={key}
