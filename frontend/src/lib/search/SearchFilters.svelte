@@ -205,10 +205,24 @@
 		max-height: var(--search-filter-height);
 		overflow-y: scroll;
 		padding-block: calc(var(--pico-spacing) / 4);
-		padding-inline: calc(var(--pico-spacing) / 2);
+		/* padding-inline: calc(var(--pico-spacing) / 2); */
 	}
 
 	label {
+		padding-block: calc(var(--pico-form-element-spacing-vertical) / 8);
+		padding-inline: calc(var(--pico-form-element-spacing-vertical) / 4);
 		width: 100%;
+	}
+
+	label:hover {
+		background: var(--pico-secondary-hover-background);
+		color: var(--pico-secondary-inverse);
+	}
+
+	label:has(input:checked) {
+		--pico-primary-border: var(--pico-primary-inverse);
+
+		background: var(--pico-primary-background);
+		color: var(--pico-primary-inverse);
 	}
 </style>
