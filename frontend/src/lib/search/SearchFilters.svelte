@@ -121,7 +121,8 @@
 				<section class="search-filters-section">
 					<details open={expandFiltersByField[index]}>
 						<summary onclick={(e) => handleFilterFieldToggle(e, index)}>
-							{aggregation.title} <small>({searchAggregations[key].buckets.length})</small>
+							{aggregation.title}
+							<small>({searchAggregations[key].buckets.length.toLocaleString()})</small>
 						</summary>
 						{#if searchAggregations[key].buckets.length > 10}
 							<input
@@ -143,7 +144,7 @@
 										onchange={onFiltersChange}
 									/>
 									<span>{bucket.key}</span>
-									<small>({bucket.doc_count})</small>
+									<small>({bucket.doc_count.toLocaleString()})</small>
 								</label>
 							{/each}
 						</fieldset>
