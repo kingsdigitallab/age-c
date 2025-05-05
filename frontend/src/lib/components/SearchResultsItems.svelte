@@ -15,7 +15,7 @@
 	{#each items as item}
 		<li>
 			<a href={`${base}/${item.type}/${item.slug}`}><strong>{item.title}</strong></a>
-			{#if item.type === 'film'}
+			{#if item.type.toLowerCase() === 'film'}
 				<ul>
 					{#if item?.release?.year}
 						<li>
