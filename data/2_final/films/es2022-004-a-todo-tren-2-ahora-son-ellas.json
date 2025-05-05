@@ -1,6 +1,6 @@
 {
   "id": "ES2022_004",
-  "type": "film",
+  "type": "Film",
   "slug": "es2022-004-a-todo-tren-2-ahora-son-ellas",
   "title": {
     "native": "A todo tren 2: Ahora son ellas",
@@ -13,7 +13,7 @@
     "year": 2022
   },
   "production": {
-    "country": "ES",
+    "country": "Spain",
     "share": "Majority coproducer"
   },
   "media": {
@@ -21,18 +21,18 @@
     "posterUrl": "https://www.imdb.com/title/tt21335908/mediaviewer/rm290391809/?ref_=tt_ov_i"
   },
   "genre": [
-    "Comedy",
     "Children's Film",
-    "Crime"
+    "Crime",
+    "Comedy"
   ],
   "tags": [
-    "holiday",
+    "fatherhood",
     "state institutions",
     "grandfatherhood",
-    "fatherhood",
+    "homosociality",
     "organized crime",
     "abuse",
-    "homosociality"
+    "holiday"
   ],
   "director": [
     {
@@ -45,26 +45,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2022_004_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Leo Harlem",
-        "slug": "leo-harlem",
-        "name": "Leo Harlem",
-        "birthYear": 1965.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2022_004_04",
       "age": "3: Third Age (60-75)",
@@ -80,6 +60,26 @@
         "slug": "ramon-langa",
         "name": "Ram\u00f3n Langa",
         "birthYear": 1959.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2022_004_03",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Carlos Iglesias",
+        "slug": "carlos-iglesias",
+        "name": "Carlos Iglesias",
+        "birthYear": 1955.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },
@@ -106,20 +106,20 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2022_004_03",
+      "id": "ES2022_004_02",
       "age": "3: Third Age (60-75)",
       "gender": "Male identifying",
       "sexuality": "Heterosexual",
       "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
+      "class": "Middle class",
+      "profession": "Retired",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Carlos Iglesias",
-        "slug": "carlos-iglesias",
-        "name": "Carlos Iglesias",
-        "birthYear": 1955.0,
+        "id": "Leo Harlem",
+        "slug": "leo-harlem",
+        "name": "Leo Harlem",
+        "birthYear": 1965.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },

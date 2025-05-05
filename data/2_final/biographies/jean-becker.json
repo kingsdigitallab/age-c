@@ -1,6 +1,6 @@
 {
   "id": "Jean Becker",
-  "type": "person",
+  "type": "Person",
   "slug": "jean-becker",
   "name": "Jean Becker",
   "birthYear": 1933,
@@ -9,10 +9,29 @@
   "director": [
     {
       "filmType": "Fiction film",
+      "genre": "Historical film (Heritage Film)",
+      "id": "FR2018_060",
+      "production": {
+        "country": "Brazil",
+        "share": "Minority coproducer"
+      },
+      "release": {
+        "type": "Theatrical release",
+        "year": 2018
+      },
+      "slug": "fr2018-060-le-collier-rouge",
+      "tags": "high rank employment",
+      "title": {
+        "english": "The Red Collar",
+        "native": "Le Collier rouge"
+      }
+    },
+    {
+      "filmType": "Fiction film",
       "genre": "Drama",
       "id": "FR2022_114",
       "production": {
-        "country": "FR",
+        "country": "France",
         "share": "Majority coproducer"
       },
       "release": {
@@ -20,29 +39,10 @@
         "year": 2022
       },
       "slug": "fr2022-114-les-volets-verts",
-      "tags": "intragenerational friendship",
+      "tags": "self-employment",
       "title": {
         "english": "The Heart of a Man",
         "native": "Les Volets verts"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2018_060",
-      "production": {
-        "country": "FR",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-060-le-collier-rouge",
-      "tags": "state institutions",
-      "title": {
-        "english": "The Red Collar",
-        "native": "Le Collier rouge"
       }
     }
   ]

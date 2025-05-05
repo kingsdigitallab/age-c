@@ -1,6 +1,6 @@
 {
   "id": "ES2023_071",
-  "type": "film",
+  "type": "Film",
   "slug": "es2023-071-literato",
   "title": {
     "native": "Literato"
@@ -12,7 +12,7 @@
     "year": 2023
   },
   "production": {
-    "country": "ES",
+    "country": "Spain",
     "share": "Majority coproducer"
   },
   "media": {
@@ -20,28 +20,28 @@
     "posterUrl": "https://www.imdb.com/title/tt29672380/mediaviewer/rm688543233/?ref_=tt_ov_i"
   },
   "genre": [
-    "Comedy",
-    "Drama"
+    "Drama",
+    "Comedy"
   ],
   "tags": [
+    "fatherhood",
+    "physical illness",
+    "intragenerational friendship",
+    "unemployment",
+    "caregiving",
+    "rural",
+    "artistic creation",
+    "desire",
     "precarity",
     "homosociality",
-    "search for meaning",
-    "caregiving",
-    "unemployment",
-    "intragenerational friendship",
     "regional identity",
-    "separation",
-    "rural",
-    "desire",
+    "search for meaning",
     "sex",
-    "fatherhood",
-    "may-december",
-    "artistic creation",
-    "physical illness",
+    "disability",
     "independent home",
     "return home",
-    "disability"
+    "separation",
+    "may-december"
   ],
   "director": [
     {
@@ -53,85 +53,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2023_071_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Isabel Ay\u00facar",
-        "slug": "isabel-ayucar",
-        "name": "Isabel Ay\u00facar",
-        "birthYear": 1947.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2023_071_06",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Fernando Marrot",
-        "slug": "fernando-marrot",
-        "name": "Fernando Marrot",
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2023_071_04",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Manuel Pizarro",
-        "slug": "manuel-pizarro",
-        "name": "Manuel Pizarro",
-        "birthYear": 1951.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2023_071_05",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Nina Garcia",
-        "slug": "nina-garcia",
-        "name": "Nina Garcia",
-        "birthYear": 1965.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2023_071_01",
       "age": "2: Late Middle Age (55-60)",
@@ -173,6 +94,25 @@
       "role": "Unknown"
     },
     {
+      "id": "ES2023_071_06",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Unknown",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Fernando Marrot",
+        "slug": "fernando-marrot",
+        "name": "Fernando Marrot",
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
       "id": "ES2023_071_07",
       "age": "3: Third Age (60-75)",
       "gender": "Male identifying",
@@ -187,6 +127,66 @@
         "slug": "angel-hector-sanchez",
         "name": "\u00c1ngel H\u00e9ctor S\u00e1nchez",
         "birthYear": 1958.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2023_071_05",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Female identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Unknown",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Nina Garcia",
+        "slug": "nina-garcia",
+        "name": "Nina Garcia",
+        "birthYear": 1965.0,
+        "gender": "Female identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2023_071_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Unemployed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Isabel Ay\u00facar",
+        "slug": "isabel-ayucar",
+        "name": "Isabel Ay\u00facar",
+        "birthYear": 1947.0,
+        "gender": "Female identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2023_071_04",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Manuel Pizarro",
+        "slug": "manuel-pizarro",
+        "name": "Manuel Pizarro",
+        "birthYear": 1951.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },

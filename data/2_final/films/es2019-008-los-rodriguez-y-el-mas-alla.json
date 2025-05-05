@@ -1,6 +1,6 @@
 {
   "id": "ES2019_008",
-  "type": "film",
+  "type": "Film",
   "slug": "es2019-008-los-rodriguez-y-el-mas-alla",
   "title": {
     "native": "Los Rodr\u00edguez y el m\u00e1s all\u00e1",
@@ -13,7 +13,7 @@
     "year": 2019
   },
   "production": {
-    "country": "ES",
+    "country": "Spain",
     "share": "Majority coproducer"
   },
   "media": {
@@ -21,19 +21,19 @@
     "posterUrl": "https://www.imdb.com/title/tt7543538/mediaviewer/rm3728119297/?ref_=tt_ov_i"
   },
   "genre": [
-    "Comedy",
     "Children's Film",
-    "Fantasy"
+    "Fantasy",
+    "Comedy"
   ],
   "tags": [
-    "grandfatherhood",
-    "separation",
-    "spirituality",
-    "well-being",
-    "supernatural entity",
     "multigenerational family",
-    "grandmotherhood",
+    "grandfatherhood",
     "rescue mission",
+    "grandmotherhood",
+    "supernatural entity",
+    "spirituality",
+    "separation",
+    "well-being",
     "independent home"
   ],
   "director": [
@@ -56,60 +56,20 @@
   ],
   "character": [
     {
-      "id": "ES2019_008_04",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Enrique Vill\u00e9n",
-        "slug": "enrique-villen",
-        "name": "Enrique Vill\u00e9n",
-        "birthYear": 1960.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2019_008_01",
+      "id": "ES2019_008_02",
       "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
+      "gender": "Female identifying",
       "sexuality": "Heterosexual",
       "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Pl\u00e1cido Domingo",
-        "slug": "placido-domingo",
-        "name": "Pl\u00e1cido Domingo",
-        "birthYear": 1941.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2019_008_03",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
       "class": "Middle class",
-      "profession": "Unknown",
+      "profession": "Retired",
       "ability": "Able-bodied",
       "assistedMobility": "Unknown",
       "person": {
-        "id": "Rossy de Palma",
-        "slug": "rossy-de-palma",
-        "name": "Rossy de Palma",
-        "birthYear": 1964.0,
+        "id": "Geraldine Chaplin",
+        "slug": "geraldine-chaplin",
+        "name": "Geraldine Chaplin",
+        "birthYear": 1944.0,
         "gender": "Female identifying",
         "nationality": "Spain"
       },
@@ -130,6 +90,26 @@
         "slug": "geraldine-chaplin",
         "name": "Geraldine Chaplin",
         "birthYear": 1944.0,
+        "gender": "Female identifying",
+        "nationality": "United States of America (the)"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2019_008_03",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Female identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "Unknown",
+      "person": {
+        "id": "Rossy de Palma",
+        "slug": "rossy-de-palma",
+        "name": "Rossy de Palma",
+        "birthYear": 1964.0,
         "gender": "Female identifying",
         "nationality": "Spain"
       },
@@ -157,22 +137,42 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2019_008_02",
+      "id": "ES2019_008_01",
       "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
+      "gender": "Male identifying",
       "sexuality": "Heterosexual",
       "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
+      "class": "Upper Middle class",
+      "profession": "Self-employed",
       "ability": "Able-bodied",
       "assistedMobility": "Unknown",
       "person": {
-        "id": "Geraldine Chaplin",
-        "slug": "geraldine-chaplin",
-        "name": "Geraldine Chaplin",
-        "birthYear": 1944.0,
-        "gender": "Female identifying",
-        "nationality": "United States of America (the)"
+        "id": "Pl\u00e1cido Domingo",
+        "slug": "placido-domingo",
+        "name": "Pl\u00e1cido Domingo",
+        "birthYear": 1941.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2019_008_04",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "Unknown",
+      "person": {
+        "id": "Enrique Vill\u00e9n",
+        "slug": "enrique-villen",
+        "name": "Enrique Vill\u00e9n",
+        "birthYear": 1960.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
       },
       "role": "Unknown"
     }

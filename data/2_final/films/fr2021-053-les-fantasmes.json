@@ -1,6 +1,6 @@
 {
   "id": "FR2021_053",
-  "type": "film",
+  "type": "Film",
   "slug": "fr2021-053-les-fantasmes",
   "title": {
     "native": "Les Fantasmes",
@@ -13,7 +13,7 @@
     "year": 2021
   },
   "production": {
-    "country": "FR",
+    "country": "France",
     "share": "Majority coproducer"
   },
   "media": {
@@ -22,26 +22,18 @@
   },
   "genre": [
     "Romance",
-    "Comedy",
     "Anthology Films",
+    "Comedy",
     "Multi-protagonist film"
   ],
   "tags": [
+    "romance",
     "natural death",
     "desire",
-    "sex",
     "retirement home",
-    "romance"
+    "sex"
   ],
   "director": [
-    {
-      "id": "David Foenkinos",
-      "slug": "david-foenkinos",
-      "name": "David Foenkinos",
-      "birthYear": 1974,
-      "gender": "Male identifying",
-      "nationality": "France"
-    },
     {
       "id": "St\u00e9phane Foenkinos",
       "slug": "stephane-foenkinos",
@@ -49,9 +41,37 @@
       "birthYear": 1968,
       "gender": "Male identifying",
       "nationality": "France"
+    },
+    {
+      "id": "David Foenkinos",
+      "slug": "david-foenkinos",
+      "name": "David Foenkinos",
+      "birthYear": 1974,
+      "gender": "Male identifying",
+      "nationality": "France"
     }
   ],
   "character": [
+    {
+      "id": "FR2021_053_04",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Denis Podalyd\u00e8s",
+        "slug": "denis-podalydes",
+        "name": "Denis Podalyd\u00e8s",
+        "birthYear": 1963.0,
+        "gender": "Male identifying",
+        "nationality": "France"
+      },
+      "role": "Unknown"
+    },
     {
       "id": "FR2021_053_01",
       "age": "2: Late Middle Age (55-60)",
@@ -69,26 +89,6 @@
         "birthYear": 1966.0,
         "gender": "Female identifying",
         "nationality": "France"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "FR2021_053_03",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Homosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Monica Bellucci",
-        "slug": "monica-bellucci",
-        "name": "Monica Bellucci",
-        "birthYear": 1964.0,
-        "gender": "Female identifying",
-        "nationality": "Italy"
       },
       "role": "Unknown"
     },
@@ -113,22 +113,22 @@
       "role": "Unknown"
     },
     {
-      "id": "FR2021_053_04",
+      "id": "FR2021_053_03",
       "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
+      "gender": "Female identifying",
+      "sexuality": "Homosexual",
       "origin": "White Western European",
       "class": "Middle class",
       "profession": "Unknown",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Denis Podalyd\u00e8s",
-        "slug": "denis-podalydes",
-        "name": "Denis Podalyd\u00e8s",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "France"
+        "id": "Monica Bellucci",
+        "slug": "monica-bellucci",
+        "name": "Monica Bellucci",
+        "birthYear": 1964.0,
+        "gender": "Female identifying",
+        "nationality": "Italy"
       },
       "role": "Unknown"
     }

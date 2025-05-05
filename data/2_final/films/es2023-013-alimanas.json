@@ -1,6 +1,6 @@
 {
   "id": "ES2023_013",
-  "type": "film",
+  "type": "Film",
   "slug": "es2023-013-alimanas",
   "title": {
     "native": "Alima\u00f1as"
@@ -12,7 +12,7 @@
     "year": 2023
   },
   "production": {
-    "country": "ES",
+    "country": "Spain",
     "share": "Majority coproducer"
   },
   "media": {
@@ -20,27 +20,27 @@
     "posterUrl": "https://www.imdb.com/title/tt14443260/mediaviewer/rm1688623873/?ref_=tt_ov_i"
   },
   "genre": [
+    "Drama",
     "Thriller",
-    "Comedy",
-    "Drama"
+    "Comedy"
   ],
   "tags": [
-    "precarity",
-    "assisted death",
-    "ageism",
-    "natural death",
-    "caregiving",
-    "brotherhood",
-    "medical treatment",
-    "intergenerational conflict",
     "inheritance",
     "murder",
-    "urban",
-    "motherhood",
-    "independent home",
-    "abuse",
+    "assisted death",
+    "natural death",
+    "caregiving",
+    "medical treatment",
     "homosociality",
-    "disability"
+    "precarity",
+    "ageism",
+    "disability",
+    "motherhood",
+    "abuse",
+    "brotherhood",
+    "intergenerational conflict",
+    "urban",
+    "independent home"
   ],
   "director": [
     {
@@ -61,6 +61,26 @@
     }
   ],
   "character": [
+    {
+      "id": "ES2023_013_05",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Retired",
+      "ability": "Permanent disability",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Mara Ballestero",
+        "slug": "mara-ballestero",
+        "name": "Mara Ballestero",
+        "birthYear": 1943.0,
+        "gender": "Female identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
     {
       "id": "ES2023_013_04",
       "age": "3: Third Age (60-75)",
@@ -117,26 +137,6 @@
         "name": "Jordi S\u00e1nchez",
         "birthYear": 1964.0,
         "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2023_013_05",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Retired",
-      "ability": "Permanent disability",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Mara Ballestero",
-        "slug": "mara-ballestero",
-        "name": "Mara Ballestero",
-        "birthYear": 1943.0,
-        "gender": "Female identifying",
         "nationality": "Spain"
       },
       "role": "Unknown"

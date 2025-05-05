@@ -1,6 +1,6 @@
 {
   "id": "ES2023_041",
-  "type": "film",
+  "type": "Film",
   "slug": "es2023-041-esperando-a-dali",
   "title": {
     "native": "Esperando a Dal\u00ed",
@@ -13,7 +13,7 @@
     "year": 2023
   },
   "production": {
-    "country": "ES",
+    "country": "Spain",
     "share": "Majority coproducer"
   },
   "media": {
@@ -21,28 +21,28 @@
     "posterUrl": "https://www.imdb.com/title/tt7710588/mediaviewer/rm1996162049/?ref_=tt_ov_i"
   },
   "genre": [
-    "Romance",
-    "Comedy",
     "Biopic",
-    "Drama"
+    "Romance",
+    "Drama",
+    "Comedy"
   ],
   "tags": [
+    "self-employment",
+    "fatherhood",
     "state institutions",
     "substance abuse",
-    "class conflict",
-    "crime",
     "celebrity",
+    "artistic creation",
     "rural",
-    "fatherhood",
-    "national identity",
-    "cultural memory",
+    "crime",
+    "homosociality",
     "superior-employee relationship",
     "wealth",
-    "partnership",
-    "artistic creation",
-    "self-employment",
+    "national identity",
+    "class conflict",
     "abuse",
-    "homosociality"
+    "partnership",
+    "cultural memory"
   ],
   "director": [
     {
@@ -54,26 +54,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2023_041_05",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Bruno Raffaelli",
-        "slug": "bruno-raffaelli",
-        "name": "Bruno Raffaelli",
-        "birthYear": 1950.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2023_041_01",
       "age": "2: Late Middle Age (55-60)",
@@ -89,26 +69,6 @@
         "slug": "jose-garcia",
         "name": "Jos\u00e9 Garcia",
         "birthYear": 1966.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2023_041_07",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Gal Soler",
-        "slug": "gal-soler",
-        "name": "Gal Soler",
-        "birthYear": 1943.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },
@@ -135,6 +95,26 @@
       "role": "Unknown"
     },
     {
+      "id": "ES2023_041_02",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Paco Tous",
+        "slug": "paco-tous",
+        "name": "Paco Tous",
+        "birthYear": 1964.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
       "id": "ES2023_041_03",
       "age": "3: Third Age (60-75)",
       "gender": "Female identifying",
@@ -151,6 +131,26 @@
         "birthYear": 1954.0,
         "gender": "Female identifying",
         "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2023_041_05",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Unknown",
+      "profession": "Unknown",
+      "ability": "Unknown",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Bruno Raffaelli",
+        "slug": "bruno-raffaelli",
+        "name": "Bruno Raffaelli",
+        "birthYear": 1950.0,
+        "gender": "Male identifying",
+        "nationality": "France"
       },
       "role": "Unknown"
     },
@@ -175,20 +175,20 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2023_041_02",
-      "age": "2: Late Middle Age (55-60)",
+      "id": "ES2023_041_07",
+      "age": "4: Fourth Age (>75)",
       "gender": "Male identifying",
       "sexuality": "Unknown",
       "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
+      "class": "Upper class",
+      "profession": "Self-employed",
+      "ability": "Unknown",
       "assistedMobility": "No",
       "person": {
-        "id": "Paco Tous",
-        "slug": "paco-tous",
-        "name": "Paco Tous",
-        "birthYear": 1964.0,
+        "id": "Gal Soler",
+        "slug": "gal-soler",
+        "name": "Gal Soler",
+        "birthYear": 1943.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },

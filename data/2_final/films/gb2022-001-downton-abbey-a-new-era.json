@@ -1,6 +1,6 @@
 {
   "id": "GB2022_001",
-  "type": "film",
+  "type": "Film",
   "slug": "gb2022-001-downton-abbey-a-new-era",
   "title": {
     "native": "Downton Abbey: A New Era"
@@ -12,7 +12,7 @@
     "year": 2022
   },
   "production": {
-    "country": "GB",
+    "country": "United Kingdom of Great Britain and Northern Ireland (the)",
     "share": "Majority coproducer"
   },
   "media": {
@@ -20,33 +20,33 @@
     "posterUrl": "https://www.imdb.com/title/tt11703710/mediaviewer/rm3485867009/?ref_=tt_ov_i"
   },
   "genre": [
-    "Comedy",
     "Drama",
     "Historical film (Heritage Film)",
+    "Comedy",
     "Metacinema"
   ],
   "tags": [
-    "class conflict",
-    "mentorship",
-    "fatherhood",
-    "mass media",
-    "superior-employee relationship",
-    "motherhood",
-    "homosociality",
-    "parenthood",
-    "rural",
-    "low rank employment",
-    "wealth",
-    "extended family",
-    "personal memory",
     "inheritance",
-    "marriage",
+    "mass media",
+    "rural",
+    "superior-employee relationship",
+    "homosociality",
+    "personal memory",
+    "motherhood",
+    "extended family",
     "high rank employment",
-    "power",
+    "parenthood",
     "national identity",
-    "cultural memory",
+    "mentorship",
+    "class conflict",
+    "wealth",
     "grandmotherhood",
-    "independent home"
+    "independent home",
+    "fatherhood",
+    "power",
+    "marriage",
+    "low rank employment",
+    "cultural memory"
   ],
   "director": [
     {
@@ -59,26 +59,6 @@
     }
   ],
   "character": [
-    {
-      "id": "GB2022_001_05",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Samantha Bond",
-        "slug": "samantha-bond",
-        "name": "Samantha Bond",
-        "birthYear": 1961.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "GB2022_001_09",
       "age": "3: Third Age (60-75)",
@@ -95,6 +75,26 @@
         "name": "Lesley Nicol",
         "birthYear": 1953.0,
         "gender": "Female identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "GB2022_001_05",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Unknown",
+      "profession": "Unknown",
+      "ability": "Unknown",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Samantha Bond",
+        "slug": "samantha-bond",
+        "name": "Samantha Bond",
+        "birthYear": 1961.0,
+        "gender": "Male identifying",
         "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },
       "role": "Unknown"
@@ -120,20 +120,20 @@
       "role": "Unknown"
     },
     {
-      "id": "GB2022_001_10",
-      "age": "4: Fourth Age (>75)",
+      "id": "GB2022_001_08",
+      "age": "3: Third Age (60-75)",
       "gender": "Female identifying",
       "sexuality": "Heterosexual",
       "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Unemployed",
+      "class": "Lower Middle class",
+      "profession": "Employed",
       "ability": "Able-bodied",
-      "assistedMobility": "Yes",
+      "assistedMobility": "No",
       "person": {
-        "id": "Maggie Smith",
-        "slug": "maggie-smith",
-        "name": "Maggie Smith",
-        "birthYear": 1934.0,
+        "id": "Phyllis Logan",
+        "slug": "phyllis-logan",
+        "name": "Phyllis Logan",
+        "birthYear": 1956.0,
         "gender": "Female identifying",
         "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },
@@ -180,41 +180,41 @@
       "role": "Unknown"
     },
     {
-      "id": "GB2022_001_08",
+      "id": "GB2022_001_07",
       "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
+      "gender": "Male identifying",
       "sexuality": "Heterosexual",
       "origin": "White Western European",
-      "class": "Lower Middle class",
+      "class": "Upper class",
       "profession": "Employed",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Phyllis Logan",
-        "slug": "phyllis-logan",
-        "name": "Phyllis Logan",
-        "birthYear": 1956.0,
-        "gender": "Female identifying",
+        "id": "Douglas Reith",
+        "slug": "douglas-reith",
+        "name": "Douglas Reith",
+        "birthYear": 1953.0,
+        "gender": "Male identifying",
         "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },
       "role": "Unknown"
     },
     {
-      "id": "GB2022_001_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
+      "id": "GB2022_001_10",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Female identifying",
       "sexuality": "Heterosexual",
       "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
+      "class": "Upper class",
+      "profession": "Unemployed",
       "ability": "Able-bodied",
-      "assistedMobility": "No",
+      "assistedMobility": "Yes",
       "person": {
-        "id": "Jim Carter",
-        "slug": "jim-carter",
-        "name": "Jim Carter",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
+        "id": "Maggie Smith",
+        "slug": "maggie-smith",
+        "name": "Maggie Smith",
+        "birthYear": 1934.0,
+        "gender": "Female identifying",
         "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },
       "role": "Unknown"
@@ -240,20 +240,20 @@
       "role": "Unknown"
     },
     {
-      "id": "GB2022_001_07",
+      "id": "GB2022_001_03",
       "age": "3: Third Age (60-75)",
       "gender": "Male identifying",
       "sexuality": "Heterosexual",
       "origin": "White Western European",
-      "class": "Upper class",
+      "class": "Lower Middle class",
       "profession": "Employed",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Douglas Reith",
-        "slug": "douglas-reith",
-        "name": "Douglas Reith",
-        "birthYear": 1953.0,
+        "id": "Jim Carter",
+        "slug": "jim-carter",
+        "name": "Jim Carter",
+        "birthYear": 1948.0,
         "gender": "Male identifying",
         "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },

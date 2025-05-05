@@ -1,6 +1,6 @@
 {
   "id": "Paolo Sorrentino",
-  "type": "person",
+  "type": "Person",
   "slug": "paolo-sorrentino",
   "name": "Paolo Sorrentino",
   "birthYear": 1970,
@@ -9,10 +9,28 @@
   "director": [
     {
       "filmType": "Fiction film",
+      "genre": "Drama",
+      "id": "IT2018_006",
+      "production": {
+        "country": "Italy",
+        "share": "Majority coproducer"
+      },
+      "release": {
+        "type": "Theatrical release",
+        "year": 2018
+      },
+      "slug": "it2018-006-loro-1",
+      "tags": "wealth",
+      "title": {
+        "native": "Loro 1"
+      }
+    },
+    {
+      "filmType": "Fiction film",
       "genre": "Coming of Age",
       "id": "IT2021_056",
       "production": {
-        "country": "IT",
+        "country": "Italy",
         "share": "Majority coproducer"
       },
       "release": {
@@ -20,7 +38,7 @@
         "year": 2021
       },
       "slug": "it2021-056-e-stata-la-mano-di-dio",
-      "tags": "intergenerational friendship",
+      "tags": "parenthood",
       "title": {
         "english": "The Hand of God",
         "native": "\u00c8 stata la mano di Dio"
@@ -31,8 +49,8 @@
       "genre": "Biopic",
       "id": "IT2018_013",
       "production": {
-        "country": "IT",
-        "share": "Majority coproducer"
+        "country": "France",
+        "share": "Minority coproducer"
       },
       "release": {
         "type": "Theatrical release",
@@ -42,24 +60,6 @@
       "tags": "corruption",
       "title": {
         "native": "Loro 2"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "IT2018_006",
-      "production": {
-        "country": "FR",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "it2018-006-loro-1",
-      "tags": "state institutions",
-      "title": {
-        "native": "Loro 1"
       }
     }
   ]

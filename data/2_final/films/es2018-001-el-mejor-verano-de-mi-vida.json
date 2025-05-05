@@ -1,6 +1,6 @@
 {
   "id": "ES2018_001",
-  "type": "film",
+  "type": "Film",
   "slug": "es2018-001-el-mejor-verano-de-mi-vida",
   "title": {
     "native": "El mejor verano de mi vida",
@@ -13,7 +13,7 @@
     "year": 2018
   },
   "production": {
-    "country": "ES",
+    "country": "Spain",
     "share": "Majority coproducer"
   },
   "media": {
@@ -21,30 +21,30 @@
     "posterUrl": "https://www.imdb.com/title/tt7679126/mediaviewer/rm2441366784/?ref_=tt_ov_i"
   },
   "genre": [
-    "Coming of Age",
-    "Comedy",
     "Children's Film",
-    "Road Movie"
+    "Road Movie",
+    "Coming of Age",
+    "Comedy"
   ],
   "tags": [
-    "precarity",
-    "holiday",
-    "fraud",
-    "de-ageing",
-    "class conflict",
-    "separation",
-    "high rank employment",
-    "body norms",
-    "well-being",
-    "rural",
-    "may-december",
-    "fatherhood",
-    "homelessness",
-    "wealth",
     "self-employment",
+    "fatherhood",
+    "romance",
+    "de-ageing",
+    "fraud",
+    "rural",
     "marriage",
+    "class conflict",
     "homosociality",
-    "romance"
+    "precarity",
+    "wealth",
+    "body norms",
+    "holiday",
+    "separation",
+    "homelessness",
+    "high rank employment",
+    "well-being",
+    "may-december"
   ],
   "director": [
     {
@@ -58,41 +58,21 @@
   ],
   "character": [
     {
-      "id": "ES2018_001_04",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
+      "id": "ES2018_001_01",
+      "age": "1: Early Middle age (<55)",
+      "gender": "Male identifying",
       "sexuality": "Heterosexual",
       "origin": "White Western European",
       "class": "Lower Middle class",
-      "profession": "Retired",
+      "profession": "Self-employed",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Gracia Olayo",
-        "slug": "gracia-olayo",
-        "name": "Gracia Olayo",
-        "birthYear": 1957.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2018_001_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Isabel Ordaz",
-        "slug": "isabel-ordaz",
-        "name": "Isabel Ordaz",
-        "birthYear": 1957.0,
-        "gender": "Female identifying",
+        "id": "Leo Harlem",
+        "slug": "leo-harlem",
+        "name": "Leo Harlem",
+        "birthYear": 1965.0,
+        "gender": "Male identifying",
         "nationality": "Spain"
       },
       "role": "Unknown"
@@ -118,21 +98,41 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2018_001_01",
-      "age": "1: Early Middle age (<55)",
-      "gender": "Male identifying",
+      "id": "ES2018_001_02",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Female identifying",
       "sexuality": "Heterosexual",
       "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
+      "class": "Upper class",
+      "profession": "Unemployed",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Leo Harlem",
-        "slug": "leo-harlem",
-        "name": "Leo Harlem",
-        "birthYear": 1965.0,
-        "gender": "Male identifying",
+        "id": "Isabel Ordaz",
+        "slug": "isabel-ordaz",
+        "name": "Isabel Ordaz",
+        "birthYear": 1957.0,
+        "gender": "Female identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2018_001_04",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Gracia Olayo",
+        "slug": "gracia-olayo",
+        "name": "Gracia Olayo",
+        "birthYear": 1957.0,
+        "gender": "Female identifying",
         "nationality": "Spain"
       },
       "role": "Unknown"

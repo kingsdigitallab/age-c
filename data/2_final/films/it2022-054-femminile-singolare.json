@@ -1,6 +1,6 @@
 {
   "id": "IT2022_054",
-  "type": "film",
+  "type": "Film",
   "slug": "it2022-054-femminile-singolare",
   "title": {
     "native": "Femminile Singolare"
@@ -12,7 +12,7 @@
     "year": 2022
   },
   "production": {
-    "country": "IT",
+    "country": "Italy",
     "share": "Majority coproducer"
   },
   "media": {
@@ -24,12 +24,60 @@
     "Anthology Films"
   ],
   "tags": [
+    "gender discrimination",
     "women empowerement",
     "motherhood",
-    "gender discrimination",
     "precarity"
   ],
   "director": [
+    {
+      "id": "Adriano Morelli",
+      "slug": "adriano-morelli",
+      "name": "Adriano Morelli",
+      "birthYear": 1985,
+      "gender": "Male identifying",
+      "nationality": "Italy"
+    },
+    {
+      "id": "Matteo Pianezzi",
+      "slug": "matteo-pianezzi",
+      "name": "Matteo Pianezzi",
+      "birthYear": 1987,
+      "gender": "Male identifying",
+      "nationality": "Italy"
+    },
+    {
+      "id": "Rafael Farina Issas",
+      "slug": "rafael-farina-issas",
+      "name": "Rafael Farina Issas",
+      "birthYear": 1990,
+      "gender": "Male identifying",
+      "nationality": "Brazil"
+    },
+    {
+      "id": "Kristian Gianfreda",
+      "slug": "kristian-gianfreda",
+      "name": "Kristian Gianfreda",
+      "birthYear": 1976,
+      "gender": "Male identifying",
+      "nationality": "Italy"
+    },
+    {
+      "id": "Daniele Lince",
+      "slug": "daniele-lince",
+      "name": "Daniele Lince",
+      "birthYear": 1986,
+      "gender": "Male identifying",
+      "nationality": "Italy"
+    },
+    {
+      "id": "More Raca",
+      "slug": "more-raca",
+      "name": "More Raca",
+      "birthYear": 1991,
+      "gender": "Female identifying",
+      "nationality": "Unknown"
+    },
     {
       "id": "Elena Beatrice",
       "slug": "elena-beatrice",
@@ -45,77 +93,9 @@
       "birthYear": 1982,
       "gender": "Male identifying",
       "nationality": "France"
-    },
-    {
-      "id": "More Raca",
-      "slug": "more-raca",
-      "name": "More Raca",
-      "birthYear": 1991,
-      "gender": "Female identifying",
-      "nationality": "Unknown"
-    },
-    {
-      "id": "Adriano Morelli",
-      "slug": "adriano-morelli",
-      "name": "Adriano Morelli",
-      "birthYear": 1985,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    },
-    {
-      "id": "Kristian Gianfreda",
-      "slug": "kristian-gianfreda",
-      "name": "Kristian Gianfreda",
-      "birthYear": 1976,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    },
-    {
-      "id": "Rafael Farina Issas",
-      "slug": "rafael-farina-issas",
-      "name": "Rafael Farina Issas",
-      "birthYear": 1990,
-      "gender": "Male identifying",
-      "nationality": "Brazil"
-    },
-    {
-      "id": "Matteo Pianezzi",
-      "slug": "matteo-pianezzi",
-      "name": "Matteo Pianezzi",
-      "birthYear": 1987,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    },
-    {
-      "id": "Daniele Lince",
-      "slug": "daniele-lince",
-      "name": "Daniele Lince",
-      "birthYear": 1986,
-      "gender": "Male identifying",
-      "nationality": "Italy"
     }
   ],
   "character": [
-    {
-      "id": "IT2022_054_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Catherine Deneuve",
-        "slug": "catherine-deneuve",
-        "name": "Catherine Deneuve",
-        "birthYear": 1943.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    },
     {
       "id": "IT2022_054_02",
       "age": "2: Late Middle Age (55-60)",
@@ -133,6 +113,26 @@
         "birthYear": 1958.0,
         "gender": "Female identifying",
         "nationality": "Italy"
+      },
+      "role": "Leading actor"
+    },
+    {
+      "id": "IT2022_054_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Catherine Deneuve",
+        "slug": "catherine-deneuve",
+        "name": "Catherine Deneuve",
+        "birthYear": 1943.0,
+        "gender": "Female identifying",
+        "nationality": "France"
       },
       "role": "Leading actor"
     }

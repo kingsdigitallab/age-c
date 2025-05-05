@@ -1,6 +1,6 @@
 {
   "id": "ES2022_002",
-  "type": "film",
+  "type": "Film",
   "slug": "es2022-002-padre-no-hay-mas-que-uno-3",
   "title": {
     "native": "Padre no hay m\u00e1s que uno 3",
@@ -13,7 +13,7 @@
     "year": 2022
   },
   "production": {
-    "country": "ES",
+    "country": "Spain",
     "share": "Majority coproducer"
   },
   "media": {
@@ -21,24 +21,24 @@
     "posterUrl": "https://www.imdb.com/title/tt16452664/mediaviewer/rm3670547713/?ref_=tt_ov_i"
   },
   "genre": [
-    "Comedy",
-    "Children's Film"
+    "Children's Film",
+    "Comedy"
   ],
   "tags": [
-    "de-ageing",
-    "grandfatherhood",
-    "brotherhood",
-    "separation",
-    "migration",
-    "low rank employment",
-    "multigenerational family",
+    "self-employment",
     "fatherhood",
-    "grandmotherhood",
     "in-laws",
+    "multigenerational family",
+    "de-ageing",
+    "migration",
     "festivities",
-    "motherhood",
+    "grandfatherhood",
+    "grandmotherhood",
     "marriage",
-    "self-employment"
+    "low rank employment",
+    "motherhood",
+    "brotherhood",
+    "separation"
   ],
   "director": [
     {
@@ -51,6 +51,46 @@
     }
   ],
   "character": [
+    {
+      "id": "ES2022_002_05",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "Indigenous Latin American",
+      "class": "Lower Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Wendy Ramos",
+        "slug": "wendy-ramos",
+        "name": "Wendy Ramos",
+        "birthYear": 1966.0,
+        "gender": "Female identifying",
+        "nationality": "Peru"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2022_002_01",
+      "age": "1: Early Middle age (<55)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Santiago Segura",
+        "slug": "santiago-segura",
+        "name": "Santiago Segura",
+        "birthYear": 1965.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
     {
       "id": "ES2022_002_02",
       "age": "3: Third Age (60-75)",
@@ -92,26 +132,6 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2022_002_01",
-      "age": "1: Early Middle age (<55)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Santiago Segura",
-        "slug": "santiago-segura",
-        "name": "Santiago Segura",
-        "birthYear": 1965.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
       "id": "ES2022_002_04",
       "age": "2: Late Middle Age (55-60)",
       "gender": "Male identifying",
@@ -128,26 +148,6 @@
         "birthYear": 1965.0,
         "gender": "Male identifying",
         "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2022_002_05",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "Indigenous Latin American",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Wendy Ramos",
-        "slug": "wendy-ramos",
-        "name": "Wendy Ramos",
-        "birthYear": 1966.0,
-        "gender": "Female identifying",
-        "nationality": "Peru"
       },
       "role": "Unknown"
     }

@@ -1,6 +1,6 @@
 {
   "id": "ES2023_004",
-  "type": "film",
+  "type": "Film",
   "slug": "es2023-004-vacaciones-de-verano",
   "title": {
     "native": "Vacaciones de verano"
@@ -12,7 +12,7 @@
     "year": 2023
   },
   "production": {
-    "country": "ES",
+    "country": "Spain",
     "share": "Majority coproducer"
   },
   "media": {
@@ -20,21 +20,21 @@
     "posterUrl": "https://www.imdb.com/title/tt26756609/mediaviewer/rm1462970625/?ref_=tt_ov_i"
   },
   "genre": [
-    "Comedy",
-    "Children's Film"
+    "Children's Film",
+    "Comedy"
   ],
   "tags": [
-    "holiday",
-    "precarity",
-    "class conflict",
-    "unemployment",
-    "intragenerational friendship",
-    "separation",
-    "intergenerational conflict",
-    "low rank employment",
     "fatherhood",
+    "intragenerational friendship",
+    "unemployment",
     "new start",
-    "homosociality"
+    "class conflict",
+    "homosociality",
+    "precarity",
+    "low rank employment",
+    "intergenerational conflict",
+    "holiday",
+    "separation"
   ],
   "director": [
     {
@@ -47,26 +47,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2023_004_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Santiago Segura",
-        "slug": "santiago-segura",
-        "name": "Santiago Segura",
-        "birthYear": 1965.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2023_004_02",
       "age": "2: Late Middle Age (55-60)",
@@ -102,6 +82,26 @@
         "slug": "antonio-resines",
         "name": "Antonio Resines",
         "birthYear": 1954.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2023_004_01",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Santiago Segura",
+        "slug": "santiago-segura",
+        "name": "Santiago Segura",
+        "birthYear": 1965.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },

@@ -1,6 +1,6 @@
 {
   "id": "ES2020_048",
-  "type": "film",
+  "type": "Film",
   "slug": "es2020-048-la-mancha-negra",
   "title": {
     "native": "La mancha negra"
@@ -12,7 +12,7 @@
     "year": 2020
   },
   "production": {
-    "country": "ES",
+    "country": "Spain",
     "share": "Majority coproducer"
   },
   "media": {
@@ -20,20 +20,20 @@
     "posterUrl": "https://www.imdb.com/title/tt7225358/mediaviewer/rm794667009/?ref_=tt_ov_i"
   },
   "genre": [
-    "Thriller",
-    "Horror"
+    "Horror",
+    "Thriller"
   ],
   "tags": [
+    "inheritance",
     "natural death",
-    "crime",
-    "burial",
     "rural",
     "personal trauma",
-    "inheritance",
+    "crime",
+    "mental illness",
     "religion",
-    "motherhood",
+    "burial",
     "abuse",
-    "mental illness"
+    "motherhood"
   ],
   "director": [
     {
@@ -45,6 +45,25 @@
     }
   ],
   "character": [
+    {
+      "id": "ES2020_048_01",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Retired",
+      "ability": "Chronic illness",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Mar\u00eda Alfonsa Rosso",
+        "slug": "maria-alfonsa-rosso",
+        "name": "Mar\u00eda Alfonsa Rosso",
+        "gender": "Female identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
     {
       "id": "ES2020_048_04",
       "age": "3: Third Age (60-75)",
@@ -61,25 +80,6 @@
         "name": "Juan Manuel Lara",
         "birthYear": 1963.0,
         "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2020_048_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Retired",
-      "ability": "Chronic illness",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Mar\u00eda Alfonsa Rosso",
-        "slug": "maria-alfonsa-rosso",
-        "name": "Mar\u00eda Alfonsa Rosso",
-        "gender": "Female identifying",
         "nationality": "Spain"
       },
       "role": "Unknown"

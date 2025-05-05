@@ -1,6 +1,6 @@
 {
   "id": "ES2023_053",
-  "type": "film",
+  "type": "Film",
   "slug": "es2023-053-la-fortaleza",
   "title": {
     "native": "La Fortaleza"
@@ -12,7 +12,7 @@
     "year": 2023
   },
   "production": {
-    "country": "ES",
+    "country": "Spain",
     "share": "Majority coproducer"
   },
   "media": {
@@ -24,19 +24,19 @@
     "Comedy"
   ],
   "tags": [
-    "state institutions",
-    "class conflict",
-    "natural death",
-    "high rank employment",
-    "siblinghood",
-    "burial",
-    "low rank employment",
-    "rural",
     "inheritance",
     "fatherhood",
+    "state institutions",
+    "natural death",
+    "rural",
+    "class conflict",
     "wealth",
-    "independent home",
-    "abuse"
+    "siblinghood",
+    "low rank employment",
+    "burial",
+    "abuse",
+    "high rank employment",
+    "independent home"
   ],
   "director": [
     {
@@ -49,26 +49,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2023_053_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Lola Casamayor",
-        "slug": "lola-casamayor",
-        "name": "Lola Casamayor",
-        "birthYear": 1958.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2023_053_03",
       "age": "4: Fourth Age (>75)",
@@ -84,6 +64,26 @@
         "slug": "manuel-zarzo",
         "name": "Manuel Zarzo",
         "birthYear": 1932.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2023_053_04",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Fernando Tejero",
+        "slug": "fernando-tejero",
+        "name": "Fernando Tejero",
+        "birthYear": 1967.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },
@@ -110,21 +110,21 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2023_053_04",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
+      "id": "ES2023_053_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
       "origin": "White Western European",
-      "class": "Upper Middle class",
+      "class": "Lower Middle class",
       "profession": "Employed",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Fernando Tejero",
-        "slug": "fernando-tejero",
-        "name": "Fernando Tejero",
-        "birthYear": 1967.0,
-        "gender": "Male identifying",
+        "id": "Lola Casamayor",
+        "slug": "lola-casamayor",
+        "name": "Lola Casamayor",
+        "birthYear": 1958.0,
+        "gender": "Female identifying",
         "nationality": "Spain"
       },
       "role": "Unknown"

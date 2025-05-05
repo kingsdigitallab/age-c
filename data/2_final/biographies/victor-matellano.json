@@ -1,6 +1,6 @@
 {
   "id": "V\u00edctor Matellano",
-  "type": "person",
+  "type": "Person",
   "slug": "victor-matellano",
   "name": "V\u00edctor Matellano",
   "birthYear": 1971,
@@ -8,11 +8,29 @@
   "gender": "Male identifying",
   "director": [
     {
+      "filmType": "Documentary",
+      "genre": "Mockumentary",
+      "id": "ES2022_115",
+      "production": {
+        "country": "Spain",
+        "share": "Majority coproducer"
+      },
+      "release": {
+        "type": "Theatrical release",
+        "year": 2022
+      },
+      "slug": "es2022-115-mi-adorado-monster",
+      "tags": "self-employment",
+      "title": {
+        "native": "Mi adorado Monster"
+      }
+    },
+    {
       "filmType": "Fiction film",
-      "genre": "Horror",
+      "genre": "Anthology Films",
       "id": "ES2020_032",
       "production": {
-        "country": "ES",
+        "country": "Spain",
         "share": "Majority coproducer"
       },
       "release": {
@@ -27,10 +45,10 @@
     },
     {
       "filmType": "Documentary",
-      "genre": "Documentary \u2013 Performative mode",
+      "genre": "Documentary \u2013 Participatory mode",
       "id": "ES2019_049",
       "production": {
-        "country": "ES",
+        "country": "Spain",
         "share": "Majority coproducer"
       },
       "release": {
@@ -38,27 +56,9 @@
         "year": 2019
       },
       "slug": "es2019-049-regresa-el-cepa",
-      "tags": "high rank employment",
+      "tags": "women empowerment",
       "title": {
         "native": "Regresa El Cepa"
-      }
-    },
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Performative mode",
-      "id": "ES2022_115",
-      "production": {
-        "country": "ES",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "es2022-115-mi-adorado-monster",
-      "tags": "self-employment",
-      "title": {
-        "native": "Mi adorado Monster"
       }
     }
   ]

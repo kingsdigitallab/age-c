@@ -1,6 +1,6 @@
 {
   "id": "ES2019_048",
-  "type": "film",
+  "type": "Film",
   "slug": "es2019-048-moira",
   "title": {
     "native": "Moira"
@@ -12,7 +12,7 @@
     "year": 2010
   },
   "production": {
-    "country": "ES",
+    "country": "Spain",
     "share": "Majority coproducer"
   },
   "media": {
@@ -20,20 +20,20 @@
     "posterUrl": "https://www.imdb.com/title/tt6150826/mediaviewer/rm3105671937/?ref_=tt_ov_i"
   },
   "genre": [
-    "Thriller",
     "Drama",
-    "Historical film (Heritage Film)"
+    "Historical film (Heritage Film)",
+    "Thriller"
   ],
   "tags": [
-    "intergenerational conflict",
-    "personal memory",
     "fatherhood",
-    "personal trauma",
-    "cultural memory",
-    "activism",
     "national identity",
     "marriage",
-    "abuse"
+    "personal trauma",
+    "activism",
+    "personal memory",
+    "intergenerational conflict",
+    "abuse",
+    "cultural memory"
   ],
   "director": [
     {
@@ -45,6 +45,26 @@
     }
   ],
   "character": [
+    {
+      "id": "ES2019_048_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Latin American",
+      "class": "Middle class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "Unknown",
+      "person": {
+        "id": "Rudy Chernicoff",
+        "slug": "rudy-chernicoff",
+        "name": "Rudy Chernicoff",
+        "birthYear": 1945.0,
+        "gender": "Male identifying",
+        "nationality": "Argentina"
+      },
+      "role": "Unknown"
+    },
     {
       "id": "ES2019_048_01",
       "age": "3: Third Age (60-75)",
@@ -79,26 +99,6 @@
         "slug": "emilio-linder",
         "name": "Emilio Linder",
         "birthYear": 1949.0,
-        "gender": "Male identifying",
-        "nationality": "Argentina"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2019_048_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Latin American",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Rudy Chernicoff",
-        "slug": "rudy-chernicoff",
-        "name": "Rudy Chernicoff",
-        "birthYear": 1945.0,
         "gender": "Male identifying",
         "nationality": "Argentina"
       },

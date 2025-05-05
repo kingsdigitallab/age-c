@@ -1,6 +1,6 @@
 {
   "id": "ES2020_059",
-  "type": "film",
+  "type": "Film",
   "slug": "es2020-059-blanco-en-blanco",
   "title": {
     "native": "Blanco en blanco",
@@ -13,7 +13,7 @@
     "year": 2020
   },
   "production": {
-    "country": "ES",
+    "country": "Spain",
     "share": "Majority coproducer"
   },
   "media": {
@@ -21,28 +21,28 @@
     "posterUrl": "https://www.imdb.com/title/tt9028522/mediaviewer/rm334072321/?ref_=tt_ov_i"
   },
   "genre": [
-    "Western",
-    "Thriller",
     "Drama",
-    "Historical film (Heritage Film)"
+    "Historical film (Heritage Film)",
+    "Western",
+    "Thriller"
   ],
   "tags": [
-    "natural",
-    "loneliness",
-    "wedding",
-    "power",
-    "rural",
-    "racial discrimination",
-    "desire",
-    "national identity",
-    "colony",
-    "cultural memory",
-    "superior-employee relationship",
-    "artistic creation",
     "self-employment",
+    "natural",
+    "racial discrimination",
+    "power",
+    "national identity",
+    "artistic creation",
+    "desire",
+    "wedding",
+    "homosociality",
+    "rural",
+    "superior-employee relationship",
+    "loneliness",
     "collective trauma",
     "abuse",
-    "homosociality"
+    "colony",
+    "cultural memory"
   ],
   "director": [
     {
@@ -55,26 +55,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2020_059_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Latin American",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Alejandro Goic",
-        "slug": "alejandro-goic",
-        "name": "Alejandro Goic",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "Chile"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2020_059_01",
       "age": "3: Third Age (60-75)",
@@ -90,6 +70,26 @@
         "slug": "alfredo-castro",
         "name": "Alfredo Castro",
         "birthYear": 1955.0,
+        "gender": "Male identifying",
+        "nationality": "Chile"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2020_059_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Latin American",
+      "class": "Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Alejandro Goic",
+        "slug": "alejandro-goic",
+        "name": "Alejandro Goic",
+        "birthYear": 1957.0,
         "gender": "Male identifying",
         "nationality": "Chile"
       },

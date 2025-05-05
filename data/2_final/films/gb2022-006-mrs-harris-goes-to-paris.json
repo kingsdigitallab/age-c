@@ -1,6 +1,6 @@
 {
   "id": "GB2022_006",
-  "type": "film",
+  "type": "Film",
   "slug": "gb2022-006-mrs-harris-goes-to-paris",
   "title": {
     "native": "Mrs. Harris Goes to Paris"
@@ -12,7 +12,7 @@
     "year": 2022
   },
   "production": {
-    "country": "GB",
+    "country": "United Kingdom of Great Britain and Northern Ireland (the)",
     "share": "Majority coproducer"
   },
   "media": {
@@ -20,26 +20,26 @@
     "posterUrl": "https://www.imdb.com/title/tt5151570/mediaviewer/rm931140865/?ref_=tt_ov_i"
   },
   "genre": [
-    "Comedy",
     "Drama",
-    "Historical film (Heritage Film)"
+    "Historical film (Heritage Film)",
+    "Comedy"
   ],
   "tags": [
-    "interracial relationships",
-    "widowhood",
-    "de-ageing",
-    "class conflict",
-    "search for meaning",
-    "intergenerational friendship",
-    "high rank employment",
-    "low rank employment",
     "urban",
-    "superior-employee relationship",
-    "grief",
-    "women empowerment",
+    "intergenerational friendship",
+    "de-ageing",
+    "interracial relationships",
     "new start",
     "artistic creation",
-    "homosociality"
+    "superior-employee relationship",
+    "homosociality",
+    "women empowerment",
+    "class conflict",
+    "widowhood",
+    "search for meaning",
+    "low rank employment",
+    "grief",
+    "high rank employment"
   ],
   "director": [
     {
@@ -51,26 +51,6 @@
     }
   ],
   "character": [
-    {
-      "id": "GB2022_006_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Lesley Manville",
-        "slug": "lesley-manville",
-        "name": "Lesley Manville",
-        "birthYear": 1956.0,
-        "gender": "Female identifying",
-        "nationality": "Unknown"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "GB2022_006_04",
       "age": "2: Late Middle Age (55-60)",
@@ -92,22 +72,22 @@
       "role": "Unknown"
     },
     {
-      "id": "GB2022_006_05",
+      "id": "GB2022_006_02",
       "age": "2: Late Middle Age (55-60)",
       "gender": "Female identifying",
       "sexuality": "Unknown",
       "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Unknown",
+      "class": "Upper Middle class",
+      "profession": "Employed",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Anna Chancellor",
-        "slug": "anna-chancellor",
-        "name": "Anna Chancellor",
-        "birthYear": 1965.0,
+        "id": "Isabelle Huppert",
+        "slug": "isabelle-huppert",
+        "name": "Isabelle Huppert",
+        "birthYear": 1953.0,
         "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        "nationality": "France"
       },
       "role": "Unknown"
     },
@@ -132,22 +112,42 @@
       "role": "Unknown"
     },
     {
-      "id": "GB2022_006_02",
-      "age": "2: Late Middle Age (55-60)",
+      "id": "GB2022_006_01",
+      "age": "3: Third Age (60-75)",
       "gender": "Female identifying",
-      "sexuality": "Unknown",
+      "sexuality": "Heterosexual",
       "origin": "White Western European",
-      "class": "Upper Middle class",
+      "class": "Lower Middle class",
       "profession": "Employed",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Isabelle Huppert",
-        "slug": "isabelle-huppert",
-        "name": "Isabelle Huppert",
-        "birthYear": 1953.0,
+        "id": "Lesley Manville",
+        "slug": "lesley-manville",
+        "name": "Lesley Manville",
+        "birthYear": 1956.0,
         "gender": "Female identifying",
-        "nationality": "France"
+        "nationality": "Unknown"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "GB2022_006_05",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Female identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Upper class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Anna Chancellor",
+        "slug": "anna-chancellor",
+        "name": "Anna Chancellor",
+        "birthYear": 1965.0,
+        "gender": "Female identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },
       "role": "Unknown"
     },

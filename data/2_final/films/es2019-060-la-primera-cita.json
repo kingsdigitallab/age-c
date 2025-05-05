@@ -1,6 +1,6 @@
 {
   "id": "ES2019_060",
-  "type": "film",
+  "type": "Film",
   "slug": "es2019-060-la-primera-cita",
   "title": {
     "native": "La primera cita"
@@ -12,7 +12,7 @@
     "year": 2019
   },
   "production": {
-    "country": "ES",
+    "country": "Spain",
     "share": "Majority coproducer"
   },
   "media": {
@@ -23,15 +23,15 @@
     "Drama"
   ],
   "tags": [
-    "state institutions",
     "hospital",
+    "state institutions",
     "caregiving",
-    "high rank employment",
-    "reignited passion",
-    "dementia",
     "medical treatment",
     "marriage",
-    "homosociality"
+    "homosociality",
+    "dementia",
+    "reignited passion",
+    "high rank employment"
   ],
   "director": [
     {
@@ -44,6 +44,26 @@
     }
   ],
   "character": [
+    {
+      "id": "ES2019_060_04",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "Unknown",
+      "person": {
+        "id": "Bruto Pomeroy",
+        "slug": "bruto-pomeroy",
+        "name": "Bruto Pomeroy",
+        "birthYear": 1958.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
     {
       "id": "ES2019_060_03",
       "age": "2: Late Middle Age (55-60)",
@@ -60,26 +80,6 @@
         "name": "Mercedes Hoyos",
         "birthYear": 1964.0,
         "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2019_060_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Sebasti\u00e1n Haro",
-        "slug": "sebastian-haro",
-        "name": "Sebasti\u00e1n Haro",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
         "nationality": "Spain"
       },
       "role": "Unknown"
@@ -104,20 +104,20 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2019_060_04",
-      "age": "3: Third Age (60-75)",
+      "id": "ES2019_060_02",
+      "age": "2: Late Middle Age (55-60)",
       "gender": "Male identifying",
-      "sexuality": "Unknown",
+      "sexuality": "Heterosexual",
       "origin": "White Western European",
-      "class": "Upper Middle class",
+      "class": "Middle class",
       "profession": "Employed",
       "ability": "Able-bodied",
       "assistedMobility": "Unknown",
       "person": {
-        "id": "Bruto Pomeroy",
-        "slug": "bruto-pomeroy",
-        "name": "Bruto Pomeroy",
-        "birthYear": 1958.0,
+        "id": "Sebasti\u00e1n Haro",
+        "slug": "sebastian-haro",
+        "name": "Sebasti\u00e1n Haro",
+        "birthYear": 1964.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },
