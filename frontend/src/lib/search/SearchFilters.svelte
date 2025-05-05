@@ -23,7 +23,6 @@
 		children?: Snippet | null | undefined;
 	} = $props();
 
-	let expandFilters = $state(false);
 	const hasFilters = $derived(Object.keys(searchFilters).length > 0);
 	const currentFilters = $derived(
 		Object.entries(searchFilters).filter(([_, value]) => value.length > 0)
@@ -32,9 +31,22 @@
 	const aggregations = $derived(Object.entries(searchConfig[dataSource].aggregations));
 	const filterSearchTerms = $state<Record<string, string>>({});
 
+	let expandFilters = $state(false);
+	let expandFiltersByField = $state<boolean[]>(aggregations.map(() => false));
+
+	function handleExpandFilters() {
+		expandFilters = !expandFilters;
+		expandFiltersByField = aggregations.map(() => expandFilters);
+	}
+
 	function handleClearFilters() {
 		searchFilters = {};
 		onFiltersChange();
+	}
+
+	function handleFilterFieldToggle(e: Event, index: number) {
+		e.preventDefault();
+		expandFiltersByField[index] = !expandFiltersByField[index];
 	}
 
 	function handleRemoveFilter(key: string, value: string) {
@@ -65,7 +77,7 @@
 			<button
 				class="expand-search-filters-button"
 				aria-label="{expandFilters ? 'Collapse' : 'Expand'} search filters"
-				onclick={() => (expandFilters = !expandFilters)}
+				onclick={handleExpandFilters}
 			>
 				{expandFilters ? 'Collapse' : 'Expand'} all filters
 			</button>
@@ -104,11 +116,11 @@
 		{/if}
 
 		{#if searchAggregations}
-			{#each aggregations as [key, aggregation]}
+			{#each aggregations as [key, aggregation], index}
 				{@const buckets = searchBuckets(key, searchAggregations[key].buckets)}
 				<section class="search-filters-section">
-					<details open={expandFilters}>
-						<summary>
+					<details open={expandFiltersByField[index]}>
+						<summary onclick={(e) => handleFilterFieldToggle(e, index)}>
 							{aggregation.title} <small>({searchAggregations[key].buckets.length})</small>
 						</summary>
 						{#if searchAggregations[key].buckets.length > 10}
