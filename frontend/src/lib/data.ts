@@ -2,13 +2,6 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import type { Item, Character, Director } from './types';
 
-export async function getData(slug: string) {
-	const filePath = path.resolve('../data/2_final', `${slug}.json`);
-	const data = JSON.parse(await readFile(filePath, 'utf-8'));
-
-	return data;
-}
-
 export async function getSearchData(slug: string) {
 	const data = await getData(slug);
 
@@ -33,6 +26,13 @@ export async function getSearchData(slug: string) {
 		assistedMobility: item?.character?.map((c) => c?.assistedMobility),
 		synopsis: [item?.synopsis?.native, item?.synopsis?.english].filter(Boolean)
 	}));
+}
+
+export async function getData(slug: string) {
+	const filePath = path.resolve('../data/2_final', `${slug}.json`);
+	const data = JSON.parse(await readFile(filePath, 'utf-8'));
+
+	return data;
 }
 
 const fieldSubpaths: Record<string, { character: string; director: string }> = {
@@ -75,4 +75,18 @@ function getRole(item: Item) {
 	}
 
 	return roles;
+}
+
+export async function getFilmData(slug: string) {
+	const filePath = path.resolve('../data/2_final/films', `${slug}.json`);
+	const data = JSON.parse(await readFile(filePath, 'utf-8'));
+
+	return data;
+}
+
+export async function getBiographyData(slug: string) {
+	const filePath = path.resolve('../data/2_final/biographies', `${slug}.json`);
+	const data = JSON.parse(await readFile(filePath, 'utf-8'));
+
+	return data;
 }
