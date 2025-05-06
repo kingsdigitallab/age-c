@@ -35,7 +35,7 @@
 						{#each item.director as director}
 							<li>
 								<a href={`${base}/biography/${director.slug}`}
-									>{director.name} ({director.gender}, {director.birthYear} - {director.deathYear})</a
+									>{director.name} ({director.birthYear}–{director.deathYear}, {director.gender})</a
 								>
 							</li>
 						{/each}
@@ -48,7 +48,7 @@
 							<li>
 								<a href={`${base}/biography/${person?.slug}`}
 									>{person?.name}
-									({person?.gender}, {person?.birthYear} - {person?.deathYear})
+									({person?.birthYear}–{person?.deathYear}, {person?.gender})
 								</a>
 							</li>
 						{/each}
