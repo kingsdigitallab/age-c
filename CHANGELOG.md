@@ -1,3 +1,50 @@
+## v0.4.0 (2025-05-06)
+
+### Feat
+
+- **data**: Add helper functions to help prepare data for search
+- **index**: Add new search aggregations for release type and production share
+- **etl**: Add code/abbreviation expansion to data processing
+- **search**: Remember filter toggle state
+- **search**: Improve label styling in SearchFilters component
+- **search**: Add option to search the search filters
+- **layout**: Add GitHub link and changelog version to footer
+- **config**: Include app version in Vite configuration
+- **config**: Add app version and repository URL to configuration
+- **search**: Add functionality to display/remove current filters in SearchFilters component
+- **search**: Style SearchFilters component control buttons
+- **search**: Clean up empty search filters on filter change
+- **search**: Add buttons to exand and clear all filters to SearchFilters component
+- **search**: Add SearchControls component for managing search filters and sorting
+- **search**: Pass loading and searching states into SearchPagination component
+
+### Fix
+
+- **search**: Use case-insensitive comparison for film type in SearchResultsItems component
+
+### Refactor
+
+- **layout**: Simplify layout structure and improve main content transition
+- **film**: Improve data loading logic for development and production environments
+- **routes**: Replace person page with biography page
+- **data**: Reorganise data retrieval functions for films and biographies
+- **search**: Simplify item type handling in SearchResultsItems component
+- **data**: Change record types to uppercase
+- **data**: Load JSON data dynamically in film and person routes
+- **search**: Rename getDataForSearch to getSearchData in API handler
+- **search**: Adjust alignment in SearchControls component
+- **index**: Update sorting options with labels
+- **search**: Update search sorting logic and simplify state management
+- **search**: Simplify SearchControls component
+- **search**: Update default sort order from 'default_asc' to 'title_asc'
+- **landing**: Update hero text color to use primary color variable
+- **search**: Change searchResults state to an object
+- **search**: Add SearchControls component
+- **search**: Update parameters for onSearch and onReset handlers in SearchInput component
+- **search**: Improve SearchResults component accessibility
+- **search**: Update default sort order in search function to 'default_asc'
+- **search**: Simplify search function call
+
 ## v0.3.0 (2025-05-01)
 
 ### Feat
