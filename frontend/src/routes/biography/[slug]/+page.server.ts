@@ -1,12 +1,20 @@
+import { dev } from '$app/environment';
 import { base } from '$app/paths';
+import { getBiographyData, getData } from '$lib/data';
 import type { Item } from '$lib/types';
 import { error } from '@sveltejs/kit';
 import type { EntryGenerator, PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async ({ fetch, params: { slug } }) => {
 	try {
-		const response = await fetch(`${base}/api/biographies/${slug}.json`);
-		const bio = await response.json();
+		let bio: Item;
+
+		if (dev) {
+			const response = await fetch(`${base}/api/biographies/${slug}.json`);
+			bio = await response.json();
+		} else {
+			bio = await getBiographyData(slug);
+		}
 
 		return {
 			bio: bio as Item
@@ -17,8 +25,7 @@ export const load: PageServerLoad = async ({ fetch, params: { slug } }) => {
 };
 
 export const entries: EntryGenerator = async () => {
-	const biographiesModule = await import('$data/biographies.json', { assert: { type: 'json' } });
-	const biographies = biographiesModule.default;
+	const biographies = await getData('biographies');
 
 	return Array.isArray(biographies) ? biographies.map((bio: Item) => ({ slug: bio.slug })) : [];
 };
