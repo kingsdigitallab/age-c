@@ -13,9 +13,10 @@
 
 <ol {start}>
 	{#each items as item}
+		{@const itemType = item.type.toLowerCase()}
 		<li>
-			<a href={`${base}/${item.type}/${item.slug}`}><strong>{item.title}</strong></a>
-			{#if item.type.toLowerCase() === 'film'}
+			<a href={`${base}/${itemType}/${item.slug}`}><strong>{item.title}</strong></a>
+			{#if itemType === 'film'}
 				<ul>
 					{#if item?.release?.year}
 						<li>
@@ -33,7 +34,7 @@
 						<li>Director</li>
 						{#each item.director as director}
 							<li>
-								<a href={`${base}/person/${director.slug}`}
+								<a href={`${base}/biography/${director.slug}`}
 									>{director.name} ({director.gender}, {director.birthYear} - {director.deathYear})</a
 								>
 							</li>
@@ -45,7 +46,7 @@
 						{#each item.character as character}
 							{@const person = character.person}
 							<li>
-								<a href={`${base}/person/${person?.slug}`}
+								<a href={`${base}/biography/${person?.slug}`}
 									>{person?.name}
 									({person?.gender}, {person?.birthYear} - {person?.deathYear})
 								</a>
