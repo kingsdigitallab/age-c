@@ -17,6 +17,12 @@ const searchAggregations = {
 		size: 2,
 		sort: 'key'
 	},
+	releaseType: {
+		title: 'Release type',
+		hide_zero_doc_count: true,
+		size: 5,
+		sort: 'key'
+	},
 	filmType: {
 		title: 'Film type',
 		hide_zero_doc_count: true,
@@ -29,10 +35,22 @@ const searchAggregations = {
 		size: 100,
 		sort: 'key'
 	},
-	tags: {
-		title: 'Tags',
+	productionCountry: {
+		title: 'Production country',
 		hide_zero_doc_count: true,
-		size: 500,
+		size: 100,
+		sort: 'key'
+	},
+	productionShare: {
+		title: 'Production share',
+		hide_zero_doc_count: true,
+		size: 5,
+		sort: 'key'
+	},
+	role: {
+		title: 'Role',
+		hide_zero_doc_count: true,
+		size: 100,
 		sort: 'key'
 	},
 	gender: {
@@ -41,16 +59,16 @@ const searchAggregations = {
 		size: 10,
 		sort: 'key'
 	},
-	directorGender: {
-		title: 'Director gender',
-		hide_zero_doc_count: true,
-		size: 10,
-		sort: 'key'
-	},
-	directorNationality: {
-		title: 'Director nationality',
+	nationality: {
+		title: 'Person nationality',
 		hide_zero_doc_count: true,
 		size: 300,
+		sort: 'key'
+	},
+	tags: {
+		title: 'Tags',
+		hide_zero_doc_count: true,
+		size: 500,
 		sort: 'key'
 	},
 	characterAge: {
