@@ -1,39 +1,39 @@
 {
   "id": "ES2021_022",
-  "type": "film",
+  "type": "Film",
   "slug": "es2021-022-nora",
   "title": {
     "native": "Nora",
     "english": "Nora"
   },
-  "filmType": "F",
+  "filmType": "Fiction film",
   "release": {
-    "type": "THE",
+    "type": "Theatrical release",
     "date": "2021-03-09",
     "year": 2021
   },
   "production": {
-    "country": "ES",
-    "share": "MAJ"
+    "country": "Spain",
+    "share": "Majority coproducer"
   },
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=yh7ipaLDASA",
     "posterUrl": "https://www.imdb.com/title/tt11123392/mediaviewer/rm799909633/?ref_=tt_ov_i"
   },
   "genre": [
-    "ROA",
-    "DRA"
+    "Road Movie",
+    "Drama"
   ],
   "tags": [
-    "natural death",
-    "grief",
-    "caregiving",
-    "search for meaning",
-    "physical illness",
-    "extended family",
-    "medical treatment",
     "grandfatherhood",
-    "regional identity"
+    "regional identity",
+    "extended family",
+    "grief",
+    "physical illness",
+    "medical treatment",
+    "natural death",
+    "search for meaning",
+    "caregiving"
   ],
   "director": [
     {
@@ -41,43 +41,50 @@
       "slug": "lara-izagirre",
       "name": "Lara Izagirre",
       "birthYear": 1985,
-      "gender": "F",
-      "nationality": "ES"
+      "gender": "Female identifying",
+      "nationality": "Spain"
     }
   ],
   "character": [
     {
       "id": "ES2021_022_01",
-      "age": "3",
-      "gender": "M",
-      "origin": "WWE",
-      "person": {
-        "id": "Ram\u00f3n Barea",
-        "slug": "ramon-barea",
-        "name": "Ram\u00f3n Barea",
-        "birthYear": 1949.0,
-        "gender": "M",
-        "nationality": "ES"
-      }
-    },
-    {
-      "id": "ES2021_022_01",
-      "age": "4",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WLA",
-      "class": "LM",
-      "profession": "RE",
-      "ability": "TD",
-      "assistedMobility": "TD",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Latin American",
+      "class": "Lower Middle class",
+      "profession": "Retired",
+      "ability": "Temporary disability",
+      "assistedMobility": "Yes",
       "person": {
         "id": "H\u00e9ctor Alterio",
         "slug": "hector-alterio",
         "name": "H\u00e9ctor Alterio",
         "birthYear": 1929.0,
-        "gender": "M",
-        "nationality": "AR"
-      }
+        "gender": "Male identifying",
+        "nationality": "Argentina"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2021_022_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Unknown",
+      "profession": "Unknown",
+      "ability": "Unknown",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Ram\u00f3n Barea",
+        "slug": "ramon-barea",
+        "name": "Ram\u00f3n Barea",
+        "birthYear": 1949.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
     }
   ],
   "synopsis": {

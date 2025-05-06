@@ -1,41 +1,41 @@
 {
   "id": "ES2020_008",
-  "type": "film",
+  "type": "Film",
   "slug": "es2020-008-baby",
   "title": {
     "native": "Baby",
     "english": "Baby"
   },
-  "filmType": "F",
+  "filmType": "Fiction film",
   "release": {
-    "type": "THE",
+    "type": "Theatrical release",
     "date": "2020-03-12",
     "year": 2020
   },
   "production": {
-    "country": "ES",
-    "share": "MAJ"
+    "country": "Spain",
+    "share": "Majority coproducer"
   },
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=6CyzBBTt-Dg",
     "posterUrl": "https://www.imdb.com/title/tt9760852/mediaviewer/rm2184169473/?ref_=tt_ov_i"
   },
   "genre": [
-    "FAN",
-    "HOR",
-    "DRA",
-    "THR"
+    "Horror",
+    "Thriller",
+    "Drama",
+    "Fantasy"
   ],
   "tags": [
+    "rural",
     "intergenerational conflict",
-    "mental illness",
-    "caregiving",
-    "abuse",
-    "independent home",
-    "motherhood",
     "trauma",
+    "abuse",
+    "mental illness",
+    "motherhood",
     "power",
-    "rural"
+    "independent home",
+    "caregiving"
   ],
   "director": [
     {
@@ -43,41 +43,50 @@
       "slug": "juanma-bajo-ulloa",
       "name": "Juanma Bajo Ulloa",
       "birthYear": 1967,
-      "gender": "M",
-      "nationality": "ES"
+      "gender": "Male identifying",
+      "nationality": "Spain"
     }
   ],
   "character": [
     {
-      "id": "ES2020_008_01",
-      "age": "3",
-      "gender": "F",
-      "origin": "WWE",
-      "class": "UC",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Harriet Sansom Harris",
-        "slug": "harriet-sansom-harris",
-        "name": "Harriet Sansom Harris",
-        "birthYear": 1957.0,
-        "gender": "F",
-        "nationality": "US"
-      }
-    },
-    {
       "id": "ES2020_008_02",
-      "age": "4",
-      "gender": "F",
-      "origin": "WWE",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Female identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Unknown",
+      "profession": "Unknown",
+      "ability": "Unknown",
+      "assistedMobility": "Unknown",
       "person": {
         "id": "Charo L\u00f3pez",
         "slug": "charo-lopez",
         "name": "Charo L\u00f3pez",
         "birthYear": 1943.0,
-        "gender": "F",
-        "nationality": "ES"
-      }
+        "gender": "Female identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2020_008_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Upper class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Harriet Sansom Harris",
+        "slug": "harriet-sansom-harris",
+        "name": "Harriet Sansom Harris",
+        "birthYear": 1957.0,
+        "gender": "Female identifying",
+        "nationality": "United States of America (the)"
+      },
+      "role": "Unknown"
     }
   ],
   "synopsis": {

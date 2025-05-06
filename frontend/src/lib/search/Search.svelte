@@ -3,6 +3,7 @@
 	import SearchWorker from '$lib/search/worker?worker';
 	import { onDestroy, onMount } from 'svelte';
 	import type { SearchConfig } from './types';
+	import SearchControls from './SearchControls.svelte';
 	import SearchFilters from './SearchFilters.svelte';
 	import SearchInput from './SearchInput.svelte';
 	import SearchPagination from './SearchPagination.svelte';
@@ -19,6 +20,7 @@
 		SearchStatusComponent = SearchStatus,
 		SearchInputComponent = SearchInput,
 		SearchFiltersComponent = SearchFilters,
+		SearchControlsComponent = SearchControls,
 		SearchResultsComponent = SearchResults,
 		SearchResultsItemsComponent = SearchResultsItems,
 		SearchPaginationComponent = SearchPagination,
@@ -31,6 +33,7 @@
 		SearchStatusComponent?: typeof SearchStatus;
 		SearchInputComponent?: typeof SearchInput;
 		SearchFiltersComponent?: typeof SearchFilters;
+		SearchControlsComponent?: typeof SearchControls;
 		SearchResultsComponent?: typeof SearchResults;
 		SearchResultsItemsComponent?: typeof SearchResultsItems;
 		SearchPaginationComponent?: typeof SearchPagination;
@@ -40,22 +43,31 @@
 	let searchQuery = $state('');
 	let searchPage = $state(1);
 	let searchFilters = $state<Record<string, string[]>>({});
+	const searchFiltersCount = $derived(Object.keys(searchFilters).length);
+	const searchSortOptions = $derived(
+		Object.entries(searchConfig[dataSource].sortings).map(([key, value]) => ({
+			label: value.label,
+			value: key
+		}))
+	);
+	let searchSortBy = $state<string>('');
+
 	let searchStatus = $state<'idle' | 'load' | 'ready'>('idle');
 	let searchWorker = $state<Worker | null>(null);
 	let searchError = $state<string | null>(null);
+	let searchResults = $state({ query: '', results: [] });
 
-	let isLoading = $derived(['idle', 'load'].includes(searchStatus));
+	const isLoading = $derived(['idle', 'load'].includes(searchStatus));
+	let isSearching = $state(false);
 
 	let showSearch = $state(false);
 
-	let isSearching = $state(false);
-	let searchResults = $state([]);
 	// @ts-ignore
-	const searchAggregations = $derived(searchResults?.data?.aggregations || {});
+	const searchAggregations = $derived(searchResults.results?.data?.aggregations || {});
 	// @ts-ignore
-	const searchItems = $derived(searchResults?.data?.items || []);
+	const searchItems = $derived(searchResults.results?.data?.items || []);
 	// @ts-ignore
-	let searchPagination = $derived(searchResults?.pagination || {});
+	let searchPagination = $derived(searchResults.results?.pagination || {});
 
 	onMount(() => {
 		initSearchEngine();
@@ -77,7 +89,7 @@
 				searchStatus = 'ready';
 				postSearchMessage();
 			} else if (action === 'results') {
-				searchResults = payload.results;
+				searchResults = { query: payload.query, results: payload.results };
 				isSearching = false;
 			}
 		};
@@ -111,6 +123,7 @@
 					dataSource,
 					query: searchQuery,
 					page: searchPage,
+					sort: searchSortBy || undefined,
 					filters: $state.snapshot(searchFilters)
 				}
 			});
@@ -124,12 +137,24 @@
 		postSearchMessage();
 	}
 
+	function handleSortByChange(e: Event) {
+		e.preventDefault();
+
+		searchPage = 1;
+		postSearchMessage();
+	}
+
 	function handlePageChange(page: number) {
 		searchPage = page;
 		postSearchMessage();
 	}
 
 	function handleSearchFiltersChange() {
+		// remove empty keys, i.e. filters that no longer have any values
+		searchFilters = Object.fromEntries(
+			Object.entries(searchFilters).filter(([_, value]) => value.length > 0)
+		);
+
 		searchPage = 1;
 		postSearchMessage();
 	}
@@ -160,22 +185,29 @@
 		onReset={handleReset}
 	/>
 
-	<section>
-		<button onclick={handleToggleSearch} disabled={isLoading || isSearching || showSearch}>
-			Filters
-		</button>
-	</section>
+	<SearchControlsComponent
+		{isLoading}
+		{isSearching}
+		{showSearch}
+		{searchFiltersCount}
+		sortOptions={searchSortOptions}
+		bind:sortBy={searchSortBy}
+		onToggleFilters={handleToggleSearch}
+		onSortByChange={handleSortByChange}
+	/>
 
 	<SearchResultsComponent
 		{isLoading}
 		{isSearching}
-		{searchQuery}
+		searchQuery={searchResults.query}
 		{searchItems}
 		{searchPagination}
 		{SearchResultsItemsComponent}
 	/>
 
 	<SearchPaginationComponent
+		{isLoading}
+		{isSearching}
 		count={searchPagination.total}
 		page={searchPagination.page}
 		perPage={searchPagination.per_page}

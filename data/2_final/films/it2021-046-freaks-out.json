@@ -1,29 +1,29 @@
 {
   "id": "IT2021_046",
-  "type": "film",
+  "type": "Film",
   "slug": "it2021-046-freaks-out",
   "title": {
     "native": "Freaks out"
   },
-  "filmType": "F",
+  "filmType": "Fiction film",
   "release": {
-    "type": "THE",
+    "type": "Theatrical release",
     "date": "2021-10-28",
     "year": 2021
   },
   "production": {
-    "country": "IT",
-    "share": "MAJ"
+    "country": "Italy",
+    "share": "Majority coproducer"
   },
   "genre": [
-    "ACT",
-    "COM",
-    "COA",
-    "SCI"
+    "Comedy",
+    "Science Fiction",
+    "Action",
+    "Coming of Age"
   ],
   "tags": [
-    "extended family",
     "artistic creation",
+    "extended family",
     "segregation"
   ],
   "director": [
@@ -32,48 +32,50 @@
       "slug": "gabriele-mainetti",
       "name": "Gabriele Mainetti",
       "birthYear": 1976,
-      "gender": "M",
-      "nationality": "IT"
+      "gender": "Male identifying",
+      "nationality": "Italy"
     }
   ],
   "character": [
     {
-      "id": "IT2021_046_01",
-      "age": "2",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "LC",
-      "profession": "SE",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Giorgio Tirabassi",
-        "slug": "giorgio-tirabassi",
-        "name": "Giorgio Tirabassi",
-        "birthYear": 1960.0,
-        "gender": "M",
-        "nationality": "IT"
-      },
-      "role": "LEA"
-    },
-    {
       "id": "IT2021_046_02",
-      "age": "2",
-      "gender": "M",
-      "origin": "WWE",
-      "class": "LC",
-      "profession": "EM",
-      "ability": "PD",
-      "assistedMobility": "PD",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Lower class",
+      "profession": "Employed",
+      "ability": "Permanent disability",
+      "assistedMobility": "No",
       "person": {
         "id": "Giancarlo Martini",
         "slug": "giancarlo-martini",
         "name": "Giancarlo Martini",
         "birthYear": 1963.0,
-        "gender": "M",
-        "nationality": "IT"
+        "gender": "Male identifying",
+        "nationality": "Italy"
       },
-      "role": "LEA"
+      "role": "Leading actor"
+    },
+    {
+      "id": "IT2021_046_01",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Lower class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Giorgio Tirabassi",
+        "slug": "giorgio-tirabassi",
+        "name": "Giorgio Tirabassi",
+        "birthYear": 1960.0,
+        "gender": "Male identifying",
+        "nationality": "Italy"
+      },
+      "role": "Leading actor"
     }
   ]
 }

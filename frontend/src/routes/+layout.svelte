@@ -24,50 +24,53 @@
 	<meta name="keywords" content={config.siteKeywords.join(', ')} />
 </svelte:head>
 
-<div class="container">
-	<header>
-		<nav aria-label="Main navigation">
-			<ul>
-				<li>
-					<strong><a href={`${base}/`}>{config.siteName}</a></strong>
-					{#if dev}<mark>dev</mark>{/if}
-				</li>
-			</ul>
-			<ul>
-				<li><a href={`${base}/about`}>About</a></li>
-			</ul>
-		</nav>
-	</header>
+<header class="container">
+	<nav aria-label="Main navigation">
+		<ul>
+			<li>
+				<strong><a href={`${base}/`}>{config.siteName}</a></strong>
+				{#if dev}<mark>dev</mark>{/if}
+			</li>
+		</ul>
+		<ul>
+			<li><a href={`${base}/about`}>About</a></li>
+		</ul>
+	</nav>
+</header>
 
-	<main transition:fade>
-		{#if children}
-			{@render children()}
-		{/if}
-	</main>
+<main class="container">
+	{#key page.url.pathname}
+		<div transition:fade={{ duration: 100 }}>
+			{#if children}
+				{@render children()}
+			{/if}
+		</div>
+	{/key}
+</main>
 
-	<footer>
-		<nav aria-label="Footer navigation">
-			<ul>
-				<li><small>{config.siteName}</small></li>
-			</ul>
-		</nav>
-		<p>
-			<small>
-				Designed and developed by
-				<a href="https://kdl.kcl.ac.uk/">King's Digital Lab</a>
-			</small>
-		</p>
-	</footer>
-</div>
+<footer class="container">
+	<nav aria-label="Footer navigation">
+		<ul>
+			<li><small>{config.siteName}</small></li>
+		</ul>
+		<ul>
+			<li><small><a href={config.repoUrl}>GitHub</a></small></li>
+			<li>
+				<code>
+					<a href="{config.repoUrl}/blob/v{config.appVersion}/CHANGELOG.md">v{config.appVersion}</a>
+				</code>
+			</li>
+		</ul>
+	</nav>
+	<p>
+		<small>
+			Designed and developed by
+			<a href="https://kdl.kcl.ac.uk/">King's Digital Lab</a>
+		</small>
+	</p>
+</footer>
 
 <style>
-	div.container {
-		align-items: start;
-		display: grid;
-		grid-template-rows: auto 1fr auto;
-		min-height: 100vh;
-	}
-
 	header {
 		border-bottom: var(--pico-border-width) solid var(--pico-primary-border);
 	}
@@ -78,5 +81,13 @@
 
 	footer {
 		border-top: var(--pico-border-width) solid var(--pico-primary-border);
+	}
+
+	footer code {
+		--pico-font-family: var(--pico-font-family);
+	}
+
+	footer p {
+		text-align: center;
 	}
 </style>

@@ -13,8 +13,8 @@
 		isLoading: boolean;
 		isSearching: boolean;
 		minSearchQueryLength?: number;
-		onSearch: () => void;
-		onReset: () => void;
+		onSearch: (e: Event) => void;
+		onReset: (e: Event) => void;
 	} = $props();
 
 	let isValidSearch = $derived(searchQuery.trim().length >= minSearchQueryLength);

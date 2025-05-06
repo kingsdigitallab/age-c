@@ -5,7 +5,9 @@ export const config = {
 	siteTitle: 'Ageing and Gender in European Cinema',
 	siteDescription: 'An exploratory database of ageing and gender in European cinema',
 	siteKeywords: ['ageing', 'gender', 'cinema', 'european cinema'],
-	emptyPlaceholder: 'Unknown'
+	emptyPlaceholder: 'Unknown',
+	appVersion: import.meta.env.APP_VERSION,
+	repoUrl: 'https://github.com/kingsdigitallab/age-c'
 };
 
 const searchAggregations = {
@@ -13,6 +15,12 @@ const searchAggregations = {
 		title: 'Type',
 		hide_zero_doc_count: true,
 		size: 2,
+		sort: 'key'
+	},
+	releaseType: {
+		title: 'Release type',
+		hide_zero_doc_count: true,
+		size: 5,
 		sort: 'key'
 	},
 	filmType: {
@@ -27,10 +35,22 @@ const searchAggregations = {
 		size: 100,
 		sort: 'key'
 	},
-	tags: {
-		title: 'Tags',
+	productionCountry: {
+		title: 'Production country',
 		hide_zero_doc_count: true,
-		size: 500,
+		size: 100,
+		sort: 'key'
+	},
+	productionShare: {
+		title: 'Production share',
+		hide_zero_doc_count: true,
+		size: 5,
+		sort: 'key'
+	},
+	role: {
+		title: 'Role',
+		hide_zero_doc_count: true,
+		size: 100,
 		sort: 'key'
 	},
 	gender: {
@@ -39,16 +59,16 @@ const searchAggregations = {
 		size: 10,
 		sort: 'key'
 	},
-	directorGender: {
-		title: 'Director gender',
-		hide_zero_doc_count: true,
-		size: 10,
-		sort: 'key'
-	},
-	directorNationality: {
-		title: 'Director nationality',
+	nationality: {
+		title: 'Person nationality',
 		hide_zero_doc_count: true,
 		size: 300,
+		sort: 'key'
+	},
+	tags: {
+		title: 'Tags',
+		hide_zero_doc_count: true,
+		size: 500,
 		sort: 'key'
 	},
 	characterAge: {
@@ -106,27 +126,23 @@ export const searchConfig: SearchConfig = {
 		aggregations: searchAggregations,
 		searchableFields: ['title', 'name', 'synopsis', ...Object.keys(searchAggregations)],
 		sortings: {
-			default_asc: {
-				field: 'title',
-				order: 'asc'
-			},
-			default_desc: {
-				field: 'title',
-				order: 'desc'
-			},
-			name_asc: {
+			person_name_asc: {
+				label: 'Person name (A-Z)',
 				field: 'name',
 				order: 'asc'
 			},
-			name_desc: {
+			person_name_desc: {
+				label: 'Person name (Z-A)',
 				field: 'name',
 				order: 'desc'
 			},
-			title_asc: {
+			film_title_asc: {
+				label: 'Film title (A-Z)',
 				field: 'title',
 				order: 'asc'
 			},
-			title_desc: {
+			film_title_desc: {
+				label: 'Film title (Z-A)',
 				field: 'title',
 				order: 'desc'
 			}

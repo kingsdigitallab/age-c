@@ -1,91 +1,97 @@
 {
   "id": "IT2020_070",
-  "type": "film",
+  "type": "Film",
   "slug": "it2020-070-last-words",
   "title": {
     "native": "Last words"
   },
-  "filmType": "F",
+  "filmType": "Fiction film",
   "release": {
-    "type": "FES",
+    "type": "First festival screening",
     "date": "2020-05-12",
     "year": 2020
   },
   "production": {
-    "country": "IT",
-    "share": "MAJ"
+    "country": "Italy",
+    "share": "Majority coproducer"
   },
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=RRLjfjx_A4M",
     "posterUrl": "https://www.imdb.com/title/tt12443726/mediaviewer/rm650833665/?ref_=tt_ov_i"
   },
   "genre": [
-    "MPF",
-    "DRA",
-    "DIS"
+    "Multi-protagonist film",
+    "Disaster Film",
+    "Drama"
   ],
   "tags": [
-    "ecology",
     "personal memory",
-    "intergenerational friendship",
-    "natural",
     "interracial relationships",
-    "artistic creation"
+    "ecology",
+    "natural",
+    "artistic creation",
+    "intergenerational friendship"
   ],
   "character": [
     {
-      "id": "IT2020_070_01",
-      "age": "3",
-      "gender": "F",
-      "sexuality": "HE",
-      "origin": "NEU",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Charlotte Rampling",
-        "slug": "charlotte-rampling",
-        "name": "Charlotte Rampling",
-        "birthYear": 1946.0,
-        "gender": "F",
-        "nationality": "GB"
-      },
-      "role": "LEA"
-    },
-    {
-      "id": "IT2020_070_02",
-      "age": "4",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "WNA",
-      "ability": "AB",
-      "assistedMobility": "AB",
-      "person": {
-        "id": "Nick Nolte",
-        "slug": "nick-nolte",
-        "name": "Nick Nolte",
-        "birthYear": 1941.0,
-        "gender": "M",
-        "nationality": "US"
-      },
-      "role": "LEA"
-    },
-    {
       "id": "IT2020_070_03",
-      "age": "3",
-      "gender": "M",
-      "sexuality": "HE",
-      "origin": "CEU",
-      "ability": "AB",
-      "assistedMobility": "AB",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "Central European",
+      "class": "Unknown",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
       "person": {
         "id": "Stellan Skarsg\u00e5rd",
         "slug": "stellan-skarsgard",
         "name": "Stellan Skarsg\u00e5rd",
         "birthYear": 1951.0,
-        "gender": "M",
-        "nationality": "CH"
+        "gender": "Male identifying",
+        "nationality": "Switzerland"
       },
-      "role": "LEA"
+      "role": "Leading actor"
+    },
+    {
+      "id": "IT2020_070_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "Northern European",
+      "class": "Unknown",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Charlotte Rampling",
+        "slug": "charlotte-rampling",
+        "name": "Charlotte Rampling",
+        "birthYear": 1946.0,
+        "gender": "Female identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Leading actor"
+    },
+    {
+      "id": "IT2020_070_02",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White North American",
+      "class": "Unknown",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Nick Nolte",
+        "slug": "nick-nolte",
+        "name": "Nick Nolte",
+        "birthYear": 1941.0,
+        "gender": "Male identifying",
+        "nationality": "United States of America (the)"
+      },
+      "role": "Leading actor"
     }
   ],
   "synopsis": {

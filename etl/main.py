@@ -1,5 +1,6 @@
 import json
 import logging
+from functools import lru_cache
 from pathlib import Path
 from typing import Dict, Union
 
@@ -109,7 +110,7 @@ def process_main() -> DataFrame:
         RAW_DIR / "The-Beast-2018-2023-main-v4.csv", sep=";", skiprows=1
     )
 
-    main_df["type"] = "film"
+    main_df["type"] = "Film"
     main_df["slug"] = main_df.apply(
         lambda x: slugify(f"{x['film_id']}-{x['nat_title']}"), axis=1
     )
@@ -131,7 +132,7 @@ def process_main() -> DataFrame:
     main_df["release_year"] = main_df["release_year"].fillna(0).astype(int)
     main_df["release"] = main_df.apply(
         lambda x: {
-            "type": x["release_type"],
+            "type": expand_code("release_type", x["release_type"]),
             "date": x["release_date"].strftime("%Y-%m-%d")
             if pd.notnull(x["release_date"])
             else None,
@@ -140,6 +141,11 @@ def process_main() -> DataFrame:
         axis=1,
     )
     main_df = main_df.drop(columns=["release_type", "release_date", "release_year"])
+
+    main_df["filmType"] = main_df["film_type"].apply(
+        lambda x: expand_code("film_type", x)
+    )
+    main_df = main_df.drop(columns=["film_type"])
 
     main_df["director"] = main_df["director"].str.split(", ")
     main_df = main_df.explode("director")
@@ -166,6 +172,8 @@ def process_main() -> DataFrame:
         main_df = main_df.merge(df[columns], on="film_id", how="left")
         main_df = main_df.fillna("")
 
+    main_df["genre"] = main_df["film_genre"].apply(lambda x: expand_code("genre", x))
+    main_df = main_df.drop(columns=["film_genre"])
     main_df["media"] = main_df.apply(
         lambda x: {"trailerUrl": x["trailer_url"], "posterUrl": x["poster_url"]},
         axis=1,
@@ -179,15 +187,17 @@ def process_main() -> DataFrame:
     main_df = main_df.drop(columns=["nat_synopsis", "eng_synopsis"])
 
     main_df["production"] = main_df.apply(
-        lambda x: {"country": x["film_country"], "share": x["prod_share"]}, axis=1
+        lambda x: {
+            "country": expand_code("country", x["film_country"]),
+            "share": expand_code("prod_share", x["prod_share"]),
+        },
+        axis=1,
     )
     main_df = main_df.drop(columns=["film_country", "prod_share"])
 
     main_df = main_df.rename(
         columns={
             "film_id": "id",
-            "film_genre": "genre",
-            "film_type": "filmType",
             "tag_name": "tags",
         }
     )
@@ -240,6 +250,23 @@ def load_data(
         raise
 
 
+@lru_cache(maxsize=1024)
+def expand_code(field: str, code: str) -> str:
+    """Expand an abbreviation code into a full description."""
+    default = "Unknown"
+
+    if pd.isna(code) or code == "":
+        return default
+
+    df = load_data(RAW_DIR / f"codes/{field}.csv")
+    types = df[df["Code"] == code]["Description"]
+
+    if len(types) == 0:
+        return default
+
+    return types.values[0]
+
+
 def process_biographies() -> DataFrame:
     """Process biography and nationality data.
 
@@ -257,11 +284,14 @@ def process_biographies() -> DataFrame:
 
     biog_df["birth_year"] = biog_df["birth_year"].fillna(0).astype(int)
     biog_df["death_year"] = biog_df["death_year"].fillna(0).astype(int)
+    biog_df["gender"] = biog_df["gender"].apply(lambda x: expand_code("gender", x))
 
     biog_df = biog_df.merge(
         biog_nat_df[["person_id", "person_nat"]], on="person_id", how="left"
     )
-    biog_df["person_nat"] = biog_df["person_nat"].fillna("")
+    biog_df["person_nat"] = biog_df["person_nat"].apply(
+        lambda x: expand_code("country", x)
+    )
     biog_df["slug"] = biog_df["person_id"].apply(lambda x: slugify(x))
 
     return biog_df
@@ -277,6 +307,9 @@ def process_characters() -> DataFrame:
 
     character_tags_df["person_id"] = character_tags_df["person_id"].str.strip()
     character_tags_df["character_id"] = character_tags_df["character_id"].str.strip()
+    character_tags_df["ch_age"] = character_tags_df["ch_age"].apply(
+        lambda x: int(x) if x in ["1", "2", "3", "4", "5"] else 5
+    )
 
     biog_df = process_biographies()
 
@@ -319,14 +352,16 @@ def process_characters() -> DataFrame:
     character_tags_df["character_obj"] = character_tags_df.apply(
         lambda x: {
             "id": x["character_id"],
-            "age": x["ch_age"],
-            "gender": x["ch_gender"],
-            "sexuality": x["ch_sexuality"],
-            "origin": x["ch_porigin"],
-            "class": x["ch_class"],
-            "profession": x["ch_profession"],
-            "ability": x["ch_ability"],
-            "assistedMobility": x["ch_ability"],
+            "age": f"{x['ch_age']}: {expand_code('age', x['ch_age'])}",
+            "gender": expand_code("gender", x["ch_gender"]),
+            "sexuality": expand_code("sexuality", x["ch_sexuality"]),
+            "origin": expand_code("origin", x["ch_porigin"]),
+            "class": expand_code("class", x["ch_class"]),
+            "profession": expand_code("professional_status", x["ch_profession"]),
+            "ability": expand_code("ability", x["ch_ability"]),
+            "assistedMobility": expand_code(
+                "assisted_mobility", x["assisted_mobility"]
+            ),
             "person": {
                 "id": x["person_id"],
                 "slug": x["slug"],
@@ -336,7 +371,7 @@ def process_characters() -> DataFrame:
                 "gender": x["gender"],
                 "nationality": x["person_nat"],
             },
-            "role": x["role_class"],
+            "role": expand_code("role_class", x["role_class"]),
         },
         axis=1,
     )
@@ -526,7 +561,7 @@ def combine_bio_data() -> DataFrame:
         )
         biog_df = biog_df.drop(columns=["director"])
 
-        biog_df["type"] = "person"
+        biog_df["type"] = "Biography"
         biog_df = biog_df.rename(
             columns={
                 "person_id": "id",

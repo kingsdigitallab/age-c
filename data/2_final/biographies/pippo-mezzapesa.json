@@ -1,22 +1,41 @@
 {
   "id": "Pippo Mezzapesa",
-  "type": "person",
+  "type": "Biography",
   "slug": "pippo-mezzapesa",
   "name": "Pippo Mezzapesa",
   "birthYear": 1980,
-  "nationality": "IT",
-  "gender": "M",
+  "nationality": "Italy",
+  "gender": "Male identifying",
   "director": [
     {
-      "filmType": "F",
-      "genre": "DRA",
-      "id": "IT2022_014",
+      "filmType": "Fiction film",
+      "genre": "Drama",
+      "id": "IT2018_055",
       "production": {
-        "country": "IT",
-        "share": "MAJ"
+        "country": "Italy",
+        "share": "Majority coproducer"
       },
       "release": {
-        "type": "THE",
+        "type": "Theatrical release",
+        "year": 2018
+      },
+      "slug": "it2018-055-il-bene-mio",
+      "tags": "widowhood",
+      "title": {
+        "english": "My Own Good",
+        "native": "Il bene mio"
+      }
+    },
+    {
+      "filmType": "Fiction film",
+      "genre": "Crime",
+      "id": "IT2022_014",
+      "production": {
+        "country": "Italy",
+        "share": "Majority coproducer"
+      },
+      "release": {
+        "type": "Theatrical release",
         "year": 2022
       },
       "slug": "it2022-014-ti-mangio-il-cuore",
@@ -24,25 +43,6 @@
       "title": {
         "english": "Burning Hearts",
         "native": "Ti mangio il cuore"
-      }
-    },
-    {
-      "filmType": "F",
-      "genre": "DRA",
-      "id": "IT2018_055",
-      "production": {
-        "country": "IT",
-        "share": "MAJ"
-      },
-      "release": {
-        "type": "THE",
-        "year": 2018
-      },
-      "slug": "it2018-055-il-bene-mio",
-      "tags": "loneliness",
-      "title": {
-        "english": "My Own Good",
-        "native": "Il bene mio"
       }
     }
   ]

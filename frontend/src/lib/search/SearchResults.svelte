@@ -16,34 +16,48 @@
 		isSearching: boolean;
 		searchQuery: string;
 		searchItems: Item[];
-		searchPagination: { total?: number };
+		searchPagination: { total?: number; page?: number; per_page?: number };
 		title?: string;
 		SearchResultsItemsComponent: typeof SearchResultsItems;
 	} = $props();
+
+	const start = $derived(
+		searchPagination?.page && searchPagination?.per_page
+			? searchPagination.page * searchPagination.per_page - searchPagination.per_page + 1
+			: 1
+	);
 </script>
 
-<section aria-busy={isSearching}>
-	{#if !isLoading}
-		<hgroup>
-			<h2>{title}</h2>
-			<small>
-				{#if searchPagination?.total !== undefined}
-					{searchPagination.total.toLocaleString()} found
-				{:else}
-					No results
-				{/if}
-			</small>
-		</hgroup>
-
-		<div transition:fade>
-			{#if searchItems?.length > 0}
-				<SearchResultsItemsComponent
-					items={searchItems}
-					start={searchPagination.page * searchPagination.per_page - searchPagination.per_page + 1}
-				/>
-			{:else if searchQuery && !isSearching}
-				<p>No results found for "{searchQuery}"</p>
+<section>
+	<hgroup>
+		<h2>{title}</h2>
+		<small aria-busy={isLoading || isSearching} aria-live="polite">
+			{#if searchPagination?.total !== undefined}
+				{searchPagination.total.toLocaleString()} found
+				{#if searchQuery}for <span class="search-query">{searchQuery}</span>{/if}
+			{:else}
+				No results
 			{/if}
-		</div>
-	{/if}
+		</small>
+	</hgroup>
+
+	<div transition:fade aria-live="polite">
+		{#if searchItems?.length > 0}
+			<SearchResultsItemsComponent items={searchItems} {start} />
+		{:else if searchQuery && !isSearching}
+			<p>No results found for "{searchQuery}"</p>
+		{/if}
+	</div>
 </section>
+
+<style>
+	.search-query::before {
+		content: '"';
+		font-weight: normal;
+	}
+
+	.search-query::after {
+		content: '"';
+		font-weight: normal;
+	}
+</style>
