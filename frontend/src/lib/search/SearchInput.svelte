@@ -23,6 +23,7 @@
 <section>
 	<h2>{title}</h2>
 	<form onsubmit={onSearch} onreset={onReset}>
+		<!-- svelte-ignore a11y_no_redundant_roles -->
 		<fieldset role="group">
 			<input
 				id="search-query"
