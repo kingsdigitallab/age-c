@@ -1,5 +1,4 @@
 import { base } from '$app/paths';
-import films from '$data/films.json' assert { type: 'json' };
 import type { Item } from '$lib/types';
 import { error } from '@sveltejs/kit';
 import type { EntryGenerator, PageServerLoad } from './$types';
@@ -18,5 +17,8 @@ export const load: PageServerLoad = async ({ fetch, params: { slug } }) => {
 };
 
 export const entries: EntryGenerator = async () => {
+	const filmsModule = await import('$data/films.json', { assert: { type: 'json' } });
+	const films = filmsModule.default;
+
 	return Array.isArray(films) ? films.map((film: Item) => ({ slug: film.slug })) : [];
 };
