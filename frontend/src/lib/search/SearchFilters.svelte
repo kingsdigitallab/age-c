@@ -28,7 +28,7 @@
 		Object.entries(searchFilters).filter(([_, value]) => value.length > 0)
 	);
 
-	const aggregations = $derived(Object.entries(searchConfig[dataSource].aggregations));
+	const aggregations = Object.entries(searchConfig[dataSource].aggregations);
 	const filterSearchTerms = $state<Record<string, string>>({});
 
 	let expandFilters = $state(false);
@@ -36,7 +36,7 @@
 
 	function handleExpandFilters() {
 		expandFilters = !expandFilters;
-		expandFiltersByField = aggregations.map(() => expandFilters);
+		expandFiltersByField = expandFiltersByField.map(() => expandFilters);
 	}
 
 	function handleClearFilters() {
