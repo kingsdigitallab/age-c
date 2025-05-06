@@ -6,6 +6,9 @@ export interface Director {
 	deathYear: number;
 	gender: string;
 	nationality: string;
+	filmType: string;
+	release: Release;
+	production: Production;
 }
 
 export interface Person {
