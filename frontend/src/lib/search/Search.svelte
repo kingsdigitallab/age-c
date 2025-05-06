@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import SearchWorker from '$lib/search/worker?worker';
+	import pluralize from 'pluralize-esm';
 	import { onDestroy, onMount } from 'svelte';
 	import type { SearchConfig } from './types';
 	import SearchControls from './SearchControls.svelte';
@@ -16,6 +17,7 @@
 		dataSource,
 		searchConfig,
 		title,
+		aggregationKey,
 		SearchShortcutsComponent = SearchShortcuts,
 		SearchStatusComponent = SearchStatus,
 		SearchInputComponent = SearchInput,
@@ -29,6 +31,7 @@
 		dataSource: keyof typeof searchConfig;
 		searchConfig: SearchConfig;
 		title: string;
+		aggregationKey?: string;
 		SearchShortcutsComponent?: typeof SearchShortcuts;
 		SearchStatusComponent?: typeof SearchStatus;
 		SearchInputComponent?: typeof SearchInput;
@@ -68,6 +71,8 @@
 	const searchItems = $derived(searchResults.results?.data?.items || []);
 	// @ts-ignore
 	let searchPagination = $derived(searchResults.results?.pagination || {});
+
+	const stats = $derived(aggregationKey ? searchAggregations[aggregationKey] : null);
 
 	onMount(() => {
 		initSearchEngine();
@@ -172,7 +177,21 @@
 <SearchShortcutsComponent onToggleSearch={handleToggleSearch} />
 
 <article>
-	<h1>{title}</h1>
+	<hgroup>
+		<h1>{title}</h1>
+		{#if stats}
+			<ul class="search-summary-stats">
+				{#each stats.buckets as bucket}
+					{@const count = bucket.doc_count}
+					{@const label = bucket.key}
+					<li>
+						{count.toLocaleString()}
+						{pluralize(label, count)}
+					</li>
+				{/each}
+			</ul>
+		{/if}
+	</hgroup>
 
 	<SearchStatusComponent {isLoading} {isSearching} {searchError} />
 
@@ -224,3 +243,18 @@
 	onClose={() => (showSearch = false)}
 	onFiltersChange={handleSearchFiltersChange}
 />
+
+<style>
+	ul.search-summary-stats {
+		display: flex;
+		gap: var(--pico-spacing);
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	ul.search-summary-stats li {
+		list-style: none;
+		padding: 0;
+	}
+</style>
