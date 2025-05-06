@@ -18,6 +18,7 @@
 	{dataSource}
 	{searchConfig}
 	title="Explore the dataset"
+	aggregationKey="type"
 	SearchResultsItemsComponent={SearchResultsItems}
 />
 
