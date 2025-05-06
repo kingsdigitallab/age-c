@@ -110,7 +110,7 @@ def process_main() -> DataFrame:
         RAW_DIR / "The-Beast-2018-2023-main-v4.csv", sep=";", skiprows=1
     )
 
-    main_df["type"] = "film"
+    main_df["type"] = "Film"
     main_df["slug"] = main_df.apply(
         lambda x: slugify(f"{x['film_id']}-{x['nat_title']}"), axis=1
     )
@@ -188,7 +188,7 @@ def process_main() -> DataFrame:
 
     main_df["production"] = main_df.apply(
         lambda x: {
-            "country": x["film_country"],
+            "country": expand_code("country", x["film_country"]),
             "share": expand_code("prod_share", x["prod_share"]),
         },
         axis=1,
@@ -561,7 +561,7 @@ def combine_bio_data() -> DataFrame:
         )
         biog_df = biog_df.drop(columns=["director"])
 
-        biog_df["type"] = "person"
+        biog_df["type"] = "Biography"
         biog_df = biog_df.rename(
             columns={
                 "person_id": "id",
