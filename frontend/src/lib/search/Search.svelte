@@ -55,12 +55,12 @@
 	);
 	let searchSortBy = $state<string>('');
 
-	let searchStatus = $state<'idle' | 'load' | 'ready'>('idle');
 	let searchWorker = $state<Worker | null>(null);
-	let searchError = $state<string | null>(null);
+	let searchWorkerStatus = $state<'idle' | 'load' | 'ready'>('idle');
+	let searchWorkerError = $state<string | null>(null);
 	let searchResults = $state({ query: '', results: [] });
 
-	const isLoading = $derived(['idle', 'load'].includes(searchStatus));
+	const isLoading = $derived(['idle', 'load'].includes(searchWorkerStatus));
 	let isSearching = $state(false);
 
 	let showSearch = $state(false);
@@ -79,19 +79,19 @@
 	});
 
 	function initSearchEngine() {
-		if (searchStatus === 'ready') {
+		if (searchWorkerStatus === 'ready') {
 			return;
 		}
 
-		searchStatus = 'load';
+		searchWorkerStatus = 'load';
 
 		searchWorker = new SearchWorker();
 		searchWorker.onmessage = (event) => {
 			const { action, payload } = event.data;
-			searchError = null;
+			searchWorkerError = null;
 
 			if (action === 'ready') {
-				searchStatus = 'ready';
+				searchWorkerStatus = 'ready';
 				postSearchMessage();
 			} else if (action === 'results') {
 				searchResults = { query: payload.query, results: payload.results };
@@ -100,8 +100,8 @@
 		};
 
 		searchWorker.onerror = (error) => {
-			searchError = 'An error occurred while searching';
-			searchStatus = 'ready';
+			searchWorkerError = 'An error occurred while searching';
+			searchWorkerStatus = 'ready';
 			console.error('Search worker error:', error);
 		};
 
@@ -121,7 +121,7 @@
 	}
 
 	function postSearchMessage() {
-		if (searchStatus === 'ready') {
+		if (searchWorkerStatus === 'ready') {
 			searchWorker?.postMessage({
 				action: 'search',
 				payload: {
@@ -193,7 +193,7 @@
 		{/if}
 	</hgroup>
 
-	<SearchStatusComponent {isLoading} {isSearching} {searchError} />
+	<SearchStatusComponent {isLoading} {isSearching} searchError={searchWorkerError} />
 
 	<SearchInputComponent
 		bind:searchQuery
