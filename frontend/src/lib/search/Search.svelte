@@ -55,7 +55,8 @@
 		{ showDefaults: false }
 	);
 
-	const searchFiltersCount = $derived(Object.keys(searchParams.filters).length);
+	let searchFilters = $state({});
+	const searchFiltersCount = $derived(Object.keys(searchFilters).length);
 	const searchSortOptions = $derived(
 		Object.entries(searchConfig[dataSource].sortings).map(([key, value]) => ({
 			label: value.label,
@@ -137,7 +138,7 @@
 					query: searchParams.query,
 					page: searchParams.page,
 					sort: searchParams.sort || undefined,
-					filters: $state.snapshot(searchParams.filters)
+					filters: $state.snapshot(searchFilters)
 				}
 			});
 		}
@@ -147,6 +148,7 @@
 		searchParams.query = '';
 		searchParams.page = 1;
 		searchParams.filters = {};
+		searchFilters = {};
 		searchParams.sort = '';
 		postSearchMessage();
 	}
@@ -165,11 +167,12 @@
 
 	function handleSearchFiltersChange() {
 		// remove empty keys, i.e. filters that no longer have any values
-		searchParams.filters = Object.fromEntries(
-			Object.entries(searchParams.filters).filter(([_, value]) => value.length > 0)
+		searchFilters = Object.fromEntries(
+			Object.entries(searchFilters).filter(([_, value]) => value.length > 0)
 		);
 
 		searchParams.page = 1;
+		searchParams.filters = $state.snapshot(searchFilters);
 		postSearchMessage();
 	}
 
@@ -246,7 +249,7 @@
 
 <SearchFiltersComponent
 	show={showSearch}
-	bind:searchFilters={searchParams.filters}
+	bind:searchFilters
 	{searchAggregations}
 	{searchConfig}
 	{dataSource}
