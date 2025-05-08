@@ -1,9 +1,10 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import SearchWorker from '$lib/search/worker?worker';
+	import { WORKER_STATUS } from '$lib/search/config';
 	import pluralize from 'pluralize-esm';
 	import { onDestroy, onMount } from 'svelte';
-	import type { SearchConfig } from './types';
+	import { queryParameters, ssp } from 'sveltekit-search-params';
 	import SearchControls from './SearchControls.svelte';
 	import SearchFilters from './SearchFilters.svelte';
 	import SearchInput from './SearchInput.svelte';
@@ -12,6 +13,7 @@
 	import SearchResultsItems from './SearchResultsItems.svelte';
 	import SearchShortcuts from './SearchShortcuts.svelte';
 	import SearchStatus from './SearchStatus.svelte';
+	import type { SearchConfig } from './types';
 
 	const {
 		dataSource,
@@ -43,24 +45,30 @@
 		minSearchQueryLength?: number;
 	} = $props();
 
-	let searchQuery = $state('');
-	let searchPage = $state(1);
-	let searchFilters = $state<Record<string, string[]>>({});
-	const searchFiltersCount = $derived(Object.keys(searchFilters).length);
+	const searchParams = queryParameters(
+		{
+			query: ssp.string(''),
+			page: ssp.number(1),
+			filters: ssp.object({}),
+			sort: ssp.string('')
+		},
+		{ showDefaults: false }
+	);
+
+	const searchFiltersCount = $derived(Object.keys(searchParams.filters).length);
 	const searchSortOptions = $derived(
 		Object.entries(searchConfig[dataSource].sortings).map(([key, value]) => ({
 			label: value.label,
 			value: key
 		}))
 	);
-	let searchSortBy = $state<string>('');
 
 	let searchWorker = $state<Worker | null>(null);
-	let searchWorkerStatus = $state<'idle' | 'load' | 'ready'>('idle');
+	let searchWorkerStatus = $state(WORKER_STATUS.IDLE);
 	let searchWorkerError = $state<string | null>(null);
 	let searchResults = $state({ query: '', results: [] });
 
-	const isLoading = $derived(['idle', 'load'].includes(searchWorkerStatus));
+	const isLoading = $derived([WORKER_STATUS.IDLE, WORKER_STATUS.LOAD].includes(searchWorkerStatus));
 	let isSearching = $state(false);
 
 	let showSearch = $state(false);
@@ -79,11 +87,11 @@
 	});
 
 	function initSearchEngine() {
-		if (searchWorkerStatus === 'ready') {
+		if (searchWorkerStatus === WORKER_STATUS.READY) {
 			return;
 		}
 
-		searchWorkerStatus = 'load';
+		searchWorkerStatus = WORKER_STATUS.LOAD;
 
 		searchWorker = new SearchWorker();
 		searchWorker.onmessage = (event) => {
@@ -91,7 +99,7 @@
 			searchWorkerError = null;
 
 			if (action === 'ready') {
-				searchWorkerStatus = 'ready';
+				searchWorkerStatus = WORKER_STATUS.READY;
 				postSearchMessage();
 			} else if (action === 'results') {
 				searchResults = { query: payload.query, results: payload.results };
@@ -101,7 +109,7 @@
 
 		searchWorker.onerror = (error) => {
 			searchWorkerError = 'An error occurred while searching';
-			searchWorkerStatus = 'ready';
+			searchWorkerStatus = WORKER_STATUS.READY;
 			console.error('Search worker error:', error);
 		};
 
@@ -115,62 +123,64 @@
 	function handleSearch(e: Event) {
 		e.preventDefault();
 
-		searchPage = 1;
+		searchParams.page = 1;
 		isSearching = true;
 		postSearchMessage();
 	}
 
 	function postSearchMessage() {
-		if (searchWorkerStatus === 'ready') {
+		if (searchWorkerStatus === WORKER_STATUS.READY) {
 			searchWorker?.postMessage({
 				action: 'search',
 				payload: {
 					dataSource,
-					query: searchQuery,
-					page: searchPage,
-					sort: searchSortBy || undefined,
-					filters: $state.snapshot(searchFilters)
+					query: searchParams.query,
+					page: searchParams.page,
+					sort: searchParams.sort || undefined,
+					filters: $state.snapshot(searchParams.filters)
 				}
 			});
 		}
 	}
 
 	function handleReset() {
-		searchQuery = '';
-		searchPage = 1;
-		searchFilters = {};
+		searchParams.query = '';
+		searchParams.page = 1;
+		searchParams.filters = {};
+		searchParams.sort = '';
 		postSearchMessage();
 	}
 
 	function handleSortByChange(e: Event) {
 		e.preventDefault();
 
-		searchPage = 1;
+		searchParams.page = 1;
 		postSearchMessage();
 	}
 
 	function handlePageChange(page: number) {
-		searchPage = page;
+		searchParams.page = page;
 		postSearchMessage();
 	}
 
 	function handleSearchFiltersChange() {
 		// remove empty keys, i.e. filters that no longer have any values
-		searchFilters = Object.fromEntries(
-			Object.entries(searchFilters).filter(([_, value]) => value.length > 0)
+		searchParams.filters = Object.fromEntries(
+			Object.entries(searchParams.filters).filter(([_, value]) => value.length > 0)
 		);
 
-		searchPage = 1;
+		searchParams.page = 1;
 		postSearchMessage();
 	}
 
 	onDestroy(() => {
 		setTimeout(() => {
+			console.log('onDestroy');
 			if (searchWorker) {
 				searchWorker.terminate();
 				searchWorker = null;
 			}
-		}, 1000);
+		}, 5000);
 	});
 </script>
 
@@ -196,7 +206,7 @@
 	<SearchStatusComponent {isLoading} {isSearching} searchError={searchWorkerError} />
 
 	<SearchInputComponent
-		bind:searchQuery
+		bind:searchQuery={searchParams.query}
 		{isLoading}
 		{isSearching}
 		{minSearchQueryLength}
@@ -210,7 +220,7 @@
 		{showSearch}
 		{searchFiltersCount}
 		sortOptions={searchSortOptions}
-		bind:sortBy={searchSortBy}
+		bind:sortBy={searchParams.sort}
 		onToggleFilters={handleToggleSearch}
 		onSortByChange={handleSortByChange}
 	/>
@@ -236,7 +246,7 @@
 
 <SearchFiltersComponent
 	show={showSearch}
-	bind:searchFilters
+	bind:searchFilters={searchParams.filters}
 	{searchAggregations}
 	{searchConfig}
 	{dataSource}
