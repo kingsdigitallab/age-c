@@ -32,6 +32,7 @@
 				disabled={isLoading || isSearching}
 				placeholder={`Enter a ${title.toLowerCase()} query...`}
 				aria-label={`Enter a ${title.toLowerCase()} query...`}
+				spellcheck="false"
 			/>
 			<button
 				type="submit"
