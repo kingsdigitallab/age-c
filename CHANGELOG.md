@@ -1,3 +1,29 @@
+## v0.5.0 (2025-05-09)
+
+### Feat
+
+- **search**: Add a FacetDistributinoPlot to the Search component
+- **search**: Add FacetDistributionPlot component for visualising distribution data
+- **search**: Update search component to include summary and distribution facets
+- **search**: Add release year aggregation to search filters
+- **search**: Integrate sveltekit-search-params to read/write search query parameters
+- **search**: Add constants for search worker states
+- **search**: Add aggregationKey prop to Search component
+- **search**: Add aggregation stats display to Search component
+
+### Fix
+
+- **search**: Update search filter handling to use local state
+- **search**: Ignore svelte warning
+
+### Refactor
+
+- **search**: Disable spellcheck in SearchInput
+- **search**: Replace string literals with constants for worker actions
+- **search**: Rename searchStatus and searchError to searchWorkerStatus and searchWorkerError for clarity
+- **search**: Change the order of the person metadata in the search results
+- **search**: Optimise aggregations handling and filter expansion logic in SearchFilters component
+
 ## v0.4.0 (2025-05-06)
 
 ### Feat
