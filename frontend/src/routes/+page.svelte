@@ -18,7 +18,9 @@
 	{dataSource}
 	{searchConfig}
 	title="Explore the dataset"
-	aggregationKey="type"
+	summaryFacet="type"
+	distributionFacet="releaseYear"
+	distributionFacetTitle="Release year distribution"
 	SearchResultsItemsComponent={SearchResultsItems}
 />
 
