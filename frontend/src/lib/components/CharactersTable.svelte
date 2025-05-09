@@ -24,28 +24,30 @@
 			<th>Assisted Mobility</th>
 		</tr>
 	</thead>
-	{#each characters as character}
-		<tr>
-			<td>
-				<strong>
-					{#if linkToFilm}
-						<FilmLink film={character.film} />
-					{:else}
-						<BiographyLink person={character?.person} showAgeGender={false} />
-					{/if}
-				</strong>
-			</td>
-			<td>{character?.role || config.emptyPlaceholder}</td>
-			<td><FilterLink name="characterAge" value={character?.age} /></td>
-			<td><FilterLink name="characterGender" value={character?.gender} /></td>
-			<td><FilterLink name="characterSexuality" value={character?.sexuality} /></td>
-			<td><FilterLink name="characterOrigin" value={character?.origin} /></td>
-			<td><FilterLink name="characterClass" value={character?.class} /></td>
-			<td><FilterLink name="characterProfession" value={character?.profession} /></td>
-			<td><FilterLink name="characterAbility" value={character?.ability} /></td>
-			<td><FilterLink name="assistedMobility" value={character?.assistedMobility} /></td>
-		</tr>
-	{/each}
+	<tbody>
+		{#each characters as character}
+			<tr>
+				<td>
+					<strong>
+						{#if linkToFilm}
+							<FilmLink film={character.film} />
+						{:else}
+							<BiographyLink person={character?.person} showAgeGender={false} />
+						{/if}
+					</strong>
+				</td>
+				<td>{character?.role || config.emptyPlaceholder}</td>
+				<td><FilterLink name="characterAge" value={character?.age} /></td>
+				<td><FilterLink name="characterGender" value={character?.gender} /></td>
+				<td><FilterLink name="characterSexuality" value={character?.sexuality} /></td>
+				<td><FilterLink name="characterOrigin" value={character?.origin} /></td>
+				<td><FilterLink name="characterClass" value={character?.class} /></td>
+				<td><FilterLink name="characterProfession" value={character?.profession} /></td>
+				<td><FilterLink name="characterAbility" value={character?.ability} /></td>
+				<td><FilterLink name="assistedMobility" value={character?.assistedMobility} /></td>
+			</tr>
+		{/each}
+	</tbody>
 </table>
 
 <style>
