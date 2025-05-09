@@ -92,6 +92,10 @@
 	);
 
 	onMount(() => {
+		if (searchParams.filters) {
+			searchFilters = searchParams.filters;
+		}
+
 		initSearchEngine();
 	});
 
@@ -196,7 +200,7 @@
 
 <SearchShortcutsComponent onToggleSearch={handleToggleSearch} />
 
-<article>
+<article id="skij">
 	<hgroup>
 		<h1>{title}</h1>
 		{#if summaryStats}
