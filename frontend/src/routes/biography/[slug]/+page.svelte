@@ -9,7 +9,9 @@
 
 	const directors = $derived(bio.director);
 	const characters = $derived(
-		bio.character?.sort((a, b) => a.film.title.native.localeCompare(b.film.title.native))
+		bio.character?.sort((a, b) =>
+			(a.film?.title?.native ?? '').localeCompare(b.film?.title?.native ?? '')
+		)
 	);
 </script>
 
