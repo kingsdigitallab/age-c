@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
+	import BiographyLink from '$lib/components/BiographyLink.svelte';
+	import DirectorLink from '$lib/components/DirectorLink.svelte';
 	import type { Item } from '$lib/types';
 
 	const {
@@ -34,9 +36,7 @@
 						<li>Director</li>
 						{#each item.director as director}
 							<li>
-								<a href={`${base}/biography/${director.slug}`}
-									>{director.name} ({director.birthYear}–{director.deathYear}, {director.gender})</a
-								>
+								<DirectorLink {director} />
 							</li>
 						{/each}
 					</ul>
@@ -46,10 +46,7 @@
 						{#each item.character as character}
 							{@const person = character.person}
 							<li>
-								<a href={`${base}/biography/${person?.slug}`}
-									>{person?.name}
-									({person?.birthYear}–{person?.deathYear}, {person?.gender})
-								</a>
+								<BiographyLink {person} />
 							</li>
 						{/each}
 					</ul>
