@@ -18,6 +18,7 @@
 	{dataSource}
 	{searchConfig}
 	title="Explore the dataset"
+	sortBy="film_title_asc"
 	summaryFacet="type"
 	distributionFacet="releaseYear"
 	distributionFacetTitle="Release year distribution"
