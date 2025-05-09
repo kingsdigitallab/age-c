@@ -2,6 +2,7 @@
 	import { base } from '$app/paths';
 	import SearchWorker from '$lib/search/worker?worker';
 	import { WORKER_STATUS } from '$lib/search/config';
+	import FacetDistributionPlot from '$lib/search/FacetDistributionPlot.svelte';
 	import pluralize from 'pluralize-esm';
 	import { onDestroy, onMount } from 'svelte';
 	import { queryParameters, ssp } from 'sveltekit-search-params';
@@ -19,7 +20,9 @@
 		dataSource,
 		searchConfig,
 		title,
-		aggregationKey,
+		summaryFacet,
+		distributionFacet,
+		distributionFacetTitle,
 		SearchShortcutsComponent = SearchShortcuts,
 		SearchStatusComponent = SearchStatus,
 		SearchInputComponent = SearchInput,
@@ -33,7 +36,9 @@
 		dataSource: keyof typeof searchConfig;
 		searchConfig: SearchConfig;
 		title: string;
-		aggregationKey?: string;
+		summaryFacet?: string;
+		distributionFacet?: string;
+		distributionFacetTitle?: string;
 		SearchShortcutsComponent?: typeof SearchShortcuts;
 		SearchStatusComponent?: typeof SearchStatus;
 		SearchInputComponent?: typeof SearchInput;
@@ -81,7 +86,10 @@
 	// @ts-ignore
 	let searchPagination = $derived(searchResults.results?.pagination || {});
 
-	const stats = $derived(aggregationKey ? searchAggregations[aggregationKey] : null);
+	const summaryStats = $derived(summaryFacet ? searchAggregations[summaryFacet] : null);
+	const distributionStats = $derived(
+		distributionFacet ? searchAggregations[distributionFacet]?.buckets : null
+	);
 
 	onMount(() => {
 		initSearchEngine();
@@ -178,7 +186,6 @@
 
 	onDestroy(() => {
 		setTimeout(() => {
-			console.log('onDestroy');
 			if (searchWorker) {
 				searchWorker.terminate();
 				searchWorker = null;
@@ -192,9 +199,9 @@
 <article>
 	<hgroup>
 		<h1>{title}</h1>
-		{#if stats}
+		{#if summaryStats}
 			<ul class="search-summary-stats">
-				{#each stats.buckets as bucket}
+				{#each summaryStats.buckets as bucket}
 					{@const count = bucket.doc_count}
 					{@const label = bucket.key}
 					<li>
@@ -216,6 +223,19 @@
 		onSearch={handleSearch}
 		onReset={handleReset}
 	/>
+
+	{#if distributionFacet && distributionStats?.length > 0}
+		{#key distributionStats}
+			<FacetDistributionPlot
+				title={distributionFacetTitle}
+				data={distributionStats}
+				x="key"
+				y="doc_count"
+				xLabel={searchConfig[dataSource].aggregations[distributionFacet].title}
+				yLabel="Count"
+			/>
+		{/key}
+	{/if}
 
 	<SearchControlsComponent
 		{isLoading}
