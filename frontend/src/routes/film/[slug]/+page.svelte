@@ -88,9 +88,3 @@
 		<blockquote>{film.synopsis?.english}</blockquote>
 	{/if}
 </article>
-
-<style>
-	table > * {
-		font-size: 0.8rem;
-	}
-</style>
