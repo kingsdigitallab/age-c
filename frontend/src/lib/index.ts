@@ -17,6 +17,13 @@ const searchAggregations = {
 		size: 2,
 		sort: 'key'
 	},
+	releaseYear: {
+		title: 'Release year',
+		hide_zero_doc_count: true,
+		size: 1000,
+		sort: 'key',
+		conjunction: false
+	},
 	releaseType: {
 		title: 'Release type',
 		hide_zero_doc_count: true,
