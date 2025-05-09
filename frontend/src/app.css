@@ -16,3 +16,13 @@ body {
 
 	height: 100%;
 }
+
+.inline {
+	display: flex;
+	flex-wrap: wrap;
+	gap: calc(var(--pico-spacing) / 4);
+}
+
+.inline *:not(:last-child)::after {
+	content: ',';
+}
