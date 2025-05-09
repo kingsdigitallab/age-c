@@ -5,9 +5,11 @@
 	const { person, showAgeGender = true }: { person: Person; showAgeGender?: boolean } = $props();
 </script>
 
-<a href={`${base}/biography/${person?.slug}`}>
-	{person?.name}
-	{#if showAgeGender}
-		({person?.birthYear}–{person?.deathYear}, {person?.gender})
-	{/if}
-</a>
+{#if person?.slug}
+	<a href={`${base}/biography/${person?.slug}`}>
+		{person?.name}
+		{#if showAgeGender}
+			({person?.birthYear}–{person?.deathYear}, {person?.gender})
+		{/if}
+	</a>
+{/if}
