@@ -3,6 +3,7 @@
 	import DirectorLink from '$lib/components/DirectorLink.svelte';
 	import FilterLink from '$lib/components/FilterLink.svelte';
 	import { config } from '$lib/index';
+	import { keys, values } from 'd3-collection';
 	import type { PageProps } from './$types';
 
 	const { data }: PageProps = $props();
@@ -10,11 +11,24 @@
 
 	const genres = $derived(film?.genre?.sort());
 	const tags = $derived(film?.tags?.sort());
-	const directors = $derived(film?.director?.sort((a, b) => a.name.localeCompare(b.name)));
-	const characters = $derived(
-		film?.character?.sort((a, b) => a.person.name.localeCompare(b.person.name))
+	const directors = $derived(
+		film?.director?.sort((a, b) => (a?.slug ?? '').localeCompare(b?.slug ?? ''))
 	);
-	const media = $derived(film?.media);
+	const characters = $derived(
+		film?.character?.sort((a, b) => (a?.person?.name ?? '').localeCompare(b?.person?.name ?? ''))
+	);
+	const media = $derived(
+		Object.entries(film?.media ?? {})
+			.filter(([_, value]) => typeof value === 'string' && value.startsWith('http'))
+			.map(([key, value]) => ({
+				label: key
+					.replace(/Url$/, '')
+					.trim()
+					.replace(/^\w/, (c) => c.toUpperCase()),
+				url: value
+			}))
+			.sort((a, b) => a.label.localeCompare(b.label))
+	);
 </script>
 
 <article>
@@ -60,15 +74,12 @@
 				<span>{config.emptyPlaceholder}</span>
 			{/each}
 		</dd>
-		{#if media?.posterUrl || media?.trailerUrl}
+		{#if media}
 			<dt>Media</dt>
-			<dd>
-				{#if media?.posterUrl}
-					<a href={media.posterUrl} target="_blank">Poster</a>
-				{/if}
-				{#if media?.trailerUrl}
-					<a href={media.trailerUrl} target="_blank">Trailer</a>
-				{/if}
+			<dd class="inline">
+				{#each media as { label, url }}
+					<a href={url} aria-label="{label} for {film.title.native}" target="_blank">{label}</a>
+				{/each}
 			</dd>
 		{/if}
 	</dl>
