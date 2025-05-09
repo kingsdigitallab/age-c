@@ -20,6 +20,7 @@
 		dataSource,
 		searchConfig,
 		title,
+		sortBy,
 		summaryFacet,
 		distributionFacet,
 		distributionFacetTitle,
@@ -36,6 +37,7 @@
 		dataSource: keyof typeof searchConfig;
 		searchConfig: SearchConfig;
 		title: string;
+		sortBy?: string;
 		summaryFacet?: string;
 		distributionFacet?: string;
 		distributionFacetTitle?: string;
@@ -149,7 +151,7 @@
 					dataSource,
 					query: searchParams.query,
 					page: searchParams.page,
-					sort: searchParams.sort || undefined,
+					sort: searchParams.sort || sortBy || undefined,
 					filters: $state.snapshot(searchFilters)
 				}
 			});
