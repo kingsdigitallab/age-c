@@ -406,7 +406,7 @@ def aggregate_films_data(df: DataFrame) -> DataFrame:
             "title": "first",
             "filmType": "first",
             "release": "first",
-            "production": "first",
+            "production": lambda x: list(set(x.dropna().unique())),
             "media": "first",
             "genre": lambda x: list(set(x.dropna().unique())),
             "tags": lambda x: list(set(x.dropna().unique())),
@@ -417,7 +417,7 @@ def aggregate_films_data(df: DataFrame) -> DataFrame:
     ).reset_index()
 
     for column in dict_columns:
-        if column in ["character", "director", "genre", "tags"]:
+        if column in ["character", "director", "genre", "production", "tags"]:
             result[column] = result[column].apply(
                 lambda x: [
                     json.loads(item)
