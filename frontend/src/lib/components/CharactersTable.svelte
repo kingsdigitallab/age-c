@@ -36,7 +36,7 @@
 						{/if}
 					</strong>
 				</td>
-				<td>{character?.role || config.emptyPlaceholder}</td>
+				<td><FilterLink name="role" value={character?.role} /></td>
 				<td><FilterLink name="characterAge" value={character?.age} /></td>
 				<td><FilterLink name="characterGender" value={character?.gender} /></td>
 				<td><FilterLink name="characterSexuality" value={character?.sexuality} /></td>
