@@ -12,10 +12,12 @@
     "date": "2019-10-16",
     "year": 2019
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=Mq6_FzdoSyk",
     "posterUrl": "https://medias.unifrance.org/medias/188/53/210364/format_page/l-angle-mort.jpg"
@@ -26,18 +28,18 @@
   ],
   "director": [
     {
-      "id": "Patrick-Mario Bernard",
-      "slug": "patrick-mario-bernard",
-      "name": "Patrick-Mario Bernard",
-      "birthYear": 1961,
-      "gender": "Male identifying",
-      "nationality": "France"
-    },
-    {
       "id": "Pierre Trividic",
       "slug": "pierre-trividic",
       "name": "Pierre Trividic",
       "birthYear": 1957,
+      "gender": "Male identifying",
+      "nationality": "France"
+    },
+    {
+      "id": "Patrick-Mario Bernard",
+      "slug": "patrick-mario-bernard",
+      "name": "Patrick-Mario Bernard",
+      "birthYear": 1961,
       "gender": "Male identifying",
       "nationality": "France"
     }

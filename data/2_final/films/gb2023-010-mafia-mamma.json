@@ -11,10 +11,20 @@
     "date": "2023-11-24",
     "year": 2023
   },
-  "production": {
-    "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "United States of America (the)",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Italy",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt13923456/?ref_=nv_sr_srsg_0_tt_4_nm_4_in_0_q_Mafia%2520Mamma",
     "posterUrl": "https://www.imdb.com/title/tt13923456/mediaviewer/rm3759814401/?ref_=tt_ov_i"
@@ -24,21 +34,21 @@
     "Crime"
   ],
   "tags": [
-    "wealth",
-    "burial",
-    "medical treatment",
     "mentorship",
-    "intergenerational friendship",
-    "homosociality",
-    "abuse",
-    "independent home",
+    "medical treatment",
+    "burial",
     "celibacy",
+    "grief",
+    "superior-employee relationship",
     "inheritance",
     "disability",
-    "grief",
+    "independent home",
     "grandfatherhood",
     "high rank employment",
-    "superior-employee relationship",
+    "abuse",
+    "intergenerational friendship",
+    "wealth",
+    "homosociality",
     "murder"
   ],
   "director": [
@@ -52,26 +62,6 @@
     }
   ],
   "character": [
-    {
-      "id": "GB2023_010_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Dora Romano",
-        "slug": "dora-romano",
-        "name": "Dora Romano",
-        "birthYear": 1955.0,
-        "gender": "Female identifying",
-        "nationality": "Italy"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "GB2023_010_02",
       "age": "4: Fourth Age (>75)",
@@ -88,6 +78,26 @@
         "name": "Alessandro Bressanello",
         "birthYear": 1948.0,
         "gender": "Male identifying",
+        "nationality": "Italy"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "GB2023_010_03",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Dora Romano",
+        "slug": "dora-romano",
+        "name": "Dora Romano",
+        "birthYear": 1955.0,
+        "gender": "Female identifying",
         "nationality": "Italy"
       },
       "role": "Unknown"

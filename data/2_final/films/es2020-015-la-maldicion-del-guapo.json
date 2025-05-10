@@ -12,34 +12,40 @@
     "date": "2020-07-10",
     "year": 2020
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Argentina",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=2vwtSmof7jE",
     "posterUrl": "https://www.imdb.com/title/tt9557854/mediaviewer/rm3678452225/?ref_=tt_ov_i"
   },
   "genre": [
-    "Heist",
-    "Crime",
+    "Comedy",
     "Romance",
-    "Comedy"
+    "Heist",
+    "Crime"
   ],
   "tags": [
-    "wealth",
-    "organized crime",
     "intergenerational conflict",
-    "independent home",
     "fraud",
-    "romance",
     "class conflict",
-    "self-employment",
-    "urban",
     "rescue mission",
-    "fatherhood",
     "may-december",
-    "sex"
+    "sex",
+    "independent home",
+    "fatherhood",
+    "self-employment",
+    "wealth",
+    "urban",
+    "organized crime",
+    "romance"
   ],
   "director": [
     {
@@ -52,26 +58,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2020_015_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Gonzalo de Castro",
-        "slug": "gonzalo-de-castro",
-        "name": "Gonzalo de Castro",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2020_015_03",
       "age": "3: Third Age (60-75)",
@@ -107,6 +93,26 @@
         "slug": "gines-garcia-millan",
         "name": "Gin\u00e9s Garc\u00eda Mill\u00e1n",
         "birthYear": 1964.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2020_015_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Gonzalo de Castro",
+        "slug": "gonzalo-de-castro",
+        "name": "Gonzalo de Castro",
+        "birthYear": 1963.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },

@@ -12,10 +12,20 @@
     "date": "2019-05-09",
     "year": 2019
   },
-  "production": {
-    "country": "Germany",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Germany",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Austria",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Unknown",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://cineuropa.org/en/video/376012/",
     "posterUrl": "https://cineuropa.org/es/film/372090/"
@@ -24,9 +34,9 @@
     "Documentary \u2013 Participatory mode"
   ],
   "tags": [
-    "artistic creation",
     "personal memory",
-    "cultural memory"
+    "cultural memory",
+    "artistic creation"
   ],
   "director": [
     {

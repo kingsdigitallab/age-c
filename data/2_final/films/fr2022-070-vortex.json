@@ -12,10 +12,20 @@
     "date": "2022-04-13",
     "year": 2022
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Monaco",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Belgium",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=-DvV-qYSTZA",
     "posterUrl": "https://medias.unifrance.org/medias/43/192/245803/format_page/vortex.jpg"
@@ -24,13 +34,13 @@
     "Drama"
   ],
   "tags": [
-    "independent home",
-    "parenthood",
     "retirement",
-    "urban",
     "artistic creation",
+    "marriage",
+    "parenthood",
+    "independent home",
     "dementia",
-    "marriage"
+    "urban"
   ],
   "director": [
     {
@@ -43,26 +53,6 @@
     }
   ],
   "character": [
-    {
-      "id": "FR2022_070_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Dario Argento",
-        "slug": "dario-argento",
-        "name": "Dario Argento",
-        "birthYear": 1943.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "FR2022_070_02",
       "age": "4: Fourth Age (>75)",
@@ -80,6 +70,26 @@
         "birthYear": 1944.0,
         "gender": "Female identifying",
         "nationality": "France"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2022_070_01",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Dario Argento",
+        "slug": "dario-argento",
+        "name": "Dario Argento",
+        "birthYear": 1943.0,
+        "gender": "Male identifying",
+        "nationality": "Italy"
       },
       "role": "Unknown"
     }

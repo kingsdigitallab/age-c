@@ -11,10 +11,20 @@
     "date": "2020-09-25",
     "year": 2020
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Iceland",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Lithuania",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=850918",
     "posterUrl": "https://www.imdb.com/title/tt13626436/mediaviewer/rm2098715905/?ref_=tt_ov_i"
@@ -23,34 +33,34 @@
     "Documentary \u2013 Observational mode"
   ],
   "tags": [
-    "daily routine",
+    "intragenerational friendship",
+    "elderhood",
+    "class solidarity",
+    "gentrification",
+    "disappearing professions",
     "rural",
     "tourism",
-    "homosociality",
     "independent home",
-    "class solidarity",
-    "cross-gender friendship",
-    "regional identity",
     "self-employment",
-    "intragenerational friendship",
-    "gentrification",
-    "elderhood",
-    "disappearing professions"
+    "cross-gender friendship",
+    "homosociality",
+    "regional identity",
+    "daily routine"
   ],
   "director": [
-    {
-      "id": "Rafael Mol\u00e9s",
-      "slug": "rafael-moles",
-      "name": "Rafael Mol\u00e9s",
-      "birthYear": 1974,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    },
     {
       "id": "Jos\u00e9 Andreu",
       "slug": "jose-andreu",
       "name": "Jos\u00e9 Andreu",
       "birthYear": 1973,
+      "gender": "Male identifying",
+      "nationality": "Spain"
+    },
+    {
+      "id": "Rafael Mol\u00e9s",
+      "slug": "rafael-moles",
+      "name": "Rafael Mol\u00e9s",
+      "birthYear": 1974,
       "gender": "Male identifying",
       "nationality": "Spain"
     }

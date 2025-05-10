@@ -12,10 +12,12 @@
     "date": "2020-08-24",
     "year": 2020
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=ziKLGAO2EfI",
     "posterUrl": "https://www.imdb.com/title/tt9354422/mediaviewer/rm4200773889/?ref_=tt_ov_i"
@@ -25,17 +27,17 @@
     "Drama"
   ],
   "tags": [
-    "substance abuse",
-    "medical treatment",
-    "intergenerational friendship",
-    "homosociality",
-    "intergenerational conflict",
     "hospital",
+    "intergenerational conflict",
+    "medical treatment",
+    "personal memory",
     "separation",
     "loneliness",
     "physical illness",
-    "personal memory",
-    "women empowerment"
+    "substance abuse",
+    "women empowerment",
+    "intergenerational friendship",
+    "homosociality"
   ],
   "director": [
     {
@@ -48,26 +50,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2020_006_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Chronic illness",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Kiti M\u00e1nver",
-        "slug": "kiti-manver",
-        "name": "Kiti M\u00e1nver",
-        "birthYear": 1953.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2020_006_02",
       "age": "4: Fourth Age (>75)",
@@ -84,6 +66,26 @@
         "name": "Jos\u00e9 Sacrist\u00e1n",
         "birthYear": 1937.0,
         "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2020_006_01",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Chronic illness",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Kiti M\u00e1nver",
+        "slug": "kiti-manver",
+        "name": "Kiti M\u00e1nver",
+        "birthYear": 1953.0,
+        "gender": "Female identifying",
         "nationality": "Spain"
       },
       "role": "Unknown"

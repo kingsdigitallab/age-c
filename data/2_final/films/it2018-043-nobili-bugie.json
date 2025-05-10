@@ -12,26 +12,28 @@
     "date": "2018-05-24",
     "year": 2018
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=vz3AxG_4gOw",
     "posterUrl": "https://www.imdb.com/title/tt6975762/mediaviewer/rm1517298688/?ref_=tt_ov_i"
   },
   "genre": [
     "Comedy",
-    "Drama",
-    "Historical film (Heritage Film)"
+    "Historical film (Heritage Film)",
+    "Drama"
   ],
   "tags": [
-    "war",
-    "independent home",
     "fraud",
-    "collective trauma",
+    "war",
     "class conflict",
-    "precarity"
+    "precarity",
+    "collective trauma",
+    "independent home"
   ],
   "director": [
     {
@@ -45,9 +47,9 @@
   ],
   "character": [
     {
-      "id": "IT2018_043_01",
+      "id": "IT2018_043_02",
       "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
+      "gender": "Male identifying",
       "sexuality": "Heterosexual",
       "origin": "White Western European",
       "class": "Upper class",
@@ -55,11 +57,12 @@
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Claudia Cardinale",
-        "slug": "claudia-cardinale",
-        "name": "Claudia Cardinale",
-        "birthYear": 1938.0,
-        "gender": "Female identifying",
+        "id": "Raffaele Pisu",
+        "slug": "raffaele-pisu",
+        "name": "Raffaele Pisu",
+        "birthYear": 1925.0,
+        "deathYear": 2019.0,
+        "gender": "Male identifying",
         "nationality": "Italy"
       },
       "role": "Leading actor"
@@ -86,9 +89,9 @@
       "role": "Leading actor"
     },
     {
-      "id": "IT2018_043_02",
+      "id": "IT2018_043_01",
       "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
+      "gender": "Female identifying",
       "sexuality": "Heterosexual",
       "origin": "White Western European",
       "class": "Upper class",
@@ -96,12 +99,11 @@
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Raffaele Pisu",
-        "slug": "raffaele-pisu",
-        "name": "Raffaele Pisu",
-        "birthYear": 1925.0,
-        "deathYear": 2019.0,
-        "gender": "Male identifying",
+        "id": "Claudia Cardinale",
+        "slug": "claudia-cardinale",
+        "name": "Claudia Cardinale",
+        "birthYear": 1938.0,
+        "gender": "Female identifying",
         "nationality": "Italy"
       },
       "role": "Leading actor"

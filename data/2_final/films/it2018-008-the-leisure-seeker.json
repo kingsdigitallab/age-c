@@ -12,10 +12,16 @@
     "date": "2018-01-18",
     "year": 2018
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "France",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=jvx4Kmf7_gY",
     "posterUrl": "https://www.imdb.com/title/tt3741632/mediaviewer/rm1918197504/?ref_=tt_ov_i"
@@ -25,14 +31,14 @@
     "Drama"
   ],
   "tags": [
-    "parenthood",
-    "bucket list",
-    "suicide",
-    "search for meaning",
-    "physical illness",
     "personal memory",
-    "dementia",
-    "marriage"
+    "search for meaning",
+    "marriage",
+    "physical illness",
+    "bucket list",
+    "parenthood",
+    "suicide",
+    "dementia"
   ],
   "director": [
     {
@@ -45,26 +51,6 @@
     }
   ],
   "character": [
-    {
-      "id": "IT2018_008_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Retired",
-      "ability": "Chronic illness",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Helen Mirren",
-        "slug": "helen-mirren",
-        "name": "Helen Mirren",
-        "birthYear": 1945.0,
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Leading actor"
-    },
     {
       "id": "IT2018_008_02",
       "age": "4: Fourth Age (>75)",
@@ -83,6 +69,26 @@
         "deathYear": 2024.0,
         "gender": "Male identifying",
         "nationality": "Canada"
+      },
+      "role": "Leading actor"
+    },
+    {
+      "id": "IT2018_008_01",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Retired",
+      "ability": "Chronic illness",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Helen Mirren",
+        "slug": "helen-mirren",
+        "name": "Helen Mirren",
+        "birthYear": 1945.0,
+        "gender": "Female identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },
       "role": "Leading actor"
     },

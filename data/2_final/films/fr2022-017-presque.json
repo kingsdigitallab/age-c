@@ -12,10 +12,16 @@
     "date": "2022-01-26",
     "year": 2022
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Switzerland",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=YI-5T8sU4dM",
     "posterUrl": "https://medias.unifrance.org/medias/212/170/240340/format_page/presque.jpg"
@@ -26,20 +32,12 @@
     "Drama"
   ],
   "tags": [
-    "parenthood",
     "intergenerational friendship",
-    "low rank employment",
-    "celibacy"
+    "parenthood",
+    "celibacy",
+    "low rank employment"
   ],
   "director": [
-    {
-      "id": "Alexandre Jollien",
-      "slug": "alexandre-jollien",
-      "name": "Alexandre Jollien",
-      "birthYear": 1975,
-      "gender": "Male identifying",
-      "nationality": "Switzerland"
-    },
     {
       "id": "Bernard Campan",
       "slug": "bernard-campan",
@@ -47,6 +45,14 @@
       "birthYear": 1958,
       "gender": "Male identifying",
       "nationality": "France"
+    },
+    {
+      "id": "Alexandre Jollien",
+      "slug": "alexandre-jollien",
+      "name": "Alexandre Jollien",
+      "birthYear": 1975,
+      "gender": "Male identifying",
+      "nationality": "Switzerland"
     }
   ],
   "character": [

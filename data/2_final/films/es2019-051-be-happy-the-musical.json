@@ -11,10 +11,12 @@
     "date": "2019-09-21",
     "year": 2019
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt8176462/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Be%2520Happy!%2520(the%2520musical)",
     "posterUrl": "https://www.imdb.com/title/tt8176462/mediaviewer/rm1793818112/?ref_=tt_ov_i"
@@ -23,12 +25,12 @@
     "Musical"
   ],
   "tags": [
-    "rural",
-    "well-being",
-    "intergenerational friendship",
     "elderhood (friendship among elders)",
-    "parenthood",
+    "well-being",
+    "rural",
     "interracial relationships",
+    "parenthood",
+    "intergenerational friendship",
     "lgbtqi"
   ],
   "director": [
@@ -43,26 +45,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2019_051_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Minnie Marx",
-        "slug": "minnie-marx",
-        "name": "Minnie Marx",
-        "birthYear": 1948.0,
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2019_051_03",
       "age": "4: Fourth Age (>75)",
@@ -84,21 +66,21 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2019_051_01",
+      "id": "ES2019_051_02",
       "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
+      "gender": "Female identifying",
       "sexuality": "Unknown",
-      "origin": "Black Western European",
+      "origin": "White Western European",
       "class": "Middle class",
       "profession": "Unknown",
       "ability": "Able-bodied",
       "assistedMobility": "Unknown",
       "person": {
-        "id": "Gary Wilmot",
-        "slug": "gary-wilmot",
-        "name": "Gary Wilmot",
-        "birthYear": 1954.0,
-        "gender": "Male identifying",
+        "id": "Minnie Marx",
+        "slug": "minnie-marx",
+        "name": "Minnie Marx",
+        "birthYear": 1948.0,
+        "gender": "Female identifying",
         "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },
       "role": "Unknown"
@@ -120,6 +102,26 @@
         "birthYear": 1954.0,
         "gender": "Female identifying",
         "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2019_051_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "Black Western European",
+      "class": "Middle class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "Unknown",
+      "person": {
+        "id": "Gary Wilmot",
+        "slug": "gary-wilmot",
+        "name": "Gary Wilmot",
+        "birthYear": 1954.0,
+        "gender": "Male identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },
       "role": "Unknown"
     }

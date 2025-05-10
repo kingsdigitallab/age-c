@@ -11,10 +11,12 @@
     "date": "2022-10-07",
     "year": 2022
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=795270",
     "posterUrl": "https://www.imdb.com/title/tt14194404/mediaviewer/rm3501520641/?ref_=tt_ov_i"
@@ -23,21 +25,21 @@
     "Horror"
   ],
   "tags": [
-    "rural",
-    "burial",
-    "tourism",
-    "marriage",
-    "intergenerational conflict",
-    "independent home",
-    "parenthood",
     "caregiving",
-    "precarity",
-    "regional identity",
-    "inheritance",
+    "intergenerational conflict",
+    "burial",
+    "marriage",
+    "rural",
     "loneliness",
-    "self-employment",
+    "tourism",
+    "precarity",
+    "inheritance",
+    "parenthood",
+    "independent home",
     "natural death",
-    "murder"
+    "self-employment",
+    "murder",
+    "regional identity"
   ],
   "director": [
     {
@@ -50,21 +52,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2022_072_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Miro Magari\u00f1os"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2022_072_01",
       "age": "3: Third Age (60-75)",
@@ -81,6 +68,21 @@
         "name": "Pilar Migu\u00e9lez",
         "gender": "Female identifying",
         "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2022_072_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Miro Magari\u00f1os"
       },
       "role": "Unknown"
     }

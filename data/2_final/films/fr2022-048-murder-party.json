@@ -12,10 +12,12 @@
     "date": "2022-03-09",
     "year": 2022
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=ZlrHwBZZZHU",
     "posterUrl": "https://medias.unifrance.org/medias/202/171/240586/format_page/murder-party.jpg"
@@ -25,13 +27,13 @@
     "Detective Thriller"
   ],
   "tags": [
-    "rural",
-    "murder",
-    "independent home",
-    "parenthood",
-    "self-employment",
     "grandparenthood",
-    "marriage"
+    "marriage",
+    "rural",
+    "parenthood",
+    "independent home",
+    "self-employment",
+    "murder"
   ],
   "director": [
     {
@@ -43,26 +45,6 @@
     }
   ],
   "character": [
-    {
-      "id": "FR2022_048_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Miou-Miou",
-        "slug": "miou-miou",
-        "name": "Miou-Miou",
-        "birthYear": 1950.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "FR2022_048_01",
       "age": "4: Fourth Age (>75)",
@@ -79,6 +61,26 @@
         "name": "Eddy Mitchell",
         "birthYear": 1942.0,
         "gender": "Male identifying",
+        "nationality": "France"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2022_048_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper class",
+      "profession": "Unemployed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Miou-Miou",
+        "slug": "miou-miou",
+        "name": "Miou-Miou",
+        "birthYear": 1950.0,
+        "gender": "Female identifying",
         "nationality": "France"
       },
       "role": "Unknown"

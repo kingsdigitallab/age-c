@@ -12,10 +12,12 @@
     "date": "2020-01-30",
     "year": 2020
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=GxKcPDgzjIw",
     "posterUrl": "https://www.imdb.com/title/tt10492998/mediaviewer/rm23625729/?ref_=tt_ov_i"
@@ -25,8 +27,8 @@
   ],
   "tags": [
     "fatherhood",
-    "holiday",
-    "marriage"
+    "marriage",
+    "holiday"
   ],
   "director": [
     {
@@ -39,6 +41,26 @@
     }
   ],
   "character": [
+    {
+      "id": "IT2020_003_02",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Giacomo Poretti",
+        "slug": "giacomo-poretti",
+        "name": "Giacomo Poretti",
+        "birthYear": 1956.0,
+        "gender": "Male identifying",
+        "nationality": "Italy"
+      },
+      "role": "Leading actor"
+    },
     {
       "id": "IT2020_003_01",
       "age": "2: Late Middle Age (55-60)",
@@ -74,26 +96,6 @@
         "slug": "giovanni-storti",
         "name": "Giovanni Storti",
         "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    },
-    {
-      "id": "IT2020_003_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Giacomo Poretti",
-        "slug": "giacomo-poretti",
-        "name": "Giacomo Poretti",
-        "birthYear": 1956.0,
         "gender": "Male identifying",
         "nationality": "Italy"
       },

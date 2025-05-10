@@ -11,10 +11,20 @@
     "date": "2021-11-26",
     "year": 2021
   },
-  "production": {
-    "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Germany",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "United States of America (the)",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=JNUjx7LZoiU",
     "posterUrl": "https://www.imdb.com/title/tt11233960/mediaviewer/rm1014166785/?ref_=tt_ov_i"
@@ -23,19 +33,19 @@
     "Drama"
   ],
   "tags": [
+    "sisterhood",
+    "loneliness",
     "personal trauma",
     "crime",
-    "new start",
-    "state institutions",
-    "abuse",
-    "sisterhood",
-    "women empowerment",
-    "interracial relationships",
-    "loneliness",
     "class conflict",
-    "self-employment",
+    "precarity",
+    "state institutions",
+    "interracial relationships",
     "gender discrimination",
-    "precarity"
+    "women empowerment",
+    "abuse",
+    "new start",
+    "self-employment"
   ],
   "director": [
     {
@@ -48,26 +58,6 @@
     }
   ],
   "character": [
-    {
-      "id": "GB2021_019_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White North American",
-      "class": "Lower class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Sandra Bullock",
-        "slug": "sandra-bullock",
-        "name": "Sandra Bullock",
-        "birthYear": 1964.0,
-        "gender": "Female identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "GB2021_019_03",
       "age": "2: Late Middle Age (55-60)",
@@ -83,6 +73,26 @@
         "slug": "viola-davis",
         "name": "Viola Davis",
         "birthYear": 1965.0,
+        "gender": "Female identifying",
+        "nationality": "United States of America (the)"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "GB2021_019_01",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Female identifying",
+      "sexuality": "Unknown",
+      "origin": "White North American",
+      "class": "Lower class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Sandra Bullock",
+        "slug": "sandra-bullock",
+        "name": "Sandra Bullock",
+        "birthYear": 1964.0,
         "gender": "Female identifying",
         "nationality": "United States of America (the)"
       },

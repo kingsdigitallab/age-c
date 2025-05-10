@@ -12,10 +12,16 @@
     "date": "2018-02-16",
     "year": 2018
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Argentina",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=3h6FcpM61a8",
     "posterUrl": "https://www.imdb.com/title/tt3674018/mediaviewer/rm1918201344/?ref_=tt_ov_i"
@@ -26,20 +32,20 @@
     "Drama"
   ],
   "tags": [
-    "crime",
-    "rural",
-    "power",
-    "extended family",
-    "state institutions",
-    "fatherhood",
-    "abuse",
-    "regional identity",
-    "high rank employment",
     "return home",
     "religion",
     "personal memory",
+    "power",
+    "state institutions",
+    "rural",
+    "crime",
+    "abuse",
+    "fatherhood",
+    "high rank employment",
     "cultural memory",
-    "widowhood"
+    "widowhood",
+    "extended family",
+    "regional identity"
   ],
   "director": [
     {
@@ -73,20 +79,40 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2018_020_03",
-      "age": "2: Late Middle Age (55-60)",
+      "id": "ES2018_020_01",
+      "age": "3: Third Age (60-75)",
       "gender": "Male identifying",
       "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
+      "origin": "White Latin American",
+      "class": "Middle class",
       "profession": "Employed",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Antonio Dechent",
-        "slug": "antonio-dechent",
-        "name": "Antonio Dechent",
-        "birthYear": 1960.0,
+        "id": "Eduardo Blanco",
+        "slug": "eduardo-blanco",
+        "name": "Eduardo Blanco",
+        "birthYear": 1958.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2018_020_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Joaqu\u00edn Climent",
+        "slug": "joaquin-climent",
+        "name": "Joaqu\u00edn Climent",
+        "birthYear": 1958.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },
@@ -113,20 +139,20 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2018_020_01",
-      "age": "3: Third Age (60-75)",
+      "id": "ES2018_020_03",
+      "age": "2: Late Middle Age (55-60)",
       "gender": "Male identifying",
       "sexuality": "Heterosexual",
-      "origin": "White Latin American",
-      "class": "Middle class",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
       "profession": "Employed",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Eduardo Blanco",
-        "slug": "eduardo-blanco",
-        "name": "Eduardo Blanco",
-        "birthYear": 1958.0,
+        "id": "Antonio Dechent",
+        "slug": "antonio-dechent",
+        "name": "Antonio Dechent",
+        "birthYear": 1960.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },
@@ -148,26 +174,6 @@
         "name": "Itziar Aizpuru",
         "birthYear": 1939.0,
         "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2018_020_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Joaqu\u00edn Climent",
-        "slug": "joaquin-climent",
-        "name": "Joaqu\u00edn Climent",
-        "birthYear": 1958.0,
-        "gender": "Male identifying",
         "nationality": "Spain"
       },
       "role": "Unknown"

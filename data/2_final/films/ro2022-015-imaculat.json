@@ -12,10 +12,12 @@
     "date": "2022-05-27",
     "year": 2022
   },
-  "production": {
-    "country": "Romania",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Romania",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.cinemagia.ro/trailer/imaculat-27049/",
     "posterUrl": "https://www.cinemagia.ro/filme/imaculat-3094481/postere/4560555/#gallery"
@@ -25,19 +27,19 @@
   ],
   "director": [
     {
-      "id": "George Chiper",
-      "slug": "george-chiper",
-      "name": "George Chiper",
-      "birthYear": 1979,
-      "gender": "Male identifying",
-      "nationality": "Romania"
-    },
-    {
       "id": "Monica Stan",
       "slug": "monica-stan",
       "name": "Monica Stan",
       "birthYear": 1992,
       "gender": "Female identifying",
+      "nationality": "Romania"
+    },
+    {
+      "id": "George Chiper",
+      "slug": "george-chiper",
+      "name": "George Chiper",
+      "birthYear": 1979,
+      "gender": "Male identifying",
       "nationality": "Romania"
     }
   ],

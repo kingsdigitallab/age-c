@@ -12,47 +12,53 @@
     "date": "2019-03-22",
     "year": 2019
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=4GMO3BgUIOk",
     "posterUrl": "https://www.imdb.com/title/tt8291806/mediaviewer/rm2517081345/?ref_=tt_ov_i"
   },
   "genre": [
-    "Drama",
-    "Metacinema"
+    "Metacinema",
+    "Drama"
   ],
   "tags": [
-    "rural",
-    "cross-gender friendship",
-    "self-employment",
-    "body norms",
-    "motherhood",
-    "artistic creation",
-    "religion",
-    "reignited passion",
-    "personal trauma",
-    "substance abuse",
-    "independent home",
-    "desire",
-    "disability",
-    "search for meaning",
-    "lgbtqi",
-    "personal memory",
-    "natural death",
-    "hospital",
     "caregiving",
-    "celebrity",
+    "artistic creation",
+    "motherhood",
+    "personal trauma",
+    "precarity",
+    "disability",
+    "independent home",
     "medical treatment",
     "last mission",
-    "homosociality",
     "celibacy",
-    "urban",
     "grief",
+    "natural death",
+    "cross-gender friendship",
+    "search for meaning",
+    "rural",
+    "substance abuse",
+    "self-employment",
+    "homosociality",
+    "urban",
+    "lgbtqi",
+    "hospital",
+    "celebrity",
+    "personal memory",
+    "religion",
+    "reignited passion",
+    "desire",
     "physical illness",
-    "precarity"
+    "body norms"
   ],
   "director": [
     {
@@ -65,26 +71,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2019_003_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Susi S\u00e1nchez",
-        "slug": "susi-sanchez",
-        "name": "Susi S\u00e1nchez",
-        "birthYear": 1955.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2019_003_02",
       "age": "4: Fourth Age (>75)",
@@ -121,6 +107,26 @@
         "name": "Antonio Banderas",
         "birthYear": 1960.0,
         "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2019_003_03",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Unemployed",
+      "ability": "Able-bodied",
+      "assistedMobility": "Unknown",
+      "person": {
+        "id": "Susi S\u00e1nchez",
+        "slug": "susi-sanchez",
+        "name": "Susi S\u00e1nchez",
+        "birthYear": 1955.0,
+        "gender": "Female identifying",
         "nationality": "Spain"
       },
       "role": "Unknown"

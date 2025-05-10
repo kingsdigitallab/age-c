@@ -12,10 +12,12 @@
     "date": "2012-10-22",
     "year": 2012
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=A2kjh2Z1K0A",
     "posterUrl": "https://medias.unifrance.org/medias/121/223/253817/format_page/the-innocent.jpg"
@@ -24,16 +26,16 @@
     "Comedy"
   ],
   "tags": [
-    "crime",
-    "new start",
-    "in-laws",
-    "volunteering",
     "intergenerational conflict",
-    "parenthood",
-    "romance",
-    "self-employment",
+    "marriage",
+    "crime",
+    "volunteering",
     "rescue mission",
-    "marriage"
+    "in-laws",
+    "parenthood",
+    "new start",
+    "self-employment",
+    "romance"
   ],
   "director": [
     {
@@ -46,26 +48,6 @@
     }
   ],
   "character": [
-    {
-      "id": "FR2022_143_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Anouk Grinberg",
-        "slug": "anouk-grinberg",
-        "name": "Anouk Grinberg",
-        "birthYear": 1963.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "FR2022_143_02",
       "age": "2: Late Middle Age (55-60)",
@@ -82,6 +64,26 @@
         "name": "Roschdy Zem",
         "birthYear": 1965.0,
         "gender": "Male identifying",
+        "nationality": "France"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2022_143_01",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Anouk Grinberg",
+        "slug": "anouk-grinberg",
+        "name": "Anouk Grinberg",
+        "birthYear": 1963.0,
+        "gender": "Female identifying",
         "nationality": "France"
       },
       "role": "Unknown"

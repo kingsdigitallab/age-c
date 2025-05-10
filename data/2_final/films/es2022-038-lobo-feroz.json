@@ -11,26 +11,36 @@
     "date": "2022-12-09",
     "year": 2022
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Argentina",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Uruguay",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=526907",
     "posterUrl": "https://www.imdb.com/title/tt14118246/mediaviewer/rm4011001089/?ref_=tt_ov_i"
   },
   "genre": [
-    "Horror",
+    "Thriller",
     "Detective Thriller",
     "Drama",
-    "Thriller"
+    "Horror"
   ],
   "tags": [
+    "motherhood",
     "crime",
-    "revenge",
     "state institutions",
     "grief",
-    "motherhood",
+    "revenge",
     "fatherhood"
   ],
   "director": [
@@ -44,26 +54,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2022_038_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Antonio Dechent",
-        "slug": "antonio-dechent",
-        "name": "Antonio Dechent",
-        "birthYear": 1960.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2022_038_02",
       "age": "2: Late Middle Age (55-60)",
@@ -79,6 +69,26 @@
         "slug": "fernando-tejero",
         "name": "Fernando Tejero",
         "birthYear": 1967.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2022_038_01",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Antonio Dechent",
+        "slug": "antonio-dechent",
+        "name": "Antonio Dechent",
+        "birthYear": 1960.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },

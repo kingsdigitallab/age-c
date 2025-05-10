@@ -12,28 +12,34 @@
     "date": "2020-10-02",
     "year": 2020
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Greece",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=694511",
     "posterUrl": "https://www.imdb.com/title/tt9288850/mediaviewer/rm3889075457/?ref_=tt_ov_i"
   },
   "genre": [
-    "Romance",
-    "Drama"
+    "Drama",
+    "Romance"
   ],
   "tags": [
-    "rural",
-    "agony",
     "medical treatment",
-    "romance",
-    "separation",
+    "agony",
     "search for meaning",
     "motherhood",
+    "rural",
     "holiday",
-    "sex"
+    "sex",
+    "separation",
+    "romance"
   ],
   "director": [
     {
@@ -46,6 +52,26 @@
     }
   ],
   "character": [
+    {
+      "id": "ES2020_056_03",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Antonis Kafetzopoulos",
+        "slug": "antonis-kafetzopoulos",
+        "name": "Antonis Kafetzopoulos",
+        "birthYear": 1951.0,
+        "gender": "Male identifying",
+        "nationality": "Greece"
+      },
+      "role": "Unknown"
+    },
     {
       "id": "ES2020_056_02",
       "age": "3: Third Age (60-75)",
@@ -83,26 +109,6 @@
         "birthYear": 1964.0,
         "gender": "Female identifying",
         "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2020_056_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Antonis Kafetzopoulos",
-        "slug": "antonis-kafetzopoulos",
-        "name": "Antonis Kafetzopoulos",
-        "birthYear": 1951.0,
-        "gender": "Male identifying",
-        "nationality": "Greece"
       },
       "role": "Unknown"
     }

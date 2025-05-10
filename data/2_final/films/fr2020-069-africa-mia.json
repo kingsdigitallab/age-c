@@ -12,10 +12,12 @@
     "date": "2020-09-16",
     "year": 2020
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=zry-RmFi5IA",
     "posterUrl": "https://medias.unifrance.org/medias/72/107/224072/format_page/africa-mia.jpg"
@@ -24,26 +26,26 @@
     "Documentary \u2013 Participatory mode"
   ],
   "tags": [
-    "elderhood (friendship among elders)",
-    "artistic creation",
-    "personal memory",
     "retirement",
+    "artistic creation",
+    "elderhood (friendship among elders)",
+    "personal memory",
     "cultural memory"
   ],
   "director": [
-    {
-      "id": "\u00c9douard Salier",
-      "slug": "edouard-salier",
-      "name": "\u00c9douard Salier",
-      "birthYear": 1976,
-      "gender": "Male identifying",
-      "nationality": "France"
-    },
     {
       "id": "Richard Minier",
       "slug": "richard-minier",
       "name": "Richard Minier",
       "birthYear": 1969,
+      "gender": "Male identifying",
+      "nationality": "France"
+    },
+    {
+      "id": "\u00c9douard Salier",
+      "slug": "edouard-salier",
+      "name": "\u00c9douard Salier",
+      "birthYear": 1976,
       "gender": "Male identifying",
       "nationality": "France"
     }

@@ -9,21 +9,23 @@
   "release": {
     "type": "Theatrical release"
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "posterUrl": "https://www.frgdsaura.fr/assets/uploads/GDS69/Rh%C3%B4ne%20Info/Humilitas.jpg?1593525489580"
   },
   "genre": [
-    "Documentary \u2013 Observational mode",
-    "Documentary \u2013 Participatory mode"
+    "Documentary \u2013 Participatory mode",
+    "Documentary \u2013 Observational mode"
   ],
   "tags": [
     "self-employment",
-    "rural",
-    "disappearing professions"
+    "disappearing professions",
+    "rural"
   ],
   "director": [
     {
@@ -34,17 +36,17 @@
       "nationality": "France"
     },
     {
-      "id": "Jean-Claude Guillaume",
-      "slug": "jean-claude-guillaume",
-      "name": "Jean-Claude Guillaume",
-      "gender": "Male identifying",
-      "nationality": "France"
-    },
-    {
       "id": "Val\u00e9rie Bochard",
       "slug": "valerie-bochard",
       "name": "Val\u00e9rie Bochard",
       "gender": "Female identifying",
+      "nationality": "France"
+    },
+    {
+      "id": "Jean-Claude Guillaume",
+      "slug": "jean-claude-guillaume",
+      "name": "Jean-Claude Guillaume",
+      "gender": "Male identifying",
       "nationality": "France"
     }
   ],

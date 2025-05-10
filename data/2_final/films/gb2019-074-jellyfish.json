@@ -11,10 +11,12 @@
     "date": "2019-02-15",
     "year": 2019
   },
-  "production": {
-    "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt6490394/?ref_=ttrel_ov",
     "posterUrl": "https://www.imdb.com/title/tt6490394/mediaviewer/rm3680783360/?ref_=tt_ov_i"
@@ -24,14 +26,14 @@
     "Drama"
   ],
   "tags": [
-    "rural",
-    "education",
     "mentorship",
-    "pedophilia",
-    "low rank employment",
-    "self-employment",
+    "rural",
     "superior-employee relationship",
-    "precarity"
+    "precarity",
+    "education",
+    "low rank employment",
+    "pedophilia",
+    "self-employment"
   ],
   "director": [
     {
@@ -43,26 +45,6 @@
     }
   ],
   "character": [
-    {
-      "id": "GB2019_074_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "Black Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Cyril Nri",
-        "slug": "cyril-nri",
-        "name": "Cyril Nri",
-        "birthYear": 1961.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "GB2019_074_01",
       "age": "2: Late Middle Age (55-60)",
@@ -78,6 +60,26 @@
         "slug": "angus-barnett",
         "name": "Angus Barnett",
         "birthYear": 1963.0,
+        "gender": "Male identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "GB2019_074_02",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "Black Western European",
+      "class": "Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Cyril Nri",
+        "slug": "cyril-nri",
+        "name": "Cyril Nri",
+        "birthYear": 1961.0,
         "gender": "Male identifying",
         "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },

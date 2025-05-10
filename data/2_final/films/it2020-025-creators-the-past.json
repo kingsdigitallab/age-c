@@ -11,21 +11,23 @@
     "date": "2020-10-08",
     "year": 2020
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=z5H3MZY_dPw",
     "posterUrl": "https://www.imdb.com/title/tt4124980/mediaviewer/rm597518336/?ref_=tt_ov_i"
   },
   "genre": [
-    "Science Fiction",
-    "Disaster Film"
+    "Disaster Film",
+    "Science Fiction"
   ],
   "tags": [
-    "supernatural entity",
-    "power"
+    "power",
+    "supernatural entity"
   ],
   "director": [
     {
@@ -37,46 +39,6 @@
     }
   ],
   "character": [
-    {
-      "id": "IT2020_025_02",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "William Shatner",
-        "slug": "william-shatner",
-        "name": "William Shatner",
-        "birthYear": 1931.0,
-        "gender": "Male identifying",
-        "nationality": "Canada"
-      },
-      "role": "Leading actor"
-    },
-    {
-      "id": "IT2020_025_04",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Marc Fiorini",
-        "slug": "marc-fiorini",
-        "name": "Marc Fiorini",
-        "birthYear": 1941.0,
-        "gender": "Male identifying",
-        "nationality": "Canada"
-      },
-      "role": "Leading actor"
-    },
     {
       "id": "IT2020_025_03",
       "age": "4: Fourth Age (>75)",
@@ -118,7 +80,7 @@
       "role": "Leading actor"
     },
     {
-      "id": "IT2020_025_01",
+      "id": "IT2020_025_02",
       "age": "4: Fourth Age (>75)",
       "gender": "Male identifying",
       "sexuality": "Unknown",
@@ -128,12 +90,12 @@
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "G\u00e9rard Depardieu",
-        "slug": "gerard-depardieu",
-        "name": "G\u00e9rard Depardieu",
-        "birthYear": 1948.0,
+        "id": "William Shatner",
+        "slug": "william-shatner",
+        "name": "William Shatner",
+        "birthYear": 1931.0,
         "gender": "Male identifying",
-        "nationality": "Russian Federation (the)"
+        "nationality": "Canada"
       },
       "role": "Leading actor"
     },
@@ -154,6 +116,46 @@
         "birthYear": 1948.0,
         "gender": "Male identifying",
         "nationality": "United Arab Emirates (the)"
+      },
+      "role": "Leading actor"
+    },
+    {
+      "id": "IT2020_025_04",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Unknown",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Marc Fiorini",
+        "slug": "marc-fiorini",
+        "name": "Marc Fiorini",
+        "birthYear": 1941.0,
+        "gender": "Male identifying",
+        "nationality": "Canada"
+      },
+      "role": "Leading actor"
+    },
+    {
+      "id": "IT2020_025_01",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Unknown",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "G\u00e9rard Depardieu",
+        "slug": "gerard-depardieu",
+        "name": "G\u00e9rard Depardieu",
+        "birthYear": 1948.0,
+        "gender": "Male identifying",
+        "nationality": "Russian Federation (the)"
       },
       "role": "Leading actor"
     }

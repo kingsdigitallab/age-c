@@ -11,28 +11,30 @@
     "date": "2022-02-04",
     "year": 2022
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=689731",
     "posterUrl": "https://www.imdb.com/title/tt14060532/mediaviewer/rm3984254465/?ref_=tt_ov_i"
   },
   "genre": [
     "Biopic",
-    "Drama",
-    "Historical film (Heritage Film)"
+    "Historical film (Heritage Film)",
+    "Drama"
   ],
   "tags": [
-    "power",
-    "substance abuse",
-    "class solidarity",
-    "caregiving",
     "homelessness",
+    "caregiving",
+    "class solidarity",
     "religion",
-    "high rank employment",
-    "precarity"
+    "precarity",
+    "substance abuse",
+    "power",
+    "high rank employment"
   ],
   "director": [
     {
@@ -45,26 +47,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2022_046_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Emilio Linder",
-        "slug": "emilio-linder",
-        "name": "Emilio Linder",
-        "birthYear": 1949.0,
-        "gender": "Male identifying",
-        "nationality": "Argentina"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2022_046_03",
       "age": "3: Third Age (60-75)",
@@ -102,6 +84,26 @@
         "birthYear": 1957.0,
         "gender": "Female identifying",
         "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2022_046_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Emilio Linder",
+        "slug": "emilio-linder",
+        "name": "Emilio Linder",
+        "birthYear": 1949.0,
+        "gender": "Male identifying",
+        "nationality": "Argentina"
       },
       "role": "Unknown"
     }

@@ -12,22 +12,24 @@
     "date": "2023-02-21",
     "year": 2023
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=n_WMExrSfCc",
     "posterUrl": "https://www.imdb.com/title/tt15307448/mediaviewer/rm3883991809/?ref_=tt_ov_i"
   },
   "genre": [
-    "Horror",
-    "Thriller"
+    "Thriller",
+    "Horror"
   ],
   "tags": [
-    "crime",
     "abuse",
     "independent home",
+    "crime",
     "marriage"
   ],
   "director": [
@@ -40,26 +42,6 @@
     }
   ],
   "character": [
-    {
-      "id": "IT2023_126_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Giuseppe Pambieri",
-        "slug": "giuseppe-pambieri",
-        "name": "Giuseppe Pambieri",
-        "birthYear": 1944.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    },
     {
       "id": "IT2023_126_02",
       "age": "4: Fourth Age (>75)",
@@ -76,6 +58,26 @@
         "name": "Stefania Casini",
         "birthYear": 1948.0,
         "gender": "Female identifying",
+        "nationality": "Italy"
+      },
+      "role": "Leading actor"
+    },
+    {
+      "id": "IT2023_126_01",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Giuseppe Pambieri",
+        "slug": "giuseppe-pambieri",
+        "name": "Giuseppe Pambieri",
+        "birthYear": 1944.0,
+        "gender": "Male identifying",
         "nationality": "Italy"
       },
       "role": "Leading actor"

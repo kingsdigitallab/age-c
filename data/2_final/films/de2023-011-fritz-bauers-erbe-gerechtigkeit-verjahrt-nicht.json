@@ -11,10 +11,12 @@
     "date": "2023-02-02",
     "year": 2023
   },
-  "production": {
-    "country": "Germany",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Germany",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=DLeO5hVrv-Y&ab_channel=KinoCheckIndie",
     "posterUrl": "https://www.imdb.com/title/tt26600000/mediaviewer/rm3182112769/?ref_=tt_ov_i"
@@ -23,11 +25,19 @@
     "Documentary \u2013 Participatory mode"
   ],
   "tags": [
-    "collective trauma",
     "war",
+    "collective trauma",
     "state institutions"
   ],
   "director": [
+    {
+      "id": "Sabine Lamby",
+      "slug": "sabine-lamby",
+      "name": "Sabine Lamby",
+      "birthYear": 1966,
+      "gender": "Female identifying",
+      "nationality": "Germany"
+    },
     {
       "id": "Isabel Gathof",
       "slug": "isabel-gathof",
@@ -41,14 +51,6 @@
       "name": "Cornelia Partmann",
       "gender": "Female identifying",
       "nationality": "Unknown"
-    },
-    {
-      "id": "Sabine Lamby",
-      "slug": "sabine-lamby",
-      "name": "Sabine Lamby",
-      "birthYear": 1966,
-      "gender": "Female identifying",
-      "nationality": "Germany"
     }
   ],
   "synopsis": {

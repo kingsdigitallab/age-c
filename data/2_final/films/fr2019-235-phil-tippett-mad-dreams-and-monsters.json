@@ -10,10 +10,12 @@
   "release": {
     "type": "VOD release"
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=DterkrSFdT4",
     "posterUrl": "https://medias.unifrance.org/medias/2/30/269826/format_page/phil-tippett-mad-dreams-and-monsters.jpg"
@@ -22,24 +24,24 @@
     "Documentary \u2013 Participatory mode"
   ],
   "tags": [
-    "artistic creation",
+    "celebrity",
     "self-employment",
-    "celebrity"
+    "artistic creation"
   ],
   "director": [
-    {
-      "id": "Gilles Penso",
-      "slug": "gilles-penso",
-      "name": "Gilles Penso",
-      "birthYear": 1967,
-      "gender": "Male identifying",
-      "nationality": "France"
-    },
     {
       "id": "Alexandre Poncet",
       "slug": "alexandre-poncet",
       "name": "Alexandre Poncet",
       "birthYear": 1974,
+      "gender": "Male identifying",
+      "nationality": "France"
+    },
+    {
+      "id": "Gilles Penso",
+      "slug": "gilles-penso",
+      "name": "Gilles Penso",
+      "birthYear": 1967,
       "gender": "Male identifying",
       "nationality": "France"
     }

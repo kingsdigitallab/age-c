@@ -12,10 +12,20 @@
     "date": "2019-10-09",
     "year": 2019
   },
-  "production": {
-    "country": "Germany",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Germany",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Sweden",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "United States of America (the)",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/video/vi66567193/?playlistId=tt9235070&ref_=tt_pr_ov_vi",
     "posterUrl": "https://www.imdb.com/title/tt9235070/mediaviewer/rm2798412800/?ref_=tt_ov_i"
@@ -29,20 +39,20 @@
   ],
   "director": [
     {
-      "id": "Janet Tobias",
-      "slug": "janet-tobias",
-      "name": "Janet Tobias",
-      "birthYear": 1958,
-      "gender": "Female identifying",
-      "nationality": "United States of America (the)"
-    },
-    {
       "id": "Claus Wehlisch",
       "slug": "claus-wehlisch",
       "name": "Claus Wehlisch",
       "birthYear": 1972,
       "gender": "Male identifying",
       "nationality": "Germany"
+    },
+    {
+      "id": "Janet Tobias",
+      "slug": "janet-tobias",
+      "name": "Janet Tobias",
+      "birthYear": 1958,
+      "gender": "Female identifying",
+      "nationality": "United States of America (the)"
     }
   ],
   "synopsis": {

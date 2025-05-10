@@ -11,10 +11,12 @@
     "date": "2023-12-01",
     "year": 2023
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=349755",
     "posterUrl": "https://www.imdb.com/title/tt23037846/mediaviewer/rm3673642497/?ref_=tt_ov_i"
@@ -25,15 +27,15 @@
     "Children's Film"
   ],
   "tags": [
+    "hospital",
     "gray face",
     "medical treatment",
-    "technology",
-    "hospital",
-    "self-employment",
-    "disability",
     "supernatural entity",
+    "physical illness",
+    "disability",
+    "technology",
     "festivities",
-    "physical illness"
+    "self-employment"
   ],
   "director": [
     {
@@ -67,26 +69,6 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2023_006_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "Unknown",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Temporary disability",
-      "assistedMobility": "Yes",
-      "person": {
-        "id": "Santiago Segura",
-        "slug": "santiago-segura",
-        "name": "Santiago Segura",
-        "birthYear": 1965.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
       "id": "ES2023_006_02",
       "age": "3: Third Age (60-75)",
       "gender": "Male identifying",
@@ -101,6 +83,26 @@
         "slug": "janfri-topera",
         "name": "Janfri Topera",
         "birthYear": 1958.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2023_006_01",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "Unknown",
+      "class": "Upper Middle class",
+      "profession": "Self-employed",
+      "ability": "Temporary disability",
+      "assistedMobility": "Yes",
+      "person": {
+        "id": "Santiago Segura",
+        "slug": "santiago-segura",
+        "name": "Santiago Segura",
+        "birthYear": 1965.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },

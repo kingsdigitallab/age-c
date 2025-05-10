@@ -11,30 +11,36 @@
     "date": "2018-06-15",
     "year": 2018
   },
-  "production": {
-    "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "United States of America (the)",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt6111634/?ref_=nm_flmg_knf_t_1",
     "posterUrl": "https://www.imdb.com/title/tt6111634/mediaviewer/rm3997784832/?ref_=tt_ov_i"
   },
   "genre": [
-    "Romance",
+    "Courtroom Drama",
     "Drama",
-    "Courtroom Drama"
+    "Romance"
   ],
   "tags": [
-    "well-being",
-    "state institutions",
-    "retirement home",
-    "independent home",
-    "hospital",
-    "caregiving",
     "ageism",
-    "disability",
+    "caregiving",
+    "hospital",
+    "state institutions",
+    "marriage",
     "physical illness",
-    "marriage"
+    "disability",
+    "independent home",
+    "retirement home",
+    "well-being"
   ],
   "director": [
     {
@@ -47,27 +53,6 @@
     }
   ],
   "character": [
-    {
-      "id": "GB2018_053_02",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Permanent disability",
-      "assistedMobility": "Yes",
-      "person": {
-        "id": "Peter Bowles",
-        "slug": "peter-bowles",
-        "name": "Peter Bowles",
-        "birthYear": 1936.0,
-        "deathYear": 2022.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "GB2018_053_03",
       "age": "4: Fourth Age (>75)",
@@ -124,6 +109,27 @@
         "slug": "david-hargreaves",
         "name": "David Hargreaves",
         "birthYear": 1940.0,
+        "gender": "Male identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "GB2018_053_02",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Permanent disability",
+      "assistedMobility": "Yes",
+      "person": {
+        "id": "Peter Bowles",
+        "slug": "peter-bowles",
+        "name": "Peter Bowles",
+        "birthYear": 1936.0,
+        "deathYear": 2022.0,
         "gender": "Male identifying",
         "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },

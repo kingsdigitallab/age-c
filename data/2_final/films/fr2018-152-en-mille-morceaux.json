@@ -12,10 +12,12 @@
     "date": "2018-10-03",
     "year": 2018
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=4IkT8YVg-us",
     "posterUrl": "https://medias.unifrance.org/medias/236/247/194540/format_page/a-thousand-pieces.jpg"
@@ -24,9 +26,9 @@
     "Drama"
   ],
   "tags": [
-    "crime",
-    "revenge",
     "personal memory",
+    "revenge",
+    "crime",
     "grief"
   ],
   "director": [
@@ -40,26 +42,6 @@
     }
   ],
   "character": [
-    {
-      "id": "FR2018_152_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Cl\u00e9mentine C\u00e9lari\u00e9",
-        "slug": "clementine-celarie",
-        "name": "Cl\u00e9mentine C\u00e9lari\u00e9",
-        "birthYear": 1957.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "FR2018_152_02",
       "age": "3: Third Age (60-75)",
@@ -76,6 +58,26 @@
         "name": "Serge Riaboukine",
         "birthYear": 1957.0,
         "gender": "Male identifying",
+        "nationality": "France"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2018_152_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Cl\u00e9mentine C\u00e9lari\u00e9",
+        "slug": "clementine-celarie",
+        "name": "Cl\u00e9mentine C\u00e9lari\u00e9",
+        "birthYear": 1957.0,
+        "gender": "Female identifying",
         "nationality": "France"
       },
       "role": "Unknown"

@@ -11,10 +11,12 @@
     "date": "2018-05-01",
     "year": 2018
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=NdB6dc4Z4r4",
     "posterUrl": "https://www.imdb.com/title/tt7279014/mediaviewer/rm1027098624/?ref_=tt_ov_i"
@@ -28,26 +30,6 @@
     "education"
   ],
   "character": [
-    {
-      "id": "IT2018_018_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Maurizio Nichetti",
-        "slug": "maurizio-nichetti",
-        "name": "Maurizio Nichetti",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    },
     {
       "id": "IT2018_018_01",
       "age": "2: Late Middle Age (55-60)",
@@ -63,6 +45,26 @@
         "slug": "claudio-bisio",
         "name": "Claudio Bisio",
         "birthYear": 1957.0,
+        "gender": "Male identifying",
+        "nationality": "Italy"
+      },
+      "role": "Leading actor"
+    },
+    {
+      "id": "IT2018_018_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Maurizio Nichetti",
+        "slug": "maurizio-nichetti",
+        "name": "Maurizio Nichetti",
+        "birthYear": 1948.0,
         "gender": "Male identifying",
         "nationality": "Italy"
       },

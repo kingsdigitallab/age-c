@@ -11,10 +11,12 @@
     "date": "2020-09-23",
     "year": 2020
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=5GZ6NfSzHYI",
     "posterUrl": "https://medias.unifrance.org/medias/187/107/224187/format_page/boutchou.jpg"
@@ -23,13 +25,13 @@
     "Comedy"
   ],
   "tags": [
-    "rural",
-    "extended family",
-    "independent home",
-    "parenthood",
-    "urban",
+    "retirement",
     "grandparenthood",
-    "retirement"
+    "extended family",
+    "rural",
+    "parenthood",
+    "independent home",
+    "urban"
   ],
   "director": [
     {
@@ -42,26 +44,6 @@
     }
   ],
   "character": [
-    {
-      "id": "FR2020_073_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Cl\u00e9mentine C\u00e9lari\u00e9",
-        "slug": "clementine-celarie",
-        "name": "Cl\u00e9mentine C\u00e9lari\u00e9",
-        "birthYear": 1957.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "FR2020_073_02",
       "age": "3: Third Age (60-75)",
@@ -96,6 +78,26 @@
         "id": "Carole Bouquet",
         "slug": "carole-bouquet",
         "name": "Carole Bouquet",
+        "birthYear": 1957.0,
+        "gender": "Female identifying",
+        "nationality": "France"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2020_073_03",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Cl\u00e9mentine C\u00e9lari\u00e9",
+        "slug": "clementine-celarie",
+        "name": "Cl\u00e9mentine C\u00e9lari\u00e9",
         "birthYear": 1957.0,
         "gender": "Female identifying",
         "nationality": "France"

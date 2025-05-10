@@ -12,10 +12,16 @@
     "date": "2022-01-26",
     "year": 2022
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Belgium",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=hQeSrmE2p1c",
     "posterUrl": "https://medias.unifrance.org/medias/20/187/244500/format_page/adieu-paris.jpg"
@@ -24,13 +30,53 @@
     "Comedy"
   ],
   "tags": [
-    "homosociality",
-    "self-employment",
-    "urban",
     "artistic creation",
-    "celebrity"
+    "celebrity",
+    "self-employment",
+    "homosociality",
+    "urban"
   ],
   "character": [
+    {
+      "id": "FR2022_015_01",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Pierre Arditi",
+        "slug": "pierre-arditi",
+        "name": "Pierre Arditi",
+        "birthYear": 1944.0,
+        "gender": "Male identifying",
+        "nationality": "France"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2022_015_04",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Bernard Murat",
+        "slug": "bernard-murat",
+        "name": "Bernard Murat",
+        "birthYear": 1941.0,
+        "gender": "Male identifying",
+        "nationality": "France"
+      },
+      "role": "Unknown"
+    },
     {
       "id": "FR2022_015_02",
       "age": "2: Late Middle Age (55-60)",
@@ -66,46 +112,6 @@
         "slug": "bernard-le-coq",
         "name": "Bernard Le Coq",
         "birthYear": 1950.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "FR2022_015_04",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Bernard Murat",
-        "slug": "bernard-murat",
-        "name": "Bernard Murat",
-        "birthYear": 1941.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "FR2022_015_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Pierre Arditi",
-        "slug": "pierre-arditi",
-        "name": "Pierre Arditi",
-        "birthYear": 1944.0,
         "gender": "Male identifying",
         "nationality": "France"
       },

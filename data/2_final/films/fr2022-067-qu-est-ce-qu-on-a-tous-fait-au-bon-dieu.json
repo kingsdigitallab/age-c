@@ -12,10 +12,16 @@
     "date": "2022-04-06",
     "year": 2022
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Belgium",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=VWQyh6WJE7E",
     "posterUrl": "https://medias.unifrance.org/medias/75/169/239947/format_page/qu-est-ce-qu-on-a-tous-fait-au-bon-dieu.png"
@@ -24,21 +30,21 @@
     "Comedy"
   ],
   "tags": [
-    "rural",
-    "substance abuse",
-    "extended family",
-    "in-laws",
-    "independent home",
-    "multigenerational family",
-    "parenthood",
-    "elderhood (friendship among elders)",
-    "interracial relationships",
-    "intergenerational conflict",
-    "racial discrimination",
-    "festivities",
-    "physical illness",
     "retirement",
-    "marriage"
+    "elderhood (friendship among elders)",
+    "intergenerational conflict",
+    "multigenerational family",
+    "marriage",
+    "rural",
+    "physical illness",
+    "racial discrimination",
+    "interracial relationships",
+    "parenthood",
+    "independent home",
+    "substance abuse",
+    "festivities",
+    "extended family",
+    "in-laws"
   ],
   "director": [
     {
@@ -51,26 +57,6 @@
     }
   ],
   "character": [
-    {
-      "id": "FR2022_067_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Christian Clavier",
-        "slug": "christian-clavier",
-        "name": "Christian Clavier",
-        "birthYear": 1952.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "FR2022_067_02",
       "age": "3: Third Age (60-75)",
@@ -87,6 +73,26 @@
         "name": "Chantal Lauby",
         "birthYear": 1948.0,
         "gender": "Female identifying",
+        "nationality": "France"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2022_067_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Christian Clavier",
+        "slug": "christian-clavier",
+        "name": "Christian Clavier",
+        "birthYear": 1952.0,
+        "gender": "Male identifying",
         "nationality": "France"
       },
       "role": "Unknown"

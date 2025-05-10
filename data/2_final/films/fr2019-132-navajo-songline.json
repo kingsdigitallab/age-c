@@ -11,10 +11,12 @@
     "date": "2019-07-17",
     "year": 2019
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=OulVooLBTQ0",
     "posterUrl": "https://medias.unifrance.org/medias/230/20/201958/format_page/navajo-songline.jpg"
@@ -23,24 +25,24 @@
     "Documentary \u2013 Performative mode"
   ],
   "tags": [
-    "natural",
     "personal memory",
-    "cultural memory"
+    "cultural memory",
+    "natural"
   ],
   "director": [
+    {
+      "id": "Lorenza Garcia",
+      "slug": "lorenza-garcia",
+      "name": "Lorenza Garcia",
+      "gender": "Female identifying",
+      "nationality": "France"
+    },
     {
       "id": "Bruno Vienne",
       "slug": "bruno-vienne",
       "name": "Bruno Vienne",
       "birthYear": 1953,
       "gender": "Male identifying",
-      "nationality": "France"
-    },
-    {
-      "id": "Lorenza Garcia",
-      "slug": "lorenza-garcia",
-      "name": "Lorenza Garcia",
-      "gender": "Female identifying",
       "nationality": "France"
     }
   ],

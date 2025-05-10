@@ -12,37 +12,43 @@
     "date": "2019-12-05",
     "year": 2019
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Germany",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=2offbiQcsLQ",
     "posterUrl": "https://www.imdb.com/title/tt7304802/mediaviewer/rm2287635201/?ref_=tt_ov_i"
   },
   "genre": [
     "Noir",
-    "Drama",
-    "Thriller"
+    "Thriller",
+    "Drama"
   ],
   "tags": [
-    "personal trauma",
-    "crime",
-    "rural",
-    "religion",
-    "medical treatment",
-    "extended family",
-    "state institutions",
-    "abuse",
-    "corruption",
-    "intergenerational conflict",
     "hospital",
-    "celibacy",
-    "high rank employment",
+    "intergenerational conflict",
+    "medical treatment",
+    "personal memory",
+    "religion",
     "motherhood",
-    "mental illness",
+    "personal trauma",
+    "rural",
+    "crime",
+    "abuse",
+    "state institutions",
+    "celibacy",
+    "corruption",
     "natural",
-    "personal memory"
+    "mental illness",
+    "high rank employment",
+    "extended family"
   ],
   "director": [
     {
@@ -55,46 +61,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2019_007_04",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Itziar Aizpuru",
-        "slug": "itziar-aizpuru",
-        "name": "Itziar Aizpuru",
-        "birthYear": 1939.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2019_007_05",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Francesc Orella",
-        "slug": "francesc-orella",
-        "name": "Francesc Orella",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2019_007_02",
       "age": "3: Third Age (60-75)",
@@ -130,6 +96,46 @@
         "slug": "ana-wagener",
         "name": "Ana Wagener",
         "birthYear": 1962.0,
+        "gender": "Female identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2019_007_05",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "Unknown",
+      "person": {
+        "id": "Francesc Orella",
+        "slug": "francesc-orella",
+        "name": "Francesc Orella",
+        "birthYear": 1957.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2019_007_04",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Female identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "Unknown",
+      "person": {
+        "id": "Itziar Aizpuru",
+        "slug": "itziar-aizpuru",
+        "name": "Itziar Aizpuru",
+        "birthYear": 1939.0,
         "gender": "Female identifying",
         "nationality": "Spain"
       },

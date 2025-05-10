@@ -11,21 +11,27 @@
     "date": "2018-05-10",
     "year": 2018
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "France",
+      "share": "Minority coproducer"
+    }
+  ],
   "genre": [
-    "Drama",
-    "Biopic"
+    "Biopic",
+    "Drama"
   ],
   "tags": [
-    "wealth",
+    "celebrity",
     "state institutions",
-    "corruption",
-    "professional politics",
     "desire",
-    "celebrity"
+    "professional politics",
+    "corruption",
+    "wealth"
   ],
   "director": [
     {
@@ -38,26 +44,6 @@
     }
   ],
   "character": [
-    {
-      "id": "IT2018_013_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Elena Sofia Ricci",
-        "slug": "elena-sofia-ricci",
-        "name": "Elena Sofia Ricci",
-        "birthYear": 1962.0,
-        "gender": "Female identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    },
     {
       "id": "IT2018_013_01",
       "age": "3: Third Age (60-75)",
@@ -74,6 +60,26 @@
         "name": "Toni Servillo",
         "birthYear": 1959.0,
         "gender": "Male identifying",
+        "nationality": "Italy"
+      },
+      "role": "Leading actor"
+    },
+    {
+      "id": "IT2018_013_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper class",
+      "profession": "Unemployed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Elena Sofia Ricci",
+        "slug": "elena-sofia-ricci",
+        "name": "Elena Sofia Ricci",
+        "birthYear": 1962.0,
+        "gender": "Female identifying",
         "nationality": "Italy"
       },
       "role": "Leading actor"

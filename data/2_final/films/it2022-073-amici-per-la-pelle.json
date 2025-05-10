@@ -11,10 +11,12 @@
     "date": "2022-10-27",
     "year": 2022
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=zpOBM41uvVU",
     "posterUrl": "https://www.imdb.com/title/tt18765042/mediaviewer/rm2506773505/?ref_=tt_ov_i"
@@ -38,26 +40,6 @@
   ],
   "character": [
     {
-      "id": "IT2022_073_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Massimo Ghini",
-        "slug": "massimo-ghini",
-        "name": "Massimo Ghini",
-        "birthYear": 1954.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    },
-    {
       "id": "IT2022_073_02",
       "age": "3: Third Age (60-75)",
       "gender": "Female identifying",
@@ -73,6 +55,26 @@
         "name": "Nancy Brilli",
         "birthYear": 1964.0,
         "gender": "Female identifying",
+        "nationality": "Italy"
+      },
+      "role": "Leading actor"
+    },
+    {
+      "id": "IT2022_073_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Massimo Ghini",
+        "slug": "massimo-ghini",
+        "name": "Massimo Ghini",
+        "birthYear": 1954.0,
+        "gender": "Male identifying",
         "nationality": "Italy"
       },
       "role": "Leading actor"

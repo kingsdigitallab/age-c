@@ -12,25 +12,27 @@
     "date": "2022-11-18",
     "year": 2022
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt10943248/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_El%2520que%2520sabem",
     "posterUrl": "https://www.imdb.com/title/tt10943248/mediaviewer/rm314193409/?ref_=tt_ov_i"
   },
   "genre": [
-    "Romance",
     "Coming of Age",
-    "Drama"
+    "Drama",
+    "Romance"
   ],
   "tags": [
-    "substance abuse",
+    "retirement",
     "anti-ageing practices",
     "motherhood",
-    "natural",
-    "retirement"
+    "substance abuse",
+    "natural"
   ],
   "director": [
     {
@@ -43,25 +45,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2022_073_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Marga Castells",
-        "slug": "marga-castells",
-        "name": "Marga Castells",
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2022_073_01",
       "age": "4: Fourth Age (>75)",
@@ -77,6 +60,25 @@
         "slug": "rosita-amores",
         "name": "Rosita Amores",
         "birthYear": 1938.0,
+        "gender": "Female identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2022_073_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Marga Castells",
+        "slug": "marga-castells",
+        "name": "Marga Castells",
         "gender": "Female identifying",
         "nationality": "Spain"
       },

@@ -11,10 +11,12 @@
     "date": "2019-09-05",
     "year": 2019
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=ia8Q3iVnOPs",
     "posterUrl": "https://www.imdb.com/title/tt7797962/mediaviewer/rm2221106688/?ref_=tt_ov_i"
@@ -25,8 +27,8 @@
   ],
   "tags": [
     "mental illness",
-    "crime",
-    "homosociality"
+    "homosociality",
+    "crime"
   ],
   "director": [
     {
@@ -40,20 +42,20 @@
   ],
   "character": [
     {
-      "id": "IT2019_045_02",
+      "id": "IT2019_045_01",
       "age": "3: Third Age (60-75)",
       "gender": "Male identifying",
-      "sexuality": "Heterosexual",
+      "sexuality": "Unknown",
       "origin": "White Western European",
       "class": "Lower class",
-      "profession": "Unknown",
-      "ability": "Permanent disability",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Rocco Papaleo",
-        "slug": "rocco-papaleo",
-        "name": "Rocco Papaleo",
-        "birthYear": 1958.0,
+        "id": "Sergio Rubini",
+        "slug": "sergio-rubini",
+        "name": "Sergio Rubini",
+        "birthYear": 1959.0,
         "gender": "Male identifying",
         "nationality": "Italy"
       },
@@ -80,20 +82,20 @@
       "role": "Director of the film"
     },
     {
-      "id": "IT2019_045_01",
+      "id": "IT2019_045_02",
       "age": "3: Third Age (60-75)",
       "gender": "Male identifying",
-      "sexuality": "Unknown",
+      "sexuality": "Heterosexual",
       "origin": "White Western European",
       "class": "Lower class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
+      "profession": "Unknown",
+      "ability": "Permanent disability",
       "assistedMobility": "No",
       "person": {
-        "id": "Sergio Rubini",
-        "slug": "sergio-rubini",
-        "name": "Sergio Rubini",
-        "birthYear": 1959.0,
+        "id": "Rocco Papaleo",
+        "slug": "rocco-papaleo",
+        "name": "Rocco Papaleo",
+        "birthYear": 1958.0,
         "gender": "Male identifying",
         "nationality": "Italy"
       },

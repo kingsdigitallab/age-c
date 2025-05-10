@@ -11,10 +11,20 @@
     "date": "2023-09-29",
     "year": 2023
   },
-  "production": {
-    "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Belgium",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt19883634/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_The%2520Old%2520Oak",
     "posterUrl": "https://www.imdb.com/title/tt19883634/mediaviewer/rm1884374785/?ref_=tt_ov_i"
@@ -23,20 +33,20 @@
     "Drama"
   ],
   "tags": [
-    "rural",
-    "migration",
-    "abuse",
-    "intergenerational friendship",
-    "volunteering",
+    "unemployment",
+    "activism",
     "class solidarity",
     "cultural memory",
     "interracial relationships",
-    "regional identity",
-    "self-employment",
+    "rural",
     "racial discrimination",
-    "activism",
-    "unemployment",
-    "precarity"
+    "precarity",
+    "volunteering",
+    "migration",
+    "abuse",
+    "intergenerational friendship",
+    "self-employment",
+    "regional identity"
   ],
   "director": [
     {
@@ -49,25 +59,6 @@
     }
   ],
   "character": [
-    {
-      "id": "GB2023_003_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Trevor Fox",
-        "slug": "trevor-fox",
-        "name": "Trevor Fox",
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "GB2023_003_01",
       "age": "2: Late Middle Age (55-60)",
@@ -102,6 +93,25 @@
         "id": "Maxie Peters",
         "slug": "maxie-peters",
         "name": "Maxie Peters",
+        "gender": "Male identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "GB2023_003_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Unemployed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Trevor Fox",
+        "slug": "trevor-fox",
+        "name": "Trevor Fox",
         "gender": "Male identifying",
         "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },

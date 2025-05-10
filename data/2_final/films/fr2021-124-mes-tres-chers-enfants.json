@@ -12,10 +12,12 @@
     "date": "2021-12-15",
     "year": 2021
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=Om3E-t10mB0",
     "posterUrl": "https://medias.unifrance.org/medias/74/169/239946/format_page/price-of-parenting.jpg"
@@ -24,12 +26,12 @@
     "Comedy"
   ],
   "tags": [
-    "wealth",
-    "parenthood",
     "fraud",
     "loneliness",
+    "marriage",
     "empty nest",
-    "marriage"
+    "parenthood",
+    "wealth"
   ],
   "director": [
     {
@@ -41,26 +43,6 @@
     }
   ],
   "character": [
-    {
-      "id": "FR2021_126_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Josiane Balasko",
-        "slug": "josiane-balasko",
-        "name": "Josiane Balasko",
-        "birthYear": 1950.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "FR2021_126_02",
       "age": "3: Third Age (60-75)",
@@ -77,6 +59,26 @@
         "name": "Didier Bourdon",
         "birthYear": 1959.0,
         "gender": "Male identifying",
+        "nationality": "France"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2021_126_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Josiane Balasko",
+        "slug": "josiane-balasko",
+        "name": "Josiane Balasko",
+        "birthYear": 1950.0,
+        "gender": "Female identifying",
         "nationality": "France"
       },
       "role": "Unknown"

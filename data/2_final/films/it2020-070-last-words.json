@@ -11,28 +11,54 @@
     "date": "2020-05-12",
     "year": 2020
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "France",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=RRLjfjx_A4M",
     "posterUrl": "https://www.imdb.com/title/tt12443726/mediaviewer/rm650833665/?ref_=tt_ov_i"
   },
   "genre": [
-    "Multi-protagonist film",
+    "Disaster Film",
     "Drama",
-    "Disaster Film"
+    "Multi-protagonist film"
   ],
   "tags": [
-    "intergenerational friendship",
-    "ecology",
-    "interracial relationships",
     "artistic creation",
+    "personal memory",
+    "interracial relationships",
+    "ecology",
     "natural",
-    "personal memory"
+    "intergenerational friendship"
   ],
   "character": [
+    {
+      "id": "IT2020_070_03",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "Central European",
+      "class": "Unknown",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Stellan Skarsg\u00e5rd",
+        "slug": "stellan-skarsgard",
+        "name": "Stellan Skarsg\u00e5rd",
+        "birthYear": 1951.0,
+        "gender": "Male identifying",
+        "nationality": "Switzerland"
+      },
+      "role": "Leading actor"
+    },
     {
       "id": "IT2020_070_01",
       "age": "3: Third Age (60-75)",
@@ -70,26 +96,6 @@
         "birthYear": 1941.0,
         "gender": "Male identifying",
         "nationality": "United States of America (the)"
-      },
-      "role": "Leading actor"
-    },
-    {
-      "id": "IT2020_070_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "Central European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Stellan Skarsg\u00e5rd",
-        "slug": "stellan-skarsgard",
-        "name": "Stellan Skarsg\u00e5rd",
-        "birthYear": 1951.0,
-        "gender": "Male identifying",
-        "nationality": "Switzerland"
       },
       "role": "Leading actor"
     }

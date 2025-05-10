@@ -12,34 +12,43 @@
     "date": "2022-03-11",
     "year": 2022
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt10127708/?ref_=nv_sr_srsg_0_tt_4_nm_3_in_0_q_Malnazidos",
     "posterUrl": "https://www.imdb.com/title/tt10127708/mediaviewer/rm480224769/?ref_=tt_ov_i"
   },
   "genre": [
     "Comedy",
-    "Horror",
+    "Action",
     "War Film",
-    "Action"
+    "Horror"
   ],
   "tags": [
-    "power",
-    "war",
-    "state institutions",
-    "homosociality",
-    "collective trauma",
     "national identity",
+    "war",
     "supernatural entity",
-    "natural",
-    "high rank employment",
+    "state institutions",
+    "murder",
     "superior-employee relationship",
-    "murder"
+    "collective trauma",
+    "natural",
+    "power",
+    "homosociality",
+    "high rank employment"
   ],
   "director": [
+    {
+      "id": "Alberto de Toro",
+      "slug": "alberto-de-toro",
+      "name": "Alberto de Toro",
+      "gender": "Male identifying",
+      "nationality": "Spain"
+    },
     {
       "id": "Javier Ruiz Caldera",
       "slug": "javier-ruiz-caldera",
@@ -47,36 +56,9 @@
       "birthYear": 1976,
       "gender": "Male identifying",
       "nationality": "Spain"
-    },
-    {
-      "id": "Alberto de Toro",
-      "slug": "alberto-de-toro",
-      "name": "Alberto de Toro",
-      "gender": "Male identifying",
-      "nationality": "Spain"
     }
   ],
   "character": [
-    {
-      "id": "ES2022_015_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Manuel Mor\u00f3n",
-        "slug": "manuel-moron",
-        "name": "Manuel Mor\u00f3n",
-        "birthYear": 1956.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2022_015_02",
       "age": "2: Late Middle Age (55-60)",
@@ -94,6 +76,26 @@
         "birthYear": 1965.0,
         "gender": "Male identifying",
         "nationality": "Belgium"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2022_015_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Manuel Mor\u00f3n",
+        "slug": "manuel-moron",
+        "name": "Manuel Mor\u00f3n",
+        "birthYear": 1956.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
       },
       "role": "Unknown"
     }

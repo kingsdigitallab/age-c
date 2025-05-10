@@ -12,10 +12,12 @@
     "date": "2019-11-15",
     "year": 2019
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=SI7sgNO3PVE",
     "posterUrl": "https://www.imdb.com/title/tt9010802/mediaviewer/rm3230175489/?ref_=tt_ov_i"
@@ -25,12 +27,12 @@
     "Romance"
   ],
   "tags": [
-    "wealth",
-    "rural",
-    "in-laws",
-    "parenthood",
     "fraud",
-    "self-employment"
+    "rural",
+    "parenthood",
+    "self-employment",
+    "wealth",
+    "in-laws"
   ],
   "director": [
     {
@@ -43,26 +45,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2019_001_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Antonio Resines",
-        "slug": "antonio-resines",
-        "name": "Antonio Resines",
-        "birthYear": 1954.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2019_001_02",
       "age": "3: Third Age (60-75)",
@@ -79,6 +61,26 @@
         "name": "Isabel Ordaz",
         "birthYear": 1957.0,
         "gender": "Female identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2019_001_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "Unknown",
+      "person": {
+        "id": "Antonio Resines",
+        "slug": "antonio-resines",
+        "name": "Antonio Resines",
+        "birthYear": 1954.0,
+        "gender": "Male identifying",
         "nationality": "Spain"
       },
       "role": "Unknown"

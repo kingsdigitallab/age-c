@@ -11,10 +11,12 @@
     "date": "2022-06-09",
     "year": 2022
   },
-  "production": {
-    "country": "Germany",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Germany",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=xalNNj5m1NM&ab_channel=FilmtoastTrailer",
     "posterUrl": "https://www.imdb.com/title/tt6036804/mediaviewer/rm1282021889/?ref_=tt_ov_i"
@@ -23,11 +25,11 @@
     "Drama"
   ],
   "tags": [
-    "medical treatment",
-    "independent home",
     "caregiving",
+    "medical treatment",
+    "marriage",
     "physical illness",
-    "marriage"
+    "independent home"
   ],
   "director": [
     {
@@ -39,26 +41,6 @@
     }
   ],
   "character": [
-    {
-      "id": "DE2022_042_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Retired",
-      "ability": "Permanent disability",
-      "assistedMobility": "Yes",
-      "person": {
-        "id": "Dagmar Manzel",
-        "slug": "dagmar-manzel",
-        "name": "Dagmar Manzel",
-        "birthYear": 1958.0,
-        "gender": "Female identifying",
-        "nationality": "Germany"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "DE2022_042_02",
       "age": "3: Third Age (60-75)",
@@ -76,6 +58,26 @@
         "birthYear": 1955.0,
         "gender": "Male identifying",
         "nationality": "Sweden"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "DE2022_042_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper class",
+      "profession": "Retired",
+      "ability": "Permanent disability",
+      "assistedMobility": "Yes",
+      "person": {
+        "id": "Dagmar Manzel",
+        "slug": "dagmar-manzel",
+        "name": "Dagmar Manzel",
+        "birthYear": 1958.0,
+        "gender": "Female identifying",
+        "nationality": "Germany"
       },
       "role": "Unknown"
     }

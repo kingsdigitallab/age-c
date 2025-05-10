@@ -11,31 +11,37 @@
     "date": "2021-02-19",
     "year": 2021
   },
-  "production": {
-    "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "United States of America (the)",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=lXVoQWzlAxw",
     "posterUrl": "https://www.imdb.com/title/tt7598106/mediaviewer/rm3411986945/?ref_=tt_ov_i"
   },
   "genre": [
+    "Biopic",
     "Historical film (Heritage Film)",
     "Romance",
-    "Drama",
-    "Biopic"
+    "Drama"
   ],
   "tags": [
-    "personal trauma",
-    "new start",
-    "intergenerational friendship",
-    "independent home",
-    "self-employment",
-    "search for meaning",
-    "grief",
     "artistic creation",
+    "search for meaning",
+    "marriage",
+    "grief",
+    "personal trauma",
+    "independent home",
+    "intergenerational friendship",
     "fatherhood",
-    "marriage"
+    "new start",
+    "self-employment"
   ],
   "director": [
     {
@@ -48,6 +54,26 @@
     }
   ],
   "character": [
+    {
+      "id": "GB2021_014_01",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Hugh Bonneville",
+        "slug": "hugh-bonneville",
+        "name": "Hugh Bonneville",
+        "birthYear": 1963.0,
+        "gender": "Male identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Unknown"
+    },
     {
       "id": "GB2021_014_02",
       "age": "3: Third Age (60-75)",
@@ -64,26 +90,6 @@
         "name": "Geoffrey Palmer",
         "birthYear": 1927.0,
         "deathYear": 2020.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "GB2021_014_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Hugh Bonneville",
-        "slug": "hugh-bonneville",
-        "name": "Hugh Bonneville",
-        "birthYear": 1963.0,
         "gender": "Male identifying",
         "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },

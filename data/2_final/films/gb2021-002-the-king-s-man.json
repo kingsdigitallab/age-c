@@ -11,44 +11,50 @@
     "date": "2021-12-31",
     "year": 2021
   },
-  "production": {
-    "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "United States of America (the)",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=414982",
     "posterUrl": "https://www.imdb.com/title/tt9214832/mediaviewer/rm274892545/?ref_=tt_ov_i"
   },
   "genre": [
-    "War Film",
     "Spy Film",
+    "Drama",
     "Historical film (Heritage Film)",
-    "Action",
-    "Drama"
+    "War Film",
+    "Action"
   ],
   "tags": [
-    "professional politics",
-    "natural",
+    "activism",
+    "intergenerational conflict",
+    "disability",
+    "independent home",
     "fatherhood",
     "murder",
-    "new start",
-    "colony",
-    "intergenerational conflict",
-    "independent home",
-    "collective trauma",
-    "empty nest",
     "national identity",
-    "disability",
-    "marriage",
-    "wealth",
-    "intergenerational friendship",
-    "high rank employment",
     "medical treatment",
-    "state institutions",
-    "homosociality",
+    "marriage",
     "grief",
-    "activism",
-    "cultural memory"
+    "colony",
+    "new start",
+    "state institutions",
+    "professional politics",
+    "intergenerational friendship",
+    "cultural memory",
+    "wealth",
+    "homosociality",
+    "high rank employment",
+    "empty nest",
+    "collective trauma",
+    "natural"
   ],
   "director": [
     {
@@ -61,46 +67,6 @@
     }
   ],
   "character": [
-    {
-      "id": "GB2021_002_04",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White North American",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Stanley Tucci",
-        "slug": "stanley-tucci",
-        "name": "Stanley Tucci",
-        "birthYear": 1960.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "GB2021_002_05",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "Central European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Ron Cook",
-        "slug": "ron-cook",
-        "name": "Ron Cook",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "GB2021_002_02",
       "age": "3: Third Age (60-75)",
@@ -118,26 +84,6 @@
         "birthYear": 1946.0,
         "gender": "Male identifying",
         "nationality": "France"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "GB2021_002_04",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White North American",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Stanley Tucci",
-        "slug": "stanley-tucci",
-        "name": "Stanley Tucci",
-        "birthYear": 1960.0,
-        "gender": "Male identifying",
-        "nationality": "United States of America (the)"
       },
       "role": "Unknown"
     },
@@ -162,6 +108,26 @@
       "role": "Unknown"
     },
     {
+      "id": "GB2021_002_04",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White North American",
+      "class": "Upper Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Stanley Tucci",
+        "slug": "stanley-tucci",
+        "name": "Stanley Tucci",
+        "birthYear": 1960.0,
+        "gender": "Male identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Unknown"
+    },
+    {
       "id": "GB2021_002_03",
       "age": "2: Late Middle Age (55-60)",
       "gender": "Male identifying",
@@ -178,6 +144,46 @@
         "birthYear": 1964.0,
         "gender": "Male identifying",
         "nationality": "Benin"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "GB2021_002_04",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White North American",
+      "class": "Upper Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Stanley Tucci",
+        "slug": "stanley-tucci",
+        "name": "Stanley Tucci",
+        "birthYear": 1960.0,
+        "gender": "Male identifying",
+        "nationality": "United States of America (the)"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "GB2021_002_05",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "Central European",
+      "class": "Upper class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Ron Cook",
+        "slug": "ron-cook",
+        "name": "Ron Cook",
+        "birthYear": 1948.0,
+        "gender": "Male identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },
       "role": "Unknown"
     }

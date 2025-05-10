@@ -12,37 +12,43 @@
     "date": "2018-11-09",
     "year": 2018
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=j6GqxzRwOE0",
     "posterUrl": "https://www.imdb.com/title/tt7807026/mediaviewer/rm4158225664/?ref_=tt_ov_i"
   },
   "genre": [
     "Noir",
-    "Drama",
-    "Thriller"
+    "Thriller",
+    "Drama"
   ],
   "tags": [
-    "crime",
-    "revenge",
-    "well-being",
-    "state institutions",
-    "technology",
-    "abuse",
-    "independent home",
-    "hospital",
     "caregiving",
-    "parenthood",
-    "gender discrimination",
-    "urban",
-    "grief",
+    "hospital",
     "motherhood",
+    "marriage",
+    "revenge",
+    "grief",
+    "abuse",
+    "crime",
+    "state institutions",
+    "parenthood",
+    "independent home",
+    "technology",
+    "gender discrimination",
     "fatherhood",
+    "well-being",
     "high rank employment",
-    "marriage"
+    "urban"
   ],
   "director": [
     {
@@ -55,26 +61,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2018_007_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Ana Wagener",
-        "slug": "ana-wagener",
-        "name": "Ana Wagener",
-        "birthYear": 1962.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2018_007_01",
       "age": "2: Late Middle Age (55-60)",
@@ -91,6 +77,26 @@
         "name": "Jos\u00e9 Coronado",
         "birthYear": 1957.0,
         "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2018_007_02",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Ana Wagener",
+        "slug": "ana-wagener",
+        "name": "Ana Wagener",
+        "birthYear": 1962.0,
+        "gender": "Female identifying",
         "nationality": "Spain"
       },
       "role": "Unknown"

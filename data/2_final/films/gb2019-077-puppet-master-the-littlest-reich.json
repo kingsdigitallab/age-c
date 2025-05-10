@@ -11,10 +11,16 @@
     "date": "2018-04-19",
     "year": 2018
   },
-  "production": {
-    "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "United States of America (the)",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt5685006/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_Puppet%2520Master%253A%2520The%2520Littlest%2520Reich",
     "posterUrl": "https://www.imdb.com/title/tt5685006/mediaviewer/rm432699904/?ref_=tt_ov_i"
@@ -23,22 +29,15 @@
     "Horror"
   ],
   "tags": [
+    "artistic creation",
     "crime",
     "revenge",
     "state institutions",
-    "abuse",
     "collective trauma",
-    "artistic creation",
+    "abuse",
     "murder"
   ],
   "director": [
-    {
-      "id": "Tommy Wiklund",
-      "slug": "tommy-wiklund",
-      "name": "Tommy Wiklund",
-      "gender": "Male identifying",
-      "nationality": "Sweden"
-    },
     {
       "id": "Sonny Laguna",
       "slug": "sonny-laguna",
@@ -46,26 +45,33 @@
       "birthYear": 1983,
       "gender": "Male identifying",
       "nationality": "Sweden"
+    },
+    {
+      "id": "Tommy Wiklund",
+      "slug": "tommy-wiklund",
+      "name": "Tommy Wiklund",
+      "gender": "Male identifying",
+      "nationality": "Sweden"
     }
   ],
   "character": [
     {
-      "id": "GB2019_077_03",
+      "id": "GB2019_077_01",
       "age": "2: Late Middle Age (55-60)",
       "gender": "Male identifying",
       "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
+      "origin": "White North American",
+      "class": "Middle class",
       "profession": "Unknown",
-      "ability": "Unknown",
+      "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Matthias Hues",
-        "slug": "matthias-hues",
-        "name": "Matthias Hues",
-        "birthYear": 1959.0,
+        "id": "Michael Par\u00e9",
+        "slug": "michael-pare",
+        "name": "Michael Par\u00e9",
+        "birthYear": 1958.0,
         "gender": "Male identifying",
-        "nationality": "Germany"
+        "nationality": "United States of America (the)"
       },
       "role": "Unknown"
     },
@@ -90,22 +96,22 @@
       "role": "Unknown"
     },
     {
-      "id": "GB2019_077_01",
+      "id": "GB2019_077_03",
       "age": "2: Late Middle Age (55-60)",
       "gender": "Male identifying",
       "sexuality": "Unknown",
-      "origin": "White North American",
-      "class": "Middle class",
+      "origin": "White Western European",
+      "class": "Unknown",
       "profession": "Unknown",
-      "ability": "Able-bodied",
+      "ability": "Unknown",
       "assistedMobility": "No",
       "person": {
-        "id": "Michael Par\u00e9",
-        "slug": "michael-pare",
-        "name": "Michael Par\u00e9",
-        "birthYear": 1958.0,
+        "id": "Matthias Hues",
+        "slug": "matthias-hues",
+        "name": "Matthias Hues",
+        "birthYear": 1959.0,
         "gender": "Male identifying",
-        "nationality": "United States of America (the)"
+        "nationality": "Germany"
       },
       "role": "Unknown"
     }

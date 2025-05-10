@@ -12,10 +12,16 @@
     "date": "2022-09-07",
     "year": 2022
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Belgium",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=NEXVa-FqfNw",
     "posterUrl": "https://medias.unifrance.org/medias/27/217/252187/format_page/le-tigre-et-le-president.jpg"
@@ -25,13 +31,13 @@
     "Biopic"
   ],
   "tags": [
-    "rural",
-    "state institutions",
-    "professional politics",
     "national identity",
-    "urban",
     "celebrity",
-    "marriage"
+    "state institutions",
+    "rural",
+    "marriage",
+    "professional politics",
+    "urban"
   ],
   "director": [
     {
@@ -43,26 +49,6 @@
     }
   ],
   "character": [
-    {
-      "id": "FR2022_120_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Jacques Gamblin",
-        "slug": "jacques-gamblin",
-        "name": "Jacques Gamblin",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "FR2022_120_02",
       "age": "4: Fourth Age (>75)",
@@ -78,6 +64,26 @@
         "slug": "andre-dussollier",
         "name": "Andr\u00e9 Dussollier",
         "birthYear": 1946.0,
+        "gender": "Male identifying",
+        "nationality": "France"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2022_120_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Jacques Gamblin",
+        "slug": "jacques-gamblin",
+        "name": "Jacques Gamblin",
+        "birthYear": 1957.0,
         "gender": "Male identifying",
         "nationality": "France"
       },

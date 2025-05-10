@@ -12,28 +12,38 @@
     "date": "2020-02-12",
     "year": 2020
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Luxembourg",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Belgium",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=g8gZseCXevM",
     "posterUrl": "https://medias.unifrance.org/medias/93/80/217181/format_page/deux.jpg"
   },
   "genre": [
-    "Romance",
-    "Drama"
+    "Drama",
+    "Romance"
   ],
   "tags": [
-    "independent home",
-    "elderhood (friendship among elders)",
+    "retirement",
     "caregiving",
-    "partnership",
-    "desire",
-    "lgbtqi",
+    "elderhood (friendship among elders)",
     "motherhood",
+    "desire",
     "physical illness",
-    "retirement"
+    "independent home",
+    "partnership",
+    "lgbtqi"
   ],
   "director": [
     {
@@ -54,15 +64,15 @@
       "origin": "White Western European",
       "class": "Upper Middle class",
       "profession": "Retired",
-      "ability": "Able-bodied",
+      "ability": "Temporary disability",
       "assistedMobility": "No",
       "person": {
-        "id": "Barbara Sukowa",
-        "slug": "barbara-sukowa",
-        "name": "Barbara Sukowa",
-        "birthYear": 1950.0,
+        "id": "Martine Chevallier",
+        "slug": "martine-chevallier",
+        "name": "Martine Chevallier",
+        "birthYear": 1949.0,
         "gender": "Female identifying",
-        "nationality": "Germany"
+        "nationality": "France"
       },
       "role": "Unknown"
     },
@@ -74,15 +84,15 @@
       "origin": "White Western European",
       "class": "Upper Middle class",
       "profession": "Retired",
-      "ability": "Temporary disability",
+      "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Martine Chevallier",
-        "slug": "martine-chevallier",
-        "name": "Martine Chevallier",
-        "birthYear": 1949.0,
+        "id": "Barbara Sukowa",
+        "slug": "barbara-sukowa",
+        "name": "Barbara Sukowa",
+        "birthYear": 1950.0,
         "gender": "Female identifying",
-        "nationality": "France"
+        "nationality": "Germany"
       },
       "role": "Unknown"
     }

@@ -11,10 +11,12 @@
     "date": "2019-05-03",
     "year": 2019
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=546866",
     "posterUrl": "https://www.imdb.com/title/tt4565230/mediaviewer/rm2572838400/?ref_=tt_ov_i"
@@ -23,16 +25,16 @@
     "Horror"
   ],
   "tags": [
-    "personal trauma",
-    "rural",
-    "abuse",
-    "independent home",
     "caregiving",
-    "parenthood",
     "national identity",
-    "grief",
-    "supernatural entity",
     "religion",
+    "supernatural entity",
+    "personal trauma",
+    "grief",
+    "rural",
+    "parenthood",
+    "independent home",
+    "abuse",
     "cultural memory"
   ],
   "director": [
@@ -46,26 +48,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2019_038_03",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Eastern European",
-      "class": "Lower Middle class",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Tinka Kurti",
-        "slug": "tinka-kurti",
-        "name": "Tinka Kurti",
-        "birthYear": 1932.0,
-        "gender": "Female identifying",
-        "nationality": "Albania"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2019_038_01",
       "age": "4: Fourth Age (>75)",
@@ -120,6 +102,26 @@
         "id": "Margarita Xhepa",
         "slug": "margarita-xhepa",
         "name": "Margarita Xhepa",
+        "birthYear": 1932.0,
+        "gender": "Female identifying",
+        "nationality": "Albania"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2019_038_03",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Female identifying",
+      "sexuality": "Unknown",
+      "origin": "White Eastern European",
+      "class": "Lower Middle class",
+      "profession": "Unknown",
+      "ability": "Unknown",
+      "assistedMobility": "Unknown",
+      "person": {
+        "id": "Tinka Kurti",
+        "slug": "tinka-kurti",
+        "name": "Tinka Kurti",
         "birthYear": 1932.0,
         "gender": "Female identifying",
         "nationality": "Albania"

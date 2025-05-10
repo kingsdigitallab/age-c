@@ -12,26 +12,44 @@
     "date": "2021-10-06",
     "year": 2021
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Qatar",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Portugal",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Palestine, State of",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Germany",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=siBNQPhaiE4",
     "posterUrl": "https://medias.unifrance.org/medias/124/166/239228/format_page/gaza-mon-amour.jpg"
   },
   "genre": [
     "Comedy",
-    "Romance",
-    "Drama"
+    "Drama",
+    "Romance"
   ],
   "tags": [
-    "state institutions",
     "sisterhood",
-    "romance",
-    "self-employment",
     "motherhood",
-    "marriage"
+    "marriage",
+    "state institutions",
+    "self-employment",
+    "romance"
   ],
   "director": [
     {
@@ -53,26 +71,6 @@
   ],
   "character": [
     {
-      "id": "FR2021_079_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "Middle East",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Hiam Abbass",
-        "slug": "hiam-abbass",
-        "name": "Hiam Abbass",
-        "birthYear": 1960.0,
-        "gender": "Female identifying",
-        "nationality": "Palestine, State of"
-      },
-      "role": "Unknown"
-    },
-    {
       "id": "FR2021_079_01",
       "age": "3: Third Age (60-75)",
       "gender": "Male identifying",
@@ -89,6 +87,26 @@
         "birthYear": 1950.0,
         "gender": "Male identifying",
         "nationality": "Iceland"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2021_079_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "Middle East",
+      "class": "Lower Middle class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Hiam Abbass",
+        "slug": "hiam-abbass",
+        "name": "Hiam Abbass",
+        "birthYear": 1960.0,
+        "gender": "Female identifying",
+        "nationality": "Palestine, State of"
       },
       "role": "Unknown"
     }

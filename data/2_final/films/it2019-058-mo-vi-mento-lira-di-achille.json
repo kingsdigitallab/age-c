@@ -11,10 +11,12 @@
     "date": "2019-05-16",
     "year": 2019
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=bfbaoQusDHI",
     "posterUrl": "https://www.imdb.com/title/tt6213384/mediaviewer/rm1458398720/?ref_=tt_ov_i"
@@ -28,19 +30,19 @@
   ],
   "director": [
     {
-      "id": "Francesco Gagliardi",
-      "slug": "francesco-gagliardi",
-      "name": "Francesco Gagliardi",
-      "birthYear": 1974,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    },
-    {
       "id": "Stefania Capobianco",
       "slug": "stefania-capobianco",
       "name": "Stefania Capobianco",
       "birthYear": 1986,
       "gender": "Female identifying",
+      "nationality": "Italy"
+    },
+    {
+      "id": "Francesco Gagliardi",
+      "slug": "francesco-gagliardi",
+      "name": "Francesco Gagliardi",
+      "birthYear": 1974,
+      "gender": "Male identifying",
       "nationality": "Italy"
     }
   ],

@@ -11,10 +11,12 @@
     "date": "2023-12-07",
     "year": 2023
   },
-  "production": {
-    "country": "Germany",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Germany",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=gucB9v7g2cY&ab_channel=KinoCheck",
     "posterUrl": "https://www.imdb.com/title/tt27906941/mediaviewer/rm2837796609/?ref_=tt_ov_i"
@@ -23,11 +25,11 @@
     "Comedy"
   ],
   "tags": [
-    "homosociality",
-    "rescue mission",
-    "search for meaning",
     "intragenerational friendship",
-    "physical illness"
+    "search for meaning",
+    "physical illness",
+    "rescue mission",
+    "homosociality"
   ],
   "director": [
     {
@@ -40,26 +42,6 @@
     }
   ],
   "character": [
-    {
-      "id": "DE2023_107_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unemployed",
-      "ability": "Chronic illness",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Til Schweiger",
-        "slug": "til-schweiger",
-        "name": "Til Schweiger",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "Germany"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "DE2023_107_02",
       "age": "3: Third Age (60-75)",
@@ -74,6 +56,26 @@
         "id": "Michael Maertens",
         "slug": "michael-maertens",
         "name": "Michael Maertens",
+        "birthYear": 1963.0,
+        "gender": "Male identifying",
+        "nationality": "Germany"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "DE2023_107_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Unemployed",
+      "ability": "Chronic illness",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Til Schweiger",
+        "slug": "til-schweiger",
+        "name": "Til Schweiger",
         "birthYear": 1963.0,
         "gender": "Male identifying",
         "nationality": "Germany"

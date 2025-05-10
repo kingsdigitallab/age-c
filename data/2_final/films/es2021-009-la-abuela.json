@@ -12,10 +12,20 @@
     "date": "2021-07-10",
     "year": 2021
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Belgium",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=NE6YrUzcKeA",
     "posterUrl": "https://www.imdb.com/title/tt11807888/mediaviewer/rm1012465409/?ref_=tt_ov_i"
@@ -24,18 +34,18 @@
     "Horror"
   ],
   "tags": [
-    "personal trauma",
-    "agony",
     "grandmotherhood",
-    "abuse",
-    "independent home",
     "caregiving",
-    "disability",
-    "urban",
     "return home",
-    "supernatural entity",
     "personal memory",
-    "dementia"
+    "agony",
+    "supernatural entity",
+    "personal trauma",
+    "disability",
+    "independent home",
+    "dementia",
+    "abuse",
+    "urban"
   ],
   "director": [
     {
@@ -48,26 +58,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2021_009_02",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Retired",
-      "ability": "Permanent disability",
-      "assistedMobility": "Yes",
-      "person": {
-        "id": "Vera Valdez",
-        "slug": "vera-valdez",
-        "name": "Vera Valdez",
-        "birthYear": 1936.0,
-        "gender": "Female identifying",
-        "nationality": "Brazil"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2021_009_02",
       "age": "2: Late Middle Age (55-60)",
@@ -105,6 +95,26 @@
         "birthYear": 1954.0,
         "gender": "Female identifying",
         "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2021_009_02",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Retired",
+      "ability": "Permanent disability",
+      "assistedMobility": "Yes",
+      "person": {
+        "id": "Vera Valdez",
+        "slug": "vera-valdez",
+        "name": "Vera Valdez",
+        "birthYear": 1936.0,
+        "gender": "Female identifying",
+        "nationality": "Brazil"
       },
       "role": "Unknown"
     }

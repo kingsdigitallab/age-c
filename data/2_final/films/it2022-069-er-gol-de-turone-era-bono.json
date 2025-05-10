@@ -11,10 +11,12 @@
     "date": "2022-10-24",
     "year": 2022
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=J9ZLiL6HzGw",
     "posterUrl": "https://www.imdb.com/title/tt23541370/mediaviewer/rm955385089/?ref_=tt_ov_i"
@@ -29,18 +31,18 @@
   ],
   "director": [
     {
-      "id": "Francesco Miccich\u00e8",
-      "slug": "francesco-micciche",
-      "name": "Francesco Miccich\u00e8",
-      "birthYear": 1966,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    },
-    {
       "id": "Lorenzo Rossi Espagnet",
       "slug": "lorenzo-rossi-espagnet",
       "name": "Lorenzo Rossi Espagnet",
       "birthYear": 1982,
+      "gender": "Male identifying",
+      "nationality": "Italy"
+    },
+    {
+      "id": "Francesco Miccich\u00e8",
+      "slug": "francesco-micciche",
+      "name": "Francesco Miccich\u00e8",
+      "birthYear": 1966,
       "gender": "Male identifying",
       "nationality": "Italy"
     }

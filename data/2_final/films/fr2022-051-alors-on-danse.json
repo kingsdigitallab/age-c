@@ -12,10 +12,12 @@
     "date": "2022-03-16",
     "year": 2022
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=ThfQ-1EVOgw",
     "posterUrl": "https://medias.unifrance.org/medias/240/195/246768/format_page/alors-on-danse.jpg"
@@ -24,17 +26,17 @@
     "Comedy"
   ],
   "tags": [
-    "new start",
-    "infidelity",
-    "volunteering",
-    "sisterhood",
-    "elderhood (friendship among elders)",
-    "celibacy",
-    "separation",
-    "self-employment",
-    "artistic creation",
     "retirement",
-    "women empowerment"
+    "artistic creation",
+    "elderhood (friendship among elders)",
+    "infidelity",
+    "sisterhood",
+    "celibacy",
+    "new start",
+    "volunteering",
+    "women empowerment",
+    "separation",
+    "self-employment"
   ],
   "director": [
     {
@@ -47,26 +49,6 @@
     }
   ],
   "character": [
-    {
-      "id": "FR2022_051_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Isabelle Nanty",
-        "slug": "isabelle-nanty",
-        "name": "Isabelle Nanty",
-        "birthYear": 1962.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "FR2022_051_01",
       "age": "3: Third Age (60-75)",
@@ -82,6 +64,26 @@
         "slug": "michele-laroque",
         "name": "Mich\u00e8le Laroque",
         "birthYear": 1960.0,
+        "gender": "Female identifying",
+        "nationality": "France"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2022_051_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Isabelle Nanty",
+        "slug": "isabelle-nanty",
+        "name": "Isabelle Nanty",
+        "birthYear": 1962.0,
         "gender": "Female identifying",
         "nationality": "France"
       },

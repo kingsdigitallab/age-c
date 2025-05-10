@@ -11,10 +11,16 @@
     "date": "2018-07-12",
     "year": 2018
   },
-  "production": {
-    "country": "Germany",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Germany",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "France",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/video/vi814922265/?playlistId=tt6210160&ref_=tt_ov_pr_ov_vi",
     "posterUrl": "https://www.imdb.com/title/tt6210160/mediaviewer/rm1221754112/?ref_=tt_ov_i"
@@ -23,10 +29,10 @@
     "Documentary \u2013 Participatory mode"
   ],
   "tags": [
-    "artistic creation",
-    "personal memory",
     "celebrity",
-    "cultural memory"
+    "personal memory",
+    "cultural memory",
+    "artistic creation"
   ],
   "director": [
     {
@@ -38,18 +44,18 @@
       "nationality": "Germany"
     },
     {
-      "id": "Bettina B\u00f6hler",
-      "slug": "bettina-bohler",
-      "name": "Bettina B\u00f6hler",
-      "birthYear": 1960,
-      "gender": "Female identifying",
-      "nationality": "Germany"
-    },
-    {
       "id": "Margarethe von Trotta",
       "slug": "margarethe-von-trotta",
       "name": "Margarethe von Trotta",
       "birthYear": 1942,
+      "gender": "Female identifying",
+      "nationality": "Germany"
+    },
+    {
+      "id": "Bettina B\u00f6hler",
+      "slug": "bettina-bohler",
+      "name": "Bettina B\u00f6hler",
+      "birthYear": 1960,
       "gender": "Female identifying",
       "nationality": "Germany"
     }

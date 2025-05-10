@@ -11,10 +11,20 @@
     "date": "2018-06-29",
     "year": 2018
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Germany",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Venezuela (Bolivarian Republic of)",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt6769258/?ref_=ttrel_ov",
     "posterUrl": "https://www.imdb.com/title/tt6769258/mediaviewer/rm3305262336/?ref_=tt_ov_i"
@@ -24,29 +34,29 @@
     "Musical"
   ],
   "tags": [
-    "daily routine",
     "grandmotherhood",
-    "well-being",
-    "retirement home",
-    "elderhood (friendship among elders)",
     "artistic creation",
-    "sex",
-    "new start",
-    "abuse",
-    "intergenerational conflict",
-    "desire",
-    "ageism",
-    "personal memory",
-    "retirement",
-    "intergenerational friendship",
     "caregiving",
-    "celebrity",
+    "intergenerational conflict",
     "medical treatment",
-    "state institutions",
     "last mission",
-    "romance",
     "dementia",
-    "women empowerment"
+    "retirement home",
+    "new start",
+    "well-being",
+    "romance",
+    "ageism",
+    "retirement",
+    "state institutions",
+    "women empowerment",
+    "intergenerational friendship",
+    "daily routine",
+    "elderhood (friendship among elders)",
+    "celebrity",
+    "personal memory",
+    "desire",
+    "abuse",
+    "sex"
   ],
   "director": [
     {
@@ -59,6 +69,26 @@
     }
   ],
   "character": [
+    {
+      "id": "ES2018_053_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Carmen Maura",
+        "slug": "carmen-maura",
+        "name": "Carmen Maura",
+        "birthYear": 1945.0,
+        "gender": "Female identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
     {
       "id": "ES2018_053_03",
       "age": "4: Fourth Age (>75)",
@@ -115,26 +145,6 @@
         "name": "Ram\u00f3n Barea",
         "birthYear": 1949.0,
         "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2018_053_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Carmen Maura",
-        "slug": "carmen-maura",
-        "name": "Carmen Maura",
-        "birthYear": 1945.0,
-        "gender": "Female identifying",
         "nationality": "Spain"
       },
       "role": "Unknown"

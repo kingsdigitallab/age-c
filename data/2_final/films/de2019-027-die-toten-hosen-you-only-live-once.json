@@ -12,10 +12,12 @@
     "date": "2019-03-28",
     "year": 2019
   },
-  "production": {
-    "country": "Germany",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Germany",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt8814806/mediaviewer/rm2436067072/?ref_=tt_ov_i",
     "posterUrl": "https://www.imdb.com/video/vi3035086105/?playlistId=tt8814806&ref_=tt_pr_ov_vi"
@@ -24,18 +26,10 @@
     "Documentary \u2013 Participatory mode"
   ],
   "tags": [
-    "artistic creation",
-    "celebrity"
+    "celebrity",
+    "artistic creation"
   ],
   "director": [
-    {
-      "id": "Cordula Kablitz-Post",
-      "slug": "cordula-kablitz-post",
-      "name": "Cordula Kablitz-Post",
-      "birthYear": 1964,
-      "gender": "Female identifying",
-      "nationality": "Germany"
-    },
     {
       "id": "Paul Dugdale",
       "slug": "paul-dugdale",
@@ -43,6 +37,14 @@
       "birthYear": 1980,
       "gender": "Male identifying",
       "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+    },
+    {
+      "id": "Cordula Kablitz-Post",
+      "slug": "cordula-kablitz-post",
+      "name": "Cordula Kablitz-Post",
+      "birthYear": 1964,
+      "gender": "Female identifying",
+      "nationality": "Germany"
     }
   ],
   "synopsis": {

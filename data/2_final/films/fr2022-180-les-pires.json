@@ -12,10 +12,12 @@
     "date": "2022-12-07",
     "year": 2022
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=MGstTiJPQD4",
     "posterUrl": "https://medias.unifrance.org/medias/93/233/256349/format_page/les-pires.jpg"
@@ -25,24 +27,24 @@
     "Drama"
   ],
   "tags": [
-    "mentorship",
-    "self-employment",
     "artistic creation",
     "grandparenthood",
-    "power"
+    "mentorship",
+    "power",
+    "self-employment"
   ],
   "director": [
-    {
-      "id": "Romane Gueret",
-      "slug": "romane-gueret",
-      "name": "Romane Gueret",
-      "gender": "Female identifying",
-      "nationality": "France"
-    },
     {
       "id": "Lise Akoka",
       "slug": "lise-akoka",
       "name": "Lise Akoka",
+      "gender": "Female identifying",
+      "nationality": "France"
+    },
+    {
+      "id": "Romane Gueret",
+      "slug": "romane-gueret",
+      "name": "Romane Gueret",
       "gender": "Female identifying",
       "nationality": "France"
     }

@@ -12,33 +12,35 @@
     "date": "2020-02-21",
     "year": 2020
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=2om1hkU3nYM",
     "posterUrl": "https://www.imdb.com/title/tt9563096/mediaviewer/rm3050733569/?ref_=tt_ov_i"
   },
   "genre": [
     "Comedy",
-    "Romance",
-    "Drama"
+    "Drama",
+    "Romance"
   ],
   "tags": [
-    "daily routine",
-    "well-being",
+    "intragenerational friendship",
+    "elderhood",
     "anti-ageing practices",
-    "homosociality",
-    "low-rank employment",
     "separation",
     "loneliness",
-    "romance",
     "desire",
-    "urban",
     "body norms",
-    "intragenerational friendship",
-    "elderhood"
+    "low-rank employment",
+    "daily routine",
+    "well-being",
+    "homosociality",
+    "urban",
+    "romance"
   ],
   "director": [
     {
@@ -52,9 +54,9 @@
   ],
   "character": [
     {
-      "id": "ES2020_012_03",
+      "id": "ES2020_012_04",
       "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
+      "gender": "Male identifying",
       "sexuality": "Heterosexual",
       "origin": "White Western European",
       "class": "Middle class",
@@ -62,10 +64,30 @@
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Blanca Portillo",
-        "slug": "blanca-portillo",
-        "name": "Blanca Portillo",
+        "id": "Pedro Casablanc",
+        "slug": "pedro-casablanc",
+        "name": "Pedro Casablanc",
         "birthYear": 1963.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2020_012_01",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Emma Su\u00e1rez",
+        "slug": "emma-suarez",
+        "name": "Emma Su\u00e1rez",
+        "birthYear": 1964.0,
         "gender": "Female identifying",
         "nationality": "Spain"
       },
@@ -92,29 +114,9 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2020_012_01",
+      "id": "ES2020_012_03",
       "age": "2: Late Middle Age (55-60)",
       "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Emma Su\u00e1rez",
-        "slug": "emma-suarez",
-        "name": "Emma Su\u00e1rez",
-        "birthYear": 1964.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2020_012_04",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
       "sexuality": "Heterosexual",
       "origin": "White Western European",
       "class": "Middle class",
@@ -122,11 +124,11 @@
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Pedro Casablanc",
-        "slug": "pedro-casablanc",
-        "name": "Pedro Casablanc",
+        "id": "Blanca Portillo",
+        "slug": "blanca-portillo",
+        "name": "Blanca Portillo",
         "birthYear": 1963.0,
-        "gender": "Male identifying",
+        "gender": "Female identifying",
         "nationality": "Spain"
       },
       "role": "Unknown"

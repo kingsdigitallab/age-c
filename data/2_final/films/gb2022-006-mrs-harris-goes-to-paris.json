@@ -11,35 +11,57 @@
     "date": "2022-09-30",
     "year": 2022
   },
-  "production": {
-    "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Belgium",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "France",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Hungary",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Canada",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "United States of America (the)",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt5151570/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Mrs.%2520Harris%2520Goes%2520to%2520Paris",
     "posterUrl": "https://www.imdb.com/title/tt5151570/mediaviewer/rm931140865/?ref_=tt_ov_i"
   },
   "genre": [
     "Comedy",
-    "Drama",
-    "Historical film (Heritage Film)"
+    "Historical film (Heritage Film)",
+    "Drama"
   ],
   "tags": [
-    "new start",
-    "intergenerational friendship",
-    "homosociality",
-    "women empowerment",
-    "low rank employment",
-    "de-ageing",
-    "interracial relationships",
-    "class conflict",
-    "urban",
-    "search for meaning",
-    "grief",
     "artistic creation",
-    "high rank employment",
+    "women empowerment",
+    "search for meaning",
+    "interracial relationships",
+    "grief",
+    "class conflict",
     "superior-employee relationship",
-    "widowhood"
+    "urban",
+    "low rank employment",
+    "intergenerational friendship",
+    "new start",
+    "widowhood",
+    "high rank employment",
+    "de-ageing",
+    "homosociality"
   ],
   "director": [
     {
@@ -51,6 +73,66 @@
     }
   ],
   "character": [
+    {
+      "id": "GB2022_006_05",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Female identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Upper class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Anna Chancellor",
+        "slug": "anna-chancellor",
+        "name": "Anna Chancellor",
+        "birthYear": 1965.0,
+        "gender": "Female identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "GB2022_006_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Lesley Manville",
+        "slug": "lesley-manville",
+        "name": "Lesley Manville",
+        "birthYear": 1956.0,
+        "gender": "Female identifying",
+        "nationality": "Unknown"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "GB2022_006_04",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Jason Isaacs",
+        "slug": "jason-isaacs",
+        "name": "Jason Isaacs",
+        "birthYear": 1963.0,
+        "gender": "Male identifying",
+        "nationality": "Unknown"
+      },
+      "role": "Unknown"
+    },
     {
       "id": "GB2022_006_02",
       "age": "2: Late Middle Age (55-60)",
@@ -92,46 +174,6 @@
       "role": "Unknown"
     },
     {
-      "id": "GB2022_006_04",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Jason Isaacs",
-        "slug": "jason-isaacs",
-        "name": "Jason Isaacs",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "Unknown"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "GB2022_006_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Lesley Manville",
-        "slug": "lesley-manville",
-        "name": "Lesley Manville",
-        "birthYear": 1956.0,
-        "gender": "Female identifying",
-        "nationality": "Unknown"
-      },
-      "role": "Unknown"
-    },
-    {
       "id": "GB2022_006_03",
       "age": "2: Late Middle Age (55-60)",
       "gender": "Male identifying",
@@ -148,26 +190,6 @@
         "birthYear": 1958.0,
         "gender": "Male identifying",
         "nationality": "France"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "GB2022_006_05",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Anna Chancellor",
-        "slug": "anna-chancellor",
-        "name": "Anna Chancellor",
-        "birthYear": 1965.0,
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },
       "role": "Unknown"
     }

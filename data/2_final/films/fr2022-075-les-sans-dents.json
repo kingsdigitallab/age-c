@@ -12,10 +12,12 @@
     "date": "2022-04-20",
     "year": 2022
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=ljwokfvHmw4",
     "posterUrl": "https://medias.unifrance.org/medias/126/200/247934/format_page/les-sans-dents.jpg"
@@ -24,16 +26,16 @@
     "Comedy"
   ],
   "tags": [
-    "communal housing",
-    "state institutions",
-    "intergenerational friendship",
-    "elderhood (friendship among elders)",
-    "partnership",
-    "natural death",
-    "disability",
-    "high rank employment",
     "unemployment",
-    "precarity"
+    "partnership",
+    "elderhood (friendship among elders)",
+    "state institutions",
+    "precarity",
+    "communal housing",
+    "disability",
+    "intergenerational friendship",
+    "natural death",
+    "high rank employment"
   ],
   "director": [
     {
@@ -46,26 +48,6 @@
     }
   ],
   "character": [
-    {
-      "id": "FR2022_075_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Gustave Kervern",
-        "slug": "gustave-kervern",
-        "name": "Gustave Kervern",
-        "birthYear": 1962.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "FR2022_075_01",
       "age": "3: Third Age (60-75)",
@@ -83,6 +65,26 @@
         "birthYear": 1953.0,
         "gender": "Female identifying",
         "nationality": "Belgium"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2022_075_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Lower class",
+      "profession": "Unemployed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Gustave Kervern",
+        "slug": "gustave-kervern",
+        "name": "Gustave Kervern",
+        "birthYear": 1962.0,
+        "gender": "Male identifying",
+        "nationality": "France"
       },
       "role": "Unknown"
     }

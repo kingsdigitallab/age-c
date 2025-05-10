@@ -12,10 +12,12 @@
     "date": "2020-07-08",
     "year": 2020
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=2Uk15jDnJz0",
     "posterUrl": "https://medias.unifrance.org/medias/106/99/222058/format_page/tout-simplement-noir.jpg"
@@ -25,23 +27,23 @@
     "Western"
   ],
   "tags": [
-    "artistic creation",
+    "celebrity",
     "self-employment",
-    "celebrity"
+    "artistic creation"
   ],
   "director": [
+    {
+      "id": "John Wax",
+      "slug": "john-wax",
+      "name": "John Wax",
+      "gender": "Male identifying",
+      "nationality": "France"
+    },
     {
       "id": "Jean-Pascal Zadi",
       "slug": "jean-pascal-zadi",
       "name": "Jean-Pascal Zadi",
       "birthYear": 1980,
-      "gender": "Male identifying",
-      "nationality": "France"
-    },
-    {
-      "id": "John Wax",
-      "slug": "john-wax",
-      "name": "John Wax",
       "gender": "Male identifying",
       "nationality": "France"
     }

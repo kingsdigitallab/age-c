@@ -12,10 +12,20 @@
     "date": "2019-06-05",
     "year": 2019
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Lebanon",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Switzerland",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=-OY-8HH9l5s",
     "posterUrl": "https://fr.web.img2.acsta.net/c_310_420/pictures/19/05/10/09/57/0581960.jpg"
@@ -29,6 +39,14 @@
   ],
   "director": [
     {
+      "id": "Monika Borgmann",
+      "slug": "monika-borgmann",
+      "name": "Monika Borgmann",
+      "birthYear": 1963,
+      "gender": "Female identifying",
+      "nationality": "Germany"
+    },
+    {
       "id": "Lokman Slim",
       "slug": "lokman-slim",
       "name": "Lokman Slim",
@@ -36,14 +54,6 @@
       "deathYear": 2021,
       "gender": "Male identifying",
       "nationality": "Lebanon"
-    },
-    {
-      "id": "Monika Borgmann",
-      "slug": "monika-borgmann",
-      "name": "Monika Borgmann",
-      "birthYear": 1963,
-      "gender": "Female identifying",
-      "nationality": "Germany"
     }
   ],
   "synopsis": {

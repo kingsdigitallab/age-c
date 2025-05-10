@@ -12,10 +12,12 @@
     "date": "2020-06-18",
     "year": 2020
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=DCVddI545iw",
     "posterUrl": "https://www.imdb.com/title/tt10951056/mediaviewer/rm2925703169/?ref_=tt_ov_i"
@@ -28,26 +30,6 @@
   ],
   "character": [
     {
-      "id": "IT2020_058_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Pasquale Lillo Petrolo",
-        "slug": "pasquale-lillo-petrolo",
-        "name": "Pasquale Lillo Petrolo",
-        "birthYear": 1962.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    },
-    {
       "id": "IT2020_058_01",
       "age": "2: Late Middle Age (55-60)",
       "gender": "Male identifying",
@@ -66,6 +48,26 @@
         "nationality": "Italy"
       },
       "role": "Leading actor"
+    },
+    {
+      "id": "IT2020_058_02",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Pasquale Lillo Petrolo",
+        "slug": "pasquale-lillo-petrolo",
+        "name": "Pasquale Lillo Petrolo",
+        "birthYear": 1962.0,
+        "gender": "Male identifying",
+        "nationality": "Italy"
+      },
+      "role": "Director of the film"
     },
     {
       "id": "IT2020_058_01",
@@ -105,7 +107,7 @@
         "gender": "Male identifying",
         "nationality": "Italy"
       },
-      "role": "Director of the film"
+      "role": "Leading actor"
     }
   ],
   "synopsis": {

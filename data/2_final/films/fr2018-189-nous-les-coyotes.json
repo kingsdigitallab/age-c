@@ -12,10 +12,16 @@
     "date": "2012-12-18",
     "year": 2012
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "United States of America (the)",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=JT8te1n_CKQ",
     "posterUrl": "https://medias.unifrance.org/medias/212/2/197332/format_page/we-the-coyotes.jpg"
@@ -25,14 +31,6 @@
     "Drama"
   ],
   "director": [
-    {
-      "id": "Marco La Via",
-      "slug": "marco-la-via",
-      "name": "Marco La Via",
-      "birthYear": 1990,
-      "gender": "Male identifying",
-      "nationality": "United States of America (the)"
-    },
     {
       "id": "Hanna Ladoul",
       "slug": "hanna-ladoul",
@@ -48,6 +46,14 @@
       "birthYear": 1990,
       "gender": "Male identifying",
       "nationality": "France"
+    },
+    {
+      "id": "Marco La Via",
+      "slug": "marco-la-via",
+      "name": "Marco La Via",
+      "birthYear": 1990,
+      "gender": "Male identifying",
+      "nationality": "United States of America (the)"
     }
   ],
   "synopsis": {

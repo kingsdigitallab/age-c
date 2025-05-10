@@ -12,10 +12,12 @@
     "date": "2018-08-22",
     "year": 2018
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=-E7qBthRpQY",
     "posterUrl": "https://medias.unifrance.org/medias/101/243/193381/format_page/tricky-old-dogs.jpg"
@@ -24,14 +26,14 @@
     "Comedy"
   ],
   "tags": [
-    "revenge",
-    "retirement home",
-    "homosociality",
-    "parenthood",
-    "grief",
-    "grandparenthood",
     "retirement",
-    "widowhood"
+    "grandparenthood",
+    "grief",
+    "revenge",
+    "widowhood",
+    "parenthood",
+    "retirement home",
+    "homosociality"
   ],
   "director": [
     {
@@ -44,26 +46,6 @@
     }
   ],
   "character": [
-    {
-      "id": "FR2018_131_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Roland Giraud",
-        "slug": "roland-giraud",
-        "name": "Roland Giraud",
-        "birthYear": 1942.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "FR2018_131_03",
       "age": "3: Third Age (60-75)",
@@ -78,6 +60,26 @@
         "id": "Eddy Mitchell",
         "slug": "eddy-mitchell",
         "name": "Eddy Mitchell",
+        "birthYear": 1942.0,
+        "gender": "Male identifying",
+        "nationality": "France"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2018_131_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Roland Giraud",
+        "slug": "roland-giraud",
+        "name": "Roland Giraud",
         "birthYear": 1942.0,
         "gender": "Male identifying",
         "nationality": "France"

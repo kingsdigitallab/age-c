@@ -11,34 +11,35 @@
     "date": "2020-11-26",
     "year": 2020
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=577593",
     "posterUrl": "https://www.imdb.com/title/tt12454740/mediaviewer/rm2985075969/?ref_=tt_ov_i"
   },
   "genre": [
-    "Anthology Films",
     "Horror",
+    "Anthology Films",
     "Romance"
   ],
   "tags": [
+    "supernatural entity",
     "non-human companionship",
-    "abuse",
     "low-rank employment",
-    "romance",
-    "supernatural entity"
+    "abuse",
+    "romance"
   ],
   "director": [
     {
-      "id": "V\u00edctor Matellano",
-      "slug": "victor-matellano",
-      "name": "V\u00edctor Matellano",
-      "birthYear": 1971,
+      "id": "Piter Moreira",
+      "slug": "piter-moreira",
+      "name": "Piter Moreira",
       "gender": "Male identifying",
-      "nationality": "Spain"
+      "nationality": "Uruguay"
     },
     {
       "id": "Manuel Mart\u00ednez Velasco",
@@ -49,17 +50,18 @@
       "nationality": "Spain"
     },
     {
+      "id": "V\u00edctor Matellano",
+      "slug": "victor-matellano",
+      "name": "V\u00edctor Matellano",
+      "birthYear": 1971,
+      "gender": "Male identifying",
+      "nationality": "Spain"
+    },
+    {
       "id": "Erika Elizalde",
       "slug": "erika-elizalde",
       "name": "Erika Elizalde",
       "gender": "Female identifying",
-      "nationality": "Uruguay"
-    },
-    {
-      "id": "Piter Moreira",
-      "slug": "piter-moreira",
-      "name": "Piter Moreira",
-      "gender": "Male identifying",
       "nationality": "Uruguay"
     },
     {
@@ -73,22 +75,23 @@
   ],
   "character": [
     {
-      "id": "ES2020_032_04",
+      "id": "ES2020_032_02",
       "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
+      "gender": "Male identifying",
       "sexuality": "Unknown",
       "origin": "White Western European",
       "class": "Unknown",
       "profession": "Unknown",
       "ability": "Unknown",
-      "assistedMobility": "Unknown",
+      "assistedMobility": "No",
       "person": {
-        "id": "Lone Fleming",
-        "slug": "lone-fleming",
-        "name": "Lone Fleming",
-        "birthYear": 1945.0,
-        "gender": "Female identifying",
-        "nationality": "Denmark"
+        "id": "Jos\u00e9 Lifante",
+        "slug": "jose-lifante",
+        "name": "Jos\u00e9 Lifante",
+        "birthYear": 1943.0,
+        "deathYear": 2024.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
       },
       "role": "Unknown"
     },
@@ -113,27 +116,6 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2020_032_02",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Jos\u00e9 Lifante",
-        "slug": "jose-lifante",
-        "name": "Jos\u00e9 Lifante",
-        "birthYear": 1943.0,
-        "deathYear": 2024.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
       "id": "ES2020_032_01",
       "age": "4: Fourth Age (>75)",
       "gender": "Male identifying",
@@ -150,6 +132,26 @@
         "birthYear": 1935.0,
         "gender": "Male identifying",
         "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2020_032_04",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Female identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Unknown",
+      "profession": "Unknown",
+      "ability": "Unknown",
+      "assistedMobility": "Unknown",
+      "person": {
+        "id": "Lone Fleming",
+        "slug": "lone-fleming",
+        "name": "Lone Fleming",
+        "birthYear": 1945.0,
+        "gender": "Female identifying",
+        "nationality": "Denmark"
       },
       "role": "Unknown"
     }

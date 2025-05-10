@@ -12,10 +12,12 @@
     "date": "2021-12-22",
     "year": 2021
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=AC4y0hLEaaE",
     "posterUrl": "https://medias.unifrance.org/medias/128/177/242048/format_page/bigger-is-beautiful.jpg"
@@ -24,9 +26,9 @@
     "Comedy"
   ],
   "tags": [
-    "body norms",
     "well-being",
-    "separation"
+    "separation",
+    "body norms"
   ],
   "director": [
     {
@@ -39,26 +41,6 @@
     }
   ],
   "character": [
-    {
-      "id": "FR2021_130_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Catherine Hosmalin",
-        "slug": "catherine-hosmalin",
-        "name": "Catherine Hosmalin",
-        "birthYear": 1960.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "FR2021_130_01",
       "age": "3: Third Age (60-75)",
@@ -74,6 +56,26 @@
         "slug": "charlotte-de-turckheim",
         "name": "Charlotte de Turckheim",
         "birthYear": 1955.0,
+        "gender": "Female identifying",
+        "nationality": "France"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2021_130_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Catherine Hosmalin",
+        "slug": "catherine-hosmalin",
+        "name": "Catherine Hosmalin",
+        "birthYear": 1960.0,
         "gender": "Female identifying",
         "nationality": "France"
       },

@@ -11,10 +11,12 @@
     "date": "2010-10-23",
     "year": 2010
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=750006",
     "posterUrl": "https://www.imdb.com/title/tt21114028/mediaviewer/rm616716289/?ref_=tt_ov_i"
@@ -25,17 +27,17 @@
     "Drama"
   ],
   "tags": [
-    "agony",
-    "medical treatment",
-    "in-laws",
-    "technology",
-    "homosociality",
-    "women empowerment",
-    "motherhood",
     "intragenerational friendship",
+    "medical treatment",
+    "agony",
+    "motherhood",
     "physical illness",
+    "bucket list",
+    "technology",
+    "women empowerment",
     "natural death",
-    "bucket list"
+    "homosociality",
+    "in-laws"
   ],
   "director": [
     {
@@ -57,40 +59,20 @@
   ],
   "character": [
     {
-      "id": "ES2023_019_06",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Enrique Vill\u00e9n",
-        "slug": "enrique-villen",
-        "name": "Enrique Vill\u00e9n",
-        "birthYear": 1960.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2023_019_07",
-      "age": "2: Late Middle Age (55-60)",
+      "id": "ES2023_019_04",
+      "age": "4: Fourth Age (>75)",
       "gender": "Female identifying",
-      "sexuality": "Unknown",
+      "sexuality": "Heterosexual",
       "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
+      "class": "Middle class",
+      "profession": "Retired",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Aitana S\u00e1nchez-Gij\u00f3n",
-        "slug": "aitana-sanchez-gijon",
-        "name": "Aitana S\u00e1nchez-Gij\u00f3n",
-        "birthYear": 1968.0,
+        "id": "Mar\u00eda Luisa Merlo",
+        "slug": "maria-luisa-merlo",
+        "name": "Mar\u00eda Luisa Merlo",
+        "birthYear": 1941.0,
         "gender": "Female identifying",
         "nationality": "Spain"
       },
@@ -137,26 +119,6 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2023_019_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Chronic illness",
-      "assistedMobility": "Yes",
-      "person": {
-        "id": "Carmen Maura",
-        "slug": "carmen-maura",
-        "name": "Carmen Maura",
-        "birthYear": 1945.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
       "id": "ES2023_019_03",
       "age": "4: Fourth Age (>75)",
       "gender": "Female identifying",
@@ -177,20 +139,20 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2023_019_04",
-      "age": "4: Fourth Age (>75)",
+      "id": "ES2023_019_07",
+      "age": "2: Late Middle Age (55-60)",
       "gender": "Female identifying",
-      "sexuality": "Heterosexual",
+      "sexuality": "Unknown",
       "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
+      "class": "Upper Middle class",
+      "profession": "Employed",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Mar\u00eda Luisa Merlo",
-        "slug": "maria-luisa-merlo",
-        "name": "Mar\u00eda Luisa Merlo",
-        "birthYear": 1941.0,
+        "id": "Aitana S\u00e1nchez-Gij\u00f3n",
+        "slug": "aitana-sanchez-gijon",
+        "name": "Aitana S\u00e1nchez-Gij\u00f3n",
+        "birthYear": 1968.0,
         "gender": "Female identifying",
         "nationality": "Spain"
       },
@@ -211,6 +173,46 @@
         "slug": "fernando-albizu",
         "name": "Fernando Albizu",
         "birthYear": 1963.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2023_019_01",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Chronic illness",
+      "assistedMobility": "Yes",
+      "person": {
+        "id": "Carmen Maura",
+        "slug": "carmen-maura",
+        "name": "Carmen Maura",
+        "birthYear": 1945.0,
+        "gender": "Female identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2023_019_06",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Enrique Vill\u00e9n",
+        "slug": "enrique-villen",
+        "name": "Enrique Vill\u00e9n",
+        "birthYear": 1960.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },

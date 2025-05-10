@@ -12,10 +12,12 @@
     "date": "2019-10-02",
     "year": 2019
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=8vIOOeqph08",
     "posterUrl": "https://medias.unifrance.org/medias/77/54/210509/format_page/vous-etes-jeunes-vous-etes-beaux.jpg"
@@ -24,11 +26,11 @@
     "Drama"
   ],
   "tags": [
+    "retirement",
     "celibacy",
-    "cross-gender friendship",
-    "self-employment",
     "physical illness",
-    "retirement"
+    "self-employment",
+    "cross-gender friendship"
   ],
   "director": [
     {
@@ -40,26 +42,6 @@
     }
   ],
   "character": [
-    {
-      "id": "FR2019_164_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "G\u00e9rard Darmon",
-        "slug": "gerard-darmon",
-        "name": "G\u00e9rard Darmon",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "FR2019_164_02",
       "age": "3: Third Age (60-75)",
@@ -76,6 +58,26 @@
         "name": "Josiane Balasko",
         "birthYear": 1950.0,
         "gender": "Female identifying",
+        "nationality": "France"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2019_164_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "G\u00e9rard Darmon",
+        "slug": "gerard-darmon",
+        "name": "G\u00e9rard Darmon",
+        "birthYear": 1948.0,
+        "gender": "Male identifying",
         "nationality": "France"
       },
       "role": "Unknown"

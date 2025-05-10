@@ -12,28 +12,34 @@
     "date": "2021-06-02",
     "year": 2021
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Belgium",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=B5RaohQNeIw",
     "posterUrl": "https://medias.unifrance.org/medias/45/107/224045/format_page/home-front.jpg"
   },
   "genre": [
-    "Drama",
-    "Historical film (Heritage Film)"
+    "Historical film (Heritage Film)",
+    "Drama"
   ],
   "tags": [
-    "crime",
-    "substance abuse",
-    "colony",
     "elderhood (friendship among elders)",
-    "collective trauma",
-    "siblinghood",
+    "personal memory",
+    "crime",
     "grief",
     "racial discrimination",
-    "personal memory",
+    "colony",
+    "collective trauma",
+    "substance abuse",
+    "siblinghood",
     "cultural memory"
   ],
   "director": [
@@ -47,26 +53,6 @@
     }
   ],
   "character": [
-    {
-      "id": "FR2021_009_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Jean-Pierre Darroussin",
-        "slug": "jean-pierre-darroussin",
-        "name": "Jean-Pierre Darroussin",
-        "birthYear": 1953.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "FR2021_009_02",
       "age": "3: Third Age (60-75)",
@@ -144,6 +130,26 @@
         "birthYear": 1948.0,
         "gender": "Male identifying",
         "nationality": "United Arab Emirates (the)"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2021_009_03",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Jean-Pierre Darroussin",
+        "slug": "jean-pierre-darroussin",
+        "name": "Jean-Pierre Darroussin",
+        "birthYear": 1953.0,
+        "gender": "Male identifying",
+        "nationality": "France"
       },
       "role": "Unknown"
     }

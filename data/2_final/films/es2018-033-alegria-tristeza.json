@@ -11,10 +11,20 @@
     "date": "2018-11-16",
     "year": 2018
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Belgium",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt7040858/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Alegr%25C3%25ADa%252C%2520tristeza",
     "posterUrl": "https://www.imdb.com/title/tt7040858/mediaviewer/rm523533568/?ref_=tt_ov_i"
@@ -23,15 +33,15 @@
     "Drama"
   ],
   "tags": [
-    "extended family",
-    "medical treatment",
-    "hospital",
     "caregiving",
-    "low rank employment",
-    "brotherhood",
-    "urban",
+    "hospital",
+    "medical treatment",
     "grief",
-    "mental illness"
+    "brotherhood",
+    "low rank employment",
+    "mental illness",
+    "urban",
+    "extended family"
   ],
   "director": [
     {
@@ -44,26 +54,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2018_033_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Carlos Bardem",
-        "slug": "carlos-bardem",
-        "name": "Carlos Bardem",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2018_033_02",
       "age": "2: Late Middle Age (55-60)",
@@ -78,6 +68,26 @@
         "id": "Pedro Casablanc",
         "slug": "pedro-casablanc",
         "name": "Pedro Casablanc",
+        "birthYear": 1963.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2018_033_01",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Carlos Bardem",
+        "slug": "carlos-bardem",
+        "name": "Carlos Bardem",
         "birthYear": 1963.0,
         "gender": "Male identifying",
         "nationality": "Spain"

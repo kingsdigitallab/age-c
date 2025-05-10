@@ -12,10 +12,20 @@
     "date": "2019-06-06",
     "year": 2019
   },
-  "production": {
-    "country": "Germany",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Germany",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Austria",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "United States of America (the)",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=Ej4yVXx8UxI&ab_channel=kinofilme",
     "posterUrl": "https://www.imdb.com/title/tt7387550/mediaviewer/rm2518754816/?ref_=tt_ov_i"
@@ -24,26 +34,26 @@
     "Documentary \u2013 Observational mode"
   ],
   "tags": [
-    "marriage",
     "artistic creation",
+    "power",
+    "marriage",
     "may-december",
-    "sex",
-    "power"
+    "sex"
   ],
   "director": [
+    {
+      "id": "Beatrice Behn",
+      "slug": "beatrice-behn",
+      "name": "Beatrice Behn",
+      "gender": "Female identifying",
+      "nationality": "Germany"
+    },
     {
       "id": "Ren\u00e9 Gebhardt",
       "slug": "rene-gebhardt",
       "name": "Ren\u00e9 Gebhardt",
       "birthYear": 1981,
       "gender": "Male identifying",
-      "nationality": "Germany"
-    },
-    {
-      "id": "Beatrice Behn",
-      "slug": "beatrice-behn",
-      "name": "Beatrice Behn",
-      "gender": "Female identifying",
       "nationality": "Germany"
     }
   ],

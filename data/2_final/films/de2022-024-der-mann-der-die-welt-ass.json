@@ -12,10 +12,12 @@
     "date": "2022-04-28",
     "year": 2022
   },
-  "production": {
-    "country": "Germany",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Germany",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=T7XVTlHb4v0&ab_channel=vipmagazinKino",
     "posterUrl": "https://www.imdb.com/title/tt13347414/mediaviewer/rm3330043137/?ref_=tt_ov_i"
@@ -24,26 +26,26 @@
     "Drama"
   ],
   "tags": [
-    "fatherhood",
     "abuse",
-    "intergenerational conflict",
-    "dementia"
+    "fatherhood",
+    "dementia",
+    "intergenerational conflict"
   ],
   "director": [
-    {
-      "id": "Johannes Suhm",
-      "slug": "johannes-suhm",
-      "name": "Johannes Suhm",
-      "birthYear": 1977,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    },
     {
       "id": "Lena Lessing",
       "slug": "lena-lessing",
       "name": "Lena Lessing",
       "birthYear": 1960,
       "gender": "Female identifying",
+      "nationality": "Germany"
+    },
+    {
+      "id": "Johannes Suhm",
+      "slug": "johannes-suhm",
+      "name": "Johannes Suhm",
+      "birthYear": 1977,
+      "gender": "Male identifying",
       "nationality": "Germany"
     }
   ],

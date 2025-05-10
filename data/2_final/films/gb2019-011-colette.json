@@ -11,26 +11,36 @@
     "date": "2019-01-11",
     "year": 2019
   },
-  "production": {
-    "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Hungary",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "United States of America (the)",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=Mqdyyk-iOvY",
     "posterUrl": "https://www.imdb.com/title/tt5437928/mediaviewer/rm3958734592/?ref_=tt_ov_i"
   },
   "genre": [
+    "Historical film (Heritage Film)",
     "Romance",
-    "Drama",
-    "Historical film (Heritage Film)"
+    "Drama"
   ],
   "tags": [
-    "wealth",
     "mentorship",
-    "gender discrimination",
     "motherhood",
+    "gender discrimination",
     "fatherhood",
-    "cultural memory"
+    "cultural memory",
+    "wealth"
   ],
   "director": [
     {
@@ -43,46 +53,6 @@
     }
   ],
   "character": [
-    {
-      "id": "GB2019_011_02",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Robert Pugh",
-        "slug": "robert-pugh",
-        "name": "Robert Pugh",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "GB2019_011_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Fiona Shaw",
-        "slug": "fiona-shaw",
-        "name": "Fiona Shaw",
-        "birthYear": 1958.0,
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "GB2019_011_01",
       "age": "3: Third Age (60-75)",
@@ -119,6 +89,46 @@
         "name": "Arabella Weir",
         "birthYear": 1957.0,
         "gender": "Female identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "GB2019_011_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Fiona Shaw",
+        "slug": "fiona-shaw",
+        "name": "Fiona Shaw",
+        "birthYear": 1958.0,
+        "gender": "Female identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "GB2019_011_02",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Robert Pugh",
+        "slug": "robert-pugh",
+        "name": "Robert Pugh",
+        "birthYear": 1948.0,
+        "gender": "Male identifying",
         "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },
       "role": "Unknown"

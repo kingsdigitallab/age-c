@@ -12,10 +12,12 @@
     "date": "2019-06-19",
     "year": 2019
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=HFia318AcZY",
     "posterUrl": "https://medias.unifrance.org/medias/236/35/205804/format_page/beaux-parents.jpg"
@@ -24,13 +26,13 @@
     "Comedy"
   ],
   "tags": [
-    "in-laws",
-    "extended family",
-    "independent home",
-    "parenthood",
-    "grandparenthood",
     "retirement",
-    "marriage"
+    "grandparenthood",
+    "marriage",
+    "parenthood",
+    "independent home",
+    "extended family",
+    "in-laws"
   ],
   "director": [
     {
@@ -43,26 +45,6 @@
     }
   ],
   "character": [
-    {
-      "id": "FR2019_110_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Didier Bourdon",
-        "slug": "didier-bourdon",
-        "name": "Didier Bourdon",
-        "birthYear": 1959.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "FR2019_110_01",
       "age": "3: Third Age (60-75)",
@@ -79,6 +61,26 @@
         "name": "Josiane Balasko",
         "birthYear": 1950.0,
         "gender": "Female identifying",
+        "nationality": "France"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2019_110_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Didier Bourdon",
+        "slug": "didier-bourdon",
+        "name": "Didier Bourdon",
+        "birthYear": 1959.0,
+        "gender": "Male identifying",
         "nationality": "France"
       },
       "role": "Unknown"

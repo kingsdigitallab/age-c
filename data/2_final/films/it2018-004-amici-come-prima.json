@@ -11,10 +11,12 @@
     "date": "2018-12-19",
     "year": 2018
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=Gu6s2VXuN3s",
     "posterUrl": "https://www.imdb.com/title/tt8515750/mediaviewer/rm3748688128/?ref_=tt_ov_i"
@@ -23,10 +25,10 @@
     "Comedy"
   ],
   "tags": [
-    "homosociality",
     "gender discrimination",
+    "superior-employee relationship",
     "caregiving",
-    "superior-employee relationship"
+    "homosociality"
   ],
   "director": [
     {
@@ -39,26 +41,6 @@
     }
   ],
   "character": [
-    {
-      "id": "IT2018_004_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Genderfluid indentifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Christian De Sica",
-        "slug": "christian-de-sica",
-        "name": "Christian De Sica",
-        "birthYear": 1951.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    },
     {
       "id": "IT2018_004_01",
       "age": "4: Fourth Age (>75)",
@@ -74,6 +56,26 @@
         "slug": "massimo-boldi",
         "name": "Massimo Boldi",
         "birthYear": 1945.0,
+        "gender": "Male identifying",
+        "nationality": "Italy"
+      },
+      "role": "Leading actor"
+    },
+    {
+      "id": "IT2018_004_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Genderfluid indentifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Christian De Sica",
+        "slug": "christian-de-sica",
+        "name": "Christian De Sica",
+        "birthYear": 1951.0,
         "gender": "Male identifying",
         "nationality": "Italy"
       },

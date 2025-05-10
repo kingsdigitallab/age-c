@@ -11,45 +11,63 @@
     "date": "2018-06-01",
     "year": 2018
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Belgium",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "France",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Portugal",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=yiiRZJUTT2k",
     "posterUrl": "https://www.imdb.com/title/tt1318517/mediaviewer/rm3143394816/?ref_=tt_ov_i"
   },
   "genre": [
-    "Road Movie",
-    "Metacinema",
-    "Adventure",
     "Comedy",
-    "Drama"
+    "Drama",
+    "Metacinema",
+    "Road Movie",
+    "Adventure"
   ],
   "tags": [
-    "crime",
-    "rural",
-    "artistic creation",
-    "superior-employee relationship",
-    "technology",
-    "abuse",
-    "desire",
-    "ageism",
-    "search for meaning",
-    "personal memory",
-    "may-december",
-    "disappearing professions",
-    "marriage",
-    "wealth",
-    "mentorship",
-    "non-human companionship",
     "intragenerational friendship",
-    "high rank employment",
-    "infidelity",
-    "homosociality",
+    "artistic creation",
+    "disappearing professions",
+    "non-human companionship",
+    "technology",
     "mental illness",
+    "marriage",
+    "ageism",
+    "mentorship",
+    "infidelity",
+    "search for meaning",
+    "power",
+    "rural",
     "cultural memory",
-    "power"
+    "wealth",
+    "homosociality",
+    "high rank employment",
+    "personal memory",
+    "crime",
+    "desire",
+    "superior-employee relationship",
+    "may-december",
+    "abuse"
   ],
   "director": [
     {
@@ -62,26 +80,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2018_016_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White North American",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Stellan Skarsg\u00e5rd",
-        "slug": "stellan-skarsgard",
-        "name": "Stellan Skarsg\u00e5rd",
-        "birthYear": 1951.0,
-        "gender": "Male identifying",
-        "nationality": "Switzerland"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2018_016_01",
       "age": "3: Third Age (60-75)",
@@ -99,6 +97,26 @@
         "birthYear": 1947.0,
         "gender": "Male identifying",
         "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2018_016_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White North American",
+      "class": "Upper class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Stellan Skarsg\u00e5rd",
+        "slug": "stellan-skarsgard",
+        "name": "Stellan Skarsg\u00e5rd",
+        "birthYear": 1951.0,
+        "gender": "Male identifying",
+        "nationality": "Switzerland"
       },
       "role": "Unknown"
     }

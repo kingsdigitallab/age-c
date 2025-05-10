@@ -12,10 +12,12 @@
     "date": "2019-05-08",
     "year": 2019
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=J8RYQSieAU0",
     "posterUrl": "https://medias.unifrance.org/medias/224/27/203744/format_page/lourdes.jpg"
@@ -31,18 +33,18 @@
   ],
   "director": [
     {
-      "id": "Thierry Demaizi\u00e8re",
-      "slug": "thierry-demaiziere",
-      "name": "Thierry Demaizi\u00e8re",
-      "birthYear": 1959,
-      "gender": "Male identifying",
-      "nationality": "France"
-    },
-    {
       "id": "Alban Teurlai",
       "slug": "alban-teurlai",
       "name": "Alban Teurlai",
       "birthYear": 1977,
+      "gender": "Male identifying",
+      "nationality": "France"
+    },
+    {
+      "id": "Thierry Demaizi\u00e8re",
+      "slug": "thierry-demaiziere",
+      "name": "Thierry Demaizi\u00e8re",
+      "birthYear": 1959,
       "gender": "Male identifying",
       "nationality": "France"
     }

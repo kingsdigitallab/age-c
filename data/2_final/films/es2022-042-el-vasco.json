@@ -11,10 +11,16 @@
     "date": "2022-09-24",
     "year": 2022
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Argentina",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=982469",
     "posterUrl": "https://www.imdb.com/title/tt20102798/mediaviewer/rm3067609345/?ref_=tt_ov_i"
@@ -24,18 +30,18 @@
     "Drama"
   ],
   "tags": [
-    "new start",
-    "rural",
-    "extended family",
-    "migration",
-    "homosociality",
-    "independent home",
     "caregiving",
-    "regional identity",
-    "self-employment",
     "motherhood",
+    "cultural memory",
+    "rural",
+    "independent home",
     "dementia",
-    "cultural memory"
+    "migration",
+    "new start",
+    "self-employment",
+    "homosociality",
+    "extended family",
+    "regional identity"
   ],
   "director": [
     {
@@ -48,22 +54,21 @@
   ],
   "character": [
     {
-      "id": "ES2022_042_01",
+      "id": "ES2022_042_03",
       "age": "3: Third Age (60-75)",
       "gender": "Male identifying",
       "sexuality": "Heterosexual",
       "origin": "White Latin American",
       "class": "Middle class",
-      "profession": "Self-employed",
+      "profession": "Employed",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Eduardo Blanco",
-        "slug": "eduardo-blanco",
-        "name": "Eduardo Blanco",
-        "birthYear": 1958.0,
+        "id": "Francisco N\u00e1poli",
+        "slug": "francisco-napoli",
+        "name": "Francisco N\u00e1poli",
         "gender": "Male identifying",
-        "nationality": "Spain"
+        "nationality": "Uruguay"
       },
       "role": "Unknown"
     },
@@ -88,21 +93,22 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2022_042_03",
+      "id": "ES2022_042_01",
       "age": "3: Third Age (60-75)",
       "gender": "Male identifying",
       "sexuality": "Heterosexual",
       "origin": "White Latin American",
       "class": "Middle class",
-      "profession": "Employed",
+      "profession": "Self-employed",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Francisco N\u00e1poli",
-        "slug": "francisco-napoli",
-        "name": "Francisco N\u00e1poli",
+        "id": "Eduardo Blanco",
+        "slug": "eduardo-blanco",
+        "name": "Eduardo Blanco",
+        "birthYear": 1958.0,
         "gender": "Male identifying",
-        "nationality": "Uruguay"
+        "nationality": "Spain"
       },
       "role": "Unknown"
     }

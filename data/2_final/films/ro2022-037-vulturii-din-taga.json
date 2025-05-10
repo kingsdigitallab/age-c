@@ -12,38 +12,44 @@
     "date": "2022-10-10",
     "year": 2022
   },
-  "production": {
-    "country": "Romania",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Romania",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Slovakia",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=pcTz3-9YMB0"
   },
   "genre": [
-    "Documentary \u2013 Observational mode",
-    "Sports Film"
+    "Sports Film",
+    "Documentary \u2013 Observational mode"
   ],
   "tags": [
+    "mentorship",
     "rural",
     "well-being",
-    "mentorship",
     "homosociality",
     "regional identity"
   ],
   "director": [
+    {
+      "id": "Iulian Manuel Ghervas",
+      "slug": "iulian-manuel-ghervas",
+      "name": "Iulian Manuel Ghervas",
+      "gender": "Male identifying",
+      "nationality": "Romania"
+    },
     {
       "id": "Adina Popescu",
       "slug": "adina-popescu",
       "name": "Adina Popescu",
       "birthYear": 1978,
       "gender": "Female identifying",
-      "nationality": "Romania"
-    },
-    {
-      "id": "Iulian Manuel Ghervas",
-      "slug": "iulian-manuel-ghervas",
-      "name": "Iulian Manuel Ghervas",
-      "gender": "Male identifying",
       "nationality": "Romania"
     }
   ],

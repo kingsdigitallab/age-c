@@ -12,10 +12,12 @@
     "date": "2018-02-23",
     "year": 2018
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=DFhK6kUD04c",
     "posterUrl": "https://www.imdb.com/title/tt6053948/mediaviewer/rm2369542656/?ref_=tt_ov_i"
@@ -24,17 +26,17 @@
     "Drama"
   ],
   "tags": [
-    "personal trauma",
-    "wealth",
-    "abuse",
-    "homosociality",
-    "independent home",
-    "intergenerational conflict",
     "return home",
-    "motherhood",
-    "natural",
+    "intergenerational conflict",
     "personal memory",
-    "marriage"
+    "motherhood",
+    "marriage",
+    "personal trauma",
+    "independent home",
+    "natural",
+    "abuse",
+    "wealth",
+    "homosociality"
   ],
   "director": [
     {
@@ -47,26 +49,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2018_010_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Latin American",
-      "class": "Upper class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Miguel \u00c1ngel Sol\u00e1",
-        "slug": "miguel-angel-sola",
-        "name": "Miguel \u00c1ngel Sol\u00e1",
-        "birthYear": 1950.0,
-        "gender": "Male identifying",
-        "nationality": "Argentina"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2018_010_01",
       "age": "3: Third Age (60-75)",
@@ -84,6 +66,26 @@
         "birthYear": 1955.0,
         "gender": "Female identifying",
         "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2018_010_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Latin American",
+      "class": "Upper class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Miguel \u00c1ngel Sol\u00e1",
+        "slug": "miguel-angel-sola",
+        "name": "Miguel \u00c1ngel Sol\u00e1",
+        "birthYear": 1950.0,
+        "gender": "Male identifying",
+        "nationality": "Argentina"
       },
       "role": "Unknown"
     }

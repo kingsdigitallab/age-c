@@ -12,10 +12,12 @@
     "date": "2019-12-12",
     "year": 2019
   },
-  "production": {
-    "country": "Germany",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Germany",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/video/vi3251158809/?playlistId=tt8618370&ref_=tt_ov_vi",
     "posterUrl": "https://www.imdb.com/title/tt8618370/mediaviewer/rm2183763969/?ref_=tt_ov_i"
@@ -27,18 +29,18 @@
   ],
   "director": [
     {
-      "id": "Annika Blendl",
-      "slug": "annika-blendl",
-      "name": "Annika Blendl",
-      "birthYear": 1981,
-      "gender": "Female identifying",
-      "nationality": "Germany"
-    },
-    {
       "id": "Leonie Stade",
       "slug": "leonie-stade",
       "name": "Leonie Stade",
       "birthYear": 1988,
+      "gender": "Female identifying",
+      "nationality": "Germany"
+    },
+    {
+      "id": "Annika Blendl",
+      "slug": "annika-blendl",
+      "name": "Annika Blendl",
+      "birthYear": 1981,
       "gender": "Female identifying",
       "nationality": "Germany"
     }

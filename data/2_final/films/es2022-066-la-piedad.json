@@ -12,36 +12,42 @@
     "date": "2022-12-17",
     "year": 2022
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Argentina",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=560229",
     "posterUrl": "https://www.imdb.com/title/tt7922238/mediaviewer/rm2355707393/?ref_=tt_ov_i"
   },
   "genre": [
-    "Experimental film ",
     "Horror",
+    "Drama",
     "Fantasy",
-    "Drama"
+    "Experimental film "
   ],
   "tags": [
-    "personal trauma",
+    "caregiving",
     "reproductive technologies",
     "anti-ageing practices",
-    "homosociality",
-    "intergenerational friendship",
-    "abuse",
-    "de-ageing",
-    "caregiving",
-    "collective trauma",
-    "disability",
-    "grief",
     "motherhood",
+    "personal trauma",
+    "grief",
     "physical illness",
+    "abuse",
+    "disability",
+    "collective trauma",
+    "women empowerment",
     "fatherhood",
-    "women empowerment"
+    "intergenerational friendship",
+    "homosociality",
+    "de-ageing"
   ],
   "director": [
     {
@@ -54,6 +60,26 @@
     }
   ],
   "character": [
+    {
+      "id": "ES2022_066_01",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "\u00c1ngela Molina",
+        "slug": "angela-molina",
+        "name": "\u00c1ngela Molina",
+        "birthYear": 1955.0,
+        "gender": "Female identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
     {
       "id": "ES2022_066_02",
       "age": "2: Late Middle Age (55-60)",
@@ -91,26 +117,6 @@
         "birthYear": 1961.0,
         "gender": "Male identifying",
         "nationality": "Argentina"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2022_066_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "\u00c1ngela Molina",
-        "slug": "angela-molina",
-        "name": "\u00c1ngela Molina",
-        "birthYear": 1955.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
       },
       "role": "Unknown"
     }

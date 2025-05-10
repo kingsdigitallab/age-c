@@ -11,27 +11,29 @@
     "date": "2020-07-09",
     "year": 2020
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt11386248/?ref_=ttrel_ov",
     "posterUrl": "https://www.imdb.com/title/tt11386248/mediaviewer/rm1606168833/?ref_=tt_ov_i"
   },
   "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Biopic"
+    "Biopic",
+    "Documentary \u2013 Participatory mode"
   ],
   "tags": [
-    "self-employment",
-    "grandfatherhood",
-    "activism",
     "intragenerational friendship",
     "artistic creation",
+    "activism",
     "celebrity",
-    "cultural memory",
-    "marriage"
+    "marriage",
+    "grandfatherhood",
+    "self-employment",
+    "cultural memory"
   ],
   "director": [
     {
@@ -44,46 +46,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2020_024_04",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Guillermo Montesinos",
-        "slug": "guillermo-montesinos",
-        "name": "Guillermo Montesinos",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2020_024_08",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "Yes",
-      "person": {
-        "id": "Silvia Casanova",
-        "slug": "silvia-casanova",
-        "name": "Silvia Casanova",
-        "birthYear": 1933.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2020_024_01",
       "age": "4: Fourth Age (>75)",
@@ -105,40 +67,21 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2020_024_07",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Carlos Manuel D\u00edaz",
-        "slug": "carlos-manuel-diaz",
-        "name": "Carlos Manuel D\u00edaz",
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2020_024_05",
+      "id": "ES2020_024_08",
       "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
       "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "Unknown",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "Yes",
       "person": {
-        "id": "Saturnino Garc\u00eda",
-        "slug": "saturnino-garcia",
-        "name": "Saturnino Garc\u00eda",
-        "birthYear": 1935.0,
-        "gender": "Male identifying",
+        "id": "Silvia Casanova",
+        "slug": "silvia-casanova",
+        "name": "Silvia Casanova",
+        "birthYear": 1933.0,
+        "gender": "Female identifying",
         "nationality": "Spain"
       },
       "role": "Unknown"
@@ -185,20 +128,39 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2020_024_06",
+      "id": "ES2020_024_07",
       "age": "3: Third Age (60-75)",
       "gender": "Male identifying",
       "sexuality": "Unknown",
       "origin": "White Western European",
       "class": "Upper Middle class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Carlos Manuel D\u00edaz",
+        "slug": "carlos-manuel-diaz",
+        "name": "Carlos Manuel D\u00edaz",
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2020_024_04",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
       "profession": "Employed",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Mariano Venancio",
-        "slug": "mariano-venancio",
-        "name": "Mariano Venancio",
-        "birthYear": 1947.0,
+        "id": "Guillermo Montesinos",
+        "slug": "guillermo-montesinos",
+        "name": "Guillermo Montesinos",
+        "birthYear": 1948.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },
@@ -238,6 +200,46 @@
         "slug": "manuel-zarzo",
         "name": "Manuel Zarzo",
         "birthYear": 1932.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2020_024_05",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Unknown",
+      "profession": "Unknown",
+      "ability": "Unknown",
+      "assistedMobility": "Unknown",
+      "person": {
+        "id": "Saturnino Garc\u00eda",
+        "slug": "saturnino-garcia",
+        "name": "Saturnino Garc\u00eda",
+        "birthYear": 1935.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2020_024_06",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Mariano Venancio",
+        "slug": "mariano-venancio",
+        "name": "Mariano Venancio",
+        "birthYear": 1947.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },

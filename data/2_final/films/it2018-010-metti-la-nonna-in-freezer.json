@@ -12,10 +12,12 @@
     "date": "2018-03-15",
     "year": 2018
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=cTHa6TKEXXU",
     "posterUrl": "https://www.imdb.com/title/tt6982104/mediaviewer/rm2071222016/?ref_=tt_ov_i"
@@ -25,25 +27,25 @@
     "Crime"
   ],
   "tags": [
+    "natural death",
     "grandmotherhood",
-    "fraud",
     "retirement",
-    "natural death"
+    "fraud"
   ],
   "director": [
-    {
-      "id": "Giancarlo Fontana",
-      "slug": "giancarlo-fontana",
-      "name": "Giancarlo Fontana",
-      "birthYear": 1981,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    },
     {
       "id": "Giuseppe Stasi",
       "slug": "giuseppe-stasi",
       "name": "Giuseppe Stasi",
       "birthYear": 1989,
+      "gender": "Male identifying",
+      "nationality": "Italy"
+    },
+    {
+      "id": "Giancarlo Fontana",
+      "slug": "giancarlo-fontana",
+      "name": "Giancarlo Fontana",
+      "birthYear": 1981,
       "gender": "Male identifying",
       "nationality": "Italy"
     }

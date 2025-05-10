@@ -12,10 +12,12 @@
     "date": "2019-03-01",
     "year": 2019
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=KBstfRGTssM",
     "posterUrl": "https://www.imdb.com/title/tt8242160/mediaviewer/rm1398643713/?ref_=tt_ov_i"
@@ -23,26 +25,26 @@
   "genre": [
     "Comedy",
     "Road Movie",
-    "Romance",
-    "Drama"
+    "Drama",
+    "Romance"
   ],
   "tags": [
-    "substance abuse",
-    "agony",
-    "last mission",
-    "fatherhood",
-    "homosociality",
-    "intergenerational friendship",
-    "caregiving",
-    "partnership",
-    "interracial relationships",
-    "self-employment",
-    "search for meaning",
-    "physical illness",
     "pilgrimage",
+    "partnership",
+    "caregiving",
     "personal memory",
+    "agony",
+    "search for meaning",
+    "last mission",
+    "interracial relationships",
+    "physical illness",
+    "precarity",
+    "substance abuse",
+    "intergenerational friendship",
+    "fatherhood",
     "natural death",
-    "precarity"
+    "self-employment",
+    "homosociality"
   ],
   "director": [
     {
@@ -55,26 +57,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2019_020_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Jean Reno",
-        "slug": "jean-reno",
-        "name": "Jean Reno",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2019_020_02",
       "age": "3: Third Age (60-75)",
@@ -93,6 +75,26 @@
         "deathYear": 2021.0,
         "gender": "Male identifying",
         "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2019_020_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "Unknown",
+      "person": {
+        "id": "Jean Reno",
+        "slug": "jean-reno",
+        "name": "Jean Reno",
+        "birthYear": 1948.0,
+        "gender": "Male identifying",
+        "nationality": "France"
       },
       "role": "Unknown"
     }

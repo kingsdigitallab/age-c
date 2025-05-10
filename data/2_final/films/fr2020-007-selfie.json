@@ -11,10 +11,12 @@
     "date": "2020-01-15",
     "year": 2020
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=tCJtMe83cZw",
     "posterUrl": "https://medias.unifrance.org/medias/134/64/213126/format_page/selfie.jpg"
@@ -24,34 +26,35 @@
     "Anthology Films"
   ],
   "tags": [
-    "in-laws",
-    "education",
     "technology",
-    "self-employment",
+    "education",
     "fatherhood",
-    "high rank employment"
+    "self-employment",
+    "high rank employment",
+    "in-laws"
   ],
   "director": [
-    {
-      "id": "Marc Fitoussi",
-      "slug": "marc-fitoussi",
-      "name": "Marc Fitoussi",
-      "birthYear": 1976,
-      "gender": "Male identifying",
-      "nationality": "France"
-    },
-    {
-      "id": "Vianney Lebasque",
-      "slug": "vianney-lebasque",
-      "name": "Vianney Lebasque",
-      "gender": "Male identifying",
-      "nationality": "France"
-    },
     {
       "id": "Thomas Bidegain",
       "slug": "thomas-bidegain",
       "name": "Thomas Bidegain",
       "birthYear": 1968,
+      "gender": "Male identifying",
+      "nationality": "France"
+    },
+    {
+      "id": "Cyril Gelblat",
+      "slug": "cyril-gelblat",
+      "name": "Cyril Gelblat",
+      "birthYear": 1977,
+      "gender": "Male identifying",
+      "nationality": "France"
+    },
+    {
+      "id": "Marc Fitoussi",
+      "slug": "marc-fitoussi",
+      "name": "Marc Fitoussi",
+      "birthYear": 1976,
       "gender": "Male identifying",
       "nationality": "France"
     },
@@ -64,10 +67,9 @@
       "nationality": "France"
     },
     {
-      "id": "Cyril Gelblat",
-      "slug": "cyril-gelblat",
-      "name": "Cyril Gelblat",
-      "birthYear": 1977,
+      "id": "Vianney Lebasque",
+      "slug": "vianney-lebasque",
+      "name": "Vianney Lebasque",
       "gender": "Male identifying",
       "nationality": "France"
     }

@@ -11,38 +11,40 @@
     "date": "2021-04-10",
     "year": 2021
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Sweden",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Belgium",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Germany",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=wTSTH7XSEEk",
     "posterUrl": "https://www.imdb.com/title/tt13919968/mediaviewer/rm3034510081/?ref_=tt_ov_i"
   },
   "genre": [
-    "Anthology Films",
-    "Documentary \u2013 Performative mode"
+    "Documentary \u2013 Performative mode",
+    "Anthology Films"
   ],
   "tags": [
     "covid-19"
   ],
   "director": [
-    {
-      "id": "Michael Winterbottom",
-      "slug": "michael-winterbottom",
-      "name": "Michael Winterbottom",
-      "birthYear": 1961,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    },
-    {
-      "id": "Jaco van Dormael",
-      "slug": "jaco-van-dormael",
-      "name": "Jaco van Dormael",
-      "birthYear": 1957,
-      "gender": "Male identifying",
-      "nationality": "Belgium"
-    },
     {
       "id": "Olivier Guerpillon",
       "slug": "olivier-guerpillon",
@@ -52,12 +54,28 @@
       "nationality": "France"
     },
     {
+      "id": "Michael Winterbottom",
+      "slug": "michael-winterbottom",
+      "name": "Michael Winterbottom",
+      "birthYear": 1961,
+      "gender": "Male identifying",
+      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+    },
+    {
       "id": "Michele Placido",
       "slug": "michele-placido",
       "name": "Michele Placido",
       "birthYear": 1946,
       "gender": "Male identifying",
       "nationality": "Italy"
+    },
+    {
+      "id": "Jaco van Dormael",
+      "slug": "jaco-van-dormael",
+      "name": "Jaco van Dormael",
+      "birthYear": 1957,
+      "gender": "Male identifying",
+      "nationality": "Belgium"
     },
     {
       "id": "Julia von Heinz",

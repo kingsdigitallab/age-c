@@ -12,10 +12,12 @@
     "date": "2022-10-20",
     "year": 2022
   },
-  "production": {
-    "country": "Germany",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Germany",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/video/vi235651609/?playlistId=tt14005338&ref_=tt_ov_vi",
     "posterUrl": "https://www.imdb.com/title/tt14005338/mediaviewer/rm3803049729/?ref_=tt_ov_i"
@@ -25,11 +27,11 @@
     "Multi-protagonist film"
   ],
   "tags": [
-    "extended family",
-    "in-laws",
     "intergenerational conflict",
     "multigenerational family",
-    "holiday"
+    "holiday",
+    "extended family",
+    "in-laws"
   ],
   "director": [
     {
@@ -42,26 +44,6 @@
     }
   ],
   "character": [
-    {
-      "id": "DE2022_085_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Iris Berben",
-        "slug": "iris-berben",
-        "name": "Iris Berben",
-        "birthYear": 1950.0,
-        "gender": "Female identifying",
-        "nationality": "Germany"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "DE2022_085_03",
       "age": "3: Third Age (60-75)",
@@ -98,6 +80,26 @@
         "name": "Christoph Maria Herbst",
         "birthYear": 1966.0,
         "gender": "Male identifying",
+        "nationality": "Germany"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "DE2022_085_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper class",
+      "profession": "Unemployed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Iris Berben",
+        "slug": "iris-berben",
+        "name": "Iris Berben",
+        "birthYear": 1950.0,
+        "gender": "Female identifying",
         "nationality": "Germany"
       },
       "role": "Unknown"

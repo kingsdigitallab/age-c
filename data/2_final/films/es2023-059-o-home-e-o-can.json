@@ -11,10 +11,12 @@
     "date": "2023-10-19",
     "year": 2023
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=854515",
     "posterUrl": "https://www.imdb.com/title/tt21907222/mediaviewer/rm2269709057/?ref_=tt_ov_i"
@@ -23,19 +25,19 @@
     "Drama"
   ],
   "tags": [
+    "caregiving",
+    "personal memory",
+    "loneliness",
     "rural",
     "non-human companionship",
+    "physical illness",
+    "precarity",
+    "rescue mission",
+    "disability",
     "intergenerational friendship",
-    "caregiving",
-    "loneliness",
-    "regional identity",
     "cross-gender friendship",
     "urban",
-    "disability",
-    "rescue mission",
-    "physical illness",
-    "personal memory",
-    "precarity"
+    "regional identity"
   ],
   "director": [
     {
@@ -48,26 +50,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2023_059_02",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Retired",
-      "ability": "Permanent disability",
-      "assistedMobility": "Yes",
-      "person": {
-        "id": "Vicente Montoto",
-        "slug": "vicente-montoto",
-        "name": "Vicente Montoto",
-        "birthYear": 1943.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2023_059_01",
       "age": "3: Third Age (60-75)",
@@ -83,6 +65,26 @@
         "slug": "manuel-manquina",
         "name": "Manuel Manqui\u00f1a",
         "birthYear": 1953.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2023_059_02",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Unknown",
+      "profession": "Retired",
+      "ability": "Permanent disability",
+      "assistedMobility": "Yes",
+      "person": {
+        "id": "Vicente Montoto",
+        "slug": "vicente-montoto",
+        "name": "Vicente Montoto",
+        "birthYear": 1943.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },

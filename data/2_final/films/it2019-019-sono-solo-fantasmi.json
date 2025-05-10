@@ -11,10 +11,12 @@
     "date": "2019-11-14",
     "year": 2019
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=m9gDadqw-2Y",
     "posterUrl": "https://www.imdb.com/title/tt10096424/mediaviewer/rm4219702785/?ref_=tt_ov_i"
@@ -24,9 +26,9 @@
     "Fantasy"
   ],
   "tags": [
-    "brotherhood",
+    "precarity",
     "self-employment",
-    "precarity"
+    "brotherhood"
   ],
   "director": [
     {
@@ -39,26 +41,6 @@
     }
   ],
   "character": [
-    {
-      "id": "IT2019_019_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Carlo Buccirosso",
-        "slug": "carlo-buccirosso",
-        "name": "Carlo Buccirosso",
-        "birthYear": 1954.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    },
     {
       "id": "IT2019_019_01",
       "age": "3: Third Age (60-75)",
@@ -74,6 +56,26 @@
         "slug": "christian-de-sica",
         "name": "Christian De Sica",
         "birthYear": 1951.0,
+        "gender": "Male identifying",
+        "nationality": "Italy"
+      },
+      "role": "Leading actor"
+    },
+    {
+      "id": "IT2019_019_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Carlo Buccirosso",
+        "slug": "carlo-buccirosso",
+        "name": "Carlo Buccirosso",
+        "birthYear": 1954.0,
         "gender": "Male identifying",
         "nationality": "Italy"
       },

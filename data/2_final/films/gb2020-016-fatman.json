@@ -11,62 +11,73 @@
     "date": "2020-11-19",
     "year": 2020
   },
-  "production": {
-    "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Canada",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "United States of America (the)",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=894536",
     "posterUrl": "https://www.imdb.com/title/tt10310140/mediaviewer/rm2329021185/?ref_=tt_ov_i"
   },
   "genre": [
     "Fantasy",
-    "Action",
+    "Drama",
     "Crime",
     "Thriller",
-    "Drama"
+    "Action"
   ],
   "tags": [
-    "rural",
     "grandmotherhood",
-    "self-employment",
-    "supernatural entity",
-    "superior-employee relationship",
     "war",
-    "technology",
-    "abuse",
-    "independent home",
-    "disability",
-    "search for meaning",
-    "festivities",
+    "supernatural entity",
     "disappearing professions",
-    "marriage",
-    "wealth",
     "non-human companionship",
-    "interracial relationships",
+    "disability",
+    "independent home",
+    "technology",
     "legacy",
     "medical treatment",
+    "marriage",
+    "interracial relationships",
+    "search for meaning",
     "state institutions",
+    "rural",
+    "self-employment",
+    "wealth",
     "homosociality",
-    "physical illness"
+    "physical illness",
+    "superior-employee relationship",
+    "festivities",
+    "abuse"
   ],
   "character": [
     {
-      "id": "GB2020_016_03",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
+      "id": "GB2020_016_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
       "sexuality": "Heterosexual",
       "origin": "White North American",
-      "class": "Upper class",
-      "profession": "Retired",
-      "ability": "Permanent disability",
+      "class": "Middle class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Deborah Grover",
-        "slug": "deborah-grover",
-        "name": "Deborah Grover",
-        "gender": "Female identifying",
-        "nationality": "Canada"
+        "id": "Mel Gibson",
+        "slug": "mel-gibson",
+        "name": "Mel Gibson",
+        "birthYear": 1956.0,
+        "gender": "Male identifying",
+        "nationality": "Australia"
       },
       "role": "Unknown"
     },
@@ -91,22 +102,21 @@
       "role": "Unknown"
     },
     {
-      "id": "GB2020_016_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
+      "id": "GB2020_016_03",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Female identifying",
       "sexuality": "Heterosexual",
       "origin": "White North American",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
+      "class": "Upper class",
+      "profession": "Retired",
+      "ability": "Permanent disability",
       "assistedMobility": "No",
       "person": {
-        "id": "Mel Gibson",
-        "slug": "mel-gibson",
-        "name": "Mel Gibson",
-        "birthYear": 1956.0,
-        "gender": "Male identifying",
-        "nationality": "Australia"
+        "id": "Deborah Grover",
+        "slug": "deborah-grover",
+        "name": "Deborah Grover",
+        "gender": "Female identifying",
+        "nationality": "Canada"
       },
       "role": "Unknown"
     }

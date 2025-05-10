@@ -12,10 +12,12 @@
     "date": "2018-03-01",
     "year": 2018
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=QHcAxCep7as",
     "posterUrl": "https://www.imdb.com/title/tt6917290/mediaviewer/rm3005239552/?ref_=tt_ov_i"
@@ -24,11 +26,11 @@
     "Comedy"
   ],
   "tags": [
-    "in-laws",
-    "parenthood",
-    "wedding",
+    "marriage",
     "lgbtqi",
-    "marriage"
+    "wedding",
+    "parenthood",
+    "in-laws"
   ],
   "director": [
     {
@@ -41,26 +43,6 @@
     }
   ],
   "character": [
-    {
-      "id": "IT2018_014_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Diego Abatantuono",
-        "slug": "diego-abatantuono",
-        "name": "Diego Abatantuono",
-        "birthYear": 1955.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    },
     {
       "id": "IT2018_014_02",
       "age": "3: Third Age (60-75)",
@@ -77,6 +59,26 @@
         "name": "Monica Guerritore",
         "birthYear": 1958.0,
         "gender": "Female identifying",
+        "nationality": "Italy"
+      },
+      "role": "Leading actor"
+    },
+    {
+      "id": "IT2018_014_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Diego Abatantuono",
+        "slug": "diego-abatantuono",
+        "name": "Diego Abatantuono",
+        "birthYear": 1955.0,
+        "gender": "Male identifying",
         "nationality": "Italy"
       },
       "role": "Leading actor"

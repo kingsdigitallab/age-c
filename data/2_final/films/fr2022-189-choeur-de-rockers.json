@@ -12,10 +12,12 @@
     "date": "2022-12-28",
     "year": 2022
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=469XXZjr6eA",
     "posterUrl": "https://medias.unifrance.org/medias/90/230/255578/format_page/choeur-de-rockers.jpg"
@@ -25,24 +27,24 @@
     "Musical"
   ],
   "tags": [
-    "artistic creation",
     "ageism",
-    "elderhood (friendship among elders)",
-    "retirement"
+    "retirement",
+    "artistic creation",
+    "elderhood (friendship among elders)"
   ],
   "director": [
-    {
-      "id": "Luc Bricault",
-      "slug": "luc-bricault",
-      "name": "Luc Bricault",
-      "gender": "Male identifying",
-      "nationality": "France"
-    },
     {
       "id": "Ida Techer",
       "slug": "ida-techer",
       "name": "Ida Techer",
       "gender": "Female identifying",
+      "nationality": "France"
+    },
+    {
+      "id": "Luc Bricault",
+      "slug": "luc-bricault",
+      "name": "Luc Bricault",
+      "gender": "Male identifying",
       "nationality": "France"
     }
   ],

@@ -11,10 +11,12 @@
     "date": "2021-07-05",
     "year": 2021
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=jU_5T_Zvaqo",
     "posterUrl": "https://www.imdb.com/title/tt13205094/mediaviewer/rm3440813313/?ref_=tt_ov_i"
@@ -23,23 +25,23 @@
     "Documentary \u2013 Expository mode"
   ],
   "tags": [
-    "urban",
     "personal memory",
-    "cultural memory"
+    "cultural memory",
+    "urban"
   ],
   "director": [
-    {
-      "id": "Lisa Bosi",
-      "slug": "lisa-bosi",
-      "name": "Lisa Bosi",
-      "gender": "Female identifying",
-      "nationality": "Italy"
-    },
     {
       "id": "Francesca Zerbetto",
       "slug": "francesca-zerbetto",
       "name": "Francesca Zerbetto",
       "birthYear": 1970,
+      "gender": "Female identifying",
+      "nationality": "Italy"
+    },
+    {
+      "id": "Lisa Bosi",
+      "slug": "lisa-bosi",
+      "name": "Lisa Bosi",
       "gender": "Female identifying",
       "nationality": "Italy"
     }

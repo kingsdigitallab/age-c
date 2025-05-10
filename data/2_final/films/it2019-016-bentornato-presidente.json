@@ -11,10 +11,12 @@
     "date": "2019-03-28",
     "year": 2019
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=4ZKf0yJcOlk",
     "posterUrl": "https://www.imdb.com/title/tt9281008/mediaviewer/rm3092606208/?ref_=tt_ov_i"
@@ -28,18 +30,18 @@
   ],
   "director": [
     {
-      "id": "Giancarlo Fontana",
-      "slug": "giancarlo-fontana",
-      "name": "Giancarlo Fontana",
-      "birthYear": 1981,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    },
-    {
       "id": "Giuseppe Stasi",
       "slug": "giuseppe-stasi",
       "name": "Giuseppe Stasi",
       "birthYear": 1989,
+      "gender": "Male identifying",
+      "nationality": "Italy"
+    },
+    {
+      "id": "Giancarlo Fontana",
+      "slug": "giancarlo-fontana",
+      "name": "Giancarlo Fontana",
+      "birthYear": 1981,
       "gender": "Male identifying",
       "nationality": "Italy"
     }

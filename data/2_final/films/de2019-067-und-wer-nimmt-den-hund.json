@@ -12,10 +12,12 @@
     "date": "2019-08-08",
     "year": 2019
   },
-  "production": {
-    "country": "Germany",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Germany",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/video/vi256359449/?playlistId=tt9302026&ref_=tt_ov_vi",
     "posterUrl": "https://www.imdb.com/title/tt9302026/mediaviewer/rm2508494849/?ref_=tt_ov_i"
@@ -25,14 +27,14 @@
     "Drama"
   ],
   "tags": [
-    "infidelity",
     "marriage counselling",
-    "reignited passion",
-    "non-human companionship",
+    "infidelity",
     "menopause",
+    "reignited passion",
     "desire",
-    "urban",
-    "may-december"
+    "non-human companionship",
+    "may-december",
+    "urban"
   ],
   "director": [
     {
@@ -45,26 +47,6 @@
     }
   ],
   "character": [
-    {
-      "id": "DE2019_067_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Helen Mirren",
-        "slug": "helen-mirren",
-        "name": "Helen Mirren",
-        "birthYear": 1945.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "DE2019_067_02",
       "age": "3: Third Age (60-75)",
@@ -101,6 +83,26 @@
         "name": "Helen Mirren",
         "birthYear": 1945.0,
         "gender": "Female identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "DE2019_067_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Helen Mirren",
+        "slug": "helen-mirren",
+        "name": "Helen Mirren",
+        "birthYear": 1945.0,
+        "gender": "Male identifying",
         "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },
       "role": "Unknown"

@@ -12,55 +12,61 @@
     "date": "2023-09-29",
     "year": 2023
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Argentina",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt21284358/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Cerrar%2520los%2520ojos",
     "posterUrl": "https://www.imdb.com/title/tt21284358/mediaviewer/rm85022721/?ref_=tt_ov_i"
   },
   "genre": [
     "Noir",
-    "Drama",
-    "Metacinema"
+    "Metacinema",
+    "Drama"
   ],
   "tags": [
-    "daily routine",
-    "gray face",
-    "rural",
-    "well-being",
-    "retirement home",
-    "cross-gender friendship",
-    "artistic creation",
-    "fatherhood",
-    "religion",
-    "personal trauma",
-    "substance abuse",
-    "independent home",
-    "low rank employment",
-    "mass media",
-    "search for meaning",
-    "personal memory",
-    "non-human companionship",
-    "intergenerational friendship",
-    "caregiving",
-    "rescue mission",
-    "intragenerational friendship",
-    "high rank employment",
-    "celebrity",
     "unemployment",
-    "medical treatment",
-    "state institutions",
-    "homosociality",
-    "celibacy",
-    "romance",
+    "intragenerational friendship",
+    "caregiving",
+    "artistic creation",
     "loneliness",
-    "urban",
+    "personal trauma",
+    "non-human companionship",
+    "precarity",
+    "independent home",
+    "fatherhood",
+    "mass media",
+    "gray face",
+    "medical treatment",
+    "celibacy",
     "grief",
+    "rescue mission",
     "dementia",
+    "retirement home",
+    "well-being",
+    "cross-gender friendship",
+    "romance",
+    "search for meaning",
+    "state institutions",
+    "rural",
+    "substance abuse",
+    "low rank employment",
+    "intergenerational friendship",
     "cultural memory",
-    "precarity"
+    "homosociality",
+    "urban",
+    "high rank employment",
+    "daily routine",
+    "celebrity",
+    "personal memory",
+    "religion"
   ],
   "director": [
     {
@@ -73,6 +79,46 @@
     }
   ],
   "character": [
+    {
+      "id": "ES2023_017_06",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Antonio Dechent",
+        "slug": "antonio-dechent",
+        "name": "Antonio Dechent",
+        "birthYear": 1960.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2023_017_05",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Mario Pardo",
+        "slug": "mario-pardo",
+        "name": "Mario Pardo",
+        "birthYear": 1944.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
     {
       "id": "ES2023_017_02",
       "age": "3: Third Age (60-75)",
@@ -88,6 +134,26 @@
         "slug": "jose-coronado",
         "name": "Jos\u00e9 Coronado",
         "birthYear": 1957.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2023_017_07",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Josep Maria Pou",
+        "slug": "josep-maria-pou",
+        "name": "Josep Maria Pou",
+        "birthYear": 1944.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },
@@ -134,26 +200,6 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2023_017_05",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Mario Pardo",
-        "slug": "mario-pardo",
-        "name": "Mario Pardo",
-        "birthYear": 1944.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
       "id": "ES2023_017_01",
       "age": "3: Third Age (60-75)",
       "gender": "Male identifying",
@@ -168,46 +214,6 @@
         "slug": "manolo-solo",
         "name": "Manolo Solo",
         "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2023_017_07",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Josep Maria Pou",
-        "slug": "josep-maria-pou",
-        "name": "Josep Maria Pou",
-        "birthYear": 1944.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2023_017_06",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Antonio Dechent",
-        "slug": "antonio-dechent",
-        "name": "Antonio Dechent",
-        "birthYear": 1960.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },

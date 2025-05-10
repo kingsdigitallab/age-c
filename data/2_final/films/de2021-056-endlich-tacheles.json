@@ -11,10 +11,12 @@
     "date": "2021-10-14",
     "year": 2021
   },
-  "production": {
-    "country": "Germany",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Germany",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=TTIPR3foUQM&ab_channel=realfictionfilme",
     "posterUrl": "https://www.imdb.com/title/tt12245228/mediaviewer/rm3678844161/?ref_=tt_ov_i"
@@ -24,25 +26,25 @@
     "Documentary \u2013 Participatory mode"
   ],
   "tags": [
-    "collective trauma",
-    "religion",
     "grandparenthood",
-    "cultural memory"
+    "cultural memory",
+    "collective trauma",
+    "religion"
   ],
   "director": [
-    {
-      "id": "Jana Matthes",
-      "slug": "jana-matthes",
-      "name": "Jana Matthes",
-      "birthYear": 1966,
-      "gender": "Female identifying",
-      "nationality": "Germany"
-    },
     {
       "id": "Andrea Schramm",
       "slug": "andrea-schramm",
       "name": "Andrea Schramm",
       "birthYear": 1968,
+      "gender": "Female identifying",
+      "nationality": "Germany"
+    },
+    {
+      "id": "Jana Matthes",
+      "slug": "jana-matthes",
+      "name": "Jana Matthes",
+      "birthYear": 1966,
       "gender": "Female identifying",
       "nationality": "Germany"
     }

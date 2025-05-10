@@ -11,10 +11,24 @@
     "date": "2021-07-10",
     "year": 2021
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Austria",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Russian Federation (the)",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "United States of America (the)",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=Ly2ve8R7Zb8",
     "posterUrl": "https://www.imdb.com/title/tt12806982/mediaviewer/rm44167937/?ref_=tt_ov_i"
@@ -28,20 +42,20 @@
   ],
   "director": [
     {
+      "id": "Elisabetta Pellini",
+      "slug": "elisabetta-pellini",
+      "name": "Elisabetta Pellini",
+      "birthYear": 1974,
+      "gender": "Female identifying",
+      "nationality": "Italy"
+    },
+    {
       "id": "Francesco Colangelo",
       "slug": "francesco-colangelo",
       "name": "Francesco Colangelo",
       "birthYear": 1968,
       "gender": "Male identifying",
       "nationality": "Italy"
-    },
-    {
-      "id": "Elly Senger-Weiss",
-      "slug": "elly-senger-weiss",
-      "name": "Elly Senger-Weiss",
-      "birthYear": 1974,
-      "gender": "Female identifying",
-      "nationality": "Austria"
     },
     {
       "id": "Willem Zaeyen",
@@ -52,12 +66,12 @@
       "nationality": "Italy"
     },
     {
-      "id": "Elisabetta Pellini",
-      "slug": "elisabetta-pellini",
-      "name": "Elisabetta Pellini",
+      "id": "Elly Senger-Weiss",
+      "slug": "elly-senger-weiss",
+      "name": "Elly Senger-Weiss",
       "birthYear": 1974,
       "gender": "Female identifying",
-      "nationality": "Italy"
+      "nationality": "Austria"
     }
   ],
   "synopsis": {

@@ -12,10 +12,20 @@
     "date": "2022-09-14",
     "year": 2022
   },
-  "production": {
-    "country": "Germany",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Germany",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "France",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=bpR8lBaKH2A&ab_channel=SPARKCG",
     "posterUrl": "https://www.imdb.com/title/tt8010354/mediaviewer/rm3905591041/?ref_=tt_ov_i"
@@ -25,6 +35,13 @@
     "Comedy"
   ],
   "director": [
+    {
+      "id": "Robin Shaw",
+      "slug": "robin-shaw",
+      "name": "Robin Shaw",
+      "gender": "Male identifying",
+      "nationality": "Unknown"
+    },
     {
       "id": "An Vrombaut",
       "slug": "an-vrombaut",
@@ -38,13 +55,6 @@
       "name": "Beno\u00eet Chieux",
       "gender": "Male identifying",
       "nationality": "France"
-    },
-    {
-      "id": "Robin Shaw",
-      "slug": "robin-shaw",
-      "name": "Robin Shaw",
-      "gender": "Male identifying",
-      "nationality": "Unknown"
     },
     {
       "id": "Kariem Saleh",

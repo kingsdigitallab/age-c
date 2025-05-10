@@ -12,10 +12,16 @@
     "date": "2019-12-04",
     "year": 2019
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Luxembourg",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=d8WGNT6vBpM",
     "posterUrl": "https://medias.unifrance.org/medias/32/66/213536/format_page/le-voyage-du-prince.jpg"
@@ -24,25 +30,25 @@
     "Fantasy"
   ],
   "tags": [
-    "intergenerational friendship",
+    "power",
     "rescue mission",
-    "state institutions",
-    "power"
+    "intergenerational friendship",
+    "state institutions"
   ],
   "director": [
-    {
-      "id": "Jean-Fran\u00e7ois Laguionie",
-      "slug": "jean-francois-laguionie",
-      "name": "Jean-Fran\u00e7ois Laguionie",
-      "birthYear": 1939,
-      "gender": "Male identifying",
-      "nationality": "France"
-    },
     {
       "id": "Xavier Picard",
       "slug": "xavier-picard",
       "name": "Xavier Picard",
       "birthYear": 1962,
+      "gender": "Male identifying",
+      "nationality": "France"
+    },
+    {
+      "id": "Jean-Fran\u00e7ois Laguionie",
+      "slug": "jean-francois-laguionie",
+      "name": "Jean-Fran\u00e7ois Laguionie",
+      "birthYear": 1939,
       "gender": "Male identifying",
       "nationality": "France"
     }

@@ -11,10 +11,16 @@
     "date": "2023-10-06",
     "year": 2023
   },
-  "production": {
-    "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Sweden",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt14124080/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_The%2520Great%2520Escaper",
     "posterUrl": "https://www.imdb.com/title/tt14124080/mediaviewer/rm2374851329/?ref_=tt_ov_i"
@@ -25,28 +31,28 @@
     "Drama"
   ],
   "tags": [
-    "well-being",
-    "retirement home",
-    "personal trauma",
-    "substance abuse",
+    "intragenerational friendship",
+    "caregiving",
+    "supranational institutions",
     "war",
+    "personal trauma",
+    "pilgrimage",
     "national identity",
     "mass media",
-    "personal memory",
-    "retirement",
-    "marriage",
-    "mentorship",
-    "intergenerational friendship",
-    "caregiving",
-    "intragenerational friendship",
-    "pilgrimage",
-    "celebrity",
     "medical treatment",
-    "state institutions",
     "last mission",
-    "homosociality",
-    "supranational institutions",
+    "marriage",
     "grief",
+    "retirement home",
+    "well-being",
+    "retirement",
+    "mentorship",
+    "state institutions",
+    "substance abuse",
+    "intergenerational friendship",
+    "homosociality",
+    "celebrity",
+    "personal memory",
     "physical illness"
   ],
   "director": [
@@ -60,6 +66,26 @@
     }
   ],
   "character": [
+    {
+      "id": "GB2023_005_03",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "John Standing",
+        "slug": "john-standing",
+        "name": "John Standing",
+        "birthYear": 1934.0,
+        "gender": "Male identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Unknown"
+    },
     {
       "id": "GB2023_005_01",
       "age": "4: Fourth Age (>75)",
@@ -97,26 +123,6 @@
         "birthYear": 1936.0,
         "deathYear": 2023.0,
         "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "GB2023_005_03",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "John Standing",
-        "slug": "john-standing",
-        "name": "John Standing",
-        "birthYear": 1934.0,
-        "gender": "Male identifying",
         "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },
       "role": "Unknown"

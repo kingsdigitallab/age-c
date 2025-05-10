@@ -12,10 +12,24 @@
     "date": "2022-10-21",
     "year": 2022
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "United States of America (the)",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Colombia",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Italy",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt4194974/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_The%2520Man%2520from%2520Rome",
     "posterUrl": "https://www.imdb.com/title/tt4194974/mediaviewer/rm2294808833/?ref_=tt_ov_i"
@@ -26,20 +40,20 @@
     "Crime"
   ],
   "tags": [
-    "wealth",
-    "state institutions",
-    "technology",
-    "abuse",
-    "homosociality",
-    "corruption",
-    "organized crime",
-    "celibacy",
-    "urban",
-    "superior-employee relationship",
     "religion",
+    "celibacy",
+    "state institutions",
+    "abuse",
+    "superior-employee relationship",
+    "technology",
+    "corruption",
+    "power",
     "high rank employment",
     "cultural memory",
-    "power"
+    "wealth",
+    "homosociality",
+    "urban",
+    "organized crime"
   ],
   "director": [
     {
@@ -51,6 +65,26 @@
     }
   ],
   "character": [
+    {
+      "id": "ES2022_031_02",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Upper class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Paul Freeman",
+        "slug": "paul-freeman",
+        "name": "Paul Freeman",
+        "birthYear": 1943.0,
+        "gender": "Male identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Unknown"
+    },
     {
       "id": "ES2022_031_04",
       "age": "4: Fourth Age (>75)",
@@ -108,26 +142,6 @@
         "birthYear": 1949.0,
         "gender": "Male identifying",
         "nationality": "United States of America (the)"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2022_031_02",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Paul Freeman",
-        "slug": "paul-freeman",
-        "name": "Paul Freeman",
-        "birthYear": 1943.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },
       "role": "Unknown"
     }

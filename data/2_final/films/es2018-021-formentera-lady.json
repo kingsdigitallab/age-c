@@ -11,10 +11,12 @@
     "date": "2018-06-29",
     "year": 2018
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=Bv8D19QFYP4",
     "posterUrl": "https://www.imdb.com/title/tt6563862/mediaviewer/rm1292912896/?ref_=tt_ov_i"
@@ -24,30 +26,30 @@
     "Drama"
   ],
   "tags": [
-    "rural",
-    "education",
-    "cross-gender friendship",
-    "self-employment",
-    "return home",
-    "artistic creation",
-    "fatherhood",
-    "natural",
-    "substance abuse",
-    "independent home",
-    "search for meaning",
-    "personal memory",
-    "may-december",
-    "non-human companionship",
-    "intergenerational friendship",
-    "hospital",
-    "caregiving",
-    "legacy",
-    "grandfatherhood",
     "intragenerational friendship",
-    "homosociality",
+    "caregiving",
+    "artistic creation",
+    "non-human companionship",
+    "precarity",
+    "independent home",
+    "education",
+    "fatherhood",
+    "legacy",
+    "cross-gender friendship",
+    "return home",
+    "search for meaning",
+    "rural",
+    "substance abuse",
     "separation",
+    "intergenerational friendship",
+    "self-employment",
+    "homosociality",
+    "hospital",
+    "personal memory",
     "physical illness",
-    "precarity"
+    "may-december",
+    "grandfatherhood",
+    "natural"
   ],
   "director": [
     {
@@ -61,21 +63,20 @@
   ],
   "character": [
     {
-      "id": "ES2018_021_03",
-      "age": "3: Third Age (60-75)",
+      "id": "ES2018_021_01",
+      "age": "4: Fourth Age (>75)",
       "gender": "Male identifying",
       "sexuality": "Heterosexual",
       "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
+      "class": "Lower class",
+      "profession": "Self-employed",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Juli Mira",
-        "slug": "juli-mira",
-        "name": "Juli Mira",
-        "birthYear": 1949.0,
-        "deathYear": 2024.0,
+        "id": "Jos\u00e9 Sacrist\u00e1n",
+        "slug": "jose-sacristan",
+        "name": "Jos\u00e9 Sacrist\u00e1n",
+        "birthYear": 1937.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },
@@ -102,26 +103,6 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2018_021_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Jos\u00e9 Sacrist\u00e1n",
-        "slug": "jose-sacristan",
-        "name": "Jos\u00e9 Sacrist\u00e1n",
-        "birthYear": 1937.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
       "id": "ES2018_021_02",
       "age": "3: Third Age (60-75)",
       "gender": "Male identifying",
@@ -136,6 +117,27 @@
         "slug": "ferran-rane",
         "name": "Ferran Ra\u00f1\u00e9",
         "birthYear": 1950.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2018_021_03",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Juli Mira",
+        "slug": "juli-mira",
+        "name": "Juli Mira",
+        "birthYear": 1949.0,
+        "deathYear": 2024.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },

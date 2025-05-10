@@ -11,10 +11,12 @@
     "date": "2023-10-20",
     "year": 2023
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=XOcEjM9_dYQ",
     "posterUrl": "https://www.imdb.com/title/tt28196872/mediaviewer/rm3652408065/?ref_=tt_ov_i"
@@ -24,10 +26,10 @@
     "Romance"
   ],
   "tags": [
+    "romance",
     "may-december",
-    "holiday",
     "reignited passion",
-    "romance"
+    "holiday"
   ],
   "director": [
     {
@@ -40,26 +42,6 @@
     }
   ],
   "character": [
-    {
-      "id": "IT2023_150_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Nancy Brilli",
-        "slug": "nancy-brilli",
-        "name": "Nancy Brilli",
-        "birthYear": 1964.0,
-        "gender": "Female identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    },
     {
       "id": "IT2023_150_02",
       "age": "3: Third Age (60-75)",
@@ -76,6 +58,26 @@
         "name": "Enzo Decaro",
         "birthYear": 1958.0,
         "gender": "Male identifying",
+        "nationality": "Italy"
+      },
+      "role": "Leading actor"
+    },
+    {
+      "id": "IT2023_150_01",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Nancy Brilli",
+        "slug": "nancy-brilli",
+        "name": "Nancy Brilli",
+        "birthYear": 1964.0,
+        "gender": "Female identifying",
         "nationality": "Italy"
       },
       "role": "Leading actor"

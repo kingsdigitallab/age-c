@@ -11,10 +11,12 @@
     "date": "2023-04-28",
     "year": 2023
   },
-  "production": {
-    "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt18257464/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Polite%2520Society",
     "posterUrl": "https://www.imdb.com/title/tt18257464/mediaviewer/rm185676033/?ref_=tt_ov_i"
@@ -25,14 +27,14 @@
     "Action"
   ],
   "tags": [
-    "homosociality",
     "intergenerational conflict",
-    "parenthood",
-    "wedding",
-    "class conflict",
-    "urban",
     "motherhood",
-    "fatherhood"
+    "class conflict",
+    "wedding",
+    "parenthood",
+    "fatherhood",
+    "homosociality",
+    "urban"
   ],
   "director": [
     {
@@ -44,25 +46,6 @@
     }
   ],
   "character": [
-    {
-      "id": "GB2023_013_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "Asian Western European",
-      "class": "Lower Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Su McLaughlin",
-        "slug": "su-mclaughlin",
-        "name": "Su McLaughlin",
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "GB2023_013_02",
       "age": "3: Third Age (60-75)",
@@ -79,6 +62,25 @@
         "name": "Jeff Mirza",
         "birthYear": 1964.0,
         "gender": "Male identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "GB2023_013_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "Asian Western European",
+      "class": "Lower Middle class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Su McLaughlin",
+        "slug": "su-mclaughlin",
+        "name": "Su McLaughlin",
+        "gender": "Female identifying",
         "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },
       "role": "Unknown"

@@ -11,10 +11,12 @@
     "date": "2019-07-18",
     "year": 2019
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt8033588/?ref_=ttrel_ov",
     "posterUrl": "https://www.imdb.com/title/tt8033588/mediaviewer/rm3805369344/?ref_=tt_ov_i"
@@ -24,13 +26,21 @@
     "Drama"
   ],
   "tags": [
-    "rural",
     "grandmotherhood",
-    "independent home",
     "motherhood",
-    "physical illness"
+    "rural",
+    "physical illness",
+    "independent home"
   ],
   "director": [
+    {
+      "id": "Ivet Castelo",
+      "slug": "ivet-castelo",
+      "name": "Ivet Castelo",
+      "birthYear": 1995,
+      "gender": "Female identifying",
+      "nationality": "Spain"
+    },
     {
       "id": "Iv\u00e1n Alarc\u00f3n",
       "slug": "ivan-alarcon",
@@ -43,14 +53,6 @@
       "slug": "sandra-garcia",
       "name": "Sandra Garc\u00eda",
       "gender": "Unknown",
-      "nationality": "Spain"
-    },
-    {
-      "id": "Ivet Castelo",
-      "slug": "ivet-castelo",
-      "name": "Ivet Castelo",
-      "birthYear": 1995,
-      "gender": "Female identifying",
       "nationality": "Spain"
     }
   ],

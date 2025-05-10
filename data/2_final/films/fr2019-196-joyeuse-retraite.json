@@ -12,10 +12,12 @@
     "date": "2019-11-20",
     "year": 2019
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=eEAJRjkP7tM",
     "posterUrl": "https://medias.unifrance.org/medias/216/51/209880/format_page/joyeuse-retraite.jpg"
@@ -24,15 +26,15 @@
     "Comedy"
   ],
   "tags": [
-    "in-laws",
-    "volunteering",
-    "independent home",
-    "elderhood (friendship among elders)",
-    "parenthood",
-    "multigenerational family",
-    "self-employment",
+    "retirement",
     "grandparenthood",
-    "retirement"
+    "elderhood (friendship among elders)",
+    "multigenerational family",
+    "volunteering",
+    "parenthood",
+    "independent home",
+    "self-employment",
+    "in-laws"
   ],
   "director": [
     {
@@ -44,26 +46,6 @@
     }
   ],
   "character": [
-    {
-      "id": "FR2019_196_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Thierry Lhermitte",
-        "slug": "thierry-lhermitte",
-        "name": "Thierry Lhermitte",
-        "birthYear": 1952.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "FR2019_196_02",
       "age": "3: Third Age (60-75)",
@@ -80,6 +62,26 @@
         "name": "Mich\u00e8le Laroque",
         "birthYear": 1960.0,
         "gender": "Female identifying",
+        "nationality": "France"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2019_196_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Thierry Lhermitte",
+        "slug": "thierry-lhermitte",
+        "name": "Thierry Lhermitte",
+        "birthYear": 1952.0,
+        "gender": "Male identifying",
         "nationality": "France"
       },
       "role": "Unknown"

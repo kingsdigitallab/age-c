@@ -11,26 +11,28 @@
     "date": "2021-07-01",
     "year": 2021
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=NVlspxhvHwY",
     "posterUrl": "https://www.imdb.com/title/tt14966642/mediaviewer/rm4013292289/?ref_=tt_ov_i"
   },
   "genre": [
     "Comedy",
-    "Musical",
-    "Drama"
+    "Drama",
+    "Musical"
   ],
   "tags": [
-    "new start",
-    "homosociality",
-    "self-employment",
-    "search for meaning",
     "artistic creation",
-    "celebrity"
+    "celebrity",
+    "search for meaning",
+    "new start",
+    "self-employment",
+    "homosociality"
   ],
   "director": [
     {
@@ -43,26 +45,6 @@
     }
   ],
   "character": [
-    {
-      "id": "IT2021_011_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Neri Marcor\u00e8",
-        "slug": "neri-marcore",
-        "name": "Neri Marcor\u00e8",
-        "birthYear": 1966.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    },
     {
       "id": "IT2021_011_04",
       "age": "3: Third Age (60-75)",
@@ -84,7 +66,7 @@
       "role": "Leading actor"
     },
     {
-      "id": "IT2021_011_02",
+      "id": "IT2021_011_03",
       "age": "3: Third Age (60-75)",
       "gender": "Male identifying",
       "sexuality": "Heterosexual",
@@ -94,10 +76,10 @@
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Giovanni Storti",
-        "slug": "giovanni-storti",
-        "name": "Giovanni Storti",
-        "birthYear": 1957.0,
+        "id": "Marco Paolini",
+        "slug": "marco-paolini",
+        "name": "Marco Paolini",
+        "birthYear": 1956.0,
         "gender": "Male identifying",
         "nationality": "Italy"
       },
@@ -124,7 +106,7 @@
       "role": "Leading actor"
     },
     {
-      "id": "IT2021_011_03",
+      "id": "IT2021_011_01",
       "age": "3: Third Age (60-75)",
       "gender": "Male identifying",
       "sexuality": "Heterosexual",
@@ -134,10 +116,30 @@
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Marco Paolini",
-        "slug": "marco-paolini",
-        "name": "Marco Paolini",
-        "birthYear": 1956.0,
+        "id": "Neri Marcor\u00e8",
+        "slug": "neri-marcore",
+        "name": "Neri Marcor\u00e8",
+        "birthYear": 1966.0,
+        "gender": "Male identifying",
+        "nationality": "Italy"
+      },
+      "role": "Leading actor"
+    },
+    {
+      "id": "IT2021_011_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Giovanni Storti",
+        "slug": "giovanni-storti",
+        "name": "Giovanni Storti",
+        "birthYear": 1957.0,
         "gender": "Male identifying",
         "nationality": "Italy"
       },

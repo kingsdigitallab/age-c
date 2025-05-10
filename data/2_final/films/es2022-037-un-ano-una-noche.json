@@ -12,10 +12,16 @@
     "date": "2022-10-21",
     "year": 2022
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt14104600/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Un%2520a%25C3%25B1o%252C%2520una%2520noche",
     "posterUrl": "https://www.imdb.com/title/tt14104600/mediaviewer/rm3258649857/?ref_=tt_ov_i"
@@ -25,8 +31,8 @@
   ],
   "tags": [
     "personal trauma",
-    "parenthood",
     "collective trauma",
+    "parenthood",
     "urban",
     "terrorism"
   ],
@@ -41,26 +47,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2022_037_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Bruno Todeschini",
-        "slug": "bruno-todeschini",
-        "name": "Bruno Todeschini",
-        "birthYear": 1962.0,
-        "gender": "Male identifying",
-        "nationality": "Switzerland"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2022_037_02",
       "age": "2: Late Middle Age (55-60)",
@@ -78,6 +64,26 @@
         "birthYear": 1967.0,
         "gender": "Female identifying",
         "nationality": "France"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2022_037_01",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Unknown",
+      "ability": "Unknown",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Bruno Todeschini",
+        "slug": "bruno-todeschini",
+        "name": "Bruno Todeschini",
+        "birthYear": 1962.0,
+        "gender": "Male identifying",
+        "nationality": "Switzerland"
       },
       "role": "Unknown"
     }

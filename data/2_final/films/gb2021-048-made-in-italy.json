@@ -11,31 +11,37 @@
     "date": "2021-06-11",
     "year": 2021
   },
-  "production": {
-    "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Italy",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt9207700/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Made%2520in%2520Italy",
     "posterUrl": "https://www.imdb.com/title/tt9207700/mediaviewer/rm3330254849/?ref_=tt_ov_i"
   },
   "genre": [
     "Comedy",
-    "Romance",
-    "Drama"
+    "Drama",
+    "Romance"
   ],
   "tags": [
-    "personal memory",
-    "rural",
-    "independent home",
     "intergenerational conflict",
-    "romance",
-    "inheritance",
+    "personal memory",
     "search for meaning",
     "grief",
-    "fatherhood",
     "holiday",
-    "widowhood"
+    "rural",
+    "inheritance",
+    "independent home",
+    "fatherhood",
+    "widowhood",
+    "romance"
   ],
   "director": [
     {
@@ -48,26 +54,6 @@
     }
   ],
   "character": [
-    {
-      "id": "GB2021_048_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "Asian Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Souad Faress",
-        "slug": "souad-faress",
-        "name": "Souad Faress",
-        "birthYear": 1948.0,
-        "gender": "Female identifying",
-        "nationality": "Syrian Arab Republic"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "GB2021_048_01",
       "age": "3: Third Age (60-75)",
@@ -109,6 +95,26 @@
       "role": "Unknown"
     },
     {
+      "id": "GB2021_048_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Unknown",
+      "origin": "Asian Western European",
+      "class": "Unknown",
+      "profession": "Unknown",
+      "ability": "Unknown",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Souad Faress",
+        "slug": "souad-faress",
+        "name": "Souad Faress",
+        "birthYear": 1948.0,
+        "gender": "Female identifying",
+        "nationality": "Ghana"
+      },
+      "role": "Unknown"
+    },
+    {
       "id": "GB2021_048_03",
       "age": "3: Third Age (60-75)",
       "gender": "Female identifying",
@@ -144,7 +150,7 @@
         "name": "Souad Faress",
         "birthYear": 1948.0,
         "gender": "Female identifying",
-        "nationality": "Ghana"
+        "nationality": "Syrian Arab Republic"
       },
       "role": "Unknown"
     }

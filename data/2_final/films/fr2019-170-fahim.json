@@ -12,10 +12,12 @@
     "date": "2019-10-16",
     "year": 2019
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=GSc-416bz9o",
     "posterUrl": "https://medias.unifrance.org/medias/210/41/207314/format_page/fahim.jpg"
@@ -25,10 +27,10 @@
     "Drama"
   ],
   "tags": [
-    "urban",
-    "education",
     "mentorship",
-    "interracial relationships"
+    "interracial relationships",
+    "urban",
+    "education"
   ],
   "director": [
     {
@@ -42,41 +44,21 @@
   ],
   "character": [
     {
-      "id": "FR2019_170_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
+      "id": "FR2019_170_02",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Female identifying",
       "sexuality": "Unknown",
       "origin": "White Western European",
-      "class": "Middle class",
+      "class": "Upper Middle class",
       "profession": "Self-employed",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "G\u00e9rard Depardieu",
-        "slug": "gerard-depardieu",
-        "name": "G\u00e9rard Depardieu",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "Russian Federation (the)"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "FR2019_170_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "G\u00e9rard Depardieu",
-        "slug": "gerard-depardieu",
-        "name": "G\u00e9rard Depardieu",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
+        "id": "Isabelle Nanty",
+        "slug": "isabelle-nanty",
+        "name": "Isabelle Nanty",
+        "birthYear": 1962.0,
+        "gender": "Female identifying",
         "nationality": "France"
       },
       "role": "Unknown"
@@ -102,22 +84,42 @@
       "role": "Unknown"
     },
     {
-      "id": "FR2019_170_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
+      "id": "FR2019_170_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
       "sexuality": "Unknown",
       "origin": "White Western European",
-      "class": "Upper Middle class",
+      "class": "Middle class",
       "profession": "Self-employed",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Isabelle Nanty",
-        "slug": "isabelle-nanty",
-        "name": "Isabelle Nanty",
-        "birthYear": 1962.0,
-        "gender": "Female identifying",
+        "id": "G\u00e9rard Depardieu",
+        "slug": "gerard-depardieu",
+        "name": "G\u00e9rard Depardieu",
+        "birthYear": 1948.0,
+        "gender": "Male identifying",
         "nationality": "France"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2019_170_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Self-employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "G\u00e9rard Depardieu",
+        "slug": "gerard-depardieu",
+        "name": "G\u00e9rard Depardieu",
+        "birthYear": 1948.0,
+        "gender": "Male identifying",
+        "nationality": "Russian Federation (the)"
       },
       "role": "Unknown"
     }

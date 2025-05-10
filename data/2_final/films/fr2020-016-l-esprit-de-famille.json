@@ -12,10 +12,12 @@
     "date": "2020-01-29",
     "year": 2020
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=-Oohd16qWa8",
     "posterUrl": "https://medias.unifrance.org/medias/119/67/213879/format_page/l-esprit-de-famille.jpg"
@@ -24,14 +26,14 @@
     "Comedy"
   ],
   "tags": [
-    "in-laws",
-    "multigenerational family",
-    "grief",
-    "supernatural entity",
-    "fatherhood",
     "retirement",
+    "multigenerational family",
+    "supernatural entity",
+    "grief",
+    "fatherhood",
     "natural death",
-    "widowhood"
+    "widowhood",
+    "in-laws"
   ],
   "director": [
     {
@@ -44,26 +46,6 @@
     }
   ],
   "character": [
-    {
-      "id": "FR2020_016_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Josiane Balasko",
-        "slug": "josiane-balasko",
-        "name": "Josiane Balasko",
-        "birthYear": 1950.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "FR2020_016_02",
       "age": "3: Third Age (60-75)",
@@ -80,6 +62,26 @@
         "name": "Fran\u00e7ois Berl\u00e9and",
         "birthYear": 1952.0,
         "gender": "Male identifying",
+        "nationality": "France"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2020_016_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Josiane Balasko",
+        "slug": "josiane-balasko",
+        "name": "Josiane Balasko",
+        "birthYear": 1950.0,
+        "gender": "Female identifying",
         "nationality": "France"
       },
       "role": "Unknown"

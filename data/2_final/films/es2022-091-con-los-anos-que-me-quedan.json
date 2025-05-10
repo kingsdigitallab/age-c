@@ -11,10 +11,16 @@
     "date": "2022-12-09",
     "year": 2022
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Mexico",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.imdb.com/title/tt14488412/?ref_=nv_sr_srsg_0_tt_4_nm_0_in_0_q_Con%2520los%2520a%25C3%25B1os%2520que%2520me%2520quedan%2509",
     "posterUrl": "https://www.imdb.com/title/tt14488412/mediaviewer/rm767364353/?ref_=tt_ov_i"
@@ -25,18 +31,18 @@
     "Crime"
   ],
   "tags": [
-    "substance abuse",
-    "migration",
-    "sex for hire",
-    "organized crime",
-    "class solidarity",
-    "romance",
-    "interracial relationships",
     "national identity",
+    "class solidarity",
+    "interracial relationships",
     "rescue mission",
-    "fatherhood",
+    "sex for hire",
     "may-december",
-    "sex"
+    "substance abuse",
+    "sex",
+    "migration",
+    "fatherhood",
+    "organized crime",
+    "romance"
   ],
   "director": [
     {
@@ -49,26 +55,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2022_091_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Paco Tous",
-        "slug": "paco-tous",
-        "name": "Paco Tous",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2022_091_01",
       "age": "3: Third Age (60-75)",
@@ -104,6 +90,26 @@
         "slug": "enrique-villen",
         "name": "Enrique Vill\u00e9n",
         "birthYear": 1960.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2022_091_02",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Paco Tous",
+        "slug": "paco-tous",
+        "name": "Paco Tous",
+        "birthYear": 1964.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },

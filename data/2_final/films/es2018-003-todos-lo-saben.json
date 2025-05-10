@@ -12,34 +12,44 @@
     "date": "2018-09-14",
     "year": 2018
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Italy",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=w7cvj9RabiA",
     "posterUrl": "https://www.imdb.com/title/tt4964788/mediaviewer/rm3064296960/?ref_=tt_ov_i"
   },
   "genre": [
-    "Drama",
-    "Thriller"
+    "Thriller",
+    "Drama"
   ],
   "tags": [
+    "return home",
+    "personal memory",
+    "multigenerational family",
+    "marriage",
+    "rural",
+    "grief",
+    "abuse",
     "personal trauma",
     "crime",
-    "rural",
-    "extended family",
-    "abuse",
-    "homosociality",
-    "independent home",
-    "multigenerational family",
-    "self-employment",
     "disability",
-    "return home",
-    "grief",
+    "independent home",
     "fatherhood",
-    "personal memory",
-    "marriage"
+    "self-employment",
+    "homosociality",
+    "extended family"
   ],
   "director": [
     {
@@ -52,26 +62,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2018_003_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Latin American",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Ricardo Dar\u00edn",
-        "slug": "ricardo-darin",
-        "name": "Ricardo Dar\u00edn",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "Argentina"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2018_003_02",
       "age": "3: Third Age (60-75)",
@@ -89,6 +79,26 @@
         "birthYear": 1949.0,
         "gender": "Male identifying",
         "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2018_003_01",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Latin American",
+      "class": "Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Ricardo Dar\u00edn",
+        "slug": "ricardo-darin",
+        "name": "Ricardo Dar\u00edn",
+        "birthYear": 1957.0,
+        "gender": "Male identifying",
+        "nationality": "Argentina"
       },
       "role": "Unknown"
     },

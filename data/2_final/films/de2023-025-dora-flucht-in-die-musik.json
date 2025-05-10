@@ -11,10 +11,12 @@
     "date": "2023-03-09",
     "year": 2023
   },
-  "production": {
-    "country": "Germany",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Germany",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.google.com/search?q=DORA+-+Flucht+in+die+Musik+trailer&rlz=1C5CHFA_enAT982AT982&oq=DORA+-+Flucht+in+die+Musik+trailer&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yBwgCEAAY7wUyBwgDEAAY7wUyBwgEEAAY7wUyBwgFEAAY7wXSAQgyOTYwajBqN6gCCLACAQ&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:70b26cba,vid:QvNUlwXZxds,st:0",
     "posterUrl": "https://www.imdb.com/title/tt21316998/mediaviewer/rm123865857/?ref_=tt_ov_i"
@@ -23,24 +25,24 @@
     "Documentary \u2013 Participatory mode"
   ],
   "tags": [
-    "artistic creation",
-    "cultural memory"
+    "cultural memory",
+    "artistic creation"
   ],
   "director": [
-    {
-      "id": "Tim van Beveren",
-      "slug": "tim-van-beveren",
-      "name": "Tim van Beveren",
-      "birthYear": 1961,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    },
     {
       "id": "Kyra Steckeweh",
       "slug": "kyra-steckeweh",
       "name": "Kyra Steckeweh",
       "birthYear": 1984,
       "gender": "Female identifying",
+      "nationality": "Germany"
+    },
+    {
+      "id": "Tim van Beveren",
+      "slug": "tim-van-beveren",
+      "name": "Tim van Beveren",
+      "birthYear": 1961,
+      "gender": "Male identifying",
       "nationality": "Germany"
     }
   ],

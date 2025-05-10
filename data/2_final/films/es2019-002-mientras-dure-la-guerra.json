@@ -12,44 +12,50 @@
     "date": "2019-11-27",
     "year": 2019
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Argentina",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=EP_LlHqmwmg",
     "posterUrl": "https://www.imdb.com/title/tt7818580/mediaviewer/rm2788069889/?ref_=tt_ov_i"
   },
   "genre": [
-    "War Film",
     "Historical film (Heritage Film)",
-    "Drama",
-    "Biopic"
+    "War Film",
+    "Biopic",
+    "Drama"
   ],
   "tags": [
-    "gray face",
-    "professional politics",
     "artistic creation",
+    "activism",
+    "intergenerational conflict",
+    "war",
+    "disability",
+    "independent home",
+    "national identity",
+    "gray face",
+    "grief",
+    "friendship betrayal",
+    "state institutions",
+    "professional politics",
+    "low rank employment",
+    "intergenerational friendship",
+    "cultural memory",
+    "homosociality",
+    "extended family",
+    "high rank employment",
     "religion",
     "superior-employee relationship",
-    "war",
-    "abuse",
-    "intergenerational conflict",
-    "independent home",
-    "low rank employment",
     "collective trauma",
-    "national identity",
-    "disability",
-    "friendship betrayal",
-    "extended family",
-    "intergenerational friendship",
-    "de-ageing",
-    "high rank employment",
-    "state institutions",
-    "homosociality",
-    "grief",
-    "activism",
-    "cultural memory"
+    "abuse",
+    "de-ageing"
   ],
   "director": [
     {
@@ -63,40 +69,20 @@
   ],
   "character": [
     {
-      "id": "ES2019_002_06",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Itziar Aizpuru",
-        "slug": "itziar-aizpuru",
-        "name": "Itziar Aizpuru",
-        "birthYear": 1939.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2019_002_01",
-      "age": "3: Third Age (60-75)",
+      "id": "ES2019_002_02",
+      "age": "2: Late Middle Age (55-60)",
       "gender": "Male identifying",
       "sexuality": "Heterosexual",
       "origin": "White Western European",
       "class": "Upper Middle class",
       "profession": "Employed",
-      "ability": "Able-bodied",
+      "ability": "Permanent disability",
       "assistedMobility": "Unknown",
       "person": {
-        "id": "Karra Elejalde",
-        "slug": "karra-elejalde",
-        "name": "Karra Elejalde",
-        "birthYear": 1960.0,
+        "id": "Eduard Fern\u00e1ndez",
+        "slug": "eduard-fernandez",
+        "name": "Eduard Fern\u00e1ndez",
+        "birthYear": 1964.0,
         "gender": "Male identifying",
         "nationality": "Spain"
       },
@@ -123,26 +109,6 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2019_002_05",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Pep Tosar",
-        "slug": "pep-tosar",
-        "name": "Pep Tosar",
-        "birthYear": 1961.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
-    {
       "id": "ES2019_002_04",
       "age": "3: Third Age (60-75)",
       "gender": "Male identifying",
@@ -163,21 +129,61 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2019_002_02",
+      "id": "ES2019_002_05",
       "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "Unknown",
+      "person": {
+        "id": "Pep Tosar",
+        "slug": "pep-tosar",
+        "name": "Pep Tosar",
+        "birthYear": 1961.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2019_002_01",
+      "age": "3: Third Age (60-75)",
       "gender": "Male identifying",
       "sexuality": "Heterosexual",
       "origin": "White Western European",
       "class": "Upper Middle class",
       "profession": "Employed",
-      "ability": "Permanent disability",
+      "ability": "Able-bodied",
       "assistedMobility": "Unknown",
       "person": {
-        "id": "Eduard Fern\u00e1ndez",
-        "slug": "eduard-fernandez",
-        "name": "Eduard Fern\u00e1ndez",
-        "birthYear": 1964.0,
+        "id": "Karra Elejalde",
+        "slug": "karra-elejalde",
+        "name": "Karra Elejalde",
+        "birthYear": 1960.0,
         "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2019_002_06",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Female identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "Unknown",
+      "person": {
+        "id": "Itziar Aizpuru",
+        "slug": "itziar-aizpuru",
+        "name": "Itziar Aizpuru",
+        "birthYear": 1939.0,
+        "gender": "Female identifying",
         "nationality": "Spain"
       },
       "role": "Unknown"

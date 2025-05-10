@@ -11,35 +11,37 @@
     "date": "2018-02-28",
     "year": 2018
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=8TVBwndQ3p8",
     "posterUrl": "https://medias.unifrance.org/medias/97/217/186721/format_page/trait-de-vie.jpg"
   },
   "genre": [
-    "Documentary \u2013 Observational mode",
-    "Documentary \u2013 Participatory mode"
+    "Documentary \u2013 Participatory mode",
+    "Documentary \u2013 Observational mode"
   ],
   "tags": [
-    "rural",
-    "disappearing professions"
+    "disappearing professions",
+    "rural"
   ],
   "director": [
-    {
-      "id": "Sophie Arlot",
-      "slug": "sophie-arlot",
-      "name": "Sophie Arlot",
-      "gender": "Female identifying",
-      "nationality": "France"
-    },
     {
       "id": "Fabien Rabin",
       "slug": "fabien-rabin",
       "name": "Fabien Rabin",
       "gender": "Male identifying",
+      "nationality": "France"
+    },
+    {
+      "id": "Sophie Arlot",
+      "slug": "sophie-arlot",
+      "name": "Sophie Arlot",
+      "gender": "Female identifying",
       "nationality": "France"
     }
   ],

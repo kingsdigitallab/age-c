@@ -12,10 +12,12 @@
     "date": "2010-10-18",
     "year": 2010
   },
-  "production": {
-    "country": "France",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "France",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=w7UYKKU9ihE",
     "posterUrl": "https://medias.unifrance.org/medias/108/244/193644/format_page/kiss-tell.jpg"
@@ -24,12 +26,12 @@
     "Comedy"
   ],
   "tags": [
-    "wealth",
-    "extended family",
-    "parenthood",
     "fraud",
+    "marriage",
+    "parenthood",
+    "wealth",
     "urban",
-    "marriage"
+    "extended family"
   ],
   "director": [
     {
@@ -43,26 +45,6 @@
     }
   ],
   "character": [
-    {
-      "id": "FR2018_155_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Carole Bouquet",
-        "slug": "carole-bouquet",
-        "name": "Carole Bouquet",
-        "birthYear": 1957.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "FR2018_155_02",
       "age": "3: Third Age (60-75)",
@@ -80,6 +62,26 @@
         "birthYear": 1946.0,
         "gender": "Female identifying",
         "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "FR2018_155_01",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Upper Middle class",
+      "profession": "Unemployed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Carole Bouquet",
+        "slug": "carole-bouquet",
+        "name": "Carole Bouquet",
+        "birthYear": 1957.0,
+        "gender": "Female identifying",
+        "nationality": "France"
       },
       "role": "Unknown"
     }

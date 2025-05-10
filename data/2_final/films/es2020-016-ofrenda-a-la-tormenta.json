@@ -12,41 +12,47 @@
     "date": "2020-07-24",
     "year": 2020
   },
-  "production": {
-    "country": "Spain",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Spain",
+      "share": "Majority coproducer"
+    },
+    {
+      "country": "Germany",
+      "share": "Minority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=cyWUHYF-ITk",
     "posterUrl": "https://www.imdb.com/title/tt7304824/mediaviewer/rm751810561/?ref_=tt_ov_i"
   },
   "genre": [
-    "Noir",
     "Thriller",
+    "Noir",
     "Drama",
     "Action"
   ],
   "tags": [
-    "rural",
-    "motherhood",
-    "religion",
-    "natural",
-    "personal trauma",
-    "abuse",
-    "independent home",
-    "personal memory",
-    "marriage",
-    "wealth",
-    "extended family",
-    "low-rank employment",
-    "organized crime",
-    "hospital",
     "caregiving",
+    "motherhood",
+    "personal trauma",
+    "low-rank employment",
+    "independent home",
+    "suicide",
     "spirituality",
     "celibacy",
-    "suicide",
+    "marriage",
     "grief",
-    "mental illness"
+    "mental illness",
+    "rural",
+    "wealth",
+    "extended family",
+    "organized crime",
+    "hospital",
+    "religion",
+    "personal memory",
+    "natural",
+    "abuse"
   ],
   "director": [
     {
@@ -59,26 +65,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2020_016_02",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Itziar Aizpuru",
-        "slug": "itziar-aizpuru",
-        "name": "Itziar Aizpuru",
-        "birthYear": 1939.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2020_016_05",
       "age": "4: Fourth Age (>75)",
@@ -120,20 +106,20 @@
       "role": "Unknown"
     },
     {
-      "id": "ES2020_016_03",
+      "id": "ES2020_016_02",
       "age": "4: Fourth Age (>75)",
       "gender": "Female identifying",
-      "sexuality": "Heterosexual",
+      "sexuality": "Unknown",
       "origin": "White Western European",
       "class": "Middle class",
       "profession": "Retired",
       "ability": "Able-bodied",
       "assistedMobility": "No",
       "person": {
-        "id": "Alicia S\u00e1nchez",
-        "slug": "alicia-sanchez",
-        "name": "Alicia S\u00e1nchez",
-        "birthYear": 1949.0,
+        "id": "Itziar Aizpuru",
+        "slug": "itziar-aizpuru",
+        "name": "Itziar Aizpuru",
+        "birthYear": 1939.0,
         "gender": "Female identifying",
         "nationality": "Spain"
       },
@@ -154,6 +140,26 @@
         "slug": "ana-wagener",
         "name": "Ana Wagener",
         "birthYear": 1962.0,
+        "gender": "Female identifying",
+        "nationality": "Spain"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "ES2020_016_03",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Alicia S\u00e1nchez",
+        "slug": "alicia-sanchez",
+        "name": "Alicia S\u00e1nchez",
+        "birthYear": 1949.0,
         "gender": "Female identifying",
         "nationality": "Spain"
       },

@@ -11,10 +11,12 @@
     "date": "2019-05-11",
     "year": 2019
   },
-  "production": {
-    "country": "Italy",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "Italy",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=MbUCuJoTGFQ",
     "posterUrl": "https://www.imdb.com/title/tt14081190/mediaviewer/rm1206460161/?ref_=tt_ov_i"
@@ -23,9 +25,9 @@
     "Comedy"
   ],
   "tags": [
-    "intergenerational conflict",
     "religion",
-    "state institutions"
+    "state institutions",
+    "intergenerational conflict"
   ],
   "director": [
     {
@@ -38,26 +40,6 @@
     }
   ],
   "character": [
-    {
-      "id": "IT2019_079_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Tony Sperandeo",
-        "slug": "tony-sperandeo",
-        "name": "Tony Sperandeo",
-        "birthYear": 1953.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    },
     {
       "id": "IT2019_079_02",
       "age": "4: Fourth Age (>75)",
@@ -74,6 +56,26 @@
         "name": "Margherita Fumero",
         "birthYear": 1947.0,
         "gender": "Female identifying",
+        "nationality": "Italy"
+      },
+      "role": "Leading actor"
+    },
+    {
+      "id": "IT2019_079_01",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Employed",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Tony Sperandeo",
+        "slug": "tony-sperandeo",
+        "name": "Tony Sperandeo",
+        "birthYear": 1953.0,
+        "gender": "Male identifying",
         "nationality": "Italy"
       },
       "role": "Leading actor"

@@ -11,10 +11,12 @@
     "date": "2023-11-24",
     "year": 2023
   },
-  "production": {
-    "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-    "share": "Majority coproducer"
-  },
+  "production": [
+    {
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "share": "Majority coproducer"
+    }
+  ],
   "media": {
     "trailerUrl": "https://www.youtube.com/watch?v=_L5zsN-Ez8s",
     "posterUrl": "https://www.imdb.com/title/tt27836355/mediaviewer/rm3257160705/?ref_=tt_ov_i"
@@ -24,12 +26,12 @@
   ],
   "tags": [
     "grandmotherhood",
-    "migration",
-    "organized crime",
     "fraud",
-    "urban",
     "grandfatherhood",
-    "power"
+    "migration",
+    "power",
+    "urban",
+    "organized crime"
   ],
   "director": [
     {
@@ -41,25 +43,6 @@
     }
   ],
   "character": [
-    {
-      "id": "GB2023_050_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "South Asia",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Murali Vidhyadharan",
-        "slug": "murali-vidhyadharan",
-        "name": "Murali Vidhyadharan",
-        "gender": "Male identifying",
-        "nationality": "India"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "GB2023_050_01",
       "age": "3: Third Age (60-75)",
@@ -74,6 +57,25 @@
         "id": "Deepak Anand",
         "slug": "deepak-anand",
         "name": "Deepak Anand",
+        "gender": "Male identifying",
+        "nationality": "India"
+      },
+      "role": "Unknown"
+    },
+    {
+      "id": "GB2023_050_03",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "South Asia",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Murali Vidhyadharan",
+        "slug": "murali-vidhyadharan",
+        "name": "Murali Vidhyadharan",
         "gender": "Male identifying",
         "nationality": "India"
       },
