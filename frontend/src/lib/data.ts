@@ -11,8 +11,8 @@ export async function getSearchData(slug: string) {
 		filmType: getField(item, 'filmType'),
 		releaseType: getField(item, 'release.type'),
 		releaseYear: getField(item, 'release.year'),
-		productionCountry: getField(item, 'production.country'),
-		productionShare: getField(item, 'production.share'),
+		productionCountry: getProduction(item, 'country'),
+		productionShare: getProduction(item, 'share'),
 		role: getRole(item),
 		gender: getField(item, 'gender'),
 		nationality: getField(item, 'nationality'),
@@ -39,8 +39,6 @@ const fieldSubpaths: Record<string, { character: string; director: string }> = {
 	filmType: { character: 'film.filmType', director: 'filmType' },
 	releaseType: { character: 'film.release.type', director: 'release.type' },
 	releaseYear: { character: 'film.release.year', director: 'release.year' },
-	productionCountry: { character: 'film.production.country', director: 'production.country' },
-	productionShare: { character: 'film.production.share', director: 'production.share' },
 	gender: { character: 'person.gender', director: 'gender' },
 	nationality: { character: 'person.nationality', director: 'nationality' }
 };
@@ -61,6 +59,18 @@ function getField(item: Item, field: string) {
 
 function getNestedField(obj: Item | Character | Director, path: string) {
 	return path.split('.').reduce((acc, part) => acc?.[part], obj);
+}
+
+function getProduction(item: Item, field: 'country' | 'share') {
+	if (!item) {
+		return [];
+	}
+
+	const mainValue = item.production?.map((p) => p[field]) || [];
+	const characterValues = (item.character || []).flatMap((c) => c.film?.production?.[field]);
+	const directorValues = (item.director || []).flatMap((d) => d.production?.[field]);
+
+	return [...new Set([...mainValue, ...characterValues, ...directorValues].filter(Boolean))];
 }
 
 function getRole(item: Item) {
