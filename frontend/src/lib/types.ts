@@ -29,7 +29,7 @@ export interface Film {
 	genre: string[];
 	release: Release;
 	tags?: string[];
-	production: Production;
+	production: Production[];
 }
 export interface Character {
 	id: string;
@@ -43,6 +43,7 @@ export interface Character {
 	assistedMobility: string;
 	person?: Person;
 	film?: Film;
+	production?: Production;
 	role: string;
 }
 
