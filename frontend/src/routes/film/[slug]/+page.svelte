@@ -3,7 +3,6 @@
 	import DirectorLink from '$lib/components/DirectorLink.svelte';
 	import FilterLink from '$lib/components/FilterLink.svelte';
 	import { config } from '$lib/index';
-	import { keys, values } from 'd3-collection';
 	import type { PageProps } from './$types';
 
 	const { data }: PageProps = $props();
@@ -42,10 +41,10 @@
 			<FilterLink name="filmType" value={film.filmType} />
 			<FilterLink name="releaseType" value={film.release.type} />
 			<FilterLink name="releaseYear" value={film.release.year} />
-			<FilterLink name="productionCountry" value={film.production.country} />
-			{#if film.production.share}
-				<FilterLink name="productionShare" value={film.production.share} />
-			{/if}
+			{#each film.production as { country, share }}
+				<FilterLink name="productionCountry" value={country} />
+				<FilterLink name="productionShare" value={share} />
+			{/each}
 		</p>
 	</hgroup>
 
