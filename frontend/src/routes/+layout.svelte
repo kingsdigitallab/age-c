@@ -8,7 +8,6 @@
 
 	import '@picocss/pico';
 	import '@picocss/pico/css/pico.zinc.css';
-	import '@picocss/pico/css/pico.colors.css';
 	import '../app.css';
 
 	const { children }: { children: Snippet } = $props();
