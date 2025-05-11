@@ -36,10 +36,6 @@
 	const triggers = $derived({
 		[GroupedBar.selectors.bar]: (d) => `${d.key}: ${d.doc_count.toLocaleString()}`
 	});
-
-	$effect(() => {
-		console.log($state.snapshot(categories));
-	});
 </script>
 
 <section>
