@@ -58,7 +58,12 @@ function getField(item: Item, field: string) {
 }
 
 function getNestedField(obj: Item | Character | Director, path: string) {
-	return path.split('.').reduce((acc, part) => acc?.[part], obj);
+	return path.split('.').reduce((acc, part) => {
+		if (acc && typeof acc === 'object' && part in acc) {
+			return acc[part as keyof typeof acc];
+		}
+		return undefined;
+	}, obj);
 }
 
 function getProduction(item: Item, field: 'country' | 'share') {
