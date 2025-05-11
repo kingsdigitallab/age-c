@@ -22,11 +22,11 @@
 		title,
 		sortBy,
 		summaryFacet,
-		distributionFacet,
-		distributionFacetTitle,
+		distributionFacets,
 		SearchShortcutsComponent = SearchShortcuts,
 		SearchStatusComponent = SearchStatus,
 		SearchInputComponent = SearchInput,
+		SearchFacetDistributionPlotComponent = FacetDistributionPlot,
 		SearchFiltersComponent = SearchFilters,
 		SearchControlsComponent = SearchControls,
 		SearchResultsComponent = SearchResults,
@@ -39,11 +39,14 @@
 		title: string;
 		sortBy?: string;
 		summaryFacet?: string;
-		distributionFacet?: string;
-		distributionFacetTitle?: string;
+		distributionFacets?: {
+			facet: string;
+			title: string;
+		}[];
 		SearchShortcutsComponent?: typeof SearchShortcuts;
 		SearchStatusComponent?: typeof SearchStatus;
 		SearchInputComponent?: typeof SearchInput;
+		SearchFacetDistributionPlotComponent?: typeof FacetDistributionPlot;
 		SearchFiltersComponent?: typeof SearchFilters;
 		SearchControlsComponent?: typeof SearchControls;
 		SearchResultsComponent?: typeof SearchResults;
@@ -89,8 +92,10 @@
 	let searchPagination = $derived(searchResults.results?.pagination || {});
 
 	const summaryStats = $derived(summaryFacet ? searchAggregations[summaryFacet] : null);
+
+	let selectedDistributionFacet = $state(distributionFacets?.[0]?.facet);
 	const distributionStats = $derived(
-		distributionFacet ? searchAggregations[distributionFacet]?.buckets : null
+		selectedDistributionFacet ? searchAggregations[selectedDistributionFacet]?.buckets : null
 	);
 
 	onMount(() => {
@@ -230,17 +235,25 @@
 		onReset={handleReset}
 	/>
 
-	{#if distributionFacet && distributionStats?.length > 0}
-		{#key distributionStats}
-			<FacetDistributionPlot
-				title={distributionFacetTitle}
-				data={distributionStats}
-				x="key"
-				y="doc_count"
-				xLabel={searchConfig[dataSource].aggregations[distributionFacet].title}
-				yLabel="Count"
-			/>
-		{/key}
+	{#if distributionFacets}
+		{#if selectedDistributionFacet}
+			{#key distributionStats}
+				<SearchFacetDistributionPlotComponent
+					title={distributionFacets.find((facet) => facet.facet === selectedDistributionFacet)
+						?.title}
+					data={distributionStats}
+					x="key"
+					y="doc_count"
+					xLabel={searchConfig[dataSource].aggregations[selectedDistributionFacet].title}
+					yLabel="Count"
+				/>
+			{/key}
+		{/if}
+		<select bind:value={selectedDistributionFacet}>
+			{#each distributionFacets as facet}
+				<option value={facet.facet}>{facet.title}</option>
+			{/each}
+		</select>
 	{/if}
 
 	<SearchControlsComponent
