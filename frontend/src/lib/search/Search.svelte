@@ -235,7 +235,7 @@
 		onReset={handleReset}
 	/>
 
-	{#if distributionFacets}
+	{#if distributionFacets && !isLoading}
 		{#if selectedDistributionFacet}
 			{#key distributionStats}
 				<SearchFacetDistributionPlotComponent
