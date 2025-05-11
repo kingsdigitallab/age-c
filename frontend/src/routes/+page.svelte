@@ -20,8 +20,24 @@
 	title="Explore the dataset"
 	sortBy="film_title_asc"
 	summaryFacet="type"
-	distributionFacet="releaseYear"
-	distributionFacetTitle="Release year distribution"
+	distributionFacets={[
+		{
+			facet: 'releaseYear',
+			title: 'Release year distribution'
+		},
+		{
+			facet: 'gender',
+			title: 'Gender distribution'
+		},
+		{
+			facet: 'characterAge',
+			title: 'Character age distribution'
+		},
+		{
+			facet: 'characterSexuality',
+			title: 'Character sexuality distribution'
+		}
+	]}
 	SearchResultsItemsComponent={SearchResultsItems}
 />
 
