@@ -2,6 +2,8 @@
 	import { VisAxis, VisGroupedBar, VisTooltip, VisXYContainer } from '@unovis/svelte';
 	import { GroupedBar } from '@unovis/ts';
 
+	import type { GenericDataRecord } from '@unovis/ts/types';
+
 	const {
 		data = [],
 		title = 'Distribution',
@@ -20,14 +22,31 @@
 		height?: number;
 	} = $props();
 
-	const triggers = { [GroupedBar.selectors.bar]: (d) => `${d.key}: ${d.doc_count}` };
+	const xField = $derived((_: GenericDataRecord, i: number) => i);
+	const xDomain = $derived([0, data.length - 1]);
+	const categories = $derived(
+		data.map((d) => d.key.replaceAll('<', '&lt;').replaceAll('>', '&gt;'))
+	);
+	const numTicks = $derived(categories.length);
+	const tickFormat = $derived((tick: number) => categories[tick] || '');
+	const tickValues = $derived(Array.from({ length: categories.length }, (_, i) => i));
+
+	const yField = $derived((d: GenericDataRecord) => d[y]);
+
+	const triggers = $derived({
+		[GroupedBar.selectors.bar]: (d) => `${d.key}: ${d.doc_count.toLocaleString()}`
+	});
+
+	$effect(() => {
+		console.log($state.snapshot(categories));
+	});
 </script>
 
 <section>
 	<h3>{title}</h3>
-	<VisXYContainer {height}>
-		<VisGroupedBar {data} x={(d) => d[x]} y={(d) => d[y]} dataStep={1} groupPadding={0.25} />
-		<VisAxis type="x" label={xLabel} numTicks={data.length / 2} gridLine={false} />
+	<VisXYContainer {data} {height} {xDomain} preventEmptyDomain={false}>
+		<VisGroupedBar x={xField} y={yField} dataStep={1} groupPadding={0.25} />
+		<VisAxis type="x" label={xLabel} gridLine={false} {numTicks} {tickFormat} {tickValues} />
 		<VisAxis type="y" label={yLabel} />
 		<VisTooltip {triggers} />
 	</VisXYContainer>
