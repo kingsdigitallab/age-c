@@ -1,3 +1,45 @@
+## v0.6.0 (2025-05-12)
+
+### Feat
+
+- **characterstable**: Add striped class to table
+- **app.css**: Add inline class for comma separated flex layout
+- **biography**: Enhance biography details page
+- **characters**: Add CharactersTable component to display character details
+- **film**: Add FilmLink component for linking to individual films
+- **search**: Add sortBy prop to Search component
+- **landing**: Set default sorting for search
+- **film**: Expand film details page
+- **search**: Initialise search filters from searchParams on component mount
+- **search**: Refactor SearchResultsItems to use BiographyLink and DirectorLink to link to biographies
+- **filter**: Add FilterLink component for dynamic filtering in the application
+- **director**: Add DirectorLink component for linking to individual director biographies
+- **biography**: Add BiographyLink component for linking to individual biographies
+
+### Fix
+
+- **film**: Ensure media section only renders when media array is not empty
+- **search**: Prevent rendering distribution facets while loading
+- **facetDistributionPlot**: Remove console logging
+- **data**: Change getNestedField function to safely access nested properties
+- **etl**: Update production column aggregation to handle multiple values
+- **film**: Handle potential undefined values in character and director sorting
+- **biography**: Handle potential undefined values in character sorting
+- **biography**: Ensure BiographyLink only renders if slug is present
+
+### Refactor
+
+- **page**: Update distribution facets to support multiple categories including gender and character attributes
+- **search**: Extend distribution facet handling to support multiple facets
+- **facetDistributionPlot**: Improved data handling and axis configuration to support categorical distributions
+- **layout**: Remove unused Pico colour CSS
+- **data**: Change how the production fields are parsed due to changes in the data type
+- **film**: Simplify production details rendering using each block for countries and shares
+- **charactersTable**: Replace role display with FilterLink component
+- **charactersTable**: Wrap character rows in tbody
+- **film**: Remove unused styles from film details page
+- **film**: Replace characters section with CharactersTable component
+
 ## v0.5.0 (2025-05-09)
 
 ### Feat
