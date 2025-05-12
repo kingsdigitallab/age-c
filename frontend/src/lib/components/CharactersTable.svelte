@@ -9,7 +9,7 @@
 		$props();
 </script>
 
-<table>
+<table class="striped">
 	<thead>
 		<tr>
 			<th>{linkToFilm ? 'Film' : 'Actor'}</th>
