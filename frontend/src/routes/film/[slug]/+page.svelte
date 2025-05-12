@@ -73,7 +73,7 @@
 				<span>{config.emptyPlaceholder}</span>
 			{/each}
 		</dd>
-		{#if media}
+		{#if media && media.length > 0}
 			<dt>Media</dt>
 			<dd class="inline">
 				{#each media as { label, url }}
