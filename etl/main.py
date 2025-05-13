@@ -314,9 +314,7 @@ def process_characters() -> DataFrame:
     biog_df = process_biographies()
 
     role_df = load_data(RAW_DIR / f"{FILE_PREFIX}-role.csv")
-    role_df["person_id"] = role_df["person_id"].fillna(
-        role_df["person_name"].str.strip()
-    )
+    role_df["person_id"] = role_df["person_name"]
     role_df["person_id"] = role_df["person_id"].str.strip()
     role_df["person_name"] = role_df["person_name"].str.strip()
 
