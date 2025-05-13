@@ -14,15 +14,15 @@
   },
   "production": [
     {
-      "country": "France",
-      "share": "Minority coproducer"
-    },
-    {
       "country": "Spain",
       "share": "Majority coproducer"
     },
     {
       "country": "Italy",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "France",
       "share": "Minority coproducer"
     }
   ],
@@ -35,21 +35,21 @@
     "Drama"
   ],
   "tags": [
-    "return home",
     "personal memory",
-    "multigenerational family",
-    "marriage",
-    "rural",
-    "grief",
-    "abuse",
-    "personal trauma",
     "crime",
-    "disability",
-    "independent home",
+    "grief",
     "fatherhood",
+    "independent home",
+    "marriage",
+    "personal trauma",
+    "extended family",
+    "multigenerational family",
     "self-employment",
+    "disability",
+    "return home",
     "homosociality",
-    "extended family"
+    "abuse",
+    "rural"
   ],
   "director": [
     {
@@ -62,26 +62,6 @@
     }
   ],
   "character": [
-    {
-      "id": "ES2018_003_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Permanent disability",
-      "assistedMobility": "Yes",
-      "person": {
-        "id": "Ram\u00f3n Barea",
-        "slug": "ramon-barea",
-        "name": "Ram\u00f3n Barea",
-        "birthYear": 1949.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "ES2018_003_01",
       "age": "2: Late Middle Age (55-60)",
@@ -100,7 +80,27 @@
         "gender": "Male identifying",
         "nationality": "Argentina"
       },
-      "role": "Unknown"
+      "role": "Leading actor"
+    },
+    {
+      "id": "ES2018_003_02",
+      "age": "3: Third Age (60-75)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Permanent disability",
+      "assistedMobility": "Yes",
+      "person": {
+        "id": "Ram\u00f3n Barea",
+        "slug": "ramon-barea",
+        "name": "Ram\u00f3n Barea",
+        "birthYear": 1949.0,
+        "gender": "Male identifying",
+        "nationality": "Spain"
+      },
+      "role": "Supporting actor"
     },
     {
       "id": "ES2018_003_03",
@@ -120,7 +120,7 @@
         "gender": "Male identifying",
         "nationality": "Spain"
       },
-      "role": "Unknown"
+      "role": "Supporting actor"
     }
   ],
   "synopsis": {

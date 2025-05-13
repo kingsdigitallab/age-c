@@ -13,15 +13,15 @@
   },
   "production": [
     {
-      "country": "France",
-      "share": "Minority coproducer"
-    },
-    {
       "country": "Spain",
       "share": "Majority coproducer"
     },
     {
       "country": "United States of America (the)",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "France",
       "share": "Minority coproducer"
     }
   ],
@@ -34,20 +34,20 @@
     "Romance"
   ],
   "tags": [
-    "intragenerational friendship",
-    "caregiving",
-    "fraud",
-    "personal memory",
-    "reignited passion",
     "motherhood",
-    "desire",
-    "substance abuse",
-    "dementia",
-    "retirement home",
+    "personal memory",
+    "fraud",
+    "reignited passion",
     "fatherhood",
+    "caregiving",
+    "retirement home",
+    "desire",
+    "intragenerational friendship",
+    "romance",
+    "dementia",
     "well-being",
-    "homosociality",
-    "romance"
+    "substance abuse",
+    "homosociality"
   ],
   "director": [
     {
@@ -60,6 +60,26 @@
     }
   ],
   "character": [
+    {
+      "id": "ES2019_023_02",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White North American",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Permanent disability",
+      "assistedMobility": "Unknown",
+      "person": {
+        "id": "Caroline Silhol",
+        "slug": "caroline-silhol",
+        "name": "Caroline Silhol",
+        "birthYear": 1949.0,
+        "gender": "Female identifying",
+        "nationality": "France"
+      },
+      "role": "Leading actor"
+    },
     {
       "id": "ES2019_023_04",
       "age": "3: Third Age (60-75)",
@@ -79,47 +99,7 @@
         "gender": "Female identifying",
         "nationality": "Spain"
       },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2019_023_02",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White North American",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Permanent disability",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Caroline Silhol",
-        "slug": "caroline-silhol",
-        "name": "Caroline Silhol",
-        "birthYear": 1949.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "ES2019_023_03",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Brian Cox",
-        "slug": "brian-cox",
-        "name": "Brian Cox",
-        "birthYear": 1946.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Unknown"
+      "role": "Supporting actor"
     },
     {
       "id": "ES2019_023_01",
@@ -139,7 +119,27 @@
         "gender": "Male identifying",
         "nationality": "United States of America (the)"
       },
-      "role": "Unknown"
+      "role": "Leading actor"
+    },
+    {
+      "id": "ES2019_023_03",
+      "age": "4: Fourth Age (>75)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Retired",
+      "ability": "Able-bodied",
+      "assistedMobility": "Unknown",
+      "person": {
+        "id": "Brian Cox",
+        "slug": "brian-cox",
+        "name": "Brian Cox",
+        "birthYear": 1946.0,
+        "gender": "Male identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Supporting actor"
     }
   ],
   "synopsis": {

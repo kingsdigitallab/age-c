@@ -13,19 +13,19 @@
   },
   "production": [
     {
-      "country": "Sweden",
-      "share": "Minority coproducer"
-    },
-    {
       "country": "Estonia",
       "share": "Minority coproducer"
     },
     {
-      "country": "Belgium",
+      "country": "Sweden",
       "share": "Minority coproducer"
     },
     {
       "country": "Serbia",
+      "share": "Minority coproducer"
+    },
+    {
+      "country": "Belgium",
       "share": "Minority coproducer"
     },
     {
@@ -38,26 +38,26 @@
     "posterUrl": "https://www.imdb.com/title/tt8043434/mediaviewer/rm155561217/?ref_=tt_ov_i"
   },
   "genre": [
-    "Multi-protagonist film",
-    "Drama",
     "Thriller",
     "Dystopia",
+    "Multi-protagonist film",
+    "Drama",
     "Science Fiction"
   ],
   "tags": [
     "infidelity",
+    "precarity",
+    "abuse",
+    "sex",
+    "fatherhood",
+    "independent home",
     "marriage",
     "personal trauma",
-    "class conflict",
-    "abuse",
-    "precarity",
-    "state institutions",
-    "segregation",
-    "sex",
     "urban",
-    "independent home",
+    "state institutions",
+    "class conflict",
+    "segregation",
     "mental illness",
-    "fatherhood",
     "homosociality",
     "murder"
   ],
@@ -72,65 +72,6 @@
     }
   ],
   "character": [
-    {
-      "id": "GB2021_034_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Michael Gould",
-        "slug": "michael-gould",
-        "name": "Michael Gould",
-        "birthYear": 1961.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "GB2021_034_06",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Lorraine Hilton",
-        "slug": "lorraine-hilton",
-        "name": "Lorraine Hilton",
-        "gender": "Female identifying",
-        "nationality": "Unknown"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "GB2021_034_07",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Sam Louwyck",
-        "slug": "sam-louwyck",
-        "name": "Sam Louwyck",
-        "birthYear": 1966.0,
-        "gender": "Male identifying",
-        "nationality": "Belgium"
-      },
-      "role": "Unknown"
-    },
     {
       "id": "GB2021_034_03",
       "age": "2: Late Middle Age (55-60)",
@@ -149,7 +90,7 @@
         "gender": "Male identifying",
         "nationality": "Iran (Islamic Republic of)"
       },
-      "role": "Unknown"
+      "role": "Leading actor"
     },
     {
       "id": "GB2021_034_04",
@@ -163,45 +104,6 @@
       "assistedMobility": "No",
       "person": {
         "id": "Eric Godon"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "GB2021_034_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Hayley Carmichael",
-        "slug": "hayley-carmichael",
-        "name": "Hayley Carmichael",
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Unknown"
-    },
-    {
-      "id": "GB2021_034_05",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Eastern European",
-      "class": "Upper Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Jan Bijvoet",
-        "slug": "jan-bijvoet",
-        "name": "Jan Bijvoet",
-        "birthYear": 1966.0,
-        "gender": "Male identifying",
-        "nationality": "Belgium"
       },
       "role": "Unknown"
     },
@@ -223,7 +125,66 @@
         "gender": "Male identifying",
         "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
       },
-      "role": "Unknown"
+      "role": "Supporting actor"
+    },
+    {
+      "id": "GB2021_034_02",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Female identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Hayley Carmichael",
+        "slug": "hayley-carmichael",
+        "name": "Hayley Carmichael",
+        "gender": "Female identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Supporting actor"
+    },
+    {
+      "id": "GB2021_034_05",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Unknown",
+      "origin": "White Eastern European",
+      "class": "Upper Middle class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Jan Bijvoet",
+        "slug": "jan-bijvoet",
+        "name": "Jan Bijvoet",
+        "birthYear": 1966.0,
+        "gender": "Male identifying",
+        "nationality": "Belgium"
+      },
+      "role": "Supporting actor"
+    },
+    {
+      "id": "GB2021_034_01",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Michael Gould",
+        "slug": "michael-gould",
+        "name": "Michael Gould",
+        "birthYear": 1961.0,
+        "gender": "Male identifying",
+        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+      },
+      "role": "Leading actor"
     },
     {
       "id": "GB2021_034_03",
@@ -243,7 +204,46 @@
         "gender": "Male identifying",
         "nationality": "Ireland"
       },
-      "role": "Unknown"
+      "role": "Leading actor"
+    },
+    {
+      "id": "GB2021_034_06",
+      "age": "3: Third Age (60-75)",
+      "gender": "Female identifying",
+      "sexuality": "Unknown",
+      "origin": "White Western European",
+      "class": "Middle class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Lorraine Hilton",
+        "slug": "lorraine-hilton",
+        "name": "Lorraine Hilton",
+        "gender": "Female identifying",
+        "nationality": "Unknown"
+      },
+      "role": "Supporting actor"
+    },
+    {
+      "id": "GB2021_034_07",
+      "age": "2: Late Middle Age (55-60)",
+      "gender": "Male identifying",
+      "sexuality": "Heterosexual",
+      "origin": "White Western European",
+      "class": "Lower Middle class",
+      "profession": "Unknown",
+      "ability": "Able-bodied",
+      "assistedMobility": "No",
+      "person": {
+        "id": "Sam Louwyck",
+        "slug": "sam-louwyck",
+        "name": "Sam Louwyck",
+        "birthYear": 1966.0,
+        "gender": "Male identifying",
+        "nationality": "Belgium"
+      },
+      "role": "Supporting actor"
     }
   ],
   "synopsis": {
