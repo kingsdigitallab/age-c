@@ -7,7 +7,12 @@
 		excerpt,
 		tags,
 		children
-	}: { title: string; excerpt: string; tags: string[]; children: Snippet } = $props();
+	}: {
+		title: string;
+		excerpt: string;
+		tags: string[];
+		children: Snippet;
+	} = $props();
 </script>
 
 <svelte:head>
