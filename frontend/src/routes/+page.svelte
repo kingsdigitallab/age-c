@@ -4,6 +4,10 @@
 	import SearchResultsItems from '$lib/components/SearchResultsItems.svelte';
 	import Search from '$lib/search/Search.svelte';
 	import { base } from '$app/paths';
+	import type { PageProps } from './$types';
+
+	const { data }: PageProps = $props();
+	const { searchWorker } = data;
 
 	const dataSource = $state('corpus');
 </script>
@@ -14,32 +18,51 @@
 	<a role="button" href="{base}/about"> About </a>
 </section>
 
-<Search
-	{dataSource}
-	{searchConfig}
-	title="Explore the dataset"
-	sortBy="film_title_asc"
-	summaryFacet="type"
-	distributionFacets={[
-		{
-			facet: 'releaseYear',
-			title: 'Release year distribution'
-		},
-		{
-			facet: 'gender',
-			title: 'Gender distribution'
-		},
-		{
-			facet: 'characterAge',
-			title: 'Character age distribution'
-		},
-		{
-			facet: 'characterSexuality',
-			title: 'Character sexuality distribution'
-		}
-	]}
-	SearchResultsItemsComponent={SearchResultsItems}
-/>
+{#if searchWorker}
+	<Search
+		{dataSource}
+		{searchConfig}
+		{searchWorker}
+		title="Explore the dataset"
+		sortBy="film_title_asc"
+		summaryFacet="type"
+		distributionFacets={[
+			{
+				facet: 'releaseYear',
+				title: 'Release year distribution'
+			},
+			{
+				facet: 'role',
+				title: 'Role distribution'
+			},
+			{
+				facet: 'gender',
+				title: 'Gender distribution'
+			},
+			{
+				facet: 'characterAge',
+				title: 'Character age distribution'
+			},
+			{
+				facet: 'characterSexuality',
+				title: 'Character sexuality distribution'
+			}
+		]}
+		SearchResultsItemsComponent={SearchResultsItems}
+	/>
+{:else}
+	<article>
+		<header>
+			<h2>An error occurred</h2>
+			<output>Undefined search worker</output>
+		</header>
+		<p>
+			Please check your browser console for more details.
+			<br />
+			You can also try refreshing the page.
+		</p>
+	</article>
+{/if}
 
 <style>
 	.hero {

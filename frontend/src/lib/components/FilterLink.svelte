@@ -1,7 +1,13 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-
-	const { name, value }: { name: string; value: string } = $props();
+	import type { Snippet } from 'svelte';
+	const { name, value, children }: { name: string; value: string; children: Snippet } = $props();
 </script>
 
-<a href={`${base}/?filters={"${name}"%3A["${value}"]}#skij`}>{value}</a>
+<a href={`${base}/?filters={"${name}"%3A["${value}"]}#skij`}>
+	{#if children}
+		{@render children()}
+	{:else}
+		{value}
+	{/if}
+</a>

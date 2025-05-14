@@ -10,9 +10,16 @@ const mdsvexOptions = {
 	smartypants: true
 };
 
+/** @type {import('@sveltejs/kit').Config} */
 const config = {
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
-	kit: { adapter: adapter(), alias: { $data: '../data/2_final' } },
+	kit: {
+		adapter: adapter(),
+		alias: { $data: '../data/2_final' },
+		prerender: {
+			handleMissingId: 'ignore'
+		}
+	},
 	extensions: ['.svelte', '.svx']
 };
 

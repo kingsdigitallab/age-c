@@ -1,3 +1,10 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
 ## v0.6.0 (2025-05-12)
 
 ### Feat
@@ -132,7 +139,7 @@
 - **routes**: Add explore search to home page
 - **routes**: Add film and person detail pages
 - **api**: Add new API route that returns data ready for search
-- **data**: Add getDataForSearch function to  process and format data for search
+- **data**: Add getDataForSearch function to process and format data for search
 - **search**: Modularise search components and add new features
 - **etl**: Implement data cleaning for JSON output
 - **etl**: Enhance data processing and aggregation for films and biographies
@@ -162,7 +169,7 @@
 - **index**: Refactor search configuration and aggregations
 - **etl**: Remove commented-out code and clean up data processing functions
 - **search**: Change results display to tabular format
-- **biographies, films**: Replace list item  components with table components
+- **biographies, films**: Replace list item components with table components
 - **layout**: Update colour theme to zinc
 
 ## v0.2.0 (2025-04-22)

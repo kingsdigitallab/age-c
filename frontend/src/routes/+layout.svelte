@@ -4,13 +4,24 @@
 	import { page } from '$app/state';
 	import { config } from '$lib';
 	import type { Snippet } from 'svelte';
+	import { onDestroy } from 'svelte';
 	import { fade } from 'svelte/transition';
+	import type { PageProps } from './$types';
 
 	import '@picocss/pico';
 	import '@picocss/pico/css/pico.zinc.css';
 	import '../app.css';
 
-	const { children }: { children: Snippet } = $props();
+	const { data, children }: { data: PageProps; children: Snippet } = $props();
+	const { searchWorker } = data;
+
+	onDestroy(() => {
+		setTimeout(() => {
+			if (searchWorker) {
+				searchWorker.terminate();
+			}
+		}, 5000);
+	});
 </script>
 
 <svelte:head>
@@ -33,6 +44,7 @@
 		</ul>
 		<ul>
 			<li><a href={`${base}/about`}>About</a></li>
+			<li><a href={`${base}/glossary`}>Glossary</a></li>
 		</ul>
 	</nav>
 </header>

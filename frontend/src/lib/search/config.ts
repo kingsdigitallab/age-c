@@ -3,5 +3,6 @@ export const WORKER_STATUS = {
 	LOAD: 'load',
 	READY: 'ready',
 	SEARCH: 'search',
-	RESULTS: 'results'
+	RESULTS: 'results',
+	ERROR: 'error'
 };

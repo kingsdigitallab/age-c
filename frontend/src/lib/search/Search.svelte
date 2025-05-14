@@ -1,10 +1,8 @@
 <script lang="ts">
-	import { base } from '$app/paths';
-	import SearchWorker from '$lib/search/worker?worker';
 	import { WORKER_STATUS } from '$lib/search/config';
 	import FacetDistributionPlot from '$lib/search/FacetDistributionPlot.svelte';
 	import pluralize from 'pluralize-esm';
-	import { onDestroy, onMount } from 'svelte';
+	import { onMount } from 'svelte';
 	import { queryParameters, ssp } from 'sveltekit-search-params';
 	import SearchControls from './SearchControls.svelte';
 	import SearchFilters from './SearchFilters.svelte';
@@ -15,10 +13,12 @@
 	import SearchShortcuts from './SearchShortcuts.svelte';
 	import SearchStatus from './SearchStatus.svelte';
 	import type { SearchConfig } from './types';
+	import { getWorkerError, getWorkerStatus } from './worker.svelte';
 
 	const {
 		dataSource,
 		searchConfig,
+		searchWorker,
 		title,
 		sortBy,
 		summaryFacet,
@@ -36,6 +36,7 @@
 	}: {
 		dataSource: keyof typeof searchConfig;
 		searchConfig: SearchConfig;
+		searchWorker: Worker;
 		title: string;
 		sortBy?: string;
 		summaryFacet?: string;
@@ -74,9 +75,8 @@
 		}))
 	);
 
-	let searchWorker = $state<Worker | null>(null);
-	let searchWorkerStatus = $state(WORKER_STATUS.IDLE);
-	let searchWorkerError = $state<string | null>(null);
+	const searchWorkerStatus = $derived(getWorkerStatus());
+	const searchWorkerError = $derived(getWorkerError());
 	let searchResults = $state({ query: '', results: [] });
 
 	const isLoading = $derived([WORKER_STATUS.IDLE, WORKER_STATUS.LOAD].includes(searchWorkerStatus));
@@ -103,49 +103,30 @@
 			searchFilters = searchParams.filters;
 		}
 
-		initSearchEngine();
+		prepareSearchWorker();
 	});
 
-	function initSearchEngine() {
+	function prepareSearchWorker() {
+		const defaultOnMessage = searchWorker.onmessage;
+
 		if (searchWorkerStatus === WORKER_STATUS.READY) {
-			return;
+			postSearchMessage();
 		}
 
-		searchWorkerStatus = WORKER_STATUS.LOAD;
-
-		searchWorker = new SearchWorker();
 		searchWorker.onmessage = (event) => {
 			const { action, payload } = event.data;
-			searchWorkerError = null;
 
-			if (action === 'ready') {
-				searchWorkerStatus = WORKER_STATUS.READY;
+			if (defaultOnMessage) {
+				defaultOnMessage.call(searchWorker, event);
+			}
+
+			if (action === WORKER_STATUS.READY) {
 				postSearchMessage();
-			} else if (action === 'results') {
+			} else if (action === WORKER_STATUS.RESULTS) {
 				searchResults = { query: payload.query, results: payload.results };
 				isSearching = false;
 			}
 		};
-
-		searchWorker.onerror = (error) => {
-			searchWorkerError = 'An error occurred while searching';
-			searchWorkerStatus = WORKER_STATUS.READY;
-			console.error('Search worker error:', error);
-		};
-
-		searchWorker.postMessage({ action: 'load', payload: { basePath: base, dataSource } });
-	}
-
-	function handleToggleSearch() {
-		showSearch = !showSearch;
-	}
-
-	function handleSearch(e: Event) {
-		e.preventDefault();
-
-		searchParams.page = 1;
-		isSearching = true;
-		postSearchMessage();
 	}
 
 	function postSearchMessage() {
@@ -161,6 +142,26 @@
 				}
 			});
 		}
+	}
+
+	function handleToggleSearch() {
+		showSearch = !showSearch;
+	}
+
+	function handleSearch(e: Event) {
+		e.preventDefault();
+
+		const previousQuery = searchResults.query;
+		const newQuery = searchParams.query;
+
+		if (newQuery !== previousQuery) {
+			searchParams.filters = {};
+			searchFilters = {};
+		}
+
+		searchParams.page = 1;
+		isSearching = true;
+		postSearchMessage();
 	}
 
 	function handleReset() {
@@ -194,15 +195,6 @@
 		searchParams.filters = $state.snapshot(searchFilters);
 		postSearchMessage();
 	}
-
-	onDestroy(() => {
-		setTimeout(() => {
-			if (searchWorker) {
-				searchWorker.terminate();
-				searchWorker = null;
-			}
-		}, 5000);
-	});
 </script>
 
 <SearchShortcutsComponent onToggleSearch={handleToggleSearch} />
