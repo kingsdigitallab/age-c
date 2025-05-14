@@ -1,7 +1,8 @@
 export const WORKER_STATUS = {
-	IDLE: 'idle',
+	IDLE: 'IDLE',
 	LOAD: 'load',
 	READY: 'ready',
 	SEARCH: 'search',
-	RESULTS: 'results'
+	RESULTS: 'results',
+	ERROR: 'error'
 };
