@@ -33,6 +33,7 @@
 		</ul>
 		<ul>
 			<li><a href={`${base}/about`}>About</a></li>
+			<li><a href={`${base}/glossary`}>Glossary</a></li>
 		</ul>
 	</nav>
 </header>
