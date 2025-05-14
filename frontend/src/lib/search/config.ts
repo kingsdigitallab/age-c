@@ -1,5 +1,5 @@
 export const WORKER_STATUS = {
-	IDLE: 'IDLE',
+	IDLE: 'idle',
 	LOAD: 'load',
 	READY: 'ready',
 	SEARCH: 'search',
