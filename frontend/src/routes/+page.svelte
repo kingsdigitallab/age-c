@@ -26,6 +26,10 @@
 			title: 'Release year distribution'
 		},
 		{
+			facet: 'role',
+			title: 'Role distribution'
+		},
+		{
 			facet: 'gender',
 			title: 'Gender distribution'
 		},
