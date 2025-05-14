@@ -5,6 +5,35 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v0.7.0 (2025-05-14)
+
+### Feat
+
+- **app.css**: Add styles for output element
+- **search**: Add ERROR status to WORKER_STATUS
+- **search**: Add search worker manager
+- **landing**: Add role distribution facet to data visualisation
+- **layout**: Add Glossary link to navigation
+- **glossary**: Add of tags and terms
+- **FilterLink**: Improve filter link rendering to conditionally display children or value
+
+### Fix
+
+- **search**: Reset filters on new search query
+- **search**: Update WORKER_STATUS IDLE value to lowercase 'idle'
+- **data**: Override person_id with person_name in role DataFrame due to issues with the data
+
+### Refactor
+
+- **search**: Simplify search worker initialization and error handling
+- **error**: Move styles from error page component to app.css
+
+### Perf
+
+- **landing**: Re-use the search worker loaded in the layout
+- **layout**: Terminate search worker onDestroy
+- **layout**: Initialise the search worker at the layout level
+
 ## v0.6.0 (2025-05-12)
 
 ### Feat
