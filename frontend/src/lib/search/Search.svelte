@@ -241,11 +241,14 @@
 				/>
 			{/key}
 		{/if}
-		<select bind:value={selectedDistributionFacet}>
-			{#each distributionFacets as facet}
-				<option value={facet.facet}>{facet.title}</option>
-			{/each}
-		</select>
+		<label>
+			Select a distribution facet to visualise
+			<select name="distribution-facet" bind:value={selectedDistributionFacet}>
+				{#each distributionFacets as facet}
+					<option value={facet.facet}>{facet.title}</option>
+				{/each}
+			</select>
+		</label>
 	{/if}
 
 	<SearchControlsComponent
