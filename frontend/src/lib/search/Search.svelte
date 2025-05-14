@@ -151,6 +151,14 @@
 	function handleSearch(e: Event) {
 		e.preventDefault();
 
+		const previousQuery = searchResults.query;
+		const newQuery = searchParams.query;
+
+		if (newQuery !== previousQuery) {
+			searchParams.filters = {};
+			searchFilters = {};
+		}
+
 		searchParams.page = 1;
 		isSearching = true;
 		postSearchMessage();
