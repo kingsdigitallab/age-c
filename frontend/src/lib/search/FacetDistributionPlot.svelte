@@ -7,6 +7,7 @@
 	const {
 		data = [],
 		title = 'Distribution',
+		dynamicTitle = undefined,
 		x,
 		y,
 		xLabel = 'x',
@@ -14,7 +15,8 @@
 		height = 200
 	}: {
 		data: { key: string; doc_count: number }[];
-		title: string;
+		title?: string;
+		dynamicTitle?: (count: number) => string;
 		x: string;
 		y: string;
 		xLabel?: string;
@@ -39,7 +41,13 @@
 </script>
 
 <section>
-	<h3>{title}</h3>
+	<h3>
+		{#if dynamicTitle}
+			{dynamicTitle(data.length)}
+		{:else}
+			{title}
+		{/if}
+	</h3>
 	<VisXYContainer {data} {height} {xDomain} preventEmptyDomain={false}>
 		<VisGroupedBar x={xField} y={yField} dataStep={1} groupPadding={0.25} />
 		<VisAxis type="x" label={xLabel} gridLine={false} {numTicks} {tickFormat} {tickValues} />
