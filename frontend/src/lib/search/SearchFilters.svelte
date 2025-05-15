@@ -73,9 +73,9 @@
 
 {#if show}
 	<aside tabindex="-1" transition:slide={{ axis: 'x' }}>
-		<h3>Filters</h3>
+		<h2>Filters</h2>
 
-		<button class="close-skij-filters-button" aria-label="Close search filters" onclick={onClose}>
+		<button class="skij-close-filters-button" aria-label="Close search filters" onclick={onClose}>
 			<span aria-hidden="true">&times;</span>
 		</button>
 
@@ -148,7 +148,7 @@
 									onchange={onConjunctionChange}
 									disabled={isLoading}
 								/>
-								Match all selected {aggregation.title.toLowerCase()} (AND)
+								Match all selected {aggregation.title.toLowerCase()}
 							</small>
 						</label>
 						<fieldset>
@@ -180,13 +180,26 @@
 		border: var(--pico-border-width) solid var(--pico-primary-border);
 		border-radius: var(--pico-border-radius);
 		height: 100vh;
-		left: 0;
 		overflow-y: auto;
 		padding: var(--pico-spacing);
-		position: fixed;
-		top: 0;
-		width: min(500px, 100vw);
+		min-width: 400px;
 		z-index: 10;
+	}
+
+	@media (max-width: 992px) {
+		aside {
+			left: 0;
+			position: fixed;
+			top: 0;
+		}
+	}
+
+	@media (min-width: 992px) {
+		aside {
+			height: calc(100vh - 2 * var(--pico-spacing));
+			position: sticky;
+			top: var(--pico-spacing);
+		}
 	}
 
 	.skij-close-filters-button {
@@ -243,7 +256,6 @@
 		max-height: var(--skij-filter-height);
 		overflow-y: scroll;
 		padding-block: calc(var(--pico-spacing) / 4);
-		/* padding-inline: calc(var(--pico-spacing) / 2); */
 	}
 
 	label {

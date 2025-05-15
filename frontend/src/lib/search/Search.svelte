@@ -224,102 +224,126 @@
 
 <SearchShortcutsComponent onToggleSearch={handleToggleSearch} />
 
-<article id="skij">
-	<hgroup>
-		<h1>{title}</h1>
-		{#if summaryStats}
-			<ul class="skij-summary-stats">
-				{#each summaryStats.buckets as bucket}
-					{@const count = bucket.doc_count}
-					{@const label = bucket.key}
-					<li>
-						{count.toLocaleString()}
-						{pluralize(label, count)}
-					</li>
-				{/each}
-			</ul>
+<div class="skij-search-layout">
+	<SearchFiltersComponent
+		show={showSearch}
+		bind:searchFilters
+		{searchAggregations}
+		bind:conjunctions
+		{searchConfig}
+		{dataSource}
+		{isLoading}
+		onClose={() => (showSearch = false)}
+		onFiltersChange={handleSearchFiltersChange}
+		onConjunctionChange={handleConjunctionChange}
+	/>
+
+	<article id="skij">
+		<hgroup>
+			<h1>{title}</h1>
+			{#if summaryStats}
+				<ul class="skij-summary-stats">
+					{#each summaryStats.buckets as bucket}
+						{@const count = bucket.doc_count}
+						{@const label = bucket.key}
+						<li>
+							{count.toLocaleString()}
+							{pluralize(label, count)}
+						</li>
+					{/each}
+				</ul>
+			{/if}
+		</hgroup>
+
+		<SearchStatusComponent {isLoading} {isSearching} searchError={searchWorkerError} />
+
+		<SearchInputComponent
+			bind:searchQuery={searchParams.query}
+			{isLoading}
+			{isSearching}
+			{minSearchQueryLength}
+			onSearch={handleSearch}
+			onReset={handleReset}
+		/>
+
+		{#if distributionFacets && !isLoading}
+			{#if selectedDistributionFacet}
+				{#key distributionStats}
+					<SearchFacetDistributionPlotComponent
+						title={distributionFacets.find((facet) => facet.facet === selectedDistributionFacet)
+							?.title}
+						data={distributionStats}
+						x="key"
+						y="doc_count"
+						xLabel={searchConfig[dataSource].aggregations[selectedDistributionFacet].title}
+						yLabel="Count"
+					/>
+				{/key}
+			{/if}
+			<label>
+				Select a distribution facet to visualise
+				<select name="distribution-facet" bind:value={selectedDistributionFacet}>
+					{#each distributionFacets as facet}
+						<option value={facet.facet}>{facet.title}</option>
+					{/each}
+				</select>
+			</label>
 		{/if}
-	</hgroup>
 
-	<SearchStatusComponent {isLoading} {isSearching} searchError={searchWorkerError} />
+		<SearchControlsComponent
+			{isLoading}
+			{isSearching}
+			{showSearch}
+			{searchFiltersCount}
+			sortOptions={searchSortOptions}
+			bind:sortBy={searchParams.sort}
+			onToggleFilters={handleToggleSearch}
+			onSortByChange={handleSortByChange}
+		/>
 
-	<SearchInputComponent
-		bind:searchQuery={searchParams.query}
-		{isLoading}
-		{isSearching}
-		{minSearchQueryLength}
-		onSearch={handleSearch}
-		onReset={handleReset}
-	/>
+		<SearchResultsComponent
+			{isLoading}
+			{isSearching}
+			searchQuery={searchResults.query}
+			{searchItems}
+			{searchPagination}
+			{SearchResultsItemsComponent}
+		/>
 
-	{#if distributionFacets && !isLoading}
-		{#if selectedDistributionFacet}
-			{#key distributionStats}
-				<SearchFacetDistributionPlotComponent
-					title={distributionFacets.find((facet) => facet.facet === selectedDistributionFacet)
-						?.title}
-					data={distributionStats}
-					x="key"
-					y="doc_count"
-					xLabel={searchConfig[dataSource].aggregations[selectedDistributionFacet].title}
-					yLabel="Count"
-				/>
-			{/key}
-		{/if}
-		<label>
-			Select a distribution facet to visualise
-			<select name="distribution-facet" bind:value={selectedDistributionFacet}>
-				{#each distributionFacets as facet}
-					<option value={facet.facet}>{facet.title}</option>
-				{/each}
-			</select>
-		</label>
-	{/if}
-
-	<SearchControlsComponent
-		{isLoading}
-		{isSearching}
-		{showSearch}
-		{searchFiltersCount}
-		sortOptions={searchSortOptions}
-		bind:sortBy={searchParams.sort}
-		onToggleFilters={handleToggleSearch}
-		onSortByChange={handleSortByChange}
-	/>
-
-	<SearchResultsComponent
-		{isLoading}
-		{isSearching}
-		searchQuery={searchResults.query}
-		{searchItems}
-		{searchPagination}
-		{SearchResultsItemsComponent}
-	/>
-
-	<SearchPaginationComponent
-		{isLoading}
-		{isSearching}
-		count={searchPagination.total}
-		page={searchPagination.page}
-		perPage={searchPagination.per_page}
-		onPageChange={handlePageChange}
-	/>
-</article>
-
-<SearchFiltersComponent
-	show={showSearch}
-	bind:searchFilters
-	{searchAggregations}
-	bind:conjunctions
-	{searchConfig}
-	{dataSource}
-	{isLoading}
-	onClose={() => (showSearch = false)}
-	onFiltersChange={handleSearchFiltersChange}
-	onConjunctionChange={handleConjunctionChange}
-/>
+		<SearchPaginationComponent
+			{isLoading}
+			{isSearching}
+			count={searchPagination.total}
+			page={searchPagination.page}
+			perPage={searchPagination.per_page}
+			onPageChange={handlePageChange}
+		/>
+	</article>
+</div>
 
 <style>
+	.skij-search-layout {
+		display: flex;
+		gap: var(--pico-spacing);
+	}
+
+	@media (max-width: 992px) {
+		.skij-search-layout {
+			flex-direction: column;
+		}
+	}
+
+	@media (min-width: 992px) {
+		.skij-search-layout {
+			flex-direction: row;
+		}
+
+		.skij-search-layout > article {
+			flex: 1;
+			min-width: 0;
+		}
+	}
+
 	ul.skij-summary-stats {
 		display: flex;
 		gap: var(--pico-spacing);
