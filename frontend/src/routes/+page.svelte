@@ -29,23 +29,24 @@
 		distributionFacets={[
 			{
 				facet: 'releaseYear',
-				title: 'Release year distribution'
+				title: 'Films released per year',
+				dynamicTitle: (count) => `Number of films released over ${count} years`
 			},
 			{
 				facet: 'role',
-				title: 'Role distribution'
+				title: 'Cast and crew roles'
 			},
 			{
 				facet: 'gender',
-				title: 'Gender distribution'
+				title: 'Cast and crew gender'
 			},
 			{
 				facet: 'characterAge',
-				title: 'Character age distribution'
+				title: 'Character age groups'
 			},
 			{
 				facet: 'characterSexuality',
-				title: 'Character sexuality distribution'
+				title: 'Character sexual orientation'
 			}
 		]}
 		SearchResultsItemsComponent={SearchResultsItems}
