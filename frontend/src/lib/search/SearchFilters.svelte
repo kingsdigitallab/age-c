@@ -7,19 +7,25 @@
 		show,
 		searchFilters = $bindable({}),
 		searchAggregations,
+		conjunctions = $bindable({}),
 		searchConfig,
 		dataSource,
+		isLoading,
 		onClose,
 		onFiltersChange,
+		onConjunctionChange,
 		children = null
 	}: {
 		show: boolean;
 		searchFilters: Record<string, string[]>;
 		searchAggregations: Record<string, { buckets: Array<{ key: string; doc_count: number }> }>;
 		searchConfig: SearchConfig;
+		conjunctions: Record<string, boolean>;
 		dataSource: keyof typeof searchConfig;
+		isLoading: boolean;
 		onClose: () => void;
 		onFiltersChange: () => void;
+		onConjunctionChange: () => void;
 		children?: Snippet | null | undefined;
 	} = $props();
 
@@ -119,7 +125,7 @@
 			{#each aggregations as [key, aggregation], index}
 				{@const buckets = searchBuckets(key, searchAggregations[key].buckets)}
 				<section class="search-filters-section">
-					<details open={expandFiltersByField[index]}>
+					<details class:disabled={buckets.length === 0} open={expandFiltersByField[index]}>
 						<summary onclick={(e) => handleFilterFieldToggle(e, index)}>
 							{aggregation.title}
 							<small>({searchAggregations[key].buckets.length.toLocaleString()})</small>
@@ -131,8 +137,20 @@
 								placeholder="Search {aggregation.title.toLowerCase()} options..."
 								aria-label="Search {aggregation.title.toLowerCase()} options..."
 								bind:value={filterSearchTerms[key]}
+								disabled={isLoading}
 							/>
 						{/if}
+						<label class="skij-filter-conjunction" aria-busy={isLoading}>
+							<small>
+								<input
+									type="checkbox"
+									bind:checked={conjunctions[key]}
+									onchange={onConjunctionChange}
+									disabled={isLoading}
+								/>
+								Match all selected {aggregation.title.toLowerCase()} (AND)
+							</small>
+						</label>
 						<fieldset>
 							{#each buckets as bucket}
 								<label>
@@ -142,6 +160,7 @@
 										value={bucket.key}
 										bind:group={searchFilters[key]}
 										onchange={onFiltersChange}
+										disabled={isLoading}
 									/>
 									<span>{bucket.key}</span>
 									<small>({bucket.doc_count.toLocaleString()})</small>
@@ -211,6 +230,12 @@
 	details {
 		border-bottom: var(--pico-border-width) solid var(--pico-primary-border);
 		padding-bottom: var(--pico-spacing);
+	}
+
+	details.disabled summary {
+		opacity: 0.5;
+		pointer-events: none;
+		user-select: none;
 	}
 
 	details fieldset {
