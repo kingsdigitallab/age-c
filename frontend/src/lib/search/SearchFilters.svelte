@@ -75,20 +75,20 @@
 	<aside tabindex="-1" transition:slide={{ axis: 'x' }}>
 		<h3>Filters</h3>
 
-		<button class="close-search-filters-button" aria-label="Close search filters" onclick={onClose}>
+		<button class="close-skij-filters-button" aria-label="Close search filters" onclick={onClose}>
 			<span aria-hidden="true">&times;</span>
 		</button>
 
-		<section class="search-filters-controls">
+		<section class="skij-filters-controls">
 			<button
-				class="expand-search-filters-button"
+				class="skij-expand-filters-button"
 				aria-label="{expandFilters ? 'Collapse' : 'Expand'} search filters"
 				onclick={handleExpandFilters}
 			>
 				{expandFilters ? 'Collapse' : 'Expand'} all filters
 			</button>
 			<button
-				class="clear-search-filters-button"
+				class="skij-clear-filters-button"
 				aria-label="Clear search filters"
 				onclick={handleClearFilters}
 				disabled={!hasFilters}
@@ -97,13 +97,13 @@
 			</button>
 		</section>
 
-		<section class="search-filters-current-filters">
+		<section class="skij-filters-current-filters">
 			<ul>
 				{#each currentFilters as [key, values]}
 					{#each values as value}
 						<li>
 							<button
-								class="search-filters-current-filter-button secondary"
+								class="skij-filters-current-filter-button secondary"
 								aria-label="Remove filter {key} with value {value}"
 								title="Remove filter {key} with value {value}"
 								onclick={() => handleRemoveFilter(key, value)}
@@ -124,7 +124,7 @@
 		{#if searchAggregations}
 			{#each aggregations as [key, aggregation], index}
 				{@const buckets = searchBuckets(key, searchAggregations[key].buckets)}
-				<section class="search-filters-section">
+				<section class="skij-filter-section">
 					<details class:disabled={buckets.length === 0} open={expandFiltersByField[index]}>
 						<summary onclick={(e) => handleFilterFieldToggle(e, index)}>
 							{aggregation.title}
@@ -132,7 +132,7 @@
 						</summary>
 						{#if searchAggregations[key].buckets.length > 10}
 							<input
-								name="search-filters-search-{key}"
+								name="skij-filters-search-{key}"
 								type="text"
 								placeholder="Search {aggregation.title.toLowerCase()} options..."
 								aria-label="Search {aggregation.title.toLowerCase()} options..."
@@ -189,7 +189,7 @@
 		z-index: 10;
 	}
 
-	.close-search-filters-button {
+	.skij-close-filters-button {
 		background: transparent;
 		border: none;
 		color: var(--pico-muted-color);
@@ -199,11 +199,11 @@
 		top: var(--pico-spacing);
 	}
 
-	.close-search-filters-button:hover {
+	.skij-close-filters-button:hover {
 		color: var(--pico-primary-color);
 	}
 
-	.search-filters-controls button {
+	.skij-filters-controls button {
 		--pico-background-color: transparent;
 		--pico-color: var(--pico-primary);
 
@@ -212,18 +212,18 @@
 		text-decoration: underline;
 	}
 
-	.search-filters-current-filters ul {
+	.skij-filters-current-filters ul {
 		display: flex;
 		flex-wrap: wrap;
 		gap: calc(var(--pico-spacing) / 2);
 		padding: 0;
 	}
 
-	.search-filters-current-filters ul li {
+	.skij-filters-current-filters ul li {
 		padding: 0;
 	}
 
-	.search-filters-current-filter-button {
+	.skij-filters-current-filter-button {
 		padding-block: calc(var(--pico-form-element-spacing-vertical) / 4);
 	}
 
@@ -240,7 +240,7 @@
 
 	details fieldset {
 		background: var(--pico-form-element-background-color);
-		max-height: var(--search-filter-height);
+		max-height: var(--skij-filter-height);
 		overflow-y: scroll;
 		padding-block: calc(var(--pico-spacing) / 4);
 		/* padding-inline: calc(var(--pico-spacing) / 2); */

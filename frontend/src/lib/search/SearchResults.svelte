@@ -34,7 +34,7 @@
 		<small aria-busy={isLoading || isSearching} aria-live="polite">
 			{#if searchPagination?.total !== undefined}
 				{searchPagination.total.toLocaleString()} found
-				{#if searchQuery}for <span class="search-query">{searchQuery}</span>{/if}
+				{#if searchQuery}for <span class="skij-query">{searchQuery}</span>{/if}
 			{:else}
 				No results
 			{/if}
@@ -51,12 +51,12 @@
 </section>
 
 <style>
-	.search-query::before {
+	.skij-query::before {
 		content: '"';
 		font-weight: normal;
 	}
 
-	.search-query::after {
+	.skij-query::after {
 		content: '"';
 		font-weight: normal;
 	}

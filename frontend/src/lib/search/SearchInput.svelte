@@ -26,7 +26,7 @@
 		<!-- svelte-ignore a11y_no_redundant_roles -->
 		<fieldset role="group">
 			<input
-				id="search-query"
+				id="skij-query"
 				type="text"
 				bind:value={searchQuery}
 				disabled={isLoading || isSearching}

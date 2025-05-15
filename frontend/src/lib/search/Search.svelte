@@ -228,7 +228,7 @@
 	<hgroup>
 		<h1>{title}</h1>
 		{#if summaryStats}
-			<ul class="search-summary-stats">
+			<ul class="skij-summary-stats">
 				{#each summaryStats.buckets as bucket}
 					{@const count = bucket.doc_count}
 					{@const label = bucket.key}
@@ -320,7 +320,7 @@
 />
 
 <style>
-	ul.search-summary-stats {
+	ul.skij-summary-stats {
 		display: flex;
 		gap: var(--pico-spacing);
 		list-style: none;
@@ -328,7 +328,7 @@
 		padding: 0;
 	}
 
-	ul.search-summary-stats li {
+	ul.skij-summary-stats li {
 		list-style: none;
 		padding: 0;
 	}

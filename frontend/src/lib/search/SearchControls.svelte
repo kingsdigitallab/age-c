@@ -23,7 +23,7 @@
 	const isSortByDisabled = $derived(isLoading || isSearching);
 </script>
 
-<section class="search-controls">
+<section class="skij-controls">
 	<button onclick={onToggleFilters} disabled={areFiltersDisabled}>
 		Filters ({searchFiltersCount})
 	</button>
@@ -42,13 +42,13 @@
 </section>
 
 <style>
-	.search-controls {
+	.skij-controls {
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-start;
 	}
 
-	.search-controls select {
+	.skij-controls select {
 		width: fit-content;
 	}
 </style>
