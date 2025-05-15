@@ -15,18 +15,24 @@ export function getWorkerError() {
 	return state.error;
 }
 
-export function initWorker(basePath: string, dataSource: string) {
+export function initWorker(basePath: string, dataSource: string, config: Record<string, unknown>) {
 	const newWorker = new SearchWorker();
 
 	newWorker.onmessage = (event) => {
 		const { action, payload } = event.data;
 		state.error = null;
 
-		if (action === WORKER_STATUS.READY) {
-			state.status = WORKER_STATUS.READY;
-		} else if (action === WORKER_STATUS.ERROR) {
-			state.error = payload;
-			state.status = WORKER_STATUS.READY;
+		switch (action) {
+			case WORKER_STATUS.LOAD:
+				state.status = WORKER_STATUS.LOAD;
+				break;
+			case WORKER_STATUS.READY:
+				state.status = WORKER_STATUS.READY;
+				break;
+			case WORKER_STATUS.ERROR:
+				state.error = payload;
+				state.status = WORKER_STATUS.READY;
+				break;
 		}
 	};
 
@@ -39,7 +45,7 @@ export function initWorker(basePath: string, dataSource: string) {
 	state.worker = newWorker;
 	state.status = WORKER_STATUS.LOAD;
 
-	newWorker.postMessage({ action: WORKER_STATUS.LOAD, payload: { basePath, dataSource } });
+	newWorker.postMessage({ action: WORKER_STATUS.LOAD, payload: { basePath, dataSource, config } });
 
 	return newWorker;
 }
