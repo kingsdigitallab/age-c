@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v0.8.0 (2025-05-15)
+
+### Feat
+
+- **search**: Add conjunction options to search filters
+- **search**: Implement conjunction handling in search configuration
+- **config**: Add conjunction option to search aggregations
+- **search**: Add option to reload the search engine
+- **search**: Add reloadSearchEngine function
+- **search**: Add label for distribution facet selection in search component
+
+### Refactor
+
+- **layout**: Update search worker initialisation to use search configuration
+- **search**: Change worker initialisation to accept configuration options
+
 ## v0.7.0 (2025-05-14)
 
 ### Feat
