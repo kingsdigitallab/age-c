@@ -44,6 +44,7 @@
 		distributionFacets?: {
 			facet: string;
 			title: string;
+			dynamicTitle?: (count: number) => string;
 		}[];
 		SearchShortcutsComponent?: typeof SearchShortcuts;
 		SearchStatusComponent?: typeof SearchStatus;
@@ -267,27 +268,34 @@
 		/>
 
 		{#if distributionFacets && !isLoading}
-			{#if selectedDistributionFacet}
-				{#key distributionStats}
-					<SearchFacetDistributionPlotComponent
-						title={distributionFacets.find((facet) => facet.facet === selectedDistributionFacet)
-							?.title}
-						data={distributionStats}
-						x="key"
-						y="doc_count"
-						xLabel={searchConfig[dataSource].aggregations[selectedDistributionFacet].title}
-						yLabel="Count"
-					/>
-				{/key}
-			{/if}
-			<label>
-				Select a distribution facet to visualise
-				<select name="distribution-facet" bind:value={selectedDistributionFacet}>
-					{#each distributionFacets as facet}
-						<option value={facet.facet}>{facet.title}</option>
-					{/each}
-				</select>
-			</label>
+			<section>
+				{#if selectedDistributionFacet}
+					{#key distributionStats}
+						<SearchFacetDistributionPlotComponent
+							title={distributionFacets.find((facet) => facet.facet === selectedDistributionFacet)
+								?.title}
+							dynamicTitle={distributionFacets.find(
+								(facet) => facet.facet === selectedDistributionFacet
+							)?.dynamicTitle}
+							data={distributionStats}
+							x="key"
+							y="doc_count"
+							xLabel={searchConfig[dataSource].aggregations[selectedDistributionFacet].title}
+							yLabel="Count"
+						/>
+					{/key}
+				{/if}
+				<fieldset>
+					<label>
+						Choose what to visualise
+						<select name="distribution-facet" bind:value={selectedDistributionFacet}>
+							{#each distributionFacets as facet}
+								<option value={facet.facet}>{facet.title}</option>
+							{/each}
+						</select>
+					</label>
+				</fieldset>
+			</section>
 		{/if}
 
 		<SearchControlsComponent
