@@ -37,8 +37,8 @@ export async function getData(slug: string) {
 
 const fieldSubpaths: Record<string, { character: string; director: string }> = {
 	filmType: { character: 'film.filmType', director: 'filmType' },
-	releaseType: { character: 'film.release.type', director: 'release.type' },
-	releaseYear: { character: 'film.release.year', director: 'release.year' },
+	'release.type': { character: 'film.release.type', director: 'release.type' },
+	'release.year': { character: 'film.release.year', director: 'release.year' },
 	gender: { character: 'person.gender', director: 'gender' },
 	nationality: { character: 'person.nationality', director: 'nationality' }
 };
