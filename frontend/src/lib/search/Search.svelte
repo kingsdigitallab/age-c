@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { WORKER_STATUS } from '$lib/search/config';
 	import FacetDistributionPlot from '$lib/search/FacetDistributionPlot.svelte';
 	import pluralize from 'pluralize-esm';
@@ -66,6 +67,15 @@
 		{ showDefaults: false }
 	);
 
+	let conjunctions = $state(
+		Object.fromEntries(
+			Object.entries(searchConfig[dataSource].aggregations).map(([key, aggregation]) => [
+				key,
+				aggregation.conjunction
+			])
+		)
+	);
+
 	let searchFilters = $state({});
 	const searchFiltersCount = $derived(Object.keys(searchFilters).length);
 	const searchSortOptions = $derived(
@@ -107,24 +117,26 @@
 	});
 
 	function prepareSearchWorker() {
-		const defaultOnMessage = searchWorker.onmessage;
-
 		if (searchWorkerStatus === WORKER_STATUS.READY) {
 			postSearchMessage();
 		}
 
+		const defaultOnMessage = searchWorker.onmessage;
 		searchWorker.onmessage = (event) => {
-			const { action, payload } = event.data;
-
 			if (defaultOnMessage) {
 				defaultOnMessage.call(searchWorker, event);
 			}
 
-			if (action === WORKER_STATUS.READY) {
-				postSearchMessage();
-			} else if (action === WORKER_STATUS.RESULTS) {
-				searchResults = { query: payload.query, results: payload.results };
-				isSearching = false;
+			const { action, payload } = event.data;
+
+			switch (action) {
+				case WORKER_STATUS.READY:
+					postSearchMessage();
+					break;
+				case WORKER_STATUS.RESULTS:
+					searchResults = { query: payload.query, results: payload.results };
+					isSearching = false;
+					break;
 			}
 		};
 	}
@@ -183,6 +195,19 @@
 	function handlePageChange(page: number) {
 		searchParams.page = page;
 		postSearchMessage();
+	}
+
+	function handleConjunctionChange() {
+		const config = $state.snapshot(searchConfig[dataSource]);
+
+		for (const key in conjunctions) {
+			config.aggregations[key].conjunction = conjunctions[key];
+		}
+
+		searchWorker.postMessage({
+			action: 'load',
+			payload: { basePath: base, dataSource, config, reload: true }
+		});
 	}
 
 	function handleSearchFiltersChange() {
@@ -285,10 +310,13 @@
 	show={showSearch}
 	bind:searchFilters
 	{searchAggregations}
+	bind:conjunctions
 	{searchConfig}
 	{dataSource}
+	{isLoading}
 	onClose={() => (showSearch = false)}
 	onFiltersChange={handleSearchFiltersChange}
+	onConjunctionChange={handleConjunctionChange}
 />
 
 <style>
