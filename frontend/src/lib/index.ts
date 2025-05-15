@@ -15,7 +15,8 @@ const searchAggregations = {
 		title: 'Type',
 		hide_zero_doc_count: true,
 		size: 2,
-		sort: 'key'
+		sort: 'key',
+		conjunction: false
 	},
 	releaseYear: {
 		title: 'Release year',
@@ -28,103 +29,120 @@ const searchAggregations = {
 		title: 'Release type',
 		hide_zero_doc_count: true,
 		size: 5,
-		sort: 'key'
+		sort: 'key',
+		conjunction: false
 	},
 	filmType: {
 		title: 'Film type',
 		hide_zero_doc_count: true,
 		size: 5,
-		sort: 'key'
+		sort: 'key',
+		conjunction: false
 	},
 	genre: {
 		title: 'Genre',
 		hide_zero_doc_count: true,
 		size: 100,
-		sort: 'key'
+		sort: 'key',
+		conjunction: false
 	},
 	productionCountry: {
 		title: 'Production country',
 		hide_zero_doc_count: true,
 		size: 100,
-		sort: 'key'
+		sort: 'key',
+		conjunction: false
 	},
 	productionShare: {
 		title: 'Production share',
 		hide_zero_doc_count: true,
 		size: 5,
-		sort: 'key'
+		sort: 'key',
+		conjunction: false
 	},
 	role: {
 		title: 'Role',
 		hide_zero_doc_count: true,
 		size: 100,
-		sort: 'key'
+		sort: 'key',
+		conjunction: false
 	},
 	gender: {
 		title: 'Person gender',
 		hide_zero_doc_count: true,
 		size: 10,
-		sort: 'key'
+		sort: 'key',
+		conjunction: false
 	},
 	nationality: {
 		title: 'Person nationality',
 		hide_zero_doc_count: true,
 		size: 300,
-		sort: 'key'
+		sort: 'key',
+		conjunction: false
 	},
 	tags: {
 		title: 'Tags',
 		hide_zero_doc_count: true,
 		size: 500,
-		sort: 'key'
+		sort: 'key',
+		conjunction: false
 	},
 	characterAge: {
 		title: 'Character age',
 		hide_zero_doc_count: true,
 		size: 10,
-		sort: 'key'
+		sort: 'key',
+		conjunction: false
 	},
 	characterGender: {
 		title: 'Character gender',
 		hide_zero_doc_count: true,
 		size: 10,
-		sort: 'key'
+		sort: 'key',
+		conjunction: false
 	},
 	characterSexuality: {
 		title: 'Character sexuality',
 		hide_zero_doc_count: true,
 		size: 10,
-		sort: 'key'
+		sort: 'key',
+		conjunction: false
 	},
 	characterOrigin: {
 		title: 'Character origin',
 		hide_zero_doc_count: true,
 		size: 50,
-		sort: 'key'
+		sort: 'key',
+		conjunction: false
 	},
 	characterClass: {
 		title: 'Character class',
 		hide_zero_doc_count: true,
 		size: 20,
-		sort: 'key'
+		sort: 'key',
+		conjunction: false
 	},
 	characterProfession: {
 		title: 'Character profession',
 		hide_zero_doc_count: true,
 		size: 10,
-		sort: 'key'
+		sort: 'key',
+		conjunction: false
 	},
 	characterAbility: {
 		title: 'Character ability',
 		hide_zero_doc_count: true,
 		size: 10,
-		sort: 'key'
+		sort: 'key',
+		conjunction: false
 	},
 	assistedMobility: {
 		title: 'Assisted mobility',
 		hide_zero_doc_count: true,
 		size: 10,
-		sort: 'key'
+		sort: 'key',
+		conjunction: false
 	}
 };
 

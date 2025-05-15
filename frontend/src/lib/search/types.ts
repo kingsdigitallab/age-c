@@ -7,6 +7,7 @@ type Sorting = {
 };
 
 type SearchAggregation = {
+	conjunction: boolean;
 	title: string;
 	hide_zero_doc_count: boolean;
 	size: number;
