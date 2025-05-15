@@ -17,6 +17,14 @@ export function initSearchEngine(
 	searchEngines[dataSource] = itemsjs(data, config);
 }
 
+export function reloadSearchEngine(
+	dataSource: SearchEngineKey,
+	data: Item[],
+	config: Record<string, unknown>
+) {
+	searchEngines[dataSource] = itemsjs(data, config);
+}
+
 export function search({
 	dataSource,
 	query,
