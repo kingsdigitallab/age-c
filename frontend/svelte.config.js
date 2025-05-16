@@ -3,10 +3,10 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 const mdsvexOptions = {
-	extensions: ['.svx'],
-	layout: {
-		_: './src/lib/mdsvex/BaseLayout.svelte'
-	},
+	extensions: ['.md', '.svx'],
+	// layout: {
+	// 	_: './src/lib/mdsvex/BaseLayout.svelte'
+	// },
 	smartypants: true
 };
 
@@ -20,7 +20,7 @@ const config = {
 			handleMissingId: 'ignore'
 		}
 	},
-	extensions: ['.svelte', '.svx']
+	extensions: ['.svelte', ...mdsvexOptions.extensions]
 };
 
 export default config;

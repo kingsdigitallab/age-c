@@ -1,3 +1,10 @@
+interface Page {
+	title: string;
+	excerpt: string;
+	tags: string[];
+	content: string;
+}
+
 export interface Director {
 	id: string;
 	slug: string;
