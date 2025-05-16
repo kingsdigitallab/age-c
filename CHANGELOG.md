@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v0.9.0 (2025-05-16)
+
+### Feat
+
+- **search**: Add dynamic title support to FacetDistributionPlot component
+
+### Fix
+
+- **data**: Update field keys for automatic data extraction
+
+### Refactor
+
+- **search**: Update facet titles for clarity and consistency
+- **search**: Restructure visualisation section
+- **search**: Show filters/search side by side on larger screens
+- **search**: Do not disable the show filters button
+- **search**: Rename search-related classes and variables for consistency
+
 ## v0.8.0 (2025-05-15)
 
 ### Feat
