@@ -2,6 +2,7 @@
 title: About
 excerpt: This is the about page.
 tags:
+  - age-c
   - about
   - project
   - age

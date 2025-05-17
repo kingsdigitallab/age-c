@@ -1,7 +1,8 @@
 ---
 title: Glossary of Tags and Terms
-excerpt: A glossary of tags and terms used in the dataset.
+excerpt: A glossary of tags and terms used in the AGE-C dataset.
 tags:
+  - age-c
   - glossary
   - dataset
   - tags
