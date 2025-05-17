@@ -15,6 +15,12 @@
 	const { data, children }: { data: PageProps; children: Snippet } = $props();
 	const { searchWorker } = data;
 
+	const headTitle = $derived(
+		page.data.title ? `${config.siteName} | ${page.data.title}` : config.siteName
+	);
+	const headDescription = $derived(page.data.excerpt ? page.data.excerpt : config.siteDescription);
+	const headKeywords = $derived(page.data.tags?.join(', ') ?? config.siteKeywords.join(', '));
+
 	onDestroy(() => {
 		setTimeout(() => {
 			if (searchWorker) {
@@ -25,13 +31,9 @@
 </script>
 
 <svelte:head>
-	{#if page.data.title}
-		<title>{config.siteName} | {page.data.title}</title>
-	{:else}
-		<title>{config.siteName}</title>
-	{/if}
-	<meta name="description" content={config.siteDescription} />
-	<meta name="keywords" content={config.siteKeywords.join(', ')} />
+	<title>{headTitle}</title>
+	<meta name="description" content={headDescription} />
+	<meta name="keywords" content={headKeywords} />
 </svelte:head>
 
 <header class="container">
