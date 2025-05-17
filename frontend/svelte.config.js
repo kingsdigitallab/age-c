@@ -4,9 +4,6 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 const mdsvexOptions = {
 	extensions: ['.md', '.svx'],
-	// layout: {
-	// 	_: './src/lib/mdsvex/BaseLayout.svelte'
-	// },
 	smartypants: true
 };
 
