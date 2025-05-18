@@ -1,6 +1,7 @@
 import type { SearchConfig } from './search/types';
 
 export const config = {
+	siteUrl: 'https://age-c.eu',
 	siteName: 'AGE-C',
 	siteTitle: 'Ageing and Gender in European Cinema',
 	siteDescription: 'An exploratory database of ageing and gender in European cinema',
