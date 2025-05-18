@@ -17,6 +17,7 @@ export const load: PageServerLoad = async ({ fetch, params: { slug } }) => {
 		}
 
 		return {
+			title: bio.name,
 			bio: bio as Item
 		};
 	} catch (e) {

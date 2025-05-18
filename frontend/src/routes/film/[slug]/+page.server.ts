@@ -17,6 +17,14 @@ export const load: PageServerLoad = async ({ fetch, params: { slug } }) => {
 		}
 
 		return {
+			title:
+				film.title.english && film.title.native !== film.title.english
+					? `${film.title.native} (${film.title.english})`
+					: film.title.native,
+			excerpt: film.synopsis?.english
+				? `${film.synopsis.native} (${film.synopsis.english})`
+				: film.synopsis?.native,
+			tags: film?.tags ?? [],
 			film
 		};
 	} catch (e) {
