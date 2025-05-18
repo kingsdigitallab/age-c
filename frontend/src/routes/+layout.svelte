@@ -19,7 +19,7 @@
 		page.data.title ? `${config.siteName} | ${page.data.title}` : config.siteName
 	);
 	const headDescription = $derived(page.data.excerpt ? page.data.excerpt : config.siteDescription);
-	const headKeywords = $derived(page.data.tags?.join(', ') ?? config.siteKeywords.join(', '));
+	const headKeywords = $derived(page.data?.tags?.join(', ') ?? config.siteKeywords.join(', '));
 
 	onDestroy(() => {
 		setTimeout(() => {
@@ -34,6 +34,7 @@
 	<title>{headTitle}</title>
 	<meta name="description" content={headDescription} />
 	<meta name="keywords" content={headKeywords} />
+	<link rel="canonical" href={`${base}${page.url.pathname}`} />
 </svelte:head>
 
 <header class="container">
