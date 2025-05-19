@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v0.10.0 (2025-05-19)
+
+### Feat
+
+- **routes**: Add sitemap.xml route
+- **config**: Add site URL
+
+### Refactor
+
+- **routes**: Add data for SEO to the film and bio routes
+- **layout**: Improve SEO by adding canonical link and fixing keyword handling
+- **layout**: Enhance SEO metadata handling with derived properties for title, description, and keywords
+- **mdsvex**: Remove deprecated layout configuration
+- **routes**: Migrate dynamic page loading to new structure
+- **markdown**: Simplify markdown content editing
+
 ## v0.9.0 (2025-05-16)
 
 ### Feat

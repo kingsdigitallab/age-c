@@ -5,6 +5,8 @@ import { entries as filmEntries } from '../film/[slug]/+page.server';
 import * as sitemap from 'super-sitemap';
 import type { RequestHandler } from './$types';
 
+export const prerender = true;
+
 export const GET: RequestHandler = async () => {
 	const bioSlugs = await bioEntries();
 	const filmSlugs = await filmEntries();
