@@ -19,12 +19,15 @@
 		onSortByChange: (e: Event) => void;
 	} = $props();
 
-	const areFiltersDisabled = $derived(isLoading || isSearching || showSearch);
 	const isSortByDisabled = $derived(isLoading || isSearching);
 </script>
 
 <section class="skij-controls">
-	<button onclick={onToggleFilters} aria-label="{showSearch ? 'Hide' : 'Show'} search filters">
+	<button
+		id="skij-toggle-filters-button"
+		onclick={onToggleFilters}
+		aria-label="{showSearch ? 'Hide' : 'Show'} search filters"
+	>
 		Filters ({searchFiltersCount})
 	</button>
 	<select
