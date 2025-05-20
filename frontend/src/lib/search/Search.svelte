@@ -159,6 +159,12 @@
 
 	function handleToggleSearch() {
 		showSearch = !showSearch;
+
+		if (showSearch) {
+			setTimeout(() => {
+				document.getElementById('skij-close-filters-button')?.focus();
+			}, 100);
+		}
 	}
 
 	function handleSearch(e: Event) {
@@ -267,6 +273,17 @@
 			onReset={handleReset}
 		/>
 
+		<SearchControlsComponent
+			{isLoading}
+			{isSearching}
+			{showSearch}
+			{searchFiltersCount}
+			sortOptions={searchSortOptions}
+			bind:sortBy={searchParams.sort}
+			onToggleFilters={handleToggleSearch}
+			onSortByChange={handleSortByChange}
+		/>
+
 		{#if distributionFacets && !isLoading}
 			<section>
 				{#if selectedDistributionFacet}
@@ -297,17 +314,6 @@
 				</fieldset>
 			</section>
 		{/if}
-
-		<SearchControlsComponent
-			{isLoading}
-			{isSearching}
-			{showSearch}
-			{searchFiltersCount}
-			sortOptions={searchSortOptions}
-			bind:sortBy={searchParams.sort}
-			onToggleFilters={handleToggleSearch}
-			onSortByChange={handleSortByChange}
-		/>
 
 		<SearchResultsComponent
 			{isLoading}
