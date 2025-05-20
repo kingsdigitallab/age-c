@@ -72,10 +72,15 @@
 </script>
 
 {#if show}
-	<aside tabindex="-1" transition:slide={{ axis: 'x' }}>
+	<aside transition:slide={{ axis: 'x' }}>
 		<h2>Filters</h2>
 
-		<button class="skij-close-filters-button" aria-label="Close search filters" onclick={onClose}>
+		<button
+			class="skij-close-filters-button"
+			id="skij-close-filters-button"
+			aria-label="Close search filters"
+			onclick={onClose}
+		>
 			<span aria-hidden="true">&times;</span>
 		</button>
 
