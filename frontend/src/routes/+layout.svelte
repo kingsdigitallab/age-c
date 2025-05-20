@@ -66,6 +66,9 @@
 	<nav aria-label="Footer navigation">
 		<ul>
 			<li><small>{config.siteName}</small></li>
+			<li>
+				<small><a href={`${base}/accessibility-statement`}>Accessibility statement</a></small>
+			</li>
 		</ul>
 		<ul>
 			<li><small><a href={config.repoUrl}>GitHub</a></small></li>
