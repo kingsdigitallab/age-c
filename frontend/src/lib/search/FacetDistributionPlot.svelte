@@ -5,31 +5,42 @@
 	import pluralize from 'pluralize-esm';
 
 	const {
-		data = [],
-		title = 'Distribution',
-		dynamicTitle = undefined,
-		x,
-		y,
-		xLabel = 'x',
-		yLabel = 'y',
+		isLoading,
+		distributionFacets,
+		searchAggregations,
+		searchConfig,
+		dataSource,
 		height = 200
 	}: {
-		data: { key: string; doc_count: number }[];
-		title?: string;
-		dynamicTitle?: (count: number) => string;
-		x: string;
-		y: string;
-		xLabel?: string;
-		yLabel?: string;
+		isLoading: boolean;
+		distributionFacets: {
+			facet: string;
+			title: string;
+			dynamicTitle?: (count: number) => string;
+		}[];
+		searchAggregations: Record<string, { buckets: { key: string; doc_count: number }[] }>;
+		searchConfig: Record<string, { aggregations: Record<string, { title: string }> }>;
+		dataSource: string;
 		height?: number;
 	} = $props();
 
 	let innerWidth = $state(0);
 
+	let selectedDistributionFacet = $state(distributionFacets?.[0]?.facet);
 	let showTable = $state(false);
 
+	const data = $derived(searchAggregations[selectedDistributionFacet]?.buckets || []);
+
+	const title = $derived(
+		distributionFacets.find((facet) => facet.facet === selectedDistributionFacet)?.title
+	);
+	const dynamicTitle = $derived(
+		distributionFacets.find((facet) => facet.facet === selectedDistributionFacet)?.dynamicTitle
+	);
 	const visTitle = $derived(dynamicTitle?.(data.length) || title);
 
+	const x = 'key';
+	const xLabel = $derived(searchConfig[dataSource].aggregations[selectedDistributionFacet].title);
 	const xField = $derived((_: GenericDataRecord, i: number) => i);
 	const xDomain = $derived<[number, number]>([0, data.length - 1]);
 	const categories = $derived(
@@ -39,6 +50,8 @@
 	const tickFormat = $derived((tick: number) => categories[tick] || '');
 	const tickValues = $derived(Array.from({ length: categories.length }, (_, i) => i));
 
+	const y = 'doc_count';
+	const yLabel = 'Count';
 	const yField = $derived((d: GenericDataRecord) => d[y]);
 
 	const triggers = $derived({
@@ -75,47 +88,63 @@
 
 <svelte:window bind:innerWidth />
 
-<section>
-	<hgroup>
-		<h3>{visTitle}</h3>
-		<p>{ariaLabel}</p>
-	</hgroup>
+<article>
+	<h3>Visualisations</h3>
+	{#if isLoading}
+		<p aria-busy="true">Loading...</p>
+	{:else}
+		<fieldset>
+			<label>
+				Choose what to plot
+				<select name="distribution-facet" bind:value={selectedDistributionFacet}>
+					{#each distributionFacets as facet}
+						<option value={facet.facet}>{facet.title}</option>
+					{/each}
+				</select>
+			</label>
+		</fieldset>
 
-	<section>
+		<hgroup>
+			<h3>{visTitle}</h3>
+			<p>{ariaLabel}</p>
+		</hgroup>
+
 		<button class="outline" onclick={() => (showTable = !showTable)} aria-pressed={showTable}>
 			{showTable ? 'Show chart' : 'Show data used to plot chart'}
 		</button>
-	</section>
 
-	{#if showTable}
-		<table class="striped">
-			<thead>
-				<tr>
-					<th>{xLabel}</th>
-					<th>{yLabel}</th>
-				</tr>
-			</thead>
-			<tbody>
-				{#each data as d}
-					<tr>
-						<td>{d.key}</td>
-						<td>{d.doc_count.toLocaleString()}</td>
-					</tr>
-				{/each}
-			</tbody>
-		</table>
-	{:else}
-		<VisXYContainer
-			{data}
-			{height}
-			{xDomain}
-			preventEmptyDomain={false}
-			ariaLabel={`Visualisation displaying ${visTitle.toLowerCase()}. ${ariaLabel}`}
-		>
-			<VisGroupedBar x={xField} y={yField} dataStep={1} groupPadding={0.25} />
-			<VisAxis type="x" label={xLabel} gridLine={false} {numTicks} {tickFormat} {tickValues} />
-			<VisAxis type="y" label={yLabel} />
-			<VisTooltip {triggers} />
-		</VisXYContainer>
+		<section>
+			{#if showTable}
+				<table class="striped">
+					<thead>
+						<tr>
+							<th>{xLabel}</th>
+							<th>{yLabel}</th>
+						</tr>
+					</thead>
+					<tbody>
+						{#each data as d}
+							<tr>
+								<td>{d.key}</td>
+								<td>{d.doc_count.toLocaleString()}</td>
+							</tr>
+						{/each}
+					</tbody>
+				</table>
+			{:else}
+				<VisXYContainer
+					{data}
+					{height}
+					{xDomain}
+					preventEmptyDomain={false}
+					ariaLabel={`Visualisation displaying ${visTitle.toLowerCase()}. ${ariaLabel}`}
+				>
+					<VisGroupedBar x={xField} y={yField} dataStep={1} groupPadding={0.25} />
+					<VisAxis type="x" label={xLabel} gridLine={false} {numTicks} {tickFormat} {tickValues} />
+					<VisAxis type="y" label={yLabel} />
+					<VisTooltip {triggers} />
+				</VisXYContainer>
+			{/if}
+		</section>
 	{/if}
-</section>
+</article>
