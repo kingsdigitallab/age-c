@@ -26,7 +26,7 @@
 		title="Explore the dataset"
 		sortBy="film_title_asc"
 		summaryFacet="type"
-		distributionFacets={[
+		dataInsightsFacets={[
 			{
 				facet: 'releaseYear',
 				title: 'Films released per year',

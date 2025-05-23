@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { WORKER_STATUS } from '$lib/search/config';
-	import FacetDistributionPlot from '$lib/search/FacetDistributionPlot.svelte';
+	import DataInsights from '$lib/search/DataInsights.svelte';
 	import pluralize from 'pluralize-esm';
 	import { onMount } from 'svelte';
 	import { queryParameters, ssp } from 'sveltekit-search-params';
@@ -23,11 +23,11 @@
 		title,
 		sortBy,
 		summaryFacet,
-		distributionFacets,
+		dataInsightsFacets,
 		SearchShortcutsComponent = SearchShortcuts,
 		SearchStatusComponent = SearchStatus,
 		SearchInputComponent = SearchInput,
-		SearchFacetDistributionPlotComponent = FacetDistributionPlot,
+		DataInsightsComponent = DataInsights,
 		SearchFiltersComponent = SearchFilters,
 		SearchControlsComponent = SearchControls,
 		SearchResultsComponent = SearchResults,
@@ -41,7 +41,7 @@
 		title: string;
 		sortBy?: string;
 		summaryFacet?: string;
-		distributionFacets?: {
+		dataInsightsFacets?: {
 			facet: string;
 			title: string;
 			dynamicTitle?: (count: number) => string;
@@ -49,7 +49,7 @@
 		SearchShortcutsComponent?: typeof SearchShortcuts;
 		SearchStatusComponent?: typeof SearchStatus;
 		SearchInputComponent?: typeof SearchInput;
-		SearchFacetDistributionPlotComponent?: typeof FacetDistributionPlot;
+		DataInsightsComponent?: typeof DataInsights;
 		SearchFiltersComponent?: typeof SearchFilters;
 		SearchControlsComponent?: typeof SearchControls;
 		SearchResultsComponent?: typeof SearchResults;
@@ -279,10 +279,10 @@
 			onSortByChange={handleSortByChange}
 		/>
 
-		{#if distributionFacets}
-			<SearchFacetDistributionPlotComponent
+		{#if dataInsightsFacets}
+			<DataInsightsComponent
 				{isLoading}
-				{distributionFacets}
+				facets={dataInsightsFacets}
 				{searchAggregations}
 				{searchConfig}
 				{dataSource}
