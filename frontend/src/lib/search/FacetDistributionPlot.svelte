@@ -9,8 +9,7 @@
 		distributionFacets,
 		searchAggregations,
 		searchConfig,
-		dataSource,
-		height = 400
+		dataSource
 	}: {
 		isLoading: boolean;
 		distributionFacets: {
@@ -21,13 +20,9 @@
 		searchAggregations: Record<string, { buckets: { key: string; doc_count: number }[] }>;
 		searchConfig: Record<string, { aggregations: Record<string, { title: string }> }>;
 		dataSource: string;
-		height?: number;
 	} = $props();
 
-	let innerWidth = $state(0);
-
 	let selectedDistributionFacet = $state(distributionFacets?.[0]?.facet);
-	let showTable = $state(false);
 
 	const data = $derived(searchAggregations[selectedDistributionFacet]?.buckets || []);
 
@@ -38,6 +33,8 @@
 		distributionFacets.find((facet) => facet.facet === selectedDistributionFacet)?.dynamicTitle
 	);
 	const visTitle = $derived(dynamicTitle?.(data.length) || title);
+
+	let height = $state(300);
 
 	const categoryLabel = $derived(
 		searchConfig[dataSource].aggregations[selectedDistributionFacet].title
@@ -90,10 +87,11 @@
 	}
 </script>
 
-<svelte:window bind:innerWidth />
-
 <article>
-	<h3>Visualisations</h3>
+	<header>
+		<h3>Visualisations</h3>
+	</header>
+
 	{#if isLoading}
 		<p aria-busy="true">Loading...</p>
 	{:else}
@@ -114,13 +112,48 @@
 				<p>{ariaLabel}</p>
 			</hgroup>
 
-			<button class="outline" onclick={() => (showTable = !showTable)} aria-pressed={showTable}>
-				{showTable ? 'Show chart' : 'Show data used to plot chart'}
-			</button>
+			<label>
+				Chart height ({height}px)
+				<input
+					type="range"
+					min="200"
+					max="600"
+					bind:value={height}
+					aria-label="Adjust chart height"
+				/>
+				<small>Move the slider to adjust the height of the chart</small>
+			</label>
+
+			<VisXYContainer
+				{data}
+				{height}
+				yDomain={domain}
+				preventEmptyDomain={false}
+				ariaLabel={`Visualisation displaying ${visTitle?.toLowerCase()}. ${ariaLabel}`}
+			>
+				<VisGroupedBar
+					x={categoryValue}
+					y={countValue}
+					dataStep={1}
+					groupPadding={0.25}
+					orientation="horizontal"
+				/>
+				<VisAxis type="x" label={countLabel} />
+				<VisAxis
+					type="y"
+					label={categoryLabel}
+					gridLine={false}
+					{numTicks}
+					{tickFormat}
+					{tickValues}
+				/>
+				<VisTooltip {triggers} />
+			</VisXYContainer>
 		</section>
 
-		<section>
-			{#if showTable}
+		<footer>
+			<details>
+				<summary>Expand to show data used to plot the chart</summary>
 				<table class="striped">
 					<thead>
 						<tr>
@@ -137,33 +170,7 @@
 						{/each}
 					</tbody>
 				</table>
-			{:else}
-				<VisXYContainer
-					{data}
-					{height}
-					yDomain={domain}
-					preventEmptyDomain={false}
-					ariaLabel={`Visualisation displaying ${visTitle?.toLowerCase()}. ${ariaLabel}`}
-				>
-					<VisGroupedBar
-						x={categoryValue}
-						y={countValue}
-						dataStep={1}
-						groupPadding={0.25}
-						orientation="horizontal"
-					/>
-					<VisAxis type="x" label={countLabel} />
-					<VisAxis
-						type="y"
-						label={categoryLabel}
-						gridLine={false}
-						{numTicks}
-						{tickFormat}
-						{tickValues}
-					/>
-					<VisTooltip {triggers} />
-				</VisXYContainer>
-			{/if}
-		</section>
+			</details>
+		</footer>
 	{/if}
 </article>
