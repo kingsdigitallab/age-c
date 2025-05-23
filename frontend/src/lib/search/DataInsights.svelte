@@ -5,14 +5,16 @@
 	import pluralize from 'pluralize-esm';
 
 	const {
+		title = 'Data insights',
 		isLoading,
-		distributionFacets,
+		facets,
 		searchAggregations,
 		searchConfig,
 		dataSource
 	}: {
+		title?: string;
 		isLoading: boolean;
-		distributionFacets: {
+		facets: {
 			facet: string;
 			title: string;
 			dynamicTitle?: (count: number) => string;
@@ -22,23 +24,19 @@
 		dataSource: string;
 	} = $props();
 
-	let selectedDistributionFacet = $state(distributionFacets?.[0]?.facet);
+	let selectedFacet = $state(facets?.[0]?.facet);
 
-	const data = $derived(searchAggregations[selectedDistributionFacet]?.buckets || []);
+	const data = $derived(searchAggregations[selectedFacet]?.buckets || []);
 
-	const title = $derived(
-		distributionFacets.find((facet) => facet.facet === selectedDistributionFacet)?.title
+	const staticTitle = $derived(facets.find((facet) => facet.facet === selectedFacet)?.title);
+	const dynamicTitleFn = $derived(
+		facets.find((facet) => facet.facet === selectedFacet)?.dynamicTitle
 	);
-	const dynamicTitle = $derived(
-		distributionFacets.find((facet) => facet.facet === selectedDistributionFacet)?.dynamicTitle
-	);
-	const visTitle = $derived(dynamicTitle?.(data.length) || title);
+	const visTitle = $derived(dynamicTitleFn?.(data.length) || staticTitle);
 
 	let height = $state(300);
 
-	const categoryLabel = $derived(
-		searchConfig[dataSource].aggregations[selectedDistributionFacet].title
-	);
+	const categoryLabel = $derived(searchConfig[dataSource].aggregations[selectedFacet].title);
 	const categoryValue = $derived((_: GenericDataRecord, i: number) => i);
 	const categories = $derived(
 		data.map((d) => d.key.replaceAll('<', '&lt;').replaceAll('>', '&gt;'))
@@ -89,7 +87,7 @@
 
 <article>
 	<header>
-		<h3>Visualisations</h3>
+		<h3>{title}</h3>
 	</header>
 
 	{#if isLoading}
@@ -99,8 +97,8 @@
 			<fieldset>
 				<label>
 					Choose what to plot
-					<select name="distribution-facet" bind:value={selectedDistributionFacet}>
-						{#each distributionFacets as facet}
+					<select name="distribution-facet" bind:value={selectedFacet}>
+						{#each facets as facet}
 							<option value={facet.facet}>{facet.title}</option>
 						{/each}
 					</select>
