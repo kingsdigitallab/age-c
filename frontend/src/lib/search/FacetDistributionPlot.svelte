@@ -137,7 +137,7 @@
 					{height}
 					{xDomain}
 					preventEmptyDomain={false}
-					ariaLabel={`Visualisation displaying ${visTitle.toLowerCase()}. ${ariaLabel}`}
+					ariaLabel={`Visualisation displaying ${visTitle?.toLowerCase()}. ${ariaLabel}`}
 				>
 					<VisGroupedBar x={xField} y={yField} dataStep={1} groupPadding={0.25} />
 					<VisAxis type="x" label={xLabel} gridLine={false} {numTicks} {tickFormat} {tickValues} />
