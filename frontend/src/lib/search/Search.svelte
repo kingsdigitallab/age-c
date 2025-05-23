@@ -104,11 +104,6 @@
 
 	const summaryStats = $derived(summaryFacet ? searchAggregations[summaryFacet] : null);
 
-	let selectedDistributionFacet = $state(distributionFacets?.[0]?.facet);
-	const distributionStats = $derived(
-		selectedDistributionFacet ? searchAggregations[selectedDistributionFacet]?.buckets : null
-	);
-
 	onMount(() => {
 		if (searchParams.filters) {
 			searchFilters = searchParams.filters;
@@ -284,35 +279,14 @@
 			onSortByChange={handleSortByChange}
 		/>
 
-		{#if distributionFacets && !isLoading}
-			<section>
-				{#if selectedDistributionFacet}
-					{#key distributionStats}
-						<SearchFacetDistributionPlotComponent
-							title={distributionFacets.find((facet) => facet.facet === selectedDistributionFacet)
-								?.title}
-							dynamicTitle={distributionFacets.find(
-								(facet) => facet.facet === selectedDistributionFacet
-							)?.dynamicTitle}
-							data={distributionStats}
-							x="key"
-							y="doc_count"
-							xLabel={searchConfig[dataSource].aggregations[selectedDistributionFacet].title}
-							yLabel="Count"
-						/>
-					{/key}
-				{/if}
-				<fieldset>
-					<label>
-						Choose what to visualise
-						<select name="distribution-facet" bind:value={selectedDistributionFacet}>
-							{#each distributionFacets as facet}
-								<option value={facet.facet}>{facet.title}</option>
-							{/each}
-						</select>
-					</label>
-				</fieldset>
-			</section>
+		{#if distributionFacets}
+			<SearchFacetDistributionPlotComponent
+				{isLoading}
+				{distributionFacets}
+				{searchAggregations}
+				{searchConfig}
+				{dataSource}
+			/>
 		{/if}
 
 		<SearchResultsComponent
