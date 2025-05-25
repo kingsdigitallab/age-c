@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { dev } from '$app/environment';
+	import type { Item } from '$lib/types';
 	import {
 		VisAxis,
 		VisBulletLegend,
@@ -8,9 +9,9 @@
 		VisXYContainer
 	} from '@unovis/svelte';
 	import { StackedBar } from '@unovis/ts';
-	import pluralize from 'pluralize-esm';
-	import type { Item } from '$lib/types';
 	import type { GenericDataRecord } from '@unovis/ts/types';
+	import type { Bucket } from './dataTransforms';
+	import { generateAriaLabel, getData } from './dataTransforms';
 
 	const {
 		title = 'Data insights',
@@ -29,14 +30,14 @@
 			dynamicTitle?: (count: number) => string;
 		}[];
 		searchItems?: Item[];
-		searchAggregations: Record<string, { buckets: { key: string; doc_count: number }[] }>;
+		searchAggregations: Record<string, { buckets: Bucket[] }>;
 		searchConfig: Record<string, { aggregations: Record<string, { title: string }> }>;
 		dataSource: string;
 	} = $props();
 
 	let selectedFacet = $state(facets?.[0]?.facet);
 
-	let groupByFacets = $derived([
+	const groupByFacets = $derived([
 		{ facet: '', title: 'None' },
 		...Object.entries(searchConfig[dataSource].aggregations)
 			.filter(([key, _]) => key !== selectedFacet)
@@ -51,84 +52,15 @@
 		searchAggregations[selectedGroupByFacet]?.buckets || []
 	);
 
-	const data = $derived(getData());
-
-	function getData() {
-		let data = searchAggregations[selectedFacet]?.buckets || [];
-
-		if (selectedGroupByFacet) {
-			const groupTotals = Object.fromEntries(selectedGroupByFacetValues.map((g) => [g.key, 0]));
-
-			data = data.map((d) => {
-				const items = searchItems?.filter((item) => {
-					const facetValue = item[selectedFacet as keyof Item];
-
-					if (Array.isArray(facetValue)) {
-						return (
-							facetValue?.includes(d.key) ||
-							facetValue?.includes(Number.parseInt(d.key)) ||
-							facetValue?.includes(Number.parseFloat(d.key))
-						);
-					}
-
-					if (typeof facetValue === 'number') {
-						return facetValue === Number.parseInt(d.key);
-					}
-
-					return facetValue === d.key;
-				});
-
-				const groupCounts = selectedGroupByFacetValues.map((g) => {
-					const doc_count =
-						items?.filter((item) => {
-							const facetValue = item[selectedGroupByFacet as keyof Item];
-							if (Array.isArray(facetValue)) {
-								return (
-									facetValue?.includes(g.key) ||
-									facetValue?.includes(Number.parseInt(g.key)) ||
-									facetValue?.includes(Number.parseFloat(g.key))
-								);
-							}
-
-							if (typeof facetValue === 'number') {
-								return facetValue === Number.parseInt(g.key);
-							}
-
-							return facetValue === g.key;
-						}).length || 0;
-
-					return { key: g.key, doc_count };
-				});
-
-				const result = {
-					...d,
-					...groupCounts.reduce(
-						(acc, group) => {
-							acc[group.key] = group.doc_count;
-							groupTotals[group.key] += group.doc_count;
-							return acc;
-						},
-						{} as Record<string, number>
-					)
-				};
-
-				return result;
-			});
-
-			const filteredData = data.filter((d) => {
-				for (const key in selectedGroupByFacetValues.map((g) => g.key)) {
-					if (groupTotals?.[key] === 0) {
-						return false;
-					}
-				}
-				return true;
-			});
-
-			return filteredData;
-		}
-
-		return data;
-	}
+	const data = $derived(
+		getData({
+			selectedFacet,
+			selectedGroupByFacet,
+			searchItems,
+			searchAggregations,
+			selectedGroupByFacetValues
+		})
+	);
 
 	const staticTitle = $derived(facets.find((facet) => facet.facet === selectedFacet)?.title);
 	const dynamicTitleFn = $derived(
@@ -157,46 +89,21 @@
 		if (selectedGroupByFacet) {
 			const values = selectedGroupByFacetValues.map((g) => {
 				const key = g.key;
-				return (d: GenericDataRecord) => {
-					const value = d[key] || 0;
+				return (d: Bucket) => {
+					const value = (d[key] as number) || 0;
 					return value;
 				};
 			});
 			return values;
 		}
 
-		return (d: GenericDataRecord) => d.doc_count as number;
+		return (d: Bucket) => d.doc_count;
 	}
 
-	const ariaLabel = $derived(generateAriaLabel());
-
-	function generateAriaLabel() {
-		let label = '';
-
-		if (data.length === 0) {
-			return 'No data!';
-		}
-
-		const totalItems = data.reduce((sum, d) => sum + d.doc_count, 0);
-
-		const maxCategory = data.reduce(
-			(max, curr) => (curr.doc_count > max.doc_count ? curr : max),
-			data[0]
-		);
-		const minCategory = data.reduce(
-			(min, curr) => (curr.doc_count < min.doc_count ? curr : min),
-			data[0]
-		);
-
-		label = `There are ${totalItems.toLocaleString()} total items across ${data.length} ${pluralize(categoryLabel.toLowerCase(), data.length)}.`;
-		label = `${label} Highest count is ${maxCategory.doc_count.toLocaleString()} ${pluralize('item', maxCategory.doc_count)} for ${maxCategory.key},`;
-		label = `${label} lowest is ${minCategory.doc_count.toLocaleString()} ${pluralize('item', minCategory.doc_count)} for ${minCategory.key}.`;
-
-		return label;
-	}
+	const ariaLabel = $derived(generateAriaLabel({ data, categoryLabel }));
 
 	const filteredGroupByFacetValues = $derived(
-		selectedGroupByFacetValues.filter((g) => data.some((d) => d[g.key] > 0))
+		selectedGroupByFacetValues.filter((g) => data.some((d) => (d[g.key] as number) > 0))
 	);
 
 	const legendItems = $derived(
@@ -208,10 +115,10 @@
 
 	// Tooltips
 	const triggers = $derived({
-		[StackedBar.selectors.bar]: (d: GenericDataRecord) => {
+		[StackedBar.selectors.bar]: (d: Bucket) => {
 			if (selectedGroupByFacet) {
 				return filteredGroupByFacetValues
-					.map((g) => `${g.key}: ${d[g.key]?.toLocaleString() || 0}`)
+					.map((g) => `${g.key}: ${(d[g.key] as number)?.toLocaleString() || 0}`)
 					.join('<br>');
 			}
 
