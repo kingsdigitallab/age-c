@@ -27,5 +27,13 @@ addEventListener('message', async (event) => {
 			postMessage({ action: WORKER_STATUS.RESULTS, payload: { query: payload.query, results } });
 			break;
 		}
+		case WORKER_STATUS.INSIGHTS: {
+			const results = search(payload);
+			postMessage({
+				action: WORKER_STATUS.INSIGHTS_RESULTS,
+				payload: { query: payload.query, results }
+			});
+			break;
+		}
 	}
 });
