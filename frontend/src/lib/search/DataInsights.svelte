@@ -3,11 +3,13 @@
 	import { GroupedBar } from '@unovis/ts';
 	import type { GenericDataRecord } from '@unovis/ts/types';
 	import pluralize from 'pluralize-esm';
+	import type { Item } from '$lib/types';
 
 	const {
 		title = 'Data insights',
 		isLoading,
 		facets,
+		searchItems = undefined,
 		searchAggregations,
 		searchConfig,
 		dataSource
@@ -19,6 +21,7 @@
 			title: string;
 			dynamicTitle?: (count: number) => string;
 		}[];
+		searchItems?: Item[];
 		searchAggregations: Record<string, { buckets: { key: string; doc_count: number }[] }>;
 		searchConfig: Record<string, { aggregations: Record<string, { title: string }> }>;
 		dataSource: string;
@@ -27,6 +30,10 @@
 	let selectedFacet = $state(facets?.[0]?.facet);
 
 	const data = $derived(searchAggregations[selectedFacet]?.buckets || []);
+
+	if (searchItems) {
+		true;
+	}
 
 	const staticTitle = $derived(facets.find((facet) => facet.facet === selectedFacet)?.title);
 	const dynamicTitleFn = $derived(
