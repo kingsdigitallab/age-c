@@ -4,5 +4,7 @@ export const WORKER_STATUS = {
 	READY: 'ready',
 	SEARCH: 'search',
 	RESULTS: 'results',
+	INSIGHTS: 'insights',
+	INSIGHTS_RESULTS: 'insights_results',
 	ERROR: 'error'
 };
