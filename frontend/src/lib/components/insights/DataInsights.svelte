@@ -136,7 +136,7 @@
 	);
 	const visTitle = $derived(dynamicTitleFn?.(data.length) || staticTitle);
 
-	let height = $state(300);
+	let height = $state(350);
 
 	const categoryLabel = $derived(searchConfig[dataSource].aggregations[selectedFacet].title);
 	const categoryValue = $derived((_: GenericDataRecord, i: number) => i);
@@ -206,6 +206,7 @@
 		}))
 	);
 
+	// Tooltips
 	const triggers = $derived({
 		[StackedBar.selectors.bar]: (d: GenericDataRecord) => {
 			if (selectedGroupByFacet) {
@@ -261,17 +262,19 @@
 				<p>{ariaLabel}</p>
 			</hgroup>
 
-			<label>
-				Chart height ({height}px)
-				<input
-					type="range"
-					min="200"
-					max="600"
-					bind:value={height}
-					aria-label="Adjust chart height"
-				/>
-				<small>Move the slider to adjust the height of the chart</small>
-			</label>
+			{#if dev}
+				<label>
+					Chart height ({height}px)
+					<input
+						type="range"
+						min="200"
+						max="600"
+						bind:value={height}
+						aria-label="Adjust chart height"
+					/>
+					<small>Move the slider to adjust the height of the chart</small>
+				</label>
+			{/if}
 
 			<VisXYContainer
 				{data}
