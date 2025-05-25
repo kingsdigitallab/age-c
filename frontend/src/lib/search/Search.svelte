@@ -24,6 +24,8 @@
 		sortBy,
 		summaryFacet,
 		dataInsightsFacets,
+		enableFullDataInsights = false,
+		fullDataInsightsPerPage = 1000,
 		SearchShortcutsComponent = SearchShortcuts,
 		SearchStatusComponent = SearchStatus,
 		SearchInputComponent = SearchInput,
@@ -46,6 +48,8 @@
 			title: string;
 			dynamicTitle?: (count: number) => string;
 		}[];
+		enableFullDataInsights?: boolean;
+		fullDataInsightsPerPage?: number;
 		SearchShortcutsComponent?: typeof SearchShortcuts;
 		SearchStatusComponent?: typeof SearchStatus;
 		SearchInputComponent?: typeof SearchInput;
@@ -88,7 +92,9 @@
 
 	const searchWorkerStatus = $derived(getWorkerStatus());
 	const searchWorkerError = $derived(getWorkerError());
+
 	let searchResults = $state({ query: '', results: [] });
+	let insightsResults = $state({ query: '', results: [] });
 
 	const isLoading = $derived([WORKER_STATUS.IDLE, WORKER_STATUS.LOAD].includes(searchWorkerStatus));
 	let isSearching = $state(false);
@@ -101,6 +107,8 @@
 	const searchItems = $derived(searchResults.results?.data?.items || []);
 	// @ts-ignore
 	let searchPagination = $derived(searchResults.results?.pagination || {});
+
+	const insightsItems = $derived(insightsResults.results?.data?.items || []);
 
 	const summaryStats = $derived(summaryFacet ? searchAggregations[summaryFacet] : null);
 
@@ -133,6 +141,10 @@
 					searchResults = { query: payload.query, results: payload.results };
 					isSearching = false;
 					break;
+				case WORKER_STATUS.INSIGHTS_RESULTS:
+					insightsResults = { query: payload.query, results: payload.results };
+					isSearching = false;
+					break;
 			}
 		};
 	}
@@ -149,6 +161,17 @@
 					filters: $state.snapshot(searchFilters)
 				}
 			});
+			if (enableFullDataInsights) {
+				searchWorker?.postMessage({
+					action: 'insights',
+					payload: {
+						dataSource,
+						query: searchParams.query,
+						perPage: fullDataInsightsPerPage,
+						filters: $state.snapshot(searchFilters)
+					}
+				});
+			}
 		}
 	}
 
@@ -283,6 +306,7 @@
 			<DataInsightsComponent
 				{isLoading}
 				facets={dataInsightsFacets}
+				searchItems={enableFullDataInsights ? insightsItems : undefined}
 				{searchAggregations}
 				{searchConfig}
 				{dataSource}
