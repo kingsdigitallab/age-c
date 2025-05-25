@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { config } from '$lib';
 	import { searchConfig } from '$lib/index';
-	import DataInsights from '$lib/components/DataInsights.svelte';
+	import DataInsights from '$lib/components/insights/DataInsights.svelte';
 	import SearchResultsItems from '$lib/components/SearchResultsItems.svelte';
 	import Search from '$lib/search/Search.svelte';
 	import { base } from '$app/paths';
