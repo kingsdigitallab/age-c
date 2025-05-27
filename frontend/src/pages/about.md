@@ -10,3 +10,10 @@ tags:
 ---
 
 This is the about page for the [AGE-C](https://age-c.eu) project.
+
+Place your markdown text here:
+
+# Title
+## Header 1
+### Header 2
+
