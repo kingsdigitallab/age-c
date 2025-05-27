@@ -5,6 +5,38 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v0.11.0 (2025-05-27)
+
+### Feat
+
+- **search**: Integrate DataInsights component into search results
+- **search**: Add INSIGHTS handling to search worker
+- **search**: Add INSIGHTS and INSIGHTS_RESULTS statuses to search configuration
+- **search**: Add full data insights functionality in Search.svelte
+- **search**: Add searchItems prop to DataInsights
+- **search**: Add DataInsights component for advanced data visualiaation
+- **search**: Add adjustable chart height and improve layout in FacetDistributionPlot
+- **search**: Improve FacetDistributionPlot with loading state and dynamic facet selection
+- **accessibility**: Add accessibility statement page and link in footer
+- **search**: Add aria labels and data toggle to FacetDistributionPlot
+
+### Fix
+
+- **search**: Improve optional visTitle handling in FacetDistributionPlot
+
+### Refactor
+
+- **app.css**: Comment out  chart colours
+- **insights**: Extract data transformation logic into helper file
+- **landing**: Update import path to DataInsights component
+- **search**: Replace FacetDistributionPlot with DataInsights in Search.svelte
+- **search**: Rename FacetDistributionPlot as DataInsights
+- **search**: Update FacetDistributionPlot layout to horizontal orientation
+- **search**: Simplify Search.svelte
+- **search**: Update search toggle  to focus on filters section
+- **search**: Add ID to toggle filters button for improved accessibility
+- **search**: Remove tabindex from filters aside and add ID to close button for accessibility
+
 ## v0.10.0 (2025-05-19)
 
 ### Feat
