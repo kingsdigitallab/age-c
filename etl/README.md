@@ -23,7 +23,21 @@ the JSON data is stored in the `data/2_final` folder.
 The JSON data is then used by the frontend application to display and explore
 the data.
 
+## Notebooks
+
+The [`notebooks`](notebooks) directory contains notebooks used to explore
+and debug the raw data. The notebooks are independent from the ETL process and
+can be run individually.
+
+## Analysis
+
+The [`analysis`](analysis) directory contains scripts used to analyse
+the processed data. The scripts are independent from the ETL process and can be
+run individually.
+
 ## Data model
+
+The following diagram shows the data model for the AGE-C project.
 
 ```mermaid
 erDiagram
