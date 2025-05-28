@@ -48,6 +48,9 @@
 		<ul>
 			<li><a href={`${base}/about`}>About</a></li>
 			<li><a href={`${base}/glossary`}>Glossary</a></li>
+			{#if dev}
+				<li><a href={`${base}/_styleguide`}>Styleguide</a></li>
+			{/if}
 		</ul>
 	</nav>
 </header>
