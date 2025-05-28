@@ -14,7 +14,7 @@
 </script>
 
 <section class="hero">
-	<h1>{config.siteTitle}</h1>
+	<h1 class="font-gothic">{config.siteTitle}</h1>
 	<p>{config.siteDescription}</p>
 	<a role="button" href="{base}/about"> About </a>
 </section>
@@ -77,7 +77,6 @@
 
 	.hero h1 {
 		--pico-color: var(--pico-primary);
-		--pico-font-family: var(--font-family-gothic);
 		--pico-font-size: clamp(4rem, 20vw, 10rem);
 		--pico-font-weight: 400;
 
