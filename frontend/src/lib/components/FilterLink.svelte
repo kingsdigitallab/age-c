@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import type { Snippet } from 'svelte';
+
 	const { name, value, children }: { name: string; value: string; children: Snippet } = $props();
 </script>
 
