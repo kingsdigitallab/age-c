@@ -29,6 +29,29 @@ output {
 	letter-spacing: 0.1em;
 }
 
+.font-default {
+	font-family: var(--pico-font-family);
+}
+
+.font-gothic {
+	font-family: var(--font-family-gothic);
+}
+
+.primary-surface {
+	background-color: var(--pico-primary);
+	color: var(--pico-primary-inverse);
+}
+
+.secondary-surface {
+	background-color: var(--pico-secondary);
+	color: var(--pico-secondary-inverse);
+}
+
+.contrast-surface {
+	background-color: var(--pico-contrast);
+	color: var(--pico-contrast-inverse);
+}
+
 .inline {
 	display: flex;
 	flex-wrap: wrap;
