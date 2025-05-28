@@ -72,110 +72,117 @@
 </script>
 
 {#if show}
-	<aside transition:slide={{ axis: 'x' }}>
-		<h2>Filters</h2>
-
-		<button
-			class="skij-close-filters-button"
-			id="skij-close-filters-button"
-			aria-label="Close search filters"
-			onclick={onClose}
-		>
-			<span aria-hidden="true">&times;</span>
-		</button>
-
-		<section class="skij-filters-controls">
+	<aside
+		transition:slide={{ axis: 'x' }}
+		onintroend={() => {
+			document.getElementById('skij-filters-close-button')?.focus();
+		}}
+	>
+		<section>
 			<button
-				class="skij-expand-filters-button"
-				aria-label="{expandFilters ? 'Collapse' : 'Expand'} search filters"
-				onclick={handleExpandFilters}
+				class="skij-filters-close-button"
+				id="skij-filters-close-button"
+				aria-label="Close search filters"
+				onclick={onClose}
 			>
-				{expandFilters ? 'Collapse' : 'Expand'} all filters
-			</button>
-			<button
-				class="skij-clear-filters-button"
-				aria-label="Clear search filters"
-				onclick={handleClearFilters}
-				disabled={!hasFilters}
-			>
-				Clear all filters
+				<span aria-hidden="true">&times;</span>
 			</button>
 		</section>
 
-		<section class="skij-filters-current-filters">
-			<ul>
-				{#each currentFilters as [key, values]}
-					{#each values as value}
-						<li>
-							<button
-								class="skij-filters-current-filter-button secondary"
-								aria-label="Remove filter {key} with value {value}"
-								title="Remove filter {key} with value {value}"
-								onclick={() => handleRemoveFilter(key, value)}
-							>
-								{value}
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</li>
+		{@render children?.()}
+
+		<section class="skij-filters">
+			<h2>Filters</h2>
+
+			<section class="skij-filters-controls">
+				<button
+					class="skij-expand-filters-button"
+					aria-label="{expandFilters ? 'Collapse' : 'Expand'} search filters"
+					onclick={handleExpandFilters}
+				>
+					{expandFilters ? 'Collapse' : 'Expand'} all filters
+				</button>
+				<button
+					class="skij-clear-filters-button"
+					aria-label="Clear search filters"
+					onclick={handleClearFilters}
+					disabled={!hasFilters}
+				>
+					Clear all filters
+				</button>
+			</section>
+
+			<section class="skij-filters-current-filters">
+				<ul>
+					{#each currentFilters as [key, values]}
+						{#each values as value}
+							<li>
+								<button
+									class="skij-filters-current-filter-button secondary"
+									aria-label="Remove filter {key} with value {value}"
+									title="Remove filter {key} with value {value}"
+									onclick={() => handleRemoveFilter(key, value)}
+								>
+									{value}
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</li>
+						{/each}
 					{/each}
-				{/each}
-			</ul>
-		</section>
+				</ul>
+			</section>
 
-		{#if children}
-			{@render children()}
-		{/if}
-
-		{#if searchAggregations}
-			{#each aggregations as [key, aggregation], index}
-				{@const buckets = searchBuckets(key, searchAggregations[key].buckets)}
-				<section class="skij-filter-section">
-					<details class:disabled={buckets.length === 0} open={expandFiltersByField[index]}>
-						<summary onclick={(e) => handleFilterFieldToggle(e, index)}>
-							{aggregation.title}
-							<small>({searchAggregations[key].buckets.length.toLocaleString()})</small>
-						</summary>
-						{#if searchAggregations[key].buckets.length > 10}
-							<input
-								name="skij-filters-search-{key}"
-								type="text"
-								placeholder="Search {aggregation.title.toLowerCase()} options..."
-								aria-label="Search {aggregation.title.toLowerCase()} options..."
-								bind:value={filterSearchTerms[key]}
-								disabled={isLoading}
-							/>
-						{/if}
-						<label class="skij-filter-conjunction" aria-busy={isLoading}>
-							<small>
+			{#if searchAggregations}
+				{#each aggregations as [key, aggregation], index}
+					{@const buckets = searchBuckets(key, searchAggregations[key].buckets)}
+					<section class="skij-filter-section">
+						<details class:disabled={buckets.length === 0} open={expandFiltersByField[index]}>
+							<summary onclick={(e) => handleFilterFieldToggle(e, index)}>
+								{aggregation.title}
+								<small>({searchAggregations[key].buckets.length.toLocaleString()})</small>
+							</summary>
+							{#if searchAggregations[key].buckets.length > 10}
 								<input
-									type="checkbox"
-									bind:checked={conjunctions[key]}
-									onchange={onConjunctionChange}
+									name="skij-filters-search-{key}"
+									type="text"
+									placeholder="Search {aggregation.title.toLowerCase()} options..."
+									aria-label="Search {aggregation.title.toLowerCase()} options..."
+									bind:value={filterSearchTerms[key]}
 									disabled={isLoading}
 								/>
-								Match all selected {aggregation.title.toLowerCase()}
-							</small>
-						</label>
-						<fieldset>
-							{#each buckets as bucket}
-								<label>
+							{/if}
+							<label class="skij-filter-conjunction" aria-busy={isLoading}>
+								<small>
 									<input
-										name={key}
 										type="checkbox"
-										value={bucket.key}
-										bind:group={searchFilters[key]}
-										onchange={onFiltersChange}
+										bind:checked={conjunctions[key]}
+										onchange={onConjunctionChange}
 										disabled={isLoading}
 									/>
-									<span>{bucket.key}</span>
-									<small>({bucket.doc_count.toLocaleString()})</small>
-								</label>
-							{/each}
-						</fieldset>
-					</details>
-				</section>
-			{/each}
-		{/if}
+									Match all selected {aggregation.title.toLowerCase()}
+								</small>
+							</label>
+							<fieldset>
+								{#each buckets as bucket}
+									<label>
+										<input
+											name={key}
+											type="checkbox"
+											value={bucket.key}
+											bind:group={searchFilters[key]}
+											onchange={onFiltersChange}
+											disabled={isLoading}
+										/>
+										<span>{bucket.key}</span>
+										<small>({bucket.doc_count.toLocaleString()})</small>
+									</label>
+								{/each}
+							</fieldset>
+						</details>
+					</section>
+				{/each}
+			{/if}
+		</section>
 	</aside>
 {/if}
 
@@ -207,7 +214,7 @@
 		}
 	}
 
-	.skij-close-filters-button {
+	.skij-filters-close-button {
 		background: transparent;
 		border: none;
 		color: var(--pico-muted-color);
@@ -217,7 +224,7 @@
 		top: var(--pico-spacing);
 	}
 
-	.skij-close-filters-button:hover {
+	.skij-filters-close-button:hover {
 		color: var(--pico-primary-color);
 	}
 

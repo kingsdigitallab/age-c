@@ -29,6 +29,7 @@
 		SearchShortcutsComponent = SearchShortcuts,
 		SearchStatusComponent = SearchStatus,
 		SearchInputComponent = SearchInput,
+		searchInputInFilters = false,
 		DataInsightsComponent = DataInsights,
 		SearchFiltersComponent = SearchFilters,
 		SearchControlsComponent = SearchControls,
@@ -42,6 +43,7 @@
 		searchWorker: Worker;
 		title: string;
 		sortBy?: string;
+		searchInputInFilters?: boolean;
 		summaryFacet?: string;
 		dataInsightsFacets?: {
 			facet: string;
@@ -177,12 +179,6 @@
 
 	function handleToggleSearch() {
 		showSearch = !showSearch;
-
-		if (showSearch) {
-			setTimeout(() => {
-				document.getElementById('skij-close-filters-button')?.focus();
-			}, 100);
-		}
 	}
 
 	function handleSearch(e: Event) {
@@ -261,7 +257,19 @@
 		onClose={() => (showSearch = false)}
 		onFiltersChange={handleSearchFiltersChange}
 		onConjunctionChange={handleConjunctionChange}
-	/>
+	>
+		{#if searchInputInFilters}
+			<SearchInputComponent
+				bind:searchQuery={searchParams.query}
+				searchInputInFilters
+				{isLoading}
+				{isSearching}
+				{minSearchQueryLength}
+				onSearch={handleSearch}
+				onReset={handleReset}
+			/>
+		{/if}
+	</SearchFiltersComponent>
 
 	<article id="skij">
 		<hgroup>
@@ -282,14 +290,16 @@
 
 		<SearchStatusComponent {isLoading} {isSearching} searchError={searchWorkerError} />
 
-		<SearchInputComponent
-			bind:searchQuery={searchParams.query}
-			{isLoading}
-			{isSearching}
-			{minSearchQueryLength}
-			onSearch={handleSearch}
-			onReset={handleReset}
-		/>
+		{#if !searchInputInFilters}
+			<SearchInputComponent
+				bind:searchQuery={searchParams.query}
+				{isLoading}
+				{isSearching}
+				{minSearchQueryLength}
+				onSearch={handleSearch}
+				onReset={handleReset}
+			/>
+		{/if}
 
 		<SearchControlsComponent
 			{isLoading}

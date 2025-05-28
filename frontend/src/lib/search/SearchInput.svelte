@@ -2,6 +2,7 @@
 	let {
 		title = 'Search',
 		searchQuery = $bindable(''),
+		searchInputInFilters = false,
 		isLoading,
 		isSearching,
 		minSearchQueryLength = 3,
@@ -10,6 +11,7 @@
 	}: {
 		title?: string;
 		searchQuery: string;
+		searchInputInFilters?: boolean;
 		isLoading: boolean;
 		isSearching: boolean;
 		minSearchQueryLength?: number;
@@ -20,30 +22,40 @@
 	let isValidSearch = $derived(searchQuery.trim().length >= minSearchQueryLength);
 </script>
 
-<section>
+{#snippet buttons()}
+	<button
+		type="submit"
+		disabled={isLoading || !isValidSearch}
+		aria-label={!isValidSearch
+			? `Please enter at least ${minSearchQueryLength} characters`
+			: 'Search'}
+	>
+		Search
+	</button>
+	<button type="reset" disabled={isLoading} aria-label="Reset search"> Reset </button>
+{/snippet}
+
+<section class="skij-search-input">
 	<h2>{title}</h2>
 	<form onsubmit={onSearch} onreset={onReset}>
 		<!-- svelte-ignore a11y_no_redundant_roles -->
-		<fieldset role="group">
+		<fieldset role={!searchInputInFilters ? 'group' : ''}>
 			<input
-				id="skij-query"
-				type="text"
+				id="skij-search-query"
+				type="search"
 				bind:value={searchQuery}
 				disabled={isLoading || isSearching}
 				placeholder={`Enter a ${title.toLowerCase()} query...`}
 				aria-label={`Enter a ${title.toLowerCase()} query...`}
 				spellcheck="false"
 			/>
-			<button
-				type="submit"
-				disabled={isLoading || !isValidSearch}
-				aria-label={!isValidSearch
-					? `Please enter at least ${minSearchQueryLength} characters`
-					: 'Search'}
-			>
-				Search
-			</button>
-			<button type="reset" disabled={isLoading} aria-label="Reset search"> Reset </button>
+			{#if searchInputInFilters}
+				<div class="grid">
+					{@render buttons()}
+				</div>
+			{:else}
+				{@render buttons()}
+			{/if}
 		</fieldset>
 	</form>
 </section>
