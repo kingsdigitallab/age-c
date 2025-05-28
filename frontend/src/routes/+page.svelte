@@ -53,6 +53,7 @@
 		enableFullDataInsights={true}
 		fullDataInsightsPerPage={15000}
 		DataInsightsComponent={DataInsights}
+		searchInputInFilters={true}
 		SearchResultsItemsComponent={SearchResultsItems}
 	/>
 {:else}
