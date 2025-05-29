@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { dev } from '$app/environment';
+	import DevOnly from '$lib/components/DevOnly.svelte';
 	import type { Item } from '$lib/types';
 	import {
 		VisAxis,
@@ -130,9 +130,9 @@
 <article>
 	<header>
 		<hgroup>
-			<h3>{title}</h3>
-			{#if dev && searchItems?.length}
-				<small>{searchItems.length.toLocaleString()} items</small>
+			<h2>{title}</h2>
+			{#if searchItems?.length}
+				<DevOnly>{searchItems.length.toLocaleString()} Records</DevOnly>
 			{/if}
 		</hgroup>
 	</header>
@@ -169,7 +169,7 @@
 				<p>{ariaLabel}</p>
 			</hgroup>
 
-			{#if dev}
+			<DevOnly>
 				<label>
 					Chart height ({height}px)
 					<input
@@ -181,7 +181,7 @@
 					/>
 					<small>Move the slider to adjust the height of the chart</small>
 				</label>
-			{/if}
+			</DevOnly>
 
 			<VisXYContainer
 				{data}
