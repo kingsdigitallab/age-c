@@ -3,14 +3,17 @@
 	import { fade } from 'svelte/transition';
 	import SearchResultsItems from './SearchResultsItems.svelte';
 
-	const {
+	let {
 		isLoading,
 		isSearching,
 		searchQuery,
 		searchItems,
 		searchPagination,
 		title = 'List of records',
-		SearchResultsItemsComponent = SearchResultsItems
+		SearchResultsItemsComponent = SearchResultsItems,
+		sortOptions = [],
+		sortBy = $bindable(''),
+		onSortByChange
 	}: {
 		isLoading: boolean;
 		isSearching: boolean;
@@ -19,6 +22,9 @@
 		searchPagination: { total?: number; page?: number; per_page?: number };
 		title?: string;
 		SearchResultsItemsComponent: typeof SearchResultsItems;
+		sortOptions: { label: string; value: string }[];
+		sortBy: string;
+		onSortByChange: (e: Event) => void;
 	} = $props();
 
 	const start = $derived(
@@ -26,6 +32,8 @@
 			? searchPagination.page * searchPagination.per_page - searchPagination.per_page + 1
 			: 1
 	);
+
+	const isSortByDisabled = $derived(isLoading || isSearching);
 </script>
 
 <section class="skij-results">
@@ -40,6 +48,23 @@
 			{/if}
 		</small>
 	</hgroup>
+
+	{#if sortOptions.length > 0}
+		<div class="skij-sort-by">
+			<select
+				name="sort-by"
+				aria-label="Sort results by"
+				bind:value={sortBy}
+				onchange={onSortByChange}
+				disabled={isSortByDisabled}
+			>
+				<option selected disabled value="">Sort by</option>
+				{#each sortOptions as option}
+					<option value={option.value}>{option.label}</option>
+				{/each}
+			</select>
+		</div>
+	{/if}
 
 	<div transition:fade aria-live="polite">
 		{#if searchItems?.length > 0}
@@ -59,5 +84,16 @@
 	.skij-query::after {
 		content: '"';
 		font-weight: normal;
+	}
+
+	.skij-sort-by {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		gap: var(--pico-spacing);
+	}
+
+	.skij-sort-by select {
+		width: fit-content;
 	}
 </style>
