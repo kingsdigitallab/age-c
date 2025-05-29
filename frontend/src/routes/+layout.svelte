@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { dev } from '$app/environment';
 	import { base } from '$app/paths';
 	import { page } from '$app/state';
 	import { config } from '$lib';
+	import DevOnly from '$lib/components/DevOnly.svelte';
 	import type { Snippet } from 'svelte';
 	import { onDestroy } from 'svelte';
 	import { fade } from 'svelte/transition';
@@ -42,15 +42,12 @@
 		<ul>
 			<li>
 				<strong><a href={`${base}/`}>{config.siteName}</a></strong>
-				{#if dev}<mark>dev</mark>{/if}
+				<DevOnly>dev</DevOnly>
 			</li>
 		</ul>
 		<ul>
 			<li><a href={`${base}/about`}>About</a></li>
 			<li><a href={`${base}/glossary`}>Glossary</a></li>
-			{#if dev}
-				<li><a href={`${base}/_styleguide`}>Styleguide</a></li>
-			{/if}
 		</ul>
 	</nav>
 </header>
@@ -71,6 +68,9 @@
 			<li><small>{config.siteName}</small></li>
 			<li>
 				<small><a href={`${base}/accessibility-statement`}>Accessibility statement</a></small>
+			</li>
+			<li>
+				<small><a href={`${base}/_styleguide`}>Styleguide</a></small>
 			</li>
 		</ul>
 		<ul>
