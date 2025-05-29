@@ -52,13 +52,13 @@
 				<section>
 					<h3>Colours</h3>
 					<StyleBlock>
-						<div class="primary-surface">Primary</div>
+						<div class="surface-primary">Primary</div>
 					</StyleBlock>
 					<StyleBlock>
-						<div class="secondary-surface">Secondary</div>
+						<div class="surface-secondary">Secondary</div>
 					</StyleBlock>
 					<StyleBlock>
-						<div class="contrast-surface">Contrast</div>
+						<div class="surface-contrast">Contrast</div>
 					</StyleBlock>
 				</section>
 
