@@ -303,14 +303,9 @@
 		{/if}
 
 		<SearchControlsComponent
-			{isLoading}
-			{isSearching}
 			{showSearch}
 			{searchFiltersCount}
-			sortOptions={searchSortOptions}
-			bind:sortBy={searchParams.sort}
 			onToggleFilters={handleToggleSearch}
-			onSortByChange={handleSortByChange}
 		/>
 
 		{#if dataInsightsFacets}
@@ -331,6 +326,9 @@
 			{searchItems}
 			{searchPagination}
 			{SearchResultsItemsComponent}
+			sortOptions={searchSortOptions}
+			bind:sortBy={searchParams.sort}
+			onSortByChange={handleSortByChange}
 		/>
 
 		<SearchPaginationComponent
