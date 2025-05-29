@@ -274,8 +274,9 @@
 	<article id="skij">
 		<hgroup>
 			<h1>{title}</h1>
-			{#if summaryStats}
-				<ul class="skij-summary-stats">
+			<ul class="skij-summary-stats">
+				<li>{searchPagination?.total?.toLocaleString()} Records</li>
+				{#if summaryStats}
 					{#each summaryStats.buckets as bucket}
 						{@const count = bucket.doc_count}
 						{@const label = bucket.key}
@@ -284,8 +285,8 @@
 							{pluralize(label, count)}
 						</li>
 					{/each}
-				</ul>
-			{/if}
+				{/if}
+			</ul>
 		</hgroup>
 
 		<SearchStatusComponent {isLoading} {isSearching} searchError={searchWorkerError} />
