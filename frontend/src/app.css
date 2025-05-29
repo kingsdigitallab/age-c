@@ -9,6 +9,7 @@
 	--skij-filter-height: 10rem;
 }
 
+/** Base elements */
 html,
 body {
 	/* --vis-color-main: var(--pico-primary);
@@ -29,6 +30,7 @@ output {
 	letter-spacing: 0.1em;
 }
 
+/** Typography */
 .font-default {
 	font-family: var(--pico-font-family);
 }
@@ -37,27 +39,29 @@ output {
 	font-family: var(--font-family-gothic);
 }
 
-.primary-surface {
+/** Surfaces */
+.surface-primary {
 	background-color: var(--pico-primary);
 	color: var(--pico-primary-inverse);
 }
 
-.secondary-surface {
+.surface-secondary {
 	background-color: var(--pico-secondary);
 	color: var(--pico-secondary-inverse);
 }
 
-.contrast-surface {
+.surface-contrast {
 	background-color: var(--pico-contrast);
 	color: var(--pico-contrast-inverse);
 }
 
-.inline {
+/** Layouts */
+.layout-inline {
 	display: flex;
 	flex-wrap: wrap;
 	gap: calc(var(--pico-spacing) / 4);
 }
 
-.inline *:not(:last-child)::after {
+.layout-inline *:not(:last-child)::after {
 	content: ',';
 }
