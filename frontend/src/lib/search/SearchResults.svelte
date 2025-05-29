@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { fade } from 'svelte/transition';
 	import type { Item } from '$lib/types';
+	import { fade } from 'svelte/transition';
 	import SearchResultsItems from './SearchResultsItems.svelte';
 
 	const {
@@ -9,7 +9,7 @@
 		searchQuery,
 		searchItems,
 		searchPagination,
-		title = 'Results',
+		title = 'List of records',
 		SearchResultsItemsComponent = SearchResultsItems
 	}: {
 		isLoading: boolean;
@@ -28,15 +28,15 @@
 	);
 </script>
 
-<section>
+<section class="skij-results">
 	<hgroup>
 		<h2>{title}</h2>
 		<small aria-busy={isLoading || isSearching} aria-live="polite">
 			{#if searchPagination?.total !== undefined}
-				{searchPagination.total.toLocaleString()} found
+				{searchPagination.total.toLocaleString()} Records
 				{#if searchQuery}for <span class="skij-query">{searchQuery}</span>{/if}
 			{:else}
-				No results
+				No records
 			{/if}
 		</small>
 	</hgroup>
@@ -45,7 +45,7 @@
 		{#if searchItems?.length > 0}
 			<SearchResultsItemsComponent items={searchItems} {start} />
 		{:else if searchQuery && !isSearching}
-			<p>No results found for "{searchQuery}"</p>
+			<p>No records found for <span class="skij-query">{searchQuery}</span></p>
 		{/if}
 	</div>
 </section>
