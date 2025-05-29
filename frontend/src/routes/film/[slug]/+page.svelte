@@ -37,7 +37,7 @@
 			{#if film.title.english}
 				<small>(original)</small> / {film.title.english}{/if}
 		</h1>
-		<p class="inline">
+		<p class="layout-inline">
 			<FilterLink name="filmType" value={film.filmType} />
 			<FilterLink name="releaseType" value={film.release.type} />
 			<FilterLink name="releaseYear" value={film.release.year} />
@@ -50,7 +50,7 @@
 
 	<dl>
 		<dt>Genre</dt>
-		<dd class="inline">
+		<dd class="layout-inline">
 			{#each genres as genre}
 				<FilterLink name="genre" value={genre} />
 			{:else}
@@ -58,7 +58,7 @@
 			{/each}
 		</dd>
 		<dt>Tags</dt>
-		<dd class="inline">
+		<dd class="layout-inline">
 			{#each tags as tag}
 				<FilterLink name="tags" value={tag} />
 			{:else}
@@ -66,7 +66,7 @@
 			{/each}
 		</dd>
 		<dt>Director</dt>
-		<dd class="inline">
+		<dd class="layout-inline">
 			{#each directors as director}
 				<DirectorLink {director} />
 			{:else}
@@ -75,7 +75,7 @@
 		</dd>
 		{#if media && media.length > 0}
 			<dt>Media</dt>
-			<dd class="inline">
+			<dd class="layout-inline">
 				{#each media as { label, url }}
 					<a href={url} aria-label="{label} for {film.title.native}" target="_blank">{label}</a>
 				{/each}

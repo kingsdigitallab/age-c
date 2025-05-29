@@ -18,7 +18,7 @@
 <article>
 	<hgroup>
 		<h1>{bio.name}</h1>
-		<p class="inline">
+		<p class="layout-inline">
 			<span>{bio.birthYear}–{bio.deathYear}</span>
 			<FilterLink name="gender" value={bio.gender} />
 			<FilterLink name="nationality" value={bio.nationality} />
