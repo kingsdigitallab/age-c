@@ -16,6 +16,10 @@
 	--age-c-black-secondary: hsl(from var(--age-c-black) h s 25%);
 	--age-c-white: #faf7e5;
 	--age-c-white-secondary: hsl(from var(--age-c-white) h s 80%);
+
+	/** Complementary colors to the main palette to use in the Charts*/
+	--age-c-teal: #4a9b8d;
+	--age-c-orange: #e67e22;
 }
 
 /* Light color scheme (Default) */
@@ -119,8 +123,14 @@
 /** Base elements */
 html,
 body {
-	/* --vis-color-main: var(--pico-primary);
-	--vis-color0: var(--pico-primary); */
+	--vis-color-main: var(--age-c-salmon);
+	--vis-color0: var(--age-c-salmon);
+	--vis-color1: var(--age-c-yellow);
+	--vis-color2: var(--age-c-purple);
+	--vis-color3: var(--age-c-pink);
+	--vis-color-4: var(--age-c-teal);
+	--vis-color-5: var(--age-c-orange);
+
 	--vis-font-family: var(--pico-font-family);
 }
 
@@ -135,6 +145,11 @@ body {
 
 article {
 	border: calc(var(--pico-border-width) * 5) solid var(--pico-primary-border);
+
+	& article {
+		border: unset;
+		border-left: calc(var(--pico-border-width) * 5) solid var(--pico-primary-border);
+	}
 }
 
 output {
@@ -145,6 +160,11 @@ output {
 }
 
 /** Form elements */
+[data-selected] {
+	background-color: var(--pico-secondary-background);
+	color: var(--pico-secondary-inverse);
+}
+
 [type='checkbox']:checked {
 	background-color: var(--checkbox-checked-background);
 }
@@ -184,5 +204,3 @@ output {
 .layout-inline *:not(:last-child)::after {
 	content: ',';
 }
-
-/** Search */
