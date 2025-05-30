@@ -319,26 +319,28 @@
 			/>
 		{/if}
 
-		<SearchResultsComponent
-			{isLoading}
-			{isSearching}
-			searchQuery={searchResults.query}
-			{searchItems}
-			{searchPagination}
-			{SearchResultsItemsComponent}
-			sortOptions={searchSortOptions}
-			bind:sortBy={searchParams.sort}
-			onSortByChange={handleSortByChange}
-		/>
+		<article>
+			<SearchResultsComponent
+				{isLoading}
+				{isSearching}
+				searchQuery={searchResults.query}
+				{searchItems}
+				{searchPagination}
+				{SearchResultsItemsComponent}
+				sortOptions={searchSortOptions}
+				bind:sortBy={searchParams.sort}
+				onSortByChange={handleSortByChange}
+			/>
 
-		<SearchPaginationComponent
-			{isLoading}
-			{isSearching}
-			count={searchPagination.total}
-			page={searchPagination.page}
-			perPage={searchPagination.per_page}
-			onPageChange={handlePageChange}
-		/>
+			<SearchPaginationComponent
+				{isLoading}
+				{isSearching}
+				count={searchPagination.total}
+				page={searchPagination.page}
+				perPage={searchPagination.per_page}
+				onPageChange={handlePageChange}
+			/>
+		</article>
 	</article>
 </div>
 
