@@ -130,6 +130,24 @@
 						</label>
 					</StyleBlock>
 				</section>
+
+				<section>
+					<h3>Cards</h3>
+					<StyleBlock>
+						<article>
+							<header>
+								<h4>Card header</h4>
+							</header>
+							<section>
+								<h5>Card content section</h5>
+								<p>Card content</p>
+							</section>
+							<footer>
+								<p>Card footer</p>
+							</footer>
+						</article>
+					</StyleBlock>
+				</section>
 			</article>
 		{/each}
 	</section>
