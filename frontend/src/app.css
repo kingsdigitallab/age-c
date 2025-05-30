@@ -7,6 +7,113 @@
 	--pico-font-family: 'Urbanist Variable', var(--pico-font-family-sans-serif);
 
 	--skij-filter-height: 10rem;
+
+	--age-c-salmon: #ec726e;
+	--age-c-pink: #ed6ea7;
+	--age-c-yellow: #ecbb45;
+	--age-c-purple: #866ea8;
+	--age-c-black: #1f1f1f;
+	--age-c-black-secondary: hsl(from var(--age-c-black) h s 25%);
+	--age-c-white: #faf7e5;
+	--age-c-white-secondary: hsl(from var(--age-c-white) h s 80%);
+}
+
+/* Light color scheme (Default) */
+[data-theme='light'],
+:root:not([data-theme='dark']),
+:host:not([data-theme='dark']) {
+	--pico-color: var(--age-c-black);
+	--pico-h1-color: var(--pico-color);
+	--pico-h2-color: var(--pico-color);
+	--pico-h3-color: var(--pico-color);
+	--pico-h4-color: var(--pico-color);
+	--pico-h5-color: var(--pico-color);
+	--pico-h6-color: var(--pico-color);
+
+	--pico-text-selection-color: hsl(from var(--age-c-salmon) h s l / 0.25);
+
+	--pico-primary: var(--age-c-black);
+	--pico-primary-background: var(--age-c-black);
+	--pico-primary-underline: hsl(from var(--age-c-black) h s l / 0.5);
+	--pico-primary-hover: hsl(from var(--age-c-black) h s 15%);
+	--pico-primary-hover-background: hsl(from var(--age-c-black) h s 15%);
+	--pico-primary-focus: hsl(from var(--age-c-yellow) h s l / 0.5);
+	--pico-primary-inverse: var(--age-c-white);
+
+	--checkbox-checked-background: var(--age-c-black);
+
+	--pico-secondary: var(--age-c-black-secondary);
+	--pico-secondary-background: var(--age-c-black-secondary);
+	--pico-secondary-underline: hsl(from var(--age-c-black-secondary) h s l / 0.5);
+	--pico-secondary-hover: hsl(from var(--age-c-black-secondary) h s l / 1.5);
+	--pico-secondary-hover-background: var(--age-c-black-secondary);
+	--pico-secondary-focus: hsl(from var(--age-c-black-secondary) h s l / 0.5);
+	--pico-secondary-inverse: var(--age-c-white);
+}
+
+/* Dark color scheme (Auto) */
+@media only screen and (prefers-color-scheme: dark) {
+	:root:not([data-theme]),
+	:host:not([data-theme]) {
+		--pico-color: var(--age-c-white);
+		--pico-h1-color: var(--pico-color);
+		--pico-h2-color: var(--pico-color);
+		--pico-h3-color: var(--pico-color);
+		--pico-h4-color: var(--pico-color);
+		--pico-h5-color: var(--pico-color);
+		--pico-h6-color: var(--pico-color);
+
+		--pico-text-selection-color: hsl(from var(--age-c-salmon) h s l / 0.5);
+
+		--pico-primary: var(--age-c-white);
+		--pico-primary-background: var(--age-c-white);
+		--pico-primary-underline: hsl(from var(--age-c-white) h s l / 0.5);
+		--pico-primary-hover: hsl(from var(--age-c-white) h s 85%);
+		--pico-primary-hover-background: hsl(from var(--age-c-white) h s 85%);
+		--pico-primary-focus: hsl(from var(--age-c-yellow) h s l / 0.5);
+		--pico-primary-inverse: var(--age-c-black);
+
+		--checkbox-checked-background: var(--age-c-black);
+
+		--pico-secondary: var(--age-c-white-secondary);
+		--pico-secondary-background: var(--age-c-white-secondary);
+		--pico-secondary-underline: hsl(from var(--age-c-white-secondary) h s l / 0.5);
+		--pico-secondary-hover: hsl(from var(--age-c-white-secondary) h s l / 1.5);
+		--pico-secondary-hover-background: var(--age-c-white-secondary);
+		--pico-secondary-focus: hsl(from var(--age-c-white-secondary) h s l / 0.5);
+		--pico-secondary-inverse: var(--age-c-black);
+	}
+}
+
+/* Dark color scheme (Forced) */
+[data-theme='dark'] {
+	--pico-color: var(--age-c-white);
+	--pico-h1-color: var(--pico-color);
+	--pico-h2-color: var(--pico-color);
+	--pico-h3-color: var(--pico-color);
+	--pico-h4-color: var(--pico-color);
+	--pico-h5-color: var(--pico-color);
+	--pico-h6-color: var(--pico-color);
+
+	--pico-text-selection-color: hsl(from var(--age-c-salmon) h s l / 0.5);
+
+	--pico-primary: var(--age-c-white);
+	--pico-primary-background: var(--age-c-white);
+	--pico-primary-underline: hsl(from var(--age-c-white) h s l / 0.5);
+	--pico-primary-hover: hsl(from var(--age-c-white) h s 85%);
+	--pico-primary-hover-background: hsl(from var(--age-c-white) h s 85%);
+	--pico-primary-focus: hsl(from var(--age-c-yellow) h s l / 0.5);
+	--pico-primary-inverse: var(--age-c-black);
+
+	--checkbox-checked-background: var(--age-c-black);
+
+	--pico-secondary: var(--age-c-white-secondary);
+	--pico-secondary-background: var(--age-c-white-secondary);
+	--pico-secondary-underline: hsl(from var(--age-c-white-secondary) h s l / 0.5);
+	--pico-secondary-hover: hsl(from var(--age-c-white-secondary) h s l / 1.5);
+	--pico-secondary-hover-background: var(--age-c-white-secondary);
+	--pico-secondary-focus: hsl(from var(--age-c-white-secondary) h s l / 0.5);
+	--pico-secondary-inverse: var(--age-c-black);
 }
 
 /** Base elements */
@@ -15,12 +122,19 @@ body {
 	/* --vis-color-main: var(--pico-primary);
 	--vis-color0: var(--pico-primary); */
 	--vis-font-family: var(--pico-font-family);
-
-	height: 100%;
 }
 
-details section {
-	overflow-x: scroll;
+body {
+	background: linear-gradient(
+		var(--age-c-salmon),
+		var(--age-c-pink),
+		var(--age-c-yellow),
+		var(--age-c-purple)
+	);
+}
+
+article {
+	border: calc(var(--pico-border-width) * 5) solid var(--pico-primary-border);
 }
 
 output {
@@ -28,6 +142,11 @@ output {
 	opacity: 60%;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
+}
+
+/** Form elements */
+[type='checkbox']:checked {
+	background-color: var(--checkbox-checked-background);
 }
 
 /** Typography */
@@ -41,17 +160,17 @@ output {
 
 /** Surfaces */
 .surface-primary {
-	background-color: var(--pico-primary);
+	background-color: var(--pico-primary-background);
 	color: var(--pico-primary-inverse);
 }
 
 .surface-secondary {
-	background-color: var(--pico-secondary);
+	background-color: var(--pico-secondary-background);
 	color: var(--pico-secondary-inverse);
 }
 
 .surface-contrast {
-	background-color: var(--pico-contrast);
+	background-color: var(--pico-contrast-background);
 	color: var(--pico-contrast-inverse);
 }
 
@@ -65,3 +184,5 @@ output {
 .layout-inline *:not(:last-child)::after {
 	content: ',';
 }
+
+/** Search */
