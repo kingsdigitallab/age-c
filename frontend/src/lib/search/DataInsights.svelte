@@ -159,22 +159,24 @@
 		<footer>
 			<details>
 				<summary>Expand to show data used to plot the chart</summary>
-				<table class="striped">
-					<thead>
-						<tr>
-							<th>{categoryLabel}</th>
-							<th>{countLabel}</th>
-						</tr>
-					</thead>
-					<tbody>
-						{#each data as d}
+				<section class="overflow-auto">
+					<table class="striped">
+						<thead>
 							<tr>
-								<td>{d.key}</td>
-								<td>{d.doc_count.toLocaleString()}</td>
+								<th>{categoryLabel}</th>
+								<th>{countLabel}</th>
 							</tr>
-						{/each}
-					</tbody>
-				</table>
+						</thead>
+						<tbody>
+							{#each data as d}
+								<tr>
+									<td>{d.key}</td>
+									<td>{d.doc_count.toLocaleString()}</td>
+								</tr>
+							{/each}
+						</tbody>
+					</table>
+				</section>
 			</details>
 		</footer>
 	{/if}
