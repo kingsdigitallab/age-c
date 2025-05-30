@@ -1,7 +1,7 @@
 <script lang="ts">
+	import FilterLink from '$lib/components/FilterLink.svelte';
 	import CharactersTable from '$lib/components/CharactersTable.svelte';
 	import FilmLink from '$lib/components/FilmLink.svelte';
-	import FilterLink from '$lib/components/FilterLink.svelte';
 	import type { PageProps } from './$types';
 
 	const { data }: PageProps = $props();

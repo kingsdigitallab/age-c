@@ -62,18 +62,18 @@
 					</StyleBlock>
 				</section>
 
-				<secion>
+				<section id="links">
 					<h3>Links</h3>
 					<StyleBlock>
-						<a href={base}>Primary</a>
+						<a href="#links">Primary</a>
 					</StyleBlock>
 					<StyleBlock>
-						<a href={base} class="secondary">Secondary</a>
+						<a href="#links" class="secondary">Secondary</a>
 					</StyleBlock>
 					<StyleBlock>
-						<a href={base} class="contrast">Contrast</a>
+						<a href="#links" class="contrast">Contrast</a>
 					</StyleBlock>
-				</secion>
+				</section>
 
 				<section>
 					<h3>Buttons</h3>

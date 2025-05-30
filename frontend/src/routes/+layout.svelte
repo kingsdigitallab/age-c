@@ -34,20 +34,20 @@
 	<title>{headTitle}</title>
 	<meta name="description" content={headDescription} />
 	<meta name="keywords" content={headKeywords} />
-	<link rel="canonical" href={`${base}${page.url.pathname}`} />
+	<link rel="canonical" href={page.url.pathname} />
 </svelte:head>
 
 <header class="container-fluid">
 	<nav aria-label="Main navigation">
 		<ul>
 			<li>
-				<strong><a href={`${base}/`}>{config.siteName}</a></strong>
+				<strong><a href="{base}/">{config.siteName}</a></strong>
 				<DevOnly>dev</DevOnly>
 			</li>
 		</ul>
 		<ul>
-			<li><a href={`${base}/about`}>About</a></li>
-			<li><a href={`${base}/glossary`}>Glossary</a></li>
+			<li><a href="{base}/about">About</a></li>
+			<li><a href="{base}/glossary">Glossary</a></li>
 		</ul>
 	</nav>
 </header>
@@ -66,13 +66,13 @@
 	<nav aria-label="Footer navigation">
 		<ul class="surface-primary">
 			<li>
-				<small><a href={`${base}/`}>{config.siteName}</a></small>
+				<small><a href="{base}/">{config.siteName}</a></small>
 			</li>
 			<li>
-				<small><a href={`${base}/accessibility-statement`}>Accessibility statement</a></small>
+				<small><a href="{base}/accessibility-statement">Accessibility statement</a></small>
 			</li>
 			<li>
-				<small><a href={`${base}/_styleguide`}>Styleguide</a></small>
+				<small><a href="{base}/_styleguide">Styleguide</a></small>
 			</li>
 		</ul>
 		<ul class="surface-primary">

@@ -1,4 +1,3 @@
-import { base } from '$app/paths';
 import { config } from '$lib';
 import { entries as bioEntries } from '../biography/[slug]/+page.server';
 import { entries as filmEntries } from '../film/[slug]/+page.server';
@@ -14,9 +13,9 @@ export const GET: RequestHandler = async () => {
 	return await sitemap.response({
 		origin: config.siteUrl,
 		paramValues: {
-			[`${base}/[slug]`]: ['about', 'glossary'],
-			[`${base}/biography/[slug]`]: bioSlugs.map((slug) => slug.slug),
-			[`${base}/film/[slug]`]: filmSlugs.map((slug) => slug.slug)
+			'/[slug]': ['about', 'glossary', '_styleguide'],
+			'/biography/[slug]': bioSlugs.map((slug) => slug.slug),
+			'/film/[slug]': filmSlugs.map((slug) => slug.slug)
 		}
 	});
 };

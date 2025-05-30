@@ -1,9 +1,10 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { hero, searchConfig } from '$lib/index';
 	import DataInsights from '$lib/components/insights/DataInsights.svelte';
 	import SearchResultsItems from '$lib/components/SearchResultsItems.svelte';
 	import Search from '$lib/search/Search.svelte';
-	import { base } from '$app/paths';
+
 	import type { PageProps } from './$types';
 
 	const { data }: PageProps = $props();

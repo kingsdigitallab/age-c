@@ -1,8 +1,8 @@
 <script lang="ts">
+	import { config } from '$lib/index';
 	import CharactersTable from '$lib/components/CharactersTable.svelte';
 	import DirectorLink from '$lib/components/DirectorLink.svelte';
 	import FilterLink from '$lib/components/FilterLink.svelte';
-	import { config } from '$lib/index';
 	import type { PageProps } from './$types';
 
 	const { data }: PageProps = $props();

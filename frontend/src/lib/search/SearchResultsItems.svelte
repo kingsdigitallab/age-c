@@ -14,7 +14,7 @@
 <ol {start}>
 	{#each items as item}
 		<li>
-			<a href={`${base}/${item.type}/${item.slug}`}>{item.title}</a>
+			<a href="{base}/{item.type}/{item.slug}">{item.title}</a>
 		</li>
 	{/each}
 </ol>
