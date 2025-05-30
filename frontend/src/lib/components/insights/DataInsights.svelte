@@ -129,14 +129,12 @@
 </script>
 
 <article>
-	<header>
-		<hgroup>
-			<h2>{title}</h2>
-			{#if searchItems?.length}
-				<DevOnly>{searchItems.length.toLocaleString()} Records</DevOnly>
-			{/if}
-		</hgroup>
-	</header>
+	<hgroup>
+		<h2>{title}</h2>
+		{#if searchItems?.length}
+			<DevOnly>{searchItems.length.toLocaleString()} Records</DevOnly>
+		{/if}
+	</hgroup>
 
 	{#if isLoading}
 		<p aria-busy="true">Loading...</p>
