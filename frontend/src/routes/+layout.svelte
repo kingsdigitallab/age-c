@@ -9,7 +9,7 @@
 	import type { PageProps } from './$types';
 
 	import '@picocss/pico';
-	import '@picocss/pico/css/pico.zinc.css';
+	import '@picocss/pico/css/pico.slate.min.css';
 	import '../app.css';
 
 	const { data, children }: { data: PageProps; children: Snippet } = $props();
@@ -37,7 +37,7 @@
 	<link rel="canonical" href={`${base}${page.url.pathname}`} />
 </svelte:head>
 
-<header class="container">
+<header class="container-fluid">
 	<nav aria-label="Main navigation">
 		<ul>
 			<li>
@@ -62,10 +62,12 @@
 	{/key}
 </main>
 
-<footer class="container">
+<footer class="container-fluid surface-primary">
 	<nav aria-label="Footer navigation">
-		<ul>
-			<li><small>{config.siteName}</small></li>
+		<ul class="surface-primary">
+			<li>
+				<small><a href={`${base}/`}>{config.siteName}</a></small>
+			</li>
 			<li>
 				<small><a href={`${base}/accessibility-statement`}>Accessibility statement</a></small>
 			</li>
@@ -73,7 +75,7 @@
 				<small><a href={`${base}/_styleguide`}>Styleguide</a></small>
 			</li>
 		</ul>
-		<ul>
+		<ul class="surface-primary">
 			<li><small><a href={config.repoUrl}>GitHub</a></small></li>
 			<li>
 				<code>
@@ -82,7 +84,7 @@
 			</li>
 		</ul>
 	</nav>
-	<p>
+	<p class="surface-primary">
 		<small>
 			Designed and developed by
 			<a href="https://kdl.kcl.ac.uk/">King's Digital Lab</a>
@@ -101,6 +103,11 @@
 
 	footer {
 		border-top: var(--pico-border-width) solid var(--pico-primary-border);
+		padding-block: var(--pico-spacing);
+	}
+
+	footer a:not(code a) {
+		color: var(--pico-primary-inverse);
 	}
 
 	footer code {
@@ -108,6 +115,7 @@
 	}
 
 	footer p {
+		padding-block-start: var(--pico-spacing);
 		text-align: center;
 	}
 </style>
