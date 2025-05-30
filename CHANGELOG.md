@@ -5,6 +5,40 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v0.12.0 (2025-05-30)
+
+### Feat
+
+- **index.ts**: Add hero section with title and description for dataset exploration
+- **app.css**: Add new color scheme variables and body background gradient
+- **DevOnly**: Enhance debug functionality with keyboard shortcuts for toggling debug elements
+- **DevOnly**: Add DevOnly component to conditionally render content in a dev environment
+- **search**: Add option to choose the search input placement
+- **layout**: Add conditional link to styleguide for development environment
+- **app.css**: Add font and surface styles
+- **styleguide**: Add style guide component with typography, colors, buttons, and forms
+- **etl**: Add analysis scripts and notebooks for exploring and debugging data
+
+### Refactor
+
+- **hero**: Integrate hero data into layout and style title and description
+- **layout**: Update layout styles and improve footer structure
+- **DataInsights**: Add overflow styling to data display section
+- **CharactersTable**: Wrap table in a div for overflow styling
+- **DataInsights**: Add overflow styling to data display section
+- **search**: Move sorting functionality to SearchResults
+- **search**: Simplify search controls by removing unused properties and updating button text
+- **search**: Consolidate search controls and results handling
+- **search**: Update search results terminology
+- **biography, film**: Update class names for inline styles
+- **styleguide**: Update class names for surfaces
+- **app.css**: Organise CSS structure
+- **search**: Move total search results to the summary stats section
+- **DataInsights**: Replace direct dev checks with DevOnly component
+- **layout**: Replace dev environment check with DevOnly component and update styleguide link placement
+- **search**: Move search input into filters section
+- **landing**: Update header font class
+
 ## v0.11.0 (2025-05-27)
 
 ### Feat
