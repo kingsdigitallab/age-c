@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { config } from '$lib';
-	import { searchConfig } from '$lib/index';
+	import { hero, searchConfig } from '$lib/index';
 	import DataInsights from '$lib/components/insights/DataInsights.svelte';
 	import SearchResultsItems from '$lib/components/SearchResultsItems.svelte';
 	import Search from '$lib/search/Search.svelte';
@@ -14,9 +13,11 @@
 </script>
 
 <section class="hero">
-	<h1 class="font-gothic">{config.siteTitle}</h1>
-	<p>{config.siteDescription}</p>
-	<a role="button" href="{base}/about"> About </a>
+	<h1 class="font-gothic">{hero.title.toUpperCase()}</h1>
+	<h2>{hero.description}</h2>
+	<p>
+		<a role="button" href="{base}/about"> About </a>
+	</p>
 </section>
 
 {#if searchWorker}
@@ -77,16 +78,26 @@
 	}
 
 	.hero h1 {
-		--pico-color: var(--pico-primary);
-		--pico-font-size: clamp(4rem, 20vw, 10rem);
+		--pico-color: var(--age-c-black);
+		--pico-font-size: clamp(4rem, 25vw, 15rem);
 		--pico-font-weight: 400;
 
 		font-stretch: ultra-condensed;
+		letter-spacing: -0.02rem;
+		line-height: 0.8;
 		text-align: center;
+		text-transform: uppercase;
 		text-wrap: balance;
 	}
 
-	.hero p {
-		--pico-font-size: clamp(1.5rem, 5vw, 2rem);
+	.hero h2 {
+		--pico-color: var(--age-c-black);
+		--pico-font-size: clamp(1.5rem, 3vw, 3rem);
+
+		font-weight: 600;
+		margin-block-end: clamp(2rem, 10vh, 6rem);
+		max-inline-size: 50%;
+		margin-inline: auto;
+		text-wrap: balance;
 	}
 </style>
