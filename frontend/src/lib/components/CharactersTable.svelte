@@ -9,46 +9,48 @@
 		$props();
 </script>
 
-<table class="striped">
-	<thead>
-		<tr>
-			<th>{linkToFilm ? 'Film' : 'Actor'}</th>
-			<th>Role</th>
-			<th>Age</th>
-			<th>Gender</th>
-			<th>Sexuality</th>
-			<th>Origin</th>
-			<th>Class</th>
-			<th>Profession</th>
-			<th>Ability</th>
-			<th>Assisted Mobility</th>
-		</tr>
-	</thead>
-	<tbody>
-		{#each characters as character}
+<div class="overflow-auto">
+	<table class="striped">
+		<thead>
 			<tr>
-				<td>
-					<strong>
-						{#if linkToFilm}
-							<FilmLink film={character.film} />
-						{:else}
-							<BiographyLink person={character?.person} showAgeGender={false} />
-						{/if}
-					</strong>
-				</td>
-				<td><FilterLink name="role" value={character?.role} /></td>
-				<td><FilterLink name="characterAge" value={character?.age} /></td>
-				<td><FilterLink name="characterGender" value={character?.gender} /></td>
-				<td><FilterLink name="characterSexuality" value={character?.sexuality} /></td>
-				<td><FilterLink name="characterOrigin" value={character?.origin} /></td>
-				<td><FilterLink name="characterClass" value={character?.class} /></td>
-				<td><FilterLink name="characterProfession" value={character?.profession} /></td>
-				<td><FilterLink name="characterAbility" value={character?.ability} /></td>
-				<td><FilterLink name="assistedMobility" value={character?.assistedMobility} /></td>
+				<th>{linkToFilm ? 'Film' : 'Actor'}</th>
+				<th>Role</th>
+				<th>Age</th>
+				<th>Gender</th>
+				<th>Sexuality</th>
+				<th>Origin</th>
+				<th>Class</th>
+				<th>Profession</th>
+				<th>Ability</th>
+				<th>Assisted Mobility</th>
 			</tr>
-		{/each}
-	</tbody>
-</table>
+		</thead>
+		<tbody>
+			{#each characters as character}
+				<tr>
+					<td>
+						<strong>
+							{#if linkToFilm}
+								<FilmLink film={character.film} />
+							{:else}
+								<BiographyLink person={character?.person} showAgeGender={false} />
+							{/if}
+						</strong>
+					</td>
+					<td><FilterLink name="role" value={character?.role} /></td>
+					<td><FilterLink name="characterAge" value={character?.age} /></td>
+					<td><FilterLink name="characterGender" value={character?.gender} /></td>
+					<td><FilterLink name="characterSexuality" value={character?.sexuality} /></td>
+					<td><FilterLink name="characterOrigin" value={character?.origin} /></td>
+					<td><FilterLink name="characterClass" value={character?.class} /></td>
+					<td><FilterLink name="characterProfession" value={character?.profession} /></td>
+					<td><FilterLink name="characterAbility" value={character?.ability} /></td>
+					<td><FilterLink name="assistedMobility" value={character?.assistedMobility} /></td>
+				</tr>
+			{/each}
+		</tbody>
+	</table>
+</div>
 
 <style>
 	table > * {
