@@ -17,7 +17,8 @@
 	<h1 class="font-gothic">{hero.title.toUpperCase()}</h1>
 	<h2>{hero.description}</h2>
 	<p>
-		<a role="button" href="{base}/about"> About </a>
+		<a role="button" href="#skij"> Explore the dataset </a>
+		<a class="secondary" role="button" href="{base}/about"> About the project </a>
 	</p>
 </section>
 
@@ -74,13 +75,14 @@
 
 <style>
 	.hero {
+		margin-block-end: clamp(2rem, 10vh, 8rem);
 		min-height: calc(100vh - var(--pico-spacing) * 10);
 		text-align: center;
 	}
 
 	.hero h1 {
 		--pico-color: var(--age-c-black);
-		--pico-font-size: clamp(4rem, 25vw, 15rem);
+		--pico-font-size: clamp(6rem, 32vw, 15rem);
 		--pico-font-weight: 400;
 
 		font-stretch: ultra-condensed;
@@ -96,7 +98,7 @@
 		--pico-font-size: clamp(1.5rem, 3vw, 3rem);
 
 		font-weight: 600;
-		margin-block-end: clamp(2rem, 10vh, 6rem);
+		margin-block-end: clamp(2rem, 10vh, 8rem);
 		max-inline-size: 50%;
 		margin-inline: auto;
 		text-wrap: balance;
