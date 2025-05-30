@@ -11,6 +11,11 @@ export const config = {
 	repoUrl: 'https://github.com/kingsdigitallab/age-c'
 };
 
+export const hero = {
+	title: 'Dataset Exploration',
+	description: 'Ageing and Gender in European Cinema'
+};
+
 const searchAggregations = {
 	type: {
 		title: 'Type',
