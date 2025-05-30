@@ -144,11 +144,14 @@ body {
 }
 
 article {
-	border: calc(var(--pico-border-width) * 5) solid var(--pico-primary-border);
+	border: calc(var(--pico-border-width) * 7) solid var(--pico-primary-border);
+	border-radius: unset;
+	border-top-right-radius: calc(var(--pico-border-radius) * 10);
 
 	& article {
-		border: unset;
-		border-left: calc(var(--pico-border-width) * 5) solid var(--pico-primary-border);
+		border-radius: var(--pico-border-radius);
+		border-width: var(--pico-border-width);
+		border-color: var(--age-c-black-secondary);
 	}
 }
 
