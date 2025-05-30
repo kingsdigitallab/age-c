@@ -31,6 +31,8 @@ jobs:
           bun install
 
       - name: Build
+        env:
+          GITHUB_ACTIONS_BUILD: true
         run: |
           bun run build
 
