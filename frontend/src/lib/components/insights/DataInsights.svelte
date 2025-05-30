@@ -216,7 +216,7 @@
 		<footer>
 			<details>
 				<summary><strong>Expand to show data used to plot the chart</strong></summary>
-				<section>
+				<section class="overflow-auto">
 					<table class="striped">
 						<thead>
 							<tr>
