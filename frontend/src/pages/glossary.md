@@ -10,6 +10,7 @@ tags:
 ---
 
 <script>
+	import { base } from '$app/paths';
 	import FilterLink from '$lib/components/FilterLink.svelte';
 </script>
 
@@ -29,7 +30,7 @@ film, multiple tags have been added in the dataset.
 
 #### Action
 
-- **<FilterLink name="tags" value="last+mission">Last Mission</FilterLink>**:
+- **<FilterLink name="tags" value="last+mission" base={base}>Last Mission</FilterLink>**:
   Films where an ageing character who is retired or close to retirement engages
   in one final action related to his/her professional or personal goals. This
   often happens against the character's own free will, as s/he is driven to
