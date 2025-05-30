@@ -13,6 +13,9 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		alias: { $data: '../data/2_final' },
+		paths: {
+			base: process.env.GITHUB_ACTIONS_BUILD === 'true' ? '/age-c' : ''
+		},
 		prerender: {
 			handleMissingId: 'ignore'
 		}
