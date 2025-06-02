@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { config } from '$lib/index';
-	import type { Character } from '$lib/types';
+	import type { Character, Film, Person } from '$lib/types';
 	import BiographyLink from './BiographyLink.svelte';
 	import FilmLink from './FilmLink.svelte';
 	import FilterLink from './FilterLink.svelte';
@@ -14,7 +13,6 @@
 		<thead>
 			<tr>
 				<th>{linkToFilm ? 'Film' : 'Actor'}</th>
-				<th>Role</th>
 				<th>Age</th>
 				<th>Gender</th>
 				<th>Sexuality</th>
@@ -31,13 +29,12 @@
 					<td>
 						<strong>
 							{#if linkToFilm}
-								<FilmLink film={character.film} />
+								<FilmLink film={character.film as Film} />
 							{:else}
-								<BiographyLink person={character?.person} showAgeGender={false} />
+								<BiographyLink person={character?.person as Person} showAgeGender={false} />
 							{/if}
 						</strong>
 					</td>
-					<td><FilterLink name="role" value={character?.role} /></td>
 					<td><FilterLink name="characterAge" value={character?.age} /></td>
 					<td><FilterLink name="characterGender" value={character?.gender} /></td>
 					<td><FilterLink name="characterSexuality" value={character?.sexuality} /></td>
@@ -51,9 +48,3 @@
 		</tbody>
 	</table>
 </div>
-
-<style>
-	table > * {
-		font-size: 0.8rem;
-	}
-</style>
