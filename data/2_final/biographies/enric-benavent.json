@@ -1,42 +1,67 @@
 {
-  "id": "Enric Benavent",
-  "type": "Biography",
-  "slug": "enric-benavent",
-  "name": "Enric Benavent",
-  "birthYear": 1953,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "Unknown",
-      "class": "Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Coming of Age",
-        "id": "ES2019_076",
-        "production": {
-          "country": "Spain",
-          "share": "Majority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2019
-        },
-        "slug": "es2019-076-la-banda",
-        "tags": "migration",
-        "title": {
-          "english": "Love Beats",
-          "native": "La Banda"
+    "type": "Person",
+    "id": "Enric Benavent",
+    "slug": "enric-benavent",
+    "name": "Enric Benavent",
+    "birthYear": 1953,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [
+        {
+            "id": "ES2019_076_01",
+            "film": {
+                "id": "ES2019_076",
+                "slug": "es2019-076-la-banda",
+                "title": {
+                    "native": "La Banda",
+                    "english": "Love Beats"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-07-06",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "person": "Enric Benavent",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "Unknown"
         }
-      },
-      "gender": "Male identifying",
-      "id": "ES2019_076_01",
-      "origin": "White Western European",
-      "profession": "Unknown",
-      "role": "Supporting actor",
-      "sexuality": "Heterosexual"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2019_076",
+                "slug": "es2019-076-la-banda",
+                "title": {
+                    "native": "La Banda",
+                    "english": "Love Beats"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-07-06",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        }
+    ]
 }

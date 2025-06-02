@@ -1,48 +1,61 @@
 {
-  "id": "Jaume Balaguer\u00f3",
-  "type": "Biography",
-  "slug": "jaume-balaguero",
-  "name": "Jaume Balaguer\u00f3",
-  "birthYear": 1968,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Thriller",
-      "id": "ES2021_002",
-      "production": {
-        "country": "France",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2011
-      },
-      "slug": "es2021-002-way-down",
-      "tags": "mentorship",
-      "title": {
-        "english": "The Vault",
-        "native": "Way Down"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Horror",
-      "id": "ES2022_029",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "es2022-029-venus",
-      "tags": "supernatural entity",
-      "title": {
-        "native": "Venus"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Jaume Balaguer\u00f3",
+    "slug": "jaume-balaguero",
+    "name": "Jaume Balaguer\u00f3",
+    "birthYear": 1968,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2021_002",
+                "slug": "es2021-002-way-down",
+                "title": {
+                    "native": "Way Down",
+                    "english": "The Vault"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2011-12-21",
+                    "year": 2011
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "ES2022_029",
+                "slug": "es2022-029-venus",
+                "title": {
+                    "native": "Venus",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-11-20",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

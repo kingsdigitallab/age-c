@@ -1,65 +1,83 @@
 {
-  "id": "Walter Veltroni",
-  "type": "Biography",
-  "slug": "walter-veltroni",
-  "name": "Walter Veltroni",
-  "birthYear": 1955,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "IT2019_039",
-      "production": {
-        "country": "France",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "it2019-039-c-e-tempo",
-      "tags": "motherhood",
-      "title": {
-        "native": "C'\u00e8 tempo"
-      }
-    },
-    {
-      "filmType": "Documentary",
-      "genre": "Biopic",
-      "id": "IT2023_040",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "it2023-040-dallamericaruso-il-concerto-perduto",
-      "tags": "personal memory",
-      "title": {
-        "native": "Dallamericaruso. Il Concerto Perduto"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "IT2023_029",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "it2023-029-quando",
-      "tags": "new start",
-      "title": {
-        "native": "Quando"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Walter Veltroni",
+    "slug": "walter-veltroni",
+    "name": "Walter Veltroni",
+    "birthYear": 1955,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2019_039",
+                "slug": "it2019-039-c-e-tempo",
+                "title": {
+                    "native": "C'\u00e8 tempo",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-07-03",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2023_029",
+                "slug": "it2023-029-quando",
+                "title": {
+                    "native": "Quando",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-03-30",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2023_040",
+                "slug": "it2023-040-dallamericaruso-il-concerto-perduto",
+                "title": {
+                    "native": "Dallamericaruso. Il Concerto Perduto",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-11-20",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

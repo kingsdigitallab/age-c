@@ -1,30 +1,35 @@
 {
-  "id": "Szil\u00e1rd Bern\u00e1th",
-  "type": "Biography",
-  "slug": "szilard-bernath",
-  "name": "Szil\u00e1rd Bern\u00e1th",
-  "birthYear": 1986,
-  "nationality": "Hungary",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "HU2022_006",
-      "production": {
-        "country": "Hungary",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "hu2022-006-larry",
-      "tags": "rural",
-      "title": {
-        "english": "Larry",
-        "native": "Larry"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Szil\u00e1rd Bern\u00e1th",
+    "slug": "szilard-bernath",
+    "name": "Szil\u00e1rd Bern\u00e1th",
+    "birthYear": 1986,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Hungary",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "HU2022_006",
+                "slug": "hu2022-006-larry",
+                "title": {
+                    "native": "Larry",
+                    "english": "Larry"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-12-01",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

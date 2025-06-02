@@ -1,48 +1,57 @@
 {
-  "id": "Laura Lackmann",
-  "type": "Biography",
-  "slug": "laura-lackmann",
-  "name": "Laura Lackmann",
-  "birthYear": 1979,
-  "nationality": "Germany",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "DE2023_006",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "de2023-006-caveman",
-      "tags": "urban",
-      "title": {
-        "english": "Caveman",
-        "native": "Caveman"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Romance",
-      "id": "DE2018_057",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "de2018-057-zwei-im-falschen-film",
-      "title": {
-        "english": "Mission: Love",
-        "native": "Zwei im falschen Film"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Laura Lackmann",
+    "slug": "laura-lackmann",
+    "name": "Laura Lackmann",
+    "birthYear": 1979,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2018_057",
+                "slug": "de2018-057-zwei-im-falschen-film",
+                "title": {
+                    "native": "Zwei im falschen Film",
+                    "english": "Mission: Love"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-05-31",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "DE2023_006",
+                "slug": "de2023-006-caveman",
+                "title": {
+                    "native": "Caveman",
+                    "english": "Caveman"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-01-26",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

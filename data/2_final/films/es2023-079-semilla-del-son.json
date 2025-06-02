@@ -1,48 +1,79 @@
 {
-  "id": "ES2023_079",
-  "type": "Film",
-  "slug": "es2023-079-semilla-del-son",
-  "title": {
-    "native": "Semilla del son"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2010-11-23",
-    "year": 2010
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=697763",
-    "posterUrl": "https://www.filmaffinity.com/es/film697763.html"
-  },
-  "genre": [
-    "Musical",
-    "Documentary \u2013 Participatory mode",
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "artistic creation",
-    "colony",
-    "holiday",
-    "homosociality",
-    "interracial relationships"
-  ],
-  "director": [
-    {
-      "id": "Juan Manuel Villar Betancort",
-      "slug": "juan-manuel-villar-betancort",
-      "name": "Juan Manuel Villar Betancort",
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Santiago Auser\u00f3n se impregna de la sabidur\u00eda r\u00edtmica del son desde su primera visita a Cuba en 1984, influjo que traslada a su carrera musical como innovaci\u00f3n mestiza en el rock. Su actual proyecto, Juan Perro, es su laboratorio sonoro y en \u00e9l sintetiza Cuba, Espa\u00f1a y Nueva Orleans. Un viaje que parte de la tradici\u00f3n espa\u00f1ola y vuela al delta del Mississippi en forma de blues, con parada intermedia en el son cubano, para fusionarlo finalmente con el jazz de Nueva Orleans. Una road movie sonora que nos adentra en el universo de una de las figuras m\u00e1s carism\u00e1ticas de la cultura postmoderna espa\u00f1ola."
-  }
+    "type": "Film",
+    "id": "ES2023_079",
+    "slug": "es2023-079-semilla-del-son",
+    "title": {
+        "native": "Semilla del son",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2010-11-23",
+        "year": 2010
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Juan Manuel Villar Betancort",
+            "slug": "juan-manuel-villar-betancort",
+            "name": "Juan Manuel Villar Betancort",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Musical",
+        "Documentary \u2013 Participatory mode",
+        "Documentary \u2013 Performative mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.filmaffinity.com/es/film697763.html",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=697763"
+    },
+    "synopsis": {
+        "native": "Santiago Auser\u00f3n se impregna de la sabidur\u00eda r\u00edtmica del son desde su primera visita a Cuba en 1984, influjo que traslada a su carrera musical como innovaci\u00f3n mestiza en el rock. Su actual proyecto, Juan Perro, es su laboratorio sonoro y en \u00e9l sintetiza Cuba, Espa\u00f1a y Nueva Orleans. Un viaje que parte de la tradici\u00f3n espa\u00f1ola y vuela al delta del Mississippi en forma de blues, con parada intermedia en el son cubano, para fusionarlo finalmente con el jazz de Nueva Orleans. Una road movie sonora que nos adentra en el universo de una de las figuras m\u00e1s carism\u00e1ticas de la cultura postmoderna espa\u00f1ola.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Juan Manuel Villar Betancort",
+                "slug": "juan-manuel-villar-betancort",
+                "name": "Juan Manuel Villar Betancort",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Santiago Auser\u00f3n",
+                "slug": "santiago-auseron",
+                "name": "Santiago Auser\u00f3n",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "interracial relationships",
+        "holiday",
+        "colony",
+        "homosociality"
+    ]
 }

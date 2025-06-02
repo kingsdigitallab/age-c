@@ -1,29 +1,43 @@
 {
-  "id": "Octav Chelaru",
-  "type": "Biography",
-  "slug": "octav-chelaru",
-  "name": "Octav Chelaru",
-  "birthYear": 1991,
-  "nationality": "Romania",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Thriller",
-      "id": "RO2022_002",
-      "production": {
-        "country": "Germany",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "ro2022-002-balaur",
-      "title": {
-        "english": "A Higher Law",
-        "native": "Balaur"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Octav Chelaru",
+    "slug": "octav-chelaru",
+    "name": "Octav Chelaru",
+    "birthYear": 1991,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Romania",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "RO2022_002",
+                "slug": "ro2022-002-balaur",
+                "title": {
+                    "native": "Balaur",
+                    "english": "A Higher Law"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-09-09",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Serbia",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

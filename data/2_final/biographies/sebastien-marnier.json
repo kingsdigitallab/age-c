@@ -1,49 +1,61 @@
 {
-  "id": "S\u00e9bastien Marnier",
-  "type": "Biography",
-  "slug": "sebastien-marnier",
-  "name": "S\u00e9bastien Marnier",
-  "birthYear": 1977,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Thriller",
-      "id": "FR2022_138",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "fr2022-138-l-origine-du-mal",
-      "tags": "abuse",
-      "title": {
-        "english": "The Origin of Evil",
-        "native": "L'Origine du mal"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Thriller",
-      "id": "FR2019_005",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-005-l-heure-de-la-sortie",
-      "tags": "high rank employment",
-      "title": {
-        "english": "School's Out",
-        "native": "L'Heure de la sortie"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "S\u00e9bastien Marnier",
+    "slug": "sebastien-marnier",
+    "name": "S\u00e9bastien Marnier",
+    "birthYear": 1977,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2019_005",
+                "slug": "fr2019-005-l-heure-de-la-sortie",
+                "title": {
+                    "native": "L'Heure de la sortie",
+                    "english": "School's Out"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-01-09",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2022_138",
+                "slug": "fr2022-138-l-origine-du-mal",
+                "title": {
+                    "native": "L'Origine du mal",
+                    "english": "The Origin of Evil"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-10-05",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Canada",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

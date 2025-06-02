@@ -1,53 +1,93 @@
 {
-  "id": "FR2021_050",
-  "type": "Film",
-  "slug": "fr2021-050-rouge",
-  "title": {
-    "native": "Rouge",
-    "english": "Red Soil"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-08-11",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2021_050",
+    "slug": "fr2021-050-rouge",
+    "title": {
+        "native": "Rouge",
+        "english": "Red Soil"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=B44bq8ijrfc",
-    "posterUrl": "https://medias.unifrance.org/medias/223/122/228063/format_page/red-soil.jpg"
-  },
-  "genre": [
-    "Thriller",
-    "Drama"
-  ],
-  "tags": [
-    "low rank employment",
-    "intergenerational conflict",
-    "ecology",
-    "fatherhood"
-  ],
-  "director": [
-    {
-      "id": "Farid Bentoumi",
-      "slug": "farid-bentoumi",
-      "name": "Farid Bentoumi",
-      "birthYear": 1976,
-      "gender": "Male identifying",
-      "nationality": "Algeria"
-    }
-  ],
-  "synopsis": {
-    "native": "Nour vient d\u2019\u00eatre embauch\u00e9e comme infirmi\u00e8re dans l\u2019usine chimique o\u00f9 travaille son p\u00e8re, d\u00e9l\u00e9gu\u00e9 syndical et pivot de l\u2019entreprise depuis toujours. Alors que l\u2019usine est en plein contr\u00f4le sanitaire, une journaliste m\u00e8ne l\u2019enqu\u00eate sur la gestion des d\u00e9chets. Les deux jeunes femmes vont peu \u00e0 peu d\u00e9couvrir que cette usine, pilier de l\u2019\u00e9conomie locale, cache bien des secrets. Entre mensonges sur les rejets polluants, dossiers m\u00e9dicaux trafiqu\u00e9s ou accidents dissimul\u00e9s, Nour va devoir choisir : se taire ou trahir son p\u00e8re pour faire \u00e9clater la v\u00e9rit\u00e9.",
-    "english": "Nour, a young nurse, has just been hired at her dad\u2019s chemical factory. Taking care of the infirmary, she uncovers long hidden secrets and arrangements between the syndicates, politicians,and industry leaders. Lies about polluting waste, employees beingsick, work accidents\u2026 Now the young woman will have to choose between her father or become a whistleblower\u2026"
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2021-08-11",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Farid Bentoumi",
+            "slug": "farid-bentoumi",
+            "name": "Farid Bentoumi",
+            "birthYear": 1976,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Algeria"
+        }
+    ],
+    "genre": [
+        "Thriller",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/223/122/228063/format_page/red-soil.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=B44bq8ijrfc"
+    },
+    "synopsis": {
+        "native": "Nour vient d\u2019\u00eatre embauch\u00e9e comme infirmi\u00e8re dans l\u2019usine chimique o\u00f9 travaille son p\u00e8re, d\u00e9l\u00e9gu\u00e9 syndical et pivot de l\u2019entreprise depuis toujours. Alors que l\u2019usine est en plein contr\u00f4le sanitaire, une journaliste m\u00e8ne l\u2019enqu\u00eate sur la gestion des d\u00e9chets. Les deux jeunes femmes vont peu \u00e0 peu d\u00e9couvrir que cette usine, pilier de l\u2019\u00e9conomie locale, cache bien des secrets. Entre mensonges sur les rejets polluants, dossiers m\u00e9dicaux trafiqu\u00e9s ou accidents dissimul\u00e9s, Nour va devoir choisir : se taire ou trahir son p\u00e8re pour faire \u00e9clater la v\u00e9rit\u00e9.",
+        "english": "Nour, a young nurse, has just been hired at her dad\u2019s chemical factory. Taking care of the infirmary, she uncovers long hidden secrets and arrangements between the syndicates, politicians,and industry leaders. Lies about polluting waste, employees beingsick, work accidents\u2026 Now the young woman will have to choose between her father or become a whistleblower\u2026"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Farid Bentoumi",
+                "slug": "farid-bentoumi",
+                "name": "Farid Bentoumi",
+                "birthYear": 1976,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Algeria"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Olivier Gourmet",
+                "slug": "olivier-gourmet",
+                "name": "Olivier Gourmet",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Sami Bouajila",
+                "slug": "sami-bouajila",
+                "name": "Sami Bouajila",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "fatherhood",
+        "low rank employment",
+        "ecology",
+        "intergenerational conflict"
+    ]
 }

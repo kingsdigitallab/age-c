@@ -1,30 +1,35 @@
 {
-  "id": "Marilou Berry",
-  "type": "Biography",
-  "slug": "marilou-berry",
-  "name": "Marilou Berry",
-  "birthYear": 1983,
-  "nationality": "France",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2019_121",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-121-quand-on-crie-au-loup",
-      "tags": "grandparenthood",
-      "title": {
-        "english": "The Boy Who Cried Wolf",
-        "native": "Quand on crie au loup"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Marilou Berry",
+    "slug": "marilou-berry",
+    "name": "Marilou Berry",
+    "birthYear": 1983,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2019_121",
+                "slug": "fr2019-121-quand-on-crie-au-loup",
+                "title": {
+                    "native": "Quand on crie au loup",
+                    "english": "The Boy Who Cried Wolf"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-07-03",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,49 +1,57 @@
 {
-  "id": "Bertrand Mandico",
-  "type": "Biography",
-  "slug": "bertrand-mandico",
-  "name": "Bertrand Mandico",
-  "birthYear": 1977,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Science Fiction",
-      "id": "FR2022_030",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "fr2022-030-after-blue-paradis-sale",
-      "tags": "natural",
-      "title": {
-        "english": "After Blue",
-        "native": "After Blue (Paradis sale)"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Fantasy",
-      "id": "FR2018_034",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-034-les-garcons-sauvages",
-      "tags": "education",
-      "title": {
-        "english": "The Wild Boys",
-        "native": "Les Gar\u00e7ons sauvages"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Bertrand Mandico",
+    "slug": "bertrand-mandico",
+    "name": "Bertrand Mandico",
+    "birthYear": 1977,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_034",
+                "slug": "fr2018-034-les-garcons-sauvages",
+                "title": {
+                    "native": "Les Gar\u00e7ons sauvages",
+                    "english": "The Wild Boys"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-02-28",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2022_030",
+                "slug": "fr2022-030-after-blue-paradis-sale",
+                "title": {
+                    "native": "After Blue (Paradis sale)",
+                    "english": "After Blue"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-02-16",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

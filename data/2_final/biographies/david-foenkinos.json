@@ -1,30 +1,35 @@
 {
-  "id": "David Foenkinos",
-  "type": "Biography",
-  "slug": "david-foenkinos",
-  "name": "David Foenkinos",
-  "birthYear": 1974,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Multi-protagonist film",
-      "id": "FR2021_053",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-053-les-fantasmes",
-      "tags": "sex",
-      "title": {
-        "english": "Fantasies",
-        "native": "Les Fantasmes"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "David Foenkinos",
+    "slug": "david-foenkinos",
+    "name": "David Foenkinos",
+    "birthYear": 1974,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_053",
+                "slug": "fr2021-053-les-fantasmes",
+                "title": {
+                    "native": "Les Fantasmes",
+                    "english": "Fantasies"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-08-18",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

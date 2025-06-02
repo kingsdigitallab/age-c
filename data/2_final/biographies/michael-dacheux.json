@@ -1,30 +1,35 @@
 {
-  "id": "Micha\u00ebl Dacheux",
-  "type": "Biography",
-  "slug": "michael-dacheux",
-  "name": "Micha\u00ebl Dacheux",
-  "birthYear": 1978,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2019_025",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-025-l-amour-debout",
-      "tags": "artistic creation",
-      "title": {
-        "english": "Love Blooms",
-        "native": "L'Amour debout"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Micha\u00ebl Dacheux",
+    "slug": "michael-dacheux",
+    "name": "Micha\u00ebl Dacheux",
+    "birthYear": 1978,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2019_025",
+                "slug": "fr2019-025-l-amour-debout",
+                "title": {
+                    "native": "L'Amour debout",
+                    "english": "Love Blooms"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-01-30",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

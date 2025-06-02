@@ -1,68 +1,83 @@
 {
-  "id": "Gabriel Julien-Laferri\u00e8re",
-  "type": "Biography",
-  "slug": "gabriel-julien-laferriere",
-  "name": "Gabriel Julien-Laferri\u00e8re",
-  "birthYear": 1962,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2021_047",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-047-c-est-quoi-ce-papy",
-      "tags": "retirement home",
-      "title": {
-        "english": "When Granny Meets Grandpa",
-        "native": "C'est quoi ce papy ?!"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2018_127",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-127-neuilly-sa-mere-sa-mere",
-      "tags": "urban",
-      "title": {
-        "english": "Straight Outta Neuilly",
-        "native": "Neuilly sa m\u00e8re, sa m\u00e8re !"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2019_138",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-138-c-est-quoi-cette-mamie",
-      "tags": "in-laws",
-      "title": {
-        "english": "Who's That Granny?!",
-        "native": "C'est quoi cette mamie ?!"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Gabriel Julien-Laferri\u00e8re",
+    "slug": "gabriel-julien-laferriere",
+    "name": "Gabriel Julien-Laferri\u00e8re",
+    "birthYear": 1962,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_127",
+                "slug": "fr2018-127-neuilly-sa-mere-sa-mere",
+                "title": {
+                    "native": "Neuilly sa m\u00e8re, sa m\u00e8re !",
+                    "english": "Straight Outta Neuilly"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-08-08",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2019_138",
+                "slug": "fr2019-138-c-est-quoi-cette-mamie",
+                "title": {
+                    "native": "C'est quoi cette mamie ?!",
+                    "english": "Who's That Granny?!"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-08-07",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2021_047",
+                "slug": "fr2021-047-c-est-quoi-ce-papy",
+                "title": {
+                    "native": "C'est quoi ce papy ?!",
+                    "english": "When Granny Meets Grandpa"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-08-11",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

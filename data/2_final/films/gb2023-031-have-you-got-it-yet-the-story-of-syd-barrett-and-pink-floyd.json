@@ -1,68 +1,138 @@
 {
-  "id": "GB2023_031",
-  "type": "Film",
-  "slug": "gb2023-031-have-you-got-it-yet-the-story-of-syd-barrett-and-pink-floyd",
-  "title": {
-    "native": "Have You Got It Yet? The Story of Syd Barrett and Pink Floyd"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-09-09",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=ALajTTcXwZE",
-    "posterUrl": "https://www.imdb.com/title/tt7182482/mediaviewer/rm3979487745/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Expository mode",
-    "Documentary \u2013 Participatory mode",
-    "Musical"
-  ],
-  "tags": [
-    "personal memory",
-    "artistic creation",
-    "cultural memory",
-    "legacy",
-    "celebrity",
-    "mental illness",
-    "homosociality"
-  ],
-  "director": [
-    {
-      "id": "Roddy Bogawa",
-      "slug": "roddy-bogawa",
-      "name": "Roddy Bogawa",
-      "birthYear": 1962,
-      "gender": "Male identifying",
-      "nationality": "United States of America (the)"
+    "type": "Film",
+    "id": "GB2023_031",
+    "slug": "gb2023-031-have-you-got-it-yet-the-story-of-syd-barrett-and-pink-floyd",
+    "title": {
+        "native": "Have You Got It Yet? The Story of Syd Barrett and Pink Floyd",
+        "english": ""
     },
-    {
-      "id": "Storm Thorgerson",
-      "slug": "storm-thorgerson",
-      "name": "Storm Thorgerson",
-      "birthYear": 1944,
-      "deathYear": 2013,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+    "release": {
+        "type": "Unknown",
+        "date": "2023-09-09",
+        "year": 2023
     },
-    {
-      "id": "Roddy Bogawa",
-      "slug": "roddy-bogawa",
-      "name": "Roddy Bogawa",
-      "birthYear": 1962,
-      "gender": "Male identifying",
-      "nationality": "Japan"
-    }
-  ],
-  "synopsis": {
-    "native": "Follow the moment Barrett was kicked out of Pink Floyd, from the narrative of him going from groundbreaking musician to iconic rocker and manic, unstable star."
-  }
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Roddy Bogawa",
+            "slug": "roddy-bogawa",
+            "name": "Roddy Bogawa",
+            "birthYear": 1962,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Japan"
+        },
+        {
+            "id": "Storm Thorgerson",
+            "slug": "storm-thorgerson",
+            "name": "Storm Thorgerson",
+            "birthYear": 1944,
+            "deathYear": 2013,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Documentary \u2013 Expository mode",
+        "Musical"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt7182482/mediaviewer/rm3979487745/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=ALajTTcXwZE"
+    },
+    "synopsis": {
+        "native": "Follow the moment Barrett was kicked out of Pink Floyd, from the narrative of him going from groundbreaking musician to iconic rocker and manic, unstable star.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "David Gilmour",
+                "slug": "david-gilmour",
+                "name": "David Gilmour",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Jason Isaacs",
+                "slug": "jason-isaacs",
+                "name": "Jason Isaacs",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Unknown"
+            },
+            "role": "Narrator/voice over"
+        },
+        {
+            "person": {
+                "id": "Nick Mason",
+                "slug": "nick-mason",
+                "name": "Nick Mason",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Roddy Bogawa",
+                "slug": "roddy-bogawa",
+                "name": "Roddy Bogawa",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Japan"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Roger Waters",
+                "slug": "roger-waters",
+                "name": "Roger Waters",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Storm Thorgerson",
+                "slug": "storm-thorgerson",
+                "name": "Storm Thorgerson",
+                "birthYear": 1944,
+                "deathYear": 2013,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "cultural memory",
+        "mental illness",
+        "personal memory",
+        "artistic creation",
+        "legacy",
+        "celebrity",
+        "homosociality"
+    ]
 }

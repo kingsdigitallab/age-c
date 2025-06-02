@@ -1,43 +1,83 @@
 {
-  "id": "Xan Cejudo",
-  "type": "Biography",
-  "slug": "xan-cejudo",
-  "name": "Xan Cejudo",
-  "birthYear": 1947,
-  "deathYear": 2018,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Chronic illness",
-      "age": "4: Fourth Age (>75)",
-      "assistedMobility": "Unknown",
-      "class": "Upper Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Crime",
-        "id": "ES2019_005",
-        "production": {
-          "country": "United States of America (the)",
-          "share": "Minority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2019
-        },
-        "slug": "es2019-005-quien-a-hierro-mata",
-        "tags": "ageism",
-        "title": {
-          "english": "Eye for an Eye",
-          "native": "Quien a hierro mata"
+    "type": "Person",
+    "id": "Xan Cejudo",
+    "slug": "xan-cejudo",
+    "name": "Xan Cejudo",
+    "birthYear": 1947,
+    "deathYear": 2018,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [
+        {
+            "id": "ES2019_005_01",
+            "film": {
+                "id": "ES2019_005",
+                "slug": "es2019-005-quien-a-hierro-mata",
+                "title": {
+                    "native": "Quien a hierro mata",
+                    "english": "Eye for an Eye"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-08-30",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Xan Cejudo",
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Chronic illness",
+            "assistedMobility": "Unknown"
         }
-      },
-      "gender": "Male identifying",
-      "id": "ES2019_005_01",
-      "origin": "White Western European",
-      "profession": "Self-employed",
-      "role": "Supporting actor",
-      "sexuality": "Heterosexual"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2019_005",
+                "slug": "es2019-005-quien-a-hierro-mata",
+                "title": {
+                    "native": "Quien a hierro mata",
+                    "english": "Eye for an Eye"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-08-30",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        }
+    ]
 }

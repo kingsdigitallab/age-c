@@ -1,30 +1,35 @@
 {
-  "id": "Johannes Naber",
-  "type": "Biography",
-  "slug": "johannes-naber",
-  "name": "Johannes Naber",
-  "birthYear": 1971,
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Historical film (Heritage Film)",
-      "id": "DE2021_038",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "de2021-038-curveball",
-      "tags": "war",
-      "title": {
-        "english": "Operation Curveball",
-        "native": "Curveball"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Johannes Naber",
+    "slug": "johannes-naber",
+    "name": "Johannes Naber",
+    "birthYear": 1971,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2021_038",
+                "slug": "de2021-038-curveball",
+                "title": {
+                    "native": "Curveball",
+                    "english": "Operation Curveball"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-09-09",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

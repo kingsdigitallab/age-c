@@ -1,30 +1,35 @@
 {
-  "id": "Emmanuel Mouret",
-  "type": "Biography",
-  "slug": "emmanuel-mouret",
-  "name": "Emmanuel Mouret",
-  "birthYear": 1970,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2020_067",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "fr2020-067-les-choses-qu-on-dit-les-choses-qu-on-fait",
-      "tags": "artistic creation",
-      "title": {
-        "english": "Love Affair(s)",
-        "native": "Les Choses qu'on dit, les choses qu'on fait"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Emmanuel Mouret",
+    "slug": "emmanuel-mouret",
+    "name": "Emmanuel Mouret",
+    "birthYear": 1970,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2020_067",
+                "slug": "fr2020-067-les-choses-qu-on-dit-les-choses-qu-on-fait",
+                "title": {
+                    "native": "Les Choses qu'on dit, les choses qu'on fait",
+                    "english": "Love Affair(s)"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-09-16",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

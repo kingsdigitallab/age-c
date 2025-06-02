@@ -1,97 +1,129 @@
 {
-  "id": "FR2018_043",
-  "type": "Film",
-  "slug": "fr2018-043-tout-le-monde-debout",
-  "title": {
-    "native": "Tout le monde debout",
-    "english": "Rolling to You"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-03-14",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2018_043",
+    "slug": "fr2018-043-tout-le-monde-debout",
+    "title": {
+        "native": "Tout le monde debout",
+        "english": "Rolling to You"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=9zSEPbmDAfs",
-    "posterUrl": "https://medias.unifrance.org/medias/240/225/188912/format_page/rolling-to-you.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "wealth",
-    "intergenerational friendship",
-    "fraud",
-    "body norms",
-    "grief",
-    "self-employment",
-    "romance"
-  ],
-  "director": [
-    {
-      "id": "Franck Dubosc",
-      "slug": "franck-dubosc",
-      "name": "Franck Dubosc",
-      "birthYear": 1963,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2018_043_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Franck Dubosc",
-        "slug": "franck-dubosc",
-        "name": "Franck Dubosc",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2018-03-14",
+        "year": 2018
     },
-    {
-      "id": "FR2018_043_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Franck Dubosc",
-        "slug": "franck-dubosc",
-        "name": "Franck Dubosc",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Director of the film"
-    }
-  ],
-  "synopsis": {
-    "native": "Jocelyn, homme d'affaire en pleine r\u00e9ussite, \u00e9go\u00efste et misogyne, lass\u00e9 d'\u00eatre lui-m\u00eame, se retrouve malgr\u00e9 lui \u00e0 s\u00e9duire une jeune et jolie femme en se faisant passer pour un handicap\u00e9. Jusqu'au jour o\u00f9 elle lui pr\u00e9sente sa soeur elle-m\u00eame handicap\u00e9e...",
-    "english": "Jocelyn is a womanizer and a seducer... One day, he pretends to be paraplegic to seduce a young caregiver. How could he imagine that he would fall in love with her sister, who is really in a wheelchair? And so Jocelyn is finally trapped in his own scam..."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Franck Dubosc",
+            "slug": "franck-dubosc",
+            "name": "Franck Dubosc",
+            "birthYear": 1963,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/240/225/188912/format_page/rolling-to-you.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=9zSEPbmDAfs"
+    },
+    "synopsis": {
+        "native": "Jocelyn, homme d'affaire en pleine r\u00e9ussite, \u00e9go\u00efste et misogyne, lass\u00e9 d'\u00eatre lui-m\u00eame, se retrouve malgr\u00e9 lui \u00e0 s\u00e9duire une jeune et jolie femme en se faisant passer pour un handicap\u00e9. Jusqu'au jour o\u00f9 elle lui pr\u00e9sente sa soeur elle-m\u00eame handicap\u00e9e...",
+        "english": "Jocelyn is a womanizer and a seducer... One day, he pretends to be paraplegic to seduce a young caregiver. How could he imagine that he would fall in love with her sister, who is really in a wheelchair? And so Jocelyn is finally trapped in his own scam..."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2018_043_01",
+            "film": "FR2018_043",
+            "person": {
+                "id": "Franck Dubosc",
+                "slug": "franck-dubosc",
+                "name": "Franck Dubosc",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Claude Brasseur",
+                "slug": "claude-brasseur",
+                "name": "Claude Brasseur",
+                "birthYear": 1936,
+                "deathYear": 2020,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Franck Dubosc",
+                "slug": "franck-dubosc",
+                "name": "Franck Dubosc",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Franck Dubosc",
+                "slug": "franck-dubosc",
+                "name": "Franck Dubosc",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "G\u00e9rard Darmon",
+                "slug": "gerard-darmon",
+                "name": "G\u00e9rard Darmon",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "self-employment",
+        "wealth",
+        "romance",
+        "body norms",
+        "intergenerational friendship",
+        "grief",
+        "fraud"
+    ]
 }

@@ -1,77 +1,153 @@
 {
-  "id": "FR2020_008",
-  "type": "Film",
-  "slug": "fr2020-008-je-ne-reve-que-de-vous",
-  "title": {
-    "native": "Je ne r\u00eave que de vous",
-    "english": "An Irrepressible Woman"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-01-15",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=ZJIRwByd1bY",
-    "posterUrl": "https://fr.web.img3.acsta.net/pictures/19/10/22/17/00/3049833.jpg"
-  },
-  "genre": [
-    "Romance",
-    "Biopic"
-  ],
-  "tags": [
-    "sex",
-    "artistic creation",
-    "war",
-    "state institutions",
-    "may-december",
-    "romance",
-    "activism",
-    "desire",
-    "celebrity",
-    "professional politics"
-  ],
-  "director": [
-    {
-      "id": "Laurent Heynemann",
-      "slug": "laurent-heynemann",
-      "name": "Laurent Heynemann",
-      "birthYear": 1948,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2020_008_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Hippolyte Girardot",
-        "slug": "hippolyte-girardot",
-        "name": "Hippolyte Girardot",
-        "birthYear": 1955.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "1940. Jeanne Reichenbach renonce \u00e0 sa vie confortable pour lier son destin \u00e0 celui de L\u00e9on Blum. Elle l'aime depuis l'adolescence et sacrifie sa libert\u00e9 pour l'\u00e9pouser \u00e0 Buchenwald, o\u00f9 il est enferm\u00e9. Ils survivront.",
-    "english": "1940. Jeanne \u201cJanot\u201d Reichenbach leaves her husband and child to save the man she always loved: L\u00e9on Blum, the famous French political figure. She will travel across Europe and sacrifice her freedom to marry him in the Buchenwald camp."
-  }
+    "type": "Film",
+    "id": "FR2020_008",
+    "slug": "fr2020-008-je-ne-reve-que-de-vous",
+    "title": {
+        "native": "Je ne r\u00eave que de vous",
+        "english": "An Irrepressible Woman"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-01-15",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Laurent Heynemann",
+            "slug": "laurent-heynemann",
+            "name": "Laurent Heynemann",
+            "birthYear": 1948,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Romance",
+        "Biopic"
+    ],
+    "media": {
+        "posterUrl": "https://fr.web.img3.acsta.net/pictures/19/10/22/17/00/3049833.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=ZJIRwByd1bY"
+    },
+    "synopsis": {
+        "native": "1940. Jeanne Reichenbach renonce \u00e0 sa vie confortable pour lier son destin \u00e0 celui de L\u00e9on Blum. Elle l'aime depuis l'adolescence et sacrifie sa libert\u00e9 pour l'\u00e9pouser \u00e0 Buchenwald, o\u00f9 il est enferm\u00e9. Ils survivront.",
+        "english": "1940. Jeanne \u201cJanot\u201d Reichenbach leaves her husband and child to save the man she always loved: L\u00e9on Blum, the famous French political figure. She will travel across Europe and sacrifice her freedom to marry him in the Buchenwald camp."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2020_008_01",
+            "film": "FR2020_008",
+            "person": {
+                "id": "Hippolyte Girardot",
+                "slug": "hippolyte-girardot",
+                "name": "Hippolyte Girardot",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Hippolyte Girardot",
+                "slug": "hippolyte-girardot",
+                "name": "Hippolyte Girardot",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "J\u00e9r\u00f4me Deschamps",
+                "slug": "jerome-deschamps",
+                "name": "J\u00e9r\u00f4me Deschamps",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Laurent Heynemann",
+                "slug": "laurent-heynemann",
+                "name": "Laurent Heynemann",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Mathilda May",
+                "slug": "mathilda-may",
+                "name": "Mathilda May",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Philippe Torreton",
+                "slug": "philippe-torreton",
+                "name": "Philippe Torreton",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Thomas Chabrol",
+                "slug": "thomas-chabrol",
+                "name": "Thomas Chabrol",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "may-december",
+        "romance",
+        "sex",
+        "state institutions",
+        "war",
+        "professional politics",
+        "activism",
+        "artistic creation",
+        "celebrity",
+        "desire"
+    ]
 }

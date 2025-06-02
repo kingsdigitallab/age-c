@@ -1,29 +1,35 @@
 {
-  "id": "Jon Wright",
-  "type": "Biography",
-  "slug": "jon-wright",
-  "name": "Jon Wright",
-  "birthYear": 1971,
-  "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Horror",
-      "id": "GB2023_019",
-      "production": {
-        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "gb2023-019-unwelcome",
-      "tags": "national identity",
-      "title": {
-        "native": "Unwelcome"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Jon Wright",
+    "slug": "jon-wright",
+    "name": "Jon Wright",
+    "birthYear": 1971,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "GB2023_019",
+                "slug": "gb2023-019-unwelcome",
+                "title": {
+                    "native": "Unwelcome",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-01-27",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

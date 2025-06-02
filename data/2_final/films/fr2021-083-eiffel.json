@@ -1,49 +1,89 @@
 {
-  "id": "FR2021_083",
-  "type": "Film",
-  "slug": "fr2021-083-eiffel",
-  "title": {
-    "native": "Eiffel",
-    "english": "Eiffel"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-10-13",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2021_083",
+    "slug": "fr2021-083-eiffel",
+    "title": {
+        "native": "Eiffel",
+        "english": "Eiffel"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=VE38gLP2ORg",
-    "posterUrl": "https://medias.unifrance.org/medias/103/166/239207/format_page/eiffel.jpg"
-  },
-  "genre": [
-    "Biopic"
-  ],
-  "tags": [
-    "wealth"
-  ],
-  "director": [
-    {
-      "id": "Martin Bourboulon",
-      "slug": "martin-bourboulon",
-      "name": "Martin Bourboulon",
-      "birthYear": 1979,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Venant tout juste de terminer sa collaboration sur la Statue de la Libert\u00e9, Gustave Eiffel est au sommet de sa carri\u00e8re. Le gouvernement fran\u00e7ais veut qu\u2019il cr\u00e9e quelque chose de spectaculaire pour l\u2019Exposition Universelle de 1889 \u00e0 Paris, mais Eiffel ne s\u2019int\u00e9resse qu\u2019au projet de m\u00e9tropolitain. Tout bascule lorsqu'il recroise son amour de jeunesse. Leur relation interdite l\u2019inspire \u00e0 changer l\u2019horizon de Paris pour toujours.",
-    "english": "The government is asking Eiffel to design something spectacular for the 1889 Paris World Fair, but Eiffel simply wants to design the subway. Suddenly, everything changes when Eiffel crosses paths with a mysterious woman from his past."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2021-10-13",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Martin Bourboulon",
+            "slug": "martin-bourboulon",
+            "name": "Martin Bourboulon",
+            "birthYear": 1979,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Biopic"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/103/166/239207/format_page/eiffel.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=VE38gLP2ORg"
+    },
+    "synopsis": {
+        "native": "Venant tout juste de terminer sa collaboration sur la Statue de la Libert\u00e9, Gustave Eiffel est au sommet de sa carri\u00e8re. Le gouvernement fran\u00e7ais veut qu\u2019il cr\u00e9e quelque chose de spectaculaire pour l\u2019Exposition Universelle de 1889 \u00e0 Paris, mais Eiffel ne s\u2019int\u00e9resse qu\u2019au projet de m\u00e9tropolitain. Tout bascule lorsqu'il recroise son amour de jeunesse. Leur relation interdite l\u2019inspire \u00e0 changer l\u2019horizon de Paris pour toujours.",
+        "english": "The government is asking Eiffel to design something spectacular for the 1889 Paris World Fair, but Eiffel simply wants to design the subway. Suddenly, everything changes when Eiffel crosses paths with a mysterious woman from his past."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Germany",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Bruno Raffaelli",
+                "slug": "bruno-raffaelli",
+                "name": "Bruno Raffaelli",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Fr\u00e9d\u00e9ric Merlo",
+                "slug": "frederic-merlo",
+                "name": "Fr\u00e9d\u00e9ric Merlo",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Martin Bourboulon",
+                "slug": "martin-bourboulon",
+                "name": "Martin Bourboulon",
+                "birthYear": 1979,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "wealth"
+    ]
 }

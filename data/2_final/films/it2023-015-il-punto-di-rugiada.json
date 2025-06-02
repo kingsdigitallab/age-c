@@ -1,72 +1,160 @@
 {
-  "id": "IT2023_015",
-  "type": "Film",
-  "slug": "it2023-015-il-punto-di-rugiada",
-  "title": {
-    "native": "Il punto di rugiada",
-    "english": "The Dew Point"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "First festival screening",
-    "date": "2023-11-27",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=1Mide9xjl98",
-    "posterUrl": "https://www.imdb.com/title/tt18940482/mediaviewer/rm1724140033/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "intergenerational friendship",
-    "intergenerational conflict",
-    "retirement home",
-    "caregiving",
-    "loneliness",
-    "covid-19"
-  ],
-  "director": [
-    {
-      "id": "Marco Risi",
-      "slug": "marco-risi",
-      "name": "Marco Risi",
-      "birthYear": 1951,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2023_015_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Massimo De Francovich",
-        "slug": "massimo-de-francovich",
-        "name": "Massimo De Francovich",
-        "birthYear": 1936.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Carlo, un ragazzo viziato e sregolato, una notte provoca da ubriaco un grave incidente d\u2019auto per il quale viene condannato a scontare un anno di lavori socialmente utili in una casa di riposo. Insieme a lui a Villa Bianca arriva anche Manuel, un giovane spacciatore colto in flagrante. Luisa, infermiera che lavora da anni nella struttura, guider\u00e0 i due ragazzi in un mondo senza et\u00e0 dove condivisione, conforto e accoglienza cambieranno per sempre il loro sguardo sul mondo e sulla vita.",
-    "english": "Carlo 25 years of age and given to excess, is the prince of cocaine-fuelled parties. One night, upon leaving a club drunk, he crashes into a car, severely injuring the driver. At trial, he is sentenced to one year of community service at a nursing home: Villa Bianca. Thus begins the account of an entire season spent inside the nursing home. There, along with Manuel, a small-time, big- talking drug dealer, and thanks to the home\u2019s residents (and to Dino in particular: eighty years old, cultured and sarcastic, embittered by life to the point of having attempted suicide on several occasions), Carlo will change his outlook on the world and on life itself."
-  }
+    "type": "Film",
+    "id": "IT2023_015",
+    "slug": "it2023-015-il-punto-di-rugiada",
+    "title": {
+        "native": "Il punto di rugiada",
+        "english": "The Dew Point"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-11-27",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Marco Risi",
+            "slug": "marco-risi",
+            "name": "Marco Risi",
+            "birthYear": 1951,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt18940482/mediaviewer/rm1724140033/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=1Mide9xjl98"
+    },
+    "synopsis": {
+        "native": "Carlo, un ragazzo viziato e sregolato, una notte provoca da ubriaco un grave incidente d\u2019auto per il quale viene condannato a scontare un anno di lavori socialmente utili in una casa di riposo. Insieme a lui a Villa Bianca arriva anche Manuel, un giovane spacciatore colto in flagrante. Luisa, infermiera che lavora da anni nella struttura, guider\u00e0 i due ragazzi in un mondo senza et\u00e0 dove condivisione, conforto e accoglienza cambieranno per sempre il loro sguardo sul mondo e sulla vita.",
+        "english": "Carlo 25 years of age and given to excess, is the prince of cocaine-fuelled parties. One night, upon leaving a club drunk, he crashes into a car, severely injuring the driver. At trial, he is sentenced to one year of community service at a nursing home: Villa Bianca. Thus begins the account of an entire season spent inside the nursing home. There, along with Manuel, a small-time, big- talking drug dealer, and thanks to the home\u2019s residents (and to Dino in particular: eighty years old, cultured and sarcastic, embittered by life to the point of having attempted suicide on several occasions), Carlo will change his outlook on the world and on life itself."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2023_015_01",
+            "film": "IT2023_015",
+            "person": {
+                "id": "Massimo De Francovich",
+                "slug": "massimo-de-francovich",
+                "name": "Massimo De Francovich",
+                "birthYear": 1936,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Unknown",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Elena Cotta",
+                "slug": "elena-cotta",
+                "name": "Elena Cotta",
+                "birthYear": 1931,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Erika Blanc",
+                "slug": "erika-blanc",
+                "name": "Erika Blanc",
+                "birthYear": 1942,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Eros Pagni",
+                "slug": "eros-pagni",
+                "name": "Eros Pagni",
+                "birthYear": 1939,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Luigi Diberti",
+                "slug": "luigi-diberti",
+                "name": "Luigi Diberti",
+                "birthYear": 1939,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Marco Risi",
+                "slug": "marco-risi",
+                "name": "Marco Risi",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Massimo De Francovich",
+                "slug": "massimo-de-francovich",
+                "name": "Massimo De Francovich",
+                "birthYear": 1936,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Valerio Binasco",
+                "slug": "valerio-binasco",
+                "name": "Valerio Binasco",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "retirement home",
+        "intergenerational friendship",
+        "intergenerational conflict",
+        "caregiving",
+        "loneliness",
+        "covid-19"
+    ]
 }

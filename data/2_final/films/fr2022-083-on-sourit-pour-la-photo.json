@@ -1,74 +1,103 @@
 {
-  "id": "FR2022_083",
-  "type": "Film",
-  "slug": "fr2022-083-on-sourit-pour-la-photo",
-  "title": {
-    "native": "On sourit pour la photo",
-    "english": "Say Cheese"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-05-11",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=_VnSL3SZqJU",
-    "posterUrl": "https://medias.unifrance.org/medias/172/200/247980/format_page/on-sourit-pour-la-photo.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Romance"
-  ],
-  "tags": [
-    "parenthood",
-    "personal memory",
-    "reignited passion",
-    "holiday",
-    "marriage",
-    "separation",
-    "tourism",
-    "retirement"
-  ],
-  "director": [
-    {
-      "id": "Fran\u00e7ois Uzan",
-      "slug": "francois-uzan",
-      "name": "Fran\u00e7ois Uzan",
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2022_083_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Jacques Gamblin",
-        "slug": "jacques-gamblin",
-        "name": "Jacques Gamblin",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Thierry passe ses journ\u00e9es \u00e0 classer ses photos de famille, persuad\u00e9 que le meilleur est derri\u00e8re lui. Lorsque Claire, sa femme, lui annonce qu'elle le quitte, Thierry, d\u00e9vast\u00e9, lui propose de refaire \" Gr\u00e8ce 98 \", leurs meilleures vacances en famille. Officiellement, il veut passer une derni\u00e8re semaine avec leurs enfants avant de leur annoncer la s\u00e9paration. Officieusement il esp\u00e8re reconqu\u00e9rir sa femme ! En tentant de raviver la flamme de son couple, Thierry va mettre le feu \u00e0 sa famille\u2026",
-    "english": "Thierry is convinced that the best is behind him. When Claire, his wife, tired of \u201cit was better before\u201d, announces that she is leaving him, Thierry, devastated, decides to go back to Greece where they spent their best family holidays 20 years ago. Officially, he wants to spend one last week with their children before announcing their separation. Unofficially, he hopes to win back his wife... By trying to rekindle the flame of his couple, Thierry may well set his family on fire..."
-  }
+    "type": "Film",
+    "id": "FR2022_083",
+    "slug": "fr2022-083-on-sourit-pour-la-photo",
+    "title": {
+        "native": "On sourit pour la photo",
+        "english": "Say Cheese"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-05-11",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Fran\u00e7ois Uzan",
+            "slug": "francois-uzan",
+            "name": "Fran\u00e7ois Uzan",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/172/200/247980/format_page/on-sourit-pour-la-photo.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=_VnSL3SZqJU"
+    },
+    "synopsis": {
+        "native": "Thierry passe ses journ\u00e9es \u00e0 classer ses photos de famille, persuad\u00e9 que le meilleur est derri\u00e8re lui. Lorsque Claire, sa femme, lui annonce qu'elle le quitte, Thierry, d\u00e9vast\u00e9, lui propose de refaire \" Gr\u00e8ce 98 \", leurs meilleures vacances en famille. Officiellement, il veut passer une derni\u00e8re semaine avec leurs enfants avant de leur annoncer la s\u00e9paration. Officieusement il esp\u00e8re reconqu\u00e9rir sa femme ! En tentant de raviver la flamme de son couple, Thierry va mettre le feu \u00e0 sa famille\u2026",
+        "english": "Thierry is convinced that the best is behind him. When Claire, his wife, tired of \u201cit was better before\u201d, announces that she is leaving him, Thierry, devastated, decides to go back to Greece where they spent their best family holidays 20 years ago. Officially, he wants to spend one last week with their children before announcing their separation. Unofficially, he hopes to win back his wife... By trying to rekindle the flame of his couple, Thierry may well set his family on fire..."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_083_01",
+            "film": "FR2022_083",
+            "person": {
+                "id": "Jacques Gamblin",
+                "slug": "jacques-gamblin",
+                "name": "Jacques Gamblin",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Fran\u00e7ois Uzan",
+                "slug": "francois-uzan",
+                "name": "Fran\u00e7ois Uzan",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jacques Gamblin",
+                "slug": "jacques-gamblin",
+                "name": "Jacques Gamblin",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "marriage",
+        "separation",
+        "parenthood",
+        "reignited passion",
+        "holiday",
+        "tourism",
+        "personal memory",
+        "retirement"
+    ]
 }

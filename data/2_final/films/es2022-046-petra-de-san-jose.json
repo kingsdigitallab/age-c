@@ -1,115 +1,170 @@
 {
-  "id": "ES2022_046",
-  "type": "Film",
-  "slug": "es2022-046-petra-de-san-jose",
-  "title": {
-    "native": "Petra de San Jos\u00e9"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-02-04",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=689731",
-    "posterUrl": "https://www.imdb.com/title/tt14060532/mediaviewer/rm3984254465/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Historical film (Heritage Film)",
-    "Drama",
-    "Biopic"
-  ],
-  "tags": [
-    "high rank employment",
-    "precarity",
-    "class solidarity",
-    "religion",
-    "caregiving",
-    "homelessness",
-    "power",
-    "substance abuse"
-  ],
-  "director": [
-    {
-      "id": "Pablo Moreno",
-      "slug": "pablo-moreno",
-      "name": "Pablo Moreno",
-      "birthYear": 1983,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2022_046_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Assumpta Serna",
-        "slug": "assumpta-serna",
-        "name": "Assumpta Serna",
-        "birthYear": 1957.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "ES2022_046",
+    "slug": "es2022-046-petra-de-san-jose",
+    "title": {
+        "native": "Petra de San Jos\u00e9",
+        "english": ""
     },
-    {
-      "id": "ES2022_046_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Emilio Linder",
-        "slug": "emilio-linder",
-        "name": "Emilio Linder",
-        "birthYear": 1949.0,
-        "gender": "Male identifying",
-        "nationality": "Argentina"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2022-02-04",
+        "year": 2022
     },
-    {
-      "id": "ES2022_046_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Juan Lombardero",
-        "slug": "juan-lombardero",
-        "name": "Juan Lombardero",
-        "birthYear": 1949.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Pel\u00edcula biogr\u00e1fica sobre Petra de San Jos\u00e9, fundadora de la Congregaci\u00f3n Madres de Desamparados y San Jos\u00e9 de la Monta\u00f1a. La historia refleja la vida de esta mujer, que luch\u00f3 por la defensa y cuidado de los m\u00e1s necesitados, especialmente de ancianos abandonados, ni\u00f1os hu\u00e9rfanos.",
-    "english": "The life of Mother Petra de San Jose. Founder of the Madres de Desamparados and San Jos\u00e9 de la Monta\u00f1a Congregation. A life of effort and religion, to populate homeless people. Avatars of the life of this woman, that after the years, the remains of her lived a very remarkable moment."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Pablo Moreno",
+            "slug": "pablo-moreno",
+            "name": "Pablo Moreno",
+            "birthYear": 1983,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Historical film (Heritage Film)",
+        "Biopic",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt14060532/mediaviewer/rm3984254465/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=689731"
+    },
+    "synopsis": {
+        "native": "Pel\u00edcula biogr\u00e1fica sobre Petra de San Jos\u00e9, fundadora de la Congregaci\u00f3n Madres de Desamparados y San Jos\u00e9 de la Monta\u00f1a. La historia refleja la vida de esta mujer, que luch\u00f3 por la defensa y cuidado de los m\u00e1s necesitados, especialmente de ancianos abandonados, ni\u00f1os hu\u00e9rfanos.",
+        "english": "The life of Mother Petra de San Jose. Founder of the Madres de Desamparados and San Jos\u00e9 de la Monta\u00f1a Congregation. A life of effort and religion, to populate homeless people. Avatars of the life of this woman, that after the years, the remains of her lived a very remarkable moment."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2022_046_01",
+            "film": "ES2022_046",
+            "person": {
+                "id": "Emilio Linder",
+                "slug": "emilio-linder",
+                "name": "Emilio Linder",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Argentina"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2022_046_02",
+            "film": "ES2022_046",
+            "person": {
+                "id": "Assumpta Serna",
+                "slug": "assumpta-serna",
+                "name": "Assumpta Serna",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2022_046_03",
+            "film": "ES2022_046",
+            "person": {
+                "id": "Juan Lombardero",
+                "slug": "juan-lombardero",
+                "name": "Juan Lombardero",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Assumpta Serna",
+                "slug": "assumpta-serna",
+                "name": "Assumpta Serna",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Emilio Linder",
+                "slug": "emilio-linder",
+                "name": "Emilio Linder",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Argentina"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Juan Lombardero",
+                "slug": "juan-lombardero",
+                "name": "Juan Lombardero",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Pablo Moreno",
+                "slug": "pablo-moreno",
+                "name": "Pablo Moreno",
+                "birthYear": 1983,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "religion",
+        "high rank employment",
+        "caregiving",
+        "precarity",
+        "class solidarity",
+        "power",
+        "substance abuse",
+        "homelessness"
+    ]
 }

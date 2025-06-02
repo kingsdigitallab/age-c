@@ -1,69 +1,97 @@
 {
-  "id": "IT2021_019",
-  "type": "Film",
-  "slug": "it2021-019-il-mostro-della-cripta",
-  "title": {
-    "native": "Il mostro della cripta",
-    "english": "The Crypt Monster"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-08-18",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=od4fmZAQ-Ls",
-    "posterUrl": "https://www.imdb.com/title/tt12463560/mediaviewer/rm3113012993/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Action",
-    "Horror"
-  ],
-  "tags": [
-    "intergenerational friendship"
-  ],
-  "director": [
-    {
-      "id": "Daniele Misischia",
-      "slug": "daniele-misischia",
-      "name": "Daniele Misischia",
-      "birthYear": 1985,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2021_019_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Pasquale Lillo Petrolo",
-        "slug": "pasquale-lillo-petrolo",
-        "name": "Pasquale Lillo Petrolo",
-        "birthYear": 1962.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "\u00c8 il 1988 e il giovane Gi\u00f2 (Tobia De Angelis), nerd poco pi\u00f9 che adolescente, sfogliando l\u2019ultimo numero del suo fumetto preferito, \u201cSquadra 666 \u2013 Il Mostro Della Cripta\u201d, scritto e disegnato da uno dei suoi idoli, Diego Busirivici (Lillo Petrolo), si accorge di alcune analogie tra la storia raccontata in quelle pagine e gli atroci avvenimenti che stanno seminando morte e terrore nel paesino in cui vive. Un inquietante mistero condurr\u00e0 Gi\u00f2 e il suo strampalato gruppo di amici in un\u2019avventura fuori dal comune.",
-    "english": "A teenage nerd flipping through a comic sees parallels between the story and real life horrors in the village where he lives.He and a few friends seek to investigate."
-  }
+    "type": "Film",
+    "id": "IT2021_019",
+    "slug": "it2021-019-il-mostro-della-cripta",
+    "title": {
+        "native": "Il mostro della cripta",
+        "english": "The Crypt Monster"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-08-18",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Daniele Misischia",
+            "slug": "daniele-misischia",
+            "name": "Daniele Misischia",
+            "birthYear": 1985,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Horror",
+        "Action"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt12463560/mediaviewer/rm3113012993/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=od4fmZAQ-Ls"
+    },
+    "synopsis": {
+        "native": "\u00c8 il 1988 e il giovane Gi\u00f2 (Tobia De Angelis), nerd poco pi\u00f9 che adolescente, sfogliando l\u2019ultimo numero del suo fumetto preferito, \u201cSquadra 666 \u2013 Il Mostro Della Cripta\u201d, scritto e disegnato da uno dei suoi idoli, Diego Busirivici (Lillo Petrolo), si accorge di alcune analogie tra la storia raccontata in quelle pagine e gli atroci avvenimenti che stanno seminando morte e terrore nel paesino in cui vive. Un inquietante mistero condurr\u00e0 Gi\u00f2 e il suo strampalato gruppo di amici in un\u2019avventura fuori dal comune.",
+        "english": "A teenage nerd flipping through a comic sees parallels between the story and real life horrors in the village where he lives.He and a few friends seek to investigate."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2021_019_01",
+            "film": "IT2021_019",
+            "person": {
+                "id": "Pasquale Lillo Petrolo",
+                "slug": "pasquale-lillo-petrolo",
+                "name": "Pasquale Lillo Petrolo",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Daniele Misischia",
+                "slug": "daniele-misischia",
+                "name": "Daniele Misischia",
+                "birthYear": 1985,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Pasquale Lillo Petrolo",
+                "slug": "pasquale-lillo-petrolo",
+                "name": "Pasquale Lillo Petrolo",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "intergenerational friendship"
+    ]
 }

@@ -1,47 +1,57 @@
 {
-  "id": "Francesco Mandelli",
-  "type": "Biography",
-  "slug": "francesco-mandelli",
-  "name": "Francesco Mandelli",
-  "birthYear": 1979,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "IT2019_051",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "it2019-051-appena-un-minuto",
-      "tags": "homosociality",
-      "title": {
-        "native": "Appena un minuto"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "IT2019_053",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "it2019-053-bene-ma-non-benissimo",
-      "tags": "parenthood",
-      "title": {
-        "native": "Bene ma non benissimo"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Francesco Mandelli",
+    "slug": "francesco-mandelli",
+    "name": "Francesco Mandelli",
+    "birthYear": 1979,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2019_051",
+                "slug": "it2019-051-appena-un-minuto",
+                "title": {
+                    "native": "Appena un minuto",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-03-10",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2019_053",
+                "slug": "it2019-053-bene-ma-non-benissimo",
+                "title": {
+                    "native": "Bene ma non benissimo",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-04-04",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,44 +1,73 @@
 {
-  "id": "FR2018_072",
-  "type": "Film",
-  "slug": "fr2018-072-lutine",
-  "title": {
-    "native": "Lutine"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-04-11",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=PXnk2XYHTTk",
-    "posterUrl": "https://medias.unifrance.org/medias/67/230/190019/format_page/lutine.png"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "self-employment"
-  ],
-  "director": [
-    {
-      "id": "Isabelle Brou\u00e9",
-      "slug": "isabelle-broue",
-      "name": "Isabelle Brou\u00e9",
-      "birthYear": 1968,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Une r\u00e9alisatrice d\u00e9cide de tourner, l\u00e0 maintenant tout de suite, un documentaire sur le lutinage \u2013 aussi appel\u00e9 polyamorie, polyamour, ou l\u2019art des amours plurielles. Jouant avec les \u00e9motions et les sentiments \u2013 surtout ceux des autres \u2013 brouillant les pistes entre r\u00e9alit\u00e9 et fiction, elle prend des risques dont elle ne mesure pas toujours les cons\u00e9quences\u2026 Son couple y r\u00e9sistera-t-il ? Finira- t-elle son film ?",
-    "english": "A director is filming a documentary on polyamory: somewhere between documentary and fiction, she takes risks and she cannot always measure the consequences. As a combination of documentary and fiction, the film could be classified as a 'UMO': Unidentified Movie Object! On the one hand: a serious, poised, and thought-through documentary with speakers who have reflected on the topic or who live it everyday. On the other hand: a comedy about a female director who plays with fire by testing out polyamory on her own relationship. Between the two, a grey area in which fiction gets entangled with reality. Will her sweetheart be able to stand up to the challenge of polyamory? Will she finish her film?"
-  }
+    "type": "Film",
+    "id": "FR2018_072",
+    "slug": "fr2018-072-lutine",
+    "title": {
+        "native": "Lutine",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-04-11",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Isabelle Brou\u00e9",
+            "slug": "isabelle-broue",
+            "name": "Isabelle Brou\u00e9",
+            "birthYear": 1968,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/67/230/190019/format_page/lutine.png",
+        "trailerUrl": "https://www.youtube.com/watch?v=PXnk2XYHTTk"
+    },
+    "synopsis": {
+        "native": "Une r\u00e9alisatrice d\u00e9cide de tourner, l\u00e0 maintenant tout de suite, un documentaire sur le lutinage \u2013 aussi appel\u00e9 polyamorie, polyamour, ou l\u2019art des amours plurielles. Jouant avec les \u00e9motions et les sentiments \u2013 surtout ceux des autres \u2013 brouillant les pistes entre r\u00e9alit\u00e9 et fiction, elle prend des risques dont elle ne mesure pas toujours les cons\u00e9quences\u2026 Son couple y r\u00e9sistera-t-il ? Finira- t-elle son film ?",
+        "english": "A director is filming a documentary on polyamory: somewhere between documentary and fiction, she takes risks and she cannot always measure the consequences. As a combination of documentary and fiction, the film could be classified as a 'UMO': Unidentified Movie Object! On the one hand: a serious, poised, and thought-through documentary with speakers who have reflected on the topic or who live it everyday. On the other hand: a comedy about a female director who plays with fire by testing out polyamory on her own relationship. Between the two, a grey area in which fiction gets entangled with reality. Will her sweetheart be able to stand up to the challenge of polyamory? Will she finish her film?"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Anne Beno\u00eet",
+                "slug": "anne-benoit",
+                "name": "Anne Beno\u00eet",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Isabelle Brou\u00e9",
+                "slug": "isabelle-broue",
+                "name": "Isabelle Brou\u00e9",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "self-employment"
+    ]
 }

@@ -1,62 +1,96 @@
 {
-  "id": "FR2022_080",
-  "type": "Film",
-  "slug": "fr2022-080-tenor",
-  "title": {
-    "native": "T\u00e9nor",
-    "english": "Tenor"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-05-04",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=Nx1Q-vGmPh4",
-    "posterUrl": "https://medias.unifrance.org/medias/145/204/248977/format_page/tenor.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "artistic creation",
-    "celibacy",
-    "mentorship",
-    "self-employment",
-    "urban",
-    "class conflict"
-  ],
-  "character": [
-    {
-      "id": "FR2022_080_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Mich\u00e8le Laroque",
-        "slug": "michele-laroque",
-        "name": "Mich\u00e8le Laroque",
-        "birthYear": 1960.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Antoine, jeune banlieusard parisien, suit des \u00e9tudes de comptabilit\u00e9 sans grande conviction, partageant son temps entre les battles de rap qu\u2019il pratique avec talent et son job de livreur de sushis. Lors d\u2019une course \u00e0 l\u2019Op\u00e9ra Garnier , sa route croise celle de Mme Loyseau, professeur de chant dans la v\u00e9n\u00e9rable institution, qui d\u00e9tecte chez Antoine un talent brut \u00e0 faire \u00e9clore. Malgr\u00e9 son absence de culture lyrique, Antoine est fascin\u00e9 par cette forme d\u2019expression et se laisse convaincre de suivre l\u2019enseignement de Mme Loyseau. Antoine n\u2019a d\u2019autre choix que de mentir \u00e0 sa famille, ses amis et toute la cit\u00e9 pour qui l\u2019op\u00e9ra est un truc de bourgeois, loin de leur monde.",
-    "english": "Antoine, a Parisian suburbanite, discovers a raw talent in singing at the Garnier Opera, but must lie to his family and friends to follow her teachings."
-  }
+    "type": "Film",
+    "id": "FR2022_080",
+    "slug": "fr2022-080-tenor",
+    "title": {
+        "native": "T\u00e9nor",
+        "english": "Tenor"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-05-04",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        "Claude Zidi Jr."
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/145/204/248977/format_page/tenor.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=Nx1Q-vGmPh4"
+    },
+    "synopsis": {
+        "native": "Antoine, jeune banlieusard parisien, suit des \u00e9tudes de comptabilit\u00e9 sans grande conviction, partageant son temps entre les battles de rap qu\u2019il pratique avec talent et son job de livreur de sushis. Lors d\u2019une course \u00e0 l\u2019Op\u00e9ra Garnier , sa route croise celle de Mme Loyseau, professeur de chant dans la v\u00e9n\u00e9rable institution, qui d\u00e9tecte chez Antoine un talent brut \u00e0 faire \u00e9clore. Malgr\u00e9 son absence de culture lyrique, Antoine est fascin\u00e9 par cette forme d\u2019expression et se laisse convaincre de suivre l\u2019enseignement de Mme Loyseau. Antoine n\u2019a d\u2019autre choix que de mentir \u00e0 sa famille, ses amis et toute la cit\u00e9 pour qui l\u2019op\u00e9ra est un truc de bourgeois, loin de leur monde.",
+        "english": "Antoine, a Parisian suburbanite, discovers a raw talent in singing at the Garnier Opera, but must lie to his family and friends to follow her teachings."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_080_01",
+            "film": "FR2022_080",
+            "person": {
+                "id": "Mich\u00e8le Laroque",
+                "slug": "michele-laroque",
+                "name": "Mich\u00e8le Laroque",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": "Claude Zidi Jr.",
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Mich\u00e8le Laroque",
+                "slug": "michele-laroque",
+                "name": "Mich\u00e8le Laroque",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Roberto Alagna",
+                "slug": "roberto-alagna",
+                "name": "Roberto Alagna",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "self-employment",
+        "mentorship",
+        "artistic creation",
+        "urban",
+        "class conflict",
+        "celibacy"
+    ]
 }

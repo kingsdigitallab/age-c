@@ -1,46 +1,101 @@
 {
-  "id": "FR2022_027",
-  "type": "Film",
-  "slug": "fr2022-027-ps-la-dipsarition",
-  "title": {
-    "native": "PS : La diPSarition ?"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-02-09",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=MUAAd9CAnCc",
-    "posterUrl": "https://fr.web.img4.acsta.net/pictures/21/12/20/15/06/2113867.jpg"
-  },
-  "genre": [
-    "Documentary \u2013 Expository mode",
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "state institutions",
-    "activism",
-    "professional politics",
-    "celebrity"
-  ],
-  "director": [
-    {
-      "id": "Jean-Pierre Pozzi",
-      "slug": "jean-pierre-pozzi",
-      "name": "Jean-Pierre Pozzi",
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Alors que Mathieu Sapin \u00e9crit quelques pages de BD \u00e0 l\u2019occasion du quaranti\u00e8me anniversaire de l\u2019\u00e9lection de Fran\u00e7ois Mitterrand, il se tourne \u2013 pour conna\u00eetre la petite histoire dans la grande \u2013 vers les figures de l\u2019ombre du Parti Socialiste, au premier rang desquelles Julien Dray, le \u00ab Baron Noir \u00bb. Au travers d\u2019anecdotes et t\u00e9moignages in\u00e9dits de visiteurs du soir qui c\u00f4toient les plus hautes sph\u00e8res de l\u2019Etat depuis le 10 mai 1981, Mathieu Sapin s\u2019embarque alors dans une enqu\u00eate qui va r\u00e9pondre \u00e0 la question politique majeure du PS : \u00ab Comment la gauche en est-elle arriv\u00e9e l\u00e0 ? \u00bb."
-  }
+    "type": "Film",
+    "id": "FR2022_027",
+    "slug": "fr2022-027-ps-la-dipsarition",
+    "title": {
+        "native": "PS : La diPSarition ?",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-02-09",
+        "year": 2022
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Jean-Pierre Pozzi",
+            "slug": "jean-pierre-pozzi",
+            "name": "Jean-Pierre Pozzi",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Expository mode",
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://fr.web.img4.acsta.net/pictures/21/12/20/15/06/2113867.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=MUAAd9CAnCc"
+    },
+    "synopsis": {
+        "native": "Alors que Mathieu Sapin \u00e9crit quelques pages de BD \u00e0 l\u2019occasion du quaranti\u00e8me anniversaire de l\u2019\u00e9lection de Fran\u00e7ois Mitterrand, il se tourne \u2013 pour conna\u00eetre la petite histoire dans la grande \u2013 vers les figures de l\u2019ombre du Parti Socialiste, au premier rang desquelles Julien Dray, le \u00ab Baron Noir \u00bb. Au travers d\u2019anecdotes et t\u00e9moignages in\u00e9dits de visiteurs du soir qui c\u00f4toient les plus hautes sph\u00e8res de l\u2019Etat depuis le 10 mai 1981, Mathieu Sapin s\u2019embarque alors dans une enqu\u00eate qui va r\u00e9pondre \u00e0 la question politique majeure du PS : \u00ab Comment la gauche en est-elle arriv\u00e9e l\u00e0 ? \u00bb.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "G\u00e9rard Col\u00e9",
+                "slug": "gerard-cole",
+                "name": "G\u00e9rard Col\u00e9",
+                "birthYear": 1941,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Jean-Pierre Pozzi",
+                "slug": "jean-pierre-pozzi",
+                "name": "Jean-Pierre Pozzi",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Julien Dray",
+                "slug": "julien-dray",
+                "name": "Julien Dray",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Laure Adler",
+                "slug": "laure-adler",
+                "name": "Laure Adler",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "professional politics",
+        "activism",
+        "state institutions",
+        "celebrity"
+    ]
 }

@@ -1,30 +1,39 @@
 {
-  "id": "Daniel Sandu",
-  "type": "Biography",
-  "slug": "daniel-sandu",
-  "name": "Daniel Sandu",
-  "birthYear": 1977,
-  "nationality": "Romania",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "RO2021_016",
-      "production": {
-        "country": "Sweden",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "ro2021-016-tata-muta-muntii",
-      "tags": "rescue mission",
-      "title": {
-        "english": "The Father Who Moves Mountains",
-        "native": "Tata mut\u0103 mun\u021bii"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Daniel Sandu",
+    "slug": "daniel-sandu",
+    "name": "Daniel Sandu",
+    "birthYear": 1977,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Romania",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "RO2021_016",
+                "slug": "ro2021-016-tata-muta-muntii",
+                "title": {
+                    "native": "Tata mut\u0103 mun\u021bii",
+                    "english": "The Father Who Moves Mountains"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-07-23",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Sweden",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

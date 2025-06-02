@@ -1,30 +1,35 @@
 {
-  "id": "Suzanne Lindon",
-  "type": "Biography",
-  "slug": "suzanne-lindon",
-  "name": "Suzanne Lindon",
-  "birthYear": 2000,
-  "nationality": "France",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Romance",
-      "id": "FR2021_019",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-019-seize-printemps",
-      "tags": "parenthood",
-      "title": {
-        "english": "Spring Blossom",
-        "native": "Seize Printemps"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Suzanne Lindon",
+    "slug": "suzanne-lindon",
+    "name": "Suzanne Lindon",
+    "birthYear": 2000,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_019",
+                "slug": "fr2021-019-seize-printemps",
+                "title": {
+                    "native": "Seize Printemps",
+                    "english": "Spring Blossom"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-06-16",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

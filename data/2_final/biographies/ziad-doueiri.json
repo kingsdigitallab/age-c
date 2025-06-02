@@ -1,30 +1,39 @@
 {
-  "id": "Ziad Doueiri",
-  "type": "Biography",
-  "slug": "ziad-doueiri",
-  "name": "Ziad Doueiri",
-  "birthYear": 1963,
-  "nationality": "Lebanon",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2018_014",
-      "production": {
-        "country": "Lebanon",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-014-l-insulte",
-      "tags": "high rank employment",
-      "title": {
-        "english": "The Insult",
-        "native": "L'Insulte"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Ziad Doueiri",
+    "slug": "ziad-doueiri",
+    "name": "Ziad Doueiri",
+    "birthYear": 1963,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Lebanon",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_014",
+                "slug": "fr2018-014-l-insulte",
+                "title": {
+                    "native": "L'Insulte",
+                    "english": "The Insult"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-01-31",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Lebanon",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

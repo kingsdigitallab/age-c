@@ -1,42 +1,93 @@
 {
-  "id": "Jos\u00e9 Lifante",
-  "type": "Biography",
-  "slug": "jose-lifante",
-  "name": "Jos\u00e9 Lifante",
-  "birthYear": 1943,
-  "deathYear": 2024,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Unknown",
-      "age": "4: Fourth Age (>75)",
-      "assistedMobility": "No",
-      "class": "Unknown",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Anthology Films",
-        "id": "ES2020_032",
-        "production": {
-          "country": "Spain",
-          "share": "Majority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2020
-        },
-        "slug": "es2020-032-vampus-horror-tales",
-        "tags": "low-rank employment",
-        "title": {
-          "native": "Vampus Horror Tales"
+    "type": "Person",
+    "id": "Jos\u00e9 Lifante",
+    "slug": "jose-lifante",
+    "name": "Jos\u00e9 Lifante",
+    "birthYear": 1943,
+    "deathYear": 2024,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [
+        {
+            "id": "ES2020_032_02",
+            "film": {
+                "id": "ES2020_032",
+                "slug": "es2020-032-vampus-horror-tales",
+                "title": {
+                    "native": "Vampus Horror Tales",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-11-26",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "person": "Jos\u00e9 Lifante",
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "ES2020_032_02",
-      "origin": "White Western European",
-      "profession": "Unknown",
-      "role": "Supporting actor",
-      "sexuality": "Unknown"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2019_042",
+                "slug": "es2019-042-sesion-salvaje",
+                "title": {
+                    "native": "Sesi\u00f3n Salvaje",
+                    "english": "Wild Session"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-12-13",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Mexico",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "film": {
+                "id": "ES2020_032",
+                "slug": "es2020-032-vampus-horror-tales",
+                "title": {
+                    "native": "Vampus Horror Tales",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-11-26",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        }
+    ]
 }

@@ -1,54 +1,110 @@
 {
-  "id": "GB2020_025",
-  "type": "Film",
-  "slug": "gb2020-025-cordelia",
-  "title": {
-    "native": "Cordelia"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-10-23",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=692697",
-    "posterUrl": "https://www.imdb.com/title/tt3734688/mediaviewer/rm466586369/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Horror"
-  ],
-  "director": [
-    {
-      "id": "Adrian Shergold",
-      "slug": "adrian-shergold",
-      "name": "Adrian Shergold",
-      "birthYear": 1948,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "age": "5: Range of ages represented by the same actor",
-      "gender": "Unknown",
-      "sexuality": "Unknown",
-      "origin": "Unknown",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "role": "Unknown"
-    }
-  ],
-  "synopsis": {
-    "native": "Cordelia is a troubled, damaged soul who is only just recovering after some unnamed trauma; she is an actor rehearsing a play and comes to stay in a creepy London mansion flat occupied by her twin sister Caroline and Caroline's boyfriend Matt. When they leave her alone there Cordelia strikes up a friendship with Frank the charming, but strange and unreliable young man they can hear practicing his cello in the upstairs flat - a relationship which quickly becomes very disturbing."
-  }
+    "type": "Film",
+    "id": "GB2020_025",
+    "slug": "gb2020-025-cordelia",
+    "title": {
+        "native": "Cordelia",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-10-23",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Adrian Shergold",
+            "slug": "adrian-shergold",
+            "name": "Adrian Shergold",
+            "birthYear": 1948,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Horror",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt3734688/mediaviewer/rm466586369/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=692697"
+    },
+    "synopsis": {
+        "native": "Cordelia is a troubled, damaged soul who is only just recovering after some unnamed trauma; she is an actor rehearsing a play and comes to stay in a creepy London mansion flat occupied by her twin sister Caroline and Caroline's boyfriend Matt. When they leave her alone there Cordelia strikes up a friendship with Frank the charming, but strange and unreliable young man they can hear practicing his cello in the upstairs flat - a relationship which quickly becomes very disturbing.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "",
+            "film": "GB2020_025",
+            "person": "",
+            "age": "5: Range of ages represented by the same actor",
+            "gender": "Unknown",
+            "sexuality": "Unknown",
+            "origin": "Unknown",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Adrian Shergold",
+                "slug": "adrian-shergold",
+                "name": "Adrian Shergold",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Alun Armstrong",
+                "slug": "alun-armstrong",
+                "name": "Alun Armstrong",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Hetty Baynes",
+                "slug": "hetty-baynes",
+                "name": "Hetty Baynes",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Michael Gambon",
+                "slug": "michael-gambon",
+                "name": "Michael Gambon",
+                "birthYear": 1940,
+                "deathYear": 2023,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": []
 }

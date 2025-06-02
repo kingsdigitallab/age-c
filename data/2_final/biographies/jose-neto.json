@@ -1,42 +1,75 @@
 {
-  "id": "Jos\u00e9 Neto",
-  "type": "Biography",
-  "slug": "jose-neto",
-  "name": "Jos\u00e9 Neto",
-  "birthYear": 1955,
-  "deathYear": 2023,
-  "nationality": "Portugal",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Unknown",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "Unknown",
-      "class": "Unknown",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Road Movie",
-        "id": "ES2019_065",
-        "production": {
-          "country": "Portugal",
-          "share": "Minority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2019
-        },
-        "slug": "es2019-065-522-un-gato-un-chino-y-mi-padre",
-        "title": {
-          "english": "522. A Cat, a Chinese Guy and My Father",
-          "native": "522. Un gato, un chino y mi padre"
+    "type": "Person",
+    "id": "Jos\u00e9 Neto",
+    "slug": "jose-neto",
+    "name": "Jos\u00e9 Neto",
+    "birthYear": 1955,
+    "deathYear": 2023,
+    "gender": "Male identifying",
+    "nationality": "Portugal",
+    "characters": [
+        {
+            "id": "ES2019_065_02",
+            "film": {
+                "id": "ES2019_065",
+                "slug": "es2019-065-522-un-gato-un-chino-y-mi-padre",
+                "title": {
+                    "native": "522. Un gato, un chino y mi padre",
+                    "english": "522. A Cat, a Chinese Guy and My Father"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-05-07",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Portugal",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Jos\u00e9 Neto",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "Unknown"
         }
-      },
-      "gender": "Male identifying",
-      "id": "ES2019_065_02",
-      "origin": "White Western European",
-      "profession": "Unknown",
-      "role": "Supporting actor",
-      "sexuality": "Unknown"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2019_065",
+                "slug": "es2019-065-522-un-gato-un-chino-y-mi-padre",
+                "title": {
+                    "native": "522. Un gato, un chino y mi padre",
+                    "english": "522. A Cat, a Chinese Guy and My Father"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-05-07",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Portugal",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        }
+    ]
 }

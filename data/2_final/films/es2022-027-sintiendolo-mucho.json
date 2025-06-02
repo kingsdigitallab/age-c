@@ -1,56 +1,121 @@
 {
-  "id": "ES2022_027",
-  "type": "Film",
-  "slug": "es2022-027-sintiendolo-mucho",
-  "title": {
-    "native": "Sinti\u00e9ndolo mucho"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-11-15",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=787374",
-    "posterUrl": "https://www.imdb.com/title/tt1674099/mediaviewer/rm1268318465/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Musical",
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "partnership",
-    "intergenerational friendship",
-    "personal memory",
-    "artistic creation",
-    "fatherhood",
-    "cultural memory",
-    "self-employment",
-    "celebrity",
-    "physical illness",
-    "homosociality",
-    "mass media"
-  ],
-  "director": [
-    {
-      "id": "Fernando Le\u00f3n de Aranoa",
-      "slug": "fernando-leon-de-aranoa",
-      "name": "Fernando Le\u00f3n de Aranoa",
-      "birthYear": 1968,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Retrato de Joaqu\u00edn Sabina sin bomb\u00edn, hecho a muy pocos cent\u00edmetros de su piel, con nocturnidad y alevos\u00eda, por su amigo, el cineasta Fernando Le\u00f3n de Aranoa. Un relato como su voz, \u00e1spero, directo y sin ecualizar, que cuenta sin atenuantes la intimidad del artista, sus bambalinas, su cara B. Que comienza cuando baja del escenario, que le acompa\u00f1a en lo cotidiano, y as\u00ed en lo inesperado: en la risa y en el drama. Sinti\u00e9ndolo mucho es el resultado de trece a\u00f1os de rodaje juntos, y recorre todos los escenarios de Joaqu\u00edn Sabina, p\u00fablicos y privados, luminosos y ocultos. Un paseo por las claves de su vida y de su trabajo: por lo que le mueve, por lo que le inspira, por lo que le duele, desarrollado siempre a partir de situaciones vivas, compartidas, entre m\u00fasico y cineasta.",
-    "english": "An intimate portrait of Spanish singer-songwriter Joaqu\u00edn Sabina without his signature bowler hat, at night and with malice aforethought."
-  }
+    "type": "Film",
+    "id": "ES2022_027",
+    "slug": "es2022-027-sintiendolo-mucho",
+    "title": {
+        "native": "Sinti\u00e9ndolo mucho",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-11-15",
+        "year": 2022
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Fernando Le\u00f3n de Aranoa",
+            "slug": "fernando-leon-de-aranoa",
+            "name": "Fernando Le\u00f3n de Aranoa",
+            "birthYear": 1968,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Documentary \u2013 Performative mode",
+        "Musical"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt1674099/mediaviewer/rm1268318465/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=787374"
+    },
+    "synopsis": {
+        "native": "Retrato de Joaqu\u00edn Sabina sin bomb\u00edn, hecho a muy pocos cent\u00edmetros de su piel, con nocturnidad y alevos\u00eda, por su amigo, el cineasta Fernando Le\u00f3n de Aranoa. Un relato como su voz, \u00e1spero, directo y sin ecualizar, que cuenta sin atenuantes la intimidad del artista, sus bambalinas, su cara B. Que comienza cuando baja del escenario, que le acompa\u00f1a en lo cotidiano, y as\u00ed en lo inesperado: en la risa y en el drama. Sinti\u00e9ndolo mucho es el resultado de trece a\u00f1os de rodaje juntos, y recorre todos los escenarios de Joaqu\u00edn Sabina, p\u00fablicos y privados, luminosos y ocultos. Un paseo por las claves de su vida y de su trabajo: por lo que le mueve, por lo que le inspira, por lo que le duele, desarrollado siempre a partir de situaciones vivas, compartidas, entre m\u00fasico y cineasta.",
+        "english": "An intimate portrait of Spanish singer-songwriter Joaqu\u00edn Sabina without his signature bowler hat, at night and with malice aforethought."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Fernando Le\u00f3n de Aranoa",
+                "slug": "fernando-leon-de-aranoa",
+                "name": "Fernando Le\u00f3n de Aranoa",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jimena Coronado",
+                "slug": "jimena-coronado",
+                "name": "Jimena Coronado",
+                "birthYear": 1969,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Peru"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Joan Manuel Serrat",
+                "slug": "joan-manuel-serrat",
+                "name": "Joan Manuel Serrat",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Joaqu\u00edn Sabina",
+                "slug": "joaquin-sabina",
+                "name": "Joaqu\u00edn Sabina",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Pancho Varona",
+                "slug": "pancho-varona",
+                "name": "Pancho Varona",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "celebrity",
+        "self-employment",
+        "personal memory",
+        "cultural memory",
+        "homosociality",
+        "physical illness",
+        "fatherhood",
+        "partnership",
+        "intergenerational friendship",
+        "mass media"
+    ]
 }

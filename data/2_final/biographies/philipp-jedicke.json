@@ -1,30 +1,43 @@
 {
-  "id": "Philipp Jedicke",
-  "type": "Biography",
-  "slug": "philipp-jedicke",
-  "name": "Philipp Jedicke",
-  "birthYear": 1977,
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Participatory mode",
-      "id": "DE2018_087",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "de2018-087-shut-up-and-play-the-piano",
-      "tags": "celebrity",
-      "title": {
-        "english": "Shut Up and Play the Piano",
-        "native": "Shut Up and Play the Piano"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Philipp Jedicke",
+    "slug": "philipp-jedicke",
+    "name": "Philipp Jedicke",
+    "birthYear": 1977,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2018_087",
+                "slug": "de2018-087-shut-up-and-play-the-piano",
+                "title": {
+                    "native": "Shut Up and Play the Piano",
+                    "english": "Shut Up and Play the Piano"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-09-20",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

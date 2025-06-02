@@ -1,30 +1,39 @@
 {
-  "id": "Mathias Malzieu",
-  "type": "Biography",
-  "slug": "mathias-malzieu",
-  "name": "Mathias Malzieu",
-  "birthYear": 1974,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Romance",
-      "id": "FR2020_040",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "fr2020-040-une-sirene-a-paris",
-      "tags": "intergenerational friendship",
-      "title": {
-        "english": "A Mermaid in Paris",
-        "native": "Une sir\u00e8ne \u00e0 Paris"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Mathias Malzieu",
+    "slug": "mathias-malzieu",
+    "name": "Mathias Malzieu",
+    "birthYear": 1974,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2020_040",
+                "slug": "fr2020-040-une-sirene-a-paris",
+                "title": {
+                    "native": "Une sir\u00e8ne \u00e0 Paris",
+                    "english": "A Mermaid in Paris"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-03-11",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

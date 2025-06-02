@@ -1,77 +1,131 @@
 {
-  "id": "ES2018_044",
-  "type": "Film",
-  "slug": "es2018-044-animas",
-  "title": {
-    "native": "\u00c1nimas"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-10-05",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "ES2018_044",
+    "slug": "es2018-044-animas",
+    "title": {
+        "native": "\u00c1nimas",
+        "english": ""
     },
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt3954646/?ref_=ttrel_ov",
-    "posterUrl": "https://www.imdb.com/title/tt3954646/mediaviewer/rm1964865536/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Horror"
-  ],
-  "tags": [
-    "motherhood",
-    "intergenerational conflict",
-    "grandmotherhood",
-    "urban",
-    "mental illness",
-    "abuse",
-    "supernatural entity"
-  ],
-  "director": [
-    {
-      "id": "Laura Alvea",
-      "slug": "laura-alvea",
-      "name": "Laura Alvea",
-      "birthYear": 1976,
-      "gender": "Female identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2018_044_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "\u00c1ngela Molina",
-        "slug": "angela-molina",
-        "name": "\u00c1ngela Molina",
-        "birthYear": 1955.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "\u00c1lex es una chica segura de s\u00ed misma, con una fuerte personalidad y gran tenacidad. Est\u00e1 muy unida a su mejor amigo Abraham, a quien brinda constante ayuda y apoyo, ya que Abraham es un chico t\u00edmido, retra\u00eddo e inseguro, principalmente debido a la compleja relaci\u00f3n con sus padres. Pero todo cambia cuando Daniel, el padre de Abraham, muere en un extra\u00f1o accidente, cuya causa no est\u00e1 clara. A partir de este momento, \u00c1lex caer\u00e1 en un viaje alucinatorio que le llevar\u00e1 a un descenso al infierno, donde la l\u00ednea entre la realidad y la pesadilla se volver\u00e1 borrosa hasta el punto en el que \u00c1lex comenzar\u00e1 a cuestionar los fundamentos de su propia existencia.",
-    "english": "This time, horror comes fron the other side."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2018-10-05",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Laura Alvea",
+            "slug": "laura-alvea",
+            "name": "Laura Alvea",
+            "birthYear": 1976,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        },
+        "Jose F. Ortu\u00f1o"
+    ],
+    "genre": [
+        "Horror",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt3954646/mediaviewer/rm1964865536/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt3954646/?ref_=ttrel_ov"
+    },
+    "synopsis": {
+        "native": "\u00c1lex es una chica segura de s\u00ed misma, con una fuerte personalidad y gran tenacidad. Est\u00e1 muy unida a su mejor amigo Abraham, a quien brinda constante ayuda y apoyo, ya que Abraham es un chico t\u00edmido, retra\u00eddo e inseguro, principalmente debido a la compleja relaci\u00f3n con sus padres. Pero todo cambia cuando Daniel, el padre de Abraham, muere en un extra\u00f1o accidente, cuya causa no est\u00e1 clara. A partir de este momento, \u00c1lex caer\u00e1 en un viaje alucinatorio que le llevar\u00e1 a un descenso al infierno, donde la l\u00ednea entre la realidad y la pesadilla se volver\u00e1 borrosa hasta el punto en el que \u00c1lex comenzar\u00e1 a cuestionar los fundamentos de su propia existencia.",
+        "english": "This time, horror comes fron the other side."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2018_044_01",
+            "film": "ES2018_044",
+            "person": {
+                "id": "\u00c1ngela Molina",
+                "slug": "angela-molina",
+                "name": "\u00c1ngela Molina",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Jos\u00e9 F. Ortu\u00f1o",
+                "slug": "jose-f-ortuno",
+                "name": "Jos\u00e9 F. Ortu\u00f1o",
+                "birthYear": 1977,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Laura Alvea",
+                "slug": "laura-alvea",
+                "name": "Laura Alvea",
+                "birthYear": 1976,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Manuela Pedraza",
+                "slug": "manuela-pedraza",
+                "name": "Manuela Pedraza",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "\u00c1ngela Molina",
+                "slug": "angela-molina",
+                "name": "\u00c1ngela Molina",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "abuse",
+        "motherhood",
+        "grandmotherhood",
+        "intergenerational conflict",
+        "mental illness",
+        "supernatural entity",
+        "urban"
+    ]
 }

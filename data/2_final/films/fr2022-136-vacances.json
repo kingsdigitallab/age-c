@@ -1,55 +1,109 @@
 {
-  "id": "FR2022_136",
-  "type": "Film",
-  "slug": "fr2022-136-vacances",
-  "title": {
-    "native": "Vacances",
-    "english": "Vacations"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-09-28",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=mE6BP-eRR_k",
-    "posterUrl": "https://medias.unifrance.org/medias/111/218/252527/format_page/vacances.jpg"
-  },
-  "genre": [
-    "Thriller"
-  ],
-  "tags": [
-    "independent home",
-    "precarity",
-    "parenthood",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "B\u00e9atrice de Sta\u00ebl",
-      "slug": "beatrice-de-stael",
-      "name": "B\u00e9atrice de Sta\u00ebl",
-      "birthYear": 1958,
-      "gender": "Female identifying",
-      "nationality": "France"
+    "type": "Film",
+    "id": "FR2022_136",
+    "slug": "fr2022-136-vacances",
+    "title": {
+        "native": "Vacances",
+        "english": "Vacations"
     },
-    {
-      "id": "Leo Wolfenstein",
-      "slug": "leo-wolfenstein",
-      "name": "Leo Wolfenstein",
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Pour la premi\u00e8re fois, Marie passe ses vacances seule avec ses enfants, sans son mari. Un soir, perdue, elle se laisse s\u00e9duire par un jeune homme au charme magn\u00e9tique\u2026",
-    "english": "Her distant husband refusing to join, a mother spends the holidays alone with her children for the first time. Lost in her life, she opens up to a seducing and strange and young man, who slowly draws her into his dark trap."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-09-28",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Leo Wolfenstein",
+            "slug": "leo-wolfenstein",
+            "name": "Leo Wolfenstein",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        },
+        {
+            "id": "B\u00e9atrice de Sta\u00ebl",
+            "slug": "beatrice-de-stael",
+            "name": "B\u00e9atrice de Sta\u00ebl",
+            "birthYear": 1958,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/111/218/252527/format_page/vacances.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=mE6BP-eRR_k"
+    },
+    "synopsis": {
+        "native": "Pour la premi\u00e8re fois, Marie passe ses vacances seule avec ses enfants, sans son mari. Un soir, perdue, elle se laisse s\u00e9duire par un jeune homme au charme magn\u00e9tique\u2026",
+        "english": "Her distant husband refusing to join, a mother spends the holidays alone with her children for the first time. Lost in her life, she opens up to a seducing and strange and young man, who slowly draws her into his dark trap."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "B\u00e9atrice de Sta\u00ebl",
+                "slug": "beatrice-de-stael",
+                "name": "B\u00e9atrice de Sta\u00ebl",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "B\u00e9atrice de Sta\u00ebl",
+                "slug": "beatrice-de-stael",
+                "name": "B\u00e9atrice de Sta\u00ebl",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Leo Wolfenstein",
+                "slug": "leo-wolfenstein",
+                "name": "Leo Wolfenstein",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Serge Riaboukine",
+                "slug": "serge-riaboukine",
+                "name": "Serge Riaboukine",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "parenthood",
+        "rural",
+        "precarity",
+        "independent home"
+    ]
 }

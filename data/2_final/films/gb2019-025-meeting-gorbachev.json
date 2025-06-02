@@ -1,68 +1,135 @@
 {
-  "id": "GB2019_025",
-  "type": "Film",
-  "slug": "gb2019-025-meeting-gorbachev",
-  "title": {
-    "native": "Meeting Gorbachev"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-08-11",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "GB2019_025",
+    "slug": "gb2019-025-meeting-gorbachev",
+    "title": {
+        "native": "Meeting Gorbachev",
+        "english": ""
     },
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2019-08-11",
+        "year": 2019
     },
-    {
-      "country": "Germany",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=c18V6Y3HL38",
-    "posterUrl": "https://www.imdb.com/title/tt8811382/mediaviewer/rm1275879680/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Expository mode",
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "personal memory",
-    "national identity",
-    "power",
-    "cultural memory",
-    "state institutions",
-    "homosociality",
-    "professional politics",
-    "mass media",
-    "collective trauma"
-  ],
-  "director": [
-    {
-      "id": "Andr\u00e9 Singer",
-      "slug": "andre-singer",
-      "name": "Andr\u00e9 Singer",
-      "birthYear": 1945,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Werner Herzog",
+            "slug": "werner-herzog",
+            "name": "Werner Herzog",
+            "birthYear": 1942,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        },
+        {
+            "id": "Andr\u00e9 Singer",
+            "slug": "andre-singer",
+            "name": "Andr\u00e9 Singer",
+            "birthYear": 1945,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Performative mode",
+        "Documentary \u2013 Expository mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt8811382/mediaviewer/rm1275879680/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=c18V6Y3HL38"
     },
-    {
-      "id": "Werner Herzog",
-      "slug": "werner-herzog",
-      "name": "Werner Herzog",
-      "birthYear": 1942,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "The life of Mikhail Gorbachev, the eighth and final President of the Soviet Union in chronological order."
-  }
+    "synopsis": {
+        "native": "The life of Mikhail Gorbachev, the eighth and final President of the Soviet Union in chronological order.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Germany",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Andr\u00e9 Singer",
+                "slug": "andre-singer",
+                "name": "Andr\u00e9 Singer",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Mikhail Gorbachev",
+                "slug": "mikhail-gorbachev",
+                "name": "Mikhail Gorbachev",
+                "birthYear": 1931,
+                "deathYear": 2022,
+                "gender": "Male identifying",
+                "nationality": "Russian Federation (the)"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Werner Herzog",
+                "slug": "werner-herzog",
+                "name": "Werner Herzog",
+                "birthYear": 1942,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Werner Herzog",
+                "slug": "werner-herzog",
+                "name": "Werner Herzog",
+                "birthYear": 1942,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Werner Herzog",
+                "slug": "werner-herzog",
+                "name": "Werner Herzog",
+                "birthYear": 1942,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Screenwriter"
+        }
+    ],
+    "tags": [
+        "professional politics",
+        "cultural memory",
+        "collective trauma",
+        "national identity",
+        "personal memory",
+        "homosociality",
+        "mass media",
+        "power",
+        "state institutions"
+    ]
 }

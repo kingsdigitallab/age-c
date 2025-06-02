@@ -1,29 +1,35 @@
 {
-  "id": "Maxime Roy",
-  "type": "Biography",
-  "slug": "maxime-roy",
-  "name": "Maxime Roy",
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2021_091",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-091-les-heroiques",
-      "tags": "unemployment",
-      "title": {
-        "english": "The Heroics",
-        "native": "Les H\u00e9ro\u00efques"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Maxime Roy",
+    "slug": "maxime-roy",
+    "name": "Maxime Roy",
+    "birthYear": 0,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_091",
+                "slug": "fr2021-091-les-heroiques",
+                "title": {
+                    "native": "Les H\u00e9ro\u00efques",
+                    "english": "The Heroics"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-10-20",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

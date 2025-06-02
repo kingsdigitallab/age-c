@@ -1,46 +1,88 @@
 {
-  "id": "FR2021_043",
-  "type": "Film",
-  "slug": "fr2021-043-le-tour-du-monde-en-80-jours",
-  "title": {
-    "native": "Le Tour du monde en 80 jours",
-    "english": "Around the World in 80 Days"
-  },
-  "filmType": "Animation",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-08-04",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2021_043",
+    "slug": "fr2021-043-le-tour-du-monde-en-80-jours",
+    "title": {
+        "native": "Le Tour du monde en 80 jours",
+        "english": "Around the World in 80 Days"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=r8OKuQHo_Rc",
-    "posterUrl": "https://medias.unifrance.org/medias/61/153/235837/format_page/around-the-world-in-80-days.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Adventure"
-  ],
-  "director": [
-    {
-      "id": "Samuel Tourneux",
-      "slug": "samuel-tourneux",
-      "name": "Samuel Tourneux",
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Passepartout, un ouistiti na\u00eff mais plein d\u2019entrain, r\u00eave de partir \u00e0 l\u2019aventure depuis toujours. L\u2019occasion se pr\u00e9sente sous la forme de Phileas Frog, un explorateur vanneur et arnaqueur, et d\u2019un pari \u00e0 plusieurs millions : \u00e9tablir le nouveau record du tour du monde en 80 jours. De d\u00e9serts br\u00fblants en jungles myst\u00e9rieuses, de princesses intr\u00e9pides en criquets adorateurs de volcan, Passepartout va d\u00e9couvrir \u00e0 quel point le monde est vaste, merveilleux et dingo.",
-    "english": "Passepartout is a young and scholarly marmoset who always dreams of becoming and explorer. One day, he croses paths with Phileas, a reckless and greedy frog, eager to take on a bet to circumnavigate the globe in 80 days and earn 10 million clams in the process. Seizing the opportunity of a lifetime to explore the world, Passepartout embarks with his new friend on a crazy and exhilarating adventure full of twists and surprises."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2021-08-04",
+        "year": 2021
+    },
+    "filmType": "Animation",
+    "directors": [
+        {
+            "id": "Samuel Tourneux",
+            "slug": "samuel-tourneux",
+            "name": "Samuel Tourneux",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Adventure",
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/61/153/235837/format_page/around-the-world-in-80-days.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=r8OKuQHo_Rc"
+    },
+    "synopsis": {
+        "native": "Passepartout, un ouistiti na\u00eff mais plein d\u2019entrain, r\u00eave de partir \u00e0 l\u2019aventure depuis toujours. L\u2019occasion se pr\u00e9sente sous la forme de Phileas Frog, un explorateur vanneur et arnaqueur, et d\u2019un pari \u00e0 plusieurs millions : \u00e9tablir le nouveau record du tour du monde en 80 jours. De d\u00e9serts br\u00fblants en jungles myst\u00e9rieuses, de princesses intr\u00e9pides en criquets adorateurs de volcan, Passepartout va d\u00e9couvrir \u00e0 quel point le monde est vaste, merveilleux et dingo.",
+        "english": "Passepartout is a young and scholarly marmoset who always dreams of becoming and explorer. One day, he croses paths with Phileas, a reckless and greedy frog, eager to take on a bet to circumnavigate the globe in 80 days and earn 10 million clams in the process. Seizing the opportunity of a lifetime to explore the world, Passepartout embarks with his new friend on a crazy and exhilarating adventure full of twists and surprises."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Gabriel Le Doze",
+                "slug": "gabriel-le-doze",
+                "name": "Gabriel Le Doze",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Voice actor"
+        },
+        {
+            "person": {
+                "id": "Samuel Tourneux",
+                "slug": "samuel-tourneux",
+                "name": "Samuel Tourneux",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Serge Biavan",
+                "slug": "serge-biavan",
+                "name": "Serge Biavan",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Voice actor"
+        }
+    ],
+    "tags": []
 }

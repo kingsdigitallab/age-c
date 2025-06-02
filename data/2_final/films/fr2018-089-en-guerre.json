@@ -1,72 +1,100 @@
 {
-  "id": "FR2018_089",
-  "type": "Film",
-  "slug": "fr2018-089-en-guerre",
-  "title": {
-    "native": "En guerre",
-    "english": "At War"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-05-16",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=KW6h5nM085U",
-    "posterUrl": "https://medias.unifrance.org/medias/10/231/190218/format_page/at-war.png"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "class solidarity",
-    "precarity",
-    "low rank employment",
-    "suicide",
-    "activism",
-    "class conflict"
-  ],
-  "director": [
-    {
-      "id": "St\u00e9phane Briz\u00e9",
-      "slug": "stephane-brize",
-      "name": "St\u00e9phane Briz\u00e9",
-      "birthYear": 1966,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2018_089_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Vincent Lindon",
-        "slug": "vincent-lindon",
-        "name": "Vincent Lindon",
-        "birthYear": 1959.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Malgr\u00e9 de lourds sacrifices financiers de la part des salari\u00e9s et un be\u0301ne\u0301fice record de leur entreprise, la direction de l\u2019usine Perrin Industrie d\u00e9cide n\u00e9anmoins la fermeture totale du site. Accord bafou\u00e9, promesses non respect\u00e9es, les 1100 salari\u00e9s, emmen\u00e9s par leur porte-parole Laurent Am\u00e9d\u00e9o, refusent cette de\u0301cision brutale et vont tout tenter pour sauver leur emploi.",
-    "english": "Despite heavy financial sacrifices on the part of their employees and record profits that year, the management of Perrin Industries decides to shut down a factory. The 1100 employees, led by their spokesman Laurent Am\u00e9d\u00e9o, decide to fight this brutal decision, ready to do everything to save their jobs."
-  }
+    "type": "Film",
+    "id": "FR2018_089",
+    "slug": "fr2018-089-en-guerre",
+    "title": {
+        "native": "En guerre",
+        "english": "At War"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-05-16",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "St\u00e9phane Briz\u00e9",
+            "slug": "stephane-brize",
+            "name": "St\u00e9phane Briz\u00e9",
+            "birthYear": 1966,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/10/231/190218/format_page/at-war.png",
+        "trailerUrl": "https://www.youtube.com/watch?v=KW6h5nM085U"
+    },
+    "synopsis": {
+        "native": "Malgr\u00e9 de lourds sacrifices financiers de la part des salari\u00e9s et un be\u0301ne\u0301fice record de leur entreprise, la direction de l\u2019usine Perrin Industrie d\u00e9cide n\u00e9anmoins la fermeture totale du site. Accord bafou\u00e9, promesses non respect\u00e9es, les 1100 salari\u00e9s, emmen\u00e9s par leur porte-parole Laurent Am\u00e9d\u00e9o, refusent cette de\u0301cision brutale et vont tout tenter pour sauver leur emploi.",
+        "english": "Despite heavy financial sacrifices on the part of their employees and record profits that year, the management of Perrin Industries decides to shut down a factory. The 1100 employees, led by their spokesman Laurent Am\u00e9d\u00e9o, decide to fight this brutal decision, ready to do everything to save their jobs."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2018_089_01",
+            "film": "FR2018_089",
+            "person": {
+                "id": "Vincent Lindon",
+                "slug": "vincent-lindon",
+                "name": "Vincent Lindon",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "St\u00e9phane Briz\u00e9",
+                "slug": "stephane-brize",
+                "name": "St\u00e9phane Briz\u00e9",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Vincent Lindon",
+                "slug": "vincent-lindon",
+                "name": "Vincent Lindon",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "low rank employment",
+        "activism",
+        "class conflict",
+        "class solidarity",
+        "precarity",
+        "suicide"
+    ]
 }

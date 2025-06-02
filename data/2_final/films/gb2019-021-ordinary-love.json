@@ -1,85 +1,178 @@
 {
-  "id": "GB2019_021",
-  "type": "Film",
-  "slug": "gb2019-021-ordinary-love",
-  "title": {
-    "native": "Ordinary love"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-12-06",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=P6ihjNXgMdk",
-    "posterUrl": "https://www.imdb.com/title/tt6012380/mediaviewer/rm1209762049/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Romance",
-    "Drama"
-  ],
-  "tags": [
-    "hospital",
-    "sex",
-    "independent home",
-    "caregiving",
-    "marriage",
-    "well-being",
-    "agony",
-    "physical illness",
-    "medical treatment",
-    "daily routine"
-  ],
-  "character": [
-    {
-      "id": "GB2019_021_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Chronic illness",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Lesley Manville",
-        "slug": "lesley-manville",
-        "name": "Lesley Manville",
-        "birthYear": 1956.0,
-        "gender": "Female identifying",
-        "nationality": "Unknown"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "GB2019_021",
+    "slug": "gb2019-021-ordinary-love",
+    "title": {
+        "native": "Ordinary love",
+        "english": ""
     },
-    {
-      "id": "GB2019_021_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Liam Neeson",
-        "slug": "liam-neeson",
-        "name": "Liam Neeson",
-        "birthYear": 1952.0,
-        "gender": "Male identifying",
-        "nationality": "Unknown"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "An extraordinary look at the lives of a middle-aged couple in the midst of the wife's breast cancer diagnosis."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-12-06",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        "Lisa Barros D'Sa and Glenn Leyburn"
+    ],
+    "genre": [
+        "Drama",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt6012380/mediaviewer/rm1209762049/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=P6ihjNXgMdk"
+    },
+    "synopsis": {
+        "native": "An extraordinary look at the lives of a middle-aged couple in the midst of the wife's breast cancer diagnosis.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2019_021_01",
+            "film": "GB2019_021",
+            "person": {
+                "id": "Liam Neeson",
+                "slug": "liam-neeson",
+                "name": "Liam Neeson",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Unknown"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2019_021_02",
+            "film": "GB2019_021",
+            "person": {
+                "id": "Lesley Manville",
+                "slug": "lesley-manville",
+                "name": "Lesley Manville",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Unknown"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Chronic illness",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Glenn Leyburn",
+                "slug": "glenn-leyburn",
+                "name": "Glenn Leyburn",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Ireland"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Lalor Roddy",
+                "slug": "lalor-roddy",
+                "name": "Lalor Roddy",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Lesley Manville",
+                "slug": "lesley-manville",
+                "name": "Lesley Manville",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Unknown"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Liam Neeson",
+                "slug": "liam-neeson",
+                "name": "Liam Neeson",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Unknown"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Lisa Barros D'Sa",
+                "slug": "lisa-barros-d-sa",
+                "name": "Lisa Barros D'Sa",
+                "birthYear": 1974,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Rosemary Henderson",
+                "slug": "rosemary-henderson",
+                "name": "Rosemary Henderson",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Ireland"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Stella McCusker",
+                "slug": "stella-mccusker",
+                "name": "Stella McCusker",
+                "birthYear": 1942,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Iran (Islamic Republic of)"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "marriage",
+        "well-being",
+        "daily routine",
+        "independent home",
+        "physical illness",
+        "hospital",
+        "medical treatment",
+        "sex",
+        "caregiving",
+        "agony"
+    ]
 }

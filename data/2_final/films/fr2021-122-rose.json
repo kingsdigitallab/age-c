@@ -1,75 +1,127 @@
 {
-  "id": "FR2021_122",
-  "type": "Film",
-  "slug": "fr2021-122-rose",
-  "title": {
-    "native": "Rose",
-    "english": "Rose"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-12-08",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=3iswesDoSnw",
-    "posterUrl": "https://medias.unifrance.org/medias/11/170/240139/format_page/rose.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Drama"
-  ],
-  "tags": [
-    "parenthood",
-    "elderhood (friendship among elders)",
-    "grief",
-    "loneliness",
-    "new start",
-    "desire",
-    "well-being",
-    "search for meaning"
-  ],
-  "director": [
-    {
-      "id": "Aur\u00e9lie Saada",
-      "slug": "aurelie-saada",
-      "name": "Aur\u00e9lie Saada",
-      "birthYear": 1978,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2021_123_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Fran\u00e7oise Fabian",
-        "slug": "francoise-fabian",
-        "name": "Fran\u00e7oise Fabian",
-        "birthYear": 1933.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Rose, 78 ans, vient de perdre son mari qu\u2019elle adorait. Lorsque sa peine laisse place a\u0300 une puissante pulsion de vie lui faisant re\u0301aliser qu\u2019elle peut encore se rede\u0301finir en tant que femme, c\u2019est tout l\u2019e\u0301quilibre de la famille qui est bouleverse\u0301...",
-    "english": "Rose, 78, has just lost her most beloved husband. When her grief gives way to a powerful impulse of life that makes her realize that she can still redefine herself as a woman, the whole balance of the family is upset."
-  }
+    "type": "Film",
+    "id": "FR2021_122",
+    "slug": "fr2021-122-rose",
+    "title": {
+        "native": "Rose",
+        "english": "Rose"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-12-08",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Aur\u00e9lie Saada",
+            "slug": "aurelie-saada",
+            "name": "Aur\u00e9lie Saada",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/11/170/240139/format_page/rose.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=3iswesDoSnw"
+    },
+    "synopsis": {
+        "native": "Rose, 78 ans, vient de perdre son mari qu\u2019elle adorait. Lorsque sa peine laisse place a\u0300 une puissante pulsion de vie lui faisant re\u0301aliser qu\u2019elle peut encore se rede\u0301finir en tant que femme, c\u2019est tout l\u2019e\u0301quilibre de la famille qui est bouleverse\u0301...",
+        "english": "Rose, 78, has just lost her most beloved husband. When her grief gives way to a powerful impulse of life that makes her realize that she can still redefine herself as a woman, the whole balance of the family is upset."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2021_123_01",
+            "film": "FR2021_122",
+            "person": {
+                "id": "Fran\u00e7oise Fabian",
+                "slug": "francoise-fabian",
+                "name": "Fran\u00e7oise Fabian",
+                "birthYear": 1933,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Aur\u00e9lie Saada",
+                "slug": "aurelie-saada",
+                "name": "Aur\u00e9lie Saada",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Bernard Murat",
+                "slug": "bernard-murat",
+                "name": "Bernard Murat",
+                "birthYear": 1941,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Fran\u00e7oise Fabian",
+                "slug": "francoise-fabian",
+                "name": "Fran\u00e7oise Fabian",
+                "birthYear": 1933,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Mich\u00e8le Moretti",
+                "slug": "michele-moretti",
+                "name": "Mich\u00e8le Moretti",
+                "birthYear": 1940,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "grief",
+        "new start",
+        "search for meaning",
+        "parenthood",
+        "loneliness",
+        "desire",
+        "elderhood (friendship among elders)",
+        "well-being"
+    ]
 }

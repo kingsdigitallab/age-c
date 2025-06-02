@@ -1,47 +1,99 @@
 {
-  "id": "FR2022_178",
-  "type": "Film",
-  "slug": "fr2022-178-le-lyceen",
-  "title": {
-    "native": "Le Lyc\u00e9en",
-    "english": "Winter Boy"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-11-30",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=7rFOQ8JBPNo",
-    "posterUrl": "https://medias.unifrance.org/medias/69/231/255813/format_page/le-lyceen.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "grief",
-    "parenthood",
-    "widowhood"
-  ],
-  "director": [
-    {
-      "id": "Christophe Honor\u00e9",
-      "slug": "christophe-honore",
-      "name": "Christophe Honor\u00e9",
-      "birthYear": 1970,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Lucas a 17 ans quand son adolescence vole en \u00e9clats. Il voit sa vie comme une b\u00eate sauvage qu'il lui faut dompter. Alors que son fr\u00e8re est mont\u00e9 \u00e0 Paris et qu'il vit d\u00e9sormais seul avec sa m\u00e8re, Lucas va devoir lutter pour apprendre \u00e0 esp\u00e9rer et aimer de nouveau.",
-    "english": "Lucas is drifting blithely through his last year of boarding school and looking forward to life as an attractive, out young man in Paris. His older brother, Quentin, already lives there; his parents will take care of everything. It\u2019ll be nice. And then, one day, a sudden tragedy strips away everything Lucas took for granted, leaving him filled with anger and despair, his future in shambles. Quentin is lost in his own pain. Their mother, Isabelle, doesn\u2019t know how to reach out to the young man Lucas is becoming. And so he is left to find his way alone, seeking comfort in a Paris that is still recovering from the pandemic."
-  }
+    "type": "Film",
+    "id": "FR2022_178",
+    "slug": "fr2022-178-le-lyceen",
+    "title": {
+        "native": "Le Lyc\u00e9en",
+        "english": "Winter Boy"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-11-30",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Christophe Honor\u00e9",
+            "slug": "christophe-honore",
+            "name": "Christophe Honor\u00e9",
+            "birthYear": 1970,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/69/231/255813/format_page/le-lyceen.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=7rFOQ8JBPNo"
+    },
+    "synopsis": {
+        "native": "Lucas a 17 ans quand son adolescence vole en \u00e9clats. Il voit sa vie comme une b\u00eate sauvage qu'il lui faut dompter. Alors que son fr\u00e8re est mont\u00e9 \u00e0 Paris et qu'il vit d\u00e9sormais seul avec sa m\u00e8re, Lucas va devoir lutter pour apprendre \u00e0 esp\u00e9rer et aimer de nouveau.",
+        "english": "Lucas is drifting blithely through his last year of boarding school and looking forward to life as an attractive, out young man in Paris. His older brother, Quentin, already lives there; his parents will take care of everything. It\u2019ll be nice. And then, one day, a sudden tragedy strips away everything Lucas took for granted, leaving him filled with anger and despair, his future in shambles. Quentin is lost in his own pain. Their mother, Isabelle, doesn\u2019t know how to reach out to the young man Lucas is becoming. And so he is left to find his way alone, seeking comfort in a Paris that is still recovering from the pandemic."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Anne Kessler",
+                "slug": "anne-kessler",
+                "name": "Anne Kessler",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Christophe Honor\u00e9",
+                "slug": "christophe-honore",
+                "name": "Christophe Honor\u00e9",
+                "birthYear": 1970,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Elliot Jenicot",
+                "slug": "elliot-jenicot",
+                "name": "Elliot Jenicot",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Juliette Binoche",
+                "slug": "juliette-binoche",
+                "name": "Juliette Binoche",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "widowhood",
+        "parenthood",
+        "grief"
+    ]
 }

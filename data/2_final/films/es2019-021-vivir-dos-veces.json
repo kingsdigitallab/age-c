@@ -1,77 +1,111 @@
 {
-  "id": "ES2019_021",
-  "type": "Film",
-  "slug": "es2019-021-vivir-dos-veces",
-  "title": {
-    "native": "Vivir dos veces",
-    "english": "Live Twice, Love Once"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-09-06",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=ss-A1PFLTKI",
-    "posterUrl": "https://www.imdb.com/title/tt9063902/mediaviewer/rm223715073/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Road Movie",
-    "Romance",
-    "Drama"
-  ],
-  "tags": [
-    "personal memory",
-    "reignited passion",
-    "intergenerational conflict",
-    "fatherhood",
-    "caregiving",
-    "independent home",
-    "retirement home",
-    "multigenerational family",
-    "last mission",
-    "urban",
-    "dementia",
-    "grandfatherhood",
-    "technology",
-    "education",
-    "medical treatment",
-    "retirement",
-    "widowhood",
-    "rural"
-  ],
-  "character": [
-    {
-      "id": "ES2019_021_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Retired",
-      "ability": "Chronic illness",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Oscar Mart\u00ednez",
-        "slug": "oscar-martinez",
-        "name": "Oscar Mart\u00ednez",
-        "birthYear": 1949.0,
-        "gender": "Male identifying",
-        "nationality": "Argentina"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Emilio (Oscar Mart\u00ednez), su hija Julia (Inma Cuesta) y su nieta Blanca (Mafalda Carbonell) emprenden un viaje disparatado y a la vez revelador. Antes de que a Emilio le falle la memoria definitivamente, la familia le ayudar\u00e1 a buscar al amor de su juventud. En el camino encontrar\u00e1n la oportunidad de una vida nueva y sin trampas. Decisiones discutibles y contratiempos los llevar\u00e1 a enfrentarse a los enga\u00f1os sobre los que han montado sus vidas. \u00bfSer\u00e1 posible vivir dos veces?",
-    "english": "A retired academic teacher tries to find the love of his youth after being diagnosed with Alzheimer's."
-  }
+    "type": "Film",
+    "id": "ES2019_021",
+    "slug": "es2019-021-vivir-dos-veces",
+    "title": {
+        "native": "Vivir dos veces",
+        "english": "Live Twice, Love Once"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-09-06",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        "Maria Ripoll"
+    ],
+    "genre": [
+        "Comedy",
+        "Drama",
+        "Road Movie",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9063902/mediaviewer/rm223715073/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=ss-A1PFLTKI"
+    },
+    "synopsis": {
+        "native": "Emilio (Oscar Mart\u00ednez), su hija Julia (Inma Cuesta) y su nieta Blanca (Mafalda Carbonell) emprenden un viaje disparatado y a la vez revelador. Antes de que a Emilio le falle la memoria definitivamente, la familia le ayudar\u00e1 a buscar al amor de su juventud. En el camino encontrar\u00e1n la oportunidad de una vida nueva y sin trampas. Decisiones discutibles y contratiempos los llevar\u00e1 a enfrentarse a los enga\u00f1os sobre los que han montado sus vidas. \u00bfSer\u00e1 posible vivir dos veces?",
+        "english": "A retired academic teacher tries to find the love of his youth after being diagnosed with Alzheimer's."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2019_021_01",
+            "film": "ES2019_021",
+            "person": {
+                "id": "Oscar Mart\u00ednez",
+                "slug": "oscar-martinez",
+                "name": "Oscar Mart\u00ednez",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Argentina"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Retired",
+            "ability": "Chronic illness",
+            "assistedMobility": "Unknown"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Isabel Requena",
+                "slug": "isabel-requena",
+                "name": "Isabel Requena",
+                "birthYear": 1941,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": "Maria Ripoll",
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Oscar Mart\u00ednez",
+                "slug": "oscar-martinez",
+                "name": "Oscar Mart\u00ednez",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Argentina"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "last mission",
+        "reignited passion",
+        "dementia",
+        "caregiving",
+        "medical treatment",
+        "fatherhood",
+        "grandfatherhood",
+        "multigenerational family",
+        "intergenerational conflict",
+        "widowhood",
+        "personal memory",
+        "urban",
+        "rural",
+        "independent home",
+        "retirement home",
+        "education",
+        "technology",
+        "retirement"
+    ]
 }

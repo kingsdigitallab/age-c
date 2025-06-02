@@ -1,114 +1,169 @@
 {
-  "id": "ES2022_106",
-  "type": "Film",
-  "slug": "es2022-106-el-tirabeque",
-  "title": {
-    "native": "El Tirabeque"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-11-25",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt21990264/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_El%2520Tirabeque",
-    "posterUrl": "https://www.imdb.com/title/tt21990264/mediaviewer/rm3381792001/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Drama"
-  ],
-  "tags": [
-    "intergenerational conflict",
-    "fatherhood",
-    "self-employment",
-    "urban",
-    "homosociality",
-    "mass media",
-    "superior-employee relationship",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Dar\u00edo Autr\u00e1n",
-      "slug": "dario-autran",
-      "name": "Dar\u00edo Autr\u00e1n",
-      "birthYear": 1987,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2022_106_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Celso Bugallo",
-        "slug": "celso-bugallo",
-        "name": "Celso Bugallo",
-        "birthYear": 1947.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "ES2022_106",
+    "slug": "es2022-106-el-tirabeque",
+    "title": {
+        "native": "El Tirabeque",
+        "english": ""
     },
-    {
-      "id": "ES2022_106_03",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Kike Biguri",
-        "slug": "kike-biguri",
-        "name": "Kike Biguri",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2022-11-25",
+        "year": 2022
     },
-    {
-      "id": "ES2022_106_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Manuel Manqui\u00f1a",
-        "slug": "manuel-manquina",
-        "name": "Manuel Manqui\u00f1a",
-        "birthYear": 1953.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Sebasti\u00e1n Delgado, m\u00e1s conocido como Sebas, intenta no ser despedido como periodista en el diario El Habitante mientras busca arreglar su matrimonio a la vez que intenta superar sus problemas con el alcohol. Est\u00e1 en un momento en el que toda su vida se desmorona. Como \u00faltima oportunidad laboral le encargan un reportaje sobre los tirabeques. Lo que en un principio parec\u00eda un trabajo tranquilo se convertir\u00e1 en una investigaci\u00f3n de consecuencias impredecibles.",
-    "english": "Sebasti\u00e1n Delgado, better known as Sebas, tries not to get fired as a journalist at the newspaper El Habitante while trying to fix his marriage and overcome his problems with alcohol."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Dar\u00edo Autr\u00e1n",
+            "slug": "dario-autran",
+            "name": "Dar\u00edo Autr\u00e1n",
+            "birthYear": 1987,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt21990264/mediaviewer/rm3381792001/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt21990264/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_El%2520Tirabeque"
+    },
+    "synopsis": {
+        "native": "Sebasti\u00e1n Delgado, m\u00e1s conocido como Sebas, intenta no ser despedido como periodista en el diario El Habitante mientras busca arreglar su matrimonio a la vez que intenta superar sus problemas con el alcohol. Est\u00e1 en un momento en el que toda su vida se desmorona. Como \u00faltima oportunidad laboral le encargan un reportaje sobre los tirabeques. Lo que en un principio parec\u00eda un trabajo tranquilo se convertir\u00e1 en una investigaci\u00f3n de consecuencias impredecibles.",
+        "english": "Sebasti\u00e1n Delgado, better known as Sebas, tries not to get fired as a journalist at the newspaper El Habitante while trying to fix his marriage and overcome his problems with alcohol."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2022_106_01",
+            "film": "ES2022_106",
+            "person": {
+                "id": "Celso Bugallo",
+                "slug": "celso-bugallo",
+                "name": "Celso Bugallo",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2022_106_02",
+            "film": "ES2022_106",
+            "person": {
+                "id": "Manuel Manqui\u00f1a",
+                "slug": "manuel-manquina",
+                "name": "Manuel Manqui\u00f1a",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2022_106_03",
+            "film": "ES2022_106",
+            "person": {
+                "id": "Kike Biguri",
+                "slug": "kike-biguri",
+                "name": "Kike Biguri",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Celso Bugallo",
+                "slug": "celso-bugallo",
+                "name": "Celso Bugallo",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Dar\u00edo Autr\u00e1n",
+                "slug": "dario-autran",
+                "name": "Dar\u00edo Autr\u00e1n",
+                "birthYear": 1987,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Kike Biguri",
+                "slug": "kike-biguri",
+                "name": "Kike Biguri",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Manuel Manqui\u00f1a",
+                "slug": "manuel-manquina",
+                "name": "Manuel Manqui\u00f1a",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "rural",
+        "mass media",
+        "fatherhood",
+        "self-employment",
+        "homosociality",
+        "superior-employee relationship",
+        "intergenerational conflict",
+        "urban"
+    ]
 }

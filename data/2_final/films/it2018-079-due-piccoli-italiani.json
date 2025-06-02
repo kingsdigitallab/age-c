@@ -1,90 +1,146 @@
 {
-  "id": "IT2018_079",
-  "type": "Film",
-  "slug": "it2018-079-due-piccoli-italiani",
-  "title": {
-    "native": "Due piccoli italiani",
-    "english": "Two Little Italians"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-06-14",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://vimeo.com/268571849",
-    "posterUrl": "https://www.imdb.com/title/tt7023016/mediaviewer/rm171200000/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Road Movie",
-    "Drama"
-  ],
-  "tags": [
-    "mental illness",
-    "homosociality",
-    "search for meaning"
-  ],
-  "director": [
-    {
-      "id": "Paolo Sassanelli",
-      "slug": "paolo-sassanelli",
-      "name": "Paolo Sassanelli",
-      "birthYear": 1958,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2018_079_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Unemployed",
-      "ability": "Permanent disability",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Paolo Sassanelli",
-        "slug": "paolo-sassanelli",
-        "name": "Paolo Sassanelli",
-        "birthYear": 1958.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "IT2018_079",
+    "slug": "it2018-079-due-piccoli-italiani",
+    "title": {
+        "native": "Due piccoli italiani",
+        "english": "Two Little Italians"
     },
-    {
-      "id": "IT2018_079_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Unemployed",
-      "ability": "Permanent disability",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Paolo Sassanelli",
-        "slug": "paolo-sassanelli",
-        "name": "Paolo Sassanelli",
-        "birthYear": 1958.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Director of the film"
-    }
-  ],
-  "synopsis": {
-    "native": "Il rocambolesco viaggio attraverso l\u2019Europa di due amici un po\u2019 na\u00eff, Salvatore (Colella) e Felice (Sassanelli), in fuga da un paesino della Puglia, che si ritrovano catapultati a Rotterdam e poi in Islanda. Per la prima volta nella loro vita scopriranno cosa significhi sentirsi vivi e felici. Attraverso qualche disavventura e con l\u2019aiuto della generosa e stravagante Anke (Gerritsen), supereranno le proprie paure e inibizioni. Saranno travolti dalla vita, scoprendo la gioia di esistere e di provare e ricevere affetto e amore in uno strano triangolo di relazioni tipiche di una \u2018famiglia moderna\u2019, bizzarra e rassicurante al tempo stesso.",
-    "english": "Two naive friends in their forties flee from a small town in Southern Italy and find themselves catapulted into Northern Europe. They will, for the first time, understand what feeling alive and happy means. Through a series of surprising adventures and with the help of a woman, they will overcome their fears and inhibitions, they will discover the joy of life, affection and even love, becoming part of a bizarre but also reassuring \u2018modern family\u2019 with this woman."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2018-06-14",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Paolo Sassanelli",
+            "slug": "paolo-sassanelli",
+            "name": "Paolo Sassanelli",
+            "birthYear": 1958,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Road Movie"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt7023016/mediaviewer/rm171200000/?ref_=tt_ov_i",
+        "trailerUrl": "https://vimeo.com/268571849"
+    },
+    "synopsis": {
+        "native": "Il rocambolesco viaggio attraverso l\u2019Europa di due amici un po\u2019 na\u00eff, Salvatore (Colella) e Felice (Sassanelli), in fuga da un paesino della Puglia, che si ritrovano catapultati a Rotterdam e poi in Islanda. Per la prima volta nella loro vita scopriranno cosa significhi sentirsi vivi e felici. Attraverso qualche disavventura e con l\u2019aiuto della generosa e stravagante Anke (Gerritsen), supereranno le proprie paure e inibizioni. Saranno travolti dalla vita, scoprendo la gioia di esistere e di provare e ricevere affetto e amore in uno strano triangolo di relazioni tipiche di una \u2018famiglia moderna\u2019, bizzarra e rassicurante al tempo stesso.",
+        "english": "Two naive friends in their forties flee from a small town in Southern Italy and find themselves catapulted into Northern Europe. They will, for the first time, understand what feeling alive and happy means. Through a series of surprising adventures and with the help of a woman, they will overcome their fears and inhibitions, they will discover the joy of life, affection and even love, becoming part of a bizarre but also reassuring \u2018modern family\u2019 with this woman."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2018_079_01",
+            "film": "IT2018_079",
+            "person": {
+                "id": "Paolo Sassanelli",
+                "slug": "paolo-sassanelli",
+                "name": "Paolo Sassanelli",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Unemployed",
+            "ability": "Permanent disability",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Dagmar Lassander",
+                "slug": "dagmar-lassander",
+                "name": "Dagmar Lassander",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Kenneth Herdigein",
+                "slug": "kenneth-herdigein",
+                "name": "Kenneth Herdigein",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Netherlands (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Paolo Sassanelli",
+                "slug": "paolo-sassanelli",
+                "name": "Paolo Sassanelli",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Paolo Sassanelli",
+                "slug": "paolo-sassanelli",
+                "name": "Paolo Sassanelli",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Tiziana Schiavarelli",
+                "slug": "tiziana-schiavarelli",
+                "name": "Tiziana Schiavarelli",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Tot\u00f2 Onnis",
+                "slug": "toto-onnis",
+                "name": "Tot\u00f2 Onnis",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "search for meaning",
+        "homosociality",
+        "mental illness"
+    ]
 }

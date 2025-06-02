@@ -1,29 +1,35 @@
 {
-  "id": "David Teboul",
-  "type": "Biography",
-  "slug": "david-teboul",
-  "name": "David Teboul",
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Performative mode",
-      "id": "FR2022_097",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "fr2022-097-mon-amour",
-      "tags": "personal memory",
-      "title": {
-        "english": "Mon Amour",
-        "native": "Mon amour"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "David Teboul",
+    "slug": "david-teboul",
+    "name": "David Teboul",
+    "birthYear": 0,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2022_097",
+                "slug": "fr2022-097-mon-amour",
+                "title": {
+                    "native": "Mon amour",
+                    "english": "Mon Amour"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-06-15",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

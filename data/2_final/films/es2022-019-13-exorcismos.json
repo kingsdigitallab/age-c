@@ -1,70 +1,110 @@
 {
-  "id": "ES2022_019",
-  "type": "Film",
-  "slug": "es2022-019-13-exorcismos",
-  "title": {
-    "native": "13 exorcismos",
-    "english": "13 Exorcisms"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-11-04",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt21199996/?ref_=vp_close",
-    "posterUrl": "https://www.imdb.com/title/tt21199996/mediaviewer/rm1938434049/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Horror"
-  ],
-  "tags": [
-    "high rank employment",
-    "rescue mission",
-    "supernatural entity",
-    "religion"
-  ],
-  "director": [
-    {
-      "id": "Jacobo Mart\u00ednez",
-      "slug": "jacobo-martinez",
-      "name": "Jacobo Mart\u00ednez",
-      "birthYear": 1978,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2022_019_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Jos\u00e9 Sacrist\u00e1n",
-        "slug": "jose-sacristan",
-        "name": "Jos\u00e9 Sacrist\u00e1n",
-        "birthYear": 1937.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Tras una sesi\u00f3n de espiritismo, Laura Villegas comienza a comportarse de manera extra\u00f1a. Alarmados por el siniestro comportamiento de su hija y convencidos de que el demonio la ha pose\u00eddo, sus padres acuden al Padre Olmedo, uno de los 15 exorcistas autorizados por el Vaticano para intervenir en casos de posesiones demon\u00edacas. A partir de ah\u00ed una serie de fen\u00f3menos extra\u00f1os comenzar\u00e1n a envolver a los protagonistas de la historia.",
-    "english": "After the strange behavior displayed by teenager Laura Villegas, her parents calls a Vatican-sanctioned exorcist to intervene in the case of demonic possession. From then on, a series of strange phenomena will disturb the family."
-  }
+    "type": "Film",
+    "id": "ES2022_019",
+    "slug": "es2022-019-13-exorcismos",
+    "title": {
+        "native": "13 exorcismos",
+        "english": "13 Exorcisms"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-11-04",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Jacobo Mart\u00ednez",
+            "slug": "jacobo-martinez",
+            "name": "Jacobo Mart\u00ednez",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Horror"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt21199996/mediaviewer/rm1938434049/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt21199996/?ref_=vp_close"
+    },
+    "synopsis": {
+        "native": "Tras una sesi\u00f3n de espiritismo, Laura Villegas comienza a comportarse de manera extra\u00f1a. Alarmados por el siniestro comportamiento de su hija y convencidos de que el demonio la ha pose\u00eddo, sus padres acuden al Padre Olmedo, uno de los 15 exorcistas autorizados por el Vaticano para intervenir en casos de posesiones demon\u00edacas. A partir de ah\u00ed una serie de fen\u00f3menos extra\u00f1os comenzar\u00e1n a envolver a los protagonistas de la historia.",
+        "english": "After the strange behavior displayed by teenager Laura Villegas, her parents calls a Vatican-sanctioned exorcist to intervene in the case of demonic possession. From then on, a series of strange phenomena will disturb the family."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2022_019_01",
+            "film": "ES2022_019",
+            "person": {
+                "id": "Jos\u00e9 Sacrist\u00e1n",
+                "slug": "jose-sacristan",
+                "name": "Jos\u00e9 Sacrist\u00e1n",
+                "birthYear": 1937,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alfonso Delgado",
+                "slug": "alfonso-delgado",
+                "name": "Alfonso Delgado",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Jacobo Mart\u00ednez",
+                "slug": "jacobo-martinez",
+                "name": "Jacobo Mart\u00ednez",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jos\u00e9 Sacrist\u00e1n",
+                "slug": "jose-sacristan",
+                "name": "Jos\u00e9 Sacrist\u00e1n",
+                "birthYear": 1937,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "supernatural entity",
+        "religion",
+        "high rank employment",
+        "rescue mission"
+    ]
 }

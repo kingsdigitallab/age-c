@@ -1,66 +1,101 @@
 {
-  "id": "Roger Michell",
-  "type": "Biography",
-  "slug": "roger-michell",
-  "name": "Roger Michell",
-  "birthYear": 1956,
-  "deathYear": 2021,
-  "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Courtroom Drama",
-      "id": "GB2022_076",
-      "production": {
-        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "gb2022-076-the-duke",
-      "tags": "last mission",
-      "title": {
-        "native": "The Duke"
-      }
-    },
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Observational mode",
-      "id": "GB2018_016",
-      "production": {
-        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "gb2018-016-tea-with-the-dames",
-      "tags": "homosociality",
-      "title": {
-        "native": "Tea with the Dames"
-      }
-    },
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Expository mode",
-      "id": "GB2022_024",
-      "production": {
-        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "gb2022-024-elizabeth-a-portrait-in-part-s",
-      "tags": "state institutions",
-      "title": {
-        "native": "Elizabeth: A Portrait in Part(s)"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Roger Michell",
+    "slug": "roger-michell",
+    "name": "Roger Michell",
+    "birthYear": 1956,
+    "deathYear": 2021,
+    "gender": "Male identifying",
+    "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "GB2018_016",
+                "slug": "gb2018-016-tea-with-the-dames",
+                "title": {
+                    "native": "Tea with the Dames",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-04-27",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "GB2018_016",
+                "slug": "gb2018-016-tea-with-the-dames",
+                "title": {
+                    "native": "Tea with the Dames",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-04-27",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "film": {
+                "id": "GB2022_024",
+                "slug": "gb2022-024-elizabeth-a-portrait-in-part-s",
+                "title": {
+                    "native": "Elizabeth: A Portrait in Part(s)",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-05-27",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "GB2022_076",
+                "slug": "gb2022-076-the-duke",
+                "title": {
+                    "native": "The Duke",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-02-25",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

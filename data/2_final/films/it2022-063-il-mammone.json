@@ -1,86 +1,130 @@
 {
-  "id": "IT2022_063",
-  "type": "Film",
-  "slug": "it2022-063-il-mammone",
-  "title": {
-    "native": "Il mammone"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-03-08",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=VJNwVNUFpZc",
-    "posterUrl": "https://www.imdb.com/title/tt13070586/mediaviewer/rm141953025/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "parenthood",
-    "empty nest",
-    "marriage"
-  ],
-  "director": [
-    {
-      "id": "Giovanni Bognetti",
-      "slug": "giovanni-bognetti",
-      "name": "Giovanni Bognetti",
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2022_063_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Angela Finocchiaro",
-        "slug": "angela-finocchiaro",
-        "name": "Angela Finocchiaro",
-        "birthYear": 1955.0,
-        "gender": "Female identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "IT2022_063",
+    "slug": "it2022-063-il-mammone",
+    "title": {
+        "native": "Il mammone",
+        "english": ""
     },
-    {
-      "id": "IT2022_063_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Diego Abatantuono",
-        "slug": "diego-abatantuono",
-        "name": "Diego Abatantuono",
-        "birthYear": 1955.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "L'antico proverbio giapponese \u201cQuando sei mamma lo sei per sempre\u201d \u00e8 un mantra nella famiglia Bonelli. Aldo, figlio unico di Piero e Anna, nonostante i suoi 35 anni suonati, l\u2019indipendenza economica, una brillante carriera accademica come professore universitario e innumerevoli occasioni di lavoro all\u2019estero, vive ancora felicemente a casa con la madre e il padre. Un giorno per\u00f2 i genitori realizzano quello che mai avrebbero pensato: non lo sopportano pi\u00f9! Inizia in casa una vera e propria guerra fredda, nella quale i coniugi Bonelli cercano di far emancipare Aldo e metterlo alla porta con ogni mezzo a loro disposizione. Il ragazzo per\u00f2 ha delle risorse inaspettate e non \u00e8 un tipo che si arrende facilmente."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-03-08",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Giovanni Bognetti",
+            "slug": "giovanni-bognetti",
+            "name": "Giovanni Bognetti",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt13070586/mediaviewer/rm141953025/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=VJNwVNUFpZc"
+    },
+    "synopsis": {
+        "native": "L'antico proverbio giapponese \u201cQuando sei mamma lo sei per sempre\u201d \u00e8 un mantra nella famiglia Bonelli. Aldo, figlio unico di Piero e Anna, nonostante i suoi 35 anni suonati, l\u2019indipendenza economica, una brillante carriera accademica come professore universitario e innumerevoli occasioni di lavoro all\u2019estero, vive ancora felicemente a casa con la madre e il padre. Un giorno per\u00f2 i genitori realizzano quello che mai avrebbero pensato: non lo sopportano pi\u00f9! Inizia in casa una vera e propria guerra fredda, nella quale i coniugi Bonelli cercano di far emancipare Aldo e metterlo alla porta con ogni mezzo a loro disposizione. Il ragazzo per\u00f2 ha delle risorse inaspettate e non \u00e8 un tipo che si arrende facilmente.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2022_063_01",
+            "film": "IT2022_063",
+            "person": {
+                "id": "Diego Abatantuono",
+                "slug": "diego-abatantuono",
+                "name": "Diego Abatantuono",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "IT2022_063_02",
+            "film": "IT2022_063",
+            "person": {
+                "id": "Angela Finocchiaro",
+                "slug": "angela-finocchiaro",
+                "name": "Angela Finocchiaro",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Angela Finocchiaro",
+                "slug": "angela-finocchiaro",
+                "name": "Angela Finocchiaro",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Diego Abatantuono",
+                "slug": "diego-abatantuono",
+                "name": "Diego Abatantuono",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Giovanni Bognetti",
+                "slug": "giovanni-bognetti",
+                "name": "Giovanni Bognetti",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "parenthood",
+        "marriage",
+        "empty nest"
+    ]
 }

@@ -1,82 +1,158 @@
 {
-  "id": "FR2019_010",
-  "type": "Film",
-  "slug": "fr2019-010-holy-lands",
-  "title": {
-    "native": "Holy Lands",
-    "english": "Holy Lands"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-01-16",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2019_010",
+    "slug": "fr2019-010-holy-lands",
+    "title": {
+        "native": "Holy Lands",
+        "english": "Holy Lands"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=-PLcKYDSkws",
-    "posterUrl": "https://medias.unifrance.org/medias/227/1/197091/format_page/holy-lands.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Drama"
-  ],
-  "tags": [
-    "parenthood",
-    "celibacy",
-    "intergenerational conflict",
-    "independent home",
-    "in-laws",
-    "extended family",
-    "new start",
-    "self-employment",
-    "intragenerational friendship",
-    "retirement",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Amanda Sthers",
-      "slug": "amanda-sthers",
-      "name": "Amanda Sthers",
-      "birthYear": 1978,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2019_010_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White North American",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "James Caan",
-        "slug": "james-caan",
-        "name": "James Caan",
-        "birthYear": 1940.0,
-        "gender": "Male identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Harry (James Caan), Juif apostat et cardiologue \u00e0 la retraite, originaire de New York, d\u00e9cide soudainement d\u2019aller s\u2019\u00e9tablir comme \u00e9leveur de porcs \u00e0 Nazareth, en Isra\u00ebl. Une d\u00e9cision mal v\u00e9cue par les locaux comme par sa propre famille. Rest\u00e9e \u00e0 New York, apr\u00e8s s\u2019\u00eatre d\u00e9couvert un cancer, son ex-femme Monica (Rosanna Arquette) tente de g\u00e9rer la vie de leurs grands enfants Annabelle (Efrat Dor) et David (Jonathan Rhys Meyers), et revisite son histoire d\u2019amour avec Harry. Contre toute attente, c\u2019est aupr\u00e8s du Rabbin Moshe Cattan (Tom Hollander), qu\u2019Harry va accepter d\u2019affronter la vie et son issue.",
-    "english": "Facing a crossroads in life, Harry Rosenmerck (Academy award nominee James Caan) leaves New York and his family with an unlikely plan to start a pig farm in Nazareth, causing the anger of neighboring local communities. His conflict with the town Rabbi, Moshe Cattan (BAFTA award winner Tom Hollander) slowly turns into a friendship that leads him to reevaluate his relationship with his estranged family, including his difficult ex-wife, 34-year-old student daughter, and playwrighting son David. Holy Lands is an emotional, humorous and dramatic story about the passage of time and the connections between people and family."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-01-16",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Amanda Sthers",
+            "slug": "amanda-sthers",
+            "name": "Amanda Sthers",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/227/1/197091/format_page/holy-lands.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=-PLcKYDSkws"
+    },
+    "synopsis": {
+        "native": "Harry (James Caan), Juif apostat et cardiologue \u00e0 la retraite, originaire de New York, d\u00e9cide soudainement d\u2019aller s\u2019\u00e9tablir comme \u00e9leveur de porcs \u00e0 Nazareth, en Isra\u00ebl. Une d\u00e9cision mal v\u00e9cue par les locaux comme par sa propre famille. Rest\u00e9e \u00e0 New York, apr\u00e8s s\u2019\u00eatre d\u00e9couvert un cancer, son ex-femme Monica (Rosanna Arquette) tente de g\u00e9rer la vie de leurs grands enfants Annabelle (Efrat Dor) et David (Jonathan Rhys Meyers), et revisite son histoire d\u2019amour avec Harry. Contre toute attente, c\u2019est aupr\u00e8s du Rabbin Moshe Cattan (Tom Hollander), qu\u2019Harry va accepter d\u2019affronter la vie et son issue.",
+        "english": "Facing a crossroads in life, Harry Rosenmerck (Academy award nominee James Caan) leaves New York and his family with an unlikely plan to start a pig farm in Nazareth, causing the anger of neighboring local communities. His conflict with the town Rabbi, Moshe Cattan (BAFTA award winner Tom Hollander) slowly turns into a friendship that leads him to reevaluate his relationship with his estranged family, including his difficult ex-wife, 34-year-old student daughter, and playwrighting son David. Holy Lands is an emotional, humorous and dramatic story about the passage of time and the connections between people and family."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2019_010_01",
+            "film": "FR2019_010",
+            "person": {
+                "id": "James Caan",
+                "slug": "james-caan",
+                "name": "James Caan",
+                "birthYear": 1940,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White North American",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Amanda Sthers",
+                "slug": "amanda-sthers",
+                "name": "Amanda Sthers",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Dina Doron",
+                "slug": "dina-doron",
+                "name": "Dina Doron",
+                "birthYear": 1940,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Israel"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "James Caan",
+                "slug": "james-caan",
+                "name": "James Caan",
+                "birthYear": 1940,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Patrick Bruel",
+                "slug": "patrick-bruel",
+                "name": "Patrick Bruel",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Rapha\u00ebl Mezrahi",
+                "slug": "raphael-mezrahi",
+                "name": "Rapha\u00ebl Mezrahi",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Rosanna Arquette",
+                "slug": "rosanna-arquette",
+                "name": "Rosanna Arquette",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "new start",
+        "parenthood",
+        "in-laws",
+        "extended family",
+        "intragenerational friendship",
+        "intergenerational conflict",
+        "celibacy",
+        "rural",
+        "independent home",
+        "retirement",
+        "self-employment"
+    ]
 }

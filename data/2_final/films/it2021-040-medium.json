@@ -1,66 +1,95 @@
 {
-  "id": "IT2021_040",
-  "type": "Film",
-  "slug": "it2021-040-medium",
-  "title": {
-    "native": "Medium"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-10-14",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=QsmdhBqiQc8",
-    "posterUrl": "https://www.imdb.com/title/tt13680732/mediaviewer/rm2904419073/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Horror"
-  ],
-  "tags": [
-    "organized crime"
-  ],
-  "director": [
-    {
-      "id": "Massimo Paolucci",
-      "slug": "massimo-paolucci",
-      "name": "Massimo Paolucci",
-      "birthYear": 1959,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2021_040_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Tony Sperandeo",
-        "slug": "tony-sperandeo",
-        "name": "Tony Sperandeo",
-        "birthYear": 1953.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Cosa accade se una banda di rapinatori mette a segno un colpo da diverse decine di migliaia di euro in un bar di provincia senza immaginare che il proprietario dell\u2019attivit\u00e0 sia Cagliostro, losco individuo legato agli ambienti della malavita? Accade che questi non tarda a rintracciare la combriccola di criminali, proponendo loro la possibilit\u00e0 di collaborare intrufolandosi nella villa umbra dell\u2019anziano uomo d\u2019affari cinese Hung, dove dovranno rubare per lui un ciondolo di giada verde. Un\u2019impresa in cambio della cui riuscita potranno tenere tutto il malloppo rubato al bar, ma durante la quale scopriranno che il medaglione si trova al collo della figlia di Hung, Sofia, in coma e tenuta in vita attraverso un misterioso rituale. Ed \u00e8 soltanto l\u2019inizio di una lunga notte di sangue e violenza.",
-    "english": "A gang of robbers steals thousands of euros in a provincial bar without imagining that the owner of the business is Cagliostro (Tony Sperandeo), a shady individual linked to the criminal underworld. He tracks down the gang of robbers, offering them the opportunity to collaborate with him, by sneaking into the mansion of the elderly Chinese businessman Hung (Hal Yamanouchi), where they will have to steal a green jade pendant for him. In exchange for the success they will be able to keep all the money stolen from the bar, but they will discover that the medallion is around the neck of Hung's daughter, Sofia (Martina Angelucci), in a coma and kept alive through a mysterious ritual. And it is only the beginning of a long night of blood and violence."
-  }
+    "type": "Film",
+    "id": "IT2021_040",
+    "slug": "it2021-040-medium",
+    "title": {
+        "native": "Medium",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-10-14",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Massimo Paolucci",
+            "slug": "massimo-paolucci",
+            "name": "Massimo Paolucci",
+            "birthYear": 1959,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Horror"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt13680732/mediaviewer/rm2904419073/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=QsmdhBqiQc8"
+    },
+    "synopsis": {
+        "native": "Cosa accade se una banda di rapinatori mette a segno un colpo da diverse decine di migliaia di euro in un bar di provincia senza immaginare che il proprietario dell\u2019attivit\u00e0 sia Cagliostro, losco individuo legato agli ambienti della malavita? Accade che questi non tarda a rintracciare la combriccola di criminali, proponendo loro la possibilit\u00e0 di collaborare intrufolandosi nella villa umbra dell\u2019anziano uomo d\u2019affari cinese Hung, dove dovranno rubare per lui un ciondolo di giada verde. Un\u2019impresa in cambio della cui riuscita potranno tenere tutto il malloppo rubato al bar, ma durante la quale scopriranno che il medaglione si trova al collo della figlia di Hung, Sofia, in coma e tenuta in vita attraverso un misterioso rituale. Ed \u00e8 soltanto l\u2019inizio di una lunga notte di sangue e violenza.",
+        "english": "A gang of robbers steals thousands of euros in a provincial bar without imagining that the owner of the business is Cagliostro (Tony Sperandeo), a shady individual linked to the criminal underworld. He tracks down the gang of robbers, offering them the opportunity to collaborate with him, by sneaking into the mansion of the elderly Chinese businessman Hung (Hal Yamanouchi), where they will have to steal a green jade pendant for him. In exchange for the success they will be able to keep all the money stolen from the bar, but they will discover that the medallion is around the neck of Hung's daughter, Sofia (Martina Angelucci), in a coma and kept alive through a mysterious ritual. And it is only the beginning of a long night of blood and violence."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2021_040_01",
+            "film": "IT2021_040",
+            "person": {
+                "id": "Tony Sperandeo",
+                "slug": "tony-sperandeo",
+                "name": "Tony Sperandeo",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Massimo Paolucci",
+                "slug": "massimo-paolucci",
+                "name": "Massimo Paolucci",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Tony Sperandeo",
+                "slug": "tony-sperandeo",
+                "name": "Tony Sperandeo",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "organized crime"
+    ]
 }

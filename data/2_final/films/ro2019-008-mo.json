@@ -1,71 +1,111 @@
 {
-  "id": "RO2019_008",
-  "type": "Film",
-  "slug": "ro2019-008-mo",
-  "title": {
-    "native": "Mo",
-    "english": "Mo"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-10-04",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Romania",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.cinemagia.ro/trailer/mo-21767/",
-    "posterUrl": "https://www.cinemagia.ro/filme/mo-2723799/postere/3610347/#gallery"
-  },
-  "genre": [
-    "Coming of Age",
-    "Thriller",
-    "Drama"
-  ],
-  "tags": [
-    "education",
-    "high rank employment",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Radu Dragomir",
-      "slug": "radu-dragomir",
-      "name": "Radu Dragomir",
-      "birthYear": 1967,
-      "gender": "Male identifying",
-      "nationality": "Romania"
-    }
-  ],
-  "character": [
-    {
-      "id": "RO2019_008_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Eastern European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "R\u0103zvan Vasilescu",
-        "slug": "razvan-vasilescu",
-        "name": "R\u0103zvan Vasilescu",
-        "birthYear": 1954.0,
-        "gender": "Male identifying",
-        "nationality": "Romania"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Mo \u015fi prietena ei sunt prinse copiind de c\u0103tre cel mai sever profesor din facultate. Dup\u0103 ce \u00eel roag\u0103 s\u0103 mai dea o data examenul, profesorul le invit\u0103 la el acas\u0103. Aici, cele dou\u0103 studente vor fi supuse unui examen nea\u015fteptat. Totul pare o glum\u0103, p\u00e2n\u0103 c\u00e2nd Mo \u00ee\u015fi pierde controlul.",
-    "english": "Mo and her best friend Vera are caught cheating during exam by Ursu, the toughest professor in the university. After she asks him for a second chance, the professor invites them to his place. Here, the students will have to pass an unexpected examination. It's all fun and games, until Mo loses control."
-  }
+    "type": "Film",
+    "id": "RO2019_008",
+    "slug": "ro2019-008-mo",
+    "title": {
+        "native": "Mo",
+        "english": "Mo"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-10-04",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Radu Dragomir",
+            "slug": "radu-dragomir",
+            "name": "Radu Dragomir",
+            "birthYear": 1967,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Romania"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Thriller",
+        "Coming of Age"
+    ],
+    "media": {
+        "posterUrl": "https://www.cinemagia.ro/filme/mo-2723799/postere/3610347/#gallery",
+        "trailerUrl": "https://www.cinemagia.ro/trailer/mo-21767/"
+    },
+    "synopsis": {
+        "native": "Mo \u015fi prietena ei sunt prinse copiind de c\u0103tre cel mai sever profesor din facultate. Dup\u0103 ce \u00eel roag\u0103 s\u0103 mai dea o data examenul, profesorul le invit\u0103 la el acas\u0103. Aici, cele dou\u0103 studente vor fi supuse unui examen nea\u015fteptat. Totul pare o glum\u0103, p\u00e2n\u0103 c\u00e2nd Mo \u00ee\u015fi pierde controlul.",
+        "english": "Mo and her best friend Vera are caught cheating during exam by Ursu, the toughest professor in the university. After she asks him for a second chance, the professor invites them to his place. Here, the students will have to pass an unexpected examination. It's all fun and games, until Mo loses control."
+    },
+    "production": [
+        {
+            "country": "Romania",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "RO2019_008_01",
+            "film": "RO2019_008",
+            "person": {
+                "id": "R\u0103zvan Vasilescu",
+                "slug": "razvan-vasilescu",
+                "name": "R\u0103zvan Vasilescu",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Eastern European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Liliana Pan\u0103",
+                "slug": "liliana-pana",
+                "name": "Liliana Pan\u0103",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Romania"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Radu Dragomir",
+                "slug": "radu-dragomir",
+                "name": "Radu Dragomir",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "R\u0103zvan Vasilescu",
+                "slug": "razvan-vasilescu",
+                "name": "R\u0103zvan Vasilescu",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "education",
+        "high rank employment",
+        "superior-employee relationship"
+    ]
 }

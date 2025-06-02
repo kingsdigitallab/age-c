@@ -1,78 +1,131 @@
 {
-  "id": "FR2018_049",
-  "type": "Film",
-  "slug": "fr2018-049-la-finale",
-  "title": {
-    "native": "La Finale",
-    "english": "In The Game"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-03-21",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2018_049",
+    "slug": "fr2018-049-la-finale",
+    "title": {
+        "native": "La Finale",
+        "english": "In The Game"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=_2YpIWTcoXM",
-    "posterUrl": "https://medias.unifrance.org/medias/74/221/187722/format_page/in-the-game.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Sports Film",
-    "Drama"
-  ],
-  "tags": [
-    "parenthood",
-    "grandparenthood",
-    "marriage",
-    "multigenerational family",
-    "in-laws",
-    "dementia",
-    "retirement"
-  ],
-  "director": [
-    {
-      "id": "Robin Sykes",
-      "slug": "robin-sykes",
-      "name": "Robin Sykes",
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2018_049_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Chronic illness",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Thierry Lhermitte",
-        "slug": "thierry-lhermitte",
-        "name": "Thierry Lhermitte",
-        "birthYear": 1952.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Toute la famille Verdi est aux petits soins pour s\u2019occuper de Roland, le grand-p\u00e8re, qui perd un peu la boule ces derniers temps. Tous sauf JB, l'ado de la famille, qui n'a qu'un seul but : monter a\u0300 Paris pour disputer sa finale de basket. Mais ses parents, bloqu\u00e9s ce week-end-l\u00e0, lui demandent d\u2019y renoncer pour surveiller son grand-p\u00e8re. JB d\u00e9cide alors de l\u2019embarquer avec lui. Pendant ce voyage, rien ne se passera comme pr\u00e9vu...",
-    "english": "A rebellious teenager must travel the country with his sick grandpa to get to his basketball game."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2018-03-21",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Robin Sykes",
+            "slug": "robin-sykes",
+            "name": "Robin Sykes",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Drama",
+        "Sports Film"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/74/221/187722/format_page/in-the-game.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=_2YpIWTcoXM"
+    },
+    "synopsis": {
+        "native": "Toute la famille Verdi est aux petits soins pour s\u2019occuper de Roland, le grand-p\u00e8re, qui perd un peu la boule ces derniers temps. Tous sauf JB, l'ado de la famille, qui n'a qu'un seul but : monter a\u0300 Paris pour disputer sa finale de basket. Mais ses parents, bloqu\u00e9s ce week-end-l\u00e0, lui demandent d\u2019y renoncer pour surveiller son grand-p\u00e8re. JB d\u00e9cide alors de l\u2019embarquer avec lui. Pendant ce voyage, rien ne se passera comme pr\u00e9vu...",
+        "english": "A rebellious teenager must travel the country with his sick grandpa to get to his basketball game."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2018_049_01",
+            "film": "FR2018_049",
+            "person": {
+                "id": "Thierry Lhermitte",
+                "slug": "thierry-lhermitte",
+                "name": "Thierry Lhermitte",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Chronic illness",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Fran\u00e7ois Levantal",
+                "slug": "francois-levantal",
+                "name": "Fran\u00e7ois Levantal",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Ged Marlon",
+                "slug": "ged-marlon",
+                "name": "Ged Marlon",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Robin Sykes",
+                "slug": "robin-sykes",
+                "name": "Robin Sykes",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Thierry Lhermitte",
+                "slug": "thierry-lhermitte",
+                "name": "Thierry Lhermitte",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "retirement",
+        "dementia",
+        "marriage",
+        "parenthood",
+        "grandparenthood",
+        "multigenerational family",
+        "in-laws"
+    ]
 }

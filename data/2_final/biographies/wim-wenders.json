@@ -1,49 +1,139 @@
 {
-  "id": "Wim Wenders",
-  "type": "Biography",
-  "slug": "wim-wenders",
-  "name": "Wim Wenders",
-  "birthYear": 1945,
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Spy Film",
-      "id": "DE2018_066",
-      "production": {
-        "country": "France",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "de2018-066-submergence",
-      "tags": "religion",
-      "title": {
-        "english": "Submergence",
-        "native": "Submergence"
-      }
-    },
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Poetic mode",
-      "id": "DE2023_090",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "de2023-090-anselm-das-rauschen-der-zeit",
-      "tags": "artistic creation",
-      "title": {
-        "english": "Anselm",
-        "native": "Anselm - Das Rauschen der Zeit"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Wim Wenders",
+    "slug": "wim-wenders",
+    "name": "Wim Wenders",
+    "birthYear": 1945,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2018_066",
+                "slug": "de2018-066-submergence",
+                "title": {
+                    "native": "Submergence",
+                    "english": "Submergence"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-08-02",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Spain",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "DE2020_042",
+                "slug": "de2020-042-wim-wenders-desperado",
+                "title": {
+                    "native": "Wim Wenders: Desperado",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-07-16",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "film": {
+                "id": "DE2022_087",
+                "slug": "de2022-087-werner-herzog-radical-dreamer",
+                "title": {
+                    "native": "Werner Herzog - Radical Dreamer",
+                    "english": "Werner Herzog - Radical Dreamer"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-10-27",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "film": {
+                "id": "DE2023_023",
+                "slug": "de2023-023-can-and-me",
+                "title": {
+                    "native": "CAN and Me",
+                    "english": "CAN and Me"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-03-09",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "film": {
+                "id": "DE2023_090",
+                "slug": "de2023-090-anselm-das-rauschen-der-zeit",
+                "title": {
+                    "native": "Anselm - Das Rauschen der Zeit",
+                    "english": "Anselm"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-10-12",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

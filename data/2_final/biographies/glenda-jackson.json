@@ -1,72 +1,128 @@
 {
-  "id": "Glenda Jackson",
-  "type": "Biography",
-  "slug": "glenda-jackson",
-  "name": "Glenda Jackson",
-  "birthYear": 1936,
-  "deathYear": 2023,
-  "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
-  "gender": "Female identifying",
-  "character": [
-    {
-      "ability": "Permanent disability",
-      "age": "4: Fourth Age (>75)",
-      "assistedMobility": "Yes",
-      "class": "Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Road Movie",
-        "id": "GB2023_005",
-        "production": {
-          "country": "Sweden",
-          "share": "Minority coproducer"
+    "type": "Person",
+    "id": "Glenda Jackson",
+    "slug": "glenda-jackson",
+    "name": "Glenda Jackson",
+    "birthYear": 1936,
+    "deathYear": 2023,
+    "gender": "Female identifying",
+    "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+    "characters": [
+        {
+            "id": "GB2021_009_02",
+            "film": {
+                "id": "GB2021_009",
+                "slug": "gb2021-009-mothering-sunday",
+                "title": {
+                    "native": "Mothering Sunday",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2011-12-21",
+                    "year": 2011
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "person": "Glenda Jackson",
+            "age": "4: Fourth Age (>75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "Yes"
         },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2023
-        },
-        "slug": "gb2023-005-the-great-escaper",
-        "tags": "war",
-        "title": {
-          "native": "The Great Escaper"
+        {
+            "id": "GB2023_005_02",
+            "film": {
+                "id": "GB2023_005",
+                "slug": "gb2023-005-the-great-escaper",
+                "title": {
+                    "native": "The Great Escaper",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-10-06",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Sweden",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Glenda Jackson",
+            "age": "4: Fourth Age (>75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Permanent disability",
+            "assistedMobility": "Yes"
         }
-      },
-      "gender": "Female identifying",
-      "id": "GB2023_005_02",
-      "origin": "White Western European",
-      "profession": "Retired",
-      "role": "Leading actor",
-      "sexuality": "Heterosexual"
-    },
-    {
-      "ability": "Able-bodied",
-      "age": "4: Fourth Age (>75)",
-      "assistedMobility": "Yes",
-      "class": "Upper Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Historical film (Heritage Film)",
-        "id": "GB2021_009",
-        "production": {
-          "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-          "share": "Majority coproducer"
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "GB2021_009",
+                "slug": "gb2021-009-mothering-sunday",
+                "title": {
+                    "native": "Mothering Sunday",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2011-12-21",
+                    "year": 2011
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
         },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2011
-        },
-        "slug": "gb2021-009-mothering-sunday",
-        "tags": "class conflict",
-        "title": {
-          "native": "Mothering Sunday"
+        {
+            "film": {
+                "id": "GB2023_005",
+                "slug": "gb2023-005-the-great-escaper",
+                "title": {
+                    "native": "The Great Escaper",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-10-06",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Sweden",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
         }
-      },
-      "gender": "Female identifying",
-      "id": "GB2021_009_02",
-      "origin": "White Western European",
-      "profession": "Self-employed",
-      "role": "Supporting actor",
-      "sexuality": "Heterosexual"
-    }
-  ]
+    ]
 }

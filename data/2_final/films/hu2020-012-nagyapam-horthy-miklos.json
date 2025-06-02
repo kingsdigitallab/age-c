@@ -1,46 +1,75 @@
 {
-  "id": "HU2020_012",
-  "type": "Film",
-  "slug": "hu2020-012-nagyapam-horthy-miklos",
-  "title": {
-    "native": "Nagyap\u00e1m: Horthy Mikl\u00f3s",
-    "english": "My Grandfather: Mikl\u00f3s Horthy"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-06-04",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Hungary",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=qV8lVQbG3PM",
-    "posterUrl": "https://www.imdb.com/title/tt13725560/mediaviewer/rm1376178945/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Expository mode"
-  ],
-  "tags": [
-    "personal memory",
-    "cultural memory",
-    "grandfatherhood"
-  ],
-  "director": [
-    {
-      "id": "J\u00f3zsef Sipos",
-      "slug": "jozsef-sipos",
-      "name": "J\u00f3zsef Sipos",
-      "birthYear": 1953,
-      "gender": "Male identifying",
-      "nationality": "Hungary"
-    }
-  ],
-  "synopsis": {
-    "native": "A Korm\u00e1nyz\u00f3 unok\u00e1ja Horthy Istv\u00e1n az egyetlen \u00e9l\u0151 szemtan\u00fa, a magyar t\u00f6rt\u00e9nelem legs\u00f6t\u00e9tebb id\u0151szak\u00e1r\u00f3l. Istv\u00e1n a saj\u00e1t szemsz\u00f6g\u00e9b\u0151l elmes\u00e9li sz\u00e1munkra azokat az esem\u00e9nyeket, melyek a XX. sz\u00e1zad Magyarorsz\u00e1g\u00e1t alak\u00edtott\u00e1k. Megismerhetj\u00fck a Horthy csal\u00e1d t\u00f6rt\u00e9net\u00e9t, \u00e9s az eddig nem sok figyelmet kapott trag\u00e9di\u00e1j\u00e1t. Trianont\u00f3l a II.Vil\u00e1gh\u00e1bor\u00fan \u00e1t eg\u00e9szen az elrabl\u00e1sukig, \u00e9s term\u00e9szetesen a sz\u00e1m\u0171zet\u00e9s \u00e9veit is k\u00f6zelebb hozza film\u00fcnk. Ebben az id\u0151szakban Horthy Mikl\u00f3st nevelte unok\u00e1j\u00e1t \u00e9s az egy\u00fctt t\u00f6lt\u00f6tt id\u0151szakra a k\u00f6zel 80 \u00e9ves Istv\u00e1n, ma is nagyon \u00e9lesen \u00e9s tiszt\u00e1n eml\u00e9kezik."
-  }
+    "type": "Film",
+    "id": "HU2020_012",
+    "slug": "hu2020-012-nagyapam-horthy-miklos",
+    "title": {
+        "native": "Nagyap\u00e1m: Horthy Mikl\u00f3s",
+        "english": "My Grandfather: Mikl\u00f3s Horthy"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-06-04",
+        "year": 2020
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "J\u00f3zsef Sipos",
+            "slug": "jozsef-sipos",
+            "name": "J\u00f3zsef Sipos",
+            "birthYear": 1953,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Hungary"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Expository mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt13725560/mediaviewer/rm1376178945/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=qV8lVQbG3PM"
+    },
+    "synopsis": {
+        "native": "A Korm\u00e1nyz\u00f3 unok\u00e1ja Horthy Istv\u00e1n az egyetlen \u00e9l\u0151 szemtan\u00fa, a magyar t\u00f6rt\u00e9nelem legs\u00f6t\u00e9tebb id\u0151szak\u00e1r\u00f3l. Istv\u00e1n a saj\u00e1t szemsz\u00f6g\u00e9b\u0151l elmes\u00e9li sz\u00e1munkra azokat az esem\u00e9nyeket, melyek a XX. sz\u00e1zad Magyarorsz\u00e1g\u00e1t alak\u00edtott\u00e1k. Megismerhetj\u00fck a Horthy csal\u00e1d t\u00f6rt\u00e9net\u00e9t, \u00e9s az eddig nem sok figyelmet kapott trag\u00e9di\u00e1j\u00e1t. Trianont\u00f3l a II.Vil\u00e1gh\u00e1bor\u00fan \u00e1t eg\u00e9szen az elrabl\u00e1sukig, \u00e9s term\u00e9szetesen a sz\u00e1m\u0171zet\u00e9s \u00e9veit is k\u00f6zelebb hozza film\u00fcnk. Ebben az id\u0151szakban Horthy Mikl\u00f3st nevelte unok\u00e1j\u00e1t \u00e9s az egy\u00fctt t\u00f6lt\u00f6tt id\u0151szakra a k\u00f6zel 80 \u00e9ves Istv\u00e1n, ma is nagyon \u00e9lesen \u00e9s tiszt\u00e1n eml\u00e9kezik.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Hungary",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Istv\u00e1n Horthy",
+                "slug": "istvan-horthy",
+                "name": "Istv\u00e1n Horthy",
+                "birthYear": 1941,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "J\u00f3zsef Sipos",
+                "slug": "jozsef-sipos",
+                "name": "J\u00f3zsef Sipos",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "grandfatherhood",
+        "cultural memory",
+        "personal memory"
+    ]
 }

@@ -1,55 +1,83 @@
 {
-  "id": "FR2021_099",
-  "type": "Film",
-  "slug": "fr2021-099-my-son",
-  "title": {
-    "native": "My Son",
-    "english": "My Son"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-11-03",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2021_099",
+    "slug": "fr2021-099-my-son",
+    "title": {
+        "native": "My Son",
+        "english": "My Son"
     },
-    {
-      "country": "Germany",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2021-11-03",
+        "year": 2021
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=YhfP1c6Rgro",
-    "posterUrl": "https://medias.unifrance.org/medias/125/170/240253/format_page/my-son.jpg"
-  },
-  "genre": [
-    "Thriller",
-    "Drama"
-  ],
-  "tags": [
-    "state institutions",
-    "high rank employment"
-  ],
-  "director": [
-    {
-      "id": "Christian Carion",
-      "slug": "christian-carion",
-      "name": "Christian Carion",
-      "birthYear": 1963,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Edmond Murray, divorc\u00e9, s\u2019est \u00e9loign\u00e9 de son ex-femme et de son fils de 7 ans pour poursuivre une carri\u00e8re internationale. Lorsque le gar\u00e7on dispara\u00eet, Murray revient pr\u00e9cipitamment dans les Highlands. Rapidement, il devient clair que l\u2019enfant a \u00e9t\u00e9 kidnapp\u00e9. Les parents c\u00e8dent d\u2019abord au d\u00e9sespoir, mais Murray va tr\u00e8s vite se montrer pr\u00eat \u00e0 tout pour retrouver son fils. Il se lance dans une traque qui l\u2019obligera \u00e0 aller au bout de lui-m\u00eame et \u00e0 remettre en cause toutes ses convictions\u2026",
-    "english": "Driving in the heart of the Highlands, Edmond Murray receives a call from his ex-wife, in tears. Their 7-year-old son went missing from a campsite. Soon it becomes clear that the child was kidnapped and the parents give way to despair."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Christian Carion",
+            "slug": "christian-carion",
+            "name": "Christian Carion",
+            "birthYear": 1963,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/125/170/240253/format_page/my-son.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=YhfP1c6Rgro"
+    },
+    "synopsis": {
+        "native": "Edmond Murray, divorc\u00e9, s\u2019est \u00e9loign\u00e9 de son ex-femme et de son fils de 7 ans pour poursuivre une carri\u00e8re internationale. Lorsque le gar\u00e7on dispara\u00eet, Murray revient pr\u00e9cipitamment dans les Highlands. Rapidement, il devient clair que l\u2019enfant a \u00e9t\u00e9 kidnapp\u00e9. Les parents c\u00e8dent d\u2019abord au d\u00e9sespoir, mais Murray va tr\u00e8s vite se montrer pr\u00eat \u00e0 tout pour retrouver son fils. Il se lance dans une traque qui l\u2019obligera \u00e0 aller au bout de lui-m\u00eame et \u00e0 remettre en cause toutes ses convictions\u2026",
+        "english": "Driving in the heart of the Highlands, Edmond Murray receives a call from his ex-wife, in tears. Their 7-year-old son went missing from a campsite. Soon it becomes clear that the child was kidnapped and the parents give way to despair."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Germany",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Christian Carion",
+                "slug": "christian-carion",
+                "name": "Christian Carion",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Gary Lewis",
+                "slug": "gary-lewis",
+                "name": "Gary Lewis",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "high rank employment",
+        "state institutions"
+    ]
 }

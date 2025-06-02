@@ -1,30 +1,35 @@
 {
-  "id": "Heinz Brinkmann",
-  "type": "Biography",
-  "slug": "heinz-brinkmann",
-  "name": "Heinz Brinkmann",
-  "birthYear": 1948,
-  "deathYear": 2019,
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Participatory mode",
-      "id": "DE2018_058",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "de2018-058-usedom-der-freie-blick-aufs-meer",
-      "tags": "cultural memory",
-      "title": {
-        "native": "Usedom: Der freie Blick aufs Meer"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Heinz Brinkmann",
+    "slug": "heinz-brinkmann",
+    "name": "Heinz Brinkmann",
+    "birthYear": 1948,
+    "deathYear": 2019,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2018_058",
+                "slug": "de2018-058-usedom-der-freie-blick-aufs-meer",
+                "title": {
+                    "native": "Usedom: Der freie Blick aufs Meer",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-05-31",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

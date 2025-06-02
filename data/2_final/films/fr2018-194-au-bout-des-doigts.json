@@ -1,76 +1,140 @@
 {
-  "id": "FR2018_194",
-  "type": "Film",
-  "slug": "fr2018-194-au-bout-des-doigts",
-  "title": {
-    "native": "Au bout des doigts",
-    "english": "In Your Hands"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-12-26",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2018_194",
+    "slug": "fr2018-194-au-bout-des-doigts",
+    "title": {
+        "native": "Au bout des doigts",
+        "english": "In Your Hands"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=4qJBhkOSkTc",
-    "posterUrl": "https://medias.unifrance.org/medias/109/0/196717/format_page/in-your-hands.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Drama"
-  ],
-  "tags": [
-    "high rank employment",
-    "artistic creation",
-    "mentorship",
-    "urban",
-    "education"
-  ],
-  "director": [
-    {
-      "id": "Ludovic Bernard",
-      "slug": "ludovic-bernard",
-      "name": "Ludovic Bernard",
-      "birthYear": 1970,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2018_194_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Lambert Wilson",
-        "slug": "lambert-wilson",
-        "name": "Lambert Wilson",
-        "birthYear": 1958.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "La musique est le secret de Mathieu Malinski, un sujet dont il n\u2019ose pas parler dans sa banlieue o\u00f9 il tra\u00eene avec ses potes. Alors qu\u2019un des petits cambriolages qu\u2019il fait avec ces derniers le m\u00e8ne aux portes de la prison, Pierre Geitner, directeur du Conservatoire National Sup\u00e9rieur de Musique l\u2019en sort en \u00e9change d\u2019heures d\u2019int\u00e9r\u00eat g\u00e9n\u00e9ral. Mais Pierre a une toute autre id\u00e9e en t\u00eate\u2026 Il a d\u00e9cel\u00e9 en Mathieu un futur tr\u00e8s grand pianiste qu\u2019il inscrit au concours national de piano. Mathieu entre dans un nouveau monde dont il ignore les codes, suit les cours de l\u2019intransigeante \u00ab Comtesse \u00bb et rencontre Anna dont il tombe amoureux. Pour r\u00e9ussir ce concours pour lequel tous jouent leur destin, Mathieu, Pierre et la Comtesse devront apprendre \u00e0 d\u00e9passer leurs pr\u00e9jug\u00e9s\u2026",
-    "english": "One day, in the commotion of a Paris train station, a young man from a modest family begins to play a public piano. The world seems to stop. Especially for music academy director Pierre Geithner, who recognizes Matthieu's exceptional gift. But Matt brushes him aside. Since the death of his neighbor and mentor, old Mr. Jacques, Matt's talent has gone neglected. Music has become his secret world. Until the day he gets thrown in jail for repeat petty theft and has no one to turn to but Pierre, who gets his prison sentence converted to public work at the academy. Hoping to transform Matt into the prize-winning concert pianist he needs to save its reputation, he assigns him to \"The Countess,\" the school's most brilliant and ruthless professor, to prepare him for one of the nation's most prestigious piano competitions. But untrained, undisciplined and racked with self-doubt, Matt struggles and falters, frustrated to find out that talent just isn't enough. Pierre has bet everything on Matt - will it pay off?"
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2018-12-26",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Ludovic Bernard",
+            "slug": "ludovic-bernard",
+            "name": "Ludovic Bernard",
+            "birthYear": 1970,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/109/0/196717/format_page/in-your-hands.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=4qJBhkOSkTc"
+    },
+    "synopsis": {
+        "native": "La musique est le secret de Mathieu Malinski, un sujet dont il n\u2019ose pas parler dans sa banlieue o\u00f9 il tra\u00eene avec ses potes. Alors qu\u2019un des petits cambriolages qu\u2019il fait avec ces derniers le m\u00e8ne aux portes de la prison, Pierre Geitner, directeur du Conservatoire National Sup\u00e9rieur de Musique l\u2019en sort en \u00e9change d\u2019heures d\u2019int\u00e9r\u00eat g\u00e9n\u00e9ral. Mais Pierre a une toute autre id\u00e9e en t\u00eate\u2026 Il a d\u00e9cel\u00e9 en Mathieu un futur tr\u00e8s grand pianiste qu\u2019il inscrit au concours national de piano. Mathieu entre dans un nouveau monde dont il ignore les codes, suit les cours de l\u2019intransigeante \u00ab Comtesse \u00bb et rencontre Anna dont il tombe amoureux. Pour r\u00e9ussir ce concours pour lequel tous jouent leur destin, Mathieu, Pierre et la Comtesse devront apprendre \u00e0 d\u00e9passer leurs pr\u00e9jug\u00e9s\u2026",
+        "english": "One day, in the commotion of a Paris train station, a young man from a modest family begins to play a public piano. The world seems to stop. Especially for music academy director Pierre Geithner, who recognizes Matthieu's exceptional gift. But Matt brushes him aside. Since the death of his neighbor and mentor, old Mr. Jacques, Matt's talent has gone neglected. Music has become his secret world. Until the day he gets thrown in jail for repeat petty theft and has no one to turn to but Pierre, who gets his prison sentence converted to public work at the academy. Hoping to transform Matt into the prize-winning concert pianist he needs to save its reputation, he assigns him to \"The Countess,\" the school's most brilliant and ruthless professor, to prepare him for one of the nation's most prestigious piano competitions. But untrained, undisciplined and racked with self-doubt, Matt struggles and falters, frustrated to find out that talent just isn't enough. Pierre has bet everything on Matt - will it pay off?"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2018_194_01",
+            "film": "FR2018_194",
+            "person": {
+                "id": "Lambert Wilson",
+                "slug": "lambert-wilson",
+                "name": "Lambert Wilson",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Andr\u00e9 Marcon",
+                "slug": "andre-marcon",
+                "name": "Andr\u00e9 Marcon",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Kristin Scott Thomas",
+                "slug": "kristin-scott-thomas",
+                "name": "Kristin Scott Thomas",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Unknown"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Lambert Wilson",
+                "slug": "lambert-wilson",
+                "name": "Lambert Wilson",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Ludovic Bernard",
+                "slug": "ludovic-bernard",
+                "name": "Ludovic Bernard",
+                "birthYear": 1970,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Michel Jonasz",
+                "slug": "michel-jonasz",
+                "name": "Michel Jonasz",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "high rank employment",
+        "education",
+        "mentorship",
+        "artistic creation",
+        "urban"
+    ]
 }

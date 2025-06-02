@@ -1,46 +1,67 @@
 {
-  "id": "FR2020_038",
-  "type": "Film",
-  "slug": "fr2020-038-woman",
-  "title": {
-    "native": "Woman",
-    "english": "Woman"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-03-04",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=g0eYI3vXPoM",
-    "posterUrl": "https://medias.unifrance.org/medias/163/56/211107/format_page/woman.jpg"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "gender discrimination",
-    "women empowerment"
-  ],
-  "director": [
-    {
-      "id": "Yann Arthus-Bertrand",
-      "slug": "yann-arthus-bertrand",
-      "name": "Yann Arthus-Bertrand",
-      "birthYear": 1946,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Woman est une \u00ab fresque \u00bb qui fait entendre la voix de 2 000 femmes ayant accept\u00e9 de t\u00e9moigner dans 50 pays. Woman porte \u00e0 l\u2019\u00e9cran les parcours de vie de femmes tr\u00e8s diff\u00e9rentes, chacune fa\u00e7onn\u00e9e par son histoire familiale, sa culture ou encore sa foi. Aux quatre coins du monde, Yann Arthus-Bertrand et Anastasia Mikova ont rencontr\u00e9 des figures connues ou inconnues, toujours h\u00e9ro\u00efques dans leur quotidien. Au-del\u00e0 de la volont\u00e9 de d\u00e9noncer certaines injustices auxquelles les femmes doivent faire face au cours de leur existence, ce film met en lumi\u00e8re leur d\u00e9termination \u00e0 d\u00e9passer les obstacles et les st\u00e9r\u00e9otypes.",
-    "english": "Woman is a worldwide project giving a voice to 2,000 women across 50 different countries. Despite its very large scale, the film offers an intimate portrait of those who constitute half of humanity. It is an opportunity to shed light on the injustices women are subjected to all over the world, but what Woman would like to underline most is the inner strength of women and their capacity to change the world despite all the difficulties they are facing. Through the film you will discover the voices of women as you have never heard them before."
-  }
+    "type": "Film",
+    "id": "FR2020_038",
+    "slug": "fr2020-038-woman",
+    "title": {
+        "native": "Woman",
+        "english": "Woman"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-03-04",
+        "year": 2020
+    },
+    "filmType": "Documentary",
+    "directors": [
+        "Anastasia Mikova",
+        {
+            "id": "Yann Arthus-Bertrand",
+            "slug": "yann-arthus-bertrand",
+            "name": "Yann Arthus-Bertrand",
+            "birthYear": 1946,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/163/56/211107/format_page/woman.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=g0eYI3vXPoM"
+    },
+    "synopsis": {
+        "native": "Woman est une \u00ab fresque \u00bb qui fait entendre la voix de 2 000 femmes ayant accept\u00e9 de t\u00e9moigner dans 50 pays. Woman porte \u00e0 l\u2019\u00e9cran les parcours de vie de femmes tr\u00e8s diff\u00e9rentes, chacune fa\u00e7onn\u00e9e par son histoire familiale, sa culture ou encore sa foi. Aux quatre coins du monde, Yann Arthus-Bertrand et Anastasia Mikova ont rencontr\u00e9 des figures connues ou inconnues, toujours h\u00e9ro\u00efques dans leur quotidien. Au-del\u00e0 de la volont\u00e9 de d\u00e9noncer certaines injustices auxquelles les femmes doivent faire face au cours de leur existence, ce film met en lumi\u00e8re leur d\u00e9termination \u00e0 d\u00e9passer les obstacles et les st\u00e9r\u00e9otypes.",
+        "english": "Woman is a worldwide project giving a voice to 2,000 women across 50 different countries. Despite its very large scale, the film offers an intimate portrait of those who constitute half of humanity. It is an opportunity to shed light on the injustices women are subjected to all over the world, but what Woman would like to underline most is the inner strength of women and their capacity to change the world despite all the difficulties they are facing. Through the film you will discover the voices of women as you have never heard them before."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": "Anastasia Mikova",
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Yann Arthus-Bertrand",
+                "slug": "yann-arthus-bertrand",
+                "name": "Yann Arthus-Bertrand",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "women empowerment",
+        "gender discrimination"
+    ]
 }

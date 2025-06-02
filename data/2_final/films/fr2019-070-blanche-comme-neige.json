@@ -1,72 +1,148 @@
 {
-  "id": "FR2019_070",
-  "type": "Film",
-  "slug": "fr2019-070-blanche-comme-neige",
-  "title": {
-    "native": "Blanche comme neige",
-    "english": "Pure As Snow"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-04-10",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=DcW67f_vUSA",
-    "posterUrl": "https://medias.unifrance.org/medias/32/28/203808/format_page/blanche-comme-neige.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "in-laws",
-    "may-december",
-    "romance",
-    "crime",
-    "abuse",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Anne Fontaine",
-      "slug": "anne-fontaine",
-      "name": "Anne Fontaine",
-      "birthYear": 1959,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2019_070_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Isabelle Huppert",
-        "slug": "isabelle-huppert",
-        "name": "Isabelle Huppert",
-        "birthYear": 1953.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Claire, jeune femme d'une grande beaut\u00e9, suscite l'irr\u00e9pressible jalousie de sa belle-m\u00e8re Maud, qui va jusqu'\u00e0 pr\u00e9m\u00e9diter son meurtre. Sauv\u00e9e in extremis par un homme myst\u00e9rieux qui la recueille dans sa ferme, Claire d\u00e9cide de rester dans ce village et va \u00e9veiller l'\u00e9moi de ces habitants... Un, deux, et bient\u00f4t sept hommes vont tomber sous son charme ! Pour elle, c'est le d\u00e9but d'une \u00e9mancipation radicale, \u00e0 la fois charnelle et sentimentale...",
-    "english": "Claire, a beautiful young woman, arouses the all-consuming jealousy of her stepmother Maud, who hires someone to kill her. Saved at the last minute by a mysterious man who takes her to his farm, Claire decides to stay in this small village, where she causes quite a stir: one, two, and soon seven men fall under her charm. For Claire this is the beginning of a radical emancipation, both charnel and romantic."
-  }
+    "type": "Film",
+    "id": "FR2019_070",
+    "slug": "fr2019-070-blanche-comme-neige",
+    "title": {
+        "native": "Blanche comme neige",
+        "english": "Pure As Snow"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-04-10",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Anne Fontaine",
+            "slug": "anne-fontaine",
+            "name": "Anne Fontaine",
+            "birthYear": 1959,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/32/28/203808/format_page/blanche-comme-neige.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=DcW67f_vUSA"
+    },
+    "synopsis": {
+        "native": "Claire, jeune femme d'une grande beaut\u00e9, suscite l'irr\u00e9pressible jalousie de sa belle-m\u00e8re Maud, qui va jusqu'\u00e0 pr\u00e9m\u00e9diter son meurtre. Sauv\u00e9e in extremis par un homme myst\u00e9rieux qui la recueille dans sa ferme, Claire d\u00e9cide de rester dans ce village et va \u00e9veiller l'\u00e9moi de ces habitants... Un, deux, et bient\u00f4t sept hommes vont tomber sous son charme ! Pour elle, c'est le d\u00e9but d'une \u00e9mancipation radicale, \u00e0 la fois charnelle et sentimentale...",
+        "english": "Claire, a beautiful young woman, arouses the all-consuming jealousy of her stepmother Maud, who hires someone to kill her. Saved at the last minute by a mysterious man who takes her to his farm, Claire decides to stay in this small village, where she causes quite a stir: one, two, and soon seven men fall under her charm. For Claire this is the beginning of a radical emancipation, both charnel and romantic."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2019_070_01",
+            "film": "FR2019_070",
+            "person": {
+                "id": "Isabelle Huppert",
+                "slug": "isabelle-huppert",
+                "name": "Isabelle Huppert",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Anne Fontaine",
+                "slug": "anne-fontaine",
+                "name": "Anne Fontaine",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Beno\u00eet Poelvoorde",
+                "slug": "benoit-poelvoorde",
+                "name": "Beno\u00eet Poelvoorde",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Charles Berling",
+                "slug": "charles-berling",
+                "name": "Charles Berling",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Isabelle Huppert",
+                "slug": "isabelle-huppert",
+                "name": "Isabelle Huppert",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Laurent Korcia",
+                "slug": "laurent-korcia",
+                "name": "Laurent Korcia",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Richard Fr\u00e9chette",
+                "slug": "richard-frechette",
+                "name": "Richard Fr\u00e9chette",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Canada"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "in-laws",
+        "may-december",
+        "romance",
+        "crime",
+        "abuse",
+        "rural"
+    ]
 }

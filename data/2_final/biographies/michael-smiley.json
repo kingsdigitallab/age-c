@@ -1,41 +1,123 @@
 {
-  "id": "Michael Smiley",
-  "type": "Biography",
-  "slug": "michael-smiley",
-  "name": "Michael Smiley",
-  "birthYear": 1963,
-  "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "No",
-      "class": "Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Action",
-        "id": "GB2021_033",
-        "production": {
-          "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-          "share": "Majority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2021
-        },
-        "slug": "gb2021-033-the-toll",
-        "tags": "regional identity",
-        "title": {
-          "native": "The Toll"
+    "type": "Person",
+    "id": "Michael Smiley",
+    "slug": "michael-smiley",
+    "name": "Michael Smiley",
+    "birthYear": 1963,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+    "characters": [
+        {
+            "id": "GB2021_033_01",
+            "film": {
+                "id": "GB2021_033",
+                "slug": "gb2021-033-the-toll",
+                "title": {
+                    "native": "The Toll",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-08-27",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "person": "Michael Smiley",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "GB2021_033_01",
-      "origin": "White Western European",
-      "profession": "Self-employed",
-      "role": "Leading actor",
-      "sexuality": "Unknown"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_037",
+                "slug": "fr2021-037-gunpowder-milkshake",
+                "title": {
+                    "native": "Gunpowder Milkshake",
+                    "english": "Gunpowder Milkshake"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-07-21",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "film": {
+                "id": "GB2019_070",
+                "slug": "gb2019-070-lost-lives",
+                "title": {
+                    "native": "Lost Lives",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2011-10-19",
+                    "year": 2011
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Ireland",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Narrator/voice over"
+        },
+        {
+            "film": {
+                "id": "GB2021_033",
+                "slug": "gb2021-033-the-toll",
+                "title": {
+                    "native": "The Toll",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-08-27",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        }
+    ]
 }

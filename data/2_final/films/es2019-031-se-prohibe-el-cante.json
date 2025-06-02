@@ -1,57 +1,111 @@
 {
-  "id": "ES2019_031",
-  "type": "Film",
-  "slug": "es2019-031-se-prohibe-el-cante",
-  "title": {
-    "native": "Se proh\u00edbe el cante"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-12-03",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=775555",
-    "posterUrl": "https://www.imdb.com/title/tt11214076/mediaviewer/rm2974518529/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "precarity",
-    "class solidarity",
-    "artistic creation",
-    "cultural memory",
-    "urban",
-    "regional identity"
-  ],
-  "director": [
-    {
-      "id": "F\u00e9lix Vazquez",
-      "slug": "felix-vazquez",
-      "name": "F\u00e9lix Vazquez",
-      "birthYear": 1977,
-      "gender": "Male identifying",
-      "nationality": "Spain"
+    "type": "Film",
+    "id": "ES2019_031",
+    "slug": "es2019-031-se-prohibe-el-cante",
+    "title": {
+        "native": "Se proh\u00edbe el cante",
+        "english": ""
     },
-    {
-      "id": "Paco Ortiz",
-      "slug": "paco-ortiz",
-      "name": "Paco Ortiz",
-      "birthYear": 1978,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "La cantaora sevillana Esperanza Fern\u00e1ndez, una de las principales voces del flamenco actual con una trayectoria reconocida internacionalmente, realiza un viaje por Andaluc\u00eda con la intenci\u00f3n de recuperar la memoria de las pe\u00f1as flamencas. En este viaje, visita algunas de las pe\u00f1as m\u00e1s representativas de Andaluc\u00eda acompa\u00f1ada de figuras de primer nivel, como Jos\u00e9 de la Tomasa, Arc\u00e1ngel, Miguel Poveda, Fosforito, Tomatito, Marina Heredia, Roc\u00edo M\u00e1rquez, Jes\u00fas M\u00e9ndez o Jos\u00e9 Valencia.",
-    "english": "Sevillian singer Esperanza Fern\u00e1ndez travels through Andaluc\u00eda to retrieve memories about Pe\u00f1as."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-12-03",
+        "year": 2019
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Paco Ortiz",
+            "slug": "paco-ortiz",
+            "name": "Paco Ortiz",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        },
+        {
+            "id": "F\u00e9lix Vazquez",
+            "slug": "felix-vazquez",
+            "name": "F\u00e9lix Vazquez",
+            "birthYear": 1977,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt11214076/mediaviewer/rm2974518529/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=775555"
+    },
+    "synopsis": {
+        "native": "La cantaora sevillana Esperanza Fern\u00e1ndez, una de las principales voces del flamenco actual con una trayectoria reconocida internacionalmente, realiza un viaje por Andaluc\u00eda con la intenci\u00f3n de recuperar la memoria de las pe\u00f1as flamencas. En este viaje, visita algunas de las pe\u00f1as m\u00e1s representativas de Andaluc\u00eda acompa\u00f1ada de figuras de primer nivel, como Jos\u00e9 de la Tomasa, Arc\u00e1ngel, Miguel Poveda, Fosforito, Tomatito, Marina Heredia, Roc\u00edo M\u00e1rquez, Jes\u00fas M\u00e9ndez o Jos\u00e9 Valencia.",
+        "english": "Sevillian singer Esperanza Fern\u00e1ndez travels through Andaluc\u00eda to retrieve memories about Pe\u00f1as."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Fosforito",
+                "slug": "fosforito",
+                "name": "Fosforito",
+                "birthYear": 1932,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "F\u00e9lix Vazquez",
+                "slug": "felix-vazquez",
+                "name": "F\u00e9lix Vazquez",
+                "birthYear": 1977,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Paco Ortiz",
+                "slug": "paco-ortiz",
+                "name": "Paco Ortiz",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Tomatito",
+                "slug": "tomatito",
+                "name": "Tomatito",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "cultural memory",
+        "precarity",
+        "urban",
+        "regional identity",
+        "class solidarity"
+    ]
 }

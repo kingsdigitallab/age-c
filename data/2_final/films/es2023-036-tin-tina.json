@@ -1,79 +1,132 @@
 {
-  "id": "ES2023_036",
-  "type": "Film",
-  "slug": "es2023-036-tin-tina",
-  "title": {
-    "native": "Tin & Tina"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-03-27",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "ES2023_036",
+    "slug": "es2023-036-tin-tina",
+    "title": {
+        "native": "Tin & Tina",
+        "english": ""
     },
-    {
-      "country": "Romania",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2023-03-27",
+        "year": 2023
     },
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt7354440/?ref_=tt_mv_close",
-    "posterUrl": "https://www.imdb.com/title/tt7354440/mediaviewer/rm967518209/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Horror"
-  ],
-  "tags": [
-    "high rank employment",
-    "religion",
-    "caregiving",
-    "communal housing",
-    "education",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Rubin Stein",
-      "slug": "rubin-stein",
-      "name": "Rubin Stein",
-      "birthYear": 1982,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2023_036_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Teresa Rabal",
-        "slug": "teresa-rabal",
-        "name": "Teresa Rabal",
-        "birthYear": 1952.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Cuando Lola pierde los beb\u00e9s que estaba esperando, tambi\u00e9n pierde su fe en Dios. Con la esperanza de recuperarla, acude junto a su marido Adolfo a un convento de monjas donde conocen a Tin y Tina, dos angelicales hermanos de siete a\u00f1os por los que Lola se siente extra\u00f1amente atra\u00edda. Aunque Adolfo no siente lo mismo, deciden adoptarlos. Con el paso del tiempo Lola empieza a caer en una espiral de sospecha y obsesi\u00f3n con los ni\u00f1os y sus macabros juegos religiosos.",
-    "english": "After a tragic miscarriage, Lola and her husband Adolfo adopt Tin and Tina, a lovely brother and sister with an ultra-catholic education that makes them interpret Holy Bible verbatim."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Rubin Stein",
+            "slug": "rubin-stein",
+            "name": "Rubin Stein",
+            "birthYear": 1982,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Horror"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt7354440/mediaviewer/rm967518209/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt7354440/?ref_=tt_mv_close"
+    },
+    "synopsis": {
+        "native": "Cuando Lola pierde los beb\u00e9s que estaba esperando, tambi\u00e9n pierde su fe en Dios. Con la esperanza de recuperarla, acude junto a su marido Adolfo a un convento de monjas donde conocen a Tin y Tina, dos angelicales hermanos de siete a\u00f1os por los que Lola se siente extra\u00f1amente atra\u00edda. Aunque Adolfo no siente lo mismo, deciden adoptarlos. Con el paso del tiempo Lola empieza a caer en una espiral de sospecha y obsesi\u00f3n con los ni\u00f1os y sus macabros juegos religiosos.",
+        "english": "After a tragic miscarriage, Lola and her husband Adolfo adopt Tin and Tina, a lovely brother and sister with an ultra-catholic education that makes them interpret Holy Bible verbatim."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Romania",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2023_036_01",
+            "film": "ES2023_036",
+            "person": {
+                "id": "Teresa Rabal",
+                "slug": "teresa-rabal",
+                "name": "Teresa Rabal",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Chelo Vivares",
+                "slug": "chelo-vivares",
+                "name": "Chelo Vivares",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Luis Perezagua",
+                "slug": "luis-perezagua",
+                "name": "Luis Perezagua",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Rubin Stein",
+                "slug": "rubin-stein",
+                "name": "Rubin Stein",
+                "birthYear": 1982,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Teresa Rabal",
+                "slug": "teresa-rabal",
+                "name": "Teresa Rabal",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "religion",
+        "rural",
+        "caregiving",
+        "communal housing",
+        "education",
+        "high rank employment"
+    ]
 }

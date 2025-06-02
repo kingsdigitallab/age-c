@@ -1,49 +1,65 @@
 {
-  "id": "Nicolas Pariser",
-  "type": "Biography",
-  "slug": "nicolas-pariser",
-  "name": "Nicolas Pariser",
-  "birthYear": 1974,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Detective Thriller",
-      "id": "FR2022_185",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "fr2022-185-le-parfum-vert",
-      "tags": "state institutions",
-      "title": {
-        "english": "The Green Perfume",
-        "native": "Le Parfum vert"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2019_159",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-159-alice-et-le-maire",
-      "tags": "urban",
-      "title": {
-        "english": "Alice and the Mayor",
-        "native": "Alice et le Maire"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Nicolas Pariser",
+    "slug": "nicolas-pariser",
+    "name": "Nicolas Pariser",
+    "birthYear": 1974,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2019_159",
+                "slug": "fr2019-159-alice-et-le-maire",
+                "title": {
+                    "native": "Alice et le Maire",
+                    "english": "Alice and the Mayor"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-10-02",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2022_185",
+                "slug": "fr2022-185-le-parfum-vert",
+                "title": {
+                    "native": "Le Parfum vert",
+                    "english": "The Green Perfume"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-12-21",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

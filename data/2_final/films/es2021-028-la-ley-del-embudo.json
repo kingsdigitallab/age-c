@@ -1,90 +1,147 @@
 {
-  "id": "ES2021_028",
-  "type": "Film",
-  "slug": "es2021-028-la-ley-del-embudo",
-  "title": {
-    "native": "La ley del embudo"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "First festival screening",
-    "date": "2021-07-23",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=wChudBvGdO8",
-    "posterUrl": "https://www.imdb.com/title/tt5629148/mediaviewer/rm3555993600/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Drama"
-  ],
-  "tags": [
-    "wealth",
-    "corruption",
-    "marriage",
-    "2008 crisis",
-    "self-employment",
-    "class conflict",
-    "homosociality"
-  ],
-  "director": [
-    {
-      "id": "Alfredo Carrasco Alonso",
-      "slug": "alfredo-carrasco-alonso",
-      "name": "Alfredo Carrasco Alonso",
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2021_028_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Carlos Manuel D\u00edaz",
-        "slug": "carlos-manuel-diaz",
-        "name": "Carlos Manuel D\u00edaz",
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "ES2021_028",
+    "slug": "es2021-028-la-ley-del-embudo",
+    "title": {
+        "native": "La ley del embudo",
+        "english": ""
     },
-    {
-      "id": "ES2021_028_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Tony Antonio",
-        "slug": "tony-antonio",
-        "name": "Tony Antonio",
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Un banquero y una madre abandonada con una hija a su cargo son los protagonistas de la historia en posiciones antag\u00f3nicas, poni\u00e9ndose de manifiesto la injusticia, la corrupci\u00f3n, la desesperaci\u00f3n, la venganza y el romanticismo.",
-    "english": "A banker and an abandoned mother with a daughter are the protagonists of the story in antagonistic situations showing injustice, corruption, despair, revenge and - romanticism, of course."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2021-07-23",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Alfredo Carrasco Alonso",
+            "slug": "alfredo-carrasco-alonso",
+            "name": "Alfredo Carrasco Alonso",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt5629148/mediaviewer/rm3555993600/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=wChudBvGdO8"
+    },
+    "synopsis": {
+        "native": "Un banquero y una madre abandonada con una hija a su cargo son los protagonistas de la historia en posiciones antag\u00f3nicas, poni\u00e9ndose de manifiesto la injusticia, la corrupci\u00f3n, la desesperaci\u00f3n, la venganza y el romanticismo.",
+        "english": "A banker and an abandoned mother with a daughter are the protagonists of the story in antagonistic situations showing injustice, corruption, despair, revenge and - romanticism, of course."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2021_028_01",
+            "film": "ES2021_028",
+            "person": {
+                "id": "Carlos Manuel D\u00edaz",
+                "slug": "carlos-manuel-diaz",
+                "name": "Carlos Manuel D\u00edaz",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2021_028_02",
+            "film": "ES2021_028",
+            "person": {
+                "id": "Tony Antonio",
+                "slug": "tony-antonio",
+                "name": "Tony Antonio",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alfredo Carrasco Alonso",
+                "slug": "alfredo-carrasco-alonso",
+                "name": "Alfredo Carrasco Alonso",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Carlos Manuel D\u00edaz",
+                "slug": "carlos-manuel-diaz",
+                "name": "Carlos Manuel D\u00edaz",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Jos\u00e9 Carabias",
+                "slug": "jose-carabias",
+                "name": "Jos\u00e9 Carabias",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Tony Antonio",
+                "slug": "tony-antonio",
+                "name": "Tony Antonio",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "homosociality",
+        "marriage",
+        "wealth",
+        "self-employment",
+        "class conflict",
+        "corruption",
+        "2008 crisis"
+    ]
 }

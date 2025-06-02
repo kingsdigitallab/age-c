@@ -1,92 +1,136 @@
 {
-  "id": "ES2022_026",
-  "type": "Film",
-  "slug": "es2022-026-heroes-de-barrio",
-  "title": {
-    "native": "H\u00e9roes de barrio"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-07-26",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=208735",
-    "posterUrl": "https://www.imdb.com/title/tt14326062/mediaviewer/rm1846020097/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Sports Film",
-    "Children's Film"
-  ],
-  "tags": [
-    "class solidarity",
-    "fatherhood",
-    "low rank employment",
-    "regional identity",
-    "urban",
-    "self-employment",
-    "grandfatherhood"
-  ],
-  "director": [
-    {
-      "id": "\u00c1ngeles Rein\u00e9",
-      "slug": "angeles-reine",
-      "name": "\u00c1ngeles Rein\u00e9",
-      "gender": "Female identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2022_026_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Antonio Dechent",
-        "slug": "antonio-dechent",
-        "name": "Antonio Dechent",
-        "birthYear": 1960.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "ES2022_026",
+    "slug": "es2022-026-heroes-de-barrio",
+    "title": {
+        "native": "H\u00e9roes de barrio",
+        "english": ""
     },
-    {
-      "id": "ES2022_026_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Bruto Pomeroy",
-        "slug": "bruto-pomeroy",
-        "name": "Bruto Pomeroy",
-        "birthYear": 1958.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Paula es una ni\u00f1a que juega en un equipo de f\u00fatbol infantil femenino y pide a su padre, Lu\u00eds, que le traiga a final de temporada al jugador del Betis Joaqu\u00edn, de qui\u00e9n \u00e9ste finge ser un buen amigo. Lu\u00eds se apoya en su padre, un ex boxeador, y en su amigo Lito para intentar recuperar el amor de su mujer, que ahora vive con una nueva pareja."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-07-26",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "\u00c1ngeles Rein\u00e9",
+            "slug": "angeles-reine",
+            "name": "\u00c1ngeles Rein\u00e9",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Children's Film",
+        "Sports Film"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt14326062/mediaviewer/rm1846020097/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=208735"
+    },
+    "synopsis": {
+        "native": "Paula es una ni\u00f1a que juega en un equipo de f\u00fatbol infantil femenino y pide a su padre, Lu\u00eds, que le traiga a final de temporada al jugador del Betis Joaqu\u00edn, de qui\u00e9n \u00e9ste finge ser un buen amigo. Lu\u00eds se apoya en su padre, un ex boxeador, y en su amigo Lito para intentar recuperar el amor de su mujer, que ahora vive con una nueva pareja.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2022_026_01",
+            "film": "ES2022_026",
+            "person": {
+                "id": "Antonio Dechent",
+                "slug": "antonio-dechent",
+                "name": "Antonio Dechent",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2022_026_02",
+            "film": "ES2022_026",
+            "person": {
+                "id": "Bruto Pomeroy",
+                "slug": "bruto-pomeroy",
+                "name": "Bruto Pomeroy",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Antonio Dechent",
+                "slug": "antonio-dechent",
+                "name": "Antonio Dechent",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Bruto Pomeroy",
+                "slug": "bruto-pomeroy",
+                "name": "Bruto Pomeroy",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "\u00c1ngeles Rein\u00e9",
+                "slug": "angeles-reine",
+                "name": "\u00c1ngeles Rein\u00e9",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "regional identity",
+        "fatherhood",
+        "grandfatherhood",
+        "self-employment",
+        "urban",
+        "low rank employment",
+        "class solidarity"
+    ]
 }

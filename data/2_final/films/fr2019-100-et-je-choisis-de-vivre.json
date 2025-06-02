@@ -1,52 +1,83 @@
 {
-  "id": "FR2019_100",
-  "type": "Film",
-  "slug": "fr2019-100-et-je-choisis-de-vivre",
-  "title": {
-    "native": "Et je choisis de vivre"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-06-05",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=74H8NZ-WxSM",
-    "posterUrl": "https://medias.unifrance.org/medias/208/36/206032/format_page/et-je-choisis-de-vivre.jpg"
-  },
-  "genre": [
-    "Documentary \u2013 Expository mode",
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "personal trauma"
-  ],
-  "director": [
-    {
-      "id": "Damien Boyer",
-      "slug": "damien-boyer",
-      "name": "Damien Boyer",
-      "gender": "Male identifying",
-      "nationality": "France"
+    "type": "Film",
+    "id": "FR2019_100",
+    "slug": "fr2019-100-et-je-choisis-de-vivre",
+    "title": {
+        "native": "Et je choisis de vivre",
+        "english": ""
     },
-    {
-      "id": "Nans Thomassey",
-      "slug": "nans-thomassey",
-      "name": "Nans Thomassey",
-      "birthYear": 1986,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "\u00c0 tout juste 30 ans, Amande perd son enfant. Pour se reconstruire, elle entreprend alors un parcours initiatique dans la Dr\u00f4me, accompagn\u00e9e de son ami r\u00e9alisateur, Nans Thomassey. Ensemble, et sous l\u2019\u0153il de la cam\u00e9ra, ils partent \u00e0 la rencontre d\u2019hommes et de femmes qui ont, comme Amande, v\u00e9cu la perte d\u2019un enfant.",
-    "english": "At just 30 years old, Amande loses her child. To rebuild herself, she undertakes an initiatory journey in the Dr\u00f4me, accompanied by her friend director, Nans Thomassey."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-06-05",
+        "year": 2019
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Damien Boyer",
+            "slug": "damien-boyer",
+            "name": "Damien Boyer",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        },
+        {
+            "id": "Nans Thomassey",
+            "slug": "nans-thomassey",
+            "name": "Nans Thomassey",
+            "birthYear": 1986,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Expository mode",
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/208/36/206032/format_page/et-je-choisis-de-vivre.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=74H8NZ-WxSM"
+    },
+    "synopsis": {
+        "native": "\u00c0 tout juste 30 ans, Amande perd son enfant. Pour se reconstruire, elle entreprend alors un parcours initiatique dans la Dr\u00f4me, accompagn\u00e9e de son ami r\u00e9alisateur, Nans Thomassey. Ensemble, et sous l\u2019\u0153il de la cam\u00e9ra, ils partent \u00e0 la rencontre d\u2019hommes et de femmes qui ont, comme Amande, v\u00e9cu la perte d\u2019un enfant.",
+        "english": "At just 30 years old, Amande loses her child. To rebuild herself, she undertakes an initiatory journey in the Dr\u00f4me, accompanied by her friend director, Nans Thomassey."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Damien Boyer",
+                "slug": "damien-boyer",
+                "name": "Damien Boyer",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Nans Thomassey",
+                "slug": "nans-thomassey",
+                "name": "Nans Thomassey",
+                "birthYear": 1986,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "personal trauma"
+    ]
 }

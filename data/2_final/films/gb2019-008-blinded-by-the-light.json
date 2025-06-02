@@ -1,108 +1,158 @@
 {
-  "id": "GB2019_008",
-  "type": "Film",
-  "slug": "gb2019-008-blinded-by-the-light",
-  "title": {
-    "native": "Blinded by the Light"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-08-09",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "GB2019_008",
+    "slug": "gb2019-008-blinded-by-the-light",
+    "title": {
+        "native": "Blinded by the Light",
+        "english": ""
     },
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=f1YFA_J5JBU",
-    "posterUrl": "https://www.imdb.com/title/tt8266310/mediaviewer/rm2050592769/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Musical",
-    "Coming of Age",
-    "Drama"
-  ],
-  "tags": [
-    "mentorship",
-    "low rank employment",
-    "migration",
-    "national identity",
-    "cultural memory",
-    "urban",
-    "education"
-  ],
-  "character": [
-    {
-      "id": "GB2019_008_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Lorraine Ashbourne",
-        "slug": "lorraine-ashbourne",
-        "name": "Lorraine Ashbourne",
-        "birthYear": 1961.0,
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2019-08-09",
+        "year": 2019
     },
-    {
-      "id": "GB2019_008_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "David Hayman",
-        "slug": "david-hayman",
-        "name": "David Hayman",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "filmType": "Fiction film",
+    "directors": [
+        "Gurinder Chadha"
+    ],
+    "genre": [
+        "Coming of Age",
+        "Musical",
+        "Comedy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt8266310/mediaviewer/rm2050592769/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=f1YFA_J5JBU"
     },
-    {
-      "id": "GB2019_008_03",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "Asian Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Jeff Mirza",
-        "slug": "jeff-mirza",
-        "name": "Jeff Mirza",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "In England in 1987, a teenager from an Asian family learns to live his life, understand his family and find his own voice through the music of American rock star Bruce Springsteen."
-  }
+    "synopsis": {
+        "native": "In England in 1987, a teenager from an Asian family learns to live his life, understand his family and find his own voice through the music of American rock star Bruce Springsteen.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2019_008_01",
+            "film": "GB2019_008",
+            "person": {
+                "id": "David Hayman",
+                "slug": "david-hayman",
+                "name": "David Hayman",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2019_008_02",
+            "film": "GB2019_008",
+            "person": {
+                "id": "Lorraine Ashbourne",
+                "slug": "lorraine-ashbourne",
+                "name": "Lorraine Ashbourne",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2019_008_03",
+            "film": "GB2019_008",
+            "person": {
+                "id": "Jeff Mirza",
+                "slug": "jeff-mirza",
+                "name": "Jeff Mirza",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "Asian Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "David Hayman",
+                "slug": "david-hayman",
+                "name": "David Hayman",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": "Gurinder Chadha",
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jeff Mirza",
+                "slug": "jeff-mirza",
+                "name": "Jeff Mirza",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Lorraine Ashbourne",
+                "slug": "lorraine-ashbourne",
+                "name": "Lorraine Ashbourne",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "urban",
+        "mentorship",
+        "education",
+        "cultural memory",
+        "low rank employment",
+        "national identity",
+        "migration"
+    ]
 }

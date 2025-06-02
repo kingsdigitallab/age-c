@@ -1,83 +1,159 @@
 {
-  "id": "ES2022_030",
-  "type": "Film",
-  "slug": "es2022-030-objetos",
-  "title": {
-    "native": "Objetos",
-    "english": "Lost & Found"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-09-17",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "ES2022_030",
+    "slug": "es2022-030-objetos",
+    "title": {
+        "native": "Objetos",
+        "english": "Lost & Found"
     },
-    {
-      "country": "Argentina",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2022-09-17",
+        "year": 2022
     },
-    {
-      "country": "Germany",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt11797376/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Objetos",
-    "posterUrl": "https://www.imdb.com/title/tt11797376/mediaviewer/rm4251191553/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Noir",
-    "Thriller"
-  ],
-  "tags": [
-    "wealth",
-    "high rank employment",
-    "gender discrimination",
-    "organized crime",
-    "urban",
-    "self-employment",
-    "abuse",
-    "sex for hire"
-  ],
-  "director": [
-    {
-      "id": "Jorge Dorado",
-      "slug": "jorge-dorado",
-      "name": "Jorge Dorado",
-      "birthYear": 1976,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2022_030_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Latin American",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Daniel Ar\u00e1oz",
-        "slug": "daniel-araoz",
-        "name": "Daniel Ar\u00e1oz",
-        "birthYear": 1962.0,
-        "gender": "Male identifying",
-        "nationality": "Argentina"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Mario trabaja en un gran almac\u00e9n de objetos perdidos donde custodia todo tipo de enseres acumulados durante d\u00e9cadas. Hace tiempo que decidi\u00f3 apartarse de las personas e invierte su tiempo libre en investigar la procedencia de los objetos para devolver a sus due\u00f1os pedazos perdidos de sus vidas. Tan s\u00f3lo Helena, una joven polic\u00eda que visita el almac\u00e9n con frecuencia, ha podido traspasar levemente su coraza. Un d\u00eda llega al almac\u00e9n una maleta rescatada del fondo del r\u00edo. Dentro, encuentra ropa de beb\u00e9 junto a unos restos humanos. Mario decide investigar por su cuenta y siguiendo el rastro de la maleta llega hasta Sara, una joven atrapada desde ni\u00f1a en una organizaci\u00f3n de tr\u00e1fico de personas. Una red que trata a las personas como si fueran objetos.",
-    "english": "Mario, a worker in a \"lost and found\" warehouse, finds a suitcase with the remains of baby inside. His investigation leads him to a dangerous prostitution and trafficking ring."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Jorge Dorado",
+            "slug": "jorge-dorado",
+            "name": "Jorge Dorado",
+            "birthYear": 1976,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Noir",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt11797376/mediaviewer/rm4251191553/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt11797376/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Objetos"
+    },
+    "synopsis": {
+        "native": "Mario trabaja en un gran almac\u00e9n de objetos perdidos donde custodia todo tipo de enseres acumulados durante d\u00e9cadas. Hace tiempo que decidi\u00f3 apartarse de las personas e invierte su tiempo libre en investigar la procedencia de los objetos para devolver a sus due\u00f1os pedazos perdidos de sus vidas. Tan s\u00f3lo Helena, una joven polic\u00eda que visita el almac\u00e9n con frecuencia, ha podido traspasar levemente su coraza. Un d\u00eda llega al almac\u00e9n una maleta rescatada del fondo del r\u00edo. Dentro, encuentra ropa de beb\u00e9 junto a unos restos humanos. Mario decide investigar por su cuenta y siguiendo el rastro de la maleta llega hasta Sara, una joven atrapada desde ni\u00f1a en una organizaci\u00f3n de tr\u00e1fico de personas. Una red que trata a las personas como si fueran objetos.",
+        "english": "Mario, a worker in a \"lost and found\" warehouse, finds a suitcase with the remains of baby inside. His investigation leads him to a dangerous prostitution and trafficking ring."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Argentina",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Germany",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2022_030_01",
+            "film": "ES2022_030",
+            "person": {
+                "id": "Daniel Ar\u00e1oz",
+                "slug": "daniel-araoz",
+                "name": "Daniel Ar\u00e1oz",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Argentina"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Latin American",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Antonio Wu",
+                "slug": "antonio-wu",
+                "name": "Antonio Wu",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "China"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Daniel Ar\u00e1oz",
+                "slug": "daniel-araoz",
+                "name": "Daniel Ar\u00e1oz",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Argentina"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Jorge Dorado",
+                "slug": "jorge-dorado",
+                "name": "Jorge Dorado",
+                "birthYear": 1976,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Mar\u00eda Jes\u00fas Hoyos",
+                "slug": "maria-jesus-hoyos",
+                "name": "Mar\u00eda Jes\u00fas Hoyos",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Selva Alem\u00e1n",
+                "slug": "selva-aleman",
+                "name": "Selva Alem\u00e1n",
+                "birthYear": 1944,
+                "deathYear": 2024,
+                "gender": "Female identifying",
+                "nationality": "Argentina"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Zorion Eguileor",
+                "slug": "zorion-eguileor",
+                "name": "Zorion Eguileor",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "urban",
+        "abuse",
+        "organized crime",
+        "sex for hire",
+        "wealth",
+        "self-employment",
+        "high rank employment",
+        "gender discrimination"
+    ]
 }

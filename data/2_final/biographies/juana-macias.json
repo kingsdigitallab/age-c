@@ -1,30 +1,35 @@
 {
-  "id": "Juana Mac\u00edas",
-  "type": "Biography",
-  "slug": "juana-macias",
-  "name": "Juana Mac\u00edas",
-  "birthYear": 1971,
-  "nationality": "Spain",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "ES2023_018",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2010
-      },
-      "slug": "es2023-018-el-favor",
-      "tags": "motherhood",
-      "title": {
-        "english": "Just One Small Favour",
-        "native": "El favor"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Juana Mac\u00edas",
+    "slug": "juana-macias",
+    "name": "Juana Mac\u00edas",
+    "birthYear": 1971,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2023_018",
+                "slug": "es2023-018-el-favor",
+                "title": {
+                    "native": "El favor",
+                    "english": "Just One Small Favour"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2010-11-23",
+                    "year": 2010
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

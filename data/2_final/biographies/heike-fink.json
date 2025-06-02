@@ -1,30 +1,35 @@
 {
-  "id": "Heike Fink",
-  "type": "Biography",
-  "slug": "heike-fink",
-  "name": "Heike Fink",
-  "birthYear": 1968,
-  "nationality": "Germany",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Mockumentary",
-      "id": "DE2023_040",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "de2023-040-olaf-jagger",
-      "tags": "fatherhood",
-      "title": {
-        "english": "Olaf Jagger",
-        "native": "Olaf Jagger"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Heike Fink",
+    "slug": "heike-fink",
+    "name": "Heike Fink",
+    "birthYear": 1968,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2023_040",
+                "slug": "de2023-040-olaf-jagger",
+                "title": {
+                    "native": "Olaf Jagger",
+                    "english": "Olaf Jagger"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-04-06",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

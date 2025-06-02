@@ -1,47 +1,88 @@
 {
-  "id": "FR2022_066",
-  "type": "Film",
-  "slug": "fr2022-066-mon-heroine",
-  "title": {
-    "native": "Mon h\u00e9ro\u00efne",
-    "english": "My Heroine"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-04-06",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=VmMFKYWIra0",
-    "posterUrl": "https://medias.unifrance.org/medias/82/235/256850/format_page/mon-heroine.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "multigenerational family",
-    "grandparenthood",
-    "widowhood",
-    "extended family"
-  ],
-  "director": [
-    {
-      "id": "No\u00e9mie Lefort",
-      "slug": "noemie-lefort",
-      "name": "No\u00e9mie Lefort",
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Depuis son plus jeune \u00e2ge, Alex ne r\u00eave que d'une chose : r\u00e9aliser des films. Mais \u00e0 Rouen, son quotidien est bien loin du glamour hollywoodien. Surprot\u00e9g\u00e9e par sa m\u00e8re Mathilde, elle esp\u00e8re int\u00e9grer une prestigieuse \u00e9cole de cin\u00e9ma \u00e0 New York. Malheureusement, tout ne se passe pas comme pr\u00e9vu et ses r\u00eaves sont brutalement bris\u00e9s. Refusant d\u2019accepter son sort, Alex d\u00e9cide de partir pour la grosse pomme avec l\u2019aide de son excentrique tante Juliette pour un projet fou : donner son sc\u00e9nario \u00e0 Julia Roberts. Vite rejointes par Mathilde, cette aventure new-yorkaise va marquer pour les trois femmes le d\u00e9but d\u2019une nouvelle \u00e9tape de leur vie et les rapprocher plus que jamais.",
-    "english": "Alex dreams of making movies, only that in Rouen, her daily routine is far from Hollywood glamour. Despite her over-protective mother, Alex aspires to enroll in a prestigious New York Film school. But when not all goes as planned, with her aunt's help, Alex flies to New York, to give her script to actress Julia Roberts."
-  }
+    "type": "Film",
+    "id": "FR2022_066",
+    "slug": "fr2022-066-mon-heroine",
+    "title": {
+        "native": "Mon h\u00e9ro\u00efne",
+        "english": "My Heroine"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-04-06",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "No\u00e9mie Lefort",
+            "slug": "noemie-lefort",
+            "name": "No\u00e9mie Lefort",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/82/235/256850/format_page/mon-heroine.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=VmMFKYWIra0"
+    },
+    "synopsis": {
+        "native": "Depuis son plus jeune \u00e2ge, Alex ne r\u00eave que d'une chose : r\u00e9aliser des films. Mais \u00e0 Rouen, son quotidien est bien loin du glamour hollywoodien. Surprot\u00e9g\u00e9e par sa m\u00e8re Mathilde, elle esp\u00e8re int\u00e9grer une prestigieuse \u00e9cole de cin\u00e9ma \u00e0 New York. Malheureusement, tout ne se passe pas comme pr\u00e9vu et ses r\u00eaves sont brutalement bris\u00e9s. Refusant d\u2019accepter son sort, Alex d\u00e9cide de partir pour la grosse pomme avec l\u2019aide de son excentrique tante Juliette pour un projet fou : donner son sc\u00e9nario \u00e0 Julia Roberts. Vite rejointes par Mathilde, cette aventure new-yorkaise va marquer pour les trois femmes le d\u00e9but d\u2019une nouvelle \u00e9tape de leur vie et les rapprocher plus que jamais.",
+        "english": "Alex dreams of making movies, only that in Rouen, her daily routine is far from Hollywood glamour. Despite her over-protective mother, Alex aspires to enroll in a prestigious New York Film school. But when not all goes as planned, with her aunt's help, Alex flies to New York, to give her script to actress Julia Roberts."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Brigitte Fossey",
+                "slug": "brigitte-fossey",
+                "name": "Brigitte Fossey",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Firmine Richard",
+                "slug": "firmine-richard",
+                "name": "Firmine Richard",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "No\u00e9mie Lefort",
+                "slug": "noemie-lefort",
+                "name": "No\u00e9mie Lefort",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "grandparenthood",
+        "multigenerational family",
+        "widowhood",
+        "extended family"
+    ]
 }

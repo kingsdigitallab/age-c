@@ -1,96 +1,185 @@
 {
-  "id": "FR2022_075",
-  "type": "Film",
-  "slug": "fr2022-075-les-sans-dents",
-  "title": {
-    "native": "Les Sans-dents",
-    "english": "The Voiceless"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-04-20",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=ljwokfvHmw4",
-    "posterUrl": "https://medias.unifrance.org/medias/126/200/247934/format_page/les-sans-dents.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "partnership",
-    "precarity",
-    "high rank employment",
-    "natural death",
-    "elderhood (friendship among elders)",
-    "intergenerational friendship",
-    "unemployment",
-    "state institutions",
-    "disability",
-    "communal housing"
-  ],
-  "director": [
-    {
-      "id": "Pascal Rabat\u00e9",
-      "slug": "pascal-rabate",
-      "name": "Pascal Rabat\u00e9",
-      "birthYear": 1961,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2022_075_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Gustave Kervern",
-        "slug": "gustave-kervern",
-        "name": "Gustave Kervern",
-        "birthYear": 1962.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "FR2022_075",
+    "slug": "fr2022-075-les-sans-dents",
+    "title": {
+        "native": "Les Sans-dents",
+        "english": "The Voiceless"
     },
-    {
-      "id": "FR2022_075_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Yolande Moreau",
-        "slug": "yolande-moreau",
-        "name": "Yolande Moreau",
-        "birthYear": 1953.0,
-        "gender": "Female identifying",
-        "nationality": "Belgium"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Les sans-dents sont peut-\u00eatre affreux et sales mais ils ne sont pas m\u00e9chants. En marge du monde civilis\u00e9, leur tribu recycle en toute ill\u00e9galit\u00e9 notre rebut pour s\u2019am\u00e9nager de mani\u00e8re farfelue un hameau de bric et de broc. La vie pourrait ainsi couler si une \u00e9quipe polici\u00e8re ne se mettait sur leurs traces\u2026",
-    "english": "A small clan lives in the underworld of a rubbish dump. They recycle the waste they find or steal, in order to cobble their home together. Life there could be so sweet, were it not for a chief inspector hot on their heels."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-04-20",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Pascal Rabat\u00e9",
+            "slug": "pascal-rabate",
+            "name": "Pascal Rabat\u00e9",
+            "birthYear": 1961,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/126/200/247934/format_page/les-sans-dents.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=ljwokfvHmw4"
+    },
+    "synopsis": {
+        "native": "Les sans-dents sont peut-\u00eatre affreux et sales mais ils ne sont pas m\u00e9chants. En marge du monde civilis\u00e9, leur tribu recycle en toute ill\u00e9galit\u00e9 notre rebut pour s\u2019am\u00e9nager de mani\u00e8re farfelue un hameau de bric et de broc. La vie pourrait ainsi couler si une \u00e9quipe polici\u00e8re ne se mettait sur leurs traces\u2026",
+        "english": "A small clan lives in the underworld of a rubbish dump. They recycle the waste they find or steal, in order to cobble their home together. Life there could be so sweet, were it not for a chief inspector hot on their heels."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_075_01",
+            "film": "FR2022_075",
+            "person": {
+                "id": "Yolande Moreau",
+                "slug": "yolande-moreau",
+                "name": "Yolande Moreau",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Belgium"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "FR2022_075_02",
+            "film": "FR2022_075",
+            "person": {
+                "id": "Gustave Kervern",
+                "slug": "gustave-kervern",
+                "name": "Gustave Kervern",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Charles Schneider",
+                "slug": "charles-schneider",
+                "name": "Charles Schneider",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Fran\u00e7ois Morel",
+                "slug": "francois-morel",
+                "name": "Fran\u00e7ois Morel",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Gustave Kervern",
+                "slug": "gustave-kervern",
+                "name": "Gustave Kervern",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Pascal Rabat\u00e9",
+                "slug": "pascal-rabate",
+                "name": "Pascal Rabat\u00e9",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Philippe Rigot",
+                "slug": "philippe-rigot",
+                "name": "Philippe Rigot",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Vincent Martin",
+                "slug": "vincent-martin",
+                "name": "Vincent Martin",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Yolande Moreau",
+                "slug": "yolande-moreau",
+                "name": "Yolande Moreau",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "precarity",
+        "communal housing",
+        "unemployment",
+        "high rank employment",
+        "state institutions",
+        "disability",
+        "natural death",
+        "elderhood (friendship among elders)",
+        "intergenerational friendship",
+        "partnership"
+    ]
 }

@@ -1,30 +1,39 @@
 {
-  "id": "Emmanuelle Bercot",
-  "type": "Biography",
-  "slug": "emmanuelle-bercot",
-  "name": "Emmanuelle Bercot",
-  "birthYear": 1967,
-  "nationality": "France",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2021_112",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-112-de-son-vivant",
-      "tags": "caregiving",
-      "title": {
-        "english": "Peaceful",
-        "native": "De son vivant"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Emmanuelle Bercot",
+    "slug": "emmanuelle-bercot",
+    "name": "Emmanuelle Bercot",
+    "birthYear": 1967,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_112",
+                "slug": "fr2021-112-de-son-vivant",
+                "title": {
+                    "native": "De son vivant",
+                    "english": "Peaceful"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-11-24",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

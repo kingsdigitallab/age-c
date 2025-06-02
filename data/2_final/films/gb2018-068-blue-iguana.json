@@ -1,88 +1,156 @@
 {
-  "id": "GB2018_068",
-  "type": "Film",
-  "slug": "gb2018-068-blue-iguana",
-  "title": {
-    "native": "Blue Iguana"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-10-05",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt2316479/?ref_=nv_sr_srsg_2_tt_4_nm_0_in_0_q_Blue%2520Iguana",
-    "posterUrl": "https://www.imdb.com/title/tt2316479/mediaviewer/rm3490399232/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Action",
-    "Thriller"
-  ],
-  "tags": [
-    "organized crime",
-    "power",
-    "urban",
-    "self-employment",
-    "homosociality",
-    "abuse",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Hadi Hajaig",
-      "slug": "hadi-hajaig",
-      "name": "Hadi Hajaig",
-      "birthYear": 1969,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2018_068_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Simon Callow",
-        "slug": "simon-callow",
-        "name": "Simon Callow",
-        "birthYear": 1949.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "GB2018_068",
+    "slug": "gb2018-068-blue-iguana",
+    "title": {
+        "native": "Blue Iguana",
+        "english": ""
     },
-    {
-      "id": "GB2018_068_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Eastern European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Peter Polycarpou"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Two ex-convicts are on parole and working dead-end jobs in a New York diner until they are approached by a geeky English lawyer who enlists them in a plot to steal a very valuable diamond."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2018-10-05",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Hadi Hajaig",
+            "slug": "hadi-hajaig",
+            "name": "Hadi Hajaig",
+            "birthYear": 1969,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Action",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt2316479/mediaviewer/rm3490399232/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt2316479/?ref_=nv_sr_srsg_2_tt_4_nm_0_in_0_q_Blue%2520Iguana"
+    },
+    "synopsis": {
+        "native": "Two ex-convicts are on parole and working dead-end jobs in a New York diner until they are approached by a geeky English lawyer who enlists them in a plot to steal a very valuable diamond.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2018_068_01",
+            "film": "GB2018_068",
+            "person": "Peter Polycarpou",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Eastern European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2018_068_02",
+            "film": "GB2018_068",
+            "person": {
+                "id": "Simon Callow",
+                "slug": "simon-callow",
+                "name": "Simon Callow",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Amanda Donohue",
+                "slug": "amanda-donohue",
+                "name": "Amanda Donohue",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Frances Barber",
+                "slug": "frances-barber",
+                "name": "Frances Barber",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Hadi Hajaig",
+                "slug": "hadi-hajaig",
+                "name": "Hadi Hajaig",
+                "birthYear": 1969,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Martin Muncaster",
+                "slug": "martin-muncaster",
+                "name": "Martin Muncaster",
+                "birthYear": 1934,
+                "deathYear": 2024,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": "Peter Polycarpou",
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Simon Callow",
+                "slug": "simon-callow",
+                "name": "Simon Callow",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "power",
+        "organized crime",
+        "homosociality",
+        "abuse",
+        "urban",
+        "self-employment",
+        "superior-employee relationship"
+    ]
 }

@@ -1,68 +1,121 @@
 {
-  "id": "DE2021_062",
-  "type": "Film",
-  "slug": "de2021-062-contra",
-  "title": {
-    "native": "Contra"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-10-28",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=MMntdoWEJSY&ab_channel=ConstantinFilm",
-    "posterUrl": "https://www.imdb.com/title/tt10628092/mediaviewer/rm1036449025/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "mentorship",
-    "education",
-    "power"
-  ],
-  "director": [
-    {
-      "id": "S\u00f6nke Wortmann",
-      "slug": "sonke-wortmann",
-      "name": "S\u00f6nke Wortmann",
-      "birthYear": 1959,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "character": [
-    {
-      "id": "DE2021_064_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Christoph Maria Herbst",
-        "slug": "christoph-maria-herbst",
-        "name": "Christoph Maria Herbst",
-        "birthYear": 1966.0,
-        "gender": "Male identifying",
-        "nationality": "Germany"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "In seiner Vorlesung hat Professor Richard Pohl (Christoph Maria Herbst) die Jura-Studentin Naima (Nilam Farooq) rassistisch und sexistisch diskriminiert. Es ist nicht der erste Zwischenfall dieser Art und noch dazu wurde Pohl bei seinen Entgleisungen gefilmt und das Video ins Internet gestellt. Der Druck auf die Johann Wolfgang Goethe-Universit\u00e4t in Frankfurt w\u00e4chst und Pohl erh\u00e4lt von Universit\u00e4tspr\u00e4sident Alexander Lambrecht (Ernst St\u00f6tzner) eine letzte Chance: Er soll Naima bei einem wichtigen Debattierwettstreit als Mentor zur Seite stehen. So k\u00f6nnte der Professor seine Chancen vor dem Disziplinaraussschuss verbessern und noch einmal um seine Entlassung herum kommen. Der Dozent und die Studentin k\u00f6nnten unterschiedlicher nicht sein, dennoch wachsen sie zu einem starken Team zusammen.",
-    "english": "A university professor's ignorance is exposed when he must prepare a student for a debate."
-  }
+    "type": "Film",
+    "id": "DE2021_062",
+    "slug": "de2021-062-contra",
+    "title": {
+        "native": "Contra",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-10-28",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "S\u00f6nke Wortmann",
+            "slug": "sonke-wortmann",
+            "name": "S\u00f6nke Wortmann",
+            "birthYear": 1959,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt10628092/mediaviewer/rm1036449025/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=MMntdoWEJSY&ab_channel=ConstantinFilm"
+    },
+    "synopsis": {
+        "native": "In seiner Vorlesung hat Professor Richard Pohl (Christoph Maria Herbst) die Jura-Studentin Naima (Nilam Farooq) rassistisch und sexistisch diskriminiert. Es ist nicht der erste Zwischenfall dieser Art und noch dazu wurde Pohl bei seinen Entgleisungen gefilmt und das Video ins Internet gestellt. Der Druck auf die Johann Wolfgang Goethe-Universit\u00e4t in Frankfurt w\u00e4chst und Pohl erh\u00e4lt von Universit\u00e4tspr\u00e4sident Alexander Lambrecht (Ernst St\u00f6tzner) eine letzte Chance: Er soll Naima bei einem wichtigen Debattierwettstreit als Mentor zur Seite stehen. So k\u00f6nnte der Professor seine Chancen vor dem Disziplinaraussschuss verbessern und noch einmal um seine Entlassung herum kommen. Der Dozent und die Studentin k\u00f6nnten unterschiedlicher nicht sein, dennoch wachsen sie zu einem starken Team zusammen.",
+        "english": "A university professor's ignorance is exposed when he must prepare a student for a debate."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "DE2021_064_01",
+            "film": "DE2021_062",
+            "person": {
+                "id": "Christoph Maria Herbst",
+                "slug": "christoph-maria-herbst",
+                "name": "Christoph Maria Herbst",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Christoph Maria Herbst",
+                "slug": "christoph-maria-herbst",
+                "name": "Christoph Maria Herbst",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Ernst St\u00f6tzner",
+                "slug": "ernst-stotzner",
+                "name": "Ernst St\u00f6tzner",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Michael Abendroth",
+                "slug": "michael-abendroth",
+                "name": "Michael Abendroth",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Austria"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "S\u00f6nke Wortmann",
+                "slug": "sonke-wortmann",
+                "name": "S\u00f6nke Wortmann",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "education",
+        "mentorship",
+        "power"
+    ]
 }

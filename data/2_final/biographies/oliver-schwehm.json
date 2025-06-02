@@ -1,30 +1,39 @@
 {
-  "id": "Oliver Schwehm",
-  "type": "Biography",
-  "slug": "oliver-schwehm",
-  "name": "Oliver Schwehm",
-  "birthYear": 1975,
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Participatory mode",
-      "id": "DE2018_093",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "de2018-093-fly-rocket-fly",
-      "tags": "cultural memory",
-      "title": {
-        "english": "Fly Rocket Fly",
-        "native": "Fly Rocket Fly"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Oliver Schwehm",
+    "slug": "oliver-schwehm",
+    "name": "Oliver Schwehm",
+    "birthYear": 1975,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2018_093",
+                "slug": "de2018-093-fly-rocket-fly",
+                "title": {
+                    "native": "Fly Rocket Fly",
+                    "english": "Fly Rocket Fly"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-09-27",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

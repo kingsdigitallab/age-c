@@ -1,66 +1,84 @@
 {
-  "id": "DE2020_045",
-  "type": "Film",
-  "slug": "de2020-045-sein-gesund-bewusst-lebendig",
-  "title": {
-    "native": "Sein - Gesund, Bewusst, Lebendig"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-08-06",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=cO0a0uLRwII&ab_channel=kinofilme",
-    "posterUrl": "https://www.filmstarts.de/kritiken/279939/bilder/?cmediafile=21710117"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "well-being",
-    "search for meaning"
-  ],
-  "director": [
-    {
-      "id": "Bernhard Koch",
-      "slug": "bernhard-koch",
-      "name": "Bernhard Koch",
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "character": [
-    {
-      "id": "DE2020_045_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Heiner Lauterbach",
-        "slug": "heiner-lauterbach",
-        "name": "Heiner Lauterbach",
-        "birthYear": 1953.0,
-        "gender": "Male identifying",
-        "nationality": "Germany"
-      },
-      "role": "Unknown"
-    }
-  ],
-  "synopsis": {
-    "native": "Was ist ein gutes Leben? In dem Dokumentarfilm nimmt sich Regisseur Bernhard Koch dieser Frage an und zeigt f\u00fcnf Menschen im Versuch der Selbstheilung, die daf\u00fcr ihren Lebensstil fundamental ver\u00e4ndern. Aktiv sind es die Probanden selbst, die Verantwortung f\u00fcr sich und ihren Geist und K\u00f6rper \u00fcbernehmen. Unter den Teilnehmern befinden sich Ranja, der Yoga f\u00fcr sich entdeckt, die auf vegane Ern\u00e4hrung setzende Mona und Stephen, der sich mit Heil- und Wildkr\u00e4utern auseinandersetzt. Au\u00dferdem an Bord sind Dominique und Chris, die einen neuen Zugang zum Leben durch Sport und Bewegung sowie Achtsamkeit und Meditation finden.",
-    "english": "It's a documentary about 5 people changing their lifestyle drastically with the goal to reach health, happiness and being whole again. It's about their experience to heal themselves."
-  }
+    "type": "Film",
+    "id": "DE2020_045",
+    "slug": "de2020-045-sein-gesund-bewusst-lebendig",
+    "title": {
+        "native": "Sein - Gesund, Bewusst, Lebendig",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-08-06",
+        "year": 2020
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Bernhard Koch",
+            "slug": "bernhard-koch",
+            "name": "Bernhard Koch",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.filmstarts.de/kritiken/279939/bilder/?cmediafile=21710117",
+        "trailerUrl": "https://www.youtube.com/watch?v=cO0a0uLRwII&ab_channel=kinofilme"
+    },
+    "synopsis": {
+        "native": "Was ist ein gutes Leben? In dem Dokumentarfilm nimmt sich Regisseur Bernhard Koch dieser Frage an und zeigt f\u00fcnf Menschen im Versuch der Selbstheilung, die daf\u00fcr ihren Lebensstil fundamental ver\u00e4ndern. Aktiv sind es die Probanden selbst, die Verantwortung f\u00fcr sich und ihren Geist und K\u00f6rper \u00fcbernehmen. Unter den Teilnehmern befinden sich Ranja, der Yoga f\u00fcr sich entdeckt, die auf vegane Ern\u00e4hrung setzende Mona und Stephen, der sich mit Heil- und Wildkr\u00e4utern auseinandersetzt. Au\u00dferdem an Bord sind Dominique und Chris, die einen neuen Zugang zum Leben durch Sport und Bewegung sowie Achtsamkeit und Meditation finden.",
+        "english": "It's a documentary about 5 people changing their lifestyle drastically with the goal to reach health, happiness and being whole again. It's about their experience to heal themselves."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "DE2020_045_01",
+            "film": "DE2020_045",
+            "person": {
+                "id": "Heiner Lauterbach",
+                "slug": "heiner-lauterbach",
+                "name": "Heiner Lauterbach",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Bernhard Koch",
+                "slug": "bernhard-koch",
+                "name": "Bernhard Koch",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "search for meaning",
+        "well-being"
+    ]
 }

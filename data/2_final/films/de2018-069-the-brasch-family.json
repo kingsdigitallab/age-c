@@ -1,51 +1,115 @@
 {
-  "id": "DE2018_069",
-  "type": "Film",
-  "slug": "de2018-069-the-brasch-family",
-  "title": {
-    "native": "The Brasch Family",
-    "english": "The Brasch Family"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-08-16",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=UdSDuNJJVuw&ab_channel=Salzgeber",
-    "posterUrl": "https://www.imdb.com/title/tt8556014/mediaviewer/rm1796227328/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Unknown",
-    "Documentary \u2013 Poetic mode"
-  ],
-  "tags": [
-    "personal memory",
-    "artistic creation",
-    "cultural memory",
-    "war",
-    "activism"
-  ],
-  "director": [
-    {
-      "id": "Annekatrin Hendel",
-      "slug": "annekatrin-hendel",
-      "name": "Annekatrin Hendel",
-      "birthYear": 1964,
-      "gender": "Female identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "Dokumentation \u00fcber die Familie Brasch, die auch die \u201eManns der DDR\u201c genannt werden, weil zwei der Kinder, Thomas und Peter Brasch, als Schriftsteller t\u00e4tig waren und die Familie au\u00dferdem einige weitere Kunst- und Medienschaffende hervorbrachte. Nach 1945 waren die Braschs vom Realsozialismus hellauf begeistert: Horst Brasch, der die Faschisten aus vollem Herzen hasste, leistete als j\u00fcdischer Katholik seinen Beitrag zum Aufbau der DDR, auch wenn sich seine Frau Gerda dort nie wohlf\u00fchlte. Thomas wird ein gefeierter Literat und will wie der Vater eine Welt, die gerecht ist \u2013 wie seine Br\u00fcder Peter und Klaus aber kann er der DDR nicht viel abgewinnen. 1968 streitet sich Thomas mit seinem Vater und dieser Generationenkonflikt gipfelt darin, dass der Alte den Jungen an die Beh\u00f6rden verpetzt\u2026",
-    "english": "BRASCH - this legendary name stands for one of the most sensational German family histories of all time. This film chronicles a family saga across three generations against a historic backdrop."
-  }
+    "type": "Film",
+    "id": "DE2018_069",
+    "slug": "de2018-069-the-brasch-family",
+    "title": {
+        "native": "The Brasch Family",
+        "english": "The Brasch Family"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-08-16",
+        "year": 2018
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Annekatrin Hendel",
+            "slug": "annekatrin-hendel",
+            "name": "Annekatrin Hendel",
+            "birthYear": 1964,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Documentary \u2013 Poetic mode",
+        "Unknown"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt8556014/mediaviewer/rm1796227328/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=UdSDuNJJVuw&ab_channel=Salzgeber"
+    },
+    "synopsis": {
+        "native": "Dokumentation \u00fcber die Familie Brasch, die auch die \u201eManns der DDR\u201c genannt werden, weil zwei der Kinder, Thomas und Peter Brasch, als Schriftsteller t\u00e4tig waren und die Familie au\u00dferdem einige weitere Kunst- und Medienschaffende hervorbrachte. Nach 1945 waren die Braschs vom Realsozialismus hellauf begeistert: Horst Brasch, der die Faschisten aus vollem Herzen hasste, leistete als j\u00fcdischer Katholik seinen Beitrag zum Aufbau der DDR, auch wenn sich seine Frau Gerda dort nie wohlf\u00fchlte. Thomas wird ein gefeierter Literat und will wie der Vater eine Welt, die gerecht ist \u2013 wie seine Br\u00fcder Peter und Klaus aber kann er der DDR nicht viel abgewinnen. 1968 streitet sich Thomas mit seinem Vater und dieser Generationenkonflikt gipfelt darin, dass der Alte den Jungen an die Beh\u00f6rden verpetzt\u2026",
+        "english": "BRASCH - this legendary name stands for one of the most sensational German family histories of all time. This film chronicles a family saga across three generations against a historic backdrop."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Annekatrin Hendel",
+                "slug": "annekatrin-hendel",
+                "name": "Annekatrin Hendel",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Christoph Hein",
+                "slug": "christoph-hein",
+                "name": "Christoph Hein",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Florian Havemann",
+                "slug": "florian-havemann",
+                "name": "Florian Havemann",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Katharina Thalbach",
+                "slug": "katharina-thalbach",
+                "name": "Katharina Thalbach",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Marion Brasch",
+                "slug": "marion-brasch",
+                "name": "Marion Brasch",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "personal memory",
+        "cultural memory",
+        "artistic creation",
+        "activism",
+        "war"
+    ]
 }

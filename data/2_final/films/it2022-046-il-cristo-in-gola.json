@@ -1,87 +1,96 @@
 {
-  "id": "IT2022_046",
-  "type": "Film",
-  "slug": "it2022-046-il-cristo-in-gola",
-  "title": {
-    "native": "Il Cristo in gola"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-11-27",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=L_hFj7znG7c",
-    "posterUrl": "https://www.imdb.com/title/tt23830470/mediaviewer/rm1149254401/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "regional identity",
-    "religion"
-  ],
-  "director": [
-    {
-      "id": "Antonio Rezza",
-      "slug": "antonio-rezza",
-      "name": "Antonio Rezza",
-      "birthYear": 1965,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2022_046_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "Unknown",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Antonio Rezza",
-        "slug": "antonio-rezza",
-        "name": "Antonio Rezza",
-        "birthYear": 1965.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Director of the film"
+    "type": "Film",
+    "id": "IT2022_046",
+    "slug": "it2022-046-il-cristo-in-gola",
+    "title": {
+        "native": "Il Cristo in gola",
+        "english": ""
     },
-    {
-      "id": "IT2022_046_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "Unknown",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Antonio Rezza",
-        "slug": "antonio-rezza",
-        "name": "Antonio Rezza",
-        "birthYear": 1965.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Il Vangelo secondo Antonio Rezza, gi\u00e0 Leone d'oro per il teatro: un film comico, satirico, tragico, religioso.",
-    "english": "The Gospel according to Antonio Rezza, the winner of a Golden Lion for theatre: a funny, satirical, tragic, and religious movie."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-11-27",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Antonio Rezza",
+            "slug": "antonio-rezza",
+            "name": "Antonio Rezza",
+            "birthYear": 1965,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt23830470/mediaviewer/rm1149254401/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=L_hFj7znG7c"
+    },
+    "synopsis": {
+        "native": "Il Vangelo secondo Antonio Rezza, gi\u00e0 Leone d'oro per il teatro: un film comico, satirico, tragico, religioso.",
+        "english": "The Gospel according to Antonio Rezza, the winner of a Golden Lion for theatre: a funny, satirical, tragic, and religious movie."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2022_046_01",
+            "film": "IT2022_046",
+            "person": {
+                "id": "Antonio Rezza",
+                "slug": "antonio-rezza",
+                "name": "Antonio Rezza",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "Unknown",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "Unknown"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Antonio Rezza",
+                "slug": "antonio-rezza",
+                "name": "Antonio Rezza",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Antonio Rezza",
+                "slug": "antonio-rezza",
+                "name": "Antonio Rezza",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "religion",
+        "regional identity"
+    ]
 }

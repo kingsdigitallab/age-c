@@ -1,42 +1,109 @@
 {
-  "id": "Mela Casal",
-  "type": "Biography",
-  "slug": "mela-casal",
-  "name": "Mela Casal",
-  "birthYear": 1948,
-  "nationality": "Spain",
-  "gender": "Female identifying",
-  "character": [
-    {
-      "ability": "Unknown",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "No",
-      "class": "Lower Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Noir",
-        "id": "ES2020_063",
-        "production": {
-          "country": "Portugal",
-          "share": "Minority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2020
-        },
-        "slug": "es2020-063-la-isla-de-las-mentiras",
-        "tags": "regional identity",
-        "title": {
-          "english": "The Island of Lies",
-          "native": "La isla de las mentiras"
+    "type": "Person",
+    "id": "Mela Casal",
+    "slug": "mela-casal",
+    "name": "Mela Casal",
+    "birthYear": 1948,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "Spain",
+    "characters": [
+        {
+            "id": "ES2020_063_03",
+            "film": {
+                "id": "ES2020_063",
+                "slug": "es2020-063-la-isla-de-las-mentiras",
+                "title": {
+                    "native": "La isla de las mentiras",
+                    "english": "The Island of Lies"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-10-02",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Argentina",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Portugal",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Mela Casal",
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Female identifying",
-      "id": "ES2020_063_03",
-      "origin": "White Western European",
-      "profession": "Unknown",
-      "role": "Supporting actor",
-      "sexuality": "Unknown"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2020_063",
+                "slug": "es2020-063-la-isla-de-las-mentiras",
+                "title": {
+                    "native": "La isla de las mentiras",
+                    "english": "The Island of Lies"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-10-02",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Argentina",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Portugal",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "ES2023_046",
+                "slug": "es2023-046-la-manzana-de-oro",
+                "title": {
+                    "native": "La manzana de oro",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-08-29",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Portugal",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ]
 }

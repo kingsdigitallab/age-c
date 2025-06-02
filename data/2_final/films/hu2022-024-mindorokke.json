@@ -1,43 +1,72 @@
 {
-  "id": "HU2022_024",
-  "type": "Film",
-  "slug": "hu2022-024-mindorokke",
-  "title": {
-    "native": "Mind\u00f6r\u00f6kk\u00e9",
-    "english": "Perpetuity"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-02-22",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Hungary",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=VyUNnpMS4jM",
-    "posterUrl": "https://www.imdb.com/title/tt4795030/mediaviewer/rm3845711361/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Science Fiction",
-    "Dystopia"
-  ],
-  "director": [
-    {
-      "id": "Gy\u00f6rgy P\u00e1lfi",
-      "slug": "gyorgy-palfi",
-      "name": "Gy\u00f6rgy P\u00e1lfi",
-      "birthYear": 1974,
-      "gender": "Male identifying",
-      "nationality": "Hungary"
-    }
-  ],
-  "synopsis": {
-    "native": "A front nyugatabbra mozdult, ez m\u00e1r a h\u00e1torsz\u00e1g. Ocsen\u00e1s egy katonai k\u00f3rh\u00e1zban l\u00e1badozik, amikor \u00e9pp a falu f\u00f6l\u00f6tt l\u0151nek sz\u00e9t egy utassz\u00e1ll\u00edt\u00f3 rep\u00fcl\u0151g\u00e9pet. Ocsen\u00e1s a helyi kocsm\u00e1ban ismerkedik meg B\u00e9ressel, majd asszony\u00e1val is. Margitka magatehetetlen\u00fcl l\u00e9tezik egy kisgyerek \u00e9rtelmi szintj\u00e9n, k\u00fclseje azonban arr\u00f3l \u00e1rulkodik, hogy a lezuhant rep\u00fcl\u0151g\u00e9p t\u00fal\u00e9l\u0151je lehet. A h\u00e1rm\u00f3juk k\u00f6z\u00f6tt kialakul\u00f3 furcsa szerelmi h\u00e1romsz\u00f6g az elker\u00fclhetetlen trag\u00e9dia fel\u00e9 tart ebben a k\u00f6zegben.",
-    "english": "About a post-apocalyptic Hungarian-Ukrainian village where everything is rotten, planes randomly crash. Only alcohol makes people to move. In this wasteland, Ocsenas is the only hero, the one trying to survive amidst the savages and war."
-  }
+    "type": "Film",
+    "id": "HU2022_024",
+    "slug": "hu2022-024-mindorokke",
+    "title": {
+        "native": "Mind\u00f6r\u00f6kk\u00e9",
+        "english": "Perpetuity"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-02-22",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Gy\u00f6rgy P\u00e1lfi",
+            "slug": "gyorgy-palfi",
+            "name": "Gy\u00f6rgy P\u00e1lfi",
+            "birthYear": 1974,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Hungary"
+        }
+    ],
+    "genre": [
+        "Science Fiction",
+        "Dystopia"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt4795030/mediaviewer/rm3845711361/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=VyUNnpMS4jM"
+    },
+    "synopsis": {
+        "native": "A front nyugatabbra mozdult, ez m\u00e1r a h\u00e1torsz\u00e1g. Ocsen\u00e1s egy katonai k\u00f3rh\u00e1zban l\u00e1badozik, amikor \u00e9pp a falu f\u00f6l\u00f6tt l\u0151nek sz\u00e9t egy utassz\u00e1ll\u00edt\u00f3 rep\u00fcl\u0151g\u00e9pet. Ocsen\u00e1s a helyi kocsm\u00e1ban ismerkedik meg B\u00e9ressel, majd asszony\u00e1val is. Margitka magatehetetlen\u00fcl l\u00e9tezik egy kisgyerek \u00e9rtelmi szintj\u00e9n, k\u00fclseje azonban arr\u00f3l \u00e1rulkodik, hogy a lezuhant rep\u00fcl\u0151g\u00e9p t\u00fal\u00e9l\u0151je lehet. A h\u00e1rm\u00f3juk k\u00f6z\u00f6tt kialakul\u00f3 furcsa szerelmi h\u00e1romsz\u00f6g az elker\u00fclhetetlen trag\u00e9dia fel\u00e9 tart ebben a k\u00f6zegben.",
+        "english": "About a post-apocalyptic Hungarian-Ukrainian village where everything is rotten, planes randomly crash. Only alcohol makes people to move. In this wasteland, Ocsenas is the only hero, the one trying to survive amidst the savages and war."
+    },
+    "production": [
+        {
+            "country": "Hungary",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Attila Mensz\u00e1tor-H\u00e9resz",
+                "slug": "attila-menszator-heresz",
+                "name": "Attila Mensz\u00e1tor-H\u00e9resz",
+                "birthYear": 1972,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Gy\u00f6rgy P\u00e1lfi",
+                "slug": "gyorgy-palfi",
+                "name": "Gy\u00f6rgy P\u00e1lfi",
+                "birthYear": 1974,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": []
 }

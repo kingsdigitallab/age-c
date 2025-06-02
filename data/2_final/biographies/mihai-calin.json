@@ -1,42 +1,101 @@
 {
-  "id": "Mihai C\u0103lin",
-  "type": "Biography",
-  "slug": "mihai-calin",
-  "name": "Mihai C\u0103lin",
-  "birthYear": 1968,
-  "nationality": "Romania",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "2: Late Middle Age (55-60)",
-      "assistedMobility": "No",
-      "class": "Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Drama",
-        "id": "RO2020_008",
-        "production": {
-          "country": "Czechia",
-          "share": "Minority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2020
-        },
-        "slug": "ro2020-008-5-minute",
-        "tags": "lgbtqi",
-        "title": {
-          "english": "5 Minutes Too Late",
-          "native": "5 minute"
+    "type": "Person",
+    "id": "Mihai C\u0103lin",
+    "slug": "mihai-calin",
+    "name": "Mihai C\u0103lin",
+    "birthYear": 1968,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Romania",
+    "characters": [
+        {
+            "id": "RO2020_008_01",
+            "film": {
+                "id": "RO2020_008",
+                "slug": "ro2020-008-5-minute",
+                "title": {
+                    "native": "5 minute",
+                    "english": "5 Minutes Too Late"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-11-20",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Czechia",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Mihai C\u0103lin",
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Eastern European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "RO2020_008_01",
-      "origin": "White Eastern European",
-      "profession": "Employed",
-      "role": "Leading actor",
-      "sexuality": "Heterosexual"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "RO2020_008",
+                "slug": "ro2020-008-5-minute",
+                "title": {
+                    "native": "5 minute",
+                    "english": "5 Minutes Too Late"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-11-20",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Czechia",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        },
+        {
+            "film": {
+                "id": "RO2022_021",
+                "slug": "ro2022-021-metronom",
+                "title": {
+                    "native": "Metronom",
+                    "english": "Metronom"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-11-04",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ]
 }

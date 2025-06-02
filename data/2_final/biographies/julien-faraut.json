@@ -1,30 +1,35 @@
 {
-  "id": "Julien Faraut",
-  "type": "Biography",
-  "slug": "julien-faraut",
-  "name": "Julien Faraut",
-  "birthYear": 1978,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Participatory mode",
-      "id": "FR2021_041",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-041-les-sorcieres-de-l-orient",
-      "tags": "personal memory",
-      "title": {
-        "english": "The Witches of the Orient",
-        "native": "Les Sorci\u00e8res de l'Orient"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Julien Faraut",
+    "slug": "julien-faraut",
+    "name": "Julien Faraut",
+    "birthYear": 1978,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_041",
+                "slug": "fr2021-041-les-sorcieres-de-l-orient",
+                "title": {
+                    "native": "Les Sorci\u00e8res de l'Orient",
+                    "english": "The Witches of the Orient"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-07-28",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

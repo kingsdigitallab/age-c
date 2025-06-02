@@ -1,30 +1,43 @@
 {
-  "id": "Fr\u00e9d\u00e9ric Petitjean",
-  "type": "Biography",
-  "slug": "frederic-petitjean",
-  "name": "Fr\u00e9d\u00e9ric Petitjean",
-  "birthYear": 1969,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Thriller",
-      "id": "FR2019_089",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-089-cold-blood-legacy-la-memoire-du-sang",
-      "tags": "retirement",
-      "title": {
-        "english": "Cold Blood Legacy",
-        "native": "Cold Blood Legacy : La m\u00e9moire du sang"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Fr\u00e9d\u00e9ric Petitjean",
+    "slug": "frederic-petitjean",
+    "name": "Fr\u00e9d\u00e9ric Petitjean",
+    "birthYear": 1969,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2019_089",
+                "slug": "fr2019-089-cold-blood-legacy-la-memoire-du-sang",
+                "title": {
+                    "native": "Cold Blood Legacy : La m\u00e9moire du sang",
+                    "english": "Cold Blood Legacy"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-05-15",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Ukraine",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

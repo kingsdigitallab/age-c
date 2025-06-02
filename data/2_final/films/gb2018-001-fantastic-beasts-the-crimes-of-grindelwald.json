@@ -1,139 +1,209 @@
 {
-  "id": "GB2018_001",
-  "type": "Film",
-  "slug": "gb2018-001-fantastic-beasts-the-crimes-of-grindelwald",
-  "title": {
-    "native": "Fantastic Beasts: The Crimes of Grindelwald"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-11-16",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "GB2018_001",
+    "slug": "gb2018-001-fantastic-beasts-the-crimes-of-grindelwald",
+    "title": {
+        "native": "Fantastic Beasts: The Crimes of Grindelwald",
+        "english": ""
     },
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=vvFybpmyB9E",
-    "posterUrl": "https://www.imdb.com/title/tt4123430/mediaviewer/rm3813896960/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Action",
-    "Fantasy"
-  ],
-  "tags": [
-    "wealth",
-    "crime",
-    "revenge",
-    "friendship betrayal",
-    "non-human companionship",
-    "interracial relationships",
-    "cultural memory",
-    "war",
-    "homosociality",
-    "abuse",
-    "supernatural entity"
-  ],
-  "director": [
-    {
-      "id": "David Yates",
-      "slug": "david-yates",
-      "name": "David Yates",
-      "birthYear": 1963,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2018_001_03",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "Black Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Cornell John",
-        "slug": "cornell-john",
-        "name": "Cornell John",
-        "birthYear": 1944.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2018-11-16",
+        "year": 2018
     },
-    {
-      "id": "GB2018_001_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Wolf Roth",
-        "slug": "wolf-roth",
-        "name": "Wolf Roth",
-        "gender": "Male identifying",
-        "nationality": "Germany"
-      },
-      "role": "Supporting actor"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "David Yates",
+            "slug": "david-yates",
+            "name": "David Yates",
+            "birthYear": 1963,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Fantasy",
+        "Action"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt4123430/mediaviewer/rm3813896960/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=vvFybpmyB9E"
     },
-    {
-      "id": "GB2018_001_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Homosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Johnny Depp",
-        "slug": "johnny-depp",
-        "name": "Johnny Depp",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Leading actor"
+    "synopsis": {
+        "native": "The second installment of the \"Fantastic Beasts\" series featuring the adventures of Magizoologist Newt Scamander.",
+        "english": ""
     },
-    {
-      "id": "GB2018_001_04",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Ingvar Sigurdsson",
-        "slug": "ingvar-sigurdsson",
-        "name": "Ingvar Sigurdsson",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "Iceland"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "The second installment of the \"Fantastic Beasts\" series featuring the adventures of Magizoologist Newt Scamander."
-  }
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2018_001_01",
+            "film": "GB2018_001",
+            "person": {
+                "id": "Johnny Depp",
+                "slug": "johnny-depp",
+                "name": "Johnny Depp",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Homosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2018_001_02",
+            "film": "GB2018_001",
+            "person": {
+                "id": "Wolf Roth",
+                "slug": "wolf-roth",
+                "name": "Wolf Roth",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2018_001_03",
+            "film": "GB2018_001",
+            "person": {
+                "id": "Cornell John",
+                "slug": "cornell-john",
+                "name": "Cornell John",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "Black Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2018_001_04",
+            "film": "GB2018_001",
+            "person": {
+                "id": "Ingvar Sigurdsson",
+                "slug": "ingvar-sigurdsson",
+                "name": "Ingvar Sigurdsson",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Iceland"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Cornell John",
+                "slug": "cornell-john",
+                "name": "Cornell John",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "David Yates",
+                "slug": "david-yates",
+                "name": "David Yates",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Ingvar Sigurdsson",
+                "slug": "ingvar-sigurdsson",
+                "name": "Ingvar Sigurdsson",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Iceland"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Johnny Depp",
+                "slug": "johnny-depp",
+                "name": "Johnny Depp",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Wolf Roth",
+                "slug": "wolf-roth",
+                "name": "Wolf Roth",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "revenge",
+        "homosociality",
+        "non-human companionship",
+        "supernatural entity",
+        "friendship betrayal",
+        "abuse",
+        "cultural memory",
+        "wealth",
+        "crime",
+        "war",
+        "interracial relationships"
+    ]
 }

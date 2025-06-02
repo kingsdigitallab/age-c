@@ -1,42 +1,75 @@
 {
-  "id": "Sylvia Sims",
-  "type": "Biography",
-  "slug": "sylvia-sims",
-  "name": "Sylvia Sims",
-  "birthYear": 1934,
-  "deathYear": 2023,
-  "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
-  "gender": "Female identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "4: Fourth Age (>75)",
-      "assistedMobility": "Yes",
-      "class": "Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Romance",
-        "id": "GB2018_053",
-        "production": {
-          "country": "United States of America (the)",
-          "share": "Minority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2018
-        },
-        "slug": "gb2018-053-together",
-        "tags": "ageism",
-        "title": {
-          "native": "Together"
+    "type": "Person",
+    "id": "Sylvia Sims",
+    "slug": "sylvia-sims",
+    "name": "Sylvia Sims",
+    "birthYear": 1934,
+    "deathYear": 2023,
+    "gender": "Female identifying",
+    "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+    "characters": [
+        {
+            "id": "GB2018_053_01",
+            "film": {
+                "id": "GB2018_053",
+                "slug": "gb2018-053-together",
+                "title": {
+                    "native": "Together",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-06-15",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Sylvia Sims",
+            "age": "4: Fourth Age (>75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "Yes"
         }
-      },
-      "gender": "Female identifying",
-      "id": "GB2018_053_01",
-      "origin": "White Western European",
-      "profession": "Retired",
-      "role": "Leading actor",
-      "sexuality": "Heterosexual"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "GB2018_053",
+                "slug": "gb2018-053-together",
+                "title": {
+                    "native": "Together",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-06-15",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        }
+    ]
 }

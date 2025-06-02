@@ -1,29 +1,43 @@
 {
-  "id": "C. Mart\u00edn Ferrera",
-  "type": "Biography",
-  "slug": "c-martin-ferrera",
-  "name": "C. Mart\u00edn Ferrera",
-  "birthYear": 1974,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Romance",
-      "id": "ES2018_055",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "es2018-055-el-ano-de-la-plaga",
-      "tags": "mental illness",
-      "title": {
-        "native": "El a\u00f1o de la plaga"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "C. Mart\u00edn Ferrera",
+    "slug": "c-martin-ferrera",
+    "name": "C. Mart\u00edn Ferrera",
+    "birthYear": 1974,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2018_055",
+                "slug": "es2018-055-el-ano-de-la-plaga",
+                "title": {
+                    "native": "El a\u00f1o de la plaga",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-05-17",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Mexico",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

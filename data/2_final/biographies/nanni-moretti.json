@@ -1,100 +1,239 @@
 {
-  "id": "Nanni Moretti",
-  "type": "Biography",
-  "slug": "nanni-moretti",
-  "name": "Nanni Moretti",
-  "birthYear": 1953,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "No",
-      "class": "Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Comedy",
-        "id": "IT2023_005",
-        "production": {
-          "country": "France",
-          "share": "Minority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2023
-        },
-        "slug": "it2023-005-il-sol-dell-avvenire",
-        "tags": "may-december",
-        "title": {
-          "english": "A Brighter Tomorrow",
-          "native": "Il sol dell'avvenire"
+    "type": "Person",
+    "id": "Nanni Moretti",
+    "slug": "nanni-moretti",
+    "name": "Nanni Moretti",
+    "birthYear": 1953,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [
+        {
+            "id": "IT2023_005_01",
+            "film": {
+                "id": "IT2023_005",
+                "slug": "it2023-005-il-sol-dell-avvenire",
+                "title": {
+                    "native": "Il sol dell'avvenire",
+                    "english": "A Brighter Tomorrow"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-04-20",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Nanni Moretti",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "IT2023_005_01",
-      "origin": "White Western European",
-      "profession": "Self-employed",
-      "role": "Director of the film",
-      "sexuality": "Heterosexual"
-    }
-  ],
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Participatory mode",
-      "id": "IT2018_033",
-      "production": {
-        "country": "France",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "it2018-033-santiago-italia",
-      "tags": "migration",
-      "title": {
-        "native": "Santiago, Italia"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Thriller",
-      "id": "IT2021_026",
-      "production": {
-        "country": "France",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "it2021-026-tre-piani",
-      "tags": "natural death",
-      "title": {
-        "english": "Three Floors",
-        "native": "Tre piani"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "IT2023_005",
-      "production": {
-        "country": "France",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "it2023-005-il-sol-dell-avvenire",
-      "tags": "marriage",
-      "title": {
-        "english": "A Brighter Tomorrow",
-        "native": "Il sol dell'avvenire"
-      }
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2018_033",
+                "slug": "it2018-033-santiago-italia",
+                "title": {
+                    "native": "Santiago, Italia",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-12-06",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Chile",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "film": {
+                "id": "IT2018_033",
+                "slug": "it2018-033-santiago-italia",
+                "title": {
+                    "native": "Santiago, Italia",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-12-06",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Chile",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2021_026",
+                "slug": "it2021-026-tre-piani",
+                "title": {
+                    "native": "Tre piani",
+                    "english": "Three Floors"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-09-23",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2021_026",
+                "slug": "it2021-026-tre-piani",
+                "title": {
+                    "native": "Tre piani",
+                    "english": "Three Floors"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-09-23",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "IT2022_004",
+                "slug": "it2022-004-il-colibri",
+                "title": {
+                    "native": "Il colibr\u00ec",
+                    "english": "The hummingbird"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-10-14",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "IT2023_005",
+                "slug": "it2023-005-il-sol-dell-avvenire",
+                "title": {
+                    "native": "Il sol dell'avvenire",
+                    "english": "A Brighter Tomorrow"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-04-20",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2023_005",
+                "slug": "it2023-005-il-sol-dell-avvenire",
+                "title": {
+                    "native": "Il sol dell'avvenire",
+                    "english": "A Brighter Tomorrow"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-04-20",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        }
+    ]
 }

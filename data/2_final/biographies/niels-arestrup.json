@@ -1,42 +1,75 @@
 {
-  "id": "Niels Arestrup",
-  "type": "Biography",
-  "slug": "niels-arestrup",
-  "name": "Niels Arestrup",
-  "birthYear": 1949,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "No",
-      "class": "Upper class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Courtroom Drama",
-        "id": "FR2021_011",
-        "production": {
-          "country": "Belgium",
-          "share": "Minority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2021
-        },
-        "slug": "fr2021-011-villa-caprice",
-        "tags": "corruption",
-        "title": {
-          "english": "The Case",
-          "native": "Villa Caprice"
+    "type": "Person",
+    "id": "Niels Arestrup",
+    "slug": "niels-arestrup",
+    "name": "Niels Arestrup",
+    "birthYear": 1949,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [
+        {
+            "id": "FR2021_011_01",
+            "film": {
+                "id": "FR2021_011",
+                "slug": "fr2021-011-villa-caprice",
+                "title": {
+                    "native": "Villa Caprice",
+                    "english": "The Case"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-06-02",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Niels Arestrup",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Homosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "FR2021_011_01",
-      "origin": "White Western European",
-      "profession": "Self-employed",
-      "role": "Leading actor",
-      "sexuality": "Homosexual"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_011",
+                "slug": "fr2021-011-villa-caprice",
+                "title": {
+                    "native": "Villa Caprice",
+                    "english": "The Case"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-06-02",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        }
+    ]
 }

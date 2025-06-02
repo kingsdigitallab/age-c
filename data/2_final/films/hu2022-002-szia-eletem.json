@@ -1,78 +1,183 @@
 {
-  "id": "HU2022_002",
-  "type": "Film",
-  "slug": "hu2022-002-szia-eletem",
-  "title": {
-    "native": "Szia, \u00e9letem!",
-    "english": "Daddy and Other Wolves"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-08-25",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Hungary",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=SnkkYKBxomM",
-    "posterUrl": "https://www.imdb.com/title/tt12720014/mediaviewer/rm4132507393/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Fantasy",
-    "Children's Film"
-  ],
-  "tags": [
-    "artistic creation",
-    "fatherhood"
-  ],
-  "director": [
-    {
-      "id": "G\u00e1bor Rohonyi",
-      "slug": "gabor-rohonyi",
-      "name": "G\u00e1bor Rohonyi",
-      "birthYear": 1966,
-      "gender": "Male identifying",
-      "nationality": "Hungary"
+    "type": "Film",
+    "id": "HU2022_002",
+    "slug": "hu2022-002-szia-eletem",
+    "title": {
+        "native": "Szia, \u00e9letem!",
+        "english": "Daddy and Other Wolves"
     },
-    {
-      "id": "Csaba V\u00e9kes",
-      "slug": "csaba-vekes",
-      "name": "Csaba V\u00e9kes",
-      "birthYear": 1983,
-      "gender": "Male identifying",
-      "nationality": "Hungary"
-    }
-  ],
-  "character": [
-    {
-      "id": "HU2022_002_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "Central European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Szabolcs Thur\u00f3czy",
-        "slug": "szabolcs-thuroczy",
-        "name": "Szabolcs Thur\u00f3czy",
-        "birthYear": 1971.0,
-        "gender": "Male identifying",
-        "nationality": "Hungary"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "A fantasy elemekkel d\u00fas\u00edtott, egyedi v\u00edgj\u00e1t\u00e9k egy n\u00e9pszer\u0171, de ihlethi\u00e1nyos \u00edr\u00f3nak \u2013 Thur\u00f3czy Szabolcs alak\u00edt\u00e1s\u00e1ban \u2013 \u00e9s sosem l\u00e1tott kisfi\u00e1nak nem v\u00e1rt tal\u00e1lkoz\u00e1s\u00e1r\u00f3l sz\u00f3l. A hirtelen nyakukba szakadt, k\u00e9nyszer\u0171 egy\u00fcttl\u00e9t fordulatos, vid\u00e1m \u00e9s \u00e9rzelmes t\u00f6rt\u00e9nete a fi\u00fa fant\u00e1zi\u00e1j\u00e1nak k\u00f6sz\u00f6nhet\u0151en \u00e1tl\u00e9pi a val\u00f3s\u00e1g kereteit is.",
-    "english": "A burnt-out writer's life is turned upside down when his never-before-seen son walks into his life."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-08-25",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "G\u00e1bor Rohonyi",
+            "slug": "gabor-rohonyi",
+            "name": "G\u00e1bor Rohonyi",
+            "birthYear": 1966,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Hungary"
+        },
+        {
+            "id": "Csaba V\u00e9kes",
+            "slug": "csaba-vekes",
+            "name": "Csaba V\u00e9kes",
+            "birthYear": 1983,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Hungary"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Fantasy",
+        "Children's Film"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt12720014/mediaviewer/rm4132507393/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=SnkkYKBxomM"
+    },
+    "synopsis": {
+        "native": "A fantasy elemekkel d\u00fas\u00edtott, egyedi v\u00edgj\u00e1t\u00e9k egy n\u00e9pszer\u0171, de ihlethi\u00e1nyos \u00edr\u00f3nak \u2013 Thur\u00f3czy Szabolcs alak\u00edt\u00e1s\u00e1ban \u2013 \u00e9s sosem l\u00e1tott kisfi\u00e1nak nem v\u00e1rt tal\u00e1lkoz\u00e1s\u00e1r\u00f3l sz\u00f3l. A hirtelen nyakukba szakadt, k\u00e9nyszer\u0171 egy\u00fcttl\u00e9t fordulatos, vid\u00e1m \u00e9s \u00e9rzelmes t\u00f6rt\u00e9nete a fi\u00fa fant\u00e1zi\u00e1j\u00e1nak k\u00f6sz\u00f6nhet\u0151en \u00e1tl\u00e9pi a val\u00f3s\u00e1g kereteit is.",
+        "english": "A burnt-out writer's life is turned upside down when his never-before-seen son walks into his life."
+    },
+    "production": [
+        {
+            "country": "Hungary",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "HU2022_002_01",
+            "film": "HU2022_002",
+            "person": {
+                "id": "Szabolcs Thur\u00f3czy",
+                "slug": "szabolcs-thuroczy",
+                "name": "Szabolcs Thur\u00f3czy",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "Central European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Csaba V\u00e9kes",
+                "slug": "csaba-vekes",
+                "name": "Csaba V\u00e9kes",
+                "birthYear": 1983,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "G\u00e1bor Rohonyi",
+                "slug": "gabor-rohonyi",
+                "name": "G\u00e1bor Rohonyi",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Judit Meszl\u00e9ry",
+                "slug": "judit-meszlery",
+                "name": "Judit Meszl\u00e9ry",
+                "birthYear": 1941,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Juli B\u00e1sti",
+                "slug": "juli-basti",
+                "name": "Juli B\u00e1sti",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "L\u00e1szl\u00f3 Kesz\u00e9g",
+                "slug": "laszlo-keszeg",
+                "name": "L\u00e1szl\u00f3 Kesz\u00e9g",
+                "birthYear": 1970,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Serbia"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "P\u00e9ter Lecs\u0151",
+                "slug": "peter-lecso",
+                "name": "P\u00e9ter Lecs\u0151",
+                "birthYear": 1969,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": "P\u00e9ter Scherer",
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Szabolcs Thur\u00f3czy",
+                "slug": "szabolcs-thuroczy",
+                "name": "Szabolcs Thur\u00f3czy",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Zolt\u00e1n Mucsi",
+                "slug": "zoltan-mucsi",
+                "name": "Zolt\u00e1n Mucsi",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "fatherhood",
+        "artistic creation"
+    ]
 }

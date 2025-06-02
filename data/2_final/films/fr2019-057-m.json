@@ -1,47 +1,99 @@
 {
-  "id": "FR2019_057",
-  "type": "Film",
-  "slug": "fr2019-057-m",
-  "title": {
-    "native": "M",
-    "english": "M"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-03-20",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=e5g-ILU8F-4",
-    "posterUrl": "https://medias.unifrance.org/medias/32/27/203552/format_page/m.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "abuse",
-    "pedophilia",
-    "religion"
-  ],
-  "director": [
-    {
-      "id": "Yolande Zauberman",
-      "slug": "yolande-zauberman",
-      "name": "Yolande Zauberman",
-      "birthYear": 1955,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "\u00abM\u00bb comme Menahem, enfant prodige \u00e0 la voix d\u2019or, abus\u00e9 par des membres de sa communaut\u00e9 qui l\u2019adulait. Quinze ans apr\u00e8s il revient \u00e0 la recherche des coupables, dans son quartier natal de Bnei Brak, capitale mondiale des Juifs ultra-orthodoxes. Mais c\u2019est aussi le retour dans un monde qu\u2019il a tant aim\u00e9, dans un chemin o\u00f9 la parole se lib\u00e8re... une re\u0301conciliation.",
-    "english": "Suburbs of Tel Aviv. Bnei Brak, world capital of the Haredim, the ultra- Orthodox Jews. When he was a kid, Menahem Lang was known for his kindness, his commitment to Talmud school and especially his golden voice, which made him a renowned performer of liturgical chants. But he was hiding a secret: for years, he was raped by members of the community that worshipped him. After 10 years, Menahem returns to the scene of the crime. It is also a return to the places he loved, a path of initiation sprinkled with incredible encounters, recovered rituals... a reconciliation."
-  }
+    "type": "Film",
+    "id": "FR2019_057",
+    "slug": "fr2019-057-m",
+    "title": {
+        "native": "M",
+        "english": "M"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-03-20",
+        "year": 2019
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Yolande Zauberman",
+            "slug": "yolande-zauberman",
+            "name": "Yolande Zauberman",
+            "birthYear": 1955,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/32/27/203552/format_page/m.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=e5g-ILU8F-4"
+    },
+    "synopsis": {
+        "native": "\u00abM\u00bb comme Menahem, enfant prodige \u00e0 la voix d\u2019or, abus\u00e9 par des membres de sa communaut\u00e9 qui l\u2019adulait. Quinze ans apr\u00e8s il revient \u00e0 la recherche des coupables, dans son quartier natal de Bnei Brak, capitale mondiale des Juifs ultra-orthodoxes. Mais c\u2019est aussi le retour dans un monde qu\u2019il a tant aim\u00e9, dans un chemin o\u00f9 la parole se lib\u00e8re... une re\u0301conciliation.",
+        "english": "Suburbs of Tel Aviv. Bnei Brak, world capital of the Haredim, the ultra- Orthodox Jews. When he was a kid, Menahem Lang was known for his kindness, his commitment to Talmud school and especially his golden voice, which made him a renowned performer of liturgical chants. But he was hiding a secret: for years, he was raped by members of the community that worshipped him. After 10 years, Menahem returns to the scene of the crime. It is also a return to the places he loved, a path of initiation sprinkled with incredible encounters, recovered rituals... a reconciliation."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Jean-Pierre L\u00e9aud",
+                "slug": "jean-pierre-leaud",
+                "name": "Jean-Pierre L\u00e9aud",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Michel Charrel",
+                "slug": "michel-charrel",
+                "name": "Michel Charrel",
+                "birthYear": 1936,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Nicolas Vaude",
+                "slug": "nicolas-vaude",
+                "name": "Nicolas Vaude",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Yolande Zauberman",
+                "slug": "yolande-zauberman",
+                "name": "Yolande Zauberman",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "religion",
+        "abuse",
+        "pedophilia"
+    ]
 }

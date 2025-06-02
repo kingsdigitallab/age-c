@@ -1,91 +1,157 @@
 {
-  "id": "ES2018_064",
-  "type": "Film",
-  "slug": "es2018-064-paella-today",
-  "title": {
-    "native": "Paella Today!"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-03-23",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt6214294/?ref_=nv_sr_srsg_0_tt_5_nm_0_in_0_q_Paella%2520Today!",
-    "posterUrl": "https://www.imdb.com/title/tt6214294/mediaviewer/rm1014709760/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Romance"
-  ],
-  "tags": [
-    "motherhood",
-    "independent home",
-    "marriage",
-    "regional identity",
-    "mass media"
-  ],
-  "director": [
-    {
-      "id": "C\u00e9sar Sabater",
-      "slug": "cesar-sabater",
-      "name": "C\u00e9sar Sabater",
-      "birthYear": 1976,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2018_063_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Mamen Garc\u00eda",
-        "slug": "mamen-garcia",
-        "name": "Mamen Garc\u00eda",
-        "birthYear": 1947.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "ES2018_064",
+    "slug": "es2018-064-paella-today",
+    "title": {
+        "native": "Paella Today!",
+        "english": ""
     },
-    {
-      "id": "ES2018_063_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Lolita Flores",
-        "slug": "lolita-flores",
-        "name": "Lolita Flores",
-        "birthYear": 1958.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Un concurso de paellas es el hilo conductor y la excusa para narrar las vidas de dos amigos valencianos: Pep y Vicent. Vidas que dar\u00e1n un giro de 180\u00ba con la llegada de la atractiva Lola, por la que ambos se sentir\u00e1n atra\u00eddos. A este tri\u00e1ngulo amoroso se unir\u00e1n los particulares padres de Lola, un chino experto en paellas, una madre pitonisa, un hijo con aspiraciones de influencer, y toda una galer\u00eda de pintorescos personajes.",
-    "english": "In Valencia, Spain paella is much more than a dish; it's part of the identity of every resident."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2018-03-23",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "C\u00e9sar Sabater",
+            "slug": "cesar-sabater",
+            "name": "C\u00e9sar Sabater",
+            "birthYear": 1976,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Romance",
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt6214294/mediaviewer/rm1014709760/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt6214294/?ref_=nv_sr_srsg_0_tt_5_nm_0_in_0_q_Paella%2520Today!"
+    },
+    "synopsis": {
+        "native": "Un concurso de paellas es el hilo conductor y la excusa para narrar las vidas de dos amigos valencianos: Pep y Vicent. Vidas que dar\u00e1n un giro de 180\u00ba con la llegada de la atractiva Lola, por la que ambos se sentir\u00e1n atra\u00eddos. A este tri\u00e1ngulo amoroso se unir\u00e1n los particulares padres de Lola, un chino experto en paellas, una madre pitonisa, un hijo con aspiraciones de influencer, y toda una galer\u00eda de pintorescos personajes.",
+        "english": "In Valencia, Spain paella is much more than a dish; it's part of the identity of every resident."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2018_063_01",
+            "film": "ES2018_064",
+            "person": {
+                "id": "Lolita Flores",
+                "slug": "lolita-flores",
+                "name": "Lolita Flores",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2018_063_02",
+            "film": "ES2018_064",
+            "person": {
+                "id": "Mamen Garc\u00eda",
+                "slug": "mamen-garcia",
+                "name": "Mamen Garc\u00eda",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Chimo Bayo",
+                "slug": "chimo-bayo",
+                "name": "Chimo Bayo",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "C\u00e9sar Sabater",
+                "slug": "cesar-sabater",
+                "name": "C\u00e9sar Sabater",
+                "birthYear": 1976,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Lolita Flores",
+                "slug": "lolita-flores",
+                "name": "Lolita Flores",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Mamen Garc\u00eda",
+                "slug": "mamen-garcia",
+                "name": "Mamen Garc\u00eda",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Pablo Carbonell",
+                "slug": "pablo-carbonell",
+                "name": "Pablo Carbonell",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "mass media",
+        "regional identity",
+        "motherhood",
+        "marriage",
+        "independent home"
+    ]
 }

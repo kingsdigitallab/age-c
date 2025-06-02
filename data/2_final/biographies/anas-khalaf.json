@@ -1,28 +1,51 @@
 {
-  "id": "Anas Khalaf",
-  "type": "Biography",
-  "slug": "anas-khalaf",
-  "name": "Anas Khalaf",
-  "nationality": "Syrian Arab Republic",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2021_087",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-087-le-traducteur",
-      "title": {
-        "english": "The Translator",
-        "native": "Le Traducteur"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Anas Khalaf",
+    "slug": "anas-khalaf",
+    "name": "Anas Khalaf",
+    "birthYear": 0,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Syrian Arab Republic",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_087",
+                "slug": "fr2021-087-le-traducteur",
+                "title": {
+                    "native": "Le Traducteur",
+                    "english": "The Translator"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-10-13",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Switzerland",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Syrian Arab Republic",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

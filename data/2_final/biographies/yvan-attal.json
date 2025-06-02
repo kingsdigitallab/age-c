@@ -1,63 +1,97 @@
 {
-  "id": "Yvan Attal",
-  "type": "Biography",
-  "slug": "yvan-attal",
-  "name": "Yvan Attal",
-  "birthYear": 1965,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "2: Late Middle Age (55-60)",
-      "assistedMobility": "No",
-      "class": "Upper class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Drama",
-        "id": "FR2022_181",
-        "production": {
-          "country": "Belgium",
-          "share": "Minority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2022
-        },
-        "slug": "fr2022-181-maestro-s",
-        "tags": "high rank employment",
-        "title": {
-          "english": "Maestro(s)",
-          "native": "Maestro(s)"
+    "type": "Person",
+    "id": "Yvan Attal",
+    "slug": "yvan-attal",
+    "name": "Yvan Attal",
+    "birthYear": 1965,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [
+        {
+            "id": "FR2022_181_01",
+            "film": {
+                "id": "FR2022_181",
+                "slug": "fr2022-181-maestro-s",
+                "title": {
+                    "native": "Maestro(s)",
+                    "english": "Maestro(s)"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-12-07",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Yvan Attal",
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "FR2022_181_01",
-      "origin": "White Western European",
-      "profession": "Self-employed",
-      "role": "Leading actor",
-      "sexuality": "Heterosexual"
-    }
-  ],
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2021_116",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-116-les-choses-humaines",
-      "tags": "grandfatherhood",
-      "title": {
-        "english": "The Accusation",
-        "native": "Les Choses humaines"
-      }
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_116",
+                "slug": "fr2021-116-les-choses-humaines",
+                "title": {
+                    "native": "Les Choses humaines",
+                    "english": "The Accusation"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-12-01",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2022_181",
+                "slug": "fr2022-181-maestro-s",
+                "title": {
+                    "native": "Maestro(s)",
+                    "english": "Maestro(s)"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-12-07",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        }
+    ]
 }

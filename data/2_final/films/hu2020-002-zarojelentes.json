@@ -1,71 +1,243 @@
 {
-  "id": "HU2020_002",
-  "type": "Film",
-  "slug": "hu2020-002-zarojelentes",
-  "title": {
-    "native": "Z\u00e1r\u00f3jelent\u00e9s",
-    "english": "Final Report"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-02-27",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Hungary",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=oFiQ5DIGiBw",
-    "posterUrl": "https://www.imdb.com/title/tt9701934/mediaviewer/rm579240961/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "high rank employment",
-    "return home",
-    "romance",
-    "retirement",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Istv\u00e1n Szab\u00f3",
-      "slug": "istvan-szabo",
-      "name": "Istv\u00e1n Szab\u00f3",
-      "birthYear": 1938,
-      "gender": "Male identifying",
-      "nationality": "Hungary"
-    }
-  ],
-  "character": [
-    {
-      "id": "HU2020_002_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "Central European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Klaus Maria Brandauer",
-        "slug": "klaus-maria-brandauer",
-        "name": "Klaus Maria Brandauer",
-        "birthYear": 1943.0,
-        "gender": "Male identifying",
-        "nationality": "Austria"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Stephanus professzort (Klaus Maria Brandauer) v\u00e1ratlanul nyugd\u00edjazz\u00e1k. A doktor m\u00e9g nem szeretne elszakadni hivat\u00e1s\u00e1t\u00f3l, \u00edgy elb\u00facs\u00fazik k\u00f3rh\u00e1zi koll\u00e9g\u00e1it\u00f3l, hazak\u00f6lt\u00f6zik a sz\u00fcl\u0151faluj\u00e1ba, \u00e9s \u2013 a helyiek nagy \u00f6r\u00f6m\u00e9re \u2013 k\u00f6rzeti orvosk\u00e9nt kezd dolgozni. A fiatalkori szerelme \u00e9s gyerekkori legjobb bar\u00e1tja viszontl\u00e1t\u00e1sa meg\u00e9rinti a biztons\u00e1gos k\u00f6rnyezet\u00e9b\u0151l kiszakadt doktort, \u00e1m a faluban nemcsak pozit\u00edv \u00e9lm\u00e9nyek \u00e9rik: olyan kisst\u00edl\u0171, de \u00e1rtalmas politikai csat\u00e1roz\u00e1sokba is belekeveredik, amelyek nem engedik meg, hogy belefeledkezzen a m\u00faltid\u00e9z\u00e9sbe, vagy egy \u00faj \u00e9let gondolat\u00e1val k\u00eds\u00e9rletezzen. Stephanus a saj\u00e1t k\u00e1r\u00e1n k\u00e9nytelen megtanulni, hogy a m\u00falt k\u00eds\u00e9rteteivel csak akkor sz\u00e1molhat le, ha szemben\u00e9z a jelennel.",
-    "english": "A cardiologist is sent into retirement, but he feels at loss without his work. He returns to his home village to work as a general practitioner. This is the start of his ordeal: he's confronted with raw reality, which finally brings him to his knees. But music has the last word."
-  }
+    "type": "Film",
+    "id": "HU2020_002",
+    "slug": "hu2020-002-zarojelentes",
+    "title": {
+        "native": "Z\u00e1r\u00f3jelent\u00e9s",
+        "english": "Final Report"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-02-27",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Istv\u00e1n Szab\u00f3",
+            "slug": "istvan-szabo",
+            "name": "Istv\u00e1n Szab\u00f3",
+            "birthYear": 1938,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Hungary"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9701934/mediaviewer/rm579240961/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=oFiQ5DIGiBw"
+    },
+    "synopsis": {
+        "native": "Stephanus professzort (Klaus Maria Brandauer) v\u00e1ratlanul nyugd\u00edjazz\u00e1k. A doktor m\u00e9g nem szeretne elszakadni hivat\u00e1s\u00e1t\u00f3l, \u00edgy elb\u00facs\u00fazik k\u00f3rh\u00e1zi koll\u00e9g\u00e1it\u00f3l, hazak\u00f6lt\u00f6zik a sz\u00fcl\u0151faluj\u00e1ba, \u00e9s \u2013 a helyiek nagy \u00f6r\u00f6m\u00e9re \u2013 k\u00f6rzeti orvosk\u00e9nt kezd dolgozni. A fiatalkori szerelme \u00e9s gyerekkori legjobb bar\u00e1tja viszontl\u00e1t\u00e1sa meg\u00e9rinti a biztons\u00e1gos k\u00f6rnyezet\u00e9b\u0151l kiszakadt doktort, \u00e1m a faluban nemcsak pozit\u00edv \u00e9lm\u00e9nyek \u00e9rik: olyan kisst\u00edl\u0171, de \u00e1rtalmas politikai csat\u00e1roz\u00e1sokba is belekeveredik, amelyek nem engedik meg, hogy belefeledkezzen a m\u00faltid\u00e9z\u00e9sbe, vagy egy \u00faj \u00e9let gondolat\u00e1val k\u00eds\u00e9rletezzen. Stephanus a saj\u00e1t k\u00e1r\u00e1n k\u00e9nytelen megtanulni, hogy a m\u00falt k\u00eds\u00e9rteteivel csak akkor sz\u00e1molhat le, ha szemben\u00e9z a jelennel.",
+        "english": "A cardiologist is sent into retirement, but he feels at loss without his work. He returns to his home village to work as a general practitioner. This is the start of his ordeal: he's confronted with raw reality, which finally brings him to his knees. But music has the last word."
+    },
+    "production": [
+        {
+            "country": "Hungary",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "HU2020_002_01",
+            "film": "HU2020_002",
+            "person": {
+                "id": "Klaus Maria Brandauer",
+                "slug": "klaus-maria-brandauer",
+                "name": "Klaus Maria Brandauer",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Austria"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "Central European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Andr\u00e1s B\u00e1lint",
+                "slug": "andras-balint",
+                "name": "Andr\u00e1s B\u00e1lint",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Andr\u00e1s Stohl",
+                "slug": "andras-stohl",
+                "name": "Andr\u00e1s Stohl",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Dorottya Udvaros",
+                "slug": "dorottya-udvaros",
+                "name": "Dorottya Udvaros",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Enik\u0151 B\u00f6rcs\u00f6k",
+                "slug": "eniko-borcsok",
+                "name": "Enik\u0151 B\u00f6rcs\u00f6k",
+                "birthYear": 1968,
+                "deathYear": 2021,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Eszter Cs\u00e1k\u00e1nyi",
+                "slug": "eszter-csakanyi",
+                "name": "Eszter Cs\u00e1k\u00e1nyi",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Istv\u00e1n Szab\u00f3",
+                "slug": "istvan-szabo",
+                "name": "Istv\u00e1n Szab\u00f3",
+                "birthYear": 1938,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Klaus Maria Brandauer",
+                "slug": "klaus-maria-brandauer",
+                "name": "Klaus Maria Brandauer",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Austria"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "K\u00e1roly Eperjes",
+                "slug": "karoly-eperjes",
+                "name": "K\u00e1roly Eperjes",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Mari Csom\u00f3s",
+                "slug": "mari-csomos",
+                "name": "Mari Csom\u00f3s",
+                "birthYear": 1943,
+                "deathYear": 2023,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "P\u00e9ter Andorai",
+                "slug": "peter-andorai",
+                "name": "P\u00e9ter Andorai",
+                "birthYear": 1948,
+                "deathYear": 2020,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "P\u00e9ter Barbinek",
+                "slug": "peter-barbinek",
+                "name": "P\u00e9ter Barbinek",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Tam\u00e1s Andor",
+                "slug": "tamas-andor",
+                "name": "Tam\u00e1s Andor",
+                "birthYear": 1937,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "\u00c1gi Szirtes",
+                "slug": "agi-szirtes",
+                "name": "\u00c1gi Szirtes",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "\u00c9va Kerekes",
+                "slug": "eva-kerekes",
+                "name": "\u00c9va Kerekes",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "retirement",
+        "high rank employment",
+        "return home",
+        "rural",
+        "romance"
+    ]
 }

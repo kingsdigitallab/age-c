@@ -1,101 +1,142 @@
 {
-  "id": "ES2019_058",
-  "type": "Film",
-  "slug": "es2019-058-enterrados",
-  "title": {
-    "native": "Enterrados",
-    "english": "They Buried"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-05-10",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Venezuela (Bolivarian Republic of)",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "ES2019_058",
+    "slug": "es2019-058-enterrados",
+    "title": {
+        "native": "Enterrados",
+        "english": "They Buried"
     },
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2019-05-10",
+        "year": 2019
     },
-    {
-      "country": "Argentina",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=665988",
-    "posterUrl": "https://www.imdb.com/title/tt5490896/mediaviewer/rm1063018752/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Drama"
-  ],
-  "tags": [
-    "precarity",
-    "rescue mission",
-    "intergenerational conflict",
-    "low rank employment",
-    "class conflict",
-    "homosociality"
-  ],
-  "director": [
-    {
-      "id": "Luis Trapiello",
-      "slug": "luis-trapiello",
-      "name": "Luis Trapiello",
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2019_058_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Manuel Pizarro",
-        "slug": "manuel-pizarro",
-        "name": "Manuel Pizarro",
-        "birthYear": 1951.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Luis Trapiello",
+            "slug": "luis-trapiello",
+            "name": "Luis Trapiello",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Thriller",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt5490896/mediaviewer/rm1063018752/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=665988"
     },
-    {
-      "id": "ES2019_058_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Jos\u00e9 Antonio Lobato",
-        "slug": "jose-antonio-lobato",
-        "name": "Jos\u00e9 Antonio Lobato",
-        "birthYear": 1956.0,
-        "deathYear": 2020.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Narra la historia de cinco mineros cautivos en una galer\u00eda a 600 metros de profundidad tras producirse un gran derrumbe en una mina de Asturias.",
-    "english": "A group of mine-workers try to find a way to survive after to be trapped by a collapse in the mining gallery where they were working."
-  }
+    "synopsis": {
+        "native": "Narra la historia de cinco mineros cautivos en una galer\u00eda a 600 metros de profundidad tras producirse un gran derrumbe en una mina de Asturias.",
+        "english": "A group of mine-workers try to find a way to survive after to be trapped by a collapse in the mining gallery where they were working."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Argentina",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Venezuela (Bolivarian Republic of)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2019_058_01",
+            "film": "ES2019_058",
+            "person": {
+                "id": "Jos\u00e9 Antonio Lobato",
+                "slug": "jose-antonio-lobato",
+                "name": "Jos\u00e9 Antonio Lobato",
+                "birthYear": 1956,
+                "deathYear": 2020,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "Unknown"
+        },
+        {
+            "id": "ES2019_058_02",
+            "film": "ES2019_058",
+            "person": {
+                "id": "Manuel Pizarro",
+                "slug": "manuel-pizarro",
+                "name": "Manuel Pizarro",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "Unknown"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Jos\u00e9 Antonio Lobato",
+                "slug": "jose-antonio-lobato",
+                "name": "Jos\u00e9 Antonio Lobato",
+                "birthYear": 1956,
+                "deathYear": 2020,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Luis Trapiello",
+                "slug": "luis-trapiello",
+                "name": "Luis Trapiello",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Manuel Pizarro",
+                "slug": "manuel-pizarro",
+                "name": "Manuel Pizarro",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "rescue mission",
+        "homosociality",
+        "intergenerational conflict",
+        "low rank employment",
+        "precarity",
+        "class conflict"
+    ]
 }

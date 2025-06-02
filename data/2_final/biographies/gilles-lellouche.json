@@ -1,30 +1,35 @@
 {
-  "id": "Gilles Lellouche",
-  "type": "Biography",
-  "slug": "gilles-lellouche",
-  "name": "Gilles Lellouche",
-  "birthYear": 1972,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2018_163",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-163-le-grand-bain",
-      "tags": "well-being",
-      "title": {
-        "english": "Sink or Swim",
-        "native": "Le Grand Bain"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Gilles Lellouche",
+    "slug": "gilles-lellouche",
+    "name": "Gilles Lellouche",
+    "birthYear": 1972,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_163",
+                "slug": "fr2018-163-le-grand-bain",
+                "title": {
+                    "native": "Le Grand Bain",
+                    "english": "Sink or Swim"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-10-24",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

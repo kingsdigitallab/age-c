@@ -1,48 +1,57 @@
 {
-  "id": "P\u00e9ter Bergendy",
-  "type": "Biography",
-  "slug": "peter-bergendy",
-  "name": "P\u00e9ter Bergendy",
-  "birthYear": 1964,
-  "nationality": "Hungary",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Historical film (Heritage Film)",
-      "id": "HU2018_016",
-      "production": {
-        "country": "Hungary",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "hu2018-016-trezor",
-      "tags": "power",
-      "title": {
-        "english": "Vault",
-        "native": "Trezor"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Thriller",
-      "id": "HU2021_006",
-      "production": {
-        "country": "Hungary",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "hu2021-006-post-mortem",
-      "title": {
-        "english": "Post Mortem",
-        "native": "Post Mortem"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "P\u00e9ter Bergendy",
+    "slug": "peter-bergendy",
+    "name": "P\u00e9ter Bergendy",
+    "birthYear": 1964,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Hungary",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "HU2018_016",
+                "slug": "hu2018-016-trezor",
+                "title": {
+                    "native": "Trezor",
+                    "english": "Vault"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-10-15",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "HU2021_006",
+                "slug": "hu2021-006-post-mortem",
+                "title": {
+                    "native": "Post Mortem",
+                    "english": "Post Mortem"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-10-28",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

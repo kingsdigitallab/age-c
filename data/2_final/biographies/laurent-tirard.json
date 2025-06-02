@@ -1,49 +1,65 @@
 {
-  "id": "Laurent Tirard",
-  "type": "Biography",
-  "slug": "laurent-tirard",
-  "name": "Laurent Tirard",
-  "birthYear": 1967,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Historical film (Heritage Film)",
-      "id": "FR2018_025",
-      "production": {
-        "country": "Brazil",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-025-le-retour-du-heros",
-      "tags": "high rank employment",
-      "title": {
-        "english": "Return of the Hero",
-        "native": "Le Retour du H\u00e9ros"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2021_014",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-014-le-discours",
-      "tags": "education",
-      "title": {
-        "english": "The Speech",
-        "native": "Le Discours"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Laurent Tirard",
+    "slug": "laurent-tirard",
+    "name": "Laurent Tirard",
+    "birthYear": 1967,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_025",
+                "slug": "fr2018-025-le-retour-du-heros",
+                "title": {
+                    "native": "Le Retour du H\u00e9ros",
+                    "english": "Return of the Hero"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-02-14",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Brazil",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2021_014",
+                "slug": "fr2021-014-le-discours",
+                "title": {
+                    "native": "Le Discours",
+                    "english": "The Speech"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-06-09",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

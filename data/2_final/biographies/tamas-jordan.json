@@ -1,42 +1,111 @@
 {
-  "id": "Tam\u00e1s Jord\u00e1n",
-  "type": "Biography",
-  "slug": "tamas-jordan",
-  "name": "Tam\u00e1s Jord\u00e1n",
-  "birthYear": 1943,
-  "nationality": "Hungary",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "4: Fourth Age (>75)",
-      "assistedMobility": "No",
-      "class": "Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Drama",
-        "id": "HU2021_004",
-        "production": {
-          "country": "Hungary",
-          "share": "Majority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2021
-        },
-        "slug": "hu2021-004-az-unoka",
-        "tags": "ageism",
-        "title": {
-          "english": "The Grandson",
-          "native": "Az unoka"
+    "type": "Person",
+    "id": "Tam\u00e1s Jord\u00e1n",
+    "slug": "tamas-jordan",
+    "name": "Tam\u00e1s Jord\u00e1n",
+    "birthYear": 1943,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Hungary",
+    "characters": [
+        {
+            "id": "HU2021_004_01",
+            "film": {
+                "id": "HU2021_004",
+                "slug": "hu2021-004-az-unoka",
+                "title": {
+                    "native": "Az unoka",
+                    "english": "The Grandson"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-12-21",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "person": "Tam\u00e1s Jord\u00e1n",
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "Central European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "HU2021_004_01",
-      "origin": "Central European",
-      "profession": "Retired",
-      "role": "Leading actor",
-      "sexuality": "Heterosexual"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "HU2020_013",
+                "slug": "hu2020-013-a-pasztor",
+                "title": {
+                    "native": "A P\u00e1sztor",
+                    "english": "The Shepherd"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-09-03",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "HU2021_004",
+                "slug": "hu2021-004-az-unoka",
+                "title": {
+                    "native": "Az unoka",
+                    "english": "The Grandson"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-12-21",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        },
+        {
+            "film": {
+                "id": "HU2022_004",
+                "slug": "hu2022-004-egyutt-kezdtuk",
+                "title": {
+                    "native": "Egy\u00fctt kezdt\u00fck",
+                    "english": "We Started Together"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-08-04",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ]
 }

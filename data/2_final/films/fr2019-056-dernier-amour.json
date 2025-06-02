@@ -1,73 +1,101 @@
 {
-  "id": "FR2019_056",
-  "type": "Film",
-  "slug": "fr2019-056-dernier-amour",
-  "title": {
-    "native": "Dernier Amour",
-    "english": "Casanova, Last Love"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-03-20",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=uINvs08FQrE",
-    "posterUrl": "https://medias.unifrance.org/medias/97/20/201825/format_page/dernier-amour.jpg"
-  },
-  "genre": [
-    "Historical film (Heritage Film)",
-    "Romance",
-    "Drama"
-  ],
-  "tags": [
-    "wealth",
-    "sex",
-    "desire",
-    "may-december",
-    "romance"
-  ],
-  "director": [
-    {
-      "id": "Beno\u00eet Jacquot",
-      "slug": "benoit-jacquot",
-      "name": "Beno\u00eet Jacquot",
-      "birthYear": 1947,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2019_056_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Vincent Lindon",
-        "slug": "vincent-lindon",
-        "name": "Vincent Lindon",
-        "birthYear": 1959.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Au XVIII\u00e8me si\u00e8cle, Casanova, connu pour son go\u00fbt du plaisir et du jeu, arrive \u00e0 Londres apr\u00e8s avoir d\u00fb s\u2019exiler. Dans cette ville dont il ignore tout, il rencontre \u00e0 plusieurs reprises une jeune courtisane, la Charpillon, qui l\u2019attire au point d\u2019en oublier les autres femmes. Casanova est pr\u00eat \u00e0 tout pour arriver \u00e0 ses fins mais La Charpillon se d\u00e9robe toujours sous les pr\u00e9textes les plus divers. Elle lui lance un d\u00e9fi, elle veut qu\u2019il l\u2019aime autant qu\u2019il la d\u00e9sire.",
-    "english": "London, 18th century. Casanova, famous for his taste for pleasure and gambling, arrives from Paris, forced into exile. In this city he knows nothing about, the libertine meets on several occasions a young prostitute, Marianne de Charpillon. She attracts him to the point he starts disregarding all other women. The legendary seducer is ready to do anything to get her, but la Charpillon always escapes under various excuses. She challenges Casanova: \u201cYou will only have me if you stop desiring me!\u201d"
-  }
+    "type": "Film",
+    "id": "FR2019_056",
+    "slug": "fr2019-056-dernier-amour",
+    "title": {
+        "native": "Dernier Amour",
+        "english": "Casanova, Last Love"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-03-20",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Beno\u00eet Jacquot",
+            "slug": "benoit-jacquot",
+            "name": "Beno\u00eet Jacquot",
+            "birthYear": 1947,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Historical film (Heritage Film)",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/97/20/201825/format_page/dernier-amour.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=uINvs08FQrE"
+    },
+    "synopsis": {
+        "native": "Au XVIII\u00e8me si\u00e8cle, Casanova, connu pour son go\u00fbt du plaisir et du jeu, arrive \u00e0 Londres apr\u00e8s avoir d\u00fb s\u2019exiler. Dans cette ville dont il ignore tout, il rencontre \u00e0 plusieurs reprises une jeune courtisane, la Charpillon, qui l\u2019attire au point d\u2019en oublier les autres femmes. Casanova est pr\u00eat \u00e0 tout pour arriver \u00e0 ses fins mais La Charpillon se d\u00e9robe toujours sous les pr\u00e9textes les plus divers. Elle lui lance un d\u00e9fi, elle veut qu\u2019il l\u2019aime autant qu\u2019il la d\u00e9sire.",
+        "english": "London, 18th century. Casanova, famous for his taste for pleasure and gambling, arrives from Paris, forced into exile. In this city he knows nothing about, the libertine meets on several occasions a young prostitute, Marianne de Charpillon. She attracts him to the point he starts disregarding all other women. The legendary seducer is ready to do anything to get her, but la Charpillon always escapes under various excuses. She challenges Casanova: \u201cYou will only have me if you stop desiring me!\u201d"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2019_056_01",
+            "film": "FR2019_056",
+            "person": {
+                "id": "Vincent Lindon",
+                "slug": "vincent-lindon",
+                "name": "Vincent Lindon",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Beno\u00eet Jacquot",
+                "slug": "benoit-jacquot",
+                "name": "Beno\u00eet Jacquot",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Vincent Lindon",
+                "slug": "vincent-lindon",
+                "name": "Vincent Lindon",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "desire",
+        "romance",
+        "may-december",
+        "sex",
+        "wealth"
+    ]
 }

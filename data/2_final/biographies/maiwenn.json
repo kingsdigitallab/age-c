@@ -1,30 +1,39 @@
 {
-  "id": "Ma\u00efwenn",
-  "type": "Biography",
-  "slug": "maiwenn",
-  "name": "Ma\u00efwenn",
-  "birthYear": 1976,
-  "nationality": "Algeria",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2020_091",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "fr2020-091-adn",
-      "tags": "multigenerational family",
-      "title": {
-        "english": "DNA",
-        "native": "ADN"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Ma\u00efwenn",
+    "slug": "maiwenn",
+    "name": "Ma\u00efwenn",
+    "birthYear": 1976,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "Algeria",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2020_091",
+                "slug": "fr2020-091-adn",
+                "title": {
+                    "native": "ADN",
+                    "english": "DNA"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-10-28",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Algeria",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

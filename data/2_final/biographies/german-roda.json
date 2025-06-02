@@ -1,47 +1,57 @@
 {
-  "id": "Germ\u00e1n Roda",
-  "type": "Biography",
-  "slug": "german-roda",
-  "name": "Germ\u00e1n Roda",
-  "birthYear": 1975,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Poetic mode",
-      "id": "ES2020_040",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "es2020-040-marcelino-el-mejor-payaso-del-mundo",
-      "tags": "artistic creation",
-      "title": {
-        "native": "Marcelino, el mejor payaso del mundo"
-      }
-    },
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Performative mode",
-      "id": "ES2022_112",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "es2022-112-vilas-y-sus-dobles",
-      "tags": "personal memory",
-      "title": {
-        "native": "Vilas y sus dobles"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Germ\u00e1n Roda",
+    "slug": "german-roda",
+    "name": "Germ\u00e1n Roda",
+    "birthYear": 1975,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2020_040",
+                "slug": "es2020-040-marcelino-el-mejor-payaso-del-mundo",
+                "title": {
+                    "native": "Marcelino, el mejor payaso del mundo",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-07-10",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "ES2022_112",
+                "slug": "es2022-112-vilas-y-sus-dobles",
+                "title": {
+                    "native": "Vilas y sus dobles",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-06-03",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

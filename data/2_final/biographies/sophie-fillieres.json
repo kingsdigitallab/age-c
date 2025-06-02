@@ -1,31 +1,35 @@
 {
-  "id": "Sophie Filli\u00e8res",
-  "type": "Biography",
-  "slug": "sophie-fillieres",
-  "name": "Sophie Filli\u00e8res",
-  "birthYear": 1964,
-  "deathYear": 2023,
-  "nationality": "France",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2018_044",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-044-la-belle-et-la-belle",
-      "tags": "parenthood",
-      "title": {
-        "english": "When Margaux meets Margaux",
-        "native": "La Belle et la Belle"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Sophie Filli\u00e8res",
+    "slug": "sophie-fillieres",
+    "name": "Sophie Filli\u00e8res",
+    "birthYear": 1964,
+    "deathYear": 2023,
+    "gender": "Female identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_044",
+                "slug": "fr2018-044-la-belle-et-la-belle",
+                "title": {
+                    "native": "La Belle et la Belle",
+                    "english": "When Margaux meets Margaux"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-03-14",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,131 +1,224 @@
 {
-  "id": "GB2019_003",
-  "type": "Film",
-  "slug": "gb2019-003-stan-ollie",
-  "title": {
-    "native": "Stan & Ollie"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-01-11",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Canada",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "GB2019_003",
+    "slug": "gb2019-003-stan-ollie",
+    "title": {
+        "native": "Stan & Ollie",
+        "english": ""
     },
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2019-01-11",
+        "year": 2019
     },
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=MdcBNrjc3wo",
-    "posterUrl": "https://www.imdb.com/title/tt3385524/mediaviewer/rm3227480064/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Biopic",
-    "Comedy",
-    "Drama",
-    "Historical film (Heritage Film)",
-    "Metacinema"
-  ],
-  "tags": [
-    "wealth",
-    "high rank employment",
-    "artistic creation",
-    "friendship betrayal",
-    "marriage",
-    "last mission",
-    "cultural memory",
-    "intragenerational friendship",
-    "may-december",
-    "celebrity",
-    "homosociality",
-    "physical illness",
-    "gray face",
-    "mass media",
-    "ageism",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Jon S. Baird",
-      "slug": "jon-s-baird",
-      "name": "Jon S. Baird",
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2019_003_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White North American",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Danny Huston",
-        "slug": "danny-huston",
-        "name": "Danny Huston",
-        "birthYear": 1962.0,
-        "gender": "Male identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Supporting actor"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Jon S. Baird",
+            "slug": "jon-s-baird",
+            "name": "Jon S. Baird",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Biopic",
+        "Comedy",
+        "Drama",
+        "Historical film (Heritage Film)",
+        "Metacinema"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt3385524/mediaviewer/rm3227480064/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=MdcBNrjc3wo"
     },
-    {
-      "id": "GB2019_003_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White North American",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Chronic illness",
-      "assistedMobility": "No",
-      "person": {
-        "id": "John C. Reilly",
-        "slug": "john-c-reilly",
-        "name": "John C. Reilly",
-        "birthYear": 1965.0,
-        "gender": "Male identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Leading actor"
+    "synopsis": {
+        "native": "Laurel and Hardy, the world's most famous comedy duo, attempt to reignite their film careers as they embark on what becomes their swan song: a grueling theatre tour of post-war Britain.",
+        "english": ""
     },
-    {
-      "id": "GB2019_003_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Steve Coogan",
-        "slug": "steve-coogan",
-        "name": "Steve Coogan",
-        "birthYear": 1965.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Laurel and Hardy, the world's most famous comedy duo, attempt to reignite their film careers as they embark on what becomes their swan song: a grueling theatre tour of post-war Britain."
-  }
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Canada",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2019_003_01",
+            "film": "GB2019_003",
+            "person": {
+                "id": "Danny Huston",
+                "slug": "danny-huston",
+                "name": "Danny Huston",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White North American",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2019_003_02",
+            "film": "GB2019_003",
+            "person": {
+                "id": "Steve Coogan",
+                "slug": "steve-coogan",
+                "name": "Steve Coogan",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2019_003_03",
+            "film": "GB2019_003",
+            "person": {
+                "id": "John C. Reilly",
+                "slug": "john-c-reilly",
+                "name": "John C. Reilly",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White North American",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Chronic illness",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Danny Huston",
+                "slug": "danny-huston",
+                "name": "Danny Huston",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "John C. Reilly",
+                "slug": "john-c-reilly",
+                "name": "John C. Reilly",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "John Henshaw",
+                "slug": "john-henshaw",
+                "name": "John Henshaw",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Jon S. Baird",
+                "slug": "jon-s-baird",
+                "name": "Jon S. Baird",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Richard Cant",
+                "slug": "richard-cant",
+                "name": "Richard Cant",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Steve Coogan",
+                "slug": "steve-coogan",
+                "name": "Steve Coogan",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Toby Sedgwick",
+                "slug": "toby-sedgwick",
+                "name": "Toby Sedgwick",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "friendship betrayal",
+        "physical illness",
+        "last mission",
+        "gray face",
+        "homosociality",
+        "intragenerational friendship",
+        "may-december",
+        "marriage",
+        "cultural memory",
+        "wealth",
+        "high rank employment",
+        "superior-employee relationship",
+        "celebrity",
+        "mass media",
+        "ageism"
+    ]
 }

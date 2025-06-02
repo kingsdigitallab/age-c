@@ -1,48 +1,61 @@
 {
-  "id": "Fr\u00e9d\u00e9ric Tellier",
-  "type": "Biography",
-  "slug": "frederic-tellier",
-  "name": "Fr\u00e9d\u00e9ric Tellier",
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Thriller",
-      "id": "FR2022_045",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "fr2022-045-goliath",
-      "tags": "state institutions",
-      "title": {
-        "english": "Goliath",
-        "native": "Goliath"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2018_178",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-178-sauver-ou-perir",
-      "tags": "parenthood",
-      "title": {
-        "english": "Through the Fire",
-        "native": "Sauver ou P\u00e9rir"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Fr\u00e9d\u00e9ric Tellier",
+    "slug": "frederic-tellier",
+    "name": "Fr\u00e9d\u00e9ric Tellier",
+    "birthYear": 0,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_178",
+                "slug": "fr2018-178-sauver-ou-perir",
+                "title": {
+                    "native": "Sauver ou P\u00e9rir",
+                    "english": "Through the Fire"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-11-28",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2022_045",
+                "slug": "fr2022-045-goliath",
+                "title": {
+                    "native": "Goliath",
+                    "english": "Goliath"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-03-09",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

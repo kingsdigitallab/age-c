@@ -1,29 +1,39 @@
 {
-  "id": "Joe Cornish",
-  "type": "Biography",
-  "slug": "joe-cornish",
-  "name": "Joe Cornish",
-  "birthYear": 1968,
-  "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Children's Film",
-      "id": "GB2019_007",
-      "production": {
-        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "gb2019-007-the-kid-who-would-be-king",
-      "tags": "self-employment",
-      "title": {
-        "native": "The Kid Who Would Be King"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Joe Cornish",
+    "slug": "joe-cornish",
+    "name": "Joe Cornish",
+    "birthYear": 1968,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "GB2019_007",
+                "slug": "gb2019-007-the-kid-who-would-be-king",
+                "title": {
+                    "native": "The Kid Who Would Be King",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-02-15",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

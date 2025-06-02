@@ -1,41 +1,75 @@
 {
-  "id": "Elena Uriz",
-  "type": "Biography",
-  "slug": "elena-uriz",
-  "name": "Elena Uriz",
-  "birthYear": 1944,
-  "nationality": "Spain",
-  "gender": "Female identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "4: Fourth Age (>75)",
-      "assistedMobility": "No",
-      "class": "Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Adventure",
-        "id": "ES2022_018",
-        "production": {
-          "country": "France",
-          "share": "Minority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2022
-        },
-        "slug": "es2022-018-irati",
-        "tags": "ecology",
-        "title": {
-          "native": "Irati"
+    "type": "Person",
+    "id": "Elena Uriz",
+    "slug": "elena-uriz",
+    "name": "Elena Uriz",
+    "birthYear": 1944,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "Spain",
+    "characters": [
+        {
+            "id": "ES2022_018_01",
+            "film": {
+                "id": "ES2022_018",
+                "slug": "es2022-018-irati",
+                "title": {
+                    "native": "Irati",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-12-09",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Elena Uriz",
+            "age": "4: Fourth Age (>75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Female identifying",
-      "id": "ES2022_018_01",
-      "origin": "White Western European",
-      "profession": "Self-employed",
-      "role": "Supporting actor",
-      "sexuality": "Unknown"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2022_018",
+                "slug": "es2022-018-irati",
+                "title": {
+                    "native": "Irati",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-12-09",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        }
+    ]
 }

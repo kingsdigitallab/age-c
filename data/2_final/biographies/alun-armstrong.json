@@ -1,71 +1,150 @@
 {
-  "id": "Alun Armstrong",
-  "type": "Biography",
-  "slug": "alun-armstrong",
-  "name": "Alun Armstrong",
-  "birthYear": 1946,
-  "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "4: Fourth Age (>75)",
-      "assistedMobility": "No",
-      "class": "Lower Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Horror",
-        "id": "GB2018_060",
-        "production": {
-          "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-          "share": "Majority coproducer"
+    "type": "Person",
+    "id": "Alun Armstrong",
+    "slug": "alun-armstrong",
+    "name": "Alun Armstrong",
+    "birthYear": 1946,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+    "characters": [
+        {
+            "id": "GB2018_060_01",
+            "film": {
+                "id": "GB2018_060",
+                "slug": "gb2018-060-possum",
+                "title": {
+                    "native": "Possum",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-10-26",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "person": "Alun Armstrong",
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2018
-        },
-        "slug": "gb2018-060-possum",
-        "tags": "independent home",
-        "title": {
-          "native": "Possum"
+        {
+            "id": "GB2019_030_02",
+            "film": {
+                "id": "GB2019_030",
+                "slug": "gb2019-030-out-of-innocence",
+                "title": {
+                    "native": "Out of Innocence",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-04-19",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Ireland",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Alun Armstrong",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "GB2018_060_01",
-      "origin": "White Western European",
-      "profession": "Retired",
-      "role": "Leading actor",
-      "sexuality": "Heterosexual"
-    },
-    {
-      "ability": "Able-bodied",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "No",
-      "class": "Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Drama",
-        "id": "GB2019_030",
-        "production": {
-          "country": "Ireland",
-          "share": "Minority coproducer"
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "GB2018_060",
+                "slug": "gb2018-060-possum",
+                "title": {
+                    "native": "Possum",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-10-26",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
         },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2019
+        {
+            "film": {
+                "id": "GB2019_030",
+                "slug": "gb2019-030-out-of-innocence",
+                "title": {
+                    "native": "Out of Innocence",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-04-19",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Ireland",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
         },
-        "slug": "gb2019-030-out-of-innocence",
-        "tags": "gender discrimination",
-        "title": {
-          "native": "Out of Innocence"
+        {
+            "film": {
+                "id": "GB2020_025",
+                "slug": "gb2020-025-cordelia",
+                "title": {
+                    "native": "Cordelia",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-10-23",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
         }
-      },
-      "gender": "Male identifying",
-      "id": "GB2019_030_02",
-      "origin": "White Western European",
-      "profession": "Employed",
-      "role": "Leading actor",
-      "sexuality": "Unknown"
-    }
-  ]
+    ]
 }

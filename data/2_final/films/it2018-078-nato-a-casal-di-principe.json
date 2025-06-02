@@ -1,46 +1,86 @@
 {
-  "id": "IT2018_078",
-  "type": "Film",
-  "slug": "it2018-078-nato-a-casal-di-principe",
-  "title": {
-    "native": "Nato a Casal di Principe",
-    "english": "Born in Casal Di Principe"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-04-25",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=uYYOhpGI3Qs",
-    "posterUrl": "https://www.imdb.com/title/tt7425398/mediaviewer/rm2255243264/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Drama"
-  ],
-  "tags": [
-    "organized crime"
-  ],
-  "director": [
-    {
-      "id": "Bruno Oliviero",
-      "slug": "bruno-oliviero",
-      "name": "Bruno Oliviero",
-      "birthYear": 1972,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "synopsis": {
-    "native": "Amedeo Letizia \u00e8 un ragazzo di vent\u2019anni che sul finire degli anni \u201980 si \u00e8 trasferito a Roma da Casal di Principe per inseguire la carriera di attore. Sta appena iniziando a muovere i primi passi, tra un fotoromanzo e un ruolo sul piccolo schermo in una delle fiction pi\u00f9 famose di quegli anni \"I RAGAZZI DEL MURETTO\", quando il fratello minore, Paolo, viene rapito da alcuni uomini incappucciati che ne fanno perdere le tracce. Amedeo torna nel suo paese d\u2019origine, sin da subito questo viaggio si rivela una discesa agli inferi del suo passato e nelle contraddizioni della sua terra. Poich\u00e9 l\u2019inchiesta condotta dai carabinieri si dimostra inefficace, si decide a intraprendere una sua personale ricerca, lo fa armato di un fucile e con l\u2019aiuto del cugino Marco, un ragazzino di diciassette anni. I dettagli della scomparsa affiorano via via nel corso della vicenda che vede Amedeo aggirarsi per quel territorio che va dalle campagne al mare, passando per i laghi, all\u2019affannosa ricerca di suo fratello. Insieme a Marco setaccia la zona senza sapere se cercare un cadavere o un luogo dove Paolo \u00e8 tenuto prigioniero...",
-    "english": "The story of the misterious kidnapping of a young boy in the land of Camorra, in the 1980s."
-  }
+    "type": "Film",
+    "id": "IT2018_078",
+    "slug": "it2018-078-nato-a-casal-di-principe",
+    "title": {
+        "native": "Nato a Casal di Principe",
+        "english": "Born in Casal Di Principe"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-04-25",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Bruno Oliviero",
+            "slug": "bruno-oliviero",
+            "name": "Bruno Oliviero",
+            "birthYear": 1972,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Thriller",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt7425398/mediaviewer/rm2255243264/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=uYYOhpGI3Qs"
+    },
+    "synopsis": {
+        "native": "Amedeo Letizia \u00e8 un ragazzo di vent\u2019anni che sul finire degli anni \u201980 si \u00e8 trasferito a Roma da Casal di Principe per inseguire la carriera di attore. Sta appena iniziando a muovere i primi passi, tra un fotoromanzo e un ruolo sul piccolo schermo in una delle fiction pi\u00f9 famose di quegli anni \"I RAGAZZI DEL MURETTO\", quando il fratello minore, Paolo, viene rapito da alcuni uomini incappucciati che ne fanno perdere le tracce. Amedeo torna nel suo paese d\u2019origine, sin da subito questo viaggio si rivela una discesa agli inferi del suo passato e nelle contraddizioni della sua terra. Poich\u00e9 l\u2019inchiesta condotta dai carabinieri si dimostra inefficace, si decide a intraprendere una sua personale ricerca, lo fa armato di un fucile e con l\u2019aiuto del cugino Marco, un ragazzino di diciassette anni. I dettagli della scomparsa affiorano via via nel corso della vicenda che vede Amedeo aggirarsi per quel territorio che va dalle campagne al mare, passando per i laghi, all\u2019affannosa ricerca di suo fratello. Insieme a Marco setaccia la zona senza sapere se cercare un cadavere o un luogo dove Paolo \u00e8 tenuto prigioniero...",
+        "english": "The story of the misterious kidnapping of a young boy in the land of Camorra, in the 1980s."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Antonio Pennarella",
+                "slug": "antonio-pennarella",
+                "name": "Antonio Pennarella",
+                "birthYear": 1960,
+                "deathYear": 2018,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Bruno Oliviero",
+                "slug": "bruno-oliviero",
+                "name": "Bruno Oliviero",
+                "birthYear": 1972,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Lucia Sardo",
+                "slug": "lucia-sardo",
+                "name": "Lucia Sardo",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "organized crime"
+    ]
 }

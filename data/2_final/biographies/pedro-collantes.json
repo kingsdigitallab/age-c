@@ -1,30 +1,35 @@
 {
-  "id": "Pedro Collantes",
-  "type": "Biography",
-  "slug": "pedro-collantes",
-  "name": "Pedro Collantes",
-  "birthYear": 1980,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Coming of Age",
-      "id": "ES2020_009",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "es2020-009-el-arte-de-volver",
-      "tags": "medical treatment",
-      "title": {
-        "english": "The Art of Return",
-        "native": "El arte de volver"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Pedro Collantes",
+    "slug": "pedro-collantes",
+    "name": "Pedro Collantes",
+    "birthYear": 1980,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2020_009",
+                "slug": "es2020-009-el-arte-de-volver",
+                "title": {
+                    "native": "El arte de volver",
+                    "english": "The Art of Return"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-09-12",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

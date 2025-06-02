@@ -1,105 +1,159 @@
 {
-  "id": "ES2022_041",
-  "type": "Film",
-  "slug": "es2022-041-la-voluntaria",
-  "title": {
-    "native": "La voluntaria"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-06-08",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "ES2022_041",
+    "slug": "es2022-041-la-voluntaria",
+    "title": {
+        "native": "La voluntaria",
+        "english": ""
     },
-    {
-      "country": "Greece",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=413855",
-    "posterUrl": "https://www.imdb.com/title/tt10270204/mediaviewer/rm3113359873/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "class solidarity",
-    "intergenerational friendship",
-    "supranational institutions",
-    "celibacy",
-    "intergenerational conflict",
-    "caregiving",
-    "migration",
-    "state institutions",
-    "romance",
-    "homosociality",
-    "segregation",
-    "rescue mission",
-    "retirement",
-    "interracial relationships",
-    "collective trauma",
-    "search for meaning"
-  ],
-  "director": [
-    {
-      "id": "Nely Reguera",
-      "slug": "nely-reguera",
-      "name": "Nely Reguera",
-      "birthYear": 1978,
-      "gender": "Female identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2022_041_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Giannis Tsortekis",
-        "slug": "giannis-tsortekis",
-        "name": "Giannis Tsortekis",
-        "birthYear": 1967.0,
-        "gender": "Male identifying",
-        "nationality": "Greece"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2022-06-08",
+        "year": 2022
     },
-    {
-      "id": "ES2022_041_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Carmen Machi",
-        "slug": "carmen-machi",
-        "name": "Carmen Machi",
-        "birthYear": 1963.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Cansada de su vida de jubilada, y de compararse con sus amigas que son abuelas, Marisa decide viajar a un campo de refugiados griego donde, a su parecer, necesitan a gente exactamente como ella. Al llegar all\u00ed, descubre una realidad que no habr\u00eda podido imaginar y que le lleva a explorar los l\u00edmites entre el amor y la necesidad de sentirse \u00fatil.",
-    "english": "A retired doctor, decides to travel as a volunteer to a greek refugee camp. When she meets young Ahmed, the limits between the need to take care of somebody and of feeling useful begin to fade."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Nely Reguera",
+            "slug": "nely-reguera",
+            "name": "Nely Reguera",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt10270204/mediaviewer/rm3113359873/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=413855"
+    },
+    "synopsis": {
+        "native": "Cansada de su vida de jubilada, y de compararse con sus amigas que son abuelas, Marisa decide viajar a un campo de refugiados griego donde, a su parecer, necesitan a gente exactamente como ella. Al llegar all\u00ed, descubre una realidad que no habr\u00eda podido imaginar y que le lleva a explorar los l\u00edmites entre el amor y la necesidad de sentirse \u00fatil.",
+        "english": "A retired doctor, decides to travel as a volunteer to a greek refugee camp. When she meets young Ahmed, the limits between the need to take care of somebody and of feeling useful begin to fade."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Greece",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2022_041_01",
+            "film": "ES2022_041",
+            "person": {
+                "id": "Carmen Machi",
+                "slug": "carmen-machi",
+                "name": "Carmen Machi",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2022_041_02",
+            "film": "ES2022_041",
+            "person": {
+                "id": "Giannis Tsortekis",
+                "slug": "giannis-tsortekis",
+                "name": "Giannis Tsortekis",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Greece"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Aiman Abdallah",
+                "slug": "aiman-abdallah",
+                "name": "Aiman Abdallah",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Carmen Machi",
+                "slug": "carmen-machi",
+                "name": "Carmen Machi",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Giannis Tsortekis",
+                "slug": "giannis-tsortekis",
+                "name": "Giannis Tsortekis",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Greece"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Nely Reguera",
+                "slug": "nely-reguera",
+                "name": "Nely Reguera",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "retirement",
+        "caregiving",
+        "migration",
+        "interracial relationships",
+        "celibacy",
+        "romance",
+        "collective trauma",
+        "rescue mission",
+        "search for meaning",
+        "homosociality",
+        "intergenerational conflict",
+        "intergenerational friendship",
+        "state institutions",
+        "supranational institutions",
+        "class solidarity",
+        "segregation"
+    ]
 }

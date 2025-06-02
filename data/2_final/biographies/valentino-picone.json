@@ -1,30 +1,35 @@
 {
-  "id": "Valentino Picone",
-  "type": "Biography",
-  "slug": "valentino-picone",
-  "name": "Valentino Picone",
-  "birthYear": 1971,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "IT2019_001",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2012
-      },
-      "slug": "it2019-001-il-primo-natale",
-      "tags": "religion",
-      "title": {
-        "english": "Once Upon a Time in Bethlehem",
-        "native": "Il primo Natale"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Valentino Picone",
+    "slug": "valentino-picone",
+    "name": "Valentino Picone",
+    "birthYear": 1971,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2019_001",
+                "slug": "it2019-001-il-primo-natale",
+                "title": {
+                    "native": "Il primo Natale",
+                    "english": "Once Upon a Time in Bethlehem"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2012-12-19",
+                    "year": 2012
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

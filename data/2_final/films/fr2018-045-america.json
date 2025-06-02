@@ -1,46 +1,62 @@
 {
-  "id": "FR2018_045",
-  "type": "Film",
-  "slug": "fr2018-045-america",
-  "title": {
-    "native": "America",
-    "english": "America"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-03-14",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=a7873Wwid-A",
-    "posterUrl": "https://medias.unifrance.org/medias/60/215/186172/format_page/america.jpg"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Documentary \u2013 Observational mode"
-  ],
-  "tags": [
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Claus Drexel",
-      "slug": "claus-drexel",
-      "name": "Claus Drexel",
-      "birthYear": 1968,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "Novembre 2016 : les Etats-Unis s'appr\u00eatent \u00e0 \u00e9lire leur nouveau pr\u00e9sident. America est une plong\u00e9e vertigineuse au c\u0153ur de l\u2019Arizona, \u00e0 la rencontre des habitants d\u2019une petite ville travers\u00e9e par la Route 66. Ils sont les h\u00e9ritiers caboss\u00e9s du r\u00eave am\u00e9ricain et nous livrent leurs espoirs et leurs craintes.",
-    "english": "In Nov 2016, the USA are preparing to elect its new president. We dive into the heart of Arizona, meeting the inhabitants of a small town crossed by Route 66, the battered heirs of the American dream who deliver their hopes and fears ."
-  }
+    "type": "Film",
+    "id": "FR2018_045",
+    "slug": "fr2018-045-america",
+    "title": {
+        "native": "America",
+        "english": "America"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-03-14",
+        "year": 2018
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Claus Drexel",
+            "slug": "claus-drexel",
+            "name": "Claus Drexel",
+            "birthYear": 1968,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Observational mode",
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/60/215/186172/format_page/america.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=a7873Wwid-A"
+    },
+    "synopsis": {
+        "native": "Novembre 2016 : les Etats-Unis s'appr\u00eatent \u00e0 \u00e9lire leur nouveau pr\u00e9sident. America est une plong\u00e9e vertigineuse au c\u0153ur de l\u2019Arizona, \u00e0 la rencontre des habitants d\u2019une petite ville travers\u00e9e par la Route 66. Ils sont les h\u00e9ritiers caboss\u00e9s du r\u00eave am\u00e9ricain et nous livrent leurs espoirs et leurs craintes.",
+        "english": "In Nov 2016, the USA are preparing to elect its new president. We dive into the heart of Arizona, meeting the inhabitants of a small town crossed by Route 66, the battered heirs of the American dream who deliver their hopes and fears ."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Claus Drexel",
+                "slug": "claus-drexel",
+                "name": "Claus Drexel",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "rural"
+    ]
 }

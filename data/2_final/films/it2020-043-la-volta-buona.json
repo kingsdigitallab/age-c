@@ -1,71 +1,111 @@
 {
-  "id": "IT2020_043",
-  "type": "Film",
-  "slug": "it2020-043-la-volta-buona",
-  "title": {
-    "native": "La volta buona",
-    "english": "The Good One"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-07-02",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=OTU1a9UseFU",
-    "posterUrl": "https://www.imdb.com/title/tt10204756/mediaviewer/rm611616769/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Sports Film",
-    "Drama"
-  ],
-  "tags": [
-    "mentorship",
-    "precarity",
-    "intergenerational friendship",
-    "search for meaning"
-  ],
-  "director": [
-    {
-      "id": "Vincenzo Marra",
-      "slug": "vincenzo-marra",
-      "name": "Vincenzo Marra",
-      "birthYear": 1972,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2020_043_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Massimo Ghini",
-        "slug": "massimo-ghini",
-        "name": "Massimo Ghini",
-        "birthYear": 1954.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Bartolomeo, procuratore sportivo, vive di espedienti e piccoli imbrogli. Negli anni ha sprecato le tante occasioni che ha avuto, il vizio del gioco gli ha fatto perdere soldi e famiglia e ora passa le giornate nei campetti di periferia sperando di trovare il nuovo Maradona. Sempre alla ricerca del colpo di fortuna, un giorno riceve una telefonata: in Uruguay c\u2019\u00e8 un ragazzino, Pablito, che \u00e8 un vero fenomeno, un fuoriclasse che sicuramente sfonder\u00e0 nel calcio italiano. Per Bartolomeo \u00e8 finalmente arrivata l\u2019occasione per riprendersi tutto quello che ha perso. Per Pablito si pu\u00f2 realizzare il sogno di una vita migliore. Per entrambi sembra essere la volta buona\u2026",
-    "english": "An Italian football sports agent looking for young talents finds an Uruguay child prodigy and helps him starting a career into Italian football to fulfill a lifelong dream of success and fame."
-  }
+    "type": "Film",
+    "id": "IT2020_043",
+    "slug": "it2020-043-la-volta-buona",
+    "title": {
+        "native": "La volta buona",
+        "english": "The Good One"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-07-02",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Vincenzo Marra",
+            "slug": "vincenzo-marra",
+            "name": "Vincenzo Marra",
+            "birthYear": 1972,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Sports Film",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt10204756/mediaviewer/rm611616769/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=OTU1a9UseFU"
+    },
+    "synopsis": {
+        "native": "Bartolomeo, procuratore sportivo, vive di espedienti e piccoli imbrogli. Negli anni ha sprecato le tante occasioni che ha avuto, il vizio del gioco gli ha fatto perdere soldi e famiglia e ora passa le giornate nei campetti di periferia sperando di trovare il nuovo Maradona. Sempre alla ricerca del colpo di fortuna, un giorno riceve una telefonata: in Uruguay c\u2019\u00e8 un ragazzino, Pablito, che \u00e8 un vero fenomeno, un fuoriclasse che sicuramente sfonder\u00e0 nel calcio italiano. Per Bartolomeo \u00e8 finalmente arrivata l\u2019occasione per riprendersi tutto quello che ha perso. Per Pablito si pu\u00f2 realizzare il sogno di una vita migliore. Per entrambi sembra essere la volta buona\u2026",
+        "english": "An Italian football sports agent looking for young talents finds an Uruguay child prodigy and helps him starting a career into Italian football to fulfill a lifelong dream of success and fame."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2020_043_01",
+            "film": "IT2020_043",
+            "person": {
+                "id": "Massimo Ghini",
+                "slug": "massimo-ghini",
+                "name": "Massimo Ghini",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Massimo Ghini",
+                "slug": "massimo-ghini",
+                "name": "Massimo Ghini",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Max Tortora",
+                "slug": "max-tortora",
+                "name": "Max Tortora",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Vincenzo Marra",
+                "slug": "vincenzo-marra",
+                "name": "Vincenzo Marra",
+                "birthYear": 1972,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "precarity",
+        "search for meaning",
+        "intergenerational friendship",
+        "mentorship"
+    ]
 }

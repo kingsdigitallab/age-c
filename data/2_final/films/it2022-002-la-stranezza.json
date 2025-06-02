@@ -1,72 +1,125 @@
 {
-  "id": "IT2022_002",
-  "type": "Film",
-  "slug": "it2022-002-la-stranezza",
-  "title": {
-    "native": "La stranezza",
-    "english": "Strangeness"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-10-27",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=7QrFC80FN4k",
-    "posterUrl": "https://www.imdb.com/title/tt17374778/mediaviewer/rm4126541313/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Historical film (Heritage Film)",
-    "Drama",
-    "Biopic"
-  ],
-  "tags": [
-    "regional identity",
-    "intergenerational friendship",
-    "artistic creation"
-  ],
-  "director": [
-    {
-      "id": "Roberto And\u00f2",
-      "slug": "roberto-ando",
-      "name": "Roberto And\u00f2",
-      "birthYear": 1959,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2022_002_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Toni Servillo",
-        "slug": "toni-servillo",
-        "name": "Toni Servillo",
-        "birthYear": 1959.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Nel 1920 in Sicilia per un breve soggiorno, Luigi Pirandello s\u2019imbatte in un imprevisto che lo porter\u00e0 a incontrare due singolari figure di teatranti, Onofrio Principato e Sebastiano Vella, due dilettanti che stanno provando con gli attori della loro filodrammatica un nuovo spettacolo. L\u2019incontro tra il geniale autore dei Sei personaggi in cerca d\u2019autore e questa scalcinata compagnia amatoriale sar\u00e0 foriero di molte sorprese.",
-    "english": "During a trip to Sicily in 1920, Luigi Pirandello meets Onofrio Principato and Sebastiano Vella, two actors rehearsing a new show with the actors of their amateur dramatics. This meeting brings great surprises."
-  }
+    "type": "Film",
+    "id": "IT2022_002",
+    "slug": "it2022-002-la-stranezza",
+    "title": {
+        "native": "La stranezza",
+        "english": "Strangeness"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-10-27",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Roberto And\u00f2",
+            "slug": "roberto-ando",
+            "name": "Roberto And\u00f2",
+            "birthYear": 1959,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Drama",
+        "Biopic",
+        "Historical film (Heritage Film)"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt17374778/mediaviewer/rm4126541313/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=7QrFC80FN4k"
+    },
+    "synopsis": {
+        "native": "Nel 1920 in Sicilia per un breve soggiorno, Luigi Pirandello s\u2019imbatte in un imprevisto che lo porter\u00e0 a incontrare due singolari figure di teatranti, Onofrio Principato e Sebastiano Vella, due dilettanti che stanno provando con gli attori della loro filodrammatica un nuovo spettacolo. L\u2019incontro tra il geniale autore dei Sei personaggi in cerca d\u2019autore e questa scalcinata compagnia amatoriale sar\u00e0 foriero di molte sorprese.",
+        "english": "During a trip to Sicily in 1920, Luigi Pirandello meets Onofrio Principato and Sebastiano Vella, two actors rehearsing a new show with the actors of their amateur dramatics. This meeting brings great surprises."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2022_002_01",
+            "film": "IT2022_002",
+            "person": {
+                "id": "Toni Servillo",
+                "slug": "toni-servillo",
+                "name": "Toni Servillo",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Aurora Quattrocchi",
+                "slug": "aurora-quattrocchi",
+                "name": "Aurora Quattrocchi",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Renato Carpentieri",
+                "slug": "renato-carpentieri",
+                "name": "Renato Carpentieri",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Roberto And\u00f2",
+                "slug": "roberto-ando",
+                "name": "Roberto And\u00f2",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Toni Servillo",
+                "slug": "toni-servillo",
+                "name": "Toni Servillo",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "regional identity",
+        "artistic creation",
+        "regional identity",
+        "intergenerational friendship"
+    ]
 }

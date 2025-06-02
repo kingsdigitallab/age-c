@@ -1,30 +1,35 @@
 {
-  "id": "Luis Tinoco",
-  "type": "Biography",
-  "slug": "luis-tinoco",
-  "name": "Luis Tinoco",
-  "birthYear": 1978,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Science Fiction",
-      "id": "ES2022_079",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "es2022-079-la-paradoja-de-antares",
-      "tags": "fatherhood",
-      "title": {
-        "english": "The Antares Paradox",
-        "native": "La paradoja de Antares"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Luis Tinoco",
+    "slug": "luis-tinoco",
+    "name": "Luis Tinoco",
+    "birthYear": 1978,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2022_079",
+                "slug": "es2022-079-la-paradoja-de-antares",
+                "title": {
+                    "native": "La paradoja de Antares",
+                    "english": "The Antares Paradox"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-11-18",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

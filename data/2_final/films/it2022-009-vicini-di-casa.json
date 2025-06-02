@@ -1,69 +1,97 @@
 {
-  "id": "IT2022_009",
-  "type": "Film",
-  "slug": "it2022-009-vicini-di-casa",
-  "title": {
-    "native": "Vicini di casa",
-    "english": "Marriages"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-12-01",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=Nw4hr3K1Kew",
-    "posterUrl": "https://www.imdb.com/title/tt15384690/mediaviewer/rm1267336705/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "separation",
-    "marriage",
-    "sex"
-  ],
-  "director": [
-    {
-      "id": "Paolo Costella",
-      "slug": "paolo-costella",
-      "name": "Paolo Costella",
-      "birthYear": 1964,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2022_009_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Claudio Bisio",
-        "slug": "claudio-bisio",
-        "name": "Claudio Bisio",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Giulio e Federica (Claudio Bisio e Vittoria Puccini) stanno insieme da molti anni ma il loro matrimonio non funziona pi\u00f9 come una volta. A malapena si parlano e solo per punzecchiarsi, i conflitti quotidiani sono diventati la norma. Una sera Federica decide di invitare i nuovi vicini del piano di sopra, Laura e Salvatore (Valentina Lodovini e Vinicio Marchioni), una coppia affiatata, vitale, vivace e spesso \u201crumorosa\u201d. I due faranno loro una proposta provocatoria che cambier\u00e0 la sorte della serata con conseguenze sorprendenti...",
-    "english": "Two couples explore the complexities of modern day relationships."
-  }
+    "type": "Film",
+    "id": "IT2022_009",
+    "slug": "it2022-009-vicini-di-casa",
+    "title": {
+        "native": "Vicini di casa",
+        "english": "Marriages"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-12-01",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Paolo Costella",
+            "slug": "paolo-costella",
+            "name": "Paolo Costella",
+            "birthYear": 1964,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt15384690/mediaviewer/rm1267336705/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=Nw4hr3K1Kew"
+    },
+    "synopsis": {
+        "native": "Giulio e Federica (Claudio Bisio e Vittoria Puccini) stanno insieme da molti anni ma il loro matrimonio non funziona pi\u00f9 come una volta. A malapena si parlano e solo per punzecchiarsi, i conflitti quotidiani sono diventati la norma. Una sera Federica decide di invitare i nuovi vicini del piano di sopra, Laura e Salvatore (Valentina Lodovini e Vinicio Marchioni), una coppia affiatata, vitale, vivace e spesso \u201crumorosa\u201d. I due faranno loro una proposta provocatoria che cambier\u00e0 la sorte della serata con conseguenze sorprendenti...",
+        "english": "Two couples explore the complexities of modern day relationships."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2022_009_01",
+            "film": "IT2022_009",
+            "person": {
+                "id": "Claudio Bisio",
+                "slug": "claudio-bisio",
+                "name": "Claudio Bisio",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Claudio Bisio",
+                "slug": "claudio-bisio",
+                "name": "Claudio Bisio",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Paolo Costella",
+                "slug": "paolo-costella",
+                "name": "Paolo Costella",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "marriage",
+        "sex",
+        "separation"
+    ]
 }

@@ -1,67 +1,96 @@
 {
-  "id": "IT2023_038",
-  "type": "Film",
-  "slug": "it2023-038-una-commedia-pericolosa",
-  "title": {
-    "native": "Una commedia pericolosa"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-08-30",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=nel8YavYZng",
-    "posterUrl": "https://www.imdb.com/title/tt23049210/mediaviewer/rm2817809665/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Crime"
-  ],
-  "tags": [
-    "low rank employment"
-  ],
-  "director": [
-    {
-      "id": "Alessandro Pondi",
-      "slug": "alessandro-pondi",
-      "name": "Alessandro Pondi",
-      "birthYear": 1972,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2023_038_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Enrico Brignano",
-        "slug": "enrico-brignano",
-        "name": "Enrico Brignano",
-        "birthYear": 1966.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Da quando a sette anni vide per la prima volta un film di James Bond, Maurilio Fattardi sogna di diventare un agente segreto. Oggi \u00e8 responsabile della sicurezza di un centro commerciale e si fa chiamare Agente Mao. Vive da solo in un appartamento a Roma e dalla sua finestra sul cortile spia i condomini, di cui sa tutto! Proprio nell'appartamento di fronte si trasferisce una donna molto attraente: \u00e8 Rita, una hostess di linea un po\u2019 malinconica. Una sera Maurilio assiste ad una furiosa litigata tra lei e uno sconosciuto. Le ombre che intravede suggeriscono che l\u2019uomo le sta mettendo le mani al collo. Questo \u00e8 omicidio! Ma quando Maurilio arriva nell\u2019appartamento di Rita in compagnia della polizia il cadavere non si trova. Per giunta, sulla porta appare Rita che li guarda allibita. Maurilio sembra l\u2019unico a credere a ci\u00f2 che ha visto e inizia una indagine privata e rocambolesca, coinvolgendo la bella vicina di casa. La verit\u00e0 non \u00e8 mai quel che sembra e ognuno cerca di nascondere i propri segreti. Indizio dopo indizio, nonostante tutto sembri giocare contro di loro, i due riusciranno a ricostruire una serie di segreti e a scoprire la verit\u00e0, quella vera per\u00f2. E non solo.",
-    "english": "Dreaming of being a secret agent, Maurilio begins an investigation when a stranger kills his neighbour. But she is not dead! She starts looking for clues with him\u2026"
-  }
+    "type": "Film",
+    "id": "IT2023_038",
+    "slug": "it2023-038-una-commedia-pericolosa",
+    "title": {
+        "native": "Una commedia pericolosa",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-08-30",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Alessandro Pondi",
+            "slug": "alessandro-pondi",
+            "name": "Alessandro Pondi",
+            "birthYear": 1972,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Crime"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt23049210/mediaviewer/rm2817809665/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=nel8YavYZng"
+    },
+    "synopsis": {
+        "native": "Da quando a sette anni vide per la prima volta un film di James Bond, Maurilio Fattardi sogna di diventare un agente segreto. Oggi \u00e8 responsabile della sicurezza di un centro commerciale e si fa chiamare Agente Mao. Vive da solo in un appartamento a Roma e dalla sua finestra sul cortile spia i condomini, di cui sa tutto! Proprio nell'appartamento di fronte si trasferisce una donna molto attraente: \u00e8 Rita, una hostess di linea un po\u2019 malinconica. Una sera Maurilio assiste ad una furiosa litigata tra lei e uno sconosciuto. Le ombre che intravede suggeriscono che l\u2019uomo le sta mettendo le mani al collo. Questo \u00e8 omicidio! Ma quando Maurilio arriva nell\u2019appartamento di Rita in compagnia della polizia il cadavere non si trova. Per giunta, sulla porta appare Rita che li guarda allibita. Maurilio sembra l\u2019unico a credere a ci\u00f2 che ha visto e inizia una indagine privata e rocambolesca, coinvolgendo la bella vicina di casa. La verit\u00e0 non \u00e8 mai quel che sembra e ognuno cerca di nascondere i propri segreti. Indizio dopo indizio, nonostante tutto sembri giocare contro di loro, i due riusciranno a ricostruire una serie di segreti e a scoprire la verit\u00e0, quella vera per\u00f2. E non solo.",
+        "english": "Dreaming of being a secret agent, Maurilio begins an investigation when a stranger kills his neighbour. But she is not dead! She starts looking for clues with him\u2026"
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2023_038_01",
+            "film": "IT2023_038",
+            "person": {
+                "id": "Enrico Brignano",
+                "slug": "enrico-brignano",
+                "name": "Enrico Brignano",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alessandro Pondi",
+                "slug": "alessandro-pondi",
+                "name": "Alessandro Pondi",
+                "birthYear": 1972,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Enrico Brignano",
+                "slug": "enrico-brignano",
+                "name": "Enrico Brignano",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "low rank employment"
+    ]
 }

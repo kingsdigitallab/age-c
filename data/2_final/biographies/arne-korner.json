@@ -1,29 +1,35 @@
 {
-  "id": "Arne K\u00f6rner",
-  "type": "Biography",
-  "slug": "arne-korner",
-  "name": "Arne K\u00f6rner",
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "DE2021_013",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "de2021-013-gasmann",
-      "tags": "cultural memory",
-      "title": {
-        "english": "Gasman",
-        "native": "Gasmann"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Arne K\u00f6rner",
+    "slug": "arne-korner",
+    "name": "Arne K\u00f6rner",
+    "birthYear": 0,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2021_013",
+                "slug": "de2021-013-gasmann",
+                "title": {
+                    "native": "Gasmann",
+                    "english": "Gasman"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-07-22",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

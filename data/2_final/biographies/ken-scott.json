@@ -1,30 +1,51 @@
 {
-  "id": "Ken Scott",
-  "type": "Biography",
-  "slug": "ken-scott",
-  "name": "Ken Scott",
-  "birthYear": 1970,
-  "nationality": "Canada",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2018_095",
-      "production": {
-        "country": "India",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-095-l-extraordinaire-voyage-du-fakir",
-      "tags": "low rank employment",
-      "title": {
-        "english": "The Extraordinary Journey of the Fakir",
-        "native": "L'Extraordinaire Voyage du fakir"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Ken Scott",
+    "slug": "ken-scott",
+    "name": "Ken Scott",
+    "birthYear": 1970,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Canada",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_095",
+                "slug": "fr2018-095-l-extraordinaire-voyage-du-fakir",
+                "title": {
+                    "native": "L'Extraordinaire Voyage du fakir",
+                    "english": "The Extraordinary Journey of the Fakir"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-05-30",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "India",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Singapore",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

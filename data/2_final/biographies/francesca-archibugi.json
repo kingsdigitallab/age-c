@@ -1,48 +1,61 @@
 {
-  "id": "Francesca Archibugi",
-  "type": "Biography",
-  "slug": "francesca-archibugi",
-  "name": "Francesca Archibugi",
-  "birthYear": 1960,
-  "nationality": "Italy",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "IT2022_004",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "it2022-004-il-colibri",
-      "tags": "physical illness",
-      "title": {
-        "english": "The hummingbird",
-        "native": "Il colibr\u00ec"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Romance",
-      "id": "IT2019_035",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "it2019-035-vivere",
-      "tags": "may-december",
-      "title": {
-        "native": "Vivere"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Francesca Archibugi",
+    "slug": "francesca-archibugi",
+    "name": "Francesca Archibugi",
+    "birthYear": 1960,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2019_035",
+                "slug": "it2019-035-vivere",
+                "title": {
+                    "native": "Vivere",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-09-26",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2022_004",
+                "slug": "it2022-004-il-colibri",
+                "title": {
+                    "native": "Il colibr\u00ec",
+                    "english": "The hummingbird"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-10-14",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

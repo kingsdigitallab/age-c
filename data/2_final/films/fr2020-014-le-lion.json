@@ -1,51 +1,91 @@
 {
-  "id": "FR2020_014",
-  "type": "Film",
-  "slug": "fr2020-014-le-lion",
-  "title": {
-    "native": "Le Lion",
-    "english": "The Lion"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-01-29",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2020_014",
+    "slug": "fr2020-014-le-lion",
+    "title": {
+        "native": "Le Lion",
+        "english": "The Lion"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=03PIEr72oyM",
-    "posterUrl": "https://medias.unifrance.org/medias/135/70/214663/format_page/le-lion.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Spy Film"
-  ],
-  "tags": [
-    "self-employment",
-    "low rank employment"
-  ],
-  "director": [
-    {
-      "id": "Ludovic Colbeau-Justin",
-      "slug": "ludovic-colbeau-justin",
-      "name": "Ludovic Colbeau-Justin",
-      "birthYear": 1972,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Pour l\u2019aider \u00e0 retrouver sa fianc\u00e9e disparue, Romain, m\u00e9decin en h\u00f4pital psychiatrique, n\u2019a d\u2019autre choix que de faire \u00e9vader l\u2019un de ses patients, L\u00e9o Milan, qui pr\u00e9tend \u00eatre un agent secret\u2026 Mais Romain n\u2019est pas tout \u00e0 fait s\u00fbr d\u2019avoir fait le bon choix : L\u00e9o, dit \u00ab le Lion \u00bb, est-il vraiment un agent secret ou simplement un gros mytho ?",
-    "english": "Straight-laced shrink Romain is fascinated by his new psych ward patient L\u00e9o Milan, who claims to be a highly-trained international spy, code-named \u201cThe Lion\u201d. But of course, that\u2019s just crazy talk, right? Maybe not. When Romain\u2019s fianc\u00e9e is kidnapped before his very eyes, just as The Lion predicted, Romain realizes that L\u00e9o is the only one who seems to know what\u2019s going on. And only he has the skills to rescue her. Desperate, Romain breaks out The Lion and does his best to keep up with him, in a frantic chase across Paris to rescue Louise and protect France\u2019s central bank from the heist of the century."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2020-01-29",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Ludovic Colbeau-Justin",
+            "slug": "ludovic-colbeau-justin",
+            "name": "Ludovic Colbeau-Justin",
+            "birthYear": 1972,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Spy Film"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/135/70/214663/format_page/le-lion.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=03PIEr72oyM"
+    },
+    "synopsis": {
+        "native": "Pour l\u2019aider \u00e0 retrouver sa fianc\u00e9e disparue, Romain, m\u00e9decin en h\u00f4pital psychiatrique, n\u2019a d\u2019autre choix que de faire \u00e9vader l\u2019un de ses patients, L\u00e9o Milan, qui pr\u00e9tend \u00eatre un agent secret\u2026 Mais Romain n\u2019est pas tout \u00e0 fait s\u00fbr d\u2019avoir fait le bon choix : L\u00e9o, dit \u00ab le Lion \u00bb, est-il vraiment un agent secret ou simplement un gros mytho ?",
+        "english": "Straight-laced shrink Romain is fascinated by his new psych ward patient L\u00e9o Milan, who claims to be a highly-trained international spy, code-named \u201cThe Lion\u201d. But of course, that\u2019s just crazy talk, right? Maybe not. When Romain\u2019s fianc\u00e9e is kidnapped before his very eyes, just as The Lion predicted, Romain realizes that L\u00e9o is the only one who seems to know what\u2019s going on. And only he has the skills to rescue her. Desperate, Romain breaks out The Lion and does his best to keep up with him, in a frantic chase across Paris to rescue Louise and protect France\u2019s central bank from the heist of the century."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Ludovic Colbeau-Justin",
+                "slug": "ludovic-colbeau-justin",
+                "name": "Ludovic Colbeau-Justin",
+                "birthYear": 1972,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Nicolas Brian\u00e7on",
+                "slug": "nicolas-briancon",
+                "name": "Nicolas Brian\u00e7on",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Philippe Duquesne",
+                "slug": "philippe-duquesne",
+                "name": "Philippe Duquesne",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "self-employment",
+        "low rank employment"
+    ]
 }

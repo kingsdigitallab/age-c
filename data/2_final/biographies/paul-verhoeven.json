@@ -1,30 +1,65 @@
 {
-  "id": "Paul Verhoeven",
-  "type": "Biography",
-  "slug": "paul-verhoeven",
-  "name": "Paul Verhoeven",
-  "birthYear": 1938,
-  "nationality": "Netherlands (the)",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2021_032",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-032-benedetta",
-      "tags": "religion",
-      "title": {
-        "english": "Benedetta",
-        "native": "Benedetta"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Paul Verhoeven",
+    "slug": "paul-verhoeven",
+    "name": "Paul Verhoeven",
+    "birthYear": 1938,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Netherlands (the)",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2019_235",
+                "slug": "fr2019-235-phil-tippett-mad-dreams-and-monsters",
+                "title": {
+                    "native": "Phil Tippett : Mad Dreams and Monsters",
+                    "english": "Phil Tippett : Mad Dreams and Monsters"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": null,
+                    "year": 0
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "film": {
+                "id": "FR2021_032",
+                "slug": "fr2021-032-benedetta",
+                "title": {
+                    "native": "Benedetta",
+                    "english": "Benedetta"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-07-09",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Netherlands (the)",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

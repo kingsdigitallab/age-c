@@ -1,56 +1,84 @@
 {
-  "id": "FR2020_078",
-  "type": "Film",
-  "slug": "fr2020-078-les-heros-ne-meurent-jamais",
-  "title": {
-    "native": "Les h\u00e9ros ne meurent jamais",
-    "english": "Heroes Don't Die"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-09-30",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2020_078",
+    "slug": "fr2020-078-les-heros-ne-meurent-jamais",
+    "title": {
+        "native": "Les h\u00e9ros ne meurent jamais",
+        "english": "Heroes Don't Die"
     },
-    {
-      "country": "Bosnia and Herzegovina",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2020-09-30",
+        "year": 2020
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=Y8lUcoPKTbg",
-    "posterUrl": "https://medias.unifrance.org/medias/18/125/228626/format_page/les-heros-ne-meurent-jamais.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "collective trauma",
-    "personal trauma",
-    "personal memory",
-    "cultural memory"
-  ],
-  "director": [
-    {
-      "id": "Aude L\u00e9a Rapin",
-      "slug": "aude-lea-rapin",
-      "name": "Aude L\u00e9a Rapin",
-      "birthYear": 1984,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Dans une rue de Paris, un inconnu croit reconnaitre en Joachim un soldat mort en Bosnie le 21 ao\u00fbt 1983. Or, le 21 ao\u00fbt 1983 est le jour m\u00eame de la naissance de Joachim ! Troubl\u00e9 par la possibilit\u00e9 d\u2019\u00eatre la r\u00e9incarnation de cet homme, il d\u00e9cide de partir pour Sarajevo avec ses amies Alice et Virginie. Dans ce pays hant\u00e9 par les fant\u00f4mes de la guerre, ils se lancent corps et \u00e2me sur les traces de la vie ant\u00e9rieure de Joachim.",
-    "english": "After being violently called out by a stranger, Joachim believes he is the reincarnation of a Serbian soldier who died on the very day he was born. He embarks with his friend Alice and a small film crew on a journey to Bosnia to track back details of his former life. In a country haunted by war, Alice will manage to make him reach immortality."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Aude L\u00e9a Rapin",
+            "slug": "aude-lea-rapin",
+            "name": "Aude L\u00e9a Rapin",
+            "birthYear": 1984,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/18/125/228626/format_page/les-heros-ne-meurent-jamais.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=Y8lUcoPKTbg"
+    },
+    "synopsis": {
+        "native": "Dans une rue de Paris, un inconnu croit reconnaitre en Joachim un soldat mort en Bosnie le 21 ao\u00fbt 1983. Or, le 21 ao\u00fbt 1983 est le jour m\u00eame de la naissance de Joachim ! Troubl\u00e9 par la possibilit\u00e9 d\u2019\u00eatre la r\u00e9incarnation de cet homme, il d\u00e9cide de partir pour Sarajevo avec ses amies Alice et Virginie. Dans ce pays hant\u00e9 par les fant\u00f4mes de la guerre, ils se lancent corps et \u00e2me sur les traces de la vie ant\u00e9rieure de Joachim.",
+        "english": "After being violently called out by a stranger, Joachim believes he is the reincarnation of a Serbian soldier who died on the very day he was born. He embarks with his friend Alice and a small film crew on a journey to Bosnia to track back details of his former life. In a country haunted by war, Alice will manage to make him reach immortality."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Bosnia and Herzegovina",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Aude L\u00e9a Rapin",
+                "slug": "aude-lea-rapin",
+                "name": "Aude L\u00e9a Rapin",
+                "birthYear": 1984,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Hasija Boric",
+                "slug": "hasija-boric",
+                "name": "Hasija Boric",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Bosnia and Herzegovina"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "personal memory",
+        "cultural memory",
+        "personal trauma",
+        "collective trauma"
+    ]
 }

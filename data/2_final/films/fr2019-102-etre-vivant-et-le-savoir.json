@@ -1,49 +1,89 @@
 {
-  "id": "FR2019_102",
-  "type": "Film",
-  "slug": "fr2019-102-etre-vivant-et-le-savoir",
-  "title": {
-    "native": "\u00catre vivant et le savoir",
-    "english": "Living and Knowing You're Alive"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-06-05",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=cVM3FXvahLc",
-    "posterUrl": "https://medias.unifrance.org/medias/155/33/205211/format_page/etre-vivant-et-le-savoir.jpg"
-  },
-  "genre": [
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "hospital",
-    "artistic creation",
-    "self-employment",
-    "cross-gender friendship",
-    "physical illness"
-  ],
-  "director": [
-    {
-      "id": "Alain Cavalier",
-      "slug": "alain-cavalier",
-      "name": "Alain Cavalier",
-      "birthYear": 1931,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Emmanu\u00e8le Bernheim et Alain Cavalier sont li\u00e9s par trente ans d\u2019amiti\u00e9. Ils pr\u00e9parent un film d\u2019apr\u00e8s le livre autobiographique de la romanci\u00e8re : Tout s\u2019est bien pass\u00e9. Elle y raconte comment son p\u00e8re lui a demand\u00e9 \u00ab d\u2019en finir \u00bb \u00e0 la suite d\u2019un accident cardio-vasculaire. Cavalier lui propose de tenir son propre r\u00f4le et que lui, soit son p\u00e8re. Un matin d\u2019hiver, Emmanu\u00e8le t\u00e9l\u00e9phone \u00e0 Alain ; il faudra retarder le tournage jusqu\u2019au printemps, elle est op\u00e9r\u00e9e d\u2019urgence.",
-    "english": "Director Alain learns that his friend, writer Emmanu\u00e8le, has been diagnosed with cancer. He plans to adapt her book about her dying father - starring her and himself as the father. But her illness prevents the realization of the project."
-  }
+    "type": "Film",
+    "id": "FR2019_102",
+    "slug": "fr2019-102-etre-vivant-et-le-savoir",
+    "title": {
+        "native": "\u00catre vivant et le savoir",
+        "english": "Living and Knowing You're Alive"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-06-05",
+        "year": 2019
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Alain Cavalier",
+            "slug": "alain-cavalier",
+            "name": "Alain Cavalier",
+            "birthYear": 1931,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Performative mode"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/155/33/205211/format_page/etre-vivant-et-le-savoir.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=cVM3FXvahLc"
+    },
+    "synopsis": {
+        "native": "Emmanu\u00e8le Bernheim et Alain Cavalier sont li\u00e9s par trente ans d\u2019amiti\u00e9. Ils pr\u00e9parent un film d\u2019apr\u00e8s le livre autobiographique de la romanci\u00e8re : Tout s\u2019est bien pass\u00e9. Elle y raconte comment son p\u00e8re lui a demand\u00e9 \u00ab d\u2019en finir \u00bb \u00e0 la suite d\u2019un accident cardio-vasculaire. Cavalier lui propose de tenir son propre r\u00f4le et que lui, soit son p\u00e8re. Un matin d\u2019hiver, Emmanu\u00e8le t\u00e9l\u00e9phone \u00e0 Alain ; il faudra retarder le tournage jusqu\u2019au printemps, elle est op\u00e9r\u00e9e d\u2019urgence.",
+        "english": "Director Alain learns that his friend, writer Emmanu\u00e8le, has been diagnosed with cancer. He plans to adapt her book about her dying father - starring her and himself as the father. But her illness prevents the realization of the project."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Alain Cavalier",
+                "slug": "alain-cavalier",
+                "name": "Alain Cavalier",
+                "birthYear": 1931,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Alain Cavalier",
+                "slug": "alain-cavalier",
+                "name": "Alain Cavalier",
+                "birthYear": 1931,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Emmanu\u00e8le Bernheim",
+                "slug": "emmanuele-bernheim",
+                "name": "Emmanu\u00e8le Bernheim",
+                "birthYear": 1955,
+                "deathYear": 2017,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "cross-gender friendship",
+        "artistic creation",
+        "self-employment",
+        "physical illness",
+        "hospital"
+    ]
 }

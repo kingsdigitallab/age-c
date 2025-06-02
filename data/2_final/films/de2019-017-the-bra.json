@@ -1,73 +1,158 @@
 {
-  "id": "DE2019_017",
-  "type": "Film",
-  "slug": "de2019-017-the-bra",
-  "title": {
-    "native": "The Bra",
-    "english": "The Bra"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-03-07",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "DE2019_017",
+    "slug": "de2019-017-the-bra",
+    "title": {
+        "native": "The Bra",
+        "english": "The Bra"
     },
-    {
-      "country": "Azerbaijan",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/video/vi3485645337/?playlistId=tt7791188&ref_=tt_pr_ov_vi",
-    "posterUrl": "https://www.imdb.com/title/tt7791188/mediaviewer/rm319663105/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Road Movie",
-    "Romance"
-  ],
-  "tags": [
-    "reignited passion",
-    "body norms",
-    "last mission",
-    "may-december",
-    "romance",
-    "search for meaning"
-  ],
-  "director": [
-    {
-      "id": "Veit Helmer",
-      "slug": "veit-helmer",
-      "name": "Veit Helmer",
-      "birthYear": 1968,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "character": [
-    {
-      "id": "DE2019_017_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Eastern European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Miki Manojlovic"
-      },
-      "role": "Unknown"
-    }
-  ],
-  "synopsis": {
-    "native": "Jeden Tag f\u00e4hrt Zugf\u00fchrer Nurlan mit seinem Zug durch die Vorst\u00e4dte der aserbaidschanischen Hauptstadt Baku. Diese sind so dicht besiedelt und bebaut, dass Nurlan oft Habseligkeiten der Bewohner von seinem Zug pfl\u00fccken muss. Ausgerechnet an seinem letzten Arbeitstag ist darunter ein sch\u00f6ner BH, den der alte Einzelg\u00e4nger unbedingt seiner Besitzerin zur\u00fcckgeben will. Am n\u00e4chsten Tag macht er sich also auf die Suche, doch keinem der Dienstm\u00e4dchen und keiner der Hausfrauen, die er trifft, scheint der B\u00fcstenhalter zu passen.",
-    "english": "To escape from his lonely existence, Nurlan embarks on the most adventurous journey of his life: to find the owner of this perky piece of blue underwear. He rents a small room in Baku and begins his quest."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-03-07",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Veit Helmer",
+            "slug": "veit-helmer",
+            "name": "Veit Helmer",
+            "birthYear": 1968,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Road Movie",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt7791188/mediaviewer/rm319663105/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/video/vi3485645337/?playlistId=tt7791188&ref_=tt_pr_ov_vi"
+    },
+    "synopsis": {
+        "native": "Jeden Tag f\u00e4hrt Zugf\u00fchrer Nurlan mit seinem Zug durch die Vorst\u00e4dte der aserbaidschanischen Hauptstadt Baku. Diese sind so dicht besiedelt und bebaut, dass Nurlan oft Habseligkeiten der Bewohner von seinem Zug pfl\u00fccken muss. Ausgerechnet an seinem letzten Arbeitstag ist darunter ein sch\u00f6ner BH, den der alte Einzelg\u00e4nger unbedingt seiner Besitzerin zur\u00fcckgeben will. Am n\u00e4chsten Tag macht er sich also auf die Suche, doch keinem der Dienstm\u00e4dchen und keiner der Hausfrauen, die er trifft, scheint der B\u00fcstenhalter zu passen.",
+        "english": "To escape from his lonely existence, Nurlan embarks on the most adventurous journey of his life: to find the owner of this perky piece of blue underwear. He rents a small room in Baku and begins his quest."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Azerbaijan",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "DE2019_017_01",
+            "film": "DE2019_017",
+            "person": "Miki Manojlovic",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Eastern European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Denis Lavant",
+                "slug": "denis-lavant",
+                "name": "Denis Lavant",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Kazim Abdullayev",
+                "slug": "kazim-abdullayev",
+                "name": "Kazim Abdullayev",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Azerbaijan"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Maia Morgenstern",
+                "slug": "maia-morgenstern",
+                "name": "Maia Morgenstern",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Romania"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Matanat Atakishiyeva",
+                "slug": "matanat-atakishiyeva",
+                "name": "Matanat Atakishiyeva",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Azerbaijan"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Miki Manojlovi\u0107",
+                "slug": "miki-manojlovic",
+                "name": "Miki Manojlovi\u0107",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Serbia"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Qadji Ismayilov",
+                "slug": "qadji-ismayilov",
+                "name": "Qadji Ismayilov",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Azerbaijan"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Veit Helmer",
+                "slug": "veit-helmer",
+                "name": "Veit Helmer",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "may-december",
+        "body norms",
+        "reignited passion",
+        "romance",
+        "last mission",
+        "search for meaning"
+    ]
 }

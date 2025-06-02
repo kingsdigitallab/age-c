@@ -1,116 +1,183 @@
 {
-  "id": "ES2023_008",
-  "type": "Film",
-  "slug": "es2023-008-como-dios-manda",
-  "title": {
-    "native": "Como Dios manda"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-06-02",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt15502664/?ref_=nv_sr_srsg_0_tt_3_nm_0_in_0_q_Como%2520Dios%2520manda",
-    "posterUrl": "https://www.imdb.com/title/tt15502664/mediaviewer/rm1668554753/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "gender discrimination",
-    "intergenerational conflict",
-    "religion",
-    "low rank employment",
-    "marriage",
-    "national identity",
-    "new start",
-    "state institutions",
-    "lgbtqi",
-    "technology",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Paz Jim\u00e9nez",
-      "slug": "paz-jimenez",
-      "name": "Paz Jim\u00e9nez",
-      "birthYear": 1977,
-      "gender": "Female identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2023_008_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Maribel Salas",
-        "slug": "maribel-salas",
-        "name": "Maribel Salas",
-        "birthYear": 1965.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "ES2023_008",
+    "slug": "es2023-008-como-dios-manda",
+    "title": {
+        "native": "Como Dios manda",
+        "english": ""
     },
-    {
-      "id": "ES2023_008_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Leo Harlem",
-        "slug": "leo-harlem",
-        "name": "Leo Harlem",
-        "birthYear": 1965.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Leading actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2023-06-02",
+        "year": 2023
     },
-    {
-      "id": "ES2023_008_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Santi Ugalde",
-        "slug": "santi-ugalde",
-        "name": "Santi Ugalde",
-        "birthYear": 1959.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Andr\u00e9s Cuadrado es un estricto funcionario del Ministerio de Hacienda. Se considera ante todo una \u201cpersona como Dios manda\u201d y da por sentado que todo responde a un orden natural, jer\u00e1rquico e inamovible. Tras un desafortunado enfrentamiento con una compa\u00f1era de trabajo, es sancionado y trasladado a Igualdad, donde todo es nuevo para \u00e9l. All\u00ed tendr\u00e1 que ponerse al d\u00eda para poder adaptarse a ese nuevo orden de las cosas.",
-    "english": "A strict, order-obsessed tax official has an unfortunate confrontation with a co-worker and is transferred to the Ministry of Equality."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Paz Jim\u00e9nez",
+            "slug": "paz-jimenez",
+            "name": "Paz Jim\u00e9nez",
+            "birthYear": 1977,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt15502664/mediaviewer/rm1668554753/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt15502664/?ref_=nv_sr_srsg_0_tt_3_nm_0_in_0_q_Como%2520Dios%2520manda"
+    },
+    "synopsis": {
+        "native": "Andr\u00e9s Cuadrado es un estricto funcionario del Ministerio de Hacienda. Se considera ante todo una \u201cpersona como Dios manda\u201d y da por sentado que todo responde a un orden natural, jer\u00e1rquico e inamovible. Tras un desafortunado enfrentamiento con una compa\u00f1era de trabajo, es sancionado y trasladado a Igualdad, donde todo es nuevo para \u00e9l. All\u00ed tendr\u00e1 que ponerse al d\u00eda para poder adaptarse a ese nuevo orden de las cosas.",
+        "english": "A strict, order-obsessed tax official has an unfortunate confrontation with a co-worker and is transferred to the Ministry of Equality."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2023_008_01",
+            "film": "ES2023_008",
+            "person": {
+                "id": "Leo Harlem",
+                "slug": "leo-harlem",
+                "name": "Leo Harlem",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2023_008_02",
+            "film": "ES2023_008",
+            "person": {
+                "id": "Maribel Salas",
+                "slug": "maribel-salas",
+                "name": "Maribel Salas",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2023_008_03",
+            "film": "ES2023_008",
+            "person": {
+                "id": "Santi Ugalde",
+                "slug": "santi-ugalde",
+                "name": "Santi Ugalde",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Javier Lago",
+                "slug": "javier-lago",
+                "name": "Javier Lago",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Leo Harlem",
+                "slug": "leo-harlem",
+                "name": "Leo Harlem",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Maribel Salas",
+                "slug": "maribel-salas",
+                "name": "Maribel Salas",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Paz Jim\u00e9nez",
+                "slug": "paz-jimenez",
+                "name": "Paz Jim\u00e9nez",
+                "birthYear": 1977,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Santi Ugalde",
+                "slug": "santi-ugalde",
+                "name": "Santi Ugalde",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "state institutions",
+        "gender discrimination",
+        "religion",
+        "national identity",
+        "marriage",
+        "new start",
+        "intergenerational conflict",
+        "lgbtqi",
+        "low rank employment",
+        "superior-employee relationship",
+        "technology"
+    ]
 }

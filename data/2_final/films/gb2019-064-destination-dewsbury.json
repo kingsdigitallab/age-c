@@ -1,86 +1,146 @@
 {
-  "id": "GB2019_064",
-  "type": "Film",
-  "slug": "gb2019-064-destination-dewsbury",
-  "title": {
-    "native": "Destination: Dewsbury"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-03-01",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt5275128/?ref_=ttrel_ov",
-    "posterUrl": "https://www.imdb.com/title/tt5275128/mediaviewer/rm1854237440/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Road Movie"
-  ],
-  "tags": [
-    "education",
-    "homosociality",
-    "fatherhood"
-  ],
-  "director": [
-    {
-      "id": "Jack Spring",
-      "slug": "jack-spring",
-      "name": "Jack Spring",
-      "birthYear": 1996,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2019_064_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Maurice Byrne",
-        "slug": "maurice-byrne",
-        "name": "Maurice Byrne",
-        "gender": "Male identifying",
-        "nationality": "Ireland"
-      },
-      "role": "Producer"
+    "type": "Film",
+    "id": "GB2019_064",
+    "slug": "gb2019-064-destination-dewsbury",
+    "title": {
+        "native": "Destination: Dewsbury",
+        "english": ""
     },
-    {
-      "id": "GB2019_064_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Maurice Byrne",
-        "slug": "maurice-byrne",
-        "name": "Maurice Byrne",
-        "gender": "Male identifying",
-        "nationality": "Ireland"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "A laugh out loud comedy follows four middle-aged men on a botched road trip across the UK to see their dying schoolfriend for one last time. Outrageously funny, rude, offensive schoolboy British comedy at its finest."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-03-01",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Jack Spring",
+            "slug": "jack-spring",
+            "name": "Jack Spring",
+            "birthYear": 1996,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Road Movie"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt5275128/mediaviewer/rm1854237440/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt5275128/?ref_=ttrel_ov"
+    },
+    "synopsis": {
+        "native": "A laugh out loud comedy follows four middle-aged men on a botched road trip across the UK to see their dying schoolfriend for one last time. Outrageously funny, rude, offensive schoolboy British comedy at its finest.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2019_064_01",
+            "film": "GB2019_064",
+            "person": {
+                "id": "Maurice Byrne",
+                "slug": "maurice-byrne",
+                "name": "Maurice Byrne",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Ireland"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Jack Spring",
+                "slug": "jack-spring",
+                "name": "Jack Spring",
+                "birthYear": 1996,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jane Hollington",
+                "slug": "jane-hollington",
+                "name": "Jane Hollington",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Martina McClements",
+                "slug": "martina-mcclements",
+                "name": "Martina McClements",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Maurice Byrne",
+                "slug": "maurice-byrne",
+                "name": "Maurice Byrne",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Ireland"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Maurice Byrne",
+                "slug": "maurice-byrne",
+                "name": "Maurice Byrne",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Ireland"
+            },
+            "role": "Producer"
+        },
+        {
+            "person": {
+                "id": "Rowe David McClelland",
+                "slug": "rowe-david-mcclelland",
+                "name": "Rowe David McClelland",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "education",
+        "fatherhood",
+        "homosociality"
+    ]
 }

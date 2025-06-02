@@ -1,49 +1,65 @@
 {
-  "id": "FR2021_057",
-  "type": "Film",
-  "slug": "fr2021-057-gogo",
-  "title": {
-    "native": "Gogo",
-    "english": "Gogo"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-09-01",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=wIYK99Kgq8o",
-    "posterUrl": "https://medias.unifrance.org/medias/243/85/218611/format_page/gogo.jpg"
-  },
-  "genre": [
-    "Documentary \u2013 Observational mode"
-  ],
-  "tags": [
-    "new start",
-    "grandmotherhood",
-    "disability",
-    "education",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Pascal Plisson",
-      "slug": "pascal-plisson",
-      "name": "Pascal Plisson",
-      "birthYear": 1959,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "\u00c0 94 ans, Gogo int\u00e8gre l\u2019\u00e9cole de son village et devient la plus vieille \u00e9coli\u00e8re du monde. La doyenne des \u00e9coli\u00e8res se lance un d\u00e9fi : r\u00e9ussir son examen de fin de primaire et prouver qu\u2019il n\u2019y a pas d\u2019\u00e2ge pour apprendre !",
-    "english": "Priscilla Sitieni, aka Gogo, lives in heart of the Rift Valley, North West Kenya. She is 94 years old and the oldest primary school pupil. This academic year in the village of Ndalat will be unlike any other. Now in her final year at primary school, Gogo wants to achieve the goal of a lifetime: to pass her exams and obtain her diploma. Encouraged by Myriam, Tracy, her 54 great-grandchildren and the entire school, will this doyenne of pupils become the doyenne of graduates? In a world in which girls\u2019 schooling is still one of the great challenges of this millennium, we follow the unique journey of this very special woman from Kenya, ready for anything to fulfil her dream before she dies. A thrilling true story, full of poetry, humour and love."
-  }
+    "type": "Film",
+    "id": "FR2021_057",
+    "slug": "fr2021-057-gogo",
+    "title": {
+        "native": "Gogo",
+        "english": "Gogo"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-09-01",
+        "year": 2021
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Pascal Plisson",
+            "slug": "pascal-plisson",
+            "name": "Pascal Plisson",
+            "birthYear": 1959,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Observational mode"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/243/85/218611/format_page/gogo.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=wIYK99Kgq8o"
+    },
+    "synopsis": {
+        "native": "\u00c0 94 ans, Gogo int\u00e8gre l\u2019\u00e9cole de son village et devient la plus vieille \u00e9coli\u00e8re du monde. La doyenne des \u00e9coli\u00e8res se lance un d\u00e9fi : r\u00e9ussir son examen de fin de primaire et prouver qu\u2019il n\u2019y a pas d\u2019\u00e2ge pour apprendre !",
+        "english": "Priscilla Sitieni, aka Gogo, lives in heart of the Rift Valley, North West Kenya. She is 94 years old and the oldest primary school pupil. This academic year in the village of Ndalat will be unlike any other. Now in her final year at primary school, Gogo wants to achieve the goal of a lifetime: to pass her exams and obtain her diploma. Encouraged by Myriam, Tracy, her 54 great-grandchildren and the entire school, will this doyenne of pupils become the doyenne of graduates? In a world in which girls\u2019 schooling is still one of the great challenges of this millennium, we follow the unique journey of this very special woman from Kenya, ready for anything to fulfil her dream before she dies. A thrilling true story, full of poetry, humour and love."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Pascal Plisson",
+                "slug": "pascal-plisson",
+                "name": "Pascal Plisson",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "new start",
+        "rural",
+        "disability",
+        "education",
+        "grandmotherhood"
+    ]
 }

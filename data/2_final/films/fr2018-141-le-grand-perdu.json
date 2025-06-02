@@ -1,66 +1,109 @@
 {
-  "id": "FR2018_141",
-  "type": "Film",
-  "slug": "fr2018-141-le-grand-perdu",
-  "title": {
-    "native": "Le Grand Perdu"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-09-12",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.allocine.fr/video/player_gen_cmedia=19579733&cfilm=265422.html",
-    "posterUrl": "https://medias.unifrance.org/medias/204/247/194508/format_page/le-grand-perdu.png"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "hospital",
-    "mental illness",
-    "artistic creation"
-  ],
-  "director": [
-    {
-      "id": "Av\u00e9narius d'Ardronville",
-      "slug": "avenarius-d-ardronville",
-      "name": "Av\u00e9narius d'Ardronville",
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2018_141_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Serge Blazevic",
-        "slug": "serge-blazevic",
-        "name": "Serge Blazevic",
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Film m\u00e9taphorique o\u00f9 un capitaine de navire, rentr\u00e9 sur ses terres, apprend que lors d\u2019une c\u00e9r\u00e9monie \u00e0 la mairie la m\u00e9daille du meilleur citoyen de la ville a \u00e9t\u00e9 accroch\u00e9e \u00e0 la poitrine d\u2019un musicien m\u00e9diocre de l\u2019harmonie municipale. Fou de rage, il d\u00e9cide d\u2019honorer un marginal, une sorte de \"fou du village\", dont les actes \u00e9tranges et sympathiques m\u00e9ritent selon lui l\u2019hommage de la cit\u00e9. On observe ainsi la vie du \"Grand Perdu\".",
-    "english": "Upon returning home, a ship captain finds a mediocre musician inexplicably awarded the town's best citizen medal at a ceremony."
-  }
+    "type": "Film",
+    "id": "FR2018_141",
+    "slug": "fr2018-141-le-grand-perdu",
+    "title": {
+        "native": "Le Grand Perdu",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-09-12",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Av\u00e9narius d'Ardronville",
+            "slug": "avenarius-d-ardronville",
+            "name": "Av\u00e9narius d'Ardronville",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/204/247/194508/format_page/le-grand-perdu.png",
+        "trailerUrl": "https://www.allocine.fr/video/player_gen_cmedia=19579733&cfilm=265422.html"
+    },
+    "synopsis": {
+        "native": "Film m\u00e9taphorique o\u00f9 un capitaine de navire, rentr\u00e9 sur ses terres, apprend que lors d\u2019une c\u00e9r\u00e9monie \u00e0 la mairie la m\u00e9daille du meilleur citoyen de la ville a \u00e9t\u00e9 accroch\u00e9e \u00e0 la poitrine d\u2019un musicien m\u00e9diocre de l\u2019harmonie municipale. Fou de rage, il d\u00e9cide d\u2019honorer un marginal, une sorte de \"fou du village\", dont les actes \u00e9tranges et sympathiques m\u00e9ritent selon lui l\u2019hommage de la cit\u00e9. On observe ainsi la vie du \"Grand Perdu\".",
+        "english": "Upon returning home, a ship captain finds a mediocre musician inexplicably awarded the town's best citizen medal at a ceremony."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2018_141_01",
+            "film": "FR2018_141",
+            "person": {
+                "id": "Serge Blazevic",
+                "slug": "serge-blazevic",
+                "name": "Serge Blazevic",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Av\u00e9narius d'Ardronville",
+                "slug": "avenarius-d-ardronville",
+                "name": "Av\u00e9narius d'Ardronville",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jean Eckian",
+                "slug": "jean-eckian",
+                "name": "Jean Eckian",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Serge Blazevic",
+                "slug": "serge-blazevic",
+                "name": "Serge Blazevic",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "mental illness",
+        "hospital",
+        "artistic creation"
+    ]
 }

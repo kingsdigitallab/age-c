@@ -1,59 +1,123 @@
 {
-  "id": "DE2020_022",
-  "type": "Film",
-  "slug": "de2020-022-jenseits-des-sichtbaren-hilma-af-klint",
-  "title": {
-    "native": "Jenseits des Sichtbaren - Hilma af Klint",
-    "english": "Beyond the Visible - Hilma af Klingt"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-03-05",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "DE2020_022",
+    "slug": "de2020-022-jenseits-des-sichtbaren-hilma-af-klint",
+    "title": {
+        "native": "Jenseits des Sichtbaren - Hilma af Klint",
+        "english": "Beyond the Visible - Hilma af Klingt"
     },
-    {
-      "country": "Switzerland",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2020-03-05",
+        "year": 2020
     },
-    {
-      "country": "Sweden",
-      "share": "Minority coproducer"
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Halina Dyrschka",
+            "slug": "halina-dyrschka",
+            "name": "Halina Dyrschka",
+            "birthYear": 1975,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Documentary \u2013 Performative mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9760516/mediaviewer/rm3470307841/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/video/vi3662462745/?playlistId=tt9760516&ref_=tt_pr_ov_vi"
     },
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/video/vi3662462745/?playlistId=tt9760516&ref_=tt_pr_ov_vi",
-    "posterUrl": "https://www.imdb.com/title/tt9760516/mediaviewer/rm3470307841/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "legacy",
-    "artistic creation"
-  ],
-  "director": [
-    {
-      "id": "Halina Dyrschka",
-      "slug": "halina-dyrschka",
-      "name": "Halina Dyrschka",
-      "birthYear": 1975,
-      "gender": "Female identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "Seit 100 Jahren war man der festen Annahme, dass K\u00fcnstler wie Kandinsky, Mondrian oder Malewitsch zu den Mitbegr\u00fcndern der Abstrakten Kunst geh\u00f6ren. Doch in den 1980ern stellte sich heraus, dass Hilma af Klint bereits 1906 ihr erstes abstraktes Werk schuf \u2013 lange vor den Superstars der Szene. Im Laufe ihrer unbekannten Karriere malte die Schwedin weitere 1.200 Bilder, die sie zeitlebens nicht ausstellte. Mit ihrem Tod verf\u00fcgte sie, dass dies erst fr\u00fchestens 20 Jahre nach ihrem Tod geschehen d\u00fcrfe. So wurden ihre Werke erst in den 80er-Jahren weltbekannt. Die Filmemacherin Halina Dyrschka versucht sich der K\u00fcnstlerin in ihrem Dokumentarfilm cineastisch anzun\u00e4hern.",
-    "english": "The first abstract artist was a woman, misjudged and concealed, Hilma Klint rocks the art world with her mind-blowing oeuvre."
-  }
+    "synopsis": {
+        "native": "Seit 100 Jahren war man der festen Annahme, dass K\u00fcnstler wie Kandinsky, Mondrian oder Malewitsch zu den Mitbegr\u00fcndern der Abstrakten Kunst geh\u00f6ren. Doch in den 1980ern stellte sich heraus, dass Hilma af Klint bereits 1906 ihr erstes abstraktes Werk schuf \u2013 lange vor den Superstars der Szene. Im Laufe ihrer unbekannten Karriere malte die Schwedin weitere 1.200 Bilder, die sie zeitlebens nicht ausstellte. Mit ihrem Tod verf\u00fcgte sie, dass dies erst fr\u00fchestens 20 Jahre nach ihrem Tod geschehen d\u00fcrfe. So wurden ihre Werke erst in den 80er-Jahren weltbekannt. Die Filmemacherin Halina Dyrschka versucht sich der K\u00fcnstlerin in ihrem Dokumentarfilm cineastisch anzun\u00e4hern.",
+        "english": "The first abstract artist was a woman, misjudged and concealed, Hilma Klint rocks the art world with her mind-blowing oeuvre."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Sweden",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Switzerland",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Christian Kaiser",
+                "slug": "christian-kaiser",
+                "name": "Christian Kaiser",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Switzerland"
+            },
+            "role": "Narrator/voice over"
+        },
+        {
+            "person": {
+                "id": "Ernst Peter Fischer",
+                "slug": "ernst-peter-fischer",
+                "name": "Ernst Peter Fischer",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Halina Dyrschka",
+                "slug": "halina-dyrschka",
+                "name": "Halina Dyrschka",
+                "birthYear": 1975,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Iris M\u00fcller-Westermann",
+                "slug": "iris-muller-westermann",
+                "name": "Iris M\u00fcller-Westermann",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Monica von Rosen Nestler",
+                "slug": "monica-von-rosen-nestler",
+                "name": "Monica von Rosen Nestler",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "legacy"
+    ]
 }

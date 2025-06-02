@@ -1,51 +1,80 @@
 {
-  "id": "FR2018_011",
-  "type": "Film",
-  "slug": "fr2018-011-la-douleur",
-  "title": {
-    "native": "La Douleur",
-    "english": "Memoir of War"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-01-24",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Brazil",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2018_011",
+    "slug": "fr2018-011-la-douleur",
+    "title": {
+        "native": "La Douleur",
+        "english": "Memoir of War"
     },
-    {
-      "country": "Switzerland",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2018-01-24",
+        "year": 2018
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=g3CbOilBGrE",
-    "posterUrl": "https://medias.unifrance.org/medias/1/204/183297/format_page/memoir-of-war.jpg"
-  },
-  "genre": [
-    "Historical film (Heritage Film)",
-    "Drama"
-  ],
-  "director": [
-    {
-      "id": "Emmanuel Finkiel",
-      "slug": "emmanuel-finkiel",
-      "name": "Emmanuel Finkiel",
-      "birthYear": 1961,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Juin 1944, la France est toujours sous l\u2019Occupation allemande. L\u2019\u00e9crivain Robert Antelme, figure majeure de la R\u00e9sistance, est arr\u00eat\u00e9 et d\u00e9port\u00e9. Sa jeune \u00e9pouse Marguerite, \u00e9crivain et r\u00e9sistante, est tiraill\u00e9e par l'angoisse de ne pas avoir de ses nouvelles et sa liaison secr\u00e8te avec son camarade Dyonis. Elle rencontre un agent fran\u00e7ais de la Gestapo, Rabier, et, pr\u00eate \u00e0 tout pour retrouver son mari, se met \u00e0 l\u2019\u00e9preuve d\u2019une relation ambigu\u00eb avec cet homme trouble, seul \u00e0 pouvoir l\u2019aider. La fin de la guerre et le retour des camps annoncent \u00e0 Marguerite le d\u00e9but d\u2019une insoutenable attente, une agonie lente et silencieuse au milieu du chaos de la Lib\u00e9ration de Paris.",
-    "english": "In the 1944 Nazi-occupied France, young talented writer Marguerite is an active Resistance member with her husband Robert Antelme. When he is deported by the Gestapo, she dives into a desperate struggle to get him back. She develops a chilling relationship with local Vichy collaborator Rabier and takes terrible risks to save Robert, playing a cat-and-mouse of unpredictable meetings all over Paris. Does he really want to help her? Or is he trying to dig up information about the anti-Nazi underground? Then come the end of the war and the return of camp victims, an excruciating period for her, and a long and silent agony after the chaos of the Liberation of Paris. But she continues to wait, bound to the torment of absence even beyond hope."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Emmanuel Finkiel",
+            "slug": "emmanuel-finkiel",
+            "name": "Emmanuel Finkiel",
+            "birthYear": 1961,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Historical film (Heritage Film)"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/1/204/183297/format_page/memoir-of-war.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=g3CbOilBGrE"
+    },
+    "synopsis": {
+        "native": "Juin 1944, la France est toujours sous l\u2019Occupation allemande. L\u2019\u00e9crivain Robert Antelme, figure majeure de la R\u00e9sistance, est arr\u00eat\u00e9 et d\u00e9port\u00e9. Sa jeune \u00e9pouse Marguerite, \u00e9crivain et r\u00e9sistante, est tiraill\u00e9e par l'angoisse de ne pas avoir de ses nouvelles et sa liaison secr\u00e8te avec son camarade Dyonis. Elle rencontre un agent fran\u00e7ais de la Gestapo, Rabier, et, pr\u00eate \u00e0 tout pour retrouver son mari, se met \u00e0 l\u2019\u00e9preuve d\u2019une relation ambigu\u00eb avec cet homme trouble, seul \u00e0 pouvoir l\u2019aider. La fin de la guerre et le retour des camps annoncent \u00e0 Marguerite le d\u00e9but d\u2019une insoutenable attente, une agonie lente et silencieuse au milieu du chaos de la Lib\u00e9ration de Paris.",
+        "english": "In the 1944 Nazi-occupied France, young talented writer Marguerite is an active Resistance member with her husband Robert Antelme. When he is deported by the Gestapo, she dives into a desperate struggle to get him back. She develops a chilling relationship with local Vichy collaborator Rabier and takes terrible risks to save Robert, playing a cat-and-mouse of unpredictable meetings all over Paris. Does he really want to help her? Or is he trying to dig up information about the anti-Nazi underground? Then come the end of the war and the return of camp victims, an excruciating period for her, and a long and silent agony after the chaos of the Liberation of Paris. But she continues to wait, bound to the torment of absence even beyond hope."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Brazil",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Switzerland",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Emmanuel Finkiel",
+                "slug": "emmanuel-finkiel",
+                "name": "Emmanuel Finkiel",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Shulamit Adar",
+                "slug": "shulamit-adar",
+                "name": "Shulamit Adar",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Unknown"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": []
 }

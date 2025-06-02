@@ -1,49 +1,68 @@
 {
-  "id": "ES2023_114",
-  "type": "Film",
-  "slug": "es2023-114-the-longest-war",
-  "title": {
-    "native": "The Longest War"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-11-28",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=WAoOl5Qd6yw",
-    "posterUrl": "https://www.imdb.com/title/tt15772824/mediaviewer/rm3402325249/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Expository mode",
-    "Documentary \u2013 Participatory mode",
-    "Comedy"
-  ],
-  "tags": [
-    "personal memory",
-    "cultural memory",
-    "war",
-    "regional identity",
-    "mass media",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Jorge Rivera",
-      "slug": "jorge-rivera",
-      "name": "Jorge Rivera",
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "english": "A 172-year war between a small Spanish village and the whole Denmark... A serious history documentary that will make you laugh!"
-  }
+    "type": "Film",
+    "id": "ES2023_114",
+    "slug": "es2023-114-the-longest-war",
+    "title": {
+        "native": "The Longest War",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-11-28",
+        "year": 2023
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Jorge Rivera",
+            "slug": "jorge-rivera",
+            "name": "Jorge Rivera",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Documentary \u2013 Expository mode",
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt15772824/mediaviewer/rm3402325249/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=WAoOl5Qd6yw"
+    },
+    "synopsis": {
+        "native": "",
+        "english": "A 172-year war between a small Spanish village and the whole Denmark... A serious history documentary that will make you laugh!"
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Jorge Rivera",
+                "slug": "jorge-rivera",
+                "name": "Jorge Rivera",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "rural",
+        "cultural memory",
+        "war",
+        "personal memory",
+        "regional identity",
+        "mass media"
+    ]
 }

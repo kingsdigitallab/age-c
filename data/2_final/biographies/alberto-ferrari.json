@@ -1,29 +1,35 @@
 {
-  "id": "Alberto Ferrari",
-  "type": "Biography",
-  "slug": "alberto-ferrari",
-  "name": "Alberto Ferrari",
-  "birthYear": 1965,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "IT2022_042",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "it2022-042-the-christmas-show",
-      "tags": "festivities",
-      "title": {
-        "native": "The Christmas Show"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Alberto Ferrari",
+    "slug": "alberto-ferrari",
+    "name": "Alberto Ferrari",
+    "birthYear": 1965,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2022_042",
+                "slug": "it2022-042-the-christmas-show",
+                "title": {
+                    "native": "The Christmas Show",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-11-17",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

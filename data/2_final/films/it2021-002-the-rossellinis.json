@@ -1,53 +1,94 @@
 {
-  "id": "IT2021_002",
-  "type": "Film",
-  "slug": "it2021-002-the-rossellinis",
-  "title": {
-    "native": "The Rossellinis"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-04-26",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Latvia",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "IT2021_002",
+    "slug": "it2021-002-the-rossellinis",
+    "title": {
+        "native": "The Rossellinis",
+        "english": ""
     },
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=m3ww-Svmqi0",
-    "posterUrl": "https://www.imdb.com/title/tt12749696/mediaviewer/rm389980417/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Biopic"
-  ],
-  "tags": [
-    "siblinghood",
-    "personal memory",
-    "artistic creation",
-    "multigenerational family",
-    "grandfatherhood"
-  ],
-  "director": [
-    {
-      "id": "Alessandro Rossellini",
-      "slug": "alessandro-rossellini",
-      "name": "Alessandro Rossellini",
-      "birthYear": 1963,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "synopsis": {
-    "native": "Roberto Rossellini \u00e8 stato un genio del cinema e un padre spiccatamente anticonformista. I suoi amori hanno riempito le prime pagine dei giornali di tutto il mondo, scandalizzando la rigida morale degli anni Cinquanta e dando alla luce una famiglia numerosa, orgogliosamente multietnica e decisamente allargata. Alessandro, primo nipote del grande regista, ha avuto una carriera traballante da fotografo e un lungo passato di tossicodipendenza. Come primo nipote di un genio, non si sente all\u2019altezza del cognome. Decide cos\u00ec di girare a 55 anni il suo primo film, affrontando con ironia la saga dei Rossellini e obbligando i parenti a un\u2019impossibile terapia familiare davanti alla macchina da presa.",
-    "english": "This documentary recounts the lives of Roberto Rossellini's children from the perspective of Alessandro Rossellini, the first grandson of the director."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2021-04-26",
+        "year": 2021
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Alessandro Rossellini",
+            "slug": "alessandro-rossellini",
+            "name": "Alessandro Rossellini",
+            "birthYear": 1963,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Biopic"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt12749696/mediaviewer/rm389980417/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=m3ww-Svmqi0"
+    },
+    "synopsis": {
+        "native": "Roberto Rossellini \u00e8 stato un genio del cinema e un padre spiccatamente anticonformista. I suoi amori hanno riempito le prime pagine dei giornali di tutto il mondo, scandalizzando la rigida morale degli anni Cinquanta e dando alla luce una famiglia numerosa, orgogliosamente multietnica e decisamente allargata. Alessandro, primo nipote del grande regista, ha avuto una carriera traballante da fotografo e un lungo passato di tossicodipendenza. Come primo nipote di un genio, non si sente all\u2019altezza del cognome. Decide cos\u00ec di girare a 55 anni il suo primo film, affrontando con ironia la saga dei Rossellini e obbligando i parenti a un\u2019impossibile terapia familiare davanti alla macchina da presa.",
+        "english": "This documentary recounts the lives of Roberto Rossellini's children from the perspective of Alessandro Rossellini, the first grandson of the director."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Latvia",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Alessandro Rossellini",
+                "slug": "alessandro-rossellini",
+                "name": "Alessandro Rossellini",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Alessandro Rossellini",
+                "slug": "alessandro-rossellini",
+                "name": "Alessandro Rossellini",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Renzo Rossellini",
+                "slug": "renzo-rossellini",
+                "name": "Renzo Rossellini",
+                "birthYear": 1941,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "siblinghood",
+        "personal memory",
+        "artistic creation",
+        "grandfatherhood",
+        "multigenerational family"
+    ]
 }

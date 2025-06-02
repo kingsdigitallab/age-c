@@ -1,49 +1,69 @@
 {
-  "id": "Michel Ocelot",
-  "type": "Biography",
-  "slug": "michel-ocelot",
-  "name": "Michel Ocelot",
-  "birthYear": 1943,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Animation",
-      "genre": "Children's Film",
-      "id": "FR2018_154",
-      "production": {
-        "country": "Germany",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2010
-      },
-      "slug": "fr2018-154-dilili-a-paris",
-      "tags": "artistic creation",
-      "title": {
-        "english": "Dilili in Paris",
-        "native": "Dilili \u00e0 Paris"
-      }
-    },
-    {
-      "filmType": "Animation",
-      "genre": "Fantasy",
-      "id": "FR2022_150",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "fr2022-150-le-pharaon-le-sauvage-et-la-princesse",
-      "tags": "supernatural entity",
-      "title": {
-        "english": "The Black Pharaoh, the Savage and the Princess",
-        "native": "Le Pharaon, le Sauvage et la Princesse"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Michel Ocelot",
+    "slug": "michel-ocelot",
+    "name": "Michel Ocelot",
+    "birthYear": 1943,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_154",
+                "slug": "fr2018-154-dilili-a-paris",
+                "title": {
+                    "native": "Dilili \u00e0 Paris",
+                    "english": "Dilili in Paris"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2010-10-18",
+                    "year": 2010
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2022_150",
+                "slug": "fr2022-150-le-pharaon-le-sauvage-et-la-princesse",
+                "title": {
+                    "native": "Le Pharaon, le Sauvage et la Princesse",
+                    "english": "The Black Pharaoh, the Savage and the Princess"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-10-19",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

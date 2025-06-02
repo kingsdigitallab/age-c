@@ -1,57 +1,85 @@
 {
-  "id": "DE2018_025",
-  "type": "Film",
-  "slug": "de2018-025-der-hauptmann",
-  "title": {
-    "native": "Der Hauptmann",
-    "english": "The Captain"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-03-15",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "DE2018_025",
+    "slug": "de2018-025-der-hauptmann",
+    "title": {
+        "native": "Der Hauptmann",
+        "english": "The Captain"
     },
-    {
-      "country": "Poland",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2018-03-15",
+        "year": 2018
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/video/vi3586439961/?playlistId=tt6763252&ref_=tt_ov_pr_ov_vi",
-    "posterUrl": "https://www.imdb.com/title/tt6763252/mediaviewer/rm794181888/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Historical film (Heritage Film)",
-    "Thriller",
-    "Drama",
-    "War Film"
-  ],
-  "tags": [
-    "cultural memory",
-    "war"
-  ],
-  "director": [
-    {
-      "id": "Robert Schwentke",
-      "slug": "robert-schwentke",
-      "name": "Robert Schwentke",
-      "birthYear": 1968,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "1945, gegen Ende des Zweiten Weltkrieges, irgendwo im deutschen Niemandsland: Der Gefreite Willi Herold (Max Hubacher) wird von dem gnadenlosen Hauptmann Junker (Alexander Fehling), der ihn f\u00fcr einen Deserteur h\u00e4lt, erbarmungslos gejagt. Doch kurz vor seinem erwarteten Tod entdeckt Willi in einem Auto am Stra\u00dfenrand eine mit Orden versehene Hauptmannsuniform der Luftwaffe, die er kurzerhand \u00fcberstreift. Mit der Uniform schl\u00fcpft er schnell auch in die dazugeh\u00f6rige Rolle und beginnt, verstreute Soldaten um sich zu scharen, darunter Freytag (Milan Peschel) und Kipinski (Frederick Lau). Willi testet seine neu gewonnene Verf\u00fcgungsgewalt aus. Seine ehemaligen Kameraden sind froh, einen vermeintlichen Befehlshaber gefunden zu haben, der ihnen sagt, was sie tun sollen, doch Herold verf\u00e4llt schon bald der Versuchung der Macht...",
-    "english": "In the last moments of World War II, a young German soldier fighting for survival finds a Nazi captain's uniform. Impersonating an officer, the man quickly takes on the monstrous identity of the perpetrators he's escaping from."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Robert Schwentke",
+            "slug": "robert-schwentke",
+            "name": "Robert Schwentke",
+            "birthYear": 1968,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Historical film (Heritage Film)",
+        "Thriller",
+        "War Film"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt6763252/mediaviewer/rm794181888/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/video/vi3586439961/?playlistId=tt6763252&ref_=tt_ov_pr_ov_vi"
+    },
+    "synopsis": {
+        "native": "1945, gegen Ende des Zweiten Weltkrieges, irgendwo im deutschen Niemandsland: Der Gefreite Willi Herold (Max Hubacher) wird von dem gnadenlosen Hauptmann Junker (Alexander Fehling), der ihn f\u00fcr einen Deserteur h\u00e4lt, erbarmungslos gejagt. Doch kurz vor seinem erwarteten Tod entdeckt Willi in einem Auto am Stra\u00dfenrand eine mit Orden versehene Hauptmannsuniform der Luftwaffe, die er kurzerhand \u00fcberstreift. Mit der Uniform schl\u00fcpft er schnell auch in die dazugeh\u00f6rige Rolle und beginnt, verstreute Soldaten um sich zu scharen, darunter Freytag (Milan Peschel) und Kipinski (Frederick Lau). Willi testet seine neu gewonnene Verf\u00fcgungsgewalt aus. Seine ehemaligen Kameraden sind froh, einen vermeintlichen Befehlshaber gefunden zu haben, der ihnen sagt, was sie tun sollen, doch Herold verf\u00e4llt schon bald der Versuchung der Macht...",
+        "english": "In the last moments of World War II, a young German soldier fighting for survival finds a Nazi captain's uniform. Impersonating an officer, the man quickly takes on the monstrous identity of the perpetrators he's escaping from."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Poland",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Harald Warmbrunn",
+                "slug": "harald-warmbrunn",
+                "name": "Harald Warmbrunn",
+                "birthYear": 1933,
+                "deathYear": 2020,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Robert Schwentke",
+                "slug": "robert-schwentke",
+                "name": "Robert Schwentke",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "war",
+        "cultural memory"
+    ]
 }

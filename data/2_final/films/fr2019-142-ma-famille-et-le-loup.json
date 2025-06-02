@@ -1,76 +1,104 @@
 {
-  "id": "FR2019_142",
-  "type": "Film",
-  "slug": "fr2019-142-ma-famille-et-le-loup",
-  "title": {
-    "native": "Ma famille et le loup",
-    "english": "My Family and the Wolf"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-08-21",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=M3lNKhIFoJI",
-    "posterUrl": "https://medias.unifrance.org/medias/82/40/206930/format_page/ma-famille-et-le-loup.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Children's Film"
-  ],
-  "tags": [
-    "parenthood",
-    "personal memory",
-    "grandparenthood",
-    "independent home",
-    "multigenerational family",
-    "in-laws",
-    "extended family",
-    "rescue mission",
-    "festivities"
-  ],
-  "director": [
-    {
-      "id": "Adria Garcia",
-      "slug": "adria-garcia",
-      "name": "Adria Garcia",
-      "birthYear": 1978,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2019_142_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Carmen Maura",
-        "slug": "carmen-maura",
-        "name": "Carmen Maura",
-        "birthYear": 1945.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "C\u2019est l\u2019\u00e9t\u00e9. Hugo, un petit gar\u00e7on de neuf ans, va passer l\u2019\u00e9t\u00e9 dans la maison du bord de mer o\u00f9 son p\u00e8re a grandi. C\u2019est Mamie Sara qui a voulu r\u00e9unir toute la famille pour son anniversaire. Un soir, elle raconte qu\u2019un loup viendra la chercher le jour de ses 80 ans, comme convenu il y a tr\u00e8s longtemps. Pour les adultes, c\u2019est une vieille l\u00e9gende invent\u00e9e par Mamie Sara, mais pour les enfants, c\u2019est une grande et myst\u00e9rieuse aventure qui commence.",
-    "english": "Everybody is gathered to celebrate Granny Sara\u2019s 80th birthday at the seaside family house. It\u2019s a beautiful summer for 9 years old Hugo. However this year, Granny Sara has fallen ill. One night, she brings together the family to tell the story of the Wolf. Someday the animal will come and take her away forever. Will Hugo manage to protect his grandma from the mysterious beast?"
-  }
+    "type": "Film",
+    "id": "FR2019_142",
+    "slug": "fr2019-142-ma-famille-et-le-loup",
+    "title": {
+        "native": "Ma famille et le loup",
+        "english": "My Family and the Wolf"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-08-21",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Adria Garcia",
+            "slug": "adria-garcia",
+            "name": "Adria Garcia",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Children's Film"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/82/40/206930/format_page/ma-famille-et-le-loup.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=M3lNKhIFoJI"
+    },
+    "synopsis": {
+        "native": "C\u2019est l\u2019\u00e9t\u00e9. Hugo, un petit gar\u00e7on de neuf ans, va passer l\u2019\u00e9t\u00e9 dans la maison du bord de mer o\u00f9 son p\u00e8re a grandi. C\u2019est Mamie Sara qui a voulu r\u00e9unir toute la famille pour son anniversaire. Un soir, elle raconte qu\u2019un loup viendra la chercher le jour de ses 80 ans, comme convenu il y a tr\u00e8s longtemps. Pour les adultes, c\u2019est une vieille l\u00e9gende invent\u00e9e par Mamie Sara, mais pour les enfants, c\u2019est une grande et myst\u00e9rieuse aventure qui commence.",
+        "english": "Everybody is gathered to celebrate Granny Sara\u2019s 80th birthday at the seaside family house. It\u2019s a beautiful summer for 9 years old Hugo. However this year, Granny Sara has fallen ill. One night, she brings together the family to tell the story of the Wolf. Someday the animal will come and take her away forever. Will Hugo manage to protect his grandma from the mysterious beast?"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2019_142_01",
+            "film": "FR2019_142",
+            "person": {
+                "id": "Carmen Maura",
+                "slug": "carmen-maura",
+                "name": "Carmen Maura",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Adria Garcia",
+                "slug": "adria-garcia",
+                "name": "Adria Garcia",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Carmen Maura",
+                "slug": "carmen-maura",
+                "name": "Carmen Maura",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "grandparenthood",
+        "parenthood",
+        "multigenerational family",
+        "personal memory",
+        "rescue mission",
+        "independent home",
+        "festivities",
+        "in-laws",
+        "extended family"
+    ]
 }

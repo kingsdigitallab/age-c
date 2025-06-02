@@ -1,76 +1,116 @@
 {
-  "id": "FR2019_219",
-  "type": "Film",
-  "slug": "fr2019-219-rendez-vous-chez-les-malawas",
-  "title": {
-    "native": "Rendez-vous chez les Malawas",
-    "english": "Meet The Malawas"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-12-25",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2019_219",
+    "slug": "fr2019-219-rendez-vous-chez-les-malawas",
+    "title": {
+        "native": "Rendez-vous chez les Malawas",
+        "english": "Meet The Malawas"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=IViQWVk6P1I",
-    "posterUrl": "https://medias.unifrance.org/medias/172/60/212140/format_page/rendez-vous-chez-les-malawas.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "high rank employment",
-    "natural",
-    "celebrity",
-    "tourism",
-    "mass media",
-    "interracial relationships"
-  ],
-  "director": [
-    {
-      "id": "James Huth",
-      "slug": "james-huth",
-      "name": "James Huth",
-      "birthYear": 1966,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2019_219_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Christian Clavier",
-        "slug": "christian-clavier",
-        "name": "Christian Clavier",
-        "birthYear": 1952.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Pour la sp\u00e9ciale No\u00ebl de son \u00e9mission phare Rencontre au bout du bout du monde, L\u00e9o Poli emm\u00e8ne non pas un, mais quatre invit\u00e9s exceptionnels. Est-ce vraiment une bonne id\u00e9e? Nos stars partent \u00e0 la rencontre des Malawas, une des tribus les plus isol\u00e9es du monde. Une com\u00e9die sur la nature... humaine.",
-    "english": "For the special Christmas edition of his pioneering TV show \u201cExtremely Extreme Encounters\u201d, L\u00e9o Poli invites not one but four exceptional guests to an unknown, exotic destination. Is this really a good idea? Our stars set out to meet the Malawas, one of the most isolated tribes in the world. A comedy that takes us into the wilds of nature\u2026 and of human nature!"
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-12-25",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "James Huth",
+            "slug": "james-huth",
+            "name": "James Huth",
+            "birthYear": 1966,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/172/60/212140/format_page/rendez-vous-chez-les-malawas.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=IViQWVk6P1I"
+    },
+    "synopsis": {
+        "native": "Pour la sp\u00e9ciale No\u00ebl de son \u00e9mission phare Rencontre au bout du bout du monde, L\u00e9o Poli emm\u00e8ne non pas un, mais quatre invit\u00e9s exceptionnels. Est-ce vraiment une bonne id\u00e9e? Nos stars partent \u00e0 la rencontre des Malawas, une des tribus les plus isol\u00e9es du monde. Une com\u00e9die sur la nature... humaine.",
+        "english": "For the special Christmas edition of his pioneering TV show \u201cExtremely Extreme Encounters\u201d, L\u00e9o Poli invites not one but four exceptional guests to an unknown, exotic destination. Is this really a good idea? Our stars set out to meet the Malawas, one of the most isolated tribes in the world. A comedy that takes us into the wilds of nature\u2026 and of human nature!"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2019_219_01",
+            "film": "FR2019_219",
+            "person": {
+                "id": "Christian Clavier",
+                "slug": "christian-clavier",
+                "name": "Christian Clavier",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Christian Clavier",
+                "slug": "christian-clavier",
+                "name": "Christian Clavier",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Fran\u00e7ois Levantal",
+                "slug": "francois-levantal",
+                "name": "Fran\u00e7ois Levantal",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "James Huth",
+                "slug": "james-huth",
+                "name": "James Huth",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "celebrity",
+        "high rank employment",
+        "mass media",
+        "natural",
+        "interracial relationships",
+        "tourism"
+    ]
 }

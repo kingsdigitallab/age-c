@@ -1,66 +1,96 @@
 {
-  "id": "GB2023_046",
-  "type": "Film",
-  "slug": "gb2023-046-a-kind-of-kidnapping",
-  "title": {
-    "native": "A Kind of Kidnapping"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-07-14",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt21040162/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_A%2520Kind%2520of%2520Kidnapping",
-    "posterUrl": "https://www.imdb.com/title/tt21040162/mediaviewer/rm3635749889/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Crime"
-  ],
-  "tags": [
-    "professional politics"
-  ],
-  "director": [
-    {
-      "id": "Dan Clark",
-      "slug": "dan-clark",
-      "name": "Dan Clark",
-      "birthYear": 1976,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2023_046_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Leila Hoffman",
-        "slug": "leila-hoffman",
-        "name": "Leila Hoffman",
-        "birthYear": 1934.0,
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "A young, broke couple kidnap a sleazy politician who decides he can spin the story to his own advantage."
-  }
+    "type": "Film",
+    "id": "GB2023_046",
+    "slug": "gb2023-046-a-kind-of-kidnapping",
+    "title": {
+        "native": "A Kind of Kidnapping",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-07-14",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Dan Clark",
+            "slug": "dan-clark",
+            "name": "Dan Clark",
+            "birthYear": 1976,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Crime"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt21040162/mediaviewer/rm3635749889/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt21040162/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_A%2520Kind%2520of%2520Kidnapping"
+    },
+    "synopsis": {
+        "native": "A young, broke couple kidnap a sleazy politician who decides he can spin the story to his own advantage.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2023_046_01",
+            "film": "GB2023_046",
+            "person": {
+                "id": "Leila Hoffman",
+                "slug": "leila-hoffman",
+                "name": "Leila Hoffman",
+                "birthYear": 1934,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Dan Clark",
+                "slug": "dan-clark",
+                "name": "Dan Clark",
+                "birthYear": 1976,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Leila Hoffman",
+                "slug": "leila-hoffman",
+                "name": "Leila Hoffman",
+                "birthYear": 1934,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "professional politics"
+    ]
 }

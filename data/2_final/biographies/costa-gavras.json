@@ -1,30 +1,65 @@
 {
-  "id": "Costa-Gavras",
-  "type": "Biography",
-  "slug": "costa-gavras",
-  "name": "Costa-Gavras",
-  "birthYear": 1933,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Biopic",
-      "id": "FR2019_183",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-183-adults-in-the-room",
-      "tags": "eu",
-      "title": {
-        "english": "Adults in the Room",
-        "native": "Adults in the Room"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Costa-Gavras",
+    "slug": "costa-gavras",
+    "name": "Costa-Gavras",
+    "birthYear": 1933,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2022_110",
+                "slug": "es2022-110-film-the-living-record-of-our-memory",
+                "title": {
+                    "native": "Film: The Living Record of Our Memory",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-08-12",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Canada",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "film": {
+                "id": "FR2019_183",
+                "slug": "fr2019-183-adults-in-the-room",
+                "title": {
+                    "native": "Adults in the Room",
+                    "english": "Adults in the Room"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-11-06",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Greece",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

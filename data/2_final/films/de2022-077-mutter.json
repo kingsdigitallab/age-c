@@ -1,91 +1,100 @@
 {
-  "id": "DE2022_077",
-  "type": "Film",
-  "slug": "de2022-077-mutter",
-  "title": {
-    "native": "Mutter"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-09-29",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=EbBb3-L6-1s&ab_channel=FilmtoastTrailer",
-    "posterUrl": "https://www.imdb.com/title/tt21104158/mediaviewer/rm2188925697/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama",
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "parenthood",
-    "women empowerment",
-    "artistic creation",
-    "motherhood",
-    "multigenerational family"
-  ],
-  "director": [
-    {
-      "id": "Carolin Schmitz",
-      "slug": "carolin-schmitz",
-      "name": "Carolin Schmitz",
-      "birthYear": 1967,
-      "gender": "Female identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "character": [
-    {
-      "id": "DE2022_077_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Anke Engelke",
-        "slug": "anke-engelke",
-        "name": "Anke Engelke",
-        "birthYear": 1965.0,
-        "gender": "Female identifying",
-        "nationality": "Germany"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "DE2022_077",
+    "slug": "de2022-077-mutter",
+    "title": {
+        "native": "Mutter",
+        "english": ""
     },
-    {
-      "id": "DE2022_077_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Anke Engelke",
-        "slug": "anke-engelke",
-        "name": "Anke Engelke",
-        "birthYear": 1965.0,
-        "gender": "Female identifying",
-        "nationality": "Canada"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Acht Originalstimmen von Frauen, die durch die Darstellung von Anke Engelke in einer inszenierten Figur zusammengef\u00fchrt werden und ein vielschichtiges Bild von Mutterschaft beschreiben. Der Film widmet sich dem komplexen Thema Mutterschaft und erz\u00e4hlt von Freude und Zweifel, Macht und Ohnmacht, Wut und Liebe.",
-    "english": "Seven women relate their experiences of being mothers and wives struggling to combine their chores with their careers. Their playback voices are all lip-synced and enacted by one onscreen actress, Anke Engelke."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-09-29",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Carolin Schmitz",
+            "slug": "carolin-schmitz",
+            "name": "Carolin Schmitz",
+            "birthYear": 1967,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Performative mode",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt21104158/mediaviewer/rm2188925697/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=EbBb3-L6-1s&ab_channel=FilmtoastTrailer"
+    },
+    "synopsis": {
+        "native": "Acht Originalstimmen von Frauen, die durch die Darstellung von Anke Engelke in einer inszenierten Figur zusammengef\u00fchrt werden und ein vielschichtiges Bild von Mutterschaft beschreiben. Der Film widmet sich dem komplexen Thema Mutterschaft und erz\u00e4hlt von Freude und Zweifel, Macht und Ohnmacht, Wut und Liebe.",
+        "english": "Seven women relate their experiences of being mothers and wives struggling to combine their chores with their careers. Their playback voices are all lip-synced and enacted by one onscreen actress, Anke Engelke."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "DE2022_077_01",
+            "film": "DE2022_077",
+            "person": {
+                "id": "Anke Engelke",
+                "slug": "anke-engelke",
+                "name": "Anke Engelke",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Anke Engelke",
+                "slug": "anke-engelke",
+                "name": "Anke Engelke",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Carolin Schmitz",
+                "slug": "carolin-schmitz",
+                "name": "Carolin Schmitz",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "parenthood",
+        "motherhood",
+        "artistic creation",
+        "multigenerational family",
+        "women empowerment"
+    ]
 }

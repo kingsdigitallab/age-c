@@ -1,47 +1,87 @@
 {
-  "id": "DE2021_029",
-  "type": "Film",
-  "slug": "de2021-029-konig-der-raben",
-  "title": {
-    "native": "K\u00f6nig der Raben",
-    "english": "King of Ravens"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-08-19",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=GW2LpXb7GXA&ab_channel=Salzgeber",
-    "posterUrl": "https://www.imdb.com/title/tt10497782/mediaviewer/rm1923872769/?ref_=tt_ov_i."
-  },
-  "genre": [
-    "Comedy",
-    "Drama"
-  ],
-  "tags": [
-    "migration",
-    "racial discrimination"
-  ],
-  "director": [
-    {
-      "id": "Piotr J. Lewandowski",
-      "slug": "piotr-j-lewandowski",
-      "name": "Piotr J. Lewandowski",
-      "birthYear": 1975,
-      "gender": "Male identifying",
-      "nationality": "Poland"
-    }
-  ],
-  "synopsis": {
-    "native": "Der junge Mazedonier Darko (Malik Adan) h\u00e4lt sich illegal in Deutschland auf. Um irgendwie \u00fcber die Runde zu kommen, greift er zu allen Mitteln \u2013 auch wenn diese weit \u00fcber den Rand des Erlaubten hinausgehen. Sein Aufenthalt im Gro\u00dfstadtdschungel ver\u00e4ndert sich schlagartig, als er in eine Romanze mit der geheimnisvollen Alina (Antje Traue) eingeht. Darko verliebt sich Hals \u00fcber Kopf\u2026",
-    "english": "A love drama that takes place in the world of illegal immigrants in southern Germany, which is characterized by struggle and solidarity. It is an opulently told love story of Alina, a young Macedonian and Darko."
-  }
+    "type": "Film",
+    "id": "DE2021_029",
+    "slug": "de2021-029-konig-der-raben",
+    "title": {
+        "native": "K\u00f6nig der Raben",
+        "english": "King of Ravens"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-08-19",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Piotr J. Lewandowski",
+            "slug": "piotr-j-lewandowski",
+            "name": "Piotr J. Lewandowski",
+            "birthYear": 1975,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Poland"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt10497782/mediaviewer/rm1923872769/?ref_=tt_ov_i.",
+        "trailerUrl": "https://www.youtube.com/watch?v=GW2LpXb7GXA&ab_channel=Salzgeber"
+    },
+    "synopsis": {
+        "native": "Der junge Mazedonier Darko (Malik Adan) h\u00e4lt sich illegal in Deutschland auf. Um irgendwie \u00fcber die Runde zu kommen, greift er zu allen Mitteln \u2013 auch wenn diese weit \u00fcber den Rand des Erlaubten hinausgehen. Sein Aufenthalt im Gro\u00dfstadtdschungel ver\u00e4ndert sich schlagartig, als er in eine Romanze mit der geheimnisvollen Alina (Antje Traue) eingeht. Darko verliebt sich Hals \u00fcber Kopf\u2026",
+        "english": "A love drama that takes place in the world of illegal immigrants in southern Germany, which is characterized by struggle and solidarity. It is an opulently told love story of Alina, a young Macedonian and Darko."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Barbara Philipp",
+                "slug": "barbara-philipp",
+                "name": "Barbara Philipp",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Piotr J. Lewandowski",
+                "slug": "piotr-j-lewandowski",
+                "name": "Piotr J. Lewandowski",
+                "birthYear": 1975,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Poland"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Ralph Herforth",
+                "slug": "ralph-herforth",
+                "name": "Ralph Herforth",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "migration",
+        "racial discrimination"
+    ]
 }

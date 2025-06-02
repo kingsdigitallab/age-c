@@ -1,30 +1,35 @@
 {
-  "id": "Dario Albertini",
-  "type": "Biography",
-  "slug": "dario-albertini",
-  "name": "Dario Albertini",
-  "birthYear": 1974,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "IT2018_072",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "it2018-072-manuel",
-      "tags": "intergenerational friendship",
-      "title": {
-        "english": "Il figlio, Manuel",
-        "native": "Manuel"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Dario Albertini",
+    "slug": "dario-albertini",
+    "name": "Dario Albertini",
+    "birthYear": 1974,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2018_072",
+                "slug": "it2018-072-manuel",
+                "title": {
+                    "native": "Manuel",
+                    "english": "Il figlio, Manuel"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-05-03",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,100 +1,161 @@
 {
-  "id": "GB2023_039",
-  "type": "Film",
-  "slug": "gb2023-039-winners",
-  "title": {
-    "native": "Winners"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-03-17",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=o7cJW-DwjKM",
-    "posterUrl": "https://www.imdb.com/title/tt9673176/mediaviewer/rm223563521/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Coming of Age",
-    "Drama"
-  ],
-  "tags": [
-    "precarity",
-    "intergenerational friendship",
-    "class solidarity",
-    "low rank employment",
-    "homelessness",
-    "separation",
-    "grandfatherhood",
-    "mass media",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Hassan Nazer",
-      "slug": "hassan-nazer",
-      "name": "Hassan Nazer",
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+    "type": "Film",
+    "id": "GB2023_039",
+    "slug": "gb2023-039-winners",
+    "title": {
+        "native": "Winners",
+        "english": ""
     },
-    {
-      "id": "Hassan Nazer",
-      "slug": "hassan-nazer",
-      "name": "Hassan Nazer",
-      "gender": "Male identifying",
-      "nationality": "Iran (Islamic Republic of)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2023_039_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "Middle East",
-      "class": "Lower Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Mahmoud Jafari",
-        "slug": "mahmoud-jafari",
-        "name": "Mahmoud Jafari",
-        "birthYear": 1953.0,
-        "gender": "Male identifying",
-        "nationality": "Iran (Islamic Republic of)"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2023-03-17",
+        "year": 2023
     },
-    {
-      "id": "GB2023_039_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "Middle East",
-      "class": "Lower class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Reza Naji",
-        "slug": "reza-naji",
-        "name": "Reza Naji",
-        "birthYear": 1942.0,
-        "gender": "Male identifying",
-        "nationality": "Iran (Islamic Republic of)"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "In a small provincial Iranian town, the children work hard to support their families. One day nine-year-old Yahya and his friend Leyla find a precious statue. Sharing a passion for cinema, Yahya's boss Naser Khan (Reza Naji) decides to help them find the owner."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Hassan Nazer",
+            "slug": "hassan-nazer",
+            "name": "Hassan Nazer",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Iran (Islamic Republic of)"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Coming of Age"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9673176/mediaviewer/rm223563521/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=o7cJW-DwjKM"
+    },
+    "synopsis": {
+        "native": "In a small provincial Iranian town, the children work hard to support their families. One day nine-year-old Yahya and his friend Leyla find a precious statue. Sharing a passion for cinema, Yahya's boss Naser Khan (Reza Naji) decides to help them find the owner.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2023_039_01",
+            "film": "GB2023_039",
+            "person": {
+                "id": "Reza Naji",
+                "slug": "reza-naji",
+                "name": "Reza Naji",
+                "birthYear": 1942,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Iran (Islamic Republic of)"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "Middle East",
+            "class": "Lower class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2023_039_02",
+            "film": "GB2023_039",
+            "person": {
+                "id": "Mahmoud Jafari",
+                "slug": "mahmoud-jafari",
+                "name": "Mahmoud Jafari",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Iran (Islamic Republic of)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "Middle East",
+            "class": "Lower Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Asghar Semsarzade",
+                "slug": "asghar-semsarzade",
+                "name": "Asghar Semsarzade",
+                "birthYear": 1940,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Iran (Islamic Republic of)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Ezzatollah Ramazanifar",
+                "slug": "ezzatollah-ramazanifar",
+                "name": "Ezzatollah Ramazanifar",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Iran (Islamic Republic of)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Hassan Nazer",
+                "slug": "hassan-nazer",
+                "name": "Hassan Nazer",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Iran (Islamic Republic of)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Mahmoud Jafari",
+                "slug": "mahmoud-jafari",
+                "name": "Mahmoud Jafari",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Iran (Islamic Republic of)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Reza Naji",
+                "slug": "reza-naji",
+                "name": "Reza Naji",
+                "birthYear": 1942,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Iran (Islamic Republic of)"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "mass media",
+        "grandfatherhood",
+        "precarity",
+        "low rank employment",
+        "separation",
+        "homelessness",
+        "intergenerational friendship",
+        "rural",
+        "class solidarity"
+    ]
 }

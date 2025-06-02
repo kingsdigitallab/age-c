@@ -1,55 +1,95 @@
 {
-  "id": "FR2019_126",
-  "type": "Film",
-  "slug": "fr2019-126-anna",
-  "title": {
-    "native": "Anna",
-    "english": "Anna"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-07-10",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2019_126",
+    "slug": "fr2019-126-anna",
+    "title": {
+        "native": "Anna",
+        "english": "Anna"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=T_cYVJIKCuY",
-    "posterUrl": "https://medias.unifrance.org/medias/232/40/207080/format_page/anna.jpg"
-  },
-  "genre": [
-    "Action",
-    "Thriller"
-  ],
-  "tags": [
-    "high rank employment",
-    "corruption",
-    "power",
-    "state institutions",
-    "crime",
-    "murder"
-  ],
-  "director": [
-    {
-      "id": "Luc Besson",
-      "slug": "luc-besson",
-      "name": "Luc Besson",
-      "birthYear": 1959,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Les Matriochka sont des poup\u00e9es russes qui s\u2019embo\u00eetent les unes dans les autres. Chaque poup\u00e9e en cache une autre. Anna est une jolie femme de 24 ans, mais qui est-elle vraiment et combien de femmes se cachent en elle ? Est-ce une simple vendeuse de poup\u00e9es sur le march\u00e9 de Moscou ? Un top model qui d\u00e9file \u00e0 Paris ? Une tueuse qui ensanglante Milan ? Un flic corrompu ? Un agent double ? Ou tout simplement une redoutable joueuse d\u2019\u00e9checs ? Il faudra attendre la fin de la partie pour savoir qui est vraiment Anna et qui est \u201c\u00e9chec et mat\u201d.",
-    "english": "Matryoshka are Russian nesting dolls. Each doll hides another. Anna is a pretty, twenty-four-year-old woman, but who is she really and how many women hide within her? Is she a simple doll seller at the Moscow market? A top model seen on the catwalk in Paris fashion shows? A killer splashing Milan with blood? A corrupt cop? A double agent? Or merely a formidable chess player? We have to wait until the match is over to know who Anna truly is and who is \"checkmated.\""
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-07-10",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Luc Besson",
+            "slug": "luc-besson",
+            "name": "Luc Besson",
+            "birthYear": 1959,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Thriller",
+        "Action"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/232/40/207080/format_page/anna.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=T_cYVJIKCuY"
+    },
+    "synopsis": {
+        "native": "Les Matriochka sont des poup\u00e9es russes qui s\u2019embo\u00eetent les unes dans les autres. Chaque poup\u00e9e en cache une autre. Anna est une jolie femme de 24 ans, mais qui est-elle vraiment et combien de femmes se cachent en elle ? Est-ce une simple vendeuse de poup\u00e9es sur le march\u00e9 de Moscou ? Un top model qui d\u00e9file \u00e0 Paris ? Une tueuse qui ensanglante Milan ? Un flic corrompu ? Un agent double ? Ou tout simplement une redoutable joueuse d\u2019\u00e9checs ? Il faudra attendre la fin de la partie pour savoir qui est vraiment Anna et qui est \u201c\u00e9chec et mat\u201d.",
+        "english": "Matryoshka are Russian nesting dolls. Each doll hides another. Anna is a pretty, twenty-four-year-old woman, but who is she really and how many women hide within her? Is she a simple doll seller at the Moscow market? A top model seen on the catwalk in Paris fashion shows? A killer splashing Milan with blood? A corrupt cop? A double agent? Or merely a formidable chess player? We have to wait until the match is over to know who Anna truly is and who is \"checkmated.\""
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Helen Mirren",
+                "slug": "helen-mirren",
+                "name": "Helen Mirren",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Luc Besson",
+                "slug": "luc-besson",
+                "name": "Luc Besson",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "\u00c9ric Godon",
+                "slug": "eric-godon",
+                "name": "\u00c9ric Godon",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "state institutions",
+        "high rank employment",
+        "power",
+        "crime",
+        "murder",
+        "corruption"
+    ]
 }

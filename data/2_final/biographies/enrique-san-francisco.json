@@ -1,43 +1,67 @@
 {
-  "id": "Enrique San Francisco",
-  "type": "Biography",
-  "slug": "enrique-san-francisco",
-  "name": "Enrique San Francisco",
-  "birthYear": 1955,
-  "deathYear": 2021,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Chronic illness",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "Unknown",
-      "class": "Lower class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Drama",
-        "id": "ES2019_020",
-        "production": {
-          "country": "Spain",
-          "share": "Majority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2019
-        },
-        "slug": "es2019-020-4-latas",
-        "tags": "agony",
-        "title": {
-          "english": "4L",
-          "native": "4 latas"
+    "type": "Person",
+    "id": "Enrique San Francisco",
+    "slug": "enrique-san-francisco",
+    "name": "Enrique San Francisco",
+    "birthYear": 1955,
+    "deathYear": 2021,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [
+        {
+            "id": "ES2019_020_02",
+            "film": {
+                "id": "ES2019_020",
+                "slug": "es2019-020-4-latas",
+                "title": {
+                    "native": "4 latas",
+                    "english": "4L"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-03-01",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "person": "Enrique San Francisco",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower class",
+            "profession": "Unemployed",
+            "ability": "Chronic illness",
+            "assistedMobility": "Unknown"
         }
-      },
-      "gender": "Male identifying",
-      "id": "ES2019_020_02",
-      "origin": "White Western European",
-      "profession": "Unemployed",
-      "role": "Supporting actor",
-      "sexuality": "Heterosexual"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2019_020",
+                "slug": "es2019-020-4-latas",
+                "title": {
+                    "native": "4 latas",
+                    "english": "4L"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-03-01",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        }
+    ]
 }

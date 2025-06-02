@@ -1,30 +1,35 @@
 {
-  "id": "Alassane Diago",
-  "type": "Biography",
-  "slug": "alassane-diago",
-  "name": "Alassane Diago",
-  "birthYear": 1985,
-  "nationality": "Senegal",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Observational mode",
-      "id": "FR2019_039",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-039-rencontrer-mon-pere",
-      "tags": "parenthood",
-      "title": {
-        "english": "Meeting my Father",
-        "native": "Rencontrer mon p\u00e8re"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Alassane Diago",
+    "slug": "alassane-diago",
+    "name": "Alassane Diago",
+    "birthYear": 1985,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Senegal",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2019_039",
+                "slug": "fr2019-039-rencontrer-mon-pere",
+                "title": {
+                    "native": "Rencontrer mon p\u00e8re",
+                    "english": "Meeting my Father"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-02-20",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

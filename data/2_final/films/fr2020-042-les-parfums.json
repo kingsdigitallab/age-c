@@ -1,72 +1,136 @@
 {
-  "id": "FR2020_042",
-  "type": "Film",
-  "slug": "fr2020-042-les-parfums",
-  "title": {
-    "native": "Les Parfums",
-    "english": "Perfumes"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-07-01",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=kBkTaKPTUoI",
-    "posterUrl": "https://medias.unifrance.org/medias/221/87/219101/format_page/les-parfums.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "celibacy",
-    "mentorship",
-    "celebrity",
-    "self-employment",
-    "class conflict",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Gregory Magne",
-      "slug": "gregory-magne",
-      "name": "Gregory Magne",
-      "birthYear": 1976,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2020_042_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Emmanuelle Devos",
-        "slug": "emmanuelle-devos",
-        "name": "Emmanuelle Devos",
-        "birthYear": 1964.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Anne Walberg est une c\u00e9l\u00e9brit\u00e9 dans le monde du parfum. Elle cr\u00e9e des fragrances et vend son incroyable talent \u00e0 des soci\u00e9t\u00e9s en tout genre. Elle vit en diva, \u00e9go\u00efste, au temp\u00e9rament bien tremp\u00e9. Guillaume est son nouveau chauffeur et le seul qui n\u2019a pas peur de lui tenir t\u00eate. Sans doute la raison pour laquelle elle ne le renvoie pas.",
-    "english": "Anne Walberg is a master in perfumes. She creates fragrances and sells her incredible gift to many companies. She is a diva, selfish and temperamental. Guillaume is her new driver and the only one who dares facing her. This is probably why she does not fire him."
-  }
+    "type": "Film",
+    "id": "FR2020_042",
+    "slug": "fr2020-042-les-parfums",
+    "title": {
+        "native": "Les Parfums",
+        "english": "Perfumes"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-07-01",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Gregory Magne",
+            "slug": "gregory-magne",
+            "name": "Gregory Magne",
+            "birthYear": 1976,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/221/87/219101/format_page/les-parfums.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=kBkTaKPTUoI"
+    },
+    "synopsis": {
+        "native": "Anne Walberg est une c\u00e9l\u00e9brit\u00e9 dans le monde du parfum. Elle cr\u00e9e des fragrances et vend son incroyable talent \u00e0 des soci\u00e9t\u00e9s en tout genre. Elle vit en diva, \u00e9go\u00efste, au temp\u00e9rament bien tremp\u00e9. Guillaume est son nouveau chauffeur et le seul qui n\u2019a pas peur de lui tenir t\u00eate. Sans doute la raison pour laquelle elle ne le renvoie pas.",
+        "english": "Anne Walberg is a master in perfumes. She creates fragrances and sells her incredible gift to many companies. She is a diva, selfish and temperamental. Guillaume is her new driver and the only one who dares facing her. This is probably why she does not fire him."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2020_042_01",
+            "film": "FR2020_042",
+            "person": {
+                "id": "Emmanuelle Devos",
+                "slug": "emmanuelle-devos",
+                "name": "Emmanuelle Devos",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Emmanuelle Devos",
+                "slug": "emmanuelle-devos",
+                "name": "Emmanuelle Devos",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Gregory Magne",
+                "slug": "gregory-magne",
+                "name": "Gregory Magne",
+                "birthYear": 1976,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Gustave Kervern",
+                "slug": "gustave-kervern",
+                "name": "Gustave Kervern",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Olivier Broche",
+                "slug": "olivier-broche",
+                "name": "Olivier Broche",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Sacha Bourdo",
+                "slug": "sacha-bourdo",
+                "name": "Sacha Bourdo",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "superior-employee relationship",
+        "self-employment",
+        "class conflict",
+        "celibacy",
+        "mentorship",
+        "celebrity"
+    ]
 }

@@ -1,67 +1,108 @@
 {
-  "id": "IT2021_060",
-  "type": "Film",
-  "slug": "it2021-060-gianni-schicchi",
-  "title": {
-    "native": "Gianni Schicchi"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-11-29",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=qJ_nX-7wxGo",
-    "posterUrl": "https://www.imdb.com/title/tt14987236/mediaviewer/rm2026772481/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Musical"
-  ],
-  "tags": [
-    "inheritance",
-    "extended family"
-  ],
-  "director": [
-    {
-      "id": "Damiano Michieletto",
-      "slug": "damiano-michieletto",
-      "name": "Damiano Michieletto",
-      "birthYear": 1975,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2021_060_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Roberto Frontali",
-        "slug": "roberto-frontali",
-        "name": "Roberto Frontali",
-        "birthYear": 1958.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Esclusi dal testamento del ricchissimo commerciante toscano Buoso Donati, morto improvvisamente nella sua abitazione, i familiari dell\u2019uomo si rivolgono a Gianni Schicchi, un faccendiere famoso per muoversi con disinvoltura tra i cavilli della legge. Inizialmente disinteressato, Schicchi accetta l\u2019impiego su insistenza della figlia Lauretta, innamorata di Rinuccio, il giovane nipote di Donati. In assenza di una comunicazione ufficiale della morte di Donati, ordina cos\u00ec di nasconderne il cadavere e prende lui stesso il posto del defunto per dettare un nuovo testamento. I suoi clienti non sanno per\u00f2 che Schicchi \u00e8 troppo furbo per non aver organizzato a sua volta la truffa perfetta\u2026",
-    "english": "Relatives of a recently deceased wealthy man enlist the help of a wise man to help them inherit the dead man's properties. From Canto XXX of The Inferno of the Divine Comedy by Dante. Contains the famous aria O Mio Babbino Caro by Puccini."
-  }
+    "type": "Film",
+    "id": "IT2021_060",
+    "slug": "it2021-060-gianni-schicchi",
+    "title": {
+        "native": "Gianni Schicchi",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-11-29",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Damiano Michieletto",
+            "slug": "damiano-michieletto",
+            "name": "Damiano Michieletto",
+            "birthYear": 1975,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Musical"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt14987236/mediaviewer/rm2026772481/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=qJ_nX-7wxGo"
+    },
+    "synopsis": {
+        "native": "Esclusi dal testamento del ricchissimo commerciante toscano Buoso Donati, morto improvvisamente nella sua abitazione, i familiari dell\u2019uomo si rivolgono a Gianni Schicchi, un faccendiere famoso per muoversi con disinvoltura tra i cavilli della legge. Inizialmente disinteressato, Schicchi accetta l\u2019impiego su insistenza della figlia Lauretta, innamorata di Rinuccio, il giovane nipote di Donati. In assenza di una comunicazione ufficiale della morte di Donati, ordina cos\u00ec di nasconderne il cadavere e prende lui stesso il posto del defunto per dettare un nuovo testamento. I suoi clienti non sanno per\u00f2 che Schicchi \u00e8 troppo furbo per non aver organizzato a sua volta la truffa perfetta\u2026",
+        "english": "Relatives of a recently deceased wealthy man enlist the help of a wise man to help them inherit the dead man's properties. From Canto XXX of The Inferno of the Divine Comedy by Dante. Contains the famous aria O Mio Babbino Caro by Puccini."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2021_060_01",
+            "film": "IT2021_060",
+            "person": {
+                "id": "Roberto Frontali",
+                "slug": "roberto-frontali",
+                "name": "Roberto Frontali",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Damiano Michieletto",
+                "slug": "damiano-michieletto",
+                "name": "Damiano Michieletto",
+                "birthYear": 1975,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Giancarlo Giannini",
+                "slug": "giancarlo-giannini",
+                "name": "Giancarlo Giannini",
+                "birthYear": 1942,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Narrator/voice over"
+        },
+        {
+            "person": {
+                "id": "Roberto Frontali",
+                "slug": "roberto-frontali",
+                "name": "Roberto Frontali",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "inheritance",
+        "extended family"
+    ]
 }

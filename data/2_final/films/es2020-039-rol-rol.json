@@ -1,54 +1,154 @@
 {
-  "id": "ES2020_039",
-  "type": "Film",
-  "slug": "es2020-039-rol-rol",
-  "title": {
-    "native": "Rol & Rol",
-    "english": "Rol & Rol"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-09-09",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=288461",
-    "posterUrl": "https://www.imdb.com/title/tt10093594/mediaviewer/rm611302913/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "gender discrimination",
-    "women empowerment",
-    "body norms",
-    "politics",
-    "cultural memory",
-    "activism",
-    "homosociality",
-    "high-rank employment",
-    "mass media"
-  ],
-  "director": [
-    {
-      "id": "Chus Guti\u00e9rrez",
-      "slug": "chus-gutierrez",
-      "name": "Chus Guti\u00e9rrez",
-      "birthYear": 1962,
-      "gender": "Female identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "\"ROL & ROL\" explora el papel que desempe\u00f1an los medios de comunicaci\u00f3n, la publicidad y la ficci\u00f3n en la construcci\u00f3n de roles femeninos y c\u00f3mo estos modelos afectan a la manera de pensar de la sociedad y a la toma de decisiones vitales y profesionales de las mujeres, y tambi\u00e9n de los hombres. \u00bfPuede una representaci\u00f3n menos estereotipada y m\u00e1s real influir positivamente en la visualizaci\u00f3n de la mujer como l\u00edder y en la construcci\u00f3n de una sociedad m\u00e1s igualitaria?",
-    "english": "This documentary explores women's role in media, how they are built and their influence in the society. Could a less stereotyped representation help women to reach leadership professionally and socially?"
-  }
+    "type": "Film",
+    "id": "ES2020_039",
+    "slug": "es2020-039-rol-rol",
+    "title": {
+        "native": "Rol & Rol",
+        "english": "Rol & Rol"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-09-09",
+        "year": 2020
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Chus Guti\u00e9rrez",
+            "slug": "chus-gutierrez",
+            "name": "Chus Guti\u00e9rrez",
+            "birthYear": 1962,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Documentary \u2013 Performative mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt10093594/mediaviewer/rm611302913/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=288461"
+    },
+    "synopsis": {
+        "native": "\"ROL & ROL\" explora el papel que desempe\u00f1an los medios de comunicaci\u00f3n, la publicidad y la ficci\u00f3n en la construcci\u00f3n de roles femeninos y c\u00f3mo estos modelos afectan a la manera de pensar de la sociedad y a la toma de decisiones vitales y profesionales de las mujeres, y tambi\u00e9n de los hombres. \u00bfPuede una representaci\u00f3n menos estereotipada y m\u00e1s real influir positivamente en la visualizaci\u00f3n de la mujer como l\u00edder y en la construcci\u00f3n de una sociedad m\u00e1s igualitaria?",
+        "english": "This documentary explores women's role in media, how they are built and their influence in the society. Could a less stereotyped representation help women to reach leadership professionally and socially?"
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Anna Serner",
+                "slug": "anna-serner",
+                "name": "Anna Serner",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Sweden"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Carmela Garc\u00eda",
+                "slug": "carmela-garcia",
+                "name": "Carmela Garc\u00eda",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Charo Izquierdo",
+                "slug": "charo-izquierdo",
+                "name": "Charo Izquierdo",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Unknown",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Chus Guti\u00e9rrez",
+                "slug": "chus-gutierrez",
+                "name": "Chus Guti\u00e9rrez",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Ic\u00edar Bolla\u00edn",
+                "slug": "iciar-bollain",
+                "name": "Ic\u00edar Bolla\u00edn",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Mar\u00eda Teresa Fern\u00e1ndez de la Vega Sanz",
+                "slug": "maria-teresa-fernandez-de-la-vega-sanz",
+                "name": "Mar\u00eda Teresa Fern\u00e1ndez de la Vega Sanz",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Nouza Skalli",
+                "slug": "nouza-skalli",
+                "name": "Nouza Skalli",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Morocco"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Pilar Aguilar",
+                "slug": "pilar-aguilar",
+                "name": "Pilar Aguilar",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "mass media",
+        "gender discrimination",
+        "women empowerment",
+        "activism",
+        "politics",
+        "high-rank employment",
+        "homosociality",
+        "cultural memory",
+        "body norms"
+    ]
 }

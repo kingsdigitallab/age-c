@@ -1,47 +1,231 @@
 {
-  "id": "HU2022_022",
-  "type": "Film",
-  "slug": "hu2022-022-magyar-hangja",
-  "title": {
-    "native": "Magyar hangja...",
-    "english": "The Art of Dubbing"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-09-15",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Hungary",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=uDN017oGdLY",
-    "posterUrl": "https://www.imdb.com/title/tt21387900/mediaviewer/rm2010320385/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Expository mode"
-  ],
-  "tags": [
-    "national identity",
-    "artistic creation",
-    "cultural memory"
-  ],
-  "director": [
-    {
-      "id": "Andr\u00e1s Csap\u00f3",
-      "slug": "andras-csapo",
-      "name": "Andr\u00e1s Csap\u00f3",
-      "birthYear": 1991,
-      "gender": "Male identifying",
-      "nationality": "Hungary"
-    }
-  ],
-  "synopsis": {
-    "native": "A Magyar hangja\u2026 \u00e1tfog\u00f3 k\u00e9pet szeretne ny\u00fajtani a szakm\u00e1r\u00f3l \u00e9s annak fort\u00e9lyair\u00f3l. A hiteless\u00e9g jegy\u00e9ben k\u00e9sz\u00fclt negyven interj\u00faban t\u00f6bb tucat ismert sz\u00edn\u00e9sz \u00e9s szakember besz\u00e9l a szinkronszakm\u00e1r\u00f3l. A filmben megsz\u00f3lal Moln\u00e1r Piroska \u00e9s Szacsvay L\u00e1szl\u00f3, a Nemzet Sz\u00edn\u00e9szei, valamint m\u00e1sok mellett Bogd\u00e1nyi Titanilla, Csank\u00f3 Zolt\u00e1n, Cs\u0151re G\u00e1bor, Epres Attila, Galambos P\u00e9ter, G\u00e1ti Oszk\u00e1r, Hev\u00e9r G\u00e1bor, Holl N\u00e1ndor, K\u00e1lid Art\u00far, Kerekes J\u00f3zsef, Nagy Ervin, Pog\u00e1ny Judit, Seszt\u00e1k Szabolcs, Stohl Andr\u00e1s, Zsigmond Tamara. A szinkronszakma remek szakemberei k\u00f6z\u00fcl t\u00f6bbek k\u00f6z\u00f6tt B\u00e1thory Orsolya, D\u00f3czi Orsolya, Orosz Ildik\u00f3, Nikod\u00e9m Zsigmond szinkronrendez\u0151k, \u00e9s Pataricza Eszter, T\u00f3th Tam\u00e1s dramaturgok besz\u00e9lnek a szinkronk\u00e9sz\u00edt\u00e9sr\u0151l. Megsz\u00f3lal a Mafilm Audio jelenlegi vezet\u0151je Haber Andrea, valamint olyan legend\u00e1s szakemberek, mint Dallos Szilvia \u00e9s Haber Ferenc.",
-    "english": "The Art of Dubbing... is a feature-length documentary about the history, past, present and possible future of Hungarian dubbing. The film explores how dubbing and some emblematic Hungarian dubbed versions became part of Hungarian cultural heritage and assets as well as the difficulties faced by professionals in the digital transition and the challenges of dubbing in the past and present. Important dubbing projects and dubbing roles are discussed, with a special focus on dubbing animated films, from Hungarian folk tales to South Park and Family Guy. The Art of Dubbing... provides a comprehensive overview of the profession, with dozens of well-known actors and professionals talking about the world of dubbing."
-  }
+    "type": "Film",
+    "id": "HU2022_022",
+    "slug": "hu2022-022-magyar-hangja",
+    "title": {
+        "native": "Magyar hangja...",
+        "english": "The Art of Dubbing"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-09-15",
+        "year": 2022
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Andr\u00e1s Csap\u00f3",
+            "slug": "andras-csapo",
+            "name": "Andr\u00e1s Csap\u00f3",
+            "birthYear": 1991,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Hungary"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Expository mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt21387900/mediaviewer/rm2010320385/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=uDN017oGdLY"
+    },
+    "synopsis": {
+        "native": "A Magyar hangja\u2026 \u00e1tfog\u00f3 k\u00e9pet szeretne ny\u00fajtani a szakm\u00e1r\u00f3l \u00e9s annak fort\u00e9lyair\u00f3l. A hiteless\u00e9g jegy\u00e9ben k\u00e9sz\u00fclt negyven interj\u00faban t\u00f6bb tucat ismert sz\u00edn\u00e9sz \u00e9s szakember besz\u00e9l a szinkronszakm\u00e1r\u00f3l. A filmben megsz\u00f3lal Moln\u00e1r Piroska \u00e9s Szacsvay L\u00e1szl\u00f3, a Nemzet Sz\u00edn\u00e9szei, valamint m\u00e1sok mellett Bogd\u00e1nyi Titanilla, Csank\u00f3 Zolt\u00e1n, Cs\u0151re G\u00e1bor, Epres Attila, Galambos P\u00e9ter, G\u00e1ti Oszk\u00e1r, Hev\u00e9r G\u00e1bor, Holl N\u00e1ndor, K\u00e1lid Art\u00far, Kerekes J\u00f3zsef, Nagy Ervin, Pog\u00e1ny Judit, Seszt\u00e1k Szabolcs, Stohl Andr\u00e1s, Zsigmond Tamara. A szinkronszakma remek szakemberei k\u00f6z\u00fcl t\u00f6bbek k\u00f6z\u00f6tt B\u00e1thory Orsolya, D\u00f3czi Orsolya, Orosz Ildik\u00f3, Nikod\u00e9m Zsigmond szinkronrendez\u0151k, \u00e9s Pataricza Eszter, T\u00f3th Tam\u00e1s dramaturgok besz\u00e9lnek a szinkronk\u00e9sz\u00edt\u00e9sr\u0151l. Megsz\u00f3lal a Mafilm Audio jelenlegi vezet\u0151je Haber Andrea, valamint olyan legend\u00e1s szakemberek, mint Dallos Szilvia \u00e9s Haber Ferenc.",
+        "english": "The Art of Dubbing... is a feature-length documentary about the history, past, present and possible future of Hungarian dubbing. The film explores how dubbing and some emblematic Hungarian dubbed versions became part of Hungarian cultural heritage and assets as well as the difficulties faced by professionals in the digital transition and the challenges of dubbing in the past and present. Important dubbing projects and dubbing roles are discussed, with a special focus on dubbing animated films, from Hungarian folk tales to South Park and Family Guy. The Art of Dubbing... provides a comprehensive overview of the profession, with dozens of well-known actors and professionals talking about the world of dubbing."
+    },
+    "production": [
+        {
+            "country": "Hungary",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Andr\u00e1s Csap\u00f3",
+                "slug": "andras-csapo",
+                "name": "Andr\u00e1s Csap\u00f3",
+                "birthYear": 1991,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Art\u00far K\u00e1lid",
+                "slug": "artur-kalid",
+                "name": "Art\u00far K\u00e1lid",
+                "birthYear": 1970,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Attila Epres",
+                "slug": "attila-epres",
+                "name": "Attila Epres",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Edit Farkasinszky",
+                "slug": "edit-farkasinszky",
+                "name": "Edit Farkasinszky",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Ferenc Haber",
+                "slug": "ferenc-haber",
+                "name": "Ferenc Haber",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "G\u00e1bor Cs\u0151re",
+                "slug": "gabor-csore",
+                "name": "G\u00e1bor Cs\u0151re",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "G\u00e1bor Hev\u00e9r",
+                "slug": "gabor-hever",
+                "name": "G\u00e1bor Hev\u00e9r",
+                "birthYear": 1969,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "J\u00f3zsef Kerekes",
+                "slug": "jozsef-kerekes",
+                "name": "J\u00f3zsef Kerekes",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Margit F\u00f6ldessy",
+                "slug": "margit-foldessy",
+                "name": "Margit F\u00f6ldessy",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "N\u00e1ndor Holl",
+                "slug": "nandor-holl",
+                "name": "N\u00e1ndor Holl",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Orsolya B\u00e1thory",
+                "slug": "orsolya-bathory",
+                "name": "Orsolya B\u00e1thory",
+                "birthYear": 1969,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Oszk\u00e1r G\u00e1ti",
+                "slug": "oszkar-gati",
+                "name": "Oszk\u00e1r G\u00e1ti",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "P\u00e9ter Galambos",
+                "slug": "peter-galambos",
+                "name": "P\u00e9ter Galambos",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Szilvia Dallos",
+                "slug": "szilvia-dallos",
+                "name": "Szilvia Dallos",
+                "birthYear": 1935,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Zolt\u00e1n Csank\u00f3",
+                "slug": "zoltan-csanko",
+                "name": "Zolt\u00e1n Csank\u00f3",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "cultural memory",
+        "artistic creation",
+        "national identity"
+    ]
 }

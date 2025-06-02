@@ -1,29 +1,35 @@
 {
-  "id": "Antonio Palacios",
-  "type": "Biography",
-  "slug": "antonio-palacios",
-  "name": "Antonio Palacios",
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Expository mode",
-      "id": "ES2022_067",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "es2022-067-los-negros",
-      "tags": "racial discrimination",
-      "title": {
-        "english": "The Blacks",
-        "native": "Los Negros"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Antonio Palacios",
+    "slug": "antonio-palacios",
+    "name": "Antonio Palacios",
+    "birthYear": 0,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2022_067",
+                "slug": "es2022-067-los-negros",
+                "title": {
+                    "native": "Los Negros",
+                    "english": "The Blacks"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-03-21",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

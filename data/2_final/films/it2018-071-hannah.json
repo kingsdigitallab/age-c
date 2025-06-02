@@ -1,80 +1,120 @@
 {
-  "id": "IT2018_071",
-  "type": "Film",
-  "slug": "it2018-071-hannah",
-  "title": {
-    "native": "Hannah",
-    "english": "Hannah"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-02-15",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "IT2018_071",
+    "slug": "it2018-071-hannah",
+    "title": {
+        "native": "Hannah",
+        "english": "Hannah"
     },
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2018-02-15",
+        "year": 2018
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=3ZNTmh_TiMQ",
-    "posterUrl": "https://www.imdb.com/title/tt4432006/mediaviewer/rm2810848256/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "motherhood",
-    "personal trauma",
-    "loneliness",
-    "grandmotherhood",
-    "crime",
-    "daily routine"
-  ],
-  "director": [
-    {
-      "id": "Andrea Pallaoro",
-      "slug": "andrea-pallaoro",
-      "name": "Andrea Pallaoro",
-      "birthYear": 1982,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2018_071_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Charlotte Rampling",
-        "slug": "charlotte-rampling",
-        "name": "Charlotte Rampling",
-        "birthYear": 1946.0,
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Hannah \u00e8 il ritratto intimo di una donna che non riesce ad accettare la realt\u00e0 che la circonda. Rimasta sola, alle prese con le conseguenze dell\u2019arresto del marito, Hannah inizia a sgretolarsi. Attraverso l\u2019esplorazione del suo graduale crollo emotivo e psicologico, il film indaga il confine delicato tra l\u2019identit\u00e0 del singolo, le relazioni umane e le pressioni sociali.",
-    "english": "Hannah is the intimate portrait of a woman\u2019s loss of identity as she teeters between denial and reality. Left alone grappling with the consequences of her husband's imprisonment, Hannah begins to unravel. Through the exploration of her fractured sense of identity and loss of self-control, the film investigates modern day alienation, the struggle to connect, and the dividing lines between individual identity, personal relationships, and societal pressures."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Andrea Pallaoro",
+            "slug": "andrea-pallaoro",
+            "name": "Andrea Pallaoro",
+            "birthYear": 1982,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt4432006/mediaviewer/rm2810848256/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=3ZNTmh_TiMQ"
+    },
+    "synopsis": {
+        "native": "Hannah \u00e8 il ritratto intimo di una donna che non riesce ad accettare la realt\u00e0 che la circonda. Rimasta sola, alle prese con le conseguenze dell\u2019arresto del marito, Hannah inizia a sgretolarsi. Attraverso l\u2019esplorazione del suo graduale crollo emotivo e psicologico, il film indaga il confine delicato tra l\u2019identit\u00e0 del singolo, le relazioni umane e le pressioni sociali.",
+        "english": "Hannah is the intimate portrait of a woman\u2019s loss of identity as she teeters between denial and reality. Left alone grappling with the consequences of her husband's imprisonment, Hannah begins to unravel. Through the exploration of her fractured sense of identity and loss of self-control, the film investigates modern day alienation, the struggle to connect, and the dividing lines between individual identity, personal relationships, and societal pressures."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2018_071_01",
+            "film": "IT2018_071",
+            "person": {
+                "id": "Charlotte Rampling",
+                "slug": "charlotte-rampling",
+                "name": "Charlotte Rampling",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Andrea Pallaoro",
+                "slug": "andrea-pallaoro",
+                "name": "Andrea Pallaoro",
+                "birthYear": 1982,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Andr\u00e9 Wilms",
+                "slug": "andre-wilms",
+                "name": "Andr\u00e9 Wilms",
+                "birthYear": 1947,
+                "deathYear": 2022,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Charlotte Rampling",
+                "slug": "charlotte-rampling",
+                "name": "Charlotte Rampling",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "crime",
+        "daily routine",
+        "motherhood",
+        "loneliness",
+        "personal trauma",
+        "grandmotherhood"
+    ]
 }

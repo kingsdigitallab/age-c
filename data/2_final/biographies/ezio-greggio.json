@@ -1,41 +1,67 @@
 {
-  "id": "Ezio Greggio",
-  "type": "Biography",
-  "slug": "ezio-greggio",
-  "name": "Ezio Greggio",
-  "birthYear": 1954,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "No",
-      "class": "Upper Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Comedy",
-        "id": "IT2020_016",
-        "production": {
-          "country": "Italy",
-          "share": "Majority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2020
-        },
-        "slug": "it2020-016-lockdown-all-italiana",
-        "tags": "infidelity",
-        "title": {
-          "native": "Lockdown all'italiana"
+    "type": "Person",
+    "id": "Ezio Greggio",
+    "slug": "ezio-greggio",
+    "name": "Ezio Greggio",
+    "birthYear": 1954,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [
+        {
+            "id": "IT2020_016_01",
+            "film": {
+                "id": "IT2020_016",
+                "slug": "it2020-016-lockdown-all-italiana",
+                "title": {
+                    "native": "Lockdown all'italiana",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-10-15",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "person": "Ezio Greggio",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "IT2020_016_01",
-      "origin": "White Western European",
-      "profession": "Self-employed",
-      "role": "Leading actor",
-      "sexuality": "Heterosexual"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2020_016",
+                "slug": "it2020-016-lockdown-all-italiana",
+                "title": {
+                    "native": "Lockdown all'italiana",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-10-15",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        }
+    ]
 }

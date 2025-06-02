@@ -1,87 +1,127 @@
 {
-  "id": "ES2023_049",
-  "type": "Film",
-  "slug": "es2023-049-sobre-todo-de-noche",
-  "title": {
-    "native": "Sobre todo de noche",
-    "english": "Foremost by Night"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-11-28",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "ES2023_049",
+    "slug": "es2023-049-sobre-todo-de-noche",
+    "title": {
+        "native": "Sobre todo de noche",
+        "english": "Foremost by Night"
     },
-    {
-      "country": "Portugal",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2023-11-28",
+        "year": 2023
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=550098",
-    "posterUrl": "https://www.imdb.com/title/tt21882016/mediaviewer/rm839209985/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Drama",
-    "Heist"
-  ],
-  "tags": [
-    "motherhood",
-    "personal memory",
-    "crime",
-    "women empowerment",
-    "revenge",
-    "personal trauma",
-    "national identity",
-    "state institutions",
-    "homosociality",
-    "abuse",
-    "collective trauma"
-  ],
-  "director": [
-    {
-      "id": "V\u00edctor Iriarte",
-      "slug": "victor-iriarte",
-      "name": "V\u00edctor Iriarte",
-      "birthYear": 1976,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2023_049_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Ana Torrent",
-        "slug": "ana-torrent",
-        "name": "Ana Torrent",
-        "birthYear": 1966.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Cuando Vera (Lola Due\u00f1as) era joven, no pudo hacerse cargo de su hijo y tuvo que darlo en adopci\u00f3n. Cuando Cora (Ana Torrent) era joven, su m\u00e9dico le dijo que no podr\u00eda tener hijos y que s\u00f3lo adoptando podr\u00eda formar una familia. Ambas comparten esa experiencia de haber sido madres de un ni\u00f1o llamado Egoz (Manuel Egozkue). Ahora, ambas mujeres se reencuentran en Portugal para repasar la historia de sus vidas y reescribir sus destinos.",
-    "english": "Exploring the issue of stolen children in Spain, the plot tracks Vera's search for her biological son, given in adoption, thereby coming across Cora and her adoptive son Egoz."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "V\u00edctor Iriarte",
+            "slug": "victor-iriarte",
+            "name": "V\u00edctor Iriarte",
+            "birthYear": 1976,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Thriller",
+        "Heist"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt21882016/mediaviewer/rm839209985/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=550098"
+    },
+    "synopsis": {
+        "native": "Cuando Vera (Lola Due\u00f1as) era joven, no pudo hacerse cargo de su hijo y tuvo que darlo en adopci\u00f3n. Cuando Cora (Ana Torrent) era joven, su m\u00e9dico le dijo que no podr\u00eda tener hijos y que s\u00f3lo adoptando podr\u00eda formar una familia. Ambas comparten esa experiencia de haber sido madres de un ni\u00f1o llamado Egoz (Manuel Egozkue). Ahora, ambas mujeres se reencuentran en Portugal para repasar la historia de sus vidas y reescribir sus destinos.",
+        "english": "Exploring the issue of stolen children in Spain, the plot tracks Vera's search for her biological son, given in adoption, thereby coming across Cora and her adoptive son Egoz."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Portugal",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2023_049_01",
+            "film": "ES2023_049",
+            "person": {
+                "id": "Ana Torrent",
+                "slug": "ana-torrent",
+                "name": "Ana Torrent",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Ana Torrent",
+                "slug": "ana-torrent",
+                "name": "Ana Torrent",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Fernando Egozcue",
+                "slug": "fernando-egozcue",
+                "name": "Fernando Egozcue",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Argentina"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "V\u00edctor Iriarte",
+                "slug": "victor-iriarte",
+                "name": "V\u00edctor Iriarte",
+                "birthYear": 1976,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "motherhood",
+        "abuse",
+        "collective trauma",
+        "homosociality",
+        "crime",
+        "revenge",
+        "personal memory",
+        "personal trauma",
+        "national identity",
+        "state institutions",
+        "women empowerment"
+    ]
 }

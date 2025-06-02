@@ -1,49 +1,89 @@
 {
-  "id": "FR2020_033",
-  "type": "Film",
-  "slug": "fr2020-033-mes-jours-de-gloire",
-  "title": {
-    "native": "Mes jours de gloire",
-    "english": "My Days of Glory"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-02-26",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=i9YLZ3O7j6Q",
-    "posterUrl": "https://medias.unifrance.org/medias/125/83/217981/format_page/mes-jours-de-gloire.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "motherhood",
-    "celibacy",
-    "independent home",
-    "urban",
-    "self-employment"
-  ],
-  "director": [
-    {
-      "id": "Antoine de Bary",
-      "slug": "antoine-de-bary",
-      "name": "Antoine de Bary",
-      "birthYear": 1990,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Adrien est un Peter Pan des temps modernes. Il a beau approcher la trentaine, il vit encore comme un enfant. Petit il a connu le succ\u00e8s en tant qu\u2019acteur mais c\u2019\u00e9tait il y a plus de dix ans et aujourd\u2019hui Adrien n\u2019a plus un sou. Il retourne ainsi vivre chez ses parents et tente de redonner un coup de fouet \u00e0 sa vie. Entre la possibilit\u00e9 d\u2019une histoire d\u2019amour et celle d\u2019un retour qu\u2019il s\u2019imagine triomphant en tant qu\u2019acteur, le chemin d\u2019Adrien sera sem\u00e9 d\u2019emb\u00fbches.",
-    "english": "Former child star, Adrian had high hopes for his future. As he\u2019s approaching his 30\u2019s, things are not exactly turning out as planned. In addition to his empty love life, he\u2019s been expelled from his flat and had to go back living with his parents. His life pretty much comes down to chatting up girls in local bars although he seems to have lost that skill too. As his acting career is in trouble and his mood is down, he meets the young and pretty L\u00e9a in a police station and hears about an audition to play young French hero Charles de Gaulle..."
-  }
+    "type": "Film",
+    "id": "FR2020_033",
+    "slug": "fr2020-033-mes-jours-de-gloire",
+    "title": {
+        "native": "Mes jours de gloire",
+        "english": "My Days of Glory"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-02-26",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Antoine de Bary",
+            "slug": "antoine-de-bary",
+            "name": "Antoine de Bary",
+            "birthYear": 1990,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/125/83/217981/format_page/mes-jours-de-gloire.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=i9YLZ3O7j6Q"
+    },
+    "synopsis": {
+        "native": "Adrien est un Peter Pan des temps modernes. Il a beau approcher la trentaine, il vit encore comme un enfant. Petit il a connu le succ\u00e8s en tant qu\u2019acteur mais c\u2019\u00e9tait il y a plus de dix ans et aujourd\u2019hui Adrien n\u2019a plus un sou. Il retourne ainsi vivre chez ses parents et tente de redonner un coup de fouet \u00e0 sa vie. Entre la possibilit\u00e9 d\u2019une histoire d\u2019amour et celle d\u2019un retour qu\u2019il s\u2019imagine triomphant en tant qu\u2019acteur, le chemin d\u2019Adrien sera sem\u00e9 d\u2019emb\u00fbches.",
+        "english": "Former child star, Adrian had high hopes for his future. As he\u2019s approaching his 30\u2019s, things are not exactly turning out as planned. In addition to his empty love life, he\u2019s been expelled from his flat and had to go back living with his parents. His life pretty much comes down to chatting up girls in local bars although he seems to have lost that skill too. As his acting career is in trouble and his mood is down, he meets the young and pretty L\u00e9a in a police station and hears about an audition to play young French hero Charles de Gaulle..."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Antoine de Bary",
+                "slug": "antoine-de-bary",
+                "name": "Antoine de Bary",
+                "birthYear": 1990,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Christophe Lambert",
+                "slug": "christophe-lambert",
+                "name": "Christophe Lambert",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Emmanuelle Devos",
+                "slug": "emmanuelle-devos",
+                "name": "Emmanuelle Devos",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "motherhood",
+        "urban",
+        "self-employment",
+        "celibacy",
+        "independent home"
+    ]
 }

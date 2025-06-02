@@ -1,41 +1,72 @@
 {
-  "id": "RO2022_005",
-  "type": "Film",
-  "slug": "ro2022-005-cine-verite",
-  "title": {
-    "native": "Cin\u00e9 verit\u00e9"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-05-13",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Romania",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.cinemagia.ro/trailer/cine-verite-27063/",
-    "posterUrl": "https://www.cinemagia.ro/filme/cine-verite-3188141/postere/4608751/#gallery"
-  },
-  "genre": [
-    "Romance",
-    "Drama"
-  ],
-  "director": [
-    {
-      "id": "Bogdan Dreyer",
-      "slug": "bogdan-dreyer",
-      "name": "Bogdan Dreyer",
-      "birthYear": 1962,
-      "gender": "Male identifying",
-      "nationality": "Romania"
-    }
-  ],
-  "synopsis": {
-    "native": "R\u0103zvan \u0219i Dorin sunt prieteni din copil\u0103rie, colegi de \u0219coal\u0103. \u00cen pofida anilor trecu\u021bi, cei doi sunt \u0219i azi prieteni nedesp\u0103r\u021bi\u021bi, \u201dcei mai buni prieteni\u201d cum se raporteaz\u0103 unul fa\u021b\u0103 de cel\u0103lalt."
-  }
+    "type": "Film",
+    "id": "RO2022_005",
+    "slug": "ro2022-005-cine-verite",
+    "title": {
+        "native": "Cin\u00e9 verit\u00e9",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-05-13",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Bogdan Dreyer",
+            "slug": "bogdan-dreyer",
+            "name": "Bogdan Dreyer",
+            "birthYear": 1962,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Romania"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://www.cinemagia.ro/filme/cine-verite-3188141/postere/4608751/#gallery",
+        "trailerUrl": "https://www.cinemagia.ro/trailer/cine-verite-27063/"
+    },
+    "synopsis": {
+        "native": "R\u0103zvan \u0219i Dorin sunt prieteni din copil\u0103rie, colegi de \u0219coal\u0103. \u00cen pofida anilor trecu\u021bi, cei doi sunt \u0219i azi prieteni nedesp\u0103r\u021bi\u021bi, \u201dcei mai buni prieteni\u201d cum se raporteaz\u0103 unul fa\u021b\u0103 de cel\u0103lalt.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Romania",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Adrian P\u0103duraru",
+                "slug": "adrian-paduraru",
+                "name": "Adrian P\u0103duraru",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Bogdan Dreyer",
+                "slug": "bogdan-dreyer",
+                "name": "Bogdan Dreyer",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": []
 }

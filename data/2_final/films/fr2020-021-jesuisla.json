@@ -1,71 +1,109 @@
 {
-  "id": "FR2020_021",
-  "type": "Film",
-  "slug": "fr2020-021-jesuisla",
-  "title": {
-    "native": "#jesuisl\u00e0",
-    "english": "#Iamhere"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-02-05",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2020_021",
+    "slug": "fr2020-021-jesuisla",
+    "title": {
+        "native": "#jesuisl\u00e0",
+        "english": "#Iamhere"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=NUeR9UyMtkA",
-    "posterUrl": "https://medias.unifrance.org/medias/76/79/216908/format_page/jesuisla.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Romance"
-  ],
-  "tags": [
-    "fatherhood",
-    "extended family",
-    "urban",
-    "may-december",
-    "self-employment",
-    "desire",
-    "romance",
-    "technology",
-    "tourism",
-    "rural"
-  ],
-  "character": [
-    {
-      "id": "FR2020_021_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Alain Chabat",
-        "slug": "alain-chabat",
-        "name": "Alain Chabat",
-        "birthYear": 1958.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "St\u00e9phane m\u00e8ne une vie paisible au Pays Basque entre ses deux fils, aujourd\u2019hui adultes, son ex- femme et son m\u00e9tier de chef cuisinier. Le petit frisson dont chacun r\u00eave, il le trouve sur les r\u00e9seaux sociaux o\u00f9 il \u00e9change au quotidien avec Soo, une jeune sud-cor\u00e9enne. Sur un coup de t\u00eate, il d\u00e9cide de s\u2019envoler pour la Cor\u00e9e dans l\u2019espoir de la rencontrer. D\u00e8s son arriv\u00e9e \u00e0 l\u2019a\u00e9roport de S\u00e9oul, un nouveau monde s\u2019ouvre \u00e0 lui...",
-    "english": "St\u00e9phane, a French head chef, has every reason to feel fulfilled. And yet, the only one that keeps him alive is Soo, a young Korean woman he met on lnstagram. They talk about art and cherry trees about to blossom and seem to understand each other despite the language, the distance and cultural barriers. On a whim, St\u00e9phane decides to visit Soo in Seoul. Will he finally be able to meet her?"
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2020-02-05",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        "\u00c9ric Lartigau"
+    ],
+    "genre": [
+        "Romance",
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/76/79/216908/format_page/jesuisla.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=NUeR9UyMtkA"
+    },
+    "synopsis": {
+        "native": "St\u00e9phane m\u00e8ne une vie paisible au Pays Basque entre ses deux fils, aujourd\u2019hui adultes, son ex- femme et son m\u00e9tier de chef cuisinier. Le petit frisson dont chacun r\u00eave, il le trouve sur les r\u00e9seaux sociaux o\u00f9 il \u00e9change au quotidien avec Soo, une jeune sud-cor\u00e9enne. Sur un coup de t\u00eate, il d\u00e9cide de s\u2019envoler pour la Cor\u00e9e dans l\u2019espoir de la rencontrer. D\u00e8s son arriv\u00e9e \u00e0 l\u2019a\u00e9roport de S\u00e9oul, un nouveau monde s\u2019ouvre \u00e0 lui...",
+        "english": "St\u00e9phane, a French head chef, has every reason to feel fulfilled. And yet, the only one that keeps him alive is Soo, a young Korean woman he met on lnstagram. They talk about art and cherry trees about to blossom and seem to understand each other despite the language, the distance and cultural barriers. On a whim, St\u00e9phane decides to visit Soo in Seoul. Will he finally be able to meet her?"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2020_021_01",
+            "film": "FR2020_021",
+            "person": {
+                "id": "Alain Chabat",
+                "slug": "alain-chabat",
+                "name": "Alain Chabat",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alain Chabat",
+                "slug": "alain-chabat",
+                "name": "Alain Chabat",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Vincent Nemeth",
+                "slug": "vincent-nemeth",
+                "name": "Vincent Nemeth",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": "\u00c9ric Lartigau",
+            "role": "Director of the film"
+        },
+        {
+            "person": "\u00c9ric Lartigau",
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "may-december",
+        "fatherhood",
+        "rural",
+        "urban",
+        "technology",
+        "extended family",
+        "self-employment",
+        "tourism",
+        "desire",
+        "romance"
+    ]
 }

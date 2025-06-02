@@ -1,45 +1,121 @@
 {
-  "id": "IT2023_004",
-  "type": "Film",
-  "slug": "it2023-004-santocielo",
-  "title": {
-    "native": "Santocielo",
-    "english": "Ohmygod!"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-12-14",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=1UnSKTlDPy8",
-    "posterUrl": "https://www.imdb.com/title/tt27683368/mediaviewer/rm3639232513/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "religion"
-  ],
-  "director": [
-    {
-      "id": "Francesco Amato",
-      "slug": "francesco-amato",
-      "name": "Francesco Amato",
-      "birthYear": 1978,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "synopsis": {
-    "native": "A fare l\u2019Annunciazione e ad insufflare nel grembo della nuova Madonna il nuovo Messia viene inviato Aristide (Valentino Picone). Ma questi per errore finisce per \u201cingravidare\u201d non la prescelta ma tale Nicola Balistreri (Salvo Ficarra), un professore bigotto e ossessionato dal giudizio altrui.",
-    "english": "Heaven decides to send a new messiah to save mankind. But the angel Aristide ends up \u201cimpregnating\u201d a man obsessed with his own prejudices."
-  }
+    "type": "Film",
+    "id": "IT2023_004",
+    "slug": "it2023-004-santocielo",
+    "title": {
+        "native": "Santocielo",
+        "english": "Ohmygod!"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-12-14",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Francesco Amato",
+            "slug": "francesco-amato",
+            "name": "Francesco Amato",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt27683368/mediaviewer/rm3639232513/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=1UnSKTlDPy8"
+    },
+    "synopsis": {
+        "native": "A fare l\u2019Annunciazione e ad insufflare nel grembo della nuova Madonna il nuovo Messia viene inviato Aristide (Valentino Picone). Ma questi per errore finisce per \u201cingravidare\u201d non la prescelta ma tale Nicola Balistreri (Salvo Ficarra), un professore bigotto e ossessionato dal giudizio altrui.",
+        "english": "Heaven decides to send a new messiah to save mankind. But the angel Aristide ends up \u201cimpregnating\u201d a man obsessed with his own prejudices."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Antonello Puglisi",
+                "slug": "antonello-puglisi",
+                "name": "Antonello Puglisi",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Francesco Amato",
+                "slug": "francesco-amato",
+                "name": "Francesco Amato",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Gino Carista",
+                "slug": "gino-carista",
+                "name": "Gino Carista",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Giovanni Storti",
+                "slug": "giovanni-storti",
+                "name": "Giovanni Storti",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Mary Cipolla",
+                "slug": "mary-cipolla",
+                "name": "Mary Cipolla",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Mimmo Mignemi",
+                "slug": "mimmo-mignemi",
+                "name": "Mimmo Mignemi",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "religion"
+    ]
 }

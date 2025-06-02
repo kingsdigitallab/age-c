@@ -1,74 +1,138 @@
 {
-  "id": "FR2018_039",
-  "type": "Film",
-  "slug": "fr2018-039-eva",
-  "title": {
-    "native": "Eva",
-    "english": "Eva"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-03-07",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2018_039",
+    "slug": "fr2018-039-eva",
+    "title": {
+        "native": "Eva",
+        "english": "Eva"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=PYyzG-0kQBM",
-    "posterUrl": "https://medias.unifrance.org/medias/117/218/186997/format_page/eva.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "sex work",
-    "sex",
-    "superior-employee relationship",
-    "self-employment"
-  ],
-  "director": [
-    {
-      "id": "Beno\u00eet Jacquot",
-      "slug": "benoit-jacquot",
-      "name": "Beno\u00eet Jacquot",
-      "birthYear": 1947,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2018_039_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Isabelle Huppert",
-        "slug": "isabelle-huppert",
-        "name": "Isabelle Huppert",
-        "birthYear": 1953.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Tout commence par une temp\u00eate de neige. Eva, troublante et myst\u00e9rieuse, fait irruption dans la vie de Bertrand, \u00e9crivain prometteur. Cette rencontre va bouleverser Bertrand jusqu\u2019\u00e0 l\u2019obsession et le fera glisser jusqu\u2019\u00e0 sa perte.",
-    "english": "It all begins with a snowstorm. Eva, troubling and mysterious, bursts into Bertrand's life. This encounter will have a drastic effect on Bertrand, a promising writer, who becomes obsessed with Eva, until he loses all sense of himself."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2018-03-07",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Beno\u00eet Jacquot",
+            "slug": "benoit-jacquot",
+            "name": "Beno\u00eet Jacquot",
+            "birthYear": 1947,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/117/218/186997/format_page/eva.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=PYyzG-0kQBM"
+    },
+    "synopsis": {
+        "native": "Tout commence par une temp\u00eate de neige. Eva, troublante et myst\u00e9rieuse, fait irruption dans la vie de Bertrand, \u00e9crivain prometteur. Cette rencontre va bouleverser Bertrand jusqu\u2019\u00e0 l\u2019obsession et le fera glisser jusqu\u2019\u00e0 sa perte.",
+        "english": "It all begins with a snowstorm. Eva, troubling and mysterious, bursts into Bertrand's life. This encounter will have a drastic effect on Bertrand, a promising writer, who becomes obsessed with Eva, until he loses all sense of himself."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2018_039_01",
+            "film": "FR2018_039",
+            "person": {
+                "id": "Isabelle Huppert",
+                "slug": "isabelle-huppert",
+                "name": "Isabelle Huppert",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Beno\u00eet Jacquot",
+                "slug": "benoit-jacquot",
+                "name": "Beno\u00eet Jacquot",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Didier Flamand",
+                "slug": "didier-flamand",
+                "name": "Didier Flamand",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Isabelle Huppert",
+                "slug": "isabelle-huppert",
+                "name": "Isabelle Huppert",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Marc Barb\u00e9",
+                "slug": "marc-barbe",
+                "name": "Marc Barb\u00e9",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Richard Berry",
+                "slug": "richard-berry",
+                "name": "Richard Berry",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "sex work",
+        "sex",
+        "self-employment",
+        "superior-employee relationship"
+    ]
 }

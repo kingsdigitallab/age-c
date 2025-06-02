@@ -1,46 +1,99 @@
 {
-  "id": "IT2020_001",
-  "type": "Film",
-  "slug": "it2020-001-tolo-tolo",
-  "title": {
-    "native": "Tolo Tolo"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-01-01",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=EjjZBXUA0K0",
-    "posterUrl": "https://www.imdb.com/title/tt10413566/mediaviewer/rm2207222785/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "migration",
-    "interracial relationships",
-    "colony"
-  ],
-  "director": [
-    {
-      "id": "Checco Zalone",
-      "slug": "checco-zalone",
-      "name": "Checco Zalone",
-      "birthYear": 1977,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "synopsis": {
-    "native": "Non compreso da madre patria, Checco trova accoglienza in Africa. Ma una guerra lo costringer\u00e0 a far ritorno percorrendo la tortuosa rotta dei migranti. Lui, Tolo Tolo, granello di sale in un mondo di cacao.",
-    "english": "Pierfrancesco \"Checco\" Zalone, a failed entrepreneur, seeks a new life as a waiter on a holiday village in Africa, but the appearance of ISIS forces him to travel again."
-  }
+    "type": "Film",
+    "id": "IT2020_001",
+    "slug": "it2020-001-tolo-tolo",
+    "title": {
+        "native": "Tolo Tolo",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-01-01",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Checco Zalone",
+            "slug": "checco-zalone",
+            "name": "Checco Zalone",
+            "birthYear": 1977,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt10413566/mediaviewer/rm2207222785/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=EjjZBXUA0K0"
+    },
+    "synopsis": {
+        "native": "Non compreso da madre patria, Checco trova accoglienza in Africa. Ma una guerra lo costringer\u00e0 a far ritorno percorrendo la tortuosa rotta dei migranti. Lui, Tolo Tolo, granello di sale in un mondo di cacao.",
+        "english": "Pierfrancesco \"Checco\" Zalone, a failed entrepreneur, seeks a new life as a waiter on a holiday village in Africa, but the appearance of ISIS forces him to travel again."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Antonella Attili",
+                "slug": "antonella-attili",
+                "name": "Antonella Attili",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Barbara Bouchet",
+                "slug": "barbara-bouchet",
+                "name": "Barbara Bouchet",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Checco Zalone",
+                "slug": "checco-zalone",
+                "name": "Checco Zalone",
+                "birthYear": 1977,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Giustina Buonomo",
+                "slug": "giustina-buonomo",
+                "name": "Giustina Buonomo",
+                "birthYear": 1938,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "migration",
+        "colony",
+        "interracial relationships"
+    ]
 }

@@ -1,73 +1,144 @@
 {
-  "id": "Donald Sutherland",
-  "type": "Biography",
-  "slug": "donald-sutherland",
-  "name": "Donald Sutherland",
-  "birthYear": 1935,
-  "deathYear": 2024,
-  "nationality": "Canada",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "4: Fourth Age (>75)",
-      "assistedMobility": "No",
-      "class": "Upper Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Thriller",
-        "id": "GB2020_042",
-        "production": {
-          "country": "Italy",
-          "share": "Minority coproducer"
+    "type": "Person",
+    "id": "Donald Sutherland",
+    "slug": "donald-sutherland",
+    "name": "Donald Sutherland",
+    "birthYear": 1935,
+    "deathYear": 2024,
+    "gender": "Male identifying",
+    "nationality": "Canada",
+    "characters": [
+        {
+            "id": "IT2018_008_02",
+            "film": {
+                "id": "IT2018_008",
+                "slug": "it2018-008-the-leisure-seeker",
+                "title": {
+                    "native": "The Leisure Seeker",
+                    "english": "The Leisure Seeker"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-01-18",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Donald Sutherland",
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Retired",
+            "ability": "Chronic illness",
+            "assistedMobility": "No"
         },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2020
-        },
-        "slug": "gb2020-042-the-burnt-orange-heresy",
-        "tags": "independent home",
-        "title": {
-          "native": "The Burnt Orange Heresy"
+        {
+            "id": "GB2020_042_02",
+            "film": {
+                "id": "GB2020_042",
+                "slug": "gb2020-042-the-burnt-orange-heresy",
+                "title": {
+                    "native": "The Burnt Orange Heresy",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-10-30",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Italy",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Donald Sutherland",
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White North American",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "GB2020_042_02",
-      "origin": "White North American",
-      "profession": "Self-employed",
-      "role": "Supporting actor",
-      "sexuality": "Unknown"
-    },
-    {
-      "ability": "Chronic illness",
-      "age": "4: Fourth Age (>75)",
-      "assistedMobility": "No",
-      "class": "Lower Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Road Movie",
-        "id": "IT2018_008",
-        "production": {
-          "country": "France",
-          "share": "Minority coproducer"
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "GB2020_042",
+                "slug": "gb2020-042-the-burnt-orange-heresy",
+                "title": {
+                    "native": "The Burnt Orange Heresy",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-10-30",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Italy",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
         },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2018
-        },
-        "slug": "it2018-008-the-leisure-seeker",
-        "tags": "search for meaning",
-        "title": {
-          "english": "The Leisure Seeker",
-          "native": "The Leisure Seeker"
+        {
+            "film": {
+                "id": "IT2018_008",
+                "slug": "it2018-008-the-leisure-seeker",
+                "title": {
+                    "native": "The Leisure Seeker",
+                    "english": "The Leisure Seeker"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-01-18",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
         }
-      },
-      "gender": "Male identifying",
-      "id": "IT2018_008_02",
-      "origin": "White Western European",
-      "profession": "Retired",
-      "role": "Leading actor",
-      "sexuality": "Heterosexual"
-    }
-  ]
+    ]
 }

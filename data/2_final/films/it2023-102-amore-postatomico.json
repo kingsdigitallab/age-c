@@ -1,45 +1,74 @@
 {
-  "id": "IT2023_102",
-  "type": "Film",
-  "slug": "it2023-102-amore-postatomico",
-  "title": {
-    "native": "Amore Postatomico"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-05-17",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=RjWeRpmi__g",
-    "posterUrl": "https://www.imdb.com/title/tt28437348/mediaviewer/rm2633929474/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama",
-    "Dystopia"
-  ],
-  "tags": [
-    "ecology"
-  ],
-  "director": [
-    {
-      "id": "Vincenzo Caiazzo",
-      "slug": "vincenzo-caiazzo",
-      "name": "Vincenzo Caiazzo",
-      "birthYear": 1979,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "synopsis": {
-    "native": "Tra finzione e realt\u00e0, tra presente e immaginario, le vicende della giovane Titti si mescolano a quelle di Mileva, l\u2019eroina del fumetto che sta disegnando. Persone e personaggi si muovono nelle giornate e animano le tavole di Amore Postatomico cercando di arginare da una parte l\u2019aridit\u00e0 dei sentimenti dall\u2019altra e la sterilit\u00e0 di una terra che non d\u00e0 pi\u00f9 frutti. Su entrambi i piani si combattono guerre contro il controllo, la sopraffazione, la logica del pi\u00f9 forte alla ricerca di una giustizia che spesso tarda ad arrivare, ma che quando lo fa \u00e8 pronta a rimettere tutto in discussione.",
-    "english": "A girl creates a graphic novel about protecting bees from extinction."
-  }
+    "type": "Film",
+    "id": "IT2023_102",
+    "slug": "it2023-102-amore-postatomico",
+    "title": {
+        "native": "Amore Postatomico",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-05-17",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Vincenzo Caiazzo",
+            "slug": "vincenzo-caiazzo",
+            "name": "Vincenzo Caiazzo",
+            "birthYear": 1979,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Dystopia",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt28437348/mediaviewer/rm2633929474/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=RjWeRpmi__g"
+    },
+    "synopsis": {
+        "native": "Tra finzione e realt\u00e0, tra presente e immaginario, le vicende della giovane Titti si mescolano a quelle di Mileva, l\u2019eroina del fumetto che sta disegnando. Persone e personaggi si muovono nelle giornate e animano le tavole di Amore Postatomico cercando di arginare da una parte l\u2019aridit\u00e0 dei sentimenti dall\u2019altra e la sterilit\u00e0 di una terra che non d\u00e0 pi\u00f9 frutti. Su entrambi i piani si combattono guerre contro il controllo, la sopraffazione, la logica del pi\u00f9 forte alla ricerca di una giustizia che spesso tarda ad arrivare, ma che quando lo fa \u00e8 pronta a rimettere tutto in discussione.",
+        "english": "A girl creates a graphic novel about protecting bees from extinction."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Davide Marotta",
+                "slug": "davide-marotta",
+                "name": "Davide Marotta",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Vincenzo Caiazzo",
+                "slug": "vincenzo-caiazzo",
+                "name": "Vincenzo Caiazzo",
+                "birthYear": 1979,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "ecology"
+    ]
 }

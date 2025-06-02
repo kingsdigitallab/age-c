@@ -1,42 +1,97 @@
 {
-  "id": "Jean-Paul Bordes",
-  "type": "Biography",
-  "slug": "jean-paul-bordes",
-  "name": "Jean-Paul Bordes",
-  "birthYear": 1960,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "2: Late Middle Age (55-60)",
-      "assistedMobility": "No",
-      "class": "Upper class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Drama",
-        "id": "FR2022_054",
-        "production": {
-          "country": "Italy",
-          "share": "Minority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2022
-        },
-        "slug": "fr2022-054-notre-dame-brule",
-        "tags": "urban",
-        "title": {
-          "english": "Notre-Dame on Fire",
-          "native": "Notre-Dame br\u00fble"
+    "type": "Person",
+    "id": "Jean-Paul Bordes",
+    "slug": "jean-paul-bordes",
+    "name": "Jean-Paul Bordes",
+    "birthYear": 1960,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [
+        {
+            "id": "FR2022_054_02",
+            "film": {
+                "id": "FR2022_054",
+                "slug": "fr2022-054-notre-dame-brule",
+                "title": {
+                    "native": "Notre-Dame br\u00fble",
+                    "english": "Notre-Dame on Fire"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-03-16",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Italy",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Jean-Paul Bordes",
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "FR2022_054_02",
-      "origin": "White Western European",
-      "profession": "Employed",
-      "role": "Leading actor",
-      "sexuality": "Unknown"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2022_016",
+                "slug": "fr2022-016-les-promesses",
+                "title": {
+                    "native": "Les Promesses",
+                    "english": "Promises"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-01-26",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "FR2022_054",
+                "slug": "fr2022-054-notre-dame-brule",
+                "title": {
+                    "native": "Notre-Dame br\u00fble",
+                    "english": "Notre-Dame on Fire"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-03-16",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Italy",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        }
+    ]
 }

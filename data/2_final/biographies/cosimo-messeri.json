@@ -1,29 +1,35 @@
 {
-  "id": "Cosimo Messeri",
-  "type": "Biography",
-  "slug": "cosimo-messeri",
-  "name": "Cosimo Messeri",
-  "birthYear": 1985,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "IT2019_083",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "it2019-083-metti-una-notte",
-      "tags": "grandmotherhood",
-      "title": {
-        "native": "Metti una notte"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Cosimo Messeri",
+    "slug": "cosimo-messeri",
+    "name": "Cosimo Messeri",
+    "birthYear": 1985,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2019_083",
+                "slug": "it2019-083-metti-una-notte",
+                "title": {
+                    "native": "Metti una notte",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-01-08",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

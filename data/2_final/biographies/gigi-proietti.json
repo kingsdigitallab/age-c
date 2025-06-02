@@ -1,43 +1,127 @@
 {
-  "id": "Gigi Proietti",
-  "type": "Biography",
-  "slug": "gigi-proietti",
-  "name": "Gigi Proietti",
-  "birthYear": 1940,
-  "deathYear": 2020,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "4: Fourth Age (>75)",
-      "assistedMobility": "No",
-      "class": "Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Fantasy",
-        "id": "IT2021_047",
-        "production": {
-          "country": "Italy",
-          "share": "Majority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2021
-        },
-        "slug": "it2021-047-io-sono-babbo-natale",
-        "tags": "retirement",
-        "title": {
-          "english": "I Am Santa Claus",
-          "native": "Io sono Babbo Natale"
+    "type": "Person",
+    "id": "Gigi Proietti",
+    "slug": "gigi-proietti",
+    "name": "Gigi Proietti",
+    "birthYear": 1940,
+    "deathYear": 2020,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [
+        {
+            "id": "IT2021_047_01",
+            "film": {
+                "id": "IT2021_047",
+                "slug": "it2021-047-io-sono-babbo-natale",
+                "title": {
+                    "native": "Io sono Babbo Natale",
+                    "english": "I Am Santa Claus"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-11-03",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "person": "Gigi Proietti",
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "IT2021_047_01",
-      "origin": "White Western European",
-      "profession": "Self-employed",
-      "role": "Leading actor",
-      "sexuality": "Unknown"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2019_002",
+                "slug": "it2019-002-pinocchio",
+                "title": {
+                    "native": "Pinocchio",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-12-19",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "IT2020_037",
+                "slug": "it2020-037-fellini-degli-spiriti",
+                "title": {
+                    "native": "Fellini degli spiriti",
+                    "english": "Fellini of the Spirits"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-08-31",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "film": {
+                "id": "IT2021_047",
+                "slug": "it2021-047-io-sono-babbo-natale",
+                "title": {
+                    "native": "Io sono Babbo Natale",
+                    "english": "I Am Santa Claus"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-11-03",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        }
+    ]
 }

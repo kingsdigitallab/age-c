@@ -1,49 +1,79 @@
 {
-  "id": "C\u00e9dric Kahn",
-  "type": "Biography",
-  "slug": "cedric-kahn",
-  "name": "C\u00e9dric Kahn",
-  "birthYear": 1966,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2019_146",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-146-fete-de-famille",
-      "tags": "festivities",
-      "title": {
-        "english": "Happy Birthday",
-        "native": "F\u00eate de famille"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2018_050",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-050-la-priere",
-      "tags": "religion",
-      "title": {
-        "english": "The Prayer",
-        "native": "La Pri\u00e8re"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "C\u00e9dric Kahn",
+    "slug": "cedric-kahn",
+    "name": "C\u00e9dric Kahn",
+    "birthYear": 1966,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_050",
+                "slug": "fr2018-050-la-priere",
+                "title": {
+                    "native": "La Pri\u00e8re",
+                    "english": "The Prayer"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-03-21",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2019_146",
+                "slug": "fr2019-146-fete-de-famille",
+                "title": {
+                    "native": "F\u00eate de famille",
+                    "english": "Happy Birthday"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-09-04",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2022_140",
+                "slug": "fr2022-140-novembre",
+                "title": {
+                    "native": "Novembre",
+                    "english": "November"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-10-05",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ]
 }

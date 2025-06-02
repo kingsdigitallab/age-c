@@ -1,30 +1,35 @@
 {
-  "id": "Andr\u00e1s Csap\u00f3",
-  "type": "Biography",
-  "slug": "andras-csapo",
-  "name": "Andr\u00e1s Csap\u00f3",
-  "birthYear": 1991,
-  "nationality": "Hungary",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Expository mode",
-      "id": "HU2022_022",
-      "production": {
-        "country": "Hungary",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "hu2022-022-magyar-hangja",
-      "tags": "artistic creation",
-      "title": {
-        "english": "The Art of Dubbing",
-        "native": "Magyar hangja..."
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Andr\u00e1s Csap\u00f3",
+    "slug": "andras-csapo",
+    "name": "Andr\u00e1s Csap\u00f3",
+    "birthYear": 1991,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Hungary",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "HU2022_022",
+                "slug": "hu2022-022-magyar-hangja",
+                "title": {
+                    "native": "Magyar hangja...",
+                    "english": "The Art of Dubbing"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-09-15",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

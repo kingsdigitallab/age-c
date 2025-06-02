@@ -1,42 +1,75 @@
 {
-  "id": "Dick Fontaine",
-  "type": "Biography",
-  "slug": "dick-fontaine",
-  "name": "Dick Fontaine",
-  "birthYear": 1939,
-  "deathYear": 2023,
-  "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "4: Fourth Age (>75)",
-      "assistedMobility": "No",
-      "class": "Upper Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Metacinema",
-        "id": "GB2019_016",
-        "production": {
-          "country": "United States of America (the)",
-          "share": "Minority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2019
-        },
-        "slug": "gb2019-016-the-souvenir",
-        "tags": "class conflict",
-        "title": {
-          "native": "The Souvenir"
+    "type": "Person",
+    "id": "Dick Fontaine",
+    "slug": "dick-fontaine",
+    "name": "Dick Fontaine",
+    "birthYear": 1939,
+    "deathYear": 2023,
+    "gender": "Male identifying",
+    "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+    "characters": [
+        {
+            "id": "GB2019_016_02",
+            "film": {
+                "id": "GB2019_016",
+                "slug": "gb2019-016-the-souvenir",
+                "title": {
+                    "native": "The Souvenir",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-08-30",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Dick Fontaine",
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "GB2019_016_02",
-      "origin": "White Western European",
-      "profession": "Employed",
-      "role": "Supporting actor",
-      "sexuality": "Unknown"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "GB2019_016",
+                "slug": "gb2019-016-the-souvenir",
+                "title": {
+                    "native": "The Souvenir",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-08-30",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        }
+    ]
 }

@@ -1,30 +1,39 @@
 {
-  "id": "Eliza Petkova",
-  "type": "Biography",
-  "slug": "eliza-petkova",
-  "name": "Eliza Petkova",
-  "birthYear": 1983,
-  "nationality": "Bulgaria",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Observational mode",
-      "id": "DE2023_026",
-      "production": {
-        "country": "Bulgaria",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "de2023-026-mayor-shepherd-widow-dragon",
-      "tags": "supernatural entity",
-      "title": {
-        "english": "Mayor, Shepherd, Widow, Dragon",
-        "native": "Mayor, Shepherd, Widow, Dragon"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Eliza Petkova",
+    "slug": "eliza-petkova",
+    "name": "Eliza Petkova",
+    "birthYear": 1983,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "Bulgaria",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2023_026",
+                "slug": "de2023-026-mayor-shepherd-widow-dragon",
+                "title": {
+                    "native": "Mayor, Shepherd, Widow, Dragon",
+                    "english": "Mayor, Shepherd, Widow, Dragon"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-03-09",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Bulgaria",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

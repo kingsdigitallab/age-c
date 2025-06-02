@@ -1,77 +1,108 @@
 {
-  "id": "GB2019_040",
-  "type": "Film",
-  "slug": "gb2019-040-ophelia",
-  "title": {
-    "native": "Ophelia"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-11-22",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "GB2019_040",
+    "slug": "gb2019-040-ophelia",
+    "title": {
+        "native": "Ophelia",
+        "english": ""
     },
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt5690810/?ref_=nv_sr_srsg_3_tt_4_nm_4_in_0_q_Ophelia",
-    "posterUrl": "https://www.imdb.com/title/tt5690810/mediaviewer/rm2639684608/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Romance",
-    "Drama",
-    "Thriller"
-  ],
-  "tags": [
-    "high rank employment",
-    "wealth",
-    "fatherhood",
-    "marriage",
-    "power",
-    "burial",
-    "murder",
-    "inheritance"
-  ],
-  "director": [
-    {
-      "id": "Claire McCarthy",
-      "slug": "claire-mccarthy",
-      "name": "Claire McCarthy",
-      "gender": "Female identifying",
-      "nationality": "Australia"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2019_040_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Nathaniel Parker",
-        "slug": "nathaniel-parker",
-        "name": "Nathaniel Parker",
-        "birthYear": 1962.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "A reimagining of Hamlet, told from Ophelia's perspective."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-11-22",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Claire McCarthy",
+            "slug": "claire-mccarthy",
+            "name": "Claire McCarthy",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Australia"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Romance",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt5690810/mediaviewer/rm2639684608/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt5690810/?ref_=nv_sr_srsg_3_tt_4_nm_4_in_0_q_Ophelia"
+    },
+    "synopsis": {
+        "native": "A reimagining of Hamlet, told from Ophelia's perspective.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2019_040_01",
+            "film": "GB2019_040",
+            "person": {
+                "id": "Nathaniel Parker",
+                "slug": "nathaniel-parker",
+                "name": "Nathaniel Parker",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Claire McCarthy",
+                "slug": "claire-mccarthy",
+                "name": "Claire McCarthy",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Australia"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Nathaniel Parker",
+                "slug": "nathaniel-parker",
+                "name": "Nathaniel Parker",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "fatherhood",
+        "high rank employment",
+        "power",
+        "marriage",
+        "murder",
+        "burial",
+        "inheritance",
+        "wealth"
+    ]
 }

@@ -1,47 +1,75 @@
 {
-  "id": "FR2020_009",
-  "type": "Film",
-  "slug": "fr2020-009-douze-mille",
-  "title": {
-    "native": "Douze Mille",
-    "english": "Twelve Thousand"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-01-15",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=Ql_RR3z_Brc",
-    "posterUrl": "https://medias.unifrance.org/medias/56/77/216376/format_page/douze-mille.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "communal housing",
-    "intergenerational friendship",
-    "multigenerational family"
-  ],
-  "director": [
-    {
-      "id": "Nad\u00e8ge Trebal",
-      "slug": "nadege-trebal",
-      "name": "Nad\u00e8ge Trebal",
-      "birthYear": 1976,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Alors qu\u2019il perd son travail clandestin, et parce qu\u2019il croit que Maroussia et lui ne pourront plus s\u2019aimer aussi bien, Frank part pour gagner autant qu\u2019elle : douze mille, juste ce qu\u2019il faut pour avoir un an devant soi. Pas plus, pas moins. Au fil de son odyss\u00e9e prol\u00e9taire, il devient le h\u00e9ros qu\u2019il r\u00eavait d\u2019\u00eatre. Mais il y a un prix \u00e0 payer...",
-    "english": "While he loses his clandestine work, and because he believes that Maroussia and him will no longer be able to love each other as well, Frank leaves to earn as much as she: twelve thousand, just what it takes to have a year before them. No more no less. In the course of his proletarian odyssey, he becomes the hero he dreamed of being. But there is a price to pay..."
-  }
+    "type": "Film",
+    "id": "FR2020_009",
+    "slug": "fr2020-009-douze-mille",
+    "title": {
+        "native": "Douze Mille",
+        "english": "Twelve Thousand"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-01-15",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Nad\u00e8ge Trebal",
+            "slug": "nadege-trebal",
+            "name": "Nad\u00e8ge Trebal",
+            "birthYear": 1976,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/56/77/216376/format_page/douze-mille.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=Ql_RR3z_Brc"
+    },
+    "synopsis": {
+        "native": "Alors qu\u2019il perd son travail clandestin, et parce qu\u2019il croit que Maroussia et lui ne pourront plus s\u2019aimer aussi bien, Frank part pour gagner autant qu\u2019elle : douze mille, juste ce qu\u2019il faut pour avoir un an devant soi. Pas plus, pas moins. Au fil de son odyss\u00e9e prol\u00e9taire, il devient le h\u00e9ros qu\u2019il r\u00eavait d\u2019\u00eatre. Mais il y a un prix \u00e0 payer...",
+        "english": "While he loses his clandestine work, and because he believes that Maroussia and him will no longer be able to love each other as well, Frank leaves to earn as much as she: twelve thousand, just what it takes to have a year before them. No more no less. In the course of his proletarian odyssey, he becomes the hero he dreamed of being. But there is a price to pay..."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Fran\u00e7oise Lebrun",
+                "slug": "francoise-lebrun",
+                "name": "Fran\u00e7oise Lebrun",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Nad\u00e8ge Trebal",
+                "slug": "nadege-trebal",
+                "name": "Nad\u00e8ge Trebal",
+                "birthYear": 1976,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "communal housing",
+        "multigenerational family",
+        "intergenerational friendship"
+    ]
 }

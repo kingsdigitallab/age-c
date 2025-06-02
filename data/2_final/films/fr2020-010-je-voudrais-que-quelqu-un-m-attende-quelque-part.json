@@ -1,51 +1,79 @@
 {
-  "id": "FR2020_010",
-  "type": "Film",
-  "slug": "fr2020-010-je-voudrais-que-quelqu-un-m-attende-quelque-part",
-  "title": {
-    "native": "Je voudrais que quelqu'un m'attende quelque part",
-    "english": "I Wish Someone Were Waiting for Me Somewhere"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-01-22",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=ECjUXiGzyWs",
-    "posterUrl": "https://medias.unifrance.org/medias/160/50/209568/format_page/je-voudrais-que-quelqu-un-m-attende-quelque-part.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "motherhood",
-    "independent home",
-    "multigenerational family",
-    "grandmotherhood",
-    "festivities",
-    "retirement",
-    "widowhood"
-  ],
-  "director": [
-    {
-      "id": "Arnaud Viard",
-      "slug": "arnaud-viard",
-      "name": "Arnaud Viard",
-      "birthYear": 1965,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Dans la belle maison familiale, \u00e0 la fin de l\u2019\u00e9t\u00e9, Aurore f\u00eate ses 70 ans, entour\u00e9e de ses 4 enfants, tous venus pour l\u2019occasion. Il y a l\u00e0 Jean-Pierre, l\u2019a\u00een\u00e9, qui a endoss\u00e9 le r\u00f4le de chef de famille apr\u00e8s la mort de son p\u00e8re ; Juliette, enceinte de son premier enfant \u00e0 40 ans et qui r\u00eave encore de devenir \u00e9crivain ; Margaux, l\u2019artiste radicale de la famille, et Mathieu, 30 ans, angoiss\u00e9 de s\u00e9duire la jolie Sarah. Plus tard, un jour, l\u2019un d\u2019eux va prendre une d\u00e9cision qui changera leur vie...",
-    "english": "For Aurore\u2019s 70th Birthday, the whole family gets together. They all seem to be having a good time, but each of Monique children dream of another life. The oldest, Jean-Pierre, finds his life too tidy, especially when his great love Helena crosses his path. At 40, his sister Juliette, pregnant with her first child, is totally lost. Margaux, a young photographer with undeniable talent, dreams of becoming an artist. As for Mathieu, shy and introvert, he decides to finally make a move on the pretty Sarah. One day, one of them is going to make a decision that will change the family\u2019s fate forever."
-  }
+    "type": "Film",
+    "id": "FR2020_010",
+    "slug": "fr2020-010-je-voudrais-que-quelqu-un-m-attende-quelque-part",
+    "title": {
+        "native": "Je voudrais que quelqu'un m'attende quelque part",
+        "english": "I Wish Someone Were Waiting for Me Somewhere"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-01-22",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Arnaud Viard",
+            "slug": "arnaud-viard",
+            "name": "Arnaud Viard",
+            "birthYear": 1965,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/160/50/209568/format_page/je-voudrais-que-quelqu-un-m-attende-quelque-part.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=ECjUXiGzyWs"
+    },
+    "synopsis": {
+        "native": "Dans la belle maison familiale, \u00e0 la fin de l\u2019\u00e9t\u00e9, Aurore f\u00eate ses 70 ans, entour\u00e9e de ses 4 enfants, tous venus pour l\u2019occasion. Il y a l\u00e0 Jean-Pierre, l\u2019a\u00een\u00e9, qui a endoss\u00e9 le r\u00f4le de chef de famille apr\u00e8s la mort de son p\u00e8re ; Juliette, enceinte de son premier enfant \u00e0 40 ans et qui r\u00eave encore de devenir \u00e9crivain ; Margaux, l\u2019artiste radicale de la famille, et Mathieu, 30 ans, angoiss\u00e9 de s\u00e9duire la jolie Sarah. Plus tard, un jour, l\u2019un d\u2019eux va prendre une d\u00e9cision qui changera leur vie...",
+        "english": "For Aurore\u2019s 70th Birthday, the whole family gets together. They all seem to be having a good time, but each of Monique children dream of another life. The oldest, Jean-Pierre, finds his life too tidy, especially when his great love Helena crosses his path. At 40, his sister Juliette, pregnant with her first child, is totally lost. Margaux, a young photographer with undeniable talent, dreams of becoming an artist. As for Mathieu, shy and introvert, he decides to finally make a move on the pretty Sarah. One day, one of them is going to make a decision that will change the family\u2019s fate forever."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Arnaud Viard",
+                "slug": "arnaud-viard",
+                "name": "Arnaud Viard",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Aurore Cl\u00e9ment",
+                "slug": "aurore-clement",
+                "name": "Aurore Cl\u00e9ment",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "festivities",
+        "independent home",
+        "retirement",
+        "motherhood",
+        "widowhood",
+        "multigenerational family",
+        "grandmotherhood"
+    ]
 }

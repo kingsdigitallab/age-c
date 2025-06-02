@@ -1,55 +1,83 @@
 {
-  "id": "FR2022_003",
-  "type": "Film",
-  "slug": "fr2022-003-jane-par-charlotte",
-  "title": {
-    "native": "Jane par Charlotte",
-    "english": "Jany by Charlotte"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-01-12",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2022_003",
+    "slug": "fr2022-003-jane-par-charlotte",
+    "title": {
+        "native": "Jane par Charlotte",
+        "english": "Jany by Charlotte"
     },
-    {
-      "country": "Japan",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2022-01-12",
+        "year": 2022
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=492IFWJxYBk",
-    "posterUrl": "https://medias.unifrance.org/medias/65/184/243777/format_page/jane-by-charlotte.jpg"
-  },
-  "genre": [
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "parenthood",
-    "artistic creation",
-    "celebrity"
-  ],
-  "director": [
-    {
-      "id": "Charlotte Gainsbourg",
-      "slug": "charlotte-gainsbourg",
-      "name": "Charlotte Gainsbourg",
-      "birthYear": 1971,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Charlotte Gainsbourg a commenc\u00e9 \u00e0 filmer sa m\u00e8re, Jane Birkin, pour la regarder comme elle ne l\u2019avait jamais fait. La pudeur de l\u2019une face \u00e0 l\u2019autre n\u2019avait jamais permis un tel rapprochement. Mais par l\u2019entremise de la cam\u00e9ra, la glace se brise pour faire \u00e9merger un \u00e9change in\u00e9dit, sur plusieurs ann\u00e9es, qui efface peu \u00e0 peu les deux artistes et les met \u00e0 nu dans une conversation intime in\u00e9dite et universelle pour laisser appara\u00eetre une m\u00e8re face \u00e0 une fille. Jane par Charlotte.",
-    "english": "With the tremor of time passing by, Charlotte Gainsbourg started to look at her mother Jane Birkin in a way she never did, both overcoming a shared sense of reserve. Through the camera lens, they expose themselves to one another, begin to step back, leaving space for a mother-daughter relationship to unfold."
-  }
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Charlotte Gainsbourg",
+            "slug": "charlotte-gainsbourg",
+            "name": "Charlotte Gainsbourg",
+            "birthYear": 1971,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Performative mode"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/65/184/243777/format_page/jane-by-charlotte.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=492IFWJxYBk"
+    },
+    "synopsis": {
+        "native": "Charlotte Gainsbourg a commenc\u00e9 \u00e0 filmer sa m\u00e8re, Jane Birkin, pour la regarder comme elle ne l\u2019avait jamais fait. La pudeur de l\u2019une face \u00e0 l\u2019autre n\u2019avait jamais permis un tel rapprochement. Mais par l\u2019entremise de la cam\u00e9ra, la glace se brise pour faire \u00e9merger un \u00e9change in\u00e9dit, sur plusieurs ann\u00e9es, qui efface peu \u00e0 peu les deux artistes et les met \u00e0 nu dans une conversation intime in\u00e9dite et universelle pour laisser appara\u00eetre une m\u00e8re face \u00e0 une fille. Jane par Charlotte.",
+        "english": "With the tremor of time passing by, Charlotte Gainsbourg started to look at her mother Jane Birkin in a way she never did, both overcoming a shared sense of reserve. Through the camera lens, they expose themselves to one another, begin to step back, leaving space for a mother-daughter relationship to unfold."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Japan",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Charlotte Gainsbourg",
+                "slug": "charlotte-gainsbourg",
+                "name": "Charlotte Gainsbourg",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jane Birkin",
+                "slug": "jane-birkin",
+                "name": "Jane Birkin",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "parenthood",
+        "artistic creation",
+        "celebrity"
+    ]
 }

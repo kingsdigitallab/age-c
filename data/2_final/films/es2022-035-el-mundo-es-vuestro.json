@@ -1,120 +1,188 @@
 {
-  "id": "ES2022_035",
-  "type": "Film",
-  "slug": "es2022-035-el-mundo-es-vuestro",
-  "title": {
-    "native": "El mundo es vuestro"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-03-18",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=368131",
-    "posterUrl": "https://www.imdb.com/title/tt14639702/mediaviewer/rm617880321/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Action"
-  ],
-  "tags": [
-    "wealth",
-    "high rank employment",
-    "corruption",
-    "religion",
-    "national identity",
-    "power",
-    "self-employment",
-    "intragenerational friendship",
-    "regional identity",
-    "state institutions",
-    "class conflict",
-    "homosociality",
-    "abuse",
-    "collective trauma",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Alfonso S\u00e1nchez",
-      "slug": "alfonso-sanchez",
-      "name": "Alfonso S\u00e1nchez",
-      "birthYear": 1978,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2022_035_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Carlos Olalla",
-        "slug": "carlos-olalla",
-        "name": "Carlos Olalla",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "ES2022_035",
+    "slug": "es2022-035-el-mundo-es-vuestro",
+    "title": {
+        "native": "El mundo es vuestro",
+        "english": ""
     },
-    {
-      "id": "ES2022_035_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "East Asia",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Xu Benguo",
-        "slug": "xu-benguo",
-        "name": "Xu Benguo",
-        "gender": "Male identifying",
-        "nationality": "China"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2022-03-18",
+        "year": 2022
     },
-    {
-      "id": "ES2022_035_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Pedro \u00c1lvarez-Ossorio",
-        "slug": "pedro-alvarez-ossorio",
-        "name": "Pedro \u00c1lvarez-Ossorio",
-        "birthYear": 1945.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Rafi (Alfonso S\u00e1nchez), completamente arruinado, se cuela en la monter\u00eda organizada por la Marquesa que re\u00fane a toda la alta sociedad espa\u00f1ola para venderles su negocio y dar el pelotazo por fin. Dentro est\u00e1 Fali (Alberto L\u00f3pez), que ha sido reprogramado, y ya no es un compadre. Juntos descubrir\u00e1n que la monter\u00eda no es lo que parece, y que en la finca se est\u00e1 decidiendo el futuro de Espa\u00f1a.",
-    "english": "Rafi sneaks into the Marchioness's hunt, which brings together all the Spanish high society, to sell them his business. He and Fali will discover that hunting is not what it seems, and that the future of Spain is being decided on the farm."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Alfonso S\u00e1nchez",
+            "slug": "alfonso-sanchez",
+            "name": "Alfonso S\u00e1nchez",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Action"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt14639702/mediaviewer/rm617880321/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=368131"
+    },
+    "synopsis": {
+        "native": "Rafi (Alfonso S\u00e1nchez), completamente arruinado, se cuela en la monter\u00eda organizada por la Marquesa que re\u00fane a toda la alta sociedad espa\u00f1ola para venderles su negocio y dar el pelotazo por fin. Dentro est\u00e1 Fali (Alberto L\u00f3pez), que ha sido reprogramado, y ya no es un compadre. Juntos descubrir\u00e1n que la monter\u00eda no es lo que parece, y que en la finca se est\u00e1 decidiendo el futuro de Espa\u00f1a.",
+        "english": "Rafi sneaks into the Marchioness's hunt, which brings together all the Spanish high society, to sell them his business. He and Fali will discover that hunting is not what it seems, and that the future of Spain is being decided on the farm."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2022_035_01",
+            "film": "ES2022_035",
+            "person": {
+                "id": "Carlos Olalla",
+                "slug": "carlos-olalla",
+                "name": "Carlos Olalla",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2022_035_02",
+            "film": "ES2022_035",
+            "person": {
+                "id": "Pedro \u00c1lvarez-Ossorio",
+                "slug": "pedro-alvarez-ossorio",
+                "name": "Pedro \u00c1lvarez-Ossorio",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2022_035_03",
+            "film": "ES2022_035",
+            "person": {
+                "id": "Xu Benguo",
+                "slug": "xu-benguo",
+                "name": "Xu Benguo",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "China"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "East Asia",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alfonso S\u00e1nchez",
+                "slug": "alfonso-sanchez",
+                "name": "Alfonso S\u00e1nchez",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Carlos Olalla",
+                "slug": "carlos-olalla",
+                "name": "Carlos Olalla",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "C\u00e9sar Cadaval",
+                "slug": "cesar-cadaval",
+                "name": "C\u00e9sar Cadaval",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Pedro \u00c1lvarez-Ossorio",
+                "slug": "pedro-alvarez-ossorio",
+                "name": "Pedro \u00c1lvarez-Ossorio",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Xu Benguo",
+                "slug": "xu-benguo",
+                "name": "Xu Benguo",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "China"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "rural",
+        "wealth",
+        "religion",
+        "homosociality",
+        "intragenerational friendship",
+        "abuse",
+        "collective trauma",
+        "high rank employment",
+        "self-employment",
+        "corruption",
+        "power",
+        "national identity",
+        "regional identity",
+        "state institutions",
+        "class conflict"
+    ]
 }

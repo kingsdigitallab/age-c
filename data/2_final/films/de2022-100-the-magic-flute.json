@@ -1,43 +1,96 @@
 {
-  "id": "DE2022_100",
-  "type": "Film",
-  "slug": "de2022-100-the-magic-flute",
-  "title": {
-    "native": "The Magic Flute",
-    "english": "The Magic Flute"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-11-17",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/video/vi344114457/?playlistId=tt8206398&ref_=tt_ov_vi",
-    "posterUrl": "https://www.imdb.com/title/tt8206398/mediaviewer/rm324088577/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Adventure",
-    "Fantasy"
-  ],
-  "director": [
-    {
-      "id": "Florian Sigl",
-      "slug": "florian-sigl",
-      "name": "Florian Sigl",
-      "birthYear": 1988,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "Der 17-j\u00e4hrige Tim (Jack Wolfe), Gesangssch\u00fcler am legend\u00e4ren Mozart-Internat in den \u00f6sterreichischen Alpen, entdeckt eines Nachts ein jahrhundertealtes geheimes Portal, das ihn in die fantastische Welt von Mozarts \u201eDie Zauberfl\u00f6te\u201c katapultiert.",
-    "english": "Follows 17-year-old Tim Walker as he travels from London to the Austrian Alps to attend the legendary Mozart boarding school. There, he discovers a centuries-old forgotten passageway into the fantastic world of Mozart's \"The Magic Flute.\""
-  }
+    "type": "Film",
+    "id": "DE2022_100",
+    "slug": "de2022-100-the-magic-flute",
+    "title": {
+        "native": "The Magic Flute",
+        "english": "The Magic Flute"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-11-17",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Florian Sigl",
+            "slug": "florian-sigl",
+            "name": "Florian Sigl",
+            "birthYear": 1988,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Adventure",
+        "Fantasy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt8206398/mediaviewer/rm324088577/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/video/vi344114457/?playlistId=tt8206398&ref_=tt_ov_vi"
+    },
+    "synopsis": {
+        "native": "Der 17-j\u00e4hrige Tim (Jack Wolfe), Gesangssch\u00fcler am legend\u00e4ren Mozart-Internat in den \u00f6sterreichischen Alpen, entdeckt eines Nachts ein jahrhundertealtes geheimes Portal, das ihn in die fantastische Welt von Mozarts \u201eDie Zauberfl\u00f6te\u201c katapultiert.",
+        "english": "Follows 17-year-old Tim Walker as he travels from London to the Austrian Alps to attend the legendary Mozart boarding school. There, he discovers a centuries-old forgotten passageway into the fantastic world of Mozart's \"The Magic Flute.\""
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "F. Murray Abraham",
+                "slug": "f-murray-abraham",
+                "name": "F. Murray Abraham",
+                "birthYear": 1939,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Florian Sigl",
+                "slug": "florian-sigl",
+                "name": "Florian Sigl",
+                "birthYear": 1988,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Greg Wise",
+                "slug": "greg-wise",
+                "name": "Greg Wise",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Unknown"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Waldemar Kobus",
+                "slug": "waldemar-kobus",
+                "name": "Waldemar Kobus",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": []
 }

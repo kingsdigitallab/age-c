@@ -1,90 +1,102 @@
 {
-  "id": "ES2023_103",
-  "type": "Film",
-  "slug": "es2023-103-capaz-o-incapaz",
-  "title": {
-    "native": "Capaz o incapaz?"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-06-06",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt27628592/?ref_=tt_mv_close",
-    "posterUrl": "https://www.imdb.com/title/tt27628592/mediaviewer/rm2191862785/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Romance",
-    "Drama"
-  ],
-  "tags": [
-    "partnership",
-    "natural death",
-    "sex",
-    "independent home",
-    "fatherhood",
-    "may-december"
-  ],
-  "director": [
-    {
-      "id": "Oliver Reaza",
-      "slug": "oliver-reaza",
-      "name": "Oliver Reaza",
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2023_103_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Eduardo Recabarren",
-        "slug": "eduardo-recabarren",
-        "name": "Eduardo Recabarren",
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "ES2023_103",
+    "slug": "es2023-103-capaz-o-incapaz",
+    "title": {
+        "native": "Capaz o incapaz?",
+        "english": ""
     },
-    {
-      "id": "ES2023_103_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Eduardo Recabarren",
-        "slug": "eduardo-recabarren",
-        "name": "Eduardo Recabarren",
-        "gender": "Male identifying",
-        "nationality": "Argentina"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Nico es un treinta\u00f1ero que, tras ver frustrado su deseo de ser padre con su novia de toda la vida, y perder el trabajo y la casa, se ve obligado a volver a casa de su padre y lidiar con la novia de \u00e9ste, a la que no soporta. Nico tiene que retomar viejas costumbres para intentar superar su crisis personal y volver a ser feliz. Con la particular ayuda de sus amigos, conoce a Gaby, una Colombiana 10 a\u00f1os menor que \u00e9l con la que iniciar\u00e1 una aventura completamente inesperada y nueva para \u00e9l.",
-    "english": "Follows a thirty-something man who believes he lives in stability and harmony with his longtime girlfriend, with whom he longs to be a father. But his life takes a tremendous turn the day his house of cards falls apart."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2023-06-06",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Oliver Reaza",
+            "slug": "oliver-reaza",
+            "name": "Oliver Reaza",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Romance",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt27628592/mediaviewer/rm2191862785/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt27628592/?ref_=tt_mv_close"
+    },
+    "synopsis": {
+        "native": "Nico es un treinta\u00f1ero que, tras ver frustrado su deseo de ser padre con su novia de toda la vida, y perder el trabajo y la casa, se ve obligado a volver a casa de su padre y lidiar con la novia de \u00e9ste, a la que no soporta. Nico tiene que retomar viejas costumbres para intentar superar su crisis personal y volver a ser feliz. Con la particular ayuda de sus amigos, conoce a Gaby, una Colombiana 10 a\u00f1os menor que \u00e9l con la que iniciar\u00e1 una aventura completamente inesperada y nueva para \u00e9l.",
+        "english": "Follows a thirty-something man who believes he lives in stability and harmony with his longtime girlfriend, with whom he longs to be a father. But his life takes a tremendous turn the day his house of cards falls apart."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2023_103_01",
+            "film": "ES2023_103",
+            "person": {
+                "id": "Eduardo Recabarren",
+                "slug": "eduardo-recabarren",
+                "name": "Eduardo Recabarren",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Argentina"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Eduardo Recabarren",
+                "slug": "eduardo-recabarren",
+                "name": "Eduardo Recabarren",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Argentina"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Oliver Reaza",
+                "slug": "oliver-reaza",
+                "name": "Oliver Reaza",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "fatherhood",
+        "independent home",
+        "may-december",
+        "partnership",
+        "sex",
+        "natural death"
+    ]
 }

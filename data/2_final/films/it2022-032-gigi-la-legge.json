@@ -1,81 +1,109 @@
 {
-  "id": "IT2022_032",
-  "type": "Film",
-  "slug": "it2022-032-gigi-la-legge",
-  "title": {
-    "native": "Gigi la legge",
-    "english": "The adventures of Gigi the law"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "First festival screening",
-    "date": "2022-08-08",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "IT2022_032",
+    "slug": "it2022-032-gigi-la-legge",
+    "title": {
+        "native": "Gigi la legge",
+        "english": "The adventures of Gigi the law"
     },
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2022-08-08",
+        "year": 2022
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=GLFWRwn2YOU",
-    "posterUrl": "https://www.imdb.com/title/tt21226634/mediaviewer/rm2108371201/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Documentary \u2013 Observational mode",
-    "Drama"
-  ],
-  "tags": [
-    "personal memory",
-    "desire",
-    "state institutions",
-    "daily routine",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Alessandro Comodin",
-      "slug": "alessandro-comodin",
-      "name": "Alessandro Comodin",
-      "birthYear": 1982,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2022_032_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Pier Luigi Mecchia",
-        "slug": "pier-luigi-mecchia",
-        "name": "Pier Luigi Mecchia",
-        "birthYear": 1965.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Gigi \u00e8 un vigile di campagna, dove sembra non succedere mai niente. Un giorno, per\u00f2, una ragazza si uccide sotto un treno. Non \u00e8 la prima volta. L\u00ec comincia un\u2019indagine su un\u2019inspiegabile serie di suicidi in uno strano mondo di provincia a met\u00e0 tra realt\u00e0 e fantasia, dove un giardino pu\u00f2 anche essere una giungla e un poliziotto avere un cuore sempre pronto ad innamorarsi e a sorridere.",
-    "english": "Gigi is a police officer in a countryside where nothing ever happens. One day, however, a young girl throws herself under a train. This is not the first time such a thing happens. Facing this unexplainable suicide wave, Gigi starts investigating a strange world, between reality and fantasy, where a garden turns into a jungle and where an ever-smiling policeman keeps his heart open to love."
-  }
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Alessandro Comodin",
+            "slug": "alessandro-comodin",
+            "name": "Alessandro Comodin",
+            "birthYear": 1982,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Observational mode",
+        "Comedy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt21226634/mediaviewer/rm2108371201/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=GLFWRwn2YOU"
+    },
+    "synopsis": {
+        "native": "Gigi \u00e8 un vigile di campagna, dove sembra non succedere mai niente. Un giorno, per\u00f2, una ragazza si uccide sotto un treno. Non \u00e8 la prima volta. L\u00ec comincia un\u2019indagine su un\u2019inspiegabile serie di suicidi in uno strano mondo di provincia a met\u00e0 tra realt\u00e0 e fantasia, dove un giardino pu\u00f2 anche essere una giungla e un poliziotto avere un cuore sempre pronto ad innamorarsi e a sorridere.",
+        "english": "Gigi is a police officer in a countryside where nothing ever happens. One day, however, a young girl throws herself under a train. This is not the first time such a thing happens. Facing this unexplainable suicide wave, Gigi starts investigating a strange world, between reality and fantasy, where a garden turns into a jungle and where an ever-smiling policeman keeps his heart open to love."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2022_032_01",
+            "film": "IT2022_032",
+            "person": {
+                "id": "Pier Luigi Mecchia",
+                "slug": "pier-luigi-mecchia",
+                "name": "Pier Luigi Mecchia",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alessandro Comodin",
+                "slug": "alessandro-comodin",
+                "name": "Alessandro Comodin",
+                "birthYear": 1982,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Pier Luigi Mecchia",
+                "slug": "pier-luigi-mecchia",
+                "name": "Pier Luigi Mecchia",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "daily routine",
+        "superior-employee relationship",
+        "desire",
+        "state institutions",
+        "personal memory"
+    ]
 }

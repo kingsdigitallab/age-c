@@ -1,41 +1,75 @@
 {
-  "id": "Stella Maris Santo",
-  "type": "Biography",
-  "slug": "stella-maris-santo",
-  "name": "Stella Maris Santo",
-  "nationality": "Argentina",
-  "gender": "Female identifying",
-  "character": [
-    {
-      "ability": "Chronic illness",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "Yes",
-      "class": "Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Drama",
-        "id": "ES2018_018",
-        "production": {
-          "country": "Argentina",
-          "share": "Minority coproducer"
-        },
-        "release": {
-          "type": "First festival screening",
-          "year": 2018
-        },
-        "slug": "es2018-018-figuras",
-        "tags": "body norms",
-        "title": {
-          "english": "Figures",
-          "native": "Figuras"
+    "type": "Person",
+    "id": "Stella Maris Santo",
+    "slug": "stella-maris-santo",
+    "name": "Stella Maris Santo",
+    "birthYear": 0,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "Argentina",
+    "characters": [
+        {
+            "id": "ES2018_018_01",
+            "film": {
+                "id": "ES2018_018",
+                "slug": "es2018-018-figuras",
+                "title": {
+                    "native": "Figuras",
+                    "english": "Figures"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-09-25",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Argentina",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Stella Maris Santo",
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Latin American",
+            "class": "Middle class",
+            "profession": "Unemployed",
+            "ability": "Chronic illness",
+            "assistedMobility": "Yes"
         }
-      },
-      "gender": "Female identifying",
-      "id": "ES2018_018_01",
-      "origin": "White Latin American",
-      "profession": "Unemployed",
-      "role": "Leading actor",
-      "sexuality": "Heterosexual"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2018_018",
+                "slug": "es2018-018-figuras",
+                "title": {
+                    "native": "Figuras",
+                    "english": "Figures"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-09-25",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Argentina",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        }
+    ]
 }

@@ -1,92 +1,147 @@
 {
-  "id": "ES2019_071",
-  "type": "Film",
-  "slug": "es2019-071-la-estrategia-del-pequines",
-  "title": {
-    "native": "La estrategia del pequin\u00e9s"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-05-13",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt8343828/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_la%2520estrategia%2520del%2520pequines",
-    "posterUrl": "https://www.imdb.com/title/tt8343828/mediaviewer/rm3131990528/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Crime",
-    "Thriller",
-    "Drama"
-  ],
-  "tags": [
-    "intergenerational conflict",
-    "organized crime",
-    "self-employment",
-    "revenge",
-    "abuse",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Elio Quiroga",
-      "slug": "elio-quiroga",
-      "name": "Elio Quiroga",
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2019_071_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Pep Jov\u00e9",
-        "slug": "pep-jove",
-        "name": "Pep Jov\u00e9",
-        "birthYear": 1955.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "ES2019_071",
+    "slug": "es2019-071-la-estrategia-del-pequines",
+    "title": {
+        "native": "La estrategia del pequin\u00e9s",
+        "english": ""
     },
-    {
-      "id": "ES2019_071_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Lorenza Mach\u00edn",
-        "slug": "lorenza-machin",
-        "name": "Lorenza Mach\u00edn",
-        "birthYear": 1946.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "El Rubio dej\u00f3 de delinquir hace a\u00f1os, pero la grave enfermedad de su mujer le hace replantearse las cosas cuando Junior, un distribuidor local de droga, le propone atracar al testaferro de sus jefes en Gran Canaria. Para organizar el asalto, el Rubio llamar\u00e1 a su amigo Tito \u201cel Palmera\u201d, un parado de larga duraci\u00f3n cuyo sue\u00f1o es abrir un bar, y que fue su pupilo, y a Cora, una prostituta de lujo que sospecha cercano el momento en que se esfumen sus encantos",
-    "english": "A drug dealer plans to rob his own bosses to pay a debt."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-05-13",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Elio Quiroga",
+            "slug": "elio-quiroga",
+            "name": "Elio Quiroga",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Thriller",
+        "Crime",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt8343828/mediaviewer/rm3131990528/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt8343828/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_la%2520estrategia%2520del%2520pequines"
+    },
+    "synopsis": {
+        "native": "El Rubio dej\u00f3 de delinquir hace a\u00f1os, pero la grave enfermedad de su mujer le hace replantearse las cosas cuando Junior, un distribuidor local de droga, le propone atracar al testaferro de sus jefes en Gran Canaria. Para organizar el asalto, el Rubio llamar\u00e1 a su amigo Tito \u201cel Palmera\u201d, un parado de larga duraci\u00f3n cuyo sue\u00f1o es abrir un bar, y que fue su pupilo, y a Cora, una prostituta de lujo que sospecha cercano el momento en que se esfumen sus encantos",
+        "english": "A drug dealer plans to rob his own bosses to pay a debt."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2019_071_01",
+            "film": "ES2019_071",
+            "person": {
+                "id": "Lorenza Mach\u00edn",
+                "slug": "lorenza-machin",
+                "name": "Lorenza Mach\u00edn",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "Unknown"
+        },
+        {
+            "id": "ES2019_071_02",
+            "film": "ES2019_071",
+            "person": {
+                "id": "Pep Jov\u00e9",
+                "slug": "pep-jove",
+                "name": "Pep Jov\u00e9",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "Unknown"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Chicho Castillo",
+                "slug": "chicho-castillo",
+                "name": "Chicho Castillo",
+                "birthYear": 1960,
+                "deathYear": 2020,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Elio Quiroga",
+                "slug": "elio-quiroga",
+                "name": "Elio Quiroga",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Lorenza Mach\u00edn",
+                "slug": "lorenza-machin",
+                "name": "Lorenza Mach\u00edn",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Pep Jov\u00e9",
+                "slug": "pep-jove",
+                "name": "Pep Jov\u00e9",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "revenge",
+        "intergenerational conflict",
+        "abuse",
+        "organized crime",
+        "superior-employee relationship",
+        "self-employment"
+    ]
 }

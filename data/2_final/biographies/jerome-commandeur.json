@@ -1,30 +1,35 @@
 {
-  "id": "J\u00e9r\u00f4me Commandeur",
-  "type": "Biography",
-  "slug": "jerome-commandeur",
-  "name": "J\u00e9r\u00f4me Commandeur",
-  "birthYear": 1976,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2022_102",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "fr2022-102-irreductible",
-      "tags": "parenthood",
-      "title": {
-        "english": "Employee of the Month",
-        "native": "Irr\u00e9ductible"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "J\u00e9r\u00f4me Commandeur",
+    "slug": "jerome-commandeur",
+    "name": "J\u00e9r\u00f4me Commandeur",
+    "birthYear": 1976,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2022_102",
+                "slug": "fr2022-102-irreductible",
+                "title": {
+                    "native": "Irr\u00e9ductible",
+                    "english": "Employee of the Month"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-06-29",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,50 +1,78 @@
 {
-  "id": "DE2018_093",
-  "type": "Film",
-  "slug": "de2018-093-fly-rocket-fly",
-  "title": {
-    "native": "Fly Rocket Fly",
-    "english": "Fly Rocket Fly"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-09-27",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "DE2018_093",
+    "slug": "de2018-093-fly-rocket-fly",
+    "title": {
+        "native": "Fly Rocket Fly",
+        "english": "Fly Rocket Fly"
     },
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=DXDdKuRANbc&ab_channel=KinostarFilmverleihGmbH",
-    "posterUrl": "https://www.imdb.com/title/tt8150730/mediaviewer/rm3266134272/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "personal memory",
-    "cultural memory"
-  ],
-  "director": [
-    {
-      "id": "Oliver Schwehm",
-      "slug": "oliver-schwehm",
-      "name": "Oliver Schwehm",
-      "birthYear": 1975,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "Dokumentation \u00fcber die Orbital Transport- und Raketen Aktiengesellschaft, kurz OTRAG, die in den 1970er-Jahren nach alternativen Antriebssystemen f\u00fcr Raketen forschte. Die OTRAG war die erste private Raumfahrtfirma der Welt und wurde 1975 von Lutz Tilo Kayser in Stuttgart gegr\u00fcndet. Da von dort allerdings keine Raketen starten durften, einigten sich Kayser und seine Mitstreiter mit Mobutu Sese Seko, dem damaligen Pr\u00e4sidenten von Zaire (der heutigen Demokratischen Republik Kongo): Der Diktator \u00fcberlie\u00df ihnen eine Fl\u00e4che Regenwald von der Gr\u00f6\u00dfe der DDR, um dort Raketentests durchf\u00fchren zu k\u00f6nnen, inklusive eigener Metzgerei und Marihuana-Plantage. Doch nach den ersten erfolgreichen Starts r\u00fcckt die OTRAG in den Fokus der Weltpolitik. In \u201eFly Rocket Fly\u201c erz\u00e4hlt Oliver Schwehm Kaysers Geschichte und stellt eine Chronik der OTRAG zusammen.",
-    "english": "Elon Musk was not the first! This film tells the unbelievable story of OTRAG, the first private space launch company ever."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2018-09-27",
+        "year": 2018
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Oliver Schwehm",
+            "slug": "oliver-schwehm",
+            "name": "Oliver Schwehm",
+            "birthYear": 1975,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt8150730/mediaviewer/rm3266134272/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=DXDdKuRANbc&ab_channel=KinostarFilmverleihGmbH"
+    },
+    "synopsis": {
+        "native": "Dokumentation \u00fcber die Orbital Transport- und Raketen Aktiengesellschaft, kurz OTRAG, die in den 1970er-Jahren nach alternativen Antriebssystemen f\u00fcr Raketen forschte. Die OTRAG war die erste private Raumfahrtfirma der Welt und wurde 1975 von Lutz Tilo Kayser in Stuttgart gegr\u00fcndet. Da von dort allerdings keine Raketen starten durften, einigten sich Kayser und seine Mitstreiter mit Mobutu Sese Seko, dem damaligen Pr\u00e4sidenten von Zaire (der heutigen Demokratischen Republik Kongo): Der Diktator \u00fcberlie\u00df ihnen eine Fl\u00e4che Regenwald von der Gr\u00f6\u00dfe der DDR, um dort Raketentests durchf\u00fchren zu k\u00f6nnen, inklusive eigener Metzgerei und Marihuana-Plantage. Doch nach den ersten erfolgreichen Starts r\u00fcckt die OTRAG in den Fokus der Weltpolitik. In \u201eFly Rocket Fly\u201c erz\u00e4hlt Oliver Schwehm Kaysers Geschichte und stellt eine Chronik der OTRAG zusammen.",
+        "english": "Elon Musk was not the first! This film tells the unbelievable story of OTRAG, the first private space launch company ever."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Lutz Kayser",
+                "slug": "lutz-kayser",
+                "name": "Lutz Kayser",
+                "birthYear": 1939,
+                "deathYear": 2017,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Oliver Schwehm",
+                "slug": "oliver-schwehm",
+                "name": "Oliver Schwehm",
+                "birthYear": 1975,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "personal memory",
+        "cultural memory"
+    ]
 }

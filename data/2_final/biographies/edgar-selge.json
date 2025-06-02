@@ -1,41 +1,89 @@
 {
-  "id": "Edgar Selge",
-  "type": "Biography",
-  "slug": "edgar-selge",
-  "name": "Edgar Selge",
-  "birthYear": 1948,
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "No",
-      "class": "Upper class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Science Fiction",
-        "id": "DE2022_033",
-        "production": {
-          "country": "Germany",
-          "share": "Majority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2022
-        },
-        "slug": "de2022-033-okozid",
-        "tags": "supranational institutions",
-        "title": {
-          "native": "\u00d6kozid"
+    "type": "Person",
+    "id": "Edgar Selge",
+    "slug": "edgar-selge",
+    "name": "Edgar Selge",
+    "birthYear": 1948,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [
+        {
+            "id": "DE2022_033_01",
+            "film": {
+                "id": "DE2022_033",
+                "slug": "de2022-033-okozid",
+                "title": {
+                    "native": "\u00d6kozid",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-05-19",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "person": "Edgar Selge",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "DE2022_033_01",
-      "origin": "White Western European",
-      "profession": "Employed",
-      "role": "Leading actor",
-      "sexuality": "Heterosexual"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2022_033",
+                "slug": "de2022-033-okozid",
+                "title": {
+                    "native": "\u00d6kozid",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-05-19",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        },
+        {
+            "film": {
+                "id": "DE2023_010",
+                "slug": "de2023-010-aus-meiner-haut",
+                "title": {
+                    "native": "Aus meiner Haut",
+                    "english": "Skin Deep"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-02-02",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        }
+    ]
 }

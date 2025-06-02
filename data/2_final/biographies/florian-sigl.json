@@ -1,29 +1,35 @@
 {
-  "id": "Florian Sigl",
-  "type": "Biography",
-  "slug": "florian-sigl",
-  "name": "Florian Sigl",
-  "birthYear": 1988,
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Fantasy",
-      "id": "DE2022_100",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "de2022-100-the-magic-flute",
-      "title": {
-        "english": "The Magic Flute",
-        "native": "The Magic Flute"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Florian Sigl",
+    "slug": "florian-sigl",
+    "name": "Florian Sigl",
+    "birthYear": 1988,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2022_100",
+                "slug": "de2022-100-the-magic-flute",
+                "title": {
+                    "native": "The Magic Flute",
+                    "english": "The Magic Flute"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-11-17",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

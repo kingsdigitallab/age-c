@@ -1,47 +1,57 @@
 {
-  "id": "Raquel G\u00f3mez Troyano",
-  "type": "Biography",
-  "slug": "raquel-gomez-troyano",
-  "name": "Raquel G\u00f3mez Troyano",
-  "nationality": "Spain",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Poetic mode",
-      "id": "ES2020_026",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "es2020-026-una-manana-fria",
-      "tags": "siblinghood",
-      "title": {
-        "english": "A cold morning",
-        "native": "Una ma\u00f1ana fr\u00eda"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "ES2018_052",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "es2018-052-el-pomo-azul",
-      "tags": "inheritance",
-      "title": {
-        "native": "El pomo azul"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Raquel G\u00f3mez Troyano",
+    "slug": "raquel-gomez-troyano",
+    "name": "Raquel G\u00f3mez Troyano",
+    "birthYear": 0,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2018_052",
+                "slug": "es2018-052-el-pomo-azul",
+                "title": {
+                    "native": "El pomo azul",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-09-06",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "ES2020_026",
+                "slug": "es2020-026-una-manana-fria",
+                "title": {
+                    "native": "Una ma\u00f1ana fr\u00eda",
+                    "english": "A cold morning"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-02-06",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

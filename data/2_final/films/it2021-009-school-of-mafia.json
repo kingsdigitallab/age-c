@@ -1,70 +1,147 @@
 {
-  "id": "IT2021_009",
-  "type": "Film",
-  "slug": "it2021-009-school-of-mafia",
-  "title": {
-    "native": "School of mafia",
-    "english": "School of Mafia"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-06-24",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=_mstocU8R_Y",
-    "posterUrl": "https://www.imdb.com/title/tt12919688/mediaviewer/rm1010812673/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Crime"
-  ],
-  "tags": [
-    "regional identity",
-    "organized crime",
-    "intergenerational conflict",
-    "fatherhood"
-  ],
-  "director": [
-    {
-      "id": "Alessandro Pondi",
-      "slug": "alessandro-pondi",
-      "name": "Alessandro Pondi",
-      "birthYear": 1972,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2021_009_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Emilio Solfrizzi",
-        "slug": "emilio-solfrizzi",
-        "name": "Emilio Solfrizzi",
-        "birthYear": 1962.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "New York \u2013 giorni nostri. Tony Masseria, Joe Cavallo e Nick Di Maggio sono tre ragazzi newyorkesi. Hanno sogni, aspirazioni, progetti per la propria vita: Nick \u00e8 un chitarrista che sta per entrare nel talent show pi\u00f9 famoso d\u2019America, Joe \u00e8 un cadetto dell\u2019accademia di polizia e Tony \u00e8 un insegnante di danza. Un ostacolo li separa dalla realizzazione dei loro sogni: sono i figli dei tre boss mafiosi che si spartiscono i traffici illegali della citt\u00e0, determinati a farli diventare, volenti o nolenti, gli eredi dei loro affari. I tre padri, dunque, rapiscono i loro figli per portarli in Sicilia, alla scuola di Don Turi \u2019u Appicciaturi, il Padrino pi\u00f9 temuto, che dovr\u00e0 addestrarli a diventare dei veri boss. Sar\u00e0 un duro percorso per tutti e tre, ma sar\u00e0 anche un percorso di crescita personale che permetter\u00e0 a Tony, Nick e Joe di definirsi e capire ci\u00f2 che sono e ci\u00f2 che potranno diventare."
-  }
+    "type": "Film",
+    "id": "IT2021_009",
+    "slug": "it2021-009-school-of-mafia",
+    "title": {
+        "native": "School of mafia",
+        "english": "School of Mafia"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-06-24",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Alessandro Pondi",
+            "slug": "alessandro-pondi",
+            "name": "Alessandro Pondi",
+            "birthYear": 1972,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Crime"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt12919688/mediaviewer/rm1010812673/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=_mstocU8R_Y"
+    },
+    "synopsis": {
+        "native": "New York \u2013 giorni nostri. Tony Masseria, Joe Cavallo e Nick Di Maggio sono tre ragazzi newyorkesi. Hanno sogni, aspirazioni, progetti per la propria vita: Nick \u00e8 un chitarrista che sta per entrare nel talent show pi\u00f9 famoso d\u2019America, Joe \u00e8 un cadetto dell\u2019accademia di polizia e Tony \u00e8 un insegnante di danza. Un ostacolo li separa dalla realizzazione dei loro sogni: sono i figli dei tre boss mafiosi che si spartiscono i traffici illegali della citt\u00e0, determinati a farli diventare, volenti o nolenti, gli eredi dei loro affari. I tre padri, dunque, rapiscono i loro figli per portarli in Sicilia, alla scuola di Don Turi \u2019u Appicciaturi, il Padrino pi\u00f9 temuto, che dovr\u00e0 addestrarli a diventare dei veri boss. Sar\u00e0 un duro percorso per tutti e tre, ma sar\u00e0 anche un percorso di crescita personale che permetter\u00e0 a Tony, Nick e Joe di definirsi e capire ci\u00f2 che sono e ci\u00f2 che potranno diventare.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2021_009_01",
+            "film": "IT2021_009",
+            "person": {
+                "id": "Emilio Solfrizzi",
+                "slug": "emilio-solfrizzi",
+                "name": "Emilio Solfrizzi",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alessandro Pondi",
+                "slug": "alessandro-pondi",
+                "name": "Alessandro Pondi",
+                "birthYear": 1972,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Emilio Solfrizzi",
+                "slug": "emilio-solfrizzi",
+                "name": "Emilio Solfrizzi",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Gianfranco Gallo",
+                "slug": "gianfranco-gallo",
+                "name": "Gianfranco Gallo",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Nino Frassica",
+                "slug": "nino-frassica",
+                "name": "Nino Frassica",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Paolo Calabresi",
+                "slug": "paolo-calabresi",
+                "name": "Paolo Calabresi",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Tony Sperandeo",
+                "slug": "tony-sperandeo",
+                "name": "Tony Sperandeo",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "regional identity",
+        "organized crime",
+        "fatherhood",
+        "intergenerational conflict"
+    ]
 }

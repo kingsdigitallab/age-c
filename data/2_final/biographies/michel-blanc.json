@@ -1,64 +1,133 @@
 {
-  "id": "Michel Blanc",
-  "type": "Biography",
-  "slug": "michel-blanc",
-  "name": "Michel Blanc",
-  "birthYear": 1952,
-  "deathYear": 2024,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Temporary disability",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "No",
-      "class": "Upper Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Comedy",
-        "id": "FR2019_213",
-        "production": {
-          "country": "France",
-          "share": "Majority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2011
-        },
-        "slug": "fr2019-213-docteur",
-        "tags": "extended family",
-        "title": {
-          "english": "A Good Doctor",
-          "native": "Docteur ?"
+    "type": "Person",
+    "id": "Michel Blanc",
+    "slug": "michel-blanc",
+    "name": "Michel Blanc",
+    "birthYear": 1952,
+    "deathYear": 2024,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [
+        {
+            "id": "FR2019_213_01",
+            "film": {
+                "id": "FR2019_213",
+                "slug": "fr2019-213-docteur",
+                "title": {
+                    "native": "Docteur ?",
+                    "english": "A Good Doctor"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2011-12-19",
+                    "year": 2011
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "person": "Michel Blanc",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Temporary disability",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "FR2019_213_01",
-      "origin": "White Western European",
-      "profession": "Self-employed",
-      "role": "Leading actor",
-      "sexuality": "Unknown"
-    }
-  ],
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2018_155",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2010
-      },
-      "slug": "fr2018-155-voyez-comme-on-danse",
-      "tags": "wealth",
-      "title": {
-        "english": "Kiss & Tell",
-        "native": "Voyez comme on danse"
-      }
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_155",
+                "slug": "fr2018-155-voyez-comme-on-danse",
+                "title": {
+                    "native": "Voyez comme on danse",
+                    "english": "Kiss & Tell"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2010-10-18",
+                    "year": 2010
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2018_155",
+                "slug": "fr2018-155-voyez-comme-on-danse",
+                "title": {
+                    "native": "Voyez comme on danse",
+                    "english": "Kiss & Tell"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2010-10-18",
+                    "year": 2010
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "FR2019_213",
+                "slug": "fr2019-213-docteur",
+                "title": {
+                    "native": "Docteur ?",
+                    "english": "A Good Doctor"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2011-12-19",
+                    "year": 2011
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        },
+        {
+            "film": {
+                "id": "FR2021_120",
+                "slug": "fr2021-120-les-tuche-4",
+                "title": {
+                    "native": "Les Tuche 4",
+                    "english": "Christmas with the Tuche"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-12-08",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        }
+    ]
 }

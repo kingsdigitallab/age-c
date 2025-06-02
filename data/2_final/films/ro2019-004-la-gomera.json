@@ -1,82 +1,146 @@
 {
-  "id": "RO2019_004",
-  "type": "Film",
-  "slug": "ro2019-004-la-gomera",
-  "title": {
-    "native": "La Gomera",
-    "english": "The Whistlers"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-09-13",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Sweden",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "RO2019_004",
+    "slug": "ro2019-004-la-gomera",
+    "title": {
+        "native": "La Gomera",
+        "english": "The Whistlers"
     },
-    {
-      "country": "Romania",
-      "share": "Majority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2019-09-13",
+        "year": 2019
     },
-    {
-      "country": "Germany",
-      "share": "Minority coproducer"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Corneliu Porumboiu",
+            "slug": "corneliu-porumboiu",
+            "name": "Corneliu Porumboiu",
+            "birthYear": 1974,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Romania"
+        }
+    ],
+    "genre": [
+        "Crime",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.cinemagia.ro/filme/la-gomera-2285183/postere/3593617/#gallery",
+        "trailerUrl": "https://www.cinemagia.ro/trailer/la-gomera-21661/"
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.cinemagia.ro/trailer/la-gomera-21661/",
-    "posterUrl": "https://www.cinemagia.ro/filme/la-gomera-2285183/postere/3593617/#gallery"
-  },
-  "genre": [
-    "Crime",
-    "Thriller"
-  ],
-  "tags": [
-    "state institutions",
-    "organized crime",
-    "corruption"
-  ],
-  "director": [
-    {
-      "id": "Corneliu Porumboiu",
-      "slug": "corneliu-porumboiu",
-      "name": "Corneliu Porumboiu",
-      "birthYear": 1974,
-      "gender": "Male identifying",
-      "nationality": "Romania"
-    }
-  ],
-  "character": [
-    {
-      "id": "RO2019_004_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Eastern European",
-      "class": "Upper class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Vlad Ivanov",
-        "slug": "vlad-ivanov",
-        "name": "Vlad Ivanov",
-        "birthYear": 1969.0,
-        "gender": "Male identifying",
-        "nationality": "Romania"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Cristi, un poli\u021bist rom\u00e2n corupt implicat \u00eentr-o afacere de 30 de milioane de euro cu mafia, ajunge \u00een insula La Gomera, \u00een Spania, pentru a \u00eenv\u0103\u021ba \u201eEl Silbo\u201d, un limbaj fluierat folosit de localnici. Limbajul codat \u00eel va ajuta s\u0103-l elibereze pe Zsolt, un traficant aflat \u00een arest la Bucure\u0219ti, \u0219i singurul din band\u0103 care \u0219tie unde sunt ascun\u0219i banii.",
-    "english": "Not everything is as it seems for Cristi, a policeman who plays both sides of the law. Embarking with the beautiful Gilda on a high-stakes heist, both will have to navigate the twists and turns of corruption, treachery and deception."
-  }
+    "synopsis": {
+        "native": "Cristi, un poli\u021bist rom\u00e2n corupt implicat \u00eentr-o afacere de 30 de milioane de euro cu mafia, ajunge \u00een insula La Gomera, \u00een Spania, pentru a \u00eenv\u0103\u021ba \u201eEl Silbo\u201d, un limbaj fluierat folosit de localnici. Limbajul codat \u00eel va ajuta s\u0103-l elibereze pe Zsolt, un traficant aflat \u00een arest la Bucure\u0219ti, \u0219i singurul din band\u0103 care \u0219tie unde sunt ascun\u0219i banii.",
+        "english": "Not everything is as it seems for Cristi, a policeman who plays both sides of the law. Embarking with the beautiful Gilda on a high-stakes heist, both will have to navigate the twists and turns of corruption, treachery and deception."
+    },
+    "production": [
+        {
+            "country": "Romania",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Germany",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Sweden",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "RO2019_004_01",
+            "film": "RO2019_004",
+            "person": {
+                "id": "Vlad Ivanov",
+                "slug": "vlad-ivanov",
+                "name": "Vlad Ivanov",
+                "birthYear": 1969,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Eastern European",
+            "class": "Upper class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Agust\u00ed Villaronga",
+                "slug": "agusti-villaronga",
+                "name": "Agust\u00ed Villaronga",
+                "birthYear": 1953,
+                "deathYear": 2023,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Bogdan Dumitrescu",
+                "slug": "bogdan-dumitrescu",
+                "name": "Bogdan Dumitrescu",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Corneliu Porumboiu",
+                "slug": "corneliu-porumboiu",
+                "name": "Corneliu Porumboiu",
+                "birthYear": 1974,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Julieta Sz\u00f6nyi",
+                "slug": "julieta-szonyi",
+                "name": "Julieta Sz\u00f6nyi",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Romania"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Vlad Ivanov",
+                "slug": "vlad-ivanov",
+                "name": "Vlad Ivanov",
+                "birthYear": 1969,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "corruption",
+        "organized crime",
+        "state institutions"
+    ]
 }

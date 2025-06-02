@@ -1,30 +1,35 @@
 {
-  "id": "Johnny Kevorkian",
-  "type": "Biography",
-  "slug": "johnny-kevorkian",
-  "name": "Johnny Kevorkian",
-  "birthYear": 1978,
-  "deathYear": 2020,
-  "nationality": "Cyprus",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Thriller",
-      "id": "GB2018_033",
-      "production": {
-        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "gb2018-033-await-further-instructions",
-      "tags": "racial discrimination",
-      "title": {
-        "native": "Await Further Instructions"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Johnny Kevorkian",
+    "slug": "johnny-kevorkian",
+    "name": "Johnny Kevorkian",
+    "birthYear": 1978,
+    "deathYear": 2020,
+    "gender": "Male identifying",
+    "nationality": "Cyprus",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "GB2018_033",
+                "slug": "gb2018-033-await-further-instructions",
+                "title": {
+                    "native": "Await Further Instructions",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-12-07",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

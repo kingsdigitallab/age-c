@@ -1,77 +1,213 @@
 {
-  "id": "FR2018_075",
-  "type": "Film",
-  "slug": "fr2018-075-place-publique",
-  "title": {
-    "native": "Place publique",
-    "english": "Place publique"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-04-18",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=Ym2Gn_b46Zw",
-    "posterUrl": "https://medias.unifrance.org/medias/238/218/187118/format_page/place-publique.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "partnership",
-    "high rank employment",
-    "celibacy",
-    "artistic creation",
-    "extended family",
-    "self-employment",
-    "professional politics",
-    "mass media",
-    "volunteering",
-    "festivities",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Agn\u00e8s Jaoui",
-      "slug": "agnes-jaoui",
-      "name": "Agn\u00e8s Jaoui",
-      "birthYear": 1964,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2018_075_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Jean-Pierre Bacri",
-        "slug": "jean-pierre-bacri",
-        "name": "Jean-Pierre Bacri",
-        "birthYear": 1951.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Castro, autrefois star du petit \u00e9cran, est \u00e0 pr\u00e9sent un animateur sur le d\u00e9clin. Aujourd'hui, son chauffeur, Manu, le conduit \u00e0 la pendaison de cr\u00e9maill\u00e8re de sa productrice et amie de longue date, Nathalie, qui a emm\u00e9nag\u00e9 dans une belle maison pr\u00e8s de Paris. H\u00e9l\u00e8ne, s\u0153ur de Nathalie et ex-femme de Castro, est elle aussi invit\u00e9e. Quand ils \u00e9taient jeunes, ils partageaient les m\u00eames id\u00e9aux mais le succ\u00e8s a converti Castro au pragmatisme (ou plut\u00f4t au cynisme) tandis qu'H\u00e9l\u00e8ne est rest\u00e9e fid\u00e8le \u00e0 ses convictions. Leur fille, Nina, qui a \u00e9crit un livre librement inspir\u00e9 de la vie de ses parents, se joint \u00e0 eux. Alors que Castro assiste, impuissant, \u00e0 la chute inexorable de son audimat, H\u00e9l\u00e8ne tente d\u00e9sesp\u00e9r\u00e9ment d'imposer dans son \u00e9mission une r\u00e9fugi\u00e9e afghane. Pendant ce temps, la f\u00eate bat son plein...",
-    "english": "Castro was once a very famous TV host. As he grows old, his popularity is declining, but his cynicism remains intact. Today his driver Manu takes him to the house warming party of his longtime friend and producer Nathalie. Everyone is invited: from reality stars and actors to the eccentric farmer living next door. H\u00e9l\u00e8ne, Nathalie\u2019s sister and Castro\u2019s ex-wife, is running around as usual, trying to convince guests to sign a petition in support of an Afghan refugee. She barely notices the arrival of their daughter Nina, who just published a book in which the main characters borrow heavily from her parents\u2019 flaws... It\u2019s a lovely afternoon in the countryside near Paris. The champagne bottles pop and the party is in full swing. But everyone is dancing on a volcano..."
-  }
+    "type": "Film",
+    "id": "FR2018_075",
+    "slug": "fr2018-075-place-publique",
+    "title": {
+        "native": "Place publique",
+        "english": "Place publique"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-04-18",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Agn\u00e8s Jaoui",
+            "slug": "agnes-jaoui",
+            "name": "Agn\u00e8s Jaoui",
+            "birthYear": 1964,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/238/218/187118/format_page/place-publique.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=Ym2Gn_b46Zw"
+    },
+    "synopsis": {
+        "native": "Castro, autrefois star du petit \u00e9cran, est \u00e0 pr\u00e9sent un animateur sur le d\u00e9clin. Aujourd'hui, son chauffeur, Manu, le conduit \u00e0 la pendaison de cr\u00e9maill\u00e8re de sa productrice et amie de longue date, Nathalie, qui a emm\u00e9nag\u00e9 dans une belle maison pr\u00e8s de Paris. H\u00e9l\u00e8ne, s\u0153ur de Nathalie et ex-femme de Castro, est elle aussi invit\u00e9e. Quand ils \u00e9taient jeunes, ils partageaient les m\u00eames id\u00e9aux mais le succ\u00e8s a converti Castro au pragmatisme (ou plut\u00f4t au cynisme) tandis qu'H\u00e9l\u00e8ne est rest\u00e9e fid\u00e8le \u00e0 ses convictions. Leur fille, Nina, qui a \u00e9crit un livre librement inspir\u00e9 de la vie de ses parents, se joint \u00e0 eux. Alors que Castro assiste, impuissant, \u00e0 la chute inexorable de son audimat, H\u00e9l\u00e8ne tente d\u00e9sesp\u00e9r\u00e9ment d'imposer dans son \u00e9mission une r\u00e9fugi\u00e9e afghane. Pendant ce temps, la f\u00eate bat son plein...",
+        "english": "Castro was once a very famous TV host. As he grows old, his popularity is declining, but his cynicism remains intact. Today his driver Manu takes him to the house warming party of his longtime friend and producer Nathalie. Everyone is invited: from reality stars and actors to the eccentric farmer living next door. H\u00e9l\u00e8ne, Nathalie\u2019s sister and Castro\u2019s ex-wife, is running around as usual, trying to convince guests to sign a petition in support of an Afghan refugee. She barely notices the arrival of their daughter Nina, who just published a book in which the main characters borrow heavily from her parents\u2019 flaws... It\u2019s a lovely afternoon in the countryside near Paris. The champagne bottles pop and the party is in full swing. But everyone is dancing on a volcano..."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2018_075_01",
+            "film": "FR2018_075",
+            "person": {
+                "id": "Jean-Pierre Bacri",
+                "slug": "jean-pierre-bacri",
+                "name": "Jean-Pierre Bacri",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Agn\u00e8s Jaoui",
+                "slug": "agnes-jaoui",
+                "name": "Agn\u00e8s Jaoui",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Evelyne Buyle",
+                "slug": "evelyne-buyle",
+                "name": "Evelyne Buyle",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Fr\u00e9d\u00e9ric Pierrot",
+                "slug": "frederic-pierrot",
+                "name": "Fr\u00e9d\u00e9ric Pierrot",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Gr\u00e9goire Oestermann",
+                "slug": "gregoire-oestermann",
+                "name": "Gr\u00e9goire Oestermann",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Jean-Pierre Bacri",
+                "slug": "jean-pierre-bacri",
+                "name": "Jean-Pierre Bacri",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Michel Masiero",
+                "slug": "michel-masiero",
+                "name": "Michel Masiero",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Miglen Mirtchev",
+                "slug": "miglen-mirtchev",
+                "name": "Miglen Mirtchev",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Bulgaria"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Oliver Doran",
+                "slug": "oliver-doran",
+                "name": "Oliver Doran",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Olivier Broche",
+                "slug": "olivier-broche",
+                "name": "Olivier Broche",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Sam Karmann",
+                "slug": "sam-karmann",
+                "name": "Sam Karmann",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "\u00c9ric Viellard",
+                "slug": "eric-viellard",
+                "name": "\u00c9ric Viellard",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "mass media",
+        "high rank employment",
+        "celibacy",
+        "extended family",
+        "superior-employee relationship",
+        "partnership",
+        "volunteering",
+        "self-employment",
+        "artistic creation",
+        "professional politics",
+        "festivities"
+    ]
 }

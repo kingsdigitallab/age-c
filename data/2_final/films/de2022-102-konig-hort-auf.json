@@ -1,47 +1,76 @@
 {
-  "id": "DE2022_102",
-  "type": "Film",
-  "slug": "de2022-102-konig-hort-auf",
-  "title": {
-    "native": "K\u00f6nig h\u00f6rt auf"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-11-17",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=oN_GseNgQXM&ab_channel=FilmtoastTrailer",
-    "posterUrl": "https://www.imdb.com/title/tt22493506/mediaviewer/rm3321169153/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "professional politics",
-    "artistic creation",
-    "cultural memory",
-    "religion"
-  ],
-  "director": [
-    {
-      "id": "Tilman K\u00f6nig",
-      "slug": "tilman-konig",
-      "name": "Tilman K\u00f6nig",
-      "birthYear": 1979,
-      "gender": "Female identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "Lothar K\u00f6nig ist als Person eine echte Erscheinung. Wenn er nicht gerade Kette raucht, kann er mit seinen wilden Haaren und seinem langen Bart auch mal ganz sch\u00f6n unbequem werden. Eine Narbe \u00fcber dem rechten Auge hat er einem Neonazi zu verdanken, der den Stadtjugendpfarrer aus Jena einst bewusstlos schlug. Trotz aller Widerst\u00e4nde setzt sich Lothar K\u00f6nig weiterhin gegen Rechtsextremismus ein, leistet wichtige Jugendarbeit und hilft Gefl\u00fcchteten und Migranten. F\u00fcr seine Arbeit ist er \u00fcber die Stadtgrenzen Jenas bekannt. Der Filmemacher Tilman K\u00f6nig setzt in seinem Dokumentarfilm seinem eigenen Vater ein Denkmal.",
-    "english": "A personal, enjoyably critical homage to the Jena pastor and left-wing activist Lothar K\u00f6nig that accompanies the cantankerous original during his last months in church office."
-  }
+    "type": "Film",
+    "id": "DE2022_102",
+    "slug": "de2022-102-konig-hort-auf",
+    "title": {
+        "native": "K\u00f6nig h\u00f6rt auf",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-11-17",
+        "year": 2022
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Tilman K\u00f6nig",
+            "slug": "tilman-konig",
+            "name": "Tilman K\u00f6nig",
+            "birthYear": 1979,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt22493506/mediaviewer/rm3321169153/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=oN_GseNgQXM&ab_channel=FilmtoastTrailer"
+    },
+    "synopsis": {
+        "native": "Lothar K\u00f6nig ist als Person eine echte Erscheinung. Wenn er nicht gerade Kette raucht, kann er mit seinen wilden Haaren und seinem langen Bart auch mal ganz sch\u00f6n unbequem werden. Eine Narbe \u00fcber dem rechten Auge hat er einem Neonazi zu verdanken, der den Stadtjugendpfarrer aus Jena einst bewusstlos schlug. Trotz aller Widerst\u00e4nde setzt sich Lothar K\u00f6nig weiterhin gegen Rechtsextremismus ein, leistet wichtige Jugendarbeit und hilft Gefl\u00fcchteten und Migranten. F\u00fcr seine Arbeit ist er \u00fcber die Stadtgrenzen Jenas bekannt. Der Filmemacher Tilman K\u00f6nig setzt in seinem Dokumentarfilm seinem eigenen Vater ein Denkmal.",
+        "english": "A personal, enjoyably critical homage to the Jena pastor and left-wing activist Lothar K\u00f6nig that accompanies the cantankerous original during his last months in church office."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Lothar K\u00f6nig",
+                "slug": "lothar-konig",
+                "name": "Lothar K\u00f6nig",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Tilman K\u00f6nig",
+                "slug": "tilman-konig",
+                "name": "Tilman K\u00f6nig",
+                "birthYear": 1979,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "religion",
+        "artistic creation",
+        "cultural memory",
+        "professional politics"
+    ]
 }

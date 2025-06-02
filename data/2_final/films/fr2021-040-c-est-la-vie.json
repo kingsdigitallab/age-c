@@ -1,75 +1,115 @@
 {
-  "id": "FR2021_040",
-  "type": "Film",
-  "slug": "fr2021-040-c-est-la-vie",
-  "title": {
-    "native": "C'est la vie",
-    "english": "Labor Day"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-07-28",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2021_040",
+    "slug": "fr2021-040-c-est-la-vie",
+    "title": {
+        "native": "C'est la vie",
+        "english": "Labor Day"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=0SK487x25Gg",
-    "posterUrl": "https://medias.unifrance.org/medias/254/110/225022/format_page/labor-day.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "hospital",
-    "high rank employment",
-    "intergenerational conflict",
-    "caregiving",
-    "mentorship"
-  ],
-  "director": [
-    {
-      "id": "Julien Rambaldi",
-      "slug": "julien-rambaldi",
-      "name": "Julien Rambaldi",
-      "birthYear": 1971,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2021_040_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Josiane Balasko",
-        "slug": "josiane-balasko",
-        "name": "Josiane Balasko",
-        "birthYear": 1950.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Pour son dernier jour avant la retraite, Dominique, une sage-femme au caract\u00e8re bien tremp\u00e9, est forc\u00e9e de coop\u00e9rer avec un jeune obst\u00e9tricien arrogant. Ensemble, ils vont devoir accompagner cinq femmes \u00e0 accoucher. Elles s\u2019en souviendront toute leur vie\u2026",
-    "english": "Labor day is more about what happens before! Before giving life. It\u2019s about crossing the entire country to be with your wife in time to hear your baby\u2019s first cry, about saving an international crisis in between two contractions, about finding the strength to put aside your father\u2019s death when your wife has decided to go through with giving birth in a Jacuzzi, or when you steal the cellphone of your patient to find out who the father is. All of this makes for a very special labor day."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2021-07-28",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Julien Rambaldi",
+            "slug": "julien-rambaldi",
+            "name": "Julien Rambaldi",
+            "birthYear": 1971,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/254/110/225022/format_page/labor-day.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=0SK487x25Gg"
+    },
+    "synopsis": {
+        "native": "Pour son dernier jour avant la retraite, Dominique, une sage-femme au caract\u00e8re bien tremp\u00e9, est forc\u00e9e de coop\u00e9rer avec un jeune obst\u00e9tricien arrogant. Ensemble, ils vont devoir accompagner cinq femmes \u00e0 accoucher. Elles s\u2019en souviendront toute leur vie\u2026",
+        "english": "Labor day is more about what happens before! Before giving life. It\u2019s about crossing the entire country to be with your wife in time to hear your baby\u2019s first cry, about saving an international crisis in between two contractions, about finding the strength to put aside your father\u2019s death when your wife has decided to go through with giving birth in a Jacuzzi, or when you steal the cellphone of your patient to find out who the father is. All of this makes for a very special labor day."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2021_040_01",
+            "film": "FR2021_040",
+            "person": {
+                "id": "Josiane Balasko",
+                "slug": "josiane-balasko",
+                "name": "Josiane Balasko",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Anne Beno\u00eet",
+                "slug": "anne-benoit",
+                "name": "Anne Beno\u00eet",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Josiane Balasko",
+                "slug": "josiane-balasko",
+                "name": "Josiane Balasko",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Julien Rambaldi",
+                "slug": "julien-rambaldi",
+                "name": "Julien Rambaldi",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "high rank employment",
+        "caregiving",
+        "hospital",
+        "mentorship",
+        "intergenerational conflict"
+    ]
 }

@@ -1,45 +1,85 @@
 {
-  "id": "FR2019_136",
-  "type": "Film",
-  "slug": "fr2019-136-mon-frere",
-  "title": {
-    "native": "Mon fr\u00e8re",
-    "english": "Bro"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-07-31",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=V1VJptOmbLs",
-    "posterUrl": "https://medias.unifrance.org/medias/150/44/208022/format_page/mon-frere.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "grandparenthood"
-  ],
-  "director": [
-    {
-      "id": "Julien Abraham",
-      "slug": "julien-abraham",
-      "name": "Julien Abraham",
-      "birthYear": 1976,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Parce qu\u2019il voulait prot\u00e9ger son petit fr\u00e8re d\u2019un p\u00e8re trop violent,Teddy, un jeune noir sans histoire, se voit accus\u00e9 du meurtre de son p\u00e8re et est envoy\u00e9 dans un Centre \u00e9ducatif ferm\u00e9, dans l\u2019attente de son proc\u00e8s pour parricide. Il plonge alors dans un univers brutal dont il ne conna\u00eet pas les r\u00e8gles. Il fait la connaissance d\u2019Enzo, le ca\u00efd du centre. Apr\u00e8s une p\u00e9riode d\u2019affrontement dur, ils vont se lier d\u2019amiti\u00e9 et s\u2019\u00e9vader. Leur \u00e9chapp\u00e9e belle vers Amsterdam va leur permettre de fuir un destin qui leur semblait promis.",
-    "english": "Because he wanted to protect his little brother from a father too violent, Teddy, a young man without history, is accused of the murder of his father and is sent to a closed educational center, waiting for his trial for parricide . He then plunges into a brutal universe of which he does not know the rules."
-  }
+    "type": "Film",
+    "id": "FR2019_136",
+    "slug": "fr2019-136-mon-frere",
+    "title": {
+        "native": "Mon fr\u00e8re",
+        "english": "Bro"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-07-31",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Julien Abraham",
+            "slug": "julien-abraham",
+            "name": "Julien Abraham",
+            "birthYear": 1976,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/150/44/208022/format_page/mon-frere.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=V1VJptOmbLs"
+    },
+    "synopsis": {
+        "native": "Parce qu\u2019il voulait prot\u00e9ger son petit fr\u00e8re d\u2019un p\u00e8re trop violent,Teddy, un jeune noir sans histoire, se voit accus\u00e9 du meurtre de son p\u00e8re et est envoy\u00e9 dans un Centre \u00e9ducatif ferm\u00e9, dans l\u2019attente de son proc\u00e8s pour parricide. Il plonge alors dans un univers brutal dont il ne conna\u00eet pas les r\u00e8gles. Il fait la connaissance d\u2019Enzo, le ca\u00efd du centre. Apr\u00e8s une p\u00e9riode d\u2019affrontement dur, ils vont se lier d\u2019amiti\u00e9 et s\u2019\u00e9vader. Leur \u00e9chapp\u00e9e belle vers Amsterdam va leur permettre de fuir un destin qui leur semblait promis.",
+        "english": "Because he wanted to protect his little brother from a father too violent, Teddy, a young man without history, is accused of the murder of his father and is sent to a closed educational center, waiting for his trial for parricide . He then plunges into a brutal universe of which he does not know the rules."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Hiam Abbass",
+                "slug": "hiam-abbass",
+                "name": "Hiam Abbass",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Palestine, State of"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Julien Abraham",
+                "slug": "julien-abraham",
+                "name": "Julien Abraham",
+                "birthYear": 1976,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Lisette Malidor",
+                "slug": "lisette-malidor",
+                "name": "Lisette Malidor",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "grandparenthood"
+    ]
 }

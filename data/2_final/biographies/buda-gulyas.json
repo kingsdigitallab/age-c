@@ -1,46 +1,57 @@
 {
-  "id": "Buda Guly\u00e1s",
-  "type": "Biography",
-  "slug": "buda-gulyas",
-  "name": "Buda Guly\u00e1s",
-  "birthYear": 1949,
-  "nationality": "Hungary",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Fantasy",
-      "id": "HU2021_005",
-      "production": {
-        "country": "Hungary",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "hu2021-005-el-a-kezekkel-a-papamtol",
-      "title": {
-        "english": "Stop My Stepmom",
-        "native": "El a kezekkel a pap\u00e1mt\u00f3l!"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Romance",
-      "id": "HU2019_001",
-      "production": {
-        "country": "Hungary",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "hu2019-001-kolcsonlakas",
-      "title": {
-        "native": "K\u00f6lcs\u00f6nlak\u00e1s"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Buda Guly\u00e1s",
+    "slug": "buda-gulyas",
+    "name": "Buda Guly\u00e1s",
+    "birthYear": 1949,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Hungary",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "HU2019_001",
+                "slug": "hu2019-001-kolcsonlakas",
+                "title": {
+                    "native": "K\u00f6lcs\u00f6nlak\u00e1s",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-02-14",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "HU2021_005",
+                "slug": "hu2021-005-el-a-kezekkel-a-papamtol",
+                "title": {
+                    "native": "El a kezekkel a pap\u00e1mt\u00f3l!",
+                    "english": "Stop My Stepmom"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-12-09",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

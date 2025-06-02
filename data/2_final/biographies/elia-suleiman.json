@@ -1,63 +1,125 @@
 {
-  "id": "Elia Suleiman",
-  "type": "Biography",
-  "slug": "elia-suleiman",
-  "name": "Elia Suleiman",
-  "birthYear": 1960,
-  "nationality": "Israel",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "No",
-      "class": "Upper Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Comedy",
-        "id": "FR2019_207",
-        "production": {
-          "country": "Turkey",
-          "share": "Minority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2019
-        },
-        "slug": "fr2019-207-it-must-be-heaven",
-        "tags": "self-employment",
-        "title": {
-          "english": "It Must Be Heaven",
-          "native": "It Must Be Heaven"
+    "type": "Person",
+    "id": "Elia Suleiman",
+    "slug": "elia-suleiman",
+    "name": "Elia Suleiman",
+    "birthYear": 1960,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Israel",
+    "characters": [
+        {
+            "id": "FR2019_207_01",
+            "film": {
+                "id": "FR2019_207",
+                "slug": "fr2019-207-it-must-be-heaven",
+                "title": {
+                    "native": "It Must Be Heaven",
+                    "english": "It Must Be Heaven"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-12-04",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Canada",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Turkey",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Elia Suleiman",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "Middle East",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "FR2019_207_01",
-      "origin": "Middle East",
-      "profession": "Self-employed",
-      "role": "Director of the film",
-      "sexuality": "Unknown"
-    }
-  ],
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2019_207",
-      "production": {
-        "country": "Canada",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-207-it-must-be-heaven",
-      "tags": "artistic creation",
-      "title": {
-        "english": "It Must Be Heaven",
-        "native": "It Must Be Heaven"
-      }
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2019_207",
+                "slug": "fr2019-207-it-must-be-heaven",
+                "title": {
+                    "native": "It Must Be Heaven",
+                    "english": "It Must Be Heaven"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-12-04",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Canada",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Turkey",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2019_207",
+                "slug": "fr2019-207-it-must-be-heaven",
+                "title": {
+                    "native": "It Must Be Heaven",
+                    "english": "It Must Be Heaven"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-12-04",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Canada",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Turkey",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        }
+    ]
 }

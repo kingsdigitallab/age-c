@@ -1,61 +1,106 @@
 {
-  "id": "RO2020_005",
-  "type": "Film",
-  "slug": "ro2020-005-urma",
-  "title": {
-    "native": "Urma",
-    "english": "Legacy"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-03-06",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Romania",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.cinemagia.ro/trailer/urma-22347/",
-    "posterUrl": "https://www.cinemagia.ro/filme/urma-623541/postere/3792455/#gallery"
-  },
-  "genre": [
-    "Detective Thriller",
-    "Thriller",
-    "Drama"
-  ],
-  "tags": [
-    "state institutions",
-    "rescue mission"
-  ],
-  "character": [
-    {
-      "id": "RO2020_005_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Eastern European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Teodor Corban",
-        "slug": "teodor-corban",
-        "name": "Teodor Corban",
-        "birthYear": 1957.0,
-        "deathYear": 2022.0,
-        "gender": "Male identifying",
-        "nationality": "Romania"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Anton (Marin Grigore), un pianist celebru, este dat disp\u0103rut. Poli\u0163istul (Teodor Corban) care preia cazul afl\u0103 treptat despre destinul zbuciumat al artistului, rela\u0163iile sale bizare \u015fi deciziile care au declan\u015fat un v\u00e2rtej de evenimente surprinz\u0103toare. Dup\u0103 moartea p\u0103rin\u0163ilor s\u0103i, Anton devenise obsedat de fericirea surorii sale, Ana (Irina R\u0103dulescu), dincolo de limitele iubirii fraterne.",
-    "english": "Anton, a famous pianist, is missing. The policeman who takes over the case gradually learns about the artist's troubled destiny, his bizarre relationships and the decisions that triggered a whirl of surprising events. After the death of his parents, Anton had become obsessed with the happiness of his sister Ana, beyond the confines of brotherly love."
-  }
+    "type": "Film",
+    "id": "RO2020_005",
+    "slug": "ro2020-005-urma",
+    "title": {
+        "native": "Urma",
+        "english": "Legacy"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-03-06",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        "Dorian Bogu\u021b\u0103"
+    ],
+    "genre": [
+        "Drama",
+        "Thriller",
+        "Detective Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.cinemagia.ro/filme/urma-623541/postere/3792455/#gallery",
+        "trailerUrl": "https://www.cinemagia.ro/trailer/urma-22347/"
+    },
+    "synopsis": {
+        "native": "Anton (Marin Grigore), un pianist celebru, este dat disp\u0103rut. Poli\u0163istul (Teodor Corban) care preia cazul afl\u0103 treptat despre destinul zbuciumat al artistului, rela\u0163iile sale bizare \u015fi deciziile care au declan\u015fat un v\u00e2rtej de evenimente surprinz\u0103toare. Dup\u0103 moartea p\u0103rin\u0163ilor s\u0103i, Anton devenise obsedat de fericirea surorii sale, Ana (Irina R\u0103dulescu), dincolo de limitele iubirii fraterne.",
+        "english": "Anton, a famous pianist, is missing. The policeman who takes over the case gradually learns about the artist's troubled destiny, his bizarre relationships and the decisions that triggered a whirl of surprising events. After the death of his parents, Anton had become obsessed with the happiness of his sister Ana, beyond the confines of brotherly love."
+    },
+    "production": [
+        {
+            "country": "Romania",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "RO2020_005_01",
+            "film": "RO2020_005",
+            "person": {
+                "id": "Teodor Corban",
+                "slug": "teodor-corban",
+                "name": "Teodor Corban",
+                "birthYear": 1957,
+                "deathYear": 2022,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Eastern European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": "Dorian Bogu\u021b\u0103",
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Lucian Ifrim",
+                "slug": "lucian-ifrim",
+                "name": "Lucian Ifrim",
+                "birthYear": 1969,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Mircea Bibac",
+                "slug": "mircea-bibac",
+                "name": "Mircea Bibac",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Teodor Corban",
+                "slug": "teodor-corban",
+                "name": "Teodor Corban",
+                "birthYear": 1957,
+                "deathYear": 2022,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "rescue mission",
+        "state institutions"
+    ]
 }

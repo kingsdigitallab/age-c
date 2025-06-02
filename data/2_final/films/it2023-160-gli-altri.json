@@ -1,67 +1,109 @@
 {
-  "id": "IT2023_160",
-  "type": "Film",
-  "slug": "it2023-160-gli-altri",
-  "title": {
-    "native": "Gli altri"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-11-30",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=_XnY3LOH74w",
-    "posterUrl": "https://www.imdb.com/title/tt21341124/mediaviewer/rm1209288193/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Historical film (Heritage Film)",
-    "Drama"
-  ],
-  "tags": [
-    "personal trauma",
-    "celibacy"
-  ],
-  "director": [
-    {
-      "id": "Daniele Salvo",
-      "slug": "daniele-salvo",
-      "name": "Daniele Salvo",
-      "birthYear": 1970,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2023_160_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Ida Di Benedetto",
-        "slug": "ida-di-benedetto",
-        "name": "Ida Di Benedetto",
-        "birthYear": 1945.0,
-        "gender": "Female identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Amelia Jandolo \u00e8 un'insegnante di ricamo e cucito nella Napoli degli anni '50. Una sera si trova davanti un giovane che pretende che la segua a casa perch\u00e9 Felice, il fratello morente, chiede con insistenza di vederla. Giunti a destinazione trovano che l'uomo \u00e8 gi\u00e0 deceduto. Tutti pensano che lei ne sia l'amante ma Amelia non lo conosce. Le rimarr\u00e0 il desiderio di scoprire chi abbia usato il suo nome facendosi passare per lei. L'indagine la porter\u00e0 a conoscere una realt\u00e0 inattesa."
-  }
+    "type": "Film",
+    "id": "IT2023_160",
+    "slug": "it2023-160-gli-altri",
+    "title": {
+        "native": "Gli altri",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-11-30",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Daniele Salvo",
+            "slug": "daniele-salvo",
+            "name": "Daniele Salvo",
+            "birthYear": 1970,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Historical film (Heritage Film)"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt21341124/mediaviewer/rm1209288193/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=_XnY3LOH74w"
+    },
+    "synopsis": {
+        "native": "Amelia Jandolo \u00e8 un'insegnante di ricamo e cucito nella Napoli degli anni '50. Una sera si trova davanti un giovane che pretende che la segua a casa perch\u00e9 Felice, il fratello morente, chiede con insistenza di vederla. Giunti a destinazione trovano che l'uomo \u00e8 gi\u00e0 deceduto. Tutti pensano che lei ne sia l'amante ma Amelia non lo conosce. Le rimarr\u00e0 il desiderio di scoprire chi abbia usato il suo nome facendosi passare per lei. L'indagine la porter\u00e0 a conoscere una realt\u00e0 inattesa.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2023_160_01",
+            "film": "IT2023_160",
+            "person": {
+                "id": "Ida Di Benedetto",
+                "slug": "ida-di-benedetto",
+                "name": "Ida Di Benedetto",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Daniele Salvo",
+                "slug": "daniele-salvo",
+                "name": "Daniele Salvo",
+                "birthYear": 1970,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Ida Di Benedetto",
+                "slug": "ida-di-benedetto",
+                "name": "Ida Di Benedetto",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Peppe Servillo",
+                "slug": "peppe-servillo",
+                "name": "Peppe Servillo",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "celibacy",
+        "personal trauma"
+    ]
 }

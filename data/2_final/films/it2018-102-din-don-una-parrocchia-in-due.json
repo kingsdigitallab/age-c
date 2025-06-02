@@ -1,86 +1,165 @@
 {
-  "id": "IT2018_102",
-  "type": "Film",
-  "slug": "it2018-102-din-don-una-parrocchia-in-due",
-  "title": {
-    "native": "Din Don - Una parrocchia in due"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-12-17",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=_5YTX1itl2U",
-    "posterUrl": "https://www.imdb.com/title/tt9691688/mediaviewer/rm2492360960/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "regional identity",
-    "religion"
-  ],
-  "director": [
-    {
-      "id": "Claudio Norza",
-      "slug": "claudio-norza",
-      "name": "Claudio Norza",
-      "birthYear": 1957,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2018_102_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Enzo Salvi",
-        "slug": "enzo-salvi",
-        "name": "Enzo Salvi",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "IT2018_102",
+    "slug": "it2018-102-din-don-una-parrocchia-in-due",
+    "title": {
+        "native": "Din Don - Una parrocchia in due",
+        "english": ""
     },
-    {
-      "id": "IT2018_102_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Maurizio Battista",
-        "slug": "maurizio-battista",
-        "name": "Maurizio Battista",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Donato \u00e8 un manager cialtrone che, per sfuggire ad un boss, si presenta a Don Dino, il parroco di una chiesa di paese, fingendosi prete."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2018-12-17",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Claudio Norza",
+            "slug": "claudio-norza",
+            "name": "Claudio Norza",
+            "birthYear": 1957,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9691688/mediaviewer/rm2492360960/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=_5YTX1itl2U"
+    },
+    "synopsis": {
+        "native": "Donato \u00e8 un manager cialtrone che, per sfuggire ad un boss, si presenta a Don Dino, il parroco di una chiesa di paese, fingendosi prete.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2018_102_01",
+            "film": "IT2018_102",
+            "person": {
+                "id": "Enzo Salvi",
+                "slug": "enzo-salvi",
+                "name": "Enzo Salvi",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "IT2018_102_02",
+            "film": "IT2018_102",
+            "person": {
+                "id": "Maurizio Battista",
+                "slug": "maurizio-battista",
+                "name": "Maurizio Battista",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Adolfo Margiotta",
+                "slug": "adolfo-margiotta",
+                "name": "Adolfo Margiotta",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Claudio Norza",
+                "slug": "claudio-norza",
+                "name": "Claudio Norza",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Enzo Salvi",
+                "slug": "enzo-salvi",
+                "name": "Enzo Salvi",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Maurizio Battista",
+                "slug": "maurizio-battista",
+                "name": "Maurizio Battista",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Maurizio Mattioli",
+                "slug": "maurizio-mattioli",
+                "name": "Maurizio Mattioli",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Salvatore Misticone",
+                "slug": "salvatore-misticone",
+                "name": "Salvatore Misticone",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "religion",
+        "regional identity"
+    ]
 }

@@ -1,66 +1,79 @@
 {
-  "id": "Pierluigi Di Lallo",
-  "type": "Biography",
-  "slug": "pierluigi-di-lallo",
-  "name": "Pierluigi Di Lallo",
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "IT2019_073",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "it2019-073-nati-2-volte",
-      "tags": "parenthood",
-      "title": {
-        "english": "Born Twice",
-        "native": "Nati 2 volte"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "IT2022_073",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "it2022-073-amici-per-la-pelle",
-      "tags": "marriage",
-      "title": {
-        "native": "Amici per la pelle"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "IT2022_080",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "it2022-080-troppa-famiglia",
-      "tags": "intergenerational conflict",
-      "title": {
-        "english": "Too much family",
-        "native": "Troppa famiglia!"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Pierluigi Di Lallo",
+    "slug": "pierluigi-di-lallo",
+    "name": "Pierluigi Di Lallo",
+    "birthYear": 0,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2019_073",
+                "slug": "it2019-073-nati-2-volte",
+                "title": {
+                    "native": "Nati 2 volte",
+                    "english": "Born Twice"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-11-28",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2022_073",
+                "slug": "it2022-073-amici-per-la-pelle",
+                "title": {
+                    "native": "Amici per la pelle",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-10-27",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2022_080",
+                "slug": "it2022-080-troppa-famiglia",
+                "title": {
+                    "native": "Troppa famiglia!",
+                    "english": "Too much family"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-07-07",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

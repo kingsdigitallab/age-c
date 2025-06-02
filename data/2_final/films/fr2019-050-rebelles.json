@@ -1,75 +1,139 @@
 {
-  "id": "FR2019_050",
-  "type": "Film",
-  "slug": "fr2019-050-rebelles",
-  "title": {
-    "native": "Rebelles",
-    "english": "Rebels"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-03-13",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=tFZ82CyqCgA",
-    "posterUrl": "https://medias.unifrance.org/medias/120/23/202616/format_page/rebelles.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "precarity",
-    "intergenerational friendship",
-    "parenthood",
-    "class solidarity",
-    "low rank employment",
-    "marriage",
-    "organized crime",
-    "homosociality",
-    "crime"
-  ],
-  "director": [
-    {
-      "id": "Allan Mauduit",
-      "slug": "allan-mauduit",
-      "name": "Allan Mauduit",
-      "birthYear": 1969,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2019_050_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Yolande Moreau",
-        "slug": "yolande-moreau",
-        "name": "Yolande Moreau",
-        "birthYear": 1953.0,
-        "gender": "Female identifying",
-        "nationality": "Belgium"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Sans boulot ni dipl\u00f4me, Sandra, ex miss Nord-Pas-de-Calais, revient s'installer chez sa m\u00e8re \u00e0 Boulogne-sur-Mer apr\u00e8s 15 ans sur la C\u00f4te d'Azur. Embauch\u00e9e \u00e0 la conserverie locale, elle repousse vigoureusement les avances de son chef et le tue accidentellement. Deux autres filles ont \u00e9t\u00e9 t\u00e9moins de la sc\u00e8ne. Alors qu'elles s'appr\u00eatent \u00e0 appeler les secours, les trois ouvri\u00e8res d\u00e9couvrent un sac plein de billets dans le casier du mort. Une fortune qu'elles d\u00e9cident de se partager. C'est l\u00e0 que leurs ennuis commencent...",
-    "english": "With no job or qualifications, Sandra, a former beauty queen (Miss Pas-de-Calais), moves back in with her mother in Boulogne-sur-Mer after spending 15 years in the South of France. She finds a job at the local canning factory, vigorously rejects the advances of her boss, and accidentally kills him. Two other women are witnesses to the scene. As they are about to call the emergency services, the three factory workers discover a bag full of bank notes in the dead man\u2019s locker. A fortune which they decide to share out amongst themselves. This is where the problems start..."
-  }
+    "type": "Film",
+    "id": "FR2019_050",
+    "slug": "fr2019-050-rebelles",
+    "title": {
+        "native": "Rebelles",
+        "english": "Rebels"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-03-13",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Allan Mauduit",
+            "slug": "allan-mauduit",
+            "name": "Allan Mauduit",
+            "birthYear": 1969,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/120/23/202616/format_page/rebelles.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=tFZ82CyqCgA"
+    },
+    "synopsis": {
+        "native": "Sans boulot ni dipl\u00f4me, Sandra, ex miss Nord-Pas-de-Calais, revient s'installer chez sa m\u00e8re \u00e0 Boulogne-sur-Mer apr\u00e8s 15 ans sur la C\u00f4te d'Azur. Embauch\u00e9e \u00e0 la conserverie locale, elle repousse vigoureusement les avances de son chef et le tue accidentellement. Deux autres filles ont \u00e9t\u00e9 t\u00e9moins de la sc\u00e8ne. Alors qu'elles s'appr\u00eatent \u00e0 appeler les secours, les trois ouvri\u00e8res d\u00e9couvrent un sac plein de billets dans le casier du mort. Une fortune qu'elles d\u00e9cident de se partager. C'est l\u00e0 que leurs ennuis commencent...",
+        "english": "With no job or qualifications, Sandra, a former beauty queen (Miss Pas-de-Calais), moves back in with her mother in Boulogne-sur-Mer after spending 15 years in the South of France. She finds a job at the local canning factory, vigorously rejects the advances of her boss, and accidentally kills him. Two other women are witnesses to the scene. As they are about to call the emergency services, the three factory workers discover a bag full of bank notes in the dead man\u2019s locker. A fortune which they decide to share out amongst themselves. This is where the problems start..."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2019_050_01",
+            "film": "FR2019_050",
+            "person": {
+                "id": "Yolande Moreau",
+                "slug": "yolande-moreau",
+                "name": "Yolande Moreau",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Belgium"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Allan Mauduit",
+                "slug": "allan-mauduit",
+                "name": "Allan Mauduit",
+                "birthYear": 1969,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "B\u00e9atrice Agenin",
+                "slug": "beatrice-agenin",
+                "name": "B\u00e9atrice Agenin",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Simon Abkarian",
+                "slug": "simon-abkarian",
+                "name": "Simon Abkarian",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Yolande Moreau",
+                "slug": "yolande-moreau",
+                "name": "Yolande Moreau",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "\u00c9ric Godon",
+                "slug": "eric-godon",
+                "name": "\u00c9ric Godon",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "low rank employment",
+        "precarity",
+        "intergenerational friendship",
+        "class solidarity",
+        "parenthood",
+        "crime",
+        "organized crime",
+        "marriage",
+        "homosociality"
+    ]
 }

@@ -1,62 +1,93 @@
 {
-  "id": "IT2023_154",
-  "type": "Film",
-  "slug": "it2023-154-tutti-i-cani-muoiono-soli",
-  "title": {
-    "native": "Tutti i cani muoiono soli"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-05-11",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=_ioJGIYyBqY",
-    "posterUrl": "https://www.imdb.com/title/tt14113242/mediaviewer/rm1460021249/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "caregiving",
-    "crime",
-    "fatherhood"
-  ],
-  "director": [
-    {
-      "id": "Paolo Pisanu",
-      "slug": "paolo-pisanu",
-      "name": "Paolo Pisanu",
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2023_154_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Orlando Angius"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Un padre mette in scena la storia di un incontro tra due solitudini, il ricongiungimento difficile tra un padre e una figlia, l'ultima occasione di un uomo alla deriva, un vecchio delinquente che ha pi\u00f9 passato che futuro.",
-    "english": "In a winter Sardinia, bruised and violent, the drama of Rudi takes place, a man in his sixties, a small suburban gangster who now wearily manages his business, until he has to take care of his daughter Susanna, alone and seriously ill. Rudi then abandons life on the streets and faces his limits, his fears, his impotence, he falls, gets up and finally understands that his daughter is the destiny that awaits him, the mission to be accomplished. But there is his world out there, the world of racketeering, debts, \"odd jobs\", which has not forgotten him."
-  }
+    "type": "Film",
+    "id": "IT2023_154",
+    "slug": "it2023-154-tutti-i-cani-muoiono-soli",
+    "title": {
+        "native": "Tutti i cani muoiono soli",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-05-11",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Paolo Pisanu",
+            "slug": "paolo-pisanu",
+            "name": "Paolo Pisanu",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt14113242/mediaviewer/rm1460021249/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=_ioJGIYyBqY"
+    },
+    "synopsis": {
+        "native": "Un padre mette in scena la storia di un incontro tra due solitudini, il ricongiungimento difficile tra un padre e una figlia, l'ultima occasione di un uomo alla deriva, un vecchio delinquente che ha pi\u00f9 passato che futuro.",
+        "english": "In a winter Sardinia, bruised and violent, the drama of Rudi takes place, a man in his sixties, a small suburban gangster who now wearily manages his business, until he has to take care of his daughter Susanna, alone and seriously ill. Rudi then abandons life on the streets and faces his limits, his fears, his impotence, he falls, gets up and finally understands that his daughter is the destiny that awaits him, the mission to be accomplished. But there is his world out there, the world of racketeering, debts, \"odd jobs\", which has not forgotten him."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2023_154_01",
+            "film": "IT2023_154",
+            "person": "Orlando Angius",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alessandro Gazale",
+                "slug": "alessandro-gazale",
+                "name": "Alessandro Gazale",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": "Orlando Angius",
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Paolo Pisanu",
+                "slug": "paolo-pisanu",
+                "name": "Paolo Pisanu",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "fatherhood",
+        "crime",
+        "caregiving"
+    ]
 }

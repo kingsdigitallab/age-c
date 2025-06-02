@@ -1,71 +1,99 @@
 {
-  "id": "IT2018_088",
-  "type": "Film",
-  "slug": "it2018-088-isabelle",
-  "title": {
-    "native": "Isabelle",
-    "english": "Isabelle"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-11-29",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=n3n4otuWG2o",
-    "posterUrl": "https://www.imdb.com/title/tt13717512/mediaviewer/rm1311519233/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Drama"
-  ],
-  "tags": [
-    "may-december",
-    "motherhood",
-    "crime",
-    "personal trauma"
-  ],
-  "director": [
-    {
-      "id": "Mirko Locatelli",
-      "slug": "mirko-locatelli",
-      "name": "Mirko Locatelli",
-      "birthYear": 1974,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2018_088_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Ariane Ascaride",
-        "slug": "ariane-ascaride",
-        "name": "Ariane Ascaride",
-        "birthYear": 1954.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Isabelle \u00e8 un\u2019astronoma di origini francesi, vive in Italia in una grande casa immersa tra i vigneti sulle colline nei pressi di Trieste. Il sole splende sulla campagna, il mare a pochi chilometri si infrange sulla costa rocciosa, il paesaggio \u00e8 un paradiso e come tutte le estati suo figlio J\u00e9r\u00f4me passer\u00e0 qualche tempo con lei. Isabelle lo ama molto, \u00e8 pronta a fare qualsiasi cosa per lui, ma l\u2019incontro con Davide, un giovane che sta attraversando un momento di grande difficolt\u00e0, stravolger\u00e0 le loro vite e Isabelle dovr\u00e0 compiere una scelta che porter\u00e0 inevitabilmente a un epilogo doloroso.",
-    "english": "Isabelle is a French astrophysicist, she lives in Italy in a big house surrounded by vineyards on the hills near Trieste. The sun shines on the countryside, the sea, not far away, crashes against the rocky shore, the landscape is a paradise and her son J\u00e9r\u00f4me, like every summer, will visit her as he does every summer. Isabelle loves him very much, she is ready to do anything for him, but the meeting with Davide, a young man who is going through a difficult time, will alter the course of their lives and Isabelle will have to make a choice, the consequences of which will be devastating."
-  }
+    "type": "Film",
+    "id": "IT2018_088",
+    "slug": "it2018-088-isabelle",
+    "title": {
+        "native": "Isabelle",
+        "english": "Isabelle"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-11-29",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Mirko Locatelli",
+            "slug": "mirko-locatelli",
+            "name": "Mirko Locatelli",
+            "birthYear": 1974,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt13717512/mediaviewer/rm1311519233/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=n3n4otuWG2o"
+    },
+    "synopsis": {
+        "native": "Isabelle \u00e8 un\u2019astronoma di origini francesi, vive in Italia in una grande casa immersa tra i vigneti sulle colline nei pressi di Trieste. Il sole splende sulla campagna, il mare a pochi chilometri si infrange sulla costa rocciosa, il paesaggio \u00e8 un paradiso e come tutte le estati suo figlio J\u00e9r\u00f4me passer\u00e0 qualche tempo con lei. Isabelle lo ama molto, \u00e8 pronta a fare qualsiasi cosa per lui, ma l\u2019incontro con Davide, un giovane che sta attraversando un momento di grande difficolt\u00e0, stravolger\u00e0 le loro vite e Isabelle dovr\u00e0 compiere una scelta che porter\u00e0 inevitabilmente a un epilogo doloroso.",
+        "english": "Isabelle is a French astrophysicist, she lives in Italy in a big house surrounded by vineyards on the hills near Trieste. The sun shines on the countryside, the sea, not far away, crashes against the rocky shore, the landscape is a paradise and her son J\u00e9r\u00f4me, like every summer, will visit her as he does every summer. Isabelle loves him very much, she is ready to do anything for him, but the meeting with Davide, a young man who is going through a difficult time, will alter the course of their lives and Isabelle will have to make a choice, the consequences of which will be devastating."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2018_088_01",
+            "film": "IT2018_088",
+            "person": {
+                "id": "Ariane Ascaride",
+                "slug": "ariane-ascaride",
+                "name": "Ariane Ascaride",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Ariane Ascaride",
+                "slug": "ariane-ascaride",
+                "name": "Ariane Ascaride",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Mirko Locatelli",
+                "slug": "mirko-locatelli",
+                "name": "Mirko Locatelli",
+                "birthYear": 1974,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "may-december",
+        "motherhood",
+        "crime",
+        "personal trauma"
+    ]
 }

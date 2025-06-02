@@ -1,57 +1,86 @@
 {
-  "id": "FR2020_069",
-  "type": "Film",
-  "slug": "fr2020-069-africa-mia",
-  "title": {
-    "native": "Africa Mia",
-    "english": "The Mali-Cuba Connection"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-09-16",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=zry-RmFi5IA",
-    "posterUrl": "https://medias.unifrance.org/medias/72/107/224072/format_page/africa-mia.jpg"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "personal memory",
-    "elderhood (friendship among elders)",
-    "artistic creation",
-    "cultural memory",
-    "retirement"
-  ],
-  "director": [
-    {
-      "id": "\u00c9douard Salier",
-      "slug": "edouard-salier",
-      "name": "\u00c9douard Salier",
-      "birthYear": 1976,
-      "gender": "Male identifying",
-      "nationality": "France"
+    "type": "Film",
+    "id": "FR2020_069",
+    "slug": "fr2020-069-africa-mia",
+    "title": {
+        "native": "Africa Mia",
+        "english": "The Mali-Cuba Connection"
     },
-    {
-      "id": "Richard Minier",
-      "slug": "richard-minier",
-      "name": "Richard Minier",
-      "birthYear": 1969,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "C\u2019est une histoire qui commence en pleine guerre froide, en 1964, quand dix musiciens maliens de\u0301barquent dans la Havane de Castro pour y e\u0301tudier la musique. En brassant les sonorite\u0301s ils deviennent le premier groupe afro-cubain de l\u2019histoire : les Maravillas de Mali. Cinquante ans plus tard, entre Bamako et la Havane, nous partons a\u0300 la recherche du maestro Boncana Mai\u0308ga, son chef d\u2019orchestre, avec le projet fou de reformer ce groupe de le\u0301gende !",
-    "english": "1964. In the midst of the Cold War, ten young promising musicians from Mali are sent to Cuba to study music and strengthen cultural links between the two socialist regimes. They invent a whole new genre: Afro- Cuban Music and become the iconic group \"Las Maravillas de Mali\". New Year's Eve 2000. Richard Minier, a French music producer meets a former member of the band in Bamako and decides to bring the band back together."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2020-09-16",
+        "year": 2020
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Richard Minier",
+            "slug": "richard-minier",
+            "name": "Richard Minier",
+            "birthYear": 1969,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        },
+        {
+            "id": "\u00c9douard Salier",
+            "slug": "edouard-salier",
+            "name": "\u00c9douard Salier",
+            "birthYear": 1976,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/72/107/224072/format_page/africa-mia.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=zry-RmFi5IA"
+    },
+    "synopsis": {
+        "native": "C\u2019est une histoire qui commence en pleine guerre froide, en 1964, quand dix musiciens maliens de\u0301barquent dans la Havane de Castro pour y e\u0301tudier la musique. En brassant les sonorite\u0301s ils deviennent le premier groupe afro-cubain de l\u2019histoire : les Maravillas de Mali. Cinquante ans plus tard, entre Bamako et la Havane, nous partons a\u0300 la recherche du maestro Boncana Mai\u0308ga, son chef d\u2019orchestre, avec le projet fou de reformer ce groupe de le\u0301gende !",
+        "english": "1964. In the midst of the Cold War, ten young promising musicians from Mali are sent to Cuba to study music and strengthen cultural links between the two socialist regimes. They invent a whole new genre: Afro- Cuban Music and become the iconic group \"Las Maravillas de Mali\". New Year's Eve 2000. Richard Minier, a French music producer meets a former member of the band in Bamako and decides to bring the band back together."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Richard Minier",
+                "slug": "richard-minier",
+                "name": "Richard Minier",
+                "birthYear": 1969,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "\u00c9douard Salier",
+                "slug": "edouard-salier",
+                "name": "\u00c9douard Salier",
+                "birthYear": 1976,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "elderhood (friendship among elders)",
+        "retirement",
+        "cultural memory",
+        "personal memory"
+    ]
 }

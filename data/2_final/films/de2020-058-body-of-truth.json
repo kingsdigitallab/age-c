@@ -1,57 +1,109 @@
 {
-  "id": "DE2020_058",
-  "type": "Film",
-  "slug": "de2020-058-body-of-truth",
-  "title": {
-    "native": "Body of Truth",
-    "english": "Body of Truth"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-09-10",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "DE2020_058",
+    "slug": "de2020-058-body-of-truth",
+    "title": {
+        "native": "Body of Truth",
+        "english": "Body of Truth"
     },
-    {
-      "country": "Israel",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2020-09-10",
+        "year": 2020
     },
-    {
-      "country": "Switzerland",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=P4hq3TFrjFs&ab_channel=theprojector.sg",
-    "posterUrl": "https://www.imdb.com/title/tt11382952/mediaviewer/rm1040485633/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "body norms",
-    "professional politics",
-    "artistic creation",
-    "cultural memory"
-  ],
-  "director": [
-    {
-      "id": "Evelyn Schels",
-      "slug": "evelyn-schels",
-      "name": "Evelyn Schels",
-      "birthYear": 1955,
-      "gender": "Female identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "Die Filmemacherin Evelyn Schels begleitet in ihrem Dokumentarfilm die serbische Performance-K\u00fcnstlerin Marina Abramovi\u0107, die israelische Installationsk\u00fcnstlerin Sigalit Landau, die deutsche Foto-K\u00fcnstlerin Katharina Sieverding und die iranische Film- und Fotok\u00fcnstlerin Shirin Neshat bei ihrer Arbeit. In ihrer Heimat erlebten sie einst den Krieg, gesellschaftliche Konflikte, erfuhren Gewalt und Unterdr\u00fcckung. All diese Erlebnisse flie\u00dfen in ihre Werke ein, die aber nicht auf Leinwand gemalt werden. Das Ausdrucksmittel f\u00fcr ihre Kunst ist ihr eigener K\u00f6rper.",
-    "english": "Marina Abramovic, Sigalit Landau, Shirin Neshat and Katharina Sieverding have been politicized by experiences with war, violence and suppression and integrated them into their work, using their most personal tool: their own bodies."
-  }
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Evelyn Schels",
+            "slug": "evelyn-schels",
+            "name": "Evelyn Schels",
+            "birthYear": 1955,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Documentary \u2013 Performative mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt11382952/mediaviewer/rm1040485633/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=P4hq3TFrjFs&ab_channel=theprojector.sg"
+    },
+    "synopsis": {
+        "native": "Die Filmemacherin Evelyn Schels begleitet in ihrem Dokumentarfilm die serbische Performance-K\u00fcnstlerin Marina Abramovi\u0107, die israelische Installationsk\u00fcnstlerin Sigalit Landau, die deutsche Foto-K\u00fcnstlerin Katharina Sieverding und die iranische Film- und Fotok\u00fcnstlerin Shirin Neshat bei ihrer Arbeit. In ihrer Heimat erlebten sie einst den Krieg, gesellschaftliche Konflikte, erfuhren Gewalt und Unterdr\u00fcckung. All diese Erlebnisse flie\u00dfen in ihre Werke ein, die aber nicht auf Leinwand gemalt werden. Das Ausdrucksmittel f\u00fcr ihre Kunst ist ihr eigener K\u00f6rper.",
+        "english": "Marina Abramovic, Sigalit Landau, Shirin Neshat and Katharina Sieverding have been politicized by experiences with war, violence and suppression and integrated them into their work, using their most personal tool: their own bodies."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Switzerland",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Israel",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Evelyn Schels",
+                "slug": "evelyn-schels",
+                "name": "Evelyn Schels",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Katharina Sieverding",
+                "slug": "katharina-sieverding",
+                "name": "Katharina Sieverding",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Czechia"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Marina Abramovi\u0107",
+                "slug": "marina-abramovic",
+                "name": "Marina Abramovi\u0107",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Serbia"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Shirin Neshat",
+                "slug": "shirin-neshat",
+                "name": "Shirin Neshat",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Iran (Islamic Republic of)"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "cultural memory",
+        "professional politics",
+        "body norms"
+    ]
 }

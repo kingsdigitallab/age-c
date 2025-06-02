@@ -1,47 +1,88 @@
 {
-  "id": "IT2023_078",
-  "type": "Film",
-  "slug": "it2023-078-umberto-eco-la-biblioteca-del-mondo",
-  "title": {
-    "native": "Umberto Eco: La biblioteca del mondo"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-03-02",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=bcK8rOkcb3k",
-    "posterUrl": "https://www.imdb.com/title/tt26242614/mediaviewer/rm1517955329/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Biopic"
-  ],
-  "tags": [
-    "education",
-    "personal memory",
-    "independent home"
-  ],
-  "director": [
-    {
-      "id": "Davide Ferrario",
-      "slug": "davide-ferrario",
-      "name": "Davide Ferrario",
-      "birthYear": 1956,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "synopsis": {
-    "native": "La biblioteca privata di Umberto Eco era un mondo a s\u00e9: pi\u00f9 di 30.000 volumi di titoli contemporanei e 1.500 libri rari e antichi. Davide Ferrario, che con Umberto Eco aveva collaborato per una videoinstallazione alla Biennale Arte di Venezia un anno prima della morte dello scrittore, ha avuto accesso alla biblioteca grazie alla fattiva collaborazione della famiglia. Ne \u00e8 nato un documentario che non solo descrive un luogo straordinario, ma cerca di afferrare il senso stesso dell\u2019idea di biblioteca in quanto \u201cmemoria del mondo\u201d, come la definiva lo stesso Eco.",
-    "english": "Wandering these rooms, hallways, salons is a lover, a collector and above all a reader of books: Umberto Eco in his private library. More than 30,000 contemporary books and more than 1500 antique rare books. Fundamental books, but also curious, magical, cabalistic, bewitched. Eco devoured everything, including novels, which he swore he would never write, until that fateful year 1980 and The Name of the Rose."
-  }
+    "type": "Film",
+    "id": "IT2023_078",
+    "slug": "it2023-078-umberto-eco-la-biblioteca-del-mondo",
+    "title": {
+        "native": "Umberto Eco: La biblioteca del mondo",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-03-02",
+        "year": 2023
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Davide Ferrario",
+            "slug": "davide-ferrario",
+            "name": "Davide Ferrario",
+            "birthYear": 1956,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Biopic"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt26242614/mediaviewer/rm1517955329/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=bcK8rOkcb3k"
+    },
+    "synopsis": {
+        "native": "La biblioteca privata di Umberto Eco era un mondo a s\u00e9: pi\u00f9 di 30.000 volumi di titoli contemporanei e 1.500 libri rari e antichi. Davide Ferrario, che con Umberto Eco aveva collaborato per una videoinstallazione alla Biennale Arte di Venezia un anno prima della morte dello scrittore, ha avuto accesso alla biblioteca grazie alla fattiva collaborazione della famiglia. Ne \u00e8 nato un documentario che non solo descrive un luogo straordinario, ma cerca di afferrare il senso stesso dell\u2019idea di biblioteca in quanto \u201cmemoria del mondo\u201d, come la definiva lo stesso Eco.",
+        "english": "Wandering these rooms, hallways, salons is a lover, a collector and above all a reader of books: Umberto Eco in his private library. More than 30,000 contemporary books and more than 1500 antique rare books. Fundamental books, but also curious, magical, cabalistic, bewitched. Eco devoured everything, including novels, which he swore he would never write, until that fateful year 1980 and The Name of the Rose."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Davide Ferrario",
+                "slug": "davide-ferrario",
+                "name": "Davide Ferrario",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Giuseppe Cederna",
+                "slug": "giuseppe-cederna",
+                "name": "Giuseppe Cederna",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Narrator/voice over"
+        },
+        {
+            "person": {
+                "id": "Walter Leonardi",
+                "slug": "walter-leonardi",
+                "name": "Walter Leonardi",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Narrator/voice over"
+        }
+    ],
+    "tags": [
+        "personal memory",
+        "education",
+        "independent home"
+    ]
 }

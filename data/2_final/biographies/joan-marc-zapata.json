@@ -1,29 +1,35 @@
 {
-  "id": "Joan Marc Zapata",
-  "type": "Biography",
-  "slug": "joan-marc-zapata",
-  "name": "Joan Marc Zapata",
-  "birthYear": 1989,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Romance",
-      "id": "ES2022_094",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "es2022-094-el-color-del-cielo",
-      "tags": "artistic creation",
-      "title": {
-        "native": "El color del cielo"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Joan Marc Zapata",
+    "slug": "joan-marc-zapata",
+    "name": "Joan Marc Zapata",
+    "birthYear": 1989,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2022_094",
+                "slug": "es2022-094-el-color-del-cielo",
+                "title": {
+                    "native": "El color del cielo",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-10-21",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

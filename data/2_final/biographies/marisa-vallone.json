@@ -1,30 +1,35 @@
 {
-  "id": "Marisa Vallone",
-  "type": "Biography",
-  "slug": "marisa-vallone",
-  "name": "Marisa Vallone",
-  "birthYear": 1984,
-  "nationality": "Italy",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "IT2023_052",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "it2023-052-la-terra-delle-donne",
-      "tags": "women empowerment",
-      "title": {
-        "english": "Land of Women",
-        "native": "La terra delle donne"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Marisa Vallone",
+    "slug": "marisa-vallone",
+    "name": "Marisa Vallone",
+    "birthYear": 1984,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2023_052",
+                "slug": "it2023-052-la-terra-delle-donne",
+                "title": {
+                    "native": "La terra delle donne",
+                    "english": "Land of Women"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-04-27",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,49 +1,101 @@
 {
-  "id": "RO2019_020",
-  "type": "Film",
-  "slug": "ro2019-020-epava",
-  "title": {
-    "native": "Epava",
-    "english": "The Wreck"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-04-19",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Romania",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.cinemagia.ro/trailer/epava-20957/",
-    "posterUrl": "https://www.cinemagia.ro/filme/epava-2671343/postere/3447921/#gallery"
-  },
-  "genre": [
-    "Metacinema",
-    "Drama"
-  ],
-  "tags": [
-    "homosociality",
-    "artistic creation",
-    "personal memory",
-    "inheritance"
-  ],
-  "director": [
-    {
-      "id": "Cornel Gheorghi\u021b\u0103",
-      "slug": "cornel-gheorghita",
-      "name": "Cornel Gheorghi\u021b\u0103",
-      "birthYear": 1958,
-      "gender": "Male identifying",
-      "nationality": "Romania"
-    }
-  ],
-  "synopsis": {
-    "native": "Firu Dorileanu, \u0219omer, locuie\u0219te \u00een apartamentul p\u0103rin\u021bilor s\u0103i deceda\u021bi. Pentru a-\u0219i rezolva problemele financiare, el \u00eencearc\u0103 s\u0103 v\u00e2nd\u0103 contrabasul mamei lui. \u00cen interiorul instrumentului, g\u0103se\u0219te o scrisoare \u0219i un film vechi, din tinere\u021bea mamei lui.",
-    "english": "Firu Dorileanu, 30 unemployed, lives alone in his deceased parents' apartment. To pass his financial problems, he tries to sell his mother's contrabass. So, with this occasion, he discovers inside the instrument a letter and an old film from his mother's youth. Going behind the protagonists in the film, Firu arrives inside the wreck, there where was born his mother's secret."
-  }
+    "type": "Film",
+    "id": "RO2019_020",
+    "slug": "ro2019-020-epava",
+    "title": {
+        "native": "Epava",
+        "english": "The Wreck"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-04-19",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Cornel Gheorghi\u021b\u0103",
+            "slug": "cornel-gheorghita",
+            "name": "Cornel Gheorghi\u021b\u0103",
+            "birthYear": 1958,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Romania"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Metacinema"
+    ],
+    "media": {
+        "posterUrl": "https://www.cinemagia.ro/filme/epava-2671343/postere/3447921/#gallery",
+        "trailerUrl": "https://www.cinemagia.ro/trailer/epava-20957/"
+    },
+    "synopsis": {
+        "native": "Firu Dorileanu, \u0219omer, locuie\u0219te \u00een apartamentul p\u0103rin\u021bilor s\u0103i deceda\u021bi. Pentru a-\u0219i rezolva problemele financiare, el \u00eencearc\u0103 s\u0103 v\u00e2nd\u0103 contrabasul mamei lui. \u00cen interiorul instrumentului, g\u0103se\u0219te o scrisoare \u0219i un film vechi, din tinere\u021bea mamei lui.",
+        "english": "Firu Dorileanu, 30 unemployed, lives alone in his deceased parents' apartment. To pass his financial problems, he tries to sell his mother's contrabass. So, with this occasion, he discovers inside the instrument a letter and an old film from his mother's youth. Going behind the protagonists in the film, Firu arrives inside the wreck, there where was born his mother's secret."
+    },
+    "production": [
+        {
+            "country": "Romania",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Constantin Florescu",
+                "slug": "constantin-florescu",
+                "name": "Constantin Florescu",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Cornel Gheorghi\u021b\u0103",
+                "slug": "cornel-gheorghita",
+                "name": "Cornel Gheorghi\u021b\u0103",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Geo Balint",
+                "slug": "geo-balint",
+                "name": "Geo Balint",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Sorin Francu",
+                "slug": "sorin-francu",
+                "name": "Sorin Francu",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "inheritance",
+        "homosociality",
+        "personal memory"
+    ]
 }

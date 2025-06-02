@@ -1,69 +1,97 @@
 {
-  "id": "FR2022_110",
-  "type": "Film",
-  "slug": "fr2022-110-magdala",
-  "title": {
-    "native": "Magdala",
-    "english": "Magdala"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-07-20",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=fj-zK8n7oFg",
-    "posterUrl": "https://medias.unifrance.org/medias/23/213/251159/format_page/magdala.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "homelessness",
-    "natural",
-    "religion"
-  ],
-  "director": [
-    {
-      "id": "Damien Manivel",
-      "slug": "damien-manivel",
-      "name": "Damien Manivel",
-      "birthYear": 1981,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2022_110_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "Black Latin American",
-      "class": "Lower class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Elsa Wolliaston",
-        "slug": "elsa-wolliaston",
-        "name": "Elsa Wolliaston",
-        "birthYear": 1945.0,
-        "gender": "Female identifying",
-        "nationality": "Jamaica"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Depuis la mort de J\u00e9sus, Marie-Madeleine s\u2019est retir\u00e9e hors du monde. Ses cheveux sont devenus blancs, elle se nourrit de baies, boit l'eau de la pluie et dort parmi les arbres. Seule au c\u0153ur de la for\u00eat, elle se souvient de son amour perdu. Elle cherche un chemin pour le retrouver.",
-    "english": "Since the death of Jesus, Mary Magdalene has withdrawn from the world. Her hair has turned white, she eats berries, drinks water from the rain and sleeps among the trees. Alone in the heart of the forest, she remembers her lost love. She looks for a way to find him."
-  }
+    "type": "Film",
+    "id": "FR2022_110",
+    "slug": "fr2022-110-magdala",
+    "title": {
+        "native": "Magdala",
+        "english": "Magdala"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-07-20",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Damien Manivel",
+            "slug": "damien-manivel",
+            "name": "Damien Manivel",
+            "birthYear": 1981,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/23/213/251159/format_page/magdala.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=fj-zK8n7oFg"
+    },
+    "synopsis": {
+        "native": "Depuis la mort de J\u00e9sus, Marie-Madeleine s\u2019est retir\u00e9e hors du monde. Ses cheveux sont devenus blancs, elle se nourrit de baies, boit l'eau de la pluie et dort parmi les arbres. Seule au c\u0153ur de la for\u00eat, elle se souvient de son amour perdu. Elle cherche un chemin pour le retrouver.",
+        "english": "Since the death of Jesus, Mary Magdalene has withdrawn from the world. Her hair has turned white, she eats berries, drinks water from the rain and sleeps among the trees. Alone in the heart of the forest, she remembers her lost love. She looks for a way to find him."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_110_01",
+            "film": "FR2022_110",
+            "person": {
+                "id": "Elsa Wolliaston",
+                "slug": "elsa-wolliaston",
+                "name": "Elsa Wolliaston",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Jamaica"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "Black Latin American",
+            "class": "Lower class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Damien Manivel",
+                "slug": "damien-manivel",
+                "name": "Damien Manivel",
+                "birthYear": 1981,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Elsa Wolliaston",
+                "slug": "elsa-wolliaston",
+                "name": "Elsa Wolliaston",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Jamaica"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "religion",
+        "natural",
+        "homelessness"
+    ]
 }

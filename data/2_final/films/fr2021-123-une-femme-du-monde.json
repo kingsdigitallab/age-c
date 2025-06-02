@@ -1,45 +1,73 @@
 {
-  "id": "FR2021_123",
-  "type": "Film",
-  "slug": "fr2021-123-une-femme-du-monde",
-  "title": {
-    "native": "Une femme du monde",
-    "english": "Her Way"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-12-08",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=Gmgvqjks7ak",
-    "posterUrl": "https://medias.unifrance.org/medias/190/172/240830/format_page/her-way.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "sex work"
-  ],
-  "director": [
-    {
-      "id": "C\u00e9cile Ducrocq",
-      "slug": "cecile-ducrocq",
-      "name": "C\u00e9cile Ducrocq",
-      "birthYear": 1973,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "A Strasbourg, Marie se prostitue depuis 20 ans. Elle a son bout de trottoir, ses habitu\u00e9s, sa libert\u00e9. Et un fils, Adrien, 17 ans. Pour assurer son avenir, Marie veut lui payer des \u00e9tudes. Il lui faut de l'argent, vite.",
-    "english": "Marie is an independent prostitute, a joyful member of the sex workers union, and a single mother. When her son, who's passionate about cooking, gets kicked out of school, she enrols him in a top French cookery program. But her contagious optimism isn't enough to pay the fees and sacrifices must be made. Will she succeed?"
-  }
+    "type": "Film",
+    "id": "FR2021_123",
+    "slug": "fr2021-123-une-femme-du-monde",
+    "title": {
+        "native": "Une femme du monde",
+        "english": "Her Way"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-12-08",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "C\u00e9cile Ducrocq",
+            "slug": "cecile-ducrocq",
+            "name": "C\u00e9cile Ducrocq",
+            "birthYear": 1973,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/190/172/240830/format_page/her-way.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=Gmgvqjks7ak"
+    },
+    "synopsis": {
+        "native": "A Strasbourg, Marie se prostitue depuis 20 ans. Elle a son bout de trottoir, ses habitu\u00e9s, sa libert\u00e9. Et un fils, Adrien, 17 ans. Pour assurer son avenir, Marie veut lui payer des \u00e9tudes. Il lui faut de l'argent, vite.",
+        "english": "Marie is an independent prostitute, a joyful member of the sex workers union, and a single mother. When her son, who's passionate about cooking, gets kicked out of school, she enrols him in a top French cookery program. But her contagious optimism isn't enough to pay the fees and sacrifices must be made. Will she succeed?"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "C\u00e9cile Ducrocq",
+                "slug": "cecile-ducrocq",
+                "name": "C\u00e9cile Ducrocq",
+                "birthYear": 1973,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Sam Louwyck",
+                "slug": "sam-louwyck",
+                "name": "Sam Louwyck",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "sex work"
+    ]
 }

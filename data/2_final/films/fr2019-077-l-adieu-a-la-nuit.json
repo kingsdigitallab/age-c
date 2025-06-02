@@ -1,75 +1,127 @@
 {
-  "id": "FR2019_077",
-  "type": "Film",
-  "slug": "fr2019-077-l-adieu-a-la-nuit",
-  "title": {
-    "native": "L'Adieu \u00e0 la nuit",
-    "english": "Farewell to the Night"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-04-24",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2019_077",
+    "slug": "fr2019-077-l-adieu-a-la-nuit",
+    "title": {
+        "native": "L'Adieu \u00e0 la nuit",
+        "english": "Farewell to the Night"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=Jw2zNXFWhGU",
-    "posterUrl": "https://medias.unifrance.org/medias/212/29/204244/format_page/l-adieu-a-la-nuit.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "grandparenthood",
-    "intergenerational conflict",
-    "independent home",
-    "self-employment",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Andr\u00e9 T\u00e9chin\u00e9",
-      "slug": "andre-techine",
-      "name": "Andr\u00e9 T\u00e9chin\u00e9",
-      "birthYear": 1943,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2019_077_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Catherine Deneuve",
-        "slug": "catherine-deneuve",
-        "name": "Catherine Deneuve",
-        "birthYear": 1943.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Muriel est folle de joie de voir Alex, son petit-fils, qui vient passer quelques jours chez elle avant de partir vivre au Canada. Intrigu\u00e9e par son comportement, elle d\u00e9couvre bient\u00f4t qu\u2019il lui a menti. Alex se pr\u00e9pare \u00e0 une autre vie. Muriel, boulevers\u00e9e, doit r\u00e9agir tr\u00e8s vite...",
-    "english": "Muriel is overjoyed. Her grandson Alex, will be staying at her place a few days before moving to Canada. Intrigued by his curious behavior, she soon discovers he's been lying. Alex is preparing a different life. Distraught, Muriel must act - and there is no time to lose."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-04-24",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Andr\u00e9 T\u00e9chin\u00e9",
+            "slug": "andre-techine",
+            "name": "Andr\u00e9 T\u00e9chin\u00e9",
+            "birthYear": 1943,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/212/29/204244/format_page/l-adieu-a-la-nuit.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=Jw2zNXFWhGU"
+    },
+    "synopsis": {
+        "native": "Muriel est folle de joie de voir Alex, son petit-fils, qui vient passer quelques jours chez elle avant de partir vivre au Canada. Intrigu\u00e9e par son comportement, elle d\u00e9couvre bient\u00f4t qu\u2019il lui a menti. Alex se pr\u00e9pare \u00e0 une autre vie. Muriel, boulevers\u00e9e, doit r\u00e9agir tr\u00e8s vite...",
+        "english": "Muriel is overjoyed. Her grandson Alex, will be staying at her place a few days before moving to Canada. Intrigued by his curious behavior, she soon discovers he's been lying. Alex is preparing a different life. Distraught, Muriel must act - and there is no time to lose."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Germany",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2019_077_01",
+            "film": "FR2019_077",
+            "person": {
+                "id": "Catherine Deneuve",
+                "slug": "catherine-deneuve",
+                "name": "Catherine Deneuve",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Andr\u00e9 T\u00e9chin\u00e9",
+                "slug": "andre-techine",
+                "name": "Andr\u00e9 T\u00e9chin\u00e9",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Catherine Deneuve",
+                "slug": "catherine-deneuve",
+                "name": "Catherine Deneuve",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Jacques Nolot",
+                "slug": "jacques-nolot",
+                "name": "Jacques Nolot",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Mohamed Djouhri",
+                "slug": "mohamed-djouhri",
+                "name": "Mohamed Djouhri",
+                "birthYear": 1950,
+                "deathYear": 2020,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "grandparenthood",
+        "independent home",
+        "rural",
+        "self-employment",
+        "intergenerational conflict"
+    ]
 }

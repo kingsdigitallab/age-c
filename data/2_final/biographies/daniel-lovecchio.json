@@ -1,60 +1,89 @@
 {
-  "id": "Daniel Lovecchio",
-  "type": "Biography",
-  "slug": "daniel-lovecchio",
-  "name": "Daniel Lovecchio",
-  "nationality": "Argentina",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "Unknown",
-      "class": "Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Thriller",
-        "id": "ES2019_048",
-        "production": {
-          "country": "Spain",
-          "share": "Majority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2010
-        },
-        "slug": "es2019-048-moira",
-        "tags": "national identity",
-        "title": {
-          "native": "Moira"
+    "type": "Person",
+    "id": "Daniel Lovecchio",
+    "slug": "daniel-lovecchio",
+    "name": "Daniel Lovecchio",
+    "birthYear": 0,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Argentina",
+    "characters": [
+        {
+            "id": "ES2019_048_01",
+            "film": {
+                "id": "ES2019_048",
+                "slug": "es2019-048-moira",
+                "title": {
+                    "native": "Moira",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2010-12-19",
+                    "year": 2010
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "person": "Daniel Lovecchio",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Latin American",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "Unknown"
         }
-      },
-      "gender": "Male identifying",
-      "id": "ES2019_048_01",
-      "origin": "White Latin American",
-      "profession": "Unknown",
-      "role": "Director of the film",
-      "sexuality": "Heterosexual"
-    }
-  ],
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Historical film (Heritage Film)",
-      "id": "ES2019_048",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2010
-      },
-      "slug": "es2019-048-moira",
-      "tags": "personal trauma",
-      "title": {
-        "native": "Moira"
-      }
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2019_048",
+                "slug": "es2019-048-moira",
+                "title": {
+                    "native": "Moira",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2010-12-19",
+                    "year": 2010
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "ES2019_048",
+                "slug": "es2019-048-moira",
+                "title": {
+                    "native": "Moira",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2010-12-19",
+                    "year": 2010
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        }
+    ]
 }

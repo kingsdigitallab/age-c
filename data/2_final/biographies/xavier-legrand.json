@@ -1,30 +1,35 @@
 {
-  "id": "Xavier Legrand",
-  "type": "Biography",
-  "slug": "xavier-legrand",
-  "name": "Xavier Legrand",
-  "birthYear": 1979,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2018_018",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-018-jusqu-a-la-garde",
-      "tags": "high rank employment",
-      "title": {
-        "english": "Custody",
-        "native": "Jusqu'\u00e0 la garde"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Xavier Legrand",
+    "slug": "xavier-legrand",
+    "name": "Xavier Legrand",
+    "birthYear": 1979,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_018",
+                "slug": "fr2018-018-jusqu-a-la-garde",
+                "title": {
+                    "native": "Jusqu'\u00e0 la garde",
+                    "english": "Custody"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-02-07",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

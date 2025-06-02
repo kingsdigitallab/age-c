@@ -1,43 +1,85 @@
 {
-  "id": "DE2020_002",
-  "type": "Film",
-  "slug": "de2020-002-freies-land",
-  "title": {
-    "native": "Freies Land"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-01-09",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/video/vi3156393753/?playlistId=tt9407490&ref_=tt_ov_vi",
-    "posterUrl": "https://www.imdb.com/title/tt9407490/mediaviewer/rm2561969409/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Unknown",
-    "Crime",
-    "Drama"
-  ],
-  "director": [
-    {
-      "id": "Christian Alvart",
-      "slug": "christian-alvart",
-      "name": "Christian Alvart",
-      "birthYear": 1974,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "Nachdem 1992 in der Oderregion zwei Schwestern auf einmal spurlos verschwunden sind, werden die beiden grundverschiedenen Ermittler Markus Bach (Felix Kramer) und Patrick Stein (Trystan P\u00fctter) nach Ostdeutschland geschickt, um das vermeintliche Verbrechen aufzukl\u00e4ren. F\u00fcr die Dorfbewohner ist der Fall klar: Die M\u00e4dchen sind Hals \u00fcber Kopf in den Westen abgehauen. Wie die beiden Kollegen schon bald feststellen, geht das Leben in den abgelegenen Winkeln Deutschlands seinen eigenen Weg. Obwohl nach dem Fall der Mauer die B\u00fcrger der ehemaligen DDR in Aufbruchstimmung waren, herrscht bei den Menschen nun Katerstimmung. Bach und Stein wundern sich dar\u00fcber, dass sich niemand um die verschwundenen Geschwister Sorgen macht und keiner mit ihnen \u00fcber den Fall reden will. In dem verschworenen \u00d6rtchen k\u00e4mpfen sie sich fortan durch einen Morast aus L\u00fcgen und Intrigen und die Suche nach dem T\u00e4ter wird zu einer m\u00fchseligen Angelegenheit.",
-    "english": "Two cops investigate the disappearance of two teen sisters in a remote town, where it seems like everyone has something to hide - including the bodies."
-  }
+    "type": "Film",
+    "id": "DE2020_002",
+    "slug": "de2020-002-freies-land",
+    "title": {
+        "native": "Freies Land",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-01-09",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Christian Alvart",
+            "slug": "christian-alvart",
+            "name": "Christian Alvart",
+            "birthYear": 1974,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Crime",
+        "Drama",
+        "Unknown"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9407490/mediaviewer/rm2561969409/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/video/vi3156393753/?playlistId=tt9407490&ref_=tt_ov_vi"
+    },
+    "synopsis": {
+        "native": "Nachdem 1992 in der Oderregion zwei Schwestern auf einmal spurlos verschwunden sind, werden die beiden grundverschiedenen Ermittler Markus Bach (Felix Kramer) und Patrick Stein (Trystan P\u00fctter) nach Ostdeutschland geschickt, um das vermeintliche Verbrechen aufzukl\u00e4ren. F\u00fcr die Dorfbewohner ist der Fall klar: Die M\u00e4dchen sind Hals \u00fcber Kopf in den Westen abgehauen. Wie die beiden Kollegen schon bald feststellen, geht das Leben in den abgelegenen Winkeln Deutschlands seinen eigenen Weg. Obwohl nach dem Fall der Mauer die B\u00fcrger der ehemaligen DDR in Aufbruchstimmung waren, herrscht bei den Menschen nun Katerstimmung. Bach und Stein wundern sich dar\u00fcber, dass sich niemand um die verschwundenen Geschwister Sorgen macht und keiner mit ihnen \u00fcber den Fall reden will. In dem verschworenen \u00d6rtchen k\u00e4mpfen sie sich fortan durch einen Morast aus L\u00fcgen und Intrigen und die Suche nach dem T\u00e4ter wird zu einer m\u00fchseligen Angelegenheit.",
+        "english": "Two cops investigate the disappearance of two teen sisters in a remote town, where it seems like everyone has something to hide - including the bodies."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Christian Alvart",
+                "slug": "christian-alvart",
+                "name": "Christian Alvart",
+                "birthYear": 1974,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Ute Lubosch",
+                "slug": "ute-lubosch",
+                "name": "Ute Lubosch",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Uwe Dag Berlin",
+                "slug": "uwe-dag-berlin",
+                "name": "Uwe Dag Berlin",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": []
 }

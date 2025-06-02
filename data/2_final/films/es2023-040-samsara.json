@@ -1,54 +1,71 @@
 {
-  "id": "ES2023_040",
-  "type": "Film",
-  "slug": "es2023-040-samsara",
-  "title": {
-    "native": "Samsara"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-11-22",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=944427",
-    "posterUrl": "https://www.imdb.com/title/tt21909682/mediaviewer/rm1124222977/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Experimental film ",
-    "Drama"
-  ],
-  "tags": [
-    "natural death",
-    "intergenerational friendship",
-    "spirituality",
-    "independent home",
-    "caregiving",
-    "cultural memory",
-    "cross-gender friendship",
-    "agony",
-    "physical illness",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Lois Pati\u00f1o",
-      "slug": "lois-patino",
-      "name": "Lois Pati\u00f1o",
-      "birthYear": 1983,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "En los templos budistas de Luang Prabang conviven decenas de adolescentes. Uno de estos chicos lee el Bardo Th\u00f6dol a una anciana, un texto que debe leerse a las personas antes de fallecer, pues sirve como gu\u00eda para orientarse en el m\u00e1s all\u00e1. La anciana fallece y acompa\u00f1amos a su esp\u00edritu por una traves\u00eda sensorial hasta reencarnarse en su siguiente cuerpo: un cabrito de un pueblo costero de Tanzania, donde crecer\u00e1 acompa\u00f1ado de una familia de pescadores.",
-    "english": "In the temples of Laos, teenage monks accompany a soul in transit from one body to another through the bardo. A luminous and sonorous journey leads to reincarnate on the beaches of Zanzibar, where groups of women work in seaweed farms."
-  }
+    "type": "Film",
+    "id": "ES2023_040",
+    "slug": "es2023-040-samsara",
+    "title": {
+        "native": "Samsara",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-11-22",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Lois Pati\u00f1o",
+            "slug": "lois-patino",
+            "name": "Lois Pati\u00f1o",
+            "birthYear": 1983,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Experimental film "
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt21909682/mediaviewer/rm1124222977/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=944427"
+    },
+    "synopsis": {
+        "native": "En los templos budistas de Luang Prabang conviven decenas de adolescentes. Uno de estos chicos lee el Bardo Th\u00f6dol a una anciana, un texto que debe leerse a las personas antes de fallecer, pues sirve como gu\u00eda para orientarse en el m\u00e1s all\u00e1. La anciana fallece y acompa\u00f1amos a su esp\u00edritu por una traves\u00eda sensorial hasta reencarnarse en su siguiente cuerpo: un cabrito de un pueblo costero de Tanzania, donde crecer\u00e1 acompa\u00f1ado de una familia de pescadores.",
+        "english": "In the temples of Laos, teenage monks accompany a soul in transit from one body to another through the bardo. A luminous and sonorous journey leads to reincarnate on the beaches of Zanzibar, where groups of women work in seaweed farms."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Lois Pati\u00f1o",
+                "slug": "lois-patino",
+                "name": "Lois Pati\u00f1o",
+                "birthYear": 1983,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "spirituality",
+        "agony",
+        "natural death",
+        "caregiving",
+        "rural",
+        "physical illness",
+        "intergenerational friendship",
+        "independent home",
+        "cross-gender friendship",
+        "cultural memory"
+    ]
 }

@@ -1,42 +1,71 @@
 {
-  "id": "FR2021_104",
-  "type": "Film",
-  "slug": "fr2021-104-entre-deux-trains",
-  "title": {
-    "native": "Entre deux trains",
-    "english": "Long Time No See"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2010-11-21",
-    "year": 2010
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=iULlJT4GEvM",
-    "posterUrl": "https://medias.unifrance.org/medias/178/148/234674/format_page/long-time-no-see.png"
-  },
-  "genre": [
-    "Romance"
-  ],
-  "director": [
-    {
-      "id": "Pierre Filmon",
-      "slug": "pierre-filmon",
-      "name": "Pierre Filmon",
-      "birthYear": 1970,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Il y a neuf ans, ils ont v\u00e9cu une br\u00e8ve histoire d'amour. Aujourd'hui, ils se croisent par hasard sur un quai de gare, entre deux trains. Lui arrive, elle repart. Ils ont quatre-vingt minutes pour faire le point sur leur vie, face \u00e0 face avec leurs v\u00e9rit\u00e9s et leurs souvenirs. C'est leur derni\u00e8re chance.",
-    "english": "Nine years ago, Marion and Gr\u00e9goire shared a brief love affair. Now, by chance, they meet in a train station, in between two journeys. He is arriving, she is leaving. They have eighty minutes to re-evaluate their lives, and come face to face with their truths, regrets and memories. This is their last chance."
-  }
+    "type": "Film",
+    "id": "FR2021_104",
+    "slug": "fr2021-104-entre-deux-trains",
+    "title": {
+        "native": "Entre deux trains",
+        "english": "Long Time No See"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2010-11-21",
+        "year": 2010
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Pierre Filmon",
+            "slug": "pierre-filmon",
+            "name": "Pierre Filmon",
+            "birthYear": 1970,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/178/148/234674/format_page/long-time-no-see.png",
+        "trailerUrl": "https://www.youtube.com/watch?v=iULlJT4GEvM"
+    },
+    "synopsis": {
+        "native": "Il y a neuf ans, ils ont v\u00e9cu une br\u00e8ve histoire d'amour. Aujourd'hui, ils se croisent par hasard sur un quai de gare, entre deux trains. Lui arrive, elle repart. Ils ont quatre-vingt minutes pour faire le point sur leur vie, face \u00e0 face avec leurs v\u00e9rit\u00e9s et leurs souvenirs. C'est leur derni\u00e8re chance.",
+        "english": "Nine years ago, Marion and Gr\u00e9goire shared a brief love affair. Now, by chance, they meet in a train station, in between two journeys. He is arriving, she is leaving. They have eighty minutes to re-evaluate their lives, and come face to face with their truths, regrets and memories. This is their last chance."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Pierre Filmon",
+                "slug": "pierre-filmon",
+                "name": "Pierre Filmon",
+                "birthYear": 1970,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Ronald Guttman",
+                "slug": "ronald-guttman",
+                "name": "Ronald Guttman",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": []
 }

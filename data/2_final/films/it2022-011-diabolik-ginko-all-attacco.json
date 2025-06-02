@@ -1,60 +1,101 @@
 {
-  "id": "IT2022_011",
-  "type": "Film",
-  "slug": "it2022-011-diabolik-ginko-all-attacco",
-  "title": {
-    "native": "Diabolik - Ginko all'attacco!",
-    "english": "Diabolik \u2014 Ginko Attacks!"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-11-17",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "IT2022_011",
+    "slug": "it2022-011-diabolik-ginko-all-attacco",
+    "title": {
+        "native": "Diabolik - Ginko all'attacco!",
+        "english": "Diabolik \u2014 Ginko Attacks!"
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=FptIqm9mPm4",
-    "posterUrl": "https://www.imdb.com/title/tt15307230/mediaviewer/rm1473643521/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Action",
-    "Crime",
-    "Thriller"
-  ],
-  "tags": [
-    "wealth",
-    "crime"
-  ],
-  "director": [
-    {
-      "id": "Antonio Manetti",
-      "slug": "antonio-manetti",
-      "name": "Antonio Manetti",
-      "birthYear": 1970,
-      "gender": "Male identifying",
-      "nationality": "Italy"
+    "release": {
+        "type": "Unknown",
+        "date": "2022-11-17",
+        "year": 2022
     },
-    {
-      "id": "Marco Manetti",
-      "slug": "marco-manetti",
-      "name": "Marco Manetti",
-      "birthYear": 1968,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "synopsis": {
-    "native": "Un piano apparentemente perfetto per Diabolik ed Eva Kant. Ma non sanno che dietro questo colpo si nasconde una trappola dell\u2019astuto ispettore Ginko, che mette a dura prova il loro legame. Tradita dal Re del Terrore, Eva decide di vendicarsi, proponendo all\u2019ispettore di collaborare alla cattura di Diabolik. Una decisione difficile per Ginko che deve anche affrontare l'arrivo di Altea, duchessa di Vallenberg\u2026",
-    "english": "In \u201cDiabolik \u2014 Ginko Attacks!,\u201d Diabolik takes a shot at the diamond, without imagining that it is a Ginko trap. The inspector, following the signalman to the stolen jewels, surprises Diabolik and his loyal partner Eva in their shelter. The king of terror, forced to flee, leaves the stolen goods with him. While on the run, Eva gets hurt and Diabolik, mercilessly, abandons her. A furious Eva makes a proposal to Ginko: She will bring Diabolik to him in exchange for safe passage abroad. Ginko, forced by the interior minister, reluctantly accepts the pact, and collaborates with Eva in the capture of Diabolik."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Marco Manetti",
+            "slug": "marco-manetti",
+            "name": "Marco Manetti",
+            "birthYear": 1968,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        },
+        {
+            "id": "Antonio Manetti",
+            "slug": "antonio-manetti",
+            "name": "Antonio Manetti",
+            "birthYear": 1970,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Action",
+        "Crime",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt15307230/mediaviewer/rm1473643521/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=FptIqm9mPm4"
+    },
+    "synopsis": {
+        "native": "Un piano apparentemente perfetto per Diabolik ed Eva Kant. Ma non sanno che dietro questo colpo si nasconde una trappola dell\u2019astuto ispettore Ginko, che mette a dura prova il loro legame. Tradita dal Re del Terrore, Eva decide di vendicarsi, proponendo all\u2019ispettore di collaborare alla cattura di Diabolik. Una decisione difficile per Ginko che deve anche affrontare l'arrivo di Altea, duchessa di Vallenberg\u2026",
+        "english": "In \u201cDiabolik \u2014 Ginko Attacks!,\u201d Diabolik takes a shot at the diamond, without imagining that it is a Ginko trap. The inspector, following the signalman to the stolen jewels, surprises Diabolik and his loyal partner Eva in their shelter. The king of terror, forced to flee, leaves the stolen goods with him. While on the run, Eva gets hurt and Diabolik, mercilessly, abandons her. A furious Eva makes a proposal to Ginko: She will bring Diabolik to him in exchange for safe passage abroad. Ginko, forced by the interior minister, reluctantly accepts the pact, and collaborates with Eva in the capture of Diabolik."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Antonio Manetti",
+                "slug": "antonio-manetti",
+                "name": "Antonio Manetti",
+                "birthYear": 1970,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Marco Manetti",
+                "slug": "marco-manetti",
+                "name": "Marco Manetti",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Monica Bellucci",
+                "slug": "monica-bellucci",
+                "name": "Monica Bellucci",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "crime",
+        "wealth"
+    ]
 }

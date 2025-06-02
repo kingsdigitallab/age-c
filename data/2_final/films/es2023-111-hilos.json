@@ -1,49 +1,67 @@
 {
-  "id": "ES2023_111",
-  "type": "Film",
-  "slug": "es2023-111-hilos",
-  "title": {
-    "native": "Hilos"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-11-04",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=764155",
-    "posterUrl": "https://www.filmaffinity.com/es/film764155.html"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "personal memory",
-    "personal trauma",
-    "regional identity",
-    "grandfatherhood",
-    "covid-19",
-    "collective trauma",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Tito Montero",
-      "slug": "tito-montero",
-      "name": "Tito Montero",
-      "birthYear": 1978,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Durante el primer verano de la pandemia, Tito Montero llev\u00f3 en la mano una c\u00e1mara reci\u00e9n comprada. Fue la primera ocasi\u00f3n en la que alguien grab\u00f3 a su familia. Ocho d\u00e9cadas antes, el 1 de agosto de 1937, Felipe Garc\u00eda Moro muri\u00f3 en la Batalla del Cimeru. No existen im\u00e1genes suyas. La generaci\u00f3n del primer archivo audiovisual familiar coincidi\u00f3 con la b\u00fasqueda de alg\u00fan rastro de la vida de un abuelo que, hasta entonces, nunca existi\u00f3. \u00bfInfluye la condici\u00f3n de clase en la memoria? \u00bfA qu\u00e9 tipo de personas puede borrarse de la Historia?."
-  }
+    "type": "Film",
+    "id": "ES2023_111",
+    "slug": "es2023-111-hilos",
+    "title": {
+        "native": "Hilos",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-11-04",
+        "year": 2023
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Tito Montero",
+            "slug": "tito-montero",
+            "name": "Tito Montero",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.filmaffinity.com/es/film764155.html",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=764155"
+    },
+    "synopsis": {
+        "native": "Durante el primer verano de la pandemia, Tito Montero llev\u00f3 en la mano una c\u00e1mara reci\u00e9n comprada. Fue la primera ocasi\u00f3n en la que alguien grab\u00f3 a su familia. Ocho d\u00e9cadas antes, el 1 de agosto de 1937, Felipe Garc\u00eda Moro muri\u00f3 en la Batalla del Cimeru. No existen im\u00e1genes suyas. La generaci\u00f3n del primer archivo audiovisual familiar coincidi\u00f3 con la b\u00fasqueda de alg\u00fan rastro de la vida de un abuelo que, hasta entonces, nunca existi\u00f3. \u00bfInfluye la condici\u00f3n de clase en la memoria? \u00bfA qu\u00e9 tipo de personas puede borrarse de la Historia?.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Tito Montero",
+                "slug": "tito-montero",
+                "name": "Tito Montero",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "collective trauma",
+        "personal trauma",
+        "personal memory",
+        "covid-19",
+        "rural",
+        "grandfatherhood",
+        "regional identity"
+    ]
 }

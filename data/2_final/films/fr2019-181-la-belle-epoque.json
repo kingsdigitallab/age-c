@@ -1,79 +1,227 @@
 {
-  "id": "FR2019_181",
-  "type": "Film",
-  "slug": "fr2019-181-la-belle-epoque",
-  "title": {
-    "native": "La Belle \u00c9poque",
-    "english": "La Belle \u00c9poque"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-11-06",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2019_181",
+    "slug": "fr2019-181-la-belle-epoque",
+    "title": {
+        "native": "La Belle \u00c9poque",
+        "english": "La Belle \u00c9poque"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=PzhAQ2LhvPs",
-    "posterUrl": "https://medias.unifrance.org/medias/106/34/205418/format_page/la-belle-epoque.jpg"
-  },
-  "genre": [
-    "Romance",
-    "Drama"
-  ],
-  "tags": [
-    "high rank employment",
-    "parenthood",
-    "personal memory",
-    "low rank employment",
-    "self-employment",
-    "urban",
-    "separation",
-    "romance"
-  ],
-  "director": [
-    {
-      "id": "Nicolas Bedos",
-      "slug": "nicolas-bedos",
-      "name": "Nicolas Bedos",
-      "birthYear": 1979,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2019_181_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Daniel Auteuil",
-        "slug": "daniel-auteuil",
-        "name": "Daniel Auteuil",
-        "birthYear": 1950.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Victor, un sexag\u00e9naire d\u00e9sabus\u00e9, voit sa vie boulevers\u00e9e le jour o\u00f9 Antoine, un brillant entrepreneur, lui propose une attraction d\u2019un genre nouveau : m\u00e9langeant artifices th\u00e9\u00e2traux et reconstitution historique, cette entreprise propose \u00e0 ses clients de replonger dans l\u2019\u00e9poque de leur choix. Victor choisit alors de revivre la semaine la plus marquante de sa vie : celle o\u00f9, 40 ans plus t\u00f4t, il rencontra le grand amour...",
-    "english": "Victor, sixtysomething, has his life turned upside down the day that Antoine, a flourishing entrepreneur, offers him a unique new brand of entertainment. Using a combination of theatrical artifice and historical re-enactment, his company gives its clients the opportunity to delve back into the period of their choice. Victor decides to relive the most memorable week of his existence, 40 years earlier, when he met the love of his life..."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-11-06",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Nicolas Bedos",
+            "slug": "nicolas-bedos",
+            "name": "Nicolas Bedos",
+            "birthYear": 1979,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/106/34/205418/format_page/la-belle-epoque.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=PzhAQ2LhvPs"
+    },
+    "synopsis": {
+        "native": "Victor, un sexag\u00e9naire d\u00e9sabus\u00e9, voit sa vie boulevers\u00e9e le jour o\u00f9 Antoine, un brillant entrepreneur, lui propose une attraction d\u2019un genre nouveau : m\u00e9langeant artifices th\u00e9\u00e2traux et reconstitution historique, cette entreprise propose \u00e0 ses clients de replonger dans l\u2019\u00e9poque de leur choix. Victor choisit alors de revivre la semaine la plus marquante de sa vie : celle o\u00f9, 40 ans plus t\u00f4t, il rencontra le grand amour...",
+        "english": "Victor, sixtysomething, has his life turned upside down the day that Antoine, a flourishing entrepreneur, offers him a unique new brand of entertainment. Using a combination of theatrical artifice and historical re-enactment, his company gives its clients the opportunity to delve back into the period of their choice. Victor decides to relive the most memorable week of his existence, 40 years earlier, when he met the love of his life..."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2019_181_01",
+            "film": "FR2019_181",
+            "person": {
+                "id": "Daniel Auteuil",
+                "slug": "daniel-auteuil",
+                "name": "Daniel Auteuil",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Bruno Raffaelli",
+                "slug": "bruno-raffaelli",
+                "name": "Bruno Raffaelli",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Christiane Millet",
+                "slug": "christiane-millet",
+                "name": "Christiane Millet",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Claude Aufaure",
+                "slug": "claude-aufaure",
+                "name": "Claude Aufaure",
+                "birthYear": 1942,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Daniel Auteuil",
+                "slug": "daniel-auteuil",
+                "name": "Daniel Auteuil",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Denis Podalyd\u00e8s",
+                "slug": "denis-podalydes",
+                "name": "Denis Podalyd\u00e8s",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Fanny Ardant",
+                "slug": "fanny-ardant",
+                "name": "Fanny Ardant",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Nicolas Bedos",
+                "slug": "nicolas-bedos",
+                "name": "Nicolas Bedos",
+                "birthYear": 1979,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Pierre Arditi",
+                "slug": "pierre-arditi",
+                "name": "Pierre Arditi",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Pierre Forest",
+                "slug": "pierre-forest",
+                "name": "Pierre Forest",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Urbain Cancelier",
+                "slug": "urbain-cancelier",
+                "name": "Urbain Cancelier",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "\u00c9lisabeth Vitali",
+                "slug": "elisabeth-vitali",
+                "name": "\u00c9lisabeth Vitali",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "\u00c9ric Frey",
+                "slug": "eric-frey",
+                "name": "\u00c9ric Frey",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "separation",
+        "personal memory",
+        "self-employment",
+        "high rank employment",
+        "romance",
+        "urban",
+        "parenthood",
+        "low rank employment"
+    ]
 }

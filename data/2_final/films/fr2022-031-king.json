@@ -1,77 +1,129 @@
 {
-  "id": "FR2022_031",
-  "type": "Film",
-  "slug": "fr2022-031-king",
-  "title": {
-    "native": "King",
-    "english": "King"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-02-16",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2022_031",
+    "slug": "fr2022-031-king",
+    "title": {
+        "native": "King",
+        "english": "King"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=askNIvjaER8",
-    "posterUrl": "https://medias.unifrance.org/medias/100/190/245348/format_page/king.jpg"
-  },
-  "genre": [
-    "Adventure",
-    "Children's Film"
-  ],
-  "tags": [
-    "grandparenthood",
-    "retirement home",
-    "non-human companionship",
-    "natural",
-    "rescue mission",
-    "retirement"
-  ],
-  "director": [
-    {
-      "id": "David Moreau",
-      "slug": "david-moreau",
-      "name": "David Moreau",
-      "birthYear": 1976,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2022_031_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "North Africa",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "G\u00e9rard Darmon",
-        "slug": "gerard-darmon",
-        "name": "G\u00e9rard Darmon",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "King, un lionceau destin\u00e9 \u00e0 un trafic, s'\u00e9chappe de l'a\u00e9roport et se r\u00e9fugie dans la maison d'In\u00e8s, 12 ans, et Alex, 15 ans. Le fr\u00e8re et la s\u0153ur ont alors l'id\u00e9e folle de le ramener chez lui, en Afrique. Mais la traque des douaniers ne leur facilite pas la vie. Lorsque Max, leur grand-p\u00e8re fantasque qu'ils n'ont vu que deux fois dans leur vie, se joint \u00e0 l'aventure, tout devient possible.",
-    "english": "King, a trafficked lion cub, escapes from the airport in mid-transit and finds shelter in the home of In\u00e8s and Alex, 12 and 15. The siblings come up with a crazy scheme: to bring King back to Africa. Unfortunately, the customs agents on their tail don\u2019t make their mission easier. But soon, Max, the kooky grandfather they\u2019ve only met twice before, joins their adventure\u2026 and from then on, the sky\u2019s the limit."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-02-16",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "David Moreau",
+            "slug": "david-moreau",
+            "name": "David Moreau",
+            "birthYear": 1976,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Children's Film",
+        "Adventure"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/100/190/245348/format_page/king.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=askNIvjaER8"
+    },
+    "synopsis": {
+        "native": "King, un lionceau destin\u00e9 \u00e0 un trafic, s'\u00e9chappe de l'a\u00e9roport et se r\u00e9fugie dans la maison d'In\u00e8s, 12 ans, et Alex, 15 ans. Le fr\u00e8re et la s\u0153ur ont alors l'id\u00e9e folle de le ramener chez lui, en Afrique. Mais la traque des douaniers ne leur facilite pas la vie. Lorsque Max, leur grand-p\u00e8re fantasque qu'ils n'ont vu que deux fois dans leur vie, se joint \u00e0 l'aventure, tout devient possible.",
+        "english": "King, a trafficked lion cub, escapes from the airport in mid-transit and finds shelter in the home of In\u00e8s and Alex, 12 and 15. The siblings come up with a crazy scheme: to bring King back to Africa. Unfortunately, the customs agents on their tail don\u2019t make their mission easier. But soon, Max, the kooky grandfather they\u2019ve only met twice before, joins their adventure\u2026 and from then on, the sky\u2019s the limit."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_031_01",
+            "film": "FR2022_031",
+            "person": {
+                "id": "G\u00e9rard Darmon",
+                "slug": "gerard-darmon",
+                "name": "G\u00e9rard Darmon",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "North Africa",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "David Moreau",
+                "slug": "david-moreau",
+                "name": "David Moreau",
+                "birthYear": 1976,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "G\u00e9rard Darmon",
+                "slug": "gerard-darmon",
+                "name": "G\u00e9rard Darmon",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Laurent Bateau",
+                "slug": "laurent-bateau",
+                "name": "Laurent Bateau",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Thibault de Montalembert",
+                "slug": "thibault-de-montalembert",
+                "name": "Thibault de Montalembert",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "grandparenthood",
+        "retirement",
+        "retirement home",
+        "non-human companionship",
+        "natural",
+        "rescue mission"
+    ]
 }

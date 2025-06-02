@@ -1,108 +1,167 @@
 {
-  "id": "GB2018_070",
-  "type": "Film",
-  "slug": "gb2018-070-agatha-and-the-truth-of-murder",
-  "title": {
-    "native": "Agatha And the Truth Of Murder"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release"
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt9381998/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Agatha%2520And%2520the%2520Truth%2520Of%2520Murder",
-    "posterUrl": "https://www.imdb.com/title/tt9381998/mediaviewer/rm3125702400/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Historical film (Heritage Film)",
-    "Detective Thriller"
-  ],
-  "tags": [
-    "wealth",
-    "independent home",
-    "class conflict",
-    "crime",
-    "abuse",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Terry Loane",
-      "slug": "terry-loane",
-      "name": "Terry Loane",
-      "gender": "Male identifying",
-      "nationality": "Unknown"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2018_070_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Michael McElhatton",
-        "slug": "michael-mcelhatton",
-        "name": "Michael McElhatton",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "Ireland"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "GB2018_070",
+    "slug": "gb2018-070-agatha-and-the-truth-of-murder",
+    "title": {
+        "native": "Agatha And the Truth Of Murder",
+        "english": ""
     },
-    {
-      "id": "GB2018_070_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Pippa Haywood",
-        "slug": "pippa-haywood",
-        "name": "Pippa Haywood",
-        "birthYear": 1961.0,
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": null,
+        "year": 0
     },
-    {
-      "id": "GB2018_070_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Tim McInnerny",
-        "slug": "tim-mcinnerny",
-        "name": "Tim McInnerny",
-        "birthYear": 1956.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "In 1926, with her personal life in tatters and her writing in crisis, a young Agatha Christie decides to solve a real-life murder."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Terry Loane",
+            "slug": "terry-loane",
+            "name": "Terry Loane",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Unknown"
+        }
+    ],
+    "genre": [
+        "Detective Thriller",
+        "Historical film (Heritage Film)"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9381998/mediaviewer/rm3125702400/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt9381998/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Agatha%2520And%2520the%2520Truth%2520Of%2520Murder"
+    },
+    "synopsis": {
+        "native": "In 1926, with her personal life in tatters and her writing in crisis, a young Agatha Christie decides to solve a real-life murder.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2018_070_01",
+            "film": "GB2018_070",
+            "person": {
+                "id": "Pippa Haywood",
+                "slug": "pippa-haywood",
+                "name": "Pippa Haywood",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2018_070_02",
+            "film": "GB2018_070",
+            "person": {
+                "id": "Michael McElhatton",
+                "slug": "michael-mcelhatton",
+                "name": "Michael McElhatton",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Ireland"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2018_070_03",
+            "film": "GB2018_070",
+            "person": {
+                "id": "Tim McInnerny",
+                "slug": "tim-mcinnerny",
+                "name": "Tim McInnerny",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Michael McElhatton",
+                "slug": "michael-mcelhatton",
+                "name": "Michael McElhatton",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Ireland"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Pippa Haywood",
+                "slug": "pippa-haywood",
+                "name": "Pippa Haywood",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Terry Loane",
+                "slug": "terry-loane",
+                "name": "Terry Loane",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Unknown"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Tim McInnerny",
+                "slug": "tim-mcinnerny",
+                "name": "Tim McInnerny",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "abuse",
+        "rural",
+        "independent home",
+        "wealth",
+        "crime",
+        "class conflict"
+    ]
 }

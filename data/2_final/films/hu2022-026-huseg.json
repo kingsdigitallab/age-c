@@ -1,48 +1,65 @@
 {
-  "id": "HU2022_026",
-  "type": "Film",
-  "slug": "hu2022-026-huseg",
-  "title": {
-    "native": "H\u0171s\u00e9g"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-10-06",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Hungary",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://port.hu/galeria/huseg/movie-207170?openwith=2003409",
-    "posterUrl": "https://port.hu/galeria/huseg/movie-207170?openwith=1500823"
-  },
-  "genre": [
-    "Documentary \u2013 Observational mode"
-  ],
-  "tags": [
-    "personal memory",
-    "caregiving",
-    "marriage",
-    "dementia",
-    "retirement"
-  ],
-  "director": [
-    {
-      "id": "Csaba Szekeres",
-      "slug": "csaba-szekeres",
-      "name": "Csaba Szekeres",
-      "birthYear": 1968,
-      "gender": "Male identifying",
-      "nationality": "Hungary"
-    }
-  ],
-  "synopsis": {
-    "native": "Anna \u00e9s Antal negyven\u00f6t \u00e9ve h\u00e1zasok. P\u00e1r \u00e9ve egy nagyv\u00e1rosokt\u00f3l t\u00e1voli, gy\u00f6ny\u00f6r\u0171 k\u00f6rnyezetben laknak, P\u00e9lif\u00f6ld\u00f6n. El\u00e9gedettek az \u00e9let\u00fckkel. Rajonganak a t\u00f6rt\u00e9nelem\u00e9rt \u00e9s az irodalom\u00e9rt, \u00edgy minden \u00e9vben kultur\u00e1lis zar\u00e1ndoklatra indultak egy k\u00fclf\u00f6ldi orsz\u00e1gba. A kapcsolatuk kiegyens\u00falyozott, \u00e1m egy napon Anna k\u00fcl\u00f6n\u00f6sen kezdett viselkedni. Az orvos Alzheimer-k\u00f3rt diagnosztiz\u00e1lt n\u00e1la.",
-    "english": "Anna and Antal have been married for forty-five years. They live a harmonious life until one day, Anna starts to behave peculiarly, and is eventually diagnosed with Alzheimer's disease."
-  }
+    "type": "Film",
+    "id": "HU2022_026",
+    "slug": "hu2022-026-huseg",
+    "title": {
+        "native": "H\u0171s\u00e9g",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-10-06",
+        "year": 2022
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Csaba Szekeres",
+            "slug": "csaba-szekeres",
+            "name": "Csaba Szekeres",
+            "birthYear": 1968,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Hungary"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Observational mode"
+    ],
+    "media": {
+        "posterUrl": "https://port.hu/galeria/huseg/movie-207170?openwith=1500823",
+        "trailerUrl": "https://port.hu/galeria/huseg/movie-207170?openwith=2003409"
+    },
+    "synopsis": {
+        "native": "Anna \u00e9s Antal negyven\u00f6t \u00e9ve h\u00e1zasok. P\u00e1r \u00e9ve egy nagyv\u00e1rosokt\u00f3l t\u00e1voli, gy\u00f6ny\u00f6r\u0171 k\u00f6rnyezetben laknak, P\u00e9lif\u00f6ld\u00f6n. El\u00e9gedettek az \u00e9let\u00fckkel. Rajonganak a t\u00f6rt\u00e9nelem\u00e9rt \u00e9s az irodalom\u00e9rt, \u00edgy minden \u00e9vben kultur\u00e1lis zar\u00e1ndoklatra indultak egy k\u00fclf\u00f6ldi orsz\u00e1gba. A kapcsolatuk kiegyens\u00falyozott, \u00e1m egy napon Anna k\u00fcl\u00f6n\u00f6sen kezdett viselkedni. Az orvos Alzheimer-k\u00f3rt diagnosztiz\u00e1lt n\u00e1la.",
+        "english": "Anna and Antal have been married for forty-five years. They live a harmonious life until one day, Anna starts to behave peculiarly, and is eventually diagnosed with Alzheimer's disease."
+    },
+    "production": [
+        {
+            "country": "Hungary",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Csaba Szekeres",
+                "slug": "csaba-szekeres",
+                "name": "Csaba Szekeres",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "dementia",
+        "caregiving",
+        "marriage",
+        "personal memory",
+        "retirement"
+    ]
 }

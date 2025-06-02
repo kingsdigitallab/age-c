@@ -1,50 +1,90 @@
 {
-  "id": "FR2021_096",
-  "type": "Film",
-  "slug": "fr2021-096-lui",
-  "title": {
-    "native": "Lui",
-    "english": "Him"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-10-27",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2021_096",
+    "slug": "fr2021-096-lui",
+    "title": {
+        "native": "Lui",
+        "english": "Him"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=YTwgMFF2aDI",
-    "posterUrl": "https://medias.unifrance.org/medias/75/161/237899/format_page/him.jpg"
-  },
-  "genre": [
-    "Thriller",
-    "Drama"
-  ],
-  "tags": [
-    "parenthood"
-  ],
-  "director": [
-    {
-      "id": "Guillaume Canet",
-      "slug": "guillaume-canet",
-      "name": "Guillaume Canet",
-      "birthYear": 1973,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Un compositeur en mal d\u2019inspiration, qui vient de quitter femme et enfants, pense trouver refuge dans une vieille maison \u00e0 flanc de falaise, sur une \u00eele bretonne d\u00e9serte. Dans ce lieu \u00e9trange et isol\u00e9, il ne va trouver qu\u2019un piano d\u00e9saccord\u00e9 et des visiteurs bien d\u00e9cid\u00e9s \u00e0 ne pas le laisser en paix.",
-    "english": "A composer starts doubting and questioning his whole life and its meaning. Isolating himself in his house in Brittany where various important persons (his wife, his mistress, his best friend, his parents, his doctor\u2026) will come and visit him."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2021-10-27",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Guillaume Canet",
+            "slug": "guillaume-canet",
+            "name": "Guillaume Canet",
+            "birthYear": 1973,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Thriller",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/75/161/237899/format_page/him.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=YTwgMFF2aDI"
+    },
+    "synopsis": {
+        "native": "Un compositeur en mal d\u2019inspiration, qui vient de quitter femme et enfants, pense trouver refuge dans une vieille maison \u00e0 flanc de falaise, sur une \u00eele bretonne d\u00e9serte. Dans ce lieu \u00e9trange et isol\u00e9, il ne va trouver qu\u2019un piano d\u00e9saccord\u00e9 et des visiteurs bien d\u00e9cid\u00e9s \u00e0 ne pas le laisser en paix.",
+        "english": "A composer starts doubting and questioning his whole life and its meaning. Isolating himself in his house in Brittany where various important persons (his wife, his mistress, his best friend, his parents, his doctor\u2026) will come and visit him."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Guillaume Canet",
+                "slug": "guillaume-canet",
+                "name": "Guillaume Canet",
+                "birthYear": 1973,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Nathalie Baye",
+                "slug": "nathalie-baye",
+                "name": "Nathalie Baye",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Patrick Chesnais",
+                "slug": "patrick-chesnais",
+                "name": "Patrick Chesnais",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "parenthood"
+    ]
 }

@@ -1,30 +1,35 @@
 {
-  "id": "Arthur Dreyfus",
-  "type": "Biography",
-  "slug": "arthur-dreyfus",
-  "name": "Arthur Dreyfus",
-  "birthYear": 1986,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Participatory mode",
-      "id": "FR2021_126",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-126-noel-et-sa-mere",
-      "tags": "intergenerational conflict",
-      "title": {
-        "english": "No\u00ebl and His Mother",
-        "native": "No\u00ebl et sa m\u00e8re"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Arthur Dreyfus",
+    "slug": "arthur-dreyfus",
+    "name": "Arthur Dreyfus",
+    "birthYear": 1986,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_126",
+                "slug": "fr2021-126-noel-et-sa-mere",
+                "title": {
+                    "native": "No\u00ebl et sa m\u00e8re",
+                    "english": "No\u00ebl and His Mother"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-12-15",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

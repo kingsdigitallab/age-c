@@ -1,30 +1,35 @@
 {
-  "id": "Mike Marzuk",
-  "type": "Biography",
-  "slug": "mike-marzuk",
-  "name": "Mike Marzuk",
-  "birthYear": 1969,
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Western",
-      "id": "DE2022_060",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "de2022-060-der-junge-hauptling-winnetou",
-      "tags": "rural",
-      "title": {
-        "english": "The Young Chief Winnetou",
-        "native": "Der junge H\u00e4uptling Winnetou"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Mike Marzuk",
+    "slug": "mike-marzuk",
+    "name": "Mike Marzuk",
+    "birthYear": 1969,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2022_060",
+                "slug": "de2022-060-der-junge-hauptling-winnetou",
+                "title": {
+                    "native": "Der junge H\u00e4uptling Winnetou",
+                    "english": "The Young Chief Winnetou"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-08-11",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

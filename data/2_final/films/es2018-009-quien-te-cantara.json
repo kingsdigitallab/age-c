@@ -1,72 +1,94 @@
 {
-  "id": "ES2018_009",
-  "type": "Film",
-  "slug": "es2018-009-quien-te-cantara",
-  "title": {
-    "native": "Qui\u00e9n te cantar\u00e1",
-    "english": "Who Will Sing To You?"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-10-26",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "ES2018_009",
+    "slug": "es2018-009-quien-te-cantara",
+    "title": {
+        "native": "Qui\u00e9n te cantar\u00e1",
+        "english": "Who Will Sing To You?"
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=SpOjXpfxIFQ",
-    "posterUrl": "https://www.imdb.com/title/tt6485304/mediaviewer/rm1483700480/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Horror",
-    "Drama"
-  ],
-  "tags": [
-    "high rank employment",
-    "intergenerational friendship",
-    "artistic creation",
-    "independent home",
-    "caregiving",
-    "mentorship",
-    "natural",
-    "urban",
-    "celebrity",
-    "homosociality",
-    "superior-employee relationship"
-  ],
-  "character": [
-    {
-      "id": "ES2018_009_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Carme El\u00edas",
-        "slug": "carme-elias",
-        "name": "Carme El\u00edas",
-        "birthYear": 1951.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Lila Cassen (Najwa Nimri) era la cantante espa\u00f1ola con m\u00e1s \u00e9xito de los noventa hasta que desapareci\u00f3 misteriosamente de un d\u00eda para otro. Diez a\u00f1os despu\u00e9s, Lila prepara su triunfal vuelta a los escenarios pero, poco antes de la esperada fecha, pierde la memoria al sufrir un accidente. Violeta (Eva Llorach) vive dominada por su conflictiva hija Marta (Natalia de Molina). Cada noche escapa de su realidad haciendo lo \u00fanico que la hace feliz: imitar a Lila Cassen en el karaoke donde trabaja. Un d\u00eda Violeta recibe una fascinante propuesta: ense\u00f1ar a Lila Cassen a volver a ser Lila Cassen.",
-    "english": "When Lila, a celebrated but fame-weary and amnesiac singer forgets how to perform, super-fan Violeta steps in to teach Lila how to be Lila once again."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2018-10-26",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        "Carlos Vermut"
+    ],
+    "genre": [
+        "Drama",
+        "Horror"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt6485304/mediaviewer/rm1483700480/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=SpOjXpfxIFQ"
+    },
+    "synopsis": {
+        "native": "Lila Cassen (Najwa Nimri) era la cantante espa\u00f1ola con m\u00e1s \u00e9xito de los noventa hasta que desapareci\u00f3 misteriosamente de un d\u00eda para otro. Diez a\u00f1os despu\u00e9s, Lila prepara su triunfal vuelta a los escenarios pero, poco antes de la esperada fecha, pierde la memoria al sufrir un accidente. Violeta (Eva Llorach) vive dominada por su conflictiva hija Marta (Natalia de Molina). Cada noche escapa de su realidad haciendo lo \u00fanico que la hace feliz: imitar a Lila Cassen en el karaoke donde trabaja. Un d\u00eda Violeta recibe una fascinante propuesta: ense\u00f1ar a Lila Cassen a volver a ser Lila Cassen.",
+        "english": "When Lila, a celebrated but fame-weary and amnesiac singer forgets how to perform, super-fan Violeta steps in to teach Lila how to be Lila once again."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2018_009_01",
+            "film": "ES2018_009",
+            "person": {
+                "id": "Carme El\u00edas",
+                "slug": "carme-elias",
+                "name": "Carme El\u00edas",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": "Carlos Vermut",
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Carme El\u00edas",
+                "slug": "carme-elias",
+                "name": "Carme El\u00edas",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "caregiving",
+        "homosociality",
+        "intergenerational friendship",
+        "natural",
+        "urban",
+        "independent home",
+        "high rank employment",
+        "superior-employee relationship",
+        "mentorship",
+        "artistic creation",
+        "celebrity"
+    ]
 }

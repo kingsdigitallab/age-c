@@ -1,79 +1,132 @@
 {
-  "id": "DE2021_051",
-  "type": "Film",
-  "slug": "de2021-051-tochter",
-  "title": {
-    "native": "T\u00f6chter"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-10-07",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "DE2021_051",
+    "slug": "de2021-051-tochter",
+    "title": {
+        "native": "T\u00f6chter",
+        "english": ""
     },
-    {
-      "country": "Greece",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2021-10-07",
+        "year": 2021
     },
-    {
-      "country": "Italy",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=7Ut81IfrDCo&ab_channel=KinoCheck",
-    "posterUrl": "https://www.imdb.com/title/tt14072134/mediaviewer/rm243594753/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Road Movie",
-    "Drama"
-  ],
-  "tags": [
-    "assisted death",
-    "search for meaning",
-    "intergenerational conflict",
-    "fatherhood"
-  ],
-  "director": [
-    {
-      "id": "Nana Neul",
-      "slug": "nana-neul",
-      "name": "Nana Neul",
-      "birthYear": 1974,
-      "gender": "Female identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "character": [
-    {
-      "id": "DE2021_005_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Eastern European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Temporary disability",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Josef Bierbichler",
-        "slug": "josef-bierbichler",
-        "name": "Josef Bierbichler",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "Germany"
-      },
-      "role": "Unknown"
-    }
-  ],
-  "synopsis": {
-    "native": "Ihr schwerkranker Vater Kurt (Josef Bierbichler) will Sterbehilfe beanspruchen und sie soll ihn daf\u00fcr in die Schweiz begleiten. Daher bittet sie ihre beste Freundin Betty (Birgit Minichmayr) um Hilfe \u2013 auch weil sich Martha seit einem traumatisierenden Unfall nicht mehr ans Steuer setzt.",
-    "english": "A dying man asks his daughter and her friend to drive him to Switzerland and adventures ensue. Their journeys take them across Germany, Italy and a Greek island."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Nana Neul",
+            "slug": "nana-neul",
+            "name": "Nana Neul",
+            "birthYear": 1974,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Road Movie",
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt14072134/mediaviewer/rm243594753/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=7Ut81IfrDCo&ab_channel=KinoCheck"
+    },
+    "synopsis": {
+        "native": "Ihr schwerkranker Vater Kurt (Josef Bierbichler) will Sterbehilfe beanspruchen und sie soll ihn daf\u00fcr in die Schweiz begleiten. Daher bittet sie ihre beste Freundin Betty (Birgit Minichmayr) um Hilfe \u2013 auch weil sich Martha seit einem traumatisierenden Unfall nicht mehr ans Steuer setzt.",
+        "english": "A dying man asks his daughter and her friend to drive him to Switzerland and adventures ensue. Their journeys take them across Germany, Italy and a Greek island."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Italy",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Greece",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "DE2021_005_01",
+            "film": "DE2021_051",
+            "person": {
+                "id": "Josef Bierbichler",
+                "slug": "josef-bierbichler",
+                "name": "Josef Bierbichler",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Eastern European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Temporary disability",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Giorgio Colangeli",
+                "slug": "giorgio-colangeli",
+                "name": "Giorgio Colangeli",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Massimo De Lorenzo",
+                "slug": "massimo-de-lorenzo",
+                "name": "Massimo De Lorenzo",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Nana Neul",
+                "slug": "nana-neul",
+                "name": "Nana Neul",
+                "birthYear": 1974,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Zoi Rigopoulou",
+                "slug": "zoi-rigopoulou",
+                "name": "Zoi Rigopoulou",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Greece"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "assisted death",
+        "fatherhood",
+        "intergenerational conflict",
+        "search for meaning"
+    ]
 }

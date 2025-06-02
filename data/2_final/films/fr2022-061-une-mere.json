@@ -1,70 +1,123 @@
 {
-  "id": "FR2022_061",
-  "type": "Film",
-  "slug": "fr2022-061-une-mere",
-  "title": {
-    "native": "Une m\u00e8re",
-    "english": "An Ordinary Mother"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-03-23",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=VkrR8VKrbOM",
-    "posterUrl": "https://medias.unifrance.org/medias/95/197/247135/format_page/une-mere.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "partnership",
-    "celibacy",
-    "grief",
-    "revenge",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Sylvie Audcoeur",
-      "slug": "sylvie-audcoeur",
-      "name": "Sylvie Audcoeur",
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2022_061_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Karin Viard",
-        "slug": "karin-viard",
-        "name": "Karin Viard",
-        "birthYear": 1966.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Aline n\u2019a jamais r\u00e9ussi \u00e0 faire le deuil de son fils mort \u00e0 17 ans dans une rixe. Quand elle croise par hasard son agresseur, tout juste sorti de prison, elle d\u00e9cide d'\u00e9chafauder un plan pour se venger. Aussi d\u00e9termin\u00e9e soit-elle, Aline commence \u00e0 douter au fur et \u00e0 mesure qu\u2019elle apprend \u00e0 conna\u00eetre le jeune homme.",
-    "english": "Aline never managed to get closure from the death of her 17-year-old son in a street fight. When she sees the assailant recently released from prison, she decides to cook up a plan to avenge her dead son. Things go unexpectedly as she gets to know the young man and her determination is tested."
-  }
+    "type": "Film",
+    "id": "FR2022_061",
+    "slug": "fr2022-061-une-mere",
+    "title": {
+        "native": "Une m\u00e8re",
+        "english": "An Ordinary Mother"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-03-23",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Sylvie Audcoeur",
+            "slug": "sylvie-audcoeur",
+            "name": "Sylvie Audcoeur",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/95/197/247135/format_page/une-mere.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=VkrR8VKrbOM"
+    },
+    "synopsis": {
+        "native": "Aline n\u2019a jamais r\u00e9ussi \u00e0 faire le deuil de son fils mort \u00e0 17 ans dans une rixe. Quand elle croise par hasard son agresseur, tout juste sorti de prison, elle d\u00e9cide d'\u00e9chafauder un plan pour se venger. Aussi d\u00e9termin\u00e9e soit-elle, Aline commence \u00e0 douter au fur et \u00e0 mesure qu\u2019elle apprend \u00e0 conna\u00eetre le jeune homme.",
+        "english": "Aline never managed to get closure from the death of her 17-year-old son in a street fight. When she sees the assailant recently released from prison, she decides to cook up a plan to avenge her dead son. Things go unexpectedly as she gets to know the young man and her determination is tested."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_061_01",
+            "film": "FR2022_061",
+            "person": {
+                "id": "Karin Viard",
+                "slug": "karin-viard",
+                "name": "Karin Viard",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Karin Viard",
+                "slug": "karin-viard",
+                "name": "Karin Viard",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Pasquale d'Inca",
+                "slug": "pasquale-d-inca",
+                "name": "Pasquale d'Inca",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Sylvie Audcoeur",
+                "slug": "sylvie-audcoeur",
+                "name": "Sylvie Audcoeur",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Thierry Rousset",
+                "slug": "thierry-rousset",
+                "name": "Thierry Rousset",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "revenge",
+        "grief",
+        "celibacy",
+        "partnership",
+        "rural"
+    ]
 }

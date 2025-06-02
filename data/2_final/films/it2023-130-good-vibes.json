@@ -1,69 +1,110 @@
 {
-  "id": "IT2023_130",
-  "type": "Film",
-  "slug": "it2023-130-good-vibes",
-  "title": {
-    "native": "Good Vibes"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-11-23",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=uJ3CHMzmnUk",
-    "posterUrl": "https://www.imdb.com/title/tt20765840/mediaviewer/rm2840547841/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Drama"
-  ],
-  "tags": [
-    "technology",
-    "organized crime",
-    "fatherhood"
-  ],
-  "director": [
-    {
-      "id": "Janet De Nardis",
-      "slug": "janet-de-nardis",
-      "name": "Janet De Nardis",
-      "birthYear": 1978,
-      "gender": "Female identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2023_130_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Vincent Riotta",
-        "slug": "vincent-riotta",
-        "name": "Vincent Riotta",
-        "birthYear": 1959.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Il racconto di cinque storie che si intrecciano attorno ad un misterioso smartphone che permette di avere la copia del telefono di chiunque. Basta inserire il numero ed immediatamente si ha accesso a conti correnti, foto, video, email, messaggi, anche i pi\u00f9 intimi, e se si attiva la fotocamera in modalit\u00e0 spia si pu\u00f2 osservare in diretta la vita degli altri. Una morbosit\u00e0 che pervade chiunque entri in contatto con questo telefono, nella spasmodica ricerca del potere di condizionare la vita degli altri. Inizia cos\u00ec una escalation di eventi concatenati in cui, senza un attimo di respiro, seguiremo il destino del telefono e di chi ne verr\u00e0 in possesso. I protagonisti dei cinque episodi devono confrontarsi con i loro desideri pi\u00f9 reconditi e la (in)capacit\u00e0 di gestire il potere della conoscenza\u2026",
-    "english": "Good Vibes is a film that deals with the theme of technology and its usages, especially the protection of privacy, in a fantasy-technological key and dramatic tones. A film in episodes, linked with eachother. In a breathtaking journey, we will follow the destiny of a cursed phone, its owners and the people that get in touch with it."
-  }
+    "type": "Film",
+    "id": "IT2023_130",
+    "slug": "it2023-130-good-vibes",
+    "title": {
+        "native": "Good Vibes",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-11-23",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Janet De Nardis",
+            "slug": "janet-de-nardis",
+            "name": "Janet De Nardis",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt20765840/mediaviewer/rm2840547841/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=uJ3CHMzmnUk"
+    },
+    "synopsis": {
+        "native": "Il racconto di cinque storie che si intrecciano attorno ad un misterioso smartphone che permette di avere la copia del telefono di chiunque. Basta inserire il numero ed immediatamente si ha accesso a conti correnti, foto, video, email, messaggi, anche i pi\u00f9 intimi, e se si attiva la fotocamera in modalit\u00e0 spia si pu\u00f2 osservare in diretta la vita degli altri. Una morbosit\u00e0 che pervade chiunque entri in contatto con questo telefono, nella spasmodica ricerca del potere di condizionare la vita degli altri. Inizia cos\u00ec una escalation di eventi concatenati in cui, senza un attimo di respiro, seguiremo il destino del telefono e di chi ne verr\u00e0 in possesso. I protagonisti dei cinque episodi devono confrontarsi con i loro desideri pi\u00f9 reconditi e la (in)capacit\u00e0 di gestire il potere della conoscenza\u2026",
+        "english": "Good Vibes is a film that deals with the theme of technology and its usages, especially the protection of privacy, in a fantasy-technological key and dramatic tones. A film in episodes, linked with eachother. In a breathtaking journey, we will follow the destiny of a cursed phone, its owners and the people that get in touch with it."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2023_130_01",
+            "film": "IT2023_130",
+            "person": {
+                "id": "Vincent Riotta",
+                "slug": "vincent-riotta",
+                "name": "Vincent Riotta",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Janet De Nardis",
+                "slug": "janet-de-nardis",
+                "name": "Janet De Nardis",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Mimmo Calopresti",
+                "slug": "mimmo-calopresti",
+                "name": "Mimmo Calopresti",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Vincent Riotta",
+                "slug": "vincent-riotta",
+                "name": "Vincent Riotta",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "technology",
+        "organized crime",
+        "fatherhood"
+    ]
 }

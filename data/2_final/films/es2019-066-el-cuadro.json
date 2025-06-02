@@ -1,49 +1,222 @@
 {
-  "id": "ES2019_066",
-  "type": "Film",
-  "slug": "es2019-066-el-cuadro",
-  "title": {
-    "native": "El cuadro"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-07-11",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt8132166/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_El%2520cuadro",
-    "posterUrl": "https://www.imdb.com/title/tt8132166/mediaviewer/rm3783035137/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Thriller",
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "high rank employment",
-    "education",
-    "artistic creation",
-    "cultural memory"
-  ],
-  "director": [
-    {
-      "id": "Andr\u00e9s Sanz",
-      "slug": "andres-sanz",
-      "name": "Andr\u00e9s Sanz",
-      "birthYear": 1969,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "El cuadro' es un documental de misterio sobre Las Meninas de Vel\u00e1zquez, la obra de arte con m\u00e1s interpretaciones de la historia. 'El cuadro' sit\u00faa a los expertos m\u00e1s reputados del mundo sobre Vel\u00e1zquez en un escenario que los traslada al universo del thriller: una sala de interrogatorios en la que ir\u00e1n desgranando las claves para resolver el enigma. La trama se desarrolla en una serie de secuencias de animaci\u00f3n con miniaturas, que transforman a los entrevistados en testigos de ese otro mundo donde los personajes de Las Meninas cobran vida. Una pel\u00edcula que juega a convertir al espectador en detective, con una misi\u00f3n esencial: seguir todas las pistas, escuchar todas las interpretaciones y encontrar, finalmente, su propia verdad sobre 'El cuadro'.",
-    "english": "The Painting (El Cuadro) is a mystery documentary on Las Meninas by Vel\u00e1zquez, the most interpreted artwork in history."
-  }
+    "type": "Film",
+    "id": "ES2019_066",
+    "slug": "es2019-066-el-cuadro",
+    "title": {
+        "native": "El cuadro",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-07-11",
+        "year": 2019
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Andr\u00e9s Sanz",
+            "slug": "andres-sanz",
+            "name": "Andr\u00e9s Sanz",
+            "birthYear": 1969,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Documentary \u2013 Performative mode",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt8132166/mediaviewer/rm3783035137/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt8132166/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_El%2520cuadro"
+    },
+    "synopsis": {
+        "native": "El cuadro' es un documental de misterio sobre Las Meninas de Vel\u00e1zquez, la obra de arte con m\u00e1s interpretaciones de la historia. 'El cuadro' sit\u00faa a los expertos m\u00e1s reputados del mundo sobre Vel\u00e1zquez en un escenario que los traslada al universo del thriller: una sala de interrogatorios en la que ir\u00e1n desgranando las claves para resolver el enigma. La trama se desarrolla en una serie de secuencias de animaci\u00f3n con miniaturas, que transforman a los entrevistados en testigos de ese otro mundo donde los personajes de Las Meninas cobran vida. Una pel\u00edcula que juega a convertir al espectador en detective, con una misi\u00f3n esencial: seguir todas las pistas, escuchar todas las interpretaciones y encontrar, finalmente, su propia verdad sobre 'El cuadro'.",
+        "english": "The Painting (El Cuadro) is a mystery documentary on Las Meninas by Vel\u00e1zquez, the most interpreted artwork in history."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Andr\u00e9s Sanz",
+                "slug": "andres-sanz",
+                "name": "Andr\u00e9s Sanz",
+                "birthYear": 1969,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Antonio L\u00f3pez",
+                "slug": "antonio-lopez",
+                "name": "Antonio L\u00f3pez",
+                "birthYear": 1936,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Carmen Garrido",
+                "slug": "carmen-garrido",
+                "name": "Carmen Garrido",
+                "birthYear": 1947,
+                "deathYear": 2020,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Eusebio Poncela",
+                "slug": "eusebio-poncela",
+                "name": "Eusebio Poncela",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Eve Sussman",
+                "slug": "eve-sussman",
+                "name": "Eve Sussman",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Fernando Mar\u00edas",
+                "slug": "fernando-marias",
+                "name": "Fernando Mar\u00edas",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Francisco Calvo Serraller",
+                "slug": "francisco-calvo-serraller",
+                "name": "Francisco Calvo Serraller",
+                "birthYear": 1948,
+                "deathYear": 2018,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "F\u00e9lix de Az\u00faa",
+                "slug": "felix-de-azua",
+                "name": "F\u00e9lix de Az\u00faa",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Javier Port\u00fas",
+                "slug": "javier-portus",
+                "name": "Javier Port\u00fas",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Jonathan Brown",
+                "slug": "jonathan-brown",
+                "name": "Jonathan Brown",
+                "birthYear": 1939,
+                "deathYear": 2022,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Keith Christiansen",
+                "slug": "keith-christiansen",
+                "name": "Keith Christiansen",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Manuela Mena",
+                "slug": "manuela-mena",
+                "name": "Manuela Mena",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Mat\u00edas D\u00edaz Padr\u00f3n",
+                "slug": "matias-diaz-padron",
+                "name": "Mat\u00edas D\u00edaz Padr\u00f3n",
+                "birthYear": 1935,
+                "deathYear": 2022,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Svetlana Alpers",
+                "slug": "svetlana-alpers",
+                "name": "Svetlana Alpers",
+                "birthYear": 1936,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "cultural memory",
+        "high rank employment",
+        "education"
+    ]
 }

@@ -1,49 +1,65 @@
 {
-  "id": "Jean Becker",
-  "type": "Biography",
-  "slug": "jean-becker",
-  "name": "Jean Becker",
-  "birthYear": 1933,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2022_114",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "fr2022-114-les-volets-verts",
-      "tags": "search for meaning",
-      "title": {
-        "english": "The Heart of a Man",
-        "native": "Les Volets verts"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2018_060",
-      "production": {
-        "country": "Brazil",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-060-le-collier-rouge",
-      "tags": "state institutions",
-      "title": {
-        "english": "The Red Collar",
-        "native": "Le Collier rouge"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Jean Becker",
+    "slug": "jean-becker",
+    "name": "Jean Becker",
+    "birthYear": 1933,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_060",
+                "slug": "fr2018-060-le-collier-rouge",
+                "title": {
+                    "native": "Le Collier rouge",
+                    "english": "The Red Collar"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-03-28",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Brazil",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2022_114",
+                "slug": "fr2022-114-les-volets-verts",
+                "title": {
+                    "native": "Les Volets verts",
+                    "english": "The Heart of a Man"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-08-24",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

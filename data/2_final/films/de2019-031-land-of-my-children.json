@@ -1,52 +1,80 @@
 {
-  "id": "DE2019_031",
-  "type": "Film",
-  "slug": "de2019-031-land-of-my-children",
-  "title": {
-    "native": "Land of My Children",
-    "english": "Land of My Children"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-04-04",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "DE2019_031",
+    "slug": "de2019-031-land-of-my-children",
+    "title": {
+        "native": "Land of My Children",
+        "english": "Land of My Children"
     },
-    {
-      "country": "Switzerland",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=H1CNKDkkaxw&ab_channel=officialSBIFF",
-    "posterUrl": "https://www.imdb.com/title/tt9595610/mediaviewer/rm2647091968/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "migration",
-    "state institutions",
-    "racial discrimination"
-  ],
-  "director": [
-    {
-      "id": "Dario Aguirre",
-      "slug": "dario-aguirre",
-      "name": "Dario Aguirre",
-      "birthYear": 1979,
-      "gender": "Male identifying",
-      "nationality": "Ecuador"
-    }
-  ],
-  "synopsis": {
-    "native": "Unerwartet erh\u00e4lt Dario Aguirre die Einladung, sich nach f\u00fcnfzehn Jahren in Deutschland einb\u00fcrgern zu lassen. Zehn verschiedene Visa, die Rolle als Ausl\u00e4nder und sein immer noch holpriges Deutsch hat er als Teil seiner Geschichte akzeptiert. Doch ist er so weit?",
-    "english": "Dar\u00edo Aguirre moved from Ecuador to Germany to be with Stephanie, but from the very first day there was a third party in their relationship:the government. They issued him ten visas in fifteen years. A long trail of papers, stamps, permits, and restrictions connected Dar\u00edo to Germany while also keeping him at a distance. Then one fine day the mayor of Hamburg invites Dar\u00edo to become a German citizen. A confession of love? Dar\u00edo responds with a tender, ironic road movie that traces his intertwined journey from the country of his fathers to the country of his children."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-04-04",
+        "year": 2019
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Dario Aguirre",
+            "slug": "dario-aguirre",
+            "name": "Dario Aguirre",
+            "birthYear": 1979,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Ecuador"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Documentary \u2013 Performative mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9595610/mediaviewer/rm2647091968/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=H1CNKDkkaxw&ab_channel=officialSBIFF"
+    },
+    "synopsis": {
+        "native": "Unerwartet erh\u00e4lt Dario Aguirre die Einladung, sich nach f\u00fcnfzehn Jahren in Deutschland einb\u00fcrgern zu lassen. Zehn verschiedene Visa, die Rolle als Ausl\u00e4nder und sein immer noch holpriges Deutsch hat er als Teil seiner Geschichte akzeptiert. Doch ist er so weit?",
+        "english": "Dar\u00edo Aguirre moved from Ecuador to Germany to be with Stephanie, but from the very first day there was a third party in their relationship:the government. They issued him ten visas in fifteen years. A long trail of papers, stamps, permits, and restrictions connected Dar\u00edo to Germany while also keeping him at a distance. Then one fine day the mayor of Hamburg invites Dar\u00edo to become a German citizen. A confession of love? Dar\u00edo responds with a tender, ironic road movie that traces his intertwined journey from the country of his fathers to the country of his children."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Switzerland",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Dario Aguirre",
+                "slug": "dario-aguirre",
+                "name": "Dario Aguirre",
+                "birthYear": 1979,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Ecuador"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Olaf Scholz",
+                "slug": "olaf-scholz",
+                "name": "Olaf Scholz",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "migration",
+        "racial discrimination",
+        "state institutions"
+    ]
 }

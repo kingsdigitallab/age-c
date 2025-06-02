@@ -1,53 +1,94 @@
 {
-  "id": "DE2022_107",
-  "type": "Film",
-  "slug": "de2022-107-stille-post",
-  "title": {
-    "native": "Stille Post"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-12-01",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "DE2022_107",
+    "slug": "de2022-107-stille-post",
+    "title": {
+        "native": "Stille Post",
+        "english": ""
     },
-    {
-      "country": "Switzerland",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=HMh8EYc0wdI&ab_channel=FilmtoastTrailer",
-    "posterUrl": "https://www.imdb.com/title/tt12625936/mediaviewer/rm3450661121/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Adventure",
-    "Crime",
-    "Fantasy"
-  ],
-  "tags": [
-    "rescue mission",
-    "grandparenthood",
-    "supernatural entity"
-  ],
-  "director": [
-    {
-      "id": "Florian Hoffmann",
-      "slug": "florian-hoffmann",
-      "name": "Florian Hoffmann",
-      "birthYear": 1987,
-      "gender": "Unknown",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "Khalil (Hadi Khanjanpour) lebt schon seit vielen Jahren in Deutschland. Eines Tages sieht der Grundschullehrer Bilder aus dem Krieg in seiner kurdischen Heimat, was ihn dazu veranlasst, sich einem Aktivisten-Netzwerk anzuschlie\u00dfen, das um Aufmerksamkeit f\u00fcr das Geschehen im Land k\u00e4mpft. W\u00e4hrenddessen geht seine Schwester in den Kriegsunruhen verloren \u2013 sein ganzes Wertesystem und sein Leben in Berlin scheint ihm daraufhin nicht mehr wichtig.",
-    "english": "A Kurdish man, working in Berlin as a teacher, tries to reconnect with his sister in the war zone back home and joins a group of activists bringing attention to the crisis."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-12-01",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Florian Hoffmann",
+            "slug": "florian-hoffmann",
+            "name": "Florian Hoffmann",
+            "birthYear": 1987,
+            "deathYear": 0,
+            "gender": "Unknown",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Adventure",
+        "Comedy",
+        "Crime",
+        "Fantasy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt12625936/mediaviewer/rm3450661121/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=HMh8EYc0wdI&ab_channel=FilmtoastTrailer"
+    },
+    "synopsis": {
+        "native": "Khalil (Hadi Khanjanpour) lebt schon seit vielen Jahren in Deutschland. Eines Tages sieht der Grundschullehrer Bilder aus dem Krieg in seiner kurdischen Heimat, was ihn dazu veranlasst, sich einem Aktivisten-Netzwerk anzuschlie\u00dfen, das um Aufmerksamkeit f\u00fcr das Geschehen im Land k\u00e4mpft. W\u00e4hrenddessen geht seine Schwester in den Kriegsunruhen verloren \u2013 sein ganzes Wertesystem und sein Leben in Berlin scheint ihm daraufhin nicht mehr wichtig.",
+        "english": "A Kurdish man, working in Berlin as a teacher, tries to reconnect with his sister in the war zone back home and joins a group of activists bringing attention to the crisis."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Switzerland",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Barbara Philipp",
+                "slug": "barbara-philipp",
+                "name": "Barbara Philipp",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Florian Hoffmann",
+                "slug": "florian-hoffmann",
+                "name": "Florian Hoffmann",
+                "birthYear": 1987,
+                "deathYear": 0,
+                "gender": "Unknown",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Vedat Erincin",
+                "slug": "vedat-erincin",
+                "name": "Vedat Erincin",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Turkey"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "grandparenthood",
+        "rescue mission",
+        "supernatural entity"
+    ]
 }

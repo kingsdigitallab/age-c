@@ -1,30 +1,39 @@
 {
-  "id": "Secun de la Rosa",
-  "type": "Biography",
-  "slug": "secun-de-la-rosa",
-  "name": "Secun de la Rosa",
-  "birthYear": 1969,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Romance",
-      "id": "ES2021_010",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "es2021-010-el-cover",
-      "tags": "precarity",
-      "title": {
-        "english": "The Cover",
-        "native": "El Cover"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Secun de la Rosa",
+    "slug": "secun-de-la-rosa",
+    "name": "Secun de la Rosa",
+    "birthYear": 1969,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2021_010",
+                "slug": "es2021-010-el-cover",
+                "title": {
+                    "native": "El Cover",
+                    "english": "The Cover"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-07-23",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Portugal",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,42 +1,83 @@
 {
-  "id": "Ricardo Dar\u00edn",
-  "type": "Biography",
-  "slug": "ricardo-darin",
-  "name": "Ricardo Dar\u00edn",
-  "birthYear": 1957,
-  "nationality": "Argentina",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "2: Late Middle Age (55-60)",
-      "assistedMobility": "No",
-      "class": "Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Thriller",
-        "id": "ES2018_003",
-        "production": {
-          "country": "Italy",
-          "share": "Minority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2018
-        },
-        "slug": "es2018-003-todos-lo-saben",
-        "tags": "crime",
-        "title": {
-          "english": "Everybody Knows",
-          "native": "Todos lo saben"
+    "type": "Person",
+    "id": "Ricardo Dar\u00edn",
+    "slug": "ricardo-darin",
+    "name": "Ricardo Dar\u00edn",
+    "birthYear": 1957,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Argentina",
+    "characters": [
+        {
+            "id": "ES2018_003_01",
+            "film": {
+                "id": "ES2018_003",
+                "slug": "es2018-003-todos-lo-saben",
+                "title": {
+                    "native": "Todos lo saben",
+                    "english": "Everybody Knows"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-09-14",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Italy",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Ricardo Dar\u00edn",
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Latin American",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "ES2018_003_01",
-      "origin": "White Latin American",
-      "profession": "Employed",
-      "role": "Leading actor",
-      "sexuality": "Heterosexual"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2018_003",
+                "slug": "es2018-003-todos-lo-saben",
+                "title": {
+                    "native": "Todos lo saben",
+                    "english": "Everybody Knows"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-09-14",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Italy",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        }
+    ]
 }

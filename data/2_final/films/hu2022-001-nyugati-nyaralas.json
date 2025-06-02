@@ -1,78 +1,179 @@
 {
-  "id": "HU2022_001",
-  "type": "Film",
-  "slug": "hu2022-001-nyugati-nyaralas",
-  "title": {
-    "native": "Nyugati nyaral\u00e1s",
-    "english": "Riviera East"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-09-15",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Hungary",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=tU7ntrfjeVw",
-    "posterUrl": "https://www.imdb.com/title/tt15540412/mediaviewer/rm1864568321/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Spy Film"
-  ],
-  "tags": [
-    "parenthood",
-    "marriage",
-    "holiday"
-  ],
-  "director": [
-    {
-      "id": "D\u00e1niel Tiszeker",
-      "slug": "daniel-tiszeker",
-      "name": "D\u00e1niel Tiszeker",
-      "birthYear": 1985,
-      "gender": "Male identifying",
-      "nationality": "Hungary"
+    "type": "Film",
+    "id": "HU2022_001",
+    "slug": "hu2022-001-nyugati-nyaralas",
+    "title": {
+        "native": "Nyugati nyaral\u00e1s",
+        "english": "Riviera East"
     },
-    {
-      "id": "Bal\u00e1zs L\u00e9vai",
-      "slug": "balazs-levai",
-      "name": "Bal\u00e1zs L\u00e9vai",
-      "birthYear": 1968,
-      "gender": "Male identifying",
-      "nationality": "Hungary"
-    }
-  ],
-  "character": [
-    {
-      "id": "HU2022_001_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "Central European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Lia Pokorny",
-        "slug": "lia-pokorny",
-        "name": "Lia Pokorny",
-        "birthYear": 1971.0,
-        "gender": "Female identifying",
-        "nationality": "Hungary"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Magyarorsz\u00e1g a \u201980-as \u00e9vek derek\u00e1n. Maurer Gyuri \u00fcgyes, veszpr\u00e9mi aut\u00f3szerel\u0151, aki mindent meg tud oldani \u2013 m\u00e9g a p\u00e1rtvezet\u0151k Lad\u00e1it is \u0151 szereli. Csal\u00e1dja a rivi\u00e9ra l\u00e1z\u00e1ban \u00e9g, m\u00e1r \u00e9pp induln\u00e1nak nyaralni, \u00e1m a n\u00e9gy \u00fatlev\u00e9l helyett csak h\u00e1rom \u00e9rkezik meg. Gyuri hirtelen megvil\u00e1gosodik: k\u00f6lcs\u00f6nveszik egy disszidens magyar n\u00e1la hagyott aut\u00f3csod\u00e1j\u00e1t. A n\u00e9met verd\u00e1val \u00e9s pap\u00edrokkal a nyugatra igyekv\u0151 magyarok helyett nyugatr\u00f3l \u00e9rkez\u0151 turist\u00e1k lesznek, akik a legnagyobb luxust \u00e9lvezhetik a Balatonn\u00e1l. Nem is sejtik, hogy a \u201ck\u00f6lcs\u00f6nvett\u201d aut\u00f3val egyenesen a hidegh\u00e1bor\u00faba hajtanak bele\u2026",
-    "english": "Gyuri Maurer's family is about to go on holiday, but instead of four passports, only three arrive. Instead of heading west with a German car and the accompanying papers, they will be tourists coming from the west."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-09-15",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Bal\u00e1zs L\u00e9vai",
+            "slug": "balazs-levai",
+            "name": "Bal\u00e1zs L\u00e9vai",
+            "birthYear": 1968,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Hungary"
+        },
+        {
+            "id": "D\u00e1niel Tiszeker",
+            "slug": "daniel-tiszeker",
+            "name": "D\u00e1niel Tiszeker",
+            "birthYear": 1985,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Hungary"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Spy Film"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt15540412/mediaviewer/rm1864568321/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=tU7ntrfjeVw"
+    },
+    "synopsis": {
+        "native": "Magyarorsz\u00e1g a \u201980-as \u00e9vek derek\u00e1n. Maurer Gyuri \u00fcgyes, veszpr\u00e9mi aut\u00f3szerel\u0151, aki mindent meg tud oldani \u2013 m\u00e9g a p\u00e1rtvezet\u0151k Lad\u00e1it is \u0151 szereli. Csal\u00e1dja a rivi\u00e9ra l\u00e1z\u00e1ban \u00e9g, m\u00e1r \u00e9pp induln\u00e1nak nyaralni, \u00e1m a n\u00e9gy \u00fatlev\u00e9l helyett csak h\u00e1rom \u00e9rkezik meg. Gyuri hirtelen megvil\u00e1gosodik: k\u00f6lcs\u00f6nveszik egy disszidens magyar n\u00e1la hagyott aut\u00f3csod\u00e1j\u00e1t. A n\u00e9met verd\u00e1val \u00e9s pap\u00edrokkal a nyugatra igyekv\u0151 magyarok helyett nyugatr\u00f3l \u00e9rkez\u0151 turist\u00e1k lesznek, akik a legnagyobb luxust \u00e9lvezhetik a Balatonn\u00e1l. Nem is sejtik, hogy a \u201ck\u00f6lcs\u00f6nvett\u201d aut\u00f3val egyenesen a hidegh\u00e1bor\u00faba hajtanak bele\u2026",
+        "english": "Gyuri Maurer's family is about to go on holiday, but instead of four passports, only three arrive. Instead of heading west with a German car and the accompanying papers, they will be tourists coming from the west."
+    },
+    "production": [
+        {
+            "country": "Hungary",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "HU2022_001_01",
+            "film": "HU2022_001",
+            "person": {
+                "id": "Lia Pokorny",
+                "slug": "lia-pokorny",
+                "name": "Lia Pokorny",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "Central European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Bal\u00e1zs L\u00e9vai",
+                "slug": "balazs-levai",
+                "name": "Bal\u00e1zs L\u00e9vai",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "D\u00e1niel Tiszeker",
+                "slug": "daniel-tiszeker",
+                "name": "D\u00e1niel Tiszeker",
+                "birthYear": 1985,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Gy\u00f6rgy Bajomi Nagy",
+                "slug": "gyorgy-bajomi-nagy",
+                "name": "Gy\u00f6rgy Bajomi Nagy",
+                "birthYear": 1966,
+                "deathYear": 2023,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Istv\u00e1n Znamen\u00e1k",
+                "slug": "istvan-znamenak",
+                "name": "Istv\u00e1n Znamen\u00e1k",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Lia Pokorny",
+                "slug": "lia-pokorny",
+                "name": "Lia Pokorny",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Tibor Szerv\u00e9t",
+                "slug": "tibor-szervet",
+                "name": "Tibor Szerv\u00e9t",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Zolt\u00e1n Barab\u00e1s Kiss",
+                "slug": "zoltan-barabas-kiss",
+                "name": "Zolt\u00e1n Barab\u00e1s Kiss",
+                "birthYear": 1970,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "\u00c9va Bay",
+                "slug": "eva-bay",
+                "name": "\u00c9va Bay",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "holiday",
+        "parenthood",
+        "marriage"
+    ]
 }

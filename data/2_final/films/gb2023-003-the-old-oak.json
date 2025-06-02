@@ -1,124 +1,182 @@
 {
-  "id": "GB2023_003",
-  "type": "Film",
-  "slug": "gb2023-003-the-old-oak",
-  "title": {
-    "native": "The Old Oak"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-09-29",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "GB2023_003",
+    "slug": "gb2023-003-the-old-oak",
+    "title": {
+        "native": "The Old Oak",
+        "english": ""
     },
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2023-09-29",
+        "year": 2023
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt19883634/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_The%2520Old%2520Oak",
-    "posterUrl": "https://www.imdb.com/title/tt19883634/mediaviewer/rm1884374785/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "precarity",
-    "class solidarity",
-    "racial discrimination",
-    "intergenerational friendship",
-    "unemployment",
-    "migration",
-    "volunteering",
-    "cultural memory",
-    "regional identity",
-    "self-employment",
-    "activism",
-    "abuse",
-    "interracial relationships",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Ken Loach",
-      "slug": "ken-loach",
-      "name": "Ken Loach",
-      "birthYear": 1936,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2023_003_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Maxie Peters",
-        "slug": "maxie-peters",
-        "name": "Maxie Peters",
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Ken Loach",
+            "slug": "ken-loach",
+            "name": "Ken Loach",
+            "birthYear": 1936,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt19883634/mediaviewer/rm1884374785/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt19883634/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_The%2520Old%2520Oak"
     },
-    {
-      "id": "GB2023_003_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Trevor Fox",
-        "slug": "trevor-fox",
-        "name": "Trevor Fox",
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "synopsis": {
+        "native": "The future for the last remaining pub, The Old Oak, in a village of Northeast England, where people are leaving the land as the mines are closed. Houses are cheap and available, thus making it an ideal location for Syrian refugees.",
+        "english": ""
     },
-    {
-      "id": "GB2023_003_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Dave Turner",
-        "slug": "dave-turner",
-        "name": "Dave Turner",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "The future for the last remaining pub, The Old Oak, in a village of Northeast England, where people are leaving the land as the mines are closed. Houses are cheap and available, thus making it an ideal location for Syrian refugees."
-  }
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2023_003_01",
+            "film": "GB2023_003",
+            "person": {
+                "id": "Dave Turner",
+                "slug": "dave-turner",
+                "name": "Dave Turner",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2023_003_02",
+            "film": "GB2023_003",
+            "person": {
+                "id": "Trevor Fox",
+                "slug": "trevor-fox",
+                "name": "Trevor Fox",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2023_003_03",
+            "film": "GB2023_003",
+            "person": {
+                "id": "Maxie Peters",
+                "slug": "maxie-peters",
+                "name": "Maxie Peters",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Dave Turner",
+                "slug": "dave-turner",
+                "name": "Dave Turner",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Ken Loach",
+                "slug": "ken-loach",
+                "name": "Ken Loach",
+                "birthYear": 1936,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Maxie Peters",
+                "slug": "maxie-peters",
+                "name": "Maxie Peters",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Trevor Fox",
+                "slug": "trevor-fox",
+                "name": "Trevor Fox",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "precarity",
+        "regional identity",
+        "migration",
+        "self-employment",
+        "unemployment",
+        "interracial relationships",
+        "class solidarity",
+        "racial discrimination",
+        "abuse",
+        "intergenerational friendship",
+        "cultural memory",
+        "rural",
+        "activism",
+        "volunteering"
+    ]
 }

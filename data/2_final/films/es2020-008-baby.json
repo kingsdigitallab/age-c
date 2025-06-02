@@ -1,98 +1,139 @@
 {
-  "id": "ES2020_008",
-  "type": "Film",
-  "slug": "es2020-008-baby",
-  "title": {
-    "native": "Baby",
-    "english": "Baby"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-03-12",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=6CyzBBTt-Dg",
-    "posterUrl": "https://www.imdb.com/title/tt9760852/mediaviewer/rm2184169473/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Fantasy",
-    "Horror",
-    "Thriller",
-    "Drama"
-  ],
-  "tags": [
-    "motherhood",
-    "intergenerational conflict",
-    "independent home",
-    "caregiving",
-    "power",
-    "trauma",
-    "mental illness",
-    "abuse",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Juanma Bajo Ulloa",
-      "slug": "juanma-bajo-ulloa",
-      "name": "Juanma Bajo Ulloa",
-      "birthYear": 1967,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2020_008_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Harriet Sansom Harris",
-        "slug": "harriet-sansom-harris",
-        "name": "Harriet Sansom Harris",
-        "birthYear": 1957.0,
-        "gender": "Female identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "ES2020_008",
+    "slug": "es2020-008-baby",
+    "title": {
+        "native": "Baby",
+        "english": "Baby"
     },
-    {
-      "id": "ES2020_008_02",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Charo L\u00f3pez",
-        "slug": "charo-lopez",
-        "name": "Charo L\u00f3pez",
-        "birthYear": 1943.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Una joven adicta, da a luz en medio de una de sus crisis. Incapaz de ocuparse del beb\u00e9, lo vende a una matrona dedicada al comercio infantil. Arrepentida, tratar\u00e1 de recuperarlo descubriendo una realidad sobrecogedora.",
-    "english": "A young girl drug addict, gives birth in the middle of one her breakdowns. Unable to give proper care to her baby, she sells him to a disturbing woman who works in the child trade business. The girl will soon regret her decision and she will have to overcome her weaknesses and face her deepest fears."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2020-03-12",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Juanma Bajo Ulloa",
+            "slug": "juanma-bajo-ulloa",
+            "name": "Juanma Bajo Ulloa",
+            "birthYear": 1967,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Thriller",
+        "Drama",
+        "Horror",
+        "Fantasy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9760852/mediaviewer/rm2184169473/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=6CyzBBTt-Dg"
+    },
+    "synopsis": {
+        "native": "Una joven adicta, da a luz en medio de una de sus crisis. Incapaz de ocuparse del beb\u00e9, lo vende a una matrona dedicada al comercio infantil. Arrepentida, tratar\u00e1 de recuperarlo descubriendo una realidad sobrecogedora.",
+        "english": "A young girl drug addict, gives birth in the middle of one her breakdowns. Unable to give proper care to her baby, she sells him to a disturbing woman who works in the child trade business. The girl will soon regret her decision and she will have to overcome her weaknesses and face her deepest fears."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2020_008_01",
+            "film": "ES2020_008",
+            "person": {
+                "id": "Harriet Sansom Harris",
+                "slug": "harriet-sansom-harris",
+                "name": "Harriet Sansom Harris",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2020_008_02",
+            "film": "ES2020_008",
+            "person": {
+                "id": "Charo L\u00f3pez",
+                "slug": "charo-lopez",
+                "name": "Charo L\u00f3pez",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "Unknown"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Charo L\u00f3pez",
+                "slug": "charo-lopez",
+                "name": "Charo L\u00f3pez",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Harriet Sansom Harris",
+                "slug": "harriet-sansom-harris",
+                "name": "Harriet Sansom Harris",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Juanma Bajo Ulloa",
+                "slug": "juanma-bajo-ulloa",
+                "name": "Juanma Bajo Ulloa",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "mental illness",
+        "caregiving",
+        "intergenerational conflict",
+        "abuse",
+        "trauma",
+        "rural",
+        "power",
+        "independent home",
+        "motherhood"
+    ]
 }

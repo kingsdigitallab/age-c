@@ -1,88 +1,129 @@
 {
-  "id": "IT2023_028",
-  "type": "Film",
-  "slug": "it2023-028-la-guerra-dei-nonni",
-  "title": {
-    "native": "La guerra dei nonni",
-    "english": "The war of the grandpas"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-11-30",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=O5dey-sWYTM",
-    "posterUrl": "https://www.imdb.com/title/tt27645031/mediaviewer/rm1950173953/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "in-laws",
-    "grandfatherhood"
-  ],
-  "director": [
-    {
-      "id": "Gianluca Ansanelli",
-      "slug": "gianluca-ansanelli",
-      "name": "Gianluca Ansanelli",
-      "birthYear": 1974,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2023_028_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Max Tortora",
-        "slug": "max-tortora",
-        "name": "Max Tortora",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "IT2023_028",
+    "slug": "it2023-028-la-guerra-dei-nonni",
+    "title": {
+        "native": "La guerra dei nonni",
+        "english": "The war of the grandpas"
     },
-    {
-      "id": "IT2023_028_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Vincenzo Salemme",
-        "slug": "vincenzo-salemme",
-        "name": "Vincenzo Salemme",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Gerri (Vincenzo Salemme) \u00e8 un nonno attento e premuroso, vive con la famiglia della figlia, aiuta in casa e si prende cura dei suoi amati nipoti. In questo perfetto equilibrio familiare irrompe nonno Tom (Max Tortora), che dopo anni vissuti all\u2019estero torna in Italia per trascorrere un po\u2019 di tempo con i nipotini. Esuberante e chiassoso, nonno Tom \u00e8 pronto a infrangere ogni regola stabilita da nonno Gerri pur di realizzare i desideri dei bambini e conquistare il loro amore. Dall\u2019incontro tra Gerri e Tom nascer\u00e0 un\u2019accesa competizione che dar\u00e0 vita a una serie di esilaranti sfide tra nonni, senza esclusione di colpi\u2026 e colpi di scena.",
-    "english": "When Grandpa Tom comes back home, the family balance with their grandchildren created by Grandpa Gerri is broken. The clash between them will lead to a series of hilarious challenges."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2023-11-30",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Gianluca Ansanelli",
+            "slug": "gianluca-ansanelli",
+            "name": "Gianluca Ansanelli",
+            "birthYear": 1974,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt27645031/mediaviewer/rm1950173953/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=O5dey-sWYTM"
+    },
+    "synopsis": {
+        "native": "Gerri (Vincenzo Salemme) \u00e8 un nonno attento e premuroso, vive con la famiglia della figlia, aiuta in casa e si prende cura dei suoi amati nipoti. In questo perfetto equilibrio familiare irrompe nonno Tom (Max Tortora), che dopo anni vissuti all\u2019estero torna in Italia per trascorrere un po\u2019 di tempo con i nipotini. Esuberante e chiassoso, nonno Tom \u00e8 pronto a infrangere ogni regola stabilita da nonno Gerri pur di realizzare i desideri dei bambini e conquistare il loro amore. Dall\u2019incontro tra Gerri e Tom nascer\u00e0 un\u2019accesa competizione che dar\u00e0 vita a una serie di esilaranti sfide tra nonni, senza esclusione di colpi\u2026 e colpi di scena.",
+        "english": "When Grandpa Tom comes back home, the family balance with their grandchildren created by Grandpa Gerri is broken. The clash between them will lead to a series of hilarious challenges."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2023_028_01",
+            "film": "IT2023_028",
+            "person": {
+                "id": "Vincenzo Salemme",
+                "slug": "vincenzo-salemme",
+                "name": "Vincenzo Salemme",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "IT2023_028_02",
+            "film": "IT2023_028",
+            "person": {
+                "id": "Max Tortora",
+                "slug": "max-tortora",
+                "name": "Max Tortora",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Gianluca Ansanelli",
+                "slug": "gianluca-ansanelli",
+                "name": "Gianluca Ansanelli",
+                "birthYear": 1974,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Max Tortora",
+                "slug": "max-tortora",
+                "name": "Max Tortora",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Vincenzo Salemme",
+                "slug": "vincenzo-salemme",
+                "name": "Vincenzo Salemme",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "grandfatherhood",
+        "in-laws"
+    ]
 }

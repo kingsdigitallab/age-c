@@ -1,50 +1,105 @@
 {
-  "id": "GB2022_033",
-  "type": "Film",
-  "slug": "gb2022-033-a-ha-true-north",
-  "title": {
-    "native": "a-ha: True North"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-09-09",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=6N86jQpcjIM",
-    "posterUrl": "https://www.imdb.com/title/tt21638358/mediaviewer/rm2137001473/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Musical",
-    "Documentary \u2013 Poetic mode",
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "artistic creation",
-    "national identity",
-    "natural",
-    "self-employment",
-    "celebrity",
-    "homosociality"
-  ],
-  "director": [
-    {
-      "id": "Stian Andersen",
-      "slug": "stian-andersen",
-      "name": "Stian Andersen",
-      "gender": "Male identifying",
-      "nationality": "Norway"
-    }
-  ],
-  "synopsis": {
-    "native": "Documents the band's recording of the album in Bod\u00f8, Norway, approximately 90 km (55 miles) north of the Arctic Circle, backed by a full orchestra."
-  }
+    "type": "Film",
+    "id": "GB2022_033",
+    "slug": "gb2022-033-a-ha-true-north",
+    "title": {
+        "native": "a-ha: True North",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-09-09",
+        "year": 2022
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Stian Andersen",
+            "slug": "stian-andersen",
+            "name": "Stian Andersen",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Norway"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Documentary \u2013 Performative mode",
+        "Documentary \u2013 Poetic mode",
+        "Musical"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt21638358/mediaviewer/rm2137001473/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=6N86jQpcjIM"
+    },
+    "synopsis": {
+        "native": "Documents the band's recording of the album in Bod\u00f8, Norway, approximately 90 km (55 miles) north of the Arctic Circle, backed by a full orchestra.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Magne Furuholmen",
+                "slug": "magne-furuholmen",
+                "name": "Magne Furuholmen",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Norway"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Morten Harket",
+                "slug": "morten-harket",
+                "name": "Morten Harket",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Norway"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "P\u00e5l Waaktaar",
+                "slug": "pal-waaktaar",
+                "name": "P\u00e5l Waaktaar",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Norway"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Stian Andersen",
+                "slug": "stian-andersen",
+                "name": "Stian Andersen",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Norway"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "natural",
+        "artistic creation",
+        "national identity",
+        "homosociality",
+        "self-employment",
+        "celebrity"
+    ]
 }

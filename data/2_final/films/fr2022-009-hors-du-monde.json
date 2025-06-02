@@ -1,47 +1,88 @@
 {
-  "id": "FR2022_009",
-  "type": "Film",
-  "slug": "fr2022-009-hors-du-monde",
-  "title": {
-    "native": "Hors du monde",
-    "english": "Out of the World"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-01-19",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=-DRKAKdBOV4",
-    "posterUrl": "https://medias.unifrance.org/medias/101/168/239717/format_page/hors-du-monde.jpg"
-  },
-  "genre": [
-    "Thriller",
-    "Romance"
-  ],
-  "tags": [
-    "urban",
-    "parenthood",
-    "artistic creation"
-  ],
-  "director": [
-    {
-      "id": "Marc Fouchard",
-      "slug": "marc-fouchard",
-      "name": "Marc Fouchard",
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Le\u0301o est chauffeur et vit seul dans sa voiture. Il ne s\u2019ouvre au monde qu\u2019a\u0300 travers sa musique. Un jour, Le\u0301o conduit Ame\u0301lie, une cliente pas comme les autres, danseuse et sourde et pourtant re\u0301ceptive aux compositions qu\u2019il passe dans sa berline. Le\u0301o semble se\u0301duit par cette femme, comme lui, hors du monde. Ame\u0301lie aussi est attire\u0301e par le sombre Le\u0301o. Mais ce qu\u2019elle ignore, c\u2019est que Le\u0301o est un terrible pre\u0301dateur\u2026",
-    "english": "L\u00e9o, a very shy man, is having trouble communicating with others. Only music makes him alive and more open-minded. He cannot afford to live over his music, therefore he works as a taxi driver and lives in his own car. One day, L\u00e9o drives Am\u00e9lie a deaf dancer. L\u00e9o seems charmed and Am\u00e9lie is attracted to him."
-  }
+    "type": "Film",
+    "id": "FR2022_009",
+    "slug": "fr2022-009-hors-du-monde",
+    "title": {
+        "native": "Hors du monde",
+        "english": "Out of the World"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-01-19",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Marc Fouchard",
+            "slug": "marc-fouchard",
+            "name": "Marc Fouchard",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Thriller",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/101/168/239717/format_page/hors-du-monde.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=-DRKAKdBOV4"
+    },
+    "synopsis": {
+        "native": "Le\u0301o est chauffeur et vit seul dans sa voiture. Il ne s\u2019ouvre au monde qu\u2019a\u0300 travers sa musique. Un jour, Le\u0301o conduit Ame\u0301lie, une cliente pas comme les autres, danseuse et sourde et pourtant re\u0301ceptive aux compositions qu\u2019il passe dans sa berline. Le\u0301o semble se\u0301duit par cette femme, comme lui, hors du monde. Ame\u0301lie aussi est attire\u0301e par le sombre Le\u0301o. Mais ce qu\u2019elle ignore, c\u2019est que Le\u0301o est un terrible pre\u0301dateur\u2026",
+        "english": "L\u00e9o, a very shy man, is having trouble communicating with others. Only music makes him alive and more open-minded. He cannot afford to live over his music, therefore he works as a taxi driver and lives in his own car. One day, L\u00e9o drives Am\u00e9lie a deaf dancer. L\u00e9o seems charmed and Am\u00e9lie is attracted to him."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Dominique Frot",
+                "slug": "dominique-frot",
+                "name": "Dominique Frot",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Genevi\u00e8ve Casile",
+                "slug": "genevieve-casile",
+                "name": "Genevi\u00e8ve Casile",
+                "birthYear": 1937,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Marc Fouchard",
+                "slug": "marc-fouchard",
+                "name": "Marc Fouchard",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "parenthood",
+        "artistic creation",
+        "urban"
+    ]
 }

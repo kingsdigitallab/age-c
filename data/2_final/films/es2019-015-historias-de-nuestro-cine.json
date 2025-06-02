@@ -1,52 +1,322 @@
 {
-  "id": "ES2019_015",
-  "type": "Film",
-  "slug": "es2019-015-historias-de-nuestro-cine",
-  "title": {
-    "native": "Historias de nuestro cine"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-02-11",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=v40UESlN3dU",
-    "posterUrl": "https://www.imdb.com/title/tt11128736/mediaviewer/rm877169665/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Metacinema"
-  ],
-  "tags": [
-    "high rank employment",
-    "personal memory",
-    "elderhood (friendship among elders)",
-    "artistic creation",
-    "national identity",
-    "cultural memory",
-    "self-employment",
-    "celebrity"
-  ],
-  "director": [
-    {
-      "id": "Antonio Resines",
-      "slug": "antonio-resines",
-      "name": "Antonio Resines",
-      "birthYear": 1954,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "El 11 de mayo de 1896, en el circo Price, propiedad del ciudadano ingl\u00e9s William Parish, el h\u00fangaro Edwin Rousby, utilizando un animat\u00f3grafo, proyecta las primeras im\u00e1genes en movimiento que pudieron verse en Espa\u00f1a. A partir de este hecho, nuestro narrador, Antonio Resines, va desgranando an\u00e9cdotas hasta lograr componer una asombrosa historia, la de nuestro cine. Esta narraci\u00f3n se mezcla con testimonios de directores, actores y productores que van ilustradas con im\u00e1genes de las pel\u00edculas a las que se va haciendo referencia.",
-    "english": "Edwin Rousby was the first to showcase moving images in Spanish territory, in 1896, as part of a circus show. From that point on, Spain started crafting its own cinematic history, narrated here by living legend Antonio Resines."
-  }
+    "type": "Film",
+    "id": "ES2019_015",
+    "slug": "es2019-015-historias-de-nuestro-cine",
+    "title": {
+        "native": "Historias de nuestro cine",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-02-11",
+        "year": 2019
+    },
+    "filmType": "Documentary",
+    "directors": [
+        "Ana P\u00e9rez Lorente",
+        {
+            "id": "Antonio Resines",
+            "slug": "antonio-resines",
+            "name": "Antonio Resines",
+            "birthYear": 1954,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Metacinema"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt11128736/mediaviewer/rm877169665/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=v40UESlN3dU"
+    },
+    "synopsis": {
+        "native": "El 11 de mayo de 1896, en el circo Price, propiedad del ciudadano ingl\u00e9s William Parish, el h\u00fangaro Edwin Rousby, utilizando un animat\u00f3grafo, proyecta las primeras im\u00e1genes en movimiento que pudieron verse en Espa\u00f1a. A partir de este hecho, nuestro narrador, Antonio Resines, va desgranando an\u00e9cdotas hasta lograr componer una asombrosa historia, la de nuestro cine. Esta narraci\u00f3n se mezcla con testimonios de directores, actores y productores que van ilustradas con im\u00e1genes de las pel\u00edculas a las que se va haciendo referencia.",
+        "english": "Edwin Rousby was the first to showcase moving images in Spanish territory, in 1896, as part of a circus show. From that point on, Spain started crafting its own cinematic history, narrated here by living legend Antonio Resines."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Ana Bel\u00e9n",
+                "slug": "ana-belen",
+                "name": "Ana Bel\u00e9n",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Ana P\u00e9rez-Lorente",
+                "slug": "ana-perez-lorente",
+                "name": "Ana P\u00e9rez-Lorente",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Antonio Resines",
+                "slug": "antonio-resines",
+                "name": "Antonio Resines",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Antonio Resines",
+                "slug": "antonio-resines",
+                "name": "Antonio Resines",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Antonio Resines",
+                "slug": "antonio-resines",
+                "name": "Antonio Resines",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Screenwriter"
+        },
+        {
+            "person": {
+                "id": "Carlos Boyero",
+                "slug": "carlos-boyero",
+                "name": "Carlos Boyero",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Carmen Maura",
+                "slug": "carmen-maura",
+                "name": "Carmen Maura",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "El Gran Wyoming",
+                "slug": "el-gran-wyoming",
+                "name": "El Gran Wyoming",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Emilio Guti\u00e9rrez Caba",
+                "slug": "emilio-gutierrez-caba",
+                "name": "Emilio Guti\u00e9rrez Caba",
+                "birthYear": 1941,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Emilio Mart\u00ednez L\u00e1zaro",
+                "slug": "emilio-martinez-lazaro",
+                "name": "Emilio Mart\u00ednez L\u00e1zaro",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Fernando Colomo",
+                "slug": "fernando-colomo",
+                "name": "Fernando Colomo",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Fernando M\u00e9ndez-Leite",
+                "slug": "fernando-mendez-leite",
+                "name": "Fernando M\u00e9ndez-Leite",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Gracia Querejeta",
+                "slug": "gracia-querejeta",
+                "name": "Gracia Querejeta",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Jes\u00fas Bonilla",
+                "slug": "jesus-bonilla",
+                "name": "Jes\u00fas Bonilla",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Jos\u00e9 Coronado",
+                "slug": "jose-coronado",
+                "name": "Jos\u00e9 Coronado",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Jos\u00e9 Luis Garc\u00eda S\u00e1nchez",
+                "slug": "jose-luis-garcia-sanchez",
+                "name": "Jos\u00e9 Luis Garc\u00eda S\u00e1nchez",
+                "birthYear": 1941,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Julia Guti\u00e9rrez Caba",
+                "slug": "julia-gutierrez-caba",
+                "name": "Julia Guti\u00e9rrez Caba",
+                "birthYear": 1934,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Loles Le\u00f3n",
+                "slug": "loles-leon",
+                "name": "Loles Le\u00f3n",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Luis Alegre",
+                "slug": "luis-alegre",
+                "name": "Luis Alegre",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Manuel G\u00f3mez Pereira",
+                "slug": "manuel-gomez-pereira",
+                "name": "Manuel G\u00f3mez Pereira",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Ver\u00f3nica Forqu\u00e9",
+                "slug": "veronica-forque",
+                "name": "Ver\u00f3nica Forqu\u00e9",
+                "birthYear": 1955,
+                "deathYear": 2022,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "V\u00edctor Manuel",
+                "slug": "victor-manuel",
+                "name": "V\u00edctor Manuel",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "elderhood (friendship among elders)",
+        "national identity",
+        "high rank employment",
+        "self-employment",
+        "cultural memory",
+        "celebrity",
+        "personal memory"
+    ]
 }

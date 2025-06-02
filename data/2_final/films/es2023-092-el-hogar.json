@@ -1,128 +1,214 @@
 {
-  "id": "ES2023_092",
-  "type": "Film",
-  "slug": "es2023-092-el-hogar",
-  "title": {
-    "native": "El Hogar"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-03-03",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=836302",
-    "posterUrl": "https://www.imdb.com/title/tt23847566/mediaviewer/rm831732481/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Historical film (Heritage Film)",
-    "Drama"
-  ],
-  "tags": [
-    "precarity",
-    "high rank employment",
-    "independent home",
-    "fatherhood",
-    "marriage",
-    "self-employment",
-    "regional identity",
-    "state institutions",
-    "substance abuse",
-    "class conflict",
-    "rural"
-  ],
-  "character": [
-    {
-      "id": "ES2023_092_04",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Carlos Olalla",
-        "slug": "carlos-olalla",
-        "name": "Carlos Olalla",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "ES2023_092",
+    "slug": "es2023-092-el-hogar",
+    "title": {
+        "native": "El Hogar",
+        "english": ""
     },
-    {
-      "id": "ES2023_092_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Valent\u00edn Paredes",
-        "slug": "valentin-paredes",
-        "name": "Valent\u00edn Paredes",
-        "birthYear": 1955.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2023-03-03",
+        "year": 2023
     },
-    {
-      "id": "ES2023_092_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Luis Mottola",
-        "slug": "luis-mottola",
-        "name": "Luis Mottola",
-        "birthYear": 1968.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Leading actor"
+    "filmType": "Fiction film",
+    "directors": [
+        "Julio De La Fuente"
+    ],
+    "genre": [
+        "Drama",
+        "Comedy",
+        "Historical film (Heritage Film)"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt23847566/mediaviewer/rm831732481/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=836302"
     },
-    {
-      "id": "ES2023_092_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "\u00c1ngel H\u00e9ctor S\u00e1nchez",
-        "slug": "angel-hector-sanchez",
-        "name": "\u00c1ngel H\u00e9ctor S\u00e1nchez",
-        "birthYear": 1958.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Homenaje desde Asturias a la pel\u00edcula \"El Chico\" de Charles Chaplin, en una comedia muda y en blanco y negro sobre la supervivencia y la lucha de una familia humilde.",
-    "english": "A family struggles to have a worthy home, but circumstances go against them."
-  }
+    "synopsis": {
+        "native": "Homenaje desde Asturias a la pel\u00edcula \"El Chico\" de Charles Chaplin, en una comedia muda y en blanco y negro sobre la supervivencia y la lucha de una familia humilde.",
+        "english": "A family struggles to have a worthy home, but circumstances go against them."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2023_092_01",
+            "film": "ES2023_092",
+            "person": {
+                "id": "Luis Mottola",
+                "slug": "luis-mottola",
+                "name": "Luis Mottola",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2023_092_02",
+            "film": "ES2023_092",
+            "person": {
+                "id": "Valent\u00edn Paredes",
+                "slug": "valentin-paredes",
+                "name": "Valent\u00edn Paredes",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2023_092_03",
+            "film": "ES2023_092",
+            "person": {
+                "id": "\u00c1ngel H\u00e9ctor S\u00e1nchez",
+                "slug": "angel-hector-sanchez",
+                "name": "\u00c1ngel H\u00e9ctor S\u00e1nchez",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2023_092_04",
+            "film": "ES2023_092",
+            "person": {
+                "id": "Carlos Olalla",
+                "slug": "carlos-olalla",
+                "name": "Carlos Olalla",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Carlos Olalla",
+                "slug": "carlos-olalla",
+                "name": "Carlos Olalla",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": "Julio De La Fuente",
+            "role": "Director of the film"
+        },
+        {
+            "person": "Julio De La Fuente",
+            "role": "Screenwriter"
+        },
+        {
+            "person": "Julio De La Fuente",
+            "role": "Producer"
+        },
+        {
+            "person": "Julio De La Fuente",
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Luis Mottola",
+                "slug": "luis-mottola",
+                "name": "Luis Mottola",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Miguelo Garc\u00eda",
+                "slug": "miguelo-garcia",
+                "name": "Miguelo Garc\u00eda",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Valent\u00edn Paredes",
+                "slug": "valentin-paredes",
+                "name": "Valent\u00edn Paredes",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "\u00c1ngel H\u00e9ctor S\u00e1nchez",
+                "slug": "angel-hector-sanchez",
+                "name": "\u00c1ngel H\u00e9ctor S\u00e1nchez",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "precarity",
+        "rural",
+        "independent home",
+        "self-employment",
+        "fatherhood",
+        "marriage",
+        "regional identity",
+        "substance abuse",
+        "high rank employment",
+        "state institutions",
+        "class conflict"
+    ]
 }

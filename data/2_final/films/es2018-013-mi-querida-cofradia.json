@@ -1,109 +1,205 @@
 {
-  "id": "ES2018_013",
-  "type": "Film",
-  "slug": "es2018-013-mi-querida-cofradia",
-  "title": {
-    "native": "Mi querida cofrad\u00eda",
-    "english": "Hoplessly Devout"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-04-26",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=sgwkIwonLhE",
-    "posterUrl": "https://www.imdb.com/title/tt6984534/mediaviewer/rm3395242752/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Crime"
-  ],
-  "tags": [
-    "gender discrimination",
-    "motherhood",
-    "women empowerment",
-    "intergenerational friendship",
-    "religion",
-    "independent home",
-    "in-laws",
-    "power",
-    "regional identity",
-    "homosociality",
-    "abuse",
-    "rural"
-  ],
-  "character": [
-    {
-      "id": "ES2018_013_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Juan Gea",
-        "slug": "juan-gea",
-        "name": "Juan Gea",
-        "birthYear": 1953.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "ES2018_013",
+    "slug": "es2018-013-mi-querida-cofradia",
+    "title": {
+        "native": "Mi querida cofrad\u00eda",
+        "english": "Hoplessly Devout"
     },
-    {
-      "id": "ES2018_013_03",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Rosario Pardo",
-        "slug": "rosario-pardo",
-        "name": "Rosario Pardo",
-        "birthYear": 1959.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2018-04-26",
+        "year": 2018
     },
-    {
-      "id": "ES2018_013_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Gloria Mu\u00f1oz",
-        "slug": "gloria-munoz",
-        "name": "Gloria Mu\u00f1oz",
-        "birthYear": 1948.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Carmen lleva m\u00e1s de 30 a\u00f1os desvivi\u00e9ndose por la hermandad de su pueblo y su sue\u00f1o es convertirse en hermana mayor de la misma, siendo esto algo ut\u00f3pico en un c\u00edrculo social a\u00fan en la actualidad representado por hombres principalmente. Despu\u00e9s de producirse una votaci\u00f3n, Ignacio es elegido hermano mayor y, tras un desafortunado accidente, Carmen lo deja inconsciente y tiene que esconderlo en su casa. Todo se complica cuando su hija discute con su marido, actual alcalde del pueblo, y decide volver a casa de su madre.",
-    "english": "A woman in a Catholic brotherhood in the south of Spain tries to be president in a world traditionally reserved to men."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        "Marta D\u00edaz de Lope D\u00edaz"
+    ],
+    "genre": [
+        "Comedy",
+        "Crime"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt6984534/mediaviewer/rm3395242752/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=sgwkIwonLhE"
+    },
+    "synopsis": {
+        "native": "Carmen lleva m\u00e1s de 30 a\u00f1os desvivi\u00e9ndose por la hermandad de su pueblo y su sue\u00f1o es convertirse en hermana mayor de la misma, siendo esto algo ut\u00f3pico en un c\u00edrculo social a\u00fan en la actualidad representado por hombres principalmente. Despu\u00e9s de producirse una votaci\u00f3n, Ignacio es elegido hermano mayor y, tras un desafortunado accidente, Carmen lo deja inconsciente y tiene que esconderlo en su casa. Todo se complica cuando su hija discute con su marido, actual alcalde del pueblo, y decide volver a casa de su madre.",
+        "english": "A woman in a Catholic brotherhood in the south of Spain tries to be president in a world traditionally reserved to men."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2018_013_01",
+            "film": "ES2018_013",
+            "person": {
+                "id": "Gloria Mu\u00f1oz",
+                "slug": "gloria-munoz",
+                "name": "Gloria Mu\u00f1oz",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2018_013_02",
+            "film": "ES2018_013",
+            "person": {
+                "id": "Juan Gea",
+                "slug": "juan-gea",
+                "name": "Juan Gea",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2018_013_03",
+            "film": "ES2018_013",
+            "person": {
+                "id": "Rosario Pardo",
+                "slug": "rosario-pardo",
+                "name": "Rosario Pardo",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Antonio Estrada",
+                "slug": "antonio-estrada",
+                "name": "Antonio Estrada",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Gloria Mu\u00f1oz",
+                "slug": "gloria-munoz",
+                "name": "Gloria Mu\u00f1oz",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Jos\u00e9 Mar\u00eda Pe\u00f1a",
+                "slug": "jose-maria-pena",
+                "name": "Jos\u00e9 Mar\u00eda Pe\u00f1a",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Argentina"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Juan Gea",
+                "slug": "juan-gea",
+                "name": "Juan Gea",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Juan Motilla",
+                "slug": "juan-motilla",
+                "name": "Juan Motilla",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": "Marta D\u00edaz de Lope D\u00edaz",
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Pepe Salas",
+                "slug": "pepe-salas",
+                "name": "Pepe Salas",
+                "birthYear": 1937,
+                "deathYear": 2020,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Rosario Pardo",
+                "slug": "rosario-pardo",
+                "name": "Rosario Pardo",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "religion",
+        "gender discrimination",
+        "women empowerment",
+        "rural",
+        "power",
+        "independent home",
+        "abuse",
+        "motherhood",
+        "in-laws",
+        "homosociality",
+        "intergenerational friendship",
+        "regional identity"
+    ]
 }

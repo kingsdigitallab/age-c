@@ -1,63 +1,86 @@
 {
-  "id": "ES2021_012",
-  "type": "Film",
-  "slug": "es2021-012-sis-dies-corrents",
-  "title": {
-    "native": "Sis dies corrents",
-    "english": "The Odd-Job Men"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-11-25",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=o2QTn-6i9fs",
-    "posterUrl": "https://www.imdb.com/title/tt9310606/mediaviewer/rm992668161/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "precarity",
-    "racial discrimination",
-    "low rank employment",
-    "migration",
-    "urban",
-    "regional identity",
-    "homosociality",
-    "retirement"
-  ],
-  "character": [
-    {
-      "id": "ES2021_012_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Pep Sarr\u00e0",
-        "slug": "pep-sarra",
-        "name": "Pep Sarr\u00e0",
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Relata el d\u00eda a d\u00eda de la vida de Moha, Valero y Pep, trabajadores de una peque\u00f1a empresa de fontaner\u00eda y electricidad en la periferia de Barcelona. Durante una semana, Moha, el m\u00e1s joven, tendr\u00e1 que demostrar que est\u00e1 preparado para sustituir a Pep, que se jubila. Pero Valero considera que Moha \u201cno da el perfil\u201d, y duda de que los clientes acepten a un trabajador marroqu\u00ed en sus casas.",
-    "english": "A peculiar team of three handymen has to face a series of eccentric clients. Their everyday job becomes a surrealist and exhilarating experience."
-  }
+    "type": "Film",
+    "id": "ES2021_012",
+    "slug": "es2021-012-sis-dies-corrents",
+    "title": {
+        "native": "Sis dies corrents",
+        "english": "The Odd-Job Men"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-11-25",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        "Neus Ball\u00fas"
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9310606/mediaviewer/rm992668161/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=o2QTn-6i9fs"
+    },
+    "synopsis": {
+        "native": "Relata el d\u00eda a d\u00eda de la vida de Moha, Valero y Pep, trabajadores de una peque\u00f1a empresa de fontaner\u00eda y electricidad en la periferia de Barcelona. Durante una semana, Moha, el m\u00e1s joven, tendr\u00e1 que demostrar que est\u00e1 preparado para sustituir a Pep, que se jubila. Pero Valero considera que Moha \u201cno da el perfil\u201d, y duda de que los clientes acepten a un trabajador marroqu\u00ed en sus casas.",
+        "english": "A peculiar team of three handymen has to face a series of eccentric clients. Their everyday job becomes a surrealist and exhilarating experience."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2021_012_01",
+            "film": "ES2021_012",
+            "person": {
+                "id": "Pep Sarr\u00e0",
+                "slug": "pep-sarra",
+                "name": "Pep Sarr\u00e0",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": "Neus Ball\u00fas",
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Pep Sarr\u00e0",
+                "slug": "pep-sarra",
+                "name": "Pep Sarr\u00e0",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "homosociality",
+        "urban",
+        "precarity",
+        "low rank employment",
+        "retirement",
+        "racial discrimination",
+        "regional identity",
+        "migration"
+    ]
 }

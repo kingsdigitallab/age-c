@@ -1,99 +1,177 @@
 {
-  "id": "ES2023_038",
-  "type": "Film",
-  "slug": "es2023-038-la-ermita",
-  "title": {
-    "native": "La ermita"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-10-18",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=492541",
-    "posterUrl": "https://www.imdb.com/title/tt23554012/mediaviewer/rm123348481/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama",
-    "Horror"
-  ],
-  "tags": [
-    "motherhood",
-    "personal memory",
-    "search for meaning",
-    "spirituality",
-    "religion",
-    "mentorship",
-    "personal trauma",
-    "self-employment",
-    "return home",
-    "substance abuse",
-    "physical illness",
-    "supernatural entity",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Carlota Pereda",
-      "slug": "carlota-pereda",
-      "name": "Carlota Pereda",
-      "birthYear": 1975,
-      "gender": "Female identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2023_038_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Elena Irureta",
-        "slug": "elena-irureta",
-        "name": "Elena Irureta",
-        "birthYear": 1955.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "ES2023_038",
+    "slug": "es2023-038-la-ermita",
+    "title": {
+        "native": "La ermita",
+        "english": ""
     },
-    {
-      "id": "ES2023_038_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Bel\u00e9n Rueda",
-        "slug": "belen-rueda",
-        "name": "Bel\u00e9n Rueda",
-        "birthYear": 1965.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Emma (Maia Zaitegi) quiere aprender a comunicarse con el esp\u00edritu de una ni\u00f1a que lleva siglos atrapada en la ermita de su pueblo. Intenta convencer a Carol (Bel\u00e9n Rueda), una incr\u00e9dula y falsa m\u00e9dium, para que le ense\u00f1e a hablar con fantasmas. Su ayuda ser\u00e1 el \u00fanico camino para seguir unida a su madre enferma cuando ella muera. Si Carol no la protege, la vida de Emma correr\u00e1 peligro.",
-    "english": "It follows the child Emma in her journey to learn how to communicate with the spirit of a girl, Uxoa, who has been trapped in a hermitage for centuries, so she tries to persuade Carol, a skeptical medium, to help her."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2023-10-18",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Carlota Pereda",
+            "slug": "carlota-pereda",
+            "name": "Carlota Pereda",
+            "birthYear": 1975,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Horror",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt23554012/mediaviewer/rm123348481/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=492541"
+    },
+    "synopsis": {
+        "native": "Emma (Maia Zaitegi) quiere aprender a comunicarse con el esp\u00edritu de una ni\u00f1a que lleva siglos atrapada en la ermita de su pueblo. Intenta convencer a Carol (Bel\u00e9n Rueda), una incr\u00e9dula y falsa m\u00e9dium, para que le ense\u00f1e a hablar con fantasmas. Su ayuda ser\u00e1 el \u00fanico camino para seguir unida a su madre enferma cuando ella muera. Si Carol no la protege, la vida de Emma correr\u00e1 peligro.",
+        "english": "It follows the child Emma in her journey to learn how to communicate with the spirit of a girl, Uxoa, who has been trapped in a hermitage for centuries, so she tries to persuade Carol, a skeptical medium, to help her."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2023_038_01",
+            "film": "ES2023_038",
+            "person": {
+                "id": "Bel\u00e9n Rueda",
+                "slug": "belen-rueda",
+                "name": "Bel\u00e9n Rueda",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2023_038_02",
+            "film": "ES2023_038",
+            "person": {
+                "id": "Elena Irureta",
+                "slug": "elena-irureta",
+                "name": "Elena Irureta",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Antton Bastero",
+                "slug": "antton-bastero",
+                "name": "Antton Bastero",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Bel\u00e9n Cruz",
+                "slug": "belen-cruz",
+                "name": "Bel\u00e9n Cruz",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Bel\u00e9n Rueda",
+                "slug": "belen-rueda",
+                "name": "Bel\u00e9n Rueda",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Carlota Pereda",
+                "slug": "carlota-pereda",
+                "name": "Carlota Pereda",
+                "birthYear": 1975,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Elena Irureta",
+                "slug": "elena-irureta",
+                "name": "Elena Irureta",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "I\u00f1aki Beraetxe",
+                "slug": "inaki-beraetxe",
+                "name": "I\u00f1aki Beraetxe",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "spirituality",
+        "rural",
+        "mentorship",
+        "motherhood",
+        "personal memory",
+        "personal trauma",
+        "physical illness",
+        "return home",
+        "search for meaning",
+        "substance abuse",
+        "self-employment",
+        "religion",
+        "supernatural entity"
+    ]
 }

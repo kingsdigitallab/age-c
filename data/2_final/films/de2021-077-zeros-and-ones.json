@@ -1,49 +1,81 @@
 {
-  "id": "DE2021_077",
-  "type": "Film",
-  "slug": "de2021-077-zeros-and-ones",
-  "title": {
-    "native": "Zeros and Ones",
-    "english": "Zeros and Ones"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-12-10",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=RHje2IaqZGg&ab_channel=LionsgateMovie",
-    "posterUrl": "https://www.imdb.com/title/tt13432484/mediaviewer/rm2717840385/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Unknown",
-    "Action",
-    "Thriller",
-    "Adventure",
-    "War Film"
-  ],
-  "tags": [
-    "urban"
-  ],
-  "director": [
-    {
-      "id": "Abel Ferrara",
-      "slug": "abel-ferrara",
-      "name": "Abel Ferrara",
-      "birthYear": 1951,
-      "gender": "Male identifying",
-      "nationality": "United States of America (the)"
-    }
-  ],
-  "synopsis": {
-    "native": "Jericho (Ethan Hawke) ist ein amerikanischer Soldat, der im post-apokalyptischen Rom stationiert ist, das von einer Pandemie und einem Krieg heimgesucht wird. Nachdem er Zeuge wurde, wie der Vatikan in den Nachthimmel gesprengt wurde, begibt er sich auf eine Mission, um die Wahrheit aufzudecken und zu dokumentieren, damit die Welt sie sehen kann. Au\u00dferdem will er die wahren Terroristen zu stoppen, die daf\u00fcr verantwortlich sind.",
-    "english": "An American soldier stationed in Rome with the Vatican blown up, embarks on a hero's journey to uncover and defend against an unknown enemy threatening the entire world."
-  }
+    "type": "Film",
+    "id": "DE2021_077",
+    "slug": "de2021-077-zeros-and-ones",
+    "title": {
+        "native": "Zeros and Ones",
+        "english": "Zeros and Ones"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-12-10",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Abel Ferrara",
+            "slug": "abel-ferrara",
+            "name": "Abel Ferrara",
+            "birthYear": 1951,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United States of America (the)"
+        }
+    ],
+    "genre": [
+        "Action",
+        "Adventure",
+        "Unknown",
+        "Thriller",
+        "War Film"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt13432484/mediaviewer/rm2717840385/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=RHje2IaqZGg&ab_channel=LionsgateMovie"
+    },
+    "synopsis": {
+        "native": "Jericho (Ethan Hawke) ist ein amerikanischer Soldat, der im post-apokalyptischen Rom stationiert ist, das von einer Pandemie und einem Krieg heimgesucht wird. Nachdem er Zeuge wurde, wie der Vatikan in den Nachthimmel gesprengt wurde, begibt er sich auf eine Mission, um die Wahrheit aufzudecken und zu dokumentieren, damit die Welt sie sehen kann. Au\u00dferdem will er die wahren Terroristen zu stoppen, die daf\u00fcr verantwortlich sind.",
+        "english": "An American soldier stationed in Rome with the Vatican blown up, embarks on a hero's journey to uncover and defend against an unknown enemy threatening the entire world."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Abel Ferrara",
+                "slug": "abel-ferrara",
+                "name": "Abel Ferrara",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Babak Karimi",
+                "slug": "babak-karimi",
+                "name": "Babak Karimi",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Czechia"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": "Carla Cassola",
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "urban"
+    ]
 }

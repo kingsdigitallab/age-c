@@ -1,74 +1,186 @@
 {
-  "id": "DE2019_083",
-  "type": "Film",
-  "slug": "de2019-083-deutschstunde",
-  "title": {
-    "native": "Deutschstunde",
-    "english": "The German Lesson"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-10-03",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/video/vi4023369497/?playlistId=tt7785866&ref_=tt_pr_ov_vi",
-    "posterUrl": "https://www.imdb.com/title/tt7785866/mediaviewer/rm3036910593/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Historical film (Heritage Film)",
-    "War Film",
-    "Drama"
-  ],
-  "tags": [
-    "parenthood",
-    "intergenerational friendship",
-    "artistic creation",
-    "intergenerational conflict",
-    "war",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Christian Schwochow",
-      "slug": "christian-schwochow",
-      "name": "Christian Schwochow",
-      "birthYear": 1978,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "character": [
-    {
-      "id": "DE2019_083_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Gisela Schneeberger",
-        "slug": "gisela-schneeberger",
-        "name": "Gisela Schneeberger",
-        "birthYear": 1948.0,
-        "gender": "Female identifying",
-        "nationality": "Germany"
-      },
-      "role": "Unknown"
-    }
-  ],
-  "synopsis": {
-    "native": "Siggi Jepsen (Tom Gronau) sitzt im Deutschland der Nachkriegszeit in einer Anstalt f\u00fcr schwer erziehbare Jugendliche ein. Er soll einen Aufsatz zum Thema \u201eDie Freuden der Pflicht\u201c schreiben, hat jedoch keine Idee. Erst als er am n\u00e4chsten Tag in eine Zelle gesperrt wird, brechen die Erinnerungen an seine Kindheit w\u00e4hrend des Zweiten Weltkriegs aus ihm heraus: Sein Vater Jens Ole Jepsen (Ulrich Noethen), ein Polizist, erhielt damals den Auftrag, dem befreundeten expressionistischen Maler Ludwig Nansen (Tobias Moretti) ein Berufsverbot zu \u00fcberbringen. Bei Nansens \u00dcberwachung sollte ihm damals Siggi (als Kind: Levi Eisenbl\u00e4tter) helfen, dieser rebellierte jedoch schlie\u00dflich gegen seinen Vater, schlug sich auf die Seite des widerspenstigen Nansen und versteckte einige der verbotenen Bilder, was schlussendlich zu seinem Aufenthalt in der Anstalt f\u00fchrte.",
-    "english": "Siggi is in prison during the post-war period and tasked to write an essay. He remembers that his father was supposed to ban his profession from a friend who was a painter and Siggi was supposed to help him but he rebelled."
-  }
+    "type": "Film",
+    "id": "DE2019_083",
+    "slug": "de2019-083-deutschstunde",
+    "title": {
+        "native": "Deutschstunde",
+        "english": "The German Lesson"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-10-03",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Christian Schwochow",
+            "slug": "christian-schwochow",
+            "name": "Christian Schwochow",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Historical film (Heritage Film)",
+        "War Film"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt7785866/mediaviewer/rm3036910593/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/video/vi4023369497/?playlistId=tt7785866&ref_=tt_pr_ov_vi"
+    },
+    "synopsis": {
+        "native": "Siggi Jepsen (Tom Gronau) sitzt im Deutschland der Nachkriegszeit in einer Anstalt f\u00fcr schwer erziehbare Jugendliche ein. Er soll einen Aufsatz zum Thema \u201eDie Freuden der Pflicht\u201c schreiben, hat jedoch keine Idee. Erst als er am n\u00e4chsten Tag in eine Zelle gesperrt wird, brechen die Erinnerungen an seine Kindheit w\u00e4hrend des Zweiten Weltkriegs aus ihm heraus: Sein Vater Jens Ole Jepsen (Ulrich Noethen), ein Polizist, erhielt damals den Auftrag, dem befreundeten expressionistischen Maler Ludwig Nansen (Tobias Moretti) ein Berufsverbot zu \u00fcberbringen. Bei Nansens \u00dcberwachung sollte ihm damals Siggi (als Kind: Levi Eisenbl\u00e4tter) helfen, dieser rebellierte jedoch schlie\u00dflich gegen seinen Vater, schlug sich auf die Seite des widerspenstigen Nansen und versteckte einige der verbotenen Bilder, was schlussendlich zu seinem Aufenthalt in der Anstalt f\u00fchrte.",
+        "english": "Siggi is in prison during the post-war period and tasked to write an essay. He remembers that his father was supposed to ban his profession from a friend who was a painter and Siggi was supposed to help him but he rebelled."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "DE2019_083_01",
+            "film": "DE2019_083",
+            "person": {
+                "id": "Gisela Schneeberger",
+                "slug": "gisela-schneeberger",
+                "name": "Gisela Schneeberger",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Artus Maria Matthiessen",
+                "slug": "artus-maria-matthiessen",
+                "name": "Artus Maria Matthiessen",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Christian Schwochow",
+                "slug": "christian-schwochow",
+                "name": "Christian Schwochow",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Joachim Regelien",
+                "slug": "joachim-regelien",
+                "name": "Joachim Regelien",
+                "birthYear": 1941,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Klaus Peeck",
+                "slug": "klaus-peeck",
+                "name": "Klaus Peeck",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Michael Wittenborn",
+                "slug": "michael-wittenborn",
+                "name": "Michael Wittenborn",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Peter Badst\u00fcbner",
+                "slug": "peter-badstubner",
+                "name": "Peter Badst\u00fcbner",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Tobias Moretti",
+                "slug": "tobias-moretti",
+                "name": "Tobias Moretti",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Austria"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Tom Zahner",
+                "slug": "tom-zahner",
+                "name": "Tom Zahner",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Switzerland"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Ulrich Noethen",
+                "slug": "ulrich-noethen",
+                "name": "Ulrich Noethen",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "war",
+        "parenthood",
+        "rural",
+        "artistic creation",
+        "intergenerational conflict",
+        "intergenerational friendship"
+    ]
 }

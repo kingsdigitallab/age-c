@@ -1,51 +1,80 @@
 {
-  "id": "ES2022_100",
-  "type": "Film",
-  "slug": "es2022-100-sonic-fantasy",
-  "title": {
-    "native": "Sonic Fantasy"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-06-21",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=152611",
-    "posterUrl": "https://www.imdb.com/title/tt19718808/mediaviewer/rm3044279809/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Musical"
-  ],
-  "tags": [
-    "personal memory",
-    "artistic creation",
-    "cultural memory",
-    "self-employment",
-    "legacy",
-    "celebrity",
-    "technology"
-  ],
-  "director": [
-    {
-      "id": "Marcos Cabot\u00e1",
-      "slug": "marcos-cabota",
-      "name": "Marcos Cabot\u00e1",
-      "birthYear": 1981,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Bruce Swedien est\u00e1 considerado el mejor ingeniero de sonido de la historia. Durante tres d\u00e9cadas fue la mano derecha de Michael Jackson y juntos crearon los \u00e9xitos m\u00e1s vendidos de todos los tiempos.",
-    "english": "Bruce Swedien is considered the best sound engineer ever. For three decades he was Michael Jackson's right-hand man and together they created the best-selling hits of all time."
-  }
+    "type": "Film",
+    "id": "ES2022_100",
+    "slug": "es2022-100-sonic-fantasy",
+    "title": {
+        "native": "Sonic Fantasy",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-06-21",
+        "year": 2022
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Marcos Cabot\u00e1",
+            "slug": "marcos-cabota",
+            "name": "Marcos Cabot\u00e1",
+            "birthYear": 1981,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Musical"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt19718808/mediaviewer/rm3044279809/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=152611"
+    },
+    "synopsis": {
+        "native": "Bruce Swedien est\u00e1 considerado el mejor ingeniero de sonido de la historia. Durante tres d\u00e9cadas fue la mano derecha de Michael Jackson y juntos crearon los \u00e9xitos m\u00e1s vendidos de todos los tiempos.",
+        "english": "Bruce Swedien is considered the best sound engineer ever. For three decades he was Michael Jackson's right-hand man and together they created the best-selling hits of all time."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Bruce Swedien",
+                "slug": "bruce-swedien",
+                "name": "Bruce Swedien",
+                "birthYear": 1934,
+                "deathYear": 2020,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Marcos Cabot\u00e1",
+                "slug": "marcos-cabota",
+                "name": "Marcos Cabot\u00e1",
+                "birthYear": 1981,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "cultural memory",
+        "artistic creation",
+        "personal memory",
+        "self-employment",
+        "technology",
+        "legacy",
+        "celebrity"
+    ]
 }

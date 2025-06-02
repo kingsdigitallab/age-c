@@ -1,93 +1,134 @@
 {
-  "id": "ES2022_051",
-  "type": "Film",
-  "slug": "es2022-051-la-cima",
-  "title": {
-    "native": "La cima",
-    "english": "Beyond the Summit"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-03-23",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "ES2022_051",
+    "slug": "es2022-051-la-cima",
+    "title": {
+        "native": "La cima",
+        "english": "Beyond the Summit"
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt13667044/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_La%2520cima",
-    "posterUrl": "https://www.imdb.com/title/tt13667044/mediaviewer/rm322428929/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Sports Film",
-    "Adventure",
-    "Drama"
-  ],
-  "tags": [
-    "natural"
-  ],
-  "director": [
-    {
-      "id": "Ib\u00f3n Cormenzana",
-      "slug": "ibon-cormenzana",
-      "name": "Ib\u00f3n Cormenzana",
-      "birthYear": 1972,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2022_051_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Blanca Apil\u00e1nez",
-        "slug": "blanca-apilanez",
-        "name": "Blanca Apil\u00e1nez",
-        "birthYear": 1961.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2022-03-23",
+        "year": 2022
     },
-    {
-      "id": "ES2022_051_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Kandido Uranga",
-        "slug": "kandido-uranga",
-        "name": "Kandido Uranga",
-        "birthYear": 1955.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Mateo (Javier Rey) se enfrenta por primera vez a la monta\u00f1a m\u00e1s peligrosa del planeta, el Annapurna, con el reto de llegar hasta la cima y cumplir as\u00ed una antigua promesa. En su ascenso sufre un accidente que le deja inconsciente y gravemente herido. Horas m\u00e1s tarde es rescatado por Ione (Patricia L\u00f3pez Arnaiz), una alpinista experimentada que est\u00e1 pasando el invierno en un refugio, sola y alejada del mundo. A pesar de no entender las razones que han llevado a Mateo hasta all\u00ed, Ione intentar\u00e1 ayudarle a alcanzar su meta.",
-    "english": "After a man seeking to finally reach his goal of climbing Annapurna has an accident, a woman climber who has been taking refuge tries to help him."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Ib\u00f3n Cormenzana",
+            "slug": "ibon-cormenzana",
+            "name": "Ib\u00f3n Cormenzana",
+            "birthYear": 1972,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Adventure",
+        "Sports Film"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt13667044/mediaviewer/rm322428929/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt13667044/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_La%2520cima"
+    },
+    "synopsis": {
+        "native": "Mateo (Javier Rey) se enfrenta por primera vez a la monta\u00f1a m\u00e1s peligrosa del planeta, el Annapurna, con el reto de llegar hasta la cima y cumplir as\u00ed una antigua promesa. En su ascenso sufre un accidente que le deja inconsciente y gravemente herido. Horas m\u00e1s tarde es rescatado por Ione (Patricia L\u00f3pez Arnaiz), una alpinista experimentada que est\u00e1 pasando el invierno en un refugio, sola y alejada del mundo. A pesar de no entender las razones que han llevado a Mateo hasta all\u00ed, Ione intentar\u00e1 ayudarle a alcanzar su meta.",
+        "english": "After a man seeking to finally reach his goal of climbing Annapurna has an accident, a woman climber who has been taking refuge tries to help him."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2022_051_01",
+            "film": "ES2022_051",
+            "person": {
+                "id": "Blanca Apil\u00e1nez",
+                "slug": "blanca-apilanez",
+                "name": "Blanca Apil\u00e1nez",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2022_051_02",
+            "film": "ES2022_051",
+            "person": {
+                "id": "Kandido Uranga",
+                "slug": "kandido-uranga",
+                "name": "Kandido Uranga",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Blanca Apil\u00e1nez",
+                "slug": "blanca-apilanez",
+                "name": "Blanca Apil\u00e1nez",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Ib\u00f3n Cormenzana",
+                "slug": "ibon-cormenzana",
+                "name": "Ib\u00f3n Cormenzana",
+                "birthYear": 1972,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Kandido Uranga",
+                "slug": "kandido-uranga",
+                "name": "Kandido Uranga",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "natural"
+    ]
 }

@@ -1,78 +1,120 @@
 {
-  "id": "ES2020_049",
-  "type": "Film",
-  "slug": "es2020-049-mi-gran-despedida",
-  "title": {
-    "native": "Mi gran despedida",
-    "english": "My Grand Farewell"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-08-26",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=592724",
-    "posterUrl": "https://www.imdb.com/title/tt9753002/mediaviewer/rm2848760577/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Romance",
-    "Drama"
-  ],
-  "tags": [
-    "extended family",
-    "wedding",
-    "fatherhood"
-  ],
-  "director": [
-    {
-      "id": "Antonio Hens",
-      "slug": "antonio-hens",
-      "name": "Antonio Hens",
-      "birthYear": 1969,
-      "gender": "Male identifying",
-      "nationality": "Spain"
+    "type": "Film",
+    "id": "ES2020_049",
+    "slug": "es2020-049-mi-gran-despedida",
+    "title": {
+        "native": "Mi gran despedida",
+        "english": "My Grand Farewell"
     },
-    {
-      "id": "Antonio \u00c1lamo",
-      "slug": "antonio-alamo",
-      "name": "Antonio \u00c1lamo",
-      "birthYear": 1964,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2020_049_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Juan Manuel Lara",
-        "slug": "juan-manuel-lara",
-        "name": "Juan Manuel Lara",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Es la historia de tres amores: el de Puri, dispuesta a hacer lo posible y lo imposible por dejar las cosas claras con su novio; el de Milagri, que guarda m\u00e1s secretos de los que su naturaleza le permite, y el de Sara, cuya inminente boda re\u00fane a un variopinto grupo de mujeres para festejar su compromiso en un d\u00eda que deber\u00eda ser muy feliz para todas. Pero va a ser que no. Es tambi\u00e9n la historia de dos cat\u00e1strofes, aunque quiz\u00e1 nos quedamos cortos. Y, por \u00faltimo, es la historia de un acto de coraje, aunque, por supuesto, haya siempre que pagar un precio por ello."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2020-08-26",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Antonio Hens",
+            "slug": "antonio-hens",
+            "name": "Antonio Hens",
+            "birthYear": 1969,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        },
+        {
+            "id": "Antonio \u00c1lamo",
+            "slug": "antonio-alamo",
+            "name": "Antonio \u00c1lamo",
+            "birthYear": 1964,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Romance",
+        "Comedy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9753002/mediaviewer/rm2848760577/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=592724"
+    },
+    "synopsis": {
+        "native": "Es la historia de tres amores: el de Puri, dispuesta a hacer lo posible y lo imposible por dejar las cosas claras con su novio; el de Milagri, que guarda m\u00e1s secretos de los que su naturaleza le permite, y el de Sara, cuya inminente boda re\u00fane a un variopinto grupo de mujeres para festejar su compromiso en un d\u00eda que deber\u00eda ser muy feliz para todas. Pero va a ser que no. Es tambi\u00e9n la historia de dos cat\u00e1strofes, aunque quiz\u00e1 nos quedamos cortos. Y, por \u00faltimo, es la historia de un acto de coraje, aunque, por supuesto, haya siempre que pagar un precio por ello.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2020_049_01",
+            "film": "ES2020_049",
+            "person": {
+                "id": "Juan Manuel Lara",
+                "slug": "juan-manuel-lara",
+                "name": "Juan Manuel Lara",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Antonio Hens",
+                "slug": "antonio-hens",
+                "name": "Antonio Hens",
+                "birthYear": 1969,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Antonio \u00c1lamo",
+                "slug": "antonio-alamo",
+                "name": "Antonio \u00c1lamo",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Juan Manuel Lara",
+                "slug": "juan-manuel-lara",
+                "name": "Juan Manuel Lara",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "wedding",
+        "extended family",
+        "fatherhood"
+    ]
 }

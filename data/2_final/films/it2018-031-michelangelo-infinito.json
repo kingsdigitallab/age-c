@@ -1,69 +1,96 @@
 {
-  "id": "IT2018_031",
-  "type": "Film",
-  "slug": "it2018-031-michelangelo-infinito",
-  "title": {
-    "native": "Michelangelo - Infinito",
-    "english": "Michelangelo - Endless"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-09-27",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=Q0PjvWvcckw",
-    "posterUrl": "https://www.imdb.com/title/tt7587878/mediaviewer/rm2642835456/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Performative mode",
-    "Biopic"
-  ],
-  "tags": [
-    "artistic creation"
-  ],
-  "director": [
-    {
-      "id": "Emanuele Imbucci",
-      "slug": "emanuele-imbucci",
-      "name": "Emanuele Imbucci",
-      "birthYear": 1977,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2018_031_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Ivano Marescotti",
-        "slug": "ivano-marescotti",
-        "name": "Ivano Marescotti",
-        "birthYear": 1946.0,
-        "deathYear": 2023.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Un ritratto del grande genio del Rinascimento.",
-    "english": "The life of the genius of Italian Reinassance, his fascinating and and varied artistic production that left an everlasting sign in the history of universal art."
-  }
+    "type": "Film",
+    "id": "IT2018_031",
+    "slug": "it2018-031-michelangelo-infinito",
+    "title": {
+        "native": "Michelangelo - Infinito",
+        "english": "Michelangelo - Endless"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-09-27",
+        "year": 2018
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Emanuele Imbucci",
+            "slug": "emanuele-imbucci",
+            "name": "Emanuele Imbucci",
+            "birthYear": 1977,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Performative mode",
+        "Biopic"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt7587878/mediaviewer/rm2642835456/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=Q0PjvWvcckw"
+    },
+    "synopsis": {
+        "native": "Un ritratto del grande genio del Rinascimento.",
+        "english": "The life of the genius of Italian Reinassance, his fascinating and and varied artistic production that left an everlasting sign in the history of universal art."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2018_031_01",
+            "film": "IT2018_031",
+            "person": {
+                "id": "Ivano Marescotti",
+                "slug": "ivano-marescotti",
+                "name": "Ivano Marescotti",
+                "birthYear": 1946,
+                "deathYear": 2023,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Emanuele Imbucci",
+                "slug": "emanuele-imbucci",
+                "name": "Emanuele Imbucci",
+                "birthYear": 1977,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Ivano Marescotti",
+                "slug": "ivano-marescotti",
+                "name": "Ivano Marescotti",
+                "birthYear": 1946,
+                "deathYear": 2023,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "artistic creation"
+    ]
 }

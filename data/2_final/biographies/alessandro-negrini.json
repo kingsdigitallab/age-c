@@ -1,29 +1,39 @@
 {
-  "id": "Alessandro Negrini",
-  "type": "Biography",
-  "slug": "alessandro-negrini",
-  "name": "Alessandro Negrini",
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Participatory mode",
-      "id": "IT2023_127",
-      "production": {
-        "country": "Slovenia",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "it2023-127-la-luna-sott-acqua",
-      "tags": "state institutions",
-      "title": {
-        "english": "The moon beneath the water",
-        "native": "La luna sott'acqua"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Alessandro Negrini",
+    "slug": "alessandro-negrini",
+    "name": "Alessandro Negrini",
+    "birthYear": 0,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2023_127",
+                "slug": "it2023-127-la-luna-sott-acqua",
+                "title": {
+                    "native": "La luna sott'acqua",
+                    "english": "The moon beneath the water"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-10-09",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Slovenia",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

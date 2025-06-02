@@ -1,29 +1,43 @@
 {
-  "id": "Edward Hall",
-  "type": "Biography",
-  "slug": "edward-hall",
-  "name": "Edward Hall",
-  "birthYear": 1966,
-  "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Fantasy",
-      "id": "GB2021_047",
-      "production": {
-        "country": "United States of America (the)",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "VOD release",
-        "year": 2021
-      },
-      "slug": "gb2021-047-blithe-spirit",
-      "tags": "self-employment",
-      "title": {
-        "native": "Blithe Spirit"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Edward Hall",
+    "slug": "edward-hall",
+    "name": "Edward Hall",
+    "birthYear": 1966,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "GB2021_047",
+                "slug": "gb2021-047-blithe-spirit",
+                "title": {
+                    "native": "Blithe Spirit",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-01-15",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Australia",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

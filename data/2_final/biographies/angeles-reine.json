@@ -1,47 +1,57 @@
 {
-  "id": "\u00c1ngeles Rein\u00e9",
-  "type": "Biography",
-  "slug": "angeles-reine",
-  "name": "\u00c1ngeles Rein\u00e9",
-  "nationality": "Spain",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Romance",
-      "id": "ES2019_024",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "es2019-024-salir-del-ropero",
-      "tags": "marriage",
-      "title": {
-        "english": "So My Grandma's A Lesbian!",
-        "native": "Salir del ropero"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Children's Film",
-      "id": "ES2022_026",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "es2022-026-heroes-de-barrio",
-      "tags": "urban",
-      "title": {
-        "native": "H\u00e9roes de barrio"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "\u00c1ngeles Rein\u00e9",
+    "slug": "angeles-reine",
+    "name": "\u00c1ngeles Rein\u00e9",
+    "birthYear": 0,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2019_024",
+                "slug": "es2019-024-salir-del-ropero",
+                "title": {
+                    "native": "Salir del ropero",
+                    "english": "So My Grandma's A Lesbian!"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-12-13",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "ES2022_026",
+                "slug": "es2022-026-heroes-de-barrio",
+                "title": {
+                    "native": "H\u00e9roes de barrio",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-07-26",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

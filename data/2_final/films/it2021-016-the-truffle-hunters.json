@@ -1,62 +1,93 @@
 {
-  "id": "IT2021_016",
-  "type": "Film",
-  "slug": "it2021-016-the-truffle-hunters",
-  "title": {
-    "native": "The truffle hunters"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-07-21",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "IT2021_016",
+    "slug": "it2021-016-the-truffle-hunters",
+    "title": {
+        "native": "The truffle hunters",
+        "english": ""
     },
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2021-07-21",
+        "year": 2021
     },
-    {
-      "country": "Greece",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=KFYhrc0AnVw",
-    "posterUrl": "https://www.imdb.com/title/tt11394318/mediaviewer/rm391489025/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Observational mode"
-  ],
-  "tags": [
-    "regional identity",
-    "non-human companionship",
-    "disappearing professions",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Michael Dweck",
-      "slug": "michael-dweck",
-      "name": "Michael Dweck",
-      "birthYear": 1957,
-      "gender": "Male identifying",
-      "nationality": "United States of America (the)"
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Michael Dweck",
+            "slug": "michael-dweck",
+            "name": "Michael Dweck",
+            "birthYear": 1957,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United States of America (the)"
+        },
+        {
+            "id": "Gregory Kershaw",
+            "slug": "gregory-kershaw",
+            "name": "Gregory Kershaw",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United States of America (the)"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Observational mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt11394318/mediaviewer/rm391489025/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=KFYhrc0AnVw"
     },
-    {
-      "id": "Gregory Kershaw",
-      "slug": "gregory-kershaw",
-      "name": "Gregory Kershaw",
-      "gender": "Male identifying",
-      "nationality": "United States of America (the)"
-    }
-  ],
-  "synopsis": {
-    "native": "Nei boschi del Nord Italia risiede il pregiato tartufo bianco d'Alba. Desiderato dai mecenati pi\u00f9 ricchi del mondo, rimane un mistero pungente ma rarefatto. Non pu\u00f2 essere coltivato nemmeno trovato dal pi\u00f9 inventivo dei escavatori.",
-    "english": "Deep in the forests of Piedmont, Italy, a handful of men, seventy or eighty years old, hunt for the rare and expensive white Alba truffle-which to date has resisted all of modern science's efforts at cultivation."
-  }
+    "synopsis": {
+        "native": "Nei boschi del Nord Italia risiede il pregiato tartufo bianco d'Alba. Desiderato dai mecenati pi\u00f9 ricchi del mondo, rimane un mistero pungente ma rarefatto. Non pu\u00f2 essere coltivato nemmeno trovato dal pi\u00f9 inventivo dei escavatori.",
+        "english": "Deep in the forests of Piedmont, Italy, a handful of men, seventy or eighty years old, hunt for the rare and expensive white Alba truffle-which to date has resisted all of modern science's efforts at cultivation."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Greece",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Gregory Kershaw",
+                "slug": "gregory-kershaw",
+                "name": "Gregory Kershaw",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Michael Dweck",
+                "slug": "michael-dweck",
+                "name": "Michael Dweck",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "non-human companionship",
+        "rural",
+        "regional identity",
+        "disappearing professions"
+    ]
 }

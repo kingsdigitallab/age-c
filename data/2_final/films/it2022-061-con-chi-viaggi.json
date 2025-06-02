@@ -1,59 +1,103 @@
 {
-  "id": "IT2022_061",
-  "type": "Film",
-  "slug": "it2022-061-con-chi-viaggi",
-  "title": {
-    "native": "Con chi viaggi",
-    "english": "Drive Me Crazy"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-05-23",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=964Z575m4H4",
-    "posterUrl": "https://www.imdb.com/title/tt16088368/mediaviewer/rm2699956993/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Road Movie",
-    "Thriller"
-  ],
-  "tags": [
-    "technology"
-  ],
-  "character": [
-    {
-      "id": "IT2022_061_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Pasquale Lillo Petrolo",
-        "slug": "pasquale-lillo-petrolo",
-        "name": "Pasquale Lillo Petrolo",
-        "birthYear": 1962.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Quattro sconosciuti si incontrano grazie ad una app per condividere un viaggio in auto. Tutto sembra scorrere normalmente ma, come spesso accade, la realt\u00e0 non \u00e8 quella che sembra. Paolo (Lillo) \u00e8 un irrequieto uomo dall\u2019aspetto simpatico che sembra nascondere qualcosa. Michele (Fabio Rovazzi) e Anna (Alessandra Mastronardi) nascondono di aver avuto un passato insieme. Elisa (Michela De Rossi) non sa di avere con Paolo un rapporto decisamente speciale. Tra una chiacchierata e l\u2019altra, risate e colpi di scena, una commedia on the road con sfumature noir che permette di esplorare relazioni umane inattese. Un viaggio che si trasforma in un\u2019avventura destinata a cambiare le vite di tutti i personaggi.",
-    "english": "Four strangers meet thanks to an app to share a car trip. Everything seems to flow normally but, as often happens, reality is not what it seems."
-  }
+    "type": "Film",
+    "id": "IT2022_061",
+    "slug": "it2022-061-con-chi-viaggi",
+    "title": {
+        "native": "Con chi viaggi",
+        "english": "Drive Me Crazy"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-05-23",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        "Niccol\u00f2 Celaia",
+        "Antonio Usbergo",
+        "aka Younuts"
+    ],
+    "genre": [
+        "Road Movie",
+        "Comedy",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt16088368/mediaviewer/rm2699956993/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=964Z575m4H4"
+    },
+    "synopsis": {
+        "native": "Quattro sconosciuti si incontrano grazie ad una app per condividere un viaggio in auto. Tutto sembra scorrere normalmente ma, come spesso accade, la realt\u00e0 non \u00e8 quella che sembra. Paolo (Lillo) \u00e8 un irrequieto uomo dall\u2019aspetto simpatico che sembra nascondere qualcosa. Michele (Fabio Rovazzi) e Anna (Alessandra Mastronardi) nascondono di aver avuto un passato insieme. Elisa (Michela De Rossi) non sa di avere con Paolo un rapporto decisamente speciale. Tra una chiacchierata e l\u2019altra, risate e colpi di scena, una commedia on the road con sfumature noir che permette di esplorare relazioni umane inattese. Un viaggio che si trasforma in un\u2019avventura destinata a cambiare le vite di tutti i personaggi.",
+        "english": "Four strangers meet thanks to an app to share a car trip. Everything seems to flow normally but, as often happens, reality is not what it seems."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2022_061_01",
+            "film": "IT2022_061",
+            "person": {
+                "id": "Pasquale Lillo Petrolo",
+                "slug": "pasquale-lillo-petrolo",
+                "name": "Pasquale Lillo Petrolo",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Antonio Usbergo aka Younuts",
+                "slug": "antonio-usbergo-aka-younuts",
+                "name": "Antonio Usbergo aka Younuts",
+                "birthYear": 1986,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Niccol\u00f2 Celaia aka Younuts",
+                "slug": "niccolo-celaia-aka-younuts",
+                "name": "Niccol\u00f2 Celaia aka Younuts",
+                "birthYear": 1986,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Pasquale Lillo Petrolo",
+                "slug": "pasquale-lillo-petrolo",
+                "name": "Pasquale Lillo Petrolo",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "technology"
+    ]
 }

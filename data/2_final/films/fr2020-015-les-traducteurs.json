@@ -1,73 +1,101 @@
 {
-  "id": "FR2020_015",
-  "type": "Film",
-  "slug": "fr2020-015-les-traducteurs",
-  "title": {
-    "native": "Les Traducteurs",
-    "english": "The Translators"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-01-29",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2020_015",
+    "slug": "fr2020-015-les-traducteurs",
+    "title": {
+        "native": "Les Traducteurs",
+        "english": "The Translators"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=K3cMMLmKm4w",
-    "posterUrl": "https://medias.unifrance.org/medias/204/105/223692/format_page/les-traducteurs.jpg"
-  },
-  "genre": [
-    "Thriller"
-  ],
-  "tags": [
-    "high rank employment",
-    "abuse",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "R\u00e9gis Roinsard",
-      "slug": "regis-roinsard",
-      "name": "R\u00e9gis Roinsard",
-      "birthYear": 1972,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2020_015_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Lambert Wilson",
-        "slug": "lambert-wilson",
-        "name": "Lambert Wilson",
-        "birthYear": 1958.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Isol\u00e9s dans une luxueuse demeure sans aucun contact possible avec l'ext\u00e9rieur, neuf traducteurs sont rassembl\u00e9s pour travailler sur le dernier tome d'un des plus grands succ\u00e8s de la litt\u00e9rature mondiale. Mais lorsque les dix premi\u00e8res pages du roman sont publi\u00e9es sur internet, et qu'un pirate menace de d\u00e9voiler la suite si on ne lui verse pas une ran\u00e7on colossale, une question devient obs\u00e9dante : d'o\u00f9 vient la fuite ?",
-    "english": "Nine translators, hired to translate the eagerly awaited final book of a bestselling trilogy, are confined in a luxurious bunker. When the first ten pages of the top-secret manuscript appear online, the dream job becomes a nightmare \u2013 the thief is one of them and the publisher (Lambert Wilson) is ready to do whatever it takes to unmask him\u2026 or her. A suspenseful, edge-of-the-seat whodunit that will keep you riveted till the very end."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2020-01-29",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "R\u00e9gis Roinsard",
+            "slug": "regis-roinsard",
+            "name": "R\u00e9gis Roinsard",
+            "birthYear": 1972,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/204/105/223692/format_page/les-traducteurs.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=K3cMMLmKm4w"
+    },
+    "synopsis": {
+        "native": "Isol\u00e9s dans une luxueuse demeure sans aucun contact possible avec l'ext\u00e9rieur, neuf traducteurs sont rassembl\u00e9s pour travailler sur le dernier tome d'un des plus grands succ\u00e8s de la litt\u00e9rature mondiale. Mais lorsque les dix premi\u00e8res pages du roman sont publi\u00e9es sur internet, et qu'un pirate menace de d\u00e9voiler la suite si on ne lui verse pas une ran\u00e7on colossale, une question devient obs\u00e9dante : d'o\u00f9 vient la fuite ?",
+        "english": "Nine translators, hired to translate the eagerly awaited final book of a bestselling trilogy, are confined in a luxurious bunker. When the first ten pages of the top-secret manuscript appear online, the dream job becomes a nightmare \u2013 the thief is one of them and the publisher (Lambert Wilson) is ready to do whatever it takes to unmask him\u2026 or her. A suspenseful, edge-of-the-seat whodunit that will keep you riveted till the very end."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2020_015_01",
+            "film": "FR2020_015",
+            "person": {
+                "id": "Lambert Wilson",
+                "slug": "lambert-wilson",
+                "name": "Lambert Wilson",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Lambert Wilson",
+                "slug": "lambert-wilson",
+                "name": "Lambert Wilson",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "R\u00e9gis Roinsard",
+                "slug": "regis-roinsard",
+                "name": "R\u00e9gis Roinsard",
+                "birthYear": 1972,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "superior-employee relationship",
+        "high rank employment",
+        "abuse"
+    ]
 }

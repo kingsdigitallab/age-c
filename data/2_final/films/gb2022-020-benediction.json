@@ -1,127 +1,206 @@
 {
-  "id": "GB2022_020",
-  "type": "Film",
-  "slug": "gb2022-020-benediction",
-  "title": {
-    "native": "Benediction"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-05-20",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "GB2022_020",
+    "slug": "gb2022-020-benediction",
+    "title": {
+        "native": "Benediction",
+        "english": ""
     },
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt6852178/?ref_=nv_sr_srsg_1_tt_7_nm_0_in_0_q_Benediction",
-    "posterUrl": "https://www.imdb.com/title/tt6852178/mediaviewer/rm1956060929/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Historical film (Heritage Film)",
-    "War Film",
-    "Drama",
-    "Biopic"
-  ],
-  "tags": [
-    "wealth",
-    "motherhood",
-    "personal memory",
-    "artistic creation",
-    "sex",
-    "religion",
-    "national identity",
-    "stages of life",
-    "war",
-    "lgbtqi",
-    "legacy",
-    "activism",
-    "medical treatment",
-    "collective trauma",
-    "search for meaning"
-  ],
-  "director": [
-    {
-      "id": "Terence Davies",
-      "slug": "terence-davies",
-      "name": "Terence Davies",
-      "birthYear": 1945,
-      "deathYear": 2023,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2022_020_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Simon Russell Beale",
-        "slug": "simon-russell-beale",
-        "name": "Simon Russell Beale",
-        "birthYear": 1961.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2022-05-20",
+        "year": 2022
     },
-    {
-      "id": "GB2022_020_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Homosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Peter Capaldi",
-        "slug": "peter-capaldi",
-        "name": "Peter Capaldi",
-        "birthYear": 1958.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Terence Davies",
+            "slug": "terence-davies",
+            "name": "Terence Davies",
+            "birthYear": 1945,
+            "deathYear": 2023,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Biopic",
+        "Drama",
+        "Historical film (Heritage Film)",
+        "War Film"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt6852178/mediaviewer/rm1956060929/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt6852178/?ref_=nv_sr_srsg_1_tt_7_nm_0_in_0_q_Benediction"
     },
-    {
-      "id": "GB2022_020_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Geraldine James",
-        "slug": "geraldine-james",
-        "name": "Geraldine James",
-        "birthYear": 1950.0,
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Legendary 20th century English war poet Siegfried Sassoon embarks on a life-long quest for personal salvation through his experiences with family, war, his writing, and destructive relationships. True salvation can only come from within."
-  }
+    "synopsis": {
+        "native": "Legendary 20th century English war poet Siegfried Sassoon embarks on a life-long quest for personal salvation through his experiences with family, war, his writing, and destructive relationships. True salvation can only come from within.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2022_020_01",
+            "film": "GB2022_020",
+            "person": {
+                "id": "Geraldine James",
+                "slug": "geraldine-james",
+                "name": "Geraldine James",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2022_020_02",
+            "film": "GB2022_020",
+            "person": {
+                "id": "Simon Russell Beale",
+                "slug": "simon-russell-beale",
+                "name": "Simon Russell Beale",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2022_020_03",
+            "film": "GB2022_020",
+            "person": {
+                "id": "Peter Capaldi",
+                "slug": "peter-capaldi",
+                "name": "Peter Capaldi",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Homosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Geraldine James",
+                "slug": "geraldine-james",
+                "name": "Geraldine James",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Julian Sands",
+                "slug": "julian-sands",
+                "name": "Julian Sands",
+                "birthYear": 1958,
+                "deathYear": 2023,
+                "gender": "Male identifying",
+                "nationality": "Unknown"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Peter Capaldi",
+                "slug": "peter-capaldi",
+                "name": "Peter Capaldi",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Simon Russell Beale",
+                "slug": "simon-russell-beale",
+                "name": "Simon Russell Beale",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Steven Pacey",
+                "slug": "steven-pacey",
+                "name": "Steven Pacey",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Terence Davies",
+                "slug": "terence-davies",
+                "name": "Terence Davies",
+                "birthYear": 1945,
+                "deathYear": 2023,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "stages of life",
+        "artistic creation",
+        "medical treatment",
+        "wealth",
+        "personal memory",
+        "motherhood",
+        "religion",
+        "search for meaning",
+        "lgbtqi",
+        "sex",
+        "collective trauma",
+        "legacy",
+        "activism",
+        "war",
+        "national identity"
+    ]
 }

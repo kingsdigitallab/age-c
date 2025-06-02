@@ -1,119 +1,227 @@
 {
-  "id": "FR2022_114",
-  "type": "Film",
-  "slug": "fr2022-114-les-volets-verts",
-  "title": {
-    "native": "Les Volets verts",
-    "english": "The Heart of a Man"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-08-24",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2022_114",
+    "slug": "fr2022-114-les-volets-verts",
+    "title": {
+        "native": "Les Volets verts",
+        "english": "The Heart of a Man"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=ODXQoowdemQ",
-    "posterUrl": "https://medias.unifrance.org/medias/41/219/252713/format_page/les-volets-verts.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "partnership",
-    "artistic creation",
-    "loneliness",
-    "self-employment",
-    "intragenerational friendship",
-    "cross-gender friendship",
-    "celebrity",
-    "interracial relationships",
-    "search for meaning"
-  ],
-  "director": [
-    {
-      "id": "Jean Becker",
-      "slug": "jean-becker",
-      "name": "Jean Becker",
-      "birthYear": 1933,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2022_114_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "G\u00e9rard Depardieu",
-        "slug": "gerard-depardieu",
-        "name": "G\u00e9rard Depardieu",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2022-08-24",
+        "year": 2022
     },
-    {
-      "id": "FR2022_114_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "G\u00e9rard Depardieu",
-        "slug": "gerard-depardieu",
-        "name": "G\u00e9rard Depardieu",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "Russian Federation (the)"
-      },
-      "role": "Leading actor"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Jean Becker",
+            "slug": "jean-becker",
+            "name": "Jean Becker",
+            "birthYear": 1933,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/41/219/252713/format_page/les-volets-verts.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=ODXQoowdemQ"
     },
-    {
-      "id": "FR2022_114_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "G\u00e9rard Depardieu",
-        "slug": "gerard-depardieu",
-        "name": "G\u00e9rard Depardieu",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "United Arab Emirates (the)"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Les Volets verts dresse le portrait d\u2019un monstre sacr\u00e9, Jules Maugin, un acteur au sommet de sa gloire dans les ann\u00e9es 70. Sous la personnalit\u00e9 c\u00e9l\u00e8bre, l\u2019intimit\u00e9 d\u2019un homme se r\u00e9v\u00e8le.",
-    "english": "It describes the twilight of a sacred monster, Jules Maugin, an actor at the height of his glory. Under the famous personality, the big mouth, and the social shell, lies the intimate portrait of a man laid bare."
-  }
+    "synopsis": {
+        "native": "Les Volets verts dresse le portrait d\u2019un monstre sacr\u00e9, Jules Maugin, un acteur au sommet de sa gloire dans les ann\u00e9es 70. Sous la personnalit\u00e9 c\u00e9l\u00e8bre, l\u2019intimit\u00e9 d\u2019un homme se r\u00e9v\u00e8le.",
+        "english": "It describes the twilight of a sacred monster, Jules Maugin, an actor at the height of his glory. Under the famous personality, the big mouth, and the social shell, lies the intimate portrait of a man laid bare."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_114_01",
+            "film": "FR2022_114",
+            "person": {
+                "id": "G\u00e9rard Depardieu",
+                "slug": "gerard-depardieu",
+                "name": "G\u00e9rard Depardieu",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Russian Federation (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Anouk Grinberg",
+                "slug": "anouk-grinberg",
+                "name": "Anouk Grinberg",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Beno\u00eet Poelvoorde",
+                "slug": "benoit-poelvoorde",
+                "name": "Beno\u00eet Poelvoorde",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Didier Flamand",
+                "slug": "didier-flamand",
+                "name": "Didier Flamand",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Fanny Ardant",
+                "slug": "fanny-ardant",
+                "name": "Fanny Ardant",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "G\u00e9rard Depardieu",
+                "slug": "gerard-depardieu",
+                "name": "G\u00e9rard Depardieu",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Russian Federation (the)"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Jean Becker",
+                "slug": "jean-becker",
+                "name": "Jean Becker",
+                "birthYear": 1933,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jean-Luc Porraz",
+                "slug": "jean-luc-porraz",
+                "name": "Jean-Luc Porraz",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Luc-Antoine Diqu\u00e9ro",
+                "slug": "luc-antoine-diquero",
+                "name": "Luc-Antoine Diqu\u00e9ro",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Marc Andreoni",
+                "slug": "marc-andreoni",
+                "name": "Marc Andreoni",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Marie Matheron",
+                "slug": "marie-matheron",
+                "name": "Marie Matheron",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Philippe Brigaud",
+                "slug": "philippe-brigaud",
+                "name": "Philippe Brigaud",
+                "birthYear": 1935,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Tom Novembre",
+                "slug": "tom-novembre",
+                "name": "Tom Novembre",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "self-employment",
+        "intragenerational friendship",
+        "cross-gender friendship",
+        "partnership",
+        "interracial relationships",
+        "search for meaning",
+        "loneliness",
+        "celebrity",
+        "artistic creation"
+    ]
 }

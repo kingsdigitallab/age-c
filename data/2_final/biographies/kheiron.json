@@ -1,30 +1,39 @@
 {
-  "id": "Kheiron",
-  "type": "Biography",
-  "slug": "kheiron",
-  "name": "Kheiron",
-  "birthYear": 1982,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2018_173",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-173-mauvaises-herbes",
-      "tags": "high rank employment",
-      "title": {
-        "english": "Bad Seeds",
-        "native": "Mauvaises Herbes"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Kheiron",
+    "slug": "kheiron",
+    "name": "Kheiron",
+    "birthYear": 1982,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Iran (Islamic Republic of)",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_173",
+                "slug": "fr2018-173-mauvaises-herbes",
+                "title": {
+                    "native": "Mauvaises Herbes",
+                    "english": "Bad Seeds"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-11-21",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

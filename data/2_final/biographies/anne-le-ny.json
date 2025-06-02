@@ -1,49 +1,83 @@
 {
-  "id": "Anne Le Ny",
-  "type": "Biography",
-  "slug": "anne-le-ny",
-  "name": "Anne Le Ny",
-  "birthYear": 1962,
-  "nationality": "France",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2018_004",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-004-la-monnaie-de-leur-piece",
-      "tags": "extended family",
-      "title": {
-        "english": "Family Business",
-        "native": "La Monnaie de leur pi\u00e8ce"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2022_179",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "fr2022-179-le-torrent",
-      "tags": "rural",
-      "title": {
-        "english": "Spiral",
-        "native": "Le Torrent"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Anne Le Ny",
+    "slug": "anne-le-ny",
+    "name": "Anne Le Ny",
+    "birthYear": 1962,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_004",
+                "slug": "fr2018-004-la-monnaie-de-leur-piece",
+                "title": {
+                    "native": "La Monnaie de leur pi\u00e8ce",
+                    "english": "Family Business"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-01-10",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2022_014",
+                "slug": "fr2022-014-tendre-et-saignant",
+                "title": {
+                    "native": "Tendre et Saignant",
+                    "english": "The Butcher's Daughter"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-01-19",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "film": {
+                "id": "FR2022_179",
+                "slug": "fr2022-179-le-torrent",
+                "title": {
+                    "native": "Le Torrent",
+                    "english": "Spiral"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-11-30",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

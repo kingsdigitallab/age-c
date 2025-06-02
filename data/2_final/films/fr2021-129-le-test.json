@@ -1,46 +1,67 @@
 {
-  "id": "FR2021_129",
-  "type": "Film",
-  "slug": "fr2021-129-le-test",
-  "title": {
-    "native": "Le Test",
-    "english": "The Test"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-12-29",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=iL5M4XLgADc",
-    "posterUrl": "https://medias.unifrance.org/medias/210/170/240338/format_page/the-test.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Coming of Age"
-  ],
-  "tags": [
-    "education",
-    "high rank employment"
-  ],
-  "director": [
-    {
-      "id": "Emmanuel Poulain-Arnaud",
-      "slug": "emmanuel-poulain-arnaud",
-      "name": "Emmanuel Poulain-Arnaud",
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Annie Castillon est heureuse. Sa vie conjugale avec Laurent est un exemple d\u2019harmonie. Ses deux grands, Maximilien et C\u00e9sar sont des gar\u00e7ons brillants et sensibles. Et Poupi, sa jeune ado, l\u2019\u00e9paule sans jamais se plaindre dans l\u2019\u00e9ducation d'Antoine, le petit dernier. Un week-end comme tous les autres, la d\u00e9couverte d\u2019un test de grossesse positif dans la salle de bain va enrayer la belle harmonie.",
-    "english": "The Castillon seem to be the perfect family. That is until Annie, the mother, fnds a positive pregnancy test in the bathroom. Is it Juliette's, her son's girlfriend? Poupi's, her teenage daughter? Another woman in her husband's life? Does her other son actually have girlfriends? Whatever the answer, this is no good news..."
-  }
+    "type": "Film",
+    "id": "FR2021_129",
+    "slug": "fr2021-129-le-test",
+    "title": {
+        "native": "Le Test",
+        "english": "The Test"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-12-29",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Emmanuel Poulain-Arnaud",
+            "slug": "emmanuel-poulain-arnaud",
+            "name": "Emmanuel Poulain-Arnaud",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Coming of Age"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/210/170/240338/format_page/the-test.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=iL5M4XLgADc"
+    },
+    "synopsis": {
+        "native": "Annie Castillon est heureuse. Sa vie conjugale avec Laurent est un exemple d\u2019harmonie. Ses deux grands, Maximilien et C\u00e9sar sont des gar\u00e7ons brillants et sensibles. Et Poupi, sa jeune ado, l\u2019\u00e9paule sans jamais se plaindre dans l\u2019\u00e9ducation d'Antoine, le petit dernier. Un week-end comme tous les autres, la d\u00e9couverte d\u2019un test de grossesse positif dans la salle de bain va enrayer la belle harmonie.",
+        "english": "The Castillon seem to be the perfect family. That is until Annie, the mother, fnds a positive pregnancy test in the bathroom. Is it Juliette's, her son's girlfriend? Poupi's, her teenage daughter? Another woman in her husband's life? Does her other son actually have girlfriends? Whatever the answer, this is no good news..."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Emmanuel Poulain-Arnaud",
+                "slug": "emmanuel-poulain-arnaud",
+                "name": "Emmanuel Poulain-Arnaud",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": "St\u00e9phan Wojtowicz",
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "education",
+        "high rank employment"
+    ]
 }

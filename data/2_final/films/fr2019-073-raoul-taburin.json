@@ -1,76 +1,104 @@
 {
-  "id": "FR2019_073",
-  "type": "Film",
-  "slug": "fr2019-073-raoul-taburin",
-  "title": {
-    "native": "Raoul Taburin",
-    "english": "Raoul Taburin"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-04-17",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2019_073",
+    "slug": "fr2019-073-raoul-taburin",
+    "title": {
+        "native": "Raoul Taburin",
+        "english": "Raoul Taburin"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=dV43Dsk-ZJo",
-    "posterUrl": "https://medias.unifrance.org/medias/96/28/203872/format_page/raoul-taburin.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Drama"
-  ],
-  "tags": [
-    "independent home",
-    "low rank employment",
-    "marriage",
-    "intragenerational friendship",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Pierre Godeau",
-      "slug": "pierre-godeau",
-      "name": "Pierre Godeau",
-      "birthYear": 1986,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2019_073_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Beno\u00eet Poelvoorde",
-        "slug": "benoit-poelvoorde",
-        "name": "Beno\u00eet Poelvoorde",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "Belgium"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Raoul Taburin, c\u2019est l\u2019histoire d\u2019un petit garon devenu grand sans savoir faire du v\u00e9lo. L\u2019histoire d\u2019un immense malentendu v\u00e9cu comme une mal\u00e9diction. Un imposteur malgr\u00e9 lui.",
-    "english": "If anyone knows anything about bikes, it\u2019s Raoul Taburin, official bicycle dealer of Saint C\u00e9ron, a lovely village in the South of France. But Raoul has a terrible secret: he has never been able to keep his balance on a bike without using stabilisers. His childhood and teenage years were spent trying to overcome his flaw - in vain. All attempts to tell his secret have also failed. Nobody believes him. When photographer Herv\u00e9 Figougne moves to Saint C\u00e9ron, the two men become fast friends. And when Figougne offers to photograph Raoul riding a racing bike along a mountain precipice, the moment of truth has arrived. He does all he can to avoid the photo shoot. But everything goes against him and he finally has to accept his destiny. \u201cAt least\u201d, he thinks, \u201cpeople will have to believe me\u201d. But for Raoul Taburin, things are never that simple..."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-04-17",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Pierre Godeau",
+            "slug": "pierre-godeau",
+            "name": "Pierre Godeau",
+            "birthYear": 1986,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/96/28/203872/format_page/raoul-taburin.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=dV43Dsk-ZJo"
+    },
+    "synopsis": {
+        "native": "Raoul Taburin, c\u2019est l\u2019histoire d\u2019un petit garon devenu grand sans savoir faire du v\u00e9lo. L\u2019histoire d\u2019un immense malentendu v\u00e9cu comme une mal\u00e9diction. Un imposteur malgr\u00e9 lui.",
+        "english": "If anyone knows anything about bikes, it\u2019s Raoul Taburin, official bicycle dealer of Saint C\u00e9ron, a lovely village in the South of France. But Raoul has a terrible secret: he has never been able to keep his balance on a bike without using stabilisers. His childhood and teenage years were spent trying to overcome his flaw - in vain. All attempts to tell his secret have also failed. Nobody believes him. When photographer Herv\u00e9 Figougne moves to Saint C\u00e9ron, the two men become fast friends. And when Figougne offers to photograph Raoul riding a racing bike along a mountain precipice, the moment of truth has arrived. He does all he can to avoid the photo shoot. But everything goes against him and he finally has to accept his destiny. \u201cAt least\u201d, he thinks, \u201cpeople will have to believe me\u201d. But for Raoul Taburin, things are never that simple..."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2019_073_01",
+            "film": "FR2019_073",
+            "person": {
+                "id": "Beno\u00eet Poelvoorde",
+                "slug": "benoit-poelvoorde",
+                "name": "Beno\u00eet Poelvoorde",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Belgium"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Beno\u00eet Poelvoorde",
+                "slug": "benoit-poelvoorde",
+                "name": "Beno\u00eet Poelvoorde",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Pierre Godeau",
+                "slug": "pierre-godeau",
+                "name": "Pierre Godeau",
+                "birthYear": 1986,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "low rank employment",
+        "rural",
+        "intragenerational friendship",
+        "independent home",
+        "marriage"
+    ]
 }

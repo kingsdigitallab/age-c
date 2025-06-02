@@ -1,57 +1,111 @@
 {
-  "id": "GB2020_021",
-  "type": "Film",
-  "slug": "gb2020-021-american-dharma",
-  "title": {
-    "native": "American Dharma"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-08-03",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "GB2020_021",
+    "slug": "gb2020-021-american-dharma",
+    "title": {
+        "native": "American Dharma",
+        "english": ""
     },
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=765740",
-    "posterUrl": "https://www.imdb.com/title/tt8804284/mediaviewer/rm3789785089/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "gender discrimination",
-    "racial discrimination",
-    "corruption",
-    "terrorism",
-    "national identity",
-    "war",
-    "class conflict",
-    "celebrity",
-    "technology",
-    "professional politics",
-    "mass media"
-  ],
-  "director": [
-    {
-      "id": "Errol Morris",
-      "slug": "errol-morris",
-      "name": "Errol Morris",
-      "birthYear": 1948,
-      "gender": "Male identifying",
-      "nationality": "United States of America (the)"
-    }
-  ],
-  "synopsis": {
-    "native": "A portrait of controversial political strategist and former Donald Trump advisor, Steve Bannon."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2020-08-03",
+        "year": 2020
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Errol Morris",
+            "slug": "errol-morris",
+            "name": "Errol Morris",
+            "birthYear": 1948,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United States of America (the)"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt8804284/mediaviewer/rm3789785089/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=765740"
+    },
+    "synopsis": {
+        "native": "A portrait of controversial political strategist and former Donald Trump advisor, Steve Bannon.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Errol Morris",
+                "slug": "errol-morris",
+                "name": "Errol Morris",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Errol Morris",
+                "slug": "errol-morris",
+                "name": "Errol Morris",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Errol Morris",
+                "slug": "errol-morris",
+                "name": "Errol Morris",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Producer"
+        },
+        {
+            "person": {
+                "id": "Steve Bannon",
+                "slug": "steve-bannon",
+                "name": "Steve Bannon",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "celebrity",
+        "corruption",
+        "technology",
+        "mass media",
+        "terrorism",
+        "war",
+        "professional politics",
+        "national identity",
+        "gender discrimination",
+        "class conflict",
+        "racial discrimination"
+    ]
 }

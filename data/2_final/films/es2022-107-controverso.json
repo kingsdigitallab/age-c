@@ -1,50 +1,93 @@
 {
-  "id": "ES2022_107",
-  "type": "Film",
-  "slug": "es2022-107-controverso",
-  "title": {
-    "native": "Controverso"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-11-16",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=802452",
-    "posterUrl": "https://www.imdb.com/title/tt24329190/mediaviewer/rm4165024001/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "class solidarity",
-    "intergenerational friendship",
-    "women empowerment",
-    "artistic creation",
-    "national identity",
-    "cultural memory",
-    "legacy",
-    "intragenerational friendship",
-    "interracial relationships"
-  ],
-  "director": [
-    {
-      "id": "Nuria Vargas Rivas",
-      "slug": "nuria-vargas-rivas",
-      "name": "Nuria Vargas Rivas",
-      "gender": "Female identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Un viaje musical sobre la poes\u00eda improvisada con las mayores figuras de la improvisaci\u00f3n de habla hispana, introducido por Luna, una joven interesada en la cultura hip hop. Una noche conoce al improvisador cubano Alexis D\u00edaz Pimienta que le habla de los troveros de La Alpujarra y de los repentistas de Cuba. Luna, de madre alpujarre\u00f1a y abuela cubana, decide investigar formas de improvisaci\u00f3n que desconoc\u00eda y emprende un viaje a conocer el trovo que la llevar\u00e1 hasta Cuba para conectar el freestyle con la tradici\u00f3n po\u00e9tica oral m\u00e1s antigua del mundo."
-  }
+    "type": "Film",
+    "id": "ES2022_107",
+    "slug": "es2022-107-controverso",
+    "title": {
+        "native": "Controverso",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-11-16",
+        "year": 2022
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Nuria Vargas Rivas",
+            "slug": "nuria-vargas-rivas",
+            "name": "Nuria Vargas Rivas",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt24329190/mediaviewer/rm4165024001/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=802452"
+    },
+    "synopsis": {
+        "native": "Un viaje musical sobre la poes\u00eda improvisada con las mayores figuras de la improvisaci\u00f3n de habla hispana, introducido por Luna, una joven interesada en la cultura hip hop. Una noche conoce al improvisador cubano Alexis D\u00edaz Pimienta que le habla de los troveros de La Alpujarra y de los repentistas de Cuba. Luna, de madre alpujarre\u00f1a y abuela cubana, decide investigar formas de improvisaci\u00f3n que desconoc\u00eda y emprende un viaje a conocer el trovo que la llevar\u00e1 hasta Cuba para conectar el freestyle con la tradici\u00f3n po\u00e9tica oral m\u00e1s antigua del mundo.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Alexis D\u00edaz Pimienta",
+                "slug": "alexis-diaz-pimienta",
+                "name": "Alexis D\u00edaz Pimienta",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Cuba"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Luis Paz \"Papillo\"",
+                "slug": "luis-paz-papillo",
+                "name": "Luis Paz \"Papillo\"",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Cuba"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Nuria Vargas Rivas",
+                "slug": "nuria-vargas-rivas",
+                "name": "Nuria Vargas Rivas",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "legacy",
+        "intragenerational friendship",
+        "intergenerational friendship",
+        "cultural memory",
+        "national identity",
+        "class solidarity",
+        "women empowerment",
+        "interracial relationships"
+    ]
 }

@@ -1,73 +1,185 @@
 {
-  "id": "RO2019_006",
-  "type": "Film",
-  "slug": "ro2019-006-cardinalul",
-  "title": {
-    "native": "Cardinalul",
-    "english": "The Cardinal"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-11-22",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Romania",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.cinemagia.ro/trailer/cardinalul-21947/",
-    "posterUrl": "https://www.cinemagia.ro/filme/cardinalul-2809195/postere/3697201/#gallery"
-  },
-  "genre": [
-    "Historical film (Heritage Film)",
-    "Drama",
-    "Biopic"
-  ],
-  "tags": [
-    "religion",
-    "personal trauma",
-    "national identity",
-    "cultural memory",
-    "abuse"
-  ],
-  "director": [
-    {
-      "id": "Nicolae M\u0103rgineanu",
-      "slug": "nicolae-margineanu",
-      "name": "Nicolae M\u0103rgineanu",
-      "birthYear": 1938,
-      "gender": "Male identifying",
-      "nationality": "Romania"
-    }
-  ],
-  "character": [
-    {
-      "id": "RO2019_006_01",
-      "age": "5: Range of ages represented by the same actor",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Eastern European",
-      "class": "Lower class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Radu Botar",
-        "slug": "radu-botar",
-        "name": "Radu Botar",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "Romania"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "\u00cen anii \u201950, conduc\u0103torii bisericii Greco-Catolice sunt aresta\u021bi \u0219i \u00eenchi\u0219i \u00een penitenciarul de la Sighet. Regimul sovietic interzice existen\u021ba altei biserici \u00een afara celei ortodoxe. \u00cen fa\u021ba chinurilor \u0219i unora dintre cele mai perfide mijloace de dezumanizare, alternativele sunt convertirea sau moartea. \u00cen fa\u021ba tor\u021bionarilor se ridic\u0103 episcopul Iuliu Hossu care prin curaj \u0219i verticalitate devine o c\u0103l\u0103uz\u0103 pentru ceilal\u021bi preo\u021bi. Cardinalul prezint\u0103 o parte din via\u021ba episcopului greco-catolic Iuliu Hossu, c\u00e2teva scene de la Marea Unire \u0219i pe urm\u0103 perioada \u00eencerc\u0103rii convertirii for\u021bate \u00een penitenciarul Sighet.",
-    "english": "Sighet prison in communist Romania. An catholic cardinal considered a national hero is faced with an unusual torturer. There is only one way out, conversion or death."
-  }
+    "type": "Film",
+    "id": "RO2019_006",
+    "slug": "ro2019-006-cardinalul",
+    "title": {
+        "native": "Cardinalul",
+        "english": "The Cardinal"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-11-22",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Nicolae M\u0103rgineanu",
+            "slug": "nicolae-margineanu",
+            "name": "Nicolae M\u0103rgineanu",
+            "birthYear": 1938,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Romania"
+        }
+    ],
+    "genre": [
+        "Biopic",
+        "Drama",
+        "Historical film (Heritage Film)"
+    ],
+    "media": {
+        "posterUrl": "https://www.cinemagia.ro/filme/cardinalul-2809195/postere/3697201/#gallery",
+        "trailerUrl": "https://www.cinemagia.ro/trailer/cardinalul-21947/"
+    },
+    "synopsis": {
+        "native": "\u00cen anii \u201950, conduc\u0103torii bisericii Greco-Catolice sunt aresta\u021bi \u0219i \u00eenchi\u0219i \u00een penitenciarul de la Sighet. Regimul sovietic interzice existen\u021ba altei biserici \u00een afara celei ortodoxe. \u00cen fa\u021ba chinurilor \u0219i unora dintre cele mai perfide mijloace de dezumanizare, alternativele sunt convertirea sau moartea. \u00cen fa\u021ba tor\u021bionarilor se ridic\u0103 episcopul Iuliu Hossu care prin curaj \u0219i verticalitate devine o c\u0103l\u0103uz\u0103 pentru ceilal\u021bi preo\u021bi. Cardinalul prezint\u0103 o parte din via\u021ba episcopului greco-catolic Iuliu Hossu, c\u00e2teva scene de la Marea Unire \u0219i pe urm\u0103 perioada \u00eencerc\u0103rii convertirii for\u021bate \u00een penitenciarul Sighet.",
+        "english": "Sighet prison in communist Romania. An catholic cardinal considered a national hero is faced with an unusual torturer. There is only one way out, conversion or death."
+    },
+    "production": [
+        {
+            "country": "Romania",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "RO2019_006_01",
+            "film": "RO2019_006",
+            "person": {
+                "id": "Radu Botar",
+                "slug": "radu-botar",
+                "name": "Radu Botar",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "age": "5: Range of ages represented by the same actor",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Eastern European",
+            "class": "Lower class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alexandru Repan",
+                "slug": "alexandru-repan",
+                "name": "Alexandru Repan",
+                "birthYear": 1940,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Cristian Iacob",
+                "slug": "cristian-iacob",
+                "name": "Cristian Iacob",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Maria Ploae",
+                "slug": "maria-ploae",
+                "name": "Maria Ploae",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Romania"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Mircea Andreescu",
+                "slug": "mircea-andreescu",
+                "name": "Mircea Andreescu",
+                "birthYear": 1939,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Nicolae M\u0103rgineanu",
+                "slug": "nicolae-margineanu",
+                "name": "Nicolae M\u0103rgineanu",
+                "birthYear": 1938,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Ovidiu Cri\u0219an",
+                "slug": "ovidiu-crisan",
+                "name": "Ovidiu Cri\u0219an",
+                "birthYear": 1970,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Radu Botar",
+                "slug": "radu-botar",
+                "name": "Radu Botar",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Radu B\u00e2nzaru",
+                "slug": "radu-banzaru",
+                "name": "Radu B\u00e2nzaru",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Remus M\u0103rgineanu",
+                "slug": "remus-margineanu",
+                "name": "Remus M\u0103rgineanu",
+                "birthYear": 1938,
+                "deathYear": 2022,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "abuse",
+        "religion",
+        "cultural memory",
+        "personal trauma",
+        "national identity"
+    ]
 }

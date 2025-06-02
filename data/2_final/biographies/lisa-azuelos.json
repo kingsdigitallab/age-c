@@ -1,30 +1,39 @@
 {
-  "id": "Lisa Azuelos",
-  "type": "Biography",
-  "slug": "lisa-azuelos",
-  "name": "Lisa Azuelos",
-  "birthYear": 1965,
-  "nationality": "France",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2019_051",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-051-mon-bebe",
-      "tags": "education",
-      "title": {
-        "english": "Sweetheart",
-        "native": "Mon b\u00e9b\u00e9"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Lisa Azuelos",
+    "slug": "lisa-azuelos",
+    "name": "Lisa Azuelos",
+    "birthYear": 1965,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2019_051",
+                "slug": "fr2019-051-mon-bebe",
+                "title": {
+                    "native": "Mon b\u00e9b\u00e9",
+                    "english": "Sweetheart"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-03-13",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

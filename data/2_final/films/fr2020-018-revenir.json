@@ -1,61 +1,101 @@
 {
-  "id": "FR2020_018",
-  "type": "Film",
-  "slug": "fr2020-018-revenir",
-  "title": {
-    "native": "Revenir",
-    "english": "Back Home"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-01-29",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=HuFP760DCeo",
-    "posterUrl": "https://medias.unifrance.org/medias/204/74/215756/format_page/revenir.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "hospital",
-    "parenthood",
-    "disappearing professions",
-    "grandparenthood",
-    "retirement",
-    "intergenerational conflict",
-    "independent home",
-    "caregiving",
-    "marriage",
-    "multigenerational family",
-    "extended family",
-    "self-employment",
-    "return home",
-    "rural",
-    "physical illness",
-    "inheritance",
-    "agony"
-  ],
-  "director": [
-    {
-      "id": "Jessica Palud",
-      "slug": "jessica-palud",
-      "name": "Jessica Palud",
-      "birthYear": 1982,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "C\u2019est la ferme o\u00f9 Thomas est n\u00e9. C\u2019est sa famille. Son fr\u00e8re, qui ne reviendra plus, sa m\u00e8re, qui est en train de l\u2019imiter, et son p\u00e8re, avec qui rien n\u2019a jamais \u00e9t\u00e9 possible. Il retrouve tout ce qu\u2019il a fui il y a 12 ans. Mais aujourd\u2019hui il y a Alex, son neveu de six ans, et Mona, sa m\u00e8re incandescente.",
-    "english": "This is the farm where Thomas was born. This is his family. His brother, who won\u2019t be coming back, his mother, who is going down the same road, and his father, who has always stood aloof. Thomas gets back to everything he ran away from twelve years ago. Only today, there is Alex, his six-year-old nephew, and Mona, the boy\u2019s radiant mother."
-  }
+    "type": "Film",
+    "id": "FR2020_018",
+    "slug": "fr2020-018-revenir",
+    "title": {
+        "native": "Revenir",
+        "english": "Back Home"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-01-29",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Jessica Palud",
+            "slug": "jessica-palud",
+            "name": "Jessica Palud",
+            "birthYear": 1982,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/204/74/215756/format_page/revenir.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=HuFP760DCeo"
+    },
+    "synopsis": {
+        "native": "C\u2019est la ferme o\u00f9 Thomas est n\u00e9. C\u2019est sa famille. Son fr\u00e8re, qui ne reviendra plus, sa m\u00e8re, qui est en train de l\u2019imiter, et son p\u00e8re, avec qui rien n\u2019a jamais \u00e9t\u00e9 possible. Il retrouve tout ce qu\u2019il a fui il y a 12 ans. Mais aujourd\u2019hui il y a Alex, son neveu de six ans, et Mona, sa m\u00e8re incandescente.",
+        "english": "This is the farm where Thomas was born. This is his family. His brother, who won\u2019t be coming back, his mother, who is going down the same road, and his father, who has always stood aloof. Thomas gets back to everything he ran away from twelve years ago. Only today, there is Alex, his six-year-old nephew, and Mona, the boy\u2019s radiant mother."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "H\u00e9l\u00e8ne Vincent",
+                "slug": "helene-vincent",
+                "name": "H\u00e9l\u00e8ne Vincent",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Jessica Palud",
+                "slug": "jessica-palud",
+                "name": "Jessica Palud",
+                "birthYear": 1982,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Patrick d'Assum\u00e7ao",
+                "slug": "patrick-d-assumcao",
+                "name": "Patrick d'Assum\u00e7ao",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "return home",
+        "inheritance",
+        "physical illness",
+        "caregiving",
+        "marriage",
+        "retirement",
+        "hospital",
+        "agony",
+        "parenthood",
+        "grandparenthood",
+        "extended family",
+        "intergenerational conflict",
+        "independent home",
+        "self-employment",
+        "disappearing professions",
+        "rural",
+        "multigenerational family"
+    ]
 }

@@ -1,94 +1,135 @@
 {
-  "id": "ES2022_005",
-  "type": "Film",
-  "slug": "es2022-005-los-renglones-torcidos-de-dios",
-  "title": {
-    "native": "Los renglones torcidos de Dios",
-    "english": "God's Crooked Lines"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-10-04",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt13229894/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Los%2520renglones%2520torcidos%2520de%2520Dios",
-    "posterUrl": "https://www.imdb.com/title/tt13229894/mediaviewer/rm2636123649/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Noir",
-    "Detective Thriller",
-    "Drama"
-  ],
-  "tags": [
-    "hospital",
-    "high rank employment",
-    "power",
-    "mental illness",
-    "medical treatment",
-    "abuse"
-  ],
-  "director": [
-    {
-      "id": "Oriol Paulo",
-      "slug": "oriol-paulo",
-      "name": "Oriol Paulo",
-      "birthYear": 1975,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2022_005_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Eduard Fern\u00e1ndez",
-        "slug": "eduard-fernandez",
-        "name": "Eduard Fern\u00e1ndez",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "ES2022_005",
+    "slug": "es2022-005-los-renglones-torcidos-de-dios",
+    "title": {
+        "native": "Los renglones torcidos de Dios",
+        "english": "God's Crooked Lines"
     },
-    {
-      "id": "ES2022_005_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Unemployed",
-      "ability": "Permanent disability",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Antonio Bu\u00edl",
-        "slug": "antonio-buil",
-        "name": "Antonio Bu\u00edl",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Alice, investigadora privada, ingresa en un hospital psiqui\u00e1trico simulando una paranoia. Su objetivo es recabar pruebas del caso en el que trabaja: la muerte de un interno en circunstancias poco claras. Sin embargo, la realidad a la que se enfrentar\u00e1 en su encierro superar\u00e1 sus expectativas y pondr\u00e1 en duda su propia cordura. Un mundo desconocido y apasionante se mostrar\u00e1 ante sus ojos. Adaptaci\u00f3n de la novela hom\u00f3nima de Torcuato Luca de Tena.",
-    "english": "Alice, a private investigator, checks into a psychiatric hospital feigning paranoia with the goal of collecting evidence for the case she is working on: the death of an inmate in unclear circumstances. But the reality she faces in her confinement will exceed her expectations and cast doubt on her own sanity. An unknown and exciting world will open before her eyes."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-10-04",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Oriol Paulo",
+            "slug": "oriol-paulo",
+            "name": "Oriol Paulo",
+            "birthYear": 1975,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Noir",
+        "Detective Thriller",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt13229894/mediaviewer/rm2636123649/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt13229894/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Los%2520renglones%2520torcidos%2520de%2520Dios"
+    },
+    "synopsis": {
+        "native": "Alice, investigadora privada, ingresa en un hospital psiqui\u00e1trico simulando una paranoia. Su objetivo es recabar pruebas del caso en el que trabaja: la muerte de un interno en circunstancias poco claras. Sin embargo, la realidad a la que se enfrentar\u00e1 en su encierro superar\u00e1 sus expectativas y pondr\u00e1 en duda su propia cordura. Un mundo desconocido y apasionante se mostrar\u00e1 ante sus ojos. Adaptaci\u00f3n de la novela hom\u00f3nima de Torcuato Luca de Tena.",
+        "english": "Alice, a private investigator, checks into a psychiatric hospital feigning paranoia with the goal of collecting evidence for the case she is working on: the death of an inmate in unclear circumstances. But the reality she faces in her confinement will exceed her expectations and cast doubt on her own sanity. An unknown and exciting world will open before her eyes."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2022_005_01",
+            "film": "ES2022_005",
+            "person": {
+                "id": "Eduard Fern\u00e1ndez",
+                "slug": "eduard-fernandez",
+                "name": "Eduard Fern\u00e1ndez",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2022_005_02",
+            "film": "ES2022_005",
+            "person": {
+                "id": "Antonio Bu\u00edl",
+                "slug": "antonio-buil",
+                "name": "Antonio Bu\u00edl",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Unemployed",
+            "ability": "Permanent disability",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Antonio Bu\u00edl",
+                "slug": "antonio-buil",
+                "name": "Antonio Bu\u00edl",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Eduard Fern\u00e1ndez",
+                "slug": "eduard-fernandez",
+                "name": "Eduard Fern\u00e1ndez",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Oriol Paulo",
+                "slug": "oriol-paulo",
+                "name": "Oriol Paulo",
+                "birthYear": 1975,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "hospital",
+        "medical treatment",
+        "power",
+        "abuse",
+        "mental illness",
+        "high rank employment"
+    ]
 }

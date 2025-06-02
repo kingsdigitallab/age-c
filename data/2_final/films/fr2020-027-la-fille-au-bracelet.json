@@ -1,73 +1,125 @@
 {
-  "id": "FR2020_027",
-  "type": "Film",
-  "slug": "fr2020-027-la-fille-au-bracelet",
-  "title": {
-    "native": "La Fille au bracelet",
-    "english": "The Girl with a Bracelet"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-02-12",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2020_027",
+    "slug": "fr2020-027-la-fille-au-bracelet",
+    "title": {
+        "native": "La Fille au bracelet",
+        "english": "The Girl with a Bracelet"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=MpfmaYD4cGE",
-    "posterUrl": "https://medias.unifrance.org/medias/68/79/216900/format_page/la-fille-au-bracelet.jpg"
-  },
-  "genre": [
-    "Courtroom Drama"
-  ],
-  "tags": [
-    "state institutions",
-    "marriage",
-    "fatherhood"
-  ],
-  "director": [
-    {
-      "id": "St\u00e9phane Demoustier",
-      "slug": "stephane-demoustier",
-      "name": "St\u00e9phane Demoustier",
-      "birthYear": 1977,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2020_027_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "North Africa",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Roschdy Zem",
-        "slug": "roschdy-zem",
-        "name": "Roschdy Zem",
-        "birthYear": 1965.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Lise a 18 ans, elle vit dans un quartier r\u00e9sidentiel sans histoire et vient d\u2019avoir son bac. Mais depuis deux ans, Lise porte un bracelet \u00e9lectronique car elle est accus\u00e9e d\u2019avoir assassin\u00e9 sa meilleure amie.",
-    "english": "16 years-old Lise is accused of murdering her best friend. Her parents stand by her as naturally expected. But once in court, her secret life begins to unfold and the plot thickens. Who is Lise really? Do we really know the ones we love?"
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2020-02-12",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "St\u00e9phane Demoustier",
+            "slug": "stephane-demoustier",
+            "name": "St\u00e9phane Demoustier",
+            "birthYear": 1977,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Courtroom Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/68/79/216900/format_page/la-fille-au-bracelet.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=MpfmaYD4cGE"
+    },
+    "synopsis": {
+        "native": "Lise a 18 ans, elle vit dans un quartier r\u00e9sidentiel sans histoire et vient d\u2019avoir son bac. Mais depuis deux ans, Lise porte un bracelet \u00e9lectronique car elle est accus\u00e9e d\u2019avoir assassin\u00e9 sa meilleure amie.",
+        "english": "16 years-old Lise is accused of murdering her best friend. Her parents stand by her as naturally expected. But once in court, her secret life begins to unfold and the plot thickens. Who is Lise really? Do we really know the ones we love?"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2020_027_01",
+            "film": "FR2020_027",
+            "person": {
+                "id": "Roschdy Zem",
+                "slug": "roschdy-zem",
+                "name": "Roschdy Zem",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "North Africa",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Annie Mercier",
+                "slug": "annie-mercier",
+                "name": "Annie Mercier",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Pascal-Pierre Garbarini",
+                "slug": "pascal-pierre-garbarini",
+                "name": "Pascal-Pierre Garbarini",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Roschdy Zem",
+                "slug": "roschdy-zem",
+                "name": "Roschdy Zem",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "St\u00e9phane Demoustier",
+                "slug": "stephane-demoustier",
+                "name": "St\u00e9phane Demoustier",
+                "birthYear": 1977,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "fatherhood",
+        "marriage",
+        "state institutions"
+    ]
 }

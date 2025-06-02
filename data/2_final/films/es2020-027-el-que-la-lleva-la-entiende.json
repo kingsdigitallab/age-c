@@ -1,60 +1,175 @@
 {
-  "id": "ES2020_027",
-  "type": "Film",
-  "slug": "es2020-027-el-que-la-lleva-la-entiende",
-  "title": {
-    "native": "El que la lleva la entiende"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "First festival screening",
-    "date": "2020-11-07",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=Ra7ERzBkf-U",
-    "posterUrl": "https://www.imdb.com/title/tt11309836/mediaviewer/rm3546528257/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Musical",
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "class solidarity",
-    "intergenerational friendship",
-    "artistic creation",
-    "regional identity",
-    "legacy",
-    "intragenerational friendship",
-    "urban",
-    "festivities"
-  ],
-  "director": [
-    {
-      "id": "Roc\u00edo Mart\u00edn",
-      "slug": "rocio-martin",
-      "name": "Roc\u00edo Mart\u00edn",
-      "gender": "Female identifying",
-      "nationality": "Spain"
+    "type": "Film",
+    "id": "ES2020_027",
+    "slug": "es2020-027-el-que-la-lleva-la-entiende",
+    "title": {
+        "native": "El que la lleva la entiende",
+        "english": ""
     },
-    {
-      "id": "Jos\u00e9 Luis Garc\u00eda Coss\u00edo",
-      "slug": "jose-luis-garcia-cossio",
-      "name": "Jos\u00e9 Luis Garc\u00eda Coss\u00edo",
-      "birthYear": 1962,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "En C\u00e1diz, brilla la figura de Jos\u00e9 Luis Garc\u00eda Coss\u00edo \u201cEl Selu\u201d, pionero de la chirigota moderna que lleva treinta a\u00f1os ejerciendo un humor afilado y creativo sobre las tablas del Gran Teatro Falla. En el documental recorremos su obra a trav\u00e9s de sus conversaciones con algunos incondicionales admiradores de su particular arte, conversos al \u201cchirigotismo\u201d como Jorge Drexler, Martirio, Luis Garc\u00eda Montero y Joaqu\u00edn Sabina, desgranando temas como el humor, la s\u00e1tira y sus l\u00edmites, la mujer, la creaci\u00f3n del personaje, la transversalidad social del Carnaval o el valor de lo cotidiano.",
-    "english": "Follows Jos\u00e9 Luis Garc\u00eda Cossio, better known as \"Selu\", who has been dedicated to the C\u00e1diz Carnival for more than thirty years."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2020-11-07",
+        "year": 2020
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Roc\u00edo Mart\u00edn",
+            "slug": "rocio-martin",
+            "name": "Roc\u00edo Mart\u00edn",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        },
+        {
+            "id": "Jos\u00e9 Luis Garc\u00eda Coss\u00edo",
+            "slug": "jose-luis-garcia-cossio",
+            "name": "Jos\u00e9 Luis Garc\u00eda Coss\u00edo",
+            "birthYear": 1962,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Performative mode",
+        "Comedy",
+        "Musical"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt11309836/mediaviewer/rm3546528257/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=Ra7ERzBkf-U"
+    },
+    "synopsis": {
+        "native": "En C\u00e1diz, brilla la figura de Jos\u00e9 Luis Garc\u00eda Coss\u00edo \u201cEl Selu\u201d, pionero de la chirigota moderna que lleva treinta a\u00f1os ejerciendo un humor afilado y creativo sobre las tablas del Gran Teatro Falla. En el documental recorremos su obra a trav\u00e9s de sus conversaciones con algunos incondicionales admiradores de su particular arte, conversos al \u201cchirigotismo\u201d como Jorge Drexler, Martirio, Luis Garc\u00eda Montero y Joaqu\u00edn Sabina, desgranando temas como el humor, la s\u00e1tira y sus l\u00edmites, la mujer, la creaci\u00f3n del personaje, la transversalidad social del Carnaval o el valor de lo cotidiano.",
+        "english": "Follows Jos\u00e9 Luis Garc\u00eda Cossio, better known as \"Selu\", who has been dedicated to the C\u00e1diz Carnival for more than thirty years."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Almudena Grandes",
+                "slug": "almudena-grandes",
+                "name": "Almudena Grandes",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "El Gran Wyoming",
+                "slug": "el-gran-wyoming",
+                "name": "El Gran Wyoming",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Joaqu\u00edn Sabina",
+                "slug": "joaquin-sabina",
+                "name": "Joaqu\u00edn Sabina",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Jos\u00e9 Luis Garc\u00eda Coss\u00edo",
+                "slug": "jose-luis-garcia-cossio",
+                "name": "Jos\u00e9 Luis Garc\u00eda Coss\u00edo",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jos\u00e9 Luis Garc\u00eda Coss\u00edo",
+                "slug": "jose-luis-garcia-cossio",
+                "name": "Jos\u00e9 Luis Garc\u00eda Coss\u00edo",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Luis Garc\u00eda Montero",
+                "slug": "luis-garcia-montero",
+                "name": "Luis Garc\u00eda Montero",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Manuel Mor\u00f3n",
+                "slug": "manuel-moron",
+                "name": "Manuel Mor\u00f3n",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Martirio",
+                "slug": "martirio",
+                "name": "Martirio",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Roc\u00edo Mart\u00edn",
+                "slug": "rocio-martin",
+                "name": "Roc\u00edo Mart\u00edn",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "regional identity",
+        "artistic creation",
+        "legacy",
+        "intergenerational friendship",
+        "festivities",
+        "intragenerational friendship",
+        "urban",
+        "class solidarity"
+    ]
 }

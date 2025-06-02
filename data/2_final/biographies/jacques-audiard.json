@@ -1,49 +1,73 @@
 {
-  "id": "Jacques Audiard",
-  "type": "Biography",
-  "slug": "jacques-audiard",
-  "name": "Jacques Audiard",
-  "birthYear": 1952,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Western",
-      "id": "FR2018_142",
-      "production": {
-        "country": "United States of America (the)",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-142-les-freres-sisters",
-      "tags": "natural death",
-      "title": {
-        "english": "The Sisters Brothers",
-        "native": "Les Fr\u00e8res Sisters"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Romance",
-      "id": "FR2021_098",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-098-les-olympiades-paris-13e",
-      "tags": "urban",
-      "title": {
-        "english": "Paris, 13th District",
-        "native": "Les Olympiades, Paris 13e"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Jacques Audiard",
+    "slug": "jacques-audiard",
+    "name": "Jacques Audiard",
+    "birthYear": 1952,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_142",
+                "slug": "fr2018-142-les-freres-sisters",
+                "title": {
+                    "native": "Les Fr\u00e8res Sisters",
+                    "english": "The Sisters Brothers"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-09-19",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Spain",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Romania",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2021_098",
+                "slug": "fr2021-098-les-olympiades-paris-13e",
+                "title": {
+                    "native": "Les Olympiades, Paris 13e",
+                    "english": "Paris, 13th District"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-11-03",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

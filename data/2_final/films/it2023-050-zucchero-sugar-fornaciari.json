@@ -1,56 +1,145 @@
 {
-  "id": "IT2023_050",
-  "type": "Film",
-  "slug": "it2023-050-zucchero-sugar-fornaciari",
-  "title": {
-    "native": "Zucchero - Sugar Fornaciari",
-    "english": "Zucchero - Sugar Fornaciari"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-10-23",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=qFJFPY_kTQc",
-    "posterUrl": "https://www.imdb.com/title/tt28765636/mediaviewer/rm3895153409/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Musical",
-    "Biopic"
-  ],
-  "tags": [
-    "personal memory",
-    "artistic creation"
-  ],
-  "director": [
-    {
-      "id": "Valentina Zanella",
-      "slug": "valentina-zanella",
-      "name": "Valentina Zanella",
-      "birthYear": 1985,
-      "gender": "Female identifying",
-      "nationality": "Italy"
+    "type": "Film",
+    "id": "IT2023_050",
+    "slug": "it2023-050-zucchero-sugar-fornaciari",
+    "title": {
+        "native": "Zucchero - Sugar Fornaciari",
+        "english": "Zucchero - Sugar Fornaciari"
     },
-    {
-      "id": "Giangiacomo de Stefano",
-      "slug": "giangiacomo-de-stefano",
-      "name": "Giangiacomo de Stefano",
-      "birthYear": 1977,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "synopsis": {
-    "native": "Il film documentario racconta lo straordinario artista attraverso le sue parole e quelle di colleghi e amici come Bono, Sting, Brian May, Paul Young, Andrea Bocelli, Salmo, Francesco Guccini, Francesco De Gregori, Roberto Baggio, Jack Savoretti, Don Was, Randy Jackson e Corrado Rustici. Un viaggio dell\u2019anima che, grazie a immagini provenienti dagli archivi privati di Zucchero e dal \u201cWorld Wild Tour\u201d, il suo ultimo e trionfale tour mondiale, va oltre il ritratto di un musicista di successo arrivando fin dentro i dubbi e le fragilit\u00e0 dell\u2019uomo.",
-    "english": "The documentary tells the story of this extraordinary artist in his own words and those of his colleagues and friends such as Bono, Sting, Brian May, Paul Young, Andrea Bocelli, Salmo, Francesco Guccini, Francesco De Gregori, Roberto Baggio, Jack Savoretti, Don Was, Randy Jackson and Corrado Rustici. A journey of the soul, which relies on images from Zucchero\u2019s private archive and the \u201cWorld Wild Tour\u201d, his last triumphant world tour, to reach beyond the portrait of a successful musician and delve into the doubts and fragilities of the man."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2023-10-23",
+        "year": 2023
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Giangiacomo de Stefano",
+            "slug": "giangiacomo-de-stefano",
+            "name": "Giangiacomo de Stefano",
+            "birthYear": 1977,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        },
+        {
+            "id": "Valentina Zanella",
+            "slug": "valentina-zanella",
+            "name": "Valentina Zanella",
+            "birthYear": 1985,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Biopic",
+        "Musical"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt28765636/mediaviewer/rm3895153409/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=qFJFPY_kTQc"
+    },
+    "synopsis": {
+        "native": "Il film documentario racconta lo straordinario artista attraverso le sue parole e quelle di colleghi e amici come Bono, Sting, Brian May, Paul Young, Andrea Bocelli, Salmo, Francesco Guccini, Francesco De Gregori, Roberto Baggio, Jack Savoretti, Don Was, Randy Jackson e Corrado Rustici. Un viaggio dell\u2019anima che, grazie a immagini provenienti dagli archivi privati di Zucchero e dal \u201cWorld Wild Tour\u201d, il suo ultimo e trionfale tour mondiale, va oltre il ritratto di un musicista di successo arrivando fin dentro i dubbi e le fragilit\u00e0 dell\u2019uomo.",
+        "english": "The documentary tells the story of this extraordinary artist in his own words and those of his colleagues and friends such as Bono, Sting, Brian May, Paul Young, Andrea Bocelli, Salmo, Francesco Guccini, Francesco De Gregori, Roberto Baggio, Jack Savoretti, Don Was, Randy Jackson and Corrado Rustici. A journey of the soul, which relies on images from Zucchero\u2019s private archive and the \u201cWorld Wild Tour\u201d, his last triumphant world tour, to reach beyond the portrait of a successful musician and delve into the doubts and fragilities of the man."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Andrea Bocelli",
+                "slug": "andrea-bocelli",
+                "name": "Andrea Bocelli",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Bono",
+                "slug": "bono",
+                "name": "Bono",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Ireland"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Francesco De Gregori",
+                "slug": "francesco-de-gregori",
+                "name": "Francesco De Gregori",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Giangiacomo de Stefano",
+                "slug": "giangiacomo-de-stefano",
+                "name": "Giangiacomo de Stefano",
+                "birthYear": 1977,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Sting",
+                "slug": "sting",
+                "name": "Sting",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Valentina Zanella",
+                "slug": "valentina-zanella",
+                "name": "Valentina Zanella",
+                "birthYear": 1985,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Zucchero Sugar Fornaciari",
+                "slug": "zucchero-sugar-fornaciari",
+                "name": "Zucchero Sugar Fornaciari",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "personal memory",
+        "artistic creation"
+    ]
 }

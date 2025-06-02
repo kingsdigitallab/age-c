@@ -1,78 +1,154 @@
 {
-  "id": "FR2019_143",
-  "type": "Film",
-  "slug": "fr2019-143-frankie",
-  "title": {
-    "native": "Frankie",
-    "english": "Frankie"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-08-28",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Portugal",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2019_143",
+    "slug": "fr2019-143-frankie",
+    "title": {
+        "native": "Frankie",
+        "english": "Frankie"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=GHWBa2SYXoM",
-    "posterUrl": "https://medias.unifrance.org/medias/107/41/207211/format_page/frankie.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "parenthood",
-    "artistic creation",
-    "celibacy",
-    "holiday",
-    "extended family",
-    "self-employment",
-    "celebrity",
-    "physical illness"
-  ],
-  "director": [
-    {
-      "id": "Ira Sachs",
-      "slug": "ira-sachs",
-      "name": "Ira Sachs",
-      "birthYear": 1965,
-      "gender": "Male identifying",
-      "nationality": "United States of America (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2019_143_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Chronic illness",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Isabelle Huppert",
-        "slug": "isabelle-huppert",
-        "name": "Isabelle Huppert",
-        "birthYear": 1953.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Frankie, c\u00e9l\u00e8bre actrice fran\u00e7aise, apprend qu\u2019il ne lui reste plus que quelques mois \u00e0 vivre. Elle d\u00e9cide de passer ses derni\u00e8res vacances en famille \u00e0 Sintra, au Portugal.",
-    "english": "Unfolding over the course of a late summer\u2019s day in the fabled resort town of Sintra, Portugal, Frankie follows three generations who have gathered for a vacation organized by the family matriarch (Isabelle Huppert). In this fairy tale setting, husbands and wives, parents and children, friends and lovers -- stirred by their romantic impulses \u2014 discover the cracks between them, as well as unexpected depth of feeling."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-08-28",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Ira Sachs",
+            "slug": "ira-sachs",
+            "name": "Ira Sachs",
+            "birthYear": 1965,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United States of America (the)"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/107/41/207211/format_page/frankie.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=GHWBa2SYXoM"
+    },
+    "synopsis": {
+        "native": "Frankie, c\u00e9l\u00e8bre actrice fran\u00e7aise, apprend qu\u2019il ne lui reste plus que quelques mois \u00e0 vivre. Elle d\u00e9cide de passer ses derni\u00e8res vacances en famille \u00e0 Sintra, au Portugal.",
+        "english": "Unfolding over the course of a late summer\u2019s day in the fabled resort town of Sintra, Portugal, Frankie follows three generations who have gathered for a vacation organized by the family matriarch (Isabelle Huppert). In this fairy tale setting, husbands and wives, parents and children, friends and lovers -- stirred by their romantic impulses \u2014 discover the cracks between them, as well as unexpected depth of feeling."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Portugal",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2019_143_01",
+            "film": "FR2019_143",
+            "person": {
+                "id": "Isabelle Huppert",
+                "slug": "isabelle-huppert",
+                "name": "Isabelle Huppert",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Chronic illness",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Brendan Gleeson",
+                "slug": "brendan-gleeson",
+                "name": "Brendan Gleeson",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Ireland"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Greg Kinnear",
+                "slug": "greg-kinnear",
+                "name": "Greg Kinnear",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Ira Sachs",
+                "slug": "ira-sachs",
+                "name": "Ira Sachs",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Isabelle Huppert",
+                "slug": "isabelle-huppert",
+                "name": "Isabelle Huppert",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Marisa Tomei",
+                "slug": "marisa-tomei",
+                "name": "Marisa Tomei",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Pascal Greggory",
+                "slug": "pascal-greggory",
+                "name": "Pascal Greggory",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "self-employment",
+        "celebrity",
+        "physical illness",
+        "extended family",
+        "holiday",
+        "parenthood",
+        "celibacy"
+    ]
 }

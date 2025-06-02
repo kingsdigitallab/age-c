@@ -1,49 +1,61 @@
 {
-  "id": "Catherine Corsini",
-  "type": "Biography",
-  "slug": "catherine-corsini",
-  "name": "Catherine Corsini",
-  "birthYear": 1956,
-  "nationality": "France",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2018_169",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-169-un-amour-impossible",
-      "tags": "parenthood",
-      "title": {
-        "english": "An Impossible Love",
-        "native": "Un amour impossible"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2021_095",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-095-la-fracture",
-      "tags": "caregiving",
-      "title": {
-        "english": "The Divide",
-        "native": "La Fracture"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Catherine Corsini",
+    "slug": "catherine-corsini",
+    "name": "Catherine Corsini",
+    "birthYear": 1956,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_169",
+                "slug": "fr2018-169-un-amour-impossible",
+                "title": {
+                    "native": "Un amour impossible",
+                    "english": "An Impossible Love"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-11-07",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2021_095",
+                "slug": "fr2021-095-la-fracture",
+                "title": {
+                    "native": "La Fracture",
+                    "english": "The Divide"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-10-27",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

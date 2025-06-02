@@ -1,30 +1,35 @@
 {
-  "id": "Francesco Carrozzini",
-  "type": "Biography",
-  "slug": "francesco-carrozzini",
-  "name": "Francesco Carrozzini",
-  "birthYear": 1982,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Thriller",
-      "id": "IT2022_050",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "it2022-050-the-hanging-sun-il-sole-di-mezzanotte",
-      "tags": "religion",
-      "title": {
-        "english": "The Hanging Sun",
-        "native": "The Hanging Sun Il Sole di mezzanotte"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Francesco Carrozzini",
+    "slug": "francesco-carrozzini",
+    "name": "Francesco Carrozzini",
+    "birthYear": 1982,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2022_050",
+                "slug": "it2022-050-the-hanging-sun-il-sole-di-mezzanotte",
+                "title": {
+                    "native": "The Hanging Sun Il Sole di mezzanotte",
+                    "english": "The Hanging Sun"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-09-09",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

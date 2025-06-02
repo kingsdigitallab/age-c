@@ -1,42 +1,111 @@
 {
-  "id": "Gheorghe Visu",
-  "type": "Biography",
-  "slug": "gheorghe-visu",
-  "name": "Gheorghe Visu",
-  "birthYear": 1951,
-  "nationality": "Romania",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "No",
-      "class": "Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Detective Thriller",
-        "id": "RO2019_013",
-        "production": {
-          "country": "Romania",
-          "share": "Majority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2019
-        },
-        "slug": "ro2019-013-heidi",
-        "tags": "may-december",
-        "title": {
-          "english": "Heidi",
-          "native": "Heidi"
+    "type": "Person",
+    "id": "Gheorghe Visu",
+    "slug": "gheorghe-visu",
+    "name": "Gheorghe Visu",
+    "birthYear": 1951,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Romania",
+    "characters": [
+        {
+            "id": "RO2019_013_01",
+            "film": {
+                "id": "RO2019_013",
+                "slug": "ro2019-013-heidi",
+                "title": {
+                    "native": "Heidi",
+                    "english": "Heidi"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-11-15",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "person": "Gheorghe Visu",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Eastern European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "RO2019_013_01",
-      "origin": "White Eastern European",
-      "profession": "Employed",
-      "role": "Leading actor",
-      "sexuality": "Heterosexual"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "RO2018_001",
+                "slug": "ro2018-001-morometii-2",
+                "title": {
+                    "native": "Morome\u021bii 2",
+                    "english": "Moromete Family: On the Edge of Time"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-11-16",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "RO2019_013",
+                "slug": "ro2019-013-heidi",
+                "title": {
+                    "native": "Heidi",
+                    "english": "Heidi"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-11-15",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        },
+        {
+            "film": {
+                "id": "RO2022_010",
+                "slug": "ro2022-010-dosarul-631",
+                "title": {
+                    "native": "Dosarul 631",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-05-13",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        }
+    ]
 }

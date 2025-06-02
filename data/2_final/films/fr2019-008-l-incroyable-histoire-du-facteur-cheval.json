@@ -1,78 +1,166 @@
 {
-  "id": "FR2019_008",
-  "type": "Film",
-  "slug": "fr2019-008-l-incroyable-histoire-du-facteur-cheval",
-  "title": {
-    "native": "L'Incroyable Histoire du facteur Cheval",
-    "english": "The Ideal Palace"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-01-16",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2019_008",
+    "slug": "fr2019-008-l-incroyable-histoire-du-facteur-cheval",
+    "title": {
+        "native": "L'Incroyable Histoire du facteur Cheval",
+        "english": "The Ideal Palace"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=nCTbzwDObho",
-    "posterUrl": "https://medias.unifrance.org/medias/46/12/199726/format_page/l-incroyable-histoire-du-facteur-cheval.jpg"
-  },
-  "genre": [
-    "Biopic"
-  ],
-  "tags": [
-    "parenthood",
-    "artistic creation",
-    "independent home",
-    "low rank employment",
-    "marriage",
-    "stages of life",
-    "gray face",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Nils Tavernier",
-      "slug": "nils-tavernier",
-      "name": "Nils Tavernier",
-      "birthYear": 1965,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2019_008_01",
-      "age": "5: Range of ages represented by the same actor",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Jacques Gamblin",
-        "slug": "jacques-gamblin",
-        "name": "Jacques Gamblin",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Fin XIX\u00e8me, Joseph Ferdinand Cheval (Jacques Gamblin), est un simple facteur qui parcourt chaque jour la Dr\u00f4me, de village en village. Solitaire, il est boulevers\u00e9 quand il rencontre la femme de sa vie, Philom\u00e8ne (Laetitia Casta). De leur union na\u00eet Alice. Pour cette enfant qu\u2019il aime plus que tout, Cheval se jette alors dans un pari fou : lui construire de ses propres mains, un incroyable palais. Jamais \u00e9pargn\u00e9 par les \u00e9preuves de la vie, cet homme ordinaire n\u2019abandonnera pas et consacrera 33 ans \u00e0 b\u00e2tir une \u0153uvre extraordinaire : \u00ab Le Palais id\u00e9al \u00bb.",
-    "english": "South of France, 1879. Ferdinand Cheval is a reserved and quiet man. A rural mail carrier, he enjoys the loneliness of his 20 miles rounds, daydreaming about a world full of wonder and beauty he only glances through postcards and magazines. After the birth of Alice, his daughter, he has a revelation: building a castle to make her a princess. With no architectural background, driven by his love for Alice, the unconditional support of Philomene \u2013 his wife \u2013 and his vision."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-01-16",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Nils Tavernier",
+            "slug": "nils-tavernier",
+            "name": "Nils Tavernier",
+            "birthYear": 1965,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Biopic"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/46/12/199726/format_page/l-incroyable-histoire-du-facteur-cheval.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=nCTbzwDObho"
+    },
+    "synopsis": {
+        "native": "Fin XIX\u00e8me, Joseph Ferdinand Cheval (Jacques Gamblin), est un simple facteur qui parcourt chaque jour la Dr\u00f4me, de village en village. Solitaire, il est boulevers\u00e9 quand il rencontre la femme de sa vie, Philom\u00e8ne (Laetitia Casta). De leur union na\u00eet Alice. Pour cette enfant qu\u2019il aime plus que tout, Cheval se jette alors dans un pari fou : lui construire de ses propres mains, un incroyable palais. Jamais \u00e9pargn\u00e9 par les \u00e9preuves de la vie, cet homme ordinaire n\u2019abandonnera pas et consacrera 33 ans \u00e0 b\u00e2tir une \u0153uvre extraordinaire : \u00ab Le Palais id\u00e9al \u00bb.",
+        "english": "South of France, 1879. Ferdinand Cheval is a reserved and quiet man. A rural mail carrier, he enjoys the loneliness of his 20 miles rounds, daydreaming about a world full of wonder and beauty he only glances through postcards and magazines. After the birth of Alice, his daughter, he has a revelation: building a castle to make her a princess. With no architectural background, driven by his love for Alice, the unconditional support of Philomene \u2013 his wife \u2013 and his vision."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2019_008_01",
+            "film": "FR2019_008",
+            "person": {
+                "id": "Jacques Gamblin",
+                "slug": "jacques-gamblin",
+                "name": "Jacques Gamblin",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "5: Range of ages represented by the same actor",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Bernard Le Coq",
+                "slug": "bernard-le-coq",
+                "name": "Bernard Le Coq",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Franck Adrien",
+                "slug": "franck-adrien",
+                "name": "Franck Adrien",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Jacques Gamblin",
+                "slug": "jacques-gamblin",
+                "name": "Jacques Gamblin",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Marc Perrone",
+                "slug": "marc-perrone",
+                "name": "Marc Perrone",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Nils Tavernier",
+                "slug": "nils-tavernier",
+                "name": "Nils Tavernier",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Pasquale d'Inca",
+                "slug": "pasquale-d-inca",
+                "name": "Pasquale d'Inca",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "\u00c9ric Savin",
+                "slug": "eric-savin",
+                "name": "\u00c9ric Savin",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "stages of life",
+        "parenthood",
+        "gray face",
+        "marriage",
+        "rural",
+        "independent home",
+        "low rank employment",
+        "artistic creation"
+    ]
 }

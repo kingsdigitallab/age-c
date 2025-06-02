@@ -1,71 +1,136 @@
 {
-  "id": "IT2019_028",
-  "type": "Film",
-  "slug": "it2019-028-se-mi-vuoi-bene",
-  "title": {
-    "native": "Se mi vuoi bene"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-10-17",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=GC7g0lMXIYw",
-    "posterUrl": "https://www.imdb.com/title/tt9840382/mediaviewer/rm2271187969/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "parenthood",
-    "brotherhood",
-    "suicide",
-    "extended family",
-    "homosociality",
-    "search for meaning"
-  ],
-  "director": [
-    {
-      "id": "Fausto Brizzi",
-      "slug": "fausto-brizzi",
-      "name": "Fausto Brizzi",
-      "birthYear": 1968,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2019_028_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Claudio Bisio",
-        "slug": "claudio-bisio",
-        "name": "Claudio Bisio",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Diego (Claudio Bisio) \u00e8 un avvocato di successo, un depresso cronico. Un giorno incontra Massimiliano (Sergio Rubini), proprietario di un eccentrico negozio di Chiacchiere che non vende nulla se non appunto conversazioni. Ed \u00e8 proprio chiacchierando con lui che Diego capisce qual \u00e8 la soluzione per uscire dalla sua palude emotiva: fare del bene a tutti i suoi cari. Diego individua chirurgicamente i problemi che secondo lui affliggono sua madre, suo padre, suo fratello, sua figlia, i suoi amici, perfino la sua ex moglie e, con la precisione di un cecchino bendato, finisce per rovinare l\u2019esistenza ad ognuno di loro. Ma non tutto \u00e8 perduto...",
-    "english": "Diego (Claudio Bisio) is a successful lawyer, but he\u2019s also chronically depressed. One day he meets Massimiliano (Sergio Rubini), the owner of an eccentric shop, Chatters, that sells nothing but conversations. And it is just chatting with him that Diego understands the solution to get out of his emotional swamp: to do good to all his loved ones. Diego surgically identifies the problems that he believes afflict his mother, his father, his brother, his daughter, his friends, even his ex-wife and, with the precision of a blindfolded sniper, he ends up ruining the existence of each of them. But not all is lost..."
-  }
+    "type": "Film",
+    "id": "IT2019_028",
+    "slug": "it2019-028-se-mi-vuoi-bene",
+    "title": {
+        "native": "Se mi vuoi bene",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-10-17",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Fausto Brizzi",
+            "slug": "fausto-brizzi",
+            "name": "Fausto Brizzi",
+            "birthYear": 1968,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9840382/mediaviewer/rm2271187969/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=GC7g0lMXIYw"
+    },
+    "synopsis": {
+        "native": "Diego (Claudio Bisio) \u00e8 un avvocato di successo, un depresso cronico. Un giorno incontra Massimiliano (Sergio Rubini), proprietario di un eccentrico negozio di Chiacchiere che non vende nulla se non appunto conversazioni. Ed \u00e8 proprio chiacchierando con lui che Diego capisce qual \u00e8 la soluzione per uscire dalla sua palude emotiva: fare del bene a tutti i suoi cari. Diego individua chirurgicamente i problemi che secondo lui affliggono sua madre, suo padre, suo fratello, sua figlia, i suoi amici, perfino la sua ex moglie e, con la precisione di un cecchino bendato, finisce per rovinare l\u2019esistenza ad ognuno di loro. Ma non tutto \u00e8 perduto...",
+        "english": "Diego (Claudio Bisio) is a successful lawyer, but he\u2019s also chronically depressed. One day he meets Massimiliano (Sergio Rubini), the owner of an eccentric shop, Chatters, that sells nothing but conversations. And it is just chatting with him that Diego understands the solution to get out of his emotional swamp: to do good to all his loved ones. Diego surgically identifies the problems that he believes afflict his mother, his father, his brother, his daughter, his friends, even his ex-wife and, with the precision of a blindfolded sniper, he ends up ruining the existence of each of them. But not all is lost..."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2019_028_01",
+            "film": "IT2019_028",
+            "person": {
+                "id": "Claudio Bisio",
+                "slug": "claudio-bisio",
+                "name": "Claudio Bisio",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Claudio Bisio",
+                "slug": "claudio-bisio",
+                "name": "Claudio Bisio",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Fausto Brizzi",
+                "slug": "fausto-brizzi",
+                "name": "Fausto Brizzi",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Memo Remigi",
+                "slug": "memo-remigi",
+                "name": "Memo Remigi",
+                "birthYear": 1938,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Sergio Rubini",
+                "slug": "sergio-rubini",
+                "name": "Sergio Rubini",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Valeria Fabrizi",
+                "slug": "valeria-fabrizi",
+                "name": "Valeria Fabrizi",
+                "birthYear": 1936,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "suicide",
+        "parenthood",
+        "brotherhood",
+        "extended family",
+        "search for meaning",
+        "homosociality"
+    ]
 }

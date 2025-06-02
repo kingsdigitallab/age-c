@@ -1,30 +1,35 @@
 {
-  "id": "Nicolas Cuche",
-  "type": "Biography",
-  "slug": "nicolas-cuche",
-  "name": "Nicolas Cuche",
-  "birthYear": 1962,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2021_069",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-069-pourris-gates",
-      "tags": "intergenerational conflict",
-      "title": {
-        "english": "Spoiled Brats",
-        "native": "Pourris g\u00e2t\u00e9s"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Nicolas Cuche",
+    "slug": "nicolas-cuche",
+    "name": "Nicolas Cuche",
+    "birthYear": 1962,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_069",
+                "slug": "fr2021-069-pourris-gates",
+                "title": {
+                    "native": "Pourris g\u00e2t\u00e9s",
+                    "english": "Spoiled Brats"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-09-15",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

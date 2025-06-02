@@ -1,49 +1,92 @@
 {
-  "id": "ES2023_109",
-  "type": "Film",
-  "slug": "es2023-109-julia-y-fernando-una-historia-de-vida",
-  "title": {
-    "native": "Julia y Fernando, una historia de vida"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-04-15",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=500499",
-    "posterUrl": "https://www.imdb.com/title/tt27557137/mediaviewer/rm2415927297/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "personal memory",
-    "artistic creation",
-    "marriage",
-    "cultural memory",
-    "state institutions",
-    "activism",
-    "education",
-    "homosociality"
-  ],
-  "director": [
-    {
-      "id": "Luis Mancha",
-      "slug": "luis-mancha",
-      "name": "Luis Mancha",
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "\u201cJulia y Fernando, una historia de vida\u201d comenz\u00f3 como un homenaje a los soci\u00f3logos Julia Varela y Fernando \u00c1lvarez-Ur\u00eda. Sin embargo, Julia y Fernando no estaban de acuerdo con plantearlo en t\u00e9rminos hagiogr\u00e1ficos y contribuir a la cultura del yo-yo en la que estamos instalados. Su filosof\u00eda de vida est\u00e1 regida por dos principios: no somos nadie sin quienes nos precedieron, quienes nos acompa\u00f1an en el viaje y quienes tienen que seguir el camino; y es necesario hacer sociedad: crear v\u00ednculos sociales que contribuyan a cambiar el mundo. As\u00ed pues, este documental ha terminado siendo un testimonio colectivo de parte de una generaci\u00f3n, la del 68, que participaron en la Transici\u00f3n espa\u00f1ola y cuyo testigo han de recoger las nuevas generaciones. Podr\u00edamos decir que son unas memorias para hacer presente."
-  }
+    "type": "Film",
+    "id": "ES2023_109",
+    "slug": "es2023-109-julia-y-fernando-una-historia-de-vida",
+    "title": {
+        "native": "Julia y Fernando, una historia de vida",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-04-15",
+        "year": 2023
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Luis Mancha",
+            "slug": "luis-mancha",
+            "name": "Luis Mancha",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt27557137/mediaviewer/rm2415927297/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=500499"
+    },
+    "synopsis": {
+        "native": "\u201cJulia y Fernando, una historia de vida\u201d comenz\u00f3 como un homenaje a los soci\u00f3logos Julia Varela y Fernando \u00c1lvarez-Ur\u00eda. Sin embargo, Julia y Fernando no estaban de acuerdo con plantearlo en t\u00e9rminos hagiogr\u00e1ficos y contribuir a la cultura del yo-yo en la que estamos instalados. Su filosof\u00eda de vida est\u00e1 regida por dos principios: no somos nadie sin quienes nos precedieron, quienes nos acompa\u00f1an en el viaje y quienes tienen que seguir el camino; y es necesario hacer sociedad: crear v\u00ednculos sociales que contribuyan a cambiar el mundo. As\u00ed pues, este documental ha terminado siendo un testimonio colectivo de parte de una generaci\u00f3n, la del 68, que participaron en la Transici\u00f3n espa\u00f1ola y cuyo testigo han de recoger las nuevas generaciones. Podr\u00edamos decir que son unas memorias para hacer presente.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Fernando \u00c1lvarez-Ur\u00eda",
+                "slug": "fernando-alvarez-uria",
+                "name": "Fernando \u00c1lvarez-Ur\u00eda",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Julia Varela",
+                "slug": "julia-varela",
+                "name": "Julia Varela",
+                "birthYear": 1942,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Luis Mancha",
+                "slug": "luis-mancha",
+                "name": "Luis Mancha",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "education",
+        "personal memory",
+        "cultural memory",
+        "marriage",
+        "activism",
+        "state institutions",
+        "homosociality",
+        "artistic creation"
+    ]
 }

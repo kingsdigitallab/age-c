@@ -1,72 +1,100 @@
 {
-  "id": "FR2018_128",
-  "type": "Film",
-  "slug": "fr2018-128-le-monde-est-a-toi",
-  "title": {
-    "native": "Le monde est \u00e0 toi",
-    "english": "The World is Yours"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-08-15",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=WRFwJS7pu80",
-    "posterUrl": "https://medias.unifrance.org/medias/98/243/193378/format_page/the-world-is-yours.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Crime",
-    "Action"
-  ],
-  "tags": [
-    "urban",
-    "parenthood",
-    "crime",
-    "extended family"
-  ],
-  "director": [
-    {
-      "id": "Romain Gavras",
-      "slug": "romain-gavras",
-      "name": "Romain Gavras",
-      "birthYear": 1981,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2018_128_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Isabelle Adjani",
-        "slug": "isabelle-adjani",
-        "name": "Isabelle Adjani",
-        "birthYear": 1955.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Fran\u00e7ois, petit dealer, a un r\u00eave : devenir le distributeur officiel de Mr Freeze au Maghreb. Cette vie, qu\u2019il convoite tant, vole en \u00e9clat quand il apprend que Dany, sa m\u00e8re, a d\u00e9pens\u00e9 toutes ses \u00e9conomies. Poutine, le ca\u00efd lunatique de la cit\u00e9 propose \u00e0 Fran\u00e7ois un plan en Espagne pour se refaire. Mais quand tout son entourage : Lamya son amour de jeunesse, Henri un ancien beau-p\u00e8re \u00e0 la ramasse tout juste sorti de prison, les deux jeunes Mohamed complotistes et sa m\u00e8re chef d\u2019un gang de femmes pickpockets, s\u2019en m\u00eale, rien ne va se passer comme pr\u00e9vu !",
-    "english": "Francois is a petty drug dealer whose dream is to settle down and set up a Mr Freeze's ice lolly franchise in Morocco. But his ambition is smashed to pieces when he discovers that his own mother, a compulsive gambler and seasoned scammer, has burnt his savings that he was relying on to start this brand-new life. Putin, the local gang leader, offers Francois to do one last job in Spain so that he can make some money he desperately needs. Things go from bad to worse when the deal goes wrong and everyone around him gets involved: his disillusioned love Lamya, his stupid former father-in-law who just got out of prison, two inseparable and uncontrollable wannabe gangsters and last but not least... his glamorous and manipulative mother."
-  }
+    "type": "Film",
+    "id": "FR2018_128",
+    "slug": "fr2018-128-le-monde-est-a-toi",
+    "title": {
+        "native": "Le monde est \u00e0 toi",
+        "english": "The World is Yours"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-08-15",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Romain Gavras",
+            "slug": "romain-gavras",
+            "name": "Romain Gavras",
+            "birthYear": 1981,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Crime",
+        "Action",
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/98/243/193378/format_page/the-world-is-yours.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=WRFwJS7pu80"
+    },
+    "synopsis": {
+        "native": "Fran\u00e7ois, petit dealer, a un r\u00eave : devenir le distributeur officiel de Mr Freeze au Maghreb. Cette vie, qu\u2019il convoite tant, vole en \u00e9clat quand il apprend que Dany, sa m\u00e8re, a d\u00e9pens\u00e9 toutes ses \u00e9conomies. Poutine, le ca\u00efd lunatique de la cit\u00e9 propose \u00e0 Fran\u00e7ois un plan en Espagne pour se refaire. Mais quand tout son entourage : Lamya son amour de jeunesse, Henri un ancien beau-p\u00e8re \u00e0 la ramasse tout juste sorti de prison, les deux jeunes Mohamed complotistes et sa m\u00e8re chef d\u2019un gang de femmes pickpockets, s\u2019en m\u00eale, rien ne va se passer comme pr\u00e9vu !",
+        "english": "Francois is a petty drug dealer whose dream is to settle down and set up a Mr Freeze's ice lolly franchise in Morocco. But his ambition is smashed to pieces when he discovers that his own mother, a compulsive gambler and seasoned scammer, has burnt his savings that he was relying on to start this brand-new life. Putin, the local gang leader, offers Francois to do one last job in Spain so that he can make some money he desperately needs. Things go from bad to worse when the deal goes wrong and everyone around him gets involved: his disillusioned love Lamya, his stupid former father-in-law who just got out of prison, two inseparable and uncontrollable wannabe gangsters and last but not least... his glamorous and manipulative mother."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2018_128_01",
+            "film": "FR2018_128",
+            "person": {
+                "id": "Isabelle Adjani",
+                "slug": "isabelle-adjani",
+                "name": "Isabelle Adjani",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Isabelle Adjani",
+                "slug": "isabelle-adjani",
+                "name": "Isabelle Adjani",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Romain Gavras",
+                "slug": "romain-gavras",
+                "name": "Romain Gavras",
+                "birthYear": 1981,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "parenthood",
+        "crime",
+        "extended family",
+        "urban"
+    ]
 }

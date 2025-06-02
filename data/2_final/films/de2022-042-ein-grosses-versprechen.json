@@ -1,89 +1,192 @@
 {
-  "id": "DE2022_042",
-  "type": "Film",
-  "slug": "de2022-042-ein-grosses-versprechen",
-  "title": {
-    "native": "Ein gro\u00dfes Versprechen"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-06-09",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=xalNNj5m1NM&ab_channel=FilmtoastTrailer",
-    "posterUrl": "https://www.imdb.com/title/tt6036804/mediaviewer/rm1282021889/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "independent home",
-    "caregiving",
-    "marriage",
-    "physical illness",
-    "medical treatment"
-  ],
-  "director": [
-    {
-      "id": "Wendla N\u00f6lle",
-      "slug": "wendla-nolle",
-      "name": "Wendla N\u00f6lle",
-      "gender": "Female identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "character": [
-    {
-      "id": "DE2022_042_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Retired",
-      "ability": "Permanent disability",
-      "assistedMobility": "Yes",
-      "person": {
-        "id": "Dagmar Manzel",
-        "slug": "dagmar-manzel",
-        "name": "Dagmar Manzel",
-        "birthYear": 1958.0,
-        "gender": "Female identifying",
-        "nationality": "Germany"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "DE2022_042",
+    "slug": "de2022-042-ein-grosses-versprechen",
+    "title": {
+        "native": "Ein gro\u00dfes Versprechen",
+        "english": ""
     },
-    {
-      "id": "DE2022_042_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Rolf Lassg\u00e5rd",
-        "slug": "rolf-lassgard",
-        "name": "Rolf Lassg\u00e5rd",
-        "birthYear": 1955.0,
-        "gender": "Male identifying",
-        "nationality": "Sweden"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Juditha (Dagmar Manzel) und Erik (Rolf Lassg\u00e5rd) k\u00f6nnen eigentlich auf ein langes Leben und eine erf\u00fcllende Ehe zur\u00fcckblicken: Sie haben eine Tochter gro\u00dfgezogen und und waren trotz der \u00fcblichen H\u00f6hen und Tiefen meist gl\u00fccklich. Nun, wo Universit\u00e4tsprofessor Erik in Pension geht, wollen sie eigentlich mehr Zeit miteinander verbringen, doch ausgerechnet nun schreitet die Multiple Sklerose, an der Juditha leidet, st\u00e4rker voran. So gestaltet sich der neue Alltag f\u00fcr beide anders als geplant, denn Erik tut sich mit der h\u00e4uslichen Enge schwer, w\u00e4hrend Juditha ungl\u00fccklich ist, dass ihr Ehemann nicht f\u00fcr sie da ist...",
-    "english": "Juditha and Erik in their 60s are facing the wife's illness, the shame and disappointment related to it, as well as expectations and ever-changing hopes. A couple will need to rediscover the foundation of their marriage to find each other again."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-06-09",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Wendla N\u00f6lle",
+            "slug": "wendla-nolle",
+            "name": "Wendla N\u00f6lle",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt6036804/mediaviewer/rm1282021889/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=xalNNj5m1NM&ab_channel=FilmtoastTrailer"
+    },
+    "synopsis": {
+        "native": "Juditha (Dagmar Manzel) und Erik (Rolf Lassg\u00e5rd) k\u00f6nnen eigentlich auf ein langes Leben und eine erf\u00fcllende Ehe zur\u00fcckblicken: Sie haben eine Tochter gro\u00dfgezogen und und waren trotz der \u00fcblichen H\u00f6hen und Tiefen meist gl\u00fccklich. Nun, wo Universit\u00e4tsprofessor Erik in Pension geht, wollen sie eigentlich mehr Zeit miteinander verbringen, doch ausgerechnet nun schreitet die Multiple Sklerose, an der Juditha leidet, st\u00e4rker voran. So gestaltet sich der neue Alltag f\u00fcr beide anders als geplant, denn Erik tut sich mit der h\u00e4uslichen Enge schwer, w\u00e4hrend Juditha ungl\u00fccklich ist, dass ihr Ehemann nicht f\u00fcr sie da ist...",
+        "english": "Juditha and Erik in their 60s are facing the wife's illness, the shame and disappointment related to it, as well as expectations and ever-changing hopes. A couple will need to rediscover the foundation of their marriage to find each other again."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "DE2022_042_01",
+            "film": "DE2022_042",
+            "person": {
+                "id": "Dagmar Manzel",
+                "slug": "dagmar-manzel",
+                "name": "Dagmar Manzel",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Retired",
+            "ability": "Permanent disability",
+            "assistedMobility": "Yes"
+        },
+        {
+            "id": "DE2022_042_02",
+            "film": "DE2022_042",
+            "person": {
+                "id": "Rolf Lassg\u00e5rd",
+                "slug": "rolf-lassgard",
+                "name": "Rolf Lassg\u00e5rd",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Sweden"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Angelika Thomas",
+                "slug": "angelika-thomas",
+                "name": "Angelika Thomas",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Catrin Striebeck",
+                "slug": "catrin-striebeck",
+                "name": "Catrin Striebeck",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Austria"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Dagmar Manzel",
+                "slug": "dagmar-manzel",
+                "name": "Dagmar Manzel",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Dirk B\u00f6hling",
+                "slug": "dirk-bohling",
+                "name": "Dirk B\u00f6hling",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Rolf Lassg\u00e5rd",
+                "slug": "rolf-lassgard",
+                "name": "Rolf Lassg\u00e5rd",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Sweden"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Stephan Schad",
+                "slug": "stephan-schad",
+                "name": "Stephan Schad",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Wendla N\u00f6lle",
+                "slug": "wendla-nolle",
+                "name": "Wendla N\u00f6lle",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Wolfram Koch",
+                "slug": "wolfram-koch",
+                "name": "Wolfram Koch",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "physical illness",
+        "medical treatment",
+        "marriage",
+        "caregiving",
+        "independent home"
+    ]
 }

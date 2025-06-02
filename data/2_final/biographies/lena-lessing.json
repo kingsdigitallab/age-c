@@ -1,30 +1,35 @@
 {
-  "id": "Lena Lessing",
-  "type": "Biography",
-  "slug": "lena-lessing",
-  "name": "Lena Lessing",
-  "birthYear": 1960,
-  "nationality": "Germany",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "DE2022_024",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "de2022-024-der-mann-der-die-welt-ass",
-      "tags": "abuse",
-      "title": {
-        "english": "The Man Who Ate the World",
-        "native": "Der Mann, der die Welt a\u00df"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Lena Lessing",
+    "slug": "lena-lessing",
+    "name": "Lena Lessing",
+    "birthYear": 1960,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2022_024",
+                "slug": "de2022-024-der-mann-der-die-welt-ass",
+                "title": {
+                    "native": "Der Mann, der die Welt a\u00df",
+                    "english": "The Man Who Ate the World"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-04-28",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

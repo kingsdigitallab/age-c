@@ -1,30 +1,35 @@
 {
-  "id": "Vincenzo Marra",
-  "type": "Biography",
-  "slug": "vincenzo-marra",
-  "name": "Vincenzo Marra",
-  "birthYear": 1972,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Sports Film",
-      "id": "IT2020_043",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "it2020-043-la-volta-buona",
-      "tags": "search for meaning",
-      "title": {
-        "english": "The Good One",
-        "native": "La volta buona"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Vincenzo Marra",
+    "slug": "vincenzo-marra",
+    "name": "Vincenzo Marra",
+    "birthYear": 1972,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2020_043",
+                "slug": "it2020-043-la-volta-buona",
+                "title": {
+                    "native": "La volta buona",
+                    "english": "The Good One"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-07-02",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

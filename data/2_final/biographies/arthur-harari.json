@@ -1,30 +1,51 @@
 {
-  "id": "Arthur Harari",
-  "type": "Biography",
-  "slug": "arthur-harari",
-  "name": "Arthur Harari",
-  "birthYear": 1981,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "War Film",
-      "id": "FR2021_039",
-      "production": {
-        "country": "Germany",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-039-onoda-10-000-nuits-dans-la-jungle",
-      "tags": "war",
-      "title": {
-        "english": "Onoda: 10,000 Nights in the Jungle",
-        "native": "Onoda, 10 000 nuits dans la jungle"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Arthur Harari",
+    "slug": "arthur-harari",
+    "name": "Arthur Harari",
+    "birthYear": 1981,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_039",
+                "slug": "fr2021-039-onoda-10-000-nuits-dans-la-jungle",
+                "title": {
+                    "native": "Onoda, 10 000 nuits dans la jungle",
+                    "english": "Onoda: 10,000 Nights in the Jungle"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-07-21",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Italy",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Japan",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

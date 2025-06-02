@@ -1,30 +1,35 @@
 {
-  "id": "Patrick Sobelman",
-  "type": "Biography",
-  "slug": "patrick-sobelman",
-  "name": "Patrick Sobelman",
-  "birthYear": 1956,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Participatory mode",
-      "id": "FR2022_025",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "fr2022-025-golda-maria",
-      "tags": "personal trauma",
-      "title": {
-        "english": "Golda Maria",
-        "native": "Golda Maria"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Patrick Sobelman",
+    "slug": "patrick-sobelman",
+    "name": "Patrick Sobelman",
+    "birthYear": 1956,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2022_025",
+                "slug": "fr2022-025-golda-maria",
+                "title": {
+                    "native": "Golda Maria",
+                    "english": "Golda Maria"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-02-09",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

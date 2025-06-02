@@ -1,48 +1,57 @@
 {
-  "id": "Mirko Locatelli",
-  "type": "Biography",
-  "slug": "mirko-locatelli",
-  "name": "Mirko Locatelli",
-  "birthYear": 1974,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Thriller",
-      "id": "IT2018_088",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "it2018-088-isabelle",
-      "tags": "may-december",
-      "title": {
-        "english": "Isabelle",
-        "native": "Isabelle"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "IT2023_156",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "it2023-156-la-memoria-del-mondo",
-      "tags": "artistic creation",
-      "title": {
-        "native": "La memoria del mondo"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Mirko Locatelli",
+    "slug": "mirko-locatelli",
+    "name": "Mirko Locatelli",
+    "birthYear": 1974,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2018_088",
+                "slug": "it2018-088-isabelle",
+                "title": {
+                    "native": "Isabelle",
+                    "english": "Isabelle"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-11-29",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2023_156",
+                "slug": "it2023-156-la-memoria-del-mondo",
+                "title": {
+                    "native": "La memoria del mondo",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-03-02",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

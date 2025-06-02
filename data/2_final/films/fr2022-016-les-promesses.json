@@ -1,72 +1,160 @@
 {
-  "id": "FR2022_016",
-  "type": "Film",
-  "slug": "fr2022-016-les-promesses",
-  "title": {
-    "native": "Les Promesses",
-    "english": "Promises"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-01-26",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=jAtXZHbzsd4",
-    "posterUrl": "https://medias.unifrance.org/medias/58/187/244538/format_page/les-promesses.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "high rank employment",
-    "marriage",
-    "state institutions",
-    "urban",
-    "professional politics",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Thomas Kruithof",
-      "slug": "thomas-kruithof",
-      "name": "Thomas Kruithof",
-      "birthYear": 1976,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2022_016_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Isabelle Huppert",
-        "slug": "isabelle-huppert",
-        "name": "Isabelle Huppert",
-        "birthYear": 1953.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Cl\u00e9mence, maire d\u00e9vou\u00e9e et pugnace d\u2019une ville pauvre du 93, vit les derniers mois de sa carri\u00e8re politique. Aid\u00e9e de son brillant et fid\u00e8le bras droit, Yazid, elle se bat avec passion pour sauver un quartier de la ville, min\u00e9 par l\u2019insalubrit\u00e9 et les \u201cmarchands de sommeil\u201d. Mais quand Cl\u00e9mence est pressentie pour devenir Ministre, une ambition jusqu\u2019ici refoul\u00e9e se fait jour, mettant \u00e0 l\u2019\u00e9preuve son rapport \u00e0 l\u2019engagement politique ainsi que son amiti\u00e9 avec Yazid.",
-    "english": "Cl\u00e9mence, the fearless mayor of a town near Paris, is completing the final term of her political career. With her faithful right-hand man Yazid, she has long fought for this town plagued by poverty, unemployment and slumlords. However, when Cl\u00e9mence is approached to become Minister, her ambition arises, questioning her devotion and commitment to her citizens. Will her political integrity and election promises survive her newly found ambition?"
-  }
+    "type": "Film",
+    "id": "FR2022_016",
+    "slug": "fr2022-016-les-promesses",
+    "title": {
+        "native": "Les Promesses",
+        "english": "Promises"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-01-26",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Thomas Kruithof",
+            "slug": "thomas-kruithof",
+            "name": "Thomas Kruithof",
+            "birthYear": 1976,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/58/187/244538/format_page/les-promesses.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=jAtXZHbzsd4"
+    },
+    "synopsis": {
+        "native": "Cl\u00e9mence, maire d\u00e9vou\u00e9e et pugnace d\u2019une ville pauvre du 93, vit les derniers mois de sa carri\u00e8re politique. Aid\u00e9e de son brillant et fid\u00e8le bras droit, Yazid, elle se bat avec passion pour sauver un quartier de la ville, min\u00e9 par l\u2019insalubrit\u00e9 et les \u201cmarchands de sommeil\u201d. Mais quand Cl\u00e9mence est pressentie pour devenir Ministre, une ambition jusqu\u2019ici refoul\u00e9e se fait jour, mettant \u00e0 l\u2019\u00e9preuve son rapport \u00e0 l\u2019engagement politique ainsi que son amiti\u00e9 avec Yazid.",
+        "english": "Cl\u00e9mence, the fearless mayor of a town near Paris, is completing the final term of her political career. With her faithful right-hand man Yazid, she has long fought for this town plagued by poverty, unemployment and slumlords. However, when Cl\u00e9mence is approached to become Minister, her ambition arises, questioning her devotion and commitment to her citizens. Will her political integrity and election promises survive her newly found ambition?"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_016_01",
+            "film": "FR2022_016",
+            "person": {
+                "id": "Isabelle Huppert",
+                "slug": "isabelle-huppert",
+                "name": "Isabelle Huppert",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Anne Loiret",
+                "slug": "anne-loiret",
+                "name": "Anne Loiret",
+                "birthYear": 1983,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Christian Benedetti",
+                "slug": "christian-benedetti",
+                "name": "Christian Benedetti",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Herv\u00e9 Pierre",
+                "slug": "herve-pierre",
+                "name": "Herv\u00e9 Pierre",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Isabelle Huppert",
+                "slug": "isabelle-huppert",
+                "name": "Isabelle Huppert",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Jean-Paul Bordes",
+                "slug": "jean-paul-bordes",
+                "name": "Jean-Paul Bordes",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Laurent Poitrenaux",
+                "slug": "laurent-poitrenaux",
+                "name": "Laurent Poitrenaux",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Thomas Kruithof",
+                "slug": "thomas-kruithof",
+                "name": "Thomas Kruithof",
+                "birthYear": 1976,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "professional politics",
+        "state institutions",
+        "urban",
+        "high rank employment",
+        "marriage",
+        "superior-employee relationship"
+    ]
 }

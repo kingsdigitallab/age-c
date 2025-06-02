@@ -1,81 +1,133 @@
 {
-  "id": "FR2019_041",
-  "type": "Film",
-  "slug": "fr2019-041-celle-que-vous-croyez",
-  "title": {
-    "native": "Celle que vous croyez",
-    "english": "Who You Think I Am"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-02-27",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2019_041",
+    "slug": "fr2019-041-celle-que-vous-croyez",
+    "title": {
+        "native": "Celle que vous croyez",
+        "english": "Who You Think I Am"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=x8Rb4SJrrEQ",
-    "posterUrl": "https://medias.unifrance.org/medias/210/15/200658/format_page/celle-que-vous-croyez.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "high rank employment",
-    "parenthood",
-    "fraud",
-    "caregiving",
-    "personal trauma",
-    "loneliness",
-    "extended family",
-    "self-employment",
-    "may-december",
-    "separation",
-    "desire"
-  ],
-  "director": [
-    {
-      "id": "Safy Nebbou",
-      "slug": "safy-nebbou",
-      "name": "Safy Nebbou",
-      "birthYear": 1968,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2019_041_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Juliette Binoche",
-        "slug": "juliette-binoche",
-        "name": "Juliette Binoche",
-        "birthYear": 1964.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Pour \u00e9pier son amant Ludo, Claire, la cinquantaine, se cr\u00e9e un faux profil sur les r\u00e9seaux sociaux et devient Clara, une magnifique jeune femme de 24 ans. Alex, le meilleur ami de Ludo, est imm\u00e9diatement s\u00e9duit. Dans l'engrenage, Claire, tombe \u00e0 son tour \u00e9perdument amoureuse de lui. Si tout se joue dans le virtuel, les sentiments sont bien r\u00e9els. Une histoire vertigineuse o\u00f9 r\u00e9alit\u00e9 et mensonge se confondent.",
-    "english": "To spy on her lover Ludo, 50 year-old Claire Millaud creates a fake profile on social media and becomes Clara, a beautiful 24 year-old. Alex, Ludo\u2019s friend is instantly enamored. Claire, trapped by her avatar, falls madly in love with him. Although everything is played out in the virtual world, the feelings that blossom are quite real. A beguiling story where lies are entangled with reality."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-02-27",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Safy Nebbou",
+            "slug": "safy-nebbou",
+            "name": "Safy Nebbou",
+            "birthYear": 1968,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/210/15/200658/format_page/celle-que-vous-croyez.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=x8Rb4SJrrEQ"
+    },
+    "synopsis": {
+        "native": "Pour \u00e9pier son amant Ludo, Claire, la cinquantaine, se cr\u00e9e un faux profil sur les r\u00e9seaux sociaux et devient Clara, une magnifique jeune femme de 24 ans. Alex, le meilleur ami de Ludo, est imm\u00e9diatement s\u00e9duit. Dans l'engrenage, Claire, tombe \u00e0 son tour \u00e9perdument amoureuse de lui. Si tout se joue dans le virtuel, les sentiments sont bien r\u00e9els. Une histoire vertigineuse o\u00f9 r\u00e9alit\u00e9 et mensonge se confondent.",
+        "english": "To spy on her lover Ludo, 50 year-old Claire Millaud creates a fake profile on social media and becomes Clara, a beautiful 24 year-old. Alex, Ludo\u2019s friend is instantly enamored. Claire, trapped by her avatar, falls madly in love with him. Although everything is played out in the virtual world, the feelings that blossom are quite real. A beguiling story where lies are entangled with reality."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2019_041_01",
+            "film": "FR2019_041",
+            "person": {
+                "id": "Juliette Binoche",
+                "slug": "juliette-binoche",
+                "name": "Juliette Binoche",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Charles Berling",
+                "slug": "charles-berling",
+                "name": "Charles Berling",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Juliette Binoche",
+                "slug": "juliette-binoche",
+                "name": "Juliette Binoche",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Nicole Garcia",
+                "slug": "nicole-garcia",
+                "name": "Nicole Garcia",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Safy Nebbou",
+                "slug": "safy-nebbou",
+                "name": "Safy Nebbou",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "high rank employment",
+        "parenthood",
+        "self-employment",
+        "separation",
+        "loneliness",
+        "may-december",
+        "personal trauma",
+        "extended family",
+        "caregiving",
+        "desire",
+        "fraud"
+    ]
 }

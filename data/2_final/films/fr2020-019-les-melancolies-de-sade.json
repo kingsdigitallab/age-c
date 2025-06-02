@@ -1,71 +1,112 @@
 {
-  "id": "FR2020_019",
-  "type": "Film",
-  "slug": "fr2020-019-les-melancolies-de-sade",
-  "title": {
-    "native": "Les M\u00e9lancolies de Sade",
-    "english": "M\u00e9lancolies de Sade"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-01-29",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=foQpeAQDgzQ",
-    "posterUrl": "https://medias.unifrance.org/medias/183/73/215479/format_page/les-melancolies-de-sade.jpg"
-  },
-  "genre": [
-    "Drama",
-    "Biopic"
-  ],
-  "tags": [
-    "personal memory",
-    "artistic creation",
-    "loneliness",
-    "desire",
-    "celebrity"
-  ],
-  "director": [
-    {
-      "id": "Guy Marignane",
-      "slug": "guy-marignane",
-      "name": "Guy Marignane",
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2020_019_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Didier Sauvegrain",
-        "slug": "didier-sauvegrain",
-        "name": "Didier Sauvegrain",
-        "birthYear": 1950.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Durant les derni\u00e8res ann\u00e9es de sa vie, le Marquis de Sade est emprisonn\u00e9. Seul face \u00e0 ses errances, cet homme de Lettres \u00e9crit presque chaque jour. On d\u00e9couvre ainsi un \u00eatre d\u2019une complexit\u00e9 exquise : \u00e0 travers sa douloureuse introspection se dessine un homme amoureux, visionnaire mais aussi un \u00eatre fragile et terriblement humain. Ce r\u00e9cit va \u00e0 l'encontre des pr\u00e9suppos\u00e9s sur Sade.",
-    "english": "During his final years, the Marquis de Sade was imprisoned. Alone and faced by his erring ways, this man of letters wrote almost every day. We hence discover a being of exquisite complexity: through his painful introspection emerges a loving and visionary man, but also a fragile and terribly humane being. This tale takes a look at the preconceptions about Sade."
-  }
+    "type": "Film",
+    "id": "FR2020_019",
+    "slug": "fr2020-019-les-melancolies-de-sade",
+    "title": {
+        "native": "Les M\u00e9lancolies de Sade",
+        "english": "M\u00e9lancolies de Sade"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-01-29",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Guy Marignane",
+            "slug": "guy-marignane",
+            "name": "Guy Marignane",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Biopic",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/183/73/215479/format_page/les-melancolies-de-sade.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=foQpeAQDgzQ"
+    },
+    "synopsis": {
+        "native": "Durant les derni\u00e8res ann\u00e9es de sa vie, le Marquis de Sade est emprisonn\u00e9. Seul face \u00e0 ses errances, cet homme de Lettres \u00e9crit presque chaque jour. On d\u00e9couvre ainsi un \u00eatre d\u2019une complexit\u00e9 exquise : \u00e0 travers sa douloureuse introspection se dessine un homme amoureux, visionnaire mais aussi un \u00eatre fragile et terriblement humain. Ce r\u00e9cit va \u00e0 l'encontre des pr\u00e9suppos\u00e9s sur Sade.",
+        "english": "During his final years, the Marquis de Sade was imprisoned. Alone and faced by his erring ways, this man of letters wrote almost every day. We hence discover a being of exquisite complexity: through his painful introspection emerges a loving and visionary man, but also a fragile and terribly humane being. This tale takes a look at the preconceptions about Sade."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2020_019_01",
+            "film": "FR2020_019",
+            "person": {
+                "id": "Didier Sauvegrain",
+                "slug": "didier-sauvegrain",
+                "name": "Didier Sauvegrain",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Catherine Gandois",
+                "slug": "catherine-gandois",
+                "name": "Catherine Gandois",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Didier Sauvegrain",
+                "slug": "didier-sauvegrain",
+                "name": "Didier Sauvegrain",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Guy Marignane",
+                "slug": "guy-marignane",
+                "name": "Guy Marignane",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "celebrity",
+        "artistic creation",
+        "loneliness",
+        "desire",
+        "personal memory"
+    ]
 }

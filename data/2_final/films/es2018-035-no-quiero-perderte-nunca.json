@@ -1,70 +1,102 @@
 {
-  "id": "ES2018_035",
-  "type": "Film",
-  "slug": "es2018-035-no-quiero-perderte-nunca",
-  "title": {
-    "native": "No quiero perderte nunca"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-07-13",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=893216",
-    "posterUrl": "https://www.imdb.com/title/tt4814544/mediaviewer/rm2757247232/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Horror",
-    "Drama"
-  ],
-  "tags": [
-    "motherhood",
-    "search for meaning",
-    "independent home",
-    "stages of life",
-    "dementia",
-    "mental illness",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Alejo Levis",
-      "slug": "alejo-levis",
-      "name": "Alejo Levis",
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2018_035_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Retired",
-      "ability": "Chronic illness",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Montse Ribadellas",
-        "slug": "montse-ribadellas",
-        "name": "Montse Ribadellas",
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Malena y Paula se acaban de trasladar a la casa de campo en la que viv\u00edan los padres de Paula. Una ma\u00f1ana recibe la noticia de que su madre se ha escapado del geri\u00e1trico donde estaba. Malena se va a trabajar y Paula se queda sola, hasta que recibe una visita inesperada. Su madre ha entrado en la casa pero ella no la encuentra, en una casa habitada de recuerdos cada vez m\u00e1s borrosos e imprecisos. Paula se perder\u00e1 buscando a su madre, y tendr\u00e1 que ser Malena la que la ayude a salvarse, como si fuera una medium intentando expulsar sus fantasmas interiores."
-  }
+    "type": "Film",
+    "id": "ES2018_035",
+    "slug": "es2018-035-no-quiero-perderte-nunca",
+    "title": {
+        "native": "No quiero perderte nunca",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-07-13",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Alejo Levis",
+            "slug": "alejo-levis",
+            "name": "Alejo Levis",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Horror"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt4814544/mediaviewer/rm2757247232/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=893216"
+    },
+    "synopsis": {
+        "native": "Malena y Paula se acaban de trasladar a la casa de campo en la que viv\u00edan los padres de Paula. Una ma\u00f1ana recibe la noticia de que su madre se ha escapado del geri\u00e1trico donde estaba. Malena se va a trabajar y Paula se queda sola, hasta que recibe una visita inesperada. Su madre ha entrado en la casa pero ella no la encuentra, en una casa habitada de recuerdos cada vez m\u00e1s borrosos e imprecisos. Paula se perder\u00e1 buscando a su madre, y tendr\u00e1 que ser Malena la que la ayude a salvarse, como si fuera una medium intentando expulsar sus fantasmas interiores.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2018_035_01",
+            "film": "ES2018_035",
+            "person": {
+                "id": "Montse Ribadellas",
+                "slug": "montse-ribadellas",
+                "name": "Montse Ribadellas",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Retired",
+            "ability": "Chronic illness",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alejo Levis",
+                "slug": "alejo-levis",
+                "name": "Alejo Levis",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Montse Ribadellas",
+                "slug": "montse-ribadellas",
+                "name": "Montse Ribadellas",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "motherhood",
+        "rural",
+        "independent home",
+        "mental illness",
+        "stages of life",
+        "dementia",
+        "search for meaning"
+    ]
 }

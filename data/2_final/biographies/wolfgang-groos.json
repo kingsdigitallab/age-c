@@ -1,100 +1,119 @@
 {
-  "id": "Wolfgang Groos",
-  "type": "Biography",
-  "slug": "wolfgang-groos",
-  "name": "Wolfgang Groos",
-  "birthYear": 1968,
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Temporary disability",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "Yes",
-      "class": "Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Adventure",
-        "id": "DE2019_001",
-        "production": {
-          "country": "Austria",
-          "share": "Minority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2019
-        },
-        "slug": "de2019-001-kalte-fusse",
-        "tags": "caregiving",
-        "title": {
-          "english": "Cold Feet",
-          "native": "Kalte F\u00fc\u00dfe"
+    "type": "Person",
+    "id": "Wolfgang Groos",
+    "slug": "wolfgang-groos",
+    "name": "Wolfgang Groos",
+    "birthYear": 1968,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [
+        {
+            "id": "DE2019_001_01",
+            "film": {
+                "id": "DE2019_001",
+                "slug": "de2019-001-kalte-fusse",
+                "title": {
+                    "native": "Kalte F\u00fc\u00dfe",
+                    "english": "Cold Feet"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-01-10",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Austria",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Wolfgang Groos",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Temporary disability",
+            "assistedMobility": "Yes"
         }
-      },
-      "gender": "Male identifying",
-      "id": "DE2019_001_01",
-      "origin": "White Western European",
-      "profession": "Self-employed",
-      "role": "Director of the film",
-      "sexuality": "Heterosexual"
-    }
-  ],
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Multi-protagonist film",
-      "id": "DE2023_079",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "de2023-079-enkel-fur-fortgeschrittene",
-      "tags": "elderhood",
-      "title": {
-        "native": "Enkel f\u00fcr Fortgeschrittene"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "DE2020_013",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "de2020-013-enkel-fur-anfanger",
-      "tags": "grandparenthood",
-      "title": {
-        "english": "Granny Nanny",
-        "native": "Enkel f\u00fcr Anf\u00e4nger"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Adventure",
-      "id": "DE2019_001",
-      "production": {
-        "country": "Austria",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "de2019-001-kalte-fusse",
-      "tags": "caregiving",
-      "title": {
-        "english": "Cold Feet",
-        "native": "Kalte F\u00fc\u00dfe"
-      }
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2019_001",
+                "slug": "de2019-001-kalte-fusse",
+                "title": {
+                    "native": "Kalte F\u00fc\u00dfe",
+                    "english": "Cold Feet"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-01-10",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Austria",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "DE2020_013",
+                "slug": "de2020-013-enkel-fur-anfanger",
+                "title": {
+                    "native": "Enkel f\u00fcr Anf\u00e4nger",
+                    "english": "Granny Nanny"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-02-06",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "DE2023_079",
+                "slug": "de2023-079-enkel-fur-fortgeschrittene",
+                "title": {
+                    "native": "Enkel f\u00fcr Fortgeschrittene",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-09-07",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

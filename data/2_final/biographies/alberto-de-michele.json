@@ -1,30 +1,39 @@
 {
-  "id": "Alberto De Michele",
-  "type": "Biography",
-  "slug": "alberto-de-michele",
-  "name": "Alberto De Michele",
-  "birthYear": 1980,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Action",
-      "id": "IT2022_055",
-      "production": {
-        "country": "Netherlands (the)",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "First festival screening",
-        "year": 2022
-      },
-      "slug": "it2022-055-the-last-ride-of-the-wolves",
-      "tags": "crime",
-      "title": {
-        "english": "The Last Ride of the Wolves",
-        "native": "The Last Ride of the Wolves"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Alberto De Michele",
+    "slug": "alberto-de-michele",
+    "name": "Alberto De Michele",
+    "birthYear": 1980,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2022_055",
+                "slug": "it2022-055-the-last-ride-of-the-wolves",
+                "title": {
+                    "native": "The Last Ride of the Wolves",
+                    "english": "The Last Ride of the Wolves"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-03-02",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Netherlands (the)",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

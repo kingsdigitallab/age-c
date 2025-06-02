@@ -1,52 +1,80 @@
 {
-  "id": "FR2021_001",
-  "type": "Film",
-  "slug": "fr2021-001-envole-moi",
-  "title": {
-    "native": "Envole-moi",
-    "english": "Fly Me Away"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-05-19",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2021_001",
+    "slug": "fr2021-001-envole-moi",
+    "title": {
+        "native": "Envole-moi",
+        "english": "Fly Me Away"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=bfXW7b-igtw",
-    "posterUrl": "https://medias.unifrance.org/medias/179/145/233907/format_page/fly-me-away.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Drama"
-  ],
-  "tags": [
-    "caregiving",
-    "intergenerational conflict",
-    "fatherhood"
-  ],
-  "director": [
-    {
-      "id": "Christophe Barratier",
-      "slug": "christophe-barratier",
-      "name": "Christophe Barratier",
-      "birthYear": 1963,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Thomas passe ses nuits en boites et ses journ\u00e9es au lit, jusqu\u2019au jour o\u00f9 son p\u00e8re, le docteur Reinhard, lass\u00e9 de ses frasques, d\u00e9cide de lui couper les vivres et lui impose de s\u2019occuper d\u2019un de ses jeunes patients. Marcus a douze ans et vit seul avec sa maman. Il souffre depuis sa naissance d\u2019une maladie grave qui rythme ses journ\u00e9es, entre le centre d\u2019accueil m\u00e9dicalis\u00e9 o\u00f9 il est scolaris\u00e9 et des s\u00e9jours r\u00e9p\u00e9t\u00e9s \u00e0 l\u2019h\u00f4pital. Cette rencontre va bouleverser le quotidien de l\u2019un et de l\u2019autre, et tout simplement changer leur vie.",
-    "english": "Thomas, a blas\u00e9 young man, spends his nights in clubs and his days in bed. Until his father, Dr. Reinhard, fed up with his son\u2019s escapades, cuts him off completely and forces him to take care of one of his young patients. Marcus, 12, was born with a serious congenital disorder. He lives with his mother in the poor suburbs of Paris and spends his days either at the hospital or in a center for sick children. This encounter will disrupt their lives and change them both, profoundly and forever."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2021-05-19",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Christophe Barratier",
+            "slug": "christophe-barratier",
+            "name": "Christophe Barratier",
+            "birthYear": 1963,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/179/145/233907/format_page/fly-me-away.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=bfXW7b-igtw"
+    },
+    "synopsis": {
+        "native": "Thomas passe ses nuits en boites et ses journ\u00e9es au lit, jusqu\u2019au jour o\u00f9 son p\u00e8re, le docteur Reinhard, lass\u00e9 de ses frasques, d\u00e9cide de lui couper les vivres et lui impose de s\u2019occuper d\u2019un de ses jeunes patients. Marcus a douze ans et vit seul avec sa maman. Il souffre depuis sa naissance d\u2019une maladie grave qui rythme ses journ\u00e9es, entre le centre d\u2019accueil m\u00e9dicalis\u00e9 o\u00f9 il est scolaris\u00e9 et des s\u00e9jours r\u00e9p\u00e9t\u00e9s \u00e0 l\u2019h\u00f4pital. Cette rencontre va bouleverser le quotidien de l\u2019un et de l\u2019autre, et tout simplement changer leur vie.",
+        "english": "Thomas, a blas\u00e9 young man, spends his nights in clubs and his days in bed. Until his father, Dr. Reinhard, fed up with his son\u2019s escapades, cuts him off completely and forces him to take care of one of his young patients. Marcus, 12, was born with a serious congenital disorder. He lives with his mother in the poor suburbs of Paris and spends his days either at the hospital or in a center for sick children. This encounter will disrupt their lives and change them both, profoundly and forever."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Italy",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Christophe Barratier",
+                "slug": "christophe-barratier",
+                "name": "Christophe Barratier",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "G\u00e9rard Lanvin",
+                "slug": "gerard-lanvin",
+                "name": "G\u00e9rard Lanvin",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "fatherhood",
+        "intergenerational conflict",
+        "caregiving"
+    ]
 }

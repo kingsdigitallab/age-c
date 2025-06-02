@@ -1,107 +1,168 @@
 {
-  "id": "IT2020_070",
-  "type": "Film",
-  "slug": "it2020-070-last-words",
-  "title": {
-    "native": "Last words"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "First festival screening",
-    "date": "2020-05-12",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "IT2020_070",
+    "slug": "it2020-070-last-words",
+    "title": {
+        "native": "Last words",
+        "english": ""
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=RRLjfjx_A4M",
-    "posterUrl": "https://www.imdb.com/title/tt12443726/mediaviewer/rm650833665/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama",
-    "Disaster Film",
-    "Multi-protagonist film"
-  ],
-  "tags": [
-    "intergenerational friendship",
-    "personal memory",
-    "artistic creation",
-    "ecology",
-    "natural",
-    "interracial relationships"
-  ],
-  "character": [
-    {
-      "id": "IT2020_070_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "Central European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Stellan Skarsg\u00e5rd",
-        "slug": "stellan-skarsgard",
-        "name": "Stellan Skarsg\u00e5rd",
-        "birthYear": 1951.0,
-        "gender": "Male identifying",
-        "nationality": "Switzerland"
-      },
-      "role": "Leading actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2020-05-12",
+        "year": 2020
     },
-    {
-      "id": "IT2020_070_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "Northern European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Charlotte Rampling",
-        "slug": "charlotte-rampling",
-        "name": "Charlotte Rampling",
-        "birthYear": 1946.0,
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Leading actor"
+    "filmType": "Fiction film",
+    "directors": [
+        "Joanthan Nossiter"
+    ],
+    "genre": [
+        "Disaster Film",
+        "Drama",
+        "Multi-protagonist film"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt12443726/mediaviewer/rm650833665/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=RRLjfjx_A4M"
     },
-    {
-      "id": "IT2020_070_02",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White North American",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Nick Nolte",
-        "slug": "nick-nolte",
-        "name": "Nick Nolte",
-        "birthYear": 1941.0,
-        "gender": "Male identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Nel 2086 il mondo che noi conosciamo non esiste pi\u00f9. Pochissimi uomini sono sopravvissuti. Un giovane intraprende un lungo viaggio alla ricerca di una ultima comunit\u00e0 di uomini.",
-    "english": "It is 2085. A young man, one of the few survivors of the human community of old, embarks on a long voyage to find others."
-  }
+    "synopsis": {
+        "native": "Nel 2086 il mondo che noi conosciamo non esiste pi\u00f9. Pochissimi uomini sono sopravvissuti. Un giovane intraprende un lungo viaggio alla ricerca di una ultima comunit\u00e0 di uomini.",
+        "english": "It is 2085. A young man, one of the few survivors of the human community of old, embarks on a long voyage to find others."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2020_070_01",
+            "film": "IT2020_070",
+            "person": {
+                "id": "Charlotte Rampling",
+                "slug": "charlotte-rampling",
+                "name": "Charlotte Rampling",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "Northern European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "IT2020_070_02",
+            "film": "IT2020_070",
+            "person": {
+                "id": "Nick Nolte",
+                "slug": "nick-nolte",
+                "name": "Nick Nolte",
+                "birthYear": 1941,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White North American",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "IT2020_070_03",
+            "film": "IT2020_070",
+            "person": {
+                "id": "Stellan Skarsg\u00e5rd",
+                "slug": "stellan-skarsgard",
+                "name": "Stellan Skarsg\u00e5rd",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Switzerland"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "Central European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Angela Finocchiaro",
+                "slug": "angela-finocchiaro",
+                "name": "Angela Finocchiaro",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Charlotte Rampling",
+                "slug": "charlotte-rampling",
+                "name": "Charlotte Rampling",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": "Joanthan Nossiter",
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Nick Nolte",
+                "slug": "nick-nolte",
+                "name": "Nick Nolte",
+                "birthYear": 1941,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Stellan Skarsg\u00e5rd",
+                "slug": "stellan-skarsgard",
+                "name": "Stellan Skarsg\u00e5rd",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Switzerland"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "personal memory",
+        "intergenerational friendship",
+        "interracial relationships",
+        "ecology",
+        "natural",
+        "artistic creation"
+    ]
 }

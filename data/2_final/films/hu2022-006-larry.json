@@ -1,50 +1,102 @@
 {
-  "id": "HU2022_006",
-  "type": "Film",
-  "slug": "hu2022-006-larry",
-  "title": {
-    "native": "Larry",
-    "english": "Larry"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-12-01",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Hungary",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://youtu.be/ymAMH_6HYRU?si=ogLlTdWbR-uyHBZ6",
-    "posterUrl": "https://www.imdb.com/title/tt12952376/mediaviewer/rm3924755969/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Coming of Age",
-    "Drama"
-  ],
-  "tags": [
-    "fatherhood",
-    "personal trauma",
-    "substance abuse",
-    "abuse",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Szil\u00e1rd Bern\u00e1th",
-      "slug": "szilard-bernath",
-      "name": "Szil\u00e1rd Bern\u00e1th",
-      "birthYear": 1986,
-      "gender": "Male identifying",
-      "nationality": "Hungary"
-    }
-  ],
-  "synopsis": {
-    "native": "A juhp\u00e1sztork\u00e9nt teng\u0151d\u0151, 21 \u00e9ves \u00c1d\u00e1m (Vilm\u00e1nyi Benett) mag\u00e1nak val\u00f3 vid\u00e9ki fi\u00fa, aki sz\u00e9gyelli dadog\u00e1s\u00e1t. Fesz\u00fclt, m\u00e9gis meghitt hidegs\u00e9gben \u00e9l egykor er\u0151szakos, m\u00e1ra a vall\u00e1sban mened\u00e9ket lelt \u00e9s megszel\u00edd\u00fclt \u00e9desapj\u00e1val (Thur\u00f3czy Szabolcs). \u00c1d\u00e1m eg\u00e9szen addig nem tal\u00e1lja a hely\u00e9t, am\u00edg r\u00e1 nem \u00e9bred, hogy a rapzene seg\u00edts\u00e9g\u00e9vel \u2013 Larry m\u0171v\u00e9szn\u00e9ven \u2013 kifejezheti mag\u00e1t, \u00e9s szembe n\u00e9zhet a tehetetlens\u00e9gb\u0151l fakad\u00f3 frusztr\u00e1ci\u00f3ival. Explicit, d\u00fcht\u0151l f\u0171t\u00f6tt sz\u00f6vegeire felfigyelnek a helyi fiatalok, majd a neten v\u00e1ratlan m\u00e9rt\u00e9k\u0171 n\u00e9pszer\u0171s\u00e9gre tesz szert. Egy orsz\u00e1gos tehets\u00e9gkutat\u00f3 lehet sz\u00e1m\u00e1ra a kit\u00f6r\u00e9si lehet\u0151s\u00e9g, \u00e1m ehhez el\u0151bb a kez\u00e9be kell vennie a saj\u00e1t \u00e9lete feletti ir\u00e1ny\u00edt\u00e1st.",
-    "english": "It tells the story of Adam who lives in isolation due to his stuttering, and hip-hop is the only way he can get rid of his speech impediment."
-  }
+    "type": "Film",
+    "id": "HU2022_006",
+    "slug": "hu2022-006-larry",
+    "title": {
+        "native": "Larry",
+        "english": "Larry"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-12-01",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Szil\u00e1rd Bern\u00e1th",
+            "slug": "szilard-bernath",
+            "name": "Szil\u00e1rd Bern\u00e1th",
+            "birthYear": 1986,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Hungary"
+        }
+    ],
+    "genre": [
+        "Coming of Age",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt12952376/mediaviewer/rm3924755969/?ref_=tt_ov_i",
+        "trailerUrl": "https://youtu.be/ymAMH_6HYRU?si=ogLlTdWbR-uyHBZ6"
+    },
+    "synopsis": {
+        "native": "A juhp\u00e1sztork\u00e9nt teng\u0151d\u0151, 21 \u00e9ves \u00c1d\u00e1m (Vilm\u00e1nyi Benett) mag\u00e1nak val\u00f3 vid\u00e9ki fi\u00fa, aki sz\u00e9gyelli dadog\u00e1s\u00e1t. Fesz\u00fclt, m\u00e9gis meghitt hidegs\u00e9gben \u00e9l egykor er\u0151szakos, m\u00e1ra a vall\u00e1sban mened\u00e9ket lelt \u00e9s megszel\u00edd\u00fclt \u00e9desapj\u00e1val (Thur\u00f3czy Szabolcs). \u00c1d\u00e1m eg\u00e9szen addig nem tal\u00e1lja a hely\u00e9t, am\u00edg r\u00e1 nem \u00e9bred, hogy a rapzene seg\u00edts\u00e9g\u00e9vel \u2013 Larry m\u0171v\u00e9szn\u00e9ven \u2013 kifejezheti mag\u00e1t, \u00e9s szembe n\u00e9zhet a tehetetlens\u00e9gb\u0151l fakad\u00f3 frusztr\u00e1ci\u00f3ival. Explicit, d\u00fcht\u0151l f\u0171t\u00f6tt sz\u00f6vegeire felfigyelnek a helyi fiatalok, majd a neten v\u00e1ratlan m\u00e9rt\u00e9k\u0171 n\u00e9pszer\u0171s\u00e9gre tesz szert. Egy orsz\u00e1gos tehets\u00e9gkutat\u00f3 lehet sz\u00e1m\u00e1ra a kit\u00f6r\u00e9si lehet\u0151s\u00e9g, \u00e1m ehhez el\u0151bb a kez\u00e9be kell vennie a saj\u00e1t \u00e9lete feletti ir\u00e1ny\u00edt\u00e1st.",
+        "english": "It tells the story of Adam who lives in isolation due to his stuttering, and hip-hop is the only way he can get rid of his speech impediment."
+    },
+    "production": [
+        {
+            "country": "Hungary",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Attila Bocs\u00e1rszky",
+                "slug": "attila-bocsarszky",
+                "name": "Attila Bocs\u00e1rszky",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Slovakia"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Szabolcs Thur\u00f3czy",
+                "slug": "szabolcs-thuroczy",
+                "name": "Szabolcs Thur\u00f3czy",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Szil\u00e1rd Bern\u00e1th",
+                "slug": "szilard-bernath",
+                "name": "Szil\u00e1rd Bern\u00e1th",
+                "birthYear": 1986,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "\u00c9va Bandor",
+                "slug": "eva-bandor",
+                "name": "\u00c9va Bandor",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Slovakia"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "fatherhood",
+        "abuse",
+        "substance abuse",
+        "personal trauma",
+        "rural"
+    ]
 }

@@ -1,29 +1,35 @@
 {
-  "id": "Gabriel Achim",
-  "type": "Biography",
-  "slug": "gabriel-achim",
-  "name": "Gabriel Achim",
-  "birthYear": 1975,
-  "nationality": "Romania",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Metacinema",
-      "id": "RO2022_036",
-      "production": {
-        "country": "Romania",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "ro2022-036-uneori-ninge-cu-zapada-alteori-cu-intuneric",
-      "title": {
-        "english": "Snowing Darkness",
-        "native": "Uneori ninge cu z\u0103pad\u0103, alteori cu \u00eentuneric"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Gabriel Achim",
+    "slug": "gabriel-achim",
+    "name": "Gabriel Achim",
+    "birthYear": 1975,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Romania",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "RO2022_036",
+                "slug": "ro2022-036-uneori-ninge-cu-zapada-alteori-cu-intuneric",
+                "title": {
+                    "native": "Uneori ninge cu z\u0103pad\u0103, alteori cu \u00eentuneric",
+                    "english": "Snowing Darkness"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-07-01",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

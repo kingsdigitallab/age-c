@@ -1,53 +1,81 @@
 {
-  "id": "FR2022_152",
-  "type": "Film",
-  "slug": "fr2022-152-bowling-saturne",
-  "title": {
-    "native": "Bowling Saturne",
-    "english": "Saturn Bowling"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-10-26",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2022_152",
+    "slug": "fr2022-152-bowling-saturne",
+    "title": {
+        "native": "Bowling Saturne",
+        "english": "Saturn Bowling"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=ZmT4l7uMhDk",
-    "posterUrl": "https://medias.unifrance.org/medias/114/227/254834/format_page/bowling-saturne.jpg"
-  },
-  "genre": [
-    "Noir",
-    "Crime"
-  ],
-  "tags": [
-    "urban",
-    "homosociality",
-    "inheritance",
-    "power"
-  ],
-  "director": [
-    {
-      "id": "Patricia Mazuy",
-      "slug": "patricia-mazuy",
-      "name": "Patricia Mazuy",
-      "birthYear": 1960,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "\u00c0 la mort de son p\u00e8re, Guillaume, commissaire de police, h\u00e9rite du bowling familial. Il d\u00e9cide de le donner en g\u00e9rance \u00e0 son demi-fr\u00e8re r\u00e9pudi\u00e9, Quentin. Le comportement pulsionnel de Quentin et son improbable gestion du bowling emp\u00eachent Guillaume de se consacrer pleinement \u00e0 l\u2019enqu\u00eate sur une s\u00e9rie de meurtres de jeunes femmes qui frappe la ville.",
-    "english": "When his father dies, Guillaume, a police officer, inherits the family bowling alley and decides to give it to his half-brother Armand. But the gift is haunted, setting off a series of murders. Both brothers find themselves drawn into a demon-filled abyss and will have to face their heritage. Darkness reigns over a world where the only rule is the rule of the hunt."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-10-26",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Patricia Mazuy",
+            "slug": "patricia-mazuy",
+            "name": "Patricia Mazuy",
+            "birthYear": 1960,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Crime",
+        "Noir"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/114/227/254834/format_page/bowling-saturne.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=ZmT4l7uMhDk"
+    },
+    "synopsis": {
+        "native": "\u00c0 la mort de son p\u00e8re, Guillaume, commissaire de police, h\u00e9rite du bowling familial. Il d\u00e9cide de le donner en g\u00e9rance \u00e0 son demi-fr\u00e8re r\u00e9pudi\u00e9, Quentin. Le comportement pulsionnel de Quentin et son improbable gestion du bowling emp\u00eachent Guillaume de se consacrer pleinement \u00e0 l\u2019enqu\u00eate sur une s\u00e9rie de meurtres de jeunes femmes qui frappe la ville.",
+        "english": "When his father dies, Guillaume, a police officer, inherits the family bowling alley and decides to give it to his half-brother Armand. But the gift is haunted, setting off a series of murders. Both brothers find themselves drawn into a demon-filled abyss and will have to face their heritage. Darkness reigns over a world where the only rule is the rule of the hunt."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Fr\u00e9d\u00e9ric van den Driessche",
+                "slug": "frederic-van-den-driessche",
+                "name": "Fr\u00e9d\u00e9ric van den Driessche",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Patricia Mazuy",
+                "slug": "patricia-mazuy",
+                "name": "Patricia Mazuy",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "urban",
+        "homosociality",
+        "power",
+        "inheritance"
+    ]
 }

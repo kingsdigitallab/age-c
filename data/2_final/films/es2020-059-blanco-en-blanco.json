@@ -1,117 +1,158 @@
 {
-  "id": "ES2020_059",
-  "type": "Film",
-  "slug": "es2020-059-blanco-en-blanco",
-  "title": {
-    "native": "Blanco en blanco",
-    "english": "White on White"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-07-31",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Chile",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "ES2020_059",
+    "slug": "es2020-059-blanco-en-blanco",
+    "title": {
+        "native": "Blanco en blanco",
+        "english": "White on White"
     },
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2020-07-31",
+        "year": 2020
     },
-    {
-      "country": "Germany",
-      "share": "Minority coproducer"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Th\u00e9o Court",
+            "slug": "theo-court",
+            "name": "Th\u00e9o Court",
+            "birthYear": 1980,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Chile"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Historical film (Heritage Film)",
+        "Western",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9028522/mediaviewer/rm334072321/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/film984914.html"
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/film984914.html",
-    "posterUrl": "https://www.imdb.com/title/tt9028522/mediaviewer/rm334072321/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Historical film (Heritage Film)",
-    "Thriller",
-    "Drama",
-    "Western"
-  ],
-  "tags": [
-    "collective trauma",
-    "racial discrimination",
-    "artistic creation",
-    "colony",
-    "national identity",
-    "loneliness",
-    "natural",
-    "cultural memory",
-    "power",
-    "desire",
-    "self-employment",
-    "superior-employee relationship",
-    "homosociality",
-    "abuse",
-    "wedding",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Th\u00e9o Court",
-      "slug": "theo-court",
-      "name": "Th\u00e9o Court",
-      "birthYear": 1980,
-      "gender": "Male identifying",
-      "nationality": "Chile"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2020_059_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Latin American",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Alejandro Goic",
-        "slug": "alejandro-goic",
-        "name": "Alejandro Goic",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "Chile"
-      },
-      "role": "Supporting actor"
+    "synopsis": {
+        "native": "En el preludio del siglo XX, Pedro (Alfredo Castro) llega a Tierra del Fuego, un territorio hostil y violento, para fotografiar el matrimonio de un poderoso latifundista, Mr Porter. La futura esposa, apenas una ni\u00f1a, se convierte en su obsesi\u00f3n. Tratando de capturar su belleza, traiciona al poder que domina el territorio. Pero es descubierto.",
+        "english": "A wedding photographer becomes overly intrigued by a young bride-to-be."
     },
-    {
-      "id": "ES2020_059_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Latin American",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Alfredo Castro",
-        "slug": "alfredo-castro",
-        "name": "Alfredo Castro",
-        "birthYear": 1955.0,
-        "gender": "Male identifying",
-        "nationality": "Chile"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "En el preludio del siglo XX, Pedro (Alfredo Castro) llega a Tierra del Fuego, un territorio hostil y violento, para fotografiar el matrimonio de un poderoso latifundista, Mr Porter. La futura esposa, apenas una ni\u00f1a, se convierte en su obsesi\u00f3n. Tratando de capturar su belleza, traiciona al poder que domina el territorio. Pero es descubierto.",
-    "english": "A wedding photographer becomes overly intrigued by a young bride-to-be."
-  }
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Chile",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Germany",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2020_059_01",
+            "film": "ES2020_059",
+            "person": {
+                "id": "Alfredo Castro",
+                "slug": "alfredo-castro",
+                "name": "Alfredo Castro",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Chile"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Latin American",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2020_059_02",
+            "film": "ES2020_059",
+            "person": {
+                "id": "Alejandro Goic",
+                "slug": "alejandro-goic",
+                "name": "Alejandro Goic",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Chile"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Latin American",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alejandro Goic",
+                "slug": "alejandro-goic",
+                "name": "Alejandro Goic",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Chile"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Alfredo Castro",
+                "slug": "alfredo-castro",
+                "name": "Alfredo Castro",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Chile"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Th\u00e9o Court",
+                "slug": "theo-court",
+                "name": "Th\u00e9o Court",
+                "birthYear": 1980,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Chile"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "colony",
+        "natural",
+        "artistic creation",
+        "national identity",
+        "abuse",
+        "desire",
+        "wedding",
+        "homosociality",
+        "loneliness",
+        "cultural memory",
+        "rural",
+        "self-employment",
+        "collective trauma",
+        "power",
+        "superior-employee relationship",
+        "racial discrimination"
+    ]
 }

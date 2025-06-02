@@ -1,77 +1,119 @@
 {
-  "id": "GB2020_035",
-  "type": "Film",
-  "slug": "gb2020-035-mogul-mowgli",
-  "title": {
-    "native": "Mogul Mowgli"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-10-30",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "GB2020_035",
+    "slug": "gb2020-035-mogul-mowgli",
+    "title": {
+        "native": "Mogul Mowgli",
+        "english": ""
     },
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt9892094/?ref_=tt_mv_close",
-    "posterUrl": "https://www.imdb.com/title/tt9892094/mediaviewer/rm1086586625/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Musical",
-    "Drama"
-  ],
-  "tags": [
-    "hospital",
-    "motherhood",
-    "artistic creation",
-    "religion",
-    "caregiving",
-    "national identity",
-    "urban",
-    "segregation"
-  ],
-  "director": [
-    {
-      "id": "Bassam Tariq",
-      "slug": "bassam-tariq",
-      "name": "Bassam Tariq",
-      "birthYear": 1986,
-      "gender": "Male identifying",
-      "nationality": "Pakistan"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2020_035_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "South Asia",
-      "class": "Lower Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Sudha Bhuchar",
-        "slug": "sudha-bhuchar",
-        "name": "Sudha Bhuchar",
-        "birthYear": 1961.0,
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "A British Pakistani rapper is on the cusp of his first world tour, but is struck down by an illness that threatens to derail his big break."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2020-10-30",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Bassam Tariq",
+            "slug": "bassam-tariq",
+            "name": "Bassam Tariq",
+            "birthYear": 1986,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Pakistan"
+        }
+    ],
+    "genre": [
+        "Musical",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9892094/mediaviewer/rm1086586625/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt9892094/?ref_=tt_mv_close"
+    },
+    "synopsis": {
+        "native": "A British Pakistani rapper is on the cusp of his first world tour, but is struck down by an illness that threatens to derail his big break.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2020_035_01",
+            "film": "GB2020_035",
+            "person": {
+                "id": "Sudha Bhuchar",
+                "slug": "sudha-bhuchar",
+                "name": "Sudha Bhuchar",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "South Asia",
+            "class": "Lower Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Bassam Tariq",
+                "slug": "bassam-tariq",
+                "name": "Bassam Tariq",
+                "birthYear": 1986,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Pakistan"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jeff Mirza",
+                "slug": "jeff-mirza",
+                "name": "Jeff Mirza",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Sudha Bhuchar",
+                "slug": "sudha-bhuchar",
+                "name": "Sudha Bhuchar",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "caregiving",
+        "hospital",
+        "motherhood",
+        "urban",
+        "artistic creation",
+        "religion",
+        "national identity",
+        "segregation"
+    ]
 }

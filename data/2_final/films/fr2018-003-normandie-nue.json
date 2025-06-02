@@ -1,76 +1,164 @@
 {
-  "id": "FR2018_003",
-  "type": "Film",
-  "slug": "fr2018-003-normandie-nue",
-  "title": {
-    "native": "Normandie nue",
-    "english": "Naked Normandy"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-01-10",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.dailymotion.com/video/x7t1nvw",
-    "posterUrl": "https://medias.unifrance.org/medias/127/207/184191/format_page/normandie-nue.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Drama"
-  ],
-  "tags": [
-    "precarity",
-    "high rank employment",
-    "class solidarity",
-    "power",
-    "self-employment",
-    "state institutions",
-    "activism",
-    "professional politics",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Philippe Le Guay",
-      "slug": "philippe-le-guay",
-      "name": "Philippe Le Guay",
-      "birthYear": 1956,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2018_003_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Fran\u00e7ois Cluzet",
-        "slug": "francois-cluzet",
-        "name": "Fran\u00e7ois Cluzet",
-        "birthYear": 1955.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Au M\u00eale sur Sarthe, petit village normand, les \u00e9leveurs sont touch\u00e9s par la crise. Georges Balbuzard, le maire de la ville, n'est pas du genre \u00e0 se laisser abattre et d\u00e9cide de tout tenter pour sauver son village...Le hasard veut que Blake Newman, grand photographe conceptuel qui d\u00e9shabille les foules, soit de passage dans la r\u00e9gion. Balbuzard y voit l'occasion de sauver son village. Seulement voil\u00e0, aucun Normand n'est d'accord pour se mettre \u00e0 nu...",
-    "english": "Times are difficult in a French small town, with plummeting meat prices especially problematic for many of the farmers, so they decide to stage a protest to get politicians\u2019 attention. Georges, realizing that regular protesting isn\u2019t working, tries to convince the community that perhaps getting buck naked in front of the lens of a famous photographer might help them get noticed."
-  }
+    "type": "Film",
+    "id": "FR2018_003",
+    "slug": "fr2018-003-normandie-nue",
+    "title": {
+        "native": "Normandie nue",
+        "english": "Naked Normandy"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-01-10",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Philippe Le Guay",
+            "slug": "philippe-le-guay",
+            "name": "Philippe Le Guay",
+            "birthYear": 1956,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/127/207/184191/format_page/normandie-nue.jpg",
+        "trailerUrl": "https://www.dailymotion.com/video/x7t1nvw"
+    },
+    "synopsis": {
+        "native": "Au M\u00eale sur Sarthe, petit village normand, les \u00e9leveurs sont touch\u00e9s par la crise. Georges Balbuzard, le maire de la ville, n'est pas du genre \u00e0 se laisser abattre et d\u00e9cide de tout tenter pour sauver son village...Le hasard veut que Blake Newman, grand photographe conceptuel qui d\u00e9shabille les foules, soit de passage dans la r\u00e9gion. Balbuzard y voit l'occasion de sauver son village. Seulement voil\u00e0, aucun Normand n'est d'accord pour se mettre \u00e0 nu...",
+        "english": "Times are difficult in a French small town, with plummeting meat prices especially problematic for many of the farmers, so they decide to stage a protest to get politicians\u2019 attention. Georges, realizing that regular protesting isn\u2019t working, tries to convince the community that perhaps getting buck naked in front of the lens of a famous photographer might help them get noticed."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2018_003_01",
+            "film": "FR2018_003",
+            "person": {
+                "id": "Fran\u00e7ois Cluzet",
+                "slug": "francois-cluzet",
+                "name": "Fran\u00e7ois Cluzet",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Brigitte Chamarande",
+                "slug": "brigitte-chamarande",
+                "name": "Brigitte Chamarande",
+                "birthYear": 1955,
+                "deathYear": 2022,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Fran\u00e7ois Cluzet",
+                "slug": "francois-cluzet",
+                "name": "Fran\u00e7ois Cluzet",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Jean-Claude Bolle-Reddat",
+                "slug": "jean-claude-bolle-reddat",
+                "name": "Jean-Claude Bolle-Reddat",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Marie-Christine Orry",
+                "slug": "marie-christine-orry",
+                "name": "Marie-Christine Orry",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Patrick d'Assum\u00e7ao",
+                "slug": "patrick-d-assumcao",
+                "name": "Patrick d'Assum\u00e7ao",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Philippe Le Guay",
+                "slug": "philippe-le-guay",
+                "name": "Philippe Le Guay",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Philippe Pollet-Villard",
+                "slug": "philippe-pollet-villard",
+                "name": "Philippe Pollet-Villard",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "rural",
+        "self-employment",
+        "precarity",
+        "state institutions",
+        "professional politics",
+        "high rank employment",
+        "activism",
+        "power",
+        "class solidarity"
+    ]
 }

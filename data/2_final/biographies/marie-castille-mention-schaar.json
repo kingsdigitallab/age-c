@@ -1,48 +1,61 @@
 {
-  "id": "Marie-Castille Mention-Schaar",
-  "type": "Biography",
-  "slug": "marie-castille-mention-schaar",
-  "name": "Marie-Castille Mention-Schaar",
-  "birthYear": 1963,
-  "nationality": "France",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2018_091",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-091-la-fete-des-meres",
-      "tags": "artistic creation",
-      "title": {
-        "english": "All About Mothers",
-        "native": "La F\u00eate des m\u00e8res"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2021_102",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2010
-      },
-      "slug": "fr2021-102-a-good-man",
-      "title": {
-        "english": "A Good Man",
-        "native": "A Good Man"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Marie-Castille Mention-Schaar",
+    "slug": "marie-castille-mention-schaar",
+    "name": "Marie-Castille Mention-Schaar",
+    "birthYear": 1963,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_091",
+                "slug": "fr2018-091-la-fete-des-meres",
+                "title": {
+                    "native": "La F\u00eate des m\u00e8res",
+                    "english": "All About Mothers"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-05-23",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2021_102",
+                "slug": "fr2021-102-a-good-man",
+                "title": {
+                    "native": "A Good Man",
+                    "english": "A Good Man"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2010-11-21",
+                    "year": 2010
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

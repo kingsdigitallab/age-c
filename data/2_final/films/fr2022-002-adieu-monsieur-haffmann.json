@@ -1,99 +1,119 @@
 {
-  "id": "FR2022_002",
-  "type": "Film",
-  "slug": "fr2022-002-adieu-monsieur-haffmann",
-  "title": {
-    "native": "Adieu Monsieur Haffmann",
-    "english": "Farewell Mr Haffmann"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-01-12",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2022_002",
+    "slug": "fr2022-002-adieu-monsieur-haffmann",
+    "title": {
+        "native": "Adieu Monsieur Haffmann",
+        "english": "Farewell Mr Haffmann"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=ynh8hXoLza8",
-    "posterUrl": "https://medias.unifrance.org/medias/23/173/240919/format_page/farewell-mr-haffmann.jpg"
-  },
-  "genre": [
-    "Historical film (Heritage Film)",
-    "Drama"
-  ],
-  "tags": [
-    "racial discrimination",
-    "parenthood",
-    "independent home",
-    "marriage",
-    "self-employment",
-    "urban",
-    "segregation",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Fred Cavay\u00e9",
-      "slug": "fred-cavaye",
-      "name": "Fred Cavay\u00e9",
-      "birthYear": 1967,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2022_002_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Daniel Auteuil",
-        "slug": "daniel-auteuil",
-        "name": "Daniel Auteuil",
-        "birthYear": 1950.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2022-01-12",
+        "year": 2022
     },
-    {
-      "id": "FR2022_002_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Daniel Auteuil",
-        "slug": "daniel-auteuil",
-        "name": "Daniel Auteuil",
-        "birthYear": 1950.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Paris 1941. Fran\u00e7ois Mercier est un homme ordinaire qui n\u2019aspire qu\u2019\u00e0 fonder une famille avec la femme qu\u2019il aime, Blanche. Il est aussi l\u2019employ\u00e9 d\u2019un joaillier talentueux, Mr Haffmann. Mais face \u00e0 l\u2019occupation allemande, les deux hommes n\u2019auront d\u2019autre choix que de conclure un accord dont les cons\u00e9quences, au fil des mois, bouleverseront le destin de nos trois personnages.",
-    "english": "Paris 1941. Fran\u00e7ois Mercier is an ordinary man whose only goal is to start a family with Blanche, the woman he loves. Fran\u00e7ois works for Mr. Haffmann, a talented Jewish jeweler. Under the German occupation, the employer and employee are forced to strike a deal which, over the following months, will upend the fate of our three protagonists."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Fred Cavay\u00e9",
+            "slug": "fred-cavaye",
+            "name": "Fred Cavay\u00e9",
+            "birthYear": 1967,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Historical film (Heritage Film)"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/23/173/240919/format_page/farewell-mr-haffmann.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=ynh8hXoLza8"
+    },
+    "synopsis": {
+        "native": "Paris 1941. Fran\u00e7ois Mercier est un homme ordinaire qui n\u2019aspire qu\u2019\u00e0 fonder une famille avec la femme qu\u2019il aime, Blanche. Il est aussi l\u2019employ\u00e9 d\u2019un joaillier talentueux, Mr Haffmann. Mais face \u00e0 l\u2019occupation allemande, les deux hommes n\u2019auront d\u2019autre choix que de conclure un accord dont les cons\u00e9quences, au fil des mois, bouleverseront le destin de nos trois personnages.",
+        "english": "Paris 1941. Fran\u00e7ois Mercier is an ordinary man whose only goal is to start a family with Blanche, the woman he loves. Fran\u00e7ois works for Mr. Haffmann, a talented Jewish jeweler. Under the German occupation, the employer and employee are forced to strike a deal which, over the following months, will upend the fate of our three protagonists."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_002_01",
+            "film": "FR2022_002",
+            "person": {
+                "id": "Daniel Auteuil",
+                "slug": "daniel-auteuil",
+                "name": "Daniel Auteuil",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Daniel Auteuil",
+                "slug": "daniel-auteuil",
+                "name": "Daniel Auteuil",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Daniel Auteuil",
+                "slug": "daniel-auteuil",
+                "name": "Daniel Auteuil",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Fred Cavay\u00e9",
+                "slug": "fred-cavaye",
+                "name": "Fred Cavay\u00e9",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "racial discrimination",
+        "segregation",
+        "self-employment",
+        "marriage",
+        "parenthood",
+        "urban",
+        "independent home",
+        "superior-employee relationship"
+    ]
 }

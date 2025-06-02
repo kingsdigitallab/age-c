@@ -1,48 +1,88 @@
 {
-  "id": "FR2018_135",
-  "type": "Film",
-  "slug": "fr2018-135-bonhomme",
-  "title": {
-    "native": "Bonhomme",
-    "english": "My Guy"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-08-29",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=CZhIp5CEErs",
-    "posterUrl": "https://medias.unifrance.org/medias/237/240/192749/format_page/my-guy.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Drama"
-  ],
-  "tags": [
-    "self-employment",
-    "state institutions",
-    "high rank employment"
-  ],
-  "director": [
-    {
-      "id": "Marion Vernoux",
-      "slug": "marion-vernoux",
-      "name": "Marion Vernoux",
-      "birthYear": 1966,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "La vie de Piotr et Marilyn, jeune couple de banlieue, va \u00eatre boulevers\u00e9e suite \u00e0 un accident de voiture. Traumatis\u00e9 cr\u00e2nien, Piotr, s\u2019il garde son physique avantageux, n\u2019a plus toute sa t\u00eate : tant\u00f4t matou apathique, tant\u00f4t fauve en rut \u00e0 l\u2019hyper sexualit\u00e9 d\u00e9brid\u00e9e. Pour Marilyn, convaincue que son amour peut le sauver, c\u2019est le d\u00e9but d\u2019une \u00e9pop\u00e9e men\u00e9e vaille que vaille et cul par-dessus t\u00eate.",
-    "english": "The life of Piotr and Marilyn, a young suburban couple, is suddenly shattered by a car accident. Suffering from a head trauma, Piotr is not in his right mind anymore, though he still remains quite good-looking: he continually switches from apathetic to horny with an unbridled sex-drive. For Marilyn, convinced that her love can save him, it is the beginning of a wild and unpredictable journey."
-  }
+    "type": "Film",
+    "id": "FR2018_135",
+    "slug": "fr2018-135-bonhomme",
+    "title": {
+        "native": "Bonhomme",
+        "english": "My Guy"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-08-29",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Marion Vernoux",
+            "slug": "marion-vernoux",
+            "name": "Marion Vernoux",
+            "birthYear": 1966,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/237/240/192749/format_page/my-guy.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=CZhIp5CEErs"
+    },
+    "synopsis": {
+        "native": "La vie de Piotr et Marilyn, jeune couple de banlieue, va \u00eatre boulevers\u00e9e suite \u00e0 un accident de voiture. Traumatis\u00e9 cr\u00e2nien, Piotr, s\u2019il garde son physique avantageux, n\u2019a plus toute sa t\u00eate : tant\u00f4t matou apathique, tant\u00f4t fauve en rut \u00e0 l\u2019hyper sexualit\u00e9 d\u00e9brid\u00e9e. Pour Marilyn, convaincue que son amour peut le sauver, c\u2019est le d\u00e9but d\u2019une \u00e9pop\u00e9e men\u00e9e vaille que vaille et cul par-dessus t\u00eate.",
+        "english": "The life of Piotr and Marilyn, a young suburban couple, is suddenly shattered by a car accident. Suffering from a head trauma, Piotr is not in his right mind anymore, though he still remains quite good-looking: he continually switches from apathetic to horny with an unbridled sex-drive. For Marilyn, convinced that her love can save him, it is the beginning of a wild and unpredictable journey."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Christophe Loizillon",
+                "slug": "christophe-loizillon",
+                "name": "Christophe Loizillon",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Fran\u00e7ois Rollin",
+                "slug": "francois-rollin",
+                "name": "Fran\u00e7ois Rollin",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Marion Vernoux",
+                "slug": "marion-vernoux",
+                "name": "Marion Vernoux",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "self-employment",
+        "state institutions",
+        "high rank employment"
+    ]
 }

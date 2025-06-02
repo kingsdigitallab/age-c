@@ -1,52 +1,92 @@
 {
-  "id": "FR2022_105",
-  "type": "Film",
-  "slug": "fr2022-105-peter-von-kant",
-  "title": {
-    "native": "Peter von Kant",
-    "english": "Peter Von Kant"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-07-06",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2022_105",
+    "slug": "fr2022-105-peter-von-kant",
+    "title": {
+        "native": "Peter von Kant",
+        "english": "Peter Von Kant"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=t0I5OTlRTqI",
-    "posterUrl": "https://medias.unifrance.org/medias/116/212/250996/format_page/peter-von-kant.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "self-employment",
-    "parenthood",
-    "artistic creation",
-    "celebrity"
-  ],
-  "director": [
-    {
-      "id": "Fran\u00e7ois Ozon",
-      "slug": "francois-ozon",
-      "name": "Fran\u00e7ois Ozon",
-      "birthYear": 1967,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Peter Von Kant, un r\u00e9alisateur c\u00e9l\u00e8bre et \u00e0 succ\u00e8s, vit avec son assistant Karl, qu'il aime maltraiter et humilier. Gr\u00e2ce \u00e0 la grande actrice Sidonie, il rencontre et tombe amoureux d'Amir, un beau jeune homme de condition modeste. Il propose de partager son appartement et d'aider Amir \u00e0 percer dans le monde du cin\u00e9ma. Quelques mois plus tard, Amir devient une star. Mais d\u00e8s qu'il devient c\u00e9l\u00e8bre, il rompt avec lui. Peter reste seul et doit faire face \u00e0 lui-m\u00eame.",
-    "english": "Peter Von Kant, a successful, famous director, lives with his assistant Karl, whom he likes to mistreat and humiliate. Through the great actress Sidonie, he meets and falls in love with Amir, a handsome young man of modest means. He offers to share his apartment and help Amir break into the world of cinema. Several months later, Amir becomes a star. But as soon as he acquires fame, he breaks up, leaving Peter alone to face himself."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-07-06",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Fran\u00e7ois Ozon",
+            "slug": "francois-ozon",
+            "name": "Fran\u00e7ois Ozon",
+            "birthYear": 1967,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/116/212/250996/format_page/peter-von-kant.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=t0I5OTlRTqI"
+    },
+    "synopsis": {
+        "native": "Peter Von Kant, un r\u00e9alisateur c\u00e9l\u00e8bre et \u00e0 succ\u00e8s, vit avec son assistant Karl, qu'il aime maltraiter et humilier. Gr\u00e2ce \u00e0 la grande actrice Sidonie, il rencontre et tombe amoureux d'Amir, un beau jeune homme de condition modeste. Il propose de partager son appartement et d'aider Amir \u00e0 percer dans le monde du cin\u00e9ma. Quelques mois plus tard, Amir devient une star. Mais d\u00e8s qu'il devient c\u00e9l\u00e8bre, il rompt avec lui. Peter reste seul et doit faire face \u00e0 lui-m\u00eame.",
+        "english": "Peter Von Kant, a successful, famous director, lives with his assistant Karl, whom he likes to mistreat and humiliate. Through the great actress Sidonie, he meets and falls in love with Amir, a handsome young man of modest means. He offers to share his apartment and help Amir break into the world of cinema. Several months later, Amir becomes a star. But as soon as he acquires fame, he breaks up, leaving Peter alone to face himself."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Fran\u00e7ois Ozon",
+                "slug": "francois-ozon",
+                "name": "Fran\u00e7ois Ozon",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Hanna Schygulla",
+                "slug": "hanna-schygulla",
+                "name": "Hanna Schygulla",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Isabelle Adjani",
+                "slug": "isabelle-adjani",
+                "name": "Isabelle Adjani",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "self-employment",
+        "artistic creation",
+        "celebrity",
+        "parenthood"
+    ]
 }

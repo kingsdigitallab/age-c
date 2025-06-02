@@ -1,30 +1,35 @@
 {
-  "id": "Aur\u00e9lia Georges",
-  "type": "Biography",
-  "slug": "aurelia-georges",
-  "name": "Aur\u00e9lia Georges",
-  "birthYear": 1973,
-  "nationality": "France",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Historical film (Heritage Film)",
-      "id": "FR2022_011",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "fr2022-011-la-place-d-une-autre",
-      "tags": "intergenerational friendship",
-      "title": {
-        "english": "Secret Name",
-        "native": "La Place d'une autre"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Aur\u00e9lia Georges",
+    "slug": "aurelia-georges",
+    "name": "Aur\u00e9lia Georges",
+    "birthYear": 1973,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2022_011",
+                "slug": "fr2022-011-la-place-d-une-autre",
+                "title": {
+                    "native": "La Place d'une autre",
+                    "english": "Secret Name"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-01-19",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

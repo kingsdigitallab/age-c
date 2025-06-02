@@ -1,30 +1,43 @@
 {
-  "id": "Timm Kr\u00f6ger",
-  "type": "Biography",
-  "slug": "timm-kroger",
-  "name": "Timm Kr\u00f6ger",
-  "birthYear": 1985,
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Noir",
-      "id": "DE2023_097",
-      "production": {
-        "country": "Switzerland",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "de2023-097-die-theorie-von-allem",
-      "tags": "crime",
-      "title": {
-        "english": "The Universal Theory",
-        "native": "Die Theorie von Allem"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Timm Kr\u00f6ger",
+    "slug": "timm-kroger",
+    "name": "Timm Kr\u00f6ger",
+    "birthYear": 1985,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2023_097",
+                "slug": "de2023-097-die-theorie-von-allem",
+                "title": {
+                    "native": "Die Theorie von Allem",
+                    "english": "The Universal Theory"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-10-26",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Austria",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Switzerland",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

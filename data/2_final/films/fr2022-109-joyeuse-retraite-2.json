@@ -1,93 +1,147 @@
 {
-  "id": "FR2022_109",
-  "type": "Film",
-  "slug": "fr2022-109-joyeuse-retraite-2",
-  "title": {
-    "native": "Joyeuse retraite ! 2",
-    "english": "Finally Retired!"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-07-20",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=3kO9Ujtx8Es",
-    "posterUrl": "https://medias.unifrance.org/medias/166/215/251814/format_page/joyeuse-retraite-2.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "parenthood",
-    "grandparenthood",
-    "holiday",
-    "marriage",
-    "multigenerational family",
-    "extended family",
-    "tourism",
-    "retirement"
-  ],
-  "director": [
-    {
-      "id": "Fabrice Bracq",
-      "slug": "fabrice-bracq",
-      "name": "Fabrice Bracq",
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2022_109_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Thierry Lhermitte",
-        "slug": "thierry-lhermitte",
-        "name": "Thierry Lhermitte",
-        "birthYear": 1952.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "FR2022_109",
+    "slug": "fr2022-109-joyeuse-retraite-2",
+    "title": {
+        "native": "Joyeuse retraite ! 2",
+        "english": "Finally Retired!"
     },
-    {
-      "id": "FR2022_109_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Mich\u00e8le Laroque",
-        "slug": "michele-laroque",
-        "name": "Mich\u00e8le Laroque",
-        "birthYear": 1960.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "lls pensaient enfin passer une retraite tranquille\u2026 3 ans ont pass\u00e9. Marilou et Philippe d\u00e9cident de faire d\u00e9couvrir \u00e0 leurs petits-enfants leur nouvelle maison de vacances au Portugal. Mais une fois sur place, ils d\u00e9couvrent horrifi\u00e9s que la maison est encore en chantier ! Ce n\u2019est que le d\u00e9but des gal\u00e8res pour les grands-parents car bient\u00f4t\u2026 ils perdent les gamins. Il ne leur reste plus que deux jours pour les retrouver, avant que leurs parents ne les rejoignent\u2026",
-    "english": "Marilou and Philippe are finally moving to Portugal! They dreamt of their new house, a cocoon to spend time with their family and enjoy their retirement. When they arrive, they discover that the house isn\u2019t finished and that the land developer disappeared. It couldn\u2019t get worse\u2026 until they loose their grandkids. They only have 24 hours to find them before their daughter C\u00e9cile arrives!"
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-07-20",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Fabrice Bracq",
+            "slug": "fabrice-bracq",
+            "name": "Fabrice Bracq",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/166/215/251814/format_page/joyeuse-retraite-2.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=3kO9Ujtx8Es"
+    },
+    "synopsis": {
+        "native": "lls pensaient enfin passer une retraite tranquille\u2026 3 ans ont pass\u00e9. Marilou et Philippe d\u00e9cident de faire d\u00e9couvrir \u00e0 leurs petits-enfants leur nouvelle maison de vacances au Portugal. Mais une fois sur place, ils d\u00e9couvrent horrifi\u00e9s que la maison est encore en chantier ! Ce n\u2019est que le d\u00e9but des gal\u00e8res pour les grands-parents car bient\u00f4t\u2026 ils perdent les gamins. Il ne leur reste plus que deux jours pour les retrouver, avant que leurs parents ne les rejoignent\u2026",
+        "english": "Marilou and Philippe are finally moving to Portugal! They dreamt of their new house, a cocoon to spend time with their family and enjoy their retirement. When they arrive, they discover that the house isn\u2019t finished and that the land developer disappeared. It couldn\u2019t get worse\u2026 until they loose their grandkids. They only have 24 hours to find them before their daughter C\u00e9cile arrives!"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_109_01",
+            "film": "FR2022_109",
+            "person": {
+                "id": "Mich\u00e8le Laroque",
+                "slug": "michele-laroque",
+                "name": "Mich\u00e8le Laroque",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "FR2022_109_02",
+            "film": "FR2022_109",
+            "person": {
+                "id": "Thierry Lhermitte",
+                "slug": "thierry-lhermitte",
+                "name": "Thierry Lhermitte",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Fabrice Bracq",
+                "slug": "fabrice-bracq",
+                "name": "Fabrice Bracq",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Judith Magre",
+                "slug": "judith-magre",
+                "name": "Judith Magre",
+                "birthYear": 1926,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Mich\u00e8le Laroque",
+                "slug": "michele-laroque",
+                "name": "Mich\u00e8le Laroque",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Thierry Lhermitte",
+                "slug": "thierry-lhermitte",
+                "name": "Thierry Lhermitte",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "retirement",
+        "marriage",
+        "parenthood",
+        "grandparenthood",
+        "extended family",
+        "multigenerational family",
+        "tourism",
+        "holiday"
+    ]
 }

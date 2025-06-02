@@ -1,49 +1,113 @@
 {
-  "id": "HU2018_003",
-  "type": "Film",
-  "slug": "hu2018-003-rossz-versek",
-  "title": {
-    "native": "Rossz versek",
-    "english": "Bad Poems"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-12-27",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Hungary",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=433HjeDWvMg&ab_channel=NemzetiFilmint%C3%A9zet",
-    "posterUrl": "https://www.imdb.com/title/tt6755366/mediaviewer/rm942305280/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Coming of Age",
-    "Romance"
-  ],
-  "tags": [
-    "mentorship",
-    "education",
-    "parenthood"
-  ],
-  "director": [
-    {
-      "id": "G\u00e1bor Reisz",
-      "slug": "gabor-reisz",
-      "name": "G\u00e1bor Reisz",
-      "birthYear": 1980,
-      "gender": "Male identifying",
-      "nationality": "Hungary"
-    }
-  ],
-  "synopsis": {
-    "native": "A 33 \u00e9ves Merthner Tam\u00e1s mag\u00e1n\u00e9lete romokban, mert p\u00e1rizsi \u00f6szt\u00f6nd\u00edj\u00e1t t\u00f6lt\u0151 bar\u00e1tn\u0151je, Anna \u00e9ppen most szak\u00edtott vele. Tam\u00e1s \u00f6nsajn\u00e1lat\u00e1ban, a m\u00faltj\u00e1ban kezdi keresni a v\u00e1laszt arra, hogy a szerelem val\u00f3ban csak akkor l\u00e9tezik-e, amikor m\u00e1r gyakorlatilag nincs. Mag\u00e1n\u00e9leti probl\u00e9m\u00e1inak feldolgoz\u00e1sa mellett, Tam\u00e1s eml\u00e9keib\u0151l \u00e9bred r\u00e1 a mai t\u00e1rsadalom elveszetts\u00e9g\u00e9re is, ez\u00faton kapunk egy rendk\u00edv\u00fcl szubjekt\u00edv k\u00e9pet Magyarorsz\u00e1g jelen\u00e9r\u0151l.",
-    "english": "33-years old Tam\u00e1s is heartbroken after his girlfriend Anna, who is on a scholarship in Paris, breaks up with him. While wallowing in self-pity, he takes a trip down memory lane to figure out if love only exists when it's practically gone."
-  }
+    "type": "Film",
+    "id": "HU2018_003",
+    "slug": "hu2018-003-rossz-versek",
+    "title": {
+        "native": "Rossz versek",
+        "english": "Bad Poems"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-12-27",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "G\u00e1bor Reisz",
+            "slug": "gabor-reisz",
+            "name": "G\u00e1bor Reisz",
+            "birthYear": 1980,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Hungary"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Coming of Age",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt6755366/mediaviewer/rm942305280/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=433HjeDWvMg&ab_channel=NemzetiFilmint%C3%A9zet"
+    },
+    "synopsis": {
+        "native": "A 33 \u00e9ves Merthner Tam\u00e1s mag\u00e1n\u00e9lete romokban, mert p\u00e1rizsi \u00f6szt\u00f6nd\u00edj\u00e1t t\u00f6lt\u0151 bar\u00e1tn\u0151je, Anna \u00e9ppen most szak\u00edtott vele. Tam\u00e1s \u00f6nsajn\u00e1lat\u00e1ban, a m\u00faltj\u00e1ban kezdi keresni a v\u00e1laszt arra, hogy a szerelem val\u00f3ban csak akkor l\u00e9tezik-e, amikor m\u00e1r gyakorlatilag nincs. Mag\u00e1n\u00e9leti probl\u00e9m\u00e1inak feldolgoz\u00e1sa mellett, Tam\u00e1s eml\u00e9keib\u0151l \u00e9bred r\u00e1 a mai t\u00e1rsadalom elveszetts\u00e9g\u00e9re is, ez\u00faton kapunk egy rendk\u00edv\u00fcl szubjekt\u00edv k\u00e9pet Magyarorsz\u00e1g jelen\u00e9r\u0151l.",
+        "english": "33-years old Tam\u00e1s is heartbroken after his girlfriend Anna, who is on a scholarship in Paris, breaks up with him. While wallowing in self-pity, he takes a trip down memory lane to figure out if love only exists when it's practically gone."
+    },
+    "production": [
+        {
+            "country": "Hungary",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "G\u00e1bor Reisz",
+                "slug": "gabor-reisz",
+                "name": "G\u00e1bor Reisz",
+                "birthYear": 1980,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Katalin Tak\u00e1cs",
+                "slug": "katalin-takacs",
+                "name": "Katalin Tak\u00e1cs",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Lili Monori",
+                "slug": "lili-monori",
+                "name": "Lili Monori",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Zsolt Kov\u00e1cs",
+                "slug": "zsolt-kovacs",
+                "name": "Zsolt Kov\u00e1cs",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Zsuzsa Horv\u00e1th",
+                "slug": "zsuzsa-horvath",
+                "name": "Zsuzsa Horv\u00e1th",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "parenthood",
+        "mentorship",
+        "education"
+    ]
 }

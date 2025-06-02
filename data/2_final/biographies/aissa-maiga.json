@@ -1,30 +1,39 @@
 {
-  "id": "A\u00efssa Ma\u00efga",
-  "type": "Biography",
-  "slug": "aissa-maiga",
-  "name": "A\u00efssa Ma\u00efga",
-  "birthYear": 1975,
-  "nationality": "France",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Observational mode",
-      "id": "FR2021_106",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2010
-      },
-      "slug": "fr2021-106-marcher-sur-l-eau",
-      "tags": "ecology",
-      "title": {
-        "english": "Above Water",
-        "native": "Marcher sur l'eau"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "A\u00efssa Ma\u00efga",
+    "slug": "aissa-maiga",
+    "name": "A\u00efssa Ma\u00efga",
+    "birthYear": 1975,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_106",
+                "slug": "fr2021-106-marcher-sur-l-eau",
+                "title": {
+                    "native": "Marcher sur l'eau",
+                    "english": "Above Water"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2010-11-21",
+                    "year": 2010
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

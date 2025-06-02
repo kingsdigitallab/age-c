@@ -1,30 +1,43 @@
 {
-  "id": "Charlotte Gainsbourg",
-  "type": "Biography",
-  "slug": "charlotte-gainsbourg",
-  "name": "Charlotte Gainsbourg",
-  "birthYear": 1971,
-  "nationality": "France",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Performative mode",
-      "id": "FR2022_003",
-      "production": {
-        "country": "Japan",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "fr2022-003-jane-par-charlotte",
-      "tags": "artistic creation",
-      "title": {
-        "english": "Jany by Charlotte",
-        "native": "Jane par Charlotte"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Charlotte Gainsbourg",
+    "slug": "charlotte-gainsbourg",
+    "name": "Charlotte Gainsbourg",
+    "birthYear": 1971,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2022_003",
+                "slug": "fr2022-003-jane-par-charlotte",
+                "title": {
+                    "native": "Jane par Charlotte",
+                    "english": "Jany by Charlotte"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-01-12",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Japan",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

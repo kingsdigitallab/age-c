@@ -1,46 +1,111 @@
 {
-  "id": "DE2018_022",
-  "type": "Film",
-  "slug": "de2018-022-vielmachglas",
-  "title": {
-    "native": "Vielmachglas",
-    "english": "A Jar Full of Life"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-03-08",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=swyNmwM4qKM&ab_channel=JuniorFilmFleadh",
-    "posterUrl": "https://www.imdb.com/title/tt7333070/mediaviewer/rm1112823296/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Drama",
-    "Road Movie",
-    "Coming of Age",
-    "Romance"
-  ],
-  "director": [
-    {
-      "id": "Florian Ross",
-      "slug": "florian-ross",
-      "name": "Florian Ross",
-      "birthYear": 1982,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "Ihre Familie geht Marleen (Jella Haase) gewaltig auf den Keks: Nur, weil sie mit Anfang 20 noch nicht von zu Hause ausgezogen ist und lieber in einem kleinen Kino jobbt statt zu studieren, machen ihr ihre Eltern Doris (Juliane K\u00f6hler) und Peter (Uwe Ochsenknecht) st\u00e4ndig Vorw\u00fcrfe. Die w\u00fcrden es n\u00e4mlich viel lieber sehen, wenn Marleen genauso zielstrebig und engagiert w\u00e4re wir ihr Bruder Erik (Matthias Schweigh\u00f6fer). Der ist nicht nur als Entwicklungshelfer, Surflehrer und Bergsteiger rund um den Globus aktiv, sondern schreibt jetzt zu allem \u00dcberfluss auch noch B\u00fccher! Marleen h\u00e4lt es kaum noch aus. Als dann zu allem \u00dcberfluss ein tragisches Ungl\u00fcck geschieht, packt sie kurzerhand ihre Sachen und bricht in die Welt auf. Wohin? Das wei\u00df sie nicht. Aber als sie unterwegs dem Fotografen Ben (Marc Benjamin) und der durchgeknallten YouTuberin Zo\u00eb (Emma Drogunova) begegnet und von einem Abenteuer ins n\u00e4chste stolpert, stellt sie fest, dass es kein Ziel braucht, um gl\u00fccklich zu sein\u2026",
-    "english": "After her adventurous brother dies in a car crash, a neurotic, broke girl, who can't choose, what to do with her life, goes on the adventure, he wasn't able to take - the Antarctic."
-  }
+    "type": "Film",
+    "id": "DE2018_022",
+    "slug": "de2018-022-vielmachglas",
+    "title": {
+        "native": "Vielmachglas",
+        "english": "A Jar Full of Life"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-03-08",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Florian Ross",
+            "slug": "florian-ross",
+            "name": "Florian Ross",
+            "birthYear": 1982,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Road Movie",
+        "Coming of Age",
+        "Comedy",
+        "Romance",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt7333070/mediaviewer/rm1112823296/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=swyNmwM4qKM&ab_channel=JuniorFilmFleadh"
+    },
+    "synopsis": {
+        "native": "Ihre Familie geht Marleen (Jella Haase) gewaltig auf den Keks: Nur, weil sie mit Anfang 20 noch nicht von zu Hause ausgezogen ist und lieber in einem kleinen Kino jobbt statt zu studieren, machen ihr ihre Eltern Doris (Juliane K\u00f6hler) und Peter (Uwe Ochsenknecht) st\u00e4ndig Vorw\u00fcrfe. Die w\u00fcrden es n\u00e4mlich viel lieber sehen, wenn Marleen genauso zielstrebig und engagiert w\u00e4re wir ihr Bruder Erik (Matthias Schweigh\u00f6fer). Der ist nicht nur als Entwicklungshelfer, Surflehrer und Bergsteiger rund um den Globus aktiv, sondern schreibt jetzt zu allem \u00dcberfluss auch noch B\u00fccher! Marleen h\u00e4lt es kaum noch aus. Als dann zu allem \u00dcberfluss ein tragisches Ungl\u00fcck geschieht, packt sie kurzerhand ihre Sachen und bricht in die Welt auf. Wohin? Das wei\u00df sie nicht. Aber als sie unterwegs dem Fotografen Ben (Marc Benjamin) und der durchgeknallten YouTuberin Zo\u00eb (Emma Drogunova) begegnet und von einem Abenteuer ins n\u00e4chste stolpert, stellt sie fest, dass es kein Ziel braucht, um gl\u00fccklich zu sein\u2026",
+        "english": "After her adventurous brother dies in a car crash, a neurotic, broke girl, who can't choose, what to do with her life, goes on the adventure, he wasn't able to take - the Antarctic."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Florian Ross",
+                "slug": "florian-ross",
+                "name": "Florian Ross",
+                "birthYear": 1982,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Gerda B\u00f6ken",
+                "slug": "gerda-boken",
+                "name": "Gerda B\u00f6ken",
+                "birthYear": 1933,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Katy Karrenbauer",
+                "slug": "katy-karrenbauer",
+                "name": "Katy Karrenbauer",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Martina Eitner-Acheampong",
+                "slug": "martina-eitner-acheampong",
+                "name": "Martina Eitner-Acheampong",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Uwe Ochsenknecht",
+                "slug": "uwe-ochsenknecht",
+                "name": "Uwe Ochsenknecht",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": []
 }

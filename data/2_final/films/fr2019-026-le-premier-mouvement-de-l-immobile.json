@@ -1,46 +1,74 @@
 {
-  "id": "FR2019_026",
-  "type": "Film",
-  "slug": "fr2019-026-le-premier-mouvement-de-l-immobile",
-  "title": {
-    "native": "Le Premier Mouvement de l'immobile",
-    "english": "The First Motion of the Immovable"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-01-30",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=ctyNp1PpzEg",
-    "posterUrl": "https://medias.unifrance.org/medias/36/31/270116/format_page/le-premier-mouvement-de-l-immobile.jpg"
-  },
-  "genre": [
-    "Documentary \u2013 Poetic mode"
-  ],
-  "tags": [
-    "personal memory",
-    "artistic creation"
-  ],
-  "director": [
-    {
-      "id": "Sebastiano d'Ayala Valva",
-      "slug": "sebastiano-d-ayala-valva",
-      "name": "Sebastiano d'Ayala Valva",
-      "birthYear": 1978,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "synopsis": {
-    "native": "Le pouvoir cr\u00e9ateur et spirituel du son r\u00e9v\u00e9l\u00e9 au travers de l\u2019\u0153uvre radicale et de la vie hors du commun du compositeur Giacinto Scelsi, mort \u00e0 Rome le 8/8/88. Comme bien des g\u00e9nies artistiques avant lui, Giacinto Scelsi a ouvert, au risque de son \u00e9quilibre psychique, les portes de terres inexplor\u00e9es. Dans le monde musical, classique et contemporain, personne n\u2019avait avant lui consacr\u00e9 autant d\u2019\u00e9nergie \u00e0 la r\u00e9v\u00e9lation du pouvoir cr\u00e9ateur du son. L\u2019\u0153uvre et le message qu\u2019il laisse derri\u00e8re lui ont, certes, enrichi l\u2019histoire de la musique contemporaine mais invitent surtout \u00e0 une r\u00e9flexion profonde sur les vibrations qui nous entourent, leur pouvoir physique autant que po\u00e9tique.",
-    "english": "Composer Giacinto Scelsi believed his work came to him from the gods. Discover the mysterious beauty of his world and his music."
-  }
+    "type": "Film",
+    "id": "FR2019_026",
+    "slug": "fr2019-026-le-premier-mouvement-de-l-immobile",
+    "title": {
+        "native": "Le Premier Mouvement de l'immobile",
+        "english": "The First Motion of the Immovable"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-01-30",
+        "year": 2019
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Sebastiano d'Ayala Valva",
+            "slug": "sebastiano-d-ayala-valva",
+            "name": "Sebastiano d'Ayala Valva",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Poetic mode"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/36/31/270116/format_page/le-premier-mouvement-de-l-immobile.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=ctyNp1PpzEg"
+    },
+    "synopsis": {
+        "native": "Le pouvoir cr\u00e9ateur et spirituel du son r\u00e9v\u00e9l\u00e9 au travers de l\u2019\u0153uvre radicale et de la vie hors du commun du compositeur Giacinto Scelsi, mort \u00e0 Rome le 8/8/88. Comme bien des g\u00e9nies artistiques avant lui, Giacinto Scelsi a ouvert, au risque de son \u00e9quilibre psychique, les portes de terres inexplor\u00e9es. Dans le monde musical, classique et contemporain, personne n\u2019avait avant lui consacr\u00e9 autant d\u2019\u00e9nergie \u00e0 la r\u00e9v\u00e9lation du pouvoir cr\u00e9ateur du son. L\u2019\u0153uvre et le message qu\u2019il laisse derri\u00e8re lui ont, certes, enrichi l\u2019histoire de la musique contemporaine mais invitent surtout \u00e0 une r\u00e9flexion profonde sur les vibrations qui nous entourent, leur pouvoir physique autant que po\u00e9tique.",
+        "english": "Composer Giacinto Scelsi believed his work came to him from the gods. Discover the mysterious beauty of his world and his music."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Giacinto Scelsi",
+                "slug": "giacinto-scelsi",
+                "name": "Giacinto Scelsi",
+                "birthYear": 1905,
+                "deathYear": 1988,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Sebastiano d'Ayala Valva",
+                "slug": "sebastiano-d-ayala-valva",
+                "name": "Sebastiano d'Ayala Valva",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "personal memory"
+    ]
 }

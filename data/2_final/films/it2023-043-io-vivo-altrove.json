@@ -1,94 +1,150 @@
 {
-  "id": "IT2023_043",
-  "type": "Film",
-  "slug": "it2023-043-io-vivo-altrove",
-  "title": {
-    "native": "Io vivo altrove!",
-    "english": "What a Life!"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-01-19",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "IT2023_043",
+    "slug": "it2023-043-io-vivo-altrove",
+    "title": {
+        "native": "Io vivo altrove!",
+        "english": "What a Life!"
     },
-    {
-      "country": "Slovenia",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=Ba1_J6jFfR0",
-    "posterUrl": "https://www.imdb.com/title/tt18274542/mediaviewer/rm811940865/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "new start",
-    "homosociality",
-    "inheritance",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Giuseppe Battiston",
-      "slug": "giuseppe-battiston",
-      "name": "Giuseppe Battiston",
-      "birthYear": 1968,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2023_043_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Giuseppe Battiston",
-        "slug": "giuseppe-battiston",
-        "name": "Giuseppe Battiston",
-        "birthYear": 1968.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2023-01-19",
+        "year": 2023
     },
-    {
-      "id": "IT2023_043_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Giuseppe Battiston",
-        "slug": "giuseppe-battiston",
-        "name": "Giuseppe Battiston",
-        "birthYear": 1968.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Director of the film"
-    }
-  ],
-  "synopsis": {
-    "native": "Biasutti e Perbellini hanno lo stesso nome, Fausto, e odiano entrambi la vita nella grande citt\u00e0. Si conoscono per caso durante una gita per fotoamatori, diventano amici e iniziano a coltivare insieme il sogno di andare a vivere in campagna, mantenendosi con il frutto delle proprie fatiche. A Quando Biasutti eredita la vecchia casa della nonna a Valvana, sulle colline del nord est, il sogno pu\u00f2 finalmente diventare realt\u00e0: l\u2019accoglienza in paese, per\u00f2, si dimostra meno calorosa del previsto\u2026",
-    "english": "Fausto Perbellini and Fausto Biasutti are middle-aged loners who strike up an unlikely friendship on account of a shared first name. They share a common goal: living a frugal life in the countryside escaping from Rome\u2019s hustle. After their relocation into the Biasutti\u2019s inherited house in the Friuli\u2019 hills, they clumsily attempt to farm, while trying to ingratiate themselves with the local folk. What doesn\u2019t kill you makes you stronger, and Perbellini and Biasutti grow from their mistakes. They learn how to listen to nature, how to love, and how to build community with others. Ultimately, they win the greatest of all rewards: the gift of true friendship."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Giuseppe Battiston",
+            "slug": "giuseppe-battiston",
+            "name": "Giuseppe Battiston",
+            "birthYear": 1968,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt18274542/mediaviewer/rm811940865/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=Ba1_J6jFfR0"
+    },
+    "synopsis": {
+        "native": "Biasutti e Perbellini hanno lo stesso nome, Fausto, e odiano entrambi la vita nella grande citt\u00e0. Si conoscono per caso durante una gita per fotoamatori, diventano amici e iniziano a coltivare insieme il sogno di andare a vivere in campagna, mantenendosi con il frutto delle proprie fatiche. A Quando Biasutti eredita la vecchia casa della nonna a Valvana, sulle colline del nord est, il sogno pu\u00f2 finalmente diventare realt\u00e0: l\u2019accoglienza in paese, per\u00f2, si dimostra meno calorosa del previsto\u2026",
+        "english": "Fausto Perbellini and Fausto Biasutti are middle-aged loners who strike up an unlikely friendship on account of a shared first name. They share a common goal: living a frugal life in the countryside escaping from Rome\u2019s hustle. After their relocation into the Biasutti\u2019s inherited house in the Friuli\u2019 hills, they clumsily attempt to farm, while trying to ingratiate themselves with the local folk. What doesn\u2019t kill you makes you stronger, and Perbellini and Biasutti grow from their mistakes. They learn how to listen to nature, how to love, and how to build community with others. Ultimately, they win the greatest of all rewards: the gift of true friendship."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Slovenia",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2023_043_01",
+            "film": "IT2023_043",
+            "person": {
+                "id": "Giuseppe Battiston",
+                "slug": "giuseppe-battiston",
+                "name": "Giuseppe Battiston",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Ariella Reggio",
+                "slug": "ariella-reggio",
+                "name": "Ariella Reggio",
+                "birthYear": 1936,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Giuseppe Battiston",
+                "slug": "giuseppe-battiston",
+                "name": "Giuseppe Battiston",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Giuseppe Battiston",
+                "slug": "giuseppe-battiston",
+                "name": "Giuseppe Battiston",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Ida Marinelli",
+                "slug": "ida-marinelli",
+                "name": "Ida Marinelli",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Roberto Citran",
+                "slug": "roberto-citran",
+                "name": "Roberto Citran",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Teco Celio",
+                "slug": "teco-celio",
+                "name": "Teco Celio",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Switzerland"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "rural",
+        "homosociality",
+        "new start",
+        "inheritance"
+    ]
 }

@@ -1,71 +1,89 @@
 {
-  "id": "IT2021_061",
-  "type": "Film",
-  "slug": "it2021-061-the-girl-in-the-fountain",
-  "title": {
-    "native": "The girl in the fountain"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-12-01",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "IT2021_061",
+    "slug": "it2021-061-the-girl-in-the-fountain",
+    "title": {
+        "native": "The girl in the fountain",
+        "english": ""
     },
-    {
-      "country": "Sweden",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=Xe-rBW1Zmkw",
-    "posterUrl": "https://www.imdb.com/title/tt14269046/mediaviewer/rm3325751041/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Metacinema",
-    "Documentary \u2013 Performative mode",
-    "Biopic"
-  ],
-  "tags": [
-    "celebrity"
-  ],
-  "director": [
-    {
-      "id": "Antongiulio Panizzi",
-      "slug": "antongiulio-panizzi",
-      "name": "Antongiulio Panizzi",
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2021_061_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Monica Bellucci",
-        "slug": "monica-bellucci",
-        "name": "Monica Bellucci",
-        "birthYear": 1964.0,
-        "gender": "Female identifying",
-        "nationality": "Italy"
-      },
-      "role": "Unknown"
-    }
-  ],
-  "synopsis": {
-    "native": "Cosa fa di una donna un\u2019attrice e di un\u2019attrice una star? La bellezza? Il talento? Il carisma? La fortuna? La disciplina? Un bravo produttore? Domandarselo \u00e8 lecito anche se non esiste una sola risposta ed esistono diversi tipi di star. Non c\u2019\u00e8 miglior curriculum del tempo. Un po\u2019 giudice un po\u2019 mago, il tempo \u00e8 capace di trasformare un semplice volto in un\u2019immagine indimenticabile. Anita Ekberg \u00e8 stata la diva per eccellenza. Star internazionale, attrice di talento, simbolo di un periodo che prende il nome da uno dei film pi\u00f9 importanti della storia del cinema, La dolce vita di Federico Fellini, di cui nel 2020 ricorre il centenario della nascita. Ma la vita di Anita \u00e8 stata tutt\u2019altro che dolce. Molti anni dopo quel fortunato film, ospite in un salotto televisivo, lanci\u00f2 un appello a Fellini, proponendo di girare insieme \u201cLa vita amara\u201d:aveva solo 50 anni, era ancora straordinariamente bella ma la sua carriera si era spenta ormai da tempo. Cosa proverebbe una star contemporanea se dovesse interpretare Anita? Come si sentirebbe a confrontarsi con la vita di una donna distrutta dal suo stesso successo?",
-    "english": "The story of an actress devoured by her own icon. Alternating archive footage of Anita Ekberg with the story of a contemporary star, Monica Bellucci retraces Anita's frailties and chooses, reflecting on what it feels like to be an icon."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2021-12-01",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Antongiulio Panizzi",
+            "slug": "antongiulio-panizzi",
+            "name": "Antongiulio Panizzi",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Performative mode",
+        "Biopic",
+        "Metacinema"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt14269046/mediaviewer/rm3325751041/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=Xe-rBW1Zmkw"
+    },
+    "synopsis": {
+        "native": "Cosa fa di una donna un\u2019attrice e di un\u2019attrice una star? La bellezza? Il talento? Il carisma? La fortuna? La disciplina? Un bravo produttore? Domandarselo \u00e8 lecito anche se non esiste una sola risposta ed esistono diversi tipi di star. Non c\u2019\u00e8 miglior curriculum del tempo. Un po\u2019 giudice un po\u2019 mago, il tempo \u00e8 capace di trasformare un semplice volto in un\u2019immagine indimenticabile. Anita Ekberg \u00e8 stata la diva per eccellenza. Star internazionale, attrice di talento, simbolo di un periodo che prende il nome da uno dei film pi\u00f9 importanti della storia del cinema, La dolce vita di Federico Fellini, di cui nel 2020 ricorre il centenario della nascita. Ma la vita di Anita \u00e8 stata tutt\u2019altro che dolce. Molti anni dopo quel fortunato film, ospite in un salotto televisivo, lanci\u00f2 un appello a Fellini, proponendo di girare insieme \u201cLa vita amara\u201d:aveva solo 50 anni, era ancora straordinariamente bella ma la sua carriera si era spenta ormai da tempo. Cosa proverebbe una star contemporanea se dovesse interpretare Anita? Come si sentirebbe a confrontarsi con la vita di una donna distrutta dal suo stesso successo?",
+        "english": "The story of an actress devoured by her own icon. Alternating archive footage of Anita Ekberg with the story of a contemporary star, Monica Bellucci retraces Anita's frailties and chooses, reflecting on what it feels like to be an icon."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Sweden",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2021_061_01",
+            "film": "IT2021_061",
+            "person": {
+                "id": "Monica Bellucci",
+                "slug": "monica-bellucci",
+                "name": "Monica Bellucci",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Antongiulio Panizzi",
+                "slug": "antongiulio-panizzi",
+                "name": "Antongiulio Panizzi",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "celebrity"
+    ]
 }

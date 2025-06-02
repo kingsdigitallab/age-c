@@ -1,50 +1,81 @@
 {
-  "id": "ES2018_030",
-  "type": "Film",
-  "slug": "es2018-030-el-pintor-de-calaveras",
-  "title": {
-    "native": "El pintor de Calaveras"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-04-15",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "posterUrl": "https://www.imdb.com/title/tt9795650/mediaviewer/rm680685312/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "personal memory",
-    "artistic creation",
-    "natural",
-    "cultural memory",
-    "regional identity",
-    "legacy",
-    "rural",
-    "physical illness",
-    "agony"
-  ],
-  "director": [
-    {
-      "id": "Sigfrid Monle\u00f3n",
-      "slug": "sigfrid-monleon",
-      "name": "Sigfrid Monle\u00f3n",
-      "birthYear": 1964,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "El pintor y cineasta Pepe D\u00e1maso (Agaete, Gran Canaria, 1933), convaleciente de una grave enfermedad, decide donar a sus paisanos la obra que ha guardado consigo a lo largo de setenta a\u00f1os. Antes de desprenderse de sus cuadros, D\u00e1maso regresa a los paisajes y argumentos de su infancia, un conjunto de elementos identitarios sobre los que ha labrado una original alegor\u00eda pl\u00e1stica de la vida insular"
-  }
+    "type": "Film",
+    "id": "ES2018_030",
+    "slug": "es2018-030-el-pintor-de-calaveras",
+    "title": {
+        "native": "El pintor de Calaveras",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-04-15",
+        "year": 2018
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Sigfrid Monle\u00f3n",
+            "slug": "sigfrid-monleon",
+            "name": "Sigfrid Monle\u00f3n",
+            "birthYear": 1964,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9795650/mediaviewer/rm680685312/?ref_=tt_ov_i",
+        "trailerUrl": ""
+    },
+    "synopsis": {
+        "native": "El pintor y cineasta Pepe D\u00e1maso (Agaete, Gran Canaria, 1933), convaleciente de una grave enfermedad, decide donar a sus paisanos la obra que ha guardado consigo a lo largo de setenta a\u00f1os. Antes de desprenderse de sus cuadros, D\u00e1maso regresa a los paisajes y argumentos de su infancia, un conjunto de elementos identitarios sobre los que ha labrado una original alegor\u00eda pl\u00e1stica de la vida insular",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Pepe D\u00e1maso",
+                "slug": "pepe-damaso",
+                "name": "Pepe D\u00e1maso",
+                "birthYear": 1933,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Sigfrid Monle\u00f3n",
+                "slug": "sigfrid-monleon",
+                "name": "Sigfrid Monle\u00f3n",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "physical illness",
+        "agony",
+        "cultural memory",
+        "personal memory",
+        "legacy",
+        "rural",
+        "natural",
+        "artistic creation",
+        "regional identity"
+    ]
 }

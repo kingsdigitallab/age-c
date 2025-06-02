@@ -1,47 +1,75 @@
 {
-  "id": "RO2020_007",
-  "type": "Film",
-  "slug": "ro2020-007-profu",
-  "title": {
-    "native": "Profu'",
-    "english": "Teach"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-10-02",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Romania",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.cinemagia.ro/trailer/profu-23275/",
-    "posterUrl": "https://www.cinemagia.ro/filme/profu-2823515/postere/4142197/#gallery"
-  },
-  "genre": [
-    "Documentary \u2013 Observational mode"
-  ],
-  "tags": [
-    "self-employment",
-    "education",
-    "mentorship"
-  ],
-  "director": [
-    {
-      "id": "Alex Brendea",
-      "slug": "alex-brendea",
-      "name": "Alex Brendea",
-      "birthYear": 1987,
-      "gender": "Male identifying",
-      "nationality": "Romania"
-    }
-  ],
-  "synopsis": {
-    "native": "Filmul spune povestea lui Dorin Ioni\u021b\u0103, un profesor de matematic\u0103 din Bistri\u021ba care iese din sistemul de \u00eenv\u0103\u0163\u0103m\u00e2nt conven\u0163ional \u015fi \u00ee\u015fi deschide o clas\u0103 de medita\u021bii \u00een propriul apartament, dotat\u0103 cu scaune, b\u0103nci \u0219i chiar o tabl\u0103. De-a lungul unui an \u0219colar, \u00eei urm\u0103rim efortul de a retrezi \u00een elevi dragostea pentru \u00eenv\u0103\u0163\u0103tur\u0103, oferindu-le nu doar lec\u021bii de matematic\u0103, c\u00e2t lec\u021bii de via\u021b\u0103.",
-    "english": "A peculiar math teacher from Transilvania is becoming a local Don Quijote when he quits the conventional educational system and opens a private lectures office in his own two-room apartment. Throughout a school year we follow his struggle and persistence in bringing back the passion of learning and change for better the lives of his pupils."
-  }
+    "type": "Film",
+    "id": "RO2020_007",
+    "slug": "ro2020-007-profu",
+    "title": {
+        "native": "Profu'",
+        "english": "Teach"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-10-02",
+        "year": 2020
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Alex Brendea",
+            "slug": "alex-brendea",
+            "name": "Alex Brendea",
+            "birthYear": 1987,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Romania"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Observational mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.cinemagia.ro/filme/profu-2823515/postere/4142197/#gallery",
+        "trailerUrl": "https://www.cinemagia.ro/trailer/profu-23275/"
+    },
+    "synopsis": {
+        "native": "Filmul spune povestea lui Dorin Ioni\u021b\u0103, un profesor de matematic\u0103 din Bistri\u021ba care iese din sistemul de \u00eenv\u0103\u0163\u0103m\u00e2nt conven\u0163ional \u015fi \u00ee\u015fi deschide o clas\u0103 de medita\u021bii \u00een propriul apartament, dotat\u0103 cu scaune, b\u0103nci \u0219i chiar o tabl\u0103. De-a lungul unui an \u0219colar, \u00eei urm\u0103rim efortul de a retrezi \u00een elevi dragostea pentru \u00eenv\u0103\u0163\u0103tur\u0103, oferindu-le nu doar lec\u021bii de matematic\u0103, c\u00e2t lec\u021bii de via\u021b\u0103.",
+        "english": "A peculiar math teacher from Transilvania is becoming a local Don Quijote when he quits the conventional educational system and opens a private lectures office in his own two-room apartment. Throughout a school year we follow his struggle and persistence in bringing back the passion of learning and change for better the lives of his pupils."
+    },
+    "production": [
+        {
+            "country": "Romania",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Alex Brendea",
+                "slug": "alex-brendea",
+                "name": "Alex Brendea",
+                "birthYear": 1987,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Dorin Ioni\u021b\u0103",
+                "slug": "dorin-ionita",
+                "name": "Dorin Ioni\u021b\u0103",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "education",
+        "self-employment",
+        "mentorship"
+    ]
 }

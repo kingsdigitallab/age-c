@@ -1,51 +1,79 @@
 {
-  "id": "DE2020_060",
-  "type": "Film",
-  "slug": "de2020-060-chichinette-the-accidental-spy",
-  "title": {
-    "native": "Chichinette: The Accidental Spy",
-    "english": "Chichinette: The Accidental Spy"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-09-17",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "DE2020_060",
+    "slug": "de2020-060-chichinette-the-accidental-spy",
+    "title": {
+        "native": "Chichinette: The Accidental Spy",
+        "english": "Chichinette: The Accidental Spy"
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/video/vi1137491737/?playlistId=tt9679070&ref_=tt_pr_ov_vi",
-    "posterUrl": "https://www.imdb.com/title/tt9679070/mediaviewer/rm647336961/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Biopic"
-  ],
-  "tags": [
-    "cultural memory",
-    "war"
-  ],
-  "director": [
-    {
-      "id": "Nicola Hens",
-      "slug": "nicola-hens",
-      "name": "Nicola Hens",
-      "birthYear": 1978,
-      "gender": "Female identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "In atmosph\u00e4rischen, teils animierten Bildern erz\u00e4hlt der Film die unbekannte Geschichte der Spionin 'Chichinette'. Nachdem sie fast 60 Jahre lang geschwiegen hat, bereist die mittlerweile 99-j\u00e4hrige Franz\u00f6sin Marthe Cohn heute die Welt und erz\u00e4hlt ihre unglaubliche Lebensgeschichte: Die J\u00fcdin aus Metz, die im Krieg ihren Verlobten und ihre Schwester verlor, entschied sich Anfang 1945, als Spionin f\u00fcr die Alliierten in Nazi-Deutschland ihr Leben aufs Spiel zu setzen, um f\u00fcr das Ende des Krieges zu k\u00e4mpfen.",
-    "english": "Marthe Cohn, a 98-year-old French-Jewish outstanding lady who was a spy in Nazi Germany in WW2 never spoke about her experience after the war, now travels the globe to share her story"
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2020-09-17",
+        "year": 2020
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Nicola Hens",
+            "slug": "nicola-hens",
+            "name": "Nicola Hens",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Biopic"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9679070/mediaviewer/rm647336961/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/video/vi1137491737/?playlistId=tt9679070&ref_=tt_pr_ov_vi"
+    },
+    "synopsis": {
+        "native": "In atmosph\u00e4rischen, teils animierten Bildern erz\u00e4hlt der Film die unbekannte Geschichte der Spionin 'Chichinette'. Nachdem sie fast 60 Jahre lang geschwiegen hat, bereist die mittlerweile 99-j\u00e4hrige Franz\u00f6sin Marthe Cohn heute die Welt und erz\u00e4hlt ihre unglaubliche Lebensgeschichte: Die J\u00fcdin aus Metz, die im Krieg ihren Verlobten und ihre Schwester verlor, entschied sich Anfang 1945, als Spionin f\u00fcr die Alliierten in Nazi-Deutschland ihr Leben aufs Spiel zu setzen, um f\u00fcr das Ende des Krieges zu k\u00e4mpfen.",
+        "english": "Marthe Cohn, a 98-year-old French-Jewish outstanding lady who was a spy in Nazi Germany in WW2 never spoke about her experience after the war, now travels the globe to share her story"
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Marthe Cohn",
+                "slug": "marthe-cohn",
+                "name": "Marthe Cohn",
+                "birthYear": 1920,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Nicola Hens",
+                "slug": "nicola-hens",
+                "name": "Nicola Hens",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "cultural memory",
+        "war"
+    ]
 }

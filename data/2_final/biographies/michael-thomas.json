@@ -1,42 +1,83 @@
 {
-  "id": "Michael Thomas",
-  "type": "Biography",
-  "slug": "michael-thomas",
-  "name": "Michael Thomas",
-  "birthYear": 1962,
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "No",
-      "class": "Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Heimat",
-        "id": "DE2022_080",
-        "production": {
-          "country": "Austria",
-          "share": "Minority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2022
-        },
-        "slug": "de2022-080-rimini",
-        "tags": "independent home",
-        "title": {
-          "english": "Rimini",
-          "native": "Rimini"
+    "type": "Person",
+    "id": "Michael Thomas",
+    "slug": "michael-thomas",
+    "name": "Michael Thomas",
+    "birthYear": 1962,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [
+        {
+            "id": "DE2022_080_01",
+            "film": {
+                "id": "DE2022_080",
+                "slug": "de2022-080-rimini",
+                "title": {
+                    "native": "Rimini",
+                    "english": "Rimini"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-10-06",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Austria",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Michael Thomas",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "DE2022_080_01",
-      "origin": "White Western European",
-      "profession": "Self-employed",
-      "role": "Leading actor",
-      "sexuality": "Heterosexual"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2022_080",
+                "slug": "de2022-080-rimini",
+                "title": {
+                    "native": "Rimini",
+                    "english": "Rimini"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-10-06",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Austria",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        }
+    ]
 }

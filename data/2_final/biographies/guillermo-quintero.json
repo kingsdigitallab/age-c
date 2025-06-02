@@ -1,28 +1,39 @@
 {
-  "id": "Guillermo Quintero",
-  "type": "Biography",
-  "slug": "guillermo-quintero",
-  "name": "Guillermo Quintero",
-  "birthYear": 1980,
-  "nationality": "Colombia",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Observational mode",
-      "id": "FR2020_103",
-      "production": {
-        "country": "Colombia",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "VOD release"
-      },
-      "slug": "fr2020-103-homo-botanicus",
-      "tags": "ecology",
-      "title": {
-        "native": "Homo Botanicus"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Guillermo Quintero",
+    "slug": "guillermo-quintero",
+    "name": "Guillermo Quintero",
+    "birthYear": 1980,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Colombia",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2020_103",
+                "slug": "fr2020-103-homo-botanicus",
+                "title": {
+                    "native": "Homo Botanicus",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": null,
+                    "year": 0
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Colombia",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

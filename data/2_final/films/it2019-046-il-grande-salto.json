@@ -1,90 +1,123 @@
 {
-  "id": "IT2019_046",
-  "type": "Film",
-  "slug": "it2019-046-il-grande-salto",
-  "title": {
-    "native": "Il grande salto"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-06-13",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=LcsG_pcPoYc",
-    "posterUrl": "https://www.imdb.com/title/tt7616584/mediaviewer/rm1243768064/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Crime"
-  ],
-  "tags": [
-    "precarity",
-    "parenthood",
-    "crime",
-    "intergenerational conflict"
-  ],
-  "director": [
-    {
-      "id": "Giorgio Tirabassi",
-      "slug": "giorgio-tirabassi",
-      "name": "Giorgio Tirabassi",
-      "birthYear": 1960,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2019_046_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Giorgio Tirabassi",
-        "slug": "giorgio-tirabassi",
-        "name": "Giorgio Tirabassi",
-        "birthYear": 1960.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Director of the film"
+    "type": "Film",
+    "id": "IT2019_046",
+    "slug": "it2019-046-il-grande-salto",
+    "title": {
+        "native": "Il grande salto",
+        "english": ""
     },
-    {
-      "id": "IT2019_046_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Giorgio Tirabassi",
-        "slug": "giorgio-tirabassi",
-        "name": "Giorgio Tirabassi",
-        "birthYear": 1960.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "I quarantenni Rufetto e Nello sono due rapinatori maldestri che, dopo aver scontato quattro anni di carcere per un colpo andato male, vivono in un quartiere della periferia romana.I due non demordono e progettano una rapina che potrebbe dare una svolta alle loro vite mediocri. Riprendere in mano l'attivit\u00e0 e soprattutto portarla a buon fine, per\u00f2, non \u00e8 per niente facile: si convincono, cos\u00ec, che il destino non sia dalla loro parte...",
-    "english": "The story is about two robbers who start again their \"illegal\" activities after 4 years in jail. After a series of failures and bad luck they start thinking to be handled by an higher will they will call \"the big book of destiny\". The proof will arrive during a delicate work for a big boss, driving a car with a corpse in the car boot... and ending with a divine intervention."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-06-13",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Giorgio Tirabassi",
+            "slug": "giorgio-tirabassi",
+            "name": "Giorgio Tirabassi",
+            "birthYear": 1960,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Crime",
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt7616584/mediaviewer/rm1243768064/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=LcsG_pcPoYc"
+    },
+    "synopsis": {
+        "native": "I quarantenni Rufetto e Nello sono due rapinatori maldestri che, dopo aver scontato quattro anni di carcere per un colpo andato male, vivono in un quartiere della periferia romana.I due non demordono e progettano una rapina che potrebbe dare una svolta alle loro vite mediocri. Riprendere in mano l'attivit\u00e0 e soprattutto portarla a buon fine, per\u00f2, non \u00e8 per niente facile: si convincono, cos\u00ec, che il destino non sia dalla loro parte...",
+        "english": "The story is about two robbers who start again their \"illegal\" activities after 4 years in jail. After a series of failures and bad luck they start thinking to be handled by an higher will they will call \"the big book of destiny\". The proof will arrive during a delicate work for a big boss, driving a car with a corpse in the car boot... and ending with a divine intervention."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2019_046_01",
+            "film": "IT2019_046",
+            "person": {
+                "id": "Giorgio Tirabassi",
+                "slug": "giorgio-tirabassi",
+                "name": "Giorgio Tirabassi",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Gianfelice Imparato",
+                "slug": "gianfelice-imparato",
+                "name": "Gianfelice Imparato",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Giorgio Tirabassi",
+                "slug": "giorgio-tirabassi",
+                "name": "Giorgio Tirabassi",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Giorgio Tirabassi",
+                "slug": "giorgio-tirabassi",
+                "name": "Giorgio Tirabassi",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Paola Tiziana Cruciani",
+                "slug": "paola-tiziana-cruciani",
+                "name": "Paola Tiziana Cruciani",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "crime",
+        "parenthood",
+        "precarity",
+        "intergenerational conflict"
+    ]
 }

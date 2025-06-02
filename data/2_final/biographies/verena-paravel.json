@@ -1,30 +1,57 @@
 {
-  "id": "Verena Paravel",
-  "type": "Biography",
-  "slug": "verena-paravel",
-  "name": "Verena Paravel",
-  "birthYear": 1971,
-  "nationality": "France",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Participatory mode",
-      "id": "FR2018_133",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-133-caniba",
-      "tags": "crime",
-      "title": {
-        "english": "Caniba",
-        "native": "Caniba"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Verena Paravel",
+    "slug": "verena-paravel",
+    "name": "Verena Paravel",
+    "birthYear": 1971,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_133",
+                "slug": "fr2018-133-caniba",
+                "title": {
+                    "native": "Caniba",
+                    "english": "Caniba"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-08-22",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2018_139",
+                "slug": "fr2018-139-les-deguns",
+                "title": {
+                    "native": "Les D\u00e9guns",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-09-12",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

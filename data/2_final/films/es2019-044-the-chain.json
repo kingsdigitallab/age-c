@@ -1,99 +1,177 @@
 {
-  "id": "ES2019_044",
-  "type": "Film",
-  "slug": "es2019-044-the-chain",
-  "title": {
-    "native": "The Chain",
-    "english": "Chain of Death"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-05-31",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "ES2019_044",
+    "slug": "es2019-044-the-chain",
+    "title": {
+        "native": "The Chain",
+        "english": "Chain of Death"
     },
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt7094374/?ref_=nm_flmg_knf_t_2",
-    "posterUrl": "https://www.imdb.com/title/tt7094374/mediaviewer/rm2823789569/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Horror"
-  ],
-  "tags": [
-    "assisted death",
-    "hospital",
-    "abuse",
-    "intergenerational conflict",
-    "fatherhood",
-    "caregiving",
-    "mental illness",
-    "medical treatment",
-    "murder"
-  ],
-  "director": [
-    {
-      "id": "David Mart\u00edn Porras",
-      "slug": "david-martin-porras",
-      "name": "David Mart\u00edn Porras",
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2019_044_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White North American",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Permanent disability",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Ray Wise",
-        "slug": "ray-wise",
-        "name": "Ray Wise",
-        "birthYear": 1947.0,
-        "gender": "Male identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2019-05-31",
+        "year": 2019
     },
-    {
-      "id": "ES2019_044_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White North American",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Adrienne Barbeau",
-        "slug": "adrienne-barbeau",
-        "name": "Adrienne Barbeau",
-        "birthYear": 1945.0,
-        "gender": "Female identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Mike decide ponerle fin a su vida cuando descubre que tiene la misma enfermedad neurol\u00f3gica que su padre. Para ello, entrar\u00e1 en una turbia cadena de suicidios asistidos que opera bajo una regla: si quieres morir, tienes que matar a alguien primero.",
-    "english": "A man enlists the services of an assisted suicide company but discovers in order to take part he must kill someone first."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "David Mart\u00edn Porras",
+            "slug": "david-martin-porras",
+            "name": "David Mart\u00edn Porras",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Horror",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt7094374/mediaviewer/rm2823789569/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt7094374/?ref_=nm_flmg_knf_t_2"
+    },
+    "synopsis": {
+        "native": "Mike decide ponerle fin a su vida cuando descubre que tiene la misma enfermedad neurol\u00f3gica que su padre. Para ello, entrar\u00e1 en una turbia cadena de suicidios asistidos que opera bajo una regla: si quieres morir, tienes que matar a alguien primero.",
+        "english": "A man enlists the services of an assisted suicide company but discovers in order to take part he must kill someone first."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2019_044_01",
+            "film": "ES2019_044",
+            "person": {
+                "id": "Adrienne Barbeau",
+                "slug": "adrienne-barbeau",
+                "name": "Adrienne Barbeau",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White North American",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "Unknown"
+        },
+        {
+            "id": "ES2019_044_02",
+            "film": "ES2019_044",
+            "person": {
+                "id": "Ray Wise",
+                "slug": "ray-wise",
+                "name": "Ray Wise",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White North American",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Permanent disability",
+            "assistedMobility": "Unknown"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Adrienne Barbeau",
+                "slug": "adrienne-barbeau",
+                "name": "Adrienne Barbeau",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "David Mart\u00edn Porras",
+                "slug": "david-martin-porras",
+                "name": "David Mart\u00edn Porras",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Dey Young",
+                "slug": "dey-young",
+                "name": "Dey Young",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Mary Pat Gleason",
+                "slug": "mary-pat-gleason",
+                "name": "Mary Pat Gleason",
+                "birthYear": 1950,
+                "deathYear": 2020,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Ray Wise",
+                "slug": "ray-wise",
+                "name": "Ray Wise",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Van Epperson",
+                "slug": "van-epperson",
+                "name": "Van Epperson",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "fatherhood",
+        "mental illness",
+        "intergenerational conflict",
+        "murder",
+        "assisted death",
+        "caregiving",
+        "medical treatment",
+        "hospital",
+        "abuse"
+    ]
 }

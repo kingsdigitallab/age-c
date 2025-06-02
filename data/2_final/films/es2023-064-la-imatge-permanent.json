@@ -1,79 +1,108 @@
 {
-  "id": "ES2023_064",
-  "type": "Film",
-  "slug": "es2023-064-la-imatge-permanent",
-  "title": {
-    "native": "La imatge permanent",
-    "english": "The Permanent Picture"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-11-17",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "ES2023_064",
+    "slug": "es2023-064-la-imatge-permanent",
+    "title": {
+        "native": "La imatge permanent",
+        "english": "The Permanent Picture"
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=559009",
-    "posterUrl": "https://www.imdb.com/title/tt9141694/mediaviewer/rm1628054529/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Metacinema",
-    "Drama"
-  ],
-  "tags": [
-    "motherhood",
-    "personal memory",
-    "low rank employment",
-    "personal trauma",
-    "stages of life",
-    "urban",
-    "intragenerational friendship",
-    "homosociality",
-    "daily routine"
-  ],
-  "director": [
-    {
-      "id": "Laura Ferr\u00e9s",
-      "slug": "laura-ferres",
-      "name": "Laura Ferr\u00e9s",
-      "birthYear": 1989,
-      "gender": "Female identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2023_064_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Rosario Ortega",
-        "slug": "rosario-ortega",
-        "name": "Rosario Ortega",
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "En un pueblo del sur, Antonia, una madre adolescente, desaparece en medio de la noche. Cincuenta an\u0303os ma\u0301s tarde y muchos kilo\u0301metros al norte, Carmen, una directora de casting algo introvertida, debe encontrar personas que cuenten sus recuerdos tras cambiar de ciudad. Durante su bu\u0301squeda, Carmen conoce a Antonia, una mujer impulsiva que invade su soledad. \u00bfQuie\u0301n dijo que el tiempo cura todas las heridas?",
-    "english": "Antonia, a teenage mother, disappears in the middle of the night, leaving her baby behind. Fifty years later a casting director, Carmen meets Antonia, whose impulsiveness will intrude into her loneliness."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2023-11-17",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Laura Ferr\u00e9s",
+            "slug": "laura-ferres",
+            "name": "Laura Ferr\u00e9s",
+            "birthYear": 1989,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Metacinema"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9141694/mediaviewer/rm1628054529/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=559009"
+    },
+    "synopsis": {
+        "native": "En un pueblo del sur, Antonia, una madre adolescente, desaparece en medio de la noche. Cincuenta an\u0303os ma\u0301s tarde y muchos kilo\u0301metros al norte, Carmen, una directora de casting algo introvertida, debe encontrar personas que cuenten sus recuerdos tras cambiar de ciudad. Durante su bu\u0301squeda, Carmen conoce a Antonia, una mujer impulsiva que invade su soledad. \u00bfQuie\u0301n dijo que el tiempo cura todas las heridas?",
+        "english": "Antonia, a teenage mother, disappears in the middle of the night, leaving her baby behind. Fifty years later a casting director, Carmen meets Antonia, whose impulsiveness will intrude into her loneliness."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2023_064_01",
+            "film": "ES2023_064",
+            "person": {
+                "id": "Rosario Ortega",
+                "slug": "rosario-ortega",
+                "name": "Rosario Ortega",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Laura Ferr\u00e9s",
+                "slug": "laura-ferres",
+                "name": "Laura Ferr\u00e9s",
+                "birthYear": 1989,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Rosario Ortega",
+                "slug": "rosario-ortega",
+                "name": "Rosario Ortega",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "homosociality",
+        "personal memory",
+        "personal trauma",
+        "low rank employment",
+        "urban",
+        "motherhood",
+        "intragenerational friendship",
+        "stages of life",
+        "daily routine"
+    ]
 }

@@ -1,89 +1,117 @@
 {
-  "id": "ES2019_013",
-  "type": "Film",
-  "slug": "es2019-013-o-que-arde",
-  "title": {
-    "native": "O que arde",
-    "english": "Fire Will Come"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2010-10-19",
-    "year": 2010
-  },
-  "production": [
-    {
-      "country": "Luxembourg",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "ES2019_013",
+    "slug": "es2019-013-o-que-arde",
+    "title": {
+        "native": "O que arde",
+        "english": "Fire Will Come"
     },
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2010-10-19",
+        "year": 2010
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=ElkZYe2jY1g",
-    "posterUrl": "https://www.imdb.com/title/tt8212958/mediaviewer/rm1307944193/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Drama",
-    "Disaster Film"
-  ],
-  "tags": [
-    "precarity",
-    "motherhood",
-    "independent home",
-    "loneliness",
-    "ecology",
-    "self-employment",
-    "return home",
-    "state institutions",
-    "regional identity",
-    "daily routine",
-    "mental illness",
-    "crime",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "\u00d3liver Laxe",
-      "slug": "oliver-laxe",
-      "name": "\u00d3liver Laxe",
-      "birthYear": 1982,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2019_013_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Benedicta S\u00e1nchez",
-        "slug": "benedicta-sanchez",
-        "name": "Benedicta S\u00e1nchez",
-        "birthYear": 1935.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Nadie espera a Amador cuando sale de la c\u00e1rcel tras cumplir condena por haber provocado un incendio. Regresa a su casa, una aldea perdida de las monta\u00f1as lucenses, donde volver\u00e1 a convivir, al ritmo sosegado de la naturaleza, con su madre, Benedicta, su perra Luna y sus tres vacas.",
-    "english": "Amador returns home to his aging mother after serving a sentence for arson. He tries to adapt to daily farm life and coping with the villagers' memories of his past actions."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "\u00d3liver Laxe",
+            "slug": "oliver-laxe",
+            "name": "\u00d3liver Laxe",
+            "birthYear": 1982,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Disaster Film",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt8212958/mediaviewer/rm1307944193/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=ElkZYe2jY1g"
+    },
+    "synopsis": {
+        "native": "Nadie espera a Amador cuando sale de la c\u00e1rcel tras cumplir condena por haber provocado un incendio. Regresa a su casa, una aldea perdida de las monta\u00f1as lucenses, donde volver\u00e1 a convivir, al ritmo sosegado de la naturaleza, con su madre, Benedicta, su perra Luna y sus tres vacas.",
+        "english": "Amador returns home to his aging mother after serving a sentence for arson. He tries to adapt to daily farm life and coping with the villagers' memories of his past actions."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Luxembourg",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2019_013_01",
+            "film": "ES2019_013",
+            "person": {
+                "id": "Benedicta S\u00e1nchez",
+                "slug": "benedicta-sanchez",
+                "name": "Benedicta S\u00e1nchez",
+                "birthYear": 1935,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "Unknown"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Benedicta S\u00e1nchez",
+                "slug": "benedicta-sanchez",
+                "name": "Benedicta S\u00e1nchez",
+                "birthYear": 1935,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "\u00d3liver Laxe",
+                "slug": "oliver-laxe",
+                "name": "\u00d3liver Laxe",
+                "birthYear": 1982,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "return home",
+        "mental illness",
+        "motherhood",
+        "loneliness",
+        "rural",
+        "independent home",
+        "precarity",
+        "self-employment",
+        "daily routine",
+        "state institutions",
+        "ecology",
+        "regional identity",
+        "crime"
+    ]
 }

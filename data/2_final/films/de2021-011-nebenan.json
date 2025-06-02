@@ -1,79 +1,123 @@
 {
-  "id": "DE2021_011",
-  "type": "Film",
-  "slug": "de2021-011-nebenan",
-  "title": {
-    "native": "Nebenan",
-    "english": "Next Door"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-07-15",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/video/vi656720665/?playlistId=tt11080676&ref_=tt_pr_ov_vi",
-    "posterUrl": "https://www.imdb.com/title/tt11080676/mediaviewer/rm3657234689/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Drama"
-  ],
-  "tags": [
-    "urban",
-    "gentrification",
-    "revenge",
-    "class conflict"
-  ],
-  "director": [
-    {
-      "id": "Daniel Br\u00fchl",
-      "slug": "daniel-bruhl",
-      "name": "Daniel Br\u00fchl",
-      "birthYear": 1978,
-      "gender": "Male identifying",
-      "nationality": "Spain"
+    "type": "Film",
+    "id": "DE2021_011",
+    "slug": "de2021-011-nebenan",
+    "title": {
+        "native": "Nebenan",
+        "english": "Next Door"
     },
-    {
-      "id": "Daniel Br\u00fchl",
-      "slug": "daniel-bruhl",
-      "name": "Daniel Br\u00fchl",
-      "birthYear": 1978,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "character": [
-    {
-      "id": "DE2021_018_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Peter Kurth",
-        "slug": "peter-kurth",
-        "name": "Peter Kurth",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "Germany"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Der Filmstar Daniel (Daniel Br\u00fchl) scheint das perfekte Leben zu f\u00fchren: Er lebt in einer schicken Wohnung in Berlin-Prenzlauer Berg, hat eine sch\u00f6ne Ehefrau und eine Nanny, die sich um die Kinder k\u00fcmmert. Als er gerade auf dem Weg nach London zu einem Casting f\u00fcr die Rolle in einem Superheldenfilm ist, legt der deutsch-spanische Schauspielstar noch einen schnellen Abstecher in seiner Stammkneipe ein. Es scheint f\u00fcr Daniel der perfekte Ort, um kurz vor dem Vorsprechen noch mal runterzukommen: Dort ist es ruhig, es warten keine Fans auf ihn und er kann in Ruhe seine Dialoge durchgehen. Allerdings hat er nicht mit Bruno (Peter Kurth) gerechnet. Der fremde Mann kennt nicht nur alle Filme des Schauspielers, sondern wei\u00df auch ziemlich viele Details aus seinem Privatleben. Je l\u00e4nger das Gespr\u00e4ch dauert, desto mehr Angst bekommt Daniel vor dem fremden Mann. Was er nicht wei\u00df: Bruno f\u00fchlt sich vom Leben abgeh\u00e4ngt und ist auf Rache aus. Und Daniel ist das perfekte Opfer...",
-    "english": "Explores the subjects of gentrification and social inequality in Berlin."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2021-07-15",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Daniel Br\u00fchl",
+            "slug": "daniel-bruhl",
+            "name": "Daniel Br\u00fchl",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt11080676/mediaviewer/rm3657234689/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/video/vi656720665/?playlistId=tt11080676&ref_=tt_pr_ov_vi"
+    },
+    "synopsis": {
+        "native": "Der Filmstar Daniel (Daniel Br\u00fchl) scheint das perfekte Leben zu f\u00fchren: Er lebt in einer schicken Wohnung in Berlin-Prenzlauer Berg, hat eine sch\u00f6ne Ehefrau und eine Nanny, die sich um die Kinder k\u00fcmmert. Als er gerade auf dem Weg nach London zu einem Casting f\u00fcr die Rolle in einem Superheldenfilm ist, legt der deutsch-spanische Schauspielstar noch einen schnellen Abstecher in seiner Stammkneipe ein. Es scheint f\u00fcr Daniel der perfekte Ort, um kurz vor dem Vorsprechen noch mal runterzukommen: Dort ist es ruhig, es warten keine Fans auf ihn und er kann in Ruhe seine Dialoge durchgehen. Allerdings hat er nicht mit Bruno (Peter Kurth) gerechnet. Der fremde Mann kennt nicht nur alle Filme des Schauspielers, sondern wei\u00df auch ziemlich viele Details aus seinem Privatleben. Je l\u00e4nger das Gespr\u00e4ch dauert, desto mehr Angst bekommt Daniel vor dem fremden Mann. Was er nicht wei\u00df: Bruno f\u00fchlt sich vom Leben abgeh\u00e4ngt und ist auf Rache aus. Und Daniel ist das perfekte Opfer...",
+        "english": "Explores the subjects of gentrification and social inequality in Berlin."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "DE2021_018_01",
+            "film": "DE2021_011",
+            "person": {
+                "id": "Peter Kurth",
+                "slug": "peter-kurth",
+                "name": "Peter Kurth",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Daniel Br\u00fchl",
+                "slug": "daniel-bruhl",
+                "name": "Daniel Br\u00fchl",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Gode Benedix",
+                "slug": "gode-benedix",
+                "name": "Gode Benedix",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Peter Kurth",
+                "slug": "peter-kurth",
+                "name": "Peter Kurth",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Rike Eckermann",
+                "slug": "rike-eckermann",
+                "name": "Rike Eckermann",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "gentrification",
+        "class conflict",
+        "revenge",
+        "urban"
+    ]
 }

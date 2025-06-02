@@ -1,58 +1,86 @@
 {
-  "id": "DE2023_048",
-  "type": "Film",
-  "slug": "de2023-048-musik",
-  "title": {
-    "native": "Musik",
-    "english": "Music"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-05-04",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "DE2023_048",
+    "slug": "de2023-048-musik",
+    "title": {
+        "native": "Musik",
+        "english": "Music"
     },
-    {
-      "country": "Greece",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2023-05-04",
+        "year": 2023
     },
-    {
-      "country": "Serbia",
-      "share": "Minority coproducer"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Angela Schanelec",
+            "slug": "angela-schanelec",
+            "name": "Angela Schanelec",
+            "birthYear": 1962,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Experimental film "
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt15547924/mediaviewer/rm2069458945/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/video/vi1479656985/?playlistId=tt15547924&ref_=tt_ov_pr_ov_vi"
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/video/vi1479656985/?playlistId=tt15547924&ref_=tt_ov_pr_ov_vi",
-    "posterUrl": "https://www.imdb.com/title/tt15547924/mediaviewer/rm2069458945/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Experimental film ",
-    "Drama"
-  ],
-  "tags": [
-    "state institutions"
-  ],
-  "director": [
-    {
-      "id": "Angela Schanelec",
-      "slug": "angela-schanelec",
-      "name": "Angela Schanelec",
-      "birthYear": 1962,
-      "gender": "Female identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "Der 20 Jahre alte Grieche Ion (Aliocha Schneider) bringt einen Mann ums Leben. Was er jedoch nicht wei\u00df: Es ist sein eigener Vater, den er genau wie seine Mutter nie kennengelernt hat, da er nach seiner Geburt in den Bergen Griechenlands alleine zur\u00fcckgelassen wurde. W\u00e4hrend er f\u00fcr die tragische Tat seine Haftstrafe im Gef\u00e4ngnis absitzt, kommt er seiner Aufseherin Iro (Agathe Bonitzer) n\u00e4her. Die beiden verlieben sich ineinander und bleiben auch nach seiner Entlassung zusammen. Schlie\u00dflich bekommt das Paar auch eine gemeinsame Tochter. Was weder er noch seine geliebte Partnerin wissen: Iro ist Ions Mutter.",
-    "english": "Abandoned as a baby, Jon finds himself in prison on a manslaughter charge. He falls in love with prison guard Iro, unaware of their fateful connection."
-  }
+    "synopsis": {
+        "native": "Der 20 Jahre alte Grieche Ion (Aliocha Schneider) bringt einen Mann ums Leben. Was er jedoch nicht wei\u00df: Es ist sein eigener Vater, den er genau wie seine Mutter nie kennengelernt hat, da er nach seiner Geburt in den Bergen Griechenlands alleine zur\u00fcckgelassen wurde. W\u00e4hrend er f\u00fcr die tragische Tat seine Haftstrafe im Gef\u00e4ngnis absitzt, kommt er seiner Aufseherin Iro (Agathe Bonitzer) n\u00e4her. Die beiden verlieben sich ineinander und bleiben auch nach seiner Entlassung zusammen. Schlie\u00dflich bekommt das Paar auch eine gemeinsame Tochter. Was weder er noch seine geliebte Partnerin wissen: Iro ist Ions Mutter.",
+        "english": "Abandoned as a baby, Jon finds himself in prison on a manslaughter charge. He falls in love with prison guard Iro, unaware of their fateful connection."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Greece",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Serbia",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Angela Schanelec",
+                "slug": "angela-schanelec",
+                "name": "Angela Schanelec",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Wolfgang Michael",
+                "slug": "wolfgang-michael",
+                "name": "Wolfgang Michael",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "state institutions"
+    ]
 }

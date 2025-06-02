@@ -1,77 +1,119 @@
 {
-  "id": "FR2018_102",
-  "type": "Film",
-  "slug": "fr2018-102-comment-tuer-sa-mere",
-  "title": {
-    "native": "Comment tuer sa m\u00e8re"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-06-13",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=3-hgsziQbeg",
-    "posterUrl": "https://medias.unifrance.org/medias/16/235/191248/format_page/comment-tuer-sa-mere.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "parenthood",
-    "abuse",
-    "retirement",
-    "independent home"
-  ],
-  "director": [
-    {
-      "id": "Morgan Spillemaecker",
-      "slug": "morgan-spillemaecker",
-      "name": "Morgan Spillemaecker",
-      "birthYear": 1976,
-      "gender": "Male identifying",
-      "nationality": "France"
+    "type": "Film",
+    "id": "FR2018_102",
+    "slug": "fr2018-102-comment-tuer-sa-mere",
+    "title": {
+        "native": "Comment tuer sa m\u00e8re",
+        "english": ""
     },
-    {
-      "id": "David Diane",
-      "slug": "david-diane",
-      "name": "David Diane",
-      "birthYear": 1976,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2018_102_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Chantal Ladesou",
-        "slug": "chantal-ladesou",
-        "name": "Chantal Ladesou",
-        "birthYear": 1948.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Dans la famille Mauret, les trois enfants n\u2019avaient certainement pas demand\u00e9 une m\u00e8re aussi odieuse, d\u00e9jant\u00e9e... et d\u00e9pensi\u00e8re ! Pour Nico, l\u2019ain\u00e9, qui les entretient tous, c\u2019en est trop ! Il propose \u00e0 Ben, son jeune fr\u00e8re fain\u00e9ant, et \u00e0 Fanny, sa s\u0153ur compl\u00e8tement d\u00e9pass\u00e9e, une solution radicale : assassiner leur m\u00e8re pendant le traditionnel d\u00e9jeuner du samedi...",
-    "english": "Three siblings have had enough and hatch a plan to kill their tyrannical mother."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2018-06-13",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "David Diane",
+            "slug": "david-diane",
+            "name": "David Diane",
+            "birthYear": 1976,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        },
+        {
+            "id": "Morgan Spillemaecker",
+            "slug": "morgan-spillemaecker",
+            "name": "Morgan Spillemaecker",
+            "birthYear": 1976,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/16/235/191248/format_page/comment-tuer-sa-mere.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=3-hgsziQbeg"
+    },
+    "synopsis": {
+        "native": "Dans la famille Mauret, les trois enfants n\u2019avaient certainement pas demand\u00e9 une m\u00e8re aussi odieuse, d\u00e9jant\u00e9e... et d\u00e9pensi\u00e8re ! Pour Nico, l\u2019ain\u00e9, qui les entretient tous, c\u2019en est trop ! Il propose \u00e0 Ben, son jeune fr\u00e8re fain\u00e9ant, et \u00e0 Fanny, sa s\u0153ur compl\u00e8tement d\u00e9pass\u00e9e, une solution radicale : assassiner leur m\u00e8re pendant le traditionnel d\u00e9jeuner du samedi...",
+        "english": "Three siblings have had enough and hatch a plan to kill their tyrannical mother."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2018_102_01",
+            "film": "FR2018_102",
+            "person": {
+                "id": "Chantal Ladesou",
+                "slug": "chantal-ladesou",
+                "name": "Chantal Ladesou",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Chantal Ladesou",
+                "slug": "chantal-ladesou",
+                "name": "Chantal Ladesou",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "David Diane",
+                "slug": "david-diane",
+                "name": "David Diane",
+                "birthYear": 1976,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Morgan Spillemaecker",
+                "slug": "morgan-spillemaecker",
+                "name": "Morgan Spillemaecker",
+                "birthYear": 1976,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "parenthood",
+        "retirement",
+        "independent home",
+        "abuse"
+    ]
 }

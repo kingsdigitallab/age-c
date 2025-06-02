@@ -1,61 +1,103 @@
 {
-  "id": "FR2022_162",
-  "type": "Film",
-  "slug": "fr2022-162-petaouchnok",
-  "title": {
-    "native": "P\u00e9taouchnok",
-    "english": "Wilderness Therapy"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-11-09",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=YalZm-hvieQ",
-    "posterUrl": "https://medias.unifrance.org/medias/115/215/251763/format_page/petaouchnok.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "precarity",
-    "intergenerational friendship",
-    "natural",
-    "new start",
-    "self-employment"
-  ],
-  "character": [
-    {
-      "id": "FR2022_162_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Philippe Rebbot",
-        "slug": "philippe-rebbot",
-        "name": "Philippe Rebbot",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Fin fond des Pyr\u00e9n\u00e9es. Deux pr\u00e9caires, amis devant l\u2019\u00e9ternel, ont l\u2019id\u00e9e du si\u00e8cle pour se sortir de la mouise : lancer une chevauch\u00e9e fantastique, \u00e0 travers la montagne, pour touristes en mal de nature, de silence, d\u2019aventure.",
-    "english": "Deep in the Pyrenees, two close friends at rock bottom have the idea of the century: to pull themselves of their misery, they will launch a horse trekking tour, a voyage through the mountains for tourists in search of nature, silence and adventure."
-  }
+    "type": "Film",
+    "id": "FR2022_162",
+    "slug": "fr2022-162-petaouchnok",
+    "title": {
+        "native": "P\u00e9taouchnok",
+        "english": "Wilderness Therapy"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-11-09",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        "Edouard Deluc"
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/115/215/251763/format_page/petaouchnok.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=YalZm-hvieQ"
+    },
+    "synopsis": {
+        "native": "Fin fond des Pyr\u00e9n\u00e9es. Deux pr\u00e9caires, amis devant l\u2019\u00e9ternel, ont l\u2019id\u00e9e du si\u00e8cle pour se sortir de la mouise : lancer une chevauch\u00e9e fantastique, \u00e0 travers la montagne, pour touristes en mal de nature, de silence, d\u2019aventure.",
+        "english": "Deep in the Pyrenees, two close friends at rock bottom have the idea of the century: to pull themselves of their misery, they will launch a horse trekking tour, a voyage through the mountains for tourists in search of nature, silence and adventure."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_162_01",
+            "film": "FR2022_162",
+            "person": {
+                "id": "Philippe Rebbot",
+                "slug": "philippe-rebbot",
+                "name": "Philippe Rebbot",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Pasquale d'Inca",
+                "slug": "pasquale-d-inca",
+                "name": "Pasquale d'Inca",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Philippe Rebbot",
+                "slug": "philippe-rebbot",
+                "name": "Philippe Rebbot",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "\u00c9douard Deluc",
+                "slug": "edouard-deluc",
+                "name": "\u00c9douard Deluc",
+                "birthYear": 1970,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "intergenerational friendship",
+        "natural",
+        "self-employment",
+        "new start",
+        "precarity"
+    ]
 }

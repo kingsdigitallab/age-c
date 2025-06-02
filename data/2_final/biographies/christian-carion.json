@@ -1,49 +1,69 @@
 {
-  "id": "Christian Carion",
-  "type": "Biography",
-  "slug": "christian-carion",
-  "name": "Christian Carion",
-  "birthYear": 1963,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2021_099",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-099-my-son",
-      "tags": "high rank employment",
-      "title": {
-        "english": "My Son",
-        "native": "My Son"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2022_131",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "fr2022-131-une-belle-course",
-      "tags": "retirement home",
-      "title": {
-        "english": "Driving Madeleine",
-        "native": "Une belle course"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Christian Carion",
+    "slug": "christian-carion",
+    "name": "Christian Carion",
+    "birthYear": 1963,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_099",
+                "slug": "fr2021-099-my-son",
+                "title": {
+                    "native": "My Son",
+                    "english": "My Son"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-11-03",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2022_131",
+                "slug": "fr2022-131-une-belle-course",
+                "title": {
+                    "native": "Une belle course",
+                    "english": "Driving Madeleine"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-09-21",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,29 +1,39 @@
 {
-  "id": "Tom MacRae",
-  "type": "Biography",
-  "slug": "tom-macrae",
-  "name": "Tom MacRae",
-  "birthYear": 1977,
-  "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Musical",
-      "id": "GB2021_024",
-      "production": {
-        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "gb2021-024-everybody-s-talking-about-jamie",
-      "tags": "lgbtqi",
-      "title": {
-        "native": "Everybody's Talking About Jamie"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Tom MacRae",
+    "slug": "tom-macrae",
+    "name": "Tom MacRae",
+    "birthYear": 1977,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "GB2021_024",
+                "slug": "gb2021-024-everybody-s-talking-about-jamie",
+                "title": {
+                    "native": "Everybody's Talking About Jamie",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-10-09",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

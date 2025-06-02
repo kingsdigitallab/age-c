@@ -1,46 +1,86 @@
 {
-  "id": "FR2019_079",
-  "type": "Film",
-  "slug": "fr2019-079-victor-et-celia",
-  "title": {
-    "native": "Victor et C\u00e9lia",
-    "english": "Victor & C\u00e9lia"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-04-24",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=YSsthabhhbQ",
-    "posterUrl": "https://medias.unifrance.org/medias/103/27/203623/format_page/victor-et-celia.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Romance"
-  ],
-  "tags": [
-    "grandparenthood"
-  ],
-  "director": [
-    {
-      "id": "Pierre Jolivet",
-      "slug": "pierre-jolivet",
-      "name": "Pierre Jolivet",
-      "birthYear": 1952,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Victor et Ben, la trentaine, ont pour projet d\u2019ouvrir leur propre salon de coiffure. Mais, rapidement leur r\u00eave tourne dramatiquement court. D\u00e9termin\u00e9 \u00e0 poursuivre sa qu\u00eate de libert\u00e9 et d\u2019ind\u00e9pendance, Victor parvient \u00e0 convaincre C\u00e9lia, qu\u2019il a connue lorsqu\u2019ils \u00e9taient encore \u00e0 l\u2019\u00e9cole de coiffure, de le suivre dans l\u2019aventure. Entre leur travail respectif, les paperasses, la r\u00e9glementation, les dettes, la famille... et les troubles amoureux qui resurgissent du pass\u00e9, les deux jeunes associe\u00e9s doivent faire front commun pour surmonter tous les obstacles et tenter de mener \u00e0 bien leur projet de vie.",
-    "english": "Victor and Ben are thirty-somethings planning to open their own hair salon. But very quickly their dream is dramatically thwarted. Determined, nevertheless, to follow through with his quest for liberty and independence, Victor manages to convince C\u00e9lia, an old friend from hairstyling school, to join him in this adventure. Between their current jobs, administrative paperwork, rules and regulations, debts, family obligations and buried romantic problems that resurface, the two young business partners must team up to face the many obstacles they are confronted with as they try to successfully turn their dreams into reality."
-  }
+    "type": "Film",
+    "id": "FR2019_079",
+    "slug": "fr2019-079-victor-et-celia",
+    "title": {
+        "native": "Victor et C\u00e9lia",
+        "english": "Victor & C\u00e9lia"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-04-24",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Pierre Jolivet",
+            "slug": "pierre-jolivet",
+            "name": "Pierre Jolivet",
+            "birthYear": 1952,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/103/27/203623/format_page/victor-et-celia.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=YSsthabhhbQ"
+    },
+    "synopsis": {
+        "native": "Victor et Ben, la trentaine, ont pour projet d\u2019ouvrir leur propre salon de coiffure. Mais, rapidement leur r\u00eave tourne dramatiquement court. D\u00e9termin\u00e9 \u00e0 poursuivre sa qu\u00eate de libert\u00e9 et d\u2019ind\u00e9pendance, Victor parvient \u00e0 convaincre C\u00e9lia, qu\u2019il a connue lorsqu\u2019ils \u00e9taient encore \u00e0 l\u2019\u00e9cole de coiffure, de le suivre dans l\u2019aventure. Entre leur travail respectif, les paperasses, la r\u00e9glementation, les dettes, la famille... et les troubles amoureux qui resurgissent du pass\u00e9, les deux jeunes associe\u00e9s doivent faire front commun pour surmonter tous les obstacles et tenter de mener \u00e0 bien leur projet de vie.",
+        "english": "Victor and Ben are thirty-somethings planning to open their own hair salon. But very quickly their dream is dramatically thwarted. Determined, nevertheless, to follow through with his quest for liberty and independence, Victor manages to convince C\u00e9lia, an old friend from hairstyling school, to join him in this adventure. Between their current jobs, administrative paperwork, rules and regulations, debts, family obligations and buried romantic problems that resurface, the two young business partners must team up to face the many obstacles they are confronted with as they try to successfully turn their dreams into reality."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Pasquale d'Inca",
+                "slug": "pasquale-d-inca",
+                "name": "Pasquale d'Inca",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Pierre Jolivet",
+                "slug": "pierre-jolivet",
+                "name": "Pierre Jolivet",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Tassadit Mandi",
+                "slug": "tassadit-mandi",
+                "name": "Tassadit Mandi",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Algeria"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "grandparenthood"
+    ]
 }

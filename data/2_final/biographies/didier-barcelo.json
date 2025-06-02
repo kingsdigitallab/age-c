@@ -1,28 +1,35 @@
 {
-  "id": "Didier Barcelo",
-  "type": "Biography",
-  "slug": "didier-barcelo",
-  "name": "Didier Barcelo",
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2022_101",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "fr2022-101-en-roue-libre",
-      "title": {
-        "english": "Freestyle",
-        "native": "En roue libre"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Didier Barcelo",
+    "slug": "didier-barcelo",
+    "name": "Didier Barcelo",
+    "birthYear": 0,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2022_101",
+                "slug": "fr2022-101-en-roue-libre",
+                "title": {
+                    "native": "En roue libre",
+                    "english": "Freestyle"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-06-29",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

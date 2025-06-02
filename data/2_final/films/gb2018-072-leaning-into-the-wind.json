@@ -1,51 +1,81 @@
 {
-  "id": "GB2018_072",
-  "type": "Film",
-  "slug": "gb2018-072-leaning-into-the-wind",
-  "title": {
-    "native": "Leaning into the Wind"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-10-08",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "GB2018_072",
+    "slug": "gb2018-072-leaning-into-the-wind",
+    "title": {
+        "native": "Leaning into the Wind",
+        "english": ""
     },
-    {
-      "country": "Germany",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=BQYGbfVfpm0",
-    "posterUrl": "https://www.imdb.com/title/tt6263828/mediaviewer/rm1840404224/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "artistic creation",
-    "fatherhood",
-    "ecology",
-    "natural",
-    "self-employment"
-  ],
-  "director": [
-    {
-      "id": "Thomas Riedelsheimer",
-      "slug": "thomas-riedelsheimer",
-      "name": "Thomas Riedelsheimer",
-      "birthYear": 1963,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "Leaning into the Wind follows artist Andy Goldsworthy on his exploration of the world and himself through ephemeral and permanent workings on the landscape, cities and with his own body."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2018-10-08",
+        "year": 2018
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Thomas Riedelsheimer",
+            "slug": "thomas-riedelsheimer",
+            "name": "Thomas Riedelsheimer",
+            "birthYear": 1963,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt6263828/mediaviewer/rm1840404224/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=BQYGbfVfpm0"
+    },
+    "synopsis": {
+        "native": "Leaning into the Wind follows artist Andy Goldsworthy on his exploration of the world and himself through ephemeral and permanent workings on the landscape, cities and with his own body.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Germany",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Andy Goldsworthy",
+                "slug": "andy-goldsworthy",
+                "name": "Andy Goldsworthy",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Thomas Riedelsheimer",
+                "slug": "thomas-riedelsheimer",
+                "name": "Thomas Riedelsheimer",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "fatherhood",
+        "artistic creation",
+        "natural",
+        "ecology",
+        "self-employment"
+    ]
 }

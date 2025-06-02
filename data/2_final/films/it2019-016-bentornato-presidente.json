@@ -1,75 +1,177 @@
 {
-  "id": "IT2019_016",
-  "type": "Film",
-  "slug": "it2019-016-bentornato-presidente",
-  "title": {
-    "native": "Bentornato presidente"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-03-28",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=4ZKf0yJcOlk",
-    "posterUrl": "https://www.imdb.com/title/tt9281008/mediaviewer/rm3092606208/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "state institutions",
-    "professional politics"
-  ],
-  "director": [
-    {
-      "id": "Giuseppe Stasi",
-      "slug": "giuseppe-stasi",
-      "name": "Giuseppe Stasi",
-      "birthYear": 1989,
-      "gender": "Male identifying",
-      "nationality": "Italy"
+    "type": "Film",
+    "id": "IT2019_016",
+    "slug": "it2019-016-bentornato-presidente",
+    "title": {
+        "native": "Bentornato presidente",
+        "english": ""
     },
-    {
-      "id": "Giancarlo Fontana",
-      "slug": "giancarlo-fontana",
-      "name": "Giancarlo Fontana",
-      "birthYear": 1981,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2019_016_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Claudio Bisio",
-        "slug": "claudio-bisio",
-        "name": "Claudio Bisio",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Sono passati otto anni dalla sua elezione al Quirinale e Peppino Garibaldi vive il suo idillio sui monti con Janis e la piccola Guevara. Peppino non ha dubbi: preferisce la montagna alla campagna...elettorale. Janis, invece, \u00e8 sempre pi\u00f9 insofferente a questa vita troppo tranquilla e soprattutto non riconosce pi\u00f9 in lui l'uomo appassionato, di cui si era innamorata, e che voleva cambiare l'Italia. Richiamata al Quirinale, nel momento in cui il Paese \u00e8 alle prese con la formazione del nuovo governo e appare minacciato da oscuri intrighi, Janis lascia Peppino e torna a Roma con Guevara. Disperato, Peppino non ha scelta: tornare alla politica per riconquistare la donna che ama.",
-    "english": "A name like Giuseppe (Peppino) Garibaldi is not an easy one to live up to. A man who is only to aware of this is Peppino, a simple provincial librarian, who in Welcome, Mr President!, the box-office smash of 2013, took over the reins of political power in Italy by mistake, but with great patriotic spirit. In this new film Welcome Back, Mr President! our librarian/woodsman is once again called on to abandon the tranquillity of his life in the mountains to return to Rome where he will help his wife Janis defeat a speculative plot intended to damage Italy and to get the country back on its feet."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-03-28",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Giancarlo Fontana",
+            "slug": "giancarlo-fontana",
+            "name": "Giancarlo Fontana",
+            "birthYear": 1981,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        },
+        {
+            "id": "Giuseppe Stasi",
+            "slug": "giuseppe-stasi",
+            "name": "Giuseppe Stasi",
+            "birthYear": 1989,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9281008/mediaviewer/rm3092606208/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=4ZKf0yJcOlk"
+    },
+    "synopsis": {
+        "native": "Sono passati otto anni dalla sua elezione al Quirinale e Peppino Garibaldi vive il suo idillio sui monti con Janis e la piccola Guevara. Peppino non ha dubbi: preferisce la montagna alla campagna...elettorale. Janis, invece, \u00e8 sempre pi\u00f9 insofferente a questa vita troppo tranquilla e soprattutto non riconosce pi\u00f9 in lui l'uomo appassionato, di cui si era innamorata, e che voleva cambiare l'Italia. Richiamata al Quirinale, nel momento in cui il Paese \u00e8 alle prese con la formazione del nuovo governo e appare minacciato da oscuri intrighi, Janis lascia Peppino e torna a Roma con Guevara. Disperato, Peppino non ha scelta: tornare alla politica per riconquistare la donna che ama.",
+        "english": "A name like Giuseppe (Peppino) Garibaldi is not an easy one to live up to. A man who is only to aware of this is Peppino, a simple provincial librarian, who in Welcome, Mr President!, the box-office smash of 2013, took over the reins of political power in Italy by mistake, but with great patriotic spirit. In this new film Welcome Back, Mr President! our librarian/woodsman is once again called on to abandon the tranquillity of his life in the mountains to return to Rome where he will help his wife Janis defeat a speculative plot intended to damage Italy and to get the country back on its feet."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2019_016_01",
+            "film": "IT2019_016",
+            "person": {
+                "id": "Claudio Bisio",
+                "slug": "claudio-bisio",
+                "name": "Claudio Bisio",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Antonio Petrocelli",
+                "slug": "antonio-petrocelli",
+                "name": "Antonio Petrocelli",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Claudio Bisio",
+                "slug": "claudio-bisio",
+                "name": "Claudio Bisio",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Franco Ravera",
+                "slug": "franco-ravera",
+                "name": "Franco Ravera",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Giancarlo Fontana",
+                "slug": "giancarlo-fontana",
+                "name": "Giancarlo Fontana",
+                "birthYear": 1981,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Giuseppe Stasi",
+                "slug": "giuseppe-stasi",
+                "name": "Giuseppe Stasi",
+                "birthYear": 1989,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Ivano Marescotti",
+                "slug": "ivano-marescotti",
+                "name": "Ivano Marescotti",
+                "birthYear": 1946,
+                "deathYear": 2023,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Massimo Popolizio",
+                "slug": "massimo-popolizio",
+                "name": "Massimo Popolizio",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Paolo Calabresi",
+                "slug": "paolo-calabresi",
+                "name": "Paolo Calabresi",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "state institutions",
+        "professional politics"
+    ]
 }

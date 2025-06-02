@@ -1,102 +1,168 @@
 {
-  "id": "GB2021_009",
-  "type": "Film",
-  "slug": "gb2021-009-mothering-sunday",
-  "title": {
-    "native": "Mothering Sunday"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2011-12-21",
-    "year": 2011
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=Zcf6GtNvMCQ",
-    "posterUrl": "https://www.imdb.com/title/tt12229370/mediaviewer/rm3212843777/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Historical film (Heritage Film)",
-    "Romance",
-    "Drama"
-  ],
-  "tags": [
-    "wealth",
-    "personal memory",
-    "artistic creation",
-    "grief",
-    "fatherhood",
-    "independent home",
-    "marriage",
-    "personal trauma",
-    "extended family",
-    "stages of life",
-    "national identity",
-    "self-employment",
-    "class conflict",
-    "superior-employee relationship",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Eva Husson",
-      "slug": "eva-husson",
-      "name": "Eva Husson",
-      "birthYear": 1977,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2021_009_02",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "Yes",
-      "person": {
-        "id": "Glenda Jackson",
-        "slug": "glenda-jackson",
-        "name": "Glenda Jackson",
-        "birthYear": 1936.0,
-        "deathYear": 2023.0,
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "GB2021_009",
+    "slug": "gb2021-009-mothering-sunday",
+    "title": {
+        "native": "Mothering Sunday",
+        "english": ""
     },
-    {
-      "id": "GB2021_009_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Colin Firth",
-        "slug": "colin-firth",
-        "name": "Colin Firth",
-        "birthYear": 1960.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "A maid living in post-World War I England secretly plans to meet with the man she loves before he leaves to marry another woman."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2011-12-21",
+        "year": 2011
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Eva Husson",
+            "slug": "eva-husson",
+            "name": "Eva Husson",
+            "birthYear": 1977,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Romance",
+        "Drama",
+        "Historical film (Heritage Film)"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt12229370/mediaviewer/rm3212843777/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=Zcf6GtNvMCQ"
+    },
+    "synopsis": {
+        "native": "A maid living in post-World War I England secretly plans to meet with the man she loves before he leaves to marry another woman.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2021_009_01",
+            "film": "GB2021_009",
+            "person": {
+                "id": "Colin Firth",
+                "slug": "colin-firth",
+                "name": "Colin Firth",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2021_009_02",
+            "film": "GB2021_009",
+            "person": {
+                "id": "Glenda Jackson",
+                "slug": "glenda-jackson",
+                "name": "Glenda Jackson",
+                "birthYear": 1936,
+                "deathYear": 2023,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "Yes"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Colin Firth",
+                "slug": "colin-firth",
+                "name": "Colin Firth",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Craig Crosbie",
+                "slug": "craig-crosbie",
+                "name": "Craig Crosbie",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Eva Husson",
+                "slug": "eva-husson",
+                "name": "Eva Husson",
+                "birthYear": 1977,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Glenda Jackson",
+                "slug": "glenda-jackson",
+                "name": "Glenda Jackson",
+                "birthYear": 1936,
+                "deathYear": 2023,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Simon Shepherd",
+                "slug": "simon-shepherd",
+                "name": "Simon Shepherd",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "stages of life",
+        "extended family",
+        "fatherhood",
+        "marriage",
+        "grief",
+        "personal memory",
+        "personal trauma",
+        "rural",
+        "independent home",
+        "wealth",
+        "self-employment",
+        "superior-employee relationship",
+        "artistic creation",
+        "national identity",
+        "class conflict"
+    ]
 }

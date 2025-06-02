@@ -1,43 +1,84 @@
 {
-  "id": "FR2018_150",
-  "type": "Film",
-  "slug": "fr2018-150-alad-2",
-  "title": {
-    "native": "Alad'2",
-    "english": "The Brand New Adventures of Aladin"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-10-03",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=Ms55DzeCbRU",
-    "posterUrl": "https://medias.unifrance.org/medias/121/245/193913/format_page/the-brand-new-adventures-of-aladin.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Fantasy"
-  ],
-  "director": [
-    {
-      "id": "Lionel Steketee",
-      "slug": "lionel-steketee",
-      "name": "Lionel Steketee",
-      "birthYear": 1964,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Apr\u00e8s avoir lib\u00e9r\u00e9 Bagdad de l\u2019emprise de son terrible Vizir, Aladin s\u2019ennuie au palais et ne s\u2019est toujours pas d\u00e9cid\u00e9 \u00e0 demander en mariage la princesse. Mais un terrible dictateur, Shah Zaman, s\u2019invite au Palais et annonce qu\u2019il est venu prendre la ville et \u00e9pouser la Princesse. Aladin n\u2019a pas d\u2019autre choix que de s\u2019enfuir de Bagdad... Il va tenter de r\u00e9cup\u00e9rer son ancien G\u00e9nie et revenir en force pour lib\u00e9rer la ville et r\u00e9cup\u00e9rer sa promise.",
-    "english": "After ridding Baghdad of its evil vizier, Aladin is bored at the palace and has still not made up his mind to propose to the princess. But a horrible dictator, Shah Zaman, invites himself to the palace and announces that he has come to capture the city and marry the princess. Aladin has no other choice but to flee... He will try to find his old genie and return in force to free the city and win back his betrothed."
-  }
+    "type": "Film",
+    "id": "FR2018_150",
+    "slug": "fr2018-150-alad-2",
+    "title": {
+        "native": "Alad'2",
+        "english": "The Brand New Adventures of Aladin"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-10-03",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Lionel Steketee",
+            "slug": "lionel-steketee",
+            "name": "Lionel Steketee",
+            "birthYear": 1964,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Fantasy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/121/245/193913/format_page/the-brand-new-adventures-of-aladin.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=Ms55DzeCbRU"
+    },
+    "synopsis": {
+        "native": "Apr\u00e8s avoir lib\u00e9r\u00e9 Bagdad de l\u2019emprise de son terrible Vizir, Aladin s\u2019ennuie au palais et ne s\u2019est toujours pas d\u00e9cid\u00e9 \u00e0 demander en mariage la princesse. Mais un terrible dictateur, Shah Zaman, s\u2019invite au Palais et annonce qu\u2019il est venu prendre la ville et \u00e9pouser la Princesse. Aladin n\u2019a pas d\u2019autre choix que de s\u2019enfuir de Bagdad... Il va tenter de r\u00e9cup\u00e9rer son ancien G\u00e9nie et revenir en force pour lib\u00e9rer la ville et r\u00e9cup\u00e9rer sa promise.",
+        "english": "After ridding Baghdad of its evil vizier, Aladin is bored at the palace and has still not made up his mind to propose to the princess. But a horrible dictator, Shah Zaman, invites himself to the palace and announces that he has come to capture the city and marry the princess. Aladin has no other choice but to flee... He will try to find his old genie and return in force to free the city and win back his betrothed."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "G\u00e9rard Depardieu",
+                "slug": "gerard-depardieu",
+                "name": "G\u00e9rard Depardieu",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Russian Federation (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Isabelle Nanty",
+                "slug": "isabelle-nanty",
+                "name": "Isabelle Nanty",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Lionel Steketee",
+                "slug": "lionel-steketee",
+                "name": "Lionel Steketee",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": []
 }

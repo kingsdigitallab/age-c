@@ -1,71 +1,111 @@
 {
-  "id": "FR2018_160",
-  "type": "Film",
-  "slug": "fr2018-160-le-flic-de-belleville",
-  "title": {
-    "native": "Le Flic de Belleville",
-    "english": "Belleville Cop"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-10-17",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=C6_bRY2wr8g",
-    "posterUrl": "https://medias.unifrance.org/medias/101/252/195685/format_page/belleville-cop.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Unknown"
-  ],
-  "tags": [
-    "state institutions",
-    "urban",
-    "parenthood",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Rachid Bouchareb",
-      "slug": "rachid-bouchareb",
-      "name": "Rachid Bouchareb",
-      "birthYear": 1953,
-      "gender": "Male identifying",
-      "nationality": "Algeria"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2018_160_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "Black Latin American",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Luis Guzm\u00e1n",
-        "slug": "luis-guzman",
-        "name": "Luis Guzm\u00e1n",
-        "birthYear": 1956.0,
-        "gender": "Male identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Baaba est flic \u00e0 Belleville, quartier qu\u2019il n\u2019a jamais quitt\u00e9, au grand d\u00e9sespoir de sa copine qui le tanne pour enfin vivre avec lui, ailleurs, et loin de sa m\u00e8re. Un soir, Roland, son ami d\u2019enfance, est assassin\u00e9 sous ses yeux. Baaba prend sa place d\u2019Officier de liaison aupr\u00e8s du Consulat de France \u00e0 Miami, afin de retrouver son assassin. En Floride, flanqu\u00e9 de sa m\u00e8re plus qu\u2019envahissante, il est pris en main par Ricardo, un flic local toujours mal lun\u00e9. Contraint de faire \u00e9quipe, le duo explosif m\u00e8ne l\u2019enqu\u00eate...",
-    "english": "When a childhood friend from Miami gets killed after he comes to warn of encroaching drug gangs, Baaba moves to Miami and teams up with a local officer to bring down the criminals."
-  }
+    "type": "Film",
+    "id": "FR2018_160",
+    "slug": "fr2018-160-le-flic-de-belleville",
+    "title": {
+        "native": "Le Flic de Belleville",
+        "english": "Belleville Cop"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-10-17",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Rachid Bouchareb",
+            "slug": "rachid-bouchareb",
+            "name": "Rachid Bouchareb",
+            "birthYear": 1953,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Algeria"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Unknown"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/101/252/195685/format_page/belleville-cop.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=C6_bRY2wr8g"
+    },
+    "synopsis": {
+        "native": "Baaba est flic \u00e0 Belleville, quartier qu\u2019il n\u2019a jamais quitt\u00e9, au grand d\u00e9sespoir de sa copine qui le tanne pour enfin vivre avec lui, ailleurs, et loin de sa m\u00e8re. Un soir, Roland, son ami d\u2019enfance, est assassin\u00e9 sous ses yeux. Baaba prend sa place d\u2019Officier de liaison aupr\u00e8s du Consulat de France \u00e0 Miami, afin de retrouver son assassin. En Floride, flanqu\u00e9 de sa m\u00e8re plus qu\u2019envahissante, il est pris en main par Ricardo, un flic local toujours mal lun\u00e9. Contraint de faire \u00e9quipe, le duo explosif m\u00e8ne l\u2019enqu\u00eate...",
+        "english": "When a childhood friend from Miami gets killed after he comes to warn of encroaching drug gangs, Baaba moves to Miami and teams up with a local officer to bring down the criminals."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2018_160_01",
+            "film": "FR2018_160",
+            "person": {
+                "id": "Luis Guzm\u00e1n",
+                "slug": "luis-guzman",
+                "name": "Luis Guzm\u00e1n",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "Black Latin American",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Biyouna",
+                "slug": "biyouna",
+                "name": "Biyouna",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Algeria"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Luis Guzm\u00e1n",
+                "slug": "luis-guzman",
+                "name": "Luis Guzm\u00e1n",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Rachid Bouchareb",
+                "slug": "rachid-bouchareb",
+                "name": "Rachid Bouchareb",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Algeria"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "state institutions",
+        "parenthood",
+        "urban",
+        "superior-employee relationship"
+    ]
 }

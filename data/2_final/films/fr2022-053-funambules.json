@@ -1,51 +1,67 @@
 {
-  "id": "FR2022_053",
-  "type": "Film",
-  "slug": "fr2022-053-funambules",
-  "title": {
-    "native": "Funambules",
-    "english": "Tightrope Walkers"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-03-16",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=g9tHpBxmbHg",
-    "posterUrl": "https://medias.unifrance.org/medias/246/144/233718/format_page/funambules.jpg"
-  },
-  "genre": [
-    "Documentary \u2013 Observational mode",
-    "Documentary \u2013 Poetic mode"
-  ],
-  "tags": [
-    "independent home",
-    "caregiving",
-    "marriage",
-    "mental illness",
-    "medical treatment",
-    "retirement"
-  ],
-  "director": [
-    {
-      "id": "Ilan Klipper",
-      "slug": "ilan-klipper",
-      "name": "Ilan Klipper",
-      "birthYear": 1978,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Quelle est l'\u00e9paisseur du mur qui nous s\u00e9pare de la folie ? Personne ne sait de quoi il est fait. Personne ne sait jusqu'\u00e0 quel point il r\u00e9siste. Aube, Yoan, Marcus, eux, ont franchi le seuil. Ils vivent de l'autre c\u00f4t\u00e9 du miroir.",
-    "english": "What is the thickness of the wall that separates us from insanity? No one knows what it's made of and no one knows what it can weather. Aube, Yoan, Marcus, they have crossed the threshold. They live on the other side of the mirror; they have created their own world."
-  }
+    "type": "Film",
+    "id": "FR2022_053",
+    "slug": "fr2022-053-funambules",
+    "title": {
+        "native": "Funambules",
+        "english": "Tightrope Walkers"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-03-16",
+        "year": 2022
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Ilan Klipper",
+            "slug": "ilan-klipper",
+            "name": "Ilan Klipper",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Observational mode",
+        "Documentary \u2013 Poetic mode"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/246/144/233718/format_page/funambules.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=g9tHpBxmbHg"
+    },
+    "synopsis": {
+        "native": "Quelle est l'\u00e9paisseur du mur qui nous s\u00e9pare de la folie ? Personne ne sait de quoi il est fait. Personne ne sait jusqu'\u00e0 quel point il r\u00e9siste. Aube, Yoan, Marcus, eux, ont franchi le seuil. Ils vivent de l'autre c\u00f4t\u00e9 du miroir.",
+        "english": "What is the thickness of the wall that separates us from insanity? No one knows what it's made of and no one knows what it can weather. Aube, Yoan, Marcus, they have crossed the threshold. They live on the other side of the mirror; they have created their own world."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Ilan Klipper",
+                "slug": "ilan-klipper",
+                "name": "Ilan Klipper",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "mental illness",
+        "caregiving",
+        "medical treatment",
+        "marriage",
+        "independent home",
+        "retirement"
+    ]
 }

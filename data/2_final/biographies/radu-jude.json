@@ -1,66 +1,111 @@
 {
-  "id": "Radu Jude",
-  "type": "Biography",
-  "slug": "radu-jude",
-  "name": "Radu Jude",
-  "birthYear": 1977,
-  "nationality": "Romania",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Experimental film ",
-      "id": "RO2018_005",
-      "production": {
-        "country": "Bulgaria",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "ro2018-005-imi-este-indiferent-daca-in-istorie-vom-intra-ca-barbari",
-      "tags": "collective trauma",
-      "title": {
-        "english": "I Do Not Care If We Go Down in History as Barbarians",
-        "native": "\u00cemi este indiferent dac\u0103 \u00een istorie vom intra ca barbari"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "RO2021_001",
-      "production": {
-        "country": "Luxembourg",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "ro2021-001-babardeala-cu-bucluc-sau-porno-balamuc",
-      "title": {
-        "english": "Bad Luck Banging or Loony Porn",
-        "native": "Babardeala cu bucluc sau porno balamuc"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "RO2020_004",
-      "production": {
-        "country": "Romania",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "ro2020-004-tipografic-majuscul",
-      "title": {
-        "english": "Uppercase Print",
-        "native": "Tipografic majuscul"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Radu Jude",
+    "slug": "radu-jude",
+    "name": "Radu Jude",
+    "birthYear": 1977,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Romania",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "RO2018_005",
+                "slug": "ro2018-005-imi-este-indiferent-daca-in-istorie-vom-intra-ca-barbari",
+                "title": {
+                    "native": "\u00cemi este indiferent dac\u0103 \u00een istorie vom intra ca barbari",
+                    "english": "I Do Not Care If We Go Down in History as Barbarians"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-09-28",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Czechia",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Bulgaria",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "RO2020_004",
+                "slug": "ro2020-004-tipografic-majuscul",
+                "title": {
+                    "native": "Tipografic majuscul",
+                    "english": "Uppercase Print"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-02-21",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "RO2021_001",
+                "slug": "ro2021-001-babardeala-cu-bucluc-sau-porno-balamuc",
+                "title": {
+                    "native": "Babardeala cu bucluc sau porno balamuc",
+                    "english": "Bad Luck Banging or Loony Porn"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-05-07",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Luxembourg",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Czechia",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Croatia",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Switzerland",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

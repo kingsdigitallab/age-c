@@ -1,51 +1,80 @@
 {
-  "id": "ES2020_026",
-  "type": "Film",
-  "slug": "es2020-026-una-manana-fria",
-  "title": {
-    "native": "Una ma\u00f1ana fr\u00eda",
-    "english": "A cold morning"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-02-06",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=300145",
-    "posterUrl": "https://www.imdb.com/title/tt12428316/mediaviewer/rm2713890561/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Documentary \u2013 Poetic mode"
-  ],
-  "tags": [
-    "siblinghood",
-    "personal memory",
-    "grief",
-    "accidental death",
-    "personal trauma",
-    "mental illness",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Raquel G\u00f3mez Troyano",
-      "slug": "raquel-gomez-troyano",
-      "name": "Raquel G\u00f3mez Troyano",
-      "gender": "Female identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "En 1986, un accidente de coche en Reinosa cambia la vida de Rosi para siempre. La no aceptaci\u00f3n del fallecimiento de su hermano llevar\u00e1 a esta madrile\u00f1a durante a\u00f1os a buscarlo por el norte de Espa\u00f1a. 33 a\u00f1os despu\u00e9s, Rosi vuelve al lugar del accidente acompa\u00f1ada de su hija; esta vez no le busca a \u00e9l, sino un reencuentro entre pasado y presente.",
-    "english": "Biographical history based on real events. First film in Europe that gives voice to victims of traffic accidents."
-  }
+    "type": "Film",
+    "id": "ES2020_026",
+    "slug": "es2020-026-una-manana-fria",
+    "title": {
+        "native": "Una ma\u00f1ana fr\u00eda",
+        "english": "A cold morning"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-02-06",
+        "year": 2020
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Raquel G\u00f3mez Troyano",
+            "slug": "raquel-gomez-troyano",
+            "name": "Raquel G\u00f3mez Troyano",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Documentary \u2013 Poetic mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt12428316/mediaviewer/rm2713890561/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=300145"
+    },
+    "synopsis": {
+        "native": "En 1986, un accidente de coche en Reinosa cambia la vida de Rosi para siempre. La no aceptaci\u00f3n del fallecimiento de su hermano llevar\u00e1 a esta madrile\u00f1a durante a\u00f1os a buscarlo por el norte de Espa\u00f1a. 33 a\u00f1os despu\u00e9s, Rosi vuelve al lugar del accidente acompa\u00f1ada de su hija; esta vez no le busca a \u00e9l, sino un reencuentro entre pasado y presente.",
+        "english": "Biographical history based on real events. First film in Europe that gives voice to victims of traffic accidents."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Raquel G\u00f3mez Troyano",
+                "slug": "raquel-gomez-troyano",
+                "name": "Raquel G\u00f3mez Troyano",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Rosi Troyano D\u00edaz",
+                "slug": "rosi-troyano-diaz",
+                "name": "Rosi Troyano D\u00edaz",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "grief",
+        "personal memory",
+        "rural",
+        "accidental death",
+        "siblinghood",
+        "mental illness",
+        "personal trauma"
+    ]
 }

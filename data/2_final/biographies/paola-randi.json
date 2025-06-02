@@ -1,49 +1,57 @@
 {
-  "id": "Paola Randi",
-  "type": "Biography",
-  "slug": "paola-randi",
-  "name": "Paola Randi",
-  "birthYear": 1970,
-  "nationality": "Italy",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "IT2018_052",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "it2018-052-tito-e-gli-alieni",
-      "tags": "technology",
-      "title": {
-        "english": "Little Tito and the Aliens",
-        "native": "Tito e gli alieni"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Fantasy",
-      "id": "IT2021_074",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "it2021-074-la-befana-vien-di-notte-le-origini",
-      "tags": "grayface",
-      "title": {
-        "english": "The Legend of the Christmas Witch 2: The Origins",
-        "native": "La Befana vien di notte: le origini"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Paola Randi",
+    "slug": "paola-randi",
+    "name": "Paola Randi",
+    "birthYear": 1970,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2018_052",
+                "slug": "it2018-052-tito-e-gli-alieni",
+                "title": {
+                    "native": "Tito e gli alieni",
+                    "english": "Little Tito and the Aliens"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-06-07",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2021_074",
+                "slug": "it2021-074-la-befana-vien-di-notte-le-origini",
+                "title": {
+                    "native": "La Befana vien di notte: le origini",
+                    "english": "The Legend of the Christmas Witch 2: The Origins"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-12-30",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

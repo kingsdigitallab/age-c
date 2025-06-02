@@ -1,72 +1,101 @@
 {
-  "id": "FR2021_051",
-  "type": "Film",
-  "slug": "fr2021-051-attention-au-depart",
-  "title": {
-    "native": "Attention au d\u00e9part",
-    "english": "All Aboard!"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-08-18",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2021_051",
+    "slug": "fr2021-051-attention-au-depart",
+    "title": {
+        "native": "Attention au d\u00e9part",
+        "english": "All Aboard!"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=LjT6YuwkOf4",
-    "posterUrl": "https://medias.unifrance.org/medias/248/157/237048/format_page/all-aboard.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Road Movie"
-  ],
-  "tags": [
-    "in-laws",
-    "grandfatherhood"
-  ],
-  "director": [
-    {
-      "id": "Benjamin Euvrard",
-      "slug": "benjamin-euvrard",
-      "name": "Benjamin Euvrard",
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2021_051_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Andr\u00e9 Dussollier",
-        "slug": "andre-dussollier",
-        "name": "Andr\u00e9 Dussollier",
-        "birthYear": 1946.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Rater le train, c'est moche. Alors le voir partir avec vos enfants et ceux de vos amis dont vous avez la charge, c\u2019est une autre histoire\u2026 Celle de la folle course-poursuite de Benjamin, papa poule un peu d\u00e9pass\u00e9 et Antoine, grand-p\u00e8re fantasque, qui doivent trouver une solution avant qu\u2019on apprenne\u2026 qu\u2019ils ont perdu les gosses ! Rattraper le train est leur seule chance de se rattraper...",
-    "english": "Finally, the holidays are here! Vlad and his friends are so excited! J\u00e9r\u00f4me, Vlad\u2019s father, is in charge. Andr\u00e9, the grandfather of Jeanne and Basile, is also here to help. Six kids, two adults, an eight-hour train trip. Nothing could go wrong. But J\u00e9r\u00f4me and Andr\u00e9 miss the train\u2026 and watch it leave the station with the kids on board. It\u2019s the beginning of a crazy race for the unlikely duo. While the unsupervised children go wild and have the time of their life, Andr\u00e9 and J\u00e9r\u00f4me go through various delays and adventures\u2026"
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2021-08-18",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Benjamin Euvrard",
+            "slug": "benjamin-euvrard",
+            "name": "Benjamin Euvrard",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Road Movie"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/248/157/237048/format_page/all-aboard.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=LjT6YuwkOf4"
+    },
+    "synopsis": {
+        "native": "Rater le train, c'est moche. Alors le voir partir avec vos enfants et ceux de vos amis dont vous avez la charge, c\u2019est une autre histoire\u2026 Celle de la folle course-poursuite de Benjamin, papa poule un peu d\u00e9pass\u00e9 et Antoine, grand-p\u00e8re fantasque, qui doivent trouver une solution avant qu\u2019on apprenne\u2026 qu\u2019ils ont perdu les gosses ! Rattraper le train est leur seule chance de se rattraper...",
+        "english": "Finally, the holidays are here! Vlad and his friends are so excited! J\u00e9r\u00f4me, Vlad\u2019s father, is in charge. Andr\u00e9, the grandfather of Jeanne and Basile, is also here to help. Six kids, two adults, an eight-hour train trip. Nothing could go wrong. But J\u00e9r\u00f4me and Andr\u00e9 miss the train\u2026 and watch it leave the station with the kids on board. It\u2019s the beginning of a crazy race for the unlikely duo. While the unsupervised children go wild and have the time of their life, Andr\u00e9 and J\u00e9r\u00f4me go through various delays and adventures\u2026"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2021_051_01",
+            "film": "FR2021_051",
+            "person": {
+                "id": "Andr\u00e9 Dussollier",
+                "slug": "andre-dussollier",
+                "name": "Andr\u00e9 Dussollier",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Andr\u00e9 Dussollier",
+                "slug": "andre-dussollier",
+                "name": "Andr\u00e9 Dussollier",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Benjamin Euvrard",
+                "slug": "benjamin-euvrard",
+                "name": "Benjamin Euvrard",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "grandfatherhood",
+        "in-laws"
+    ]
 }

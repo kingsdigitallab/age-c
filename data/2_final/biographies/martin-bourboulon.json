@@ -1,30 +1,39 @@
 {
-  "id": "Martin Bourboulon",
-  "type": "Biography",
-  "slug": "martin-bourboulon",
-  "name": "Martin Bourboulon",
-  "birthYear": 1979,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Biopic",
-      "id": "FR2021_083",
-      "production": {
-        "country": "Germany",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-083-eiffel",
-      "tags": "wealth",
-      "title": {
-        "english": "Eiffel",
-        "native": "Eiffel"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Martin Bourboulon",
+    "slug": "martin-bourboulon",
+    "name": "Martin Bourboulon",
+    "birthYear": 1979,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_083",
+                "slug": "fr2021-083-eiffel",
+                "title": {
+                    "native": "Eiffel",
+                    "english": "Eiffel"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-10-13",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

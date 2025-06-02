@@ -1,47 +1,76 @@
 {
-  "id": "FR2021_013",
-  "type": "Film",
-  "slug": "fr2021-013-l-instant-present",
-  "title": {
-    "native": "L'Instant pr\u00e9sent"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-06-09",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=6RjL-IRZttY",
-    "posterUrl": "https://medias.unifrance.org/medias/197/134/231109/format_page/l-instant-present.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "mentorship",
-    "intergenerational friendship",
-    "well-being",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Florian Hessique",
-      "slug": "florian-hessique",
-      "name": "Florian Hessique",
-      "birthYear": 1987,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Apr\u00e8s une chute de cheval qui l\u2019a plong\u00e9 dans le coma durant pr\u00e8s de dix ann\u00e9es, Joshua revient aux \u00e9curies qu\u2019il a si bien connues. Accueilli par Mario et Alice, il ne reconna\u00eet rien ni personne. Durant toute cette journ\u00e9e, ces derniers vont tout tenter pour faire rena\u00eetre quelques souvenirs dans la t\u00eate de celui dont ils ont \u00e9t\u00e9 si proches, mais qui, aujourd\u2019hui, semble \u00eatre un parfait \u00e9tranger.",
-    "english": "After a fall from a horse that left him in a coma for almost ten years, Joshua returns to the stables he knew so well. Welcomed by Mario and Alice, he recognizes nothing and nobody. During the day, they will try to bring back some memories in the head of the man they were so close to, but who, today, seems to be a complete stranger."
-  }
+    "type": "Film",
+    "id": "FR2021_013",
+    "slug": "fr2021-013-l-instant-present",
+    "title": {
+        "native": "L'Instant pr\u00e9sent",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-06-09",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Florian Hessique",
+            "slug": "florian-hessique",
+            "name": "Florian Hessique",
+            "birthYear": 1987,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/197/134/231109/format_page/l-instant-present.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=6RjL-IRZttY"
+    },
+    "synopsis": {
+        "native": "Apr\u00e8s une chute de cheval qui l\u2019a plong\u00e9 dans le coma durant pr\u00e8s de dix ann\u00e9es, Joshua revient aux \u00e9curies qu\u2019il a si bien connues. Accueilli par Mario et Alice, il ne reconna\u00eet rien ni personne. Durant toute cette journ\u00e9e, ces derniers vont tout tenter pour faire rena\u00eetre quelques souvenirs dans la t\u00eate de celui dont ils ont \u00e9t\u00e9 si proches, mais qui, aujourd\u2019hui, semble \u00eatre un parfait \u00e9tranger.",
+        "english": "After a fall from a horse that left him in a coma for almost ten years, Joshua returns to the stables he knew so well. Welcomed by Mario and Alice, he recognizes nothing and nobody. During the day, they will try to bring back some memories in the head of the man they were so close to, but who, today, seems to be a complete stranger."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Florian Hessique",
+                "slug": "florian-hessique",
+                "name": "Florian Hessique",
+                "birthYear": 1987,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Martin Lamotte",
+                "slug": "martin-lamotte",
+                "name": "Martin Lamotte",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "well-being",
+        "intergenerational friendship",
+        "mentorship",
+        "rural"
+    ]
 }

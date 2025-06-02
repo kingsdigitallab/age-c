@@ -1,77 +1,153 @@
 {
-  "id": "FR2022_011",
-  "type": "Film",
-  "slug": "fr2022-011-la-place-d-une-autre",
-  "title": {
-    "native": "La Place d'une autre",
-    "english": "Secret Name"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-01-19",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=Qml5y9Q-8CQ",
-    "posterUrl": "https://medias.unifrance.org/medias/112/186/244336/format_page/la-place-d-une-autre.jpg"
-  },
-  "genre": [
-    "Historical film (Heritage Film)",
-    "Drama"
-  ],
-  "tags": [
-    "wealth",
-    "intergenerational friendship",
-    "unemployment",
-    "independent home",
-    "religion",
-    "extended family",
-    "state institutions",
-    "class conflict",
-    "widowhood",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Aur\u00e9lia Georges",
-      "slug": "aurelia-georges",
-      "name": "Aur\u00e9lia Georges",
-      "birthYear": 1973,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2022_011_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Sabine Az\u00e9ma",
-        "slug": "sabine-azema",
-        "name": "Sabine Az\u00e9ma",
-        "birthYear": 1949.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "N\u00e9lie a \u00e9chapp\u00e9 \u00e0 une existence mis\u00e9rable en devenant infirmi\u00e8re auxiliaire sur le front en 1914. Un jour, elle prend l\u2019identit\u00e9 de Rose, une jeune femme qu\u2019elle a vue mourir sous ses yeux, et promise \u00e0 un meilleur avenir. N\u00e9lie se pr\u00e9sente \u00e0 sa place chez une riche veuve, El\u00e9onore, dont elle devient la lectrice. Le mensonge fonctionne au-del\u00e0 de ses esp\u00e9rances.",
-    "english": "Nelie escaped a miserable existence by becoming a frontline nurse in 1914. One day, she takes the identity of Rose, a young woman from a good family, who dies in front of her. She presents herself in her place at Madame de Lengwil's house, to become the reader of this wealthy woman. The lie works beyond her expectations."
-  }
+    "type": "Film",
+    "id": "FR2022_011",
+    "slug": "fr2022-011-la-place-d-une-autre",
+    "title": {
+        "native": "La Place d'une autre",
+        "english": "Secret Name"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-01-19",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Aur\u00e9lia Georges",
+            "slug": "aurelia-georges",
+            "name": "Aur\u00e9lia Georges",
+            "birthYear": 1973,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Historical film (Heritage Film)"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/112/186/244336/format_page/la-place-d-une-autre.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=Qml5y9Q-8CQ"
+    },
+    "synopsis": {
+        "native": "N\u00e9lie a \u00e9chapp\u00e9 \u00e0 une existence mis\u00e9rable en devenant infirmi\u00e8re auxiliaire sur le front en 1914. Un jour, elle prend l\u2019identit\u00e9 de Rose, une jeune femme qu\u2019elle a vue mourir sous ses yeux, et promise \u00e0 un meilleur avenir. N\u00e9lie se pr\u00e9sente \u00e0 sa place chez une riche veuve, El\u00e9onore, dont elle devient la lectrice. Le mensonge fonctionne au-del\u00e0 de ses esp\u00e9rances.",
+        "english": "Nelie escaped a miserable existence by becoming a frontline nurse in 1914. One day, she takes the identity of Rose, a young woman from a good family, who dies in front of her. She presents herself in her place at Madame de Lengwil's house, to become the reader of this wealthy woman. The lie works beyond her expectations."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_011_01",
+            "film": "FR2022_011",
+            "person": {
+                "id": "Sabine Az\u00e9ma",
+                "slug": "sabine-azema",
+                "name": "Sabine Az\u00e9ma",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Aur\u00e9lia Georges",
+                "slug": "aurelia-georges",
+                "name": "Aur\u00e9lia Georges",
+                "birthYear": 1973,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Didier Brice",
+                "slug": "didier-brice",
+                "name": "Didier Brice",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Laurent Poitrenaux",
+                "slug": "laurent-poitrenaux",
+                "name": "Laurent Poitrenaux",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Lise Lam\u00e9trie",
+                "slug": "lise-lametrie",
+                "name": "Lise Lam\u00e9trie",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Olivier Broche",
+                "slug": "olivier-broche",
+                "name": "Olivier Broche",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Sabine Az\u00e9ma",
+                "slug": "sabine-azema",
+                "name": "Sabine Az\u00e9ma",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "unemployment",
+        "independent home",
+        "wealth",
+        "widowhood",
+        "intergenerational friendship",
+        "superior-employee relationship",
+        "extended family",
+        "religion",
+        "class conflict",
+        "state institutions"
+    ]
 }

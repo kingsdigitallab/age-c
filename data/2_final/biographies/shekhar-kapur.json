@@ -1,29 +1,35 @@
 {
-  "id": "Shekhar Kapur",
-  "type": "Biography",
-  "slug": "shekhar-kapur",
-  "name": "Shekhar Kapur",
-  "birthYear": 1945,
-  "nationality": "India",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Metacinema",
-      "id": "GB2023_001",
-      "production": {
-        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "gb2023-001-what-s-love-got-to-do-with-it",
-      "tags": "wedding",
-      "title": {
-        "native": "What's Love Got to Do with It?"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Shekhar Kapur",
+    "slug": "shekhar-kapur",
+    "name": "Shekhar Kapur",
+    "birthYear": 1945,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "India",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "GB2023_001",
+                "slug": "gb2023-001-what-s-love-got-to-do-with-it",
+                "title": {
+                    "native": "What's Love Got to Do with It?",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-02-24",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,30 +1,35 @@
 {
-  "id": "Francesco Albanese",
-  "type": "Biography",
-  "slug": "francesco-albanese",
-  "name": "Francesco Albanese",
-  "birthYear": 1975,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "IT2023_076",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "it2023-076-uomini-da-marciapiede",
-      "tags": "crime",
-      "title": {
-        "english": "Italians do it better",
-        "native": "Uomini da marciapiede"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Francesco Albanese",
+    "slug": "francesco-albanese",
+    "name": "Francesco Albanese",
+    "birthYear": 1975,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2023_076",
+                "slug": "it2023-076-uomini-da-marciapiede",
+                "title": {
+                    "native": "Uomini da marciapiede",
+                    "english": "Italians do it better"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-09-07",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

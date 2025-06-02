@@ -1,76 +1,105 @@
 {
-  "id": "ES2020_005",
-  "type": "Film",
-  "slug": "es2020-005-el-plan",
-  "title": {
-    "native": "El plan",
-    "english": "The Plan"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-02-21",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=8BKVQYlXazw",
-    "posterUrl": "https://www.imdb.com/title/tt9733094/mediaviewer/rm3846275841/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Drama"
-  ],
-  "tags": [
-    "class solidarity",
-    "intergenerational friendship",
-    "precarity",
-    "unemployment",
-    "independent home",
-    "2008 crisis",
-    "urban",
-    "homosociality",
-    "mental illness",
-    "revenge"
-  ],
-  "director": [
-    {
-      "id": "Polo Men\u00e1rguez",
-      "slug": "polo-menarguez",
-      "name": "Polo Men\u00e1rguez",
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2020_005_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Chema del Barco",
-        "slug": "chema-del-barco",
-        "name": "Chema del Barco",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Son las nueve de la ma\u00f1ana de un caluroso d\u00eda de verano en el barrio madrile\u00f1o de Usera. Paco, Ram\u00f3n y Andrade, tres amigos que llevan en paro desde que cerr\u00f3 la empresa en la que trabajaban, han quedado para ejecutar un plan. Cuando por fin se re\u00fanen, un contratiempo les impide salir de casa: el coche que necesitaban para trasladarse est\u00e1 averiado. Mientras buscan otra manera de llegar a su destino, se ven envueltos en una serie de inc\u00f3modas discusiones que poco a poco derribar\u00e1n sus muros y arrancar\u00e1n sus m\u00e1scaras.",
-    "english": "Three friends who have been fired from their company are demoralized by their unemployment situation. They meet to come up with a plan, but they run into a problem."
-  }
+    "type": "Film",
+    "id": "ES2020_005",
+    "slug": "es2020-005-el-plan",
+    "title": {
+        "native": "El plan",
+        "english": "The Plan"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-02-21",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Polo Men\u00e1rguez",
+            "slug": "polo-menarguez",
+            "name": "Polo Men\u00e1rguez",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Thriller",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9733094/mediaviewer/rm3846275841/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=8BKVQYlXazw"
+    },
+    "synopsis": {
+        "native": "Son las nueve de la ma\u00f1ana de un caluroso d\u00eda de verano en el barrio madrile\u00f1o de Usera. Paco, Ram\u00f3n y Andrade, tres amigos que llevan en paro desde que cerr\u00f3 la empresa en la que trabajaban, han quedado para ejecutar un plan. Cuando por fin se re\u00fanen, un contratiempo les impide salir de casa: el coche que necesitaban para trasladarse est\u00e1 averiado. Mientras buscan otra manera de llegar a su destino, se ven envueltos en una serie de inc\u00f3modas discusiones que poco a poco derribar\u00e1n sus muros y arrancar\u00e1n sus m\u00e1scaras.",
+        "english": "Three friends who have been fired from their company are demoralized by their unemployment situation. They meet to come up with a plan, but they run into a problem."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2020_005_01",
+            "film": "ES2020_005",
+            "person": {
+                "id": "Chema del Barco",
+                "slug": "chema-del-barco",
+                "name": "Chema del Barco",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Chema del Barco",
+                "slug": "chema-del-barco",
+                "name": "Chema del Barco",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Polo Men\u00e1rguez",
+                "slug": "polo-menarguez",
+                "name": "Polo Men\u00e1rguez",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "independent home",
+        "urban",
+        "unemployment",
+        "mental illness",
+        "2008 crisis",
+        "revenge",
+        "homosociality",
+        "intergenerational friendship",
+        "class solidarity",
+        "precarity"
+    ]
 }

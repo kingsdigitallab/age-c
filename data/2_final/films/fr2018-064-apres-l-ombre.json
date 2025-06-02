@@ -1,44 +1,73 @@
 {
-  "id": "FR2018_064",
-  "type": "Film",
-  "slug": "fr2018-064-apres-l-ombre",
-  "title": {
-    "native": "Apr\u00e8s l'ombre",
-    "english": "Stepping Out"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-03-28",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=U2yGJsSwtM4",
-    "posterUrl": "https://medias.unifrance.org/medias/68/226/188996/format_page/stepping-out.png"
-  },
-  "genre": [
-    "Documentary \u2013 Observational mode"
-  ],
-  "tags": [
-    "artistic creation"
-  ],
-  "director": [
-    {
-      "id": "St\u00e9phane Mercurio",
-      "slug": "stephane-mercurio",
-      "name": "St\u00e9phane Mercurio",
-      "birthYear": 1963,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Une longue peine, comment \u00e7a se raconte ? C\u2019est \u00e9trange ce mot qui signifie punition et chagrin en m\u00eame temps. Ainsi s\u2019exprime Didier Ruiz lorsqu\u2019il entreprend la mise en sc\u00e8ne de son dernier spectacle mont\u00e9 avec d\u2019anciens d\u00e9tenus de longue peine. Dans le temps suspendu des r\u00e9p\u00e9titions on voit se transformer tous ces hommes \u2013 le metteur en sc\u00e8ne y compris. Le film raconte la prison, la fa\u00e7on dont elle grave dans les chairs des marques ind\u00e9l\u00e9biles et invisibles. Il saisit le travail rigoureux d\u2019un metteur en sc\u00e8ne avec ces com\u00e9diens \u00ab extraordinaires \u00bb. Et surtout il raconte un voyage, celui qui va permettre \u00e0 cette parole inconcevable de jaillir de l\u2019ombre pour traverser les murs."
-  }
+    "type": "Film",
+    "id": "FR2018_064",
+    "slug": "fr2018-064-apres-l-ombre",
+    "title": {
+        "native": "Apr\u00e8s l'ombre",
+        "english": "Stepping Out"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-03-28",
+        "year": 2018
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "St\u00e9phane Mercurio",
+            "slug": "stephane-mercurio",
+            "name": "St\u00e9phane Mercurio",
+            "birthYear": 1963,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Observational mode"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/68/226/188996/format_page/stepping-out.png",
+        "trailerUrl": "https://www.youtube.com/watch?v=U2yGJsSwtM4"
+    },
+    "synopsis": {
+        "native": "Une longue peine, comment \u00e7a se raconte ? C\u2019est \u00e9trange ce mot qui signifie punition et chagrin en m\u00eame temps. Ainsi s\u2019exprime Didier Ruiz lorsqu\u2019il entreprend la mise en sc\u00e8ne de son dernier spectacle mont\u00e9 avec d\u2019anciens d\u00e9tenus de longue peine. Dans le temps suspendu des r\u00e9p\u00e9titions on voit se transformer tous ces hommes \u2013 le metteur en sc\u00e8ne y compris. Le film raconte la prison, la fa\u00e7on dont elle grave dans les chairs des marques ind\u00e9l\u00e9biles et invisibles. Il saisit le travail rigoureux d\u2019un metteur en sc\u00e8ne avec ces com\u00e9diens \u00ab extraordinaires \u00bb. Et surtout il raconte un voyage, celui qui va permettre \u00e0 cette parole inconcevable de jaillir de l\u2019ombre pour traverser les murs.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Didier Ruiz",
+                "slug": "didier-ruiz",
+                "name": "Didier Ruiz",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "St\u00e9phane Mercurio",
+                "slug": "stephane-mercurio",
+                "name": "St\u00e9phane Mercurio",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "artistic creation"
+    ]
 }

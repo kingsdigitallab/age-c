@@ -1,76 +1,140 @@
 {
-  "id": "FR2019_127",
-  "type": "Film",
-  "slug": "fr2019-127-premier-de-la-classe",
-  "title": {
-    "native": "Premier de la classe",
-    "english": "Top of the Class"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-07-10",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2019_127",
+    "slug": "fr2019-127-premier-de-la-classe",
+    "title": {
+        "native": "Premier de la classe",
+        "english": "Top of the Class"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=TO0nKldHjOI",
-    "posterUrl": "https://medias.unifrance.org/medias/6/37/206086/format_page/premier-de-la-classe.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "high rank employment",
-    "parenthood",
-    "independent home",
-    "low rank employment",
-    "urban",
-    "education"
-  ],
-  "director": [
-    {
-      "id": "St\u00e9phane Ben Lahcene",
-      "slug": "stephane-ben-lahcene",
-      "name": "St\u00e9phane Ben Lahcene",
-      "birthYear": 1971,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2019_127_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "Black Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Pascal Nzonzi",
-        "slug": "pascal-nzonzi",
-        "name": "Pascal Nzonzi",
-        "birthYear": 1951.0,
-        "gender": "Male identifying",
-        "nationality": "Congo (the Democratic Republic of the)"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Abou, 14 ans, fait la fiert\u00e9 de son p\u00e8re. Contrairement \u00e0 ses 3 fr\u00e8res, il est \u00ab 1er de sa classe \u00bb. Enfin, c\u2019est ce qu\u2019il fait croire. En v\u00e9rit\u00e9, Abou est surtout le roi du mensonge et du bulletin truqu\u00e9 ! Quand arrive la premi\u00e8re r\u00e9union parents-profs, il va monter le plus gros mytho de sa vie : recruter des faux profs parmi ses connaissances du quartier pour faire face \u00e0 son vrai p\u00e8re, pendant que ses vrais profs rencontreront son faux p\u00e8re. Ca devrait \u00eatre facile... en th\u00e9orie !",
-    "english": "Abou, 13, is his father\u2019s pride and joy. Unlike his 3 brothers, he\u2019s \u00ab top of his class \u00bb. Well, that\u2019s what he pretends to be. Actually, Abou is more the king of lies and rigged report cards ! When the first parent-teacher conference comes up, he will stage the biggest lie of his life : hire fake teachers to meet his father, while his real teachers will meet his fake father. It should be easy... in theory !"
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-07-10",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "St\u00e9phane Ben Lahcene",
+            "slug": "stephane-ben-lahcene",
+            "name": "St\u00e9phane Ben Lahcene",
+            "birthYear": 1971,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/6/37/206086/format_page/premier-de-la-classe.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=TO0nKldHjOI"
+    },
+    "synopsis": {
+        "native": "Abou, 14 ans, fait la fiert\u00e9 de son p\u00e8re. Contrairement \u00e0 ses 3 fr\u00e8res, il est \u00ab 1er de sa classe \u00bb. Enfin, c\u2019est ce qu\u2019il fait croire. En v\u00e9rit\u00e9, Abou est surtout le roi du mensonge et du bulletin truqu\u00e9 ! Quand arrive la premi\u00e8re r\u00e9union parents-profs, il va monter le plus gros mytho de sa vie : recruter des faux profs parmi ses connaissances du quartier pour faire face \u00e0 son vrai p\u00e8re, pendant que ses vrais profs rencontreront son faux p\u00e8re. Ca devrait \u00eatre facile... en th\u00e9orie !",
+        "english": "Abou, 13, is his father\u2019s pride and joy. Unlike his 3 brothers, he\u2019s \u00ab top of his class \u00bb. Well, that\u2019s what he pretends to be. Actually, Abou is more the king of lies and rigged report cards ! When the first parent-teacher conference comes up, he will stage the biggest lie of his life : hire fake teachers to meet his father, while his real teachers will meet his fake father. It should be easy... in theory !"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2019_127_01",
+            "film": "FR2019_127",
+            "person": {
+                "id": "Pascal Nzonzi",
+                "slug": "pascal-nzonzi",
+                "name": "Pascal Nzonzi",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Congo (the Democratic Republic of the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "Black Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Denis Mpunga",
+                "slug": "denis-mpunga",
+                "name": "Denis Mpunga",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Congo (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Mich\u00e8le Laroque",
+                "slug": "michele-laroque",
+                "name": "Mich\u00e8le Laroque",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Pascal Nzonzi",
+                "slug": "pascal-nzonzi",
+                "name": "Pascal Nzonzi",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Congo (the Democratic Republic of the)"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Philippe Uchan",
+                "slug": "philippe-uchan",
+                "name": "Philippe Uchan",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "St\u00e9phane Ben Lahcene",
+                "slug": "stephane-ben-lahcene",
+                "name": "St\u00e9phane Ben Lahcene",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "parenthood",
+        "education",
+        "high rank employment",
+        "low rank employment",
+        "urban",
+        "independent home"
+    ]
 }

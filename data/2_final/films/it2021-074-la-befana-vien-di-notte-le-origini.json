@@ -1,70 +1,122 @@
 {
-  "id": "IT2021_074",
-  "type": "Film",
-  "slug": "it2021-074-la-befana-vien-di-notte-le-origini",
-  "title": {
-    "native": "La Befana vien di notte: le origini",
-    "english": "The Legend of the Christmas Witch 2: The Origins"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-12-30",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=QC_NIMeFAh0",
-    "posterUrl": "https://www.imdb.com/title/tt13920702/mediaviewer/rm1215160833/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Fantasy",
-    "Children's Film"
-  ],
-  "tags": [
-    "grayface",
-    "festivities"
-  ],
-  "director": [
-    {
-      "id": "Paola Randi",
-      "slug": "paola-randi",
-      "name": "Paola Randi",
-      "birthYear": 1970,
-      "gender": "Female identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2021_074_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Monica Bellucci",
-        "slug": "monica-bellucci",
-        "name": "Monica Bellucci",
-        "birthYear": 1964.0,
-        "gender": "Female identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Paola di giorno \u00e8 una comunissima maestra di scuola elementare ma di notte si trasforma nella... Befana! A ridosso dell\u2019Epifania, viene rapita da un misterioso produttore di giocattoli. Il suo nome \u00e8 Mr Johnny e ha un unico obiettivo: vendicarsi di colei che vent\u2019anni prima si \u00e8 dimenticata di lui rovinandogli l\u2019infanzia. Un gruppo di sei giovani alunni, dopo aver scoperto la doppia identit\u00e0 della loro maestra e quella del suo malvagio rapitore, decidono di affrontare, a bordo delle loro biciclette, una straordinaria avventura che li cambier\u00e0 per sempre. Riusciranno a salvare la Befana?",
-    "english": "Between magical learnings, fast-paced pursuits, incredible transformations and a whole lot of trouble, Paola discovers that destiny has something very special in store for her."
-  }
+    "type": "Film",
+    "id": "IT2021_074",
+    "slug": "it2021-074-la-befana-vien-di-notte-le-origini",
+    "title": {
+        "native": "La Befana vien di notte: le origini",
+        "english": "The Legend of the Christmas Witch 2: The Origins"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-12-30",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Paola Randi",
+            "slug": "paola-randi",
+            "name": "Paola Randi",
+            "birthYear": 1970,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Fantasy",
+        "Children's Film",
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt13920702/mediaviewer/rm1215160833/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=QC_NIMeFAh0"
+    },
+    "synopsis": {
+        "native": "Paola di giorno \u00e8 una comunissima maestra di scuola elementare ma di notte si trasforma nella... Befana! A ridosso dell\u2019Epifania, viene rapita da un misterioso produttore di giocattoli. Il suo nome \u00e8 Mr Johnny e ha un unico obiettivo: vendicarsi di colei che vent\u2019anni prima si \u00e8 dimenticata di lui rovinandogli l\u2019infanzia. Un gruppo di sei giovani alunni, dopo aver scoperto la doppia identit\u00e0 della loro maestra e quella del suo malvagio rapitore, decidono di affrontare, a bordo delle loro biciclette, una straordinaria avventura che li cambier\u00e0 per sempre. Riusciranno a salvare la Befana?",
+        "english": "Between magical learnings, fast-paced pursuits, incredible transformations and a whole lot of trouble, Paola discovers that destiny has something very special in store for her."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2021_074_01",
+            "film": "IT2021_074",
+            "person": {
+                "id": "Monica Bellucci",
+                "slug": "monica-bellucci",
+                "name": "Monica Bellucci",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alessandro Haber",
+                "slug": "alessandro-haber",
+                "name": "Alessandro Haber",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Corrado Guzzanti",
+                "slug": "corrado-guzzanti",
+                "name": "Corrado Guzzanti",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Monica Bellucci",
+                "slug": "monica-bellucci",
+                "name": "Monica Bellucci",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Paola Randi",
+                "slug": "paola-randi",
+                "name": "Paola Randi",
+                "birthYear": 1970,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "grayface",
+        "festivities"
+    ]
 }

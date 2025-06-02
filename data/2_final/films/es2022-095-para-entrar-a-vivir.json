@@ -1,71 +1,105 @@
 {
-  "id": "ES2022_095",
-  "type": "Film",
-  "slug": "es2022-095-para-entrar-a-vivir",
-  "title": {
-    "native": "Para entrar a vivir"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-11-05",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=894676",
-    "posterUrl": "https://www.imdb.com/title/tt16270906/mediaviewer/rm143464449/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Fantasy",
-    "Drama"
-  ],
-  "tags": [
-    "low rank employment",
-    "gentrification",
-    "supernatural entity",
-    "independent home"
-  ],
-  "director": [
-    {
-      "id": "Pablo Arag\u00fc\u00e9s",
-      "slug": "pablo-aragues",
-      "name": "Pablo Arag\u00fc\u00e9s",
-      "birthYear": 1982,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2022_095_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Luisa Gavasa",
-        "slug": "luisa-gavasa",
-        "name": "Luisa Gavasa",
-        "birthYear": 1951.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Ana y Maxi son una pareja de treinta\u00f1eros que acaban de encontrar la casa de sus sue\u00f1os. Todo es perfecto hasta que se dan cuenta de que es a\u00fan mejor: la casa les da todo lo que piden.",
-    "english": "Ana and Maxi are a couple in their 30's who have just found the house of their dreams. Everything is perfect until they realize that it is even better: the house gives them everything they ask for. But, what will happen if they stop doing it?"
-  }
+    "type": "Film",
+    "id": "ES2022_095",
+    "slug": "es2022-095-para-entrar-a-vivir",
+    "title": {
+        "native": "Para entrar a vivir",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-11-05",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Pablo Arag\u00fc\u00e9s",
+            "slug": "pablo-aragues",
+            "name": "Pablo Arag\u00fc\u00e9s",
+            "birthYear": 1982,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        },
+        "Marta Cabrera"
+    ],
+    "genre": [
+        "Comedy",
+        "Drama",
+        "Fantasy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt16270906/mediaviewer/rm143464449/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=894676"
+    },
+    "synopsis": {
+        "native": "Ana y Maxi son una pareja de treinta\u00f1eros que acaban de encontrar la casa de sus sue\u00f1os. Todo es perfecto hasta que se dan cuenta de que es a\u00fan mejor: la casa les da todo lo que piden.",
+        "english": "Ana and Maxi are a couple in their 30's who have just found the house of their dreams. Everything is perfect until they realize that it is even better: the house gives them everything they ask for. But, what will happen if they stop doing it?"
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2022_095_01",
+            "film": "ES2022_095",
+            "person": {
+                "id": "Luisa Gavasa",
+                "slug": "luisa-gavasa",
+                "name": "Luisa Gavasa",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Luisa Gavasa",
+                "slug": "luisa-gavasa",
+                "name": "Luisa Gavasa",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": "Marta Cabrera",
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Pablo Arag\u00fc\u00e9s",
+                "slug": "pablo-aragues",
+                "name": "Pablo Arag\u00fc\u00e9s",
+                "birthYear": 1982,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "low rank employment",
+        "independent home",
+        "supernatural entity",
+        "gentrification"
+    ]
 }

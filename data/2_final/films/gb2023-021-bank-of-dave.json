@@ -1,119 +1,175 @@
 {
-  "id": "GB2023_021",
-  "type": "Film",
-  "slug": "gb2023-021-bank-of-dave",
-  "title": {
-    "native": "Bank of Dave"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-01-15",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt14308636/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_bank%2520of%2520dave",
-    "posterUrl": "https://www.imdb.com/title/tt14308636/mediaviewer/rm2839947009/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Courtroom Drama",
-    "Romance",
-    "Biopic"
-  ],
-  "tags": [
-    "class solidarity",
-    "wealth",
-    "high rank employment",
-    "uperior-employee relationship",
-    "national identity",
-    "power",
-    "cultural memory",
-    "state institutions",
-    "self-employment",
-    "class conflict",
-    "homosociality",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Chris Foggin",
-      "slug": "chris-foggin",
-      "name": "Chris Foggin",
-      "birthYear": 1985,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2023_021_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Angus Wright",
-        "slug": "angus-wright",
-        "name": "Angus Wright",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "GB2023_021",
+    "slug": "gb2023-021-bank-of-dave",
+    "title": {
+        "native": "Bank of Dave",
+        "english": ""
     },
-    {
-      "id": "GB2023_021_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Hugh Bonneville",
-        "slug": "hugh-bonneville",
-        "name": "Hugh Bonneville",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2023-01-15",
+        "year": 2023
     },
-    {
-      "id": "GB2023_021_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Paul Kaye",
-        "slug": "paul-kaye",
-        "name": "Paul Kaye",
-        "birthYear": 1965.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Based on the true-life experiences of Dave Fishwick; 'Bank of Dave' tells the story of how a working class Burnley man and self-made millionaire fought to set up a community bank."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Chris Foggin",
+            "slug": "chris-foggin",
+            "name": "Chris Foggin",
+            "birthYear": 1985,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Biopic",
+        "Romance",
+        "Courtroom Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt14308636/mediaviewer/rm2839947009/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt14308636/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_bank%2520of%2520dave"
+    },
+    "synopsis": {
+        "native": "Based on the true-life experiences of Dave Fishwick; 'Bank of Dave' tells the story of how a working class Burnley man and self-made millionaire fought to set up a community bank.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2023_021_01",
+            "film": "GB2023_021",
+            "person": {
+                "id": "Paul Kaye",
+                "slug": "paul-kaye",
+                "name": "Paul Kaye",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2023_021_02",
+            "film": "GB2023_021",
+            "person": {
+                "id": "Angus Wright",
+                "slug": "angus-wright",
+                "name": "Angus Wright",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2023_021_03",
+            "film": "GB2023_021",
+            "person": {
+                "id": "Hugh Bonneville",
+                "slug": "hugh-bonneville",
+                "name": "Hugh Bonneville",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Angus Wright",
+                "slug": "angus-wright",
+                "name": "Angus Wright",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Chris Foggin",
+                "slug": "chris-foggin",
+                "name": "Chris Foggin",
+                "birthYear": 1985,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Hugh Bonneville",
+                "slug": "hugh-bonneville",
+                "name": "Hugh Bonneville",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Paul Kaye",
+                "slug": "paul-kaye",
+                "name": "Paul Kaye",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "uperior-employee relationship",
+        "state institutions",
+        "rural",
+        "power",
+        "class solidarity",
+        "class conflict",
+        "homosociality",
+        "cultural memory",
+        "wealth",
+        "high rank employment",
+        "self-employment",
+        "national identity"
+    ]
 }

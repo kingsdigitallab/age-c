@@ -1,29 +1,39 @@
 {
-  "id": "Oliver Parker",
-  "type": "Biography",
-  "slug": "oliver-parker",
-  "name": "Oliver Parker",
-  "birthYear": 1960,
-  "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "GB2023_005",
-      "production": {
-        "country": "Sweden",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "gb2023-005-the-great-escaper",
-      "tags": "homosociality",
-      "title": {
-        "native": "The Great Escaper"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Oliver Parker",
+    "slug": "oliver-parker",
+    "name": "Oliver Parker",
+    "birthYear": 1960,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "GB2023_005",
+                "slug": "gb2023-005-the-great-escaper",
+                "title": {
+                    "native": "The Great Escaper",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-10-06",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Sweden",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

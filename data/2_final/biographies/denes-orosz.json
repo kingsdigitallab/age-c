@@ -1,30 +1,35 @@
 {
-  "id": "D\u00e9nes Orosz",
-  "type": "Biography",
-  "slug": "denes-orosz",
-  "name": "D\u00e9nes Orosz",
-  "birthYear": 1977,
-  "nationality": "Hungary",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Romance",
-      "id": "HU2019_002",
-      "production": {
-        "country": "Hungary",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "hu2019-002-seveled",
-      "tags": "medical treatment",
-      "title": {
-        "english": "Neither with You",
-        "native": "Seveled"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "D\u00e9nes Orosz",
+    "slug": "denes-orosz",
+    "name": "D\u00e9nes Orosz",
+    "birthYear": 1977,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Hungary",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "HU2019_002",
+                "slug": "hu2019-002-seveled",
+                "title": {
+                    "native": "Seveled",
+                    "english": "Neither with You"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-12-05",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

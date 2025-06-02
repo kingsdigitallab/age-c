@@ -1,48 +1,105 @@
 {
-  "id": "IT2022_044",
-  "type": "Film",
-  "slug": "it2022-044-la-california",
-  "title": {
-    "native": "La California"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-11-24",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=KRASdAbiLBU",
-    "posterUrl": "https://www.imdb.com/title/tt3485924/mediaviewer/rm2047687169/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Drama"
-  ],
-  "tags": [
-    "mentorship",
-    "grandparenthood",
-    "intergenerational conflict",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Cinzia Bomoll",
-      "slug": "cinzia-bomoll",
-      "name": "Cinzia Bomoll",
-      "birthYear": 1979,
-      "gender": "Female identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "synopsis": {
-    "native": "Per diventare la donna che vorresti, qualche volta devi metterti nei panni del tuo perfetto opposto. Anche se \u00e8 la persona che hai pi\u00f9 cara al mondo, dovrai sfidarla. Se poi per cornice c'\u00e8 una provincia chiamata per ironia della sorte La California, facile che i suoi abitanti \"di frontiera\" si intreccino con la tua vita, e te la salvino.",
-    "english": "Two young twins grow up in the Emilia province, expressing the two faces of an era and the adolescent nature that clashes with traditions. One of them will witness a murder and how a man of power is threatening the destruction of the ecosystem. Unite for the first time will fight to defeat a great danger to the community and to assert the best of themselves."
-  }
+    "type": "Film",
+    "id": "IT2022_044",
+    "slug": "it2022-044-la-california",
+    "title": {
+        "native": "La California",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-11-24",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Cinzia Bomoll",
+            "slug": "cinzia-bomoll",
+            "name": "Cinzia Bomoll",
+            "birthYear": 1979,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt3485924/mediaviewer/rm2047687169/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=KRASdAbiLBU"
+    },
+    "synopsis": {
+        "native": "Per diventare la donna che vorresti, qualche volta devi metterti nei panni del tuo perfetto opposto. Anche se \u00e8 la persona che hai pi\u00f9 cara al mondo, dovrai sfidarla. Se poi per cornice c'\u00e8 una provincia chiamata per ironia della sorte La California, facile che i suoi abitanti \"di frontiera\" si intreccino con la tua vita, e te la salvino.",
+        "english": "Two young twins grow up in the Emilia province, expressing the two faces of an era and the adolescent nature that clashes with traditions. One of them will witness a murder and how a man of power is threatening the destruction of the ecosystem. Unite for the first time will fight to defeat a great danger to the community and to assert the best of themselves."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Andrea Roncato",
+                "slug": "andrea-roncato",
+                "name": "Andrea Roncato",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Angela Baraldi",
+                "slug": "angela-baraldi",
+                "name": "Angela Baraldi",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Cinzia Bomoll",
+                "slug": "cinzia-bomoll",
+                "name": "Cinzia Bomoll",
+                "birthYear": 1979,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Piera Degli Esposti",
+                "slug": "piera-degli-esposti",
+                "name": "Piera Degli Esposti",
+                "birthYear": 1938,
+                "deathYear": 2021,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Narrator/voice over"
+        },
+        {
+            "person": "Stefano Bicocchi",
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "rural",
+        "intergenerational conflict",
+        "grandparenthood",
+        "mentorship"
+    ]
 }

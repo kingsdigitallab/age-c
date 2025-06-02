@@ -1,47 +1,57 @@
 {
-  "id": "Chema de la Pe\u00f1a",
-  "type": "Biography",
-  "slug": "chema-de-la-pena",
-  "name": "Chema de la Pe\u00f1a",
-  "birthYear": 1964,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Expository mode",
-      "id": "ES2019_027",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "es2019-027-mario-y-los-perros",
-      "tags": "cultural memory",
-      "title": {
-        "native": "Mario Y Los Perros"
-      }
-    },
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Participatory mode",
-      "id": "ES2022_093",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "es2022-093-me-cuesta-hablar-de-mi",
-      "tags": "personal memory",
-      "title": {
-        "native": "Me cuesta hablar de m\u00ed"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Chema de la Pe\u00f1a",
+    "slug": "chema-de-la-pena",
+    "name": "Chema de la Pe\u00f1a",
+    "birthYear": 1964,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2019_027",
+                "slug": "es2019-027-mario-y-los-perros",
+                "title": {
+                    "native": "Mario Y Los Perros",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-06-28",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "ES2022_093",
+                "slug": "es2022-093-me-cuesta-hablar-de-mi",
+                "title": {
+                    "native": "Me cuesta hablar de m\u00ed",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-02-28",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,49 +1,57 @@
 {
-  "id": "Edoardo Falcone",
-  "type": "Biography",
-  "slug": "edoardo-falcone",
-  "name": "Edoardo Falcone",
-  "birthYear": 1968,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "IT2021_047",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "it2021-047-io-sono-babbo-natale",
-      "tags": "festivities",
-      "title": {
-        "english": "I Am Santa Claus",
-        "native": "Io sono Babbo Natale"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Fantasy",
-      "id": "IT2022_012",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "it2022-012-il-principe-di-roma",
-      "tags": "wealth",
-      "title": {
-        "english": "The Prince of Rome",
-        "native": "Il Principe di Roma"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Edoardo Falcone",
+    "slug": "edoardo-falcone",
+    "name": "Edoardo Falcone",
+    "birthYear": 1968,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2021_047",
+                "slug": "it2021-047-io-sono-babbo-natale",
+                "title": {
+                    "native": "Io sono Babbo Natale",
+                    "english": "I Am Santa Claus"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-11-03",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2022_012",
+                "slug": "it2022-012-il-principe-di-roma",
+                "title": {
+                    "native": "Il Principe di Roma",
+                    "english": "The Prince of Rome"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-11-17",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

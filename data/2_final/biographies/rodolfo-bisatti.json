@@ -1,30 +1,35 @@
 {
-  "id": "Rodolfo Bisatti",
-  "type": "Biography",
-  "slug": "rodolfo-bisatti",
-  "name": "Rodolfo Bisatti",
-  "birthYear": 1960,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Drama",
-      "id": "IT2020_060",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "VOD release",
-        "year": 2020
-      },
-      "slug": "it2020-060-al-dio-ignoto",
-      "tags": "caregiving",
-      "title": {
-        "english": "To the Unknown God",
-        "native": "Al Dio ignoto"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Rodolfo Bisatti",
+    "slug": "rodolfo-bisatti",
+    "name": "Rodolfo Bisatti",
+    "birthYear": 1960,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2020_060",
+                "slug": "it2020-060-al-dio-ignoto",
+                "title": {
+                    "native": "Al Dio ignoto",
+                    "english": "To the Unknown God"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-05-01",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

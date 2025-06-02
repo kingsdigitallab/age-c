@@ -1,73 +1,125 @@
 {
-  "id": "FR2022_005",
-  "type": "Film",
-  "slug": "fr2022-005-ouistreham",
-  "title": {
-    "native": "Ouistreham",
-    "english": "Between Two Worlds"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-01-12",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=-Fx-uGqFJkA",
-    "posterUrl": "https://medias.unifrance.org/medias/162/176/241826/format_page/ouistreham.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "precarity",
-    "class solidarity",
-    "artistic creation",
-    "low rank employment",
-    "self-employment",
-    "urban",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Emmanuel Carr\u00e8re",
-      "slug": "emmanuel-carrere",
-      "name": "Emmanuel Carr\u00e8re",
-      "birthYear": 1957,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2022_005_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Juliette Binoche",
-        "slug": "juliette-binoche",
-        "name": "Juliette Binoche",
-        "birthYear": 1964.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Marianne Winckler, \u00e9crivaine reconnue, entreprend un livre sur le travail pr\u00e9caire. Elle s\u2019installe pr\u00e8s de Caen et, sans r\u00e9v\u00e9ler son identit\u00e9, rejoint une \u00e9quipe de femmes de m\u00e9nage. Confront\u00e9e \u00e0 la fragilit\u00e9 \u00e9conomique et \u00e0 l\u2019invisibilit\u00e9 sociale, elle d\u00e9couvre aussi l\u2019entraide et la solidarit\u00e9 qui unissent ces travailleuses de l\u2019ombre.",
-    "english": "Marianne Winckler, a well-known author, goes to live in northern France to research for her new book on the subject of job insecurity. Without revealing her true identity, she gets hired as a cleaner, working with a group of other women."
-  }
+    "type": "Film",
+    "id": "FR2022_005",
+    "slug": "fr2022-005-ouistreham",
+    "title": {
+        "native": "Ouistreham",
+        "english": "Between Two Worlds"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-01-12",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Emmanuel Carr\u00e8re",
+            "slug": "emmanuel-carrere",
+            "name": "Emmanuel Carr\u00e8re",
+            "birthYear": 1957,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/162/176/241826/format_page/ouistreham.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=-Fx-uGqFJkA"
+    },
+    "synopsis": {
+        "native": "Marianne Winckler, \u00e9crivaine reconnue, entreprend un livre sur le travail pr\u00e9caire. Elle s\u2019installe pr\u00e8s de Caen et, sans r\u00e9v\u00e9ler son identit\u00e9, rejoint une \u00e9quipe de femmes de m\u00e9nage. Confront\u00e9e \u00e0 la fragilit\u00e9 \u00e9conomique et \u00e0 l\u2019invisibilit\u00e9 sociale, elle d\u00e9couvre aussi l\u2019entraide et la solidarit\u00e9 qui unissent ces travailleuses de l\u2019ombre.",
+        "english": "Marianne Winckler, a well-known author, goes to live in northern France to research for her new book on the subject of job insecurity. Without revealing her true identity, she gets hired as a cleaner, working with a group of other women."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_005_01",
+            "film": "FR2022_005",
+            "person": {
+                "id": "Juliette Binoche",
+                "slug": "juliette-binoche",
+                "name": "Juliette Binoche",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Emmanuel Carr\u00e8re",
+                "slug": "emmanuel-carrere",
+                "name": "Emmanuel Carr\u00e8re",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jean-Paul Hirsch",
+                "slug": "jean-paul-hirsch",
+                "name": "Jean-Paul Hirsch",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Juliette Binoche",
+                "slug": "juliette-binoche",
+                "name": "Juliette Binoche",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Louis-Do de Lencquesaing",
+                "slug": "louis-do-de-lencquesaing",
+                "name": "Louis-Do de Lencquesaing",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "self-employment",
+        "artistic creation",
+        "low rank employment",
+        "precarity",
+        "superior-employee relationship",
+        "class solidarity",
+        "urban"
+    ]
 }

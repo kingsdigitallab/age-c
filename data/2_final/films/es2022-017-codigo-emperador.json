@@ -1,102 +1,143 @@
 {
-  "id": "ES2022_017",
-  "type": "Film",
-  "slug": "es2022-017-codigo-emperador",
-  "title": {
-    "native": "C\u00f3digo Emperador",
-    "english": "Code Name: Emperor"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-03-18",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "ES2022_017",
+    "slug": "es2022-017-codigo-emperador",
+    "title": {
+        "native": "C\u00f3digo Emperador",
+        "english": "Code Name: Emperor"
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt13660916/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_C%25C3%25B3digo%2520Emperador",
-    "posterUrl": "https://www.imdb.com/title/tt13660916/mediaviewer/rm1351871489/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Drama"
-  ],
-  "tags": [
-    "high rank employment",
-    "corruption",
-    "professional politics",
-    "national identity",
-    "power",
-    "cultural memory",
-    "state institutions",
-    "urban",
-    "homosociality",
-    "abuse",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Jorge Coira",
-      "slug": "jorge-coira",
-      "name": "Jorge Coira",
-      "birthYear": 1971,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2022_017_02",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Miguel Rell\u00e1n",
-        "slug": "miguel-rellan",
-        "name": "Miguel Rell\u00e1n",
-        "birthYear": 1943.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2022-03-18",
+        "year": 2022
     },
-    {
-      "id": "ES2022_017_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Santi Prego",
-        "slug": "santi-prego",
-        "name": "Santi Prego",
-        "birthYear": 1962.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Juan trabaja para los servicios secretos; con el fin de tener acceso al chalet de una pareja implicada en el tr\u00e1fico de armas se acerca a Wendy, la asistenta filipina que vive en la casa y establece con ella una relaci\u00f3n que se ir\u00e1 volviendo cada vez m\u00e1s compleja. En paralelo, Juan realiza otros trabajos \u201cno oficiales\u201d para proteger los intereses de las \u00e9lites m\u00e1s poderosas del pa\u00eds, que ahora han puesto sus ojos en \u00c1ngel Gonz\u00e1lez, un pol\u00edtico aparentemente anodino cuyos trapos sucios deber\u00e1 buscar o \u201cinventar\u201d.",
-    "english": "Follows Juan, an agent working for the intelligence services, who also reports to a parallel unit involved in illegal activities."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Jorge Coira",
+            "slug": "jorge-coira",
+            "name": "Jorge Coira",
+            "birthYear": 1971,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt13660916/mediaviewer/rm1351871489/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt13660916/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_C%25C3%25B3digo%2520Emperador"
+    },
+    "synopsis": {
+        "native": "Juan trabaja para los servicios secretos; con el fin de tener acceso al chalet de una pareja implicada en el tr\u00e1fico de armas se acerca a Wendy, la asistenta filipina que vive en la casa y establece con ella una relaci\u00f3n que se ir\u00e1 volviendo cada vez m\u00e1s compleja. En paralelo, Juan realiza otros trabajos \u201cno oficiales\u201d para proteger los intereses de las \u00e9lites m\u00e1s poderosas del pa\u00eds, que ahora han puesto sus ojos en \u00c1ngel Gonz\u00e1lez, un pol\u00edtico aparentemente anodino cuyos trapos sucios deber\u00e1 buscar o \u201cinventar\u201d.",
+        "english": "Follows Juan, an agent working for the intelligence services, who also reports to a parallel unit involved in illegal activities."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2022_017_01",
+            "film": "ES2022_017",
+            "person": {
+                "id": "Santi Prego",
+                "slug": "santi-prego",
+                "name": "Santi Prego",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2022_017_02",
+            "film": "ES2022_017",
+            "person": {
+                "id": "Miguel Rell\u00e1n",
+                "slug": "miguel-rellan",
+                "name": "Miguel Rell\u00e1n",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Jorge Coira",
+                "slug": "jorge-coira",
+                "name": "Jorge Coira",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Miguel Rell\u00e1n",
+                "slug": "miguel-rellan",
+                "name": "Miguel Rell\u00e1n",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Santi Prego",
+                "slug": "santi-prego",
+                "name": "Santi Prego",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "professional politics",
+        "power",
+        "state institutions",
+        "corruption",
+        "homosociality",
+        "superior-employee relationship",
+        "abuse",
+        "cultural memory",
+        "urban",
+        "high rank employment",
+        "national identity"
+    ]
 }

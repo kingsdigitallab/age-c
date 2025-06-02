@@ -1,107 +1,165 @@
 {
-  "id": "ES2018_034",
-  "type": "Film",
-  "slug": "es2018-034-sin-novedad",
-  "title": {
-    "native": "Sin novedad"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2010-12-18",
-    "year": 2010
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "posterUrl": "https://www.imdb.com/title/tt7123960/mediaviewer/rm2358435073/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "high rank employment",
-    "fatherhood",
-    "urban",
-    "separation",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Miguel Berzal de Miguel",
-      "slug": "miguel-berzal-de-miguel",
-      "name": "Miguel Berzal de Miguel",
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2018_034_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Fernando Guill\u00e9n Cuervo",
-        "slug": "fernando-guillen-cuervo",
-        "name": "Fernando Guill\u00e9n Cuervo",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "ES2018_034",
+    "slug": "es2018-034-sin-novedad",
+    "title": {
+        "native": "Sin novedad",
+        "english": ""
     },
-    {
-      "id": "ES2018_034_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Gonzalo de Castro",
-        "slug": "gonzalo-de-castro",
-        "name": "Gonzalo de Castro",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2010-12-18",
+        "year": 2010
     },
-    {
-      "id": "ES2018_034_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Lola Casamayor",
-        "slug": "lola-casamayor",
-        "name": "Lola Casamayor",
-        "birthYear": 1958.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Lola, vive sola con su hijo Jorge cerca de un pol\u00edgono industrial en Madrid. Trabaja muchas horas para un jefe taca\u00f1o y estricto en una empresa de trasteros. Una noche, Jorge confiesa a su madre que ha empezado a entablar relaci\u00f3n con su padre, Marcos, que les abandon\u00f3 hace muchos a\u00f1os."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Miguel Berzal de Miguel",
+            "slug": "miguel-berzal-de-miguel",
+            "name": "Miguel Berzal de Miguel",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt7123960/mediaviewer/rm2358435073/?ref_=tt_ov_i",
+        "trailerUrl": ""
+    },
+    "synopsis": {
+        "native": "Lola, vive sola con su hijo Jorge cerca de un pol\u00edgono industrial en Madrid. Trabaja muchas horas para un jefe taca\u00f1o y estricto en una empresa de trasteros. Una noche, Jorge confiesa a su madre que ha empezado a entablar relaci\u00f3n con su padre, Marcos, que les abandon\u00f3 hace muchos a\u00f1os.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2018_034_01",
+            "film": "ES2018_034",
+            "person": {
+                "id": "Fernando Guill\u00e9n Cuervo",
+                "slug": "fernando-guillen-cuervo",
+                "name": "Fernando Guill\u00e9n Cuervo",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2018_034_02",
+            "film": "ES2018_034",
+            "person": {
+                "id": "Gonzalo de Castro",
+                "slug": "gonzalo-de-castro",
+                "name": "Gonzalo de Castro",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Unknown",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2018_034_03",
+            "film": "ES2018_034",
+            "person": {
+                "id": "Lola Casamayor",
+                "slug": "lola-casamayor",
+                "name": "Lola Casamayor",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Fernando Guill\u00e9n Cuervo",
+                "slug": "fernando-guillen-cuervo",
+                "name": "Fernando Guill\u00e9n Cuervo",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Gonzalo de Castro",
+                "slug": "gonzalo-de-castro",
+                "name": "Gonzalo de Castro",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Lola Casamayor",
+                "slug": "lola-casamayor",
+                "name": "Lola Casamayor",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Miguel Berzal de Miguel",
+                "slug": "miguel-berzal-de-miguel",
+                "name": "Miguel Berzal de Miguel",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "fatherhood",
+        "separation",
+        "superior-employee relationship",
+        "high rank employment",
+        "urban"
+    ]
 }

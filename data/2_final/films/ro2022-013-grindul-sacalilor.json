@@ -1,70 +1,100 @@
 {
-  "id": "RO2022_013",
-  "type": "Film",
-  "slug": "ro2022-013-grindul-sacalilor",
-  "title": {
-    "native": "Grindul \u0219acalilor"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-05-09",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Romania",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.cineghid.ro/grindul-sacalilor-wetland-of-the-jackals-trailer/",
-    "posterUrl": "https://www.cinemagia.ro/filme/grindul-sacalilor-3187445/postere/4952307/#gallery"
-  },
-  "genre": [
-    "Comedy",
-    "Road Movie",
-    "Romance",
-    "Drama"
-  ],
-  "tags": [
-    "pilgrimage",
-    "natural",
-    "search for meaning"
-  ],
-  "director": [
-    {
-      "id": "Nap Toader",
-      "slug": "nap-toader",
-      "name": "Nap Toader",
-      "birthYear": 1969,
-      "gender": "Male identifying",
-      "nationality": "Romania"
-    }
-  ],
-  "character": [
-    {
-      "id": "RO2022_013_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Eastern European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Gabriel Spahiu",
-        "slug": "gabriel-spahiu",
-        "name": "Gabriel Spahiu",
-        "birthYear": 1968.0,
-        "gender": "Male identifying",
-        "nationality": "Romania"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Toni \u0219i Simina sunt dou\u0103 suflete singuratice, aflate pe drum, care se \u00eent\u00e2lnesc \u00eent\u00e2mpl\u0103tor \u00een parcarea unui supermarket. Se plac imediat \u0219i decid s\u0103-\u0219i continue \u00eempreun\u0103 c\u0103l\u0103toria."
-  }
+    "type": "Film",
+    "id": "RO2022_013",
+    "slug": "ro2022-013-grindul-sacalilor",
+    "title": {
+        "native": "Grindul \u0219acalilor",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-05-09",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Nap Toader",
+            "slug": "nap-toader",
+            "name": "Nap Toader",
+            "birthYear": 1969,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Romania"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Drama",
+        "Romance",
+        "Road Movie"
+    ],
+    "media": {
+        "posterUrl": "https://www.cinemagia.ro/filme/grindul-sacalilor-3187445/postere/4952307/#gallery",
+        "trailerUrl": "https://www.cineghid.ro/grindul-sacalilor-wetland-of-the-jackals-trailer/"
+    },
+    "synopsis": {
+        "native": "Toni \u0219i Simina sunt dou\u0103 suflete singuratice, aflate pe drum, care se \u00eent\u00e2lnesc \u00eent\u00e2mpl\u0103tor \u00een parcarea unui supermarket. Se plac imediat \u0219i decid s\u0103-\u0219i continue \u00eempreun\u0103 c\u0103l\u0103toria.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Romania",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "RO2022_013_01",
+            "film": "RO2022_013",
+            "person": {
+                "id": "Gabriel Spahiu",
+                "slug": "gabriel-spahiu",
+                "name": "Gabriel Spahiu",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Eastern European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Gabriel Spahiu",
+                "slug": "gabriel-spahiu",
+                "name": "Gabriel Spahiu",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Nap Toader",
+                "slug": "nap-toader",
+                "name": "Nap Toader",
+                "birthYear": 1969,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "search for meaning",
+        "natural",
+        "pilgrimage"
+    ]
 }

@@ -1,30 +1,35 @@
 {
-  "id": "Tedy Necula",
-  "type": "Biography",
-  "slug": "tedy-necula",
-  "name": "Tedy Necula",
-  "birthYear": 1989,
-  "nationality": "Romania",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Multi-protagonist film",
-      "id": "RO2018_004",
-      "production": {
-        "country": "Romania",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "ro2018-004-coboram-la-prima",
-      "tags": "physical illness",
-      "title": {
-        "english": "Beside Me",
-        "native": "Cobor\u00e2m la prima"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Tedy Necula",
+    "slug": "tedy-necula",
+    "name": "Tedy Necula",
+    "birthYear": 1989,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Romania",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "RO2018_004",
+                "slug": "ro2018-004-coboram-la-prima",
+                "title": {
+                    "native": "Cobor\u00e2m la prima",
+                    "english": "Beside Me"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-10-26",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

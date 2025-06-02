@@ -1,72 +1,159 @@
 {
-  "id": "DE2020_010",
-  "type": "Film",
-  "slug": "de2020-010-roland-rebers-todesrevue",
-  "title": {
-    "native": "Roland Rebers Todesrevue",
-    "english": "Roland Rebers Todesrevue"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-01-23",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=bbj7hH4NrcI&ab_channel=kinofilme",
-    "posterUrl": "https://www.imdb.com/title/tt11143286/mediaviewer/rm1250659841/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Experimental film ",
-    "Musical",
-    "Fantasy"
-  ],
-  "tags": [
-    "assisted death",
-    "artistic creation",
-    "de-ageing"
-  ],
-  "director": [
-    {
-      "id": "Roland Reber",
-      "slug": "roland-reber",
-      "name": "Roland Reber",
-      "birthYear": 1954,
-      "deathYear": 2022,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "character": [
-    {
-      "id": "DE2020_010_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Eisi Gulp",
-        "slug": "eisi-gulp",
-        "name": "Eisi Gulp",
-        "birthYear": 1955.0,
-        "gender": "Female identifying",
-        "nationality": "Germany"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Bitterb\u00f6se und schwarzhumorige Satire basierend auf einem Theaterst\u00fcck, in der sich in verschiedenen Handlungsstr\u00e4ngen die Leben der unterschiedlichsten Menschen kreuzen: Eine runierte Liebesbeziehung stimmt traurig, ein alter Mann will nicht mehr atmen und bittet verzweifelt um Sterbehilfe, in einer Talkshow werden die teilnehmenden Kandidaten wie bei einem Todeskult f\u00fcr ein bisschen Applaus dem Publikum geopfert, eine oberfl\u00e4chliche und selbstverliebte T\u00e4nzerin strebt stets und auch entgegen ihrer Gesundheit nach Selbstoptimierung, kann sich dem unausweichlichen Altern aber dennoch nicht entziehen, und ein Mensch mit Maske will um jeden Preis ber\u00fchmt werden. Inmitten dieser Charaktere geht ein Leichenwagenfahrer (Eisi Gulp) unbeeindruckt seiner Arbeit nach und philosophiert frei von der Leber weg \u00fcber das Leben und ganz besonders den Tod. Das zentrale Anliegen f\u00fcr ihn ist die W\u00fcrde des Menschen.",
-    "english": "What is life? Is it the yearning of a lover, the fear of growing old, the rebellious struggle for a dignified death or the hunt for the most clicks? Is it maybe just a show?"
-  }
+    "type": "Film",
+    "id": "DE2020_010",
+    "slug": "de2020-010-roland-rebers-todesrevue",
+    "title": {
+        "native": "Roland Rebers Todesrevue",
+        "english": "Roland Rebers Todesrevue"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-01-23",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Roland Reber",
+            "slug": "roland-reber",
+            "name": "Roland Reber",
+            "birthYear": 1954,
+            "deathYear": 2022,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Musical",
+        "Fantasy",
+        "Experimental film "
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt11143286/mediaviewer/rm1250659841/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=bbj7hH4NrcI&ab_channel=kinofilme"
+    },
+    "synopsis": {
+        "native": "Bitterb\u00f6se und schwarzhumorige Satire basierend auf einem Theaterst\u00fcck, in der sich in verschiedenen Handlungsstr\u00e4ngen die Leben der unterschiedlichsten Menschen kreuzen: Eine runierte Liebesbeziehung stimmt traurig, ein alter Mann will nicht mehr atmen und bittet verzweifelt um Sterbehilfe, in einer Talkshow werden die teilnehmenden Kandidaten wie bei einem Todeskult f\u00fcr ein bisschen Applaus dem Publikum geopfert, eine oberfl\u00e4chliche und selbstverliebte T\u00e4nzerin strebt stets und auch entgegen ihrer Gesundheit nach Selbstoptimierung, kann sich dem unausweichlichen Altern aber dennoch nicht entziehen, und ein Mensch mit Maske will um jeden Preis ber\u00fchmt werden. Inmitten dieser Charaktere geht ein Leichenwagenfahrer (Eisi Gulp) unbeeindruckt seiner Arbeit nach und philosophiert frei von der Leber weg \u00fcber das Leben und ganz besonders den Tod. Das zentrale Anliegen f\u00fcr ihn ist die W\u00fcrde des Menschen.",
+        "english": "What is life? Is it the yearning of a lover, the fear of growing old, the rebellious struggle for a dignified death or the hunt for the most clicks? Is it maybe just a show?"
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "DE2020_010_01",
+            "film": "DE2020_010",
+            "person": {
+                "id": "Eisi Gulp",
+                "slug": "eisi-gulp",
+                "name": "Eisi Gulp",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Christian Buse",
+                "slug": "christian-buse",
+                "name": "Christian Buse",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Eisi Gulp",
+                "slug": "eisi-gulp",
+                "name": "Eisi Gulp",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Ricci Hohlt",
+                "slug": "ricci-hohlt",
+                "name": "Ricci Hohlt",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Roland Reber",
+                "slug": "roland-reber",
+                "name": "Roland Reber",
+                "birthYear": 1954,
+                "deathYear": 2022,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Waltraut Borchmann",
+                "slug": "waltraut-borchmann",
+                "name": "Waltraut Borchmann",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Wolfgang Seidenberg",
+                "slug": "wolfgang-seidenberg",
+                "name": "Wolfgang Seidenberg",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Wolfram Kunkel",
+                "slug": "wolfram-kunkel",
+                "name": "Wolfram Kunkel",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "assisted death",
+        "de-ageing"
+    ]
 }

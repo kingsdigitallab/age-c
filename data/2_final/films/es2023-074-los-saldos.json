@@ -1,57 +1,86 @@
 {
-  "id": "ES2023_074",
-  "type": "Film",
-  "slug": "es2023-074-los-saldos",
-  "title": {
-    "native": "Los Saldos",
-    "english": "Remainders"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-05-04",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=437904",
-    "posterUrl": "https://www.imdb.com/title/tt21228570/mediaviewer/rm2578845185/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Observational mode",
-    "Documentary \u2013 Performative mode",
-    "Western"
-  ],
-  "tags": [
-    "disappearing professions",
-    "independent home",
-    "fatherhood",
-    "non-human companionship",
-    "ecology",
-    "self-employment",
-    "return home",
-    "regional identity",
-    "state institutions",
-    "class conflict",
-    "homosociality",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Ra\u00fal Capdevila Murillo",
-      "slug": "raul-capdevila-murillo",
-      "name": "Ra\u00fal Capdevila Murillo",
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Jos\u00e9 Ram\u00f3n Capdevila, \u00faltimo de tres generaciones de agricultores y ganaderos, recibe la noticia de que su hijo Ra\u00fal va a volver a casa tras no encontrar trabajo en la ciudad. Con la espera de encontrar algo mejor, ambos vuelven a trabajar juntos en la granja, al mismo tiempo que, en el pueblo, se anuncia el desembarco del \u201cGrupo Pini\u201d, una importante empresa del sector c\u00e1rnico que quiere construir un enorme macro-matadero.",
-    "english": "The life of a farmer in north-western Spain is turned upside down when his son returns home from the city. Under the guise of a western opening in bright light, the film gradually plunges into a darker world to relate what remains of farming culture today. The situation crescendoes to a dazzling, dramatic final shot."
-  }
+    "type": "Film",
+    "id": "ES2023_074",
+    "slug": "es2023-074-los-saldos",
+    "title": {
+        "native": "Los Saldos",
+        "english": "Remainders"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-05-04",
+        "year": 2023
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Ra\u00fal Capdevila Murillo",
+            "slug": "raul-capdevila-murillo",
+            "name": "Ra\u00fal Capdevila Murillo",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Performative mode",
+        "Western",
+        "Documentary \u2013 Observational mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt21228570/mediaviewer/rm2578845185/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=437904"
+    },
+    "synopsis": {
+        "native": "Jos\u00e9 Ram\u00f3n Capdevila, \u00faltimo de tres generaciones de agricultores y ganaderos, recibe la noticia de que su hijo Ra\u00fal va a volver a casa tras no encontrar trabajo en la ciudad. Con la espera de encontrar algo mejor, ambos vuelven a trabajar juntos en la granja, al mismo tiempo que, en el pueblo, se anuncia el desembarco del \u201cGrupo Pini\u201d, una importante empresa del sector c\u00e1rnico que quiere construir un enorme macro-matadero.",
+        "english": "The life of a farmer in north-western Spain is turned upside down when his son returns home from the city. Under the guise of a western opening in bright light, the film gradually plunges into a darker world to relate what remains of farming culture today. The situation crescendoes to a dazzling, dramatic final shot."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Jos\u00e9 Ram\u00f3n Capdevila",
+                "slug": "jose-ramon-capdevila",
+                "name": "Jos\u00e9 Ram\u00f3n Capdevila",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Ra\u00fal Capdevila Murillo",
+                "slug": "raul-capdevila-murillo",
+                "name": "Ra\u00fal Capdevila Murillo",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "self-employment",
+        "class conflict",
+        "fatherhood",
+        "rural",
+        "independent home",
+        "non-human companionship",
+        "return home",
+        "homosociality",
+        "disappearing professions",
+        "ecology",
+        "regional identity",
+        "state institutions"
+    ]
 }

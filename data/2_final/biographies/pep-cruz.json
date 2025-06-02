@@ -1,72 +1,120 @@
 {
-  "id": "Pep Cruz",
-  "type": "Biography",
-  "slug": "pep-cruz",
-  "name": "Pep Cruz",
-  "birthYear": 1948,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "No",
-      "class": "Lower Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Drama",
-        "id": "ES2023_033",
-        "production": {
-          "country": "Spain",
-          "share": "Majority coproducer"
+    "type": "Person",
+    "id": "Pep Cruz",
+    "slug": "pep-cruz",
+    "name": "Pep Cruz",
+    "birthYear": 1948,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [
+        {
+            "id": "ES2023_033_01",
+            "film": {
+                "id": "ES2023_033",
+                "slug": "es2023-033-els-encantats",
+                "title": {
+                    "native": "Els encantats",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-05-23",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "person": "Pep Cruz",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2023
-        },
-        "slug": "es2023-033-els-encantats",
-        "tags": "extended family",
-        "title": {
-          "native": "Els encantats"
+        {
+            "id": "ES2023_041_06",
+            "film": {
+                "id": "ES2023_041",
+                "slug": "es2023-041-esperando-a-dali",
+                "title": {
+                    "native": "Esperando a Dal\u00ed",
+                    "english": "Waiting for Dali"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-07-14",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "person": "Pep Cruz",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "ES2023_033_01",
-      "origin": "White Western European",
-      "profession": "Self-employed",
-      "role": "Supporting actor",
-      "sexuality": "Heterosexual"
-    },
-    {
-      "ability": "Able-bodied",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "No",
-      "class": "Upper Middle class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Biopic",
-        "id": "ES2023_041",
-        "production": {
-          "country": "Spain",
-          "share": "Majority coproducer"
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2023_033",
+                "slug": "es2023-033-els-encantats",
+                "title": {
+                    "native": "Els encantats",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-05-23",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
         },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2023
-        },
-        "slug": "es2023-041-esperando-a-dali",
-        "tags": "class conflict",
-        "title": {
-          "english": "Waiting for Dali",
-          "native": "Esperando a Dal\u00ed"
+        {
+            "film": {
+                "id": "ES2023_041",
+                "slug": "es2023-041-esperando-a-dali",
+                "title": {
+                    "native": "Esperando a Dal\u00ed",
+                    "english": "Waiting for Dali"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-07-14",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
         }
-      },
-      "gender": "Male identifying",
-      "id": "ES2023_041_06",
-      "origin": "White Western European",
-      "profession": "Retired",
-      "role": "Supporting actor",
-      "sexuality": "Unknown"
-    }
-  ]
+    ]
 }

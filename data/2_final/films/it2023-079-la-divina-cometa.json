@@ -1,66 +1,163 @@
 {
-  "id": "IT2023_079",
-  "type": "Film",
-  "slug": "it2023-079-la-divina-cometa",
-  "title": {
-    "native": "La Divina Cometa"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-05-11",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=GZeQ6GR6w-c",
-    "posterUrl": "https://www.imdb.com/title/tt17737640/mediaviewer/rm4195419393/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "artistic creation"
-  ],
-  "director": [
-    {
-      "id": "Mimmo Paladino",
-      "slug": "mimmo-paladino",
-      "name": "Mimmo Paladino",
-      "birthYear": 1948,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2023_079_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Toni Servillo",
-        "slug": "toni-servillo",
-        "name": "Toni Servillo",
-        "birthYear": 1959.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Un treno porta a destinazione un attore e una famiglia di senzatetto. Il loro viaggio non \u00e8 solo la ricerca di una casa ma una messa in scena: l\u2019attore prende le vesti di un Dante che nessuno accompagner\u00e0 all\u2019inferno, la famigliola vaga alla ricerca della casa promessagli. Un numerologo prova a trovare un senso a tutta questa commedia, a raccontare il viaggio tra i gironi infernali e le grotte del presepe. Si arriver\u00e0 a riveder le stelle?",
-    "english": "A train is carrying an actor and a homeless family to their destination. The journey is not only the search for a home, but also for a performance: the actor assumes the role of a Dante whom no one will guide through Inferno, while the family wanders around in search of their promised home. A numerologist tries to find a meaning in all of this, to tell the story of the journey through the circles of hell and the grottoes of the crib. Will they be able to see the stars once again?"
-  }
+    "type": "Film",
+    "id": "IT2023_079",
+    "slug": "it2023-079-la-divina-cometa",
+    "title": {
+        "native": "La Divina Cometa",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-05-11",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Mimmo Paladino",
+            "slug": "mimmo-paladino",
+            "name": "Mimmo Paladino",
+            "birthYear": 1948,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt17737640/mediaviewer/rm4195419393/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=GZeQ6GR6w-c"
+    },
+    "synopsis": {
+        "native": "Un treno porta a destinazione un attore e una famiglia di senzatetto. Il loro viaggio non \u00e8 solo la ricerca di una casa ma una messa in scena: l\u2019attore prende le vesti di un Dante che nessuno accompagner\u00e0 all\u2019inferno, la famigliola vaga alla ricerca della casa promessagli. Un numerologo prova a trovare un senso a tutta questa commedia, a raccontare il viaggio tra i gironi infernali e le grotte del presepe. Si arriver\u00e0 a riveder le stelle?",
+        "english": "A train is carrying an actor and a homeless family to their destination. The journey is not only the search for a home, but also for a performance: the actor assumes the role of a Dante whom no one will guide through Inferno, while the family wanders around in search of their promised home. A numerologist tries to find a meaning in all of this, to tell the story of the journey through the circles of hell and the grottoes of the crib. Will they be able to see the stars once again?"
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2023_079_01",
+            "film": "IT2023_079",
+            "person": {
+                "id": "Toni Servillo",
+                "slug": "toni-servillo",
+                "name": "Toni Servillo",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alessandro Haber",
+                "slug": "alessandro-haber",
+                "name": "Alessandro Haber",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Cristina Donadio",
+                "slug": "cristina-donadio",
+                "name": "Cristina Donadio",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Elio De Capitani",
+                "slug": "elio-de-capitani",
+                "name": "Elio De Capitani",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": "Ferdinando Bruni",
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Mimmo Paladino",
+                "slug": "mimmo-paladino",
+                "name": "Mimmo Paladino",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": "Nino D'Angelo",
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Peppe Servillo",
+                "slug": "peppe-servillo",
+                "name": "Peppe Servillo",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Sergio Rubini",
+                "slug": "sergio-rubini",
+                "name": "Sergio Rubini",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Toni Servillo",
+                "slug": "toni-servillo",
+                "name": "Toni Servillo",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "artistic creation"
+    ]
 }

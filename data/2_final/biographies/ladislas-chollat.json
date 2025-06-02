@@ -1,30 +1,39 @@
 {
-  "id": "Ladislas Chollat",
-  "type": "Biography",
-  "slug": "ladislas-chollat",
-  "name": "Ladislas Chollat",
-  "birthYear": 1975,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2019_059",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-059-let-s-dance",
-      "tags": "grandparenthood",
-      "title": {
-        "english": "Let's Dance",
-        "native": "Let's Dance"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Ladislas Chollat",
+    "slug": "ladislas-chollat",
+    "name": "Ladislas Chollat",
+    "birthYear": 1975,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2019_059",
+                "slug": "fr2019-059-let-s-dance",
+                "title": {
+                    "native": "Let's Dance",
+                    "english": "Let's Dance"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-03-27",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

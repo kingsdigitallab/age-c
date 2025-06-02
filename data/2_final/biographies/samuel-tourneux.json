@@ -1,28 +1,39 @@
 {
-  "id": "Samuel Tourneux",
-  "type": "Biography",
-  "slug": "samuel-tourneux",
-  "name": "Samuel Tourneux",
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Animation",
-      "genre": "Comedy",
-      "id": "FR2021_043",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-043-le-tour-du-monde-en-80-jours",
-      "title": {
-        "english": "Around the World in 80 Days",
-        "native": "Le Tour du monde en 80 jours"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Samuel Tourneux",
+    "slug": "samuel-tourneux",
+    "name": "Samuel Tourneux",
+    "birthYear": 0,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_043",
+                "slug": "fr2021-043-le-tour-du-monde-en-80-jours",
+                "title": {
+                    "native": "Le Tour du monde en 80 jours",
+                    "english": "Around the World in 80 Days"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-08-04",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

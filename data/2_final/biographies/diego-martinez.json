@@ -1,29 +1,39 @@
 {
-  "id": "Diego Mart\u00ednez",
-  "type": "Biography",
-  "slug": "diego-martinez",
-  "name": "Diego Mart\u00ednez",
-  "birthYear": 1977,
-  "nationality": "Argentina",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "ES2023_107",
-      "production": {
-        "country": "Argentina",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "es2023-107-conversaciones-sobre-el-odio",
-      "tags": "homosociality",
-      "title": {
-        "native": "Conversaciones sobre el odio"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Diego Mart\u00ednez",
+    "slug": "diego-martinez",
+    "name": "Diego Mart\u00ednez",
+    "birthYear": 1977,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Argentina",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2023_107",
+                "slug": "es2023-107-conversaciones-sobre-el-odio",
+                "title": {
+                    "native": "Conversaciones sobre el odio",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-10-20",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Argentina",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,45 +1,73 @@
 {
-  "id": "FR2021_010",
-  "type": "Film",
-  "slug": "fr2021-010-playlist",
-  "title": {
-    "native": "Playlist",
-    "english": "Playlist"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-06-02",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=JxNvHM8mVHg",
-    "posterUrl": "https://medias.unifrance.org/medias/134/148/234630/format_page/playlist.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "fatherhood"
-  ],
-  "director": [
-    {
-      "id": "Nine Antico",
-      "slug": "nine-antico",
-      "name": "Nine Antico",
-      "birthYear": 1981,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Sophie a 28 ans. Elle aimerait \u00eatre dessinatrice, mais ce serait tellement plus facile si elle avait fait une \u00e9cole d\u2019art. Elle aimerait aussi trouver l'amour, mais ce serait tellement plus facile s'il vous sautait aux yeux. Elle multiplie les exp\u00e9riences amoureuses et professionnelles. Prendre des coups, beaucoup, en donner, un peu : c\u2019est \u00e7a, l\u2019apprentissage. Dans sa t\u00eate tourne en boucle Daniel Johnston, qui chante que \u00ab l'amour v\u00e9ritable finit bien par vous tomber dessus \u00bb ; mais Sophie se demande s'il dit vrai.",
-    "english": "Sophie is 28 years old. She would like to be a designer, but it would be so much easier if she had gone to art school. She would also like to find love, but it would be so much easier if it jumped out at you. She dabbles, a lot, in love and work. Absorbing a ton of blows, landing a few: that's what learning is all about. In her head, Daniel Johnston is playing over and over again, singing that true love will eventually fall into your lap."
-  }
+    "type": "Film",
+    "id": "FR2021_010",
+    "slug": "fr2021-010-playlist",
+    "title": {
+        "native": "Playlist",
+        "english": "Playlist"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-06-02",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Nine Antico",
+            "slug": "nine-antico",
+            "name": "Nine Antico",
+            "birthYear": 1981,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/134/148/234630/format_page/playlist.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=JxNvHM8mVHg"
+    },
+    "synopsis": {
+        "native": "Sophie a 28 ans. Elle aimerait \u00eatre dessinatrice, mais ce serait tellement plus facile si elle avait fait une \u00e9cole d\u2019art. Elle aimerait aussi trouver l'amour, mais ce serait tellement plus facile s'il vous sautait aux yeux. Elle multiplie les exp\u00e9riences amoureuses et professionnelles. Prendre des coups, beaucoup, en donner, un peu : c\u2019est \u00e7a, l\u2019apprentissage. Dans sa t\u00eate tourne en boucle Daniel Johnston, qui chante que \u00ab l'amour v\u00e9ritable finit bien par vous tomber dessus \u00bb ; mais Sophie se demande s'il dit vrai.",
+        "english": "Sophie is 28 years old. She would like to be a designer, but it would be so much easier if she had gone to art school. She would also like to find love, but it would be so much easier if it jumped out at you. She dabbles, a lot, in love and work. Absorbing a ton of blows, landing a few: that's what learning is all about. In her head, Daniel Johnston is playing over and over again, singing that true love will eventually fall into your lap."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Jackie Berroyer",
+                "slug": "jackie-berroyer",
+                "name": "Jackie Berroyer",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Nine Antico",
+                "slug": "nine-antico",
+                "name": "Nine Antico",
+                "birthYear": 1981,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "fatherhood"
+    ]
 }

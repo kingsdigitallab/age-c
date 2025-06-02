@@ -1,48 +1,95 @@
 {
-  "id": "Agust\u00ed Villaronga",
-  "type": "Biography",
-  "slug": "agusti-villaronga",
-  "name": "Agust\u00ed Villaronga",
-  "birthYear": 1953,
-  "deathYear": 2023,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "ES2023_039",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "es2023-039-loli-tormenta",
-      "tags": "well-being",
-      "title": {
-        "native": "Loli Tormenta"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Historical film (Heritage Film)",
-      "id": "GB2019_034",
-      "production": {
-        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "First festival screening",
-        "year": 2019
-      },
-      "slug": "gb2019-034-born-a-king",
-      "tags": "urban",
-      "title": {
-        "native": "Born a King"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Agust\u00ed Villaronga",
+    "slug": "agusti-villaronga",
+    "name": "Agust\u00ed Villaronga",
+    "birthYear": 1953,
+    "deathYear": 2023,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2023_039",
+                "slug": "es2023-039-loli-tormenta",
+                "title": {
+                    "native": "Loli Tormenta",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-03-30",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "GB2019_034",
+                "slug": "gb2019-034-born-a-king",
+                "title": {
+                    "native": "Born a King",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-04-25",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Spain",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "RO2019_004",
+                "slug": "ro2019-004-la-gomera",
+                "title": {
+                    "native": "La Gomera",
+                    "english": "The Whistlers"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-09-13",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Sweden",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        }
+    ]
 }

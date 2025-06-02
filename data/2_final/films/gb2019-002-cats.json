@@ -1,125 +1,185 @@
 {
-  "id": "GB2019_002",
-  "type": "Film",
-  "slug": "gb2019-002-cats",
-  "title": {
-    "native": "Cats"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-12-20",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "GB2019_002",
+    "slug": "gb2019-002-cats",
+    "title": {
+        "native": "Cats",
+        "english": ""
     },
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=gq50F-IDXDc",
-    "posterUrl": "https://www.imdb.com/title/tt5697572/mediaviewer/rm4019887361/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Musical",
-    "Romance",
-    "Fantasy"
-  ],
-  "tags": [
-    "wealth",
-    "spirituality",
-    "mentorship",
-    "power",
-    "class conflict",
-    "segregation",
-    "supernatural entity"
-  ],
-  "director": [
-    {
-      "id": "Tom Hooper",
-      "slug": "tom-hooper",
-      "name": "Tom Hooper",
-      "birthYear": 1972,
-      "gender": "Male identifying",
-      "nationality": "Australia"
+    "release": {
+        "type": "Unknown",
+        "date": "2019-12-20",
+        "year": 2019
     },
-    {
-      "id": "Tom Hooper",
-      "slug": "tom-hooper",
-      "name": "Tom Hooper",
-      "birthYear": 1972,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2019_002_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Judi Dench",
-        "slug": "judi-dench",
-        "name": "Judi Dench",
-        "birthYear": 1934.0,
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Tom Hooper",
+            "slug": "tom-hooper",
+            "name": "Tom Hooper",
+            "birthYear": 1972,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Australia"
+        }
+    ],
+    "genre": [
+        "Musical",
+        "Fantasy",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt5697572/mediaviewer/rm4019887361/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=gq50F-IDXDc"
     },
-    {
-      "id": "GB2019_002_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Ray Winstone",
-        "slug": "ray-winstone",
-        "name": "Ray Winstone",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "synopsis": {
+        "native": "A tribe of cats called the Jellicles must decide yearly which one will ascend to the Heaviside Layer and come back to a new Jellicle life.",
+        "english": ""
     },
-    {
-      "id": "GB2019_002_02",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Ian McKellen",
-        "slug": "ian-mckellen",
-        "name": "Ian McKellen",
-        "birthYear": 1939.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "A tribe of cats called the Jellicles must decide yearly which one will ascend to the Heaviside Layer and come back to a new Jellicle life."
-  }
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2019_002_01",
+            "film": "GB2019_002",
+            "person": {
+                "id": "Judi Dench",
+                "slug": "judi-dench",
+                "name": "Judi Dench",
+                "birthYear": 1934,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2019_002_02",
+            "film": "GB2019_002",
+            "person": {
+                "id": "Ian McKellen",
+                "slug": "ian-mckellen",
+                "name": "Ian McKellen",
+                "birthYear": 1939,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2019_002_03",
+            "film": "GB2019_002",
+            "person": {
+                "id": "Ray Winstone",
+                "slug": "ray-winstone",
+                "name": "Ray Winstone",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Ian McKellen",
+                "slug": "ian-mckellen",
+                "name": "Ian McKellen",
+                "birthYear": 1939,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Judi Dench",
+                "slug": "judi-dench",
+                "name": "Judi Dench",
+                "birthYear": 1934,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Maggie Daniels",
+                "slug": "maggie-daniels",
+                "name": "Maggie Daniels",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Ray Winstone",
+                "slug": "ray-winstone",
+                "name": "Ray Winstone",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Tom Hooper",
+                "slug": "tom-hooper",
+                "name": "Tom Hooper",
+                "birthYear": 1972,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Australia"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "mentorship",
+        "supernatural entity",
+        "wealth",
+        "spirituality",
+        "power",
+        "class conflict",
+        "segregation"
+    ]
 }

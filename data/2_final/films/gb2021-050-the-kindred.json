@@ -1,114 +1,194 @@
 {
-  "id": "GB2021_050",
-  "type": "Film",
-  "slug": "gb2021-050-the-kindred",
-  "title": {
-    "native": "The Kindred"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "First festival screening",
-    "date": "2021-08-01",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt10306450/?ref_=ttrel_ov",
-    "posterUrl": "https://www.imdb.com/title/tt10306450/mediaviewer/rm2283404801/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Horror"
-  ],
-  "tags": [
-    "religion",
-    "revenge",
-    "fatherhood",
-    "suicide",
-    "personal trauma",
-    "urban",
-    "crime",
-    "abuse",
-    "supernatural entity"
-  ],
-  "director": [
-    {
-      "id": "Jamie Patterson",
-      "slug": "jamie-patterson",
-      "name": "Jamie Patterson",
-      "birthYear": 1986,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2021_050_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Samantha Bond",
-        "slug": "samantha-bond",
-        "name": "Samantha Bond",
-        "birthYear": 1961.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "GB2021_050",
+    "slug": "gb2021-050-the-kindred",
+    "title": {
+        "native": "The Kindred",
+        "english": ""
     },
-    {
-      "id": "GB2021_050_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "James Cosmo",
-        "slug": "james-cosmo",
-        "name": "James Cosmo",
-        "birthYear": 1947.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2021-08-01",
+        "year": 2021
     },
-    {
-      "id": "GB2021_050_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Patrick Bergin",
-        "slug": "patrick-bergin",
-        "name": "Patrick Bergin",
-        "birthYear": 1951.0,
-        "gender": "Male identifying",
-        "nationality": "Ireland"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "A woman suffering from amnesia pieces together the events that led to her father's suicide, only to be haunted by the ghosts of children that she begins to suspect were murdered by him."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Jamie Patterson",
+            "slug": "jamie-patterson",
+            "name": "Jamie Patterson",
+            "birthYear": 1986,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Horror",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt10306450/mediaviewer/rm2283404801/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt10306450/?ref_=ttrel_ov"
+    },
+    "synopsis": {
+        "native": "A woman suffering from amnesia pieces together the events that led to her father's suicide, only to be haunted by the ghosts of children that she begins to suspect were murdered by him.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2021_050_01",
+            "film": "GB2021_050",
+            "person": {
+                "id": "Samantha Bond",
+                "slug": "samantha-bond",
+                "name": "Samantha Bond",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2021_050_02",
+            "film": "GB2021_050",
+            "person": {
+                "id": "James Cosmo",
+                "slug": "james-cosmo",
+                "name": "James Cosmo",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2021_050_03",
+            "film": "GB2021_050",
+            "person": {
+                "id": "Patrick Bergin",
+                "slug": "patrick-bergin",
+                "name": "Patrick Bergin",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Ireland"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "James Cosmo",
+                "slug": "james-cosmo",
+                "name": "James Cosmo",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Jamie Patterson",
+                "slug": "jamie-patterson",
+                "name": "Jamie Patterson",
+                "birthYear": 1986,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jimmy Yuill",
+                "slug": "jimmy-yuill",
+                "name": "Jimmy Yuill",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Patricia Franklin",
+                "slug": "patricia-franklin",
+                "name": "Patricia Franklin",
+                "birthYear": 1942,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Patrick Bergin",
+                "slug": "patrick-bergin",
+                "name": "Patrick Bergin",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Ireland"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Samantha Bond",
+                "slug": "samantha-bond",
+                "name": "Samantha Bond",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "supernatural entity",
+        "abuse",
+        "urban",
+        "personal trauma",
+        "suicide",
+        "religion",
+        "crime",
+        "revenge",
+        "fatherhood"
+    ]
 }

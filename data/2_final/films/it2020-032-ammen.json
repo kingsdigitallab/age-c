@@ -1,85 +1,128 @@
 {
-  "id": "IT2020_032",
-  "type": "Film",
-  "slug": "it2020-032-ammen",
-  "title": {
-    "native": "Ammen"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-07-02",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=_zCBljV97I4",
-    "posterUrl": "https://www.imdb.com/title/tt10885722/mediaviewer/rm2226434049/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "religion"
-  ],
-  "director": [
-    {
-      "id": "Ciro Villano",
-      "slug": "ciro-villano",
-      "name": "Ciro Villano",
-      "birthYear": 1972,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2020_032_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Permanent disability",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Davide Marotta",
-        "slug": "davide-marotta",
-        "name": "Davide Marotta",
-        "birthYear": 1962.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "IT2020_032",
+    "slug": "it2020-032-ammen",
+    "title": {
+        "native": "Ammen",
+        "english": ""
     },
-    {
-      "id": "IT2020_032_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Maurizio Mattioli",
-        "slug": "maurizio-mattioli",
-        "name": "Maurizio Mattioli",
-        "birthYear": 1950.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Un parroco di Roccatranquilla, don Vincenzo, impersonato da Maurizio Mattioli, arriva a Montecalvo Irpino a seguito di un incidente automobilistico e comincia a raccontare tutti i peccati dei suoi fedeli. Ne vengono fuori diversi equivoci ed eventi esilaranti."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2020-07-02",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Ciro Villano",
+            "slug": "ciro-villano",
+            "name": "Ciro Villano",
+            "birthYear": 1972,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt10885722/mediaviewer/rm2226434049/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=_zCBljV97I4"
+    },
+    "synopsis": {
+        "native": "Un parroco di Roccatranquilla, don Vincenzo, impersonato da Maurizio Mattioli, arriva a Montecalvo Irpino a seguito di un incidente automobilistico e comincia a raccontare tutti i peccati dei suoi fedeli. Ne vengono fuori diversi equivoci ed eventi esilaranti.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2020_032_01",
+            "film": "IT2020_032",
+            "person": {
+                "id": "Maurizio Mattioli",
+                "slug": "maurizio-mattioli",
+                "name": "Maurizio Mattioli",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "IT2020_032_02",
+            "film": "IT2020_032",
+            "person": {
+                "id": "Davide Marotta",
+                "slug": "davide-marotta",
+                "name": "Davide Marotta",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Permanent disability",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Ciro Villano",
+                "slug": "ciro-villano",
+                "name": "Ciro Villano",
+                "birthYear": 1972,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Davide Marotta",
+                "slug": "davide-marotta",
+                "name": "Davide Marotta",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Maurizio Mattioli",
+                "slug": "maurizio-mattioli",
+                "name": "Maurizio Mattioli",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "religion"
+    ]
 }

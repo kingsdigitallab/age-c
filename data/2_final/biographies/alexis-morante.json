@@ -1,29 +1,43 @@
 {
-  "id": "Alexis Morante",
-  "type": "Biography",
-  "slug": "alexis-morante",
-  "name": "Alexis Morante",
-  "birthYear": 1978,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Fantasy",
-      "id": "ES2022_056",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "es2022-056-el-universo-de-oliver",
-      "tags": "mentorship",
-      "title": {
-        "native": "El universo de \u00d3liver"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Alexis Morante",
+    "slug": "alexis-morante",
+    "name": "Alexis Morante",
+    "birthYear": 1978,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2022_056",
+                "slug": "es2022-056-el-universo-de-oliver",
+                "title": {
+                    "native": "El universo de \u00d3liver",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-05-11",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Romania",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,82 +1,134 @@
 {
-  "id": "ES2022_003",
-  "type": "Film",
-  "slug": "es2022-003-as-bestas",
-  "title": {
-    "native": "As bestas",
-    "english": "The Beasts"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-10-20",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "ES2022_003",
+    "slug": "es2022-003-as-bestas",
+    "title": {
+        "native": "As bestas",
+        "english": "The Beasts"
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt15006566/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_As%2520bestas",
-    "posterUrl": "https://www.imdb.com/title/tt15006566/mediaviewer/rm1643333633/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Drama",
-    "Western"
-  ],
-  "tags": [
-    "brotherhood",
-    "independent home",
-    "migration",
-    "non-human companionship",
-    "self-employment",
-    "regional identity",
-    "segregation",
-    "homosociality",
-    "abuse",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Rodrigo Sorogoyen",
-      "slug": "rodrigo-sorogoyen",
-      "name": "Rodrigo Sorogoyen",
-      "birthYear": 1981,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2022_003_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Luis Zahera",
-        "slug": "luis-zahera",
-        "name": "Luis Zahera",
-        "birthYear": 1966.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Antoine y Olga son una pareja francesa que se instal\u00f3 hace tiempo en una aldea del interior de Galicia. All\u00ed llevan una vida tranquila, aunque su convivencia con los lugare\u00f1os no es tan id\u00edlica como desear\u00edan. Un conflicto con sus vecinos, los hermanos Anta, har\u00e1 que la tensi\u00f3n crezca en la aldea hasta alcanzar un punto de no retorno.",
-    "english": "An expatriate French couple operate an organic farm in the Spanish countryside but clash with villagers."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-10-20",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Rodrigo Sorogoyen",
+            "slug": "rodrigo-sorogoyen",
+            "name": "Rodrigo Sorogoyen",
+            "birthYear": 1981,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Thriller",
+        "Western"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt15006566/mediaviewer/rm1643333633/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt15006566/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_As%2520bestas"
+    },
+    "synopsis": {
+        "native": "Antoine y Olga son una pareja francesa que se instal\u00f3 hace tiempo en una aldea del interior de Galicia. All\u00ed llevan una vida tranquila, aunque su convivencia con los lugare\u00f1os no es tan id\u00edlica como desear\u00edan. Un conflicto con sus vecinos, los hermanos Anta, har\u00e1 que la tensi\u00f3n crezca en la aldea hasta alcanzar un punto de no retorno.",
+        "english": "An expatriate French couple operate an organic farm in the Spanish countryside but clash with villagers."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2022_003_01",
+            "film": "ES2022_003",
+            "person": {
+                "id": "Luis Zahera",
+                "slug": "luis-zahera",
+                "name": "Luis Zahera",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Luis Zahera",
+                "slug": "luis-zahera",
+                "name": "Luis Zahera",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Luisa Merelas",
+                "slug": "luisa-merelas",
+                "name": "Luisa Merelas",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Rodrigo Sorogoyen",
+                "slug": "rodrigo-sorogoyen",
+                "name": "Rodrigo Sorogoyen",
+                "birthYear": 1981,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Xavier Est\u00e9vez",
+                "slug": "xavier-estevez",
+                "name": "Xavier Est\u00e9vez",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "rural",
+        "self-employment",
+        "brotherhood",
+        "abuse",
+        "homosociality",
+        "migration",
+        "non-human companionship",
+        "independent home",
+        "regional identity",
+        "segregation"
+    ]
 }

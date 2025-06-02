@@ -1,30 +1,35 @@
 {
-  "id": "Fabienne Godet",
-  "type": "Biography",
-  "slug": "fabienne-godet",
-  "name": "Fabienne Godet",
-  "birthYear": 1964,
-  "nationality": "France",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2019_046",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-046-nos-vies-formidables",
-      "tags": "caregiving",
-      "title": {
-        "english": "Our Wonderful Lives",
-        "native": "Nos vies formidables"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Fabienne Godet",
+    "slug": "fabienne-godet",
+    "name": "Fabienne Godet",
+    "birthYear": 1964,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2019_046",
+                "slug": "fr2019-046-nos-vies-formidables",
+                "title": {
+                    "native": "Nos vies formidables",
+                    "english": "Our Wonderful Lives"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-03-06",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

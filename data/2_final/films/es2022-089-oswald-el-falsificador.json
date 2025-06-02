@@ -1,53 +1,82 @@
 {
-  "id": "ES2022_089",
-  "type": "Film",
-  "slug": "es2022-089-oswald-el-falsificador",
-  "title": {
-    "native": "Oswald. El falsificador"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-09-30",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=827558",
-    "posterUrl": "https://www.imdb.com/title/tt21048094/mediaviewer/rm3615034881/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "fraud",
-    "artistic creation",
-    "personal memory",
-    "organized crime",
-    "state institutions",
-    "desire",
-    "substance abuse",
-    "crime",
-    "mass media"
-  ],
-  "director": [
-    {
-      "id": "Kike Ma\u00edllo",
-      "slug": "kike-maillo",
-      "name": "Kike Ma\u00edllo",
-      "birthYear": 1975,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Documental sobre la vida de Oswald Aulestia Bach, artista catal\u00e1n perseguido durante a\u00f1os por la justicia estadounidense por ser una de las piedras angulares de la llamada \u201cOperaci\u00f3n Artista\u201d, una investigaci\u00f3n del FBI, en colaboraci\u00f3n con los Mossos d'Esquadra y los Carabinieri, para encarcelar a los responsables de una de las mayores tramas de falsificaci\u00f3n de arte de las \u00faltimas d\u00e9cadas. Tras ser extraditado a Estados Unidos y pasar 9 meses en una c\u00e1rcel federal de Chicago, Oswald regres\u00f3 a Espa\u00f1a hace unos a\u00f1os.",
-    "english": "Documentary about the life of Oswald Aulestia Bach, a Spanish artist who was prosecuted by the US Justice for being one of the cornerstones of \"Operaci\u00f3n Artista\""
-  }
+    "type": "Film",
+    "id": "ES2022_089",
+    "slug": "es2022-089-oswald-el-falsificador",
+    "title": {
+        "native": "Oswald. El falsificador",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-09-30",
+        "year": 2022
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Kike Ma\u00edllo",
+            "slug": "kike-maillo",
+            "name": "Kike Ma\u00edllo",
+            "birthYear": 1975,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Documentary \u2013 Performative mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt21048094/mediaviewer/rm3615034881/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=827558"
+    },
+    "synopsis": {
+        "native": "Documental sobre la vida de Oswald Aulestia Bach, artista catal\u00e1n perseguido durante a\u00f1os por la justicia estadounidense por ser una de las piedras angulares de la llamada \u201cOperaci\u00f3n Artista\u201d, una investigaci\u00f3n del FBI, en colaboraci\u00f3n con los Mossos d'Esquadra y los Carabinieri, para encarcelar a los responsables de una de las mayores tramas de falsificaci\u00f3n de arte de las \u00faltimas d\u00e9cadas. Tras ser extraditado a Estados Unidos y pasar 9 meses en una c\u00e1rcel federal de Chicago, Oswald regres\u00f3 a Espa\u00f1a hace unos a\u00f1os.",
+        "english": "Documentary about the life of Oswald Aulestia Bach, a Spanish artist who was prosecuted by the US Justice for being one of the cornerstones of \"Operaci\u00f3n Artista\""
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Kike Ma\u00edllo",
+                "slug": "kike-maillo",
+                "name": "Kike Ma\u00edllo",
+                "birthYear": 1975,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Oswald Aulestia",
+                "slug": "oswald-aulestia",
+                "name": "Oswald Aulestia",
+                "birthYear": 1976,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "fraud",
+        "crime",
+        "artistic creation",
+        "mass media",
+        "organized crime",
+        "substance abuse",
+        "state institutions",
+        "desire",
+        "personal memory"
+    ]
 }

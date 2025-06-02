@@ -1,77 +1,130 @@
 {
-  "id": "FR2022_040",
-  "type": "Film",
-  "slug": "fr2022-040-zai-zai-zai-zai",
-  "title": {
-    "native": "Za\u00ef Za\u00ef Za\u00ef Za\u00ef"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-02-23",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2022_040",
+    "slug": "fr2022-040-zai-zai-zai-zai",
+    "title": {
+        "native": "Za\u00ef Za\u00ef Za\u00ef Za\u00ef",
+        "english": ""
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=d0KamaZ5yqU",
-    "posterUrl": "https://medias.unifrance.org/medias/240/174/241392/format_page/zai-zai-zai-zai.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "high rank employment",
-    "parenthood",
-    "artistic creation",
-    "marriage",
-    "self-employment",
-    "state institutions",
-    "celebrity",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Fran\u00e7ois Desagnat",
-      "slug": "francois-desagnat",
-      "name": "Fran\u00e7ois Desagnat",
-      "birthYear": 1973,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2022_040_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Jean-Paul Rouve",
-        "slug": "jean-paul-rouve",
-        "name": "Jean-Paul Rouve",
-        "birthYear": 1967.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Fabrice, acteur de com\u00e9die, r\u00e9alise qu\u2019il n\u2019a pas sa carte de fid\u00e9lit\u00e9 alors qu\u2019il fait ses courses. Malgr\u00e9 la menace d\u2019un vigile, il parvient \u00e0 s\u2019enfuir. Commence alors une cavale sans merci, pour celui qui devient rapidement l\u2019ennemi public num\u00e9ro 1. Alors que les m\u00e9dias s\u2019emparent de l\u2019affaire et que le pays est en \u00e9moi, le fugitif, partag\u00e9 entre remords et questions existentielles, trouve un point de chute inattendu, quelque part en Loz\u00e8re.",
-    "english": "Fabrice went to the supermarket without his store's loyalty card. This serious misconduct forces him to go into hiding, as both police and media hunt him down."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-02-23",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Fran\u00e7ois Desagnat",
+            "slug": "francois-desagnat",
+            "name": "Fran\u00e7ois Desagnat",
+            "birthYear": 1973,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/240/174/241392/format_page/zai-zai-zai-zai.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=d0KamaZ5yqU"
+    },
+    "synopsis": {
+        "native": "Fabrice, acteur de com\u00e9die, r\u00e9alise qu\u2019il n\u2019a pas sa carte de fid\u00e9lit\u00e9 alors qu\u2019il fait ses courses. Malgr\u00e9 la menace d\u2019un vigile, il parvient \u00e0 s\u2019enfuir. Commence alors une cavale sans merci, pour celui qui devient rapidement l\u2019ennemi public num\u00e9ro 1. Alors que les m\u00e9dias s\u2019emparent de l\u2019affaire et que le pays est en \u00e9moi, le fugitif, partag\u00e9 entre remords et questions existentielles, trouve un point de chute inattendu, quelque part en Loz\u00e8re.",
+        "english": "Fabrice went to the supermarket without his store's loyalty card. This serious misconduct forces him to go into hiding, as both police and media hunt him down."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_040_01",
+            "film": "FR2022_040",
+            "person": {
+                "id": "Jean-Paul Rouve",
+                "slug": "jean-paul-rouve",
+                "name": "Jean-Paul Rouve",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Fran\u00e7ois Desagnat",
+                "slug": "francois-desagnat",
+                "name": "Fran\u00e7ois Desagnat",
+                "birthYear": 1973,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jean-Luc Gaget",
+                "slug": "jean-luc-gaget",
+                "name": "Jean-Luc Gaget",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Jean-Paul Rouve",
+                "slug": "jean-paul-rouve",
+                "name": "Jean-Paul Rouve",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Yolande Moreau",
+                "slug": "yolande-moreau",
+                "name": "Yolande Moreau",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "self-employment",
+        "artistic creation",
+        "celebrity",
+        "marriage",
+        "parenthood",
+        "rural",
+        "state institutions",
+        "high rank employment"
+    ]
 }

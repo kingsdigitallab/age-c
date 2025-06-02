@@ -1,42 +1,105 @@
 {
-  "id": "Laura del Sol",
-  "type": "Biography",
-  "slug": "laura-del-sol",
-  "name": "Laura del Sol",
-  "birthYear": 1961,
-  "nationality": "Spain",
-  "gender": "Female identifying",
-  "character": [
-    {
-      "ability": "Unknown",
-      "age": "2: Late Middle Age (55-60)",
-      "assistedMobility": "No",
-      "class": "Unknown",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Horror",
-        "id": "ES2021_009",
-        "production": {
-          "country": "Belgium",
-          "share": "Minority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2021
-        },
-        "slug": "es2021-009-la-abuela",
-        "tags": "urban",
-        "title": {
-          "english": "The Grandmother",
-          "native": "La abuela"
+    "type": "Person",
+    "id": "Laura del Sol",
+    "slug": "laura-del-sol",
+    "name": "Laura del Sol",
+    "birthYear": 1961,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "Spain",
+    "characters": [
+        {
+            "id": "ES2021_009_02",
+            "film": {
+                "id": "ES2021_009",
+                "slug": "es2021-009-la-abuela",
+                "title": {
+                    "native": "La abuela",
+                    "english": "The Grandmother"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-07-10",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Laura del Sol",
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Female identifying",
-      "id": "ES2021_009_02",
-      "origin": "White Western European",
-      "profession": "Unknown",
-      "role": "Supporting actor",
-      "sexuality": "Unknown"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2021_009",
+                "slug": "es2021-009-la-abuela",
+                "title": {
+                    "native": "La abuela",
+                    "english": "The Grandmother"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-07-10",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "FR2022_085",
+                "slug": "fr2022-085-j-adore-ce-que-vous-faites",
+                "title": {
+                    "native": "J'adore ce que vous faites",
+                    "english": "The Biggest Fan"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-05-18",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ]
 }

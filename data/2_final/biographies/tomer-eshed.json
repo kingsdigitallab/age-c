@@ -1,30 +1,35 @@
 {
-  "id": "Tomer Eshed",
-  "type": "Biography",
-  "slug": "tomer-eshed",
-  "name": "Tomer Eshed",
-  "birthYear": 1977,
-  "nationality": "Iceland",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Animation",
-      "genre": "Comedy",
-      "id": "DE2020_067",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "de2020-067-dragon-rider",
-      "tags": "voice mismatch",
-      "title": {
-        "english": "Dragon Rider",
-        "native": "Dragon Rider"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Tomer Eshed",
+    "slug": "tomer-eshed",
+    "name": "Tomer Eshed",
+    "birthYear": 1977,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Iceland",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2020_067",
+                "slug": "de2020-067-dragon-rider",
+                "title": {
+                    "native": "Dragon Rider",
+                    "english": "Dragon Rider"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-10-15",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

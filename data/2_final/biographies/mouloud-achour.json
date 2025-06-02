@@ -1,29 +1,35 @@
 {
-  "id": "Mouloud Achour",
-  "type": "Biography",
-  "slug": "mouloud-achour",
-  "name": "Mouloud Achour",
-  "birthYear": 1980,
-  "nationality": "Algeria",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2021_065",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-065-les-mechants",
-      "title": {
-        "english": "Fake News",
-        "native": "Les M\u00e9chants"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Mouloud Achour",
+    "slug": "mouloud-achour",
+    "name": "Mouloud Achour",
+    "birthYear": 1980,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Algeria",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_065",
+                "slug": "fr2021-065-les-mechants",
+                "title": {
+                    "native": "Les M\u00e9chants",
+                    "english": "Fake News"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-09-08",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

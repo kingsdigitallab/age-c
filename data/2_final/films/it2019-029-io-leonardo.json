@@ -1,45 +1,73 @@
 {
-  "id": "IT2019_029",
-  "type": "Film",
-  "slug": "it2019-029-io-leonardo",
-  "title": {
-    "native": "Io, Leonardo",
-    "english": "Amazing Leonardo"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-02-10",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=JBPvbD2w6aM",
-    "posterUrl": "https://www.imdb.com/title/tt10270592/mediaviewer/rm284139265/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "artistic creation"
-  ],
-  "director": [
-    {
-      "id": "Jesus Garces Lambert",
-      "slug": "jesus-garces-lambert",
-      "name": "Jesus Garces Lambert",
-      "birthYear": 1974,
-      "gender": "Male identifying",
-      "nationality": "Mexico"
-    }
-  ],
-  "synopsis": {
-    "native": "IO LEONARDO porter\u00e0 lo spettatore alla scoperta dell\u2019uomo, il pittore, lo scienziato e l\u2019inventore, attraverso un viaggio unico, coinvolgente e affascinante nella mente di Leonardo, una delle figure pi\u00f9 geniali che la storia dell\u2019umanit\u00e0 abbia mai conosciuto, noto a chiunque per aver dipinto \u201cil quadro pi\u00f9 famoso al mondo\u201d, la Gioconda. E lo far\u00e0 con uno sguardo molto lontano dagli stereotipi con cui Leonardo viene solitamente descritto.",
-    "english": "AMAZING LEONARDO is a fascinating journey in history and time unveiling the mysteries behind the greatest genius the world has ever known. On the 500th anniversary of his death, an outstanding art movie about the life of the astonishing painter, visionary scientist, brilliant inventor and extraordinary man."
-  }
+    "type": "Film",
+    "id": "IT2019_029",
+    "slug": "it2019-029-io-leonardo",
+    "title": {
+        "native": "Io, Leonardo",
+        "english": "Amazing Leonardo"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-02-10",
+        "year": 2019
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Jesus Garces Lambert",
+            "slug": "jesus-garces-lambert",
+            "name": "Jesus Garces Lambert",
+            "birthYear": 1974,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Mexico"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt10270592/mediaviewer/rm284139265/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=JBPvbD2w6aM"
+    },
+    "synopsis": {
+        "native": "IO LEONARDO porter\u00e0 lo spettatore alla scoperta dell\u2019uomo, il pittore, lo scienziato e l\u2019inventore, attraverso un viaggio unico, coinvolgente e affascinante nella mente di Leonardo, una delle figure pi\u00f9 geniali che la storia dell\u2019umanit\u00e0 abbia mai conosciuto, noto a chiunque per aver dipinto \u201cil quadro pi\u00f9 famoso al mondo\u201d, la Gioconda. E lo far\u00e0 con uno sguardo molto lontano dagli stereotipi con cui Leonardo viene solitamente descritto.",
+        "english": "AMAZING LEONARDO is a fascinating journey in history and time unveiling the mysteries behind the greatest genius the world has ever known. On the 500th anniversary of his death, an outstanding art movie about the life of the astonishing painter, visionary scientist, brilliant inventor and extraordinary man."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Francesco Pannofino",
+                "slug": "francesco-pannofino",
+                "name": "Francesco Pannofino",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Narrator/voice over"
+        },
+        {
+            "person": {
+                "id": "Jesus Garces Lambert",
+                "slug": "jesus-garces-lambert",
+                "name": "Jesus Garces Lambert",
+                "birthYear": 1974,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Mexico"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "artistic creation"
+    ]
 }

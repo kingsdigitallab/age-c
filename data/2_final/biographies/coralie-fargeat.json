@@ -1,29 +1,39 @@
 {
-  "id": "Coralie Fargeat",
-  "type": "Biography",
-  "slug": "coralie-fargeat",
-  "name": "Coralie Fargeat",
-  "birthYear": 1976,
-  "nationality": "France",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Horror",
-      "id": "FR2018_020",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-020-revenge",
-      "title": {
-        "english": "Revenge",
-        "native": "Revenge"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Coralie Fargeat",
+    "slug": "coralie-fargeat",
+    "name": "Coralie Fargeat",
+    "birthYear": 1976,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_020",
+                "slug": "fr2018-020-revenge",
+                "title": {
+                    "native": "Revenge",
+                    "english": "Revenge"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-02-07",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Brazil",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

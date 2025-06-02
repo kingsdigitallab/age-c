@@ -1,79 +1,147 @@
 {
-  "id": "FR2020_092",
-  "type": "Film",
-  "slug": "fr2020-092-sous-les-etoiles-de-paris",
-  "title": {
-    "native": "Sous les \u00e9toiles de Paris",
-    "english": "Under the Stars of Paris"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-10-28",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2020_092",
+    "slug": "fr2020-092-sous-les-etoiles-de-paris",
+    "title": {
+        "native": "Sous les \u00e9toiles de Paris",
+        "english": "Under the Stars of Paris"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=okfinlE85gY",
-    "posterUrl": "https://medias.unifrance.org/medias/128/85/218496/format_page/sous-les-etoiles-de-paris.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "precarity",
-    "intergenerational friendship",
-    "low rank employment",
-    "homelessness",
-    "loneliness",
-    "self-employment",
-    "urban",
-    "sex work",
-    "rescue mission"
-  ],
-  "director": [
-    {
-      "id": "Claus Drexel",
-      "slug": "claus-drexel",
-      "name": "Claus Drexel",
-      "birthYear": 1968,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2020_093_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Catherine Frot",
-        "slug": "catherine-frot",
-        "name": "Catherine Frot",
-        "birthYear": 1956.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Depuis de nombreuses ann\u00e9es, Christine vit sous un pont de Paris, isol\u00e9e de toute famille et amis. Par une nuit comme il n\u2019en existe que dans les contes, un jeune gar\u00e7on de 8 ans fait irruption devant son abri. Suli ne parle pas fran\u00e7ais, il est perdu, s\u00e9par\u00e9 de sa m\u00e8re\u2026 Ensemble, ils partent \u00e0 sa recherche. \u00c0 travers les rues de Paris, Christine et Suli vont apprendre \u00e0 se conna\u00eetre et \u00e0 s\u2019apprivoiser. Et Christine \u00e0 retrouver une humanit\u00e9 qu\u2019elle croyait disparue.",
-    "english": "Christine's life has not been easy lately. Her lonely routine is divided between free food banks distributions and wandering the streets of Paris. On a cold winter night, she finds Suli, an 8-year-old Burkinabe boy, sobbing in front of her shelter. Christine understands that he is lost and has been separated from his mother. Bounded by their marginal condition, they embark together on an emotional journey full of tenderness to find Suli\u2019s mother in the underground world of Paris."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2020-10-28",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Claus Drexel",
+            "slug": "claus-drexel",
+            "name": "Claus Drexel",
+            "birthYear": 1968,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/128/85/218496/format_page/sous-les-etoiles-de-paris.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=okfinlE85gY"
+    },
+    "synopsis": {
+        "native": "Depuis de nombreuses ann\u00e9es, Christine vit sous un pont de Paris, isol\u00e9e de toute famille et amis. Par une nuit comme il n\u2019en existe que dans les contes, un jeune gar\u00e7on de 8 ans fait irruption devant son abri. Suli ne parle pas fran\u00e7ais, il est perdu, s\u00e9par\u00e9 de sa m\u00e8re\u2026 Ensemble, ils partent \u00e0 sa recherche. \u00c0 travers les rues de Paris, Christine et Suli vont apprendre \u00e0 se conna\u00eetre et \u00e0 s\u2019apprivoiser. Et Christine \u00e0 retrouver une humanit\u00e9 qu\u2019elle croyait disparue.",
+        "english": "Christine's life has not been easy lately. Her lonely routine is divided between free food banks distributions and wandering the streets of Paris. On a cold winter night, she finds Suli, an 8-year-old Burkinabe boy, sobbing in front of her shelter. Christine understands that he is lost and has been separated from his mother. Bounded by their marginal condition, they embark together on an emotional journey full of tenderness to find Suli\u2019s mother in the underground world of Paris."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2020_093_01",
+            "film": "FR2020_092",
+            "person": {
+                "id": "Catherine Frot",
+                "slug": "catherine-frot",
+                "name": "Catherine Frot",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Catherine Frot",
+                "slug": "catherine-frot",
+                "name": "Catherine Frot",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Claus Drexel",
+                "slug": "claus-drexel",
+                "name": "Claus Drexel",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Dominique Frot",
+                "slug": "dominique-frot",
+                "name": "Dominique Frot",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": "Farida Rahouadj",
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Jean-Henri Comp\u00e8re",
+                "slug": "jean-henri-compere",
+                "name": "Jean-Henri Comp\u00e8re",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Rapha\u00ebl Thi\u00e9ry",
+                "slug": "raphael-thiery",
+                "name": "Rapha\u00ebl Thi\u00e9ry",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "self-employment",
+        "homelessness",
+        "intergenerational friendship",
+        "loneliness",
+        "urban",
+        "rescue mission",
+        "precarity",
+        "sex work",
+        "low rank employment"
+    ]
 }

@@ -1,29 +1,39 @@
 {
-  "id": "L\u00e1szl\u00f3 Nemes",
-  "type": "Biography",
-  "slug": "laszlo-nemes",
-  "name": "L\u00e1szl\u00f3 Nemes",
-  "birthYear": 1977,
-  "nationality": "Hungary",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "HU2018_006",
-      "production": {
-        "country": "France",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "hu2018-006-napszallta",
-      "title": {
-        "english": "Sunset",
-        "native": "Napsz\u00e1llta"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "L\u00e1szl\u00f3 Nemes",
+    "slug": "laszlo-nemes",
+    "name": "L\u00e1szl\u00f3 Nemes",
+    "birthYear": 1977,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Hungary",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "HU2018_006",
+                "slug": "hu2018-006-napszallta",
+                "title": {
+                    "native": "Napsz\u00e1llta",
+                    "english": "Sunset"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-09-27",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,30 +1,43 @@
 {
-  "id": "Paula Cons",
-  "type": "Biography",
-  "slug": "paula-cons",
-  "name": "Paula Cons",
-  "birthYear": 1976,
-  "nationality": "Spain",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Thriller",
-      "id": "ES2020_063",
-      "production": {
-        "country": "Portugal",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "es2020-063-la-isla-de-las-mentiras",
-      "tags": "migration",
-      "title": {
-        "english": "The Island of Lies",
-        "native": "La isla de las mentiras"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Paula Cons",
+    "slug": "paula-cons",
+    "name": "Paula Cons",
+    "birthYear": 1976,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2020_063",
+                "slug": "es2020-063-la-isla-de-las-mentiras",
+                "title": {
+                    "native": "La isla de las mentiras",
+                    "english": "The Island of Lies"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-10-02",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Argentina",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Portugal",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,29 +1,39 @@
 {
-  "id": "Ximo Solano",
-  "type": "Biography",
-  "slug": "ximo-solano",
-  "name": "Ximo Solano",
-  "birthYear": 1967,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Participatory mode",
-      "id": "IT2023_133",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "it2023-133-daniel-pennac-ho-visto-maradona",
-      "tags": "regional identity",
-      "title": {
-        "native": "Daniel Pennac: Ho visto Maradona!"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Ximo Solano",
+    "slug": "ximo-solano",
+    "name": "Ximo Solano",
+    "birthYear": 1967,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2023_133",
+                "slug": "it2023-133-daniel-pennac-ho-visto-maradona",
+                "title": {
+                    "native": "Daniel Pennac: Ho visto Maradona!",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-04-03",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Spain",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

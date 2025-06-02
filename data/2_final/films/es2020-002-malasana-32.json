@@ -1,119 +1,162 @@
 {
-  "id": "ES2020_002",
-  "type": "Film",
-  "slug": "es2020-002-malasana-32",
-  "title": {
-    "native": "Malasa\u00f1a 32",
-    "english": "32 Malasa\u00f1a Street"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-01-17",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "ES2020_002",
+    "slug": "es2020-002-malasana-32",
+    "title": {
+        "native": "Malasa\u00f1a 32",
+        "english": "32 Malasa\u00f1a Street"
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=ICungV3Iwyw",
-    "posterUrl": "https://www.imdb.com/title/tt10952782/mediaviewer/rm2127401985/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Horror"
-  ],
-  "tags": [
-    "gentrification",
-    "grayface",
-    "intergenerational conflict",
-    "spirituality",
-    "independent home",
-    "multigenerational family relations",
-    "personal trauma",
-    "cultural memory",
-    "new start",
-    "urban",
-    "class conflict",
-    "abuse",
-    "supernatural entity",
-    "widowhood"
-  ],
-  "director": [
-    {
-      "id": "Albert Pint\u00f3",
-      "slug": "albert-pinto",
-      "name": "Albert Pint\u00f3",
-      "birthYear": 1985,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2020_002_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Concha Velasco"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2020-01-17",
+        "year": 2020
     },
-    {
-      "id": "ES2020_002_02",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Javier Botet",
-        "slug": "javier-botet",
-        "name": "Javier Botet",
-        "birthYear": 1977.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Albert Pint\u00f3",
+            "slug": "albert-pinto",
+            "name": "Albert Pint\u00f3",
+            "birthYear": 1985,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Horror"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt10952782/mediaviewer/rm2127401985/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=ICungV3Iwyw"
     },
-    {
-      "id": "ES2020_002_03",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "Yes",
-      "person": {
-        "id": "Jos\u00e9 Luis de Madariaga",
-        "slug": "jose-luis-de-madariaga",
-        "name": "Jos\u00e9 Luis de Madariaga",
-        "birthYear": 1944.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Manolo y Candela se instalan en el madrile\u00f1o barrio de Malasa\u00f1a, junto a sus tres hijos y el abuelo Ferm\u00edn. Atr\u00e1s dejan el pueblo en busca de la prosperidad que parece ofrecerles la capital de un pa\u00eds que se encuentra en plena transici\u00f3n. Pero hay algo que la familia Olmedo no sabe: en la casa que han comprado, no est\u00e1n solos...",
-    "english": "A family moving to a new house to live the dream of the big city. A house where dreams turn in nightmares."
-  }
+    "synopsis": {
+        "native": "Manolo y Candela se instalan en el madrile\u00f1o barrio de Malasa\u00f1a, junto a sus tres hijos y el abuelo Ferm\u00edn. Atr\u00e1s dejan el pueblo en busca de la prosperidad que parece ofrecerles la capital de un pa\u00eds que se encuentra en plena transici\u00f3n. Pero hay algo que la familia Olmedo no sabe: en la casa que han comprado, no est\u00e1n solos...",
+        "english": "A family moving to a new house to live the dream of the big city. A house where dreams turn in nightmares."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2020_002_01",
+            "film": "ES2020_002",
+            "person": "Concha Velasco",
+            "age": "4: Fourth Age (>75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "Unknown"
+        },
+        {
+            "id": "ES2020_002_02",
+            "film": "ES2020_002",
+            "person": {
+                "id": "Javier Botet",
+                "slug": "javier-botet",
+                "name": "Javier Botet",
+                "birthYear": 1977,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2020_002_03",
+            "film": "ES2020_002",
+            "person": {
+                "id": "Jos\u00e9 Luis de Madariaga",
+                "slug": "jose-luis-de-madariaga",
+                "name": "Jos\u00e9 Luis de Madariaga",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "Yes"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Albert Pint\u00f3",
+                "slug": "albert-pinto",
+                "name": "Albert Pint\u00f3",
+                "birthYear": 1985,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": "Concha Velasco",
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Javier Botet",
+                "slug": "javier-botet",
+                "name": "Javier Botet",
+                "birthYear": 1977,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Jos\u00e9 Luis de Madariaga",
+                "slug": "jose-luis-de-madariaga",
+                "name": "Jos\u00e9 Luis de Madariaga",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "new start",
+        "multigenerational family relations",
+        "grayface",
+        "intergenerational conflict",
+        "abuse",
+        "cultural memory",
+        "personal trauma",
+        "urban",
+        "independent home",
+        "spirituality",
+        "gentrification",
+        "class conflict",
+        "supernatural entity",
+        "widowhood"
+    ]
 }

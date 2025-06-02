@@ -1,96 +1,129 @@
 {
-  "id": "GB2021_025",
-  "type": "Film",
-  "slug": "gb2021-025-the-obscure-life-of-the-grand-duke-of-corsica",
-  "title": {
-    "native": "The Obscure Life of the Grand Duke of Corsica"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-09-17",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=zd_lPWY1Dp8",
-    "posterUrl": "https://www.imdb.com/title/tt8400856/mediaviewer/rm834974465/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Historical film (Heritage Film)",
-    "Drama"
-  ],
-  "tags": [
-    "natural death",
-    "wealth",
-    "high rank employment",
-    "artistic creation",
-    "spirituality",
-    "independent home",
-    "power",
-    "intragenerational friendship",
-    "legacy",
-    "celebrity",
-    "homosociality",
-    "physical illness",
-    "medical treatment",
-    "burial",
-    "superior-employee relationship",
-    "agony"
-  ],
-  "director": [
-    {
-      "id": "Daniel Graham",
-      "slug": "daniel-graham",
-      "name": "Daniel Graham",
-      "gender": "Male identifying",
-      "nationality": "Australia"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2021_025_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Timothy Spall",
-        "slug": "timothy-spall",
-        "name": "Timothy Spall",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "GB2021_025",
+    "slug": "gb2021-025-the-obscure-life-of-the-grand-duke-of-corsica",
+    "title": {
+        "native": "The Obscure Life of the Grand Duke of Corsica",
+        "english": ""
     },
-    {
-      "id": "GB2021_025_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Chronic illness",
-      "assistedMobility": "Yes",
-      "person": {
-        "id": "Peter Stormare"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "In 1221 a young man is set on his path to becoming St. Francis of Assisi. A thousand years later an architect must build a mausoleum for a dying billionaire. Separated by history, these men's lives will be forever changed by a pandemic."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2021-09-17",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Daniel Graham",
+            "slug": "daniel-graham",
+            "name": "Daniel Graham",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Australia"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Drama",
+        "Historical film (Heritage Film)"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt8400856/mediaviewer/rm834974465/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=zd_lPWY1Dp8"
+    },
+    "synopsis": {
+        "native": "In 1221 a young man is set on his path to becoming St. Francis of Assisi. A thousand years later an architect must build a mausoleum for a dying billionaire. Separated by history, these men's lives will be forever changed by a pandemic.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2021_025_01",
+            "film": "GB2021_025",
+            "person": {
+                "id": "Timothy Spall",
+                "slug": "timothy-spall",
+                "name": "Timothy Spall",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2021_025_02",
+            "film": "GB2021_025",
+            "person": "Peter Stormare",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Chronic illness",
+            "assistedMobility": "Yes"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Daniel Graham",
+                "slug": "daniel-graham",
+                "name": "Daniel Graham",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Australia"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": "Peter Stormare",
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Timothy Spall",
+                "slug": "timothy-spall",
+                "name": "Timothy Spall",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "burial",
+        "physical illness",
+        "medical treatment",
+        "agony",
+        "natural death",
+        "homosociality",
+        "intragenerational friendship",
+        "legacy",
+        "power",
+        "independent home",
+        "wealth",
+        "high rank employment",
+        "superior-employee relationship",
+        "artistic creation",
+        "celebrity",
+        "spirituality"
+    ]
 }

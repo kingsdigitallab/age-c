@@ -1,90 +1,144 @@
 {
-  "id": "GB2020_030",
-  "type": "Film",
-  "slug": "gb2020-030-philophobia",
-  "title": {
-    "native": "Philophobia",
-    "english": "As I Am"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-10-30",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt7201744/?ref_=ttrel_ov",
-    "posterUrl": "https://www.imdb.com/title/tt7201744/mediaviewer/rm3221929985/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Coming of Age",
-    "Romance",
-    "Drama"
-  ],
-  "tags": [
-    "state institutions",
-    "low rank employment",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Guy Davies",
-      "slug": "guy-davies",
-      "name": "Guy Davies",
-      "birthYear": 1991,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2020_030_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Marc Danbury",
-        "slug": "marc-danbury",
-        "name": "Marc Danbury",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "GB2020_030",
+    "slug": "gb2020-030-philophobia",
+    "title": {
+        "native": "Philophobia",
+        "english": "As I Am"
     },
-    {
-      "id": "GB2020_030_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "James Faulkner",
-        "slug": "james-faulkner",
-        "name": "James Faulkner",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Set in the English countryside, As I Am depicts small town adolescence. One week of school remains for Kai, an aspiring writer, and his friends. How they spend this time will cost one of them their life and leave them changed forever."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2020-10-30",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Guy Davies",
+            "slug": "guy-davies",
+            "name": "Guy Davies",
+            "birthYear": 1991,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Coming of Age",
+        "Drama",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt7201744/mediaviewer/rm3221929985/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt7201744/?ref_=ttrel_ov"
+    },
+    "synopsis": {
+        "native": "Set in the English countryside, As I Am depicts small town adolescence. One week of school remains for Kai, an aspiring writer, and his friends. How they spend this time will cost one of them their life and leave them changed forever.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2020_030_01",
+            "film": "GB2020_030",
+            "person": {
+                "id": "James Faulkner",
+                "slug": "james-faulkner",
+                "name": "James Faulkner",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2020_030_02",
+            "film": "GB2020_030",
+            "person": {
+                "id": "Marc Danbury",
+                "slug": "marc-danbury",
+                "name": "Marc Danbury",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Guy Davies",
+                "slug": "guy-davies",
+                "name": "Guy Davies",
+                "birthYear": 1991,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "James Faulkner",
+                "slug": "james-faulkner",
+                "name": "James Faulkner",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "James Graeme",
+                "slug": "james-graeme",
+                "name": "James Graeme",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Marc Danbury",
+                "slug": "marc-danbury",
+                "name": "Marc Danbury",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "state institutions",
+        "rural",
+        "low rank employment"
+    ]
 }

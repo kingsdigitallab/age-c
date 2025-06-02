@@ -1,129 +1,184 @@
 {
-  "id": "ES2023_055",
-  "type": "Film",
-  "slug": "es2023-055-mamacruz",
-  "title": {
-    "native": "Mamacruz"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-10-26",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=445839",
-    "posterUrl": "https://www.imdb.com/title/tt12390330/mediaviewer/rm654395905/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Drama"
-  ],
-  "tags": [
-    "motherhood",
-    "mentorship",
-    "grandmotherhood",
-    "urban",
-    "homosociality",
-    "retirement",
-    "ageism",
-    "class solidarity",
-    "intergenerational friendship",
-    "sex",
-    "intergenerational conflict",
-    "religion",
-    "caregiving",
-    "new start",
-    "women empowerment",
-    "marriage",
-    "self-employment",
-    "search for meaning",
-    "artistic creation",
-    "body norms",
-    "independent home",
-    "desire",
-    "volunteering"
-  ],
-  "director": [
-    {
-      "id": "Patricia Ortega",
-      "slug": "patricia-ortega",
-      "name": "Patricia Ortega",
-      "birthYear": 1977,
-      "gender": "Female identifying",
-      "nationality": "Venezuela (Bolivarian Republic of)"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2023_055_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Kiti M\u00e1nver",
-        "slug": "kiti-manver",
-        "name": "Kiti M\u00e1nver",
-        "birthYear": 1953.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "ES2023_055",
+    "slug": "es2023-055-mamacruz",
+    "title": {
+        "native": "Mamacruz",
+        "english": ""
     },
-    {
-      "id": "ES2023_055_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Pepe Quero",
-        "slug": "pepe-quero",
-        "name": "Pepe Quero",
-        "birthYear": 1960.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2023-10-26",
+        "year": 2023
     },
-    {
-      "id": "ES2023_055_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Chema del Barco",
-        "slug": "chema-del-barco",
-        "name": "Chema del Barco",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Cruz es una abuela que lleva muchos a\u00f1os, d\u00e9cadas ya, sin saber lo que es un orgasmo. Ella, devota de sus creencias religiosas, no le daba importancia ni tampoco se lo hab\u00eda planteado... hasta que un d\u00eda navegando por Internet empieza a sentir de nuevo deseos y sensaciones que ya cre\u00eda extinguidas. Pero, \u00bfC\u00f3mo compaginar su religiosidad con este nuevo despertar sexual y sensual que ha llegado de pronto a su vida?",
-    "english": "A religious grandmother learns how to use the internet. When she accidentally comes across pornography, she is faced with a dilemma."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Patricia Ortega",
+            "slug": "patricia-ortega",
+            "name": "Patricia Ortega",
+            "birthYear": 1977,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Venezuela (Bolivarian Republic of)"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt12390330/mediaviewer/rm654395905/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=445839"
+    },
+    "synopsis": {
+        "native": "Cruz es una abuela que lleva muchos a\u00f1os, d\u00e9cadas ya, sin saber lo que es un orgasmo. Ella, devota de sus creencias religiosas, no le daba importancia ni tampoco se lo hab\u00eda planteado... hasta que un d\u00eda navegando por Internet empieza a sentir de nuevo deseos y sensaciones que ya cre\u00eda extinguidas. Pero, \u00bfC\u00f3mo compaginar su religiosidad con este nuevo despertar sexual y sensual que ha llegado de pronto a su vida?",
+        "english": "A religious grandmother learns how to use the internet. When she accidentally comes across pornography, she is faced with a dilemma."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2023_055_01",
+            "film": "ES2023_055",
+            "person": {
+                "id": "Kiti M\u00e1nver",
+                "slug": "kiti-manver",
+                "name": "Kiti M\u00e1nver",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2023_055_02",
+            "film": "ES2023_055",
+            "person": {
+                "id": "Chema del Barco",
+                "slug": "chema-del-barco",
+                "name": "Chema del Barco",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2023_055_03",
+            "film": "ES2023_055",
+            "person": {
+                "id": "Pepe Quero",
+                "slug": "pepe-quero",
+                "name": "Pepe Quero",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Chema del Barco",
+                "slug": "chema-del-barco",
+                "name": "Chema del Barco",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Kiti M\u00e1nver",
+                "slug": "kiti-manver",
+                "name": "Kiti M\u00e1nver",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Patricia Ortega",
+                "slug": "patricia-ortega",
+                "name": "Patricia Ortega",
+                "birthYear": 1977,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Venezuela (Bolivarian Republic of)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Pepe Quero",
+                "slug": "pepe-quero",
+                "name": "Pepe Quero",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "new start",
+        "search for meaning",
+        "caregiving",
+        "motherhood",
+        "grandmotherhood",
+        "homosociality",
+        "intergenerational friendship",
+        "mentorship",
+        "intergenerational conflict",
+        "marriage",
+        "sex",
+        "desire",
+        "urban",
+        "independent home",
+        "self-employment",
+        "retirement",
+        "volunteering",
+        "artistic creation",
+        "religion",
+        "class solidarity",
+        "women empowerment",
+        "body norms",
+        "ageism"
+    ]
 }

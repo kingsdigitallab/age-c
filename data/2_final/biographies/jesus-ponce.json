@@ -1,47 +1,57 @@
 {
-  "id": "Jes\u00fas Ponce",
-  "type": "Biography",
-  "slug": "jesus-ponce",
-  "name": "Jes\u00fas Ponce",
-  "birthYear": 1971,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "ES2019_060",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "es2019-060-la-primera-cita",
-      "tags": "hospital",
-      "title": {
-        "native": "La primera cita"
-      }
-    },
-    {
-      "filmType": "Documentary",
-      "genre": "Metacinema",
-      "id": "ES2018_031",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "es2018-031-la-ultima-toma",
-      "tags": "cultural memory",
-      "title": {
-        "native": "La \u00faltima toma"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Jes\u00fas Ponce",
+    "slug": "jesus-ponce",
+    "name": "Jes\u00fas Ponce",
+    "birthYear": 1971,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2018_031",
+                "slug": "es2018-031-la-ultima-toma",
+                "title": {
+                    "native": "La \u00faltima toma",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-11-26",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "ES2019_060",
+                "slug": "es2019-060-la-primera-cita",
+                "title": {
+                    "native": "La primera cita",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-04-30",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

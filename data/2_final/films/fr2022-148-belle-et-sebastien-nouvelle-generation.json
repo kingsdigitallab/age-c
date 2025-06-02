@@ -1,71 +1,111 @@
 {
-  "id": "FR2022_148",
-  "type": "Film",
-  "slug": "fr2022-148-belle-et-sebastien-nouvelle-generation",
-  "title": {
-    "native": "Belle et S\u00e9bastien : Nouvelle g\u00e9n\u00e9ration",
-    "english": "Belle and Sebastian - Next Generation"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-10-19",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=lsHJK0bgyRw",
-    "posterUrl": "https://medias.unifrance.org/medias/62/225/254270/format_page/belle-et-sebastien-nouvelle-generation.png"
-  },
-  "genre": [
-    "Children's Film"
-  ],
-  "tags": [
-    "grandparenthood",
-    "independent home",
-    "multigenerational family",
-    "self-employment",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Pierre Cor\u00e9",
-      "slug": "pierre-core",
-      "name": "Pierre Cor\u00e9",
-      "birthYear": 1969,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2022_148_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Mich\u00e8le Laroque",
-        "slug": "michele-laroque",
-        "name": "Mich\u00e8le Laroque",
-        "birthYear": 1960.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "S\u00e9bastien, 10 ans, passe ses vacances \u00e0 contrec\u0153ur \u00e0 la montagne chez sa grand-m\u00e8re et sa tante. Il doit donner un coup de main \u00e0 la bergerie, rien de bien excitant pour un gar\u00e7on des villes comme lui\u2026 mais c\u2019est sans compter sur sa rencontre avec Belle, une chienne immense et maltrait\u00e9e par son ma\u00eetre. Pr\u00eat \u00e0 tout pour \u00e9viter les injustices et prot\u00e9ger sa nouvelle amie, S\u00e9bastien va vivre l\u2019\u00e9t\u00e9 le plus fou de sa vie.",
-    "english": "10-year-old Sebastien reluctantly spends his vacation in the mountains with his grandmother and aunt. He is to help them with the sheep, hardly an exciting prospect for a city boy like him... but that is without considering his encounter with Belle, a huge dog mistreated by her owner. Ready to do anything to fight injustice and to protect his new-found friend, Sebastien will spend the craziest summer of his life."
-  }
+    "type": "Film",
+    "id": "FR2022_148",
+    "slug": "fr2022-148-belle-et-sebastien-nouvelle-generation",
+    "title": {
+        "native": "Belle et S\u00e9bastien : Nouvelle g\u00e9n\u00e9ration",
+        "english": "Belle and Sebastian - Next Generation"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-10-19",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Pierre Cor\u00e9",
+            "slug": "pierre-core",
+            "name": "Pierre Cor\u00e9",
+            "birthYear": 1969,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Children's Film"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/62/225/254270/format_page/belle-et-sebastien-nouvelle-generation.png",
+        "trailerUrl": "https://www.youtube.com/watch?v=lsHJK0bgyRw"
+    },
+    "synopsis": {
+        "native": "S\u00e9bastien, 10 ans, passe ses vacances \u00e0 contrec\u0153ur \u00e0 la montagne chez sa grand-m\u00e8re et sa tante. Il doit donner un coup de main \u00e0 la bergerie, rien de bien excitant pour un gar\u00e7on des villes comme lui\u2026 mais c\u2019est sans compter sur sa rencontre avec Belle, une chienne immense et maltrait\u00e9e par son ma\u00eetre. Pr\u00eat \u00e0 tout pour \u00e9viter les injustices et prot\u00e9ger sa nouvelle amie, S\u00e9bastien va vivre l\u2019\u00e9t\u00e9 le plus fou de sa vie.",
+        "english": "10-year-old Sebastien reluctantly spends his vacation in the mountains with his grandmother and aunt. He is to help them with the sheep, hardly an exciting prospect for a city boy like him... but that is without considering his encounter with Belle, a huge dog mistreated by her owner. Ready to do anything to fight injustice and to protect his new-found friend, Sebastien will spend the craziest summer of his life."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_148_01",
+            "film": "FR2022_148",
+            "person": {
+                "id": "Mich\u00e8le Laroque",
+                "slug": "michele-laroque",
+                "name": "Mich\u00e8le Laroque",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Aur\u00e9lien Recoing",
+                "slug": "aurelien-recoing",
+                "name": "Aur\u00e9lien Recoing",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Mich\u00e8le Laroque",
+                "slug": "michele-laroque",
+                "name": "Mich\u00e8le Laroque",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Pierre Cor\u00e9",
+                "slug": "pierre-core",
+                "name": "Pierre Cor\u00e9",
+                "birthYear": 1969,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "rural",
+        "grandparenthood",
+        "multigenerational family",
+        "independent home",
+        "self-employment"
+    ]
 }

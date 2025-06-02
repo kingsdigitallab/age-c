@@ -1,101 +1,181 @@
 {
-  "id": "FR2022_154",
-  "type": "Film",
-  "slug": "fr2022-154-plancha",
-  "title": {
-    "native": "Plancha",
-    "english": "Happy 50"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-10-26",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=RRY2Qx1PFDw",
-    "posterUrl": "https://medias.unifrance.org/medias/119/228/255095/format_page/plancha.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "holiday",
-    "marriage",
-    "regional identity",
-    "homosociality",
-    "rural"
-  ],
-  "character": [
-    {
-      "id": "FR2022_154_03",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Guillaume de Tonqu\u00e9dec",
-        "slug": "guillaume-de-tonquedec",
-        "name": "Guillaume de Tonqu\u00e9dec",
-        "birthYear": 1966.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "FR2022_154",
+    "slug": "fr2022-154-plancha",
+    "title": {
+        "native": "Plancha",
+        "english": "Happy 50"
     },
-    {
-      "id": "FR2022_154_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Franck Dubosc",
-        "slug": "franck-dubosc",
-        "name": "Franck Dubosc",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2022-10-26",
+        "year": 2022
     },
-    {
-      "id": "FR2022_154_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Lambert Wilson",
-        "slug": "lambert-wilson",
-        "name": "Lambert Wilson",
-        "birthYear": 1958.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Un groupe d\u2019amis se r\u00e9jouit de f\u00eater les 50 ans de l\u2019un d\u2019entre eux, Yves, en Gr\u00e8ce. Mais l\u2019annulation de leur vol les contraint \u00e0 se rabattre sur le Finist\u00e8re, dans le manoir familial de Yves, qui, en tant que parfait breton, leur a bross\u00e9 un portrait idyllique de la Bretagne : vieilles pierres, lande fascinante, plages de sable fin et Fest Noz endiabl\u00e9s. Tout y est, en effet, mais sous la pluie. Et surtout, l\u2019anniversaire de Yves va \u00eatre l\u2019occasion de r\u00e9v\u00e9lations inattendues\u2026",
-    "english": "To celebrate Yves\u2019 50th birthday, his friends plan to take him to the sunny paradise of Paros in Greece. But due to a flight cancellation, the holiday will take place in a far less popular and much rainier destination: Yves\u2019 family home in Brittany. During the vacation, Antoine unveils an unusual gift: a DNA ancestry test for Yves and his family. This supposedly harmless joke has unforeseen consequences, and the friendship of the group is once again put to the test\u2026"
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        "Eric Lavaine"
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/119/228/255095/format_page/plancha.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=RRY2Qx1PFDw"
+    },
+    "synopsis": {
+        "native": "Un groupe d\u2019amis se r\u00e9jouit de f\u00eater les 50 ans de l\u2019un d\u2019entre eux, Yves, en Gr\u00e8ce. Mais l\u2019annulation de leur vol les contraint \u00e0 se rabattre sur le Finist\u00e8re, dans le manoir familial de Yves, qui, en tant que parfait breton, leur a bross\u00e9 un portrait idyllique de la Bretagne : vieilles pierres, lande fascinante, plages de sable fin et Fest Noz endiabl\u00e9s. Tout y est, en effet, mais sous la pluie. Et surtout, l\u2019anniversaire de Yves va \u00eatre l\u2019occasion de r\u00e9v\u00e9lations inattendues\u2026",
+        "english": "To celebrate Yves\u2019 50th birthday, his friends plan to take him to the sunny paradise of Paros in Greece. But due to a flight cancellation, the holiday will take place in a far less popular and much rainier destination: Yves\u2019 family home in Brittany. During the vacation, Antoine unveils an unusual gift: a DNA ancestry test for Yves and his family. This supposedly harmless joke has unforeseen consequences, and the friendship of the group is once again put to the test\u2026"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_154_01",
+            "film": "FR2022_154",
+            "person": {
+                "id": "Lambert Wilson",
+                "slug": "lambert-wilson",
+                "name": "Lambert Wilson",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "FR2022_154_02",
+            "film": "FR2022_154",
+            "person": {
+                "id": "Franck Dubosc",
+                "slug": "franck-dubosc",
+                "name": "Franck Dubosc",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "FR2022_154_03",
+            "film": "FR2022_154",
+            "person": {
+                "id": "Guillaume de Tonqu\u00e9dec",
+                "slug": "guillaume-de-tonquedec",
+                "name": "Guillaume de Tonqu\u00e9dec",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Franck Dubosc",
+                "slug": "franck-dubosc",
+                "name": "Franck Dubosc",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Guillaume de Tonqu\u00e9dec",
+                "slug": "guillaume-de-tonquedec",
+                "name": "Guillaume de Tonqu\u00e9dec",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Lambert Wilson",
+                "slug": "lambert-wilson",
+                "name": "Lambert Wilson",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Lionel Abelanski",
+                "slug": "lionel-abelanski",
+                "name": "Lionel Abelanski",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Sophie Duez",
+                "slug": "sophie-duez",
+                "name": "Sophie Duez",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "\u00c9ric Lavaine",
+                "slug": "eric-lavaine",
+                "name": "\u00c9ric Lavaine",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "holiday",
+        "homosociality",
+        "marriage",
+        "rural",
+        "regional identity"
+    ]
 }

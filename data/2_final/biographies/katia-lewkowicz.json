@@ -1,29 +1,35 @@
 {
-  "id": "Katia Lewkowicz",
-  "type": "Biography",
-  "slug": "katia-lewkowicz",
-  "name": "Katia Lewkowicz",
-  "birthYear": 1973,
-  "nationality": "France",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2020_095",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "VOD release"
-      },
-      "slug": "fr2020-095-forte",
-      "tags": "artistic creation",
-      "title": {
-        "english": "Ballsy Girl",
-        "native": "Forte"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Katia Lewkowicz",
+    "slug": "katia-lewkowicz",
+    "name": "Katia Lewkowicz",
+    "birthYear": 1973,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2020_095",
+                "slug": "fr2020-095-forte",
+                "title": {
+                    "native": "Forte",
+                    "english": "Ballsy Girl"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": null,
+                    "year": 0
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

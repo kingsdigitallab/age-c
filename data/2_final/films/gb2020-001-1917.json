@@ -1,91 +1,141 @@
 {
-  "id": "GB2020_001",
-  "type": "Film",
-  "slug": "gb2020-001-1917",
-  "title": {
-    "native": "1917"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-01-10",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "GB2020_001",
+    "slug": "gb2020-001-1917",
+    "title": {
+        "native": "1917",
+        "english": ""
     },
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "genre": [
-    "Coming of Age",
-    "War Film",
-    "Drama"
-  ],
-  "tags": [
-    "high rank employment",
-    "national identity",
-    "power",
-    "cultural memory",
-    "war",
-    "state institutions",
-    "homosociality",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Sam Mendes",
-      "slug": "sam-mendes",
-      "name": "Sam Mendes",
-      "birthYear": 1965,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2020_001_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Mark Strong",
-        "slug": "mark-strong",
-        "name": "Mark Strong",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2020-01-10",
+        "year": 2020
     },
-    {
-      "id": "GB2020_001_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Colin Firth",
-        "slug": "colin-firth",
-        "name": "Colin Firth",
-        "birthYear": 1960.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
-    }
-  ]
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Sam Mendes",
+            "slug": "sam-mendes",
+            "name": "Sam Mendes",
+            "birthYear": 1965,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "War Film",
+        "Drama",
+        "Coming of Age"
+    ],
+    "media": {
+        "posterUrl": "",
+        "trailerUrl": ""
+    },
+    "synopsis": {
+        "native": "",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2020_001_01",
+            "film": "GB2020_001",
+            "person": {
+                "id": "Colin Firth",
+                "slug": "colin-firth",
+                "name": "Colin Firth",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2020_001_01",
+            "film": "GB2020_001",
+            "person": {
+                "id": "Mark Strong",
+                "slug": "mark-strong",
+                "name": "Mark Strong",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Colin Firth",
+                "slug": "colin-firth",
+                "name": "Colin Firth",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Mark Strong",
+                "slug": "mark-strong",
+                "name": "Mark Strong",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Sam Mendes",
+                "slug": "sam-mendes",
+                "name": "Sam Mendes",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "homosociality",
+        "cultural memory",
+        "superior-employee relationship",
+        "high rank employment",
+        "power",
+        "war",
+        "national identity",
+        "state institutions"
+    ]
 }

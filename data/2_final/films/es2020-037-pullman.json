@@ -1,41 +1,71 @@
 {
-  "id": "ES2020_037",
-  "type": "Film",
-  "slug": "es2020-037-pullman",
-  "title": {
-    "native": "Pullman"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-09-24",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=219557",
-    "posterUrl": "https://www.imdb.com/title/tt9053522/mediaviewer/rm1397789697/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Unknown"
-  ],
-  "director": [
-    {
-      "id": "Toni Bestard",
-      "slug": "toni-bestard",
-      "name": "Toni Bestard",
-      "birthYear": 1973,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Dos ni\u00f1os, Daren y Nadia, viven un viaje inici\u00e1tico durante el primer d\u00eda de sus vacaciones de verano. Desde los apartamentos Pullman, donde residen, hasta una famosa zona de ocio nocturno de Mallorca, reflejo del turismo de bajo coste, los ni\u00f1os vivir\u00e1n situaciones que les acompa\u00f1ar\u00e1n para siempre en su viaje hacia la vida adulta.",
-    "english": "Two kids experience an initiatory journey during their first day of summer holidays."
-  }
+    "type": "Film",
+    "id": "ES2020_037",
+    "slug": "es2020-037-pullman",
+    "title": {
+        "native": "Pullman",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-09-24",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Toni Bestard",
+            "slug": "toni-bestard",
+            "name": "Toni Bestard",
+            "birthYear": 1973,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Unknown"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9053522/mediaviewer/rm1397789697/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=219557"
+    },
+    "synopsis": {
+        "native": "Dos ni\u00f1os, Daren y Nadia, viven un viaje inici\u00e1tico durante el primer d\u00eda de sus vacaciones de verano. Desde los apartamentos Pullman, donde residen, hasta una famosa zona de ocio nocturno de Mallorca, reflejo del turismo de bajo coste, los ni\u00f1os vivir\u00e1n situaciones que les acompa\u00f1ar\u00e1n para siempre en su viaje hacia la vida adulta.",
+        "english": "Two kids experience an initiatory journey during their first day of summer holidays."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Rafel Ramis",
+                "slug": "rafel-ramis",
+                "name": "Rafel Ramis",
+                "birthYear": 1950,
+                "deathYear": 2022,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Toni Bestard",
+                "slug": "toni-bestard",
+                "name": "Toni Bestard",
+                "birthYear": 1973,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": []
 }

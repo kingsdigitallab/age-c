@@ -1,47 +1,100 @@
 {
-  "id": "IT2021_052",
-  "type": "Film",
-  "slug": "it2021-052-django-django",
-  "title": {
-    "native": "Django & Django"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-11-15",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=4n3lBgd-oBY",
-    "posterUrl": "https://www.imdb.com/title/tt15119170/mediaviewer/rm4281138689/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Metacinema",
-    "Biopic"
-  ],
-  "tags": [
-    "personal memory",
-    "artistic creation"
-  ],
-  "director": [
-    {
-      "id": "Luca Rea",
-      "slug": "luca-rea",
-      "name": "Luca Rea",
-      "birthYear": 1971,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "synopsis": {
-    "native": "Quentin Tarantino, narratore d\u2019eccezione, racconta perch\u00e9 Sergio Corbucci \u00e8 \u201cil secondo miglior regista di western italiani\u201d, come afferma un personaggio nel suo recente film C\u2019era una volta a Hollywood e come conferma la sua scelta di realizzare Django Unchained ispirandosi a un film di Corbucci degli anni Sessanta. Materiali d\u2019epoca inediti, testimonianze e ricostruzioni per raccontare un cinema e un\u2019epoca irripetibili. Django, Il grande silenzio, Gli specialisti, Il mercenario, Vamos a matar compa\u00f1eros, Cosa c\u2019entriamo noi con la rivoluzione: i western di Corbucci come cinema della crudelt\u00e0, ma anche come grande invenzione e come metafora di tutte le idee che circolavano nell\u2019Italia degli anni Sessanta. Con le testimonianze di Franco Nero (l\u2019attore preferito di Corbucci) e Ruggero Deodato (l\u2019aiuto regista di Django), con i Super8 inediti realizzati sui set dei film del regista romano, con le immagini degli anni in cui il cinema italiano sapeva parlare a tutto il mondo. E con le animazioni che ricostruiscono un clima, uno spirito, un modo di vivere e di concepire il cinema.",
-    "english": "An homage to Italian director Sergio Corbucci of the 1960s and contemporary director Quentin Tarantino, recounting a memorable period in Italian cinema with the sensibility of today."
-  }
+    "type": "Film",
+    "id": "IT2021_052",
+    "slug": "it2021-052-django-django",
+    "title": {
+        "native": "Django & Django",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-11-15",
+        "year": 2021
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Luca Rea",
+            "slug": "luca-rea",
+            "name": "Luca Rea",
+            "birthYear": 1971,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Metacinema",
+        "Biopic"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt15119170/mediaviewer/rm4281138689/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=4n3lBgd-oBY"
+    },
+    "synopsis": {
+        "native": "Quentin Tarantino, narratore d\u2019eccezione, racconta perch\u00e9 Sergio Corbucci \u00e8 \u201cil secondo miglior regista di western italiani\u201d, come afferma un personaggio nel suo recente film C\u2019era una volta a Hollywood e come conferma la sua scelta di realizzare Django Unchained ispirandosi a un film di Corbucci degli anni Sessanta. Materiali d\u2019epoca inediti, testimonianze e ricostruzioni per raccontare un cinema e un\u2019epoca irripetibili. Django, Il grande silenzio, Gli specialisti, Il mercenario, Vamos a matar compa\u00f1eros, Cosa c\u2019entriamo noi con la rivoluzione: i western di Corbucci come cinema della crudelt\u00e0, ma anche come grande invenzione e come metafora di tutte le idee che circolavano nell\u2019Italia degli anni Sessanta. Con le testimonianze di Franco Nero (l\u2019attore preferito di Corbucci) e Ruggero Deodato (l\u2019aiuto regista di Django), con i Super8 inediti realizzati sui set dei film del regista romano, con le immagini degli anni in cui il cinema italiano sapeva parlare a tutto il mondo. E con le animazioni che ricostruiscono un clima, uno spirito, un modo di vivere e di concepire il cinema.",
+        "english": "An homage to Italian director Sergio Corbucci of the 1960s and contemporary director Quentin Tarantino, recounting a memorable period in Italian cinema with the sensibility of today."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Franco Nero",
+                "slug": "franco-nero",
+                "name": "Franco Nero",
+                "birthYear": 1941,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Luca Rea",
+                "slug": "luca-rea",
+                "name": "Luca Rea",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Quentin Tarantino",
+                "slug": "quentin-tarantino",
+                "name": "Quentin Tarantino",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Ruggero Deodato",
+                "slug": "ruggero-deodato",
+                "name": "Ruggero Deodato",
+                "birthYear": 1939,
+                "deathYear": 2022,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "personal memory"
+    ]
 }

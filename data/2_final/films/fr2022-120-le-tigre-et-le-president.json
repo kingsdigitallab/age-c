@@ -1,97 +1,211 @@
 {
-  "id": "FR2022_120",
-  "type": "Film",
-  "slug": "fr2022-120-le-tigre-et-le-president",
-  "title": {
-    "native": "Le Tigre et le Pr\u00e9sident",
-    "english": "The Vanished President"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-09-07",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2022_120",
+    "slug": "fr2022-120-le-tigre-et-le-president",
+    "title": {
+        "native": "Le Tigre et le Pr\u00e9sident",
+        "english": "The Vanished President"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=NEXVa-FqfNw",
-    "posterUrl": "https://medias.unifrance.org/medias/27/217/252187/format_page/le-tigre-et-le-president.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Biopic"
-  ],
-  "tags": [
-    "marriage",
-    "national identity",
-    "state institutions",
-    "urban",
-    "celebrity",
-    "professional politics",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Jean-Marc Peyrefitte",
-      "slug": "jean-marc-peyrefitte",
-      "name": "Jean-Marc Peyrefitte",
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2022_120_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Jacques Gamblin",
-        "slug": "jacques-gamblin",
-        "name": "Jacques Gamblin",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2022-09-07",
+        "year": 2022
     },
-    {
-      "id": "FR2022_120_02",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Andr\u00e9 Dussollier",
-        "slug": "andre-dussollier",
-        "name": "Andr\u00e9 Dussollier",
-        "birthYear": 1946.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "1920, les anne\u0301es folles. Georges Clemenceau vient de perdre l\u2019e\u0301lection pre\u0301sidentielle face a\u0300 l'inconnu Paul Deschanel, un ide\u0301aliste qui veut changer le pays. Mais un soir ce dernier tombe d'un train et se volatilise. Au petit matin, la France cherche son pre\u0301sident, une occasion en or pour le Tigre Clemenceau...",
-    "english": "1920. Against all odds, Paul Deschanel, an idealist unknown to the general public, is elected President of the French Republic. His first steps in power are impressive. He makes a series of audacious proposals : abolition of the death penalty, the right to vote for women, universal suffrage! But the cynicism of the political world, the game of institutions and the violence of media campaigns catch up with him and soon derail him. One evening, he falls off a train and vanishes\u2026 The whole world wonders: what happened to the French President?"
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Jean-Marc Peyrefitte",
+            "slug": "jean-marc-peyrefitte",
+            "name": "Jean-Marc Peyrefitte",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Biopic"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/27/217/252187/format_page/le-tigre-et-le-president.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=NEXVa-FqfNw"
+    },
+    "synopsis": {
+        "native": "1920, les anne\u0301es folles. Georges Clemenceau vient de perdre l\u2019e\u0301lection pre\u0301sidentielle face a\u0300 l'inconnu Paul Deschanel, un ide\u0301aliste qui veut changer le pays. Mais un soir ce dernier tombe d'un train et se volatilise. Au petit matin, la France cherche son pre\u0301sident, une occasion en or pour le Tigre Clemenceau...",
+        "english": "1920. Against all odds, Paul Deschanel, an idealist unknown to the general public, is elected President of the French Republic. His first steps in power are impressive. He makes a series of audacious proposals : abolition of the death penalty, the right to vote for women, universal suffrage! But the cynicism of the political world, the game of institutions and the violence of media campaigns catch up with him and soon derail him. One evening, he falls off a train and vanishes\u2026 The whole world wonders: what happened to the French President?"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_120_01",
+            "film": "FR2022_120",
+            "person": {
+                "id": "Jacques Gamblin",
+                "slug": "jacques-gamblin",
+                "name": "Jacques Gamblin",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "FR2022_120_02",
+            "film": "FR2022_120",
+            "person": {
+                "id": "Andr\u00e9 Dussollier",
+                "slug": "andre-dussollier",
+                "name": "Andr\u00e9 Dussollier",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alexandre von Sivers",
+                "slug": "alexandre-von-sivers",
+                "name": "Alexandre von Sivers",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Andr\u00e9 Dussollier",
+                "slug": "andre-dussollier",
+                "name": "Andr\u00e9 Dussollier",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Christian Hecq",
+                "slug": "christian-hecq",
+                "name": "Christian Hecq",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Jacques Gamblin",
+                "slug": "jacques-gamblin",
+                "name": "Jacques Gamblin",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Jean-Marc Peyrefitte",
+                "slug": "jean-marc-peyrefitte",
+                "name": "Jean-Marc Peyrefitte",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Laura Benson",
+                "slug": "laura-benson",
+                "name": "Laura Benson",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Olivier Claverie",
+                "slug": "olivier-claverie",
+                "name": "Olivier Claverie",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Olivier Cruveiller",
+                "slug": "olivier-cruveiller",
+                "name": "Olivier Cruveiller",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Patrick d'Assum\u00e7ao",
+                "slug": "patrick-d-assumcao",
+                "name": "Patrick d'Assum\u00e7ao",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "professional politics",
+        "state institutions",
+        "marriage",
+        "urban",
+        "rural",
+        "celebrity",
+        "national identity"
+    ]
 }

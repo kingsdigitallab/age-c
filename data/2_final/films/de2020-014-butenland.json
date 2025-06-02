@@ -1,48 +1,89 @@
 {
-  "id": "DE2020_014",
-  "type": "Film",
-  "slug": "de2020-014-butenland",
-  "title": {
-    "native": "Butenland"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-02-06",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/video/vi789102361/?playlistId=tt11011980&ref_=tt_pr_ov_vi",
-    "posterUrl": "https://www.imdb.com/title/tt11011980/mediaviewer/rm1282377985/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "non-human companionship",
-    "activism",
-    "retirement",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Marc Pierschel",
-      "slug": "marc-pierschel",
-      "name": "Marc Pierschel",
-      "birthYear": 1978,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "Auf dem Hof Butenland d\u00fcrfen Rinder im Kuhaltersheim ihren letzten Lebensabend verbringen. Der ehemalige Milchbauer Jan Gerdes und seine Partnerin, die Tierschutzaktivistin Karin M\u00fcck, haben mit dem Geh\u00f6fft einen Ort geschaffen, der mit all seiner Friedlichkeit fast schon unwirklich wirkt. Im Gegensatz zu fast jedem anderen landwirtschaftlichen Betrieb steht bei ihnen nicht die Wirtschaftlichkeit im Mittelpunkt, sondern die Bed\u00fcrfnisse jedes (ehemaligen) Nutztieres. Der Filmemacher Marc Pierschel hat das Paar zwei Jahre lang mit seiner Kamera begleitet und hinterfragt mit seinem Dokumentarfilm den gegenw\u00e4rtigen gesellschaftlichen Status der Tiere.",
-    "english": "The story of a dairy farmer turned activist who converted his farm into the first retirement home for cows."
-  }
+    "type": "Film",
+    "id": "DE2020_014",
+    "slug": "de2020-014-butenland",
+    "title": {
+        "native": "Butenland",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-02-06",
+        "year": 2020
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Marc Pierschel",
+            "slug": "marc-pierschel",
+            "name": "Marc Pierschel",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Documentary \u2013 Performative mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt11011980/mediaviewer/rm1282377985/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/video/vi789102361/?playlistId=tt11011980&ref_=tt_pr_ov_vi"
+    },
+    "synopsis": {
+        "native": "Auf dem Hof Butenland d\u00fcrfen Rinder im Kuhaltersheim ihren letzten Lebensabend verbringen. Der ehemalige Milchbauer Jan Gerdes und seine Partnerin, die Tierschutzaktivistin Karin M\u00fcck, haben mit dem Geh\u00f6fft einen Ort geschaffen, der mit all seiner Friedlichkeit fast schon unwirklich wirkt. Im Gegensatz zu fast jedem anderen landwirtschaftlichen Betrieb steht bei ihnen nicht die Wirtschaftlichkeit im Mittelpunkt, sondern die Bed\u00fcrfnisse jedes (ehemaligen) Nutztieres. Der Filmemacher Marc Pierschel hat das Paar zwei Jahre lang mit seiner Kamera begleitet und hinterfragt mit seinem Dokumentarfilm den gegenw\u00e4rtigen gesellschaftlichen Status der Tiere.",
+        "english": "The story of a dairy farmer turned activist who converted his farm into the first retirement home for cows."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Jan Gerdes",
+                "slug": "jan-gerdes",
+                "name": "Jan Gerdes",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Karin M\u00fcck",
+                "slug": "karin-muck",
+                "name": "Karin M\u00fcck",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Marc Pierschel",
+                "slug": "marc-pierschel",
+                "name": "Marc Pierschel",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "retirement",
+        "non-human companionship",
+        "activism",
+        "rural"
+    ]
 }

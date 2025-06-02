@@ -1,48 +1,108 @@
 {
-  "id": "FR2018_101",
-  "type": "Film",
-  "slug": "fr2018-101-la-legende",
-  "title": {
-    "native": "La L\u00e9gende",
-    "english": "The Legend"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-06-06",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=7Kk8ArH4xMA",
-    "posterUrl": "https://medias.unifrance.org/medias/98/205/183650/format_page/the-legend.jpg"
-  },
-  "genre": [
-    "Sports Film",
-    "Drama"
-  ],
-  "tags": [
-    "mentorship",
-    "high rank employment",
-    "power"
-  ],
-  "director": [
-    {
-      "id": "Florian Hessique",
-      "slug": "florian-hessique",
-      "name": "Florian Hessique",
-      "birthYear": 1987,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "\u00c0 25 ans, Jean-Christophe Markovic est au sommet de sa carri\u00e8re de basketteur professionnel. Alors qu\u2019il est courtis\u00e9 par les plus prestigieux clubs Europ\u00e9ens, Jean-Christophe va faire le choix \u00e9tonnant de retourner dans son club formateur fraichement promu au plus haut niveau\u2026 Son ambition? L'\u00e9quipe de France.",
-    "english": "At 25 years old, Jean-Christophe Markovich is at the top of his carrer as a professional basketball player. Though courted by the most prestigious teams in Europe, Jean-Christophe surprisingly decides to join his former club which has recently been promoted to the highest level. His ultimate goal ? The French national team."
-  }
+    "type": "Film",
+    "id": "FR2018_101",
+    "slug": "fr2018-101-la-legende",
+    "title": {
+        "native": "La L\u00e9gende",
+        "english": "The Legend"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-06-06",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Florian Hessique",
+            "slug": "florian-hessique",
+            "name": "Florian Hessique",
+            "birthYear": 1987,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Sports Film"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/98/205/183650/format_page/the-legend.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=7Kk8ArH4xMA"
+    },
+    "synopsis": {
+        "native": "\u00c0 25 ans, Jean-Christophe Markovic est au sommet de sa carri\u00e8re de basketteur professionnel. Alors qu\u2019il est courtis\u00e9 par les plus prestigieux clubs Europ\u00e9ens, Jean-Christophe va faire le choix \u00e9tonnant de retourner dans son club formateur fraichement promu au plus haut niveau\u2026 Son ambition? L'\u00e9quipe de France.",
+        "english": "At 25 years old, Jean-Christophe Markovich is at the top of his carrer as a professional basketball player. Though courted by the most prestigious teams in Europe, Jean-Christophe surprisingly decides to join his former club which has recently been promoted to the highest level. His ultimate goal ? The French national team."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Fedele Papalia",
+                "slug": "fedele-papalia",
+                "name": "Fedele Papalia",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Florian Hessique",
+                "slug": "florian-hessique",
+                "name": "Florian Hessique",
+                "birthYear": 1987,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jean-Christophe Bouvet",
+                "slug": "jean-christophe-bouvet",
+                "name": "Jean-Christophe Bouvet",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": "Olivier Pag\u00e8s",
+            "role": "Supporting actor"
+        },
+        {
+            "person": "Patrick Pr\u00e9jean",
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "\u00c9ric Naulleau",
+                "slug": "eric-naulleau",
+                "name": "\u00c9ric Naulleau",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "high rank employment",
+        "power",
+        "mentorship"
+    ]
 }

@@ -1,30 +1,35 @@
 {
-  "id": "Pierre Pinaud",
-  "type": "Biography",
-  "slug": "pierre-pinaud",
-  "name": "Pierre Pinaud",
-  "birthYear": 1969,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2021_025",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-025-la-fine-fleur",
-      "tags": "mentorship",
-      "title": {
-        "english": "The Rose Maker",
-        "native": "La Fine Fleur"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Pierre Pinaud",
+    "slug": "pierre-pinaud",
+    "name": "Pierre Pinaud",
+    "birthYear": 1969,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_025",
+                "slug": "fr2021-025-la-fine-fleur",
+                "title": {
+                    "native": "La Fine Fleur",
+                    "english": "The Rose Maker"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-06-30",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,68 +1,57 @@
 {
-  "id": "Alessandro Genovesi",
-  "type": "Biography",
-  "slug": "alessandro-genovesi",
-  "name": "Alessandro Genovesi",
-  "birthYear": 1973,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Crime",
-      "id": "IT2021_073",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "it2021-073-7-donne-e-un-mistero",
-      "tags": "infidelity",
-      "title": {
-        "english": "7 Women and a Murder",
-        "native": "7 donne e un mistero"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Children's Film",
-      "id": "IT2019_004",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "it2019-004-10-giorni-senza-mamma",
-      "tags": "superior-employee relationship",
-      "title": {
-        "english": "When Mom is away",
-        "native": "10 giorni senza mamma"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "IT2018_014",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "it2018-014-puoi-baciare-lo-sposo",
-      "tags": "wedding",
-      "title": {
-        "english": "My Big Gay Italian Wedding",
-        "native": "Puoi baciare lo sposo"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Alessandro Genovesi",
+    "slug": "alessandro-genovesi",
+    "name": "Alessandro Genovesi",
+    "birthYear": 1973,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2019_004",
+                "slug": "it2019-004-10-giorni-senza-mamma",
+                "title": {
+                    "native": "10 giorni senza mamma",
+                    "english": "When Mom is away"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-07-02",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2021_073",
+                "slug": "it2021-073-7-donne-e-un-mistero",
+                "title": {
+                    "native": "7 donne e un mistero",
+                    "english": "7 Women and a Murder"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-12-25",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

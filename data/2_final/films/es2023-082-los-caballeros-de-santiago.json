@@ -1,49 +1,114 @@
 {
-  "id": "ES2023_082",
-  "type": "Film",
-  "slug": "es2023-082-los-caballeros-de-santiago",
-  "title": {
-    "native": "Los Caballeros de Santiago",
-    "english": "Knights of Santiago"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-06-14",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=770590",
-    "posterUrl": "https://www.imdb.com/title/tt12769614/mediaviewer/rm3452708353/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Historical film (Heritage Film)",
-    "War Film",
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "national identity",
-    "war",
-    "cultural memory",
-    "religion"
-  ],
-  "director": [
-    {
-      "id": "Ana L. Mart\u00edn",
-      "slug": "ana-l-martin",
-      "name": "Ana L. Mart\u00edn",
-      "gender": "Female identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "En un pa\u00eds dividido en una eterna guerra interna, una orden de caballeros se alza para construir una naci\u00f3n.",
-    "english": "In a country divided in an eternal internal war, an order of knights rises to build a nation."
-  }
+    "type": "Film",
+    "id": "ES2023_082",
+    "slug": "es2023-082-los-caballeros-de-santiago",
+    "title": {
+        "native": "Los Caballeros de Santiago",
+        "english": "Knights of Santiago"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-06-14",
+        "year": 2023
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Ana L. Mart\u00edn",
+            "slug": "ana-l-martin",
+            "name": "Ana L. Mart\u00edn",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Performative mode",
+        "Historical film (Heritage Film)",
+        "War Film"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt12769614/mediaviewer/rm3452708353/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=770590"
+    },
+    "synopsis": {
+        "native": "En un pa\u00eds dividido en una eterna guerra interna, una orden de caballeros se alza para construir una naci\u00f3n.",
+        "english": "In a country divided in an eternal internal war, an order of knights rises to build a nation."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Ana L. Mart\u00edn",
+                "slug": "ana-l-martin",
+                "name": "Ana L. Mart\u00edn",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Eloy Arenas",
+                "slug": "eloy-arenas",
+                "name": "Eloy Arenas",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Fernando Marrot",
+                "slug": "fernando-marrot",
+                "name": "Fernando Marrot",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Javier Esparza",
+                "slug": "javier-esparza",
+                "name": "Javier Esparza",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Screenwriter"
+        },
+        {
+            "person": {
+                "id": "Javier Esparza",
+                "slug": "javier-esparza",
+                "name": "Javier Esparza",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "religion",
+        "national identity",
+        "war",
+        "cultural memory"
+    ]
 }

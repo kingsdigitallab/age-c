@@ -1,47 +1,57 @@
 {
-  "id": "Laura Hojman",
-  "type": "Biography",
-  "slug": "laura-hojman",
-  "name": "Laura Hojman",
-  "birthYear": 1981,
-  "nationality": "Spain",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Participatory mode",
-      "id": "ES2022_068",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "es2022-068-a-las-mujeres-de-espana-maria-lejarraga",
-      "tags": "collective trauma",
-      "title": {
-        "native": "A las mujeres de Espa\u00f1a. Mar\u00eda Lej\u00e1rraga"
-      }
-    },
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Poetic mode",
-      "id": "ES2020_051",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "es2020-051-antonio-machado-los-dias-azules",
-      "tags": "legacy",
-      "title": {
-        "native": "Antonio Machado. Los d\u00edas azules"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Laura Hojman",
+    "slug": "laura-hojman",
+    "name": "Laura Hojman",
+    "birthYear": 1981,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2020_051",
+                "slug": "es2020-051-antonio-machado-los-dias-azules",
+                "title": {
+                    "native": "Antonio Machado. Los d\u00edas azules",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-12-03",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "ES2022_068",
+                "slug": "es2022-068-a-las-mujeres-de-espana-maria-lejarraga",
+                "title": {
+                    "native": "A las mujeres de Espa\u00f1a. Mar\u00eda Lej\u00e1rraga",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-05-07",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

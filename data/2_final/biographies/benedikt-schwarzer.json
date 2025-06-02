@@ -1,30 +1,35 @@
 {
-  "id": "Benedikt Schwarzer",
-  "type": "Biography",
-  "slug": "benedikt-schwarzer",
-  "name": "Benedikt Schwarzer",
-  "birthYear": 1987,
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Performative mode",
-      "id": "DE2019_005",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "de2019-005-the-secrets-of-handsome-leo",
-      "tags": "professional politics",
-      "title": {
-        "english": "The Secrets of Handsome Leo",
-        "native": "The Secrets of Handsome Leo"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Benedikt Schwarzer",
+    "slug": "benedikt-schwarzer",
+    "name": "Benedikt Schwarzer",
+    "birthYear": 1987,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2019_005",
+                "slug": "de2019-005-the-secrets-of-handsome-leo",
+                "title": {
+                    "native": "The Secrets of Handsome Leo",
+                    "english": "The Secrets of Handsome Leo"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-01-17",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

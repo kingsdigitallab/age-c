@@ -1,30 +1,43 @@
 {
-  "id": "Ren\u00e9 Gebhardt",
-  "type": "Biography",
-  "slug": "rene-gebhardt",
-  "name": "Ren\u00e9 Gebhardt",
-  "birthYear": 1981,
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Observational mode",
-      "id": "DE2019_051",
-      "production": {
-        "country": "Austria",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "de2019-051-the-artist-the-pervert",
-      "tags": "artistic creation",
-      "title": {
-        "english": "The Artist & The Pervert",
-        "native": "The Artist & The Pervert"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Ren\u00e9 Gebhardt",
+    "slug": "rene-gebhardt",
+    "name": "Ren\u00e9 Gebhardt",
+    "birthYear": 1981,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2019_051",
+                "slug": "de2019-051-the-artist-the-pervert",
+                "title": {
+                    "native": "The Artist & The Pervert",
+                    "english": "The Artist & The Pervert"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-06-06",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Austria",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

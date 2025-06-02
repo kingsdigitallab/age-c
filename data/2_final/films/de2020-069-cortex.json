@@ -1,44 +1,77 @@
 {
-  "id": "DE2020_069",
-  "type": "Film",
-  "slug": "de2020-069-cortex",
-  "title": {
-    "native": "Cortex",
-    "english": "Cortex"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-10-22",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=tzrg2FmHrHM&ab_channel=KinoCheck",
-    "posterUrl": "https://www.imdb.com/title/tt10056224/mediaviewer/rm2611783425/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Unknown",
-    "Crime",
-    "Drama"
-  ],
-  "director": [
-    {
-      "id": "Moritz Bleibtreu",
-      "slug": "moritz-bleibtreu",
-      "name": "Moritz Bleibtreu",
-      "birthYear": 1971,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "Hagen (Moritz Bleibtreu) entwickelt von dem einen auf den anderen Tag verst\u00f6rende Albtr\u00e4ume, die so stark sind, dass er nicht mehr zwischen Traum und Realit\u00e4t unterscheiden kann. Diese heftigen Tr\u00e4ume wirken sich auch auf Hagens allt\u00e4gliches Leben aus, sodass die eh schon angeschlagene Beziehung zu seiner Frau Karoline (Nadja Uhl) jeden Tag darunter leidet. Schlie\u00dflich wagt Karoline mit dem Kleinkriminellen Niko (Jannis Niew\u00f6hner) einen Seitensprung, was eine weitere Verkettung verst\u00f6render Geschehnisse in Gang setzt, die das Leben beider M\u00e4nner vollkommen auf den Kopf stellt. Es scheint, als sei eine nicht enden wollende Spirale aus Wirklichkeit und Traum in Gang gesetzt...",
-    "english": "Hagen develops disturbing nightmares and soon can no longer distinguish between dream and reality."
-  }
+    "type": "Film",
+    "id": "DE2020_069",
+    "slug": "de2020-069-cortex",
+    "title": {
+        "native": "Cortex",
+        "english": "Cortex"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-10-22",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Moritz Bleibtreu",
+            "slug": "moritz-bleibtreu",
+            "name": "Moritz Bleibtreu",
+            "birthYear": 1971,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Unknown",
+        "Crime"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt10056224/mediaviewer/rm2611783425/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=tzrg2FmHrHM&ab_channel=KinoCheck"
+    },
+    "synopsis": {
+        "native": "Hagen (Moritz Bleibtreu) entwickelt von dem einen auf den anderen Tag verst\u00f6rende Albtr\u00e4ume, die so stark sind, dass er nicht mehr zwischen Traum und Realit\u00e4t unterscheiden kann. Diese heftigen Tr\u00e4ume wirken sich auch auf Hagens allt\u00e4gliches Leben aus, sodass die eh schon angeschlagene Beziehung zu seiner Frau Karoline (Nadja Uhl) jeden Tag darunter leidet. Schlie\u00dflich wagt Karoline mit dem Kleinkriminellen Niko (Jannis Niew\u00f6hner) einen Seitensprung, was eine weitere Verkettung verst\u00f6render Geschehnisse in Gang setzt, die das Leben beider M\u00e4nner vollkommen auf den Kopf stellt. Es scheint, als sei eine nicht enden wollende Spirale aus Wirklichkeit und Traum in Gang gesetzt...",
+        "english": "Hagen develops disturbing nightmares and soon can no longer distinguish between dream and reality."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Andreja Schneider",
+                "slug": "andreja-schneider",
+                "name": "Andreja Schneider",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Costa Rica"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": "Gustav Peter W\u00f6hler",
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Moritz Bleibtreu",
+                "slug": "moritz-bleibtreu",
+                "name": "Moritz Bleibtreu",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": []
 }

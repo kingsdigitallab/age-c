@@ -1,66 +1,57 @@
 {
-  "id": "Paolo Sorrentino",
-  "type": "Biography",
-  "slug": "paolo-sorrentino",
-  "name": "Paolo Sorrentino",
-  "birthYear": 1970,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Biopic",
-      "id": "IT2018_006",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "it2018-006-loro-1",
-      "tags": "celebrity",
-      "title": {
-        "native": "Loro 1"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "IT2018_013",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "it2018-013-loro-2",
-      "tags": "celebrity",
-      "title": {
-        "native": "Loro 2"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Coming of Age",
-      "id": "IT2021_056",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "it2021-056-e-stata-la-mano-di-dio",
-      "tags": "marriage",
-      "title": {
-        "english": "The Hand of God",
-        "native": "\u00c8 stata la mano di Dio"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Paolo Sorrentino",
+    "slug": "paolo-sorrentino",
+    "name": "Paolo Sorrentino",
+    "birthYear": 1970,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2021_056",
+                "slug": "it2021-056-e-stata-la-mano-di-dio",
+                "title": {
+                    "native": "\u00c8 stata la mano di Dio",
+                    "english": "The Hand of God"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-11-24",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2023_033",
+                "slug": "it2023-033-laggiu-qualcuno-mi-ama",
+                "title": {
+                    "native": "Laggi\u00f9 qualcuno mi ama",
+                    "english": "Massimo Troisi: Somebody Down There Likes Me"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-02-23",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Documentary subject"
+        }
+    ]
 }

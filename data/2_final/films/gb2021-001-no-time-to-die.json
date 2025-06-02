@@ -1,120 +1,176 @@
 {
-  "id": "GB2021_001",
-  "type": "Film",
-  "slug": "gb2021-001-no-time-to-die",
-  "title": {
-    "native": "No Time to Die"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-09-28",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "GB2021_001",
+    "slug": "gb2021-001-no-time-to-die",
+    "title": {
+        "native": "No Time to Die",
+        "english": ""
     },
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=145446",
-    "posterUrl": "https://www.imdb.com/title/tt8579674/mediaviewer/rm144738817/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Action",
-    "Drama",
-    "Spy Film"
-  ],
-  "tags": [
-    "high rank employment",
-    "terrorism",
-    "national identity",
-    "last mission",
-    "power",
-    "state institutions",
-    "technology",
-    "homosociality",
-    "murder",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Cary Joji Fukunaga",
-      "slug": "cary-joji-fukunaga",
-      "name": "Cary Joji Fukunaga",
-      "birthYear": 1977,
-      "gender": "Male identifying",
-      "nationality": "United States of America (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2021_001_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Christoph Waltz",
-        "slug": "christoph-waltz",
-        "name": "Christoph Waltz",
-        "birthYear": 1956.0,
-        "gender": "Male identifying",
-        "nationality": "Austria"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2021-09-28",
+        "year": 2021
     },
-    {
-      "id": "GB2021_001_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "Black North American",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Jeffrey Wright",
-        "slug": "jeffrey-wright",
-        "name": "Jeffrey Wright",
-        "birthYear": 1965.0,
-        "gender": "Male identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Supporting actor"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Cary Joji Fukunaga",
+            "slug": "cary-joji-fukunaga",
+            "name": "Cary Joji Fukunaga",
+            "birthYear": 1977,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United States of America (the)"
+        }
+    ],
+    "genre": [
+        "Action",
+        "Spy Film",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt8579674/mediaviewer/rm144738817/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=145446"
     },
-    {
-      "id": "GB2021_001_03",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Ralph Fiennes",
-        "slug": "ralph-fiennes",
-        "name": "Ralph Fiennes",
-        "birthYear": 1962.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "April 6th, 1917. As an infantry battalion assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap."
-  }
+    "synopsis": {
+        "native": "April 6th, 1917. As an infantry battalion assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2021_001_01",
+            "film": "GB2021_001",
+            "person": {
+                "id": "Christoph Waltz",
+                "slug": "christoph-waltz",
+                "name": "Christoph Waltz",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Austria"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2021_001_02",
+            "film": "GB2021_001",
+            "person": {
+                "id": "Jeffrey Wright",
+                "slug": "jeffrey-wright",
+                "name": "Jeffrey Wright",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "Black North American",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2021_001_03",
+            "film": "GB2021_001",
+            "person": {
+                "id": "Ralph Fiennes",
+                "slug": "ralph-fiennes",
+                "name": "Ralph Fiennes",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Cary Joji Fukunaga",
+                "slug": "cary-joji-fukunaga",
+                "name": "Cary Joji Fukunaga",
+                "birthYear": 1977,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Christoph Waltz",
+                "slug": "christoph-waltz",
+                "name": "Christoph Waltz",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Austria"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Jeffrey Wright",
+                "slug": "jeffrey-wright",
+                "name": "Jeffrey Wright",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Ralph Fiennes",
+                "slug": "ralph-fiennes",
+                "name": "Ralph Fiennes",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "last mission",
+        "homosociality",
+        "high rank employment",
+        "superior-employee relationship",
+        "murder",
+        "power",
+        "terrorism",
+        "technology",
+        "national identity",
+        "state institutions"
+    ]
 }

@@ -1,48 +1,57 @@
 {
-  "id": "Giampaolo Morelli",
-  "type": "Biography",
-  "slug": "giampaolo-morelli",
-  "name": "Giampaolo Morelli",
-  "birthYear": 1974,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Romance",
-      "id": "IT2020_038",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "it2020-038-7-ore-per-farti-innamorare",
-      "tags": "parenthood",
-      "title": {
-        "english": "7 Hours to Win Your Heart",
-        "native": "7 ore per farti innamorare"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "IT2022_079",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "it2022-079-falla-girare",
-      "tags": "crime",
-      "title": {
-        "native": "Falla girare"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Giampaolo Morelli",
+    "slug": "giampaolo-morelli",
+    "name": "Giampaolo Morelli",
+    "birthYear": 1974,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2020_038",
+                "slug": "it2020-038-7-ore-per-farti-innamorare",
+                "title": {
+                    "native": "7 ore per farti innamorare",
+                    "english": "7 Hours to Win Your Heart"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-06-15",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2022_079",
+                "slug": "it2022-079-falla-girare",
+                "title": {
+                    "native": "Falla girare",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-11-29",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

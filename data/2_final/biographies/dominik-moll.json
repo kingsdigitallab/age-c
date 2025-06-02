@@ -1,49 +1,65 @@
 {
-  "id": "Dominik Moll",
-  "type": "Biography",
-  "slug": "dominik-moll",
-  "name": "Dominik Moll",
-  "birthYear": 1962,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Thriller",
-      "id": "FR2019_209",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-209-seules-les-betes",
-      "tags": "rural",
-      "title": {
-        "english": "Only the Animals",
-        "native": "Seules les b\u00eates"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Detective Thriller",
-      "id": "FR2022_107",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "fr2022-107-la-nuit-du-12",
-      "tags": "high rank employment",
-      "title": {
-        "english": "The Night of the 12th",
-        "native": "La Nuit du 12"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Dominik Moll",
+    "slug": "dominik-moll",
+    "name": "Dominik Moll",
+    "birthYear": 1962,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2019_209",
+                "slug": "fr2019-209-seules-les-betes",
+                "title": {
+                    "native": "Seules les b\u00eates",
+                    "english": "Only the Animals"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-12-04",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2022_107",
+                "slug": "fr2022-107-la-nuit-du-12",
+                "title": {
+                    "native": "La Nuit du 12",
+                    "english": "The Night of the 12th"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-07-13",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

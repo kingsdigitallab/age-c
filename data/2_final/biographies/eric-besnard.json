@@ -1,49 +1,61 @@
 {
-  "id": "\u00c9ric Besnard",
-  "type": "Biography",
-  "slug": "eric-besnard",
-  "name": "\u00c9ric Besnard",
-  "birthYear": 1964,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Historical film (Heritage Film)",
-      "id": "FR2021_062",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-062-delicieux",
-      "tags": "natural death",
-      "title": {
-        "english": "Delicious",
-        "native": "D\u00e9licieux"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2020_016",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "fr2020-016-l-esprit-de-famille",
-      "tags": "supernatural entity",
-      "title": {
-        "english": "The Father Figure",
-        "native": "L'Esprit de famille"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "\u00c9ric Besnard",
+    "slug": "eric-besnard",
+    "name": "\u00c9ric Besnard",
+    "birthYear": 1964,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2020_016",
+                "slug": "fr2020-016-l-esprit-de-famille",
+                "title": {
+                    "native": "L'Esprit de famille",
+                    "english": "The Father Figure"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-01-29",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2021_062",
+                "slug": "fr2021-062-delicieux",
+                "title": {
+                    "native": "D\u00e9licieux",
+                    "english": "Delicious"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-09-08",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

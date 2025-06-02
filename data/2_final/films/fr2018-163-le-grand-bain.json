@@ -1,74 +1,126 @@
 {
-  "id": "FR2018_163",
-  "type": "Film",
-  "slug": "fr2018-163-le-grand-bain",
-  "title": {
-    "native": "Le Grand Bain",
-    "english": "Sink or Swim"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-10-24",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=9-CwPDVfaYs",
-    "posterUrl": "https://medias.unifrance.org/medias/92/248/194652/format_page/sink-or-swim.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Sports Film",
-    "Drama"
-  ],
-  "tags": [
-    "parenthood",
-    "artistic creation",
-    "intergenerational conflict",
-    "low rank employment",
-    "well-being",
-    "homosociality"
-  ],
-  "director": [
-    {
-      "id": "Gilles Lellouche",
-      "slug": "gilles-lellouche",
-      "name": "Gilles Lellouche",
-      "birthYear": 1972,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2018_163_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Jean-Hugues Anglade",
-        "slug": "jean-hugues-anglade",
-        "name": "Jean-Hugues Anglade",
-        "birthYear": 1955.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "C\u2019est dans les couloirs de leur piscine municipale que Bertrand, Marcus, Simon, Laurent, Thierry et les autres s\u2019entra\u00eenent sous l\u2019autorit\u00e9 toute relative de Delphine, ancienne gloire des bassins. Ensemble, ils se sentent libres et utiles. Ils vont mettre toute leur \u00e9nergie dans une discipline jusque-l\u00e0 propri\u00e9t\u00e9 de la gent f\u00e9minine : la natation synchronis\u00e9e. Alors, oui c\u2019est une id\u00e9e plut\u00f4t bizarre, mais ce d\u00e9fi leur permettra de trouver un sens \u00e0 leur vie...",
-    "english": "A group of 40-something guys, all on the verge of a mid-life crisis, decide to form their local pool\u2019s first ever synchronized swimming team \u2013 for men. Braving the skepticism and ridicule of those around them, and trained by a fallen champion trying to pull herself together, the group set out on an unlikely adventure, and on the way will rediscover a little self-esteem and a lot about themselves and each other."
-  }
+    "type": "Film",
+    "id": "FR2018_163",
+    "slug": "fr2018-163-le-grand-bain",
+    "title": {
+        "native": "Le Grand Bain",
+        "english": "Sink or Swim"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-10-24",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Gilles Lellouche",
+            "slug": "gilles-lellouche",
+            "name": "Gilles Lellouche",
+            "birthYear": 1972,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Drama",
+        "Sports Film"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/92/248/194652/format_page/sink-or-swim.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=9-CwPDVfaYs"
+    },
+    "synopsis": {
+        "native": "C\u2019est dans les couloirs de leur piscine municipale que Bertrand, Marcus, Simon, Laurent, Thierry et les autres s\u2019entra\u00eenent sous l\u2019autorit\u00e9 toute relative de Delphine, ancienne gloire des bassins. Ensemble, ils se sentent libres et utiles. Ils vont mettre toute leur \u00e9nergie dans une discipline jusque-l\u00e0 propri\u00e9t\u00e9 de la gent f\u00e9minine : la natation synchronis\u00e9e. Alors, oui c\u2019est une id\u00e9e plut\u00f4t bizarre, mais ce d\u00e9fi leur permettra de trouver un sens \u00e0 leur vie...",
+        "english": "A group of 40-something guys, all on the verge of a mid-life crisis, decide to form their local pool\u2019s first ever synchronized swimming team \u2013 for men. Braving the skepticism and ridicule of those around them, and trained by a fallen champion trying to pull herself together, the group set out on an unlikely adventure, and on the way will rediscover a little self-esteem and a lot about themselves and each other."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2018_163_01",
+            "film": "FR2018_163",
+            "person": {
+                "id": "Jean-Hugues Anglade",
+                "slug": "jean-hugues-anglade",
+                "name": "Jean-Hugues Anglade",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Claire Nadeau",
+                "slug": "claire-nadeau",
+                "name": "Claire Nadeau",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Gilles Lellouche",
+                "slug": "gilles-lellouche",
+                "name": "Gilles Lellouche",
+                "birthYear": 1972,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jean Chatillon",
+                "slug": "jean-chatillon",
+                "name": "Jean Chatillon",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Jean-Hugues Anglade",
+                "slug": "jean-hugues-anglade",
+                "name": "Jean-Hugues Anglade",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "parenthood",
+        "artistic creation",
+        "low rank employment",
+        "intergenerational conflict",
+        "well-being",
+        "homosociality"
+    ]
 }

@@ -1,73 +1,113 @@
 {
-  "id": "FR2022_142",
-  "type": "Film",
-  "slug": "fr2022-142-une-femme-de-notre-temps",
-  "title": {
-    "native": "Une femme de notre temps",
-    "english": "A Woman"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-10-05",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=AzR9bGASMhw",
-    "posterUrl": "https://medias.unifrance.org/medias/158/226/254622/format_page/une-femme-de-notre-temps.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "high rank employment",
-    "infidelity",
-    "sex",
-    "crime",
-    "marriage",
-    "rescue mission",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Jean-Paul Civeyrac",
-      "slug": "jean-paul-civeyrac",
-      "name": "Jean-Paul Civeyrac",
-      "birthYear": 1964,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2022_142_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Sophie Marceau",
-        "slug": "sophie-marceau",
-        "name": "Sophie Marceau",
-        "birthYear": 1966.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Juliane, commissaire de police a\u0300 Paris, est une femme d\u2019une grande inte\u0301grite\u0301 morale. Mais la de\u0301couverte de la double vie de son mari va soudain la conduire a\u0300 commettre des actes dont elle ne se serait jamais crue capable\u2026",
-    "english": "Juliane, a police commissioner in Paris, is a woman with great moral integrity. But when she discovers her husband\u2019s double life, she starts committing acts she never would have thought herself capable of\u2026"
-  }
+    "type": "Film",
+    "id": "FR2022_142",
+    "slug": "fr2022-142-une-femme-de-notre-temps",
+    "title": {
+        "native": "Une femme de notre temps",
+        "english": "A Woman"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-10-05",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Jean-Paul Civeyrac",
+            "slug": "jean-paul-civeyrac",
+            "name": "Jean-Paul Civeyrac",
+            "birthYear": 1964,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/158/226/254622/format_page/une-femme-de-notre-temps.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=AzR9bGASMhw"
+    },
+    "synopsis": {
+        "native": "Juliane, commissaire de police a\u0300 Paris, est une femme d\u2019une grande inte\u0301grite\u0301 morale. Mais la de\u0301couverte de la double vie de son mari va soudain la conduire a\u0300 commettre des actes dont elle ne se serait jamais crue capable\u2026",
+        "english": "Juliane, a police commissioner in Paris, is a woman with great moral integrity. But when she discovers her husband\u2019s double life, she starts committing acts she never would have thought herself capable of\u2026"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_142_01",
+            "film": "FR2022_142",
+            "person": {
+                "id": "Sophie Marceau",
+                "slug": "sophie-marceau",
+                "name": "Sophie Marceau",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Jean-Paul Civeyrac",
+                "slug": "jean-paul-civeyrac",
+                "name": "Jean-Paul Civeyrac",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Johan Heldenbergh",
+                "slug": "johan-heldenbergh",
+                "name": "Johan Heldenbergh",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Sophie Marceau",
+                "slug": "sophie-marceau",
+                "name": "Sophie Marceau",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "high rank employment",
+        "marriage",
+        "sex",
+        "infidelity",
+        "rescue mission",
+        "crime",
+        "rural"
+    ]
 }

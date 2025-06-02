@@ -1,47 +1,57 @@
 {
-  "id": "Pau Dur\u00e0",
-  "type": "Biography",
-  "slug": "pau-dura",
-  "name": "Pau Dur\u00e0",
-  "birthYear": 1972,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "ES2018_021",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "es2018-021-formentera-lady",
-      "tags": "caregiving",
-      "title": {
-        "native": "Formentera Lady"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Thriller",
-      "id": "ES2022_057",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "es2022-057-toscana",
-      "tags": "revenge",
-      "title": {
-        "native": "Toscana"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Pau Dur\u00e0",
+    "slug": "pau-dura",
+    "name": "Pau Dur\u00e0",
+    "birthYear": 1972,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2018_021",
+                "slug": "es2018-021-formentera-lady",
+                "title": {
+                    "native": "Formentera Lady",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-06-29",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "ES2022_057",
+                "slug": "es2022-057-toscana",
+                "title": {
+                    "native": "Toscana",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-05-19",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

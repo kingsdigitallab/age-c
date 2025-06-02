@@ -1,50 +1,79 @@
 {
-  "id": "ES2019_028",
-  "type": "Film",
-  "slug": "es2019-028-manolo-sanlucar-el-legado",
-  "title": {
-    "native": "Manolo Sanl\u00facar, el legado"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-10-21",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=143305",
-    "posterUrl": "https://www.imdb.com/title/tt11214064/mediaviewer/rm1074106113/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Biopic"
-  ],
-  "tags": [
-    "personal memory",
-    "artistic creation",
-    "extended family",
-    "cultural memory",
-    "regional identity",
-    "legacy"
-  ],
-  "director": [
-    {
-      "id": "Juanma Su\u00e1rez",
-      "slug": "juanma-suarez",
-      "name": "Juanma Su\u00e1rez",
-      "birthYear": 1974,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Manolo Sanl\u00facar no es s\u00f3lo un documental sobre una de las grandes figuras del mundo del flamenco, sino tambi\u00e9n una reflexi\u00f3n sobre el arte, la dedicaci\u00f3n, la entrega, los valores, el miedo, la pasi\u00f3n, la libertad y sobre la religi\u00f3n.",
-    "english": "Manolo Sanl\u00facar \"The Legacy\" is not just a documentary about the life of one of the greatest figures in the history of flamenco, it is a reflection on art, dedication, commitment, values, fear, passion, freedom , God, man."
-  }
+    "type": "Film",
+    "id": "ES2019_028",
+    "slug": "es2019-028-manolo-sanlucar-el-legado",
+    "title": {
+        "native": "Manolo Sanl\u00facar, el legado",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-10-21",
+        "year": 2019
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Juanma Su\u00e1rez",
+            "slug": "juanma-suarez",
+            "name": "Juanma Su\u00e1rez",
+            "birthYear": 1974,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Biopic"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt11214064/mediaviewer/rm1074106113/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=143305"
+    },
+    "synopsis": {
+        "native": "Manolo Sanl\u00facar no es s\u00f3lo un documental sobre una de las grandes figuras del mundo del flamenco, sino tambi\u00e9n una reflexi\u00f3n sobre el arte, la dedicaci\u00f3n, la entrega, los valores, el miedo, la pasi\u00f3n, la libertad y sobre la religi\u00f3n.",
+        "english": "Manolo Sanl\u00facar \"The Legacy\" is not just a documentary about the life of one of the greatest figures in the history of flamenco, it is a reflection on art, dedication, commitment, values, fear, passion, freedom , God, man."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Juanma Su\u00e1rez",
+                "slug": "juanma-suarez",
+                "name": "Juanma Su\u00e1rez",
+                "birthYear": 1974,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Manolo Sanl\u00facar",
+                "slug": "manolo-sanlucar",
+                "name": "Manolo Sanl\u00facar",
+                "birthYear": 1943,
+                "deathYear": 2022,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "legacy",
+        "personal memory",
+        "extended family",
+        "cultural memory",
+        "regional identity"
+    ]
 }

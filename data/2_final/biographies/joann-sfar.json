@@ -1,30 +1,39 @@
 {
-  "id": "Joann Sfar",
-  "type": "Biography",
-  "slug": "joann-sfar",
-  "name": "Joann Sfar",
-  "birthYear": 1971,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Animation",
-      "genre": "Children's Film",
-      "id": "FR2020_087",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "fr2020-087-petit-vampire",
-      "tags": "grandmotherhood",
-      "title": {
-        "english": "Little Vampire",
-        "native": "Petit Vampire"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Joann Sfar",
+    "slug": "joann-sfar",
+    "name": "Joann Sfar",
+    "birthYear": 1971,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2020_087",
+                "slug": "fr2020-087-petit-vampire",
+                "title": {
+                    "native": "Petit Vampire",
+                    "english": "Little Vampire"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-10-21",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

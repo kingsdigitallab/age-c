@@ -1,30 +1,39 @@
 {
-  "id": "Marcel Barrena",
-  "type": "Biography",
-  "slug": "marcel-barrena",
-  "name": "Marcel Barrena",
-  "birthYear": 1981,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "ES2021_006",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "es2021-006-mediterraneo",
-      "tags": "migration",
-      "title": {
-        "english": "Mediterraneo: The Law of the Sea",
-        "native": "Mediterr\u00e1neo"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Marcel Barrena",
+    "slug": "marcel-barrena",
+    "name": "Marcel Barrena",
+    "birthYear": 1981,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2021_006",
+                "slug": "es2021-006-mediterraneo",
+                "title": {
+                    "native": "Mediterr\u00e1neo",
+                    "english": "Mediterraneo: The Law of the Sea"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-09-24",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Greece",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

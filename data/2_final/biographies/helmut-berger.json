@@ -1,42 +1,117 @@
 {
-  "id": "Helmut Berger",
-  "type": "Biography",
-  "slug": "helmut-berger",
-  "name": "Helmut Berger",
-  "birthYear": 1944,
-  "nationality": "Austria",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "No",
-      "class": "Upper class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Historical film (Heritage Film)",
-        "id": "FR2019_150",
-        "production": {
-          "country": "Germany",
-          "share": "Minority coproducer"
-        },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2019
-        },
-        "slug": "fr2019-150-liberte",
-        "tags": "wealth",
-        "title": {
-          "english": "Libert\u00e9",
-          "native": "Libert\u00e9"
+    "type": "Person",
+    "id": "Helmut Berger",
+    "slug": "helmut-berger",
+    "name": "Helmut Berger",
+    "birthYear": 1944,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [
+        {
+            "id": "FR2019_150_01",
+            "film": {
+                "id": "FR2019_150",
+                "slug": "fr2019-150-liberte",
+                "title": {
+                    "native": "Libert\u00e9",
+                    "english": "Libert\u00e9"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-09-04",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Portugal",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Spain",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Helmut Berger",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Bisexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "FR2019_150_01",
-      "origin": "White Western European",
-      "profession": "Unemployed",
-      "role": "Leading actor",
-      "sexuality": "Bisexual"
-    }
-  ]
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2019_018",
+                "slug": "de2019-018-helmut-berger-meine-mutter-und-ich",
+                "title": {
+                    "native": "Helmut Berger, meine Mutter und ich",
+                    "english": "Helmut Berger, My Mother and Me"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-03-07",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Austria",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "film": {
+                "id": "FR2019_150",
+                "slug": "fr2019-150-liberte",
+                "title": {
+                    "native": "Libert\u00e9",
+                    "english": "Libert\u00e9"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-09-04",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Portugal",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Spain",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
+        }
+    ]
 }

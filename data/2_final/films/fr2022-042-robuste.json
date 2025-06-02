@@ -1,120 +1,121 @@
 {
-  "id": "FR2022_042",
-  "type": "Film",
-  "slug": "fr2022-042-robuste",
-  "title": {
-    "native": "Robuste",
-    "english": "Robust"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-03-02",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2022_042",
+    "slug": "fr2022-042-robuste",
+    "title": {
+        "native": "Robuste",
+        "english": "Robust"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=I1VboSE374g",
-    "posterUrl": "https://medias.unifrance.org/medias/32/190/245280/format_page/robuste.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Drama"
-  ],
-  "tags": [
-    "intergenerational friendship",
-    "celibacy",
-    "artistic creation",
-    "independent home",
-    "loneliness",
-    "self-employment",
-    "urban",
-    "celebrity",
-    "interracial relationships",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Constance Meyer",
-      "slug": "constance-meyer",
-      "name": "Constance Meyer",
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2022_042_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "G\u00e9rard Depardieu",
-        "slug": "gerard-depardieu",
-        "name": "G\u00e9rard Depardieu",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2022-03-02",
+        "year": 2022
     },
-    {
-      "id": "FR2022_042_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "G\u00e9rard Depardieu",
-        "slug": "gerard-depardieu",
-        "name": "G\u00e9rard Depardieu",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "United Arab Emirates (the)"
-      },
-      "role": "Leading actor"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Constance Meyer",
+            "slug": "constance-meyer",
+            "name": "Constance Meyer",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/32/190/245280/format_page/robuste.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=I1VboSE374g"
     },
-    {
-      "id": "FR2022_042_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "G\u00e9rard Depardieu",
-        "slug": "gerard-depardieu",
-        "name": "G\u00e9rard Depardieu",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "Russian Federation (the)"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Lorsque son bras droit et seul compagnon doit s\u2019absenter pendant plusieurs semaines, Georges, star de cine\u0301ma vieillissante, se voit attribuer une remplac\u0327ante, Ai\u0308ssa. Entre l\u2019acteur de\u0301sabuse\u0301 et la jeune agente de se\u0301curite\u0301, un lien unique va se nouer.",
-    "english": "When his right-hand man and only mate has to go away for a few weeks, Georges - an ageing film star - is given a substitute, A\u00efssa. The disillusioned actor and the young female security guard forge a special relationship."
-  }
+    "synopsis": {
+        "native": "Lorsque son bras droit et seul compagnon doit s\u2019absenter pendant plusieurs semaines, Georges, star de cine\u0301ma vieillissante, se voit attribuer une remplac\u0327ante, Ai\u0308ssa. Entre l\u2019acteur de\u0301sabuse\u0301 et la jeune agente de se\u0301curite\u0301, un lien unique va se nouer.",
+        "english": "When his right-hand man and only mate has to go away for a few weeks, Georges - an ageing film star - is given a substitute, A\u00efssa. The disillusioned actor and the young female security guard forge a special relationship."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_042_01",
+            "film": "FR2022_042",
+            "person": {
+                "id": "G\u00e9rard Depardieu",
+                "slug": "gerard-depardieu",
+                "name": "G\u00e9rard Depardieu",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Russian Federation (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Constance Meyer",
+                "slug": "constance-meyer",
+                "name": "Constance Meyer",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Fran\u00e7ois Loriquet",
+                "slug": "francois-loriquet",
+                "name": "Fran\u00e7ois Loriquet",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "G\u00e9rard Depardieu",
+                "slug": "gerard-depardieu",
+                "name": "G\u00e9rard Depardieu",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Russian Federation (the)"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "self-employment",
+        "artistic creation",
+        "loneliness",
+        "celibacy",
+        "independent home",
+        "superior-employee relationship",
+        "intergenerational friendship",
+        "urban",
+        "celebrity",
+        "interracial relationships"
+    ]
 }

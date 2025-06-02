@@ -1,118 +1,172 @@
 {
-  "id": "ES2021_019",
-  "type": "Film",
-  "slug": "es2021-019-el-lodo",
-  "title": {
-    "native": "El lodo",
-    "english": "Wetland"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2012-10-21",
-    "year": 2012
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=WO_xZAE4AKg",
-    "posterUrl": "https://www.imdb.com/title/tt13099386/mediaviewer/rm1997796097/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Western"
-  ],
-  "tags": [
-    "wealth",
-    "women empowerment",
-    "corruption",
-    "independent home",
-    "low rank employment",
-    "power",
-    "ecology",
-    "regional identity",
-    "crime",
-    "abuse",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "I\u00f1aki S\u00e1nchez",
-      "slug": "inaki-sanchez",
-      "name": "I\u00f1aki S\u00e1nchez",
-      "birthYear": 1977,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2021_019_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Susi S\u00e1nchez",
-        "slug": "susi-sanchez",
-        "name": "Susi S\u00e1nchez",
-        "birthYear": 1955.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "ES2021_019",
+    "slug": "es2021-019-el-lodo",
+    "title": {
+        "native": "El lodo",
+        "english": "Wetland"
     },
-    {
-      "id": "ES2021_019_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Joaqu\u00edn Climent",
-        "slug": "joaquin-climent",
-        "name": "Joaqu\u00edn Climent",
-        "birthYear": 1958.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2012-10-21",
+        "year": 2012
     },
-    {
-      "id": "ES2021_019_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Juan Gea",
-        "slug": "juan-gea",
-        "name": "Juan Gea",
-        "birthYear": 1953.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Ricardo es un bi\u00f3logo que viaja hasta el Levante espa\u00f1ol para investigar unas sequ\u00edas que est\u00e1n asolando los arrozales de la zona. All\u00ed chocar\u00e1n sus m\u00e9todos por proteger la naturaleza con la vida de los habitantes que una vez lo vieron crecer.",
-    "english": "Set in a hostile small rural community, where antiquated traditions clash with modern-day sensibilities."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "I\u00f1aki S\u00e1nchez",
+            "slug": "inaki-sanchez",
+            "name": "I\u00f1aki S\u00e1nchez",
+            "birthYear": 1977,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Western",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt13099386/mediaviewer/rm1997796097/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=WO_xZAE4AKg"
+    },
+    "synopsis": {
+        "native": "Ricardo es un bi\u00f3logo que viaja hasta el Levante espa\u00f1ol para investigar unas sequ\u00edas que est\u00e1n asolando los arrozales de la zona. All\u00ed chocar\u00e1n sus m\u00e9todos por proteger la naturaleza con la vida de los habitantes que una vez lo vieron crecer.",
+        "english": "Set in a hostile small rural community, where antiquated traditions clash with modern-day sensibilities."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2021_019_01",
+            "film": "ES2021_019",
+            "person": {
+                "id": "Susi S\u00e1nchez",
+                "slug": "susi-sanchez",
+                "name": "Susi S\u00e1nchez",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2021_019_02",
+            "film": "ES2021_019",
+            "person": {
+                "id": "Joaqu\u00edn Climent",
+                "slug": "joaquin-climent",
+                "name": "Joaqu\u00edn Climent",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2021_019_03",
+            "film": "ES2021_019",
+            "person": {
+                "id": "Juan Gea",
+                "slug": "juan-gea",
+                "name": "Juan Gea",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "I\u00f1aki S\u00e1nchez",
+                "slug": "inaki-sanchez",
+                "name": "I\u00f1aki S\u00e1nchez",
+                "birthYear": 1977,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Joaqu\u00edn Climent",
+                "slug": "joaquin-climent",
+                "name": "Joaqu\u00edn Climent",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Juan Gea",
+                "slug": "juan-gea",
+                "name": "Juan Gea",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Susi S\u00e1nchez",
+                "slug": "susi-sanchez",
+                "name": "Susi S\u00e1nchez",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "abuse",
+        "rural",
+        "independent home",
+        "wealth",
+        "low rank employment",
+        "crime",
+        "corruption",
+        "women empowerment",
+        "power",
+        "ecology",
+        "regional identity"
+    ]
 }

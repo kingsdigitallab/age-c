@@ -1,49 +1,57 @@
 {
-  "id": "Francesco Amato",
-  "type": "Biography",
-  "slug": "francesco-amato",
-  "name": "Francesco Amato",
-  "birthYear": 1978,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "IT2020_007",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "it2020-007-18-regali",
-      "tags": "motherhood",
-      "title": {
-        "english": "18 Presents",
-        "native": "18 regali"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "IT2023_004",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "it2023-004-santocielo",
-      "tags": "religion",
-      "title": {
-        "english": "Ohmygod!",
-        "native": "Santocielo"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Francesco Amato",
+    "slug": "francesco-amato",
+    "name": "Francesco Amato",
+    "birthYear": 1978,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2020_007",
+                "slug": "it2020-007-18-regali",
+                "title": {
+                    "native": "18 regali",
+                    "english": "18 Presents"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-01-02",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2023_004",
+                "slug": "it2023-004-santocielo",
+                "title": {
+                    "native": "Santocielo",
+                    "english": "Ohmygod!"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-12-14",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

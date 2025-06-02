@@ -1,48 +1,101 @@
 {
-  "id": "ES2022_094",
-  "type": "Film",
-  "slug": "es2022-094-el-color-del-cielo",
-  "title": {
-    "native": "El color del cielo"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-10-21",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt13656056/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_El%2520color%2520del%2520cielo",
-    "posterUrl": "https://www.imdb.com/title/tt13656056/mediaviewer/rm72878337/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Romance",
-    "Drama"
-  ],
-  "tags": [
-    "low rank employment",
-    "high rank employment",
-    "artistic creation",
-    "holiday"
-  ],
-  "director": [
-    {
-      "id": "Joan Marc Zapata",
-      "slug": "joan-marc-zapata",
-      "name": "Joan Marc Zapata",
-      "birthYear": 1989,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Olivia Bront\u00eb, una estrella de cine que trabaja en Hollywood, y Trist\u00e1n del Val, un reconocido fil\u00f3sofo espa\u00f1ol, se reencuentran fortuitamente en un hotel en Suiza despu\u00e9s de diecisiete a\u00f1os sin contacto. Este reencuentro les llevar\u00e1 a revisitar el pasado y preguntarse a d\u00f3nde les lleva el camino que escogieron.",
-    "english": "Olivia Bront\u00eb, a movie star, travels to Switzerland for a photo shoot with a major fashion magazine. There she will meet Trist\u00e1n del Val, a Spanish philosopher whom she met years ago. This reunion will lead them to revisit the past and reconsider their future."
-  }
+    "type": "Film",
+    "id": "ES2022_094",
+    "slug": "es2022-094-el-color-del-cielo",
+    "title": {
+        "native": "El color del cielo",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-10-21",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Joan Marc Zapata",
+            "slug": "joan-marc-zapata",
+            "name": "Joan Marc Zapata",
+            "birthYear": 1989,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt13656056/mediaviewer/rm72878337/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt13656056/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_El%2520color%2520del%2520cielo"
+    },
+    "synopsis": {
+        "native": "Olivia Bront\u00eb, una estrella de cine que trabaja en Hollywood, y Trist\u00e1n del Val, un reconocido fil\u00f3sofo espa\u00f1ol, se reencuentran fortuitamente en un hotel en Suiza despu\u00e9s de diecisiete a\u00f1os sin contacto. Este reencuentro les llevar\u00e1 a revisitar el pasado y preguntarse a d\u00f3nde les lleva el camino que escogieron.",
+        "english": "Olivia Bront\u00eb, a movie star, travels to Switzerland for a photo shoot with a major fashion magazine. There she will meet Trist\u00e1n del Val, a Spanish philosopher whom she met years ago. This reunion will lead them to revisit the past and reconsider their future."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Daniel Rohr",
+                "slug": "daniel-rohr",
+                "name": "Daniel Rohr",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Switzerland"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Joan Marc Zapata",
+                "slug": "joan-marc-zapata",
+                "name": "Joan Marc Zapata",
+                "birthYear": 1989,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "J\u00f6rg Reichlin",
+                "slug": "jorg-reichlin",
+                "name": "J\u00f6rg Reichlin",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Switzerland"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Werner Biermeier",
+                "slug": "werner-biermeier",
+                "name": "Werner Biermeier",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Switzerland"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "low rank employment",
+        "high rank employment",
+        "holiday",
+        "artistic creation"
+    ]
 }

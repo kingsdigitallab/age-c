@@ -1,46 +1,76 @@
 {
-  "id": "FR2018_069",
-  "type": "Film",
-  "slug": "fr2018-069-on-a-20-ans-pour-changer-le-monde",
-  "title": {
-    "native": "On a 20 ans pour changer le monde"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-04-11",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=M6mYKUjsZf0",
-    "posterUrl": "https://medias.unifrance.org/medias/194/219/187330/format_page/on-a-20-ans-pour-changer-le-monde.jpg"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Documentary \u2013 Observational mode"
-  ],
-  "tags": [
-    "self-employment",
-    "professional politics",
-    "ecology"
-  ],
-  "director": [
-    {
-      "id": "H\u00e9l\u00e8ne M\u00e9digue",
-      "slug": "helene-medigue",
-      "name": "H\u00e9l\u00e8ne M\u00e9digue",
-      "birthYear": 1970,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Le constat est l\u00e0 : 60 % des sols sont morts, le syst\u00e8me actuel est \u00e0 bout de souffle alors que l\u2019agro\u00e9cologie peut nourrir la plan\u00e8te. Des femmes et hommes rel\u00e8vent le d\u00e9fi et d\u00e9montrent que l\u2019on peut se passer des pesticides et des intrants chimiques pour toute notre alimentation. Gr\u00e2ce \u00e0 leur \u00e9nergie communicative qui bouscule les discours et les habitudes, un autre monde est possible !"
-  }
+    "type": "Film",
+    "id": "FR2018_069",
+    "slug": "fr2018-069-on-a-20-ans-pour-changer-le-monde",
+    "title": {
+        "native": "On a 20 ans pour changer le monde",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-04-11",
+        "year": 2018
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "H\u00e9l\u00e8ne M\u00e9digue",
+            "slug": "helene-medigue",
+            "name": "H\u00e9l\u00e8ne M\u00e9digue",
+            "birthYear": 1970,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Observational mode",
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/194/219/187330/format_page/on-a-20-ans-pour-changer-le-monde.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=M6mYKUjsZf0"
+    },
+    "synopsis": {
+        "native": "Le constat est l\u00e0 : 60 % des sols sont morts, le syst\u00e8me actuel est \u00e0 bout de souffle alors que l\u2019agro\u00e9cologie peut nourrir la plan\u00e8te. Des femmes et hommes rel\u00e8vent le d\u00e9fi et d\u00e9montrent que l\u2019on peut se passer des pesticides et des intrants chimiques pour toute notre alimentation. Gr\u00e2ce \u00e0 leur \u00e9nergie communicative qui bouscule les discours et les habitudes, un autre monde est possible !",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "H\u00e9l\u00e8ne M\u00e9digue",
+                "slug": "helene-medigue",
+                "name": "H\u00e9l\u00e8ne M\u00e9digue",
+                "birthYear": 1970,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Nicolas Hulot",
+                "slug": "nicolas-hulot",
+                "name": "Nicolas Hulot",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "professional politics",
+        "self-employment",
+        "ecology"
+    ]
 }

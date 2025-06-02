@@ -1,96 +1,141 @@
 {
-  "id": "GB2018_063",
-  "type": "Film",
-  "slug": "gb2018-063-the-devil-s-doorway",
-  "title": {
-    "native": "The Devil's Doorway"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "First festival screening",
-    "date": "2018-08-25",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt6793280/?ref_=ttrel",
-    "posterUrl": "https://www.imdb.com/title/tt6793280/mediaviewer/rm2078949632/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Historical film (Heritage Film)",
-    "Horror"
-  ],
-  "tags": [
-    "gender discrimination",
-    "religion",
-    "mentorship",
-    "national identity",
-    "power",
-    "cultural memory",
-    "state institutions",
-    "communal housing",
-    "homosociality",
-    "abuse",
-    "supernatural entity",
-    "collective trauma",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Aislinn Clarke",
-      "slug": "aislinn-clarke",
-      "name": "Aislinn Clarke",
-      "gender": "Female identifying",
-      "nationality": "Ireland"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2018_063_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Lalor Roddy",
-        "slug": "lalor-roddy",
-        "name": "Lalor Roddy",
-        "birthYear": 1954.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "GB2018_063",
+    "slug": "gb2018-063-the-devil-s-doorway",
+    "title": {
+        "native": "The Devil's Doorway",
+        "english": ""
     },
-    {
-      "id": "GB2018_063_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Helena Bereen",
-        "slug": "helena-bereen",
-        "name": "Helena Bereen",
-        "gender": "Female identifying",
-        "nationality": "Ireland"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "In the fall of 1960, Father Thomas Riley and Father John Thornton were sent by the Vatican to investigate a miraculous event in an Irish home for 'fallen women', only to uncover something much more horrific."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2018-08-25",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Aislinn Clarke",
+            "slug": "aislinn-clarke",
+            "name": "Aislinn Clarke",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Ireland"
+        }
+    ],
+    "genre": [
+        "Horror",
+        "Historical film (Heritage Film)"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt6793280/mediaviewer/rm2078949632/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt6793280/?ref_=ttrel"
+    },
+    "synopsis": {
+        "native": "In the fall of 1960, Father Thomas Riley and Father John Thornton were sent by the Vatican to investigate a miraculous event in an Irish home for 'fallen women', only to uncover something much more horrific.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2018_063_01",
+            "film": "GB2018_063",
+            "person": {
+                "id": "Lalor Roddy",
+                "slug": "lalor-roddy",
+                "name": "Lalor Roddy",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2018_063_02",
+            "film": "GB2018_063",
+            "person": {
+                "id": "Helena Bereen",
+                "slug": "helena-bereen",
+                "name": "Helena Bereen",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Ireland"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Aislinn Clarke",
+                "slug": "aislinn-clarke",
+                "name": "Aislinn Clarke",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Ireland"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Helena Bereen",
+                "slug": "helena-bereen",
+                "name": "Helena Bereen",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Ireland"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Lalor Roddy",
+                "slug": "lalor-roddy",
+                "name": "Lalor Roddy",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "religion",
+        "supernatural entity",
+        "gender discrimination",
+        "state institutions",
+        "power",
+        "homosociality",
+        "mentorship",
+        "abuse",
+        "cultural memory",
+        "collective trauma",
+        "communal housing",
+        "superior-employee relationship",
+        "national identity"
+    ]
 }

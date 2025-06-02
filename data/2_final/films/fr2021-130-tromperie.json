@@ -1,73 +1,137 @@
 {
-  "id": "FR2021_130",
-  "type": "Film",
-  "slug": "fr2021-130-tromperie",
-  "title": {
-    "native": "Tromperie",
-    "english": "Deception"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-12-29",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=oU82oVI7m4M",
-    "posterUrl": "https://medias.unifrance.org/medias/45/156/236589/format_page/deception.jpg"
-  },
-  "genre": [
-    "Romance",
-    "Drama"
-  ],
-  "tags": [
-    "personal memory",
-    "artistic creation",
-    "sex",
-    "marriage",
-    "self-employment",
-    "romance"
-  ],
-  "director": [
-    {
-      "id": "Arnaud Desplechin",
-      "slug": "arnaud-desplechin",
-      "name": "Arnaud Desplechin",
-      "birthYear": 1960,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2021_132_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Denis Podalyd\u00e8s",
-        "slug": "denis-podalydes",
-        "name": "Denis Podalyd\u00e8s",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Londres - 1987. Philip est un \u00e9crivain am\u00e9ricain c\u00e9l\u00e8bre exil\u00e9 \u00e0 Londres. Sa ma\u00eetresse vient r\u00e9guli\u00e8rement le retrouver dans son bureau, qui est le refuge des deux amants. Ils y font l\u2019amour, se disputent, se retrouvent et parlent des heures durant ; des femmes qui jalonnent sa vie, de sexe, d\u2019antis\u00e9mitisme, de litt\u00e9rature, et de fid\u00e9lit\u00e9 \u00e0 soi-m\u00eame\u2026",
-    "english": "An American writer living in exile in London, Philip listens to women\u2026 His English mistress, who visits him regularly in the studio that serves as their refuge\u2026 A student he loved in another life\u2026 A former lover confined to a hospital in New York\u2026"
-  }
+    "type": "Film",
+    "id": "FR2021_130",
+    "slug": "fr2021-130-tromperie",
+    "title": {
+        "native": "Tromperie",
+        "english": "Deception"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-12-29",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Arnaud Desplechin",
+            "slug": "arnaud-desplechin",
+            "name": "Arnaud Desplechin",
+            "birthYear": 1960,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Romance",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/45/156/236589/format_page/deception.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=oU82oVI7m4M"
+    },
+    "synopsis": {
+        "native": "Londres - 1987. Philip est un \u00e9crivain am\u00e9ricain c\u00e9l\u00e8bre exil\u00e9 \u00e0 Londres. Sa ma\u00eetresse vient r\u00e9guli\u00e8rement le retrouver dans son bureau, qui est le refuge des deux amants. Ils y font l\u2019amour, se disputent, se retrouvent et parlent des heures durant ; des femmes qui jalonnent sa vie, de sexe, d\u2019antis\u00e9mitisme, de litt\u00e9rature, et de fid\u00e9lit\u00e9 \u00e0 soi-m\u00eame\u2026",
+        "english": "An American writer living in exile in London, Philip listens to women\u2026 His English mistress, who visits him regularly in the studio that serves as their refuge\u2026 A student he loved in another life\u2026 A former lover confined to a hospital in New York\u2026"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2021_132_01",
+            "film": "FR2021_130",
+            "person": {
+                "id": "Denis Podalyd\u00e8s",
+                "slug": "denis-podalydes",
+                "name": "Denis Podalyd\u00e8s",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Andr\u00e9 Oumansky",
+                "slug": "andre-oumansky",
+                "name": "Andr\u00e9 Oumansky",
+                "birthYear": 1933,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Anouk Grinberg",
+                "slug": "anouk-grinberg",
+                "name": "Anouk Grinberg",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Arnaud Desplechin",
+                "slug": "arnaud-desplechin",
+                "name": "Arnaud Desplechin",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Denis Podalyd\u00e8s",
+                "slug": "denis-podalydes",
+                "name": "Denis Podalyd\u00e8s",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Emmanuelle Devos",
+                "slug": "emmanuelle-devos",
+                "name": "Emmanuelle Devos",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "personal memory",
+        "romance",
+        "self-employment",
+        "artistic creation",
+        "sex",
+        "marriage"
+    ]
 }

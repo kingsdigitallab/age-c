@@ -1,75 +1,163 @@
 {
-  "id": "IT2021_022",
-  "type": "Film",
-  "slug": "it2021-022-qui-rido-io",
-  "title": {
-    "native": "Qui rido io",
-    "english": "The King of Laughter"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-09-09",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "IT2021_022",
+    "slug": "it2021-022-qui-rido-io",
+    "title": {
+        "native": "Qui rido io",
+        "english": "The King of Laughter"
     },
-    {
-      "country": "Spain",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=aTdURif595Y",
-    "posterUrl": "https://www.imdb.com/title/tt9526392/mediaviewer/rm1041628929/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama",
-    "Biopic"
-  ],
-  "tags": [
-    "mentorship",
-    "legacy",
-    "artistic creation",
-    "extended family"
-  ],
-  "director": [
-    {
-      "id": "Mario Martone",
-      "slug": "mario-martone",
-      "name": "Mario Martone",
-      "birthYear": 1959,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2021_022_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Toni Servillo",
-        "slug": "toni-servillo",
-        "name": "Toni Servillo",
-        "birthYear": 1959.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Agli inizi del \u2018900, nella Napoli della Belle \u00c9poque, splendono i teatri e il cinematografo. Il grande attore comico Eduardo Scarpetta \u00e8 il re del botteghino. Il successo lo ha reso un uomo ricchissimo: di umili origini si \u00e8 affermato grazie alle sue commedie e alla maschera di Felice Sciosciammocca che nel cuore del pubblico napoletano ha soppiantato Pulcinella. Il teatro \u00e8 la sua vita e attorno al teatro gravita anche tutto il suo complesso nucleo familiare, composto da mogli, compagne, amanti, figli legittimi e illegittimi tra cui Titina, Eduardo e Peppino De Filippo. Al culmine del successo Scarpetta si concede quello che si riveler\u00e0 un pericoloso azzardo. Decide di realizzare la parodia de La figlia di Iorio, tragedia del pi\u00f9 grande poeta italiano del tempo, Gabriele D\u2019Annunzio. La sera del debutto in teatro si scatena un putiferio: la commedia viene interrotta tra urla, fischi e improperi sollevati dai poeti e drammaturghi della nuova generazione che gridano allo scandalo e Scarpetta finisce con l\u2019essere denunciato per plagio dallo stesso D\u2019Annunzio. Inizia, cos\u00ec, la prima storica causa sul diritto d\u2019autore in Italia. Gli anni del processo saranno logoranti per lui e per tutta la famiglia tanto che il delicato equilibrio che la teneva insieme pare sul punto di dissolversi. Tutto nella vita di Scarpetta sembra andare in frantumi, ma con un numero da grande attore sapr\u00e0 sfidare il destino che lo voleva perduto e vincer\u00e0 la sua ultima partita.",
-    "english": "The biography of Neapolitan comic theater legend Eduardo Scarpetta."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2021-09-09",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Mario Martone",
+            "slug": "mario-martone",
+            "name": "Mario Martone",
+            "birthYear": 1959,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Biopic"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9526392/mediaviewer/rm1041628929/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=aTdURif595Y"
+    },
+    "synopsis": {
+        "native": "Agli inizi del \u2018900, nella Napoli della Belle \u00c9poque, splendono i teatri e il cinematografo. Il grande attore comico Eduardo Scarpetta \u00e8 il re del botteghino. Il successo lo ha reso un uomo ricchissimo: di umili origini si \u00e8 affermato grazie alle sue commedie e alla maschera di Felice Sciosciammocca che nel cuore del pubblico napoletano ha soppiantato Pulcinella. Il teatro \u00e8 la sua vita e attorno al teatro gravita anche tutto il suo complesso nucleo familiare, composto da mogli, compagne, amanti, figli legittimi e illegittimi tra cui Titina, Eduardo e Peppino De Filippo. Al culmine del successo Scarpetta si concede quello che si riveler\u00e0 un pericoloso azzardo. Decide di realizzare la parodia de La figlia di Iorio, tragedia del pi\u00f9 grande poeta italiano del tempo, Gabriele D\u2019Annunzio. La sera del debutto in teatro si scatena un putiferio: la commedia viene interrotta tra urla, fischi e improperi sollevati dai poeti e drammaturghi della nuova generazione che gridano allo scandalo e Scarpetta finisce con l\u2019essere denunciato per plagio dallo stesso D\u2019Annunzio. Inizia, cos\u00ec, la prima storica causa sul diritto d\u2019autore in Italia. Gli anni del processo saranno logoranti per lui e per tutta la famiglia tanto che il delicato equilibrio che la teneva insieme pare sul punto di dissolversi. Tutto nella vita di Scarpetta sembra andare in frantumi, ma con un numero da grande attore sapr\u00e0 sfidare il destino che lo voleva perduto e vincer\u00e0 la sua ultima partita.",
+        "english": "The biography of Neapolitan comic theater legend Eduardo Scarpetta."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Spain",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2021_022_01",
+            "film": "IT2021_022",
+            "person": {
+                "id": "Toni Servillo",
+                "slug": "toni-servillo",
+                "name": "Toni Servillo",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Gianfelice Imparato",
+                "slug": "gianfelice-imparato",
+                "name": "Gianfelice Imparato",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Gigio Morra",
+                "slug": "gigio-morra",
+                "name": "Gigio Morra",
+                "birthYear": 1945,
+                "deathYear": 2024,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Giovanni Mauriello",
+                "slug": "giovanni-mauriello",
+                "name": "Giovanni Mauriello",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Iaia Forte",
+                "slug": "iaia-forte",
+                "name": "Iaia Forte",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Mario Martone",
+                "slug": "mario-martone",
+                "name": "Mario Martone",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Roberto De Francesco",
+                "slug": "roberto-de-francesco",
+                "name": "Roberto De Francesco",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Toni Servillo",
+                "slug": "toni-servillo",
+                "name": "Toni Servillo",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "legacy",
+        "extended family",
+        "mentorship"
+    ]
 }

@@ -1,67 +1,168 @@
 {
-  "id": "IT2018_108",
-  "type": "Film",
-  "slug": "it2018-108-buon-lavoro",
-  "title": {
-    "native": "Buon lavoro"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-06-06",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=TireQ04_I2k",
-    "posterUrl": "https://www.imdb.com/title/tt7351220/mediaviewer/rm2418592257/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "state institutions",
-    "unemployment"
-  ],
-  "director": [
-    {
-      "id": "Marco Demurtas",
-      "slug": "marco-demurtas",
-      "name": "Marco Demurtas",
-      "birthYear": 1973,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2018_108_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Giancarlo Giannini",
-        "slug": "giancarlo-giannini",
-        "name": "Giancarlo Giannini",
-        "birthYear": 1942.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Un avvenimento televisivo senza precedenti \u00e8 destinato a sconvolgere la vita di Sassari: una tranquilla citt\u00e0 di provincia. \u201cL\u2019era dei falliti\u201d \u00e8 un originale reality televisivo per casi umani dove, chi riuscir\u00e0 a commuovere il pubblico, raccontando la propria storia, avr\u00e0 in premio una vita da star. Ed \u00e8 cos\u00ec che le storie di precariet\u00e0 degli abitanti di un condominio, sono destinate ad intrecciarsi con quelle dei personaggi di un talent show. Il film \u00e8 una metafora sul tema della morbosit\u00e0 mediatica e del disagio sociale e mescola in chiave umoristica, vari generi tra cui il Thriller e il fantasy apocalittico. Una commedia amara il cui stesso titolo \u00e8 un augurio anacronistico. Dire \u201cBuon lavoro\u201d al giorno d\u2019oggi e\u2019 come dire \u201cCome stai?\u201d a un moribondo. Una realistica e grottesca societ\u00e0 contemporanea, dove la crisi economica rende sempre pi\u00f9 difficile la sopravvivenza e la finzione si mescola con la realt\u00e0 divorandola.",
-    "english": "The film, set in contemporary Italy is a metaphor for the theme of insecurity and social control and mixes in a comedy, a variety of genres including horror and apocalyptic fantasy."
-  }
+    "type": "Film",
+    "id": "IT2018_108",
+    "slug": "it2018-108-buon-lavoro",
+    "title": {
+        "native": "Buon lavoro",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-06-06",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Marco Demurtas",
+            "slug": "marco-demurtas",
+            "name": "Marco Demurtas",
+            "birthYear": 1973,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt7351220/mediaviewer/rm2418592257/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=TireQ04_I2k"
+    },
+    "synopsis": {
+        "native": "Un avvenimento televisivo senza precedenti \u00e8 destinato a sconvolgere la vita di Sassari: una tranquilla citt\u00e0 di provincia. \u201cL\u2019era dei falliti\u201d \u00e8 un originale reality televisivo per casi umani dove, chi riuscir\u00e0 a commuovere il pubblico, raccontando la propria storia, avr\u00e0 in premio una vita da star. Ed \u00e8 cos\u00ec che le storie di precariet\u00e0 degli abitanti di un condominio, sono destinate ad intrecciarsi con quelle dei personaggi di un talent show. Il film \u00e8 una metafora sul tema della morbosit\u00e0 mediatica e del disagio sociale e mescola in chiave umoristica, vari generi tra cui il Thriller e il fantasy apocalittico. Una commedia amara il cui stesso titolo \u00e8 un augurio anacronistico. Dire \u201cBuon lavoro\u201d al giorno d\u2019oggi e\u2019 come dire \u201cCome stai?\u201d a un moribondo. Una realistica e grottesca societ\u00e0 contemporanea, dove la crisi economica rende sempre pi\u00f9 difficile la sopravvivenza e la finzione si mescola con la realt\u00e0 divorandola.",
+        "english": "The film, set in contemporary Italy is a metaphor for the theme of insecurity and social control and mixes in a comedy, a variety of genres including horror and apocalyptic fantasy."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2018_108_01",
+            "film": "IT2018_108",
+            "person": {
+                "id": "Giancarlo Giannini",
+                "slug": "giancarlo-giannini",
+                "name": "Giancarlo Giannini",
+                "birthYear": 1942,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Abel Ferrara",
+                "slug": "abel-ferrara",
+                "name": "Abel Ferrara",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Alvaro Vitali",
+                "slug": "alvaro-vitali",
+                "name": "Alvaro Vitali",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Franco Nero",
+                "slug": "franco-nero",
+                "name": "Franco Nero",
+                "birthYear": 1941,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Giancarlo Giannini",
+                "slug": "giancarlo-giannini",
+                "name": "Giancarlo Giannini",
+                "birthYear": 1942,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Giuliana De Sio",
+                "slug": "giuliana-de-sio",
+                "name": "Giuliana De Sio",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Giuseppe Giacobazzi",
+                "slug": "giuseppe-giacobazzi",
+                "name": "Giuseppe Giacobazzi",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Lina Sastri",
+                "slug": "lina-sastri",
+                "name": "Lina Sastri",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Marco Demurtas",
+                "slug": "marco-demurtas",
+                "name": "Marco Demurtas",
+                "birthYear": 1973,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "state institutions",
+        "unemployment"
+    ]
 }

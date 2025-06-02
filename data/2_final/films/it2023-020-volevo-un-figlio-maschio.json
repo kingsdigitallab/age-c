@@ -1,68 +1,156 @@
 {
-  "id": "IT2023_020",
-  "type": "Film",
-  "slug": "it2023-020-volevo-un-figlio-maschio",
-  "title": {
-    "native": "Volevo un figlio maschio",
-    "english": "It's a boy"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-10-05",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=Yw61nxI-kFo",
-    "posterUrl": "https://www.imdb.com/title/tt15202194/mediaviewer/rm4018295297/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "homosociality",
-    "fatherhood"
-  ],
-  "director": [
-    {
-      "id": "Neri Parenti",
-      "slug": "neri-parenti",
-      "name": "Neri Parenti",
-      "birthYear": 1950,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2023_020_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Enrico Brignano",
-        "slug": "enrico-brignano",
-        "name": "Enrico Brignano",
-        "birthYear": 1966.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Alberto sogna da sempre di avere un figlio maschio con cui condividere le sue passioni: il cibo, il calcio, le auto sportive... Ma il destino gli ha dato ben tre figlie femmine che gli impongono tutt\u2019altra vita: sana, colta e al femminile. Quando la moglie Emma \u00e8 in attesa del quarto figlio, Alberto chiede alle \u201cstelle\u201d di avere \u201calmeno\u201d un maschio. Il suo desiderio viene esaudito. Pure troppo! Per incanto le sue tre figlie femmine diventano tre maschi. Ma sar\u00e0 davvero meglio vivere con tre figli maschi o saranno solo guai\u2026",
-    "english": "When Alberto's wife is expecting their fourth child, he prays for \u201cat least\u201d a son. Instantly, his daughters become boys. Will life be actually better?"
-  }
+    "type": "Film",
+    "id": "IT2023_020",
+    "slug": "it2023-020-volevo-un-figlio-maschio",
+    "title": {
+        "native": "Volevo un figlio maschio",
+        "english": "It's a boy"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-10-05",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Neri Parenti",
+            "slug": "neri-parenti",
+            "name": "Neri Parenti",
+            "birthYear": 1950,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt15202194/mediaviewer/rm4018295297/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=Yw61nxI-kFo"
+    },
+    "synopsis": {
+        "native": "Alberto sogna da sempre di avere un figlio maschio con cui condividere le sue passioni: il cibo, il calcio, le auto sportive... Ma il destino gli ha dato ben tre figlie femmine che gli impongono tutt\u2019altra vita: sana, colta e al femminile. Quando la moglie Emma \u00e8 in attesa del quarto figlio, Alberto chiede alle \u201cstelle\u201d di avere \u201calmeno\u201d un maschio. Il suo desiderio viene esaudito. Pure troppo! Per incanto le sue tre figlie femmine diventano tre maschi. Ma sar\u00e0 davvero meglio vivere con tre figli maschi o saranno solo guai\u2026",
+        "english": "When Alberto's wife is expecting their fourth child, he prays for \u201cat least\u201d a son. Instantly, his daughters become boys. Will life be actually better?"
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2023_020_01",
+            "film": "IT2023_020",
+            "person": {
+                "id": "Enrico Brignano",
+                "slug": "enrico-brignano",
+                "name": "Enrico Brignano",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Enrico Brignano",
+                "slug": "enrico-brignano",
+                "name": "Enrico Brignano",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Giovanni Guardiano",
+                "slug": "giovanni-guardiano",
+                "name": "Giovanni Guardiano",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Lallo Circosta",
+                "slug": "lallo-circosta",
+                "name": "Lallo Circosta",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Mariano Rigillo",
+                "slug": "mariano-rigillo",
+                "name": "Mariano Rigillo",
+                "birthYear": 1939,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Maurizio Casagrande",
+                "slug": "maurizio-casagrande",
+                "name": "Maurizio Casagrande",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Maurizio Marchetti",
+                "slug": "maurizio-marchetti",
+                "name": "Maurizio Marchetti",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Neri Parenti",
+                "slug": "neri-parenti",
+                "name": "Neri Parenti",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "fatherhood",
+        "homosociality"
+    ]
 }

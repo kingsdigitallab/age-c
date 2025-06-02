@@ -1,72 +1,148 @@
 {
-  "id": "IT2023_034",
-  "type": "Film",
-  "slug": "it2023-034-il-piu-bel-secolo-della-mia-vita",
-  "title": {
-    "native": "Il pi\u00f9 bel secolo della mia vita",
-    "english": "The Best Century Of My Life"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-09-07",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=XjkEvrHD_yw",
-    "posterUrl": "https://www.imdb.com/title/tt26907957/mediaviewer/rm2455643393/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Road Movie"
-  ],
-  "tags": [
-    "intergenerational friendship",
-    "personal memory",
-    "retirement home",
-    "state institutions",
-    "gray face"
-  ],
-  "director": [
-    {
-      "id": "Alessandro Bardani",
-      "slug": "alessandro-bardani",
-      "name": "Alessandro Bardani",
-      "birthYear": 1983,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2023_034_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Retired",
-      "ability": "Permanent disability",
-      "assistedMobility": "Yes",
-      "person": {
-        "id": "Sergio Castellitto",
-        "slug": "sergio-castellitto",
-        "name": "Sergio Castellitto",
-        "birthYear": 1953.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Un'assurda legge impedisce a Giovanni, figlio non riconosciuto alla nascita, di sapere l\u2019identit\u00e0 dei suoi genitori biologici prima del compimento del suo centesimo anno di et\u00e0. Per riuscire ad attirare l\u2019opinione pubblica, la sua unica speranza \u00e8 ottenere la complicit\u00e0 di Gustavo, unico centenario non riconosciuto alla nascita in vita. Il solo che avrebbe il diritto di avvalersi di questa normativa ma che sembra non aver alcun interesse a farlo. Il pi\u00f9 bel secolo della mia vita racconta l\u2019incontro tra un centenario proiettato nel futuro e un giovane ancorato al passato e della loro inaspettata amicizia.",
-    "english": "An absurd law prevents Giovanni, a son not recognized at birth, from knowing the identity of his biological parents before he turns 100. To be able to attract public attention, his only hope is to obtain the complicity of Gustavo, the only centenarian not recognized at birth still alive. Gustavo is the only one who would have the right to make use of this regulation but he seems to have no interest in doing so. An unexpected friendship will be born between the young man anchored in the past and the centenarian projected into the future."
-  }
+    "type": "Film",
+    "id": "IT2023_034",
+    "slug": "it2023-034-il-piu-bel-secolo-della-mia-vita",
+    "title": {
+        "native": "Il pi\u00f9 bel secolo della mia vita",
+        "english": "The Best Century Of My Life"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-09-07",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Alessandro Bardani",
+            "slug": "alessandro-bardani",
+            "name": "Alessandro Bardani",
+            "birthYear": 1983,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Road Movie"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt26907957/mediaviewer/rm2455643393/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=XjkEvrHD_yw"
+    },
+    "synopsis": {
+        "native": "Un'assurda legge impedisce a Giovanni, figlio non riconosciuto alla nascita, di sapere l\u2019identit\u00e0 dei suoi genitori biologici prima del compimento del suo centesimo anno di et\u00e0. Per riuscire ad attirare l\u2019opinione pubblica, la sua unica speranza \u00e8 ottenere la complicit\u00e0 di Gustavo, unico centenario non riconosciuto alla nascita in vita. Il solo che avrebbe il diritto di avvalersi di questa normativa ma che sembra non aver alcun interesse a farlo. Il pi\u00f9 bel secolo della mia vita racconta l\u2019incontro tra un centenario proiettato nel futuro e un giovane ancorato al passato e della loro inaspettata amicizia.",
+        "english": "An absurd law prevents Giovanni, a son not recognized at birth, from knowing the identity of his biological parents before he turns 100. To be able to attract public attention, his only hope is to obtain the complicity of Gustavo, the only centenarian not recognized at birth still alive. Gustavo is the only one who would have the right to make use of this regulation but he seems to have no interest in doing so. An unexpected friendship will be born between the young man anchored in the past and the centenarian projected into the future."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2023_034_01",
+            "film": "IT2023_034",
+            "person": {
+                "id": "Sergio Castellitto",
+                "slug": "sergio-castellitto",
+                "name": "Sergio Castellitto",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Retired",
+            "ability": "Permanent disability",
+            "assistedMobility": "Yes"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alessandro Bardani",
+                "slug": "alessandro-bardani",
+                "name": "Alessandro Bardani",
+                "birthYear": 1983,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Antonio Zavatteri",
+                "slug": "antonio-zavatteri",
+                "name": "Antonio Zavatteri",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Betty Pedrazzi",
+                "slug": "betty-pedrazzi",
+                "name": "Betty Pedrazzi",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Carla Signoris",
+                "slug": "carla-signoris",
+                "name": "Carla Signoris",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Sandra Milo",
+                "slug": "sandra-milo",
+                "name": "Sandra Milo",
+                "birthYear": 1933,
+                "deathYear": 2024,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Sergio Castellitto",
+                "slug": "sergio-castellitto",
+                "name": "Sergio Castellitto",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "gray face",
+        "personal memory",
+        "state institutions",
+        "intergenerational friendship",
+        "retirement home"
+    ]
 }

@@ -1,30 +1,35 @@
 {
-  "id": "Maxime Govare",
-  "type": "Biography",
-  "slug": "maxime-govare",
-  "name": "Maxime Govare",
-  "birthYear": 1980,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2019_085",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-085-les-crevettes-pailletees",
-      "tags": "high rank employment",
-      "title": {
-        "english": "The Shiny Shrimps",
-        "native": "Les Crevettes paillet\u00e9es"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Maxime Govare",
+    "slug": "maxime-govare",
+    "name": "Maxime Govare",
+    "birthYear": 1980,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2019_085",
+                "slug": "fr2019-085-les-crevettes-pailletees",
+                "title": {
+                    "native": "Les Crevettes paillet\u00e9es",
+                    "english": "The Shiny Shrimps"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-05-08",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

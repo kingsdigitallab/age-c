@@ -1,79 +1,120 @@
 {
-  "id": "FR2022_111",
-  "type": "Film",
-  "slug": "fr2022-111-l-annee-du-requin",
-  "title": {
-    "native": "L'Ann\u00e9e du requin",
-    "english": "Year of the Shark"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-08-03",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=nz7ssftxw4I",
-    "posterUrl": "https://medias.unifrance.org/medias/85/215/251733/format_page/l-annee-du-requin.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Horror"
-  ],
-  "tags": [
-    "marriage",
-    "retirement",
-    "rural",
-    "independent home"
-  ],
-  "director": [
-    {
-      "id": "Zoran Boukherma",
-      "slug": "zoran-boukherma",
-      "name": "Zoran Boukherma",
-      "birthYear": 1992,
-      "gender": "Male identifying",
-      "nationality": "France"
+    "type": "Film",
+    "id": "FR2022_111",
+    "slug": "fr2022-111-l-annee-du-requin",
+    "title": {
+        "native": "L'Ann\u00e9e du requin",
+        "english": "Year of the Shark"
     },
-    {
-      "id": "Ludovic Boukherma",
-      "slug": "ludovic-boukherma",
-      "name": "Ludovic Boukherma",
-      "birthYear": 1992,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2022_111_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "North Africa",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Kad Merad",
-        "slug": "kad-merad",
-        "name": "Kad Merad",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "Algeria"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Maja, gendarme maritime dans les landes, voit se r\u00e9aliser son pire cauchemar : prendre sa retraite anticip\u00e9e ! Thierry, son mari, a d\u00e9j\u00e0 pr\u00e9vu la place de camping et le mobil home. Mais la disparition d\u2019un vacancier met toute la c\u00f4te en alerte : un requin r\u00f4de dans la baie ! Aid\u00e9e de ses jeunes coll\u00e8gues Eug\u00e9nie et Blaise, elle saute sur l\u2019occasion pour s\u2019offrir une derni\u00e8re mission\u2026",
-    "english": "The disappearance of a vacationer puts the Atlantic Coast on high alert: a shark is prowling in the French waters! Maja, a coast guard on the verge of retirement, goes on her last mission to save the bay\u2026"
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-08-03",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Ludovic Boukherma",
+            "slug": "ludovic-boukherma",
+            "name": "Ludovic Boukherma",
+            "birthYear": 1992,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        },
+        {
+            "id": "Zoran Boukherma",
+            "slug": "zoran-boukherma",
+            "name": "Zoran Boukherma",
+            "birthYear": 1992,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Horror"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/85/215/251733/format_page/l-annee-du-requin.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=nz7ssftxw4I"
+    },
+    "synopsis": {
+        "native": "Maja, gendarme maritime dans les landes, voit se r\u00e9aliser son pire cauchemar : prendre sa retraite anticip\u00e9e ! Thierry, son mari, a d\u00e9j\u00e0 pr\u00e9vu la place de camping et le mobil home. Mais la disparition d\u2019un vacancier met toute la c\u00f4te en alerte : un requin r\u00f4de dans la baie ! Aid\u00e9e de ses jeunes coll\u00e8gues Eug\u00e9nie et Blaise, elle saute sur l\u2019occasion pour s\u2019offrir une derni\u00e8re mission\u2026",
+        "english": "The disappearance of a vacationer puts the Atlantic Coast on high alert: a shark is prowling in the French waters! Maja, a coast guard on the verge of retirement, goes on her last mission to save the bay\u2026"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_111_01",
+            "film": "FR2022_111",
+            "person": {
+                "id": "Kad Merad",
+                "slug": "kad-merad",
+                "name": "Kad Merad",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Algeria"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "North Africa",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Kad Merad",
+                "slug": "kad-merad",
+                "name": "Kad Merad",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Algeria"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Ludovic Boukherma",
+                "slug": "ludovic-boukherma",
+                "name": "Ludovic Boukherma",
+                "birthYear": 1992,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Zoran Boukherma",
+                "slug": "zoran-boukherma",
+                "name": "Zoran Boukherma",
+                "birthYear": 1992,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "retirement",
+        "marriage",
+        "independent home",
+        "rural"
+    ]
 }

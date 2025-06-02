@@ -1,95 +1,220 @@
 {
-  "id": "FR2021_072",
-  "type": "Film",
-  "slug": "fr2021-072-tout-s-est-bien-passe",
-  "title": {
-    "native": "Tout s'est bien pass\u00e9",
-    "english": "Everything Went Fine"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-09-22",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=zgBkLyB2MB4",
-    "posterUrl": "https://medias.unifrance.org/medias/24/160/237592/format_page/everything-went-fine.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "hospital",
-    "parenthood",
-    "suicide",
-    "cultural memory",
-    "lgbtqi",
-    "may-december",
-    "physical illness",
-    "medical treatment",
-    "agony"
-  ],
-  "director": [
-    {
-      "id": "Fran\u00e7ois Ozon",
-      "slug": "francois-ozon",
-      "name": "Fran\u00e7ois Ozon",
-      "birthYear": 1967,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2021_072_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Bisexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Chronic illness",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Andr\u00e9 Dussollier",
-        "slug": "andre-dussollier",
-        "name": "Andr\u00e9 Dussollier",
-        "birthYear": 1946.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "FR2021_072",
+    "slug": "fr2021-072-tout-s-est-bien-passe",
+    "title": {
+        "native": "Tout s'est bien pass\u00e9",
+        "english": "Everything Went Fine"
     },
-    {
-      "id": "FR2021_072_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Sophie Marceau",
-        "slug": "sophie-marceau",
-        "name": "Sophie Marceau",
-        "birthYear": 1966.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Emmanu\u00e8le, romanci\u00e8re \u00e9panouie dans sa vie priv\u00e9e et professionnelle, se pr\u00e9cipite \u00e0 l\u2019h\u00f4pital, son p\u00e8re Andr\u00e9 vient de faire un AVC. Fantasque, aimant passionn\u00e9ment la vie mais diminu\u00e9, il demande \u00e0 sa fille de l\u2019aider \u00e0 en finir. Avec l\u2019aide de sa s\u0153ur Pascale, elle va devoir choisir : accepter la volont\u00e9 de son p\u00e8re ou le convaincre de changer d\u2019avis.",
-    "english": "When Andr\u00e9, 85, has a stroke, Emmanu\u00e8le hurries to her father\u2019s bedside. Sick and half-paralyzed in his hospital bed, he asks Emmanu\u00e8le to help him end his life. But how can you honor such a request when it\u2019s your own father?"
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2021-09-22",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Fran\u00e7ois Ozon",
+            "slug": "francois-ozon",
+            "name": "Fran\u00e7ois Ozon",
+            "birthYear": 1967,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/24/160/237592/format_page/everything-went-fine.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=zgBkLyB2MB4"
+    },
+    "synopsis": {
+        "native": "Emmanu\u00e8le, romanci\u00e8re \u00e9panouie dans sa vie priv\u00e9e et professionnelle, se pr\u00e9cipite \u00e0 l\u2019h\u00f4pital, son p\u00e8re Andr\u00e9 vient de faire un AVC. Fantasque, aimant passionn\u00e9ment la vie mais diminu\u00e9, il demande \u00e0 sa fille de l\u2019aider \u00e0 en finir. Avec l\u2019aide de sa s\u0153ur Pascale, elle va devoir choisir : accepter la volont\u00e9 de son p\u00e8re ou le convaincre de changer d\u2019avis.",
+        "english": "When Andr\u00e9, 85, has a stroke, Emmanu\u00e8le hurries to her father\u2019s bedside. Sick and half-paralyzed in his hospital bed, he asks Emmanu\u00e8le to help him end his life. But how can you honor such a request when it\u2019s your own father?"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2021_072_01",
+            "film": "FR2021_072",
+            "person": {
+                "id": "Andr\u00e9 Dussollier",
+                "slug": "andre-dussollier",
+                "name": "Andr\u00e9 Dussollier",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Bisexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Chronic illness",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "FR2021_072_02",
+            "film": "FR2021_072",
+            "person": {
+                "id": "Sophie Marceau",
+                "slug": "sophie-marceau",
+                "name": "Sophie Marceau",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Andr\u00e9 Dussollier",
+                "slug": "andre-dussollier",
+                "name": "Andr\u00e9 Dussollier",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Charlotte Rampling",
+                "slug": "charlotte-rampling",
+                "name": "Charlotte Rampling",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Daniel Mesguich",
+                "slug": "daniel-mesguich",
+                "name": "Daniel Mesguich",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Fran\u00e7ois Ozon",
+                "slug": "francois-ozon",
+                "name": "Fran\u00e7ois Ozon",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Hanna Schygulla",
+                "slug": "hanna-schygulla",
+                "name": "Hanna Schygulla",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Jacques Nolot",
+                "slug": "jacques-nolot",
+                "name": "Jacques Nolot",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Judith Magre",
+                "slug": "judith-magre",
+                "name": "Judith Magre",
+                "birthYear": 1926,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Nathalie Richard",
+                "slug": "nathalie-richard",
+                "name": "Nathalie Richard",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Sophie Marceau",
+                "slug": "sophie-marceau",
+                "name": "Sophie Marceau",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "\u00c9ric Caravaca",
+                "slug": "eric-caravaca",
+                "name": "\u00c9ric Caravaca",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "parenthood",
+        "suicide",
+        "physical illness",
+        "lgbtqi",
+        "hospital",
+        "cultural memory",
+        "agony",
+        "may-december",
+        "medical treatment"
+    ]
 }

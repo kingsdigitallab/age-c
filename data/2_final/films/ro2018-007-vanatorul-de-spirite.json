@@ -1,72 +1,149 @@
 {
-  "id": "RO2018_007",
-  "type": "Film",
-  "slug": "ro2018-007-vanatorul-de-spirite",
-  "title": {
-    "native": "V\u00e2n\u0103torul de spirite",
-    "english": "The Wanderers: The Quest of The Demon Hunter"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-04-20",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Romania",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.cinemagia.ro/trailer/the-wanderers-the-quest-of-the-demon-hunter-18265/",
-    "posterUrl": "https://www.cinemagia.ro/filme/the-wanderers-the-quest-of-the-demon-hunter-1098423/postere/2964251/#gallery"
-  },
-  "genre": [
-    "Adventure",
-    "Horror"
-  ],
-  "tags": [
-    "crime",
-    "spirituality",
-    "national identity",
-    "power",
-    "tourism",
-    "supernatural entity"
-  ],
-  "director": [
-    {
-      "id": "Drago\u0219 Buliga",
-      "slug": "dragos-buliga",
-      "name": "Drago\u0219 Buliga",
-      "gender": "Male identifying",
-      "nationality": "Romania"
-    }
-  ],
-  "character": [
-    {
-      "id": "RO2018_007_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White North American",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Armand Assante",
-        "slug": "armand-assante",
-        "name": "Armand Assante",
-        "birthYear": 1949.0,
-        "gender": "Male identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "The Wanderers este povestea unui american, Louis (Armand Assante), cel mai faimos v\u00e2n\u0103tor de fantome \u0219i vampiri din lume care, \u00eempreun\u0103 cu un jurnalist israelian, Robert (Lior Ashkenazi), ajunge \u00eentr-un sat din Transilvania pe urmele unei misterioase pove\u0219ti s\u00e2ngeroase petrecute \u00een castelul Zalesky. Ghid le este o rom\u00e2nc\u0103 frumoas\u0103 care aspir\u0103 la meseria de jurnalist (Raluca Aprodu) \u0219i care are \u00een grij\u0103 \u0219i o echip\u0103 de coreeni \u00een c\u0103utarea unui subiect senza\u021bional pentru un reality show. \u00cen Transilvania, v\u00e2n\u0103torul de vampiri ajunge s\u0103 \u00eenfrunte una dintre cele mai mari provoc\u0103ri ale vie\u021bii sale, \u00een confruntarea cu un trecut care \u00eei este familiar.",
-    "english": "There is something real and scarier than vampires in Transylvania."
-  }
+    "type": "Film",
+    "id": "RO2018_007",
+    "slug": "ro2018-007-vanatorul-de-spirite",
+    "title": {
+        "native": "V\u00e2n\u0103torul de spirite",
+        "english": "The Wanderers: The Quest of The Demon Hunter"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-04-20",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Drago\u0219 Buliga",
+            "slug": "dragos-buliga",
+            "name": "Drago\u0219 Buliga",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Romania"
+        }
+    ],
+    "genre": [
+        "Adventure",
+        "Horror"
+    ],
+    "media": {
+        "posterUrl": "https://www.cinemagia.ro/filme/the-wanderers-the-quest-of-the-demon-hunter-1098423/postere/2964251/#gallery",
+        "trailerUrl": "https://www.cinemagia.ro/trailer/the-wanderers-the-quest-of-the-demon-hunter-18265/"
+    },
+    "synopsis": {
+        "native": "The Wanderers este povestea unui american, Louis (Armand Assante), cel mai faimos v\u00e2n\u0103tor de fantome \u0219i vampiri din lume care, \u00eempreun\u0103 cu un jurnalist israelian, Robert (Lior Ashkenazi), ajunge \u00eentr-un sat din Transilvania pe urmele unei misterioase pove\u0219ti s\u00e2ngeroase petrecute \u00een castelul Zalesky. Ghid le este o rom\u00e2nc\u0103 frumoas\u0103 care aspir\u0103 la meseria de jurnalist (Raluca Aprodu) \u0219i care are \u00een grij\u0103 \u0219i o echip\u0103 de coreeni \u00een c\u0103utarea unui subiect senza\u021bional pentru un reality show. \u00cen Transilvania, v\u00e2n\u0103torul de vampiri ajunge s\u0103 \u00eenfrunte una dintre cele mai mari provoc\u0103ri ale vie\u021bii sale, \u00een confruntarea cu un trecut care \u00eei este familiar.",
+        "english": "There is something real and scarier than vampires in Transylvania."
+    },
+    "production": [
+        {
+            "country": "Romania",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "RO2018_007_01",
+            "film": "RO2018_007",
+            "person": {
+                "id": "Armand Assante",
+                "slug": "armand-assante",
+                "name": "Armand Assante",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White North American",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Armand Assante",
+                "slug": "armand-assante",
+                "name": "Armand Assante",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Branko \u0110uri\u0107",
+                "slug": "branko-duric",
+                "name": "Branko \u0110uri\u0107",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Slovenia"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Claudiu Bleon\u021b",
+                "slug": "claudiu-bleont",
+                "name": "Claudiu Bleon\u021b",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "C\u0103t\u0103lin C\u0103\u021boiu",
+                "slug": "catalin-catoiu",
+                "name": "C\u0103t\u0103lin C\u0103\u021boiu",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Drago\u0219 Buliga",
+                "slug": "dragos-buliga",
+                "name": "Drago\u0219 Buliga",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "R\u0103zvan Vasilescu",
+                "slug": "razvan-vasilescu",
+                "name": "R\u0103zvan Vasilescu",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "supernatural entity",
+        "tourism",
+        "crime",
+        "spirituality",
+        "power",
+        "national identity"
+    ]
 }

@@ -1,56 +1,72 @@
 {
-  "id": "ES2020_062",
-  "type": "Film",
-  "slug": "es2020-062-el-ano-del-descubrimiento",
-  "title": {
-    "native": "El a\u00f1o del descubrimiento",
-    "english": "The Year of the Discovery"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-11-13",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "ES2020_062",
+    "slug": "es2020-062-el-ano-del-descubrimiento",
+    "title": {
+        "native": "El a\u00f1o del descubrimiento",
+        "english": "The Year of the Discovery"
     },
-    {
-      "country": "Switzerland",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt11572530/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_El%2520a%25C3%25B1o%2520del%2520descubrimiento",
-    "posterUrl": "https://www.imdb.com/title/tt11572530/mediaviewer/rm2457896705/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Observational mode"
-  ],
-  "tags": [
-    "precarity",
-    "personal memory",
-    "unemployment",
-    "national identity",
-    "cultural memory",
-    "urban",
-    "activism",
-    "class conflict"
-  ],
-  "director": [
-    {
-      "id": "Luis L\u00f3pez Carrasco",
-      "slug": "luis-lopez-carrasco",
-      "name": "Luis L\u00f3pez Carrasco",
-      "birthYear": 1981,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "En 1992 suceden en Espa\u00f1a dos eventos fundamentales: los Juegos Ol\u00edmpicos de Barcelona y la Exposici\u00f3n Universal de Sevilla, vinculada a la celebraci\u00f3n del V Centenario del Descubrimiento de Am\u00e9rica. Diez a\u00f1os despu\u00e9s de la subida al poder del PSOE de Felipe Gonz\u00e1lez, Espa\u00f1a aparece ante la comunidad internacional como un pa\u00eds efervescente, moderno y civilizado. Una futura potencia econ\u00f3mica mundial. Sin embargo, en Cartagena, los disturbios y protestas por el cierre de f\u00e1bricas y el desmantelamiento industrial adquieren una violencia creciente hasta acabar con el incendio del parlamento regional con c\u00f3cteles molotov.",
-    "english": "In 1992, when the Olympics and the Expo at last presented Spain as an emerging new democracy, the de-industrialisation policies were met with riots in the southern town of Cartagena. The locals remember those days."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2020-11-13",
+        "year": 2020
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Luis L\u00f3pez Carrasco",
+            "slug": "luis-lopez-carrasco",
+            "name": "Luis L\u00f3pez Carrasco",
+            "birthYear": 1981,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Observational mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt11572530/mediaviewer/rm2457896705/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt11572530/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_El%2520a%25C3%25B1o%2520del%2520descubrimiento"
+    },
+    "synopsis": {
+        "native": "En 1992 suceden en Espa\u00f1a dos eventos fundamentales: los Juegos Ol\u00edmpicos de Barcelona y la Exposici\u00f3n Universal de Sevilla, vinculada a la celebraci\u00f3n del V Centenario del Descubrimiento de Am\u00e9rica. Diez a\u00f1os despu\u00e9s de la subida al poder del PSOE de Felipe Gonz\u00e1lez, Espa\u00f1a aparece ante la comunidad internacional como un pa\u00eds efervescente, moderno y civilizado. Una futura potencia econ\u00f3mica mundial. Sin embargo, en Cartagena, los disturbios y protestas por el cierre de f\u00e1bricas y el desmantelamiento industrial adquieren una violencia creciente hasta acabar con el incendio del parlamento regional con c\u00f3cteles molotov.",
+        "english": "In 1992, when the Olympics and the Expo at last presented Spain as an emerging new democracy, the de-industrialisation policies were met with riots in the southern town of Cartagena. The locals remember those days."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Switzerland",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Luis L\u00f3pez Carrasco",
+                "slug": "luis-lopez-carrasco",
+                "name": "Luis L\u00f3pez Carrasco",
+                "birthYear": 1981,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "cultural memory",
+        "personal memory",
+        "urban",
+        "precarity",
+        "unemployment",
+        "activism",
+        "class conflict",
+        "national identity"
+    ]
 }

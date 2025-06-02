@@ -1,68 +1,110 @@
 {
-  "id": "GB2019_039",
-  "type": "Film",
-  "slug": "gb2019-039-wild-honey-pie",
-  "title": {
-    "native": "Wild Honey Pie!"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-06-14",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt7253190/?ref_=ttrel_ov",
-    "posterUrl": "https://www.imdb.com/title/tt7253190/mediaviewer/rm1744288513/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Romance",
-    "Drama"
-  ],
-  "tags": [
-    "motherhood",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Jamie Adams",
-      "slug": "jamie-adams",
-      "name": "Jamie Adams",
-      "birthYear": 1980,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2019_039_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Joanna Scanlan",
-        "slug": "joanna-scanlan",
-        "name": "Joanna Scanlan",
-        "birthYear": 1961.0,
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Gillian is an aspiring playwright married to Oliver, a small-time DJ for all occasions. Their marriage has hit the Seven Year Itch, and this neurotic pair want to scratch that itch until it bleeds."
-  }
+    "type": "Film",
+    "id": "GB2019_039",
+    "slug": "gb2019-039-wild-honey-pie",
+    "title": {
+        "native": "Wild Honey Pie!",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-06-14",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Jamie Adams",
+            "slug": "jamie-adams",
+            "name": "Jamie Adams",
+            "birthYear": 1980,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Romance",
+        "Comedy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt7253190/mediaviewer/rm1744288513/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt7253190/?ref_=ttrel_ov"
+    },
+    "synopsis": {
+        "native": "Gillian is an aspiring playwright married to Oliver, a small-time DJ for all occasions. Their marriage has hit the Seven Year Itch, and this neurotic pair want to scratch that itch until it bleeds.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2019_039_01",
+            "film": "GB2019_039",
+            "person": {
+                "id": "Joanna Scanlan",
+                "slug": "joanna-scanlan",
+                "name": "Joanna Scanlan",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Jamie Adams",
+                "slug": "jamie-adams",
+                "name": "Jamie Adams",
+                "birthYear": 1980,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Joanna Scanlan",
+                "slug": "joanna-scanlan",
+                "name": "Joanna Scanlan",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "William Thomas",
+                "slug": "william-thomas",
+                "name": "William Thomas",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "motherhood",
+        "rural"
+    ]
 }

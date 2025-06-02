@@ -1,84 +1,143 @@
 {
-  "id": "FR2022_115",
-  "type": "Film",
-  "slug": "fr2022-115-avec-amour-et-acharnement",
-  "title": {
-    "native": "Avec amour et acharnement",
-    "english": "Both Sides of the Blade"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-08-31",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=CIy1nRkQ0gA",
-    "posterUrl": "https://medias.unifrance.org/medias/123/216/252027/format_page/avec-amour-et-acharnement.jpg"
-  },
-  "genre": [
-    "Romance",
-    "Drama"
-  ],
-  "tags": [
-    "infidelity",
-    "high rank employment",
-    "grandparenthood",
-    "independent home",
-    "low rank employment",
-    "marriage",
-    "urban"
-  ],
-  "character": [
-    {
-      "id": "FR2022_115_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Vincent Lindon",
-        "slug": "vincent-lindon",
-        "name": "Vincent Lindon",
-        "birthYear": 1959.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "FR2022_115",
+    "slug": "fr2022-115-avec-amour-et-acharnement",
+    "title": {
+        "native": "Avec amour et acharnement",
+        "english": "Both Sides of the Blade"
     },
-    {
-      "id": "FR2022_115_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Juliette Binoche",
-        "slug": "juliette-binoche",
-        "name": "Juliette Binoche",
-        "birthYear": 1964.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Jean et Sara vivent ensemble depuis dix ans. Quand ils se sont rencontr\u00e9s, Sara partageait la vie de Fran\u00e7ois, le meilleur ami de Jean et son grand admirateur \u00e0 l\u2019\u00e9poque o\u00f9 Jean jouait au rugby en professionnel. Jean et Sara s\u2019aiment. Un jour, Sara aper\u00e7oit Fran\u00e7ois dans la rue. Il ne la remarque pas, mais elle est submerg\u00e9e par la sensation que sa vie pourrait soudainement changer. Pour la premi\u00e8re fois depuis des ann\u00e9es, Fran\u00e7ois reprend contact avec Jean et lui propose de retravailler ensemble. Se d\u00e9clenche alors une spirale incontr\u00f4lable\u2026",
-    "english": "Jean and Sara have been living together for 10 years. When they first met, Sara was living with Fran\u00e7ois, Jean\u2019s best friend and an admirer from back when he played pro rugby. Jean and Sara love each other. One day, Sara sees Fran\u00e7ois in the street. He does not notice her, but she is overtaken by the sensation that her life could suddenly change. Fran\u00e7ois gets back in touch with Jean. For the first time in years. He suggests they start working together again. From here on, things spiral out of control."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-08-31",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        "Claire Denis"
+    ],
+    "genre": [
+        "Drama",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/123/216/252027/format_page/avec-amour-et-acharnement.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=CIy1nRkQ0gA"
+    },
+    "synopsis": {
+        "native": "Jean et Sara vivent ensemble depuis dix ans. Quand ils se sont rencontr\u00e9s, Sara partageait la vie de Fran\u00e7ois, le meilleur ami de Jean et son grand admirateur \u00e0 l\u2019\u00e9poque o\u00f9 Jean jouait au rugby en professionnel. Jean et Sara s\u2019aiment. Un jour, Sara aper\u00e7oit Fran\u00e7ois dans la rue. Il ne la remarque pas, mais elle est submerg\u00e9e par la sensation que sa vie pourrait soudainement changer. Pour la premi\u00e8re fois depuis des ann\u00e9es, Fran\u00e7ois reprend contact avec Jean et lui propose de retravailler ensemble. Se d\u00e9clenche alors une spirale incontr\u00f4lable\u2026",
+        "english": "Jean and Sara have been living together for 10 years. When they first met, Sara was living with Fran\u00e7ois, Jean\u2019s best friend and an admirer from back when he played pro rugby. Jean and Sara love each other. One day, Sara sees Fran\u00e7ois in the street. He does not notice her, but she is overtaken by the sensation that her life could suddenly change. Fran\u00e7ois gets back in touch with Jean. For the first time in years. He suggests they start working together again. From here on, things spiral out of control."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_115_01",
+            "film": "FR2022_115",
+            "person": {
+                "id": "Juliette Binoche",
+                "slug": "juliette-binoche",
+                "name": "Juliette Binoche",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "FR2022_115_02",
+            "film": "FR2022_115",
+            "person": {
+                "id": "Vincent Lindon",
+                "slug": "vincent-lindon",
+                "name": "Vincent Lindon",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Bruno Podalyd\u00e8s",
+                "slug": "bruno-podalydes",
+                "name": "Bruno Podalyd\u00e8s",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Bulle Ogier",
+                "slug": "bulle-ogier",
+                "name": "Bulle Ogier",
+                "birthYear": 1939,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": "Claire Denis",
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Juliette Binoche",
+                "slug": "juliette-binoche",
+                "name": "Juliette Binoche",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Vincent Lindon",
+                "slug": "vincent-lindon",
+                "name": "Vincent Lindon",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "marriage",
+        "urban",
+        "independent home",
+        "infidelity",
+        "high rank employment",
+        "grandparenthood",
+        "low rank employment"
+    ]
 }

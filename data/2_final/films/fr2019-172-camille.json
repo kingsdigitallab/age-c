@@ -1,48 +1,88 @@
 {
-  "id": "FR2019_172",
-  "type": "Film",
-  "slug": "fr2019-172-camille",
-  "title": {
-    "native": "Camille",
-    "english": "Camille"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-10-16",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=LwhWDJGnw7Y",
-    "posterUrl": "https://medias.unifrance.org/medias/211/124/228563/format_page/camille.jpg"
-  },
-  "genre": [
-    "Drama",
-    "Biopic"
-  ],
-  "tags": [
-    "parenthood",
-    "mass media",
-    "interracial relationships"
-  ],
-  "director": [
-    {
-      "id": "Boris Lojkine",
-      "slug": "boris-lojkine",
-      "name": "Boris Lojkine",
-      "birthYear": 1969,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Jeune photojournaliste \u00e9prise d'id\u00e9al, Camille part en Centrafrique couvrir la guerre civile qui se pr\u00e9pare. Tr\u00e8s vite, elle se passionne pour ce pays et sa jeunesse emport\u00e9e par la tourmente. D\u00e9sormais, son destin se jouera l\u00e0-bas.",
-    "english": "Camille, a young idealistic photojournalist, goes to the Central African Republic to cover the civil war that is brewing up. What she sees there will change her destiny forever."
-  }
+    "type": "Film",
+    "id": "FR2019_172",
+    "slug": "fr2019-172-camille",
+    "title": {
+        "native": "Camille",
+        "english": "Camille"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-10-16",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Boris Lojkine",
+            "slug": "boris-lojkine",
+            "name": "Boris Lojkine",
+            "birthYear": 1969,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Biopic",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/211/124/228563/format_page/camille.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=LwhWDJGnw7Y"
+    },
+    "synopsis": {
+        "native": "Jeune photojournaliste \u00e9prise d'id\u00e9al, Camille part en Centrafrique couvrir la guerre civile qui se pr\u00e9pare. Tr\u00e8s vite, elle se passionne pour ce pays et sa jeunesse emport\u00e9e par la tourmente. D\u00e9sormais, son destin se jouera l\u00e0-bas.",
+        "english": "Camille, a young idealistic photojournalist, goes to the Central African Republic to cover the civil war that is brewing up. What she sees there will change her destiny forever."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Boris Lojkine",
+                "slug": "boris-lojkine",
+                "name": "Boris Lojkine",
+                "birthYear": 1969,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Bruno Todeschini",
+                "slug": "bruno-todeschini",
+                "name": "Bruno Todeschini",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Switzerland"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Mireille Perrier",
+                "slug": "mireille-perrier",
+                "name": "Mireille Perrier",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "mass media",
+        "parenthood",
+        "interracial relationships"
+    ]
 }

@@ -1,30 +1,35 @@
 {
-  "id": "Pascal Thomas",
-  "type": "Biography",
-  "slug": "pascal-thomas",
-  "name": "Pascal Thomas",
-  "birthYear": 1945,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2019_022",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-022-a-cause-des-filles",
-      "tags": "wedding",
-      "title": {
-        "english": "For the Ones We Loved",
-        "native": "\u00c0 cause des filles.. ?"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Pascal Thomas",
+    "slug": "pascal-thomas",
+    "name": "Pascal Thomas",
+    "birthYear": 1945,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2019_022",
+                "slug": "fr2019-022-a-cause-des-filles",
+                "title": {
+                    "native": "\u00c0 cause des filles.. ?",
+                    "english": "For the Ones We Loved"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-01-30",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

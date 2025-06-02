@@ -1,53 +1,106 @@
 {
-  "id": "FR2020_088",
-  "type": "Film",
-  "slug": "fr2020-088-miss",
-  "title": {
-    "native": "Miss"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-10-21",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2020_088",
+    "slug": "fr2020-088-miss",
+    "title": {
+        "native": "Miss",
+        "english": ""
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=2dD4DxEhWe8",
-    "posterUrl": "https://medias.unifrance.org/medias/179/113/225715/format_page/miss.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "hospital",
-    "intergenerational friendship",
-    "intergenerational conflict",
-    "lgbtqi",
-    "communal housing",
-    "physical illness"
-  ],
-  "director": [
-    {
-      "id": "Ruben Alves",
-      "slug": "ruben-alves",
-      "name": "Ruben Alves",
-      "birthYear": 1980,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Alex, petit gar\u00e7on gracieux de 9 ans qui navigue joyeusement entre les genres, a un r\u00eave : \u00eatre un jour \u00e9lu Miss France. Quinze ans plus tard, Alex a perdu ses parents et sa confiance en lui, et stagne dans une vie monotone. Une rencontre impr\u00e9vue va r\u00e9veiller ce r\u00eave oubli\u00e9. Alex d\u00e9cide alors de concourir \u00e0 Miss France en cachant son identit\u00e9 de gar\u00e7on. Beaut\u00e9, excellence, camaraderie... Au gr\u00e9 des \u00e9tapes d\u2019un concours sans merci, aid\u00e9 par une famille de c\u0153ur haute en couleur, Alex va partir \u00e0 la conqu\u00eate du titre, de sa f\u00e9minit\u00e9, et surtout, de lui-m\u00eame...",
-    "english": "Alex, a young and gracious 9-year-old-boy has a dream: he wants to become Miss France. Fifteen years later, Alex has lost his parents and self-confidence. An unpredicted encounter will resurrect this forgotten dream."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2020-10-21",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Ruben Alves",
+            "slug": "ruben-alves",
+            "name": "Ruben Alves",
+            "birthYear": 1980,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/179/113/225715/format_page/miss.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=2dD4DxEhWe8"
+    },
+    "synopsis": {
+        "native": "Alex, petit gar\u00e7on gracieux de 9 ans qui navigue joyeusement entre les genres, a un r\u00eave : \u00eatre un jour \u00e9lu Miss France. Quinze ans plus tard, Alex a perdu ses parents et sa confiance en lui, et stagne dans une vie monotone. Une rencontre impr\u00e9vue va r\u00e9veiller ce r\u00eave oubli\u00e9. Alex d\u00e9cide alors de concourir \u00e0 Miss France en cachant son identit\u00e9 de gar\u00e7on. Beaut\u00e9, excellence, camaraderie... Au gr\u00e9 des \u00e9tapes d\u2019un concours sans merci, aid\u00e9 par une famille de c\u0153ur haute en couleur, Alex va partir \u00e0 la conqu\u00eate du titre, de sa f\u00e9minit\u00e9, et surtout, de lui-m\u00eame...",
+        "english": "Alex, a young and gracious 9-year-old-boy has a dream: he wants to become Miss France. Fifteen years later, Alex has lost his parents and self-confidence. An unpredicted encounter will resurrect this forgotten dream."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Amanda Lear",
+                "slug": "amanda-lear",
+                "name": "Amanda Lear",
+                "birthYear": 1939,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Isabelle Nanty",
+                "slug": "isabelle-nanty",
+                "name": "Isabelle Nanty",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Ruben Alves",
+                "slug": "ruben-alves",
+                "name": "Ruben Alves",
+                "birthYear": 1980,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Thibault de Montalembert",
+                "slug": "thibault-de-montalembert",
+                "name": "Thibault de Montalembert",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "lgbtqi",
+        "communal housing",
+        "physical illness",
+        "intergenerational conflict",
+        "hospital",
+        "intergenerational friendship"
+    ]
 }

@@ -1,56 +1,86 @@
 {
-  "id": "DE2023_055",
-  "type": "Film",
-  "slug": "de2023-055-she-chef",
-  "title": {
-    "native": "She Chef"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-05-18",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "DE2023_055",
+    "slug": "de2023-055-she-chef",
+    "title": {
+        "native": "She Chef",
+        "english": ""
     },
-    {
-      "country": "Austria",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=vM7zGNkx0xA&ab_channel=FilmtoastTrailer",
-    "posterUrl": "https://www.imdb.com/title/tt22493904/mediaviewer/rm555821825/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Observational mode"
-  ],
-  "tags": [
-    "intergenerational friendship"
-  ],
-  "director": [
-    {
-      "id": "Melanie Liebheit",
-      "slug": "melanie-liebheit",
-      "name": "Melanie Liebheit",
-      "birthYear": 1973,
-      "gender": "Female identifying",
-      "nationality": "Germany"
+    "release": {
+        "type": "Unknown",
+        "date": "2023-05-18",
+        "year": 2023
     },
-    {
-      "id": "Gereon Wetzel",
-      "slug": "gereon-wetzel",
-      "name": "Gereon Wetzel",
-      "birthYear": 1972,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "SHE CHEF begleitet die frischgebackene \u00f6sterreichische Kochweltmeisterin Agnes auf ihre Lehr- und Wanderjahre durch f\u00fcnf der renommiertesten Restaurants in die Welt der Spitzgastronomie. Ihre Forderung nach Gleichberechtigung und Nachhaltigkeit wirbelt die verstaubte Sternek\u00fcche unterwegs ordentlich durcheinander.",
-    "english": "Agnes travels from luxury kitchen to luxury kitchen. We follow the young woman on a culinary journey that lets us experience the craft of cooking from up close."
-  }
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Melanie Liebheit",
+            "slug": "melanie-liebheit",
+            "name": "Melanie Liebheit",
+            "birthYear": 1973,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Germany"
+        },
+        {
+            "id": "Gereon Wetzel",
+            "slug": "gereon-wetzel",
+            "name": "Gereon Wetzel",
+            "birthYear": 1972,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Observational mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt22493904/mediaviewer/rm555821825/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=vM7zGNkx0xA&ab_channel=FilmtoastTrailer"
+    },
+    "synopsis": {
+        "native": "SHE CHEF begleitet die frischgebackene \u00f6sterreichische Kochweltmeisterin Agnes auf ihre Lehr- und Wanderjahre durch f\u00fcnf der renommiertesten Restaurants in die Welt der Spitzgastronomie. Ihre Forderung nach Gleichberechtigung und Nachhaltigkeit wirbelt die verstaubte Sternek\u00fcche unterwegs ordentlich durcheinander.",
+        "english": "Agnes travels from luxury kitchen to luxury kitchen. We follow the young woman on a culinary journey that lets us experience the craft of cooking from up close."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Austria",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Gereon Wetzel",
+                "slug": "gereon-wetzel",
+                "name": "Gereon Wetzel",
+                "birthYear": 1972,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Melanie Liebheit",
+                "slug": "melanie-liebheit",
+                "name": "Melanie Liebheit",
+                "birthYear": 1973,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "intergenerational friendship"
+    ]
 }

@@ -1,30 +1,39 @@
 {
-  "id": "Mariano Cohn",
-  "type": "Biography",
-  "slug": "mariano-cohn",
-  "name": "Mariano Cohn",
-  "birthYear": 1975,
-  "nationality": "Argentina",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "ES2022_006",
-      "production": {
-        "country": "Argentina",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "es2022-006-competencia-oficial",
-      "tags": "superior-employee relationship",
-      "title": {
-        "english": "Official Competition",
-        "native": "Competencia oficial"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Mariano Cohn",
+    "slug": "mariano-cohn",
+    "name": "Mariano Cohn",
+    "birthYear": 1975,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Argentina",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2022_006",
+                "slug": "es2022-006-competencia-oficial",
+                "title": {
+                    "native": "Competencia oficial",
+                    "english": "Official Competition"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-02-23",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Argentina",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,43 +1,123 @@
 {
-  "id": "ES2021_026",
-  "type": "Film",
-  "slug": "es2021-026-endless-cinema",
-  "title": {
-    "native": "Endless Cinema"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-06-10",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "posterUrl": "https://www.imdb.com/title/tt13879256/mediaviewer/rm1325651457/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Metacinema"
-  ],
-  "tags": [
-    "technology",
-    "artistic creation"
-  ],
-  "director": [
-    {
-      "id": "Luc\u00eda Tello D\u00edaz",
-      "slug": "lucia-tello-diaz",
-      "name": "Luc\u00eda Tello D\u00edaz",
-      "gender": "Female identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "english": "Endless Cinema is an insight vision about the present and the future of cinema, to think about its current situation and the changes that is confronting. Nine well known cinema masters face those questions to better understanding."
-  }
+    "type": "Film",
+    "id": "ES2021_026",
+    "slug": "es2021-026-endless-cinema",
+    "title": {
+        "native": "Endless Cinema",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-06-10",
+        "year": 2021
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Luc\u00eda Tello D\u00edaz",
+            "slug": "lucia-tello-diaz",
+            "name": "Luc\u00eda Tello D\u00edaz",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Metacinema"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt13879256/mediaviewer/rm1325651457/?ref_=tt_ov_i",
+        "trailerUrl": ""
+    },
+    "synopsis": {
+        "native": "",
+        "english": "Endless Cinema is an insight vision about the present and the future of cinema, to think about its current situation and the changes that is confronting. Nine well known cinema masters face those questions to better understanding."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Agn\u00e8s Varda",
+                "slug": "agnes-varda",
+                "name": "Agn\u00e8s Varda",
+                "birthYear": 1928,
+                "deathYear": 2019,
+                "gender": "Female identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Deepa Mehta",
+                "slug": "deepa-mehta",
+                "name": "Deepa Mehta",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Canada"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Gonzalo Su\u00e1rez",
+                "slug": "gonzalo-suarez",
+                "name": "Gonzalo Su\u00e1rez",
+                "birthYear": 1934,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Isabel Coixet",
+                "slug": "isabel-coixet",
+                "name": "Isabel Coixet",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Luc\u00eda Tello D\u00edaz",
+                "slug": "lucia-tello-diaz",
+                "name": "Luc\u00eda Tello D\u00edaz",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Michael Haneke",
+                "slug": "michael-haneke",
+                "name": "Michael Haneke",
+                "birthYear": 1942,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Austria"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "technology"
+    ]
 }

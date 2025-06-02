@@ -1,67 +1,96 @@
 {
-  "id": "ES2018_047",
-  "type": "Film",
-  "slug": "es2018-047-a-estacion-violenta",
-  "title": {
-    "native": "A estaci\u00f3n violenta",
-    "english": "The Wild Season"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-06-01",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt7576814/?ref_=ttrel_ov",
-    "posterUrl": "https://www.imdb.com/title/tt7576814/mediaviewer/rm1346459648/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "natural",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Anxos Faz\u00e1ns",
-      "slug": "anxos-fazans",
-      "name": "Anxos Faz\u00e1ns",
-      "birthYear": 1992,
-      "gender": "Female identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2018_047_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Antonio Dur\u00e1n \"Morris\"",
-        "slug": "antonio-duran-morris",
-        "name": "Antonio Dur\u00e1n \"Morris\"",
-        "birthYear": 1959.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "La vida no es inofensiva. Puede ser agotadora y frustrante. A Manuel le gustar\u00eda ser escritor, pero en lugar de eso vive atrapado en su rutina, incapaz de afrontar sus emociones. Tendr\u00e1 un inesperado reencuentro con sus mejores amigos de la adolescencia que har\u00e1 disparar todas sus pulsiones."
-  }
+    "type": "Film",
+    "id": "ES2018_047",
+    "slug": "es2018-047-a-estacion-violenta",
+    "title": {
+        "native": "A estaci\u00f3n violenta",
+        "english": "The Wild Season"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-06-01",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Anxos Faz\u00e1ns",
+            "slug": "anxos-fazans",
+            "name": "Anxos Faz\u00e1ns",
+            "birthYear": 1992,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt7576814/mediaviewer/rm1346459648/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt7576814/?ref_=ttrel_ov"
+    },
+    "synopsis": {
+        "native": "La vida no es inofensiva. Puede ser agotadora y frustrante. A Manuel le gustar\u00eda ser escritor, pero en lugar de eso vive atrapado en su rutina, incapaz de afrontar sus emociones. Tendr\u00e1 un inesperado reencuentro con sus mejores amigos de la adolescencia que har\u00e1 disparar todas sus pulsiones.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2018_047_01",
+            "film": "ES2018_047",
+            "person": {
+                "id": "Antonio Dur\u00e1n \"Morris\"",
+                "slug": "antonio-duran-morris",
+                "name": "Antonio Dur\u00e1n \"Morris\"",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Antonio Dur\u00e1n \"Morris\"",
+                "slug": "antonio-duran-morris",
+                "name": "Antonio Dur\u00e1n \"Morris\"",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Anxos Faz\u00e1ns",
+                "slug": "anxos-fazans",
+                "name": "Anxos Faz\u00e1ns",
+                "birthYear": 1992,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "rural",
+        "natural"
+    ]
 }

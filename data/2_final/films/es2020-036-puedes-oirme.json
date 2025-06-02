@@ -1,46 +1,75 @@
 {
-  "id": "ES2020_036",
-  "type": "Film",
-  "slug": "es2020-036-puedes-oirme",
-  "title": {
-    "native": "\u00bfPuedes o\u00edrme?",
-    "english": "Can you hear me?"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-02-10",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=571774",
-    "posterUrl": "https://www.imdb.com/title/tt12308308/mediaviewer/rm164673025/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "self-employment",
-    "artistic creation",
-    "natural"
-  ],
-  "director": [
-    {
-      "id": "Pedro Ballesteros",
-      "slug": "pedro-ballesteros",
-      "name": "Pedro Ballesteros",
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Una propuesta que nos invita a dar una vuelta por todo el planeta de la mano de Jaume Plensa para descubrir c\u00f3mo el arte puede transformar nuestra manera de ver, vivir y estar en el mundo",
-    "english": "Can You Hear Me? is an in-depth exploration of the work and personality of the sculptor Jaume Plensa. Together with Plensa we visit some of his most representative pieces, sited in public spaces in Spain, France, Sweden, the US, Canada and Japan, on a series of trips that also take in the ideas that nurture his works. We also witness the genesis and construction of a major project for the lobby of a New York skyscraper, the preparations for a retrospective of his work at the MACBA in Barcelona, the inauguration of a major open-air exhibition in Stock- holm, and the siting of large sculptures in Madrid, the island of Porqueroles and, once again, New York. Making the most of the access and intimacy provided by one of the most import artists active on today's art scene, this documentary deals with the mechanisms leading to artistic creation, the questions that arise from our engagement with it, and how art, that thing which has no use, can transform our ways of seeing and being in the world, if only for an instant."
-  }
+    "type": "Film",
+    "id": "ES2020_036",
+    "slug": "es2020-036-puedes-oirme",
+    "title": {
+        "native": "\u00bfPuedes o\u00edrme?",
+        "english": "Can you hear me?"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-02-10",
+        "year": 2020
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Pedro Ballesteros",
+            "slug": "pedro-ballesteros",
+            "name": "Pedro Ballesteros",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt12308308/mediaviewer/rm164673025/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=571774"
+    },
+    "synopsis": {
+        "native": "Una propuesta que nos invita a dar una vuelta por todo el planeta de la mano de Jaume Plensa para descubrir c\u00f3mo el arte puede transformar nuestra manera de ver, vivir y estar en el mundo",
+        "english": "Can You Hear Me? is an in-depth exploration of the work and personality of the sculptor Jaume Plensa. Together with Plensa we visit some of his most representative pieces, sited in public spaces in Spain, France, Sweden, the US, Canada and Japan, on a series of trips that also take in the ideas that nurture his works. We also witness the genesis and construction of a major project for the lobby of a New York skyscraper, the preparations for a retrospective of his work at the MACBA in Barcelona, the inauguration of a major open-air exhibition in Stock- holm, and the siting of large sculptures in Madrid, the island of Porqueroles and, once again, New York. Making the most of the access and intimacy provided by one of the most import artists active on today's art scene, this documentary deals with the mechanisms leading to artistic creation, the questions that arise from our engagement with it, and how art, that thing which has no use, can transform our ways of seeing and being in the world, if only for an instant."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Jaume Plensa",
+                "slug": "jaume-plensa",
+                "name": "Jaume Plensa",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Pedro Ballesteros",
+                "slug": "pedro-ballesteros",
+                "name": "Pedro Ballesteros",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "natural",
+        "artistic creation",
+        "self-employment"
+    ]
 }

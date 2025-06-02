@@ -1,84 +1,125 @@
 {
-  "id": "ES2022_056",
-  "type": "Film",
-  "slug": "es2022-056-el-universo-de-oliver",
-  "title": {
-    "native": "El universo de \u00d3liver"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-05-11",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "ES2022_056",
+    "slug": "es2022-056-el-universo-de-oliver",
+    "title": {
+        "native": "El universo de \u00d3liver",
+        "english": ""
     },
-    {
-      "country": "Romania",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2022-05-11",
+        "year": 2022
     },
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=398907",
-    "posterUrl": "https://www.imdb.com/title/tt11807698/mediaviewer/rm3308854017/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama",
-    "Coming of Age",
-    "Fantasy"
-  ],
-  "tags": [
-    "precarity",
-    "class solidarity",
-    "fatherhood",
-    "mentorship",
-    "multigenerational family",
-    "urban",
-    "regional identity",
-    "separation",
-    "grandfatherhood"
-  ],
-  "director": [
-    {
-      "id": "Alexis Morante",
-      "slug": "alexis-morante",
-      "name": "Alexis Morante",
-      "birthYear": 1978,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2022_056_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Pedro Casablanc",
-        "slug": "pedro-casablanc",
-        "name": "Pedro Casablanc",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "A\u00f1o 1985. \u00d3liver, un ni\u00f1o con una imaginaci\u00f3n desbordante, se muda con su familia al rinc\u00f3n m\u00e1s al sur de Europa, justo cuando est\u00e1 a punto de pasar el Cometa Halley. Estos acontecimientos marcar\u00e1n un antes y un despu\u00e9s en la vida emocional de \u00d3liver, que buscar\u00e1 en las estrellas la soluci\u00f3n a sus problemas en el nuevo colegio, en el barrio y en casa. Para colmo, su abuelo, apodado \u201cel majara\u201d, se anima a ayudarle a interpretar el mensaje del cometa y dar un paso al frente en su nuevo universo.",
-    "english": "Oliver has an unimaginable imagination. And this change in his life will mark him for ever and ever."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Alexis Morante",
+            "slug": "alexis-morante",
+            "name": "Alexis Morante",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Coming of Age",
+        "Fantasy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt11807698/mediaviewer/rm3308854017/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=398907"
+    },
+    "synopsis": {
+        "native": "A\u00f1o 1985. \u00d3liver, un ni\u00f1o con una imaginaci\u00f3n desbordante, se muda con su familia al rinc\u00f3n m\u00e1s al sur de Europa, justo cuando est\u00e1 a punto de pasar el Cometa Halley. Estos acontecimientos marcar\u00e1n un antes y un despu\u00e9s en la vida emocional de \u00d3liver, que buscar\u00e1 en las estrellas la soluci\u00f3n a sus problemas en el nuevo colegio, en el barrio y en casa. Para colmo, su abuelo, apodado \u201cel majara\u201d, se anima a ayudarle a interpretar el mensaje del cometa y dar un paso al frente en su nuevo universo.",
+        "english": "Oliver has an unimaginable imagination. And this change in his life will mark him for ever and ever."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Romania",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2022_056_01",
+            "film": "ES2022_056",
+            "person": {
+                "id": "Pedro Casablanc",
+                "slug": "pedro-casablanc",
+                "name": "Pedro Casablanc",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alexis Morante",
+                "slug": "alexis-morante",
+                "name": "Alexis Morante",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Mar\u00eda Alfonsa Rosso",
+                "slug": "maria-alfonsa-rosso",
+                "name": "Mar\u00eda Alfonsa Rosso",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Pedro Casablanc",
+                "slug": "pedro-casablanc",
+                "name": "Pedro Casablanc",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "grandfatherhood",
+        "mentorship",
+        "precarity",
+        "fatherhood",
+        "multigenerational family",
+        "urban",
+        "separation",
+        "regional identity",
+        "class solidarity"
+    ]
 }

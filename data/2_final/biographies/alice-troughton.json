@@ -1,28 +1,39 @@
 {
-  "id": "Alice Troughton",
-  "type": "Biography",
-  "slug": "alice-troughton",
-  "name": "Alice Troughton",
-  "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Thriller",
-      "id": "GB2023_017",
-      "production": {
-        "country": "Germany",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "gb2023-017-the-lesson",
-      "tags": "independent home",
-      "title": {
-        "native": "The Lesson"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Alice Troughton",
+    "slug": "alice-troughton",
+    "name": "Alice Troughton",
+    "birthYear": 0,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "GB2023_017",
+                "slug": "gb2023-017-the-lesson",
+                "title": {
+                    "native": "The Lesson",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-09-22",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

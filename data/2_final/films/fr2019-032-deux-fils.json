@@ -1,73 +1,137 @@
 {
-  "id": "FR2019_032",
-  "type": "Film",
-  "slug": "fr2019-032-deux-fils",
-  "title": {
-    "native": "Deux Fils",
-    "english": "Father and Sons"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-02-13",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=B322BNmixKc",
-    "posterUrl": "https://medias.unifrance.org/medias/109/15/200557/format_page/deux-fils.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Drama"
-  ],
-  "tags": [
-    "parenthood",
-    "artistic creation",
-    "grief",
-    "new start",
-    "self-employment",
-    "urban"
-  ],
-  "director": [
-    {
-      "id": "F\u00e9lix Moati",
-      "slug": "felix-moati",
-      "name": "F\u00e9lix Moati",
-      "birthYear": 1990,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2019_032_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Beno\u00eet Poelvoorde",
-        "slug": "benoit-poelvoorde",
-        "name": "Beno\u00eet Poelvoorde",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "Belgium"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Joseph et ses deux fils, Joachim et Ivan, formaient une famille tr\u00e8s soud\u00e9e. Mais Ivan, le plus jeune, coll\u00e9gien hors norme en pleine crise mystique, est en col\u00e8re contre ses deux mod\u00e8les qu\u2019il voit s\u2019effondrer. Car son grand fr\u00e8re Joachim ressasse inlassablement sa derni\u00e8re rupture amoureuse, au risque de mettre en p\u00e9ril ses \u00e9tudes de psychiatrie. Et son p\u00e8re a d\u00e9cid\u00e9 de troquer sa carri\u00e8re r\u00e9ussie de m\u00e9decin pour celle d\u2019\u00e9crivain rat\u00e9. Pourtant, ces trois hommes ne cessent de veiller les uns sur les autres et de rechercher, non sans une certaine maladresse, de l\u2019amour...",
-    "english": "Joseph and his two sons, Joachim and Ivan, form a close-knit family but fail to see that each one is losing control of his life. Joachim is supposed to be studying psychiatry but spends most of his time daydreaming about his ex-girlfriend, Ivan cannot fit in at school despite being very smart, and Joseph has secretly quit his job as a doctor and is trying to become a writer. While there is plenty of affection at home, all three are also, clumsily, searching for love..."
-  }
+    "type": "Film",
+    "id": "FR2019_032",
+    "slug": "fr2019-032-deux-fils",
+    "title": {
+        "native": "Deux Fils",
+        "english": "Father and Sons"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-02-13",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "F\u00e9lix Moati",
+            "slug": "felix-moati",
+            "name": "F\u00e9lix Moati",
+            "birthYear": 1990,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/109/15/200557/format_page/deux-fils.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=B322BNmixKc"
+    },
+    "synopsis": {
+        "native": "Joseph et ses deux fils, Joachim et Ivan, formaient une famille tr\u00e8s soud\u00e9e. Mais Ivan, le plus jeune, coll\u00e9gien hors norme en pleine crise mystique, est en col\u00e8re contre ses deux mod\u00e8les qu\u2019il voit s\u2019effondrer. Car son grand fr\u00e8re Joachim ressasse inlassablement sa derni\u00e8re rupture amoureuse, au risque de mettre en p\u00e9ril ses \u00e9tudes de psychiatrie. Et son p\u00e8re a d\u00e9cid\u00e9 de troquer sa carri\u00e8re r\u00e9ussie de m\u00e9decin pour celle d\u2019\u00e9crivain rat\u00e9. Pourtant, ces trois hommes ne cessent de veiller les uns sur les autres et de rechercher, non sans une certaine maladresse, de l\u2019amour...",
+        "english": "Joseph and his two sons, Joachim and Ivan, form a close-knit family but fail to see that each one is losing control of his life. Joachim is supposed to be studying psychiatry but spends most of his time daydreaming about his ex-girlfriend, Ivan cannot fit in at school despite being very smart, and Joseph has secretly quit his job as a doctor and is trying to become a writer. While there is plenty of affection at home, all three are also, clumsily, searching for love..."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2019_032_01",
+            "film": "FR2019_032",
+            "person": {
+                "id": "Beno\u00eet Poelvoorde",
+                "slug": "benoit-poelvoorde",
+                "name": "Beno\u00eet Poelvoorde",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Belgium"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Beno\u00eet Poelvoorde",
+                "slug": "benoit-poelvoorde",
+                "name": "Beno\u00eet Poelvoorde",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "F\u00e9lix Moati",
+                "slug": "felix-moati",
+                "name": "F\u00e9lix Moati",
+                "birthYear": 1990,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "No\u00e9mie Lvovsky",
+                "slug": "noemie-lvovsky",
+                "name": "No\u00e9mie Lvovsky",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Patrick d'Assum\u00e7ao",
+                "slug": "patrick-d-assumcao",
+                "name": "Patrick d'Assum\u00e7ao",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Vincent Nemeth",
+                "slug": "vincent-nemeth",
+                "name": "Vincent Nemeth",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "parenthood",
+        "self-employment",
+        "artistic creation",
+        "urban",
+        "grief",
+        "new start"
+    ]
 }

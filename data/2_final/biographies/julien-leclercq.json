@@ -1,30 +1,39 @@
 {
-  "id": "Julien Leclercq",
-  "type": "Biography",
-  "slug": "julien-leclercq",
-  "name": "Julien Leclercq",
-  "birthYear": 1979,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Action",
-      "id": "FR2018_132",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "fr2018-132-lukas",
-      "tags": "independent home",
-      "title": {
-        "english": "The Bouncer",
-        "native": "Lukas"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Julien Leclercq",
+    "slug": "julien-leclercq",
+    "name": "Julien Leclercq",
+    "birthYear": 1979,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2018_132",
+                "slug": "fr2018-132-lukas",
+                "title": {
+                    "native": "Lukas",
+                    "english": "The Bouncer"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-08-22",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

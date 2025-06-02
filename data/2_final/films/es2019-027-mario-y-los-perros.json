@@ -1,50 +1,104 @@
 {
-  "id": "ES2019_027",
-  "type": "Film",
-  "slug": "es2019-027-mario-y-los-perros",
-  "title": {
-    "native": "Mario Y Los Perros"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-06-28",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=616126",
-    "posterUrl": "https://www.imdb.com/title/tt13112986/mediaviewer/rm619947777/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Expository mode",
-    "Documentary \u2013 Participatory mode",
-    "Biopic"
-  ],
-  "tags": [
-    "personal memory",
-    "artistic creation",
-    "national identity",
-    "cultural memory",
-    "self-employment",
-    "celebrity"
-  ],
-  "director": [
-    {
-      "id": "Chema de la Pe\u00f1a",
-      "slug": "chema-de-la-pena",
-      "name": "Chema de la Pe\u00f1a",
-      "birthYear": 1964,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "En 1946, el ni\u00f1o de 10 a\u00f1os Mario Vargas Llosa llega a Lima. 16 a\u00f1os despu\u00e9s, en Par\u00eds, termina su primera novela \u201cLa ciudad y los perros\u201d con solo 26. Una asombrosa y demoledora obra que inaugura el boom de la literatura latinoamericana. El lanzamiento hizo que medio mundo conociera a Vargas Llosa, un desconocido chico peruano, incre\u00edblemente joven para la madurez de su novela. \u00bfQue llev\u00f3 a un ni\u00f1o de provincias del Per\u00fa a viajar a Par\u00eds para escribir \u201cLa ciudad y los Perros\u201d? \u00bfQu\u00e9 sucedi\u00f3 en su vida de aquellos a\u00f1os para que surgiese como una erupci\u00f3n esta primera gran novela escrita a martillazos?"
-  }
+    "type": "Film",
+    "id": "ES2019_027",
+    "slug": "es2019-027-mario-y-los-perros",
+    "title": {
+        "native": "Mario Y Los Perros",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-06-28",
+        "year": 2019
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Chema de la Pe\u00f1a",
+            "slug": "chema-de-la-pena",
+            "name": "Chema de la Pe\u00f1a",
+            "birthYear": 1964,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Expository mode",
+        "Biopic",
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt13112986/mediaviewer/rm619947777/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=616126"
+    },
+    "synopsis": {
+        "native": "En 1946, el ni\u00f1o de 10 a\u00f1os Mario Vargas Llosa llega a Lima. 16 a\u00f1os despu\u00e9s, en Par\u00eds, termina su primera novela \u201cLa ciudad y los perros\u201d con solo 26. Una asombrosa y demoledora obra que inaugura el boom de la literatura latinoamericana. El lanzamiento hizo que medio mundo conociera a Vargas Llosa, un desconocido chico peruano, incre\u00edblemente joven para la madurez de su novela. \u00bfQue llev\u00f3 a un ni\u00f1o de provincias del Per\u00fa a viajar a Par\u00eds para escribir \u201cLa ciudad y los Perros\u201d? \u00bfQu\u00e9 sucedi\u00f3 en su vida de aquellos a\u00f1os para que surgiese como una erupci\u00f3n esta primera gran novela escrita a martillazos?",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Chema de la Pe\u00f1a",
+                "slug": "chema-de-la-pena",
+                "name": "Chema de la Pe\u00f1a",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jorge Edwards",
+                "slug": "jorge-edwards",
+                "name": "Jorge Edwards",
+                "birthYear": 1931,
+                "deathYear": 2023,
+                "gender": "Male identifying",
+                "nationality": "Chile"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Mario Vargas Llosa",
+                "slug": "mario-vargas-llosa",
+                "name": "Mario Vargas Llosa",
+                "birthYear": 1936,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Dominican Republic (the)"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Rosa Reg\u00e0s",
+                "slug": "rosa-regas",
+                "name": "Rosa Reg\u00e0s",
+                "birthYear": 1933,
+                "deathYear": 2024,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "personal memory",
+        "cultural memory",
+        "artistic creation",
+        "celebrity",
+        "national identity",
+        "self-employment"
+    ]
 }

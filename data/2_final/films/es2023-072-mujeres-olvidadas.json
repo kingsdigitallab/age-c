@@ -1,45 +1,99 @@
 {
-  "id": "ES2023_072",
-  "type": "Film",
-  "slug": "es2023-072-mujeres-olvidadas",
-  "title": {
-    "native": "Mujeres olvidadas"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-06-09",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=763425",
-    "posterUrl": "https://www.imdb.com/title/tt28245883/mediaviewer/rm11818497/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "gender discrimination",
-    "collective trauma"
-  ],
-  "director": [
-    {
-      "id": "J. Echevarr\u00eda Torres",
-      "slug": "j-echevarria-torres",
-      "name": "J. Echevarr\u00eda Torres",
-      "gender": "Unknown",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Este documental versa sobre determinadas mujeres que habiendo irrumpido en el escenario cultural, pol\u00edtico y social en la Espa\u00f1a del primer cuarto del siglo XX, se encontraban en situaci\u00f3n de desamparo en el c\u00f3digo civil por el hecho de ser mujeres, lo cual las impuls\u00f3 a ocupar dicho espacio que les pertenec\u00eda sin pedir permiso. No ser\u00e1 hasta la llegada del gobierno de la rep\u00fablica cuando alcanzar\u00e1n la igualdad como ciudadanas, retrocediendo posteriormente en derechos y libertades con el levantamiento del llamado bando nacional y el estallido de la guerra civil en Espa\u00f1a. Fueron mujeres libres, transgresoras y talentosas que no ten\u00edan nada que envidiar a sus compa\u00f1eros masculinos, pero que la historia oficial jam\u00e1s ha reivindicado hasta ahora.",
-    "english": "Documentary about women who, having burst onto the cultural, political and social scene in Spain in the first quarter of the 20th century, found themselves unprotected in the civil code because they were women."
-  }
+    "type": "Film",
+    "id": "ES2023_072",
+    "slug": "es2023-072-mujeres-olvidadas",
+    "title": {
+        "native": "Mujeres olvidadas",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-06-09",
+        "year": 2023
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "J. Echevarr\u00eda Torres",
+            "slug": "j-echevarria-torres",
+            "name": "J. Echevarr\u00eda Torres",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Unknown",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Documentary \u2013 Performative mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt28245883/mediaviewer/rm11818497/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=763425"
+    },
+    "synopsis": {
+        "native": "Este documental versa sobre determinadas mujeres que habiendo irrumpido en el escenario cultural, pol\u00edtico y social en la Espa\u00f1a del primer cuarto del siglo XX, se encontraban en situaci\u00f3n de desamparo en el c\u00f3digo civil por el hecho de ser mujeres, lo cual las impuls\u00f3 a ocupar dicho espacio que les pertenec\u00eda sin pedir permiso. No ser\u00e1 hasta la llegada del gobierno de la rep\u00fablica cuando alcanzar\u00e1n la igualdad como ciudadanas, retrocediendo posteriormente en derechos y libertades con el levantamiento del llamado bando nacional y el estallido de la guerra civil en Espa\u00f1a. Fueron mujeres libres, transgresoras y talentosas que no ten\u00edan nada que envidiar a sus compa\u00f1eros masculinos, pero que la historia oficial jam\u00e1s ha reivindicado hasta ahora.",
+        "english": "Documentary about women who, having burst onto the cultural, political and social scene in Spain in the first quarter of the 20th century, found themselves unprotected in the civil code because they were women."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "J. Echevarr\u00eda Torres",
+                "slug": "j-echevarria-torres",
+                "name": "J. Echevarr\u00eda Torres",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Unknown",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jos\u00e9 Luis Ferris",
+                "slug": "jose-luis-ferris",
+                "name": "Jos\u00e9 Luis Ferris",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Llum Qui\u00f1onero",
+                "slug": "llum-quinonero",
+                "name": "Llum Qui\u00f1onero",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Rosa Villacast\u00edn",
+                "slug": "rosa-villacastin",
+                "name": "Rosa Villacast\u00edn",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Narrator/voice over"
+        }
+    ],
+    "tags": [
+        "gender discrimination",
+        "collective trauma"
+    ]
 }

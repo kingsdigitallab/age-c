@@ -1,54 +1,94 @@
 {
-  "id": "FR2022_084",
-  "type": "Film",
-  "slug": "fr2022-084-tom",
-  "title": {
-    "native": "Tom",
-    "english": "Little Man Tom"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-05-11",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2022_084",
+    "slug": "fr2022-084-tom",
+    "title": {
+        "native": "Tom",
+        "english": "Little Man Tom"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=Du7G139ToMw",
-    "posterUrl": "https://medias.unifrance.org/medias/144/206/249488/format_page/tom.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "intergenerational friendship",
-    "caregiving",
-    "physical illness",
-    "medical treatment",
-    "widowhood",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Fabienne Berthaud",
-      "slug": "fabienne-berthaud",
-      "name": "Fabienne Berthaud",
-      "birthYear": 1966,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Tom, 11 ans, vit dans un mobil-home \u00e0 l\u2019or\u00e9e des bois avec Joss, sa jeune m\u00e8re. Tous deux s\u2019\u00e9paulent depuis toujours et sont d\u2019un optimisme sans faille. Alors que Joss multiplie les petits boulots et que Tom se d\u00e9brouille comme il le peut, Samy, un jeune homme tout juste sorti de prison, se m\u00eale \u00e0 leur vie par effraction et en bouscule l\u2019\u00e9quilibre.",
-    "english": "Tom, 11 years old, lives in a trailer home on the edge of the woods with Joss, his young mother. The two of them support each other and show unwavering optimism. While Joss is away working small jobs, Tom keeps himself occupied. One day, a young man fresh out of prison breaks into their home and their lives, and disrupts the equilibrium."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-05-11",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Fabienne Berthaud",
+            "slug": "fabienne-berthaud",
+            "name": "Fabienne Berthaud",
+            "birthYear": 1966,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/144/206/249488/format_page/tom.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=Du7G139ToMw"
+    },
+    "synopsis": {
+        "native": "Tom, 11 ans, vit dans un mobil-home \u00e0 l\u2019or\u00e9e des bois avec Joss, sa jeune m\u00e8re. Tous deux s\u2019\u00e9paulent depuis toujours et sont d\u2019un optimisme sans faille. Alors que Joss multiplie les petits boulots et que Tom se d\u00e9brouille comme il le peut, Samy, un jeune homme tout juste sorti de prison, se m\u00eale \u00e0 leur vie par effraction et en bouscule l\u2019\u00e9quilibre.",
+        "english": "Tom, 11 years old, lives in a trailer home on the edge of the woods with Joss, his young mother. The two of them support each other and show unwavering optimism. While Joss is away working small jobs, Tom keeps himself occupied. One day, a young man fresh out of prison breaks into their home and their lives, and disrupts the equilibrium."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Claudine Acs",
+                "slug": "claudine-acs",
+                "name": "Claudine Acs",
+                "birthYear": 1935,
+                "deathYear": 2023,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Fabienne Berthaud",
+                "slug": "fabienne-berthaud",
+                "name": "Fabienne Berthaud",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Florence Thomassin",
+                "slug": "florence-thomassin",
+                "name": "Florence Thomassin",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "physical illness",
+        "medical treatment",
+        "caregiving",
+        "intergenerational friendship",
+        "rural",
+        "widowhood"
+    ]
 }

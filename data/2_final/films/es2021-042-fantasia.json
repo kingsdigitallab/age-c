@@ -1,47 +1,64 @@
 {
-  "id": "ES2021_042",
-  "type": "Film",
-  "slug": "es2021-042-fantasia",
-  "title": {
-    "native": "Fantas\u00eda"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-11-26",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=464049",
-    "posterUrl": "https://www.imdb.com/title/tt14765652/mediaviewer/rm47447553/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Observational mode"
-  ],
-  "tags": [
-    "parenthood",
-    "well-being",
-    "marriage",
-    "holiday"
-  ],
-  "director": [
-    {
-      "id": "Aitor Merino",
-      "slug": "aitor-merino",
-      "name": "Aitor Merino",
-      "birthYear": 1972,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Documental que captura la intimidad de la familia del director durante un viaje en crucero por el Mediterr\u00e1neo con ellos, reflexionando sobre la vejez, la familia y la memoria.",
-    "english": "Siblings Amaia and Aitor are close to turning fifty, do not have children, and since they were young they have lived away from their parents, Kontxi and I\u00f1aki, who are now retired. One summer they manage to fulfill their dream; the four of them get together and go on a cruise called FANTAS\u00cdA. Brother and sister allow themselves to be spoiled like children and their parents golden anniversary becomes a honeymoon. Lulled by the sea breeze, time seems to stand still. But beyond the horizon, the walls of their home gradually fill up with paintings and photographs that make up for the growing absences of a reality that forges ahead relentlessly."
-  }
+    "type": "Film",
+    "id": "ES2021_042",
+    "slug": "es2021-042-fantasia",
+    "title": {
+        "native": "Fantas\u00eda",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-11-26",
+        "year": 2021
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Aitor Merino",
+            "slug": "aitor-merino",
+            "name": "Aitor Merino",
+            "birthYear": 1972,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Observational mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt14765652/mediaviewer/rm47447553/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=464049"
+    },
+    "synopsis": {
+        "native": "Documental que captura la intimidad de la familia del director durante un viaje en crucero por el Mediterr\u00e1neo con ellos, reflexionando sobre la vejez, la familia y la memoria.",
+        "english": "Siblings Amaia and Aitor are close to turning fifty, do not have children, and since they were young they have lived away from their parents, Kontxi and I\u00f1aki, who are now retired. One summer they manage to fulfill their dream; the four of them get together and go on a cruise called FANTAS\u00cdA. Brother and sister allow themselves to be spoiled like children and their parents golden anniversary becomes a honeymoon. Lulled by the sea breeze, time seems to stand still. But beyond the horizon, the walls of their home gradually fill up with paintings and photographs that make up for the growing absences of a reality that forges ahead relentlessly."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Aitor Merino",
+                "slug": "aitor-merino",
+                "name": "Aitor Merino",
+                "birthYear": 1972,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "holiday",
+        "well-being",
+        "parenthood",
+        "marriage"
+    ]
 }

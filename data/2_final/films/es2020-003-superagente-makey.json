@@ -1,97 +1,139 @@
 {
-  "id": "ES2020_003",
-  "type": "Film",
-  "slug": "es2020-003-superagente-makey",
-  "title": {
-    "native": "Superagente Makey"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-07-17",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=COcW_gSqsco",
-    "posterUrl": "https://www.imdb.com/title/tt10419566/mediaviewer/rm2457974529/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Action"
-  ],
-  "tags": [
-    "intergenerational conflict",
-    "low-rank employment",
-    "new start",
-    "state institutions",
-    "urban",
-    "homosociality",
-    "intragenerational friendship",
-    "substance abuse",
-    "technology",
-    "tourism",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Alfonso S\u00e1nchez",
-      "slug": "alfonso-sanchez",
-      "name": "Alfonso S\u00e1nchez",
-      "birthYear": 1978,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2020_003_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Leo Harlem",
-        "slug": "leo-harlem",
-        "name": "Leo Harlem",
-        "birthYear": 1965.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "ES2020_003",
+    "slug": "es2020-003-superagente-makey",
+    "title": {
+        "native": "Superagente Makey",
+        "english": ""
     },
-    {
-      "id": "ES2020_003_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Jordi S\u00e1nchez",
-        "slug": "jordi-sanchez",
-        "name": "Jordi S\u00e1nchez",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Jos\u00e9 Miguel \u201cMakey\u201d es un polic\u00eda campechano que adora su trabajo en el barrio de Carabanchel y con un sentido de la responsabilidad y el honor desmesurado. Su vida da un vuelco cuando es degradado a agente de movilidad (vaya, de los que ponen multas) y destinado a la Costa del Sol debido a un error garrafal. All\u00ed Makey se reencontrar\u00e1 con su hija con la que hace a\u00f1os que no se habla y se ver\u00e1, sin comerlo ni beberlo, envuelto en una peligrosa trama de narcotr\u00e1fico internacional. Makey est\u00e1 a punto de convertirse en el protagonista de las pel\u00edculas de acci\u00f3n con las que siempre ha so\u00f1ado.",
-    "english": "A naive police officer gets caught in the middle of a dangerous international drug operation in the Costa del Sol."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2020-07-17",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Alfonso S\u00e1nchez",
+            "slug": "alfonso-sanchez",
+            "name": "Alfonso S\u00e1nchez",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Action"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt10419566/mediaviewer/rm2457974529/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=COcW_gSqsco"
+    },
+    "synopsis": {
+        "native": "Jos\u00e9 Miguel \u201cMakey\u201d es un polic\u00eda campechano que adora su trabajo en el barrio de Carabanchel y con un sentido de la responsabilidad y el honor desmesurado. Su vida da un vuelco cuando es degradado a agente de movilidad (vaya, de los que ponen multas) y destinado a la Costa del Sol debido a un error garrafal. All\u00ed Makey se reencontrar\u00e1 con su hija con la que hace a\u00f1os que no se habla y se ver\u00e1, sin comerlo ni beberlo, envuelto en una peligrosa trama de narcotr\u00e1fico internacional. Makey est\u00e1 a punto de convertirse en el protagonista de las pel\u00edculas de acci\u00f3n con las que siempre ha so\u00f1ado.",
+        "english": "A naive police officer gets caught in the middle of a dangerous international drug operation in the Costa del Sol."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2020_003_01",
+            "film": "ES2020_003",
+            "person": {
+                "id": "Leo Harlem",
+                "slug": "leo-harlem",
+                "name": "Leo Harlem",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2020_003_02",
+            "film": "ES2020_003",
+            "person": {
+                "id": "Jordi S\u00e1nchez",
+                "slug": "jordi-sanchez",
+                "name": "Jordi S\u00e1nchez",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alfonso S\u00e1nchez",
+                "slug": "alfonso-sanchez",
+                "name": "Alfonso S\u00e1nchez",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jordi S\u00e1nchez",
+                "slug": "jordi-sanchez",
+                "name": "Jordi S\u00e1nchez",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Leo Harlem",
+                "slug": "leo-harlem",
+                "name": "Leo Harlem",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "state institutions",
+        "urban",
+        "tourism",
+        "technology",
+        "substance abuse",
+        "low-rank employment",
+        "new start",
+        "homosociality",
+        "intergenerational conflict",
+        "intragenerational friendship",
+        "superior-employee relationship"
+    ]
 }

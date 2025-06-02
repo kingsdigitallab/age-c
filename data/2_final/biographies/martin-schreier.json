@@ -1,29 +1,35 @@
 {
-  "id": "Martin Schreier",
-  "type": "Biography",
-  "slug": "martin-schreier",
-  "name": "Martin Schreier",
-  "birthYear": 1980,
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "DE2019_058",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "de2019-058-traumfabrik",
-      "title": {
-        "english": "Dreamfactory",
-        "native": "Traumfabrik"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Martin Schreier",
+    "slug": "martin-schreier",
+    "name": "Martin Schreier",
+    "birthYear": 1980,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2019_058",
+                "slug": "de2019-058-traumfabrik",
+                "title": {
+                    "native": "Traumfabrik",
+                    "english": "Dreamfactory"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-07-04",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,81 +1,109 @@
 {
-  "id": "ES2019_009",
-  "type": "Film",
-  "slug": "es2019-009-gente-que-viene-y-bah",
-  "title": {
-    "native": "Gente que viene y bah",
-    "english": "In Family I Trust"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-01-18",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=iJBsgsRRvs0",
-    "posterUrl": "https://www.imdb.com/title/tt6869362/mediaviewer/rm3037099776/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Romance",
-    "Drama"
-  ],
-  "tags": [
-    "natural death",
-    "motherhood",
-    "class solidarity",
-    "independent home",
-    "mentorship",
-    "multigenerational family",
-    "self-employment",
-    "return home",
-    "grandmotherhood",
-    "physical illness",
-    "medical treatment",
-    "burial",
-    "widowhood"
-  ],
-  "director": [
-    {
-      "id": "Patricia Font",
-      "slug": "patricia-font",
-      "name": "Patricia Font",
-      "birthYear": 1978,
-      "gender": "Female identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2019_009_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Chronic illness",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Carmen Maura",
-        "slug": "carmen-maura",
-        "name": "Carmen Maura",
-        "birthYear": 1945.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Todo va bien en la vida de Bea, una joven y talentosa arquitecta, hasta que en la misma semana pilla a su novio enroll\u00e1ndose con una de las presentadoras m\u00e1s guapas de la tele y es despedida con una indemnizaci\u00f3n rid\u00edcula. Con el desastre en los talones, Bea no tiene m\u00e1s remedio que volver a su pueblo natal, donde, adem\u00e1s de un paisaje id\u00edlico, le espera un futuro incierto, una familia como poco peculiar y un vecino \"misterioso\".",
-    "english": "After discovering that her boyfriend is cheating on her with a famous TV reporter, a woman returns to her family home to find herself."
-  }
+    "type": "Film",
+    "id": "ES2019_009",
+    "slug": "es2019-009-gente-que-viene-y-bah",
+    "title": {
+        "native": "Gente que viene y bah",
+        "english": "In Family I Trust"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-01-18",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Patricia Font",
+            "slug": "patricia-font",
+            "name": "Patricia Font",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Romance",
+        "Comedy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt6869362/mediaviewer/rm3037099776/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=iJBsgsRRvs0"
+    },
+    "synopsis": {
+        "native": "Todo va bien en la vida de Bea, una joven y talentosa arquitecta, hasta que en la misma semana pilla a su novio enroll\u00e1ndose con una de las presentadoras m\u00e1s guapas de la tele y es despedida con una indemnizaci\u00f3n rid\u00edcula. Con el desastre en los talones, Bea no tiene m\u00e1s remedio que volver a su pueblo natal, donde, adem\u00e1s de un paisaje id\u00edlico, le espera un futuro incierto, una familia como poco peculiar y un vecino \"misterioso\".",
+        "english": "After discovering that her boyfriend is cheating on her with a famous TV reporter, a woman returns to her family home to find herself."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2019_009_01",
+            "film": "ES2019_009",
+            "person": {
+                "id": "Carmen Maura",
+                "slug": "carmen-maura",
+                "name": "Carmen Maura",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Chronic illness",
+            "assistedMobility": "Unknown"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Carmen Maura",
+                "slug": "carmen-maura",
+                "name": "Carmen Maura",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Patricia Font",
+                "slug": "patricia-font",
+                "name": "Patricia Font",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "return home",
+        "burial",
+        "physical illness",
+        "medical treatment",
+        "natural death",
+        "motherhood",
+        "multigenerational family",
+        "mentorship",
+        "widowhood",
+        "independent home",
+        "self-employment",
+        "grandmotherhood",
+        "class solidarity"
+    ]
 }

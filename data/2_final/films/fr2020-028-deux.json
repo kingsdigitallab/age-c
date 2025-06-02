@@ -1,104 +1,145 @@
 {
-  "id": "FR2020_028",
-  "type": "Film",
-  "slug": "fr2020-028-deux",
-  "title": {
-    "native": "Deux",
-    "english": "Two of Us"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-02-12",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Luxembourg",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2020_028",
+    "slug": "fr2020-028-deux",
+    "title": {
+        "native": "Deux",
+        "english": "Two of Us"
     },
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2020-02-12",
+        "year": 2020
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=g8gZseCXevM",
-    "posterUrl": "https://medias.unifrance.org/medias/93/80/217181/format_page/deux.jpg"
-  },
-  "genre": [
-    "Romance",
-    "Drama"
-  ],
-  "tags": [
-    "partnership",
-    "motherhood",
-    "elderhood (friendship among elders)",
-    "independent home",
-    "caregiving",
-    "desire",
-    "lgbtqi",
-    "physical illness",
-    "retirement"
-  ],
-  "director": [
-    {
-      "id": "Filippo Meneghetti",
-      "slug": "filippo-meneghetti",
-      "name": "Filippo Meneghetti",
-      "birthYear": 1980,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2020_028_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Homosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Barbara Sukowa",
-        "slug": "barbara-sukowa",
-        "name": "Barbara Sukowa",
-        "birthYear": 1950.0,
-        "gender": "Female identifying",
-        "nationality": "Germany"
-      },
-      "role": "Leading actor"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Filippo Meneghetti",
+            "slug": "filippo-meneghetti",
+            "name": "Filippo Meneghetti",
+            "birthYear": 1980,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/93/80/217181/format_page/deux.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=g8gZseCXevM"
     },
-    {
-      "id": "FR2020_028_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Homosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Retired",
-      "ability": "Temporary disability",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Martine Chevallier",
-        "slug": "martine-chevallier",
-        "name": "Martine Chevallier",
-        "birthYear": 1949.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Nina et Madeleine, deux retrait\u00e9es, sont profond\u00e9ment amoureuses l\u2019une de l\u2019autre. Aux yeux de tous, elles ne sont que de simples voisines vivant au dernier \u00e9tage de leur immeuble. Au quotidien, elles vont et viennent entre leurs deux appartements et partagent leurs vies. Personne ne les conna\u00eet vraiment, pas m\u00eame Anne, la fille attentionn\u00e9e de Madeleine. Jusqu\u2019au jour o\u00f9 un \u00e9v\u00e9nement cruel fait tout basculer.",
-    "english": "Nina and Madeleine, two retired women, have been secretly deeply in love for decades. From everybody\u2019s point of view, including Madeleine\u2019s family, they are simply neighbors living on the top floor of their building. They come and go between their two apartments, sharing the tender delights of everyday life together. Until the day their relationship is turned upside down by an unexpected event leading Madeleine\u2019s daughter to slowly unveil the truth about them."
-  }
+    "synopsis": {
+        "native": "Nina et Madeleine, deux retrait\u00e9es, sont profond\u00e9ment amoureuses l\u2019une de l\u2019autre. Aux yeux de tous, elles ne sont que de simples voisines vivant au dernier \u00e9tage de leur immeuble. Au quotidien, elles vont et viennent entre leurs deux appartements et partagent leurs vies. Personne ne les conna\u00eet vraiment, pas m\u00eame Anne, la fille attentionn\u00e9e de Madeleine. Jusqu\u2019au jour o\u00f9 un \u00e9v\u00e9nement cruel fait tout basculer.",
+        "english": "Nina and Madeleine, two retired women, have been secretly deeply in love for decades. From everybody\u2019s point of view, including Madeleine\u2019s family, they are simply neighbors living on the top floor of their building. They come and go between their two apartments, sharing the tender delights of everyday life together. Until the day their relationship is turned upside down by an unexpected event leading Madeleine\u2019s daughter to slowly unveil the truth about them."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Luxembourg",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2020_028_02",
+            "film": "FR2020_028",
+            "person": {
+                "id": "Barbara Sukowa",
+                "slug": "barbara-sukowa",
+                "name": "Barbara Sukowa",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Homosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "FR2020_028_02",
+            "film": "FR2020_028",
+            "person": {
+                "id": "Martine Chevallier",
+                "slug": "martine-chevallier",
+                "name": "Martine Chevallier",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Homosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Retired",
+            "ability": "Temporary disability",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Barbara Sukowa",
+                "slug": "barbara-sukowa",
+                "name": "Barbara Sukowa",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Filippo Meneghetti",
+                "slug": "filippo-meneghetti",
+                "name": "Filippo Meneghetti",
+                "birthYear": 1980,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Martine Chevallier",
+                "slug": "martine-chevallier",
+                "name": "Martine Chevallier",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "physical illness",
+        "motherhood",
+        "caregiving",
+        "retirement",
+        "desire",
+        "independent home",
+        "lgbtqi",
+        "partnership",
+        "elderhood (friendship among elders)"
+    ]
 }

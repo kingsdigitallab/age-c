@@ -1,73 +1,113 @@
 {
-  "id": "FR2020_006",
-  "type": "Film",
-  "slug": "fr2020-006-une-belle-equipe",
-  "title": {
-    "native": "Une belle \u00e9quipe",
-    "english": "Quenns of the Field"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-01-15",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=pJI6SQH7EHg",
-    "posterUrl": "https://medias.unifrance.org/medias/200/65/213448/format_page/une-belle-equipe.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Sports Film"
-  ],
-  "tags": [
-    "intergenerational friendship",
-    "fatherhood",
-    "low rank employment",
-    "mentorship",
-    "rescue mission",
-    "volunteering"
-  ],
-  "director": [
-    {
-      "id": "Mohamed Hamidi",
-      "slug": "mohamed-hamidi",
-      "name": "Mohamed Hamidi",
-      "birthYear": 1972,
-      "gender": "Male identifying",
-      "nationality": "Algeria"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2020_006_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "North Africa",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Kad Merad",
-        "slug": "kad-merad",
-        "name": "Kad Merad",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "Algeria"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Apr\u00e8s une bagarre, toute l'\u00e9quipe de foot de Clourri\u00e8res est suspendue jusqu'\u00e0 la fin de la saison. Afin de sauver ce petit club du Nord qui risque de dispara\u00eetre, le coach d\u00e9cide de former une \u00e9quipe compos\u00e9e exclusivement de femmes pour finir le championnat. Cette situation va compl\u00e8tement bouleverser le quotidien des familles et changer les codes bien \u00e9tablis de la petite communaut\u00e9...",
-    "english": "After its football team is disqualified for insulting a referee during a major game, a small country town risks losing its funding along with its field. To avoid this disaster, there is only one solution: creating a new team made up exclusively of women to defend the city\u2019s colors! But in a community where football has always been an activity reserved for men, these women\u2019s new status will be sure to shake up the daily lives of the town\u2019s residents\u2026"
-  }
+    "type": "Film",
+    "id": "FR2020_006",
+    "slug": "fr2020-006-une-belle-equipe",
+    "title": {
+        "native": "Une belle \u00e9quipe",
+        "english": "Quenns of the Field"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-01-15",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Mohamed Hamidi",
+            "slug": "mohamed-hamidi",
+            "name": "Mohamed Hamidi",
+            "birthYear": 1972,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Algeria"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Sports Film"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/200/65/213448/format_page/une-belle-equipe.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=pJI6SQH7EHg"
+    },
+    "synopsis": {
+        "native": "Apr\u00e8s une bagarre, toute l'\u00e9quipe de foot de Clourri\u00e8res est suspendue jusqu'\u00e0 la fin de la saison. Afin de sauver ce petit club du Nord qui risque de dispara\u00eetre, le coach d\u00e9cide de former une \u00e9quipe compos\u00e9e exclusivement de femmes pour finir le championnat. Cette situation va compl\u00e8tement bouleverser le quotidien des familles et changer les codes bien \u00e9tablis de la petite communaut\u00e9...",
+        "english": "After its football team is disqualified for insulting a referee during a major game, a small country town risks losing its funding along with its field. To avoid this disaster, there is only one solution: creating a new team made up exclusively of women to defend the city\u2019s colors! But in a community where football has always been an activity reserved for men, these women\u2019s new status will be sure to shake up the daily lives of the town\u2019s residents\u2026"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2020_006_01",
+            "film": "FR2020_006",
+            "person": {
+                "id": "Kad Merad",
+                "slug": "kad-merad",
+                "name": "Kad Merad",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Algeria"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "North Africa",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Andr\u00e9 Wilms",
+                "slug": "andre-wilms",
+                "name": "Andr\u00e9 Wilms",
+                "birthYear": 1947,
+                "deathYear": 2022,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Kad Merad",
+                "slug": "kad-merad",
+                "name": "Kad Merad",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Algeria"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Mohamed Hamidi",
+                "slug": "mohamed-hamidi",
+                "name": "Mohamed Hamidi",
+                "birthYear": 1972,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Algeria"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "rescue mission",
+        "low rank employment",
+        "intergenerational friendship",
+        "mentorship",
+        "fatherhood",
+        "volunteering"
+    ]
 }

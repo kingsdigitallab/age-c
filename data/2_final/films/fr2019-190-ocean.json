@@ -1,47 +1,75 @@
 {
-  "id": "FR2019_190",
-  "type": "Film",
-  "slug": "fr2019-190-ocean",
-  "title": {
-    "native": "Oc\u00e9an",
-    "english": "Oc\u00e9an"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-11-13",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=UpKHoaBrxHM",
-    "posterUrl": "https://medias.unifrance.org/medias/212/58/211668/format_page/ocean.jpg"
-  },
-  "genre": [
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "lgbtqi",
-    "activism",
-    "medical treatment"
-  ],
-  "director": [
-    {
-      "id": "Oc\u00e9an",
-      "slug": "ocean",
-      "name": "Oc\u00e9an",
-      "birthYear": 1977,
-      "gender": "Transgender identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Autoportrait intime, sur toute une ann\u00e9e, d\u2019un homme transgenre que les gens connaissaient jusque-l\u00e0 sous le nom d\u2019Oc\u00e9anerosemarie. Enfin pr\u00eat \u00e0 affronter le regard social, Oc\u00e9an d\u00e9cide de faire son coming out, de changer de genre et de s\u2019affirmer tel qu\u2019il est : un homme trans. Dr\u00f4les, sinc\u00e8res, bouleversants, comment Oc\u00e9an et son entourage vont-ils traverser chacune des \u00e9tapes physiques, psychologiques et sentimentales de cette transition \u00ab Femme vers Homme \u00bb ?",
-    "english": "An intimate self-portrait, over a year, of a transgender man, who people knew until now as Oc\u00e9anerosemarie. At last ready to cope with how society may see him, Oc\u00e9an decides to come out and to change gender, to assert who he is: a transgender man. Funny, sincere, moving, how will Oc\u00e9an and his set go through each of the physical, psychological, and emotional stages of this \"Woman to Man\" transition?"
-  }
+    "type": "Film",
+    "id": "FR2019_190",
+    "slug": "fr2019-190-ocean",
+    "title": {
+        "native": "Oc\u00e9an",
+        "english": "Oc\u00e9an"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-11-13",
+        "year": 2019
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Oc\u00e9an",
+            "slug": "ocean",
+            "name": "Oc\u00e9an",
+            "birthYear": 1977,
+            "deathYear": 0,
+            "gender": "Transgender identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Performative mode"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/212/58/211668/format_page/ocean.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=UpKHoaBrxHM"
+    },
+    "synopsis": {
+        "native": "Autoportrait intime, sur toute une ann\u00e9e, d\u2019un homme transgenre que les gens connaissaient jusque-l\u00e0 sous le nom d\u2019Oc\u00e9anerosemarie. Enfin pr\u00eat \u00e0 affronter le regard social, Oc\u00e9an d\u00e9cide de faire son coming out, de changer de genre et de s\u2019affirmer tel qu\u2019il est : un homme trans. Dr\u00f4les, sinc\u00e8res, bouleversants, comment Oc\u00e9an et son entourage vont-ils traverser chacune des \u00e9tapes physiques, psychologiques et sentimentales de cette transition \u00ab Femme vers Homme \u00bb ?",
+        "english": "An intimate self-portrait, over a year, of a transgender man, who people knew until now as Oc\u00e9anerosemarie. At last ready to cope with how society may see him, Oc\u00e9an decides to come out and to change gender, to assert who he is: a transgender man. Funny, sincere, moving, how will Oc\u00e9an and his set go through each of the physical, psychological, and emotional stages of this \"Woman to Man\" transition?"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Oc\u00e9an",
+                "slug": "ocean",
+                "name": "Oc\u00e9an",
+                "birthYear": 1977,
+                "deathYear": 0,
+                "gender": "Transgender identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Oc\u00e9an",
+                "slug": "ocean",
+                "name": "Oc\u00e9an",
+                "birthYear": 1977,
+                "deathYear": 0,
+                "gender": "Transgender identifying",
+                "nationality": "France"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "lgbtqi",
+        "activism",
+        "medical treatment"
+    ]
 }

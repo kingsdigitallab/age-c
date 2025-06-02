@@ -1,46 +1,112 @@
 {
-  "id": "ES2022_112",
-  "type": "Film",
-  "slug": "es2022-112-vilas-y-sus-dobles",
-  "title": {
-    "native": "Vilas y sus dobles"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-06-03",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=194901",
-    "posterUrl": "https://www.imdb.com/title/tt16112868/mediaviewer/rm3859616001/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "ecology",
-    "personal memory",
-    "artistic creation",
-    "natural"
-  ],
-  "director": [
-    {
-      "id": "Germ\u00e1n Roda",
-      "slug": "german-roda",
-      "name": "Germ\u00e1n Roda",
-      "birthYear": 1975,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "De la mano de un escritor, Manuel Vilas, y de dos actores, Jos\u00e9 Sacrist\u00e1n y Pepe Viyuela, revivimos los momentos m\u00e1s importantes de nuestras vidas. La literatura, las pel\u00edculas, nuestros padres, la muerte, el arte y el amor. Un viaje por la memoria en lucha constante contra el olvido."
-  }
+    "type": "Film",
+    "id": "ES2022_112",
+    "slug": "es2022-112-vilas-y-sus-dobles",
+    "title": {
+        "native": "Vilas y sus dobles",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-06-03",
+        "year": 2022
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Germ\u00e1n Roda",
+            "slug": "german-roda",
+            "name": "Germ\u00e1n Roda",
+            "birthYear": 1975,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Performative mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt16112868/mediaviewer/rm3859616001/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=194901"
+    },
+    "synopsis": {
+        "native": "De la mano de un escritor, Manuel Vilas, y de dos actores, Jos\u00e9 Sacrist\u00e1n y Pepe Viyuela, revivimos los momentos m\u00e1s importantes de nuestras vidas. La literatura, las pel\u00edculas, nuestros padres, la muerte, el arte y el amor. Un viaje por la memoria en lucha constante contra el olvido.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Carmelo G\u00f3mez",
+                "slug": "carmelo-gomez",
+                "name": "Carmelo G\u00f3mez",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Germ\u00e1n Roda",
+                "slug": "german-roda",
+                "name": "Germ\u00e1n Roda",
+                "birthYear": 1975,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jos\u00e9 Sacrist\u00e1n",
+                "slug": "jose-sacristan",
+                "name": "Jos\u00e9 Sacrist\u00e1n",
+                "birthYear": 1937,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Manuel Vilas",
+                "slug": "manuel-vilas",
+                "name": "Manuel Vilas",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Pepe Viyuela",
+                "slug": "pepe-viyuela",
+                "name": "Pepe Viyuela",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "natural",
+        "personal memory",
+        "artistic creation",
+        "ecology"
+    ]
 }

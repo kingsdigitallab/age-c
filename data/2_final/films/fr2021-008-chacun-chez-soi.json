@@ -1,91 +1,135 @@
 {
-  "id": "FR2021_008",
-  "type": "Film",
-  "slug": "fr2021-008-chacun-chez-soi",
-  "title": {
-    "native": "Chacun chez soi",
-    "english": "The Kids Are Back"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-06-02",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=cKLs0T-AdcQ",
-    "posterUrl": "https://medias.unifrance.org/medias/31/130/229919/format_page/the-kids-are-back.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "parenthood",
-    "intergenerational conflict",
-    "marriage",
-    "desire",
-    "may-december"
-  ],
-  "director": [
-    {
-      "id": "Mich\u00e8le Laroque",
-      "slug": "michele-laroque",
-      "name": "Mich\u00e8le Laroque",
-      "birthYear": 1960,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2021_008_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Mich\u00e8le Laroque",
-        "slug": "michele-laroque",
-        "name": "Mich\u00e8le Laroque",
-        "birthYear": 1960.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Director of the film"
+    "type": "Film",
+    "id": "FR2021_008",
+    "slug": "fr2021-008-chacun-chez-soi",
+    "title": {
+        "native": "Chacun chez soi",
+        "english": "The Kids Are Back"
     },
-    {
-      "id": "FR2021_008_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Mich\u00e8le Laroque",
-        "slug": "michele-laroque",
-        "name": "Mich\u00e8le Laroque",
-        "birthYear": 1960.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Catherine et Yann sont en couple et amoureux depuis de nombreuses ann\u00e9es. Mais depuis que Yann a quitt\u00e9 son boulot, il s'est pris de passion pour les bonsa\u00efs. Une passion d\u00e9vorante qui prend beaucoup de place aux yeux de Catherine, qui se sent quelque peu d\u00e9laiss\u00e9e. La situation ne va pas s'arranger lorsque leur fille Anna, et son copain Thomas, viennent s'installer chez eux suite \u00e0 une gal\u00e8re d'appartement. La cohabitation s'av\u00e8re plus que difficile pour les deux couples que tout oppose...",
-    "english": "Catherine and Yann, happily married for many years, should have spent the year travelling abroad. But since he sold his business, Yann has been too busy with his bonsai trees and keeps postponing the big trip. Things go from bad to worse when their 27-year-old broke daughter and her boyfriend lose their apartment and come knocking on the door to stay. With Yann\u2019s mid-life crisis spinning out of control, their couch surfing daughter and partner getting increasingly invasive and their stay becoming indefinite, Catherine will try everything to kick them out of the parental home and get her life back on track!"
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2021-06-02",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Mich\u00e8le Laroque",
+            "slug": "michele-laroque",
+            "name": "Mich\u00e8le Laroque",
+            "birthYear": 1960,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/31/130/229919/format_page/the-kids-are-back.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=cKLs0T-AdcQ"
+    },
+    "synopsis": {
+        "native": "Catherine et Yann sont en couple et amoureux depuis de nombreuses ann\u00e9es. Mais depuis que Yann a quitt\u00e9 son boulot, il s'est pris de passion pour les bonsa\u00efs. Une passion d\u00e9vorante qui prend beaucoup de place aux yeux de Catherine, qui se sent quelque peu d\u00e9laiss\u00e9e. La situation ne va pas s'arranger lorsque leur fille Anna, et son copain Thomas, viennent s'installer chez eux suite \u00e0 une gal\u00e8re d'appartement. La cohabitation s'av\u00e8re plus que difficile pour les deux couples que tout oppose...",
+        "english": "Catherine and Yann, happily married for many years, should have spent the year travelling abroad. But since he sold his business, Yann has been too busy with his bonsai trees and keeps postponing the big trip. Things go from bad to worse when their 27-year-old broke daughter and her boyfriend lose their apartment and come knocking on the door to stay. With Yann\u2019s mid-life crisis spinning out of control, their couch surfing daughter and partner getting increasingly invasive and their stay becoming indefinite, Catherine will try everything to kick them out of the parental home and get her life back on track!"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2021_008_01",
+            "film": "FR2021_008",
+            "person": {
+                "id": "Mich\u00e8le Laroque",
+                "slug": "michele-laroque",
+                "name": "Mich\u00e8le Laroque",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Fran\u00e7ois Berl\u00e9and",
+                "slug": "francois-berleand",
+                "name": "Fran\u00e7ois Berl\u00e9and",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Hichem Yacoubi",
+                "slug": "hichem-yacoubi",
+                "name": "Hichem Yacoubi",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Tunisia"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Lionel Abelanski",
+                "slug": "lionel-abelanski",
+                "name": "Lionel Abelanski",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Mich\u00e8le Laroque",
+                "slug": "michele-laroque",
+                "name": "Mich\u00e8le Laroque",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Mich\u00e8le Laroque",
+                "slug": "michele-laroque",
+                "name": "Mich\u00e8le Laroque",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "intergenerational conflict",
+        "marriage",
+        "parenthood",
+        "may-december",
+        "desire"
+    ]
 }

@@ -1,68 +1,97 @@
 {
-  "id": "RO2019_018",
-  "type": "Film",
-  "slug": "ro2019-018-pisica-verde",
-  "title": {
-    "native": "Pisica verde",
-    "english": "The Green Cat"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-10-11",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Romania",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.cinemagia.ro/trailer/pisica-verde-21627/",
-    "posterUrl": "https://www.cinemagia.ro/filme/pisica-verde-2731701/postere/3529009/#gallery"
-  },
-  "genre": [
-    "Detective Thriller"
-  ],
-  "tags": [
-    "high rank employment",
-    "gray face",
-    "last misssion"
-  ],
-  "director": [
-    {
-      "id": "Constantinescu Narcis",
-      "slug": "constantinescu-narcis",
-      "name": "Constantinescu Narcis",
-      "birthYear": 1993,
-      "gender": "Male identifying",
-      "nationality": "Romania"
-    }
-  ],
-  "character": [
-    {
-      "id": "RO2019_018_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Eastern European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Ioan Romeo",
-        "slug": "ioan-romeo",
-        "name": "Ioan Romeo",
-        "gender": "Male identifying",
-        "nationality": "Romania"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Povestea urm\u0103re\u0219te un faimos detectiv revenind de la pensionare pentru rezolvarea unui ultim caz, un caz personal cu o complexitate aparte: o simpl\u0103 sear\u0103 de s\u00e2mb\u0103t\u0103 care a schimbat vie\u021bile a \u0219ase adolescen\u021bi pentru totdeauna. Punerea cap la cap a pieselor de puzzle va scoate la suprafa\u021b\u0103 adev\u0103rul.",
-    "english": "The story follows a renowned detective reverting from retirement to resolve one final case, a personal case of great complexity."
-  }
+    "type": "Film",
+    "id": "RO2019_018",
+    "slug": "ro2019-018-pisica-verde",
+    "title": {
+        "native": "Pisica verde",
+        "english": "The Green Cat"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-10-11",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Constantinescu Narcis",
+            "slug": "constantinescu-narcis",
+            "name": "Constantinescu Narcis",
+            "birthYear": 1993,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Romania"
+        }
+    ],
+    "genre": [
+        "Detective Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.cinemagia.ro/filme/pisica-verde-2731701/postere/3529009/#gallery",
+        "trailerUrl": "https://www.cinemagia.ro/trailer/pisica-verde-21627/"
+    },
+    "synopsis": {
+        "native": "Povestea urm\u0103re\u0219te un faimos detectiv revenind de la pensionare pentru rezolvarea unui ultim caz, un caz personal cu o complexitate aparte: o simpl\u0103 sear\u0103 de s\u00e2mb\u0103t\u0103 care a schimbat vie\u021bile a \u0219ase adolescen\u021bi pentru totdeauna. Punerea cap la cap a pieselor de puzzle va scoate la suprafa\u021b\u0103 adev\u0103rul.",
+        "english": "The story follows a renowned detective reverting from retirement to resolve one final case, a personal case of great complexity."
+    },
+    "production": [
+        {
+            "country": "Romania",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "RO2019_018_01",
+            "film": "RO2019_018",
+            "person": {
+                "id": "Ioan Romeo",
+                "slug": "ioan-romeo",
+                "name": "Ioan Romeo",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Eastern European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Constantinescu Narcis",
+                "slug": "constantinescu-narcis",
+                "name": "Constantinescu Narcis",
+                "birthYear": 1993,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Ioan Romeo",
+                "slug": "ioan-romeo",
+                "name": "Ioan Romeo",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "last misssion",
+        "gray face",
+        "high rank employment"
+    ]
 }

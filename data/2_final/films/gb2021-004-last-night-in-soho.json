@@ -1,75 +1,117 @@
 {
-  "id": "GB2021_004",
-  "type": "Film",
-  "slug": "gb2021-004-last-night-in-soho",
-  "title": {
-    "native": "Last Night in Soho"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-10-29",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=AcVnFrxjPjI",
-    "posterUrl": "https://www.imdb.com/title/tt9639470/mediaviewer/rm3508989953/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Horror",
-    "Romance"
-  ],
-  "tags": [
-    "wealth",
-    "gender discrimination",
-    "personal memory",
-    "intergenerational conflict",
-    "personal trauma",
-    "stages of life",
-    "urban",
-    "crime",
-    "abuse"
-  ],
-  "director": [
-    {
-      "id": "Edgar Wright",
-      "slug": "edgar-wright",
-      "name": "Edgar Wright",
-      "birthYear": 1974,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2021_004_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "Yes",
-      "person": {
-        "id": "Terence Stamp",
-        "slug": "terence-stamp",
-        "name": "Terence Stamp",
-        "birthYear": 1938.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "An aspiring fashion designer is mysteriously able to enter the 1960s, where she encounters a dazzling wannabe singer. But the glamour is not all it appears to be and the dreams of the past start to crack and splinter into something darker."
-  }
+    "type": "Film",
+    "id": "GB2021_004",
+    "slug": "gb2021-004-last-night-in-soho",
+    "title": {
+        "native": "Last Night in Soho",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-10-29",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Edgar Wright",
+            "slug": "edgar-wright",
+            "name": "Edgar Wright",
+            "birthYear": 1974,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Horror",
+        "Thriller",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9639470/mediaviewer/rm3508989953/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=AcVnFrxjPjI"
+    },
+    "synopsis": {
+        "native": "An aspiring fashion designer is mysteriously able to enter the 1960s, where she encounters a dazzling wannabe singer. But the glamour is not all it appears to be and the dreams of the past start to crack and splinter into something darker.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2021_004_01",
+            "film": "GB2021_004",
+            "person": {
+                "id": "Terence Stamp",
+                "slug": "terence-stamp",
+                "name": "Terence Stamp",
+                "birthYear": 1938,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "Yes"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Diana Rigg",
+                "slug": "diana-rigg",
+                "name": "Diana Rigg",
+                "birthYear": 1938,
+                "deathYear": 2020,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Edgar Wright",
+                "slug": "edgar-wright",
+                "name": "Edgar Wright",
+                "birthYear": 1974,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Terence Stamp",
+                "slug": "terence-stamp",
+                "name": "Terence Stamp",
+                "birthYear": 1938,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "stages of life",
+        "intergenerational conflict",
+        "personal memory",
+        "personal trauma",
+        "urban",
+        "wealth",
+        "gender discrimination",
+        "crime",
+        "abuse"
+    ]
 }

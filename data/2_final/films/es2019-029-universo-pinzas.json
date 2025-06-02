@@ -1,45 +1,76 @@
 {
-  "id": "ES2019_029",
-  "type": "Film",
-  "slug": "es2019-029-universo-pinzas",
-  "title": {
-    "native": "Universo Pinz\u00e1s"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-11-15",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "posterUrl": "https://www.imdb.com/title/tt11075826/mediaviewer/rm3891956481/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Metacinema",
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "self-employment",
-    "legacy",
-    "artistic creation"
-  ],
-  "director": [
-    {
-      "id": "V\u00edctor Olid",
-      "slug": "victor-olid",
-      "name": "V\u00edctor Olid",
-      "gender": "Unknown",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Documental que repasa la vida y obra del cineasta Juan Pinz\u00e1s, uno de los pocos directores que intent\u00f3 transportar los postulados del Dogma 95 de Lars Von Trier y Thomas Vinterberg a Espa\u00f1a.",
-    "english": "Documentary about the filmmaker Juan Pinz\u00e1s."
-  }
+    "type": "Film",
+    "id": "ES2019_029",
+    "slug": "es2019-029-universo-pinzas",
+    "title": {
+        "native": "Universo Pinz\u00e1s",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-11-15",
+        "year": 2019
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "V\u00edctor Olid",
+            "slug": "victor-olid",
+            "name": "V\u00edctor Olid",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Unknown",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Metacinema",
+        "Documentary \u2013 Performative mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt11075826/mediaviewer/rm3891956481/?ref_=tt_ov_i",
+        "trailerUrl": ""
+    },
+    "synopsis": {
+        "native": "Documental que repasa la vida y obra del cineasta Juan Pinz\u00e1s, uno de los pocos directores que intent\u00f3 transportar los postulados del Dogma 95 de Lars Von Trier y Thomas Vinterberg a Espa\u00f1a.",
+        "english": "Documentary about the filmmaker Juan Pinz\u00e1s."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Juan Pinz\u00e1s",
+                "slug": "juan-pinzas",
+                "name": "Juan Pinz\u00e1s",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "V\u00edctor Olid",
+                "slug": "victor-olid",
+                "name": "V\u00edctor Olid",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Unknown",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "legacy",
+        "self-employment"
+    ]
 }

@@ -1,47 +1,90 @@
 {
-  "id": "ES2023_102",
-  "type": "Film",
-  "slug": "es2023-102-antonio-canales-bailaor",
-  "title": {
-    "native": "Antonio Canales, bailaor"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-05-19",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=448154",
-    "posterUrl": "https://www.imdb.com/title/tt23184706/mediaviewer/rm3611231233/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Documentary \u2013 Performative mode",
-    "Biopic"
-  ],
-  "tags": [
-    "regional identity",
-    "legacy",
-    "personal memory",
-    "artistic creation"
-  ],
-  "director": [
-    {
-      "id": "Ra\u00fal Rosillo",
-      "slug": "raul-rosillo",
-      "name": "Ra\u00fal Rosillo",
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "2021 marc\u00f3 la vuelta al candelero y a los escenarios de Antonio Canales, renacido como ave F\u00e9nix tras su descenso a los infiernos. Figura \u00fanica del baile flamenco, reconocible personalidad que lleg\u00f3 a lo m\u00e1s alto de su profesi\u00f3n adquiriendo fama mundial, Canales lleva 30 a\u00f1os pisando fuerte en su arte sin igual, que esta pel\u00edcula repasa a trav\u00e9s de vanguardistas y apabullantes puestas en escena, de im\u00e1genes de archivo, de sus propias palabras y de testimonios de personalidades como Cayetana Mart\u00ednez de Irujo, Jorge Javier V\u00e1zquez, Sole\u00e1 Morente o Antonio Dechent."
-  }
+    "type": "Film",
+    "id": "ES2023_102",
+    "slug": "es2023-102-antonio-canales-bailaor",
+    "title": {
+        "native": "Antonio Canales, bailaor",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-05-19",
+        "year": 2023
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Ra\u00fal Rosillo",
+            "slug": "raul-rosillo",
+            "name": "Ra\u00fal Rosillo",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Documentary \u2013 Performative mode",
+        "Biopic"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt23184706/mediaviewer/rm3611231233/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=448154"
+    },
+    "synopsis": {
+        "native": "2021 marc\u00f3 la vuelta al candelero y a los escenarios de Antonio Canales, renacido como ave F\u00e9nix tras su descenso a los infiernos. Figura \u00fanica del baile flamenco, reconocible personalidad que lleg\u00f3 a lo m\u00e1s alto de su profesi\u00f3n adquiriendo fama mundial, Canales lleva 30 a\u00f1os pisando fuerte en su arte sin igual, que esta pel\u00edcula repasa a trav\u00e9s de vanguardistas y apabullantes puestas en escena, de im\u00e1genes de archivo, de sus propias palabras y de testimonios de personalidades como Cayetana Mart\u00ednez de Irujo, Jorge Javier V\u00e1zquez, Sole\u00e1 Morente o Antonio Dechent.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Antonio Canales",
+                "slug": "antonio-canales",
+                "name": "Antonio Canales",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Antonio Dechent",
+                "slug": "antonio-dechent",
+                "name": "Antonio Dechent",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Ra\u00fal Rosillo",
+                "slug": "raul-rosillo",
+                "name": "Ra\u00fal Rosillo",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "personal memory",
+        "regional identity",
+        "legacy"
+    ]
 }

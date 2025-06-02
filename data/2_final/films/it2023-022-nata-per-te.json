@@ -1,47 +1,75 @@
 {
-  "id": "IT2023_022",
-  "type": "Film",
-  "slug": "it2023-022-nata-per-te",
-  "title": {
-    "native": "Nata per te",
-    "english": "Born for You"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-10-05",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=-jo4dUPyrnY",
-    "posterUrl": "https://www.imdb.com/title/tt23708786/mediaviewer/rm3229179393/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "state institutions",
-    "lgbtqi",
-    "fatherhood"
-  ],
-  "director": [
-    {
-      "id": "Fabio Mollo",
-      "slug": "fabio-mollo",
-      "name": "Fabio Mollo",
-      "birthYear": 1980,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "synopsis": {
-    "native": "Nata per te \u00e8 la storia di Luca e Alba: un uomo e una bambina che hanno disperatamente bisogno l\u2019uno dell\u2019altra, anche se il mondo intorno a loro non sembra ancora pronto a vederli insieme. Il tribunale di Napoli \u00e8 alla ricerca di una famiglia per Alba, che ha la sindrome di down e, appena nata, \u00e8 stata abbandonata in ospedale. Luca, single, omosessuale, cattolico, da sempre mosso da un forte desiderio di paternit\u00e0, lotta per ottenere l\u2019affidamento di Alba. Quante famiglie \u201ctradizionali\u201d devono dire di no prima che Luca possa essere preso in considerazione? Pu\u00f2 una bambina rifiutata dal mondo diventare il premio di una vita?",
-    "english": "Alba has Down syndrome and was left in the hospital when she was born. Thirty families rejected her before the court decided to entrust her to Luca Trapanese, gay and Catholic."
-  }
+    "type": "Film",
+    "id": "IT2023_022",
+    "slug": "it2023-022-nata-per-te",
+    "title": {
+        "native": "Nata per te",
+        "english": "Born for You"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-10-05",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Fabio Mollo",
+            "slug": "fabio-mollo",
+            "name": "Fabio Mollo",
+            "birthYear": 1980,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt23708786/mediaviewer/rm3229179393/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=-jo4dUPyrnY"
+    },
+    "synopsis": {
+        "native": "Nata per te \u00e8 la storia di Luca e Alba: un uomo e una bambina che hanno disperatamente bisogno l\u2019uno dell\u2019altra, anche se il mondo intorno a loro non sembra ancora pronto a vederli insieme. Il tribunale di Napoli \u00e8 alla ricerca di una famiglia per Alba, che ha la sindrome di down e, appena nata, \u00e8 stata abbandonata in ospedale. Luca, single, omosessuale, cattolico, da sempre mosso da un forte desiderio di paternit\u00e0, lotta per ottenere l\u2019affidamento di Alba. Quante famiglie \u201ctradizionali\u201d devono dire di no prima che Luca possa essere preso in considerazione? Pu\u00f2 una bambina rifiutata dal mondo diventare il premio di una vita?",
+        "english": "Alba has Down syndrome and was left in the hospital when she was born. Thirty families rejected her before the court decided to entrust her to Luca Trapanese, gay and Catholic."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Fabio Mollo",
+                "slug": "fabio-mollo",
+                "name": "Fabio Mollo",
+                "birthYear": 1980,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Iaia Forte",
+                "slug": "iaia-forte",
+                "name": "Iaia Forte",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "lgbtqi",
+        "fatherhood",
+        "state institutions"
+    ]
 }

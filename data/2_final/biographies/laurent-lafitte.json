@@ -1,30 +1,39 @@
 {
-  "id": "Laurent Lafitte",
-  "type": "Biography",
-  "slug": "laurent-lafitte",
-  "name": "Laurent Lafitte",
-  "birthYear": 1973,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2021_066",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-066-l-origine-du-monde",
-      "tags": "medical treatment",
-      "title": {
-        "english": "Dear Mother",
-        "native": "L'Origine du monde"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Laurent Lafitte",
+    "slug": "laurent-lafitte",
+    "name": "Laurent Lafitte",
+    "birthYear": 1973,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_066",
+                "slug": "fr2021-066-l-origine-du-monde",
+                "title": {
+                    "native": "L'Origine du monde",
+                    "english": "Dear Mother"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-09-15",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

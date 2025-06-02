@@ -1,48 +1,90 @@
 {
-  "id": "ES2020_050",
-  "type": "Film",
-  "slug": "es2020-050-el-siglo-de-galdos",
-  "title": {
-    "native": "El siglo de Gald\u00f3s"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-10-30",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=613736",
-    "posterUrl": "https://www.imdb.com/title/tt11847556/mediaviewer/rm2758452481/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Documentary \u2013 Performative mode",
-    "Biopic"
-  ],
-  "tags": [
-    "urban",
-    "legacy",
-    "artistic creation",
-    "cultural memory"
-  ],
-  "director": [
-    {
-      "id": "Miguel \u00c1ngel Calvo Buttini",
-      "slug": "miguel-angel-calvo-buttini",
-      "name": "Miguel \u00c1ngel Calvo Buttini",
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Documental sobre la vida y obra del escritor Benito P\u00e9rez-Gald\u00f3s. El aclamado autor espa\u00f1ol naci\u00f3 y vivi\u00f3 en Las Palmas de Gran Canaria hasta los 19 a\u00f1os, cuando se traslad\u00f3 a Madrid, ciudad en la que vivi\u00f3 la mayor parte de su vida hasta que falleci\u00f3, un 4 de Enero del 1920.",
-    "english": "Gald\u00f3s is, was and will be an extraordinary writer who revolutionized the narrative between 1860 and 1920. A documentary with touchs of fiction focussed on his most personal facet."
-  }
+    "type": "Film",
+    "id": "ES2020_050",
+    "slug": "es2020-050-el-siglo-de-galdos",
+    "title": {
+        "native": "El siglo de Gald\u00f3s",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-10-30",
+        "year": 2020
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Miguel \u00c1ngel Calvo Buttini",
+            "slug": "miguel-angel-calvo-buttini",
+            "name": "Miguel \u00c1ngel Calvo Buttini",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Documentary \u2013 Performative mode",
+        "Biopic"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt11847556/mediaviewer/rm2758452481/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=613736"
+    },
+    "synopsis": {
+        "native": "Documental sobre la vida y obra del escritor Benito P\u00e9rez-Gald\u00f3s. El aclamado autor espa\u00f1ol naci\u00f3 y vivi\u00f3 en Las Palmas de Gran Canaria hasta los 19 a\u00f1os, cuando se traslad\u00f3 a Madrid, ciudad en la que vivi\u00f3 la mayor parte de su vida hasta que falleci\u00f3, un 4 de Enero del 1920.",
+        "english": "Gald\u00f3s is, was and will be an extraordinary writer who revolutionized the narrative between 1860 and 1920. A documentary with touchs of fiction focussed on his most personal facet."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Almudena Grandes",
+                "slug": "almudena-grandes",
+                "name": "Almudena Grandes",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Ana Bel\u00e9n",
+                "slug": "ana-belen",
+                "name": "Ana Bel\u00e9n",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Miguel \u00c1ngel Calvo Buttini",
+                "slug": "miguel-angel-calvo-buttini",
+                "name": "Miguel \u00c1ngel Calvo Buttini",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "urban",
+        "legacy",
+        "cultural memory"
+    ]
 }

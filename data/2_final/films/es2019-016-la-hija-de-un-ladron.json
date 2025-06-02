@@ -1,65 +1,87 @@
 {
-  "id": "ES2019_016",
-  "type": "Film",
-  "slug": "es2019-016-la-hija-de-un-ladron",
-  "title": {
-    "native": "La hija de un ladr\u00f3n",
-    "english": "A Thief's Daughter"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-11-29",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=rNAXkHBcdhA",
-    "posterUrl": "https://www.imdb.com/title/tt8489152/mediaviewer/rm3184432385/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Crime",
-    "Drama"
-  ],
-  "tags": [
-    "precarity",
-    "intergenerational conflict",
-    "fatherhood",
-    "low rank employment",
-    "new start",
-    "state institutions",
-    "urban",
-    "crime"
-  ],
-  "character": [
-    {
-      "id": "ES2019_016_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "Unknown",
-      "person": {
-        "id": "Eduard Fern\u00e1ndez",
-        "slug": "eduard-fernandez",
-        "name": "Eduard Fern\u00e1ndez",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Sara ha estado sola toda su vida. Tiene 22 a\u00f1os y un beb\u00e9, su deseo es formar una familia junto a su hermano peque\u00f1o y el padre de su hijo. Su padre, Manuel, tras a\u00f1os de ausencia y al salir de la c\u00e1rcel, decide reaparecer en sus vidas. Sara sabe que \u00e9l es el principal obst\u00e1culo en sus planes y toma una decisi\u00f3n dif\u00edcil: alejarlo de ella y de su hermano.",
-    "english": "Her father is a convicted, her boyfriend rejects her, her brother is troublemaker, her baby needs money and she's half-deaf of one ear. Bad times to be Sara."
-  }
+    "type": "Film",
+    "id": "ES2019_016",
+    "slug": "es2019-016-la-hija-de-un-ladron",
+    "title": {
+        "native": "La hija de un ladr\u00f3n",
+        "english": "A Thief's Daughter"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-11-29",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        "Bel\u00e9n Funes"
+    ],
+    "genre": [
+        "Drama",
+        "Crime"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt8489152/mediaviewer/rm3184432385/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=rNAXkHBcdhA"
+    },
+    "synopsis": {
+        "native": "Sara ha estado sola toda su vida. Tiene 22 a\u00f1os y un beb\u00e9, su deseo es formar una familia junto a su hermano peque\u00f1o y el padre de su hijo. Su padre, Manuel, tras a\u00f1os de ausencia y al salir de la c\u00e1rcel, decide reaparecer en sus vidas. Sara sabe que \u00e9l es el principal obst\u00e1culo en sus planes y toma una decisi\u00f3n dif\u00edcil: alejarlo de ella y de su hermano.",
+        "english": "Her father is a convicted, her boyfriend rejects her, her brother is troublemaker, her baby needs money and she's half-deaf of one ear. Bad times to be Sara."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2019_016_01",
+            "film": "ES2019_016",
+            "person": {
+                "id": "Eduard Fern\u00e1ndez",
+                "slug": "eduard-fernandez",
+                "name": "Eduard Fern\u00e1ndez",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "Unknown"
+        }
+    ],
+    "roles": [
+        {
+            "person": "Bel\u00e9n Funes",
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Eduard Fern\u00e1ndez",
+                "slug": "eduard-fernandez",
+                "name": "Eduard Fern\u00e1ndez",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "new start",
+        "fatherhood",
+        "state institutions",
+        "precarity",
+        "urban",
+        "crime",
+        "low rank employment",
+        "intergenerational conflict"
+    ]
 }

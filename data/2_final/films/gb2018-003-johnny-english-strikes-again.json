@@ -1,156 +1,236 @@
 {
-  "id": "GB2018_003",
-  "type": "Film",
-  "slug": "gb2018-003-johnny-english-strikes-again",
-  "title": {
-    "native": "Johnny English Strikes Again"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-10-05",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "China",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "GB2018_003",
+    "slug": "gb2018-003-johnny-english-strikes-again",
+    "title": {
+        "native": "Johnny English Strikes Again",
+        "english": ""
     },
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2018-10-05",
+        "year": 2018
     },
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "David Kerr",
+            "slug": "david-kerr",
+            "name": "David Kerr",
+            "birthYear": 1967,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Spy Film",
+        "Romance",
+        "Action"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt6921996/mediaviewer/rm2084336640/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=-Qv6p6pTz5I"
     },
-    {
-      "country": "France",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=-Qv6p6pTz5I",
-    "posterUrl": "https://www.imdb.com/title/tt6921996/mediaviewer/rm2084336640/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Action",
-    "Romance",
-    "Spy Film"
-  ],
-  "tags": [
-    "high rank employment",
-    "abuse",
-    "rescue mission",
-    "terrorism",
-    "national identity",
-    "power",
-    "state institutions",
-    "may-december",
-    "homosociality",
-    "romance",
-    "urban",
-    "technology",
-    "professional politics",
-    "retirement",
-    "superior-employee relationship",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "David Kerr",
-      "slug": "david-kerr",
-      "name": "David Kerr",
-      "birthYear": 1967,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2018_003_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Rowan Atkinson",
-        "slug": "rowan-atkinson",
-        "name": "Rowan Atkinson",
-        "birthYear": 1955.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Leading actor"
+    "synopsis": {
+        "native": "After a cyber-attack reveals the identity of all of the active undercover agents in Britain, Johnny English is forced to come out of retirement to find the mastermind hacker.",
+        "english": ""
     },
-    {
-      "id": "GB2018_003_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Emma Thompson",
-        "slug": "emma-thompson",
-        "name": "Emma Thompson",
-        "birthYear": 1959.0,
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
-    },
-    {
-      "id": "GB2018_003_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Michael Gambon",
-        "slug": "michael-gambon",
-        "name": "Michael Gambon",
-        "birthYear": 1940.0,
-        "deathYear": 2023.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
-    },
-    {
-      "id": "GB2018_003_04",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Charles Dance",
-        "slug": "charles-dance",
-        "name": "Charles Dance",
-        "birthYear": 1946.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "After a cyber-attack reveals the identity of all of the active undercover agents in Britain, Johnny English is forced to come out of retirement to find the mastermind hacker."
-  }
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "France",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "China",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2018_003_01",
+            "film": "GB2018_003",
+            "person": {
+                "id": "Rowan Atkinson",
+                "slug": "rowan-atkinson",
+                "name": "Rowan Atkinson",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2018_003_02",
+            "film": "GB2018_003",
+            "person": {
+                "id": "Emma Thompson",
+                "slug": "emma-thompson",
+                "name": "Emma Thompson",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2018_003_03",
+            "film": "GB2018_003",
+            "person": {
+                "id": "Michael Gambon",
+                "slug": "michael-gambon",
+                "name": "Michael Gambon",
+                "birthYear": 1940,
+                "deathYear": 2023,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2018_003_04",
+            "film": "GB2018_003",
+            "person": {
+                "id": "Charles Dance",
+                "slug": "charles-dance",
+                "name": "Charles Dance",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Charles Dance",
+                "slug": "charles-dance",
+                "name": "Charles Dance",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "David Kerr",
+                "slug": "david-kerr",
+                "name": "David Kerr",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Emma Thompson",
+                "slug": "emma-thompson",
+                "name": "Emma Thompson",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Laura June Hudson",
+                "slug": "laura-june-hudson",
+                "name": "Laura June Hudson",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Michael Gambon",
+                "slug": "michael-gambon",
+                "name": "Michael Gambon",
+                "birthYear": 1940,
+                "deathYear": 2023,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Rowan Atkinson",
+                "slug": "rowan-atkinson",
+                "name": "Rowan Atkinson",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "state institutions",
+        "technology",
+        "power",
+        "professional politics",
+        "may-december",
+        "rescue mission",
+        "retirement",
+        "homosociality",
+        "romance",
+        "abuse",
+        "urban",
+        "rural",
+        "high rank employment",
+        "superior-employee relationship",
+        "terrorism",
+        "national identity"
+    ]
 }

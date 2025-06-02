@@ -1,75 +1,103 @@
 {
-  "id": "ES2018_051",
-  "type": "Film",
-  "slug": "es2018-051-media-hora-y-un-epilogo",
-  "title": {
-    "native": "Media hora (y un ep\u00edlogo)"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-05-11",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt6069684/?ref_=vp_close",
-    "posterUrl": "https://www.imdb.com/title/tt6069684/mediaviewer/rm3883619584/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Drama",
-    "Multi-protagonist film"
-  ],
-  "tags": [
-    "independent home",
-    "fatherhood",
-    "caregiving",
-    "urban",
-    "state institutions",
-    "physical illness",
-    "abuse"
-  ],
-  "director": [
-    {
-      "id": "Epigmenio Rodr\u00edguez",
-      "slug": "epigmenio-rodriguez",
-      "name": "Epigmenio Rodr\u00edguez",
-      "birthYear": 1953,
-      "deathYear": 2023,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2018_051_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Chronic illness",
-      "assistedMobility": "Yes",
-      "person": {
-        "id": "Saturnino Garc\u00eda",
-        "slug": "saturnino-garcia",
-        "name": "Saturnino Garc\u00eda",
-        "birthYear": 1935.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "En treinta minutos se puede construir un mundo o se puede acabar con \u00e9l. No se necesita m\u00e1s, ni un minuto m\u00e1s. Media hora (y un ep\u00edlogo) lo consigue en una historia trepidante, donde el espectador asiste sobrecogido a la tragedia que contempla, que adivina, sin poder hacer nada por evitarla. Y lo hace con una maestr\u00eda en el relato que nos permite contemplar el drama desde una silla giratoria en la que el espacio y el tiempo se multiplican como piezas de un fascinante puzle que s\u00f3lo el espectador puede completar. Treinta minutos. \u00bfTe atreves?",
-    "english": "In 30 minutes, worlds can be built and torn down. Not a single minute longer is needed. From a rotating chair, the viewer will experience drama through a narrative where space and time multiply like pieces of a jigsaw only he can complete."
-  }
+    "type": "Film",
+    "id": "ES2018_051",
+    "slug": "es2018-051-media-hora-y-un-epilogo",
+    "title": {
+        "native": "Media hora (y un ep\u00edlogo)",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-05-11",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Epigmenio Rodr\u00edguez",
+            "slug": "epigmenio-rodriguez",
+            "name": "Epigmenio Rodr\u00edguez",
+            "birthYear": 1953,
+            "deathYear": 2023,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Multi-protagonist film",
+        "Drama",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt6069684/mediaviewer/rm3883619584/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt6069684/?ref_=vp_close"
+    },
+    "synopsis": {
+        "native": "En treinta minutos se puede construir un mundo o se puede acabar con \u00e9l. No se necesita m\u00e1s, ni un minuto m\u00e1s. Media hora (y un ep\u00edlogo) lo consigue en una historia trepidante, donde el espectador asiste sobrecogido a la tragedia que contempla, que adivina, sin poder hacer nada por evitarla. Y lo hace con una maestr\u00eda en el relato que nos permite contemplar el drama desde una silla giratoria en la que el espacio y el tiempo se multiplican como piezas de un fascinante puzle que s\u00f3lo el espectador puede completar. Treinta minutos. \u00bfTe atreves?",
+        "english": "In 30 minutes, worlds can be built and torn down. Not a single minute longer is needed. From a rotating chair, the viewer will experience drama through a narrative where space and time multiply like pieces of a jigsaw only he can complete."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2018_051_01",
+            "film": "ES2018_051",
+            "person": {
+                "id": "Saturnino Garc\u00eda",
+                "slug": "saturnino-garcia",
+                "name": "Saturnino Garc\u00eda",
+                "birthYear": 1935,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Chronic illness",
+            "assistedMobility": "Yes"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Epigmenio Rodr\u00edguez",
+                "slug": "epigmenio-rodriguez",
+                "name": "Epigmenio Rodr\u00edguez",
+                "birthYear": 1953,
+                "deathYear": 2023,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Saturnino Garc\u00eda",
+                "slug": "saturnino-garcia",
+                "name": "Saturnino Garc\u00eda",
+                "birthYear": 1935,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "urban",
+        "physical illness",
+        "independent home",
+        "abuse",
+        "state institutions",
+        "fatherhood",
+        "caregiving"
+    ]
 }

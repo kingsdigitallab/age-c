@@ -1,30 +1,39 @@
 {
-  "id": "Mona Achache",
-  "type": "Biography",
-  "slug": "mona-achache",
-  "name": "Mona Achache",
-  "birthYear": 1981,
-  "nationality": "France",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2022_081",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "fr2022-081-coeurs-vaillants",
-      "tags": "rescue mission",
-      "title": {
-        "english": "Valiant Hearts",
-        "native": "C\u0153urs vaillants"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Mona Achache",
+    "slug": "mona-achache",
+    "name": "Mona Achache",
+    "birthYear": 1981,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2022_081",
+                "slug": "fr2022-081-coeurs-vaillants",
+                "title": {
+                    "native": "C\u0153urs vaillants",
+                    "english": "Valiant Hearts"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-05-11",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

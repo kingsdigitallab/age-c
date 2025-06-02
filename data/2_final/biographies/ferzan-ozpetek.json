@@ -1,30 +1,35 @@
 {
-  "id": "Ferzan Ozpetek",
-  "type": "Biography",
-  "slug": "ferzan-ozpetek",
-  "name": "Ferzan Ozpetek",
-  "birthYear": 1959,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "IT2019_003",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "it2019-003-la-dea-fortuna",
-      "tags": "parenthood",
-      "title": {
-        "english": "The Goddess of Fortune",
-        "native": "La dea fortuna"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Ferzan Ozpetek",
+    "slug": "ferzan-ozpetek",
+    "name": "Ferzan Ozpetek",
+    "birthYear": 1959,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2019_003",
+                "slug": "it2019-003-la-dea-fortuna",
+                "title": {
+                    "native": "La dea fortuna",
+                    "english": "The Goddess of Fortune"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-12-19",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

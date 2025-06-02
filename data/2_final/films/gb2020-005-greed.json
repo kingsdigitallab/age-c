@@ -1,84 +1,126 @@
 {
-  "id": "GB2020_005",
-  "type": "Film",
-  "slug": "gb2020-005-greed",
-  "title": {
-    "native": "Greed"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-02-21",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=955931",
-    "posterUrl": "https://www.imdb.com/title/tt8972256/mediaviewer/rm3885597697/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Crime"
-  ],
-  "tags": [
-    "high rank employment",
-    "power",
-    "urban",
-    "sex",
-    "holiday",
-    "anti-ageing practices",
-    "romance",
-    "substance abuse",
-    "marriage",
-    "self-employment",
-    "may-december",
-    "class conflict",
-    "celebrity",
-    "superior-employee relationship",
-    "wealth",
-    "corruption",
-    "independent home",
-    "technology",
-    "mass media"
-  ],
-  "director": [
-    {
-      "id": "Michael Winterbottom",
-      "slug": "michael-winterbottom",
-      "name": "Michael Winterbottom",
-      "birthYear": 1961,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2020_005_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Steve Coogan",
-        "slug": "steve-coogan",
-        "name": "Steve Coogan",
-        "birthYear": 1965.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Satire about the world of the super-rich."
-  }
+    "type": "Film",
+    "id": "GB2020_005",
+    "slug": "gb2020-005-greed",
+    "title": {
+        "native": "Greed",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-02-21",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Michael Winterbottom",
+            "slug": "michael-winterbottom",
+            "name": "Michael Winterbottom",
+            "birthYear": 1961,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Crime"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt8972256/mediaviewer/rm3885597697/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=955931"
+    },
+    "synopsis": {
+        "native": "Satire about the world of the super-rich.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2020_005_01",
+            "film": "GB2020_005",
+            "person": {
+                "id": "Steve Coogan",
+                "slug": "steve-coogan",
+                "name": "Steve Coogan",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Jack Shepherd",
+                "slug": "jack-shepherd",
+                "name": "Jack Shepherd",
+                "birthYear": 1940,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Michael Winterbottom",
+                "slug": "michael-winterbottom",
+                "name": "Michael Winterbottom",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Steve Coogan",
+                "slug": "steve-coogan",
+                "name": "Steve Coogan",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "holiday",
+        "substance abuse",
+        "romance",
+        "may-december",
+        "sex",
+        "urban",
+        "independent home",
+        "high rank employment",
+        "power",
+        "wealth",
+        "self-employment",
+        "superior-employee relationship",
+        "marriage",
+        "celebrity",
+        "corruption",
+        "technology",
+        "mass media",
+        "class conflict",
+        "anti-ageing practices"
+    ]
 }

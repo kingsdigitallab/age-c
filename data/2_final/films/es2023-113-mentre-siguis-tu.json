@@ -1,57 +1,98 @@
 {
-  "id": "ES2023_113",
-  "type": "Film",
-  "slug": "es2023-113-mentre-siguis-tu",
-  "title": {
-    "native": "Mentre siguis tu"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-11-24",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=681658",
-    "posterUrl": "https://www.imdb.com/title/tt21413408/mediaviewer/rm4277162497/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Metacinema",
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "high rank employment",
-    "intergenerational friendship",
-    "personal memory",
-    "artistic creation",
-    "retirement",
-    "cultural memory",
-    "cross-gender friendship",
-    "dementia",
-    "medical treatment",
-    "homosociality",
-    "mass media",
-    "daily routine"
-  ],
-  "director": [
-    {
-      "id": "Claudia Pinto",
-      "slug": "claudia-pinto",
-      "name": "Claudia Pinto",
-      "birthYear": 1977,
-      "gender": "Female identifying",
-      "nationality": "Venezuela (Bolivarian Republic of)"
-    }
-  ],
-  "synopsis": {
-    "native": "Tras 50 a\u00f1os en teatro, cine y televisi\u00f3n, Carme Elias es diagnosticada de Alzheimer. Junto a Claudia Pinto, directora y amiga, decide plasmar su \u00faltimo viaje consciente. Los personajes que Carme ha interpretado la acompa\u00f1an en este trance, mientras las fronteras entre ficci\u00f3n y realidad se desvanecen. \"Mientras seas t\u00fa\" es un juego de espejos constante, un pacto de amor y amistad.",
-    "english": "In March 2022, actress Carme El\u00edas announced that she suffered from Alzheimer's. Since then, her friend, director Claudia Pinto, has been filming the different stages of this disease with her."
-  }
+    "type": "Film",
+    "id": "ES2023_113",
+    "slug": "es2023-113-mentre-siguis-tu",
+    "title": {
+        "native": "Mentre siguis tu",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-11-24",
+        "year": 2023
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Claudia Pinto",
+            "slug": "claudia-pinto",
+            "name": "Claudia Pinto",
+            "birthYear": 1977,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Venezuela (Bolivarian Republic of)"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Performative mode",
+        "Documentary \u2013 Participatory mode",
+        "Metacinema"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt21413408/mediaviewer/rm4277162497/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=681658"
+    },
+    "synopsis": {
+        "native": "Tras 50 a\u00f1os en teatro, cine y televisi\u00f3n, Carme Elias es diagnosticada de Alzheimer. Junto a Claudia Pinto, directora y amiga, decide plasmar su \u00faltimo viaje consciente. Los personajes que Carme ha interpretado la acompa\u00f1an en este trance, mientras las fronteras entre ficci\u00f3n y realidad se desvanecen. \"Mientras seas t\u00fa\" es un juego de espejos constante, un pacto de amor y amistad.",
+        "english": "In March 2022, actress Carme El\u00edas announced that she suffered from Alzheimer's. Since then, her friend, director Claudia Pinto, has been filming the different stages of this disease with her."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Carme El\u00edas",
+                "slug": "carme-elias",
+                "name": "Carme El\u00edas",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Claudia Pinto",
+                "slug": "claudia-pinto",
+                "name": "Claudia Pinto",
+                "birthYear": 1977,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Venezuela (Bolivarian Republic of)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Juan Carlos Corazza",
+                "slug": "juan-carlos-corazza",
+                "name": "Juan Carlos Corazza",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Argentina"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "dementia",
+        "homosociality",
+        "intergenerational friendship",
+        "artistic creation",
+        "high rank employment",
+        "mass media",
+        "medical treatment",
+        "cross-gender friendship",
+        "retirement",
+        "personal memory",
+        "cultural memory",
+        "daily routine"
+    ]
 }

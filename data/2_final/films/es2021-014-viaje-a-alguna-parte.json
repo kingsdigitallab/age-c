@@ -1,49 +1,138 @@
 {
-  "id": "ES2021_014",
-  "type": "Film",
-  "slug": "es2021-014-viaje-a-alguna-parte",
-  "title": {
-    "native": "Viaje a alguna parte",
-    "english": "Journey to Somewhere"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2011-11-21",
-    "year": 2011
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=ylqmveqZm60",
-    "posterUrl": "https://www.imdb.com/title/tt6743484/mediaviewer/rm364508161/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Poetic mode",
-    "Documentary \u2013 Performative mode"
-  ],
-  "tags": [
-    "personal memory",
-    "artistic creation",
-    "grandparenthood",
-    "mentorship",
-    "celebrity"
-  ],
-  "director": [
-    {
-      "id": "Helena de Llanos",
-      "slug": "helena-de-llanos",
-      "name": "Helena de Llanos",
-      "birthYear": 1983,
-      "gender": "Female identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "La directora Helena de Llanos va en busca de Emma Cohen y Fernando Fern\u00e1n G\u00f3mez en este at\u00edpico documental que mezcla ficci\u00f3n y realidad a trav\u00e9s de fragmentos de las pel\u00edculas del gran actor del cine espa\u00f1ol."
-  }
+    "type": "Film",
+    "id": "ES2021_014",
+    "slug": "es2021-014-viaje-a-alguna-parte",
+    "title": {
+        "native": "Viaje a alguna parte",
+        "english": "Journey to Somewhere"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2011-11-21",
+        "year": 2011
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Helena de Llanos",
+            "slug": "helena-de-llanos",
+            "name": "Helena de Llanos",
+            "birthYear": 1983,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Performative mode",
+        "Documentary \u2013 Poetic mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt6743484/mediaviewer/rm364508161/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=ylqmveqZm60"
+    },
+    "synopsis": {
+        "native": "La directora Helena de Llanos va en busca de Emma Cohen y Fernando Fern\u00e1n G\u00f3mez en este at\u00edpico documental que mezcla ficci\u00f3n y realidad a trav\u00e9s de fragmentos de las pel\u00edculas del gran actor del cine espa\u00f1ol.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Helena de Llanos",
+                "slug": "helena-de-llanos",
+                "name": "Helena de Llanos",
+                "birthYear": 1983,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jos\u00e9 Sacrist\u00e1n",
+                "slug": "jose-sacristan",
+                "name": "Jos\u00e9 Sacrist\u00e1n",
+                "birthYear": 1937,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Juan Diego",
+                "slug": "juan-diego",
+                "name": "Juan Diego",
+                "birthYear": 1942,
+                "deathYear": 2022,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Pedro Miguel Mart\u00ednez",
+                "slug": "pedro-miguel-martinez",
+                "name": "Pedro Miguel Mart\u00ednez",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Tina S\u00e1inz",
+                "slug": "tina-sainz",
+                "name": "Tina S\u00e1inz",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Ver\u00f3nica Forqu\u00e9",
+                "slug": "veronica-forque",
+                "name": "Ver\u00f3nica Forqu\u00e9",
+                "birthYear": 1955,
+                "deathYear": 2022,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "\u00d3scar Ladoire",
+                "slug": "oscar-ladoire",
+                "name": "\u00d3scar Ladoire",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "grandparenthood",
+        "mentorship",
+        "personal memory",
+        "artistic creation",
+        "celebrity"
+    ]
 }

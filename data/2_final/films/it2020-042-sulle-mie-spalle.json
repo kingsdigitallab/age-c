@@ -1,72 +1,100 @@
 {
-  "id": "IT2020_042",
-  "type": "Film",
-  "slug": "it2020-042-sulle-mie-spalle",
-  "title": {
-    "native": "Sulle mie spalle",
-    "english": "On My Shoulders"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-09-24",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=JTwjK5wNMMc",
-    "posterUrl": "https://www.imdb.com/title/tt5649630/mediaviewer/rm738896385/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Historical film (Heritage Film)",
-    "Drama",
-    "Biopic"
-  ],
-  "tags": [
-    "caregiving",
-    "suicide",
-    "cultural memory",
-    "religion"
-  ],
-  "director": [
-    {
-      "id": "Antonello Belluco",
-      "slug": "antonello-belluco",
-      "name": "Antonello Belluco",
-      "birthYear": 1956,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2020_042_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Eastern European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Paolo De Vita",
-        "slug": "paolo-de-vita",
-        "name": "Paolo De Vita",
-        "birthYear": 1957.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Le confessioni di un uomo pronto a terminare la sua vita di fronte alle difficolt\u00e0 economiche, la cui anima \u00e8 salvata da padre Leopoldo Mandic, un piccolo frate cappuccino capace di toccare le vite di un\u2019intera citt\u00e0.",
-    "english": "The confessions of a man ready to end his life when faced with economic hardship, whose soul is saved by Father Leopoldo Mandic, a little Capuchin brother able to touch the lives of an entire city."
-  }
+    "type": "Film",
+    "id": "IT2020_042",
+    "slug": "it2020-042-sulle-mie-spalle",
+    "title": {
+        "native": "Sulle mie spalle",
+        "english": "On My Shoulders"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-09-24",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Antonello Belluco",
+            "slug": "antonello-belluco",
+            "name": "Antonello Belluco",
+            "birthYear": 1956,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Historical film (Heritage Film)",
+        "Biopic"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt5649630/mediaviewer/rm738896385/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=JTwjK5wNMMc"
+    },
+    "synopsis": {
+        "native": "Le confessioni di un uomo pronto a terminare la sua vita di fronte alle difficolt\u00e0 economiche, la cui anima \u00e8 salvata da padre Leopoldo Mandic, un piccolo frate cappuccino capace di toccare le vite di un\u2019intera citt\u00e0.",
+        "english": "The confessions of a man ready to end his life when faced with economic hardship, whose soul is saved by Father Leopoldo Mandic, a little Capuchin brother able to touch the lives of an entire city."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2020_042_01",
+            "film": "IT2020_042",
+            "person": {
+                "id": "Paolo De Vita",
+                "slug": "paolo-de-vita",
+                "name": "Paolo De Vita",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Eastern European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Antonello Belluco",
+                "slug": "antonello-belluco",
+                "name": "Antonello Belluco",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Paolo De Vita",
+                "slug": "paolo-de-vita",
+                "name": "Paolo De Vita",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "suicide",
+        "religion",
+        "cultural memory",
+        "caregiving"
+    ]
 }

@@ -1,101 +1,144 @@
 {
-  "id": "ES2022_024",
-  "type": "Film",
-  "slug": "es2022-024-reyes-contra-santa",
-  "title": {
-    "native": "Reyes contra Santa",
-    "english": "The Three Wise Kings vs. Santa"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-11-18",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt18953258/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_Reyes%2520contra%2520Santa",
-    "posterUrl": "https://www.imdb.com/title/tt18953258/mediaviewer/rm671416577/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Adventure",
-    "Fantasy",
-    "Children's Film"
-  ],
-  "tags": [
-    "intergenerational friendship",
-    "intergenerational conflict",
-    "gray face",
-    "revenge",
-    "religion",
-    "interracial relationships",
-    "cultural memory",
-    "pilgrimage",
-    "urban",
-    "self-employment",
-    "homosociality",
-    "rescue mission",
-    "abuse",
-    "supernatural entity",
-    "festivities"
-  ],
-  "director": [
-    {
-      "id": "Paco Caballero",
-      "slug": "paco-caballero",
-      "name": "Paco Caballero",
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2022_024_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "Middle East",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Karra Elejalde",
-        "slug": "karra-elejalde",
-        "name": "Karra Elejalde",
-        "birthYear": 1960.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "ES2022_024",
+    "slug": "es2022-024-reyes-contra-santa",
+    "title": {
+        "native": "Reyes contra Santa",
+        "english": "The Three Wise Kings vs. Santa"
     },
-    {
-      "id": "ES2022_024_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Noelia Noto",
-        "slug": "noelia-noto",
-        "name": "Noelia Noto",
-        "gender": "Female identifying",
-        "nationality": "Argentina"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Los Reyes Magos, hartos de que Santa les quite cada vez m\u00e1s protagonismo, han decidido enfrentarse sin saber que esa guerra despertar\u00e1 a un enemigo com\u00fan mucho m\u00e1s peligroso, el Krampus, que llevaba siglos inactivo.",
-    "english": "It follows The Three Wise Men, who are fed up with Santa taking more and more prominence from them. They decide to confront him without knowing that this war will awaken a much more dangerous common enemy: the Krampus."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-11-18",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Paco Caballero",
+            "slug": "paco-caballero",
+            "name": "Paco Caballero",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Fantasy",
+        "Adventure",
+        "Children's Film"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt18953258/mediaviewer/rm671416577/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt18953258/?ref_=nv_sr_srsg_0_tt_1_nm_0_in_0_q_Reyes%2520contra%2520Santa"
+    },
+    "synopsis": {
+        "native": "Los Reyes Magos, hartos de que Santa les quite cada vez m\u00e1s protagonismo, han decidido enfrentarse sin saber que esa guerra despertar\u00e1 a un enemigo com\u00fan mucho m\u00e1s peligroso, el Krampus, que llevaba siglos inactivo.",
+        "english": "It follows The Three Wise Men, who are fed up with Santa taking more and more prominence from them. They decide to confront him without knowing that this war will awaken a much more dangerous common enemy: the Krampus."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2022_024_01",
+            "film": "ES2022_024",
+            "person": {
+                "id": "Noelia Noto",
+                "slug": "noelia-noto",
+                "name": "Noelia Noto",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Argentina"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2022_024_02",
+            "film": "ES2022_024",
+            "person": {
+                "id": "Karra Elejalde",
+                "slug": "karra-elejalde",
+                "name": "Karra Elejalde",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "Middle East",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Karra Elejalde",
+                "slug": "karra-elejalde",
+                "name": "Karra Elejalde",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Noelia Noto",
+                "slug": "noelia-noto",
+                "name": "Noelia Noto",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Argentina"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Paco Caballero",
+                "slug": "paco-caballero",
+                "name": "Paco Caballero",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "rescue mission",
+        "revenge",
+        "festivities",
+        "pilgrimage",
+        "gray face",
+        "homosociality",
+        "intergenerational conflict",
+        "intergenerational friendship",
+        "cultural memory",
+        "urban",
+        "self-employment",
+        "supernatural entity",
+        "abuse",
+        "religion",
+        "interracial relationships"
+    ]
 }

@@ -1,71 +1,100 @@
 {
-  "id": "ES2023_033",
-  "type": "Film",
-  "slug": "es2023-033-els-encantats",
-  "title": {
-    "native": "Els encantats"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-05-23",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt21861984/?ref_=nv_sr_srsg_0_tt_6_nm_1_in_0_q_Els%2520encantats",
-    "posterUrl": "https://www.imdb.com/title/tt21861984/mediaviewer/rm4158270721/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "intergenerational friendship",
-    "mentorship",
-    "extended family",
-    "self-employment",
-    "cross-gender friendship",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Elena Trap\u00e9",
-      "slug": "elena-trape",
-      "name": "Elena Trap\u00e9",
-      "birthYear": 1976,
-      "gender": "Female identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2023_033_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Pep Cruz",
-        "slug": "pep-cruz",
-        "name": "Pep Cruz",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Tras su reciente separaci\u00f3n, Irene se enfrenta por primera vez a la ausencia de su hija de cuatro a\u00f1os, que est\u00e1 pasando unos d\u00edas con su padre. Incapaz de adaptarse a esta nueva realidad, decide viajar a un peque\u00f1o pueblo del pirineo catal\u00e1n donde tiene una casa, buscando recuperar la seguridad y la calma que siente que hace tiempo ha perdido. Pero el lugar, que en el pasado fue tan familiar, se presenta poco a poco tan abrumador como su nueva vida y la acabar\u00e1 forzando a dejar de huir para enfrentarse a sus miedos.",
-    "english": "After her recent separation, Irene seeks to regain her calm in a village in the Catalan Pyrenees, but the familiarity of the place forces her to confront her fears."
-  }
+    "type": "Film",
+    "id": "ES2023_033",
+    "slug": "es2023-033-els-encantats",
+    "title": {
+        "native": "Els encantats",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-05-23",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Elena Trap\u00e9",
+            "slug": "elena-trape",
+            "name": "Elena Trap\u00e9",
+            "birthYear": 1976,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt21861984/mediaviewer/rm4158270721/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt21861984/?ref_=nv_sr_srsg_0_tt_6_nm_1_in_0_q_Els%2520encantats"
+    },
+    "synopsis": {
+        "native": "Tras su reciente separaci\u00f3n, Irene se enfrenta por primera vez a la ausencia de su hija de cuatro a\u00f1os, que est\u00e1 pasando unos d\u00edas con su padre. Incapaz de adaptarse a esta nueva realidad, decide viajar a un peque\u00f1o pueblo del pirineo catal\u00e1n donde tiene una casa, buscando recuperar la seguridad y la calma que siente que hace tiempo ha perdido. Pero el lugar, que en el pasado fue tan familiar, se presenta poco a poco tan abrumador como su nueva vida y la acabar\u00e1 forzando a dejar de huir para enfrentarse a sus miedos.",
+        "english": "After her recent separation, Irene seeks to regain her calm in a village in the Catalan Pyrenees, but the familiarity of the place forces her to confront her fears."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2023_033_01",
+            "film": "ES2023_033",
+            "person": {
+                "id": "Pep Cruz",
+                "slug": "pep-cruz",
+                "name": "Pep Cruz",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Elena Trap\u00e9",
+                "slug": "elena-trape",
+                "name": "Elena Trap\u00e9",
+                "birthYear": 1976,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Pep Cruz",
+                "slug": "pep-cruz",
+                "name": "Pep Cruz",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "rural",
+        "intergenerational friendship",
+        "mentorship",
+        "self-employment",
+        "cross-gender friendship",
+        "extended family"
+    ]
 }

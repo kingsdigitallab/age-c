@@ -1,73 +1,125 @@
 {
-  "id": "FR2018_024",
-  "type": "Film",
-  "slug": "fr2018-024-belle-et-sebastien-3-le-dernier-chapitre",
-  "title": {
-    "native": "Belle et S\u00e9bastien 3, le dernier chapitre",
-    "english": "Belle and Sebastian, Friends for Life"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-02-14",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.dailymotion.com/video/x6eot0z",
-    "posterUrl": "https://medias.unifrance.org/medias/90/207/184154/format_page/belle-and-sebastian-friends-for-life.jpg"
-  },
-  "genre": [
-    "Adventure",
-    "Children's Film"
-  ],
-  "tags": [
-    "grandparenthood",
-    "independent home",
-    "non-human companionship",
-    "natural",
-    "state institutions",
-    "rescue mission"
-  ],
-  "director": [
-    {
-      "id": "Clovis Cornillac",
-      "slug": "clovis-cornillac",
-      "name": "Clovis Cornillac",
-      "birthYear": 1968,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2018_024_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Tch\u00e9ky Karyo",
-        "slug": "tcheky-karyo",
-        "name": "Tch\u00e9ky Karyo",
-        "birthYear": 1953.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Deux ans ont pass\u00e9. S\u00e9bastien est \u00e0 l'aube de l'adolescence et Belle est devenue maman de trois adorables chiots. Pierre et Angelina sont sur le point de se marier et r\u00eavent d'une nouvelle vie, ailleurs... Au grand dam de S\u00e9bastien qui refuse de quitter sa montagne. Lorsque Joseph, l'ancien ma\u00eetre de Belle, ressurgit bien d\u00e9cid\u00e9 \u00e0 r\u00e9cup\u00e9rer sa chienne, S\u00e9bastien se retrouve face \u00e0 une terrible menace. Plus que jamais, il va devoir tout mettre en oeuvre pour prot\u00e9ger son amie et ses petits...",
-    "english": "This new adventure starts right where the last one ended. Belle is now a mother-of-three and Sebastian is 12-year-old. While he refuses to follow his father who decided to move to Canada with Angelina, he will also have to face a new threat: Joseph, who claims to be Belle's rightful owner. He wants to put his hands on Belle and her puppies... But Sebastian will do all it takes to protect his best friend and her little ones."
-  }
+    "type": "Film",
+    "id": "FR2018_024",
+    "slug": "fr2018-024-belle-et-sebastien-3-le-dernier-chapitre",
+    "title": {
+        "native": "Belle et S\u00e9bastien 3, le dernier chapitre",
+        "english": "Belle and Sebastian, Friends for Life"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-02-14",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Clovis Cornillac",
+            "slug": "clovis-cornillac",
+            "name": "Clovis Cornillac",
+            "birthYear": 1968,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Adventure",
+        "Children's Film"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/90/207/184154/format_page/belle-and-sebastian-friends-for-life.jpg",
+        "trailerUrl": "https://www.dailymotion.com/video/x6eot0z"
+    },
+    "synopsis": {
+        "native": "Deux ans ont pass\u00e9. S\u00e9bastien est \u00e0 l'aube de l'adolescence et Belle est devenue maman de trois adorables chiots. Pierre et Angelina sont sur le point de se marier et r\u00eavent d'une nouvelle vie, ailleurs... Au grand dam de S\u00e9bastien qui refuse de quitter sa montagne. Lorsque Joseph, l'ancien ma\u00eetre de Belle, ressurgit bien d\u00e9cid\u00e9 \u00e0 r\u00e9cup\u00e9rer sa chienne, S\u00e9bastien se retrouve face \u00e0 une terrible menace. Plus que jamais, il va devoir tout mettre en oeuvre pour prot\u00e9ger son amie et ses petits...",
+        "english": "This new adventure starts right where the last one ended. Belle is now a mother-of-three and Sebastian is 12-year-old. While he refuses to follow his father who decided to move to Canada with Angelina, he will also have to face a new threat: Joseph, who claims to be Belle's rightful owner. He wants to put his hands on Belle and her puppies... But Sebastian will do all it takes to protect his best friend and her little ones."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2018_024_01",
+            "film": "FR2018_024",
+            "person": {
+                "id": "Tch\u00e9ky Karyo",
+                "slug": "tcheky-karyo",
+                "name": "Tch\u00e9ky Karyo",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Andr\u00e9 Penvern",
+                "slug": "andre-penvern",
+                "name": "Andr\u00e9 Penvern",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Anne Beno\u00eet",
+                "slug": "anne-benoit",
+                "name": "Anne Beno\u00eet",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Clovis Cornillac",
+                "slug": "clovis-cornillac",
+                "name": "Clovis Cornillac",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Tch\u00e9ky Karyo",
+                "slug": "tcheky-karyo",
+                "name": "Tch\u00e9ky Karyo",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "grandparenthood",
+        "natural",
+        "non-human companionship",
+        "state institutions",
+        "independent home",
+        "rescue mission"
+    ]
 }

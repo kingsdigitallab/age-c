@@ -1,68 +1,108 @@
 {
-  "id": "IT2023_119",
-  "type": "Film",
-  "slug": "it2023-119-la-seconda-chance",
-  "title": {
-    "native": "La seconda chance",
-    "english": "The Second Chance"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-10-26",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=iOOX_wc6JKY",
-    "posterUrl": "https://www.imdb.com/title/tt21146020/mediaviewer/rm1974883841/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Romance"
-  ],
-  "tags": [
-    "parenthood"
-  ],
-  "director": [
-    {
-      "id": "Umberto Riccioni Carteni",
-      "slug": "umberto-riccioni-carteni",
-      "name": "Umberto Riccioni Carteni",
-      "birthYear": 1970,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2023_119_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Max Giusti",
-        "slug": "max-giusti",
-        "name": "Max Giusti",
-        "birthYear": 1968.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Max e Anna Mancini sono sposati da venticinque anni ed hanno due figli adolescenti. I due ragazzi, sebbene siano gemelli, sono caratterialmente agli antipodi: Tina \u00e8 ribelle e poco studiosa; Nico \u00e8 pacato, solitario ed ha il chiodo fisso dei videogiochi. Tra genitori e figli \u00e8 in atto una guerra costante, che raggiunge l\u2019apice il giorno del diciottesimo compleanno dei gemelli, quando la festa a casa, che era stata loro concessa, degenera. Max e Anna si rendono conto di non sapere nulla di quei due adolescenti, si chiedono dove abbiano sbagliato e ripensano con nostalgia ai tempi in cui Tina e Nico erano adorabili scriccioli da proteggere. Ma ricordano davvero com\u2019\u00e8 andata? Al termine di quella serata disastrosa, si presenta una seconda chance per Anna e Max, per vedere chiaro nel rapporto con i loro figli e tentare, dove possibile, di non ripetere gli stessi errori.",
-    "english": "Anna and Max will have another chance to understand their relationship with their children and not to repeat the same mistakes."
-  }
+    "type": "Film",
+    "id": "IT2023_119",
+    "slug": "it2023-119-la-seconda-chance",
+    "title": {
+        "native": "La seconda chance",
+        "english": "The Second Chance"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-10-26",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Umberto Riccioni Carteni",
+            "slug": "umberto-riccioni-carteni",
+            "name": "Umberto Riccioni Carteni",
+            "birthYear": 1970,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt21146020/mediaviewer/rm1974883841/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=iOOX_wc6JKY"
+    },
+    "synopsis": {
+        "native": "Max e Anna Mancini sono sposati da venticinque anni ed hanno due figli adolescenti. I due ragazzi, sebbene siano gemelli, sono caratterialmente agli antipodi: Tina \u00e8 ribelle e poco studiosa; Nico \u00e8 pacato, solitario ed ha il chiodo fisso dei videogiochi. Tra genitori e figli \u00e8 in atto una guerra costante, che raggiunge l\u2019apice il giorno del diciottesimo compleanno dei gemelli, quando la festa a casa, che era stata loro concessa, degenera. Max e Anna si rendono conto di non sapere nulla di quei due adolescenti, si chiedono dove abbiano sbagliato e ripensano con nostalgia ai tempi in cui Tina e Nico erano adorabili scriccioli da proteggere. Ma ricordano davvero com\u2019\u00e8 andata? Al termine di quella serata disastrosa, si presenta una seconda chance per Anna e Max, per vedere chiaro nel rapporto con i loro figli e tentare, dove possibile, di non ripetere gli stessi errori.",
+        "english": "Anna and Max will have another chance to understand their relationship with their children and not to repeat the same mistakes."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2023_119_01",
+            "film": "IT2023_119",
+            "person": {
+                "id": "Max Giusti",
+                "slug": "max-giusti",
+                "name": "Max Giusti",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Maurizio Mattioli",
+                "slug": "maurizio-mattioli",
+                "name": "Maurizio Mattioli",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Max Giusti",
+                "slug": "max-giusti",
+                "name": "Max Giusti",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Umberto Riccioni Carteni",
+                "slug": "umberto-riccioni-carteni",
+                "name": "Umberto Riccioni Carteni",
+                "birthYear": 1970,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "parenthood"
+    ]
 }

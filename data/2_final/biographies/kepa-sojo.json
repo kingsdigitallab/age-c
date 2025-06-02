@@ -1,30 +1,35 @@
 {
-  "id": "Kepa Sojo",
-  "type": "Biography",
-  "slug": "kepa-sojo",
-  "name": "Kepa Sojo",
-  "birthYear": 1968,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Romance",
-      "id": "ES2019_010",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "es2019-010-la-pequena-suiza",
-      "tags": "rural",
-      "title": {
-        "english": "The Little Switzerland",
-        "native": "La peque\u00f1a Suiza"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Kepa Sojo",
+    "slug": "kepa-sojo",
+    "name": "Kepa Sojo",
+    "birthYear": 1968,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2019_010",
+                "slug": "es2019-010-la-pequena-suiza",
+                "title": {
+                    "native": "La peque\u00f1a Suiza",
+                    "english": "The Little Switzerland"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-04-26",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

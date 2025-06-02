@@ -1,29 +1,43 @@
 {
-  "id": "John Michael McDonagh",
-  "type": "Biography",
-  "slug": "john-michael-mcdonagh",
-  "name": "John Michael McDonagh",
-  "birthYear": 1967,
-  "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Road Movie",
-      "id": "GB2022_016",
-      "production": {
-        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "gb2022-016-the-forgiven",
-      "tags": "substance abuse",
-      "title": {
-        "native": "The Forgiven"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "John Michael McDonagh",
+    "slug": "john-michael-mcdonagh",
+    "name": "John Michael McDonagh",
+    "birthYear": 1967,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "GB2022_016",
+                "slug": "gb2022-016-the-forgiven",
+                "title": {
+                    "native": "The Forgiven",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-09-02",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Canada",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

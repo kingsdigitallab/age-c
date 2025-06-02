@@ -1,61 +1,105 @@
 {
-  "id": "GB2018_030",
-  "type": "Film",
-  "slug": "gb2018-030-the-trial-of-ratko-mladic",
-  "title": {
-    "native": "The Trial of Ratko Mladic"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "First festival screening",
-    "date": "2018-11-18",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=irti20ze00g",
-    "posterUrl": "https://www.imdb.com/title/tt9588298/mediaviewer/rm4218186496/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Expository mode",
-    "Documentary \u2013 Observational mode",
-    "Courtroom Drama",
-    "Drama"
-  ],
-  "tags": [
-    "high rank employment",
-    "racial discrimination",
-    "supranational institutions",
-    "national identity",
-    "power",
-    "war",
-    "state institutions",
-    "mass media",
-    "collective trauma"
-  ],
-  "director": [
-    {
-      "id": "Robert Miller",
-      "slug": "robert-miller",
-      "name": "Robert Miller",
-      "gender": "Male identifying",
-      "nationality": "Unknown"
+    "type": "Film",
+    "id": "GB2018_030",
+    "slug": "gb2018-030-the-trial-of-ratko-mladic",
+    "title": {
+        "native": "The Trial of Ratko Mladic",
+        "english": ""
     },
-    {
-      "id": "Henry Singer",
-      "slug": "henry-singer",
-      "name": "Henry Singer",
-      "birthYear": 1957,
-      "gender": "Male identifying",
-      "nationality": "United States of America (the)"
-    }
-  ],
-  "synopsis": {
-    "native": "The war crimes trial of one of the most infamous figures from the Balkan wars of the 1990s."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2018-11-18",
+        "year": 2018
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Robert Miller",
+            "slug": "robert-miller",
+            "name": "Robert Miller",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Unknown"
+        },
+        {
+            "id": "Henry Singer",
+            "slug": "henry-singer",
+            "name": "Henry Singer",
+            "birthYear": 1957,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United States of America (the)"
+        }
+    ],
+    "genre": [
+        "Courtroom Drama",
+        "Documentary \u2013 Expository mode",
+        "Drama",
+        "Documentary \u2013 Observational mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9588298/mediaviewer/rm4218186496/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=irti20ze00g"
+    },
+    "synopsis": {
+        "native": "The war crimes trial of one of the most infamous figures from the Balkan wars of the 1990s.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Henry Singer",
+                "slug": "henry-singer",
+                "name": "Henry Singer",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Ratko Mladic",
+                "slug": "ratko-mladic",
+                "name": "Ratko Mladic",
+                "birthYear": 1942,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Bosnia and Herzegovina"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Robert Miller",
+                "slug": "robert-miller",
+                "name": "Robert Miller",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Unknown"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "state institutions",
+        "mass media",
+        "collective trauma",
+        "war",
+        "power",
+        "high rank employment",
+        "national identity",
+        "supranational institutions",
+        "racial discrimination"
+    ]
 }

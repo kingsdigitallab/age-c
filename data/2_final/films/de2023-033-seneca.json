@@ -1,71 +1,159 @@
 {
-  "id": "DE2023_033",
-  "type": "Film",
-  "slug": "de2023-033-seneca",
-  "title": {
-    "native": "Seneca",
-    "english": "Seneca: On the Creation of Earthquakes"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-03-23",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/video/vi3383608345/?playlistId=tt10155748&ref_=tt_ov_pr_ov_vi",
-    "posterUrl": "https://www.imdb.com/title/tt10155748/mediaviewer/rm1190732545/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Historical film (Heritage Film)",
-    "Drama",
-    "Biopic"
-  ],
-  "tags": [
-    "mentorship",
-    "intergenerational conflict",
-    "power"
-  ],
-  "director": [
-    {
-      "id": "Robert Schwentke",
-      "slug": "robert-schwentke",
-      "name": "Robert Schwentke",
-      "birthYear": 1968,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "character": [
-    {
-      "id": "DE2023_033_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White North American",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "John Malkovich",
-        "slug": "john-malkovich",
-        "name": "John Malkovich",
-        "birthYear": 1953.0,
-        "gender": "Male identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Kaiser Claudius, der Seneca (John Malkovich) verbannt hatte, heiratet die junge Agrippina (Mary-Louise Parker), die Seneca jedoch als Erzieher ihres 12-j\u00e4hrigen Sohnes Nero (Tom Xander) verpflichtet. Seneca kommt aus dem Exil zur\u00fcck und nimmt die Aufgabe an. Mehrere Jahre steht er an der Seite von Nero und \u00fcbt gro\u00dfen Einfluss auf ihn aus. Auch als Nero mit 16 Jahren Kaiser wird, bleibt Seneca weiterhin als Berater an dessen Seite. In dieser Zeit wird Seneca zu einem der wohlhabendsten und einflussreichsten M\u00e4nner Roms. Im Jahre 65 n. Chr., als Neros Regime seinen Zenit erreicht und der Kaiser mit allen Mitteln seinen despotischen Souver\u00e4nit\u00e4tsanspruch verteidigt, wird Seneca beschuldigt, an einer Verschw\u00f6rung gegen Nero beteiligt zu sein. Dieser befehligt ihn darauf, sich selbst zu t\u00f6ten. Doch bevor Seneca Neros Befehl nachkommt und sich seinem Schicksal ergibt, hat er noch einiges zu sagen",
-    "english": "A look at the relationship between Seneca and Nero, the infamous Emperor he mentored since childhood and who accused him of plotting his assassination."
-  }
+    "type": "Film",
+    "id": "DE2023_033",
+    "slug": "de2023-033-seneca",
+    "title": {
+        "native": "Seneca",
+        "english": "Seneca: On the Creation of Earthquakes"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-03-23",
+        "year": 2023
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Robert Schwentke",
+            "slug": "robert-schwentke",
+            "name": "Robert Schwentke",
+            "birthYear": 1968,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Biopic",
+        "Drama",
+        "Historical film (Heritage Film)"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt10155748/mediaviewer/rm1190732545/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/video/vi3383608345/?playlistId=tt10155748&ref_=tt_ov_pr_ov_vi"
+    },
+    "synopsis": {
+        "native": "Kaiser Claudius, der Seneca (John Malkovich) verbannt hatte, heiratet die junge Agrippina (Mary-Louise Parker), die Seneca jedoch als Erzieher ihres 12-j\u00e4hrigen Sohnes Nero (Tom Xander) verpflichtet. Seneca kommt aus dem Exil zur\u00fcck und nimmt die Aufgabe an. Mehrere Jahre steht er an der Seite von Nero und \u00fcbt gro\u00dfen Einfluss auf ihn aus. Auch als Nero mit 16 Jahren Kaiser wird, bleibt Seneca weiterhin als Berater an dessen Seite. In dieser Zeit wird Seneca zu einem der wohlhabendsten und einflussreichsten M\u00e4nner Roms. Im Jahre 65 n. Chr., als Neros Regime seinen Zenit erreicht und der Kaiser mit allen Mitteln seinen despotischen Souver\u00e4nit\u00e4tsanspruch verteidigt, wird Seneca beschuldigt, an einer Verschw\u00f6rung gegen Nero beteiligt zu sein. Dieser befehligt ihn darauf, sich selbst zu t\u00f6ten. Doch bevor Seneca Neros Befehl nachkommt und sich seinem Schicksal ergibt, hat er noch einiges zu sagen",
+        "english": "A look at the relationship between Seneca and Nero, the infamous Emperor he mentored since childhood and who accused him of plotting his assassination."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "DE2023_033_01",
+            "film": "DE2023_033",
+            "person": {
+                "id": "John Malkovich",
+                "slug": "john-malkovich",
+                "name": "John Malkovich",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White North American",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Geraldine Chaplin",
+                "slug": "geraldine-chaplin",
+                "name": "Geraldine Chaplin",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "John Malkovich",
+                "slug": "john-malkovich",
+                "name": "John Malkovich",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Julian Sands",
+                "slug": "julian-sands",
+                "name": "Julian Sands",
+                "birthYear": 1958,
+                "deathYear": 2023,
+                "gender": "Male identifying",
+                "nationality": "Unknown"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Mary-Louise Parker",
+                "slug": "mary-louise-parker",
+                "name": "Mary-Louise Parker",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Robert Schwentke",
+                "slug": "robert-schwentke",
+                "name": "Robert Schwentke",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Samuel Finzi",
+                "slug": "samuel-finzi",
+                "name": "Samuel Finzi",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Wolfram Koch",
+                "slug": "wolfram-koch",
+                "name": "Wolfram Koch",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "mentorship",
+        "power",
+        "intergenerational conflict"
+    ]
 }

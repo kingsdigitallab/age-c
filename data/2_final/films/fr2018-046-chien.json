@@ -1,50 +1,90 @@
 {
-  "id": "FR2018_046",
-  "type": "Film",
-  "slug": "fr2018-046-chien",
-  "title": {
-    "native": "Chien",
-    "english": "Dog"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-03-14",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2018_046",
+    "slug": "fr2018-046-chien",
+    "title": {
+        "native": "Chien",
+        "english": "Dog"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=5u5FCtFqVj8",
-    "posterUrl": "https://medias.unifrance.org/medias/47/220/187439/format_page/dog.jpg"
-  },
-  "genre": [
-    "Comedy",
-    "Drama"
-  ],
-  "tags": [
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Samuel Benchetrit",
-      "slug": "samuel-benchetrit",
-      "name": "Samuel Benchetrit",
-      "birthYear": 1973,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Jacques Blanchot perd tout : sa femme, son travail, son logement. Il devient peu \u00e0 peu \u00e9tranger au monde qui l'entoure, jusqu'\u00e0 ce que le patron d'une animalerie le recueille.",
-    "english": "Jacques Blanchot just lost everything : his wife, his son, his house, his work. Abandoned by all, he gets picked up by a zealous pet shop owner who, unable to see him as a friend, offers to train him as his dog. Losing foot with reality, rejected by his peers, Jacques Blanchot discovers the challenges and perks of this new life. Adapted from his own novel, Samuel Bench\u00e9trit tells us the fall of an individual with humor and self-mockery."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2018-03-14",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Samuel Benchetrit",
+            "slug": "samuel-benchetrit",
+            "name": "Samuel Benchetrit",
+            "birthYear": 1973,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/47/220/187439/format_page/dog.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=5u5FCtFqVj8"
+    },
+    "synopsis": {
+        "native": "Jacques Blanchot perd tout : sa femme, son travail, son logement. Il devient peu \u00e0 peu \u00e9tranger au monde qui l'entoure, jusqu'\u00e0 ce que le patron d'une animalerie le recueille.",
+        "english": "Jacques Blanchot just lost everything : his wife, his son, his house, his work. Abandoned by all, he gets picked up by a zealous pet shop owner who, unable to see him as a friend, offers to train him as his dog. Losing foot with reality, rejected by his peers, Jacques Blanchot discovers the challenges and perks of this new life. Adapted from his own novel, Samuel Bench\u00e9trit tells us the fall of an individual with humor and self-mockery."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Alexandre von Sivers",
+                "slug": "alexandre-von-sivers",
+                "name": "Alexandre von Sivers",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Samuel Benchetrit",
+                "slug": "samuel-benchetrit",
+                "name": "Samuel Benchetrit",
+                "birthYear": 1973,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "\u00c9ric De Staercke",
+                "slug": "eric-de-staercke",
+                "name": "\u00c9ric De Staercke",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Belgium"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "superior-employee relationship"
+    ]
 }

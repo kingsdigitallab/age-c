@@ -1,48 +1,79 @@
 {
-  "id": "ES2023_093",
-  "type": "Film",
-  "slug": "es2023-093-petricor",
-  "title": {
-    "native": "Petricor"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-08-25",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=812970",
-    "posterUrl": "https://www.imdb.com/title/tt28821636/mediaviewer/rm4062600961/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Observational mode"
-  ],
-  "tags": [
-    "hospital",
-    "body norms",
-    "caregiving",
-    "personal trauma",
-    "homosociality",
-    "mental illness",
-    "medical treatment"
-  ],
-  "director": [
-    {
-      "id": "Vict\u00f2ria Morell",
-      "slug": "victoria-morell",
-      "name": "Vict\u00f2ria Morell",
-      "gender": "Female identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Tres mujeres de diferentes generaciones conviven con un trastorno de la conducta alimentaria. Tres realidades oscuras y esperanzadoras marcadas por un trauma infantil al que trataran de enfrentarse para volver a la vida."
-  }
+    "type": "Film",
+    "id": "ES2023_093",
+    "slug": "es2023-093-petricor",
+    "title": {
+        "native": "Petricor",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-08-25",
+        "year": 2023
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Vict\u00f2ria Morell",
+            "slug": "victoria-morell",
+            "name": "Vict\u00f2ria Morell",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Observational mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt28821636/mediaviewer/rm4062600961/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=812970"
+    },
+    "synopsis": {
+        "native": "Tres mujeres de diferentes generaciones conviven con un trastorno de la conducta alimentaria. Tres realidades oscuras y esperanzadoras marcadas por un trauma infantil al que trataran de enfrentarse para volver a la vida.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Mar\u00eda Luisa Lara",
+                "slug": "maria-luisa-lara",
+                "name": "Mar\u00eda Luisa Lara",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Vict\u00f2ria Morell",
+                "slug": "victoria-morell",
+                "name": "Vict\u00f2ria Morell",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "mental illness",
+        "body norms",
+        "medical treatment",
+        "personal trauma",
+        "caregiving",
+        "hospital",
+        "homosociality"
+    ]
 }

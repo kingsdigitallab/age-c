@@ -1,29 +1,35 @@
 {
-  "id": "Chris Miera",
-  "type": "Biography",
-  "slug": "chris-miera",
-  "name": "Chris Miera",
-  "birthYear": 1986,
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Romance",
-      "id": "DE2018_002",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "de2018-002-ein-weg",
-      "title": {
-        "english": "Paths",
-        "native": "Ein Weg"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Chris Miera",
+    "slug": "chris-miera",
+    "name": "Chris Miera",
+    "birthYear": 1986,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2018_002",
+                "slug": "de2018-002-ein-weg",
+                "title": {
+                    "native": "Ein Weg",
+                    "english": "Paths"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-01-11",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

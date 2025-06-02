@@ -1,94 +1,135 @@
 {
-  "id": "FR2020_016",
-  "type": "Film",
-  "slug": "fr2020-016-l-esprit-de-famille",
-  "title": {
-    "native": "L'Esprit de famille",
-    "english": "The Father Figure"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-01-29",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=-Oohd16qWa8",
-    "posterUrl": "https://medias.unifrance.org/medias/119/67/213879/format_page/l-esprit-de-famille.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "natural death",
-    "grief",
-    "fatherhood",
-    "multigenerational family",
-    "in-laws",
-    "retirement",
-    "supernatural entity",
-    "widowhood"
-  ],
-  "director": [
-    {
-      "id": "\u00c9ric Besnard",
-      "slug": "eric-besnard",
-      "name": "\u00c9ric Besnard",
-      "birthYear": 1964,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2020_016_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Josiane Balasko",
-        "slug": "josiane-balasko",
-        "name": "Josiane Balasko",
-        "birthYear": 1950.0,
-        "gender": "Female identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "FR2020_016",
+    "slug": "fr2020-016-l-esprit-de-famille",
+    "title": {
+        "native": "L'Esprit de famille",
+        "english": "The Father Figure"
     },
-    {
-      "id": "FR2020_016_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Fran\u00e7ois Berl\u00e9and",
-        "slug": "francois-berleand",
-        "name": "Fran\u00e7ois Berl\u00e9and",
-        "birthYear": 1952.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Alexandre s'embrouille une nouvelle fois avec son p\u00e8re Jacques. A priori, il ne devrait pas, car ce dernier vient de d\u00e9c\u00e9der, mais Jacques, ou plut\u00f4t son esprit, est bien l\u00e0, \u00e0 r\u00e2ler \u00e0 ses c\u00f4t\u00e9s. Et comme Alexandre est le seul \u00e0 le voir et donc \u00e0 lui parler, sa m\u00e8re, sa femme et son fr\u00e8re commencent \u00e0 s\u2019inqui\u00e9ter de son \u00e9trange comportement.",
-    "english": "Alexandre, a famous writer, can\u2019t get over his father Jacques\u2019 passing. Suddenly, Jacques, supposedly dead, reappears. After understanding he is talking to a ghost, Alexandre has to learn how to cope with the imposing presence of his father\u2019s spirit."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2020-01-29",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "\u00c9ric Besnard",
+            "slug": "eric-besnard",
+            "name": "\u00c9ric Besnard",
+            "birthYear": 1964,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/119/67/213879/format_page/l-esprit-de-famille.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=-Oohd16qWa8"
+    },
+    "synopsis": {
+        "native": "Alexandre s'embrouille une nouvelle fois avec son p\u00e8re Jacques. A priori, il ne devrait pas, car ce dernier vient de d\u00e9c\u00e9der, mais Jacques, ou plut\u00f4t son esprit, est bien l\u00e0, \u00e0 r\u00e2ler \u00e0 ses c\u00f4t\u00e9s. Et comme Alexandre est le seul \u00e0 le voir et donc \u00e0 lui parler, sa m\u00e8re, sa femme et son fr\u00e8re commencent \u00e0 s\u2019inqui\u00e9ter de son \u00e9trange comportement.",
+        "english": "Alexandre, a famous writer, can\u2019t get over his father Jacques\u2019 passing. Suddenly, Jacques, supposedly dead, reappears. After understanding he is talking to a ghost, Alexandre has to learn how to cope with the imposing presence of his father\u2019s spirit."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2020_016_02",
+            "film": "FR2020_016",
+            "person": {
+                "id": "Fran\u00e7ois Berl\u00e9and",
+                "slug": "francois-berleand",
+                "name": "Fran\u00e7ois Berl\u00e9and",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "FR2020_016_02",
+            "film": "FR2020_016",
+            "person": {
+                "id": "Josiane Balasko",
+                "slug": "josiane-balasko",
+                "name": "Josiane Balasko",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Fran\u00e7ois Berl\u00e9and",
+                "slug": "francois-berleand",
+                "name": "Fran\u00e7ois Berl\u00e9and",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Josiane Balasko",
+                "slug": "josiane-balasko",
+                "name": "Josiane Balasko",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "\u00c9ric Besnard",
+                "slug": "eric-besnard",
+                "name": "\u00c9ric Besnard",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "supernatural entity",
+        "fatherhood",
+        "retirement",
+        "grief",
+        "in-laws",
+        "multigenerational family",
+        "natural death",
+        "widowhood"
+    ]
 }

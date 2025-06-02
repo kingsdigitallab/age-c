@@ -1,71 +1,128 @@
 {
-  "id": "Gary Oldman",
-  "type": "Biography",
-  "slug": "gary-oldman",
-  "name": "Gary Oldman",
-  "birthYear": 1958,
-  "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
-  "gender": "Male identifying",
-  "character": [
-    {
-      "ability": "Able-bodied",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "No",
-      "class": "Upper class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Crime",
-        "id": "GB2019_048",
-        "production": {
-          "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-          "share": "Majority coproducer"
+    "type": "Person",
+    "id": "Gary Oldman",
+    "slug": "gary-oldman",
+    "name": "Gary Oldman",
+    "birthYear": 1958,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+    "characters": [
+        {
+            "id": "GB2018_002_01",
+            "film": {
+                "id": "GB2018_002",
+                "slug": "gb2018-002-darkest-hour",
+                "title": {
+                    "native": "Darkest Hour",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-01-12",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "person": "Gary Oldman",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "Yes"
         },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2019
-        },
-        "slug": "gb2019-048-the-courier",
-        "tags": "low rank employment",
-        "title": {
-          "native": "The Courier"
+        {
+            "id": "GB2019_048_01",
+            "film": {
+                "id": "GB2019_048",
+                "slug": "gb2019-048-the-courier",
+                "title": {
+                    "native": "The Courier",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-12-20",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "person": "Gary Oldman",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
-      },
-      "gender": "Male identifying",
-      "id": "GB2019_048_01",
-      "origin": "White Western European",
-      "profession": "Self-employed",
-      "role": "Leading actor",
-      "sexuality": "Unknown"
-    },
-    {
-      "ability": "Able-bodied",
-      "age": "3: Third Age (60-75)",
-      "assistedMobility": "Yes",
-      "class": "Upper class",
-      "film": {
-        "filmType": "Fiction film",
-        "genre": "Drama",
-        "id": "GB2018_002",
-        "production": {
-          "country": "United States of America (the)",
-          "share": "Minority coproducer"
+    ],
+    "roles": [
+        {
+            "film": {
+                "id": "GB2018_002",
+                "slug": "gb2018-002-darkest-hour",
+                "title": {
+                    "native": "Darkest Hour",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-01-12",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
         },
-        "release": {
-          "type": "Theatrical release",
-          "year": 2018
-        },
-        "slug": "gb2018-002-darkest-hour",
-        "tags": "class solidarity",
-        "title": {
-          "native": "Darkest Hour"
+        {
+            "film": {
+                "id": "GB2019_048",
+                "slug": "gb2019-048-the-courier",
+                "title": {
+                    "native": "The Courier",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-12-20",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Leading actor"
         }
-      },
-      "gender": "Male identifying",
-      "id": "GB2018_002_01",
-      "origin": "White Western European",
-      "profession": "Employed",
-      "role": "Leading actor",
-      "sexuality": "Heterosexual"
-    }
-  ]
+    ]
 }

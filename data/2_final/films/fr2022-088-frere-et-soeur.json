@@ -1,51 +1,91 @@
 {
-  "id": "FR2022_088",
-  "type": "Film",
-  "slug": "fr2022-088-frere-et-soeur",
-  "title": {
-    "native": "Fr\u00e8re et S\u0153ur",
-    "english": "Brother and Sister"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-05-20",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=VznEDgv6qIM",
-    "posterUrl": "https://medias.unifrance.org/medias/74/205/249162/format_page/frere-et-soeur.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "parenthood",
-    "independent home",
-    "religion",
-    "marriage",
-    "urban",
-    "intragenerational friendship",
-    "self-employment"
-  ],
-  "director": [
-    {
-      "id": "Arnaud Desplechin",
-      "slug": "arnaud-desplechin",
-      "name": "Arnaud Desplechin",
-      "birthYear": 1960,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Un fr\u00e8re et une s\u0153ur \u00e0 l\u2019or\u00e9e de la cinquantaine. Alice est actrice, Louis fut professeur et po\u00e8te. Alice hait son fr\u00e8re depuis plus de 20 ans. Ils ne se sont pas vus depuis tout ce temps \u2013 quand Louis croisait la s\u0153ur par hasard dans la rue, celle-ci ne le saluait pas et fuyait. Mais le fr\u00e8re et la s\u0153ur vont \u00eatre amen\u00e9s \u00e0 se croiser lors du d\u00e9c\u00e8s de leurs parents.",
-    "english": "Alice and Louis are brother and sister. She is an actress; he was a teacher and poet. For more than 20 years, Alice has hated her brother. In all this time they haven\u2019t seen one another. The death of their parents brings the siblings face to face."
-  }
+    "type": "Film",
+    "id": "FR2022_088",
+    "slug": "fr2022-088-frere-et-soeur",
+    "title": {
+        "native": "Fr\u00e8re et S\u0153ur",
+        "english": "Brother and Sister"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-05-20",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Arnaud Desplechin",
+            "slug": "arnaud-desplechin",
+            "name": "Arnaud Desplechin",
+            "birthYear": 1960,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/74/205/249162/format_page/frere-et-soeur.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=VznEDgv6qIM"
+    },
+    "synopsis": {
+        "native": "Un fr\u00e8re et une s\u0153ur \u00e0 l\u2019or\u00e9e de la cinquantaine. Alice est actrice, Louis fut professeur et po\u00e8te. Alice hait son fr\u00e8re depuis plus de 20 ans. Ils ne se sont pas vus depuis tout ce temps \u2013 quand Louis croisait la s\u0153ur par hasard dans la rue, celle-ci ne le saluait pas et fuyait. Mais le fr\u00e8re et la s\u0153ur vont \u00eatre amen\u00e9s \u00e0 se croiser lors du d\u00e9c\u00e8s de leurs parents.",
+        "english": "Alice and Louis are brother and sister. She is an actress; he was a teacher and poet. For more than 20 years, Alice has hated her brother. In all this time they haven\u2019t seen one another. The death of their parents brings the siblings face to face."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Arnaud Desplechin",
+                "slug": "arnaud-desplechin",
+                "name": "Arnaud Desplechin",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Francis Leplay",
+                "slug": "francis-leplay",
+                "name": "Francis Leplay",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Patrick Timsit",
+                "slug": "patrick-timsit",
+                "name": "Patrick Timsit",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "urban",
+        "self-employment",
+        "intragenerational friendship",
+        "independent home",
+        "parenthood",
+        "religion",
+        "marriage"
+    ]
 }

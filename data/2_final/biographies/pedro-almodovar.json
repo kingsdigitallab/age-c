@@ -1,30 +1,61 @@
 {
-  "id": "Pedro Almod\u00f3var",
-  "type": "Biography",
-  "slug": "pedro-almodovar",
-  "name": "Pedro Almod\u00f3var",
-  "birthYear": 1949,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "ES2019_003",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "es2019-003-dolor-y-gloria",
-      "tags": "body norms",
-      "title": {
-        "english": "Pain and Glory",
-        "native": "Dolor y gloria"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Pedro Almod\u00f3var",
+    "slug": "pedro-almodovar",
+    "name": "Pedro Almod\u00f3var",
+    "birthYear": 1949,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2019_003",
+                "slug": "es2019-003-dolor-y-gloria",
+                "title": {
+                    "native": "Dolor y gloria",
+                    "english": "Pain and Glory"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-03-22",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "ES2022_113",
+                "slug": "es2022-113-el-viaje-de-julieta",
+                "title": {
+                    "native": "El viaje de Julieta",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-08-30",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Documentary subject"
+        }
+    ]
 }

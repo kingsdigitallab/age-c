@@ -1,51 +1,83 @@
 {
-  "id": "FR2019_058",
-  "type": "Film",
-  "slug": "fr2019-058-leur-souffle",
-  "title": {
-    "native": "Leur souffle"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-03-20",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=DKA2hW9c7M8",
-    "posterUrl": "https://medias.unifrance.org/medias/33/27/203553/format_page/leur-souffle.jpg"
-  },
-  "genre": [
-    "Documentary \u2013 Observational mode"
-  ],
-  "tags": [
-    "communal housing",
-    "religion"
-  ],
-  "director": [
-    {
-      "id": "Ivan Marchika",
-      "slug": "ivan-marchika",
-      "name": "Ivan Marchika",
-      "gender": "Male identifying",
-      "nationality": "France"
+    "type": "Film",
+    "id": "FR2019_058",
+    "slug": "fr2019-058-leur-souffle",
+    "title": {
+        "native": "Leur souffle",
+        "english": ""
     },
-    {
-      "id": "C\u00e9cile Besnault",
-      "slug": "cecile-besnault",
-      "name": "C\u00e9cile Besnault",
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Au milieu des paysages chers \u00e0 C\u00e9zanne, S\u0153ur B\u00e9n\u00e9dicte va faire ses v\u0153ux perp\u00e9tuels. Elle s\u2019appr\u00eate \u00e0 vivre clo\u00eetr\u00e9e dans une abbaye b\u00e9n\u00e9dictine surplombant la vall\u00e9e de la Durance, \u00e0 Jouques. Avec d\u2019autres s\u0153urs, elle consacrera ses journ\u00e9es au travail et \u00e0 la pri\u00e8re. C\u00e9cile Besnault et Ivan Marchika nous invitent \u00e0 vivre une exp\u00e9rience in\u00e9dite, sans jugement ni parti pris.",
-    "english": "This documentary follows Sister B\u00e9n\u00e9dicte, a young woman, as she enters monastic life in a Benedictine abbey in France."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-03-20",
+        "year": 2019
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "C\u00e9cile Besnault",
+            "slug": "cecile-besnault",
+            "name": "C\u00e9cile Besnault",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        },
+        {
+            "id": "Ivan Marchika",
+            "slug": "ivan-marchika",
+            "name": "Ivan Marchika",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Observational mode"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/33/27/203553/format_page/leur-souffle.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=DKA2hW9c7M8"
+    },
+    "synopsis": {
+        "native": "Au milieu des paysages chers \u00e0 C\u00e9zanne, S\u0153ur B\u00e9n\u00e9dicte va faire ses v\u0153ux perp\u00e9tuels. Elle s\u2019appr\u00eate \u00e0 vivre clo\u00eetr\u00e9e dans une abbaye b\u00e9n\u00e9dictine surplombant la vall\u00e9e de la Durance, \u00e0 Jouques. Avec d\u2019autres s\u0153urs, elle consacrera ses journ\u00e9es au travail et \u00e0 la pri\u00e8re. C\u00e9cile Besnault et Ivan Marchika nous invitent \u00e0 vivre une exp\u00e9rience in\u00e9dite, sans jugement ni parti pris.",
+        "english": "This documentary follows Sister B\u00e9n\u00e9dicte, a young woman, as she enters monastic life in a Benedictine abbey in France."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "C\u00e9cile Besnault",
+                "slug": "cecile-besnault",
+                "name": "C\u00e9cile Besnault",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Ivan Marchika",
+                "slug": "ivan-marchika",
+                "name": "Ivan Marchika",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "religion",
+        "communal housing"
+    ]
 }

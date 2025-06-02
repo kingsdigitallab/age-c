@@ -1,29 +1,35 @@
 {
-  "id": "Hans-Christian Schmid",
-  "type": "Biography",
-  "slug": "hans-christian-schmid",
-  "name": "Hans-Christian Schmid",
-  "birthYear": 1965,
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Thriller",
-      "id": "DE2022_094",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "de2022-094-wir-sind-dann-wohl-die-angehorigen",
-      "title": {
-        "english": "We Are Next of Kin",
-        "native": "Wir sind dann wohl die Angeh\u00f6rigen"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Hans-Christian Schmid",
+    "slug": "hans-christian-schmid",
+    "name": "Hans-Christian Schmid",
+    "birthYear": 1965,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2022_094",
+                "slug": "de2022-094-wir-sind-dann-wohl-die-angehorigen",
+                "title": {
+                    "native": "Wir sind dann wohl die Angeh\u00f6rigen",
+                    "english": "We Are Next of Kin"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-11-03",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

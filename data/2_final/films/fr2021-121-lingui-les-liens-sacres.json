@@ -1,57 +1,85 @@
 {
-  "id": "FR2021_121",
-  "type": "Film",
-  "slug": "fr2021-121-lingui-les-liens-sacres",
-  "title": {
-    "native": "Lingui, les liens sacr\u00e9s",
-    "english": "Lingui: The Sacred Bonds"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-12-08",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2021_121",
+    "slug": "fr2021-121-lingui-les-liens-sacres",
+    "title": {
+        "native": "Lingui, les liens sacr\u00e9s",
+        "english": "Lingui: The Sacred Bonds"
     },
-    {
-      "country": "Germany",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2021-12-08",
+        "year": 2021
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Mahamat-Saleh Haroun",
+            "slug": "mahamat-saleh-haroun",
+            "name": "Mahamat-Saleh Haroun",
+            "birthYear": 1961,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/166/155/236454/format_page/lingui-the-sacred-bonds.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=tmvAxRfbux0"
     },
-    {
-      "country": "Chad",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=tmvAxRfbux0",
-    "posterUrl": "https://medias.unifrance.org/medias/166/155/236454/format_page/lingui-the-sacred-bonds.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "wealth"
-  ],
-  "director": [
-    {
-      "id": "Mahamat-Saleh Haroun",
-      "slug": "mahamat-saleh-haroun",
-      "name": "Mahamat-Saleh Haroun",
-      "birthYear": 1961,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Dans les faubourgs de N\u2019djam\u00e9na au Tchad, Amina vit seule avec Maria, sa fille unique de quinze ans. Son monde d\u00e9j\u00e0 fragile s\u2019\u00e9croule le jour o\u00f9 elle d\u00e9couvre que sa fille est enceinte. Cette grossesse, l'adolescente n\u2019en veut pas. Dans un pays o\u00f9 l'avortement est non seulement condamn\u00e9 par la religion, mais aussi par la loi, Amina se retrouve face \u00e0 un combat qui semble perdu d\u2019avance\u2026",
-    "english": "Amina, a practicing Muslim, lives with her daughter, 15-year-old Maria. When Amina learns Maria is pregnant and wants to abort the child, they face an impossible situation in a country where abortion is legally and morally condemned."
-  }
+    "synopsis": {
+        "native": "Dans les faubourgs de N\u2019djam\u00e9na au Tchad, Amina vit seule avec Maria, sa fille unique de quinze ans. Son monde d\u00e9j\u00e0 fragile s\u2019\u00e9croule le jour o\u00f9 elle d\u00e9couvre que sa fille est enceinte. Cette grossesse, l'adolescente n\u2019en veut pas. Dans un pays o\u00f9 l'avortement est non seulement condamn\u00e9 par la religion, mais aussi par la loi, Amina se retrouve face \u00e0 un combat qui semble perdu d\u2019avance\u2026",
+        "english": "Amina, a practicing Muslim, lives with her daughter, 15-year-old Maria. When Amina learns Maria is pregnant and wants to abort the child, they face an impossible situation in a country where abortion is legally and morally condemned."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Germany",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Chad",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Mahamat-Saleh Haroun",
+                "slug": "mahamat-saleh-haroun",
+                "name": "Mahamat-Saleh Haroun",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Youssouf Djaoro",
+                "slug": "youssouf-djaoro",
+                "name": "Youssouf Djaoro",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Chad"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "wealth"
+    ]
 }

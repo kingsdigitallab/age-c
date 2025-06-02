@@ -1,159 +1,252 @@
 {
-  "id": "GB2018_004",
-  "type": "Film",
-  "slug": "gb2018-004-three-billboards-outside-ebbing-missouri",
-  "title": {
-    "native": "Three Billboards Outside Ebbing, Missouri"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-01-12",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "GB2018_004",
+    "slug": "gb2018-004-three-billboards-outside-ebbing-missouri",
+    "title": {
+        "native": "Three Billboards Outside Ebbing, Missouri",
+        "english": ""
     },
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=Jit3YhGx5pU",
-    "posterUrl": "https://www.imdb.com/title/tt5027774/mediaviewer/rm3800849152/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Detective Thriller",
-    "Drama",
-    "Western"
-  ],
-  "tags": [
-    "motherhood",
-    "mentorship",
-    "low rank employment",
-    "state institutions",
-    "homosociality",
-    "precarity",
-    "intergenerational friendship",
-    "grief",
-    "suicide",
-    "personal trauma",
-    "cross-gender friendship",
-    "separation",
-    "romance",
-    "substance abuse",
-    "activism",
-    "burial",
-    "rural",
-    "gender discrimination",
-    "racial discrimination",
-    "women empowerment",
-    "marriage",
-    "class conflict",
-    "abuse",
-    "superior-employee relationship",
-    "body norms",
-    "fatherhood",
-    "independent home",
-    "revenge"
-  ],
-  "director": [
-    {
-      "id": "Martin McDonagh",
-      "slug": "martin-mcdonagh",
-      "name": "Martin McDonagh",
-      "birthYear": 1970,
-      "gender": "Male identifying",
-      "nationality": "Ireland"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2018_004_04",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White North American",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "John Hawkes",
-        "slug": "john-hawkes",
-        "name": "John Hawkes",
-        "birthYear": 1959.0,
-        "gender": "Male identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2018-01-12",
+        "year": 2018
     },
-    {
-      "id": "GB2018_004_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White North American",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Woody Harrelson",
-        "slug": "woody-harrelson",
-        "name": "Woody Harrelson",
-        "birthYear": 1961.0,
-        "gender": "Male identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Supporting actor"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Martin McDonagh",
+            "slug": "martin-mcdonagh",
+            "name": "Martin McDonagh",
+            "birthYear": 1970,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Ireland"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Detective Thriller",
+        "Comedy",
+        "Western"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt5027774/mediaviewer/rm3800849152/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=Jit3YhGx5pU"
     },
-    {
-      "id": "GB2018_004_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "Black North American",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Clarke Peters",
-        "slug": "clarke-peters",
-        "name": "Clarke Peters",
-        "birthYear": 1952.0,
-        "gender": "Male identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Supporting actor"
+    "synopsis": {
+        "native": "A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit.",
+        "english": ""
     },
-    {
-      "id": "GB2018_004_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White North American",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Frances McDormand",
-        "slug": "frances-mcdormand",
-        "name": "Frances McDormand",
-        "birthYear": 1957.0,
-        "gender": "Female identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit."
-  }
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2018_004_01",
+            "film": "GB2018_004",
+            "person": {
+                "id": "Frances McDormand",
+                "slug": "frances-mcdormand",
+                "name": "Frances McDormand",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White North American",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2018_004_02",
+            "film": "GB2018_004",
+            "person": {
+                "id": "Woody Harrelson",
+                "slug": "woody-harrelson",
+                "name": "Woody Harrelson",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White North American",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2018_004_03",
+            "film": "GB2018_004",
+            "person": {
+                "id": "Clarke Peters",
+                "slug": "clarke-peters",
+                "name": "Clarke Peters",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "Black North American",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2018_004_04",
+            "film": "GB2018_004",
+            "person": {
+                "id": "John Hawkes",
+                "slug": "john-hawkes",
+                "name": "John Hawkes",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White North American",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Clarke Peters",
+                "slug": "clarke-peters",
+                "name": "Clarke Peters",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Frances McDormand",
+                "slug": "frances-mcdormand",
+                "name": "Frances McDormand",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "John Hawkes",
+                "slug": "john-hawkes",
+                "name": "John Hawkes",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Martin McDonagh",
+                "slug": "martin-mcdonagh",
+                "name": "Martin McDonagh",
+                "birthYear": 1970,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Ireland"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Sandy Martin",
+                "slug": "sandy-martin",
+                "name": "Sandy Martin",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Woody Harrelson",
+                "slug": "woody-harrelson",
+                "name": "Woody Harrelson",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Zeljko Ivanek",
+                "slug": "zeljko-ivanek",
+                "name": "Zeljko Ivanek",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Slovenia"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "revenge",
+        "burial",
+        "substance abuse",
+        "suicide",
+        "motherhood",
+        "fatherhood",
+        "homosociality",
+        "mentorship",
+        "cross-gender friendship",
+        "intergenerational friendship",
+        "marriage",
+        "separation",
+        "romance",
+        "grief",
+        "abuse",
+        "personal trauma",
+        "rural",
+        "independent home",
+        "precarity",
+        "low rank employment",
+        "superior-employee relationship",
+        "activism",
+        "state institutions",
+        "class conflict",
+        "gender discrimination",
+        "women empowerment",
+        "racial discrimination",
+        "body norms"
+    ]
 }

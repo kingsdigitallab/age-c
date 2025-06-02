@@ -1,48 +1,120 @@
 {
-  "id": "HU2022_010",
-  "type": "Film",
-  "slug": "hu2022-010-atjarohaz",
-  "title": {
-    "native": "\u00c1tj\u00e1r\u00f3h\u00e1z",
-    "english": "Halfway Home"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-12-08",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Hungary",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=OVuQkcQ1wRQ",
-    "posterUrl": "https://www.imdb.com/title/tt12925390/mediaviewer/rm796014849/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Romance",
-    "Fantasy"
-  ],
-  "tags": [
-    "supernatural entity",
-    "spirituality"
-  ],
-  "director": [
-    {
-      "id": "Isti Madar\u00e1sz",
-      "slug": "isti-madarasz",
-      "name": "Isti Madar\u00e1sz",
-      "birthYear": 1976,
-      "gender": "Male identifying",
-      "nationality": "Hungary"
-    }
-  ],
-  "synopsis": {
-    "native": "Sokan mondj\u00e1k, hogy az igazi szerelem a s\u00edron t\u00fal is kitart, de kevesen hiszik el. \u00c9s igazuk van: a szerelem addig tart, am\u00edg az \u00e9let. P\u00e1r ritka kiv\u00e9telt\u0151l eltekintve. Kriszti\u00e1n (B\u00e1rnai P\u00e9ter) vag\u00e1ny, laza sr\u00e1c, \u00e9s v\u00e9gre szerzett mag\u00e1nak \u00e1ll\u00e1st: egy hullah\u00e1z port\u00e1sa lett. \u00c9s hal\u00e1l szerelmes \u2013 volna. De a kiszemelt csaj, \u00c1gi (Rujder Vivien) az els\u0151 tal\u00e1lkoz\u00e1suk ut\u00e1n nem sokkal \u00fcgyf\u00e9lk\u00e9nt bukkan fel: balesetet k\u00f6vet\u0151en hozz\u00e1k a fagyaszt\u00f3ba. Csakhogy a szerelmes sz\u00edv akkor is harcra k\u00e9sz, ha m\u00e1r nem dobog. Kriszti\u00e1n \u00e9s \u00c1gi \u2013 b\u00e1r egy vil\u00e1g v\u00e1lasztja el \u0151ket \u2013 nem nyugszik b\u00e9k\u00e9ben. \u00c9s szerencs\u00e9re a hullah\u00e1z nem olyan csendes hely, mint k\u00edv\u00fclr\u0151l l\u00e1tszik: \u00e9jszak\u00e1nk\u00e9nt b\u0151ven t\u00f6rt\u00e9nnek olyan csod\u00e1k, amelyeknek k\u00f6sz\u00f6nhet\u0151en a fiatalok is \u00fajra tal\u00e1lkozhatnak. Egyed\u00fcl tal\u00e1n nem boldoguln\u00e1nak, de a seg\u00edts\u00e9g\u00fckre van p\u00e1r j\u00f3 sz\u00e1nd\u00e9k\u00fa \u00e9s j\u00f3 humor\u00fa tetem. Sz\u00fcks\u00e9g\u00fck is lesz r\u00e1: mert a hal\u00e1l nem tr\u00e9f\u00e1l, \u00e9s egy f\u00f6ld\u00f6nt\u00fali hatalm\u00fa, az \u00e9l\u0151k\u00e9rt nem nagyon lelkesed\u0151 szelleml\u00e9ny (Kulka J\u00e1nos), mindent elk\u00f6vet, hogy v\u00e9get vessen a bontakoz\u00f3 rom\u00e1ncnak.",
-    "english": "A night guard in a morgue is the chosen one, to help the dead complete their unfinished business on earth. One day the girl of his dreams appears there."
-  }
+    "type": "Film",
+    "id": "HU2022_010",
+    "slug": "hu2022-010-atjarohaz",
+    "title": {
+        "native": "\u00c1tj\u00e1r\u00f3h\u00e1z",
+        "english": "Halfway Home"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-12-08",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Isti Madar\u00e1sz",
+            "slug": "isti-madarasz",
+            "name": "Isti Madar\u00e1sz",
+            "birthYear": 1976,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Hungary"
+        }
+    ],
+    "genre": [
+        "Romance",
+        "Comedy",
+        "Fantasy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt12925390/mediaviewer/rm796014849/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=OVuQkcQ1wRQ"
+    },
+    "synopsis": {
+        "native": "Sokan mondj\u00e1k, hogy az igazi szerelem a s\u00edron t\u00fal is kitart, de kevesen hiszik el. \u00c9s igazuk van: a szerelem addig tart, am\u00edg az \u00e9let. P\u00e1r ritka kiv\u00e9telt\u0151l eltekintve. Kriszti\u00e1n (B\u00e1rnai P\u00e9ter) vag\u00e1ny, laza sr\u00e1c, \u00e9s v\u00e9gre szerzett mag\u00e1nak \u00e1ll\u00e1st: egy hullah\u00e1z port\u00e1sa lett. \u00c9s hal\u00e1l szerelmes \u2013 volna. De a kiszemelt csaj, \u00c1gi (Rujder Vivien) az els\u0151 tal\u00e1lkoz\u00e1suk ut\u00e1n nem sokkal \u00fcgyf\u00e9lk\u00e9nt bukkan fel: balesetet k\u00f6vet\u0151en hozz\u00e1k a fagyaszt\u00f3ba. Csakhogy a szerelmes sz\u00edv akkor is harcra k\u00e9sz, ha m\u00e1r nem dobog. Kriszti\u00e1n \u00e9s \u00c1gi \u2013 b\u00e1r egy vil\u00e1g v\u00e1lasztja el \u0151ket \u2013 nem nyugszik b\u00e9k\u00e9ben. \u00c9s szerencs\u00e9re a hullah\u00e1z nem olyan csendes hely, mint k\u00edv\u00fclr\u0151l l\u00e1tszik: \u00e9jszak\u00e1nk\u00e9nt b\u0151ven t\u00f6rt\u00e9nnek olyan csod\u00e1k, amelyeknek k\u00f6sz\u00f6nhet\u0151en a fiatalok is \u00fajra tal\u00e1lkozhatnak. Egyed\u00fcl tal\u00e1n nem boldoguln\u00e1nak, de a seg\u00edts\u00e9g\u00fckre van p\u00e1r j\u00f3 sz\u00e1nd\u00e9k\u00fa \u00e9s j\u00f3 humor\u00fa tetem. Sz\u00fcks\u00e9g\u00fck is lesz r\u00e1: mert a hal\u00e1l nem tr\u00e9f\u00e1l, \u00e9s egy f\u00f6ld\u00f6nt\u00fali hatalm\u00fa, az \u00e9l\u0151k\u00e9rt nem nagyon lelkesed\u0151 szelleml\u00e9ny (Kulka J\u00e1nos), mindent elk\u00f6vet, hogy v\u00e9get vessen a bontakoz\u00f3 rom\u00e1ncnak.",
+        "english": "A night guard in a morgue is the chosen one, to help the dead complete their unfinished business on earth. One day the girl of his dreams appears there."
+    },
+    "production": [
+        {
+            "country": "Hungary",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Erzs\u00e9bet K\u00fatv\u00f6lgyi",
+                "slug": "erzsebet-kutvolgyi",
+                "name": "Erzs\u00e9bet K\u00fatv\u00f6lgyi",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Isti Madar\u00e1sz",
+                "slug": "isti-madarasz",
+                "name": "Isti Madar\u00e1sz",
+                "birthYear": 1976,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "J\u00e1nos Kulka",
+                "slug": "janos-kulka",
+                "name": "J\u00e1nos Kulka",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": "Mikl\u00f3s Galla",
+            "role": "Supporting actor"
+        },
+        {
+            "person": "Mikl\u00f3s Sz\u00e9kely B.",
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "P\u00e1l Lovas",
+                "slug": "pal-lovas",
+                "name": "P\u00e1l Lovas",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Ter\u00e9z Csombor",
+                "slug": "terez-csombor",
+                "name": "Ter\u00e9z Csombor",
+                "birthYear": 1956,
+                "deathYear": 2025,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "supernatural entity",
+        "spirituality"
+    ]
 }

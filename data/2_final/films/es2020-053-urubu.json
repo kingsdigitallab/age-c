@@ -1,71 +1,101 @@
 {
-  "id": "ES2020_053",
-  "type": "Film",
-  "slug": "es2020-053-urubu",
-  "title": {
-    "native": "Urub\u00fa"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-09-18",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=193699",
-    "posterUrl": "https://www.imdb.com/title/tt10801220/mediaviewer/rm4073687809/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Horror"
-  ],
-  "tags": [
-    "artistic creation",
-    "natural",
-    "ecology",
-    "high-rank employment",
-    "abuse",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Alejandro Ib\u00e1\u00f1ez",
-      "slug": "alejandro-ibanez",
-      "name": "Alejandro Ib\u00e1\u00f1ez",
-      "gender": "Unknown",
-      "nationality": "Unknown"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2020_053_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Jos\u00e9 Carabias",
-        "slug": "jose-carabias",
-        "name": "Jos\u00e9 Carabias",
-        "birthYear": 1947.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Tom\u00e1s, un fot\u00f3grafo y ornit\u00f3logo en horas bajas, trata de relanzar su carrera y arrastra a su familia a la selva amaz\u00f3nica en busca del urub\u00fa albino, un extra\u00f1o p\u00e1jaro del que no existe registro en libertad. La desaparici\u00f3n de su hija convierte el viaje en una terrible pesadilla.",
-    "english": "Tom\u00e1s, birdwatcher and photographer, tries to give his career a push by taking an impossible photograph: an albino Urub\u00fa never seen outside captivity. To this end, he drags his wife and daughter to the Amazonian forest."
-  }
+    "type": "Film",
+    "id": "ES2020_053",
+    "slug": "es2020-053-urubu",
+    "title": {
+        "native": "Urub\u00fa",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-09-18",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Alejandro Ib\u00e1\u00f1ez",
+            "slug": "alejandro-ibanez",
+            "name": "Alejandro Ib\u00e1\u00f1ez",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Unknown",
+            "nationality": "Unknown"
+        }
+    ],
+    "genre": [
+        "Horror",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt10801220/mediaviewer/rm4073687809/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=193699"
+    },
+    "synopsis": {
+        "native": "Tom\u00e1s, un fot\u00f3grafo y ornit\u00f3logo en horas bajas, trata de relanzar su carrera y arrastra a su familia a la selva amaz\u00f3nica en busca del urub\u00fa albino, un extra\u00f1o p\u00e1jaro del que no existe registro en libertad. La desaparici\u00f3n de su hija convierte el viaje en una terrible pesadilla.",
+        "english": "Tom\u00e1s, birdwatcher and photographer, tries to give his career a push by taking an impossible photograph: an albino Urub\u00fa never seen outside captivity. To this end, he drags his wife and daughter to the Amazonian forest."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2020_053_01",
+            "film": "ES2020_053",
+            "person": {
+                "id": "Jos\u00e9 Carabias",
+                "slug": "jose-carabias",
+                "name": "Jos\u00e9 Carabias",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alejandro Ib\u00e1\u00f1ez",
+                "slug": "alejandro-ibanez",
+                "name": "Alejandro Ib\u00e1\u00f1ez",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Unknown",
+                "nationality": "Unknown"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jos\u00e9 Carabias",
+                "slug": "jose-carabias",
+                "name": "Jos\u00e9 Carabias",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "natural",
+        "superior-employee relationship",
+        "abuse",
+        "high-rank employment",
+        "ecology"
+    ]
 }

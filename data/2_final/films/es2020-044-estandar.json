@@ -1,74 +1,103 @@
 {
-  "id": "ES2020_044",
-  "type": "Film",
-  "slug": "es2020-044-estandar",
-  "title": {
-    "native": "Est\u00e1ndar"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2011-12-20",
-    "year": 2011
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=392825",
-    "posterUrl": "https://www.imdb.com/title/tt11157344/mediaviewer/rm3749883393/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Crime",
-    "Thriller",
-    "Romance"
-  ],
-  "tags": [
-    "fatherhood",
-    "power",
-    "self-employment",
-    "crime",
-    "superior-employee relationship",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Fernando Gonz\u00e1lez G\u00f3mez",
-      "slug": "fernando-gonzalez-gomez",
-      "name": "Fernando Gonz\u00e1lez G\u00f3mez",
-      "birthYear": 1984,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2020_044_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Manuel de Blas",
-        "slug": "manuel-de-blas",
-        "name": "Manuel de Blas",
-        "birthYear": 1941.0,
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Tom\u00e1s lleva una vida mon\u00f3tona y tranquila trabajando como reponedor y encargado de compras de un supermercado en una peque\u00f1a ciudad. Sus pasiones son el orden y la m\u00fasica cl\u00e1sica, y sus man\u00edas hacen de \u00e9l un tipo peculiar. Su d\u00eda a d\u00eda transcurre con normalidad hasta que desaparece Laura, la hija del due\u00f1o del supermercado y su amor plat\u00f3nico desde que eran ni\u00f1os. Gracias a su extravagante afici\u00f3n por ordenarlo y apuntarlo todo, Tom\u00e1s comenzar\u00e1 a analizar las costumbres y man\u00edas de los pintorescos clientes de su tienda para intentar descubrir qui\u00e9n est\u00e1 detr\u00e1s de la desaparici\u00f3n de Laura. En este pueblo, nada es tan \u201cest\u00e1ndar\u201d como a Tom\u00e1s le gustar\u00eda.",
-    "english": "Tom\u00e1s works as a stocker in a supermarket. His passions are order and classical music, but Laura, the owner's daughter, disappears. Everyone thinks he's gone. Nothing to do with reality in this film of intrigues, lies and betrayals."
-  }
+    "type": "Film",
+    "id": "ES2020_044",
+    "slug": "es2020-044-estandar",
+    "title": {
+        "native": "Est\u00e1ndar",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2011-12-20",
+        "year": 2011
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Fernando Gonz\u00e1lez G\u00f3mez",
+            "slug": "fernando-gonzalez-gomez",
+            "name": "Fernando Gonz\u00e1lez G\u00f3mez",
+            "birthYear": 1984,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Crime",
+        "Thriller",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt11157344/mediaviewer/rm3749883393/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=392825"
+    },
+    "synopsis": {
+        "native": "Tom\u00e1s lleva una vida mon\u00f3tona y tranquila trabajando como reponedor y encargado de compras de un supermercado en una peque\u00f1a ciudad. Sus pasiones son el orden y la m\u00fasica cl\u00e1sica, y sus man\u00edas hacen de \u00e9l un tipo peculiar. Su d\u00eda a d\u00eda transcurre con normalidad hasta que desaparece Laura, la hija del due\u00f1o del supermercado y su amor plat\u00f3nico desde que eran ni\u00f1os. Gracias a su extravagante afici\u00f3n por ordenarlo y apuntarlo todo, Tom\u00e1s comenzar\u00e1 a analizar las costumbres y man\u00edas de los pintorescos clientes de su tienda para intentar descubrir qui\u00e9n est\u00e1 detr\u00e1s de la desaparici\u00f3n de Laura. En este pueblo, nada es tan \u201cest\u00e1ndar\u201d como a Tom\u00e1s le gustar\u00eda.",
+        "english": "Tom\u00e1s works as a stocker in a supermarket. His passions are order and classical music, but Laura, the owner's daughter, disappears. Everyone thinks he's gone. Nothing to do with reality in this film of intrigues, lies and betrayals."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2020_044_01",
+            "film": "ES2020_044",
+            "person": {
+                "id": "Manuel de Blas",
+                "slug": "manuel-de-blas",
+                "name": "Manuel de Blas",
+                "birthYear": 1941,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Fernando Gonz\u00e1lez G\u00f3mez",
+                "slug": "fernando-gonzalez-gomez",
+                "name": "Fernando Gonz\u00e1lez G\u00f3mez",
+                "birthYear": 1984,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Manuel de Blas",
+                "slug": "manuel-de-blas",
+                "name": "Manuel de Blas",
+                "birthYear": 1941,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "superior-employee relationship",
+        "self-employment",
+        "rural",
+        "fatherhood",
+        "power",
+        "crime"
+    ]
 }

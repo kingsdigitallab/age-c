@@ -1,87 +1,130 @@
 {
-  "id": "IT2022_078",
-  "type": "Film",
-  "slug": "it2022-078-din-don-il-paese-dei-balocchi",
-  "title": {
-    "native": "Din Don - Il paese dei balocchi"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-03-07",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=T-6wnZjO_0g",
-    "posterUrl": "https://www.imdb.com/title/tt19818902/mediaviewer/rm2911437057/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "corruption",
-    "last mission",
-    "religion"
-  ],
-  "director": [
-    {
-      "id": "Paolo Geremei",
-      "slug": "paolo-geremei",
-      "name": "Paolo Geremei",
-      "birthYear": 1975,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2022_078_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Maurizio Mattioli",
-        "slug": "maurizio-mattioli",
-        "name": "Maurizio Mattioli",
-        "birthYear": 1950.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
+    "type": "Film",
+    "id": "IT2022_078",
+    "slug": "it2022-078-din-don-il-paese-dei-balocchi",
+    "title": {
+        "native": "Din Don - Il paese dei balocchi",
+        "english": ""
     },
-    {
-      "id": "IT2022_078_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Enzo Salvi",
-        "slug": "enzo-salvi",
-        "name": "Enzo Salvi",
-        "birthYear": 1963.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Dopo sei mesi passati a meditare in alta montagna, Don Donato torna e Pellizzano per fare le valigie e partire per Roma dove, convinto dallo zio prete prossimo a diventare cardinale, tornera' a vestire gli abiti civili. Ma quello che trova \u00e8 un paese completamente trasformato e in preda alla perdizione: infatti l'ex sacrestano Luigi Galvani, ora sindaco, ha fatto aprire numerose sale Bingo e Casin\u00f2, e il paese \u00e8 invaso da belle accompagnatrici diventate badanti di arzilli vecchietti. Tutto ci\u00f2 grazie ai due milioni di euro ritrovati in canonica durante dei lavori di ristrutturazione che erano stati nascosti da Don Donato. Lo zio prete concede allora al nipote tre giorni per rimettere le cose a posto"
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-03-07",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Paolo Geremei",
+            "slug": "paolo-geremei",
+            "name": "Paolo Geremei",
+            "birthYear": 1975,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt19818902/mediaviewer/rm2911437057/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=T-6wnZjO_0g"
+    },
+    "synopsis": {
+        "native": "Dopo sei mesi passati a meditare in alta montagna, Don Donato torna e Pellizzano per fare le valigie e partire per Roma dove, convinto dallo zio prete prossimo a diventare cardinale, tornera' a vestire gli abiti civili. Ma quello che trova \u00e8 un paese completamente trasformato e in preda alla perdizione: infatti l'ex sacrestano Luigi Galvani, ora sindaco, ha fatto aprire numerose sale Bingo e Casin\u00f2, e il paese \u00e8 invaso da belle accompagnatrici diventate badanti di arzilli vecchietti. Tutto ci\u00f2 grazie ai due milioni di euro ritrovati in canonica durante dei lavori di ristrutturazione che erano stati nascosti da Don Donato. Lo zio prete concede allora al nipote tre giorni per rimettere le cose a posto",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2022_078_01",
+            "film": "IT2022_078",
+            "person": {
+                "id": "Maurizio Mattioli",
+                "slug": "maurizio-mattioli",
+                "name": "Maurizio Mattioli",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "IT2022_078_02",
+            "film": "IT2022_078",
+            "person": {
+                "id": "Enzo Salvi",
+                "slug": "enzo-salvi",
+                "name": "Enzo Salvi",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Enzo Salvi",
+                "slug": "enzo-salvi",
+                "name": "Enzo Salvi",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Maurizio Mattioli",
+                "slug": "maurizio-mattioli",
+                "name": "Maurizio Mattioli",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Paolo Geremei",
+                "slug": "paolo-geremei",
+                "name": "Paolo Geremei",
+                "birthYear": 1975,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "religion",
+        "corruption",
+        "last mission"
+    ]
 }

@@ -1,30 +1,35 @@
 {
-  "id": "Lech Kowalski",
-  "type": "Biography",
-  "slug": "lech-kowalski",
-  "name": "Lech Kowalski",
-  "birthYear": 1951,
-  "nationality": "United States of America (the)",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Observational mode",
-      "id": "FR2019_153",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-153-on-va-tout-peter",
-      "tags": "precarity",
-      "title": {
-        "english": "Blow It to Bits",
-        "native": "On va tout p\u00e9ter"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Lech Kowalski",
+    "slug": "lech-kowalski",
+    "name": "Lech Kowalski",
+    "birthYear": 1951,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "United States of America (the)",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2019_153",
+                "slug": "fr2019-153-on-va-tout-peter",
+                "title": {
+                    "native": "On va tout p\u00e9ter",
+                    "english": "Blow It to Bits"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-09-11",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

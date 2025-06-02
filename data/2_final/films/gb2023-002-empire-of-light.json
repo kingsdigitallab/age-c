@@ -1,137 +1,218 @@
 {
-  "id": "GB2023_002",
-  "type": "Film",
-  "slug": "gb2023-002-empire-of-light",
-  "title": {
-    "native": "Empire of Light"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-01-13",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "GB2023_002",
+    "slug": "gb2023-002-empire-of-light",
+    "title": {
+        "native": "Empire of Light",
+        "english": ""
     },
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt14402146/?ref_=tt_mv_close",
-    "posterUrl": "https://www.imdb.com/title/tt14402146/mediaviewer/rm894895361/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Romance",
-    "Drama"
-  ],
-  "tags": [
-    "racial discrimination",
-    "disappearing professions",
-    "national identity",
-    "self-employment",
-    "urban",
-    "mass media",
-    "interracial relationships",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Sam Mendes",
-      "slug": "sam-mendes",
-      "name": "Sam Mendes",
-      "birthYear": 1965,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2023_002_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Toby Jones",
-        "slug": "toby-jones",
-        "name": "Toby Jones",
-        "birthYear": 1966.0,
-        "gender": "Male identifying",
-        "nationality": "Unknown"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2023-01-13",
+        "year": 2023
     },
-    {
-      "id": "GB2023_002_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Colin Firth",
-        "slug": "colin-firth",
-        "name": "Colin Firth",
-        "birthYear": 1960.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Sam Mendes",
+            "slug": "sam-mendes",
+            "name": "Sam Mendes",
+            "birthYear": 1965,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt14402146/mediaviewer/rm894895361/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt14402146/?ref_=tt_mv_close"
     },
-    {
-      "id": "GB2023_002_04",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Sara Stewart",
-        "slug": "sara-stewart",
-        "name": "Sara Stewart",
-        "birthYear": 1966.0,
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "synopsis": {
+        "native": "A drama about the power of human connection during turbulent times, set in an English coastal town in the early 1980s.",
+        "english": ""
     },
-    {
-      "id": "GB2023_002_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Ron Cook",
-        "slug": "ron-cook",
-        "name": "Ron Cook",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "A drama about the power of human connection during turbulent times, set in an English coastal town in the early 1980s."
-  }
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2023_002_01",
+            "film": "GB2023_002",
+            "person": {
+                "id": "Colin Firth",
+                "slug": "colin-firth",
+                "name": "Colin Firth",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2023_002_02",
+            "film": "GB2023_002",
+            "person": {
+                "id": "Toby Jones",
+                "slug": "toby-jones",
+                "name": "Toby Jones",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Unknown"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2023_002_03",
+            "film": "GB2023_002",
+            "person": {
+                "id": "Ron Cook",
+                "slug": "ron-cook",
+                "name": "Ron Cook",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2023_002_04",
+            "film": "GB2023_002",
+            "person": {
+                "id": "Sara Stewart",
+                "slug": "sara-stewart",
+                "name": "Sara Stewart",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Unknown",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Colin Firth",
+                "slug": "colin-firth",
+                "name": "Colin Firth",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Ron Cook",
+                "slug": "ron-cook",
+                "name": "Ron Cook",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Sam Mendes",
+                "slug": "sam-mendes",
+                "name": "Sam Mendes",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Sara Stewart",
+                "slug": "sara-stewart",
+                "name": "Sara Stewart",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Toby Jones",
+                "slug": "toby-jones",
+                "name": "Toby Jones",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Unknown"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "William Chubb",
+                "slug": "william-chubb",
+                "name": "William Chubb",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "self-employment",
+        "superior-employee relationship",
+        "mass media",
+        "urban",
+        "interracial relationships",
+        "racial discrimination",
+        "disappearing professions",
+        "national identity"
+    ]
 }

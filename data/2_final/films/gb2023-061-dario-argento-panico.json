@@ -1,50 +1,164 @@
 {
-  "id": "GB2023_061",
-  "type": "Film",
-  "slug": "gb2023-061-dario-argento-panico",
-  "title": {
-    "native": "Dario Argento: Panico"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "First festival screening",
-    "date": "2023-09-06",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=295922",
-    "posterUrl": "https://www.imdb.com/title/tt27728888/mediaviewer/rm3957475073/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Metacinema"
-  ],
-  "tags": [
-    "personal memory",
-    "artistic creation",
-    "fatherhood",
-    "cultural memory",
-    "self-employment",
-    "legacy",
-    "celebrity"
-  ],
-  "director": [
-    {
-      "id": "Simone Scafidi",
-      "slug": "simone-scafidi",
-      "name": "Simone Scafidi",
-      "birthYear": 1978,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "synopsis": {
-    "native": "A film crew documents horror director Dario Argento as he works on his latest script in a hotel room, revisiting the isolation where he dreamed up his most iconic films, removed from distractions to explore his dark imagination."
-  }
+    "type": "Film",
+    "id": "GB2023_061",
+    "slug": "gb2023-061-dario-argento-panico",
+    "title": {
+        "native": "Dario Argento: Panico",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2023-09-06",
+        "year": 2023
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Simone Scafidi",
+            "slug": "simone-scafidi",
+            "name": "Simone Scafidi",
+            "birthYear": 1978,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Metacinema"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt27728888/mediaviewer/rm3957475073/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=295922"
+    },
+    "synopsis": {
+        "native": "A film crew documents horror director Dario Argento as he works on his latest script in a hotel room, revisiting the isolation where he dreamed up his most iconic films, removed from distractions to explore his dark imagination.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Claudio Simonetti",
+                "slug": "claudio-simonetti",
+                "name": "Claudio Simonetti",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Brazil"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Dario Argento",
+                "slug": "dario-argento",
+                "name": "Dario Argento",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Franco Ferrini",
+                "slug": "franco-ferrini",
+                "name": "Franco Ferrini",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Guillermo del Toro",
+                "slug": "guillermo-del-toro",
+                "name": "Guillermo del Toro",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Mexico"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Lamberto Bava",
+                "slug": "lamberto-bava",
+                "name": "Lamberto Bava",
+                "birthYear": 1944,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Luigi Cozzi",
+                "slug": "luigi-cozzi",
+                "name": "Luigi Cozzi",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Michele Soavi",
+                "slug": "michele-soavi",
+                "name": "Michele Soavi",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Simone Scafidi",
+                "slug": "simone-scafidi",
+                "name": "Simone Scafidi",
+                "birthYear": 1978,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Vittorio Cecchi Gori",
+                "slug": "vittorio-cecchi-gori",
+                "name": "Vittorio Cecchi Gori",
+                "birthYear": 1942,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "cultural memory",
+        "fatherhood",
+        "celebrity",
+        "self-employment",
+        "personal memory",
+        "legacy"
+    ]
 }

@@ -1,75 +1,127 @@
 {
-  "id": "FR2022_129",
-  "type": "Film",
-  "slug": "fr2022-129-les-enfants-des-autres",
-  "title": {
-    "native": "Les Enfants des autres",
-    "english": "Other People's Children"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-09-21",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=XTIG8qHyKrI",
-    "posterUrl": "https://medias.unifrance.org/medias/210/218/252626/format_page/les-enfants-des-autres.jpg"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "high rank employment",
-    "parenthood",
-    "sex",
-    "reignited passion",
-    "independent home",
-    "extended family",
-    "self-employment",
-    "urban",
-    "romance"
-  ],
-  "director": [
-    {
-      "id": "Rebecca Zlotowski",
-      "slug": "rebecca-zlotowski",
-      "name": "Rebecca Zlotowski",
-      "birthYear": 1980,
-      "gender": "Female identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2022_129_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "North Africa",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Roschdy Zem",
-        "slug": "roschdy-zem",
-        "name": "Roschdy Zem",
-        "birthYear": 1965.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Rachel a 40 ans, pas d\u2019enfant. Elle aime sa vie : ses e\u0301le\u0300ves du lyce\u0301e, ses amis, ses ex, ses cours de guitare. En tombant amoureuse d\u2019Ali, elle s\u2019attache a\u0300 Leila, sa fille de 4 ans. Elle la borde, la soigne, et l\u2019aime comme la sienne. Mais aimer les enfants des autres, c\u2019est un risque a\u0300 prendre.",
-    "english": "Rachel loves her life, her students, her friends, her ex, her guitar lessons. When she falls in love with Ali, she grows close to his 4-year-old daughter, Leila. She tucks her in, looks after her, and loves her like a mother... which she isn\u2019t. Not yet. Rachel is 40. The desire for a family of her own is growing stronger, and the clock is ticking. Is it too late?"
-  }
+    "type": "Film",
+    "id": "FR2022_129",
+    "slug": "fr2022-129-les-enfants-des-autres",
+    "title": {
+        "native": "Les Enfants des autres",
+        "english": "Other People's Children"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2022-09-21",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Rebecca Zlotowski",
+            "slug": "rebecca-zlotowski",
+            "name": "Rebecca Zlotowski",
+            "birthYear": 1980,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/210/218/252626/format_page/les-enfants-des-autres.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=XTIG8qHyKrI"
+    },
+    "synopsis": {
+        "native": "Rachel a 40 ans, pas d\u2019enfant. Elle aime sa vie : ses e\u0301le\u0300ves du lyce\u0301e, ses amis, ses ex, ses cours de guitare. En tombant amoureuse d\u2019Ali, elle s\u2019attache a\u0300 Leila, sa fille de 4 ans. Elle la borde, la soigne, et l\u2019aime comme la sienne. Mais aimer les enfants des autres, c\u2019est un risque a\u0300 prendre.",
+        "english": "Rachel loves her life, her students, her friends, her ex, her guitar lessons. When she falls in love with Ali, she grows close to his 4-year-old daughter, Leila. She tucks her in, looks after her, and loves her like a mother... which she isn\u2019t. Not yet. Rachel is 40. The desire for a family of her own is growing stronger, and the clock is ticking. Is it too late?"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2022_129_01",
+            "film": "FR2022_129",
+            "person": {
+                "id": "Roschdy Zem",
+                "slug": "roschdy-zem",
+                "name": "Roschdy Zem",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "North Africa",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Frederick Wiseman",
+                "slug": "frederick-wiseman",
+                "name": "Frederick Wiseman",
+                "birthYear": 1930,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Mireille Perrier",
+                "slug": "mireille-perrier",
+                "name": "Mireille Perrier",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Rebecca Zlotowski",
+                "slug": "rebecca-zlotowski",
+                "name": "Rebecca Zlotowski",
+                "birthYear": 1980,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Roschdy Zem",
+                "slug": "roschdy-zem",
+                "name": "Roschdy Zem",
+                "birthYear": 1965,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "romance",
+        "parenthood",
+        "independent home",
+        "high rank employment",
+        "self-employment",
+        "extended family",
+        "reignited passion",
+        "sex",
+        "urban"
+    ]
 }

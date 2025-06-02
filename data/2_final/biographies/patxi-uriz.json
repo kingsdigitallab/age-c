@@ -1,47 +1,57 @@
 {
-  "id": "Patxi Uriz",
-  "type": "Biography",
-  "slug": "patxi-uriz",
-  "name": "Patxi Uriz",
-  "birthYear": 1964,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Participatory mode",
-      "id": "ES2021_033",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "First festival screening",
-        "year": 2021
-      },
-      "slug": "es2021-033-de-quijotes-y-semillas",
-      "tags": "activism",
-      "title": {
-        "native": "De Quijotes y semillas"
-      }
-    },
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Participatory mode",
-      "id": "ES2020_030",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "es2020-030-los-ultimos-de-la-mejana-rebeldia-y-esperanza",
-      "tags": "daily routine",
-      "title": {
-        "native": "Los \u00daltimos De La Mejana, Rebeld\u00eda y Esperanza"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Patxi Uriz",
+    "slug": "patxi-uriz",
+    "name": "Patxi Uriz",
+    "birthYear": 1964,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2020_030",
+                "slug": "es2020-030-los-ultimos-de-la-mejana-rebeldia-y-esperanza",
+                "title": {
+                    "native": "Los \u00daltimos De La Mejana, Rebeld\u00eda y Esperanza",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-09-21",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "ES2021_033",
+                "slug": "es2021-033-de-quijotes-y-semillas",
+                "title": {
+                    "native": "De Quijotes y semillas",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-06-06",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

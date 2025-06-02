@@ -1,71 +1,126 @@
 {
-  "id": "GB2019_058",
-  "type": "Film",
-  "slug": "gb2019-058-say-my-name",
-  "title": {
-    "native": "Say My Name"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-03-15",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt7250378/?ref_=nv_sr_srsg_2_tt_8_nm_0_in_0_q_Say%2520My%2520Name",
-    "posterUrl": "https://www.imdb.com/title/tt7250378/mediaviewer/rm1975547904/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Crime",
-    "Romance"
-  ],
-  "tags": [
-    "celibacy",
-    "religion",
-    "mentorship",
-    "regional identity",
-    "state institutions",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Jay Stern",
-      "slug": "jay-stern",
-      "name": "Jay Stern",
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2019_058_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Craig Fairbrass",
-        "slug": "craig-fairbrass",
-        "name": "Craig Fairbrass",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Unknown"
-    }
-  ],
-  "synopsis": {
-    "native": "Mary and Statton's one-night stand at a hotel gets interrupted by a robbery, and the complete strangers are forced to help each other navigate the seedy underbelly of a sleepy Welsh island in order to get back their stolen property."
-  }
+    "type": "Film",
+    "id": "GB2019_058",
+    "slug": "gb2019-058-say-my-name",
+    "title": {
+        "native": "Say My Name",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-03-15",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Jay Stern",
+            "slug": "jay-stern",
+            "name": "Jay Stern",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Crime",
+        "Romance"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt7250378/mediaviewer/rm1975547904/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt7250378/?ref_=nv_sr_srsg_2_tt_8_nm_0_in_0_q_Say%2520My%2520Name"
+    },
+    "synopsis": {
+        "native": "Mary and Statton's one-night stand at a hotel gets interrupted by a robbery, and the complete strangers are forced to help each other navigate the seedy underbelly of a sleepy Welsh island in order to get back their stolen property.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2019_058_01",
+            "film": "GB2019_058",
+            "person": {
+                "id": "Craig Fairbrass",
+                "slug": "craig-fairbrass",
+                "name": "Craig Fairbrass",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Gwen Ellis",
+                "slug": "gwen-ellis",
+                "name": "Gwen Ellis",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Jay Stern",
+                "slug": "jay-stern",
+                "name": "Jay Stern",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Peter Davison",
+                "slug": "peter-davison",
+                "name": "Peter Davison",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Tony Leader",
+                "slug": "tony-leader",
+                "name": "Tony Leader",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Unknown"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "religion",
+        "mentorship",
+        "rural",
+        "regional identity",
+        "state institutions",
+        "celibacy"
+    ]
 }

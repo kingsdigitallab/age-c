@@ -1,49 +1,57 @@
 {
-  "id": "Pippo Mezzapesa",
-  "type": "Biography",
-  "slug": "pippo-mezzapesa",
-  "name": "Pippo Mezzapesa",
-  "birthYear": 1980,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Crime",
-      "id": "IT2022_014",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "it2022-014-ti-mangio-il-cuore",
-      "tags": "organized crime",
-      "title": {
-        "english": "Burning Hearts",
-        "native": "Ti mangio il cuore"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "IT2018_055",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "it2018-055-il-bene-mio",
-      "tags": "collective trauma",
-      "title": {
-        "english": "My Own Good",
-        "native": "Il bene mio"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Pippo Mezzapesa",
+    "slug": "pippo-mezzapesa",
+    "name": "Pippo Mezzapesa",
+    "birthYear": 1980,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2018_055",
+                "slug": "it2018-055-il-bene-mio",
+                "title": {
+                    "native": "Il bene mio",
+                    "english": "My Own Good"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-10-04",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2022_014",
+                "slug": "it2022-014-ti-mangio-il-cuore",
+                "title": {
+                    "native": "Ti mangio il cuore",
+                    "english": "Burning Hearts"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-09-22",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

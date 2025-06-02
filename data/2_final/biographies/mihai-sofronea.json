@@ -1,29 +1,43 @@
 {
-  "id": "Mihai Sofronea",
-  "type": "Biography",
-  "slug": "mihai-sofronea",
-  "name": "Mihai Sofronea",
-  "nationality": "Romania",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "RO2022_004",
-      "production": {
-        "country": "Bulgaria",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "ro2022-004-cautatorul-de-vant",
-      "tags": "rural",
-      "title": {
-        "english": "The Windseeker",
-        "native": "C\u0103ut\u0103torul de v\u00e2nt"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Mihai Sofronea",
+    "slug": "mihai-sofronea",
+    "name": "Mihai Sofronea",
+    "birthYear": 0,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Romania",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "RO2022_004",
+                "slug": "ro2022-004-cautatorul-de-vant",
+                "title": {
+                    "native": "C\u0103ut\u0103torul de v\u00e2nt",
+                    "english": "The Windseeker"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-03-11",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Bulgaria",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Serbia",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

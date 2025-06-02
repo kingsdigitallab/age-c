@@ -1,30 +1,47 @@
 {
-  "id": "Corneliu Porumboiu",
-  "type": "Biography",
-  "slug": "corneliu-porumboiu",
-  "name": "Corneliu Porumboiu",
-  "birthYear": 1974,
-  "nationality": "Romania",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Crime",
-      "id": "RO2019_004",
-      "production": {
-        "country": "Romania",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "ro2019-004-la-gomera",
-      "tags": "organized crime",
-      "title": {
-        "english": "The Whistlers",
-        "native": "La Gomera"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Corneliu Porumboiu",
+    "slug": "corneliu-porumboiu",
+    "name": "Corneliu Porumboiu",
+    "birthYear": 1974,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Romania",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "RO2019_004",
+                "slug": "ro2019-004-la-gomera",
+                "title": {
+                    "native": "La Gomera",
+                    "english": "The Whistlers"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-09-13",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Sweden",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

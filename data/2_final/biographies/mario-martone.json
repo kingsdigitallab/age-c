@@ -1,87 +1,131 @@
 {
-  "id": "Mario Martone",
-  "type": "Biography",
-  "slug": "mario-martone",
-  "name": "Mario Martone",
-  "birthYear": 1959,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "IT2022_005",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "it2022-005-nostalgia",
-      "tags": "motherhood",
-      "title": {
-        "english": "Nostalgia",
-        "native": "Nostalgia"
-      }
-    },
-    {
-      "filmType": "Documentary",
-      "genre": "Documentary \u2013 Participatory mode",
-      "id": "IT2023_033",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "it2023-033-laggiu-qualcuno-mi-ama",
-      "tags": "personal memory",
-      "title": {
-        "english": "Massimo Troisi: Somebody Down There Likes Me",
-        "native": "Laggi\u00f9 qualcuno mi ama"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "IT2021_022",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "it2021-022-qui-rido-io",
-      "tags": "artistic creation",
-      "title": {
-        "english": "The King of Laughter",
-        "native": "Qui rido io"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "IT2019_041",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "it2019-041-il-sindaco-del-rione-sanita",
-      "tags": "organized crime",
-      "title": {
-        "english": "The Mayor of Rione Sanit\u00e0",
-        "native": "Il sindaco del Rione Sanit\u00e0"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Mario Martone",
+    "slug": "mario-martone",
+    "name": "Mario Martone",
+    "birthYear": 1959,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2019_041",
+                "slug": "it2019-041-il-sindaco-del-rione-sanita",
+                "title": {
+                    "native": "Il sindaco del Rione Sanit\u00e0",
+                    "english": "The Mayor of Rione Sanit\u00e0"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-09-30",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2021_022",
+                "slug": "it2021-022-qui-rido-io",
+                "title": {
+                    "native": "Qui rido io",
+                    "english": "The King of Laughter"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-09-09",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Spain",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2022_005",
+                "slug": "it2022-005-nostalgia",
+                "title": {
+                    "native": "Nostalgia",
+                    "english": "Nostalgia"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-05-25",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Italy",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2023_033",
+                "slug": "it2023-033-laggiu-qualcuno-mi-ama",
+                "title": {
+                    "native": "Laggi\u00f9 qualcuno mi ama",
+                    "english": "Massimo Troisi: Somebody Down There Likes Me"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-02-23",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2023_033",
+                "slug": "it2023-033-laggiu-qualcuno-mi-ama",
+                "title": {
+                    "native": "Laggi\u00f9 qualcuno mi ama",
+                    "english": "Massimo Troisi: Somebody Down There Likes Me"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-02-23",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Documentary subject"
+        }
+    ]
 }

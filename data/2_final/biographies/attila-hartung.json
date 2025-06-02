@@ -1,30 +1,35 @@
 {
-  "id": "Attila Hartung",
-  "type": "Biography",
-  "slug": "attila-hartung",
-  "name": "Attila Hartung",
-  "birthYear": 1991,
-  "nationality": "Hungary",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "HU2019_006",
-      "production": {
-        "country": "Hungary",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "hu2019-006-fomo-megosztod-es-uralkodsz",
-      "tags": "fatherhood",
-      "title": {
-        "english": "FOMO: Fear of Missing Out",
-        "native": "FOMO \u2013 Megosztod, \u00e9s uralkodsz"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Attila Hartung",
+    "slug": "attila-hartung",
+    "name": "Attila Hartung",
+    "birthYear": 1991,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Hungary",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "HU2019_006",
+                "slug": "hu2019-006-fomo-megosztod-es-uralkodsz",
+                "title": {
+                    "native": "FOMO \u2013 Megosztod, \u00e9s uralkodsz",
+                    "english": "FOMO: Fear of Missing Out"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-10-10",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

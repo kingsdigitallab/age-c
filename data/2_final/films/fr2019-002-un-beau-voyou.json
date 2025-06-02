@@ -1,71 +1,147 @@
 {
-  "id": "FR2019_002",
-  "type": "Film",
-  "slug": "fr2019-002-un-beau-voyou",
-  "title": {
-    "native": "Un beau voyou",
-    "english": "A Clever Crook"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-01-02",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=ILI0EAA1044",
-    "posterUrl": "https://medias.unifrance.org/medias/104/11/199528/format_page/un-beau-voyou.png"
-  },
-  "genre": [
-    "Comedy",
-    "Detective Thriller"
-  ],
-  "tags": [
-    "urban",
-    "state institutions",
-    "last mission",
-    "high rank employment"
-  ],
-  "director": [
-    {
-      "id": "Lucas Bernard",
-      "slug": "lucas-bernard",
-      "name": "Lucas Bernard",
-      "birthYear": 1979,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2019_002_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Charles Berling",
-        "slug": "charles-berling",
-        "name": "Charles Berling",
-        "birthYear": 1958.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Le commissaire Beffrois attend la retraite avec un enthousiasme mitig\u00e9 quand un vol de tableau retient son attention. Est-ce l\u2019\u00e9l\u00e9gance du proc\u00e9d\u00e9 ? L\u2019audace du d\u00e9lit ? La beaut\u00e9 de l\u2019\u0153uvre vol\u00e9e ? Beffrois enqu\u00eatera comme on mange une derni\u00e8re sucrerie, d\u00e9couvrant peu \u00e0 peu un voleur atypique, v\u00e9ritable courant d\u2019air, acrobate \u00e0 ses heures.",
-    "english": "Captain Beffrois is about to retire from the police. He has mixed feelings about retirement. The theft of a painting captures his attention. Is it because of the elegance and daring of the crime or the beauty of the stolen object? Beffrois goes after a very unusual thief, quite the acrobat who slips in and out, unnoticed."
-  }
+    "type": "Film",
+    "id": "FR2019_002",
+    "slug": "fr2019-002-un-beau-voyou",
+    "title": {
+        "native": "Un beau voyou",
+        "english": "A Clever Crook"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-01-02",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Lucas Bernard",
+            "slug": "lucas-bernard",
+            "name": "Lucas Bernard",
+            "birthYear": 1979,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Detective Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/104/11/199528/format_page/un-beau-voyou.png",
+        "trailerUrl": "https://www.youtube.com/watch?v=ILI0EAA1044"
+    },
+    "synopsis": {
+        "native": "Le commissaire Beffrois attend la retraite avec un enthousiasme mitig\u00e9 quand un vol de tableau retient son attention. Est-ce l\u2019\u00e9l\u00e9gance du proc\u00e9d\u00e9 ? L\u2019audace du d\u00e9lit ? La beaut\u00e9 de l\u2019\u0153uvre vol\u00e9e ? Beffrois enqu\u00eatera comme on mange une derni\u00e8re sucrerie, d\u00e9couvrant peu \u00e0 peu un voleur atypique, v\u00e9ritable courant d\u2019air, acrobate \u00e0 ses heures.",
+        "english": "Captain Beffrois is about to retire from the police. He has mixed feelings about retirement. The theft of a painting captures his attention. Is it because of the elegance and daring of the crime or the beauty of the stolen object? Beffrois goes after a very unusual thief, quite the acrobat who slips in and out, unnoticed."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2019_002_01",
+            "film": "FR2019_002",
+            "person": {
+                "id": "Charles Berling",
+                "slug": "charles-berling",
+                "name": "Charles Berling",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Anne Loiret",
+                "slug": "anne-loiret",
+                "name": "Anne Loiret",
+                "birthYear": 1983,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Charles Berling",
+                "slug": "charles-berling",
+                "name": "Charles Berling",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Christian Benedetti",
+                "slug": "christian-benedetti",
+                "name": "Christian Benedetti",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Jean-Quentin Ch\u00e2telain",
+                "slug": "jean-quentin-chatelain",
+                "name": "Jean-Quentin Ch\u00e2telain",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Switzerland"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Lucas Bernard",
+                "slug": "lucas-bernard",
+                "name": "Lucas Bernard",
+                "birthYear": 1979,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Pierre Aussedat",
+                "slug": "pierre-aussedat",
+                "name": "Pierre Aussedat",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "urban",
+        "state institutions",
+        "high rank employment",
+        "last mission"
+    ]
 }

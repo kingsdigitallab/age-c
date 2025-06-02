@@ -1,29 +1,35 @@
 {
-  "id": "Philippe Ramos",
-  "type": "Biography",
-  "slug": "philippe-ramos",
-  "name": "Philippe Ramos",
-  "birthYear": 1966,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "FR2019_071",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-071-les-grands-squelettes",
-      "title": {
-        "english": "Silent Streams",
-        "native": "Les Grands Squelettes"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Philippe Ramos",
+    "slug": "philippe-ramos",
+    "name": "Philippe Ramos",
+    "birthYear": 1966,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2019_071",
+                "slug": "fr2019-071-les-grands-squelettes",
+                "title": {
+                    "native": "Les Grands Squelettes",
+                    "english": "Silent Streams"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-04-10",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

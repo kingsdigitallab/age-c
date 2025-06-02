@@ -1,74 +1,150 @@
 {
-  "id": "IT2021_001",
-  "type": "Film",
-  "slug": "it2021-001-lei-mi-parla-ancora",
-  "title": {
-    "native": "Lei mi parla ancora",
-    "english": "We Still Talk"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-04-26",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=J2SEg_ofPmU",
-    "posterUrl": "https://www.imdb.com/title/tt9471816/mediaviewer/rm3475428865/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Romance",
-    "Drama"
-  ],
-  "tags": [
-    "natural death",
-    "parenthood",
-    "personal memory",
-    "grief",
-    "fatherhood",
-    "marriage",
-    "stages of life"
-  ],
-  "director": [
-    {
-      "id": "Pupi Avati",
-      "slug": "pupi-avati",
-      "name": "Pupi Avati",
-      "birthYear": 1938,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2021_001_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Retired",
-      "ability": "Permanent disability",
-      "assistedMobility": "Yes",
-      "person": {
-        "id": "Renato Pozzetto",
-        "slug": "renato-pozzetto",
-        "name": "Renato Pozzetto",
-        "birthYear": 1940.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Nino e Caterina sono sposati da sessantacinque anni e si amano profondamente dal primo momento che si sono visti. Alla morte di Caterina, la figlia, nella speranza di aiutare il padre a superare la perdita della donna che ha amato per tutta la vita, gli affianca Amicangelo, un editor con velleit\u00e0 da romanziere, per scrivere attraverso i ricordi del padre un libro sulla loro storia d\u2019amore. Amicangelo accetta il lavoro solo per ragioni economiche e si scontra subito con la personalit\u00e0 di un uomo che sembra opposta a lui. Ma il rapporto tra i due diventer\u00e0 ogni giorno pi\u00f9 profondo fino a trasformarsi in un\u2019amicizia sincera.",
-    "english": "Nino tells the romance of 65 years with his wife to an aspiring novelist."
-  }
+    "type": "Film",
+    "id": "IT2021_001",
+    "slug": "it2021-001-lei-mi-parla-ancora",
+    "title": {
+        "native": "Lei mi parla ancora",
+        "english": "We Still Talk"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-04-26",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Pupi Avati",
+            "slug": "pupi-avati",
+            "name": "Pupi Avati",
+            "birthYear": 1938,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Romance",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt9471816/mediaviewer/rm3475428865/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=J2SEg_ofPmU"
+    },
+    "synopsis": {
+        "native": "Nino e Caterina sono sposati da sessantacinque anni e si amano profondamente dal primo momento che si sono visti. Alla morte di Caterina, la figlia, nella speranza di aiutare il padre a superare la perdita della donna che ha amato per tutta la vita, gli affianca Amicangelo, un editor con velleit\u00e0 da romanziere, per scrivere attraverso i ricordi del padre un libro sulla loro storia d\u2019amore. Amicangelo accetta il lavoro solo per ragioni economiche e si scontra subito con la personalit\u00e0 di un uomo che sembra opposta a lui. Ma il rapporto tra i due diventer\u00e0 ogni giorno pi\u00f9 profondo fino a trasformarsi in un\u2019amicizia sincera.",
+        "english": "Nino tells the romance of 65 years with his wife to an aspiring novelist."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2021_001_01",
+            "film": "IT2021_001",
+            "person": {
+                "id": "Renato Pozzetto",
+                "slug": "renato-pozzetto",
+                "name": "Renato Pozzetto",
+                "birthYear": 1940,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Retired",
+            "ability": "Permanent disability",
+            "assistedMobility": "Yes"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alessandro Haber",
+                "slug": "alessandro-haber",
+                "name": "Alessandro Haber",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Gioele Dix",
+                "slug": "gioele-dix",
+                "name": "Gioele Dix",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Pupi Avati",
+                "slug": "pupi-avati",
+                "name": "Pupi Avati",
+                "birthYear": 1938,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Renato Pozzetto",
+                "slug": "renato-pozzetto",
+                "name": "Renato Pozzetto",
+                "birthYear": 1940,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Serena Grandi",
+                "slug": "serena-grandi",
+                "name": "Serena Grandi",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Stefania Sandrelli",
+                "slug": "stefania-sandrelli",
+                "name": "Stefania Sandrelli",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "grief",
+        "stages of life",
+        "parenthood",
+        "fatherhood",
+        "natural death",
+        "personal memory",
+        "marriage"
+    ]
 }

@@ -1,30 +1,35 @@
 {
-  "id": "Ciprian Mega",
-  "type": "Biography",
-  "slug": "ciprian-mega",
-  "name": "Ciprian Mega",
-  "birthYear": 1985,
-  "nationality": "Romania",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "RO2021_017",
-      "production": {
-        "country": "Romania",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "ro2021-017-glasul-care-striga-n-pustie",
-      "tags": "abuse",
-      "title": {
-        "english": "The Voice Crying in the Wilderness",
-        "native": "Glasul care strig\u0103-n pustie"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Ciprian Mega",
+    "slug": "ciprian-mega",
+    "name": "Ciprian Mega",
+    "birthYear": 1985,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Romania",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "RO2021_017",
+                "slug": "ro2021-017-glasul-care-striga-n-pustie",
+                "title": {
+                    "native": "Glasul care strig\u0103-n pustie",
+                    "english": "The Voice Crying in the Wilderness"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-10-04",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

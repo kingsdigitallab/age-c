@@ -1,82 +1,112 @@
 {
-  "id": "ES2022_007",
-  "type": "Film",
-  "slug": "es2022-007-alcarras",
-  "title": {
-    "native": "Alcarr\u00e0s"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2022-04-29",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "ES2022_007",
+    "slug": "es2022-007-alcarras",
+    "title": {
+        "native": "Alcarr\u00e0s",
+        "english": ""
     },
-    {
-      "country": "Italy",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt11930126/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_Alcarr%25C3%25A0s",
-    "posterUrl": "https://www.imdb.com/title/tt11930126/mediaviewer/rm327827201/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "personal memory",
-    "disappearing professions",
-    "fatherhood",
-    "independent home",
-    "multigenerational family",
-    "ecology",
-    "regional identity",
-    "well-being",
-    "class conflict",
-    "grandfatherhood",
-    "technology",
-    "inheritance",
-    "widowhood",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Carla Sim\u00f3n",
-      "slug": "carla-simon",
-      "name": "Carla Sim\u00f3n",
-      "birthYear": 1986,
-      "gender": "Female identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "character": [
-    {
-      "id": "ES2022_007_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Josep Abad",
-        "slug": "josep-abad",
-        "name": "Josep Abad",
-        "gender": "Male identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "La familia Sol\u00e9 lleva varias generaciones cultivando una gran extensi\u00f3n de melocotoneros en Alcarr\u00e0s, una peque\u00f1a localidad rural de Catalu\u00f1a. Pero este verano puede que sea su \u00faltima cosecha: la fruta ya no renta y los paneles solares est\u00e1n sustituyendo a los \u00e1rboles.",
-    "english": "The life of a family of peach farmers in a small village in Catalonia changes when the owner of their large estate dies and his lifetime heir decides to sell the land, suddenly threatening their livelihood."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2022-04-29",
+        "year": 2022
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Carla Sim\u00f3n",
+            "slug": "carla-simon",
+            "name": "Carla Sim\u00f3n",
+            "birthYear": 1986,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt11930126/mediaviewer/rm327827201/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt11930126/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_Alcarr%25C3%25A0s"
+    },
+    "synopsis": {
+        "native": "La familia Sol\u00e9 lleva varias generaciones cultivando una gran extensi\u00f3n de melocotoneros en Alcarr\u00e0s, una peque\u00f1a localidad rural de Catalu\u00f1a. Pero este verano puede que sea su \u00faltima cosecha: la fruta ya no renta y los paneles solares est\u00e1n sustituyendo a los \u00e1rboles.",
+        "english": "The life of a family of peach farmers in a small village in Catalonia changes when the owner of their large estate dies and his lifetime heir decides to sell the land, suddenly threatening their livelihood."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Italy",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2022_007_01",
+            "film": "ES2022_007",
+            "person": {
+                "id": "Josep Abad",
+                "slug": "josep-abad",
+                "name": "Josep Abad",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Carla Sim\u00f3n",
+                "slug": "carla-simon",
+                "name": "Carla Sim\u00f3n",
+                "birthYear": 1986,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Josep Abad",
+                "slug": "josep-abad",
+                "name": "Josep Abad",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "inheritance",
+        "well-being",
+        "fatherhood",
+        "grandfatherhood",
+        "multigenerational family",
+        "personal memory",
+        "widowhood",
+        "rural",
+        "independent home",
+        "disappearing professions",
+        "ecology",
+        "technology",
+        "regional identity",
+        "class conflict"
+    ]
 }

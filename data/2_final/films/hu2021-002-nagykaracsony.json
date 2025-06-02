@@ -1,47 +1,127 @@
 {
-  "id": "HU2021_002",
-  "type": "Film",
-  "slug": "hu2021-002-nagykaracsony",
-  "title": {
-    "native": "Nagykar\u00e1csony",
-    "english": "Christmas Flame"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-11-25",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Hungary",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=ZR2deh6v9cg",
-    "posterUrl": "https://www.imdb.com/title/tt12847168/mediaviewer/rm2982537985/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Romance"
-  ],
-  "tags": [
-    "romance",
-    "festivities"
-  ],
-  "director": [
-    {
-      "id": "D\u00e1niel Tiszeker",
-      "slug": "daniel-tiszeker",
-      "name": "D\u00e1niel Tiszeker",
-      "birthYear": 1985,
-      "gender": "Male identifying",
-      "nationality": "Hungary"
-    }
-  ],
-  "synopsis": {
-    "native": "A film f\u0151szerepl\u0151je Arnold, a t\u00f6bbsz\u00f6r\u00f6sen kit\u00fcntetett t\u0171zolt\u00f3, akinek egy balul els\u00fcl\u0151 romantikus l\u00e1nyk\u00e9r\u00e9s k\u00f6vetkezt\u00e9ben \u00f6sszeomlik az \u00e9lete. Kor\u00e1bbi \u00e9rdemeire val\u00f3 tekintettel kihelyezik egy kar\u00e1csonyi v\u00e1s\u00e1rba \u00fcgyeletes t\u0171zolt\u00f3nak, ahol egy iskolai el\u0151ad\u00e1s el\u0151k\u00e9sz\u00fcleteibe cs\u00f6ppen. Arnold ut\u00e1lja ezt a helyzetet: a kar\u00e1csonyi felhajt\u00e1st \u00e1lszentnek, a m\u0171sort pedig ideges\u00edt\u0151nek tartja. De a kezdeti csat\u00e1k ut\u00e1n megb\u00e9k\u00e9l a v\u00e1s\u00e1r furcsa \u00e1rusaival \u00e9s a gyerekel\u0151ad\u00e1s sz\u00e9tsz\u00f3rt rendez\u0151j\u00e9vel, Eszterrel. Az \u00e9rzelmileg felfokozott kar\u00e1csonyi k\u00e9sz\u00fcl\u0151d\u00e9s lassan r\u00e1d\u00f6bbenti, nem csup\u00e1n a t\u00e9riszony\u00e1t kell legy\u0151znie, hogy \u00faj \u00e9letet kezdhessen.",
-    "english": "A firefighter develops a fear of heights and has strange visions after his wedding proposal goes up in smoke.Will a teacher he meets later cure his vertigo and mend his broken heart?"
-  }
+    "type": "Film",
+    "id": "HU2021_002",
+    "slug": "hu2021-002-nagykaracsony",
+    "title": {
+        "native": "Nagykar\u00e1csony",
+        "english": "Christmas Flame"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-11-25",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "D\u00e1niel Tiszeker",
+            "slug": "daniel-tiszeker",
+            "name": "D\u00e1niel Tiszeker",
+            "birthYear": 1985,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Hungary"
+        }
+    ],
+    "genre": [
+        "Romance",
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt12847168/mediaviewer/rm2982537985/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=ZR2deh6v9cg"
+    },
+    "synopsis": {
+        "native": "A film f\u0151szerepl\u0151je Arnold, a t\u00f6bbsz\u00f6r\u00f6sen kit\u00fcntetett t\u0171zolt\u00f3, akinek egy balul els\u00fcl\u0151 romantikus l\u00e1nyk\u00e9r\u00e9s k\u00f6vetkezt\u00e9ben \u00f6sszeomlik az \u00e9lete. Kor\u00e1bbi \u00e9rdemeire val\u00f3 tekintettel kihelyezik egy kar\u00e1csonyi v\u00e1s\u00e1rba \u00fcgyeletes t\u0171zolt\u00f3nak, ahol egy iskolai el\u0151ad\u00e1s el\u0151k\u00e9sz\u00fcleteibe cs\u00f6ppen. Arnold ut\u00e1lja ezt a helyzetet: a kar\u00e1csonyi felhajt\u00e1st \u00e1lszentnek, a m\u0171sort pedig ideges\u00edt\u0151nek tartja. De a kezdeti csat\u00e1k ut\u00e1n megb\u00e9k\u00e9l a v\u00e1s\u00e1r furcsa \u00e1rusaival \u00e9s a gyerekel\u0151ad\u00e1s sz\u00e9tsz\u00f3rt rendez\u0151j\u00e9vel, Eszterrel. Az \u00e9rzelmileg felfokozott kar\u00e1csonyi k\u00e9sz\u00fcl\u0151d\u00e9s lassan r\u00e1d\u00f6bbenti, nem csup\u00e1n a t\u00e9riszony\u00e1t kell legy\u0151znie, hogy \u00faj \u00e9letet kezdhessen.",
+        "english": "A firefighter develops a fear of heights and has strange visions after his wedding proposal goes up in smoke.Will a teacher he meets later cure his vertigo and mend his broken heart?"
+    },
+    "production": [
+        {
+            "country": "Hungary",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "B\u00e9la Szerednyey",
+                "slug": "bela-szerednyey",
+                "name": "B\u00e9la Szerednyey",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "D\u00e1niel Tiszeker",
+                "slug": "daniel-tiszeker",
+                "name": "D\u00e1niel Tiszeker",
+                "birthYear": 1985,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Imre Csuja",
+                "slug": "imre-csuja",
+                "name": "Imre Csuja",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Judit Hern\u00e1di",
+                "slug": "judit-hernadi",
+                "name": "Judit Hern\u00e1di",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Lia Pokorny",
+                "slug": "lia-pokorny",
+                "name": "Lia Pokorny",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": "P\u00e9ter Scherer",
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "\u00c1rp\u00e1d N\u00e9medi",
+                "slug": "arpad-nemedi",
+                "name": "\u00c1rp\u00e1d N\u00e9medi",
+                "birthYear": 1969,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "romance",
+        "festivities"
+    ]
 }

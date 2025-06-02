@@ -1,47 +1,57 @@
 {
-  "id": "G\u00e9za M. T\u00f3th",
-  "type": "Biography",
-  "slug": "geza-m-toth",
-  "name": "G\u00e9za M. T\u00f3th",
-  "birthYear": 1970,
-  "nationality": "Hungary",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Animation",
-      "genre": "Children's Film",
-      "id": "HU2020_006",
-      "production": {
-        "country": "Hungary",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "hu2020-006-bogyo-es-baboca-4-tunderkartyak",
-      "title": {
-        "english": "Berry and Dolly - Fairy Cards",
-        "native": "Bogy\u00f3 \u00e9s Bab\u00f3ca 4. - T\u00fcnd\u00e9rk\u00e1rty\u00e1k"
-      }
-    },
-    {
-      "filmType": "Animation",
-      "genre": "Children's Film",
-      "id": "HU2019_008",
-      "production": {
-        "country": "Hungary",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "hu2019-008-mi-ujsag-kuflik",
-      "tags": "voice mismatch",
-      "title": {
-        "native": "Mi \u00fajs\u00e1g, kuflik?"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "G\u00e9za M. T\u00f3th",
+    "slug": "geza-m-toth",
+    "name": "G\u00e9za M. T\u00f3th",
+    "birthYear": 1970,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Hungary",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "HU2019_008",
+                "slug": "hu2019-008-mi-ujsag-kuflik",
+                "title": {
+                    "native": "Mi \u00fajs\u00e1g, kuflik?",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-10-03",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "HU2020_006",
+                "slug": "hu2020-006-bogyo-es-baboca-4-tunderkartyak",
+                "title": {
+                    "native": "Bogy\u00f3 \u00e9s Bab\u00f3ca 4. - T\u00fcnd\u00e9rk\u00e1rty\u00e1k",
+                    "english": "Berry and Dolly - Fairy Cards"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-07-09",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

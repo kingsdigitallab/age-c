@@ -1,47 +1,123 @@
 {
-  "id": "HU2018_020",
-  "type": "Film",
-  "slug": "hu2018-020-a-rossz-arnyek",
-  "title": {
-    "native": "A rossz \u00e1rny\u00e9k",
-    "english": "Sinister Shadow"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-02-28",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Hungary",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=G4XX1xCF5JU&rco=1&ab_channel=Soldivision",
-    "posterUrl": "https://www.imdb.com/title/tt6150000/mediaviewer/rm1284458752/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Experimental film ",
-    "Drama"
-  ],
-  "tags": [
-    "artistic creation",
-    "fatherhood"
-  ],
-  "director": [
-    {
-      "id": "Andr\u00e1s Jeles",
-      "slug": "andras-jeles",
-      "name": "Andr\u00e1s Jeles",
-      "birthYear": 1945,
-      "gender": "Male identifying",
-      "nationality": "Hungary"
-    }
-  ],
-  "synopsis": {
-    "native": "A rossz a\u0301rnye\u0301k ci\u0301m\u0171 filmben egy ku\u0308lo\u0308nleges ke\u0301pesse\u0301gekkel mega\u0301ldott huszone\u0301ves sra\u0301c utaza\u0301sa\u0301t ko\u0308vethetju\u0308k ve\u0301gig, mely sora\u0301n to\u0308bb ku\u0308lo\u0308no\u0308s emberrel hozza o\u0308ssze a sors, eko\u0308zben pedig megismerhetju\u0308k apja\u0301t, a restaura\u0301torke\u0301nt dolgozo\u0301 Pietert, aki e\u0301pp ifj. Hans Holbein renesza\u0301nsz fest\u0151 A Ko\u0308vetek ci\u0301m\u0171 m\u0171ve\u0301nek restaura\u0301la\u0301sa\u0301n dolgozik, s a ke\u0301pben rejl\u0151 ku\u0308lo\u0308nleges szimbo\u0301lumok e\u0301s rejtett u\u0308zenetek hata\u0301ssal lesznek mindketto\u0303ju\u0308k e\u0301lete\u0301re.",
-    "english": "Our story unfolds parallel to the uncovering of hidden messages in a mysterious painting. The painting in question is The Ambassadors, the well known work of Hans Holbein which at several points inflicts a wound upon a reality depicted as harmonious and complete. One such wound is the anamorphic skull which drifts in the foreground of the painting conveying a paradox impression that makes the viewer question what he/she sees and does not see. This visual sensation arouses the suspicion that here, within the universe of Holbein's painting rhizomatic meanings run along behind and beyond the simple representation as the story of the characters in the film is also mysteriously connected to events of this 500 year old time segment."
-  }
+    "type": "Film",
+    "id": "HU2018_020",
+    "slug": "hu2018-020-a-rossz-arnyek",
+    "title": {
+        "native": "A rossz \u00e1rny\u00e9k",
+        "english": "Sinister Shadow"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-02-28",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Andr\u00e1s Jeles",
+            "slug": "andras-jeles",
+            "name": "Andr\u00e1s Jeles",
+            "birthYear": 1945,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Hungary"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Experimental film "
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt6150000/mediaviewer/rm1284458752/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=G4XX1xCF5JU&rco=1&ab_channel=Soldivision"
+    },
+    "synopsis": {
+        "native": "A rossz a\u0301rnye\u0301k ci\u0301m\u0171 filmben egy ku\u0308lo\u0308nleges ke\u0301pesse\u0301gekkel mega\u0301ldott huszone\u0301ves sra\u0301c utaza\u0301sa\u0301t ko\u0308vethetju\u0308k ve\u0301gig, mely sora\u0301n to\u0308bb ku\u0308lo\u0308no\u0308s emberrel hozza o\u0308ssze a sors, eko\u0308zben pedig megismerhetju\u0308k apja\u0301t, a restaura\u0301torke\u0301nt dolgozo\u0301 Pietert, aki e\u0301pp ifj. Hans Holbein renesza\u0301nsz fest\u0151 A Ko\u0308vetek ci\u0301m\u0171 m\u0171ve\u0301nek restaura\u0301la\u0301sa\u0301n dolgozik, s a ke\u0301pben rejl\u0151 ku\u0308lo\u0308nleges szimbo\u0301lumok e\u0301s rejtett u\u0308zenetek hata\u0301ssal lesznek mindketto\u0303ju\u0308k e\u0301lete\u0301re.",
+        "english": "Our story unfolds parallel to the uncovering of hidden messages in a mysterious painting. The painting in question is The Ambassadors, the well known work of Hans Holbein which at several points inflicts a wound upon a reality depicted as harmonious and complete. One such wound is the anamorphic skull which drifts in the foreground of the painting conveying a paradox impression that makes the viewer question what he/she sees and does not see. This visual sensation arouses the suspicion that here, within the universe of Holbein's painting rhizomatic meanings run along behind and beyond the simple representation as the story of the characters in the film is also mysteriously connected to events of this 500 year old time segment."
+    },
+    "production": [
+        {
+            "country": "Hungary",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Andr\u00e1s Jeles",
+                "slug": "andras-jeles",
+                "name": "Andr\u00e1s Jeles",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Gy\u00f6rgy \u00c1rvai",
+                "slug": "gyorgy-arvai",
+                "name": "Gy\u00f6rgy \u00c1rvai",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Gy\u00f6rgyi Kari",
+                "slug": "gyorgyi-kari",
+                "name": "Gy\u00f6rgyi Kari",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "G\u00e1bor Medvigy",
+                "slug": "gabor-medvigy",
+                "name": "G\u00e1bor Medvigy",
+                "birthYear": 1957,
+                "deathYear": 2023,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "L\u00e1szl\u00f3 Melis",
+                "slug": "laszlo-melis",
+                "name": "L\u00e1szl\u00f3 Melis",
+                "birthYear": 1953,
+                "deathYear": 2018,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Tibor P\u00e1lffy",
+                "slug": "tibor-palffy",
+                "name": "Tibor P\u00e1lffy",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "fatherhood",
+        "artistic creation"
+    ]
 }

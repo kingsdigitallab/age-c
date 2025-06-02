@@ -1,52 +1,84 @@
 {
-  "id": "FR2018_084",
-  "type": "Film",
-  "slug": "fr2018-084-nous-les-intranquilles",
-  "title": {
-    "native": "Nous, les intranquilles"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-05-02",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.allocine.fr/video/player_gen_cmedia=19578163&cfilm=263370.html",
-    "posterUrl": "https://medias.unifrance.org/medias/251/204/183547/format_page/nous-les-intranquilles.jpg"
-  },
-  "genre": [
-    "Documentary \u2013 Observational mode"
-  ],
-  "tags": [
-    "hospital",
-    "mental illness",
-    "artistic creation"
-  ],
-  "director": [
-    {
-      "id": "Groupe Cin\u00e9ma du Centre Artaud",
-      "slug": "groupe-cinema-du-centre-artaud",
-      "name": "Groupe Cin\u00e9ma du Centre Artaud",
-      "gender": "Unknown",
-      "nationality": "Unknown"
+    "type": "Film",
+    "id": "FR2018_084",
+    "slug": "fr2018-084-nous-les-intranquilles",
+    "title": {
+        "native": "Nous, les intranquilles",
+        "english": ""
     },
-    {
-      "id": "Nicolas Contant",
-      "slug": "nicolas-contant",
-      "name": "Nicolas Contant",
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Nous les Intranquilles est une exp\u00e9rience collective de cin\u00e9ma, qui commence au Centre Artaud, centre d\u2019accueil th\u00e9rapeutique o\u00f9 se vivent les principes de la Th\u00e9rapie Institutionnelle avec une orientation psychanalytique. Cet autoportrait en creux du Centre Artaud donne une image humaine de la folie.",
-    "english": "A collective cinema experience that takes place in a therapeutic reception center in Reims. The film offers an indirect self-portrait of Artaud center in which patients and staff play along in order to give a more human picture of madness."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2018-05-02",
+        "year": 2018
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Nicolas Contant",
+            "slug": "nicolas-contant",
+            "name": "Nicolas Contant",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        },
+        {
+            "id": "Groupe Cin\u00e9ma du Centre Artaud",
+            "slug": "groupe-cinema-du-centre-artaud",
+            "name": "Groupe Cin\u00e9ma du Centre Artaud",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Unknown",
+            "nationality": "Unknown"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Observational mode"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/251/204/183547/format_page/nous-les-intranquilles.jpg",
+        "trailerUrl": "https://www.allocine.fr/video/player_gen_cmedia=19578163&cfilm=263370.html"
+    },
+    "synopsis": {
+        "native": "Nous les Intranquilles est une exp\u00e9rience collective de cin\u00e9ma, qui commence au Centre Artaud, centre d\u2019accueil th\u00e9rapeutique o\u00f9 se vivent les principes de la Th\u00e9rapie Institutionnelle avec une orientation psychanalytique. Cet autoportrait en creux du Centre Artaud donne une image humaine de la folie.",
+        "english": "A collective cinema experience that takes place in a therapeutic reception center in Reims. The film offers an indirect self-portrait of Artaud center in which patients and staff play along in order to give a more human picture of madness."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Groupe Cin\u00e9ma du Centre Artaud",
+                "slug": "groupe-cinema-du-centre-artaud",
+                "name": "Groupe Cin\u00e9ma du Centre Artaud",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Unknown",
+                "nationality": "Unknown"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Nicolas Contant",
+                "slug": "nicolas-contant",
+                "name": "Nicolas Contant",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "mental illness",
+        "hospital",
+        "artistic creation"
+    ]
 }

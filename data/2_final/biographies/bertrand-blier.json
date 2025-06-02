@@ -1,31 +1,39 @@
 {
-  "id": "Bertrand Blier",
-  "type": "Biography",
-  "slug": "bertrand-blier",
-  "name": "Bertrand Blier",
-  "birthYear": 1939,
-  "deathYear": 2025,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2019_052",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2019
-      },
-      "slug": "fr2019-052-convoi-exceptionnel",
-      "tags": "crime",
-      "title": {
-        "english": "Heavy Duty",
-        "native": "Convoi exceptionnel"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Bertrand Blier",
+    "slug": "bertrand-blier",
+    "name": "Bertrand Blier",
+    "birthYear": 1939,
+    "deathYear": 2025,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2019_052",
+                "slug": "fr2019-052-convoi-exceptionnel",
+                "title": {
+                    "native": "Convoi exceptionnel",
+                    "english": "Heavy Duty"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2019-03-13",
+                    "year": 2019
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

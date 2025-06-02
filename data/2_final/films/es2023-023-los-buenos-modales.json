@@ -1,102 +1,152 @@
 {
-  "id": "ES2023_023",
-  "type": "Film",
-  "slug": "es2023-023-los-buenos-modales",
-  "title": {
-    "native": "Los buenos modales"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-04-28",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt13290130/?ref_=nv_sr_srsg_0_tt_3_nm_0_in_0_q_Los%2520buenos%2520modales",
-    "posterUrl": "https://www.imdb.com/title/tt13290130/mediaviewer/rm2382181633/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Drama"
-  ],
-  "tags": [
-    "personal memory",
-    "independent home",
-    "sisterhood",
-    "grandmotherhood",
-    "homosociality",
-    "burial",
-    "superior-employee relationship"
-  ],
-  "character": [
-    {
-      "id": "ES2023_023_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Mar\u00eda Alfonsa Rosso",
-        "slug": "maria-alfonsa-rosso",
-        "name": "Mar\u00eda Alfonsa Rosso",
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "ES2023_023",
+    "slug": "es2023-023-los-buenos-modales",
+    "title": {
+        "native": "Los buenos modales",
+        "english": ""
     },
-    {
-      "id": "ES2023_023_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Elena Irureta",
-        "slug": "elena-irureta",
-        "name": "Elena Irureta",
-        "birthYear": 1955.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Leading actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2023-04-28",
+        "year": 2023
     },
-    {
-      "id": "ES2023_023_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Gloria Mu\u00f1oz",
-        "slug": "gloria-munoz",
-        "name": "Gloria Mu\u00f1oz",
-        "birthYear": 1948.0,
-        "gender": "Female identifying",
-        "nationality": "Spain"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Manuela y Rosario son dos hermanas que, tras a\u00f1os sin hablarse a causa de un secreto familiar, se reencuentran inesperadamente en el cumplea\u00f1os de sus nietos. Los ni\u00f1os se han conocido gracias a sus cuidadoras, Trini y Milagros, amigas inseparables, vecinas de toda la vida. Cuando descubren el conflicto que separa a los peque\u00f1os, las entrometidas limpiadoras intentar\u00e1n, con torpeza, mucho amor y un poco de disparate, reconciliar a sus familias.",
-    "english": "Manuela and Rosario, estranged sisters due to a family secret, reunite when the caretakers of their grandchildren's, allowed the kids to meet. Upon learning of the conflict, they try to reconcile the families in a quirky, loving manner."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        "Marta D\u00edaz de Lope D\u00edaz"
+    ],
+    "genre": [
+        "Comedy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt13290130/mediaviewer/rm2382181633/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt13290130/?ref_=nv_sr_srsg_0_tt_3_nm_0_in_0_q_Los%2520buenos%2520modales"
+    },
+    "synopsis": {
+        "native": "Manuela y Rosario son dos hermanas que, tras a\u00f1os sin hablarse a causa de un secreto familiar, se reencuentran inesperadamente en el cumplea\u00f1os de sus nietos. Los ni\u00f1os se han conocido gracias a sus cuidadoras, Trini y Milagros, amigas inseparables, vecinas de toda la vida. Cuando descubren el conflicto que separa a los peque\u00f1os, las entrometidas limpiadoras intentar\u00e1n, con torpeza, mucho amor y un poco de disparate, reconciliar a sus familias.",
+        "english": "Manuela and Rosario, estranged sisters due to a family secret, reunite when the caretakers of their grandchildren's, allowed the kids to meet. Upon learning of the conflict, they try to reconcile the families in a quirky, loving manner."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "ES2023_023_01",
+            "film": "ES2023_023",
+            "person": {
+                "id": "Elena Irureta",
+                "slug": "elena-irureta",
+                "name": "Elena Irureta",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2023_023_02",
+            "film": "ES2023_023",
+            "person": {
+                "id": "Gloria Mu\u00f1oz",
+                "slug": "gloria-munoz",
+                "name": "Gloria Mu\u00f1oz",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2023_023_03",
+            "film": "ES2023_023",
+            "person": {
+                "id": "Mar\u00eda Alfonsa Rosso",
+                "slug": "maria-alfonsa-rosso",
+                "name": "Mar\u00eda Alfonsa Rosso",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Elena Irureta",
+                "slug": "elena-irureta",
+                "name": "Elena Irureta",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Gloria Mu\u00f1oz",
+                "slug": "gloria-munoz",
+                "name": "Gloria Mu\u00f1oz",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": "Marta D\u00edaz de Lope D\u00edaz",
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Mar\u00eda Alfonsa Rosso",
+                "slug": "maria-alfonsa-rosso",
+                "name": "Mar\u00eda Alfonsa Rosso",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "sisterhood",
+        "burial",
+        "grandmotherhood",
+        "superior-employee relationship",
+        "homosociality",
+        "personal memory",
+        "independent home"
+    ]
 }

@@ -1,29 +1,35 @@
 {
-  "id": "Marco Gadge",
-  "type": "Biography",
-  "slug": "marco-gadge",
-  "name": "Marco Gadge",
-  "birthYear": 1971,
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "DE2021_018",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "de2021-018-julia-muss-sterben",
-      "tags": "revenge",
-      "title": {
-        "native": "Julia muss sterben"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Marco Gadge",
+    "slug": "marco-gadge",
+    "name": "Marco Gadge",
+    "birthYear": 1971,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2021_018",
+                "slug": "de2021-018-julia-muss-sterben",
+                "title": {
+                    "native": "Julia muss sterben",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-07-29",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

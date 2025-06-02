@@ -1,29 +1,51 @@
 {
-  "id": "Chino Moya",
-  "type": "Biography",
-  "slug": "chino-moya",
-  "name": "Chino Moya",
-  "birthYear": 1976,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Dystopia",
-      "id": "GB2021_034",
-      "production": {
-        "country": "Belgium",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "gb2021-034-undergods",
-      "tags": "class conflict",
-      "title": {
-        "native": "Undergods"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Chino Moya",
+    "slug": "chino-moya",
+    "name": "Chino Moya",
+    "birthYear": 1976,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "GB2021_034",
+                "slug": "gb2021-034-undergods",
+                "title": {
+                    "native": "Undergods",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-05-17",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Serbia",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Sweden",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Estonia",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

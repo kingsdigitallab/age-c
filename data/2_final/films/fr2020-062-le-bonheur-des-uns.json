@@ -1,47 +1,87 @@
 {
-  "id": "FR2020_062",
-  "type": "Film",
-  "slug": "fr2020-062-le-bonheur-des-uns",
-  "title": {
-    "native": "Le Bonheur des uns...",
-    "english": "A Friendly Tale"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2020-09-09",
-    "year": 2020
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=7ZbzDaZhN4o",
-    "posterUrl": "https://medias.unifrance.org/medias/31/106/223775/format_page/le-bonheur-des-uns.jpg"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "urban",
-    "high rank employment",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Daniel Cohen",
-      "slug": "daniel-cohen",
-      "name": "Daniel Cohen",
-      "birthYear": 1964,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "L\u00e9a, Marc, Karine et Francis sont deux couples d\u2019amis de longue date. Le mari macho, la copine un peu grande-gueule, chacun occupe sa place dans le groupe. Mais, l\u2019harmonie vole en \u00e9clat le jour o\u00f9 L\u00e9a, la plus discr\u00e8te d\u2019entre eux, leur apprend qu\u2019elle \u00e9crit un roman, qui devient un best-seller. Loin de se r\u00e9jouir, petites jalousies et grandes vacheries commencent \u00e0 fuser. Humain, trop humain ! C'est face au succ\u00e8s que l'on reconnait ses vrais amis\u2026 Le bonheur des uns ferait-il donc le malheur des autres ?",
-    "english": "Two couples, L\u00e9a and Marc, Karine and Francis, have been friends for a long time. The macho husband, the girlfriend with a bit of a big mouth, they all take their place in the group. But harmony is shattered the day L\u00e9a, the most discreet of the bunch, tells them that she has written a novel, which goes on to become a best-seller. Far from rejoicing, small jealousies and dirty tricks begin to erupt. Human, too human! It's when success arrives that one recognizes one's true friends... Would the happiness of some be the cause of misfortune for others?"
-  }
+    "type": "Film",
+    "id": "FR2020_062",
+    "slug": "fr2020-062-le-bonheur-des-uns",
+    "title": {
+        "native": "Le Bonheur des uns...",
+        "english": "A Friendly Tale"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2020-09-09",
+        "year": 2020
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Daniel Cohen",
+            "slug": "daniel-cohen",
+            "name": "Daniel Cohen",
+            "birthYear": 1964,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/31/106/223775/format_page/le-bonheur-des-uns.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=7ZbzDaZhN4o"
+    },
+    "synopsis": {
+        "native": "L\u00e9a, Marc, Karine et Francis sont deux couples d\u2019amis de longue date. Le mari macho, la copine un peu grande-gueule, chacun occupe sa place dans le groupe. Mais, l\u2019harmonie vole en \u00e9clat le jour o\u00f9 L\u00e9a, la plus discr\u00e8te d\u2019entre eux, leur apprend qu\u2019elle \u00e9crit un roman, qui devient un best-seller. Loin de se r\u00e9jouir, petites jalousies et grandes vacheries commencent \u00e0 fuser. Humain, trop humain ! C'est face au succ\u00e8s que l'on reconnait ses vrais amis\u2026 Le bonheur des uns ferait-il donc le malheur des autres ?",
+        "english": "Two couples, L\u00e9a and Marc, Karine and Francis, have been friends for a long time. The macho husband, the girlfriend with a bit of a big mouth, they all take their place in the group. But harmony is shattered the day L\u00e9a, the most discreet of the bunch, tells them that she has written a novel, which goes on to become a best-seller. Far from rejoicing, small jealousies and dirty tricks begin to erupt. Human, too human! It's when success arrives that one recognizes one's true friends... Would the happiness of some be the cause of misfortune for others?"
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Daniel Cohen",
+                "slug": "daniel-cohen",
+                "name": "Daniel Cohen",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Daniel Cohen",
+                "slug": "daniel-cohen",
+                "name": "Daniel Cohen",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Fran\u00e7ois-\u00c9ric Gendron",
+                "slug": "francois-eric-gendron",
+                "name": "Fran\u00e7ois-\u00c9ric Gendron",
+                "birthYear": 1954,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "high rank employment",
+        "superior-employee relationship",
+        "urban"
+    ]
 }

@@ -1,49 +1,137 @@
 {
-  "id": "HU2021_001",
-  "type": "Film",
-  "slug": "hu2021-001-elk-rtuk",
-  "title": {
-    "native": "Elk*rtuk",
-    "english": "The Cost of Deception"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-10-21",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Hungary",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=Ibr41M7rNTg",
-    "posterUrl": "https://www.imdb.com/title/tt14723224/mediaviewer/rm3046109185/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Historical film (Heritage Film)",
-    "Action",
-    "Drama"
-  ],
-  "tags": [
-    "high rank employment",
-    "professional politics",
-    "power"
-  ],
-  "director": [
-    {
-      "id": "Keith English",
-      "slug": "keith-english",
-      "name": "Keith English",
-      "birthYear": 1961,
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "synopsis": {
-    "native": "Amikor R\u00e9ka (B\u00e1novits Vivianne) r\u00e1j\u00f6n, hogy a f\u0151n\u00f6ke (Bokor Barna) r\u00e9szt vett egy botr\u00e1nyos minisztereln\u00f6ki hangfelv\u00e9tel kisziv\u00e1rogtat\u00e1s\u00e1ban, \u00fagy d\u00f6nt, f\u00e9nyt der\u00edt az igazs\u00e1g r\u00e9szleteire, hogy ezzel jobb poz\u00edci\u00f3t zsarolhasson ki mag\u00e1nak. \u00d6ssze\u00e1ll az MTV-n\u00e9l \u00fajs\u00e1g\u00edr\u00f3-gyakornokk\u00e9nt dolgoz\u00f3 szerelm\u00e9vel (M\u00f3zes Andr\u00e1s), \u00e9s nyomozni kezd, de mivel lebukik a f\u0151n\u00f6ke el\u0151tt, egy nagyhatalm\u00fa k\u00f6r c\u00e9lpontj\u00e1v\u00e1 v\u00e1lnak. Ez\u00e9rt mik\u00f6zben a besz\u00e9d kisziv\u00e1rogtat\u00e1s\u00e1nak h\u00e1tter\u00e9t, a t\u00e9v\u00e9sz\u00e9kh\u00e1z ostrom\u00e1nak r\u00e9szleteit \u00e9s a budapesti rend\u0151rattakok ellentmond\u00e1sait kutatj\u00e1k, nem csak a karrierj\u00fck ker\u00fcl vesz\u00e9lybe...",
-    "english": "When a young, ambitious market researcher finds out her boss is involved in the leaking of a scandalous Prime Minister speech, she decides to investigate the case to gain a position among the big-shots. Based on actual events."
-  }
+    "type": "Film",
+    "id": "HU2021_001",
+    "slug": "hu2021-001-elk-rtuk",
+    "title": {
+        "native": "Elk*rtuk",
+        "english": "The Cost of Deception"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2021-10-21",
+        "year": 2021
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Keith English",
+            "slug": "keith-english",
+            "name": "Keith English",
+            "birthYear": 1961,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Action",
+        "Drama",
+        "Historical film (Heritage Film)"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt14723224/mediaviewer/rm3046109185/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=Ibr41M7rNTg"
+    },
+    "synopsis": {
+        "native": "Amikor R\u00e9ka (B\u00e1novits Vivianne) r\u00e1j\u00f6n, hogy a f\u0151n\u00f6ke (Bokor Barna) r\u00e9szt vett egy botr\u00e1nyos minisztereln\u00f6ki hangfelv\u00e9tel kisziv\u00e1rogtat\u00e1s\u00e1ban, \u00fagy d\u00f6nt, f\u00e9nyt der\u00edt az igazs\u00e1g r\u00e9szleteire, hogy ezzel jobb poz\u00edci\u00f3t zsarolhasson ki mag\u00e1nak. \u00d6ssze\u00e1ll az MTV-n\u00e9l \u00fajs\u00e1g\u00edr\u00f3-gyakornokk\u00e9nt dolgoz\u00f3 szerelm\u00e9vel (M\u00f3zes Andr\u00e1s), \u00e9s nyomozni kezd, de mivel lebukik a f\u0151n\u00f6ke el\u0151tt, egy nagyhatalm\u00fa k\u00f6r c\u00e9lpontj\u00e1v\u00e1 v\u00e1lnak. Ez\u00e9rt mik\u00f6zben a besz\u00e9d kisziv\u00e1rogtat\u00e1s\u00e1nak h\u00e1tter\u00e9t, a t\u00e9v\u00e9sz\u00e9kh\u00e1z ostrom\u00e1nak r\u00e9szleteit \u00e9s a budapesti rend\u0151rattakok ellentmond\u00e1sait kutatj\u00e1k, nem csak a karrierj\u00fck ker\u00fcl vesz\u00e9lybe...",
+        "english": "When a young, ambitious market researcher finds out her boss is involved in the leaking of a scandalous Prime Minister speech, she decides to investigate the case to gain a position among the big-shots. Based on actual events."
+    },
+    "production": [
+        {
+            "country": "Hungary",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Erika P\u00e1pai",
+                "slug": "erika-papai",
+                "name": "Erika P\u00e1pai",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "G\u00e1bor Cs\u0151re",
+                "slug": "gabor-csore",
+                "name": "G\u00e1bor Cs\u0151re",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Keith English",
+                "slug": "keith-english",
+                "name": "Keith English",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Szabolcs Bede-Fazekas",
+                "slug": "szabolcs-bede-fazekas",
+                "name": "Szabolcs Bede-Fazekas",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "S\u00e1ndor T\u00f3th",
+                "slug": "sandor-toth",
+                "name": "S\u00e1ndor T\u00f3th",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "\u00c1kos K\u0151szegi",
+                "slug": "akos-koszegi",
+                "name": "\u00c1kos K\u0151szegi",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "\u00c1ron \u0150ze",
+                "slug": "aron-oze",
+                "name": "\u00c1ron \u0150ze",
+                "birthYear": 1970,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "high rank employment",
+        "professional politics",
+        "power"
+    ]
 }

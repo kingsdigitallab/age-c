@@ -1,48 +1,57 @@
 {
-  "id": "Pablo Moreno",
-  "type": "Biography",
-  "slug": "pablo-moreno",
-  "name": "Pablo Moreno",
-  "birthYear": 1983,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Historical film (Heritage Film)",
-      "id": "ES2022_046",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "es2022-046-petra-de-san-jose",
-      "tags": "high rank employment",
-      "title": {
-        "native": "Petra de San Jos\u00e9"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Biopic",
-      "id": "ES2023_035",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "es2023-035-la-sirvienta",
-      "tags": "education",
-      "title": {
-        "english": "The Maid",
-        "native": "La sirvienta"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Pablo Moreno",
+    "slug": "pablo-moreno",
+    "name": "Pablo Moreno",
+    "birthYear": 1983,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2022_046",
+                "slug": "es2022-046-petra-de-san-jose",
+                "title": {
+                    "native": "Petra de San Jos\u00e9",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-02-04",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "ES2023_035",
+                "slug": "es2023-035-la-sirvienta",
+                "title": {
+                    "native": "La sirvienta",
+                    "english": "The Maid"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-03-23",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

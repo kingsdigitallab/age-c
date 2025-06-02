@@ -1,71 +1,139 @@
 {
-  "id": "RO2019_017",
-  "type": "Film",
-  "slug": "ro2019-017-zavera",
-  "title": {
-    "native": "Zavera",
-    "english": "Zavera"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-11-29",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Romania",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.cinemagia.ro/trailer/zavera-21989/",
-    "posterUrl": "https://www.cinemagia.ro/filme/zavera-590969/postere/3673985/#gallery"
-  },
-  "genre": [
-    "Drama"
-  ],
-  "tags": [
-    "high rank employment",
-    "grief",
-    "accidental death",
-    "personal trauma",
-    "homosociality"
-  ],
-  "director": [
-    {
-      "id": "Andrei Gruzsniczki",
-      "slug": "andrei-gruzsniczki",
-      "name": "Andrei Gruzsniczki",
-      "birthYear": 1962,
-      "gender": "Male identifying",
-      "nationality": "Romania"
-    }
-  ],
-  "character": [
-    {
-      "id": "RO2019_017_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Eastern European",
-      "class": "Upper class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Dorian Bogu\u0163\u0103",
-        "slug": "dorian-boguta",
-        "name": "Dorian Bogu\u0163\u0103",
-        "birthYear": 1971.0,
-        "gender": "Male identifying",
-        "nationality": "Moldova (the Republic of)"
-      },
-      "role": "Unknown"
-    }
-  ],
-  "synopsis": {
-    "native": "\u0218tefan Caragioiu, 50 de ani b\u0103tu\u021bi pe muchie, inginer constructor, are un blocaj existen\u021bial la moartea celui mai bun prieten al s\u0103u, arhitectul Nic Papahontu, de care e legat prin tot ce a f\u0103cut p\u00e2n\u0103 acum \u00een via\u021b\u0103. Nic reprezint\u0103 tot ceea ce \u0219i-ar fi dorit \u0218tefan de la via\u021b\u0103: charism\u0103, talent, dezinvoltur\u0103, o mare cultur\u0103 \u0219i o \u0219tiin\u021b\u0103 a oamenilor. Ce se \u00eent\u00e2mpl\u0103 \u00een clipa \u00een care Nic moare accidental iar \u0218tefan este obligat s\u0103 deschid\u0103 ochii asupra vie\u021bii din jurul lui \u0219i s\u0103 ia decizii? Mai ales c\u00e2nd descoper\u0103 c\u0103 toate adev\u0103rurile \u00een care a crezut p\u00e2n\u0103 acum se clatin\u0103 serios, inclusiv prietenia lui Nic.",
-    "english": "After the suspicious death of his best friend Nic, Stefan, a fifty-year-old businessman, uncovers the unknown part of their relationship and has to come to terms with his new life."
-  }
+    "type": "Film",
+    "id": "RO2019_017",
+    "slug": "ro2019-017-zavera",
+    "title": {
+        "native": "Zavera",
+        "english": "Zavera"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-11-29",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Andrei Gruzsniczki",
+            "slug": "andrei-gruzsniczki",
+            "name": "Andrei Gruzsniczki",
+            "birthYear": 1962,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Romania"
+        }
+    ],
+    "genre": [
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.cinemagia.ro/filme/zavera-590969/postere/3673985/#gallery",
+        "trailerUrl": "https://www.cinemagia.ro/trailer/zavera-21989/"
+    },
+    "synopsis": {
+        "native": "\u0218tefan Caragioiu, 50 de ani b\u0103tu\u021bi pe muchie, inginer constructor, are un blocaj existen\u021bial la moartea celui mai bun prieten al s\u0103u, arhitectul Nic Papahontu, de care e legat prin tot ce a f\u0103cut p\u00e2n\u0103 acum \u00een via\u021b\u0103. Nic reprezint\u0103 tot ceea ce \u0219i-ar fi dorit \u0218tefan de la via\u021b\u0103: charism\u0103, talent, dezinvoltur\u0103, o mare cultur\u0103 \u0219i o \u0219tiin\u021b\u0103 a oamenilor. Ce se \u00eent\u00e2mpl\u0103 \u00een clipa \u00een care Nic moare accidental iar \u0218tefan este obligat s\u0103 deschid\u0103 ochii asupra vie\u021bii din jurul lui \u0219i s\u0103 ia decizii? Mai ales c\u00e2nd descoper\u0103 c\u0103 toate adev\u0103rurile \u00een care a crezut p\u00e2n\u0103 acum se clatin\u0103 serios, inclusiv prietenia lui Nic.",
+        "english": "After the suspicious death of his best friend Nic, Stefan, a fifty-year-old businessman, uncovers the unknown part of their relationship and has to come to terms with his new life."
+    },
+    "production": [
+        {
+            "country": "Romania",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "RO2019_017_01",
+            "film": "RO2019_017",
+            "person": {
+                "id": "Dorian Bogu\u0163\u0103",
+                "slug": "dorian-boguta",
+                "name": "Dorian Bogu\u0163\u0103",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Moldova (the Republic of)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Eastern European",
+            "class": "Upper class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Andrei Gruzsniczki",
+                "slug": "andrei-gruzsniczki",
+                "name": "Andrei Gruzsniczki",
+                "birthYear": 1962,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Coca Bloos",
+                "slug": "coca-bloos",
+                "name": "Coca Bloos",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Romania"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Dan Tudor",
+                "slug": "dan-tudor",
+                "name": "Dan Tudor",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": "Dorian Bogu\u021b\u0103",
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Ilie G\u00e2lea",
+                "slug": "ilie-galea",
+                "name": "Ilie G\u00e2lea",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Romania"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Liana M\u0103rgineanu",
+                "slug": "liana-margineanu",
+                "name": "Liana M\u0103rgineanu",
+                "birthYear": 1941,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Romania"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "accidental death",
+        "homosociality",
+        "grief",
+        "personal trauma",
+        "high rank employment"
+    ]
 }

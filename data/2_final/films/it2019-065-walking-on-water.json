@@ -1,58 +1,86 @@
 {
-  "id": "IT2019_065",
-  "type": "Film",
-  "slug": "it2019-065-walking-on-water",
-  "title": {
-    "native": "Walking on Water",
-    "english": "Walking on Water"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-06-16",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "IT2019_065",
+    "slug": "it2019-065-walking-on-water",
+    "title": {
+        "native": "Walking on Water",
+        "english": "Walking on Water"
     },
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2019-06-16",
+        "year": 2019
     },
-    {
-      "country": "United Arab Emirates (the)",
-      "share": "Minority coproducer"
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Andrey Paounov",
+            "slug": "andrey-paounov",
+            "name": "Andrey Paounov",
+            "birthYear": 1974,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Bulgaria"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt7681868/mediaviewer/rm2794035457/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=-3uy3euDOHk"
     },
-    {
-      "country": "Germany",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=-3uy3euDOHk",
-    "posterUrl": "https://www.imdb.com/title/tt7681868/mediaviewer/rm2794035457/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "artistic creation",
-    "natural"
-  ],
-  "director": [
-    {
-      "id": "Andrey Paounov",
-      "slug": "andrey-paounov",
-      "name": "Andrey Paounov",
-      "birthYear": 1974,
-      "gender": "Male identifying",
-      "nationality": "Bulgaria"
-    }
-  ],
-  "synopsis": {
-    "native": "Uno sguardo al processo artistico e alle relazioni personali di Christo, artista noto per le sue installazioni su larga scala. Per la prima volta dalla scomparsa della moglie, si propone di realizzare un progetto ideato con lei.",
-    "english": "An uncensored look into the artistic process and personal relationships of Christo, an artist known for his large-scale installations. For the first time since the passing of his wife and partner, Jeanne-Claude, Christo sets out to realize, The Floating Piers, a project they conceived together many years before."
-  }
+    "synopsis": {
+        "native": "Uno sguardo al processo artistico e alle relazioni personali di Christo, artista noto per le sue installazioni su larga scala. Per la prima volta dalla scomparsa della moglie, si propone di realizzare un progetto ideato con lei.",
+        "english": "An uncensored look into the artistic process and personal relationships of Christo, an artist known for his large-scale installations. For the first time since the passing of his wife and partner, Jeanne-Claude, Christo sets out to realize, The Floating Piers, a project they conceived together many years before."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Germany",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "United Arab Emirates (the)",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Andrey Paounov",
+                "slug": "andrey-paounov",
+                "name": "Andrey Paounov",
+                "birthYear": 1974,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Bulgaria"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Christo Vladimirov Javacheff",
+                "slug": "christo-vladimirov-javacheff",
+                "name": "Christo Vladimirov Javacheff",
+                "birthYear": 1935,
+                "deathYear": 2020,
+                "gender": "Male identifying",
+                "nationality": "Bulgaria"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "artistic creation",
+        "natural"
+    ]
 }

@@ -1,87 +1,95 @@
 {
-  "id": "IT2019_061",
-  "type": "Film",
-  "slug": "it2019-061-non-ci-resta-che-ridere",
-  "title": {
-    "native": "Non Ci Resta Che Ridere",
-    "english": "We Just Have to Laugh"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-02-05",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=X43-a1qoW9w",
-    "posterUrl": "https://www.imdb.com/title/tt10204704/mediaviewer/rm103179776/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy"
-  ],
-  "tags": [
-    "regional identity"
-  ],
-  "director": [
-    {
-      "id": "Alessandro Paci",
-      "slug": "alessandro-paci",
-      "name": "Alessandro Paci",
-      "birthYear": 1964,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2019_061_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Alessandro Paci",
-        "slug": "alessandro-paci",
-        "name": "Alessandro Paci",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Director of the film"
+    "type": "Film",
+    "id": "IT2019_061",
+    "slug": "it2019-061-non-ci-resta-che-ridere",
+    "title": {
+        "native": "Non Ci Resta Che Ridere",
+        "english": "We Just Have to Laugh"
     },
-    {
-      "id": "IT2019_061_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Unknown",
-      "profession": "Unknown",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Alessandro Paci",
-        "slug": "alessandro-paci",
-        "name": "Alessandro Paci",
-        "birthYear": 1964.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Il film raccoglie storie e gag esilaranti, interpretate dallo stesso Paci insieme agli attori che da anni lavorano con lui. Medici, carabinieri e camerieri sono solo alcuni dei personaggi che si alternano in Non ci resta che ridere, che ha come filo conduttore ci\u00f2 che accomuna tutti i film comici: la risata.",
-    "english": "A group of friends during a normal dinner enjoyed watching various jokes on their smartphones. From that moment a series of sketches began. A movie about jokes from the italian tradition of \u201cbarzellette\u201d."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-02-05",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Alessandro Paci",
+            "slug": "alessandro-paci",
+            "name": "Alessandro Paci",
+            "birthYear": 1964,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt10204704/mediaviewer/rm103179776/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=X43-a1qoW9w"
+    },
+    "synopsis": {
+        "native": "Il film raccoglie storie e gag esilaranti, interpretate dallo stesso Paci insieme agli attori che da anni lavorano con lui. Medici, carabinieri e camerieri sono solo alcuni dei personaggi che si alternano in Non ci resta che ridere, che ha come filo conduttore ci\u00f2 che accomuna tutti i film comici: la risata.",
+        "english": "A group of friends during a normal dinner enjoyed watching various jokes on their smartphones. From that moment a series of sketches began. A movie about jokes from the italian tradition of \u201cbarzellette\u201d."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2019_061_01",
+            "film": "IT2019_061",
+            "person": {
+                "id": "Alessandro Paci",
+                "slug": "alessandro-paci",
+                "name": "Alessandro Paci",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Unknown",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alessandro Paci",
+                "slug": "alessandro-paci",
+                "name": "Alessandro Paci",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Alessandro Paci",
+                "slug": "alessandro-paci",
+                "name": "Alessandro Paci",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "regional identity"
+    ]
 }

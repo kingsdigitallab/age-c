@@ -1,29 +1,35 @@
 {
-  "id": "David Marqu\u00e9s",
-  "type": "Biography",
-  "slug": "david-marques",
-  "name": "David Marqu\u00e9s",
-  "birthYear": 1972,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "ES2022_063",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "es2022-063-en-temporada-baja",
-      "tags": "rural",
-      "title": {
-        "native": "En temporada baja"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "David Marqu\u00e9s",
+    "slug": "david-marques",
+    "name": "David Marqu\u00e9s",
+    "birthYear": 1972,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2022_063",
+                "slug": "es2022-063-en-temporada-baja",
+                "title": {
+                    "native": "En temporada baja",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-11-04",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,29 +1,35 @@
 {
-  "id": "Peter Keller",
-  "type": "Biography",
-  "slug": "peter-keller",
-  "name": "Peter Keller",
-  "nationality": "Germany",
-  "gender": "Unknown",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "DE2022_059",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "de2022-059-nicht-ganz-koscher-eine-gottliche-komodie",
-      "tags": "search for meaning",
-      "title": {
-        "english": "No Name Restaurant",
-        "native": "Nicht ganz koscher: Eine g\u00f6ttliche Kom\u00f6die"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Peter Keller",
+    "slug": "peter-keller",
+    "name": "Peter Keller",
+    "birthYear": 0,
+    "deathYear": 0,
+    "gender": "Unknown",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2022_059",
+                "slug": "de2022-059-nicht-ganz-koscher-eine-gottliche-komodie",
+                "title": {
+                    "native": "Nicht ganz koscher: Eine g\u00f6ttliche Kom\u00f6die",
+                    "english": "No Name Restaurant"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-08-04",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,112 +1,170 @@
 {
-  "id": "GB2022_072",
-  "type": "Film",
-  "slug": "gb2022-072-the-creeping",
-  "title": {
-    "native": "The Creeping"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "First festival screening",
-    "date": "2022-10-28",
-    "year": 2022
-  },
-  "production": [
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=420749",
-    "posterUrl": "https://www.imdb.com/title/tt10929458/mediaviewer/rm1851535617/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Horror"
-  ],
-  "tags": [
-    "independent home",
-    "caregiving",
-    "religion",
-    "interracial relationships",
-    "grandmotherhood",
-    "return home",
-    "dementia",
-    "abuse",
-    "supernatural entity",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Jamie Hooper",
-      "slug": "jamie-hooper",
-      "name": "Jamie Hooper",
-      "gender": "Male identifying",
-      "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2022_072_03",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Peter Macqueen",
-        "slug": "peter-macqueen",
-        "name": "Peter Macqueen",
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "type": "Film",
+    "id": "GB2022_072",
+    "slug": "gb2022-072-the-creeping",
+    "title": {
+        "native": "The Creeping",
+        "english": ""
     },
-    {
-      "id": "GB2022_072_02",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Retired",
-      "ability": "Permanent disability",
-      "assistedMobility": "Yes",
-      "person": {
-        "id": "Jane Lowe",
-        "slug": "jane-lowe",
-        "name": "Jane Lowe",
-        "birthYear": 1943.0,
-        "gender": "Female identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2022-10-28",
+        "year": 2022
     },
-    {
-      "id": "GB2022_072_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "David Horovitch",
-        "slug": "david-horovitch",
-        "name": "David Horovitch",
-        "birthYear": 1945.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "A concerned young woman moves home to look after her ailing grandmother and soon finds herself fighting a malevolent presence with a dark secret."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Jamie Hooper",
+            "slug": "jamie-hooper",
+            "name": "Jamie Hooper",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+        }
+    ],
+    "genre": [
+        "Horror"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt10929458/mediaviewer/rm1851535617/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=420749"
+    },
+    "synopsis": {
+        "native": "A concerned young woman moves home to look after her ailing grandmother and soon finds herself fighting a malevolent presence with a dark secret.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2022_072_01",
+            "film": "GB2022_072",
+            "person": {
+                "id": "David Horovitch",
+                "slug": "david-horovitch",
+                "name": "David Horovitch",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2022_072_02",
+            "film": "GB2022_072",
+            "person": {
+                "id": "Jane Lowe",
+                "slug": "jane-lowe",
+                "name": "Jane Lowe",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Permanent disability",
+            "assistedMobility": "Yes"
+        },
+        {
+            "id": "GB2022_072_03",
+            "film": "GB2022_072",
+            "person": {
+                "id": "Peter Macqueen",
+                "slug": "peter-macqueen",
+                "name": "Peter Macqueen",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "David Horovitch",
+                "slug": "david-horovitch",
+                "name": "David Horovitch",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Jamie Hooper",
+                "slug": "jamie-hooper",
+                "name": "Jamie Hooper",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jane Lowe",
+                "slug": "jane-lowe",
+                "name": "Jane Lowe",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Peter Macqueen",
+                "slug": "peter-macqueen",
+                "name": "Peter Macqueen",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "grandmotherhood",
+        "independent home",
+        "caregiving",
+        "supernatural entity",
+        "return home",
+        "dementia",
+        "religion",
+        "rural",
+        "abuse",
+        "interracial relationships"
+    ]
 }

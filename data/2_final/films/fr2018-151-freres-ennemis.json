@@ -1,47 +1,88 @@
 {
-  "id": "FR2018_151",
-  "type": "Film",
-  "slug": "fr2018-151-freres-ennemis",
-  "title": {
-    "native": "Fr\u00e8res ennemis",
-    "english": "Close Enemies"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-10-03",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=9lKuGyy1diI",
-    "posterUrl": "https://medias.unifrance.org/medias/221/249/195037/format_page/close-enemies.jpg"
-  },
-  "genre": [
-    "Detective Thriller",
-    "Drama"
-  ],
-  "tags": [
-    "urban",
-    "organized crime",
-    "power"
-  ],
-  "director": [
-    {
-      "id": "David Oelhoffen",
-      "slug": "david-oelhoffen",
-      "name": "David Oelhoffen",
-      "birthYear": 1968,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "synopsis": {
-    "native": "Manuel et Driss ont grandi comme deux fr\u00e8res ins\u00e9parables dans la m\u00eame cit\u00e9. Mais aujourd\u2019hui tout les oppose. Manuel est \u00e0 la t\u00eate d\u2019un trafic de drogue, alors que Driss est devenu flic. Quand celui-ci est promu aux Stups, son retour bouleverse les \u00e9quilibres et met Manuel en danger."
-  }
+    "type": "Film",
+    "id": "FR2018_151",
+    "slug": "fr2018-151-freres-ennemis",
+    "title": {
+        "native": "Fr\u00e8res ennemis",
+        "english": "Close Enemies"
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2018-10-03",
+        "year": 2018
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "David Oelhoffen",
+            "slug": "david-oelhoffen",
+            "name": "David Oelhoffen",
+            "birthYear": 1968,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Detective Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/221/249/195037/format_page/close-enemies.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=9lKuGyy1diI"
+    },
+    "synopsis": {
+        "native": "Manuel et Driss ont grandi comme deux fr\u00e8res ins\u00e9parables dans la m\u00eame cit\u00e9. Mais aujourd\u2019hui tout les oppose. Manuel est \u00e0 la t\u00eate d\u2019un trafic de drogue, alors que Driss est devenu flic. Quand celui-ci est promu aux Stups, son retour bouleverse les \u00e9quilibres et met Manuel en danger.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Ahmed Bena\u00efssa",
+                "slug": "ahmed-benaissa",
+                "name": "Ahmed Bena\u00efssa",
+                "birthYear": 1944,
+                "deathYear": 2022,
+                "gender": "Male identifying",
+                "nationality": "Algeria"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "David Oelhoffen",
+                "slug": "david-oelhoffen",
+                "name": "David Oelhoffen",
+                "birthYear": 1968,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Marc Barb\u00e9",
+                "slug": "marc-barbe",
+                "name": "Marc Barb\u00e9",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "power",
+        "organized crime",
+        "urban"
+    ]
 }

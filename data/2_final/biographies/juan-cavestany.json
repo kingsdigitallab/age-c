@@ -1,30 +1,35 @@
 {
-  "id": "Juan Cavestany",
-  "type": "Biography",
-  "slug": "juan-cavestany",
-  "name": "Juan Cavestany",
-  "birthYear": 1967,
-  "nationality": "Spain",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Fantasy",
-      "id": "ES2021_013",
-      "production": {
-        "country": "Spain",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "es2021-013-un-efecto-optico",
-      "tags": "independent home",
-      "title": {
-        "english": "An Optical Illusion",
-        "native": "Un efecto \u00f3ptico"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Juan Cavestany",
+    "slug": "juan-cavestany",
+    "name": "Juan Cavestany",
+    "birthYear": 1967,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2021_013",
+                "slug": "es2021-013-un-efecto-optico",
+                "title": {
+                    "native": "Un efecto \u00f3ptico",
+                    "english": "An Optical Illusion"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-03-26",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

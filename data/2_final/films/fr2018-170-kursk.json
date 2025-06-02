@@ -1,91 +1,183 @@
 {
-  "id": "FR2018_170",
-  "type": "Film",
-  "slug": "fr2018-170-kursk",
-  "title": {
-    "native": "Kursk",
-    "english": "The Command"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-11-07",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "Canada",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2018_170",
+    "slug": "fr2018-170-kursk",
+    "title": {
+        "native": "Kursk",
+        "english": "The Command"
     },
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2018-11-07",
+        "year": 2018
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Thomas Vinterberg",
+            "slug": "thomas-vinterberg",
+            "name": "Thomas Vinterberg",
+            "birthYear": 1969,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Denmark"
+        }
+    ],
+    "genre": [
+        "Action",
+        "Biopic"
+    ],
+    "media": {
+        "posterUrl": "https://fr.web.img2.acsta.net/pictures/18/09/20/10/20/0444908.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=YLlts2u_zio"
     },
-    {
-      "country": "Luxembourg",
-      "share": "Minority coproducer"
+    "synopsis": {
+        "native": "Kursk relate le naufrage du sous-marin nucl\u00e9aire russe K-141 Koursk, survenu en mer de Barents le 12 ao\u00fbt 2000. Tandis qu\u2019\u00e0 bord du navire endommag\u00e9, vingt-trois marins se battent pour survivre, au sol, leurs familles luttent d\u00e9sesp\u00e9r\u00e9ment contre les blocages bureaucratiques qui ne cessent de compromettre l\u2019espoir de les sauver.",
+        "english": "The 2000 K-141 Kursk submarine disaster is followed by governmental negligence. As the sailors fight for survival, their families desperately battle political obstacles and impossible odds to save them."
     },
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
-    },
-    {
-      "country": "Romania",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=YLlts2u_zio",
-    "posterUrl": "https://fr.web.img2.acsta.net/pictures/18/09/20/10/20/0444908.jpg"
-  },
-  "genre": [
-    "Action",
-    "Biopic"
-  ],
-  "tags": [
-    "state institutions",
-    "high rank employment",
-    "power",
-    "superior-employee relationship"
-  ],
-  "director": [
-    {
-      "id": "Thomas Vinterberg",
-      "slug": "thomas-vinterberg",
-      "name": "Thomas Vinterberg",
-      "birthYear": 1969,
-      "gender": "Male identifying",
-      "nationality": "Denmark"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2018_170_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Colin Firth",
-        "slug": "colin-firth",
-        "name": "Colin Firth",
-        "birthYear": 1960.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Kursk relate le naufrage du sous-marin nucl\u00e9aire russe K-141 Koursk, survenu en mer de Barents le 12 ao\u00fbt 2000. Tandis qu\u2019\u00e0 bord du navire endommag\u00e9, vingt-trois marins se battent pour survivre, au sol, leurs familles luttent d\u00e9sesp\u00e9r\u00e9ment contre les blocages bureaucratiques qui ne cessent de compromettre l\u2019espoir de les sauver.",
-    "english": "The 2000 K-141 Kursk submarine disaster is followed by governmental negligence. As the sailors fight for survival, their families desperately battle political obstacles and impossible odds to save them."
-  }
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Luxembourg",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Romania",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Canada",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2018_170_01",
+            "film": "FR2018_170",
+            "person": {
+                "id": "Colin Firth",
+                "slug": "colin-firth",
+                "name": "Colin Firth",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Bjarne Henriksen",
+                "slug": "bjarne-henriksen",
+                "name": "Bjarne Henriksen",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Denmark"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Colin Firth",
+                "slug": "colin-firth",
+                "name": "Colin Firth",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Lars Brygmann",
+                "slug": "lars-brygmann",
+                "name": "Lars Brygmann",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Denmark"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Max von Sydow",
+                "slug": "max-von-sydow",
+                "name": "Max von Sydow",
+                "birthYear": 1929,
+                "deathYear": 2020,
+                "gender": "Male identifying",
+                "nationality": "Sweden"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Miglen Mirtchev",
+                "slug": "miglen-mirtchev",
+                "name": "Miglen Mirtchev",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Bulgaria"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Pernilla August",
+                "slug": "pernilla-august",
+                "name": "Pernilla August",
+                "birthYear": 1958,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Sweden"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": "Peter Simonischek",
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Thomas Vinterberg",
+                "slug": "thomas-vinterberg",
+                "name": "Thomas Vinterberg",
+                "birthYear": 1969,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Denmark"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "high rank employment",
+        "state institutions",
+        "power",
+        "superior-employee relationship"
+    ]
 }

@@ -1,129 +1,209 @@
 {
-  "id": "GB2023_010",
-  "type": "Film",
-  "slug": "gb2023-010-mafia-mamma",
-  "title": {
-    "native": "Mafia Mamma"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "VOD release",
-    "date": "2023-11-24",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "GB2023_010",
+    "slug": "gb2023-010-mafia-mamma",
+    "title": {
+        "native": "Mafia Mamma",
+        "english": ""
     },
-    {
-      "country": "Italy",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2023-11-24",
+        "year": 2023
     },
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.imdb.com/title/tt13923456/?ref_=nv_sr_srsg_0_tt_4_nm_4_in_0_q_Mafia%2520Mamma",
-    "posterUrl": "https://www.imdb.com/title/tt13923456/mediaviewer/rm3759814401/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Crime"
-  ],
-  "tags": [
-    "wealth",
-    "intergenerational friendship",
-    "abuse",
-    "celibacy",
-    "high rank employment",
-    "grief",
-    "independent home",
-    "mentorship",
-    "disability",
-    "grandfatherhood",
-    "homosociality",
-    "burial",
-    "medical treatment",
-    "murder",
-    "superior-employee relationship",
-    "inheritance"
-  ],
-  "director": [
-    {
-      "id": "Catherine Hardwicke",
-      "slug": "catherine-hardwicke",
-      "name": "Catherine Hardwicke",
-      "birthYear": 1955,
-      "gender": "Female identifying",
-      "nationality": "United States of America (the)"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2023_010_02",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Alessandro Bressanello",
-        "slug": "alessandro-bressanello",
-        "name": "Alessandro Bressanello",
-        "birthYear": 1948.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Supporting actor"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Catherine Hardwicke",
+            "slug": "catherine-hardwicke",
+            "name": "Catherine Hardwicke",
+            "birthYear": 1955,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "United States of America (the)"
+        }
+    ],
+    "genre": [
+        "Comedy",
+        "Crime"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt13923456/mediaviewer/rm3759814401/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.imdb.com/title/tt13923456/?ref_=nv_sr_srsg_0_tt_4_nm_4_in_0_q_Mafia%2520Mamma"
     },
-    {
-      "id": "GB2023_010_03",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Dora Romano",
-        "slug": "dora-romano",
-        "name": "Dora Romano",
-        "birthYear": 1955.0,
-        "gender": "Female identifying",
-        "nationality": "Italy"
-      },
-      "role": "Supporting actor"
+    "synopsis": {
+        "native": "An American mom inherits her grandfather's mafia empire in Italy. Guided by the firm's consigliere, she hilariously defies everyone's expectations as the new head of the family business.",
+        "english": ""
     },
-    {
-      "id": "GB2023_010_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Monica Bellucci",
-        "slug": "monica-bellucci",
-        "name": "Monica Bellucci",
-        "birthYear": 1964.0,
-        "gender": "Female identifying",
-        "nationality": "Italy"
-      },
-      "role": "Supporting actor"
-    }
-  ],
-  "synopsis": {
-    "native": "An American mom inherits her grandfather's mafia empire in Italy. Guided by the firm's consigliere, she hilariously defies everyone's expectations as the new head of the family business."
-  }
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Italy",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2023_010_01",
+            "film": "GB2023_010",
+            "person": {
+                "id": "Monica Bellucci",
+                "slug": "monica-bellucci",
+                "name": "Monica Bellucci",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2023_010_02",
+            "film": "GB2023_010",
+            "person": {
+                "id": "Alessandro Bressanello",
+                "slug": "alessandro-bressanello",
+                "name": "Alessandro Bressanello",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2023_010_03",
+            "film": "GB2023_010",
+            "person": {
+                "id": "Dora Romano",
+                "slug": "dora-romano",
+                "name": "Dora Romano",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Alessandro Bressanello",
+                "slug": "alessandro-bressanello",
+                "name": "Alessandro Bressanello",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Bruno Bilotta",
+                "slug": "bruno-bilotta",
+                "name": "Bruno Bilotta",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Catherine Hardwicke",
+                "slug": "catherine-hardwicke",
+                "name": "Catherine Hardwicke",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Dora Romano",
+                "slug": "dora-romano",
+                "name": "Dora Romano",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Duska Visconti",
+                "slug": "duska-visconti",
+                "name": "Duska Visconti",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Monica Bellucci",
+                "slug": "monica-bellucci",
+                "name": "Monica Bellucci",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Supporting actor"
+        }
+    ],
+    "tags": [
+        "burial",
+        "inheritance",
+        "medical treatment",
+        "disability",
+        "murder",
+        "grandfatherhood",
+        "homosociality",
+        "intergenerational friendship",
+        "mentorship",
+        "celibacy",
+        "abuse",
+        "grief",
+        "independent home",
+        "wealth",
+        "high rank employment",
+        "superior-employee relationship"
+    ]
 }

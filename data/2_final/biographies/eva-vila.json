@@ -1,29 +1,39 @@
 {
-  "id": "Eva Vila",
-  "type": "Biography",
-  "slug": "eva-vila",
-  "name": "Eva Vila",
-  "birthYear": 1975,
-  "nationality": "Spain",
-  "gender": "Female identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Drama",
-      "id": "ES2018_045",
-      "production": {
-        "country": "Poland",
-        "share": "Minority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "es2018-045-penelope",
-      "tags": "independent home",
-      "title": {
-        "native": "Pen\u00e9lope"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Eva Vila",
+    "slug": "eva-vila",
+    "name": "Eva Vila",
+    "birthYear": 1975,
+    "deathYear": 0,
+    "gender": "Female identifying",
+    "nationality": "Spain",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "ES2018_045",
+                "slug": "es2018-045-penelope",
+                "title": {
+                    "native": "Pen\u00e9lope",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-09-07",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Poland",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

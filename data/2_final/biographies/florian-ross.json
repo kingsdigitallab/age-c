@@ -1,48 +1,57 @@
 {
-  "id": "Florian Ross",
-  "type": "Biography",
-  "slug": "florian-ross",
-  "name": "Florian Ross",
-  "birthYear": 1982,
-  "nationality": "Germany",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "DE2020_035",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2020
-      },
-      "slug": "de2020-035-takeover",
-      "tags": "urban",
-      "title": {
-        "english": "Takeover",
-        "native": "Takeover"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Romance",
-      "id": "DE2018_022",
-      "production": {
-        "country": "Germany",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2018
-      },
-      "slug": "de2018-022-vielmachglas",
-      "title": {
-        "english": "A Jar Full of Life",
-        "native": "Vielmachglas"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Florian Ross",
+    "slug": "florian-ross",
+    "name": "Florian Ross",
+    "birthYear": 1982,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Germany",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "DE2018_022",
+                "slug": "de2018-022-vielmachglas",
+                "title": {
+                    "native": "Vielmachglas",
+                    "english": "A Jar Full of Life"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2018-03-08",
+                    "year": 2018
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "DE2020_035",
+                "slug": "de2020-035-takeover",
+                "title": {
+                    "native": "Takeover",
+                    "english": "Takeover"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2020-07-02",
+                    "year": 2020
+                },
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

@@ -1,101 +1,182 @@
 {
-  "id": "FR2021_011",
-  "type": "Film",
-  "slug": "fr2021-011-villa-caprice",
-  "title": {
-    "native": "Villa Caprice",
-    "english": "The Case"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2021-06-02",
-    "year": 2021
-  },
-  "production": [
-    {
-      "country": "Belgium",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2021_011",
+    "slug": "fr2021-011-villa-caprice",
+    "title": {
+        "native": "Villa Caprice",
+        "english": "The Case"
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=oyA26IsPOHM",
-    "posterUrl": "https://medias.unifrance.org/medias/124/127/229244/format_page/the-case.jpg"
-  },
-  "genre": [
-    "Courtroom Drama",
-    "Drama"
-  ],
-  "tags": [
-    "wealth",
-    "natural death",
-    "corruption",
-    "fatherhood",
-    "caregiving",
-    "suicide",
-    "self-employment",
-    "lgbtqi",
-    "desire",
-    "celebrity"
-  ],
-  "director": [
-    {
-      "id": "Bernard Stora",
-      "slug": "bernard-stora",
-      "name": "Bernard Stora",
-      "birthYear": 1942,
-      "gender": "Male identifying",
-      "nationality": "France"
-    }
-  ],
-  "character": [
-    {
-      "id": "FR2021_011_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Patrick Bruel",
-        "slug": "patrick-bruel",
-        "name": "Patrick Bruel",
-        "birthYear": 1959.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2021-06-02",
+        "year": 2021
     },
-    {
-      "id": "FR2021_011_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Homosexual",
-      "origin": "White Western European",
-      "class": "Upper class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Niels Arestrup",
-        "slug": "niels-arestrup",
-        "name": "Niels Arestrup",
-        "birthYear": 1949.0,
-        "gender": "Male identifying",
-        "nationality": "France"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "Avocat c\u00e9l\u00e8bre, Luc Germon pense atteindre la cons\u00e9cration lorsque Gilles Fontaine, l'un des patrons les plus puissants de France, lui demande de prendre sa d\u00e9fense. L\u2019homme d\u2019affaires est soup\u00e7onn\u00e9 d'avoir acquis dans des conditions douteuses une magnifique propri\u00e9t\u00e9 sur la C\u00f4te d'Azur, la Villa Caprice. Humili\u00e9 et furieux de s'\u00eatre laiss\u00e9 pi\u00e9ger, Fontaine compte sur l'habilet\u00e9 de Germon pour le tirer de ce mauvais pas. Mais une \u00e9trange relation de pouvoir s'installe bient\u00f4t entre les deux hommes, en principe alli\u00e9s. Qui prendra l'avantage ?",
-    "english": "Luc Germon is a famous lawyer who has nothing to prove. His new client Gilles Fontaine, a powerful business man, is accused of buying a gorgeous property on the French Riviera \u2013 the Villa Caprice \u2013 in a very suspicious way. Trapped, Fontaine relies on Germon\u2019s skills and knowledge to find a way out of this mess. These two men of power should combine forces... But little by little, allies become enemies."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Bernard Stora",
+            "slug": "bernard-stora",
+            "name": "Bernard Stora",
+            "birthYear": 1942,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "France"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Courtroom Drama"
+    ],
+    "media": {
+        "posterUrl": "https://medias.unifrance.org/medias/124/127/229244/format_page/the-case.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=oyA26IsPOHM"
+    },
+    "synopsis": {
+        "native": "Avocat c\u00e9l\u00e8bre, Luc Germon pense atteindre la cons\u00e9cration lorsque Gilles Fontaine, l'un des patrons les plus puissants de France, lui demande de prendre sa d\u00e9fense. L\u2019homme d\u2019affaires est soup\u00e7onn\u00e9 d'avoir acquis dans des conditions douteuses une magnifique propri\u00e9t\u00e9 sur la C\u00f4te d'Azur, la Villa Caprice. Humili\u00e9 et furieux de s'\u00eatre laiss\u00e9 pi\u00e9ger, Fontaine compte sur l'habilet\u00e9 de Germon pour le tirer de ce mauvais pas. Mais une \u00e9trange relation de pouvoir s'installe bient\u00f4t entre les deux hommes, en principe alli\u00e9s. Qui prendra l'avantage ?",
+        "english": "Luc Germon is a famous lawyer who has nothing to prove. His new client Gilles Fontaine, a powerful business man, is accused of buying a gorgeous property on the French Riviera \u2013 the Villa Caprice \u2013 in a very suspicious way. Trapped, Fontaine relies on Germon\u2019s skills and knowledge to find a way out of this mess. These two men of power should combine forces... But little by little, allies become enemies."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Belgium",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "FR2021_011_01",
+            "film": "FR2021_011",
+            "person": {
+                "id": "Niels Arestrup",
+                "slug": "niels-arestrup",
+                "name": "Niels Arestrup",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Homosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "FR2021_011_02",
+            "film": "FR2021_011",
+            "person": {
+                "id": "Patrick Bruel",
+                "slug": "patrick-bruel",
+                "name": "Patrick Bruel",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Bernard Stora",
+                "slug": "bernard-stora",
+                "name": "Bernard Stora",
+                "birthYear": 1942,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": "Eva Darlan",
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Marie-Christine Orry",
+                "slug": "marie-christine-orry",
+                "name": "Marie-Christine Orry",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Michel Bouquet",
+                "slug": "michel-bouquet",
+                "name": "Michel Bouquet",
+                "birthYear": 1925,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Niels Arestrup",
+                "slug": "niels-arestrup",
+                "name": "Niels Arestrup",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Patrick Bruel",
+                "slug": "patrick-bruel",
+                "name": "Patrick Bruel",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Yves Jacques",
+                "slug": "yves-jacques",
+                "name": "Yves Jacques",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Canada"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "self-employment",
+        "wealth",
+        "fatherhood",
+        "suicide",
+        "caregiving",
+        "natural death",
+        "lgbtqi",
+        "desire",
+        "celebrity",
+        "corruption"
+    ]
 }

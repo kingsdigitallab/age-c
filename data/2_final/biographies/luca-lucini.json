@@ -1,30 +1,35 @@
 {
-  "id": "Luca Lucini",
-  "type": "Biography",
-  "slug": "luca-lucini",
-  "name": "Luca Lucini",
-  "birthYear": 1967,
-  "nationality": "Italy",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "IT2023_051",
-      "production": {
-        "country": "Italy",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2023
-      },
-      "slug": "it2023-051-le-mie-ragazze-di-carta",
-      "tags": "religion",
-      "title": {
-        "english": "My Paper Dolls",
-        "native": "Le mie ragazze di carta"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Luca Lucini",
+    "slug": "luca-lucini",
+    "name": "Luca Lucini",
+    "birthYear": 1967,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "Italy",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "IT2023_051",
+                "slug": "it2023-051-le-mie-ragazze-di-carta",
+                "title": {
+                    "native": "Le mie ragazze di carta",
+                    "english": "My Paper Dolls"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2023-07-13",
+                    "year": 2023
+                },
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

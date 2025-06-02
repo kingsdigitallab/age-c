@@ -1,131 +1,235 @@
 {
-  "id": "GB2018_009",
-  "type": "Film",
-  "slug": "gb2018-009-the-wife",
-  "title": {
-    "native": "The Wife"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2018-09-28",
-    "year": 2018
-  },
-  "production": [
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "GB2018_009",
+    "slug": "gb2018-009-the-wife",
+    "title": {
+        "native": "The Wife",
+        "english": ""
     },
-    {
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "share": "Majority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2018-09-28",
+        "year": 2018
     },
-    {
-      "country": "Sweden",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=d81IM0loH7o",
-    "posterUrl": "https://www.imdb.com/title/tt3750872/mediaviewer/rm2858369024/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Thriller",
-    "Drama"
-  ],
-  "tags": [
-    "gender discrimination",
-    "infidelity",
-    "women empowerment",
-    "artistic creation",
-    "motherhood",
-    "personal memory",
-    "fatherhood",
-    "independent home",
-    "wealth",
-    "marriage",
-    "high rank employment",
-    "power",
-    "may-december",
-    "celebrity",
-    "homosociality",
-    "education",
-    "revenge",
-    "festivities"
-  ],
-  "director": [
-    {
-      "id": "Bj\u00f6rn Runge",
-      "slug": "bjorn-runge",
-      "name": "Bj\u00f6rn Runge",
-      "birthYear": 1961,
-      "gender": "Male identifying",
-      "nationality": "Sweden"
-    }
-  ],
-  "character": [
-    {
-      "id": "GB2018_009_01",
-      "age": "3: Third Age (60-75)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White North American",
-      "class": "Upper Middle class",
-      "profession": "Unemployed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Glenn Close",
-        "slug": "glenn-close",
-        "name": "Glenn Close",
-        "birthYear": 1947.0,
-        "gender": "Female identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Leading actor"
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Bj\u00f6rn Runge",
+            "slug": "bjorn-runge",
+            "name": "Bj\u00f6rn Runge",
+            "birthYear": 1961,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Sweden"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Thriller"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt3750872/mediaviewer/rm2858369024/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=d81IM0loH7o"
     },
-    {
-      "id": "GB2018_009_03",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Unknown",
-      "origin": "White North American",
-      "class": "Upper Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Elizabeth McGovern",
-        "slug": "elizabeth-mcgovern",
-        "name": "Elizabeth McGovern",
-        "birthYear": 1961.0,
-        "gender": "Female identifying",
-        "nationality": "United States of America (the)"
-      },
-      "role": "Supporting actor"
+    "synopsis": {
+        "native": "A wife questions her life choices as she travels to Stockholm to see her husband receive the Nobel Prize for Literature.",
+        "english": ""
     },
-    {
-      "id": "GB2018_009_02",
-      "age": "3: Third Age (60-75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Upper Middle class",
-      "profession": "Self-employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Jonathan Pryce",
-        "slug": "jonathan-pryce",
-        "name": "Jonathan Pryce",
-        "birthYear": 1947.0,
-        "gender": "Male identifying",
-        "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "A wife questions her life choices as she travels to Stockholm to see her husband receive the Nobel Prize for Literature."
-  }
+    "production": [
+        {
+            "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Sweden",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "GB2018_009_01",
+            "film": "GB2018_009",
+            "person": {
+                "id": "Glenn Close",
+                "slug": "glenn-close",
+                "name": "Glenn Close",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White North American",
+            "class": "Upper Middle class",
+            "profession": "Unemployed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2018_009_02",
+            "film": "GB2018_009",
+            "person": {
+                "id": "Jonathan Pryce",
+                "slug": "jonathan-pryce",
+                "name": "Jonathan Pryce",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "GB2018_009_03",
+            "film": "GB2018_009",
+            "person": {
+                "id": "Elizabeth McGovern",
+                "slug": "elizabeth-mcgovern",
+                "name": "Elizabeth McGovern",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White North American",
+            "class": "Upper Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Anna Azc\u00e1rate",
+                "slug": "anna-azcarate",
+                "name": "Anna Azc\u00e1rate",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Sweden"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Bj\u00f6rn Runge",
+                "slug": "bjorn-runge",
+                "name": "Bj\u00f6rn Runge",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Sweden"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Elizabeth McGovern",
+                "slug": "elizabeth-mcgovern",
+                "name": "Elizabeth McGovern",
+                "birthYear": 1961,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "person": {
+                "id": "Glenn Close",
+                "slug": "glenn-close",
+                "name": "Glenn Close",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Jan Mybrand",
+                "slug": "jan-mybrand",
+                "name": "Jan Mybrand",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Sweden"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Jonathan Pryce",
+                "slug": "jonathan-pryce",
+                "name": "Jonathan Pryce",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Peter Forbes",
+                "slug": "peter-forbes",
+                "name": "Peter Forbes",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Richard Cordery",
+                "slug": "richard-cordery",
+                "name": "Richard Cordery",
+                "birthYear": 1950,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Minor actor/Cameo"
+        }
+    ],
+    "tags": [
+        "marriage",
+        "artistic creation",
+        "gender discrimination",
+        "education",
+        "infidelity",
+        "may-december",
+        "women empowerment",
+        "revenge",
+        "festivities",
+        "fatherhood",
+        "motherhood",
+        "homosociality",
+        "personal memory",
+        "independent home",
+        "wealth",
+        "high rank employment",
+        "celebrity",
+        "power"
+    ]
 }

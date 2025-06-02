@@ -1,55 +1,73 @@
 {
-  "id": "ES2019_035",
-  "type": "Film",
-  "slug": "es2019-035-sonando-un-lugar",
-  "title": {
-    "native": "So\u00f1ando Un Lugar"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-08-20",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=838493",
-    "posterUrl": "https://www.imdb.com/title/tt10832792/mediaviewer/rm1255969025/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Unknown"
-  ],
-  "tags": [
-    "precarity",
-    "class solidarity",
-    "elderhood (friendship among elders)",
-    "ecology",
-    "cultural memory",
-    "new start",
-    "self-employment",
-    "regional identity",
-    "well-being",
-    "daily routine",
-    "homosociality",
-    "rural"
-  ],
-  "director": [
-    {
-      "id": "Alfonso Kint",
-      "slug": "alfonso-kint",
-      "name": "Alfonso Kint",
-      "birthYear": 1976,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Luc\u00eda y Alfonso viven juntos en Madrid dedicados al mundo del arte. Tras el nacimiento de su hija Greta, y en busca de un cambio, deciden trasladarse a un peque\u00f1o pueblo en medio de un desierto demogr\u00e1fico. A trav\u00e9s de los vecinos, van descubriendo la delicada situaci\u00f3n en la que se encuentra este lugar, motivo que les empuja a reinventarse desde cero. Una visi\u00f3n diferente sobre el presente de estos pueblos y sus inmensas posibilidades; una apuesta que nos plantea la duda de si vivir concentrados en las ciudades es realmente una necesidad o una costumbre dif\u00edcil de cambiar."
-  }
+    "type": "Film",
+    "id": "ES2019_035",
+    "slug": "es2019-035-sonando-un-lugar",
+    "title": {
+        "native": "So\u00f1ando Un Lugar",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-08-20",
+        "year": 2019
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Alfonso Kint",
+            "slug": "alfonso-kint",
+            "name": "Alfonso Kint",
+            "birthYear": 1976,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode",
+        "Unknown"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt10832792/mediaviewer/rm1255969025/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=838493"
+    },
+    "synopsis": {
+        "native": "Luc\u00eda y Alfonso viven juntos en Madrid dedicados al mundo del arte. Tras el nacimiento de su hija Greta, y en busca de un cambio, deciden trasladarse a un peque\u00f1o pueblo en medio de un desierto demogr\u00e1fico. A trav\u00e9s de los vecinos, van descubriendo la delicada situaci\u00f3n en la que se encuentra este lugar, motivo que les empuja a reinventarse desde cero. Una visi\u00f3n diferente sobre el presente de estos pueblos y sus inmensas posibilidades; una apuesta que nos plantea la duda de si vivir concentrados en las ciudades es realmente una necesidad o una costumbre dif\u00edcil de cambiar.",
+        "english": ""
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Alfonso Kint",
+                "slug": "alfonso-kint",
+                "name": "Alfonso Kint",
+                "birthYear": 1976,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "new start",
+        "well-being",
+        "self-employment",
+        "homosociality",
+        "elderhood (friendship among elders)",
+        "cultural memory",
+        "rural",
+        "precarity",
+        "daily routine",
+        "ecology",
+        "regional identity",
+        "class solidarity"
+    ]
 }

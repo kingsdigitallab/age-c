@@ -1,63 +1,91 @@
 {
-  "id": "FR2019_104",
-  "type": "Film",
-  "slug": "fr2019-104-palmyre",
-  "title": {
-    "native": "Palmyre",
-    "english": "Tadmor"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-06-05",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Switzerland",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "FR2019_104",
+    "slug": "fr2019-104-palmyre",
+    "title": {
+        "native": "Palmyre",
+        "english": "Tadmor"
     },
-    {
-      "country": "Lebanon",
-      "share": "Minority coproducer"
+    "release": {
+        "type": "Unknown",
+        "date": "2019-06-05",
+        "year": 2019
     },
-    {
-      "country": "France",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=-OY-8HH9l5s",
-    "posterUrl": "https://fr.web.img2.acsta.net/c_310_420/pictures/19/05/10/09/57/0581960.jpg"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "activism",
-    "collective trauma"
-  ],
-  "director": [
-    {
-      "id": "Monika Borgmann",
-      "slug": "monika-borgmann",
-      "name": "Monika Borgmann",
-      "birthYear": 1963,
-      "gender": "Female identifying",
-      "nationality": "Germany"
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Monika Borgmann",
+            "slug": "monika-borgmann",
+            "name": "Monika Borgmann",
+            "birthYear": 1963,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Germany"
+        },
+        {
+            "id": "Lokman Slim",
+            "slug": "lokman-slim",
+            "name": "Lokman Slim",
+            "birthYear": 1962,
+            "deathYear": 2021,
+            "gender": "Male identifying",
+            "nationality": "Lebanon"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://fr.web.img2.acsta.net/c_310_420/pictures/19/05/10/09/57/0581960.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=-OY-8HH9l5s"
     },
-    {
-      "id": "Lokman Slim",
-      "slug": "lokman-slim",
-      "name": "Lokman Slim",
-      "birthYear": 1962,
-      "deathYear": 2021,
-      "gender": "Male identifying",
-      "nationality": "Lebanon"
-    }
-  ],
-  "synopsis": {
-    "native": "\u00c0 la suite du soul\u00e8vement populaire contre le r\u00e9gime syrien en 2011, un groupe d\u2019anciens d\u00e9tenus libanais d\u00e9cide de rompre le silence sur leurs longues ann\u00e9es pass\u00e9es dans la prison de Palmyre, l\u2019une des plus terribles du r\u00e9gime des Assad.",
-    "english": "A documentary about the life in Tadmor's prison."
-  }
+    "synopsis": {
+        "native": "\u00c0 la suite du soul\u00e8vement populaire contre le r\u00e9gime syrien en 2011, un groupe d\u2019anciens d\u00e9tenus libanais d\u00e9cide de rompre le silence sur leurs longues ann\u00e9es pass\u00e9es dans la prison de Palmyre, l\u2019une des plus terribles du r\u00e9gime des Assad.",
+        "english": "A documentary about the life in Tadmor's prison."
+    },
+    "production": [
+        {
+            "country": "France",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Switzerland",
+            "share": "Minority coproducer"
+        },
+        {
+            "country": "Lebanon",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Lokman Slim",
+                "slug": "lokman-slim",
+                "name": "Lokman Slim",
+                "birthYear": 1962,
+                "deathYear": 2021,
+                "gender": "Male identifying",
+                "nationality": "Lebanon"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Monika Borgmann",
+                "slug": "monika-borgmann",
+                "name": "Monika Borgmann",
+                "birthYear": 1963,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "collective trauma",
+        "activism"
+    ]
 }

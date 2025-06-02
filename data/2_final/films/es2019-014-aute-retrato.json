@@ -1,48 +1,209 @@
 {
-  "id": "ES2019_014",
-  "type": "Film",
-  "slug": "es2019-014-aute-retrato",
-  "title": {
-    "native": "Aute Retrato"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-09-12",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=dY56qcri38U",
-    "posterUrl": "https://www.imdb.com/title/tt10083048/mediaviewer/rm1825477633/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode",
-    "Biopic"
-  ],
-  "tags": [
-    "artistic creation",
-    "physical illness",
-    "elderhood (friendship among elders)",
-    "celebrity"
-  ],
-  "director": [
-    {
-      "id": "Gaizka Urresti",
-      "slug": "gaizka-urresti",
-      "name": "Gaizka Urresti",
-      "birthYear": 1967,
-      "gender": "Male identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Recopilaci\u00f3n de los mejores momentos de Luis Eduardo Aute en sus 50 a\u00f1os de carrera musical y art\u00edstica. Un recorrido por sus distintas facetas creativas y sus bandas sonoras. Toda la vida el artista desvelada por un grupo de testigos, colaboradores y amigos que, a trav\u00e9s de sus testimonios, demuestran el impacto que han tenido sus ic\u00f3nicas canciones sobre la actualidad musical.",
-    "english": "Life, work and achievements about one of the most recognized, talented and versatile artists in the Spain's history: Luis Eduardo Aute."
-  }
+    "type": "Film",
+    "id": "ES2019_014",
+    "slug": "es2019-014-aute-retrato",
+    "title": {
+        "native": "Aute Retrato",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-09-12",
+        "year": 2019
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Gaizka Urresti",
+            "slug": "gaizka-urresti",
+            "name": "Gaizka Urresti",
+            "birthYear": 1967,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Biopic",
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt10083048/mediaviewer/rm1825477633/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=dY56qcri38U"
+    },
+    "synopsis": {
+        "native": "Recopilaci\u00f3n de los mejores momentos de Luis Eduardo Aute en sus 50 a\u00f1os de carrera musical y art\u00edstica. Un recorrido por sus distintas facetas creativas y sus bandas sonoras. Toda la vida el artista desvelada por un grupo de testigos, colaboradores y amigos que, a trav\u00e9s de sus testimonios, demuestran el impacto que han tenido sus ic\u00f3nicas canciones sobre la actualidad musical.",
+        "english": "Life, work and achievements about one of the most recognized, talented and versatile artists in the Spain's history: Luis Eduardo Aute."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Ana Bel\u00e9n",
+                "slug": "ana-belen",
+                "name": "Ana Bel\u00e9n",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Antonio Fraguas 'Forges'",
+                "slug": "antonio-fraguas-forges",
+                "name": "Antonio Fraguas 'Forges'",
+                "birthYear": 1942,
+                "deathYear": 2018,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Borja Casani",
+                "slug": "borja-casani",
+                "name": "Borja Casani",
+                "birthYear": 1952,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Gaizka Urresti",
+                "slug": "gaizka-urresti",
+                "name": "Gaizka Urresti",
+                "birthYear": 1967,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Jaime Ch\u00e1varri",
+                "slug": "jaime-chavarri",
+                "name": "Jaime Ch\u00e1varri",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Jes\u00fas Mun\u00e1rriz",
+                "slug": "jesus-munarriz",
+                "name": "Jes\u00fas Mun\u00e1rriz",
+                "birthYear": 1940,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Joan Manuel Serrat",
+                "slug": "joan-manuel-serrat",
+                "name": "Joan Manuel Serrat",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Joaqu\u00edn Sabina",
+                "slug": "joaquin-sabina",
+                "name": "Joaqu\u00edn Sabina",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Luis Eduardo Aute",
+                "slug": "luis-eduardo-aute",
+                "name": "Luis Eduardo Aute",
+                "birthYear": 1943,
+                "deathYear": 2020,
+                "gender": "Male identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Massiel",
+                "slug": "massiel",
+                "name": "Massiel",
+                "birthYear": 1947,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Pastora Vega",
+                "slug": "pastora-vega",
+                "name": "Pastora Vega",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Rosa Le\u00f3n",
+                "slug": "rosa-leon",
+                "name": "Rosa Le\u00f3n",
+                "birthYear": 1951,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Silvio Rodr\u00edguez",
+                "slug": "silvio-rodriguez",
+                "name": "Silvio Rodr\u00edguez",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Cuba"
+            },
+            "role": "Documentary subject"
+        }
+    ],
+    "tags": [
+        "physical illness",
+        "elderhood (friendship among elders)",
+        "artistic creation",
+        "celebrity"
+    ]
 }

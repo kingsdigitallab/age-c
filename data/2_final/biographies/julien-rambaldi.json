@@ -1,48 +1,61 @@
 {
-  "id": "Julien Rambaldi",
-  "type": "Biography",
-  "slug": "julien-rambaldi",
-  "name": "Julien Rambaldi",
-  "birthYear": 1971,
-  "nationality": "France",
-  "gender": "Male identifying",
-  "director": [
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2021_040",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2021
-      },
-      "slug": "fr2021-040-c-est-la-vie",
-      "tags": "high rank employment",
-      "title": {
-        "english": "Labor Day",
-        "native": "C'est la vie"
-      }
-    },
-    {
-      "filmType": "Fiction film",
-      "genre": "Comedy",
-      "id": "FR2022_169",
-      "production": {
-        "country": "France",
-        "share": "Majority coproducer"
-      },
-      "release": {
-        "type": "Theatrical release",
-        "year": 2022
-      },
-      "slug": "fr2022-169-les-femmes-du-square",
-      "title": {
-        "english": "The Nannies",
-        "native": "Les Femmes du square"
-      }
-    }
-  ]
+    "type": "Person",
+    "id": "Julien Rambaldi",
+    "slug": "julien-rambaldi",
+    "name": "Julien Rambaldi",
+    "birthYear": 1971,
+    "deathYear": 0,
+    "gender": "Male identifying",
+    "nationality": "France",
+    "characters": [],
+    "roles": [
+        {
+            "film": {
+                "id": "FR2021_040",
+                "slug": "fr2021-040-c-est-la-vie",
+                "title": {
+                    "native": "C'est la vie",
+                    "english": "Labor Day"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2021-07-28",
+                    "year": 2021
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "FR2022_169",
+                "slug": "fr2022-169-les-femmes-du-square",
+                "title": {
+                    "native": "Les Femmes du square",
+                    "english": "The Nannies"
+                },
+                "release": {
+                    "type": "Unknown",
+                    "date": "2022-11-16",
+                    "year": 2022
+                },
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ]
+            },
+            "role": "Director of the film"
+        }
+    ]
 }

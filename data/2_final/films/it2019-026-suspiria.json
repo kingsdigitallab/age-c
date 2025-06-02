@@ -1,75 +1,128 @@
 {
-  "id": "IT2019_026",
-  "type": "Film",
-  "slug": "it2019-026-suspiria",
-  "title": {
-    "native": "Suspiria"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2019-01-01",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "IT2019_026",
+    "slug": "it2019-026-suspiria",
+    "title": {
+        "native": "Suspiria",
+        "english": ""
     },
-    {
-      "country": "United States of America (the)",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=BY6QKRl56Ok",
-    "posterUrl": "https://www.imdb.com/title/tt1034415/mediaviewer/rm4196104192/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Fantasy",
-    "Drama",
-    "Thriller",
-    "Horror"
-  ],
-  "tags": [
-    "grayface",
-    "supernatural entity",
-    "collective trauma"
-  ],
-  "director": [
-    {
-      "id": "Luca Guadagnino",
-      "slug": "luca-guadagnino",
-      "name": "Luca Guadagnino",
-      "birthYear": 1971,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2019_026_01",
-      "age": "4: Fourth Age (>75)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Middle class",
-      "profession": "Self-employed",
-      "ability": "Unknown",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Tilda Swinton",
-        "slug": "tilda-swinton",
-        "name": "Tilda Swinton",
-        "birthYear": 1960.0,
-        "gender": "Female identifying",
-        "nationality": "Unknown"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "In un'accademia di danza di fama mondiale si muove una presenza oscura, che inghiottira\u0300 il direttore artistico della troupe, una ballerina ambiziosa e uno psicoterapeuta in lutto. Qualcuno soccombera\u0300 all\u2019incubo. Altri, alla fine, si sveglieranno.",
-    "english": "A darkness swirls at the centre of a world-renowned dance company, one that will engulf the troupe\u2019s artistic director, an ambitious young dancer, and a grieving psychotherapist. Some will succumb to the nightmare. Others will finally wake up."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2019-01-01",
+        "year": 2019
+    },
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Luca Guadagnino",
+            "slug": "luca-guadagnino",
+            "name": "Luca Guadagnino",
+            "birthYear": 1971,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Horror",
+        "Thriller",
+        "Fantasy",
+        "Drama"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt1034415/mediaviewer/rm4196104192/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=BY6QKRl56Ok"
+    },
+    "synopsis": {
+        "native": "In un'accademia di danza di fama mondiale si muove una presenza oscura, che inghiottira\u0300 il direttore artistico della troupe, una ballerina ambiziosa e uno psicoterapeuta in lutto. Qualcuno soccombera\u0300 all\u2019incubo. Altri, alla fine, si sveglieranno.",
+        "english": "A darkness swirls at the centre of a world-renowned dance company, one that will engulf the troupe\u2019s artistic director, an ambitious young dancer, and a grieving psychotherapist. Some will succumb to the nightmare. Others will finally wake up."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "United States of America (the)",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2019_026_01",
+            "film": "IT2019_026",
+            "person": {
+                "id": "Tilda Swinton",
+                "slug": "tilda-swinton",
+                "name": "Tilda Swinton",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Unknown"
+            },
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Unknown",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Ingrid Caven",
+                "slug": "ingrid-caven",
+                "name": "Ingrid Caven",
+                "birthYear": 1938,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Jessica Harper",
+                "slug": "jessica-harper",
+                "name": "Jessica Harper",
+                "birthYear": 1949,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United States of America (the)"
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "person": {
+                "id": "Luca Guadagnino",
+                "slug": "luca-guadagnino",
+                "name": "Luca Guadagnino",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Tilda Swinton",
+                "slug": "tilda-swinton",
+                "name": "Tilda Swinton",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Unknown"
+            },
+            "role": "Leading actor"
+        }
+    ],
+    "tags": [
+        "grayface",
+        "supernatural entity",
+        "collective trauma"
+    ]
 }

@@ -1,93 +1,134 @@
 {
-  "id": "IT2023_042",
-  "type": "Film",
-  "slug": "it2023-042-educazione-fisica",
-  "title": {
-    "native": "Educazione fisica",
-    "english": "Gym class"
-  },
-  "filmType": "Fiction film",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-03-16",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Poland",
-      "share": "Minority coproducer"
+    "type": "Film",
+    "id": "IT2023_042",
+    "slug": "it2023-042-educazione-fisica",
+    "title": {
+        "native": "Educazione fisica",
+        "english": "Gym class"
     },
-    {
-      "country": "Italy",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=8S-nZKcbTvQ",
-    "posterUrl": "https://www.imdb.com/title/tt13968752/mediaviewer/rm734213633/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Comedy",
-    "Drama"
-  ],
-  "tags": [
-    "parenthood",
-    "crime"
-  ],
-  "director": [
-    {
-      "id": "Stefano Cipani",
-      "slug": "stefano-cipani",
-      "name": "Stefano Cipani",
-      "birthYear": 1986,
-      "gender": "Male identifying",
-      "nationality": "Italy"
-    }
-  ],
-  "character": [
-    {
-      "id": "IT2023_042_02",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Female identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Angela Finocchiaro",
-        "slug": "angela-finocchiaro",
-        "name": "Angela Finocchiaro",
-        "birthYear": 1955.0,
-        "gender": "Female identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
+    "release": {
+        "type": "Unknown",
+        "date": "2023-03-16",
+        "year": 2023
     },
-    {
-      "id": "IT2023_042_01",
-      "age": "2: Late Middle Age (55-60)",
-      "gender": "Male identifying",
-      "sexuality": "Heterosexual",
-      "origin": "White Western European",
-      "class": "Lower Middle class",
-      "profession": "Employed",
-      "ability": "Able-bodied",
-      "assistedMobility": "No",
-      "person": {
-        "id": "Sergio Rubini",
-        "slug": "sergio-rubini",
-        "name": "Sergio Rubini",
-        "birthYear": 1959.0,
-        "gender": "Male identifying",
-        "nationality": "Italy"
-      },
-      "role": "Leading actor"
-    }
-  ],
-  "synopsis": {
-    "native": "I genitori di tre alunni vengono convocati dalla preside di una scuola media di provincia: \u00e8 successo un fattaccio, di cui i loro figli sono i responsabili. Ma \u00e8 difficile da credere e da accettare. La palestra si trasforma in un\u2019aula di tribunale improvvisata, dove ha inizio un processo feroce nel tentativo ostinato di smentire e nascondere la verit\u00e0.",
-    "english": "The parents of three students are summoned by the principal of a small-town middle school: a crime has been committed, and their kids are responsible. But the parents struggle to accept the truth. The school\u2019s gym is thus transformed into a makeshift courtroom, where a ferocious trial begins in a stubborn attempt to deny and cover up the truth."
-  }
+    "filmType": "Fiction film",
+    "directors": [
+        {
+            "id": "Stefano Cipani",
+            "slug": "stefano-cipani",
+            "name": "Stefano Cipani",
+            "birthYear": 1986,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Italy"
+        }
+    ],
+    "genre": [
+        "Drama",
+        "Comedy"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt13968752/mediaviewer/rm734213633/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=8S-nZKcbTvQ"
+    },
+    "synopsis": {
+        "native": "I genitori di tre alunni vengono convocati dalla preside di una scuola media di provincia: \u00e8 successo un fattaccio, di cui i loro figli sono i responsabili. Ma \u00e8 difficile da credere e da accettare. La palestra si trasforma in un\u2019aula di tribunale improvvisata, dove ha inizio un processo feroce nel tentativo ostinato di smentire e nascondere la verit\u00e0.",
+        "english": "The parents of three students are summoned by the principal of a small-town middle school: a crime has been committed, and their kids are responsible. But the parents struggle to accept the truth. The school\u2019s gym is thus transformed into a makeshift courtroom, where a ferocious trial begins in a stubborn attempt to deny and cover up the truth."
+    },
+    "production": [
+        {
+            "country": "Italy",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Poland",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [
+        {
+            "id": "IT2023_042_01",
+            "film": "IT2023_042",
+            "person": {
+                "id": "Sergio Rubini",
+                "slug": "sergio-rubini",
+                "name": "Sergio Rubini",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "IT2023_042_02",
+            "film": "IT2023_042",
+            "person": {
+                "id": "Angela Finocchiaro",
+                "slug": "angela-finocchiaro",
+                "name": "Angela Finocchiaro",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
+    "roles": [
+        {
+            "person": {
+                "id": "Angela Finocchiaro",
+                "slug": "angela-finocchiaro",
+                "name": "Angela Finocchiaro",
+                "birthYear": 1955,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Sergio Rubini",
+                "slug": "sergio-rubini",
+                "name": "Sergio Rubini",
+                "birthYear": 1959,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Leading actor"
+        },
+        {
+            "person": {
+                "id": "Stefano Cipani",
+                "slug": "stefano-cipani",
+                "name": "Stefano Cipani",
+                "birthYear": 1986,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "parenthood",
+        "crime"
+    ]
 }

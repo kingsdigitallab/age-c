@@ -1,48 +1,101 @@
 {
-  "id": "DE2023_029",
-  "type": "Film",
-  "slug": "de2023-029-der-maler",
-  "title": {
-    "native": "Der Maler"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "Theatrical release",
-    "date": "2023-03-16",
-    "year": 2023
-  },
-  "production": [
-    {
-      "country": "Germany",
-      "share": "Majority coproducer"
+    "type": "Film",
+    "id": "DE2023_029",
+    "slug": "de2023-029-der-maler",
+    "title": {
+        "native": "Der Maler",
+        "english": ""
     },
-    {
-      "country": "Switzerland",
-      "share": "Minority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.youtube.com/watch?v=hiq117xVOEc&ab_channel=kinofilme",
-    "posterUrl": "https://www.imdb.com/title/tt13678288/mediaviewer/rm1823369473/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Observational mode"
-  ],
-  "tags": [
-    "artistic creation"
-  ],
-  "director": [
-    {
-      "id": "Oliver Hirschbiegel",
-      "slug": "oliver-hirschbiegel",
-      "name": "Oliver Hirschbiegel",
-      "birthYear": 1957,
-      "gender": "Male identifying",
-      "nationality": "Germany"
-    }
-  ],
-  "synopsis": {
-    "native": "Der K\u00fcnstler Albert Oehlen z\u00e4hlt zu den \u201eneuen Wilden\u201c der Kunstszene. Die Vertreter der neoexpressionistischen Malerei zeichnen sich durch eine ausdrucksstarke Pinself\u00fchrung und ironische Bildthematik aus. Der Filmemacher Oliver Hirschbiegel besch\u00e4ftigt sich in seinem Doku-Drama mit dem Schaffen und Werk des Krefelder K\u00fcnstlers, in dem Albert Oehlen (Ben Becker) sowohl \u00fcber seine Kunst im Speziellen als auch die Kunst an sich spricht.",
-    "english": "A one man tour de force depicting artist Albert Oehlen struggling with a painting."
-  }
+    "release": {
+        "type": "Unknown",
+        "date": "2023-03-16",
+        "year": 2023
+    },
+    "filmType": "Documentary",
+    "directors": [
+        {
+            "id": "Oliver Hirschbiegel",
+            "slug": "oliver-hirschbiegel",
+            "name": "Oliver Hirschbiegel",
+            "birthYear": 1957,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Observational mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt13678288/mediaviewer/rm1823369473/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.youtube.com/watch?v=hiq117xVOEc&ab_channel=kinofilme"
+    },
+    "synopsis": {
+        "native": "Der K\u00fcnstler Albert Oehlen z\u00e4hlt zu den \u201eneuen Wilden\u201c der Kunstszene. Die Vertreter der neoexpressionistischen Malerei zeichnen sich durch eine ausdrucksstarke Pinself\u00fchrung und ironische Bildthematik aus. Der Filmemacher Oliver Hirschbiegel besch\u00e4ftigt sich in seinem Doku-Drama mit dem Schaffen und Werk des Krefelder K\u00fcnstlers, in dem Albert Oehlen (Ben Becker) sowohl \u00fcber seine Kunst im Speziellen als auch die Kunst an sich spricht.",
+        "english": "A one man tour de force depicting artist Albert Oehlen struggling with a painting."
+    },
+    "production": [
+        {
+            "country": "Germany",
+            "share": "Majority coproducer"
+        },
+        {
+            "country": "Switzerland",
+            "share": "Minority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Ben Becker",
+                "slug": "ben-becker",
+                "name": "Ben Becker",
+                "birthYear": 1964,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Charlotte Rampling",
+                "slug": "charlotte-rampling",
+                "name": "Charlotte Rampling",
+                "birthYear": 1946,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Gudrun Gut",
+                "slug": "gudrun-gut",
+                "name": "Gudrun Gut",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Germany"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Oliver Hirschbiegel",
+                "slug": "oliver-hirschbiegel",
+                "name": "Oliver Hirschbiegel",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "artistic creation"
+    ]
 }

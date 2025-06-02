@@ -1,48 +1,95 @@
 {
-  "id": "ES2019_034",
-  "type": "Film",
-  "slug": "es2019-034-que-cono-esta-pasando",
-  "title": {
-    "native": "\u00bfQu\u00e9 co\u00f1o est\u00e1 pasando?"
-  },
-  "filmType": "Documentary",
-  "release": {
-    "type": "VOD release",
-    "date": "2019-11-25",
-    "year": 2019
-  },
-  "production": [
-    {
-      "country": "Spain",
-      "share": "Majority coproducer"
-    }
-  ],
-  "media": {
-    "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=676416",
-    "posterUrl": "https://www.imdb.com/title/tt11412566/mediaviewer/rm3663299073/?ref_=tt_ov_i"
-  },
-  "genre": [
-    "Documentary \u2013 Participatory mode"
-  ],
-  "tags": [
-    "gender discrimination",
-    "high rank employment",
-    "women empowerment",
-    "body norms",
-    "activism",
-    "mass media"
-  ],
-  "director": [
-    {
-      "id": "Rosa M\u00e1rquez",
-      "slug": "rosa-marquez",
-      "name": "Rosa M\u00e1rquez",
-      "gender": "Female identifying",
-      "nationality": "Spain"
-    }
-  ],
-  "synopsis": {
-    "native": "Por medio de entrevistas, este documental analiza la desigualdad de g\u00e9nero en Espa\u00f1a, donde el movimiento feminista aspira a cambiar la realidad.",
-    "english": "Despite the achievements made in Spain, real equality between men and women is still far from being achieved."
-  }
+    "type": "Film",
+    "id": "ES2019_034",
+    "slug": "es2019-034-que-cono-esta-pasando",
+    "title": {
+        "native": "\u00bfQu\u00e9 co\u00f1o est\u00e1 pasando?",
+        "english": ""
+    },
+    "release": {
+        "type": "Unknown",
+        "date": "2019-11-25",
+        "year": 2019
+    },
+    "filmType": "Documentary",
+    "directors": [
+        "Marta Jaenes",
+        {
+            "id": "Rosa M\u00e1rquez",
+            "slug": "rosa-marquez",
+            "name": "Rosa M\u00e1rquez",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain"
+        }
+    ],
+    "genre": [
+        "Documentary \u2013 Participatory mode"
+    ],
+    "media": {
+        "posterUrl": "https://www.imdb.com/title/tt11412566/mediaviewer/rm3663299073/?ref_=tt_ov_i",
+        "trailerUrl": "https://www.filmaffinity.com/es/evideos.php?movie_id=676416"
+    },
+    "synopsis": {
+        "native": "Por medio de entrevistas, este documental analiza la desigualdad de g\u00e9nero en Espa\u00f1a, donde el movimiento feminista aspira a cambiar la realidad.",
+        "english": "Despite the achievements made in Spain, real equality between men and women is still far from being achieved."
+    },
+    "production": [
+        {
+            "country": "Spain",
+            "share": "Majority coproducer"
+        }
+    ],
+    "characters": [],
+    "roles": [
+        {
+            "person": {
+                "id": "Lidia Falc\u00f3n",
+                "slug": "lidia-falcon",
+                "name": "Lidia Falc\u00f3n",
+                "birthYear": 1935,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": "Marta Jaenes",
+            "role": "Director of the film"
+        },
+        {
+            "person": {
+                "id": "Rosa Mar\u00eda Calaf",
+                "slug": "rosa-maria-calaf",
+                "name": "Rosa Mar\u00eda Calaf",
+                "birthYear": 1945,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "person": {
+                "id": "Rosa M\u00e1rquez",
+                "slug": "rosa-marquez",
+                "name": "Rosa M\u00e1rquez",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain"
+            },
+            "role": "Director of the film"
+        }
+    ],
+    "tags": [
+        "women empowerment",
+        "gender discrimination",
+        "activism",
+        "high rank employment",
+        "mass media",
+        "body norms"
+    ]
 }
