@@ -155,6 +155,10 @@ article {
 	}
 }
 
+table > * {
+	font-size: 0.8rem;
+}
+
 output {
 	font-size: 90%;
 	opacity: 60%;
@@ -202,6 +206,10 @@ output {
 	display: flex;
 	flex-wrap: wrap;
 	gap: calc(var(--pico-spacing) / 4);
+}
+
+ul.layout-inline li {
+	list-style: none;
 }
 
 .layout-inline *:not(:last-child)::after {
