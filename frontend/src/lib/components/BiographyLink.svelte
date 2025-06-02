@@ -9,7 +9,11 @@
 	<a href={`${base}/biography/${person?.slug}`}>
 		{person?.name}
 		{#if showAgeGender}
-			({person?.birthYear}–{person?.deathYear}, {person?.gender})
+			{#if person.birthYear || person.deathYear}
+				({person?.birthYear || ''}–{person?.deathYear || ''}, {person?.gender || ''})
+			{:else}
+				({person?.gender || ''})
+			{/if}
 		{/if}
 	</a>
 {/if}
