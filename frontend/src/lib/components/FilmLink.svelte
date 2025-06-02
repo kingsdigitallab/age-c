@@ -5,10 +5,14 @@
 	const { film }: { film: Film } = $props();
 </script>
 
-<a href={`${base}/film/${film.slug}`}>
-	{film.title.native}
-	{#if film.title.english}
-		/ {film.title.english}
-	{/if}
-	({film.release.year})
-</a>
+{#if typeof film === 'object'}
+	<a href={`${base}/film/${film.slug}`}>
+		{film.title.native}
+		{#if film.title.english}
+			/ {film.title.english}
+		{/if}
+		({film.release?.year})
+	</a>
+{:else}
+	<span>{film}</span>
+{/if}
