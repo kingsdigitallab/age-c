@@ -5,6 +5,48 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v0.13.0 (2025-06-02)
+
+### Feat
+
+- **person-roles-table**: Add PersonRolesTable component to display roles with film details
+- **film-roles-table**: Add FilmRolesTable component to display actor roles with relevant details
+- **layout**: Keep footer at the bottom of the page
+- **app.css**: Add font size to table elements and remove list style for inline layout
+- **landing**: Add button to link to explore section
+- **styleguide**: Add Cards section
+- **app.css**: Add complementary color variables for charts
+
+### Fix
+
+- **DataInsights**: Add warning comment for local state reference in DataInsights component
+
+### Refactor
+
+- **search-summary**: Update summary stats display to use paragraph and strong tags for better semantics and styling
+- **search-filters**: Adjust max-width for search filters on larger screens
+- **search**: Adjust gap between search filters and page content
+- **search-results-items**: Update rendering logic for films and persons, improve type handling, and role display
+- **filter-link**: Update type definitions and conditional rendering logic
+- **film-link**: Enhance film link component to handle non-object film types and improve year display logic
+- **director-link**: Update type from Director to Person and improve display logic for director information
+- **characters-table**: Enhance type definitions and remove deprecated data
+- **biography**: Improve age and gender display logic
+- **film**: Update film data handling and component structure to incorporate roles and improve type definitions
+- **biography**: Update biography data handling and component structure to support new roles and character data
+- **data**: Update data processing functions to handle new data format
+- **types**: Revise type definitions for Film, Person, Character, and related interfaces
+- **DataInsights**: Simplify header structure
+- **app.css**: Update article border styles and adjust border radius
+- **links**: Update base path handling in multiple components for consistency
+- **FilterLink**: Simplify base path handling in FilterLink component and update references in glossary
+- **FilterLink**: Update base path handling
+- **search**: Wrap SearchResultsComponent and SearchPaginationComponent in an article
+
+### Perf
+
+- **etl**: Restructure data processing functions
+
 ## v0.12.0 (2025-05-30)
 
 ### Feat
