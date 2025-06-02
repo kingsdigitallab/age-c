@@ -274,19 +274,21 @@
 	<article id="skij">
 		<hgroup>
 			<h1>{title}</h1>
-			<ul class="skij-summary-stats">
-				<li>{searchPagination?.total?.toLocaleString()} Records</li>
+			<p class="skij-summary-stats">
+				<span>
+					<strong>{searchPagination?.total?.toLocaleString()}</strong> Total Records
+				</span>
 				{#if summaryStats}
 					{#each summaryStats.buckets as bucket}
 						{@const count = bucket.doc_count}
 						{@const label = bucket.key}
-						<li>
-							{count.toLocaleString()}
+						<small>
+							<strong>{count.toLocaleString()}</strong>
 							{pluralize(label, count)}
-						</li>
+						</small>
 					{/each}
 				{/if}
-			</ul>
+			</p>
 		</hgroup>
 
 		<SearchStatusComponent {isLoading} {isSearching} searchError={searchWorkerError} />
@@ -367,16 +369,11 @@
 		}
 	}
 
-	ul.skij-summary-stats {
+	.skij-summary-stats {
+		align-items: baseline;
 		display: flex;
 		gap: var(--pico-spacing);
-		list-style: none;
 		margin: 0;
-		padding: 0;
-	}
-
-	ul.skij-summary-stats li {
-		list-style: none;
 		padding: 0;
 	}
 </style>
