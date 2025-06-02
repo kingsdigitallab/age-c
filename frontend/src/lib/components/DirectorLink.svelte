@@ -1,10 +1,15 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import type { Director } from '$lib/types';
+	import type { Person } from '$lib/types';
 
-	const { director }: { director: Director } = $props();
+	const { director }: { director: Person } = $props();
 </script>
 
-<a href={`${base}/biography/${director.slug}`}
-	>{director.name} ({director.birthYear}–{director.deathYear}, {director.gender})</a
->
+{#if typeof director === 'object'}
+	<a href={`${base}/biography/${director.slug}`}>
+		{director.name}
+		({director.birthYear || ''}–{director.deathYear || ''}, {director.gender})
+	</a>
+{:else}
+	<span>{director}</span>
+{/if}
