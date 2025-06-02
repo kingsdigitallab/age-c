@@ -1,8 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import BiographyLink from '$lib/components/BiographyLink.svelte';
-	import DirectorLink from '$lib/components/DirectorLink.svelte';
-	import type { Item } from '$lib/types';
+	import type { Film, Item, Person } from '$lib/types';
 
 	const {
 		items,
@@ -17,56 +16,48 @@
 	{#each items as item}
 		{@const itemType = item.type.toLowerCase()}
 		<li>
-			<a href={`${base}/${itemType}/${item.slug}`}><strong>{item.title}</strong></a>
 			{#if itemType === 'film'}
+				{@const film = item as Film}
+				<a href={`${base}/${itemType}/${film.slug}`}><strong>{film.title.join(' / ')}</strong></a>
 				<ul>
-					{#if item?.release?.year}
+					{#if film?.release?.year}
 						<li>
-							<time datetime={item.release.date} class="year">{item.release.year}</time>
+							<time datetime={film.release.date} class="year">{film.release.year}</time>
 						</li>
 					{/if}
-					{#if item?.production?.country}
-						<li>
-							{item.production.country}
-						</li>
-					{/if}
-				</ul>
-				{#if item.director && item.director.length > 0}
-					<ul>
-						<li>Director</li>
-						{#each item.director as director}
+					{#if film?.production}
+						{#each film.production as production}
 							<li>
-								<DirectorLink {director} />
+								{production.country}
 							</li>
 						{/each}
-					</ul>
-				{/if}
-				{#if item.character && item.character.length > 0}
+					{/if}
+				</ul>
+				{#if film.roles && film.roles.length > 0}
+					{@const roles = film.roles}
 					<ul>
-						{#each item.character as character}
-							{@const person = character.person}
-							<li>
-								<BiographyLink {person} />
-							</li>
+						{#each roles as role}
+							{@const person = role.person}
+							{#if person}
+								<li>
+									{#if typeof person === 'object'}
+										<BiographyLink {person} />
+									{:else}
+										{person}
+									{/if}
+								</li>
+							{/if}
 						{/each}
 					</ul>
 				{/if}
 			{:else}
-				{#if item.director && item.director.length > 0}
+				{@const person = item as Person}
+				<a href={`${base}/${itemType}/${person.slug}`}><strong>{person.name}</strong></a>
+				{#if person.roles && person.roles.length > 0}
 					<ul>
-						<li>Director</li>
-						{#each item.director as director}
-							<li>
-								<a href={`${base}/film/${director.slug}`}>{director.title?.native}</a>
-							</li>
-						{/each}
-					</ul>
-				{/if}
-				{#if item.character && item.character.length > 0}
-					<ul>
-						<li>Character</li>
-						{#each item.character as character}
-							{@const film = character.film}
+						<li>Roles</li>
+						{#each person.roles as role}
+							{@const film = role.film}
 							<li>
 								<a href={`${base}/film/${film?.slug}`}>{film?.title?.native} </a>
 							</li>
