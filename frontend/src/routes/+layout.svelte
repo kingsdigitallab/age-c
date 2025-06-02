@@ -98,6 +98,7 @@
 	}
 
 	main {
+		flex-grow: 1;
 		padding-block: var(--pico-spacing);
 	}
 
@@ -108,10 +109,6 @@
 
 	footer a:not(code a) {
 		color: var(--pico-primary-inverse);
-	}
-
-	footer code {
-		--pico-font-family: var(--pico-font-family);
 	}
 
 	footer p {

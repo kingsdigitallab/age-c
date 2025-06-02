@@ -141,6 +141,10 @@ body {
 		var(--age-c-yellow),
 		var(--age-c-purple)
 	);
+
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 article {
