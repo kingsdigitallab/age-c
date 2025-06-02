@@ -2,14 +2,14 @@ import json
 import logging
 from functools import lru_cache
 from pathlib import Path
-from typing import Dict, Union
+from typing import Union
 
 import pandas as pd
 from pandas import DataFrame
 from slugify import slugify
 
 logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+    level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
@@ -21,86 +21,191 @@ FINAL_DIR: Path = DATA_DIR / "2_final"
 
 
 def main() -> None:
-    """Main execution function."""
     try:
-        films_df = combine_films_data()
-        films_df = aggregate_films_data(films_df)
-        films_df = films_df.fillna("")
-        logger.info(f"Aggregated films dataframe with {len(films_df)} rows")
-        save_data(films_df, "films", individual=True)
+        films = process_films()
 
-        biog_df = combine_bio_data()
-        biog_df = aggregate_bio_data(biog_df)
-        biog_df = biog_df.fillna("")
-        logger.info(f"Aggregated biographies dataframe with {len(biog_df)} rows")
-        save_data(biog_df, "biographies", individual=True)
+        with open(INTERIM_DIR / "films.json", "w") as f:
+            json.dump(films, f, indent=4)
 
-        corpus_df = pd.concat([films_df, biog_df], ignore_index=True)
-        corpus_df = corpus_df.fillna("")
-        logger.info(f"Concatenated dataframe with {len(corpus_df)} rows")
-        save_data(corpus_df, "corpus", individual=False)
+        people = process_people()
+
+        with open(INTERIM_DIR / "biographies.json", "w") as f:
+            json.dump(people, f, indent=4)
+
+        films_with_cross_refs, people_with_cross_refs = augment_data(films, people)
+
+        with open(FINAL_DIR / "films.json", "w") as f:
+            json.dump(films_with_cross_refs, f, indent=4)
+
+        (FINAL_DIR / "films").mkdir(parents=True, exist_ok=True)
+
+        for film in films_with_cross_refs:
+            with open(FINAL_DIR / "films" / f"{film['slug']}.json", "w") as f:
+                json.dump(film, f, indent=4)
+
+        with open(FINAL_DIR / "biographies.json", "w") as f:
+            json.dump(people_with_cross_refs, f, indent=4)
+
+        (FINAL_DIR / "biographies").mkdir(parents=True, exist_ok=True)
+
+        for person in people_with_cross_refs:
+            with open(FINAL_DIR / "biographies" / f"{person['slug']}.json", "w") as f:
+                json.dump(person, f, indent=4)
+
+        corpus = films_with_cross_refs + people_with_cross_refs
+
+        with open(FINAL_DIR / "corpus.json", "w") as f:
+            json.dump(corpus, f, indent=4)
     except Exception as e:
-        logger.error(f"Error in main execution: {str(e)}")
+        logger.error(f"Error processing biographical data: {str(e)}")
         raise
 
 
-def combine_films_data() -> DataFrame:
-    """Combine all the films data from the raw files into a single dataframe."""
-    try:
-        main_df = process_main()
+def process_films() -> dict:
+    """Process films data.
 
-        director_df = process_biographies()
-        director_df.columns = [
-            "person_id",
-            "person_name",
-            "birth_year",
-            "death_year",
-            "gender",
-            "person_nat",
-            "slug",
-        ]
-        director_df = director_df.fillna("")
+    Returns:
+        A list of films
+    """
+    characters_df = process_characters_df()
 
-        director_df["director_obj"] = director_df.apply(
-            lambda x: {
-                "id": x["person_id"],
-                "slug": x["slug"],
-                "name": x["person_name"],
-                "birthYear": x["birth_year"],
-                "deathYear": x["death_year"],
-                "gender": x["gender"],
-                "nationality": x["person_nat"],
+    genre_df = load_data(RAW_DIR / f"{FILE_PREFIX}-genre.csv")
+    genre_df["film_genre"] = genre_df.apply(
+        lambda x: expand_code("genre", x["film_genre"]), axis=1
+    )
+
+    mrktg_df = load_data(RAW_DIR / f"{FILE_PREFIX}-mrktg.csv")
+    for col in ["trailer_url", "poster_url", "nat_synopsis", "eng_synopsis"]:
+        mrktg_df[col] = mrktg_df[col].fillna("")
+
+    nat_df = load_data(RAW_DIR / f"{FILE_PREFIX}-nat.csv")
+    nat_df["film_country"] = nat_df.apply(
+        lambda x: expand_code("country", x["film_country"]), axis=1
+    )
+    nat_df["prod_share"] = nat_df.apply(
+        lambda x: expand_code("prod_share", x["prod_share"]), axis=1
+    )
+
+    roles_df = load_data(RAW_DIR / f"{FILE_PREFIX}-role.csv")
+    roles_df["person_id"] = roles_df["person_name"].str.strip()
+    roles_df["role_class"] = roles_df.apply(
+        lambda x: expand_code("role_class", x["role_class"]), axis=1
+    )
+
+    themes_df = load_data(RAW_DIR / f"{FILE_PREFIX}-themes_plots_tags.csv")
+
+    main_df = process_main_df()
+
+    films = {}
+    for _, row in main_df.iterrows():
+        film_id = row["id"]
+
+        characters = characters_df[characters_df["film_id"] == film_id][
+            "character_obj"
+        ].values.tolist()
+
+        production = nat_df[nat_df["film_id"] == film_id][
+            ["film_country", "prod_share"]
+        ].values.tolist()
+
+        roles = roles_df[roles_df["film_id"] == film_id][
+            ["person_id", "role_class"]
+        ].values.tolist()
+
+        tags = themes_df[themes_df["film_id"] == film_id]["tag_name"]
+        if tags.empty:
+            tags = []
+        else:
+            tags = [tag for tag in tags.values.tolist() if not pd.isna(tag)]
+
+        films[film_id] = {
+            "type": "Film",
+            "id": film_id,
+            "slug": row["slug"],
+            "title": {
+                "native": row["nat_title"],
+                "english": row["eng_title"],
             },
-            axis=1,
-        )
+            "release": row["release"],
+            "filmType": row["filmType"],
+            "directors": row["director"],
+            "genre": genre_df[genre_df["film_id"] == film_id]["film_genre"].tolist(),
+            "media": {
+                "posterUrl": get_single_value(
+                    mrktg_df, "film_id", film_id, "poster_url"
+                ),
+                "trailerUrl": get_single_value(
+                    mrktg_df, "film_id", film_id, "trailer_url"
+                ),
+            },
+            "synopsis": {
+                "native": get_single_value(
+                    mrktg_df, "film_id", film_id, "nat_synopsis"
+                ),
+                "english": get_single_value(
+                    mrktg_df, "film_id", film_id, "eng_synopsis"
+                ),
+            },
+            "production": [
+                {
+                    "country": country,
+                    "share": share,
+                }
+                for country, share in production
+            ],
+            "characters": characters,
+            "roles": [
+                {
+                    "person": person,
+                    "role": role,
+                }
+                for person, role in sorted(roles, key=lambda x: x[0])
+            ],
+            "tags": tags,
+        }
 
-        main_df = main_df.merge(
-            director_df[["person_id", "director_obj"]],
-            left_on="director",
-            right_on="person_id",
-            how="left",
-        )
-
-        main_df = main_df.drop(columns=["director", "person_id"])
-        main_df = main_df.rename(columns={"director_obj": "director"})
-
-        character_tags_df = process_characters()
-
-        main_df = main_df.merge(
-            character_tags_df[["film_id", "character_obj"]],
-            left_on="id",
-            right_on="film_id",
-            how="left",
-        )
-        main_df = main_df.rename(columns={"character_obj": "character"})
-
-        return main_df
-    except Exception as e:
-        logger.error(f"Error combining films data: {str(e)}")
-        raise
+    return films
 
 
-def process_main() -> DataFrame:
+def process_characters_df() -> DataFrame:
+    """Process character data.
+
+    Returns:
+        The dataframe with the character data merged
+    """
+    character_tags_df = load_data(RAW_DIR / f"{FILE_PREFIX}-character_tags.csv")
+
+    character_tags_df["person_id"] = character_tags_df["person_id"].fillna("")
+    character_tags_df["person_id"] = character_tags_df["person_id"].str.strip()
+    character_tags_df["character_id"] = character_tags_df["character_id"].fillna("")
+    character_tags_df["character_id"] = character_tags_df["character_id"].str.strip()
+    character_tags_df["ch_age"] = character_tags_df["ch_age"].apply(
+        lambda x: int(x) if x in ["1", "2", "3", "4", "5"] else 5
+    )
+
+    character_tags_df["character_obj"] = character_tags_df.apply(
+        lambda x: {
+            "id": x["character_id"],
+            "film": x["film_id"],
+            "person": x["person_id"],
+            "age": f"{x['ch_age']}: {expand_code('age', x['ch_age'])}",
+            "gender": expand_code("gender", x["ch_gender"]),
+            "sexuality": expand_code("sexuality", x["ch_sexuality"]),
+            "origin": expand_code("origin", x["ch_porigin"]),
+            "class": expand_code("class", x["ch_class"]),
+            "profession": expand_code("professional_status", x["ch_profession"]),
+            "ability": expand_code("ability", x["ch_ability"]),
+            "assistedMobility": expand_code(
+                "assisted_mobility", x["assisted_mobility"]
+            ),
+        },
+        axis=1,
+    )
+
+    return character_tags_df
+
+
+def process_main_df() -> DataFrame:
     """Process main data.
 
     Returns:
@@ -111,25 +216,20 @@ def process_main() -> DataFrame:
     )
 
     main_df["type"] = "Film"
+    main_df["eng_title"] = main_df["eng_title"].fillna("")
+
     main_df["slug"] = main_df.apply(
         lambda x: slugify(f"{x['film_id']}-{x['nat_title']}"), axis=1
     )
-
-    main_df["eng_title"] = main_df["eng_title"].fillna("")
-    main_df["title"] = main_df.apply(
-        lambda x: {
-            "native": x["nat_title"].strip(),
-            "english": x["eng_title"].strip(),
-        },
-        axis=1,
-    )
-    main_df = main_df.drop(columns=["nat_title", "eng_title"])
 
     main_df["release_date"] = pd.to_datetime(
         main_df["release_date"], errors="coerce", format="mixed", cache=True
     )
     main_df["release_year"] = main_df["release_date"].dt.year
     main_df["release_year"] = main_df["release_year"].fillna(0).astype(int)
+    main_df["release_type"] = main_df["release_type"].apply(
+        lambda x: expand_code("release_type", x)
+    )
     main_df["release"] = main_df.apply(
         lambda x: {
             "type": expand_code("release_type", x["release_type"]),
@@ -148,59 +248,8 @@ def process_main() -> DataFrame:
     main_df = main_df.drop(columns=["film_type"])
 
     main_df["director"] = main_df["director"].str.split(", ")
-    main_df = main_df.explode("director")
-    main_df["director"] = main_df["director"].str.strip()
 
-    data_files = [
-        ("genre", ["film_id", "film_genre"]),
-        (
-            "mrktg",
-            [
-                "film_id",
-                "trailer_url",
-                "poster_url",
-                "nat_synopsis",
-                "eng_synopsis",
-            ],
-        ),
-        ("nat", ["film_id", "film_country", "prod_share"]),
-        ("themes_plots_tags", ["film_id", "tag_name"]),
-    ]
-
-    for suffix, columns in data_files:
-        df = load_data(RAW_DIR / f"{FILE_PREFIX}-{suffix}.csv")
-        main_df = main_df.merge(df[columns], on="film_id", how="left")
-        main_df = main_df.fillna("")
-
-    main_df["genre"] = main_df["film_genre"].apply(lambda x: expand_code("genre", x))
-    main_df = main_df.drop(columns=["film_genre"])
-    main_df["media"] = main_df.apply(
-        lambda x: {"trailerUrl": x["trailer_url"], "posterUrl": x["poster_url"]},
-        axis=1,
-    )
-    main_df = main_df.drop(columns=["trailer_url", "poster_url"])
-
-    main_df["synopsis"] = main_df.apply(
-        lambda x: {"native": x["nat_synopsis"], "english": x["eng_synopsis"]},
-        axis=1,
-    )
-    main_df = main_df.drop(columns=["nat_synopsis", "eng_synopsis"])
-
-    main_df["production"] = main_df.apply(
-        lambda x: {
-            "country": expand_code("country", x["film_country"]),
-            "share": expand_code("prod_share", x["prod_share"]),
-        },
-        axis=1,
-    )
-    main_df = main_df.drop(columns=["film_country", "prod_share"])
-
-    main_df = main_df.rename(
-        columns={
-            "film_id": "id",
-            "tag_name": "tags",
-        }
-    )
+    main_df = main_df.rename(columns={"film_id": "id", "tag_name": "tags"})
     main_df = main_df.fillna("")
 
     return main_df
@@ -267,7 +316,63 @@ def expand_code(field: str, code: str) -> str:
     return types.values[0]
 
 
-def process_biographies() -> DataFrame:
+def get_single_value(df: DataFrame, id_column: str, id_value: str, column: str) -> str:
+    """Get the single value from a dataframe for an id."""
+    try:
+        return df[df[id_column] == id_value][column].values[0]
+    except Exception:
+        return ""
+
+
+def process_people() -> dict:
+    """Process people data.
+
+    Returns:
+        A list of people
+    """
+    biog_df = process_biographies_df()
+
+    characters_df = process_characters_df()
+
+    roles_df = load_data(RAW_DIR / f"{FILE_PREFIX}-role.csv")
+    roles_df["person_id"] = roles_df["person_name"].str.strip()
+    roles_df["role_class"] = roles_df.apply(
+        lambda x: expand_code("role_class", x["role_class"]), axis=1
+    )
+
+    people = {}
+    for _, row in biog_df.iterrows():
+        characters = characters_df[characters_df["person_id"] == row["person_id"]][
+            "character_obj"
+        ].values.tolist()
+
+        roles = roles_df[roles_df["person_id"] == row["person_id"]][
+            ["film_id", "role_class"]
+        ].values.tolist()
+
+        people[row["person_id"]] = {
+            "type": "Person",
+            "id": row["person_id"],
+            "slug": row["slug"],
+            "name": row["person_name"],
+            "birthYear": row["birth_year"],
+            "deathYear": row["death_year"],
+            "gender": row["gender"],
+            "nationality": row["person_nat"],
+            "characters": characters,
+            "roles": [
+                {
+                    "film": film,
+                    "role": role,
+                }
+                for film, role in sorted(roles, key=lambda x: x[0])
+            ],
+        }
+
+    return people
+
+
+def process_biographies_df() -> DataFrame:
     """Process biography and nationality data.
 
     Returns:
@@ -297,370 +402,108 @@ def process_biographies() -> DataFrame:
     return biog_df
 
 
-def process_characters() -> DataFrame:
-    """Process character data.
+def augment_data(films: dict, people: dict) -> tuple[list[dict], list[dict]]:
+    """Augment films and people data with cross-references.
 
     Returns:
-        The dataframe with the character data merged
+        The films and people data with cross-references
     """
-    character_tags_df = load_data(RAW_DIR / f"{FILE_PREFIX}-character_tags.csv")
+    films_with_cross_refs = []
+    people_with_cross_refs = []
 
-    character_tags_df["person_id"] = character_tags_df["person_id"].str.strip()
-    character_tags_df["character_id"] = character_tags_df["character_id"].str.strip()
-    character_tags_df["ch_age"] = character_tags_df["ch_age"].apply(
-        lambda x: int(x) if x in ["1", "2", "3", "4", "5"] else 5
-    )
-
-    biog_df = process_biographies()
-
-    role_df = load_data(RAW_DIR / f"{FILE_PREFIX}-role.csv")
-    role_df["person_id"] = role_df["person_name"]
-    role_df["person_id"] = role_df["person_id"].str.strip()
-    role_df["person_name"] = role_df["person_name"].str.strip()
-
-    character_tags_df = character_tags_df.merge(
-        biog_df[
-            [
-                "person_id",
-                "slug",
-                "person_name",
-                "birth_year",
-                "death_year",
-                "gender",
-                "person_nat",
+    for _, film in films.items():
+        logger.debug(f"Processing film: {film.get('id')}")
+        # Process directors
+        if "directors" in film:
+            film["directors"] = [
+                get_person(people, {"person": director})["person"]
+                for director in film["directors"]
             ]
-        ],
-        on="person_id",
-        how="left",
-    )
 
-    missing_biogs = character_tags_df[character_tags_df["person_name"].isna()][
-        "person_id"
-    ].unique()
-    if len(missing_biogs) > 0:
-        logger.warning(f"Missing biography data for character IDs: {missing_biogs}")
+        # Process characters
+        if "characters" in film:
+            film["characters"] = [
+                get_person(people, character) for character in film["characters"]
+            ]
 
-    character_tags_df = character_tags_df.merge(
-        role_df[["film_id", "person_id", "role_class"]],
-        on=["film_id", "person_id"],
-        how="left",
-    )
-    character_tags_df = character_tags_df.fillna("")
+        # Process roles
+        if "roles" in film:
+            film["roles"] = [get_person(people, role) for role in film["roles"]]
 
-    character_tags_df["character_obj"] = character_tags_df.apply(
-        lambda x: {
-            "id": x["character_id"],
-            "age": f"{x['ch_age']}: {expand_code('age', x['ch_age'])}",
-            "gender": expand_code("gender", x["ch_gender"]),
-            "sexuality": expand_code("sexuality", x["ch_sexuality"]),
-            "origin": expand_code("origin", x["ch_porigin"]),
-            "class": expand_code("class", x["ch_class"]),
-            "profession": expand_code("professional_status", x["ch_profession"]),
-            "ability": expand_code("ability", x["ch_ability"]),
-            "assistedMobility": expand_code(
-                "assisted_mobility", x["assisted_mobility"]
-            ),
-            "person": {
-                "id": x["person_id"],
-                "slug": x["slug"],
-                "name": x["person_name"],
-                "birthYear": x["birth_year"],
-                "deathYear": x["death_year"],
-                "gender": x["gender"],
-                "nationality": x["person_nat"],
-            },
-            "role": expand_code("role_class", x["role_class"]),
-        },
-        axis=1,
-    )
+        films_with_cross_refs.append(film)
 
-    return character_tags_df
+    for _, person in people.items():
+        logger.debug(f"Processing person: {person.get('id')}")
+        # Process characters
+        if "characters" in person:
+            person["characters"] = [
+                get_film(films, character) for character in person["characters"]
+            ]
+
+        # Process roles
+        if "roles" in person:
+            person["roles"] = [get_film(films, role) for role in person["roles"]]
+
+        people_with_cross_refs.append(person)
+
+    return films_with_cross_refs, people_with_cross_refs
 
 
-def aggregate_films_data(df: DataFrame) -> DataFrame:
-    """Aggregate data by film ID, creating nested structures for related data."""
-    dict_columns = [
-        "character",
-        "director",
-        "media",
-        "production",
-        "release",
-        "synopsis",
-        "tags",
-        "title",
-    ]
-
-    for column in dict_columns:
-        df[column] = df[column].apply(lambda x: json.dumps(x))
-
-    df = df.drop_duplicates()
-
-    grouped = df.groupby("id")
-
-    result = grouped.agg(
-        {
-            "type": "first",
-            "slug": "first",
-            "title": "first",
-            "filmType": "first",
-            "release": "first",
-            "production": lambda x: list(set(x.dropna().unique())),
-            "media": "first",
-            "genre": lambda x: list(set(x.dropna().unique())),
-            "tags": lambda x: list(set(x.dropna().unique())),
-            "director": lambda x: list(set(x.dropna().unique())),
-            "character": lambda x: list(set(x.dropna().unique())),
-            "synopsis": "first",
-        }
-    ).reset_index()
-
-    for column in dict_columns:
-        if column in ["character", "director", "genre", "production", "tags"]:
-            result[column] = result[column].apply(
-                lambda x: [
-                    json.loads(item)
-                    for item in x
-                    if item and item != "null" and not pd.isna(item)
-                ]
-                if isinstance(x, list)
-                else []
-            )
-            result[column] = result[column].apply(
-                lambda x: [item for item in x if not pd.isna(item)]
-            )
-        else:
-            result[column] = result[column].apply(json.loads)
-
-    return result
-
-
-def save_data(df: DataFrame, name: str, individual: bool = False) -> None:
-    """Save DataFrame to CSV and JSON formats."""
-    try:
-        INTERIM_DIR.mkdir(parents=True, exist_ok=True)
-        FINAL_DIR.mkdir(parents=True, exist_ok=True)
-
-        csv_path = INTERIM_DIR / f"{name}.csv"
-        df.to_csv(csv_path, index=False, sep=",", encoding="utf-8")
-        logger.info(f"Saved CSV to {csv_path}")
-
-        json_path = FINAL_DIR / f"{name}.json"
-
-        records = df.to_dict("records")
-        records = [clean_deep(record) for record in records]
-        with open(json_path, "w", encoding="utf-8") as f:
-            json.dump(records, f, indent=2, default=str)
-
-        logger.info(f"Saved JSON to {json_path}")
-
-        if individual:
-            individual_dir = FINAL_DIR / f"{name}"
-            individual_dir.mkdir(exist_ok=True)
-
-            for _, row in df.iterrows():
-                record = clean_deep(row.to_dict())
-                file_path = individual_dir / f"{row['slug']}.json"
-                with open(file_path, "w", encoding="utf-8") as f:
-                    json.dump(record, f, indent=2, default=str)
-
-            logger.info(f"Saved {len(df)} individual JSON files to {individual_dir}")
-    except Exception as e:
-        logger.error(f"Error saving {name} data: {str(e)}")
-        raise
-
-
-def clean_deep(data: Union[Dict, list]) -> Union[Dict, list]:
-    """Remove empty values from nested dictionaries and lists.
-
-    Empty values are:
-    - None
-    - Empty strings
-    - Empty lists
-    - Empty dictionaries
-    - 0 for numbers
-
-    Args:
-        data: Dictionary or list to clean
+def get_person(people: dict, obj: dict) -> dict:
+    """Get person data from the people dictionary.
 
     Returns:
-        Cleaned dictionary or list with empty values removed
+        The person data without nested objects
     """
-    if isinstance(data, list):
-        return [
-            clean_deep(item) for item in data if item not in (None, 0, 0.0, "", [], {})
-        ]
+    logger.debug(f"Looking up person with key: {obj.get('person')}")
 
-    if isinstance(data, dict):
-        cleaned = {}
+    person = people.get(obj["person"])
 
-        for key, value in data.items():
-            if isinstance(value, (dict, list)):
-                cleaned_value = clean_deep(value)
-                if cleaned_value not in (None, 0, 0.0, "", [], {}):
-                    cleaned[key] = cleaned_value
-            elif value not in (None, 0, 0.0, "", [], {}):
-                cleaned[key] = value
+    if person:
+        person_copy = person.copy()
 
-        return cleaned
+        if "type" in person_copy:
+            del person_copy["type"]
+        if "characters" in person_copy:
+            del person_copy["characters"]
+        if "roles" in person_copy:
+            del person_copy["roles"]
 
-    return data
+        obj["person"] = person_copy
+
+    return obj
 
 
-def combine_bio_data() -> DataFrame:
-    """Combine all the biographies data from the raw files into a single dataframe."""
-    try:
-        biog_df = process_biographies()
-        character_tags_df = process_characters()
+def get_film(films: dict, obj: dict) -> dict:
+    """Get film data from the films dictionary.
 
-        main_df = process_main()
-        main_df = main_df.merge(
-            character_tags_df[
-                ["film_id", "character_id", "person_id", "character_obj"]
-            ],
-            left_on="id",
-            right_on="film_id",
-            how="left",
-        )
-        main_df = main_df.rename(columns={"character_obj": "character"})
-        main_df = main_df.drop(columns=["film_id", "character_id"])
-        main_df["character"] = main_df.apply(
-            lambda x: replace_person_with_film(x), axis=1
-        )
+    Returns:
+        The film data without nested objects
+    """
+    logger.debug(f"Looking up film with key: {obj.get('film')}")
 
-        biog_df = biog_df.merge(
-            main_df[["person_id", "character"]],
-            on="person_id",
-            how="left",
-        )
+    film = films.get(obj["film"])
 
-        main_df = process_main()
-        main_df["directed"] = main_df.apply(
-            lambda x: {
-                "id": x["id"],
-                "slug": x["slug"],
-                "title": x["title"],
-                "filmType": x["filmType"],
-                "genre": x["genre"],
-                "release": {
-                    "type": x["release"]["type"],
-                    "year": x["release"]["year"],
-                },
-                "tags": x["tags"],
-                "production": x["production"],
-            },
-            axis=1,
-        )
+    if film:
+        film_copy = film.copy()
 
-        biog_df = biog_df.merge(
-            main_df[["director", "directed"]],
-            left_on="person_id",
-            right_on="director",
-            how="left",
-        )
-        biog_df = biog_df.drop(columns=["director"])
+        for key in [
+            "type",
+            "characters",
+            "directors",
+            "filmType",
+            "genre",
+            "media",
+            "roles",
+            "synopsis",
+            "tags",
+        ]:
+            if key in film_copy:
+                del film_copy[key]
 
-        biog_df["type"] = "Biography"
-        biog_df = biog_df.rename(
-            columns={
-                "person_id": "id",
-                "person_name": "name",
-                "birth_year": "birthYear",
-                "death_year": "deathYear",
-                "person_nat": "nationality",
-                "directed": "director",
-            }
-        )
+        obj["film"] = film_copy
 
-        return biog_df
-    except Exception as e:
-        logger.error(f"Error combining biographical data: {str(e)}")
-        raise
-
-
-def replace_person_with_film(row: dict) -> dict:
-    """Replace the person object with the film object."""
-    if pd.isna(row["character"]):
-        return {}
-
-    row["character"].pop("person", None)
-    row["character"]["film"] = {
-        "id": row["id"],
-        "slug": row["slug"],
-        "title": row["title"],
-        "filmType": row["filmType"],
-        "genre": row["genre"],
-        "release": {
-            "type": row["release"]["type"],
-            "year": row["release"]["year"],
-        },
-        "tags": row["tags"],
-        "production": row["production"],
-    }
-
-    return row["character"]
-
-
-def aggregate_bio_data(df: DataFrame) -> DataFrame:
-    """Aggregate data by person ID, creating nested structures for related data."""
-    dict_columns = ["character", "director"]
-
-    for column in dict_columns:
-        df[column] = df[column].apply(lambda x: json.dumps(x, sort_keys=True))
-
-    df = df.drop_duplicates()
-
-    grouped = df.groupby("id")
-
-    result = grouped.agg(
-        {
-            "type": "first",
-            "slug": "first",
-            "name": "first",
-            "birthYear": "first",
-            "deathYear": "first",
-            "nationality": "first",
-            "gender": "first",
-            "character": lambda x: list(set(x.dropna().unique())),
-            "director": lambda x: list(set(x.dropna().unique())),
-        }
-    ).reset_index()
-
-    for column in dict_columns:
-        result[column] = result[column].apply(
-            lambda x: [
-                json.loads(item)
-                for item in x
-                if item and item != "null" and not pd.isna(item)
-            ]
-            if isinstance(x, list)
-            else []
-        )
-        result[column] = result[column].apply(
-            lambda x: [
-                item
-                for item in x
-                if (isinstance(item, list) and len(item) > 0) or not pd.isna(item)
-            ]
-        )
-
-    def unique_list(x):
-        if len(x) == 0:
-            return None
-
-        unique_ids = []
-        unique_values = []
-
-        for item in x:
-            if item["id"] not in unique_ids:
-                unique_ids.append(item["id"])
-                unique_values.append(item)
-
-        return unique_values
-
-    for column in dict_columns:
-        result[column] = result[column].apply(unique_list)
-
-    return result
+    return obj
 
 
 if __name__ == "__main__":
