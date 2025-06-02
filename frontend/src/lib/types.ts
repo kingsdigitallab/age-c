@@ -1,57 +1,66 @@
-interface Page {
-	title: string;
-	excerpt: string;
-	tags: string[];
-	content: string;
-}
-
-export interface Director {
-	id: string;
-	slug: string;
-	name: string;
-	birthYear: number;
-	deathYear: number;
-	gender: string;
-	nationality: string;
-	filmType: string;
-	release: Release;
-	production: Production;
-}
-
 export interface Person {
 	id: string;
-	slug: string;
-	name: string;
 	birthYear: number;
 	deathYear: number;
 	gender: string;
+	name: string;
 	nationality: string;
+	slug: string;
 }
 
 export interface Film {
 	id: string;
-	slug: string;
-	title: { native: string; english: string };
+	characters: Character[];
+	directors: Person[];
 	filmType: string;
 	genre: string[];
-	release: Release;
-	tags?: string[];
+	media: Media[];
 	production: Production[];
+	release: Release;
+	roles: Role[];
+	slug: string;
+	synopsis: Synopsis;
+	tags?: string[];
+	title: { native: string; english: string };
+	type: 'Film';
 }
+
 export interface Character {
 	id: string;
-	age: string;
-	gender: string;
-	sexuality: string;
-	origin: string;
-	class: string;
-	profession: string;
 	ability: string;
+	age: string;
 	assistedMobility: string;
-	person?: Person;
+	class: string;
 	film?: Film;
+	gender: string;
+	origin: string;
+	person?: Person;
 	production?: Production;
-	role: string;
+	profession: string;
+	sexuality: string;
+}
+
+export interface Media {
+	trailerUrl?: string;
+	posterUrl?: string;
+}
+
+export interface Person {
+	id: string;
+	birthYear: number;
+	characters?: Character[];
+	deathYear: number;
+	gender: string;
+	name: string;
+	nationality: string;
+	roles?: Role[];
+	slug: string;
+	type: 'Person';
+}
+
+export interface Production {
+	country: string;
+	share: string;
 }
 
 export interface Release {
@@ -60,26 +69,15 @@ export interface Release {
 	year: number;
 }
 
-export interface Production {
-	country: string;
-	share: string;
+export interface Role {
+	film?: Film;
+	person?: Person;
+	role?: string;
 }
 
-export interface Media {
-	trailerUrl?: string;
-	posterUrl?: string;
+export interface Synopsis {
+	native: string;
+	english: string;
 }
 
-export interface Item extends Film {
-	id: string;
-	type: 'film' | 'biography';
-	media: Media;
-	director: Director[];
-	character: Character[];
-	synopsis?: { native: string; english: string };
-	name?: string;
-	birthYear?: string;
-	deathYear?: string;
-	nationality?: string;
-	gender?: string;
-}
+export type Item = Film | Person;
