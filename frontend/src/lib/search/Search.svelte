@@ -347,7 +347,7 @@
 <style>
 	.skij-search-layout {
 		display: flex;
-		gap: var(--pico-spacing);
+		gap: calc(var(--pico-spacing) / 2);
 	}
 
 	@media (max-width: 992px) {
