@@ -1,13 +1,13 @@
 import { dev } from '$app/environment';
 import { base } from '$app/paths';
 import { getData, getFilmData } from '$lib/data';
-import type { Item } from '$lib/types';
+import type { Film } from '$lib/types';
 import { error } from '@sveltejs/kit';
 import type { EntryGenerator, PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async ({ fetch, params: { slug } }) => {
 	try {
-		let film: Item;
+		let film: Film;
 
 		if (dev) {
 			const response = await fetch(`${base}/api/films/${slug}.json`);
@@ -35,5 +35,5 @@ export const load: PageServerLoad = async ({ fetch, params: { slug } }) => {
 export const entries: EntryGenerator = async () => {
 	const films = await getData('films');
 
-	return Array.isArray(films) ? films.map((film: Item) => ({ slug: film.slug })) : [];
+	return Array.isArray(films) ? films.map((film: Film) => ({ slug: film.slug })) : [];
 };

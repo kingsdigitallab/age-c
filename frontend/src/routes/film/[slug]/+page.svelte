@@ -3,18 +3,23 @@
 	import CharactersTable from '$lib/components/CharactersTable.svelte';
 	import DirectorLink from '$lib/components/DirectorLink.svelte';
 	import FilterLink from '$lib/components/FilterLink.svelte';
+	import RolesTable from '$lib/components/FilmRolesTable.svelte';
+	import type { Film } from '$lib/types';
 	import type { PageProps } from './$types';
 
 	const { data }: PageProps = $props();
-	const { film } = data;
+	const { film }: { film: Film } = data;
 
-	const genres = $derived(film?.genre?.sort());
-	const tags = $derived(film?.tags?.sort());
+	const genres = $derived(film?.genre?.sort() || []);
+	const tags = $derived(film?.tags?.sort() || []);
 	const directors = $derived(
-		film?.director?.sort((a, b) => (a?.slug ?? '').localeCompare(b?.slug ?? ''))
+		film?.directors?.sort((a, b) => (a?.slug ?? '').localeCompare(b?.slug ?? ''))
 	);
 	const characters = $derived(
-		film?.character?.sort((a, b) => (a?.person?.name ?? '').localeCompare(b?.person?.name ?? ''))
+		film?.characters?.sort((a, b) => (a?.person?.name ?? '').localeCompare(b?.person?.name ?? ''))
+	);
+	const roles = $derived(
+		film?.roles?.sort((a, b) => (a?.person?.name ?? '').localeCompare(b?.person?.name ?? ''))
 	);
 	const media = $derived(
 		Object.entries(film?.media ?? {})
@@ -83,7 +88,12 @@
 		{/if}
 	</dl>
 
-	{#if characters}
+	{#if roles && roles.length > 0}
+		<h2>Roles</h2>
+		<RolesTable {roles} />
+	{/if}
+
+	{#if characters && characters.length > 0}
 		<h2>Characters</h2>
 		<CharactersTable {characters} />
 	{/if}
