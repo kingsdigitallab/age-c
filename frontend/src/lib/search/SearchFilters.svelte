@@ -195,12 +195,14 @@
 		overflow-y: auto;
 		padding: var(--pico-spacing);
 		min-width: 400px;
+		max-width: 450px;
 		z-index: 10;
 	}
 
 	@media (max-width: 992px) {
 		aside {
 			left: 0;
+			max-width: 90vw;
 			position: fixed;
 			top: 0;
 		}
