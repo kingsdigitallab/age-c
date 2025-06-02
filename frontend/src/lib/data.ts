@@ -1,13 +1,13 @@
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
-import type { Item, Character, Director } from './types';
+import type { Item, Character, Role } from './types';
 
 export async function getSearchData(slug: string) {
 	const data = await getData(slug);
 
 	return data.map((item: Item) => ({
 		...item,
-		title: [item?.title?.native, item?.title?.english, item?.name].filter(Boolean).join(' / '),
+		title: getTitle(item),
 		filmType: getField(item, 'filmType'),
 		releaseType: getField(item, 'release.type'),
 		releaseYear: getField(item, 'release.year'),
@@ -16,15 +16,15 @@ export async function getSearchData(slug: string) {
 		role: getRole(item),
 		gender: getField(item, 'gender'),
 		nationality: getField(item, 'nationality'),
-		characterAbility: item?.character?.map((c) => c?.ability),
-		characterAge: item?.character?.map((c) => c?.age),
-		characterClass: item?.character?.map((c) => c?.class),
-		characterGender: item?.character?.map((c) => c?.gender),
-		characterOrigin: item?.character?.map((c) => c?.origin),
-		characterProfession: item?.character?.map((c) => c?.profession),
-		characterSexuality: item?.character?.map((c) => c?.sexuality),
-		assistedMobility: item?.character?.map((c) => c?.assistedMobility),
-		synopsis: [item?.synopsis?.native, item?.synopsis?.english].filter(Boolean)
+		characterAbility: item?.characters?.map((c) => c?.ability),
+		characterAge: item?.characters?.map((c) => c?.age),
+		characterClass: item?.characters?.map((c) => c?.class),
+		characterGender: item?.characters?.map((c) => c?.gender),
+		characterOrigin: item?.characters?.map((c) => c?.origin),
+		characterProfession: item?.characters?.map((c) => c?.profession),
+		characterSexuality: item?.characters?.map((c) => c?.sexuality),
+		assistedMobility: item?.characters?.map((c) => c?.assistedMobility),
+		synopsis: getSynopsis(item)
 	}));
 }
 
@@ -35,12 +35,20 @@ export async function getData(slug: string) {
 	return data;
 }
 
-const fieldSubpaths: Record<string, { character: string; director: string }> = {
-	filmType: { character: 'film.filmType', director: 'filmType' },
-	'release.type': { character: 'film.release.type', director: 'release.type' },
-	'release.year': { character: 'film.release.year', director: 'release.year' },
-	gender: { character: 'person.gender', director: 'gender' },
-	nationality: { character: 'person.nationality', director: 'nationality' }
+function getTitle(item: Item) {
+	if (item.type === 'Film') {
+		return [item?.title?.native, item?.title?.english].filter(Boolean);
+	}
+
+	return item.name;
+}
+
+const fieldSubpaths: Record<string, { character: string; role: string }> = {
+	filmType: { character: 'film.filmType', role: 'filmType' },
+	'release.type': { character: 'film.release.type', role: 'release.type' },
+	'release.year': { character: 'film.release.year', role: 'release.year' },
+	gender: { character: 'person.gender', role: 'person.gender' },
+	nationality: { character: 'person.nationality', role: 'person.nationality' }
 };
 
 function getField(item: Item, field: string) {
@@ -48,16 +56,16 @@ function getField(item: Item, field: string) {
 
 	const mainValue = getNestedField(item, field);
 	const characterValues = subpaths
-		? (item.character || []).map((c: Character) => getNestedField(c, subpaths.character))
+		? (item.characters || []).map((c: Character) => getNestedField(c, subpaths.character))
 		: [];
-	const directorValues = subpaths
-		? (item.director || []).map((d: Director) => getNestedField(d, subpaths.director))
+	const roleValues = subpaths
+		? (item.roles || []).map((d: Role) => getNestedField(d, subpaths.role))
 		: [];
 
-	return [mainValue, ...characterValues, ...directorValues].filter(Boolean);
+	return [mainValue, ...characterValues, ...roleValues].filter(Boolean);
 }
 
-function getNestedField(obj: Item | Character | Director, path: string) {
+function getNestedField(obj: Item | Character | Role, path: string) {
 	return path.split('.').reduce((acc, part) => {
 		if (acc && typeof acc === 'object' && part in acc) {
 			return acc[part as keyof typeof acc];
@@ -67,29 +75,32 @@ function getNestedField(obj: Item | Character | Director, path: string) {
 }
 
 function getProduction(item: Item, field: 'country' | 'share') {
-	if (!item) {
-		return [];
+	if (item.type === 'Film') {
+		return item.production?.map((p) => p[field]) || [];
 	}
 
-	const mainValue = item.production?.map((p) => p[field]) || [];
-	const characterValues = (item.character || []).flatMap((c) => c.film?.production?.[field]);
-	const directorValues = (item.director || []).flatMap((d) => d.production?.[field]);
+	const characterValues = (item.characters || []).flatMap((c) => c.production?.[field]);
+	const roleValues = (item.roles || []).flatMap((r) => r.film?.production?.[field]);
 
-	return [...new Set([...mainValue, ...characterValues, ...directorValues].filter(Boolean))];
+	return [...new Set([...characterValues, ...roleValues].filter(Boolean))];
 }
 
 function getRole(item: Item) {
 	const roles = [];
 
-	if (item.director) {
-		roles.push('Director of the film');
-	}
-
-	if (item.character) {
-		roles.push(...item.character.map((c) => c.role));
+	if (item.roles) {
+		roles.push(...item.roles.map((r) => r.role));
 	}
 
 	return roles;
+}
+
+function getSynopsis(item: Item) {
+	if (item.type === 'Film') {
+		return [item?.synopsis?.native, item?.synopsis?.english].filter(Boolean);
+	}
+
+	return '';
 }
 
 export async function getFilmData(slug: string) {
