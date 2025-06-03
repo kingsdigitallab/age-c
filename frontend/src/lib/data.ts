@@ -1,6 +1,6 @@
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
-import type { Item, Character, Role } from './types';
+import type { Item, Character, Role, Synopsis } from './types';
 
 export async function getSearchData(slug: string) {
 	const data = await getData(slug);
@@ -24,7 +24,8 @@ export async function getSearchData(slug: string) {
 		characterProfession: item?.characters?.map((c) => c?.profession),
 		characterSexuality: item?.characters?.map((c) => c?.sexuality),
 		assistedMobility: item?.characters?.map((c) => c?.assistedMobility),
-		synopsis: getSynopsis(item)
+		synopsis: getSynopsis(item),
+		text: getText(item)
 	}));
 }
 
@@ -101,6 +102,25 @@ function getSynopsis(item: Item) {
 	}
 
 	return '';
+}
+
+function getText(item: Item) {
+	const text = [];
+
+	if (item.type === 'Film') {
+		for (const field of ['native', 'english']) {
+			const fieldValue = item?.synopsis?.[field as keyof Synopsis];
+			if (fieldValue) {
+				text.push(...fieldValue.split(' '));
+			}
+		}
+	}
+
+	if (item.type === 'Person') {
+		text.push(...item.name.split(' '));
+	}
+
+	return text.map((word) => word.normalize('NFD').replace(/[\u0300-\u036f]/g, ''));
 }
 
 export async function getFilmData(slug: string) {
