@@ -6,7 +6,7 @@
 </script>
 
 {#if typeof director === 'object'}
-	<a href={`${base}/biography/${director.slug}`}>
+	<a href={`${base}/person/${director.slug}`}>
 		{director.name}
 		({director.birthYear || ''}–{director.deathYear || ''}, {director.gender})
 	</a>

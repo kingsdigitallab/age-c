@@ -6,7 +6,7 @@
 </script>
 
 {#if person?.slug}
-	<a href={`${base}/biography/${person?.slug}`}>
+	<a href={`${base}/person/${person?.slug}`}>
 		{person?.name}
 		{#if showAgeGender}
 			{#if person.birthYear || person.deathYear}

@@ -1,5 +1,5 @@
 import { config } from '$lib';
-import { entries as bioEntries } from '../biography/[slug]/+page.server';
+import { entries as bioEntries } from '../person/[slug]/+page.server';
 import { entries as filmEntries } from '../film/[slug]/+page.server';
 import * as sitemap from 'super-sitemap';
 import type { RequestHandler } from './$types';
@@ -14,7 +14,7 @@ export const GET: RequestHandler = async () => {
 		origin: config.siteUrl,
 		paramValues: {
 			'/[slug]': ['about', 'glossary', '_styleguide'],
-			'/biography/[slug]': bioSlugs.map((slug) => slug.slug),
+			'/person/[slug]': bioSlugs.map((slug) => slug.slug),
 			'/film/[slug]': filmSlugs.map((slug) => slug.slug)
 		}
 	});
