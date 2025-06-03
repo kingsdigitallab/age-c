@@ -155,7 +155,7 @@ const searchAggregations = {
 export const searchConfig: SearchConfig = {
 	corpus: {
 		aggregations: searchAggregations,
-		searchableFields: ['title', 'name', 'synopsis', ...Object.keys(searchAggregations)],
+		searchableFields: ['title', 'name', 'text', ...Object.keys(searchAggregations)],
 		sortings: {
 			person_name_asc: {
 				label: 'Person name (A-Z)',
