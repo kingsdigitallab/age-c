@@ -9,12 +9,13 @@
 		VisTooltip,
 		VisXYContainer
 	} from '@unovis/svelte';
-	import { StackedBar, GroupedBar } from '@unovis/ts';
+	import { GroupedBar, StackedBar } from '@unovis/ts';
 	import type { GenericDataRecord } from '@unovis/ts/types';
-	import type { Bucket } from './dataTransforms';
-	import { generateAriaLabel, getData } from './dataTransforms';
 	import pluralize from 'pluralize-esm';
 	import DataInsightsConfig from './DataInsightsConfig.svelte';
+	import DataInsightsTable from './DataInsightsTable.svelte';
+	import type { Bucket } from './dataTransforms';
+	import { generateAriaLabel, getData } from './dataTransforms';
 
 	const {
 		title = 'Data insights',
@@ -210,37 +211,13 @@
 		</section>
 
 		<footer>
-			<details>
-				<summary><strong>Expand to show data used to plot the chart</strong></summary>
-				<section class="overflow-auto">
-					<table class="striped">
-						<thead>
-							<tr>
-								<th>{categoryLabel}</th>
-								<th>{countLabel}</th>
-								{#if selectedGroupByFacet}
-									{#each groupByMetadata.filteredValues as group}
-										<th>{group.key}</th>
-									{/each}
-								{/if}
-							</tr>
-						</thead>
-						<tbody>
-							{#each data as d}
-								<tr>
-									<td>{d.key}</td>
-									<td>{d.doc_count.toLocaleString()}</td>
-									{#if selectedGroupByFacet}
-										{#each groupByMetadata.filteredValues as group}
-											<td>{d[group.key]?.toLocaleString() || 0}</td>
-										{/each}
-									{/if}
-								</tr>
-							{/each}
-						</tbody>
-					</table>
-				</section>
-			</details>
+			<DataInsightsTable
+				{data}
+				{categoryLabel}
+				{countLabel}
+				{selectedGroupByFacet}
+				{groupByMetadata}
+			/>
 		</footer>
 	{/if}
 </article>
