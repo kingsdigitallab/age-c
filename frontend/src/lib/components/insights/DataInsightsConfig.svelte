@@ -44,6 +44,7 @@
 		<select name="plot-type" bind:value={selectedPlotType}>
 			<option value="bar-stacked">Bar - Stacked</option>
 			<option value="bar-grouped">Bar - Grouped</option>
+			<option value="donut">Donut</option>
 		</select>
 	</label>
 </fieldset>
