@@ -4,14 +4,16 @@
 	import {
 		VisAxis,
 		VisBulletLegend,
+		VisGroupedBar,
 		VisStackedBar,
 		VisTooltip,
 		VisXYContainer
 	} from '@unovis/svelte';
-	import { StackedBar } from '@unovis/ts';
+	import { StackedBar, GroupedBar } from '@unovis/ts';
 	import type { GenericDataRecord } from '@unovis/ts/types';
 	import type { Bucket } from './dataTransforms';
 	import { generateAriaLabel, getData } from './dataTransforms';
+	import pluralize from 'pluralize-esm';
 
 	const {
 		title = 'Data insights',
@@ -36,6 +38,7 @@
 	} = $props();
 
 	let selectedFacet = $state(facets?.[0]?.facet);
+	let selectedPlotType = $state('bar-stacked');
 
 	const groupByFacets = $derived([
 		{ facet: '', title: 'None' },
@@ -120,11 +123,24 @@
 		[StackedBar.selectors.bar]: (d: Bucket) => {
 			if (selectedGroupByFacet) {
 				return filteredGroupByFacetValues
-					.map((g) => `${g.key}: ${(d[g.key] as number)?.toLocaleString() || 0}`)
+					.map(
+						(g) =>
+							`${g.key}: ${(d[g.key] as number)?.toLocaleString() || 0} ${pluralize('item', (d[g.key] as number) || 0)}`
+					)
 					.join('<br>');
 			}
 
-			return `${d.key}: ${d.doc_count.toLocaleString()}`;
+			return `${d.key}: ${d.doc_count.toLocaleString()} ${pluralize('item', d.doc_count)}`;
+		},
+		[GroupedBar.selectors.bar]: (d: Bucket) => {
+			if (selectedGroupByFacet) {
+				return filteredGroupByFacetValues
+					.map(
+						(g) =>
+							`${g.key}: ${(d[g.key] as number)?.toLocaleString() || 0} ${pluralize('item', (d[g.key] as number) || 0)}`
+					)
+					.join('<br>');
+			}
 		}
 	});
 </script>
@@ -133,7 +149,9 @@
 	<hgroup>
 		<h2>{title}</h2>
 		{#if searchItems?.length}
-			<DevOnly>{searchItems.length.toLocaleString()} Records</DevOnly>
+			<DevOnly
+				>{searchItems.length.toLocaleString()} {pluralize('record', searchItems.length)}</DevOnly
+			>
 		{/if}
 	</hgroup>
 
@@ -152,6 +170,13 @@
 						{#each facets as facet}
 							<option value={facet.facet}>{facet.title}</option>
 						{/each}
+					</select>
+				</label>
+				<label>
+					Choose the plot type
+					<select name="plot-type" bind:value={selectedPlotType}>
+						<option value="bar-stacked">Bar - Stacked</option>
+						<option value="bar-grouped">Bar - Grouped</option>
 					</select>
 				</label>
 				<label>
@@ -190,13 +215,24 @@
 				preventEmptyDomain={false}
 				ariaLabel={`Visualisation displaying ${visTitle?.toLowerCase()}. ${ariaLabel}`}
 			>
-				<VisStackedBar
-					x={categoryValue}
-					y={countValue}
-					dataStep={1}
-					barPadding={0.2}
-					orientation="horizontal"
-				/>
+				{#if selectedPlotType === 'bar-stacked'}
+					<VisStackedBar
+						x={categoryValue}
+						y={countValue}
+						dataStep={1}
+						barPadding={0.2}
+						orientation="horizontal"
+					/>
+				{/if}
+				{#if selectedPlotType === 'bar-grouped'}
+					<VisGroupedBar
+						x={categoryValue}
+						y={countValue}
+						dataStep={1}
+						barPadding={0.2}
+						orientation="horizontal"
+					/>
+				{/if}
 				<VisAxis type="x" label={countLabel} />
 				<VisAxis
 					type="y"
