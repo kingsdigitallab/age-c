@@ -99,10 +99,6 @@
 		ariaLabel: generateAriaLabel({ data, categoryLabel })
 	});
 
-	const filteredGroupByFacetValues = $derived(
-		selectedGroupByFacetValues.filter((g) => data.some((d) => (d[g.key] as number) > 0))
-	);
-
 	const groupByMetadata = $derived({
 		filteredValues: selectedGroupByFacetValues.filter((g) =>
 			data.some((d) => (d[g.key] as number) > 0)
@@ -244,7 +240,7 @@
 								<th>{categoryLabel}</th>
 								<th>{countLabel}</th>
 								{#if selectedGroupByFacet}
-									{#each filteredGroupByFacetValues as group}
+									{#each groupByMetadata.filteredValues as group}
 										<th>{group.key}</th>
 									{/each}
 								{/if}
@@ -256,7 +252,7 @@
 									<td>{d.key}</td>
 									<td>{d.doc_count.toLocaleString()}</td>
 									{#if selectedGroupByFacet}
-										{#each filteredGroupByFacetValues as group}
+										{#each groupByMetadata.filteredValues as group}
 											<td>{d[group.key]?.toLocaleString() || 0}</td>
 										{/each}
 									{/if}
