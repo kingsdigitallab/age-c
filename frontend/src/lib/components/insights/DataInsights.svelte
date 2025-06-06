@@ -38,7 +38,6 @@
 	} = $props();
 
 	let selectedFacet = $state(facets?.[0]?.facet);
-	let selectedPlotType = $state('bar-stacked');
 
 	const groupByFacets = $derived([
 		{ facet: '', title: 'None' },
@@ -53,6 +52,9 @@
 
 	let selectedGroupByFacet = $state('');
 
+	let selectedPlotType = $state('bar-stacked');
+	const BarComponent = $derived(selectedPlotType === 'bar-stacked' ? VisStackedBar : VisGroupedBar);
+
 	const selectedGroupByFacetValues = $derived(
 		searchAggregations[selectedGroupByFacet]?.buckets || []
 	);
@@ -66,12 +68,6 @@
 			selectedGroupByFacetValues
 		})
 	);
-
-	const staticTitle = $derived(facets.find((facet) => facet.facet === selectedFacet)?.title);
-	const dynamicTitleFn = $derived(
-		facets.find((facet) => facet.facet === selectedFacet)?.dynamicTitle
-	);
-	const visTitle = $derived(dynamicTitleFn?.(data.length) || staticTitle);
 
 	let height = $state(350);
 
@@ -88,41 +84,39 @@
 	const tickValues = $derived(Array.from({ length: categories.length }, (_, i) => i));
 
 	const countLabel = 'Count';
-	const countValue = $derived(getCountValue());
-
-	function getCountValue() {
-		if (selectedGroupByFacet) {
-			const values = selectedGroupByFacetValues.map((g) => {
-				const key = g.key;
-				return (d: Bucket) => {
-					const value = (d[key] as number) || 0;
-					return value;
-				};
-			});
-			return values;
+	const countValue = $derived(() => {
+		if (!selectedGroupByFacet) {
+			return (d: Bucket) => d.doc_count;
 		}
 
-		return (d: Bucket) => d.doc_count;
-	}
+		return selectedGroupByFacetValues.map((g) => (d: Bucket) => (d[g.key] as number) || 0);
+	});
 
-	const ariaLabel = $derived(generateAriaLabel({ data, categoryLabel }));
+	const visMetadata = $derived({
+		title:
+			facets.find((f) => f.facet === selectedFacet)?.dynamicTitle?.(data.length) ||
+			facets.find((f) => f.facet === selectedFacet)?.title,
+		ariaLabel: generateAriaLabel({ data, categoryLabel })
+	});
 
 	const filteredGroupByFacetValues = $derived(
 		selectedGroupByFacetValues.filter((g) => data.some((d) => (d[g.key] as number) > 0))
 	);
 
-	const legendItems = $derived(
-		filteredGroupByFacetValues.map((g) => ({
+	const groupByMetadata = $derived({
+		filteredValues: selectedGroupByFacetValues.filter((g) =>
+			data.some((d) => (d[g.key] as number) > 0)
+		),
+		legendItems: selectedGroupByFacetValues.map((g) => ({
 			name: g.key,
 			inactive: false
 		}))
-	);
+	});
 
-	// Tooltips
 	const triggers = $derived({
 		[StackedBar.selectors.bar]: (d: Bucket) => {
 			if (selectedGroupByFacet) {
-				return filteredGroupByFacetValues
+				return groupByMetadata.filteredValues
 					.map(
 						(g) =>
 							`${g.key}: ${(d[g.key] as number)?.toLocaleString() || 0} ${pluralize('item', (d[g.key] as number) || 0)}`
@@ -134,7 +128,7 @@
 		},
 		[GroupedBar.selectors.bar]: (d: Bucket) => {
 			if (selectedGroupByFacet) {
-				return filteredGroupByFacetValues
+				return groupByMetadata.filteredValues
 					.map(
 						(g) =>
 							`${g.key}: ${(d[g.key] as number)?.toLocaleString() || 0} ${pluralize('item', (d[g.key] as number) || 0)}`
@@ -173,13 +167,6 @@
 					</select>
 				</label>
 				<label>
-					Choose the plot type
-					<select name="plot-type" bind:value={selectedPlotType}>
-						<option value="bar-stacked">Bar - Stacked</option>
-						<option value="bar-grouped">Bar - Grouped</option>
-					</select>
-				</label>
-				<label>
 					Group by
 					<select name="group-by-facet" bind:value={selectedGroupByFacet}>
 						{#each groupByFacets as facet}
@@ -187,11 +174,18 @@
 						{/each}
 					</select>
 				</label>
+				<label>
+					Choose chart type
+					<select name="plot-type" bind:value={selectedPlotType}>
+						<option value="bar-stacked">Bar - Stacked</option>
+						<option value="bar-grouped">Bar - Grouped</option>
+					</select>
+				</label>
 			</fieldset>
 
 			<hgroup>
-				<h3>{visTitle}</h3>
-				<p>{ariaLabel}</p>
+				<h3>{visMetadata.title}</h3>
+				<p>{visMetadata.ariaLabel}</p>
 			</hgroup>
 
 			<DevOnly>
@@ -213,21 +207,12 @@
 				{height}
 				yDomain={domain}
 				preventEmptyDomain={false}
-				ariaLabel={`Visualisation displaying ${visTitle?.toLowerCase()}. ${ariaLabel}`}
+				ariaLabel={`Visualisation displaying ${visMetadata.title?.toLowerCase()}. ${visMetadata.ariaLabel}`}
 			>
-				{#if selectedPlotType === 'bar-stacked'}
-					<VisStackedBar
+				{#if selectedPlotType === 'bar-stacked' || selectedPlotType === 'bar-grouped'}
+					<BarComponent
 						x={categoryValue}
-						y={countValue}
-						dataStep={1}
-						barPadding={0.2}
-						orientation="horizontal"
-					/>
-				{/if}
-				{#if selectedPlotType === 'bar-grouped'}
-					<VisGroupedBar
-						x={categoryValue}
-						y={countValue}
+						y={countValue()}
 						dataStep={1}
 						barPadding={0.2}
 						orientation="horizontal"
@@ -243,7 +228,7 @@
 					{tickValues}
 				/>
 				{#if selectedGroupByFacet}
-					<VisBulletLegend items={legendItems} />
+					<VisBulletLegend items={groupByMetadata.legendItems} />
 				{/if}
 				<VisTooltip {triggers} />
 			</VisXYContainer>
