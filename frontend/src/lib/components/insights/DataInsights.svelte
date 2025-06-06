@@ -14,6 +14,7 @@
 	import type { Bucket } from './dataTransforms';
 	import { generateAriaLabel, getData } from './dataTransforms';
 	import pluralize from 'pluralize-esm';
+	import DataInsightsConfig from './DataInsightsConfig.svelte';
 
 	const {
 		title = 'Data insights',
@@ -37,7 +38,7 @@
 		dataSource: string;
 	} = $props();
 
-	let selectedFacet = $state(facets?.[0]?.facet);
+	let selectedFacet = $state<string>(facets?.[0]?.facet);
 
 	const groupByFacets = $derived([
 		{ facet: '', title: 'None' },
@@ -50,9 +51,9 @@
 			.sort((a, b) => a.title.localeCompare(b.title))
 	]);
 
-	let selectedGroupByFacet = $state('');
+	let selectedGroupByFacet = $state<string>('');
 
-	let selectedPlotType = $state('bar-stacked');
+	let selectedPlotType = $state<string>('bar-stacked');
 	const BarComponent = $derived(selectedPlotType === 'bar-stacked' ? VisStackedBar : VisGroupedBar);
 
 	const selectedGroupByFacetValues = $derived(
@@ -69,7 +70,7 @@
 		})
 	);
 
-	let height = $state(350);
+	let height = $state<number>(350);
 
 	const categoryLabel = $derived(searchConfig[dataSource].aggregations[selectedFacet].title);
 	const categoryValue = $derived((_: GenericDataRecord, i: number) => i);
@@ -149,35 +150,13 @@
 		<p aria-busy="true">Loading...</p>
 	{:else}
 		<section>
-			<fieldset class="grid">
-				<label>
-					Choose what to plot
-					<select
-						name="distribution-facet"
-						bind:value={selectedFacet}
-						onchange={() => (selectedGroupByFacet = groupByFacets?.[0]?.facet)}
-					>
-						{#each facets as facet}
-							<option value={facet.facet}>{facet.title}</option>
-						{/each}
-					</select>
-				</label>
-				<label>
-					Group by
-					<select name="group-by-facet" bind:value={selectedGroupByFacet}>
-						{#each groupByFacets as facet}
-							<option value={facet.facet}>{facet.title}</option>
-						{/each}
-					</select>
-				</label>
-				<label>
-					Choose chart type
-					<select name="plot-type" bind:value={selectedPlotType}>
-						<option value="bar-stacked">Bar - Stacked</option>
-						<option value="bar-grouped">Bar - Grouped</option>
-					</select>
-				</label>
-			</fieldset>
+			<DataInsightsConfig
+				{facets}
+				{groupByFacets}
+				bind:selectedFacet
+				bind:selectedGroupByFacet
+				bind:selectedPlotType
+			/>
 
 			<hgroup>
 				<h3>{visMetadata.title}</h3>
