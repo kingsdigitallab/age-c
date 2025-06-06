@@ -3,6 +3,8 @@
 	import type { Snippet } from 'svelte';
 	import { slide } from 'svelte/transition';
 
+	const HIERARCHY_SEPARATOR = ':::';
+
 	let {
 		show,
 		searchFilters = $bindable({}),
@@ -71,19 +73,19 @@
 	}
 
 	function getBucketTitle(key: string) {
-		if (!key.includes(':::')) {
+		if (!key.includes(HIERARCHY_SEPARATOR)) {
 			return key;
 		}
 
-		return key.split(':::').join(' → ');
+		return key.split(HIERARCHY_SEPARATOR).join(' → ');
 	}
 
 	function getBucketLabel(key: string) {
-		if (!key.includes(':::')) {
+		if (!key.includes(HIERARCHY_SEPARATOR)) {
 			return key;
 		}
 
-		const parts = key.split(':::');
+		const parts = key.split(HIERARCHY_SEPARATOR);
 		const levels = parts.length;
 
 		return `<span class="skij-filter-bucket-label-indent">${'…'.repeat(levels - 1)}</span> ${parts.pop()}`;
@@ -138,11 +140,11 @@
 							<li>
 								<button
 									class="skij-filters-current-filter-button secondary"
-									aria-label="Remove filter {key} with value {value}"
-									title="Remove filter {key} with value {value}"
+									aria-label="Remove filter {key} with value {getBucketTitle(value)}"
+									title="Remove filter {key} with value {getBucketTitle(value)}"
 									onclick={() => handleRemoveFilter(key, value)}
 								>
-									{value}
+									{value.split(HIERARCHY_SEPARATOR).pop()}
 									<span aria-hidden="true">&times;</span>
 								</button>
 							</li>
