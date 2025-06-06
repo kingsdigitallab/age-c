@@ -69,6 +69,25 @@
 			bucket.key.toLowerCase().includes(filterSearchTerms[key].toLowerCase())
 		);
 	}
+
+	function getBucketTitle(key: string) {
+		if (!key.includes(':::')) {
+			return key;
+		}
+
+		return key.split(':::').join(' → ');
+	}
+
+	function getBucketLabel(key: string) {
+		if (!key.includes(':::')) {
+			return key;
+		}
+
+		const parts = key.split(':::');
+		const levels = parts.length;
+
+		return `<span class="skij-filter-bucket-label-indent">${'…'.repeat(levels - 1)}</span> ${parts.pop()}`;
+	}
 </script>
 
 {#if show}
@@ -164,7 +183,7 @@
 							</label>
 							<fieldset>
 								{#each buckets as bucket}
-									<label>
+									<label title={getBucketTitle(bucket.key)}>
 										<input
 											name={key}
 											type="checkbox"
@@ -172,8 +191,9 @@
 											bind:group={searchFilters[key]}
 											onchange={onFiltersChange}
 											disabled={isLoading}
+											aria-label={getBucketTitle(bucket.key)}
 										/>
-										<span>{bucket.key}</span>
+										<span>{@html getBucketLabel(bucket.key)}</span>
 										<small>({bucket.doc_count.toLocaleString()})</small>
 									</label>
 								{/each}
@@ -288,5 +308,9 @@
 
 		background: var(--pico-primary-background);
 		color: var(--pico-primary-inverse);
+	}
+
+	:global(.skij-filter-bucket-label-indent) {
+		white-space: pre;
 	}
 </style>
