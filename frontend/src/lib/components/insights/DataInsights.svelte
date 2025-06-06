@@ -47,8 +47,9 @@
 			}))
 			.sort((a, b) => a.title.localeCompare(b.title))
 	]);
-	// warning: state_referenced_locally
-	let selectedGroupByFacet = $state(groupByFacets?.[0]?.facet);
+
+	let selectedGroupByFacet = $state('');
+
 	const selectedGroupByFacetValues = $derived(
 		searchAggregations[selectedGroupByFacet]?.buckets || []
 	);
