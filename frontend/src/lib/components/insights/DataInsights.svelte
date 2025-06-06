@@ -5,11 +5,13 @@
 		VisAxis,
 		VisBulletLegend,
 		VisGroupedBar,
+		VisNestedDonut,
+		VisSingleContainer,
 		VisStackedBar,
 		VisTooltip,
 		VisXYContainer
 	} from '@unovis/svelte';
-	import { GroupedBar, StackedBar } from '@unovis/ts';
+	import { GroupedBar, NestedDonut, StackedBar } from '@unovis/ts';
 	import type { GenericDataRecord } from '@unovis/ts/types';
 	import pluralize from 'pluralize-esm';
 	import DataInsightsConfig from './DataInsightsConfig.svelte';
@@ -56,6 +58,7 @@
 
 	let selectedPlotType = $state<string>('bar-stacked');
 	const BarComponent = $derived(selectedPlotType === 'bar-stacked' ? VisStackedBar : VisGroupedBar);
+	const DonutComponent = VisNestedDonut;
 
 	const selectedGroupByFacetValues = $derived(
 		searchAggregations[selectedGroupByFacet]?.buckets || []
@@ -111,8 +114,33 @@
 		}))
 	});
 
+	const donutData = $derived(() => {
+		if (!selectedGroupByFacet) {
+			return data.map((d) => ({
+				key: d.key,
+				value: d.doc_count
+			}));
+		}
+
+		return data.flatMap((d) =>
+			groupByMetadata.filteredValues.map((g) => ({
+				group: d.key,
+				subgroup: g.key,
+				value: d[g.key] as number
+			}))
+		);
+	});
+
+	const donutLayers = $derived(() => {
+		if (!selectedGroupByFacet) {
+			return [(d: GenericDataRecord) => d.key];
+		}
+
+		return [(d: GenericDataRecord) => d.group, (d: GenericDataRecord) => d.subgroup];
+	});
+
 	const triggers = $derived({
-		[StackedBar.selectors.bar]: (d: Bucket) => {
+		[GroupedBar.selectors.bar]: (d: Bucket) => {
 			if (selectedGroupByFacet) {
 				return groupByMetadata.filteredValues
 					.map(
@@ -124,7 +152,7 @@
 
 			return `${d.key}: ${d.doc_count.toLocaleString()} ${pluralize('item', d.doc_count)}`;
 		},
-		[GroupedBar.selectors.bar]: (d: Bucket) => {
+		[StackedBar.selectors.bar]: (d: Bucket, i: number) => {
 			if (selectedGroupByFacet) {
 				return groupByMetadata.filteredValues
 					.map(
@@ -133,6 +161,15 @@
 					)
 					.join('<br>');
 			}
+
+			return `${d.key}: ${d.doc_count.toLocaleString()} ${pluralize('item', d.doc_count)}`;
+		},
+		[NestedDonut.selectors.segment]: (d: GenericDataRecord) => {
+			if (selectedGroupByFacet) {
+				return `${d.data.root} → ${d.data.key}: ${d.value.toLocaleString()} ${pluralize('item', d.value)}`;
+			}
+
+			return `${d.data.key}: ${d.value.toLocaleString()} ${pluralize('item', d.value)}`;
 		}
 	});
 </script>
@@ -170,7 +207,7 @@
 					<input
 						type="range"
 						min="200"
-						max="600"
+						max="800"
 						bind:value={height}
 						aria-label="Adjust chart height"
 					/>
@@ -178,36 +215,49 @@
 				</label>
 			</DevOnly>
 
-			<VisXYContainer
-				{data}
-				{height}
-				yDomain={domain}
-				preventEmptyDomain={false}
-				ariaLabel={`Visualisation displaying ${visMetadata.title?.toLowerCase()}. ${visMetadata.ariaLabel}`}
-			>
-				{#if selectedPlotType === 'bar-stacked' || selectedPlotType === 'bar-grouped'}
-					<BarComponent
-						x={categoryValue}
-						y={countValue()}
-						dataStep={1}
-						barPadding={0.2}
-						orientation="horizontal"
+			{#if selectedPlotType === 'donut'}
+				<VisSingleContainer data={donutData()} height={height * 2}>
+					<DonutComponent
+						layers={donutLayers()}
+						value={(d: GenericDataRecord) => d.value}
+						centerLabel={visMetadata.title}
+						direction="outwards"
+						layerPadding={10}
 					/>
-				{/if}
-				<VisAxis type="x" label={countLabel} />
-				<VisAxis
-					type="y"
-					label={categoryLabel}
-					gridLine={false}
-					{numTicks}
-					{tickFormat}
-					{tickValues}
-				/>
-				{#if selectedGroupByFacet}
-					<VisBulletLegend items={groupByMetadata.legendItems} />
-				{/if}
-				<VisTooltip {triggers} />
-			</VisXYContainer>
+					<VisTooltip {triggers} />
+				</VisSingleContainer>
+			{:else}
+				<VisXYContainer
+					{data}
+					{height}
+					yDomain={domain}
+					preventEmptyDomain={false}
+					ariaLabel={`Visualisation displaying ${visMetadata.title?.toLowerCase()}. ${visMetadata.ariaLabel}`}
+				>
+					{#if selectedPlotType === 'bar-stacked' || selectedPlotType === 'bar-grouped'}
+						<BarComponent
+							x={categoryValue}
+							y={countValue()}
+							dataStep={1}
+							barPadding={0.2}
+							orientation="horizontal"
+						/>
+					{/if}
+					<VisAxis type="x" label={countLabel} />
+					<VisAxis
+						type="y"
+						label={categoryLabel}
+						gridLine={false}
+						{numTicks}
+						{tickFormat}
+						{tickValues}
+					/>
+					{#if selectedGroupByFacet}
+						<VisBulletLegend items={groupByMetadata.legendItems} />
+					{/if}
+					<VisTooltip {triggers} />
+				</VisXYContainer>
+			{/if}
 		</section>
 
 		<footer>
