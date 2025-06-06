@@ -1,6 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
-import type { Item, Character, Role, Synopsis } from './types';
+import tags from './data/tags.json';
+import type { Character, Item, Role, Synopsis } from './types';
 
 export async function getSearchData(slug: string) {
 	const data = await getData(slug);
@@ -25,7 +26,8 @@ export async function getSearchData(slug: string) {
 		characterSexuality: item?.characters?.map((c) => c?.sexuality),
 		assistedMobility: item?.characters?.map((c) => c?.assistedMobility),
 		synopsis: getSynopsis(item),
-		text: getText(item)
+		text: getText(item),
+		tags: getTags(item)
 	}));
 }
 
@@ -121,6 +123,26 @@ function getText(item: Item) {
 	}
 
 	return text.map((word) => word.normalize('NFD').replace(/[\u0300-\u036f]/g, ''));
+}
+
+function getTags(item: Item) {
+	const itemTags = [];
+
+	if (item.type === 'Film' && item?.tags) {
+		for (const tag of item.tags) {
+			const parts = tags[tag as keyof typeof tags];
+
+			if (parts) {
+				for (let idx = 0; idx < parts.length; idx++) {
+					itemTags.push(parts.slice(0, idx + 1).join(':::'));
+				}
+
+				itemTags.push(`${parts.join(':::')}:::${tag}`);
+			}
+		}
+	}
+
+	return itemTags.filter(Boolean);
 }
 
 export async function getFilmData(slug: string) {
