@@ -33,42 +33,11 @@ export function getData({
 		const groupTotals = Object.fromEntries(selectedGroupByFacetValues.map((g) => [g.key, 0]));
 
 		data = data.map((d) => {
-			const items = searchItems?.filter((item) => {
-				const facetValue = item[selectedFacet as keyof Item];
-
-				if (Array.isArray(facetValue)) {
-					return (
-						facetValue?.includes(d.key) ||
-						facetValue?.includes(Number.parseInt(d.key)) ||
-						facetValue?.includes(Number.parseFloat(d.key))
-					);
-				}
-
-				if (typeof facetValue === 'number') {
-					return facetValue === Number.parseInt(d.key);
-				}
-
-				return facetValue === d.key;
-			});
+			const items = searchItems?.filter((item) => matchesFacetValue(item, selectedFacet, d.key));
 
 			const groupCounts = selectedGroupByFacetValues.map((g) => {
 				const doc_count =
-					items?.filter((item) => {
-						const facetValue = item[selectedGroupByFacet as keyof Item];
-						if (Array.isArray(facetValue)) {
-							return (
-								facetValue?.includes(g.key) ||
-								facetValue?.includes(Number.parseInt(g.key)) ||
-								facetValue?.includes(Number.parseFloat(g.key))
-							);
-						}
-
-						if (typeof facetValue === 'number') {
-							return facetValue === Number.parseInt(g.key);
-						}
-
-						return facetValue === g.key;
-					}).length || 0;
+					items?.filter((item) => matchesFacetValue(item, selectedGroupByFacet, g.key)).length || 0;
 
 				return { key: g.key, doc_count };
 			});
@@ -101,6 +70,24 @@ export function getData({
 	}
 
 	return data;
+}
+
+function matchesFacetValue(item: Item, facetKey: string, value: string): boolean {
+	const facetValue = item[facetKey as keyof Item];
+
+	if (Array.isArray(facetValue)) {
+		return (
+			facetValue?.includes(value) ||
+			facetValue?.includes(Number.parseInt(value)) ||
+			facetValue?.includes(Number.parseFloat(value))
+		);
+	}
+
+	if (typeof facetValue === 'number') {
+		return facetValue === Number.parseInt(value);
+	}
+
+	return facetValue === value;
 }
 
 export function generateAriaLabel({ data, categoryLabel }: GenerateAriaLabelParams): string {
