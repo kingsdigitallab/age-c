@@ -5,6 +5,38 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v0.14.0 (2025-06-07)
+
+### Feat
+
+- **data-insights**: Added nested donut chart visualisation
+- **data-insights**: Add donut plot type option to DataInsightsConfig
+- **app.css**: Add font size variable for nested donut segment labels
+- **data-insights**: Add DataInsightsTable component
+- **data-insights**: Add DataInsightsConfig component
+- **data-insights**: Add plot type selection and support for grouped bar charts
+- **search-filters**: Add support for hierarchical bucket values
+- **app.css**: Add table styling for nested lists
+- **data**: Implement getTags function to extract and format tags for films
+- **data**: Add new tags.json file with tags hierarchy
+- **data**: Add 'text' field to search data
+
+### Fix
+
+- **etl**: Ensure release type is only expanded once
+- **data-insights**: Init selectedGroupByFacet with an empty string
+
+### Refactor
+
+- **data-insights**: Adjust height of donut chart
+- **search-filters**: Replace hardcoded hierarchy separator with a constant
+- **glossary**: Update filter links to include hierarchical tag structure
+- **data-insights**: Extract facet value matching logic into a separate function
+- **data-insights**: Remove redundant derived state `filteredGroupByFacetValues`
+- **data-insights**: Simplify plot type handling and improve metadata management
+- **index**: Add field 'text' to searchable fields
+- Rename biography routes to person
+
 ## v0.13.0 (2025-06-02)
 
 ### Feat
