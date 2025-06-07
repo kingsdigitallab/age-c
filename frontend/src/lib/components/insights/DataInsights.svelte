@@ -216,7 +216,7 @@
 			</DevOnly>
 
 			{#if selectedPlotType === 'donut'}
-				<VisSingleContainer data={donutData()} height={height * 2}>
+				<VisSingleContainer data={donutData()} height={height * 1.5}>
 					<DonutComponent
 						layers={donutLayers()}
 						value={(d: GenericDataRecord) => d.value}
