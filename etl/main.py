@@ -232,7 +232,7 @@ def process_main_df() -> DataFrame:
     )
     main_df["release"] = main_df.apply(
         lambda x: {
-            "type": expand_code("release_type", x["release_type"]),
+            "type": x["release_type"],
             "date": x["release_date"].strftime("%Y-%m-%d")
             if pd.notnull(x["release_date"])
             else None,
