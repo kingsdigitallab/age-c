@@ -90,11 +90,11 @@
 
 	const countLabel = 'Count';
 	const countValue = $derived(() => {
-		if (!selectedGroupByFacet) {
-			return (d: Bucket) => d.doc_count;
+		if (selectedGroupByFacet) {
+			return selectedGroupByFacetValues.map((g) => (d: Bucket) => (d[g.key] as number) || 0);
 		}
 
-		return selectedGroupByFacetValues.map((g) => (d: Bucket) => (d[g.key] as number) || 0);
+		return (d: Bucket) => d.doc_count;
 	});
 
 	const visMetadata = $derived({
@@ -140,30 +140,8 @@
 	});
 
 	const triggers = $derived({
-		[GroupedBar.selectors.bar]: (d: Bucket) => {
-			if (selectedGroupByFacet) {
-				return groupByMetadata.filteredValues
-					.map(
-						(g) =>
-							`${g.key}: ${(d[g.key] as number)?.toLocaleString() || 0} ${pluralize('item', (d[g.key] as number) || 0)}`
-					)
-					.join('<br>');
-			}
-
-			return `${d.key}: ${d.doc_count.toLocaleString()} ${pluralize('item', d.doc_count)}`;
-		},
-		[StackedBar.selectors.bar]: (d: Bucket, i: number) => {
-			if (selectedGroupByFacet) {
-				return groupByMetadata.filteredValues
-					.map(
-						(g) =>
-							`${g.key}: ${(d[g.key] as number)?.toLocaleString() || 0} ${pluralize('item', (d[g.key] as number) || 0)}`
-					)
-					.join('<br>');
-			}
-
-			return `${d.key}: ${d.doc_count.toLocaleString()} ${pluralize('item', d.doc_count)}`;
-		},
+		[GroupedBar.selectors.bar]: getBarTooltip,
+		[StackedBar.selectors.bar]: getBarTooltip,
 		[NestedDonut.selectors.segment]: (d: GenericDataRecord) => {
 			if (selectedGroupByFacet) {
 				return `${d.data.root} → ${d.data.key}: ${d.value.toLocaleString()} ${pluralize('item', d.value)}`;
@@ -172,6 +150,19 @@
 			return `${d.data.key}: ${d.value.toLocaleString()} ${pluralize('item', d.value)}`;
 		}
 	});
+
+	function getBarTooltip(d: Bucket): string {
+		if (selectedGroupByFacet) {
+			return groupByMetadata.filteredValues
+				.map(
+					(g) =>
+						`${g.key}: ${(d[g.key] as number)?.toLocaleString() || 0} ${pluralize('item', (d[g.key] as number) || 0)}`
+				)
+				.join('<br>');
+		}
+
+		return `<small>${d.key}: <strong>${d.doc_count.toLocaleString()}</strong> ${pluralize('item', d.doc_count)}</small>`;
+	}
 </script>
 
 <article>
@@ -233,16 +224,15 @@
 					yDomain={domain}
 					preventEmptyDomain={false}
 					ariaLabel={`Visualisation displaying ${visMetadata.title?.toLowerCase()}. ${visMetadata.ariaLabel}`}
+					yDirection="south"
 				>
-					{#if selectedPlotType === 'bar-stacked' || selectedPlotType === 'bar-grouped'}
-						<BarComponent
-							x={categoryValue}
-							y={countValue()}
-							dataStep={1}
-							barPadding={0.2}
-							orientation="horizontal"
-						/>
-					{/if}
+					<BarComponent
+						x={categoryValue}
+						y={countValue()}
+						dataStep={1}
+						barPadding={0.2}
+						orientation="horizontal"
+					/>
 					<VisAxis type="x" label={countLabel} />
 					<VisAxis
 						type="y"
