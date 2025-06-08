@@ -25,10 +25,10 @@
 			<thead>
 				<tr>
 					<th>{categoryLabel}</th>
-					<th>{countLabel}</th>
+					<th class="text-right">{countLabel}</th>
 					{#if selectedGroupByFacet}
 						{#each groupByMetadata.filteredValues as group}
-							<th>{group.key}</th>
+							<th class="text-right">{group.key}</th>
 						{/each}
 					{/if}
 				</tr>
@@ -37,10 +37,10 @@
 				{#each data as d}
 					<tr>
 						<td>{d.key}</td>
-						<td>{d.doc_count.toLocaleString()}</td>
+						<td class="text-right">{d.doc_count.toLocaleString()}</td>
 						{#if selectedGroupByFacet}
 							{#each groupByMetadata.filteredValues as group}
-								<td>{d[group.key]?.toLocaleString() || 0}</td>
+								<td class="text-right">{d[group.key]?.toLocaleString() || 0}</td>
 							{/each}
 						{/if}
 					</tr>
