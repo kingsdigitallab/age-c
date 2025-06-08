@@ -42,9 +42,18 @@
 	<label>
 		Choose chart type
 		<select name="plot-type" bind:value={selectedPlotType}>
-			<option value="bar-stacked">Bar - Stacked</option>
-			<option value="bar-grouped">Bar - Grouped</option>
-			<option value="donut">Donut</option>
+			{#if selectedGroupByFacet}
+				<optgroup label="Bar">
+					<option value="bar-grouped">Grouped</option>
+					<option value="bar-stacked">Stacked</option>
+				</optgroup>
+				<optgroup label="Donut">
+					<option value="donut">Nested</option>
+				</optgroup>
+			{:else}
+				<option value="bar-stacked">Bar</option>
+				<option value="donut">Donut</option>
+			{/if}
 		</select>
 	</label>
 </fieldset>
