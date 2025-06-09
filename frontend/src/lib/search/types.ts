@@ -1,7 +1,7 @@
 type SortOrder = 'asc' | 'desc';
 
 type Sorting = {
-	label: string;
+	skijLabel: string;
 	field: string;
 	order: SortOrder;
 };
