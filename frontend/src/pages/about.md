@@ -15,7 +15,5 @@ Place your markdown text here:
 
 # Title
 ## Header 1
-This is a test
 ### Header 2
-This is also a test
 
