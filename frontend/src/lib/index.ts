@@ -28,7 +28,7 @@ const searchAggregations = {
 	releaseYear: {
 		title: 'Release year',
 		hide_zero_doc_count: true,
-		size: 1000,
+		size: 100,
 		sort: 'key',
 		conjunction: false,
 		skijShowConjunctionToggle: true
