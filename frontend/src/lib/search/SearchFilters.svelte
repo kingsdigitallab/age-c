@@ -172,17 +172,19 @@
 									disabled={isLoading}
 								/>
 							{/if}
-							<label class="skij-filter-conjunction" aria-busy={isLoading}>
-								<small>
-									<input
-										type="checkbox"
-										bind:checked={conjunctions[key]}
-										onchange={onConjunctionChange}
-										disabled={isLoading}
-									/>
-									Match all selected {aggregation.title.toLowerCase()}
-								</small>
-							</label>
+							{#if searchConfig[dataSource].aggregations[key].skijShowConjunctionToggle}
+								<label class="skij-filter-conjunction" aria-busy={isLoading}>
+									<small>
+										<input
+											type="checkbox"
+											bind:checked={conjunctions[key]}
+											onchange={onConjunctionChange}
+											disabled={isLoading}
+										/>
+										Match all selected {aggregation.title.toLowerCase()} filter values
+									</small>
+								</label>
+							{/if}
 							<fieldset>
 								{#each buckets as bucket}
 									<label title={getBucketTitle(bucket.key)}>
