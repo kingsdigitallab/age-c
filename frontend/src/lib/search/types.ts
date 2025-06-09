@@ -11,6 +11,7 @@ type SearchAggregation = {
 	title: string;
 	hide_zero_doc_count: boolean;
 	size: number;
+	skijShowConjunctionToggle: boolean;
 	sort: string;
 };
 
