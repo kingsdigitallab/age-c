@@ -87,7 +87,7 @@
 	const searchFiltersCount = $derived(Object.keys(searchFilters).length);
 	const searchSortOptions = $derived(
 		Object.entries(searchConfig[dataSource].sortings).map(([key, value]) => ({
-			label: value.label,
+			label: value.skijLabel,
 			value: key
 		}))
 	);
