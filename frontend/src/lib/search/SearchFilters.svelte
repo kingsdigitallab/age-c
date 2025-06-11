@@ -4,6 +4,7 @@
 	import { slide } from 'svelte/transition';
 
 	const HIERARCHY_SEPARATOR = ':::';
+	const HIERARCHY_SEPARATOR_LABEL = '»';
 
 	let {
 		show,
@@ -77,7 +78,7 @@
 			return key;
 		}
 
-		return key.split(HIERARCHY_SEPARATOR).join(' » ');
+		return key.split(HIERARCHY_SEPARATOR).join(` ${HIERARCHY_SEPARATOR_LABEL} `);
 	}
 
 	function getBucketLabel(key: string) {
@@ -88,7 +89,9 @@
 		const parts = key.split(HIERARCHY_SEPARATOR);
 		const levels = parts.length;
 
-		return `<span class="skij-filter-bucket-label-indent">${'»'.repeat(levels - 1)}</span> ${parts.pop()}`;
+		return `<span class="skij-filter-bucket-label-indent">${HIERARCHY_SEPARATOR_LABEL.repeat(
+			levels - 1
+		)}</span> ${parts.pop()}`;
 	}
 </script>
 
