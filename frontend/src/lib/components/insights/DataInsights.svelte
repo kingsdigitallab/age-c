@@ -24,6 +24,7 @@
 		isLoading,
 		facets,
 		searchItems = undefined,
+		searchFilters,
 		searchAggregations,
 		searchConfig,
 		dataSource
@@ -36,6 +37,7 @@
 			dynamicTitle?: (count: number) => string;
 		}[];
 		searchItems?: Item[];
+		searchFilters: Record<string, string[]>;
 		searchAggregations: Record<string, { buckets: Bucket[] }>;
 		searchConfig: Record<string, { aggregations: Record<string, { title: string }> }>;
 		dataSource: string;
@@ -257,6 +259,7 @@
 				{countLabel}
 				{selectedGroupByFacet}
 				{groupByMetadata}
+				{searchFilters}
 			/>
 		</footer>
 	{/if}

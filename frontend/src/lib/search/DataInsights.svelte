@@ -10,6 +10,7 @@
 		isLoading,
 		facets,
 		searchItems = undefined,
+		searchFilters,
 		searchAggregations,
 		searchConfig,
 		dataSource
@@ -22,6 +23,7 @@
 			dynamicTitle?: (count: number) => string;
 		}[];
 		searchItems?: Item[];
+		searchFilters: Record<string, string[]>;
 		searchAggregations: Record<string, { buckets: { key: string; doc_count: number }[] }>;
 		searchConfig: Record<string, { aggregations: Record<string, { title: string }> }>;
 		dataSource: string;
@@ -159,6 +161,18 @@
 		<footer>
 			<details>
 				<summary>Expand to show data used to plot the chart</summary>
+				{#if Object.keys(searchFilters).length > 0}
+					<small>
+						<p>Filters applied:</p>
+						<ul>
+							{#each Object.entries(searchFilters) as [k, v]}
+								<li>
+									<strong>{k}</strong>: {v.join(', ')}
+								</li>
+							{/each}
+						</ul>
+					</small>
+				{/if}
 				<section class="overflow-auto">
 					<table class="striped">
 						<thead>

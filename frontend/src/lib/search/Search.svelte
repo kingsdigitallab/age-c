@@ -315,6 +315,7 @@
 				{isLoading}
 				facets={dataInsightsFacets}
 				searchItems={enableFullDataInsights ? insightsItems : undefined}
+				{searchFilters}
 				{searchAggregations}
 				{searchConfig}
 				{dataSource}

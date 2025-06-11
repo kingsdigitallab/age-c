@@ -6,7 +6,8 @@
 		categoryLabel,
 		countLabel,
 		selectedGroupByFacet,
-		groupByMetadata
+		groupByMetadata,
+		searchFilters
 	}: {
 		data: Bucket[];
 		categoryLabel: string;
@@ -15,12 +16,25 @@
 		groupByMetadata: {
 			filteredValues: Bucket[];
 		};
+		searchFilters: Record<string, string[]>;
 	} = $props();
 </script>
 
 <details>
 	<summary><strong>Expand to show data used to plot the chart</strong></summary>
 	<section class="overflow-auto">
+		{#if Object.keys(searchFilters).length > 0}
+			<small>
+				<p>Filters applied:</p>
+				<ul>
+					{#each Object.entries(searchFilters) as [k, v]}
+						<li>
+							<strong>{k}</strong>: {v.join(', ')}
+						</li>
+					{/each}
+				</ul>
+			</small>
+		{/if}
 		<table class="striped">
 			<thead>
 				<tr>
