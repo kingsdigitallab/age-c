@@ -65,7 +65,7 @@ const searchAggregations = {
 	productionCountryShare: {
 		title: 'Production',
 		hide_zero_doc_count: true,
-		size: 100,
+		size: 500,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
