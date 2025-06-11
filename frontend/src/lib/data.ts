@@ -12,8 +12,7 @@ export async function getSearchData(slug: string) {
 		filmType: getField(item, 'filmType'),
 		releaseType: getField(item, 'release.type'),
 		releaseYear: getField(item, 'release.year'),
-		productionCountry: getProduction(item, 'country'),
-		productionShare: getProduction(item, 'share'),
+		productionCountryShare: getProduction(item),
 		role: getRole(item),
 		gender: getField(item, 'gender'),
 		nationality: getField(item, 'nationality'),
@@ -77,13 +76,17 @@ function getNestedField(obj: Item | Character | Role, path: string) {
 	}, obj);
 }
 
-function getProduction(item: Item, field: 'country' | 'share') {
+function getProduction(item: Item) {
 	if (item.type === 'Film') {
-		return item.production?.map((p) => p[field]) || [];
+		return item.production?.flatMap((p) => [p.country, `${p.country}:::${p.share}`]) || [];
 	}
 
-	const characterValues = (item.characters || []).flatMap((c) => c.production?.[field]);
-	const roleValues = (item.roles || []).flatMap((r) => r.film?.production?.[field]);
+	const characterValues = (item.characters || []).flatMap((c) =>
+		c.film?.production?.flatMap((p) => [p.country, `${p.country}:::${p.share}`])
+	);
+	const roleValues = (item.roles || []).flatMap((r) =>
+		r.film?.production?.flatMap((p) => [p.country, `${p.country}:::${p.share}`])
+	);
 
 	return [...new Set([...characterValues, ...roleValues].filter(Boolean))];
 }
