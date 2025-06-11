@@ -77,7 +77,7 @@
 			return key;
 		}
 
-		return key.split(HIERARCHY_SEPARATOR).join(' → ');
+		return key.split(HIERARCHY_SEPARATOR).join(' » ');
 	}
 
 	function getBucketLabel(key: string) {
