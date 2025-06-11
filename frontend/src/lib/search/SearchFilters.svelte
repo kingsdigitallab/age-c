@@ -190,7 +190,13 @@
 							{/if}
 							<fieldset>
 								{#each buckets as bucket}
-									<label title={getBucketTitle(bucket.key)}>
+									{@const bucketTitle = getBucketTitle(bucket.key)}
+									<label
+										title={bucketTitle}
+										data-tooltip={bucket.key.includes(HIERARCHY_SEPARATOR)
+											? bucketTitle
+											: undefined}
+									>
 										<input
 											name={key}
 											type="checkbox"
@@ -198,9 +204,11 @@
 											bind:group={searchFilters[key]}
 											onchange={onFiltersChange}
 											disabled={isLoading}
-											aria-label={getBucketTitle(bucket.key)}
+											aria-label={bucketTitle}
 										/>
-										<span>{@html getBucketLabel(bucket.key)}</span>
+										<span>
+											{@html getBucketLabel(bucket.key)}
+										</span>
 										<small>({bucket.doc_count.toLocaleString()})</small>
 									</label>
 								{/each}
@@ -315,6 +323,10 @@
 
 		background: var(--pico-primary-background);
 		color: var(--pico-primary-inverse);
+	}
+
+	label[data-tooltip] {
+		border-bottom: none;
 	}
 
 	:global(.skij-filter-bucket-label-indent) {
