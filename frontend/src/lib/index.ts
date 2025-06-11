@@ -23,6 +23,7 @@ const searchAggregations = {
 		size: 2,
 		sort: 'key',
 		conjunction: true,
+		chosen_filters_on_top: false,
 		skijShowConjunctionToggle: false
 	},
 	releaseYear: {
@@ -31,6 +32,7 @@ const searchAggregations = {
 		size: 100,
 		sort: 'key',
 		conjunction: false,
+		chosen_filters_on_top: false,
 		skijShowConjunctionToggle: true
 	},
 	releaseType: {
@@ -38,7 +40,8 @@ const searchAggregations = {
 		hide_zero_doc_count: true,
 		size: 5,
 		sort: 'key',
-		conjunction: false,
+		conjunction: true,
+		chosen_filters_on_top: false,
 		skijShowConjunctionToggle: true
 	},
 	filmType: {
@@ -47,6 +50,7 @@ const searchAggregations = {
 		size: 5,
 		sort: 'key',
 		conjunction: false,
+		chosen_filters_on_top: false,
 		skijShowConjunctionToggle: true
 	},
 	genre: {
@@ -54,23 +58,17 @@ const searchAggregations = {
 		hide_zero_doc_count: true,
 		size: 100,
 		sort: 'key',
-		conjunction: false,
+		conjunction: true,
+		chosen_filters_on_top: false,
 		skijShowConjunctionToggle: true
 	},
-	productionCountry: {
-		title: 'Production country',
+	productionCountryShare: {
+		title: 'Production',
 		hide_zero_doc_count: true,
 		size: 100,
 		sort: 'key',
-		conjunction: false,
-		skijShowConjunctionToggle: true
-	},
-	productionShare: {
-		title: 'Production share',
-		hide_zero_doc_count: true,
-		size: 5,
-		sort: 'key',
-		conjunction: false,
+		conjunction: true,
+		chosen_filters_on_top: false,
 		skijShowConjunctionToggle: true
 	},
 	role: {
@@ -78,7 +76,8 @@ const searchAggregations = {
 		hide_zero_doc_count: true,
 		size: 100,
 		sort: 'key',
-		conjunction: false,
+		conjunction: true,
+		chosen_filters_on_top: false,
 		skijShowConjunctionToggle: true
 	},
 	gender: {
@@ -86,7 +85,8 @@ const searchAggregations = {
 		hide_zero_doc_count: true,
 		size: 10,
 		sort: 'key',
-		conjunction: false,
+		conjunction: true,
+		chosen_filters_on_top: false,
 		skijShowConjunctionToggle: true
 	},
 	nationality: {
@@ -94,7 +94,8 @@ const searchAggregations = {
 		hide_zero_doc_count: true,
 		size: 300,
 		sort: 'key',
-		conjunction: false,
+		conjunction: true,
+		chosen_filters_on_top: false,
 		skijShowConjunctionToggle: true
 	},
 	tags: {
@@ -102,15 +103,17 @@ const searchAggregations = {
 		hide_zero_doc_count: true,
 		size: 500,
 		sort: 'key',
-		conjunction: false,
-		skijShowConjunctionToggle: true
+		conjunction: true,
+		chosen_filters_on_top: false,
+		skijShowConjunctionToggle: false
 	},
 	characterAge: {
 		title: 'Character age',
 		hide_zero_doc_count: true,
 		size: 10,
 		sort: 'key',
-		conjunction: false,
+		conjunction: true,
+		chosen_filters_on_top: false,
 		skijShowConjunctionToggle: true
 	},
 	characterGender: {
@@ -118,7 +121,8 @@ const searchAggregations = {
 		hide_zero_doc_count: true,
 		size: 10,
 		sort: 'key',
-		conjunction: false,
+		conjunction: true,
+		chosen_filters_on_top: false,
 		skijShowConjunctionToggle: true
 	},
 	characterSexuality: {
@@ -126,7 +130,8 @@ const searchAggregations = {
 		hide_zero_doc_count: true,
 		size: 10,
 		sort: 'key',
-		conjunction: false,
+		conjunction: true,
+		chosen_filters_on_top: false,
 		skijShowConjunctionToggle: true
 	},
 	characterOrigin: {
@@ -134,7 +139,8 @@ const searchAggregations = {
 		hide_zero_doc_count: true,
 		size: 50,
 		sort: 'key',
-		conjunction: false,
+		conjunction: true,
+		chosen_filters_on_top: false,
 		skijShowConjunctionToggle: true
 	},
 	characterClass: {
@@ -142,7 +148,8 @@ const searchAggregations = {
 		hide_zero_doc_count: true,
 		size: 20,
 		sort: 'key',
-		conjunction: false,
+		conjunction: true,
+		chosen_filters_on_top: false,
 		skijShowConjunctionToggle: true
 	},
 	characterProfession: {
@@ -150,7 +157,8 @@ const searchAggregations = {
 		hide_zero_doc_count: true,
 		size: 10,
 		sort: 'key',
-		conjunction: false,
+		conjunction: true,
+		chosen_filters_on_top: false,
 		skijShowConjunctionToggle: true
 	},
 	characterAbility: {
@@ -158,7 +166,8 @@ const searchAggregations = {
 		hide_zero_doc_count: true,
 		size: 10,
 		sort: 'key',
-		conjunction: false,
+		conjunction: true,
+		chosen_filters_on_top: false,
 		skijShowConjunctionToggle: true
 	},
 	assistedMobility: {
@@ -166,7 +175,8 @@ const searchAggregations = {
 		hide_zero_doc_count: true,
 		size: 10,
 		sort: 'key',
-		conjunction: false,
+		conjunction: true,
+		chosen_filters_on_top: false,
 		skijShowConjunctionToggle: true
 	}
 };
