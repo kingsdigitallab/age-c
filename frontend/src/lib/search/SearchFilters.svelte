@@ -88,7 +88,7 @@
 		const parts = key.split(HIERARCHY_SEPARATOR);
 		const levels = parts.length;
 
-		return `<span class="skij-filter-bucket-label-indent">${'…'.repeat(levels - 1)}</span> ${parts.pop()}`;
+		return `<span class="skij-filter-bucket-label-indent">${'»'.repeat(levels - 1)}</span> ${parts.pop()}`;
 	}
 </script>
 
