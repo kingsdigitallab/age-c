@@ -165,7 +165,7 @@
 								{aggregation.title}
 								<small>({searchAggregations[key].buckets.length.toLocaleString()})</small>
 							</summary>
-							{#if searchAggregations[key].buckets.length > 10}
+							{#if searchAggregations[key].buckets.length > 15}
 								<input
 									name="skij-filters-search-{key}"
 									type="text"
@@ -190,9 +190,11 @@
 							{/if}
 							<fieldset>
 								{#each buckets as bucket}
+									{@const isDisabled = bucket.doc_count === 0 || isLoading}
 									{@const bucketTitle = getBucketTitle(bucket.key)}
 									<label
 										title={bucketTitle}
+										aria-disabled={isDisabled}
 										data-tooltip={bucket.key.includes(HIERARCHY_SEPARATOR)
 											? bucketTitle
 											: undefined}
@@ -201,9 +203,9 @@
 											name={key}
 											type="checkbox"
 											value={bucket.key}
+											disabled={isDisabled}
 											bind:group={searchFilters[key]}
 											onchange={onFiltersChange}
-											disabled={isLoading}
 											aria-label={bucketTitle}
 										/>
 										<span>
@@ -311,6 +313,11 @@
 		padding-block: calc(var(--pico-form-element-spacing-vertical) / 8);
 		padding-inline: calc(var(--pico-form-element-spacing-vertical) / 4);
 		width: 100%;
+	}
+
+	label.skij-filter-conjunction small {
+		align-items: center;
+		display: flex;
 	}
 
 	label:hover {
