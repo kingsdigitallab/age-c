@@ -19,164 +19,164 @@ export const hero = {
 const searchAggregations = {
 	type: {
 		title: 'Type',
-		hide_zero_doc_count: true,
 		size: 2,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: false
 	},
 	releaseYear: {
 		title: 'Release year',
-		hide_zero_doc_count: true,
 		size: 100,
 		sort: 'key',
 		conjunction: false,
 		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: true
 	},
 	releaseType: {
 		title: 'Release type',
-		hide_zero_doc_count: true,
 		size: 5,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: true
 	},
 	filmType: {
 		title: 'Film type',
-		hide_zero_doc_count: true,
 		size: 5,
 		sort: 'key',
-		conjunction: false,
+		conjunction: true,
 		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: true
 	},
 	genre: {
 		title: 'Genre',
-		hide_zero_doc_count: true,
 		size: 100,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: true
 	},
 	productionCountryShare: {
 		title: 'Production',
-		hide_zero_doc_count: true,
 		size: 500,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: true
 	},
 	role: {
 		title: 'Role',
-		hide_zero_doc_count: true,
 		size: 100,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: true
 	},
 	gender: {
 		title: 'Person gender',
-		hide_zero_doc_count: true,
 		size: 10,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: true
 	},
 	nationality: {
 		title: 'Person nationality',
-		hide_zero_doc_count: true,
 		size: 300,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: true
 	},
 	tags: {
 		title: 'Tags',
-		hide_zero_doc_count: true,
 		size: 500,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: false
 	},
 	characterAge: {
 		title: 'Character age',
-		hide_zero_doc_count: true,
 		size: 10,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: true
 	},
 	characterGender: {
 		title: 'Character gender',
-		hide_zero_doc_count: true,
 		size: 10,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: true
 	},
 	characterSexuality: {
 		title: 'Character sexuality',
-		hide_zero_doc_count: true,
 		size: 10,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: true
 	},
 	characterOrigin: {
 		title: 'Character origin',
-		hide_zero_doc_count: true,
 		size: 50,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: true
 	},
 	characterClass: {
 		title: 'Character class',
-		hide_zero_doc_count: true,
 		size: 20,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: true
 	},
 	characterProfession: {
 		title: 'Character profession',
-		hide_zero_doc_count: true,
 		size: 10,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: true
 	},
 	characterAbility: {
 		title: 'Character ability',
-		hide_zero_doc_count: true,
 		size: 10,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: true
 	},
 	assistedMobility: {
 		title: 'Assisted mobility',
-		hide_zero_doc_count: true,
 		size: 10,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: true
 	}
 };
