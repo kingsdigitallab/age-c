@@ -119,10 +119,10 @@ film, multiple tags have been added in the dataset.
 
 ### Narratives related to age concepts
 
-- **<FilterLink name="tags" value="Plot:::Narrative+plots:::Age+concepts:::de-ageing">De-ageing</FilterLink>**: Films
+- **<FilterLink name="tags" value="Plot:::Narratives related to age concepts:::de-ageing">De-ageing</FilterLink>**: Films
   that portray an older actor portraying a younger character, often through
   the use of performance, CGI, prosthetics, make-up, etc.
-- **<FilterLink name="tags" value="Plot:::Narrative+plots:::Age+concepts:::gray+face">Gray face</FilterLink>**: Films
+- **<FilterLink name="tags" value="Plot:::Narratives related to age concepts:::gray+face">Gray face</FilterLink>**: Films
   that portray a younger actor portraying an ageing character, often through
   the use of performance, CGI, prosthetics, make-up, etc. The term is used
   specifically by Timothy Shary and Nancy McVittie in relation to the elder
@@ -130,7 +130,7 @@ film, multiple tags have been added in the dataset.
   young stars begin donning 'gray face' in order to perform elder kitsch.",
   2016 : 99). Josephine Dolan proposes extending the meaning of this term "to
   other modes of performance that involve prosthetic ageing" (2017 : 213).
-- **<FilterLink name="tags" value="Plot:::Narrative+plots:::Age+concepts:::voice+mismatch">Voice mismatch</FilterLink>**:
+- **<FilterLink name="tags" value="Plot:::Narratives related to age concepts:::voice+mismatch">Voice mismatch</FilterLink>**:
   Animation films which feature aged actors who lend their voices and/or
   impersonate animation characters considered within the diegesis of animation
   films as younger than their real-life age.
