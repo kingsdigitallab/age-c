@@ -159,62 +159,87 @@
 			{#if searchAggregations}
 				{#each aggregations as [key, aggregation], index}
 					{@const buckets = searchBuckets(key, searchAggregations[key].buckets)}
-					<section class="skij-filter-section">
+					<section class="skij-filter-section" aria-live="polite">
 						<details class:disabled={buckets.length === 0} open={expandFiltersByField[index]}>
 							<summary onclick={(e) => handleFilterFieldToggle(e, index)}>
 								{aggregation.title}
 								<small>({searchAggregations[key].buckets.length.toLocaleString()})</small>
 							</summary>
-							{#if searchAggregations[key].buckets.length > 15}
-								<input
-									name="skij-filters-search-{key}"
-									type="text"
-									placeholder="Search {aggregation.title.toLowerCase()} options..."
-									aria-label="Search {aggregation.title.toLowerCase()} options..."
-									bind:value={filterSearchTerms[key]}
-									disabled={isLoading}
-								/>
-							{/if}
-							{#if searchConfig[dataSource].aggregations[key].skijShowConjunctionToggle}
-								<label class="skij-filter-conjunction" aria-busy={isLoading}>
-									<small>
+							<form onsubmit={(e) => e.preventDefault()} aria-busy={isLoading}>
+								{#if searchConfig[dataSource].aggregations[key].skijShowConjunctionToggle}
+									<fieldset class="skij-filter-conjunction" aria-live="polite">
+										<legend>How to combine selected filters:</legend>
 										<input
-											type="checkbox"
-											bind:checked={conjunctions[key]}
-											onchange={onConjunctionChange}
+											id="conjunction-{key}-or"
+											type="radio"
+											name="conjunction-{key}"
+											value="or"
+											checked={!conjunctions[key]}
+											onchange={() => {
+												conjunctions[key] = false;
+												onConjunctionChange();
+											}}
 											disabled={isLoading}
+											aria-label="Match any of the selected filters, logical OR"
 										/>
-										Match all selected {aggregation.title.toLowerCase()} filter values
-									</small>
-								</label>
-							{/if}
-							<fieldset>
-								{#each buckets as bucket}
-									{@const isDisabled = bucket.doc_count === 0 || isLoading}
-									{@const bucketTitle = getBucketTitle(bucket.key)}
-									<label
-										title={bucketTitle}
-										aria-disabled={isDisabled}
-										data-tooltip={bucket.key.includes(HIERARCHY_SEPARATOR)
-											? bucketTitle
-											: undefined}
-									>
+										<label for="conjunction-{key}-or"> Match any </label>
 										<input
-											name={key}
-											type="checkbox"
-											value={bucket.key}
-											disabled={isDisabled}
-											bind:group={searchFilters[key]}
-											onchange={onFiltersChange}
-											aria-label={bucketTitle}
+											id="conjunction-{key}-and"
+											type="radio"
+											name="conjunction-{key}"
+											value="and"
+											checked={conjunctions[key]}
+											onchange={() => {
+												conjunctions[key] = true;
+												onConjunctionChange();
+											}}
+											disabled={isLoading}
+											aria-label="Match all of the selected filters, logical AND"
 										/>
-										<span>
-											{@html getBucketLabel(bucket.key)}
-										</span>
-										<small>({bucket.doc_count.toLocaleString()})</small>
-									</label>
-								{/each}
-							</fieldset>
+										<label for="conjunction-{key}-and"> Match all </label>
+									</fieldset>
+								{/if}
+								<fieldset class="skij-filter-buckets" aria-live="polite">
+									<legend>Select filters:</legend>
+									<div>
+										{#each buckets as bucket}
+											{@const isDisabled = bucket.doc_count === 0 || isLoading}
+											{@const bucketTitle = getBucketTitle(bucket.key)}
+											<label
+												title={bucketTitle}
+												aria-disabled={isDisabled}
+												data-tooltip={bucket.key.includes(HIERARCHY_SEPARATOR)
+													? bucketTitle
+													: undefined}
+											>
+												<input
+													name={key}
+													type="checkbox"
+													value={bucket.key}
+													disabled={isDisabled}
+													bind:group={searchFilters[key]}
+													onchange={onFiltersChange}
+													aria-label={bucketTitle}
+												/>
+												<span>
+													{@html getBucketLabel(bucket.key)}
+												</span>
+												<small>({bucket.doc_count.toLocaleString()})</small>
+											</label>
+										{/each}
+									</div>
+								</fieldset>
+								{#if searchAggregations[key].buckets.length > 15}
+									<input
+										name="skij-filters-search-{key}"
+										type="text"
+										placeholder="Search {aggregation.title.toLowerCase()} filters..."
+										aria-label="Search {aggregation.title.toLowerCase()} filters..."
+										bind:value={filterSearchTerms[key]}
+										disabled={isLoading}
+									/>
+								{/if}
+							</form>
 						</details>
 					</section>
 				{/each}
@@ -302,37 +327,33 @@
 		user-select: none;
 	}
 
-	details fieldset {
+	details .skij-filter-buckets > div {
 		background: var(--pico-form-element-background-color);
 		max-height: var(--skij-filter-height);
+		min-height: var(--skij-filter-height);
 		overflow-y: scroll;
 		padding-block: calc(var(--pico-spacing) / 4);
 	}
 
-	label {
+	.skij-filter-buckets label {
 		padding-block: calc(var(--pico-form-element-spacing-vertical) / 8);
 		padding-inline: calc(var(--pico-form-element-spacing-vertical) / 4);
 		width: 100%;
 	}
 
-	label.skij-filter-conjunction small {
-		align-items: center;
-		display: flex;
-	}
-
-	label:hover {
+	.skij-filter-buckets label:hover {
 		background: var(--pico-secondary-hover-background);
 		color: var(--pico-secondary-inverse);
 	}
 
-	label:has(input:checked) {
+	.skij-filter-buckets label:has(input:checked) {
 		--pico-primary-border: var(--pico-primary-inverse);
 
 		background: var(--pico-primary-background);
 		color: var(--pico-primary-inverse);
 	}
 
-	label[data-tooltip] {
+	.skij-filter-buckets label[data-tooltip] {
 		border-bottom: none;
 	}
 
