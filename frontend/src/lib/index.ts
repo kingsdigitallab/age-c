@@ -33,7 +33,7 @@ const searchAggregations = {
 		conjunction: false,
 		chosen_filters_on_top: false,
 		hide_zero_doc_count: false,
-		skijShowConjunctionToggle: true
+		skijShowConjunctionToggle: false
 	},
 	releaseType: {
 		title: 'Release type',
@@ -80,6 +80,15 @@ const searchAggregations = {
 		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: true
 	},
+	birthYear: {
+		title: 'Birth year',
+		size: 100,
+		sort: 'key',
+		conjunction: false,
+		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
+		skijShowConjunctionToggle: false
+	},
 	gender: {
 		title: 'Person gender',
 		size: 10,
@@ -105,7 +114,7 @@ const searchAggregations = {
 		conjunction: true,
 		chosen_filters_on_top: false,
 		hide_zero_doc_count: false,
-		skijShowConjunctionToggle: false
+		skijShowConjunctionToggle: true
 	},
 	characterAge: {
 		title: 'Character age',
