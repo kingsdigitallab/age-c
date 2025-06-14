@@ -201,6 +201,16 @@
 								{/if}
 								<fieldset class="skij-filter-buckets" aria-live="polite">
 									<legend>Select filters:</legend>
+									{#if searchAggregations[key].buckets.length > 15}
+										<input
+											name="skij-filters-search-{key}"
+											type="text"
+											placeholder="Search {aggregation.title.toLowerCase()} filters..."
+											aria-label="Search {aggregation.title.toLowerCase()} filters..."
+											bind:value={filterSearchTerms[key]}
+											disabled={isLoading}
+										/>
+									{/if}
 									<div>
 										{#each buckets as bucket}
 											{@const isDisabled = bucket.doc_count === 0 || isLoading}
@@ -226,19 +236,16 @@
 												</span>
 												<small>({bucket.doc_count.toLocaleString()})</small>
 											</label>
+										{:else}
+											<label aria-disabled="true">
+												<input name={key} type="checkbox" value="" disabled />
+												<span>
+													No filters found matching <em>{filterSearchTerms[key]}</em>
+												</span>
+											</label>
 										{/each}
 									</div>
 								</fieldset>
-								{#if searchAggregations[key].buckets.length > 15}
-									<input
-										name="skij-filters-search-{key}"
-										type="text"
-										placeholder="Search {aggregation.title.toLowerCase()} filters..."
-										aria-label="Search {aggregation.title.toLowerCase()} filters..."
-										bind:value={filterSearchTerms[key]}
-										disabled={isLoading}
-									/>
-								{/if}
 							</form>
 						</details>
 					</section>
