@@ -14,6 +14,7 @@ export async function getSearchData(slug: string) {
 		releaseYear: getField(item, 'release.year'),
 		productionCountryShare: getProduction(item),
 		role: getRole(item),
+		birthYear: getField(item, 'birthYear'),
 		gender: getField(item, 'gender'),
 		nationality: getField(item, 'nationality'),
 		characterAbility: item?.characters?.map((c) => c?.ability),
@@ -49,6 +50,7 @@ const fieldSubpaths: Record<string, { character: string; role: string }> = {
 	filmType: { character: 'film.filmType', role: 'filmType' },
 	'release.type': { character: 'film.release.type', role: 'release.type' },
 	'release.year': { character: 'film.release.year', role: 'release.year' },
+	birthYear: { character: 'person.birthYear', role: 'person.birthYear' },
 	gender: { character: 'person.gender', role: 'person.gender' },
 	nationality: { character: 'person.nationality', role: 'person.nationality' }
 };
