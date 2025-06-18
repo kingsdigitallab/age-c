@@ -78,7 +78,8 @@ const searchAggregations = {
 		conjunction: true,
 		chosen_filters_on_top: false,
 		hide_zero_doc_count: false,
-		skijShowConjunctionToggle: true
+		skijShowConjunctionToggle: true,
+		skijCombineWith: [{ gender: 'person.gender' }]
 	},
 	birthYear: {
 		title: 'Birth year',
@@ -96,7 +97,8 @@ const searchAggregations = {
 		conjunction: true,
 		chosen_filters_on_top: false,
 		hide_zero_doc_count: false,
-		skijShowConjunctionToggle: true
+		skijShowConjunctionToggle: true,
+		skijCombineWith: [{ role: 'role' }]
 	},
 	nationality: {
 		title: 'Person nationality',
@@ -192,6 +194,7 @@ const searchAggregations = {
 
 export const searchConfig: SearchConfig = {
 	corpus: {
+		skijCombineFilters: false,
 		aggregations: searchAggregations,
 		searchableFields: ['title', 'name', 'text', ...Object.keys(searchAggregations)],
 		sortings: {
