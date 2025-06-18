@@ -6,22 +6,24 @@ type Sorting = {
 	order: SortOrder;
 };
 
-type SearchAggregation = {
+export type SearchAggregation = {
 	conjunction: boolean;
 	title: string;
 	hide_zero_doc_count: boolean;
 	size: number;
+	skijCombineWith?: { [key: string]: string }[];
 	skijShowConjunctionToggle: boolean;
 	sort: string;
 };
 
-type SearchAggregations = {
+export type SearchAggregations = {
 	[key: string]: SearchAggregation;
 };
 
 type CorpusConfig = {
 	aggregations: SearchAggregations;
 	searchableFields: string[];
+	skijCombineFilters: boolean;
 	sortings: {
 		[key: string]: Sorting;
 	};
