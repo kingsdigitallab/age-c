@@ -230,3 +230,15 @@ ul.layout-inline li {
 .text-right {
 	text-align: right;
 }
+
+/** Tooltips */
+[data-tooltip] {
+	&::before {
+		overflow: visible;
+		width: clamp(auto, 100%, 40vw);
+		word-wrap: break-word;
+		white-space: normal;
+	}
+
+	display: inline-block;
+}
