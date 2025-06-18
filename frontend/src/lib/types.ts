@@ -6,6 +6,7 @@ export interface Person {
 	name: string;
 	nationality: string;
 	slug: string;
+	type?: 'Person';
 }
 
 export interface Film {
@@ -14,7 +15,7 @@ export interface Film {
 	directors: Person[];
 	filmType: string;
 	genre: string[];
-	media: Media[];
+	media: Media;
 	production: Production[];
 	release: Release;
 	roles: Role[];
@@ -22,7 +23,7 @@ export interface Film {
 	synopsis: Synopsis;
 	tags?: string[];
 	title: { native: string; english: string };
-	type: 'Film';
+	type?: 'Film';
 }
 
 export interface Character {
@@ -31,10 +32,10 @@ export interface Character {
 	age: string;
 	assistedMobility: string;
 	class: string;
-	film?: Film;
+	film?: string | Film;
 	gender: string;
 	origin: string;
-	person?: Person;
+	person?: string | Person;
 	production?: Production;
 	profession: string;
 	sexuality: string;
