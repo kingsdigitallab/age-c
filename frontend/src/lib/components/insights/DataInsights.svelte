@@ -165,6 +165,49 @@
 
 		return `<small>${d.key}: <strong>${d.doc_count.toLocaleString()}</strong> ${pluralize('item', d.doc_count)}</small>`;
 	}
+
+	let isDownloading = $state(false);
+
+	function downloadVisualisation(e: Event) {
+		e.preventDefault();
+		isDownloading = true;
+
+		const plotContainer = document.getElementById('skij-plot-container');
+		if (plotContainer) {
+			const styles = document.getElementsByTagName('style');
+			const stylesData = Array.from(styles)
+				.map((s) => s.textContent)
+				.join('\n');
+
+			const svg = plotContainer.querySelector('svg');
+			if (svg) {
+				const svgClone = svg.cloneNode(true) as SVGElement;
+
+				const styleElement = document.createElementNS('http://www.w3.org/2000/svg', 'style');
+				styleElement.textContent = stylesData;
+				styleElement.setAttribute('type', 'text/css');
+
+				svgClone.insertBefore(styleElement, svgClone.firstChild);
+
+				const svgData = new XMLSerializer().serializeToString(svgClone);
+
+				const blob = new Blob([svgData], {
+					type: 'image/svg+xml;charset=utf-8'
+				});
+				const url = URL.createObjectURL(blob);
+
+				const a = document.createElement('a');
+				a.href = url;
+				a.download = `${visMetadata.title}.svg`;
+				a.click();
+				a.remove();
+
+				URL.revokeObjectURL(url);
+			}
+		}
+
+		isDownloading = false;
+	}
 </script>
 
 <article>
@@ -192,6 +235,14 @@
 			<hgroup>
 				<h3>{visMetadata.title}</h3>
 				<p>{visMetadata.ariaLabel}</p>
+				<button
+					class="outline"
+					onclick={(e) => downloadVisualisation(e)}
+					aria-busy={isDownloading}
+					aria-label="Download visualisation"
+				>
+					Download visualisation
+				</button>
 			</hgroup>
 
 			<DevOnly>
@@ -208,48 +259,50 @@
 				</label>
 			</DevOnly>
 
-			{#if selectedPlotType === 'donut'}
-				<VisSingleContainer data={donutData()} height={height * 1.5}>
-					<DonutComponent
-						layers={donutLayers()}
-						value={(d: GenericDataRecord) => d.value}
-						centerLabel={visMetadata.title}
-						direction="outwards"
-						layerPadding={10}
-					/>
-					<VisTooltip {triggers} />
-				</VisSingleContainer>
-			{:else}
-				<VisXYContainer
-					{data}
-					{height}
-					yDomain={domain}
-					preventEmptyDomain={false}
-					ariaLabel={`Visualisation displaying ${visMetadata.title?.toLowerCase()}. ${visMetadata.ariaLabel}`}
-					yDirection="south"
-				>
-					<BarComponent
-						x={categoryValue}
-						y={countValue()}
-						dataStep={1}
-						barPadding={0.2}
-						orientation="horizontal"
-					/>
-					<VisAxis type="x" label={countLabel} />
-					<VisAxis
-						type="y"
-						label={categoryLabel}
-						gridLine={false}
-						{numTicks}
-						{tickFormat}
-						{tickValues}
-					/>
-					{#if selectedGroupByFacet}
-						<VisBulletLegend items={groupByMetadata.legendItems} />
-					{/if}
-					<VisTooltip {triggers} />
-				</VisXYContainer>
-			{/if}
+			<div id="skij-plot-container">
+				{#if selectedPlotType === 'donut'}
+					<VisSingleContainer data={donutData()} height={height * 1.5}>
+						<DonutComponent
+							layers={donutLayers()}
+							value={(d: GenericDataRecord) => d.value}
+							centerLabel={visMetadata.title}
+							direction="outwards"
+							layerPadding={10}
+						/>
+						<VisTooltip {triggers} />
+					</VisSingleContainer>
+				{:else}
+					<VisXYContainer
+						{data}
+						{height}
+						yDomain={domain}
+						preventEmptyDomain={false}
+						ariaLabel={`Visualisation displaying ${visMetadata.title?.toLowerCase()}. ${visMetadata.ariaLabel}`}
+						yDirection="south"
+					>
+						<BarComponent
+							x={categoryValue}
+							y={countValue()}
+							dataStep={1}
+							barPadding={0.2}
+							orientation="horizontal"
+						/>
+						<VisAxis type="x" label={countLabel} />
+						<VisAxis
+							type="y"
+							label={categoryLabel}
+							gridLine={false}
+							{numTicks}
+							{tickFormat}
+							{tickValues}
+						/>
+						{#if selectedGroupByFacet}
+							<VisBulletLegend items={groupByMetadata.legendItems} />
+						{/if}
+						<VisTooltip {triggers} />
+					</VisXYContainer>
+				{/if}
+			</div>
 		</section>
 
 		<footer>
