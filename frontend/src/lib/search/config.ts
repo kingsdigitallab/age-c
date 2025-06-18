@@ -8,3 +8,6 @@ export const WORKER_STATUS = {
 	INSIGHTS_RESULTS: 'insights_results',
 	ERROR: 'error'
 };
+
+export const HIERARCHY_SEPARATOR = ':::';
+export const HIERARCHY_SEPARATOR_LABEL = '»';
