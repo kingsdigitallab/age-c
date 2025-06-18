@@ -2,9 +2,7 @@
 	import type { SearchConfig } from './types';
 	import type { Snippet } from 'svelte';
 	import { slide } from 'svelte/transition';
-
-	const HIERARCHY_SEPARATOR = ':::';
-	const HIERARCHY_SEPARATOR_LABEL = '»';
+	import { HIERARCHY_SEPARATOR, HIERARCHY_SEPARATOR_LABEL } from './config';
 
 	let {
 		show,
@@ -34,7 +32,9 @@
 
 	const hasFilters = $derived(Object.keys(searchFilters).length > 0);
 	const currentFilters = $derived(
-		Object.entries(searchFilters).filter(([_, value]) => value.length > 0)
+		Object.entries(searchFilters).filter(
+			([key, value]) => !key.includes(HIERARCHY_SEPARATOR) && value.length > 0
+		)
 	);
 
 	const aggregations = Object.entries(searchConfig[dataSource].aggregations);
@@ -60,7 +60,7 @@
 
 	function handleRemoveFilter(key: string, value: string) {
 		searchFilters[key] = searchFilters[key].filter((v) => v !== value);
-		onFiltersChange();
+		handleFiltersChange();
 	}
 
 	function searchBuckets(key: string, buckets: Array<{ key: string; doc_count: number }>) {
@@ -92,6 +92,44 @@
 		return `<span class="skij-filter-bucket-label-indent">${HIERARCHY_SEPARATOR_LABEL.repeat(
 			levels - 1
 		)}</span> ${parts.pop()}`;
+	}
+
+	function handleFiltersChange() {
+		if (!searchConfig[dataSource].skijCombineFilters) {
+			onFiltersChange();
+			return;
+		}
+
+		const newFilters = { ...searchFilters };
+
+		for (const [facet, config] of Object.entries(searchConfig[dataSource].aggregations)) {
+			if (config.skijCombineWith) {
+				const facetValues = newFilters[facet] || [];
+
+				// For each value in this facet
+				for (const value of facetValues) {
+					// Check each facet it combines with
+					for (const combineWith of config.skijCombineWith) {
+						const [relatedFacet, _] = Object.entries(combineWith)[0];
+						const relatedValues = newFilters[relatedFacet] || [];
+
+						// If there are values in the related facet, create combinations
+						if (relatedValues.length > 0) {
+							for (const relatedValue of relatedValues) {
+								const combinedKey = `${facet}${HIERARCHY_SEPARATOR}${relatedFacet}`;
+								const combinedValue = `${value}${HIERARCHY_SEPARATOR}${relatedValue}`;
+
+								// Add the combined value to the filters
+								newFilters[combinedKey] = [...(newFilters[combinedKey] || []), combinedValue];
+							}
+						}
+					}
+				}
+			}
+		}
+
+		searchFilters = newFilters;
+		onFiltersChange();
 	}
 </script>
 
@@ -170,20 +208,6 @@
 									<fieldset class="skij-filter-conjunction" aria-live="polite">
 										<legend>How to combine selected filters:</legend>
 										<input
-											id="conjunction-{key}-or"
-											type="radio"
-											name="conjunction-{key}"
-											value="or"
-											checked={!conjunctions[key]}
-											onchange={() => {
-												conjunctions[key] = false;
-												onConjunctionChange();
-											}}
-											disabled={isLoading}
-											aria-label="Match any of the selected filters, logical OR"
-										/>
-										<label for="conjunction-{key}-or"> Match any </label>
-										<input
 											id="conjunction-{key}-and"
 											type="radio"
 											name="conjunction-{key}"
@@ -194,9 +218,23 @@
 												onConjunctionChange();
 											}}
 											disabled={isLoading}
-											aria-label="Match all of the selected filters, logical AND"
+											aria-label="Match all: Results will include items matching all selected filters"
 										/>
 										<label for="conjunction-{key}-and"> Match all </label>
+										<input
+											id="conjunction-{key}-or"
+											type="radio"
+											name="conjunction-{key}"
+											value="or"
+											checked={!conjunctions[key]}
+											onchange={() => {
+												conjunctions[key] = false;
+												onConjunctionChange();
+											}}
+											disabled={isLoading}
+											aria-label="Match any: Results will include items matching any selected filter"
+										/>
+										<label for="conjunction-{key}-or"> Match any </label>
 									</fieldset>
 								{/if}
 								<fieldset class="skij-filter-buckets" aria-live="polite">
@@ -228,7 +266,7 @@
 													value={bucket.key}
 													disabled={isDisabled}
 													bind:group={searchFilters[key]}
-													onchange={onFiltersChange}
+													onchange={handleFiltersChange}
 													aria-label={bucketTitle}
 												/>
 												<span>
