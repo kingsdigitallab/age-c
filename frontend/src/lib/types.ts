@@ -1,14 +1,3 @@
-export interface Person {
-	id: string;
-	birthYear: number;
-	deathYear: number;
-	gender: string;
-	name: string;
-	nationality: string;
-	slug: string;
-	type?: 'Person';
-}
-
 export interface Film {
 	id: string;
 	characters: Character[];
@@ -24,6 +13,19 @@ export interface Film {
 	tags?: string[];
 	title: { native: string; english: string };
 	type?: 'Film';
+}
+
+export interface Person {
+	id: string;
+	birthYear: number;
+	characters?: Character[];
+	deathYear: number;
+	gender: string;
+	name: string;
+	nationality: string;
+	roles?: Role[];
+	slug: string;
+	type?: 'Person';
 }
 
 export interface Character {
@@ -44,19 +46,6 @@ export interface Character {
 export interface Media {
 	trailerUrl?: string;
 	posterUrl?: string;
-}
-
-export interface Person {
-	id: string;
-	birthYear: number;
-	characters?: Character[];
-	deathYear: number;
-	gender: string;
-	name: string;
-	nationality: string;
-	roles?: Role[];
-	slug: string;
-	type: 'Person';
 }
 
 export interface Production {
