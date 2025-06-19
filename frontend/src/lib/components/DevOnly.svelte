@@ -2,9 +2,8 @@
 	import { dev } from '$app/environment';
 	import type { Snippet } from 'svelte';
 
-	const { children }: { children: Snippet } = $props();
+	let { debug = false, children }: { debug?: boolean; children: Snippet } = $props();
 
-	let debug = $state(false);
 	const showDebugElements = $derived(dev && debug);
 </script>
 
