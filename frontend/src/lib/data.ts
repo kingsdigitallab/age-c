@@ -12,9 +12,10 @@ export async function getSearchData(slug: string) {
 		const baseData = {
 			...item,
 			title: getTitle(item),
-			filmType: getField(item, 'filmType'),
 			releaseType: getField(item, 'release.type'),
 			releaseYear: getField(item, 'release.year'),
+			filmType: getField(item, 'filmType'),
+			genre: getField(item, 'genre'),
 			productionCountryShare: getProduction(item),
 			role: getRole(item),
 			birthYear: getField(item, 'birthYear'),
@@ -75,9 +76,10 @@ export function getTitle(item: Item) {
 }
 
 const fieldSubpaths: Record<string, { character: string; role: string }> = {
-	filmType: { character: 'film.filmType', role: 'filmType' },
 	'release.type': { character: 'film.release.type', role: 'release.type' },
 	'release.year': { character: 'film.release.year', role: 'release.year' },
+	filmType: { character: 'film.filmType', role: 'filmType' },
+	genre: { character: 'film.genre', role: 'film.genre' },
 	birthYear: { character: 'person.birthYear', role: 'person.birthYear' },
 	gender: { character: 'person.gender', role: 'person.gender' },
 	nationality: { character: 'person.nationality', role: 'person.nationality' }
@@ -94,11 +96,11 @@ export function getField(item: Item, field: string) {
 		? (item.roles || []).map((d: Role) => getNestedField(d, subpaths.role))
 		: [];
 
-	return [mainValue, ...characterValues, ...roleValues].filter(Boolean);
+	return [mainValue, ...characterValues, ...roleValues].flat().filter(Boolean);
 }
 
 export function getNestedField(obj: Item | Character | Role, path: string) {
-	return path.split('.').reduce((acc, part) => {
+	return path.split('.').reduce((acc: Item | Character | Role | undefined, part: string) => {
 		if (acc && typeof acc === 'object' && part in acc) {
 			return acc[part as keyof typeof acc];
 		}
@@ -166,22 +168,36 @@ export function getText(item: Item) {
 
 export function getTags(item: Item) {
 	const itemTags = [];
+	const processedTags = [];
 
 	if (item.type === 'Film' && item?.tags) {
-		for (const tag of item.tags) {
-			const parts = tags[tag as keyof typeof tags];
-
-			if (parts) {
-				for (let idx = 0; idx < parts.length; idx++) {
-					itemTags.push(parts.slice(0, idx + 1).join(HIERARCHY_SEPARATOR));
-				}
-
-				itemTags.push(`${parts.join(HIERARCHY_SEPARATOR)}${HIERARCHY_SEPARATOR}${tag}`);
+		itemTags.push(...item.tags);
+	} else {
+		for (const character of item?.characters || []) {
+			if (character.film?.tags) {
+				itemTags.push(...character.film.tags);
+			}
+		}
+		for (const role of item?.roles || []) {
+			if (role.film?.tags) {
+				itemTags.push(...role.film.tags);
 			}
 		}
 	}
 
-	return itemTags.filter(Boolean);
+	for (const tag of itemTags) {
+		const parts = tags[tag as keyof typeof tags];
+
+		if (parts) {
+			for (let idx = 0; idx < parts.length; idx++) {
+				processedTags.push(parts.slice(0, idx + 1).join(HIERARCHY_SEPARATOR));
+			}
+
+			processedTags.push(`${parts.join(HIERARCHY_SEPARATOR)}${HIERARCHY_SEPARATOR}${tag}`);
+		}
+	}
+
+	return processedTags.filter(Boolean);
 }
 
 export function getRelatedFacetCombinations(item: Item, facet1: string, facet2: string) {
