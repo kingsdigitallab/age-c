@@ -491,12 +491,9 @@ def get_film(films: dict, obj: dict) -> dict:
             "type",
             "characters",
             "directors",
-            "filmType",
-            "genre",
             "media",
             "roles",
             "synopsis",
-            "tags",
         ]:
             if key in film_copy:
                 del film_copy[key]
