@@ -42,7 +42,7 @@
 		<ul>
 			<li>
 				<strong><a href="{base}/">{config.siteName}</a></strong>
-				<DevOnly>dev</DevOnly>
+				<DevOnly debug={true}>dev</DevOnly>
 			</li>
 		</ul>
 		<ul>
