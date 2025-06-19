@@ -11,7 +11,10 @@ const mdsvexOptions = {
 const config = {
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			precompress: true,
+			fallback: '404.html'
+		}),
 		alias: { $data: '../data/2_final' },
 		paths: {
 			base: process.env.GITHUB_ACTIONS_BUILD === 'true' ? '/age-c' : ''
