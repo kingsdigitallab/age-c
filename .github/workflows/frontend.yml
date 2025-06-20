@@ -31,7 +31,7 @@ jobs:
           bun install
 
       - name: Increase file descriptor limit
-        run: ulimit -Sn 65536
+        run: ulimit -Sn unlimited
 
       - name: Build
         env:
