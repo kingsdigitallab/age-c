@@ -12,7 +12,6 @@ const config = {
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 	kit: {
 		adapter: adapter({
-			precompress: true,
 			fallback: '404.html'
 		}),
 		alias: { $data: '../data/2_final' },
