@@ -30,9 +30,6 @@ jobs:
         run: |
           bun install
 
-      - name: Increase file descriptor limit
-        run: ulimit -Sn unlimited
-
       - name: Build
         env:
           GITHUB_ACTIONS_BUILD: true
