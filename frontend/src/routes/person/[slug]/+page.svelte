@@ -1,4 +1,5 @@
 <script lang="ts">
+	import AwardsTable from '$lib/components/AwardsTable.svelte';
 	import FilterLink from '$lib/components/FilterLink.svelte';
 	import CharactersTable from '$lib/components/CharactersTable.svelte';
 	import RolesTable from '$lib/components/PersonRolesTable.svelte';
@@ -30,6 +31,11 @@
 			<FilterLink name="nationality" value={bio.nationality} />
 		</p>
 	</hgroup>
+
+	{#if bio.awards && bio.awards.length > 0}
+		<h2>Awards</h2>
+		<AwardsTable awards={bio.awards} />
+	{/if}
 
 	{#if roles && roles.length > 0}
 		<h2>Roles</h2>

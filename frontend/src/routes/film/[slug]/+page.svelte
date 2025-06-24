@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { config } from '$lib/index';
+	import AwardsTable from '$lib/components/AwardsTable.svelte';
 	import CharactersTable from '$lib/components/CharactersTable.svelte';
 	import DirectorLink from '$lib/components/DirectorLink.svelte';
 	import FilterLink from '$lib/components/FilterLink.svelte';
@@ -39,7 +40,7 @@
 	<hgroup>
 		<h1>
 			{film.title.native}
-			{#if film.title.english}
+			{#if film.title?.english}
 				<small>(original)</small> / {film.title.english}{/if}
 		</h1>
 		<p class="layout-inline">
@@ -87,6 +88,11 @@
 			</dd>
 		{/if}
 	</dl>
+
+	{#if film.awards && film.awards.length > 0}
+		<h2>Awards</h2>
+		<AwardsTable awards={film.awards} />
+	{/if}
 
 	{#if roles && roles.length > 0}
 		<h2>Roles</h2>
