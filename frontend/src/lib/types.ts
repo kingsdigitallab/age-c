@@ -1,5 +1,6 @@
 export interface Film {
 	id: string;
+	awards?: Award[];
 	characters: Character[];
 	directors: Person[];
 	filmType: string;
@@ -17,6 +18,7 @@ export interface Film {
 
 export interface Person {
 	id: string;
+	awards?: Award[];
 	birthYear: number;
 	characters?: Character[];
 	deathYear: number;
@@ -26,6 +28,13 @@ export interface Person {
 	roles?: Role[];
 	slug: string;
 	type?: 'Person';
+}
+
+export interface Award {
+	year: number;
+	award: string;
+	category: string;
+	result: string;
 }
 
 export interface Character {
