@@ -67,6 +67,8 @@ def process_films() -> dict:
     Returns:
         A list of films
     """
+    awards_film_df, awards_person_df = process_awards()
+
     characters_df = process_characters_df()
 
     genre_df = load_data(RAW_DIR / f"{FILE_PREFIX}-genre.csv")
@@ -99,6 +101,7 @@ def process_films() -> dict:
     films = {}
     for _, row in main_df.iterrows():
         film_id = row["id"]
+        slug = row["slug"]
 
         characters = characters_df[characters_df["film_id"] == film_id][
             "character_obj"
@@ -112,6 +115,14 @@ def process_films() -> dict:
             ["person_id", "role_class"]
         ].values.tolist()
 
+        awards_film = awards_film_df[awards_film_df["film_id"] == film_id][
+            ["film_slug", "year", "award", "category", "result"]
+        ].to_dict(orient="records")
+
+        awards_person = awards_person_df[awards_person_df["film_id"] == film_id][
+            ["film_slug", "person_slug", "year", "award", "category", "result"]
+        ].to_dict(orient="records")
+
         tags = themes_df[themes_df["film_id"] == film_id]["tag_name"]
         if tags.empty:
             tags = []
@@ -121,7 +132,7 @@ def process_films() -> dict:
         films[film_id] = {
             "type": "Film",
             "id": film_id,
-            "slug": row["slug"],
+            "slug": slug,
             "title": {
                 "native": row["nat_title"],
                 "english": row["eng_title"],
@@ -161,10 +172,67 @@ def process_films() -> dict:
                 }
                 for person, role in sorted(roles, key=lambda x: x[0])
             ],
+            "awards": [
+                {
+                    "person": award["person_slug"] if "person_slug" in award else None,
+                    "year": award["year"],
+                    "award": award["award"],
+                    "category": award["category"],
+                    "result": award["result"],
+                }
+                for award in awards_film + awards_person
+            ],
             "tags": tags,
         }
 
     return films
+
+
+def process_awards() -> tuple[DataFrame, DataFrame]:
+    """Process awards data for films and persons.
+
+    Returns:
+        A tuple containing (awards_film_df, awards_person_df)
+    """
+    awards_film_df = load_data(RAW_DIR / "awards_film.csv")
+    awards_film_df = awards_film_df.dropna(subset=["film_id"])
+    awards_film_df["film_id"] = awards_film_df["film_id"].str.strip()
+    awards_film_df["film_slug"] = awards_film_df.apply(
+        lambda x: slugify(f"{x['film_id']}-{x['film']}"), axis=1
+    )
+    awards_film_df["award"] = awards_film_df["award"].apply(
+        lambda x: expand_code("award_name", x)
+    )
+    awards_film_df["category"] = awards_film_df["category"].apply(
+        lambda x: expand_code("award_category", x)
+    )
+    awards_film_df["result"] = awards_film_df["result"].apply(
+        lambda x: "Awarded" if x == "A" else "Nominated"
+    )
+
+    awards_person_df = load_data(RAW_DIR / "awards_person.csv")
+    awards_person_df = awards_person_df.dropna(subset=["film_id"])
+    awards_person_df = awards_person_df.dropna(subset=["name"])
+    awards_person_df["film_id"] = awards_person_df["film_id"].str.strip()
+    awards_person_df["film_slug"] = awards_person_df.apply(
+        lambda x: slugify(f"{x['film_id']}-{x['film']}"), axis=1
+    )
+    awards_person_df["name"] = awards_person_df["name"].str.strip()
+    awards_person_df["person_id"] = awards_person_df["name"]
+    awards_person_df["person_slug"] = awards_person_df["person_id"].apply(
+        lambda x: slugify(x)
+    )
+    awards_person_df["award"] = awards_person_df["award"].apply(
+        lambda x: expand_code("award_name", x)
+    )
+    awards_person_df["category"] = awards_person_df["category"].apply(
+        lambda x: expand_code("award_category", x)
+    )
+    awards_person_df["result"] = awards_person_df["result"].apply(
+        lambda x: "Awarded" if x == "A" else "Nominated"
+    )
+
+    return awards_film_df, awards_person_df
 
 
 def process_characters_df() -> DataFrame:
@@ -330,6 +398,8 @@ def process_people() -> dict:
     Returns:
         A list of people
     """
+    awards_film_df, awards_person_df = process_awards()
+
     biog_df = process_biographies_df()
 
     characters_df = process_characters_df()
@@ -350,6 +420,15 @@ def process_people() -> dict:
             ["film_id", "role_class"]
         ].values.tolist()
 
+        awards_film = awards_film_df[awards_film_df["film_id"].isin(roles)][
+            ["film_slug", "year", "award", "category", "result"]
+        ].to_dict(orient="records")
+        awards_person = awards_person_df[
+            awards_person_df["person_id"] == row["person_id"]
+        ][["film_slug", "year", "award", "category", "result"]].to_dict(
+            orient="records"
+        )
+
         people[row["person_id"]] = {
             "type": "Person",
             "id": row["person_id"],
@@ -366,6 +445,16 @@ def process_people() -> dict:
                     "role": role,
                 }
                 for film, role in sorted(roles, key=lambda x: x[0])
+            ],
+            "awards": [
+                {
+                    "film": award["film_slug"],
+                    "year": award["year"],
+                    "award": award["award"],
+                    "category": award["category"],
+                    "result": award["result"],
+                }
+                for award in awards_film + awards_person
             ],
         }
 
