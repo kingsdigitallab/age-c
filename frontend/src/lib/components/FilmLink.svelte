@@ -11,7 +11,9 @@
 		{#if film.title.english}
 			/ {film.title.english}
 		{/if}
-		({film.release?.year})
+		{#if film.release?.year}
+			({film.release?.year})
+		{/if}
 	</a>
 {:else}
 	<span>{film}</span>
