@@ -199,11 +199,15 @@ def process_awards() -> tuple[DataFrame, DataFrame]:
     Returns:
         A tuple containing (awards_film_df, awards_person_df)
     """
+    films_df = process_main_df()
+    films_df = films_df.drop_duplicates(subset=["id"])
+
     awards_film_df = load_data(RAW_DIR / "awards_film.csv")
     awards_film_df = awards_film_df.dropna(subset=["film_id"])
     awards_film_df["film_id"] = awards_film_df["film_id"].str.strip()
-    awards_film_df["film_slug"] = awards_film_df.apply(
-        lambda x: slugify(f"{x['film_id']}-{x['film']}"), axis=1
+    awards_film_df = awards_film_df[awards_film_df["film_id"].isin(films_df["id"])]
+    awards_film_df["film_slug"] = awards_film_df["film_id"].map(
+        films_df.set_index("id")["slug"]
     )
     awards_film_df["award"] = awards_film_df["award"].apply(
         lambda x: expand_code("award_name", x)
@@ -215,17 +219,26 @@ def process_awards() -> tuple[DataFrame, DataFrame]:
         lambda x: "Awarded" if x == "A" else "Nominated"
     )
 
+    people_df = process_biographies_df()
+    people_df = people_df.drop_duplicates(subset=["person_id"])
+
     awards_person_df = load_data(RAW_DIR / "awards_person.csv")
     awards_person_df = awards_person_df.dropna(subset=["film_id"])
     awards_person_df = awards_person_df.dropna(subset=["name"])
     awards_person_df["film_id"] = awards_person_df["film_id"].str.strip()
-    awards_person_df["film_slug"] = awards_person_df.apply(
-        lambda x: slugify(f"{x['film_id']}-{x['film']}"), axis=1
+    awards_person_df["film_slug"] = awards_person_df["film_id"].map(
+        films_df.set_index("id")["slug"]
     )
     awards_person_df["name"] = awards_person_df["name"].str.strip()
     awards_person_df["person_id"] = awards_person_df["name"]
-    awards_person_df["person_slug"] = awards_person_df["person_id"].apply(
-        lambda x: slugify(x)
+    awards_person_df = awards_person_df[
+        awards_person_df["film_id"].isin(films_df["id"])
+    ]
+    awards_person_df = awards_person_df[
+        awards_person_df["person_id"].isin(people_df["person_id"])
+    ]
+    awards_person_df["person_slug"] = awards_person_df["person_id"].map(
+        people_df.set_index("person_id")["slug"]
     )
     awards_person_df["award"] = awards_person_df["award"].apply(
         lambda x: expand_code("award_name", x)
