@@ -71,6 +71,15 @@ const searchAggregations = {
 		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: true
 	},
+	awards: {
+		title: 'Awards',
+		size: 100,
+		sort: 'key',
+		conjunction: true,
+		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
+		skijShowConjunctionToggle: true
+	},
 	role: {
 		title: 'Role',
 		size: 100,
