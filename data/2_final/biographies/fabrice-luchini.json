@@ -135,7 +135,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "anais-demoustier",
+                        "person": {
+                            "slug": "anais-demoustier",
+                            "name": "Ana\u00efs Demoustier"
+                        },
                         "year": 2020,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Actress Female",
@@ -393,7 +396,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "anais-demoustier",
+                        "person": {
+                            "slug": "anais-demoustier",
+                            "name": "Ana\u00efs Demoustier"
+                        },
                         "year": 2020,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Actress Female",
@@ -491,14 +497,24 @@
     ],
     "awards": [
         {
-            "film": "fr2016-083-ma-loute",
+            "film": {
+                "slug": "fr2016-083-ma-loute",
+                "title": {
+                    "native": "Ma Loute"
+                }
+            },
             "year": 2017,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Actor Male",
             "result": "Nominated"
         },
         {
-            "film": "fr2015-158-l-hermine",
+            "film": {
+                "slug": "fr2015-158-l-hermine",
+                "title": {
+                    "native": "L'Hermine"
+                }
+            },
             "year": 2016,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Actor Male",

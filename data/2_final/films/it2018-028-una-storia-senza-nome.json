@@ -23,7 +23,12 @@
             "nationality": "Italy",
             "awards": [
                 {
-                    "film": "it2022-002-la-stranezza",
+                    "film": {
+                        "slug": "it2022-002-la-stranezza",
+                        "title": {
+                            "native": "La Stranezza"
+                        }
+                    },
                     "year": 2023,
                     "award": "Premio David di Donatello",
                     "category": "Best Director",
@@ -119,7 +124,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "it2017-011-la-tenerezza",
+                        "film": {
+                            "slug": "it2017-011-la-tenerezza",
+                            "title": {
+                                "native": "La tenerezza"
+                            }
+                        },
                         "year": 2018,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",

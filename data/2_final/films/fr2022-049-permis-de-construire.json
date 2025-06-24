@@ -68,7 +68,12 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2016-085-elle",
+                        "film": {
+                            "slug": "fr2016-085-elle",
+                            "title": {
+                                "native": "Elle"
+                            }
+                        },
                         "year": 2017,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actress",

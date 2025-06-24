@@ -23,7 +23,12 @@
             "nationality": "Italy",
             "awards": [
                 {
-                    "film": "chiamami-col-tuo-nome",
+                    "film": {
+                        "slug": "chiamami-col-tuo-nome",
+                        "title": {
+                            "native": "Chiamami col tuo nome"
+                        }
+                    },
                     "year": 2019,
                     "award": "Premio David di Donatello",
                     "category": "Best Director",
@@ -118,7 +123,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "chiamami-col-tuo-nome",
+                        "film": {
+                            "slug": "chiamami-col-tuo-nome",
+                            "title": {
+                                "native": "Chiamami col tuo nome"
+                            }
+                        },
                         "year": 2019,
                         "award": "Premio David di Donatello",
                         "category": "Best Director",

@@ -65,7 +65,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "la-grande-bellezza",
+                        "film": {
+                            "slug": "la-grande-bellezza",
+                            "title": {
+                                "native": "La grande bellezza"
+                            }
+                        },
                         "year": 2014,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
@@ -99,7 +104,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "it2017-021-tutto-quello-che-vuoi",
+                        "film": {
+                            "slug": "it2017-021-tutto-quello-che-vuoi",
+                            "title": {
+                                "native": "Tutto quello che vuoi"
+                            }
+                        },
                         "year": 2018,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
@@ -120,7 +130,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "it2022-081-ennio",
+                        "film": {
+                            "slug": "it2022-081-ennio",
+                            "title": {
+                                "native": "Ennio"
+                            }
+                        },
                         "year": 2022,
                         "award": "Premio David di Donatello",
                         "category": "Best Director",

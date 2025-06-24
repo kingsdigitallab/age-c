@@ -127,7 +127,12 @@
     ],
     "awards": [
         {
-            "film": "it2015-028-alaska",
+            "film": {
+                "slug": "it2015-028-alaska",
+                "title": {
+                    "native": "Alaska"
+                }
+            },
             "year": 2016,
             "award": "Premio David di Donatello",
             "category": "Best Supporting Actor",

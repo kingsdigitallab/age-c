@@ -23,7 +23,12 @@
             "nationality": "Romania",
             "awards": [
                 {
-                    "film": "ro2021-001-babardeala-cu-bucluc-sau-porno-balamuc",
+                    "film": {
+                        "slug": "ro2021-001-babardeala-cu-bucluc-sau-porno-balamuc",
+                        "title": {
+                            "native": "Babardeal\u0103 cu bucluc sau porno balamuc"
+                        }
+                    },
                     "year": 2022,
                     "award": "Premiile Gopo",
                     "category": "Best Director",
@@ -135,7 +140,12 @@
                 "nationality": "Romania",
                 "awards": [
                     {
-                        "film": "ro2021-001-babardeala-cu-bucluc-sau-porno-balamuc",
+                        "film": {
+                            "slug": "ro2021-001-babardeala-cu-bucluc-sau-porno-balamuc",
+                            "title": {
+                                "native": "Babardeal\u0103 cu bucluc sau porno balamuc"
+                            }
+                        },
                         "year": 2022,
                         "award": "Premiile Gopo",
                         "category": "Best Director",
@@ -168,14 +178,20 @@
             "result": "Awarded"
         },
         {
-            "person": "katia-pascariu",
+            "person": {
+                "slug": "katia-pascariu",
+                "name": "Katia Pascariu"
+            },
             "year": 2022,
             "award": "Premiile Gopo",
             "category": "Best Actress Female",
             "result": "Awarded"
         },
         {
-            "person": "radu-jude",
+            "person": {
+                "slug": "radu-jude",
+                "name": "Radu Jude"
+            },
             "year": 2022,
             "award": "Premiile Gopo",
             "category": "Best Director",

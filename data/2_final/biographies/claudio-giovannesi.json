@@ -42,7 +42,10 @@
                         "result": "Nominated"
                     },
                     {
-                        "person": "claudio-giovannesi",
+                        "person": {
+                            "slug": "claudio-giovannesi",
+                            "name": "Claudio Giovannesi"
+                        },
                         "year": 2020,
                         "award": "Premio David di Donatello",
                         "category": "Best Director",
@@ -60,14 +63,24 @@
     ],
     "awards": [
         {
-            "film": "it2019-015-la-paranza-dei-bambini",
+            "film": {
+                "slug": "it2019-015-la-paranza-dei-bambini",
+                "title": {
+                    "native": "La paranza dei bambini"
+                }
+            },
             "year": 2020,
             "award": "Premio David di Donatello",
             "category": "Best Director",
             "result": "Nominated"
         },
         {
-            "film": "fiore",
+            "film": {
+                "slug": "fiore",
+                "title": {
+                    "native": "Fiore"
+                }
+            },
             "year": 2017,
             "award": "Premio David di Donatello",
             "category": "Best Director",

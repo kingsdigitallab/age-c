@@ -35,7 +35,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "renato-pozzetto",
+                        "person": {
+                            "slug": "renato-pozzetto",
+                            "name": "Renato Pozzetto"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
@@ -90,7 +93,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "renato-pozzetto",
+                        "person": {
+                            "slug": "renato-pozzetto",
+                            "name": "Renato Pozzetto"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
@@ -112,7 +118,12 @@
     ],
     "awards": [
         {
-            "film": "it2021-001-lei-mi-parla-ancora",
+            "film": {
+                "slug": "it2021-001-lei-mi-parla-ancora",
+                "title": {
+                    "native": "Lei mi parla ancora"
+                }
+            },
             "year": 2021,
             "award": "Premio David di Donatello",
             "category": "Best Actor Male",

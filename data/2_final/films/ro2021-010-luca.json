@@ -86,7 +86,12 @@
                 "nationality": "Romania",
                 "awards": [
                     {
-                        "film": "ro2021-010-luca",
+                        "film": {
+                            "slug": "ro2021-010-luca",
+                            "title": {
+                                "native": "Luca"
+                            }
+                        },
                         "year": 2022,
                         "award": "Premiile Gopo",
                         "category": "Best Supporting Actress",
@@ -99,14 +104,20 @@
     ],
     "awards": [
         {
-            "person": "istvan-teglas",
+            "person": {
+                "slug": "istvan-teglas",
+                "name": "Istv\u00e1n T\u00e9gl\u00e1s"
+            },
             "year": 2022,
             "award": "Premiile Gopo",
             "category": "Best Actor Male",
             "result": "Nominated"
         },
         {
-            "person": "rodica-mandache",
+            "person": {
+                "slug": "rodica-mandache",
+                "name": "Rodica Mandache"
+            },
             "year": 2022,
             "award": "Premiile Gopo",
             "category": "Best Supporting Actress",

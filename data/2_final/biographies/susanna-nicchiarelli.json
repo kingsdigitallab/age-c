@@ -46,7 +46,10 @@
                         "result": "Nominated"
                     },
                     {
-                        "person": "susanna-nicchiarelli",
+                        "person": {
+                            "slug": "susanna-nicchiarelli",
+                            "name": "Susanna Nicchiarelli"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Director",
@@ -64,14 +67,24 @@
     ],
     "awards": [
         {
-            "film": "it2020-013-miss-marx",
+            "film": {
+                "slug": "it2020-013-miss-marx",
+                "title": {
+                    "native": "Miss Marx"
+                }
+            },
             "year": 2021,
             "award": "Premio David di Donatello",
             "category": "Best Director",
             "result": "Nominated"
         },
         {
-            "film": "nico-1988",
+            "film": {
+                "slug": "nico-1988",
+                "title": {
+                    "native": "Nico, 1988"
+                }
+            },
             "year": 2018,
             "award": "Premio David di Donatello",
             "category": "Best Director",

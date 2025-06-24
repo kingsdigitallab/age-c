@@ -160,7 +160,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "barbara-ronchi",
+                        "person": {
+                            "slug": "barbara-ronchi",
+                            "name": "Barbara Ronchi"
+                        },
                         "year": 2023,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",
@@ -264,28 +267,40 @@
                 ],
                 "awards": [
                     {
-                        "person": "toni-servillo",
+                        "person": {
+                            "slug": "toni-servillo",
+                            "name": "Toni Servillo"
+                        },
                         "year": 2019,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
                         "result": "Nominated"
                     },
                     {
-                        "person": "elena-sofia-ricci",
+                        "person": {
+                            "slug": "elena-sofia-ricci",
+                            "name": "Elena Sofia Ricci"
+                        },
                         "year": 2019,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",
                         "result": "Awarded"
                     },
                     {
-                        "person": "fabrizio-bentivoglio",
+                        "person": {
+                            "slug": "fabrizio-bentivoglio",
+                            "name": "Fabrizio Bentivoglio"
+                        },
                         "year": 2019,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
                         "result": "Nominated"
                     },
                     {
-                        "person": "kasia-smutniak",
+                        "person": {
+                            "slug": "kasia-smutniak",
+                            "name": "Kasia Smutniak"
+                        },
                         "year": 2019,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actress",
@@ -501,14 +516,20 @@
                 ],
                 "awards": [
                     {
-                        "person": "fabrizio-bentivoglio",
+                        "person": {
+                            "slug": "fabrizio-bentivoglio",
+                            "name": "Fabrizio Bentivoglio"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
                         "result": "Awarded"
                     },
                     {
-                        "person": "matilda-de-angelis",
+                        "person": {
+                            "slug": "matilda-de-angelis",
+                            "name": "Matilda De Angelis"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actress",
@@ -548,7 +569,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "barbara-ronchi",
+                        "person": {
+                            "slug": "barbara-ronchi",
+                            "name": "Barbara Ronchi"
+                        },
                         "year": 2023,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",
@@ -673,35 +697,60 @@
     ],
     "awards": [
         {
-            "film": "it2020-068-l-incredibile-storia-dell-isola-delle-rose",
+            "film": {
+                "slug": "it2020-068-l-incredibile-storia-dell-isola-delle-rose",
+                "title": {
+                    "native": "L'incredibile storia dell'Isola delle Rose"
+                }
+            },
             "year": 2021,
             "award": "Premio David di Donatello",
             "category": "Best Supporting Actor",
             "result": "Awarded"
         },
         {
-            "film": "it2018-006-loro",
+            "film": {
+                "slug": "it2018-006-loro",
+                "title": {
+                    "native": "Loro"
+                }
+            },
             "year": 2019,
             "award": "Premio David di Donatello",
             "category": "Best Supporting Actor",
             "result": "Nominated"
         },
         {
-            "film": "it2015-019-gli-ultimi-saranno-ultimi",
+            "film": {
+                "slug": "it2015-019-gli-ultimi-saranno-ultimi",
+                "title": {
+                    "native": "Gli ultimi saranno ultimi"
+                }
+            },
             "year": 2016,
             "award": "Premio David di Donatello",
             "category": "Best Supporting Actor",
             "result": "Nominated"
         },
         {
-            "film": "it2014-012-il-ragazzo-invisibile",
+            "film": {
+                "slug": "it2014-012-il-ragazzo-invisibile",
+                "title": {
+                    "native": "Il ragazzo invisibile"
+                }
+            },
             "year": 2015,
             "award": "Premio David di Donatello",
             "category": "Best Supporting Actor",
             "result": "Nominated"
         },
         {
-            "film": "it2014-009-il-capitale-umano",
+            "film": {
+                "slug": "it2014-009-il-capitale-umano",
+                "title": {
+                    "native": "Il capitale umano"
+                }
+            },
             "year": 2014,
             "award": "Premio David di Donatello",
             "category": "Best Actor Male",

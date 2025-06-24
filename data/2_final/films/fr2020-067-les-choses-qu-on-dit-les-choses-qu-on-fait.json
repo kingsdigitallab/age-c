@@ -23,7 +23,12 @@
             "nationality": "France",
             "awards": [
                 {
-                    "film": "fr2020-067-les-choses-qu-on-dit-les-choses-qu-on-fait",
+                    "film": {
+                        "slug": "fr2020-067-les-choses-qu-on-dit-les-choses-qu-on-fait",
+                        "title": {
+                            "native": "Les Choses qu'on dit, les choses qu'on fait"
+                        }
+                    },
                     "year": 2021,
                     "award": "C\u00e9sar du cin\u00e9ma",
                     "category": "Best Director",
@@ -63,7 +68,12 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2020-067-les-choses-qu-on-dit-les-choses-qu-on-fait",
+                        "film": {
+                            "slug": "fr2020-067-les-choses-qu-on-dit-les-choses-qu-on-fait",
+                            "title": {
+                                "native": "Les Choses qu'on dit, les choses qu'on fait"
+                            }
+                        },
                         "year": 2021,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Director",
@@ -96,35 +106,50 @@
             "result": "Nominated"
         },
         {
-            "person": "niels-schneider",
+            "person": {
+                "slug": "niels-schneider",
+                "name": "Niels Schneider"
+            },
             "year": 2021,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Actor Male",
             "result": "Nominated"
         },
         {
-            "person": "camelia-jordana",
+            "person": {
+                "slug": "camelia-jordana",
+                "name": "Cam\u00e9lia Jordana"
+            },
             "year": 2021,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Actress Female",
             "result": "Nominated"
         },
         {
-            "person": "vincent-macaigne",
+            "person": {
+                "slug": "vincent-macaigne",
+                "name": "Vincent Macaigne"
+            },
             "year": 2021,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Supporting Actor",
             "result": "Nominated"
         },
         {
-            "person": "emilie-dequenne",
+            "person": {
+                "slug": "emilie-dequenne",
+                "name": "\u00c9milie Dequenne"
+            },
             "year": 2021,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Supporting Actress",
             "result": "Awarded"
         },
         {
-            "person": "emmanuel-mouret",
+            "person": {
+                "slug": "emmanuel-mouret",
+                "name": "Emmanuel Mouret"
+            },
             "year": 2021,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Director",

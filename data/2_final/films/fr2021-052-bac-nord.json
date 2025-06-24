@@ -23,14 +23,24 @@
             "nationality": "France",
             "awards": [
                 {
-                    "film": "fr2022-140-novembre",
+                    "film": {
+                        "slug": "fr2022-140-novembre",
+                        "title": {
+                            "native": "Novembre"
+                        }
+                    },
                     "year": 2023,
                     "award": "C\u00e9sar du cin\u00e9ma",
                     "category": "Best Director",
                     "result": "Nominated"
                 },
                 {
-                    "film": "fr2021-052-bac-nord",
+                    "film": {
+                        "slug": "fr2021-052-bac-nord",
+                        "title": {
+                            "native": "BAC Nord"
+                        }
+                    },
                     "year": 2022,
                     "award": "C\u00e9sar du cin\u00e9ma",
                     "category": "Best Director",
@@ -70,14 +80,24 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2022-140-novembre",
+                        "film": {
+                            "slug": "fr2022-140-novembre",
+                            "title": {
+                                "native": "Novembre"
+                            }
+                        },
                         "year": 2023,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Director",
                         "result": "Nominated"
                     },
                     {
-                        "film": "fr2021-052-bac-nord",
+                        "film": {
+                            "slug": "fr2021-052-bac-nord",
+                            "title": {
+                                "native": "BAC Nord"
+                            }
+                        },
                         "year": 2022,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Director",
@@ -110,28 +130,40 @@
             "result": "Nominated"
         },
         {
-            "person": "gilles-lellouche",
+            "person": {
+                "slug": "gilles-lellouche",
+                "name": "Gilles Lellouche"
+            },
             "year": 2022,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Actor Male",
             "result": "Nominated"
         },
         {
-            "person": "francois-civil",
+            "person": {
+                "slug": "francois-civil",
+                "name": "Fran\u00e7ois Civil"
+            },
             "year": 2022,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Supporting Actor",
             "result": "Nominated"
         },
         {
-            "person": "karmi-leklou",
+            "person": {
+                "slug": "karmi-leklou",
+                "name": "Karmi Leklou"
+            },
             "year": 2022,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Supporting Actor",
             "result": "Nominated"
         },
         {
-            "person": "cedric-jimenez",
+            "person": {
+                "slug": "cedric-jimenez",
+                "name": "C\u00e9dric Jimenez"
+            },
             "year": 2022,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Director",

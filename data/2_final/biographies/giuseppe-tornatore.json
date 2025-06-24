@@ -87,7 +87,10 @@
                         "result": "Awarded"
                     },
                     {
-                        "person": "giuseppe-tornatore",
+                        "person": {
+                            "slug": "giuseppe-tornatore",
+                            "name": "Giuseppe Tornatore"
+                        },
                         "year": 2022,
                         "award": "Premio David di Donatello",
                         "category": "Best Director",
@@ -147,7 +150,10 @@
                         "result": "Awarded"
                     },
                     {
-                        "person": "giuseppe-tornatore",
+                        "person": {
+                            "slug": "giuseppe-tornatore",
+                            "name": "Giuseppe Tornatore"
+                        },
                         "year": 2022,
                         "award": "Premio David di Donatello",
                         "category": "Best Director",
@@ -165,7 +171,12 @@
     ],
     "awards": [
         {
-            "film": "it2022-081-ennio",
+            "film": {
+                "slug": "it2022-081-ennio",
+                "title": {
+                    "native": "Ennio"
+                }
+            },
             "year": 2022,
             "award": "Premio David di Donatello",
             "category": "Best Director",

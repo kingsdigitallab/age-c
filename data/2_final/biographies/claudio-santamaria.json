@@ -36,7 +36,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "micaela-ramazzotti",
+                        "person": {
+                            "slug": "micaela-ramazzotti",
+                            "name": "Micaela Ramazzotti"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",
@@ -89,7 +92,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "micaela-ramazzotti",
+                        "person": {
+                            "slug": "micaela-ramazzotti",
+                            "name": "Micaela Ramazzotti"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",
@@ -108,7 +114,12 @@
     ],
     "awards": [
         {
-            "film": "it2016-007-lo-chiamavano-jeeg-robot",
+            "film": {
+                "slug": "it2016-007-lo-chiamavano-jeeg-robot",
+                "title": {
+                    "native": "Lo chiamavano Jeeg Robot"
+                }
+            },
             "year": 2016,
             "award": "Premio David di Donatello",
             "category": "Best Actor Male",

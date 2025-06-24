@@ -90,7 +90,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "it2018-006-loro",
+                        "film": {
+                            "slug": "it2018-006-loro",
+                            "title": {
+                                "native": "Loro"
+                            }
+                        },
                         "year": 2019,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",

@@ -558,35 +558,50 @@
                         "result": "Nominated"
                     },
                     {
-                        "person": "melvil-poupaud",
+                        "person": {
+                            "slug": "melvil-poupaud",
+                            "name": "Melvil Poupaud"
+                        },
                         "year": 2020,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Actor Male",
                         "result": "Nominated"
                     },
                     {
-                        "person": "swann-arlaud",
+                        "person": {
+                            "slug": "swann-arlaud",
+                            "name": "Swann Arlaud"
+                        },
                         "year": 2020,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actor",
                         "result": "Awarded"
                     },
                     {
-                        "person": "denis-menochet",
+                        "person": {
+                            "slug": "denis-menochet",
+                            "name": "Denis M\u00e9nochet"
+                        },
                         "year": 2020,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actor",
                         "result": "Nominated"
                     },
                     {
-                        "person": "josiane-balasko",
+                        "person": {
+                            "slug": "josiane-balasko",
+                            "name": "Josiane Balasko"
+                        },
                         "year": 2020,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actress",
                         "result": "Nominated"
                     },
                     {
-                        "person": "francois-ozon",
+                        "person": {
+                            "slug": "francois-ozon",
+                            "name": "Fran\u00e7ois Ozon"
+                        },
                         "year": 2020,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Director",
@@ -931,7 +946,12 @@
     ],
     "awards": [
         {
-            "film": "fr2019-036-grace-a-dieu",
+            "film": {
+                "slug": "fr2019-036-grace-a-dieu",
+                "title": {
+                    "native": "Gr\u00e2ce \u00e0 Dieu"
+                }
+            },
             "year": 2020,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Supporting Actress",

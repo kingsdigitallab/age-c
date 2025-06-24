@@ -23,7 +23,12 @@
             "nationality": "Netherlands (the)",
             "awards": [
                 {
-                    "film": "fr2016-085-elle",
+                    "film": {
+                        "slug": "fr2016-085-elle",
+                        "title": {
+                            "native": "Elle"
+                        }
+                    },
                     "year": 2017,
                     "award": "C\u00e9sar du cin\u00e9ma",
                     "category": "Best Director",
@@ -110,7 +115,12 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2020-036-de-gaulle",
+                        "film": {
+                            "slug": "fr2020-036-de-gaulle",
+                            "title": {
+                                "native": "De Gaulle"
+                            }
+                        },
                         "year": 2021,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Actor Male",
@@ -144,7 +154,12 @@
                 "nationality": "Netherlands (the)",
                 "awards": [
                     {
-                        "film": "fr2016-085-elle",
+                        "film": {
+                            "slug": "fr2016-085-elle",
+                            "title": {
+                                "native": "Elle"
+                            }
+                        },
                         "year": 2017,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Director",
@@ -157,7 +172,10 @@
     ],
     "awards": [
         {
-            "person": "virginie-efira",
+            "person": {
+                "slug": "virginie-efira",
+                "name": "Virginie Efira"
+            },
             "year": 2022,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Actress Female",

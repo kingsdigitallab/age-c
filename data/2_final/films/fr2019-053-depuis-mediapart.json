@@ -56,14 +56,24 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2019-181-la-belle-epoque",
+                        "film": {
+                            "slug": "fr2019-181-la-belle-epoque",
+                            "title": {
+                                "native": "La Belle \u00c9poque"
+                            }
+                        },
                         "year": 2020,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Actor Male",
                         "result": "Nominated"
                     },
                     {
-                        "film": "fr2017-179-le-brio",
+                        "film": {
+                            "slug": "fr2017-179-le-brio",
+                            "title": {
+                                "native": "Le Brio"
+                            }
+                        },
                         "year": 2018,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Actor Male",
@@ -93,7 +103,12 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2015-114-marguerite",
+                        "film": {
+                            "slug": "fr2015-114-marguerite",
+                            "title": {
+                                "native": "Marguerite"
+                            }
+                        },
                         "year": 2016,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Actress Female",

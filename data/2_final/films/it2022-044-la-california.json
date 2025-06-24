@@ -94,7 +94,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "it2016-078-assolo",
+                        "film": {
+                            "slug": "it2016-078-assolo",
+                            "title": {
+                                "native": "Assolo"
+                            }
+                        },
                         "year": 2016,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actress",

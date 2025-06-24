@@ -45,21 +45,30 @@
                         "result": "Nominated"
                     },
                     {
-                        "person": "leonardo-di-costanzo",
+                        "person": {
+                            "slug": "leonardo-di-costanzo",
+                            "name": "Leonardo Di Costanzo"
+                        },
                         "year": 2022,
                         "award": "Premio David di Donatello",
                         "category": "Best Director",
                         "result": "Nominated"
                     },
                     {
-                        "person": "silvio-orlando",
+                        "person": {
+                            "slug": "silvio-orlando",
+                            "name": "Silvio Orlando"
+                        },
                         "year": 2022,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
                         "result": "Awarded"
                     },
                     {
-                        "person": "fabrizio-ferracane",
+                        "person": {
+                            "slug": "fabrizio-ferracane",
+                            "name": "Fabrizio Ferracane"
+                        },
                         "year": 2022,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
@@ -77,7 +86,12 @@
     ],
     "awards": [
         {
-            "film": "it2021-038-ariaferma",
+            "film": {
+                "slug": "it2021-038-ariaferma",
+                "title": {
+                    "native": "Ariaferma"
+                }
+            },
             "year": 2022,
             "award": "Premio David di Donatello",
             "category": "Best Director",

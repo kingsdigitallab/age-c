@@ -92,7 +92,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "rosa",
+                        "film": {
+                            "slug": "rosa",
+                            "title": {
+                                "native": "Rosa"
+                            }
+                        },
                         "year": 2020,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",

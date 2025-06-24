@@ -35,7 +35,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "francesco-di-leva",
+                        "person": {
+                            "slug": "francesco-di-leva",
+                            "name": "Francesco Di Leva"
+                        },
                         "year": 2020,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
@@ -85,35 +88,50 @@
                         "result": "Nominated"
                     },
                     {
-                        "person": "mario-martone",
+                        "person": {
+                            "slug": "mario-martone",
+                            "name": "Mario Martone"
+                        },
                         "year": 2022,
                         "award": "Premio David di Donatello",
                         "category": "Best Director",
                         "result": "Nominated"
                     },
                     {
-                        "person": "toni-servillo",
+                        "person": {
+                            "slug": "toni-servillo",
+                            "name": "Toni Servillo"
+                        },
                         "year": 2022,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
                         "result": "Nominated"
                     },
                     {
-                        "person": "maria-nazionale",
+                        "person": {
+                            "slug": "maria-nazionale",
+                            "name": "Maria Nazionale"
+                        },
                         "year": 2022,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",
                         "result": "Nominated"
                     },
                     {
-                        "person": "eduardo-scarpetta",
+                        "person": {
+                            "slug": "eduardo-scarpetta",
+                            "name": "Eduardo Scarpetta"
+                        },
                         "year": 2022,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
                         "result": "Awarded"
                     },
                     {
-                        "person": "cristiana-dell-anna",
+                        "person": {
+                            "slug": "cristiana-dell-anna",
+                            "name": "Cristiana Dell'Anna"
+                        },
                         "year": 2022,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actress",
@@ -203,7 +221,12 @@
     ],
     "awards": [
         {
-            "film": "it2016-058-le-ultime-cose",
+            "film": {
+                "slug": "it2016-058-le-ultime-cose",
+                "title": {
+                    "native": "Le ultime cose"
+                }
+            },
             "year": 2017,
             "award": "Premio David di Donatello",
             "category": "Best Supporting Actor",

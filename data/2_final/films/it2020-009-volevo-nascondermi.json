@@ -23,7 +23,12 @@
             "nationality": "Italy",
             "awards": [
                 {
-                    "film": "it2020-009-volevo-nascondermi",
+                    "film": {
+                        "slug": "it2020-009-volevo-nascondermi",
+                        "title": {
+                            "native": "Volevo nascondermi"
+                        }
+                    },
                     "year": 2021,
                     "award": "Premio David di Donatello",
                     "category": "Best Director",
@@ -65,35 +70,60 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "il-signore-delle-formiche",
+                        "film": {
+                            "slug": "il-signore-delle-formiche",
+                            "title": {
+                                "native": "Il Signore Delle Formiche"
+                            }
+                        },
                         "year": 2023,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
                         "result": "Nominated"
                     },
                     {
-                        "film": "america-latina",
+                        "film": {
+                            "slug": "america-latina",
+                            "title": {
+                                "native": "America Latina"
+                            }
+                        },
                         "year": 2022,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
                         "result": "Nominated"
                     },
                     {
-                        "film": "it2020-009-volevo-nascondermi",
+                        "film": {
+                            "slug": "it2020-009-volevo-nascondermi",
+                            "title": {
+                                "native": "Volevo nascondermi"
+                            }
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
                         "result": "Awarded"
                     },
                     {
-                        "film": "it2017-011-la-tenerezza",
+                        "film": {
+                            "slug": "it2017-011-la-tenerezza",
+                            "title": {
+                                "native": "La tenerezza"
+                            }
+                        },
                         "year": 2018,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
                         "result": "Nominated"
                     },
                     {
-                        "film": "it2014-007-il-giovane-favoloso",
+                        "film": {
+                            "slug": "it2014-007-il-giovane-favoloso",
+                            "title": {
+                                "native": "Il giovane favoloso"
+                            }
+                        },
                         "year": 2015,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
@@ -123,35 +153,60 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "il-signore-delle-formiche",
+                        "film": {
+                            "slug": "il-signore-delle-formiche",
+                            "title": {
+                                "native": "Il Signore Delle Formiche"
+                            }
+                        },
                         "year": 2023,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
                         "result": "Nominated"
                     },
                     {
-                        "film": "america-latina",
+                        "film": {
+                            "slug": "america-latina",
+                            "title": {
+                                "native": "America Latina"
+                            }
+                        },
                         "year": 2022,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
                         "result": "Nominated"
                     },
                     {
-                        "film": "it2020-009-volevo-nascondermi",
+                        "film": {
+                            "slug": "it2020-009-volevo-nascondermi",
+                            "title": {
+                                "native": "Volevo nascondermi"
+                            }
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
                         "result": "Awarded"
                     },
                     {
-                        "film": "it2017-011-la-tenerezza",
+                        "film": {
+                            "slug": "it2017-011-la-tenerezza",
+                            "title": {
+                                "native": "La tenerezza"
+                            }
+                        },
                         "year": 2018,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
                         "result": "Nominated"
                     },
                     {
-                        "film": "it2014-007-il-giovane-favoloso",
+                        "film": {
+                            "slug": "it2014-007-il-giovane-favoloso",
+                            "title": {
+                                "native": "Il giovane favoloso"
+                            }
+                        },
                         "year": 2015,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
@@ -172,7 +227,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "it2020-009-volevo-nascondermi",
+                        "film": {
+                            "slug": "it2020-009-volevo-nascondermi",
+                            "title": {
+                                "native": "Volevo nascondermi"
+                            }
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Director",
@@ -192,14 +252,20 @@
             "result": "Awarded"
         },
         {
-            "person": "giorgio-diritti",
+            "person": {
+                "slug": "giorgio-diritti",
+                "name": "Giorgio Diritti"
+            },
             "year": 2021,
             "award": "Premio David di Donatello",
             "category": "Best Director",
             "result": "Awarded"
         },
         {
-            "person": "elio-germano",
+            "person": {
+                "slug": "elio-germano",
+                "name": "Elio Germano"
+            },
             "year": 2021,
             "award": "Premio David di Donatello",
             "category": "Best Actor Male",

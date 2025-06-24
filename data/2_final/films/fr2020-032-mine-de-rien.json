@@ -77,7 +77,12 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2019-174-hors-normes",
+                        "film": {
+                            "slug": "fr2019-174-hors-normes",
+                            "title": {
+                                "native": "Hors normes"
+                            }
+                        },
                         "year": 2020,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actress",

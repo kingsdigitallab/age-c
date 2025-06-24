@@ -68,7 +68,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "la-grande-bellezza",
+                        "film": {
+                            "slug": "la-grande-bellezza",
+                            "title": {
+                                "native": "La grande bellezza"
+                            }
+                        },
                         "year": 2014,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",

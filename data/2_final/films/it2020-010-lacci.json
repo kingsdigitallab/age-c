@@ -78,14 +78,24 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "it2021-038-ariaferma",
+                        "film": {
+                            "slug": "it2021-038-ariaferma",
+                            "title": {
+                                "native": "Ariaferma"
+                            }
+                        },
                         "year": 2022,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
                         "result": "Awarded"
                     },
                     {
-                        "film": "it2020-010-lacci",
+                        "film": {
+                            "slug": "it2020-010-lacci",
+                            "title": {
+                                "native": "Lacci"
+                            }
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
@@ -141,14 +151,24 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "it2021-038-ariaferma",
+                        "film": {
+                            "slug": "it2021-038-ariaferma",
+                            "title": {
+                                "native": "Ariaferma"
+                            }
+                        },
                         "year": 2022,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
                         "result": "Awarded"
                     },
                     {
-                        "film": "it2020-010-lacci",
+                        "film": {
+                            "slug": "it2020-010-lacci",
+                            "title": {
+                                "native": "Lacci"
+                            }
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
@@ -161,14 +181,20 @@
     ],
     "awards": [
         {
-            "person": "alba-rohrwacher",
+            "person": {
+                "slug": "alba-rohrwacher",
+                "name": "Alba Rohrwacher"
+            },
             "year": 2021,
             "award": "Premio David di Donatello",
             "category": "Best Actress Female",
             "result": "Nominated"
         },
         {
-            "person": "silvio-orlando",
+            "person": {
+                "slug": "silvio-orlando",
+                "name": "Silvio Orlando"
+            },
             "year": 2021,
             "award": "Premio David di Donatello",
             "category": "Best Supporting Actor",

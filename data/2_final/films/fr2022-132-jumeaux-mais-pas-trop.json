@@ -142,7 +142,12 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2020-085-adieu-les-cons",
+                        "film": {
+                            "slug": "fr2020-085-adieu-les-cons",
+                            "title": {
+                                "native": "Adieu les cons"
+                            }
+                        },
                         "year": 2021,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actor",

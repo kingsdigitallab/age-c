@@ -67,7 +67,12 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2015-114-marguerite",
+                        "film": {
+                            "slug": "fr2015-114-marguerite",
+                            "title": {
+                                "native": "Marguerite"
+                            }
+                        },
                         "year": 2016,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actor",
@@ -101,7 +106,12 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2019-036-grace-a-dieu",
+                        "film": {
+                            "slug": "fr2019-036-grace-a-dieu",
+                            "title": {
+                                "native": "Gr\u00e2ce \u00e0 Dieu"
+                            }
+                        },
                         "year": 2020,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actress",
@@ -122,7 +132,12 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2020-036-de-gaulle",
+                        "film": {
+                            "slug": "fr2020-036-de-gaulle",
+                            "title": {
+                                "native": "De Gaulle"
+                            }
+                        },
                         "year": 2021,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Actor Male",

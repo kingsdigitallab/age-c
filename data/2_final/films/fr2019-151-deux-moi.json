@@ -23,7 +23,12 @@
             "nationality": "France",
             "awards": [
                 {
-                    "film": "fr2022-062-en-corps",
+                    "film": {
+                        "slug": "fr2022-062-en-corps",
+                        "title": {
+                            "native": "En corps"
+                        }
+                    },
                     "year": 2023,
                     "award": "C\u00e9sar du cin\u00e9ma",
                     "category": "Best Director",
@@ -67,7 +72,12 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2022-062-en-corps",
+                        "film": {
+                            "slug": "fr2022-062-en-corps",
+                            "title": {
+                                "native": "En corps"
+                            }
+                        },
                         "year": 2023,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Director",

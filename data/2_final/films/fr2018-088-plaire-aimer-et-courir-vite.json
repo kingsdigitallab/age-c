@@ -69,7 +69,12 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2018-088-plaire-aimer-et-courir-vite",
+                        "film": {
+                            "slug": "fr2018-088-plaire-aimer-et-courir-vite",
+                            "title": {
+                                "native": "Plaire, aimer et courir vite"
+                            }
+                        },
                         "year": 2019,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actor",
@@ -82,7 +87,10 @@
     ],
     "awards": [
         {
-            "person": "denis-podalydes",
+            "person": {
+                "slug": "denis-podalydes",
+                "name": "Denis Podalyd\u00e8s"
+            },
             "year": 2019,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Supporting Actor",

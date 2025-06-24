@@ -23,7 +23,12 @@
             "nationality": "France",
             "awards": [
                 {
-                    "film": "fr2018-018-jusqu-a-la-garde",
+                    "film": {
+                        "slug": "fr2018-018-jusqu-a-la-garde",
+                        "title": {
+                            "native": "Jusqu'\u00e0 la garde"
+                        }
+                    },
                     "year": 2019,
                     "award": "C\u00e9sar du cin\u00e9ma",
                     "category": "Best Director",
@@ -127,7 +132,12 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2018-018-jusqu-a-la-garde",
+                        "film": {
+                            "slug": "fr2018-018-jusqu-a-la-garde",
+                            "title": {
+                                "native": "Jusqu'\u00e0 la garde"
+                            }
+                        },
                         "year": 2019,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Director",
@@ -147,21 +157,30 @@
             "result": "Awarded"
         },
         {
-            "person": "denis-menochet",
+            "person": {
+                "slug": "denis-menochet",
+                "name": "Denis M\u00e9nochet"
+            },
             "year": 2019,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Actor Male",
             "result": "Nominated"
         },
         {
-            "person": "lea-drucker",
+            "person": {
+                "slug": "lea-drucker",
+                "name": "L\u00e9a Drucker"
+            },
             "year": 2019,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Actress Female",
             "result": "Awarded"
         },
         {
-            "person": "xavier-legrand",
+            "person": {
+                "slug": "xavier-legrand",
+                "name": "Xavier Legrand"
+            },
             "year": 2019,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Director",

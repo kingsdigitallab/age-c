@@ -103,7 +103,12 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2015-114-marguerite",
+                        "film": {
+                            "slug": "fr2015-114-marguerite",
+                            "title": {
+                                "native": "Marguerite"
+                            }
+                        },
                         "year": 2016,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actor",
@@ -137,7 +142,12 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2023-073-je-verrai-toujours-vos-visages",
+                        "film": {
+                            "slug": "fr2023-073-je-verrai-toujours-vos-visages",
+                            "title": {
+                                "native": "Je verrai toujours vos visages"
+                            }
+                        },
                         "year": 2024,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actress",

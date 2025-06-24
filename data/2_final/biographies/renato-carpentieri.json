@@ -162,7 +162,10 @@
                         "result": "Nominated"
                     },
                     {
-                        "person": "claudio-giovannesi",
+                        "person": {
+                            "slug": "claudio-giovannesi",
+                            "name": "Claudio Giovannesi"
+                        },
                         "year": 2020,
                         "award": "Premio David di Donatello",
                         "category": "Best Director",
@@ -235,7 +238,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "sophia-loren",
+                        "person": {
+                            "slug": "sophia-loren",
+                            "name": "Sophia Loren"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",
@@ -285,28 +291,40 @@
                         "result": "Nominated"
                     },
                     {
-                        "person": "salvatore-ficarra",
+                        "person": {
+                            "slug": "salvatore-ficarra",
+                            "name": "Salvatore Ficarra"
+                        },
                         "year": 2023,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
                         "result": "Nominated"
                     },
                     {
-                        "person": "valentino-picone",
+                        "person": {
+                            "slug": "valentino-picone",
+                            "name": "Valentino Picone"
+                        },
                         "year": 2023,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
                         "result": "Nominated"
                     },
                     {
-                        "person": "giulia-ando",
+                        "person": {
+                            "slug": "giulia-ando",
+                            "name": "Giulia And\u00f2"
+                        },
                         "year": 2023,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actress",
                         "result": "Nominated"
                     },
                     {
-                        "person": "roberto-ando",
+                        "person": {
+                            "slug": "roberto-ando",
+                            "name": "Roberto And\u00f2"
+                        },
                         "year": 2023,
                         "award": "Premio David di Donatello",
                         "category": "Best Director",
@@ -399,7 +417,12 @@
     ],
     "awards": [
         {
-            "film": "it2017-011-la-tenerezza",
+            "film": {
+                "slug": "it2017-011-la-tenerezza",
+                "title": {
+                    "native": "La tenerezza"
+                }
+            },
             "year": 2018,
             "award": "Premio David di Donatello",
             "category": "Best Actor Male",

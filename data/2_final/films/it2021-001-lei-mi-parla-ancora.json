@@ -56,7 +56,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "it2021-001-lei-mi-parla-ancora",
+                        "film": {
+                            "slug": "it2021-001-lei-mi-parla-ancora",
+                            "title": {
+                                "native": "Lei mi parla ancora"
+                            }
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
@@ -125,7 +130,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "it2021-001-lei-mi-parla-ancora",
+                        "film": {
+                            "slug": "it2021-001-lei-mi-parla-ancora",
+                            "title": {
+                                "native": "Lei mi parla ancora"
+                            }
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
@@ -159,7 +169,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "",
+                        "film": {
+                            "slug": "",
+                            "title": {
+                                "native": "\u00a0"
+                            }
+                        },
                         "year": 2018,
                         "award": "Premio David di Donatello",
                         "category": "Life Achievement Award/HonoraryAward",
@@ -172,7 +187,10 @@
     ],
     "awards": [
         {
-            "person": "renato-pozzetto",
+            "person": {
+                "slug": "renato-pozzetto",
+                "name": "Renato Pozzetto"
+            },
             "year": 2021,
             "award": "Premio David di Donatello",
             "category": "Best Actor Male",

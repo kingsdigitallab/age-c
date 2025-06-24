@@ -298,21 +298,30 @@
                 ],
                 "awards": [
                     {
-                        "person": "edouard-baer",
+                        "person": {
+                            "slug": "edouard-baer",
+                            "name": "\u00c9douard Baer"
+                        },
                         "year": 2021,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actor",
                         "result": "Nominated"
                     },
                     {
-                        "person": "noemie-lvovsky",
+                        "person": {
+                            "slug": "noemie-lvovsky",
+                            "name": "No\u00e9mie Lvovsky"
+                        },
                         "year": 2021,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actress",
                         "result": "Nominated"
                     },
                     {
-                        "person": "yolande-moreau",
+                        "person": {
+                            "slug": "yolande-moreau",
+                            "name": "Yolande Moreau"
+                        },
                         "year": 2021,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actress",
@@ -484,7 +493,12 @@
     ],
     "awards": [
         {
-            "film": "fr2020-039-la-bonne-epouse",
+            "film": {
+                "slug": "fr2020-039-la-bonne-epouse",
+                "title": {
+                    "native": "La Bonne \u00c9pouse"
+                }
+            },
             "year": 2021,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Supporting Actress",

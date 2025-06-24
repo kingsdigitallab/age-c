@@ -23,14 +23,24 @@
             "nationality": "Algeria",
             "awards": [
                 {
-                    "film": "fr2020-091-adn",
+                    "film": {
+                        "slug": "fr2020-091-adn",
+                        "title": {
+                            "native": "ADN"
+                        }
+                    },
                     "year": 2021,
                     "award": "C\u00e9sar du cin\u00e9ma",
                     "category": "Best Director",
                     "result": "Nominated"
                 },
                 {
-                    "film": "fr2015-139-mon-roi",
+                    "film": {
+                        "slug": "fr2015-139-mon-roi",
+                        "title": {
+                            "native": "Mon roi"
+                        }
+                    },
                     "year": 2016,
                     "award": "C\u00e9sar du cin\u00e9ma",
                     "category": "Best Director",
@@ -99,21 +109,36 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2022-021-les-jeunes-amants",
+                        "film": {
+                            "slug": "fr2022-021-les-jeunes-amants",
+                            "title": {
+                                "native": "Les Jeunes Amants"
+                            }
+                        },
                         "year": 2023,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Actress Female",
                         "result": "Nominated"
                     },
                     {
-                        "film": "fr2020-091-adn",
+                        "film": {
+                            "slug": "fr2020-091-adn",
+                            "title": {
+                                "native": "ADN"
+                            }
+                        },
                         "year": 2021,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actress",
                         "result": "Nominated"
                     },
                     {
-                        "film": "fr2019-181-la-belle-epoque",
+                        "film": {
+                            "slug": "fr2019-181-la-belle-epoque",
+                            "title": {
+                                "native": "La Belle \u00c9poque"
+                            }
+                        },
                         "year": 2020,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actress",
@@ -134,14 +159,24 @@
                 "nationality": "Algeria",
                 "awards": [
                     {
-                        "film": "fr2020-091-adn",
+                        "film": {
+                            "slug": "fr2020-091-adn",
+                            "title": {
+                                "native": "ADN"
+                            }
+                        },
                         "year": 2021,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Director",
                         "result": "Nominated"
                     },
                     {
-                        "film": "fr2015-139-mon-roi",
+                        "film": {
+                            "slug": "fr2015-139-mon-roi",
+                            "title": {
+                                "native": "Mon roi"
+                            }
+                        },
                         "year": 2016,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Director",
@@ -167,21 +202,30 @@
     ],
     "awards": [
         {
-            "person": "louis-garrel",
+            "person": {
+                "slug": "louis-garrel",
+                "name": "Louis Garrel"
+            },
             "year": 2021,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Supporting Actor",
             "result": "Nominated"
         },
         {
-            "person": "fanny-ardant",
+            "person": {
+                "slug": "fanny-ardant",
+                "name": "Fanny Ardant"
+            },
             "year": 2021,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Supporting Actress",
             "result": "Nominated"
         },
         {
-            "person": "maiwenn",
+            "person": {
+                "slug": "maiwenn",
+                "name": "Ma\u00efwenn"
+            },
             "year": 2021,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Director",

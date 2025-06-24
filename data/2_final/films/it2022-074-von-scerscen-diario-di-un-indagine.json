@@ -45,7 +45,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "it2020-005-hammamet",
+                        "film": {
+                            "slug": "it2020-005-hammamet",
+                            "title": {
+                                "native": "Hammamet"
+                            }
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",

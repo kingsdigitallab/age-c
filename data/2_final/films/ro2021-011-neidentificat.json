@@ -23,7 +23,12 @@
             "nationality": "Romania",
             "awards": [
                 {
-                    "film": "ro2021-011-neidentificat",
+                    "film": {
+                        "slug": "ro2021-011-neidentificat",
+                        "title": {
+                            "native": "Neidentificat"
+                        }
+                    },
                     "year": 2022,
                     "award": "Premiile Gopo",
                     "category": "Best Director",
@@ -62,7 +67,12 @@
                 "nationality": "Romania",
                 "awards": [
                     {
-                        "film": "ro2021-011-neidentificat",
+                        "film": {
+                            "slug": "ro2021-011-neidentificat",
+                            "title": {
+                                "native": "Neidentificat"
+                            }
+                        },
                         "year": 2022,
                         "award": "Premiile Gopo",
                         "category": "Best Director",
@@ -121,21 +131,30 @@
             "result": "Nominated"
         },
         {
-            "person": "bogdan-farcas",
+            "person": {
+                "slug": "bogdan-farcas",
+                "name": "Bogdan Farca\u0219"
+            },
             "year": 2022,
             "award": "Premiile Gopo",
             "category": "Best Actor Male",
             "result": "Awarded"
         },
         {
-            "person": "dragos-dumitru",
+            "person": {
+                "slug": "dragos-dumitru",
+                "name": "Drago\u0219 Dumitru"
+            },
             "year": 2022,
             "award": "Premiile Gopo",
             "category": "Best Supporting Actor",
             "result": "Nominated"
         },
         {
-            "person": "bogdan-george-apetri",
+            "person": {
+                "slug": "bogdan-george-apetri",
+                "name": "Bogdan George Apetri"
+            },
             "year": 2022,
             "award": "Premiile Gopo",
             "category": "Best Director",

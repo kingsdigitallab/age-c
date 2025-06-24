@@ -43,14 +43,20 @@
                 ],
                 "awards": [
                     {
-                        "person": "martine-chevallier",
+                        "person": {
+                            "slug": "martine-chevallier",
+                            "name": "Martine Chevallier"
+                        },
                         "year": 2021,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Actress Female",
                         "result": "Nominated"
                     },
                     {
-                        "person": "barbara-sukowa",
+                        "person": {
+                            "slug": "barbara-sukowa",
+                            "name": "Barbara Sukowa"
+                        },
                         "year": 2021,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Actress Female",
@@ -106,7 +112,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "karin-viard",
+                        "person": {
+                            "slug": "karin-viard",
+                            "name": "Karin Viard"
+                        },
                         "year": 2020,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Actress Female",
@@ -153,14 +162,20 @@
                 ],
                 "awards": [
                     {
-                        "person": "martine-chevallier",
+                        "person": {
+                            "slug": "martine-chevallier",
+                            "name": "Martine Chevallier"
+                        },
                         "year": 2021,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Actress Female",
                         "result": "Nominated"
                     },
                     {
-                        "person": "barbara-sukowa",
+                        "person": {
+                            "slug": "barbara-sukowa",
+                            "name": "Barbara Sukowa"
+                        },
                         "year": 2021,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Actress Female",
@@ -220,7 +235,12 @@
     ],
     "awards": [
         {
-            "film": "fr2020-028-deux",
+            "film": {
+                "slug": "fr2020-028-deux",
+                "title": {
+                    "native": "Deux"
+                }
+            },
             "year": 2021,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Actress Female",

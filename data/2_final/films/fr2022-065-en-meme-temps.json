@@ -129,7 +129,12 @@
                 "nationality": "Belgium",
                 "awards": [
                     {
-                        "film": "fr2020-039-la-bonne-epouse",
+                        "film": {
+                            "slug": "fr2020-039-la-bonne-epouse",
+                            "title": {
+                                "native": "La Bonne \u00c9pouse"
+                            }
+                        },
                         "year": 2021,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actress",

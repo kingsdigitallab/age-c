@@ -23,7 +23,12 @@
             "nationality": "Italy",
             "awards": [
                 {
-                    "film": "it2018-034-sulla-mia-pelle",
+                    "film": {
+                        "slug": "it2018-034-sulla-mia-pelle",
+                        "title": {
+                            "native": "Sulla mia pelle"
+                        }
+                    },
                     "year": 2019,
                     "award": "Premio David di Donatello",
                     "category": "Best Director",
@@ -63,7 +68,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "it2018-034-sulla-mia-pelle",
+                        "film": {
+                            "slug": "it2018-034-sulla-mia-pelle",
+                            "title": {
+                                "native": "Sulla mia pelle"
+                            }
+                        },
                         "year": 2019,
                         "award": "Premio David di Donatello",
                         "category": "Best Director",
@@ -109,21 +119,30 @@
             "result": "Nominated"
         },
         {
-            "person": "alessio-cremonini",
+            "person": {
+                "slug": "alessio-cremonini",
+                "name": "Alessio Cremonini"
+            },
             "year": 2019,
             "award": "Premio David di Donatello",
             "category": "Best Director",
             "result": "Nominated"
         },
         {
-            "person": "alessandro-borghi",
+            "person": {
+                "slug": "alessandro-borghi",
+                "name": "Alessandro Borghi"
+            },
             "year": 2019,
             "award": "Premio David di Donatello",
             "category": "Best Actor Male",
             "result": "Awarded"
         },
         {
-            "person": "jasmine-trinca",
+            "person": {
+                "slug": "jasmine-trinca",
+                "name": "Jasmine Trinca"
+            },
             "year": 2019,
             "award": "Premio David di Donatello",
             "category": "Best Supporting Actress",

@@ -48,28 +48,40 @@
                         "result": "Nominated"
                     },
                     {
-                        "person": "valerie-lemercier",
+                        "person": {
+                            "slug": "valerie-lemercier",
+                            "name": "Val\u00e9rie Lemercier"
+                        },
                         "year": 2022,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Actress Female",
                         "result": "Awarded"
                     },
                     {
-                        "person": "sylvain-marcel",
+                        "person": {
+                            "slug": "sylvain-marcel",
+                            "name": "Sylvain Marcel"
+                        },
                         "year": 2022,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actor",
                         "result": "Nominated"
                     },
                     {
-                        "person": "danielle-fichaud",
+                        "person": {
+                            "slug": "danielle-fichaud",
+                            "name": "Danielle Fichaud"
+                        },
                         "year": 2022,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actress",
                         "result": "Nominated"
                     },
                     {
-                        "person": "valerie-lemercier",
+                        "person": {
+                            "slug": "valerie-lemercier",
+                            "name": "Val\u00e9rie Lemercier"
+                        },
                         "year": 2022,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Director",
@@ -95,7 +107,12 @@
     ],
     "awards": [
         {
-            "film": "fr2021-103-aline",
+            "film": {
+                "slug": "fr2021-103-aline",
+                "title": {
+                    "native": "Aline"
+                }
+            },
             "year": 2022,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Supporting Actress",

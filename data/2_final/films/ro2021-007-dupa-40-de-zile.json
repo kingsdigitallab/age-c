@@ -55,7 +55,12 @@
                 "nationality": "Romania",
                 "awards": [
                     {
-                        "film": "ro2021-007-dupa-40-de-zile",
+                        "film": {
+                            "slug": "ro2021-007-dupa-40-de-zile",
+                            "title": {
+                                "native": "Dup\u0103 40 de zile"
+                            }
+                        },
                         "year": 2022,
                         "award": "Premiile Gopo",
                         "category": "Best Actor Male",
@@ -159,7 +164,12 @@
                 "nationality": "Romania",
                 "awards": [
                     {
-                        "film": "ro2021-007-dupa-40-de-zile",
+                        "film": {
+                            "slug": "ro2021-007-dupa-40-de-zile",
+                            "title": {
+                                "native": "Dup\u0103 40 de zile"
+                            }
+                        },
                         "year": 2022,
                         "award": "Premiile Gopo",
                         "category": "Best Actor Male",
@@ -198,7 +208,10 @@
     ],
     "awards": [
         {
-            "person": "mircea-andreescu",
+            "person": {
+                "slug": "mircea-andreescu",
+                "name": "Mircea Andreescu"
+            },
             "year": 2022,
             "award": "Premiile Gopo",
             "category": "Best Actor Male",

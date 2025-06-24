@@ -104,14 +104,24 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2020-039-la-bonne-epouse",
+                        "film": {
+                            "slug": "fr2020-039-la-bonne-epouse",
+                            "title": {
+                                "native": "La Bonne \u00c9pouse"
+                            }
+                        },
                         "year": 2021,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actress",
                         "result": "Nominated"
                     },
                     {
-                        "film": "fr2015-109-la-belle-saison",
+                        "film": {
+                            "slug": "fr2015-109-la-belle-saison",
+                            "title": {
+                                "native": "La Belle Saison"
+                            }
+                        },
                         "year": 2016,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actress",

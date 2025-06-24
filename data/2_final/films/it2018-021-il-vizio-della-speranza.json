@@ -23,7 +23,12 @@
             "nationality": "Italy",
             "awards": [
                 {
-                    "film": "it2016-038-indivisibili",
+                    "film": {
+                        "slug": "it2016-038-indivisibili",
+                        "title": {
+                            "native": "Indivisibili"
+                        }
+                    },
                     "year": 2017,
                     "award": "Premio David di Donatello",
                     "category": "Best Director",
@@ -75,7 +80,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "it2018-021-il-vizio-della-speranza",
+                        "film": {
+                            "slug": "it2018-021-il-vizio-della-speranza",
+                            "title": {
+                                "native": "Il vizio della speranza"
+                            }
+                        },
                         "year": 2019,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actress",
@@ -88,14 +98,20 @@
     ],
     "awards": [
         {
-            "person": "pina-turco",
+            "person": {
+                "slug": "pina-turco",
+                "name": "Pina Turco"
+            },
             "year": 2019,
             "award": "Premio David di Donatello",
             "category": "Best Actress Female",
             "result": "Nominated"
         },
         {
-            "person": "marina-confalone",
+            "person": {
+                "slug": "marina-confalone",
+                "name": "Marina Confalone"
+            },
             "year": 2019,
             "award": "Premio David di Donatello",
             "category": "Best Supporting Actress",

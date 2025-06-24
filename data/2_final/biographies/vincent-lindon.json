@@ -230,7 +230,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "julia-ducournau",
+                        "person": {
+                            "slug": "julia-ducournau",
+                            "name": "Julia Ducournau"
+                        },
                         "year": 2022,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Director",
@@ -576,7 +579,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "julia-ducournau",
+                        "person": {
+                            "slug": "julia-ducournau",
+                            "name": "Julia Ducournau"
+                        },
                         "year": 2022,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Director",
@@ -703,7 +709,12 @@
     ],
     "awards": [
         {
-            "film": "fr2015-073-la-loi-du-marche",
+            "film": {
+                "slug": "fr2015-073-la-loi-du-marche",
+                "title": {
+                    "native": "La Loi du march\u00e9"
+                }
+            },
             "year": 2016,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Actor Male",

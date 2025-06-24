@@ -226,7 +226,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "henry-hubchen",
+                        "person": {
+                            "slug": "henry-hubchen",
+                            "name": "Henry H\u00fcbchen"
+                        },
                         "year": 2022,
                         "award": "Deutscher Filmpreis",
                         "category": "Best Supporting Actor",
@@ -309,7 +312,12 @@
     ],
     "awards": [
         {
-            "film": "de2021-070-lieber-thomas",
+            "film": {
+                "slug": "de2021-070-lieber-thomas",
+                "title": {
+                    "native": "Lieber Thomas"
+                }
+            },
             "year": 2022,
             "award": "Deutscher Filmpreis",
             "category": "Best Supporting Actor",

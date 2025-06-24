@@ -43,14 +43,20 @@
                         "result": "Awarded"
                     },
                     {
-                        "person": "giorgio-diritti",
+                        "person": {
+                            "slug": "giorgio-diritti",
+                            "name": "Giorgio Diritti"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Director",
                         "result": "Awarded"
                     },
                     {
-                        "person": "elio-germano",
+                        "person": {
+                            "slug": "elio-germano",
+                            "name": "Elio Germano"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
@@ -69,7 +75,12 @@
     ],
     "awards": [
         {
-            "film": "it2020-009-volevo-nascondermi",
+            "film": {
+                "slug": "it2020-009-volevo-nascondermi",
+                "title": {
+                    "native": "Volevo nascondermi"
+                }
+            },
             "year": 2021,
             "award": "Premio David di Donatello",
             "category": "Best Director",

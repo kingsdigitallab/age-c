@@ -55,7 +55,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "",
+                        "film": {
+                            "slug": "",
+                            "title": {
+                                "native": "\u00a0"
+                            }
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Life Achievement Award/HonoraryAward",
@@ -81,7 +86,10 @@
     ],
     "awards": [
         {
-            "person": "valeria-golino",
+            "person": {
+                "slug": "valeria-golino",
+                "name": "Valeria Golino"
+            },
             "year": 2020,
             "award": "Premio David di Donatello",
             "category": "Best Actress Female",

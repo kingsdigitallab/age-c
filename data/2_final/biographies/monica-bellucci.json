@@ -395,14 +395,20 @@
                 ],
                 "awards": [
                     {
-                        "person": "claudia-pandolfi",
+                        "person": {
+                            "slug": "claudia-pandolfi",
+                            "name": "Claudia Pandolfi"
+                        },
                         "year": 2023,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",
                         "result": "Nominated"
                     },
                     {
-                        "person": "emanuela-fanelli",
+                        "person": {
+                            "slug": "emanuela-fanelli",
+                            "name": "Emanuela Fanelli"
+                        },
                         "year": 2023,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actress",
@@ -493,7 +499,12 @@
     ],
     "awards": [
         {
-            "film": "",
+            "film": {
+                "slug": "",
+                "title": {
+                    "native": "\u00a0"
+                }
+            },
             "year": 2021,
             "award": "Premio David di Donatello",
             "category": "Life Achievement Award/HonoraryAward",

@@ -36,7 +36,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "massimo-ghini",
+                        "person": {
+                            "slug": "massimo-ghini",
+                            "name": "Massimo Ghini"
+                        },
                         "year": 2019,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
@@ -184,7 +187,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "massimo-ghini",
+                        "person": {
+                            "slug": "massimo-ghini",
+                            "name": "Massimo Ghini"
+                        },
                         "year": 2019,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
@@ -265,7 +271,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "renato-pozzetto",
+                        "person": {
+                            "slug": "renato-pozzetto",
+                            "name": "Renato Pozzetto"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
@@ -430,7 +439,12 @@
     ],
     "awards": [
         {
-            "film": "",
+            "film": {
+                "slug": "",
+                "title": {
+                    "native": "\u00a0"
+                }
+            },
             "year": 2018,
             "award": "Premio David di Donatello",
             "category": "Life Achievement Award/HonoraryAward",

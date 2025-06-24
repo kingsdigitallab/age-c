@@ -94,7 +94,12 @@
                 "nationality": "Germany",
                 "awards": [
                     {
-                        "film": "de2022-032-stasikomodie",
+                        "film": {
+                            "slug": "de2022-032-stasikomodie",
+                            "title": {
+                                "native": "Stasik\u00f6modie"
+                            }
+                        },
                         "year": 2022,
                         "award": "Deutscher Filmpreis",
                         "category": "Best Supporting Actor",

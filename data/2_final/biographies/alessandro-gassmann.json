@@ -245,7 +245,12 @@
     ],
     "awards": [
         {
-            "film": "it2015-017-il-nome-del-figlio",
+            "film": {
+                "slug": "it2015-017-il-nome-del-figlio",
+                "title": {
+                    "native": "Il nome del figlio"
+                }
+            },
             "year": 2015,
             "award": "Premio David di Donatello",
             "category": "Best Actor Male",

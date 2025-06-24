@@ -72,7 +72,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "it2022-005-nostalgia",
+                        "film": {
+                            "slug": "it2022-005-nostalgia",
+                            "title": {
+                                "native": "Nostalgia"
+                            }
+                        },
                         "year": 2023,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actress",
@@ -98,7 +103,10 @@
     ],
     "awards": [
         {
-            "person": "penelope-cruz",
+            "person": {
+                "slug": "penelope-cruz",
+                "name": "Penelope Cruz"
+            },
             "year": 2023,
             "award": "Premio David di Donatello",
             "category": "Best Actress Female",

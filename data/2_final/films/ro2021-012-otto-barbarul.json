@@ -23,7 +23,12 @@
             "nationality": "Romania",
             "awards": [
                 {
-                    "film": "ro2021-012-otto-barbarul",
+                    "film": {
+                        "slug": "ro2021-012-otto-barbarul",
+                        "title": {
+                            "native": "Otto Barbarul"
+                        }
+                    },
                     "year": 2022,
                     "award": "Premiile Gopo",
                     "category": "Best Director",
@@ -67,7 +72,12 @@
                 "nationality": "Romania",
                 "awards": [
                     {
-                        "film": "ro2021-016-tata-muta-muntii",
+                        "film": {
+                            "slug": "ro2021-016-tata-muta-muntii",
+                            "title": {
+                                "native": "Tata mut\u0103 mun\u021bii"
+                            }
+                        },
                         "year": 2022,
                         "award": "Premiile Gopo",
                         "category": "Best Actor Male",
@@ -114,7 +124,12 @@
                 "nationality": "Romania",
                 "awards": [
                     {
-                        "film": "ro2021-012-otto-barbarul",
+                        "film": {
+                            "slug": "ro2021-012-otto-barbarul",
+                            "title": {
+                                "native": "Otto Barbarul"
+                            }
+                        },
                         "year": 2022,
                         "award": "Premiile Gopo",
                         "category": "Best Director",
@@ -134,28 +149,40 @@
             "result": "Nominated"
         },
         {
-            "person": "iulian-postelnicu",
+            "person": {
+                "slug": "iulian-postelnicu",
+                "name": "Iulian Postelnicu"
+            },
             "year": 2022,
             "award": "Premiile Gopo",
             "category": "Best Supporting Actor",
             "result": "Nominated"
         },
         {
-            "person": "ioana-bugarin",
+            "person": {
+                "slug": "ioana-bugarin",
+                "name": "Ioana Bugarin"
+            },
             "year": 2022,
             "award": "Premiile Gopo",
             "category": "Best Supporting Actress",
             "result": "Nominated"
         },
         {
-            "person": "ioana-flora",
+            "person": {
+                "slug": "ioana-flora",
+                "name": "Ioana Flora"
+            },
             "year": 2022,
             "award": "Premiile Gopo",
             "category": "Best Supporting Actress",
             "result": "Awarded"
         },
         {
-            "person": "ruxandra-ghitescu",
+            "person": {
+                "slug": "ruxandra-ghitescu",
+                "name": "Ruxandra Ghi\u021bescu"
+            },
             "year": 2022,
             "award": "Premiile Gopo",
             "category": "Best Director",

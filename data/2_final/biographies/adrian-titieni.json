@@ -38,7 +38,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "adrian-titieni",
+                        "person": {
+                            "slug": "adrian-titieni",
+                            "name": "Adrian Titieni"
+                        },
                         "year": 2022,
                         "award": "Premiile Gopo",
                         "category": "Best Actor Male",
@@ -275,28 +278,40 @@
                         "result": "Nominated"
                     },
                     {
-                        "person": "iulian-postelnicu",
+                        "person": {
+                            "slug": "iulian-postelnicu",
+                            "name": "Iulian Postelnicu"
+                        },
                         "year": 2022,
                         "award": "Premiile Gopo",
                         "category": "Best Supporting Actor",
                         "result": "Nominated"
                     },
                     {
-                        "person": "ioana-bugarin",
+                        "person": {
+                            "slug": "ioana-bugarin",
+                            "name": "Ioana Bugarin"
+                        },
                         "year": 2022,
                         "award": "Premiile Gopo",
                         "category": "Best Supporting Actress",
                         "result": "Nominated"
                     },
                     {
-                        "person": "ioana-flora",
+                        "person": {
+                            "slug": "ioana-flora",
+                            "name": "Ioana Flora"
+                        },
                         "year": 2022,
                         "award": "Premiile Gopo",
                         "category": "Best Supporting Actress",
                         "result": "Awarded"
                     },
                     {
-                        "person": "ruxandra-ghitescu",
+                        "person": {
+                            "slug": "ruxandra-ghitescu",
+                            "name": "Ruxandra Ghi\u021bescu"
+                        },
                         "year": 2022,
                         "award": "Premiile Gopo",
                         "category": "Best Director",
@@ -339,7 +354,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "adrian-titieni",
+                        "person": {
+                            "slug": "adrian-titieni",
+                            "name": "Adrian Titieni"
+                        },
                         "year": 2022,
                         "award": "Premiile Gopo",
                         "category": "Best Actor Male",
@@ -465,7 +483,12 @@
     ],
     "awards": [
         {
-            "film": "ro2021-016-tata-muta-muntii",
+            "film": {
+                "slug": "ro2021-016-tata-muta-muntii",
+                "title": {
+                    "native": "Tata mut\u0103 mun\u021bii"
+                }
+            },
             "year": 2022,
             "award": "Premiile Gopo",
             "category": "Best Actor Male",

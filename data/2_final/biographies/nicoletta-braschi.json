@@ -54,14 +54,20 @@
                         "result": "Nominated"
                     },
                     {
-                        "person": "alice-rohrwacher",
+                        "person": {
+                            "slug": "alice-rohrwacher",
+                            "name": "Alice Rohrwacher"
+                        },
                         "year": 2019,
                         "award": "Premio David di Donatello",
                         "category": "Best Director",
                         "result": "Nominated"
                     },
                     {
-                        "person": "nicoletta-braschi",
+                        "person": {
+                            "slug": "nicoletta-braschi",
+                            "name": "Nicoletta Braschi"
+                        },
                         "year": 2019,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actress",
@@ -80,7 +86,12 @@
     ],
     "awards": [
         {
-            "film": "it2018-035-lazzaro-felice",
+            "film": {
+                "slug": "it2018-035-lazzaro-felice",
+                "title": {
+                    "native": "Lazzaro felice"
+                }
+            },
             "year": 2019,
             "award": "Premio David di Donatello",
             "category": "Best Supporting Actress",

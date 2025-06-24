@@ -23,14 +23,24 @@
             "nationality": "France",
             "awards": [
                 {
-                    "film": "fr2023-167-le-proces-goldman",
+                    "film": {
+                        "slug": "fr2023-167-le-proces-goldman",
+                        "title": {
+                            "native": "Le Proc\u00e8s Goldman"
+                        }
+                    },
                     "year": 2024,
                     "award": "C\u00e9sar du cin\u00e9ma",
                     "category": "Best Supporting Actor",
                     "result": "Nominated"
                 },
                 {
-                    "film": "fr2021-039-onoda-10-000-nuits-dans-la-jungle",
+                    "film": {
+                        "slug": "fr2021-039-onoda-10-000-nuits-dans-la-jungle",
+                        "title": {
+                            "native": "Onoda, 10 000 nuits dans la jungle"
+                        }
+                    },
                     "year": 2022,
                     "award": "C\u00e9sar du cin\u00e9ma",
                     "category": "Best Director",
@@ -132,14 +142,24 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "fr2023-167-le-proces-goldman",
+                        "film": {
+                            "slug": "fr2023-167-le-proces-goldman",
+                            "title": {
+                                "native": "Le Proc\u00e8s Goldman"
+                            }
+                        },
                         "year": 2024,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Supporting Actor",
                         "result": "Nominated"
                     },
                     {
-                        "film": "fr2021-039-onoda-10-000-nuits-dans-la-jungle",
+                        "film": {
+                            "slug": "fr2021-039-onoda-10-000-nuits-dans-la-jungle",
+                            "title": {
+                                "native": "Onoda, 10 000 nuits dans la jungle"
+                            }
+                        },
                         "year": 2022,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Director",
@@ -211,7 +231,10 @@
             "result": "Nominated"
         },
         {
-            "person": "arthur-harari",
+            "person": {
+                "slug": "arthur-harari",
+                "name": "Arthur Harari"
+            },
             "year": 2022,
             "award": "C\u00e9sar du cin\u00e9ma",
             "category": "Best Director",

@@ -78,7 +78,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "it2018-001-a-casa-tutti-bene",
+                        "film": {
+                            "slug": "it2018-001-a-casa-tutti-bene",
+                            "title": {
+                                "native": "A casa tutti bene"
+                            }
+                        },
                         "year": 2019,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
@@ -152,7 +157,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "",
+                        "film": {
+                            "slug": "",
+                            "title": {
+                                "native": "\u00a0"
+                            }
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Life Achievement Award/HonoraryAward",

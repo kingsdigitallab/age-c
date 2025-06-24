@@ -23,7 +23,12 @@
             "nationality": "Italy",
             "awards": [
                 {
-                    "film": "it2020-012-le-sorelle-macaluso",
+                    "film": {
+                        "slug": "it2020-012-le-sorelle-macaluso",
+                        "title": {
+                            "native": "Le sorelle Macaluso"
+                        }
+                    },
                     "year": 2021,
                     "award": "Premio David di Donatello",
                     "category": "Best Director",
@@ -131,7 +136,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "it2020-012-le-sorelle-macaluso",
+                        "film": {
+                            "slug": "it2020-012-le-sorelle-macaluso",
+                            "title": {
+                                "native": "Le sorelle Macaluso"
+                            }
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Director",
@@ -190,7 +200,10 @@
             "result": "Nominated"
         },
         {
-            "person": "emma-dante",
+            "person": {
+                "slug": "emma-dante",
+                "name": "Emma Dante"
+            },
             "year": 2021,
             "award": "Premio David di Donatello",
             "category": "Best Director",

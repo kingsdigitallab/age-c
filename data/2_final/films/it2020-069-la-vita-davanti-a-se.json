@@ -56,7 +56,12 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "it2020-069-la-vita-davanti-a-se",
+                        "film": {
+                            "slug": "it2020-069-la-vita-davanti-a-se",
+                            "title": {
+                                "native": "La vita davanti a s\u00e9"
+                            }
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",
@@ -99,7 +104,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "it2018-001-a-casa-tutti-bene",
+                        "film": {
+                            "slug": "it2018-001-a-casa-tutti-bene",
+                            "title": {
+                                "native": "A casa tutti bene"
+                            }
+                        },
                         "year": 2019,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
@@ -120,7 +130,12 @@
                 "nationality": "Italy",
                 "awards": [
                     {
-                        "film": "it2017-011-la-tenerezza",
+                        "film": {
+                            "slug": "it2017-011-la-tenerezza",
+                            "title": {
+                                "native": "La tenerezza"
+                            }
+                        },
                         "year": 2018,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
@@ -141,7 +156,12 @@
                 "nationality": "France",
                 "awards": [
                     {
-                        "film": "it2020-069-la-vita-davanti-a-se",
+                        "film": {
+                            "slug": "it2020-069-la-vita-davanti-a-se",
+                            "title": {
+                                "native": "La vita davanti a s\u00e9"
+                            }
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",
@@ -154,7 +174,10 @@
     ],
     "awards": [
         {
-            "person": "sophia-loren",
+            "person": {
+                "slug": "sophia-loren",
+                "name": "Sophia Loren"
+            },
             "year": 2021,
             "award": "Premio David di Donatello",
             "category": "Best Actress Female",

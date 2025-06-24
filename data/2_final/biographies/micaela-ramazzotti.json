@@ -36,7 +36,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "micaela-ramazzotti",
+                        "person": {
+                            "slug": "micaela-ramazzotti",
+                            "name": "Micaela Ramazzotti"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",
@@ -89,7 +92,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "micaela-ramazzotti",
+                        "person": {
+                            "slug": "micaela-ramazzotti",
+                            "name": "Micaela Ramazzotti"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",
@@ -141,28 +147,48 @@
     ],
     "awards": [
         {
-            "film": "it2020-004-gli-anni-piu-belli",
+            "film": {
+                "slug": "it2020-004-gli-anni-piu-belli",
+                "title": {
+                    "native": "Gli anni pi\u00f9 belli"
+                }
+            },
             "year": 2021,
             "award": "Premio David di Donatello",
             "category": "Best Actress Female",
             "result": "Nominated"
         },
         {
-            "film": "it2017-011-la-tenerezza",
+            "film": {
+                "slug": "it2017-011-la-tenerezza",
+                "title": {
+                    "native": "La tenerezza"
+                }
+            },
             "year": 2018,
             "award": "Premio David di Donatello",
             "category": "Best Supporting Actress",
             "result": "Nominated"
         },
         {
-            "film": "it2016-006-la-pazza-gioia",
+            "film": {
+                "slug": "it2016-006-la-pazza-gioia",
+                "title": {
+                    "native": "La pazza gioia"
+                }
+            },
             "year": 2017,
             "award": "Premio David di Donatello",
             "category": "Best Actress Female",
             "result": "Nominated"
         },
         {
-            "film": "it2015-017-il-nome-del-figlio",
+            "film": {
+                "slug": "it2015-017-il-nome-del-figlio",
+                "title": {
+                    "native": "Il nome del figlio"
+                }
+            },
             "year": 2015,
             "award": "Premio David di Donatello",
             "category": "Best Supporting Actress",

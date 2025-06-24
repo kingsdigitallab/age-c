@@ -36,7 +36,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "micaela-ramazzotti",
+                        "person": {
+                            "slug": "micaela-ramazzotti",
+                            "name": "Micaela Ramazzotti"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",
@@ -89,7 +92,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "micaela-ramazzotti",
+                        "person": {
+                            "slug": "micaela-ramazzotti",
+                            "name": "Micaela Ramazzotti"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",
@@ -108,7 +114,12 @@
     ],
     "awards": [
         {
-            "film": "it2020-028-cosa-sara",
+            "film": {
+                "slug": "it2020-028-cosa-sara",
+                "title": {
+                    "native": "Cosa sar\u00e0"
+                }
+            },
             "year": 2021,
             "award": "Premio David di Donatello",
             "category": "Best Actor Male",

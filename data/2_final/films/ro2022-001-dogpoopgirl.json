@@ -133,7 +133,12 @@
                 "nationality": "Romania",
                 "awards": [
                     {
-                        "film": "ro2021-010-luca",
+                        "film": {
+                            "slug": "ro2021-010-luca",
+                            "title": {
+                                "native": "Luca"
+                            }
+                        },
                         "year": 2022,
                         "award": "Premiile Gopo",
                         "category": "Best Supporting Actress",

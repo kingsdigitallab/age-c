@@ -34,14 +34,20 @@
                 ],
                 "awards": [
                     {
-                        "person": "pina-turco",
+                        "person": {
+                            "slug": "pina-turco",
+                            "name": "Pina Turco"
+                        },
                         "year": 2019,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",
                         "result": "Nominated"
                     },
                     {
-                        "person": "marina-confalone",
+                        "person": {
+                            "slug": "marina-confalone",
+                            "name": "Marina Confalone"
+                        },
                         "year": 2019,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actress",
@@ -98,7 +104,12 @@
     ],
     "awards": [
         {
-            "film": "it2018-021-il-vizio-della-speranza",
+            "film": {
+                "slug": "it2018-021-il-vizio-della-speranza",
+                "title": {
+                    "native": "Il vizio della speranza"
+                }
+            },
             "year": 2019,
             "award": "Premio David di Donatello",
             "category": "Best Supporting Actress",

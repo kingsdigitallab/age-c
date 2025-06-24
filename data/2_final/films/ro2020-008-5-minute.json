@@ -81,7 +81,12 @@
                 "nationality": "Romania",
                 "awards": [
                     {
-                        "film": "ro2021-016-tata-muta-muntii",
+                        "film": {
+                            "slug": "ro2021-016-tata-muta-muntii",
+                            "title": {
+                                "native": "Tata mut\u0103 mun\u021bii"
+                            }
+                        },
                         "year": 2022,
                         "award": "Premiile Gopo",
                         "category": "Best Actor Male",

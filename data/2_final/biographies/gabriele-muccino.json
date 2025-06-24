@@ -36,7 +36,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "micaela-ramazzotti",
+                        "person": {
+                            "slug": "micaela-ramazzotti",
+                            "name": "Micaela Ramazzotti"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",
@@ -55,7 +58,12 @@
     ],
     "awards": [
         {
-            "film": "",
+            "film": {
+                "slug": "",
+                "title": {
+                    "native": "\u00a0"
+                }
+            },
             "year": 2015,
             "award": "Premio David di Donatello",
             "category": "Life Achievement Award/HonoraryAward",

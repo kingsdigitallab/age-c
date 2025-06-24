@@ -35,7 +35,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "sophia-loren",
+                        "person": {
+                            "slug": "sophia-loren",
+                            "name": "Sophia Loren"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",
@@ -86,7 +89,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "sophia-loren",
+                        "person": {
+                            "slug": "sophia-loren",
+                            "name": "Sophia Loren"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",
@@ -104,7 +110,12 @@
     ],
     "awards": [
         {
-            "film": "it2020-069-la-vita-davanti-a-se",
+            "film": {
+                "slug": "it2020-069-la-vita-davanti-a-se",
+                "title": {
+                    "native": "La vita davanti a s\u00e9"
+                }
+            },
             "year": 2021,
             "award": "Premio David di Donatello",
             "category": "Best Actress Female",

@@ -35,7 +35,10 @@
                 ],
                 "awards": [
                     {
-                        "person": "sophia-loren",
+                        "person": {
+                            "slug": "sophia-loren",
+                            "name": "Sophia Loren"
+                        },
                         "year": 2021,
                         "award": "Premio David di Donatello",
                         "category": "Best Actress Female",

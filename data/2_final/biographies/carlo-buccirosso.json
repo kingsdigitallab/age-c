@@ -163,21 +163,30 @@
                 ],
                 "awards": [
                     {
-                        "person": "toni-servillo",
+                        "person": {
+                            "slug": "toni-servillo",
+                            "name": "Toni Servillo"
+                        },
                         "year": 2020,
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
                         "result": "Nominated"
                     },
                     {
-                        "person": "carlo-buccirosso",
+                        "person": {
+                            "slug": "carlo-buccirosso",
+                            "name": "Carlo Buccirosso"
+                        },
                         "year": 2020,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
                         "result": "Nominated"
                     },
                     {
-                        "person": "valeria-golino",
+                        "person": {
+                            "slug": "valeria-golino",
+                            "name": "Valeria Golino"
+                        },
                         "year": 2020,
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actress",
@@ -265,21 +274,36 @@
     ],
     "awards": [
         {
-            "film": "it2019-032-5-e-il-numero-perfetto",
+            "film": {
+                "slug": "it2019-032-5-e-il-numero-perfetto",
+                "title": {
+                    "native": "5 \u00e8 il numero perfetto"
+                }
+            },
             "year": 2020,
             "award": "Premio David di Donatello",
             "category": "Best Supporting Actor",
             "result": "Nominated"
         },
         {
-            "film": "it2017-017-ammore-e-malavita",
+            "film": {
+                "slug": "it2017-017-ammore-e-malavita",
+                "title": {
+                    "native": "Ammore e malavita"
+                }
+            },
             "year": 2018,
             "award": "Premio David di Donatello",
             "category": "Best Supporting Actor",
             "result": "Nominated"
         },
         {
-            "film": "it2015-009-noi-e-la-giulia",
+            "film": {
+                "slug": "it2015-009-noi-e-la-giulia",
+                "title": {
+                    "native": "Noi e la Giulia"
+                }
+            },
             "year": 2015,
             "award": "Premio David di Donatello",
             "category": "Best Supporting Actor",
