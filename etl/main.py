@@ -120,7 +120,7 @@ def process_films() -> dict:
         ].to_dict(orient="records")
 
         awards_person = awards_person_df[awards_person_df["film_id"] == film_id][
-            ["film_slug", "person_slug", "year", "award", "category", "result"]
+            ["film_slug", "person_slug", "name", "year", "award", "category", "result"]
         ].to_dict(orient="records")
 
         tags = themes_df[themes_df["film_id"] == film_id]["tag_name"]
@@ -174,7 +174,12 @@ def process_films() -> dict:
             ],
             "awards": [
                 {
-                    "person": award["person_slug"] if "person_slug" in award else None,
+                    "person": {
+                        "slug": award["person_slug"],
+                        "name": award["name"],
+                    }
+                    if "person_slug" in award
+                    else None,
                     "year": award["year"],
                     "award": award["award"],
                     "category": award["category"],
@@ -421,11 +426,11 @@ def process_people() -> dict:
         ].values.tolist()
 
         awards_film = awards_film_df[awards_film_df["film_id"].isin(roles)][
-            ["film_slug", "year", "award", "category", "result"]
+            ["film_slug", "film", "year", "award", "category", "result"]
         ].to_dict(orient="records")
         awards_person = awards_person_df[
             awards_person_df["person_id"] == row["person_id"]
-        ][["film_slug", "year", "award", "category", "result"]].to_dict(
+        ][["film_slug", "film", "year", "award", "category", "result"]].to_dict(
             orient="records"
         )
 
@@ -448,7 +453,12 @@ def process_people() -> dict:
             ],
             "awards": [
                 {
-                    "film": award["film_slug"],
+                    "film": {
+                        "slug": award["film_slug"],
+                        "title": {"native": award["film"]},
+                    }
+                    if "film_slug" in award
+                    else None,
                     "year": award["year"],
                     "award": award["award"],
                     "category": award["category"],
