@@ -31,6 +31,8 @@ export interface Person {
 }
 
 export interface Award {
+	film?: string;
+	person?: string;
 	year: number;
 	award: string;
 	category: string;
