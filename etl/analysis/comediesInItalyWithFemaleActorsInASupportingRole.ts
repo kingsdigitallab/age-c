@@ -1,4 +1,4 @@
-import corpus from "../2_final/corpus.json";
+import corpus from "../../data/2_final/corpus.json";
 
 console.debug("Comedies in Italy with Female Supporting Roles");
 
@@ -14,8 +14,8 @@ const gender = "Female identifying";
 const comediesInItalyWithFemale = comediesInItaly.filter(
   (item) =>
     item?.gender === gender ||
-    item?.director?.some((d) => d?.gender === gender) ||
-    item?.character?.some((c) => c?.person?.gender === gender)
+    item?.characters?.some((c) => c?.person?.gender === gender) ||
+    item?.roles?.some((r) => r?.person?.gender === gender)
 );
 console.debug(
   "- Total comedies in Italy with female gender: ",
@@ -28,7 +28,7 @@ for (const item of comediesInItalyWithFemale) {
 const role = "Supporting actor";
 const comediesInItalyWithFemaleSupportingRoles =
   comediesInItalyWithFemale.filter((item) =>
-    item?.character?.some((c) => c?.role === role)
+    item?.roles?.some((r) => r?.role === role)
   );
 console.debug(
   "- Total comedies in Italy with female supporting roles: ",
