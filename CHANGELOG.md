@@ -5,6 +5,59 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v0.15.0 (2025-06-24)
+
+### Feat
+
+- **AwardsTable**: Add component to display awards information as a table
+- **film, person**: Display awards
+- **data**: Add awards data to search index
+- **index**: Add awards aggregation configuration to search settings
+- **etl**: Add awards data into film and person data
+- **search**: Add support for combined facets
+- **search**: Add support for combined facets
+- **search**: Add hierarchy separator constants for search configuration
+- **data**: Add support for combined facets
+- **app.css**: Add tooltip styles
+- **index**: Add options to enable dynamic facets combintations
+- **data-insights**: Add SVG download functionality for visualisations
+- **search**:  Display a message for cases where no filters match the search term
+- **search**: Add birth year to search data
+- **insights**: Add data download  to data insights table
+- **insights**: Display selected filters in the table section
+- **data-insights**: Align count and group labels to the right
+
+### Fix
+
+- **etl**: Ensure awards data matches existing films and people
+- **FilmLink**: Check if release year is available
+- **analysis**: Update import paths and correct property names for filtering comedies with female actors
+- **glossary**: Correct links to Narrative related to age concepts
+
+### Refactor
+
+- **etl**: Add film title and person name to award data
+- **data**: Add genre and tags to Person items
+- **main**: Include genre, tags in person data
+- **layout**: Always show the dev mark on dev
+- **DevOnly**: Update props to include optional debug flag
+- **search**: Restructure search filters sections
+- **search**: Adjust search filter threshold and improve accessibility
+- **search**: Update search aggregations to show zero document count for all filters
+- **search**: Add tooltip to hierarchical filter labels
+- **search**: Replace hardcoded separator with a constant
+- **search**: Change hierarchical character in search filter labels from ellipsis to right arrow
+- **search**: Change hierarchical character in search filter labels from ellipsis to right arrow
+- **search**: Increase size of production country share aggregation from 100 to 500
+- **data**: Convert production to a hierarchical filter
+- **index**: Add chosen_filters_on_top to search aggregations and set default conjunction to true
+- **search**: Adjust size of release year aggregation from 1000 to 100
+- **search**: Conditionally render conjunction toggle based on configuration
+- **search**: Update sorting label to use new label property
+- **search**: Update search aggregations and sorting config
+- **data-insights**: Simplify tooltip logic
+- **data-insights**: Improve chart type selection
+
 ## v0.14.0 (2025-06-07)
 
 ### Feat
