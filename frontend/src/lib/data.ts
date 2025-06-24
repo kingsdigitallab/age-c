@@ -17,6 +17,13 @@ export async function getSearchData(slug: string) {
 			filmType: getField(item, 'filmType'),
 			genre: getField(item, 'genre'),
 			productionCountryShare: getProduction(item),
+			awards: item?.awards
+				?.flatMap((a) => [
+					`${a.award}`,
+					`${a.award}${HIERARCHY_SEPARATOR}${a.category}`,
+					`${a.award}${HIERARCHY_SEPARATOR}${a.category}${HIERARCHY_SEPARATOR}${a.result}`
+				])
+				.filter(Boolean),
 			role: getRole(item),
 			birthYear: getField(item, 'birthYear'),
 			gender: getField(item, 'gender'),
