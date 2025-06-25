@@ -271,8 +271,8 @@
 												/>
 												<span>
 													{@html getBucketLabel(bucket.key)}
+													<small>({bucket.doc_count.toLocaleString()})</small>
 												</span>
-												<small>({bucket.doc_count.toLocaleString()})</small>
 											</label>
 										{:else}
 											<label aria-disabled="true">
@@ -373,7 +373,8 @@
 	}
 
 	details .skij-filter-buckets > div {
-		background: var(--pico-form-element-background-color);
+		border: var(--pico-border-width) solid var(--pico-primary-border);
+		border-radius: var(--pico-border-radius);
 		max-height: var(--skij-filter-height);
 		min-height: var(--skij-filter-height);
 		overflow-y: scroll;
@@ -381,8 +382,10 @@
 	}
 
 	.skij-filter-buckets label {
-		padding-block: calc(var(--pico-form-element-spacing-vertical) / 8);
-		padding-inline: calc(var(--pico-form-element-spacing-vertical) / 4);
+		align-items: center;
+		display: flex;
+		padding-inline-end: calc(var(--pico-form-element-spacing-vertical) / 4);
+		padding-inline-start: calc(var(--pico-form-element-spacing-vertical) / 2);
 		width: 100%;
 	}
 
