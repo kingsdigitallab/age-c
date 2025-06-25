@@ -3,6 +3,7 @@
 	import { page } from '$app/state';
 	import { config } from '$lib';
 	import DevOnly from '$lib/components/DevOnly.svelte';
+	import ThemeToggle from '$lib/components/ThemeToggle.svelte';
 	import type { Snippet } from 'svelte';
 	import { onDestroy } from 'svelte';
 	import { fade } from 'svelte/transition';
@@ -48,6 +49,8 @@
 		<ul>
 			<li><a href="{base}/about">About</a></li>
 			<li><a href="{base}/glossary">Glossary</a></li>
+			<li class="separator">|</li>
+			<li><ThemeToggle /></li>
 		</ul>
 	</nav>
 </header>
