@@ -11,6 +11,45 @@
     "roles": [
         {
             "film": {
+                "id": "ES2016_077",
+                "slug": "es2016-077-miguel-picazo-un-cineasta-extramuros",
+                "title": {
+                    "native": "Miguel Picazo, un cineasta extramuros",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-12-02",
+                    "year": 2016
+                },
+                "filmType": "Documentary",
+                "genre": [
+                    "Documentary \u2013 Participatory mode",
+                    "Metacinema"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "artistic creation",
+                    "personal memory",
+                    "cultural memory",
+                    "intragenerational friendship",
+                    "legacy",
+                    "education",
+                    "self-employment",
+                    "mass media",
+                    "national identity"
+                ]
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "film": {
                 "id": "ES2023_017",
                 "slug": "es2023-017-cerrar-los-ojos",
                 "title": {
@@ -38,7 +77,55 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2023.0,
+                        "award": "Premios Goya",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "manolo-solo",
+                            "name": "Manolo Solo"
+                        },
+                        "year": 2023,
+                        "award": "Premios Goya",
+                        "category": "Best Actor Male",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "jose-coronado",
+                            "name": "Jos\u00e9 Coronado"
+                        },
+                        "year": 2023,
+                        "award": "Premios Goya",
+                        "category": "Best Supporting Actor",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "ana-torrent",
+                            "name": "Ana Torrent"
+                        },
+                        "year": 2023,
+                        "award": "Premios Goya",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "victor-erice",
+                            "name": "V\u00edctor Erice"
+                        },
+                        "year": 2023,
+                        "award": "Premios Goya",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "rescue mission",
                     "search for meaning",
@@ -80,5 +167,18 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "es2023-017-cerrar-los-ojos",
+                "title": {
+                    "native": "Cerrar los ojos"
+                }
+            },
+            "year": 2023,
+            "award": "Premios Goya",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

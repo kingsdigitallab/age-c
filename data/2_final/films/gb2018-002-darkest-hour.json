@@ -13,7 +13,16 @@
     },
     "filmType": "Fiction film",
     "directors": [
-        "Joe Wright"
+        {
+            "id": "Joe Wright",
+            "slug": "joe-wright",
+            "name": "Joe Wright",
+            "birthYear": 1972,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "awards": []
+        }
     ],
     "genre": [
         "Historical film (Heritage Film)",
@@ -52,7 +61,20 @@
                 "deathYear": 0,
                 "gender": "Male identifying",
                 "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
-                "awards": []
+                "awards": [
+                    {
+                        "film": {
+                            "slug": "gb2018-002-darkest-hour",
+                            "title": {
+                                "native": "Darkest Hour"
+                            }
+                        },
+                        "year": 2018,
+                        "award": "British Academy Film Awards(BAFTA)",
+                        "category": "Best Actor Male",
+                        "result": "Awarded"
+                    }
+                ]
             },
             "age": "3: Third Age (60-75)",
             "gender": "Male identifying",
@@ -74,7 +96,20 @@
                 "deathYear": 0,
                 "gender": "Female identifying",
                 "nationality": "Unknown",
-                "awards": []
+                "awards": [
+                    {
+                        "film": {
+                            "slug": "gb2018-002-darkest-hour",
+                            "title": {
+                                "native": "Darkest Hour"
+                            }
+                        },
+                        "year": 2018,
+                        "award": "British Academy Film Awards(BAFTA)",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    }
+                ]
             },
             "age": "3: Third Age (60-75)",
             "gender": "Female identifying",
@@ -280,7 +315,20 @@
                 "deathYear": 0,
                 "gender": "Male identifying",
                 "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
-                "awards": []
+                "awards": [
+                    {
+                        "film": {
+                            "slug": "gb2018-002-darkest-hour",
+                            "title": {
+                                "native": "Darkest Hour"
+                            }
+                        },
+                        "year": 2018,
+                        "award": "British Academy Film Awards(BAFTA)",
+                        "category": "Best Actor Male",
+                        "result": "Awarded"
+                    }
+                ]
             },
             "role": "Leading actor"
         },
@@ -298,7 +346,16 @@
             "role": "Supporting actor"
         },
         {
-            "person": "Joe Wright",
+            "person": {
+                "id": "Joe Wright",
+                "slug": "joe-wright",
+                "name": "Joe Wright",
+                "birthYear": 1972,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+                "awards": []
+            },
             "role": "Director of the film"
         },
         {
@@ -310,7 +367,20 @@
                 "deathYear": 0,
                 "gender": "Female identifying",
                 "nationality": "Unknown",
-                "awards": []
+                "awards": [
+                    {
+                        "film": {
+                            "slug": "gb2018-002-darkest-hour",
+                            "title": {
+                                "native": "Darkest Hour"
+                            }
+                        },
+                        "year": 2018,
+                        "award": "British Academy Film Awards(BAFTA)",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    }
+                ]
             },
             "role": "Supporting actor"
         },
@@ -380,7 +450,35 @@
             "role": "Supporting actor"
         }
     ],
-    "awards": [],
+    "awards": [
+        {
+            "person": null,
+            "year": 2018.0,
+            "award": "British Academy Film Awards(BAFTA)",
+            "category": "Best Film (mostly F, occasionally D)",
+            "result": "Nominated"
+        },
+        {
+            "person": {
+                "slug": "gary-oldman",
+                "name": "Gary Oldman"
+            },
+            "year": 2018,
+            "award": "British Academy Film Awards(BAFTA)",
+            "category": "Best Actor Male",
+            "result": "Awarded"
+        },
+        {
+            "person": {
+                "slug": "kristin-scott-thomas",
+                "name": "Kristin Scott Thomas"
+            },
+            "year": 2018,
+            "award": "British Academy Film Awards(BAFTA)",
+            "category": "Best Supporting Actress",
+            "result": "Nominated"
+        }
+    ],
     "tags": [
         "gray face",
         "physical illness",

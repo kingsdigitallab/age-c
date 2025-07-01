@@ -11,6 +11,44 @@
     "roles": [
         {
             "film": {
+                "id": "RO2017_013",
+                "slug": "ro2017-013-meda-sau-partea-nu-prea-fericita-a-lucrurilor",
+                "title": {
+                    "native": "Meda sau Partea nu prea fericita a lucrurilor",
+                    "english": "Meda or The Not So Bright Side of Things"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-11-24",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2018.0,
+                        "award": "Premiile Gopo",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "rural"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "RO2022_020",
                 "slug": "ro2022-020-marocco",
                 "title": {
@@ -36,7 +74,18 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "emilia-popescu",
+                            "name": "Emilia Popescu"
+                        },
+                        "year": 2023,
+                        "award": "Premiile Gopo",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": []
             },
             "role": "Director of the film"

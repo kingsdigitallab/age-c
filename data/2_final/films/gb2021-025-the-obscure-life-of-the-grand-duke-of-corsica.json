@@ -55,7 +55,32 @@
                 "deathYear": 0,
                 "gender": "Male identifying",
                 "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
-                "awards": []
+                "awards": [
+                    {
+                        "film": {
+                            "slug": "gb2014-001-mr-turner",
+                            "title": {
+                                "native": "Mr. Turner"
+                            }
+                        },
+                        "year": 2014,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Actor Male",
+                        "result": "Nominated"
+                    },
+                    {
+                        "film": {
+                            "slug": "gb2014-001-mr-turner",
+                            "title": {
+                                "native": "Mr. Turner"
+                            }
+                        },
+                        "year": 2014,
+                        "award": "European Film Awards",
+                        "category": "Best Actor Male",
+                        "result": "Awarded"
+                    }
+                ]
             },
             "age": "3: Third Age (60-75)",
             "gender": "Male identifying",
@@ -69,7 +94,16 @@
         {
             "id": "GB2021_025_02",
             "film": "GB2021_025",
-            "person": "Peter Stormare",
+            "person": {
+                "id": "Peter Stormare",
+                "slug": "peter-stormare",
+                "name": "Peter Stormare",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)",
+                "awards": []
+            },
             "age": "3: Third Age (60-75)",
             "gender": "Male identifying",
             "sexuality": "Unknown",
@@ -95,7 +129,16 @@
             "role": "Director of the film"
         },
         {
-            "person": "Peter Stormare",
+            "person": {
+                "id": "Peter Stormare",
+                "slug": "peter-stormare",
+                "name": "Peter Stormare",
+                "birthYear": 1953,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United States of America (the)",
+                "awards": []
+            },
             "role": "Leading actor"
         },
         {
@@ -107,12 +150,45 @@
                 "deathYear": 0,
                 "gender": "Male identifying",
                 "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
-                "awards": []
+                "awards": [
+                    {
+                        "film": {
+                            "slug": "gb2014-001-mr-turner",
+                            "title": {
+                                "native": "Mr. Turner"
+                            }
+                        },
+                        "year": 2014,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Actor Male",
+                        "result": "Nominated"
+                    },
+                    {
+                        "film": {
+                            "slug": "gb2014-001-mr-turner",
+                            "title": {
+                                "native": "Mr. Turner"
+                            }
+                        },
+                        "year": 2014,
+                        "award": "European Film Awards",
+                        "category": "Best Actor Male",
+                        "result": "Awarded"
+                    }
+                ]
             },
             "role": "Leading actor"
         }
     ],
-    "awards": [],
+    "awards": [
+        {
+            "person": null,
+            "year": 2022.0,
+            "award": "British Academy Film Awards(BAFTA)",
+            "category": "Best Film (mostly F, occasionally D)",
+            "result": "Nominated"
+        }
+    ],
     "tags": [
         "burial",
         "physical illness",

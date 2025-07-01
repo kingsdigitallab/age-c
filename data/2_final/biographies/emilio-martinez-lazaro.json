@@ -11,6 +11,49 @@
     "roles": [
         {
             "film": {
+                "id": "ES2015_001",
+                "slug": "es2015-001-ocho-apellidos-catalanes",
+                "title": {
+                    "native": "Ocho apellidos catalanes",
+                    "english": "Spanish Affair 2"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2015-11-16",
+                    "year": 2015
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Romance",
+                    "Comedy"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "fatherhood",
+                    "grandmotherhood",
+                    "regional identity",
+                    "national identity",
+                    "in-laws",
+                    "homosociality",
+                    "marriage",
+                    "rescue mission",
+                    "wedding",
+                    "intergenerational conflict",
+                    "rural",
+                    "urban",
+                    "independent home"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "ES2018_006",
                 "slug": "es2018-006-miamor-perdido",
                 "title": {
@@ -71,7 +114,15 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2019.0,
+                        "award": "Premios Goya",
+                        "category": "Best Documentary Film",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "artistic creation",
                     "elderhood (friendship among elders)",

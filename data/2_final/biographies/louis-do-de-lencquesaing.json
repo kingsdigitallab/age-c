@@ -324,7 +324,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2021,
+                        "year": 2021.0,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
@@ -377,20 +377,10 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2022,
+                        "year": 2022.0,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Awarded"
-                    },
-                    {
-                        "person": {
-                            "slug": "jeanne-balibar",
-                            "name": "Jeanne Balibar"
-                        },
-                        "year": 2022,
-                        "award": "C\u00e9sar du cin\u00e9ma",
-                        "category": "Best Supporting Actress",
-                        "result": "Nominated"
                     },
                     {
                         "person": {
@@ -443,7 +433,7 @@
                         },
                         "year": 2023,
                         "award": "C\u00e9sar du cin\u00e9ma",
-                        "category": "Best Actress Female",
+                        "category": "Unknown",
                         "result": "Nominated"
                     }
                 ],
@@ -518,6 +508,62 @@
                 ],
                 "awards": [],
                 "tags": []
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "film": {
+                "id": "FR2023_024",
+                "slug": "fr2023-024-retour-a-seoul",
+                "title": {
+                    "native": "Retour \u00e0 S\u00e9oul",
+                    "english": "Return to Seoul"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2023-01-25",
+                    "year": 2023
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Korea (the Republic of)",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Romania",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Cambodia",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Qatar",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "motherhood",
+                    "fatherhood",
+                    "grandmotherhood"
+                ]
             },
             "role": "Minor actor/Cameo"
         }

@@ -9,54 +9,6 @@
     "nationality": "Unknown",
     "characters": [
         {
-            "id": "IT2019_026_01",
-            "film": {
-                "id": "IT2019_026",
-                "slug": "it2019-026-suspiria",
-                "title": {
-                    "native": "Suspiria",
-                    "english": ""
-                },
-                "release": {
-                    "type": "Theatrical release",
-                    "date": "2019-01-01",
-                    "year": 2019
-                },
-                "filmType": "Fiction film",
-                "genre": [
-                    "Horror",
-                    "Thriller",
-                    "Fantasy",
-                    "Drama"
-                ],
-                "production": [
-                    {
-                        "country": "Italy",
-                        "share": "Majority coproducer"
-                    },
-                    {
-                        "country": "United States of America (the)",
-                        "share": "Minority coproducer"
-                    }
-                ],
-                "awards": [],
-                "tags": [
-                    "grayface",
-                    "supernatural entity",
-                    "collective trauma"
-                ]
-            },
-            "person": "Tilda Swinton",
-            "age": "4: Fourth Age (>75)",
-            "gender": "Male identifying",
-            "sexuality": "Heterosexual",
-            "origin": "White Western European",
-            "class": "Middle class",
-            "profession": "Self-employed",
-            "ability": "Unknown",
-            "assistedMobility": "No"
-        },
-        {
             "id": "GB2019_016_01",
             "film": {
                 "id": "GB2019_016",
@@ -85,7 +37,25 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2019.0,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "joanna-hogg",
+                            "name": "Joanna Hogg"
+                        },
+                        "year": 2019,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "motherhood",
                     "intergenerational conflict",
@@ -141,7 +111,35 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2019.0,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "hugh-laurie",
+                            "name": "Hugh Laurie"
+                        },
+                        "year": 2019,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Supporting Actor",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "tilda-swinton",
+                            "name": "Tilda Swinton"
+                        },
+                        "year": 2019,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "inheritance",
                     "mental illness",
@@ -198,7 +196,35 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2021.0,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "tilda-swinton",
+                            "name": "Tilda Swinton"
+                        },
+                        "year": 2021,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "joanna-hogg",
+                            "name": "Joanna Hogg"
+                        },
+                        "year": 2021,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "wealth",
                     "motherhood",
@@ -253,7 +279,18 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "tilda-swinton",
+                            "name": "Tilda Swinton"
+                        },
+                        "year": 2023,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Leading Performance",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "return home",
                     "search for meaning",
@@ -320,7 +357,18 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "tilda-swinton",
+                            "name": "Tilda Swinton"
+                        },
+                        "year": 2023,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Leading Performance",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "return home",
                     "search for meaning",
@@ -353,9 +401,198 @@
             "profession": "Self-employed",
             "ability": "Able-bodied",
             "assistedMobility": "No"
+        },
+        {
+            "id": "IT2019_026_01",
+            "film": {
+                "id": "IT2019_026",
+                "slug": "it2019-026-suspiria",
+                "title": {
+                    "native": "Suspiria",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2019-01-01",
+                    "year": 2019
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Horror",
+                    "Thriller",
+                    "Fantasy",
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "gray face",
+                    "supernatural entity",
+                    "collective trauma"
+                ]
+            },
+            "person": "Tilda Swinton",
+            "age": "4: Fourth Age (>75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Self-employed",
+            "ability": "Unknown",
+            "assistedMobility": "No"
         }
     ],
     "roles": [
+        {
+            "film": {
+                "id": "GB2015_058",
+                "slug": "gb2015-058-dreams-rewired",
+                "title": {
+                    "native": "Dreams Rewired",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2015-11-01",
+                    "year": 2015
+                },
+                "filmType": "Documentary",
+                "genre": [
+                    "Metacinema",
+                    "Documentary \u2013 Poetic mode"
+                ],
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Austria",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "artistic creation"
+                ]
+            },
+            "role": "Narrator/voice over"
+        },
+        {
+            "film": "GB2016_075",
+            "role": "Director of the film"
+        },
+        {
+            "film": "GB2016_075",
+            "role": "Screenwriter"
+        },
+        {
+            "film": "GB2016_075",
+            "role": "Documentary subject"
+        },
+        {
+            "film": "GB2016_075",
+            "role": "Producer"
+        },
+        {
+            "film": {
+                "id": "GB2017_039",
+                "slug": "gb2017-039-letters-from-baghdad",
+                "title": {
+                    "native": "Letters from Baghdad",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-04-21",
+                    "year": 2017
+                },
+                "filmType": "Documentary",
+                "genre": [
+                    "Documentary \u2013 Performative mode",
+                    "Historical film (Heritage Film)"
+                ],
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "cultural memory",
+                    "colony",
+                    "women empowerment",
+                    "gender discrimination",
+                    "professional politics"
+                ]
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "film": {
+                "id": "GB2017_039",
+                "slug": "gb2017-039-letters-from-baghdad",
+                "title": {
+                    "native": "Letters from Baghdad",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-04-21",
+                    "year": 2017
+                },
+                "filmType": "Documentary",
+                "genre": [
+                    "Documentary \u2013 Performative mode",
+                    "Historical film (Heritage Film)"
+                ],
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "cultural memory",
+                    "colony",
+                    "women empowerment",
+                    "gender discrimination",
+                    "professional politics"
+                ]
+            },
+            "role": "Producer"
+        },
         {
             "film": {
                 "id": "GB2019_016",
@@ -384,7 +621,25 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2019.0,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "joanna-hogg",
+                            "name": "Joanna Hogg"
+                        },
+                        "year": 2019,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "motherhood",
                     "intergenerational conflict",
@@ -431,7 +686,35 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2019.0,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "hugh-laurie",
+                            "name": "Hugh Laurie"
+                        },
+                        "year": 2019,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Supporting Actor",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "tilda-swinton",
+                            "name": "Tilda Swinton"
+                        },
+                        "year": 2019,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "inheritance",
                     "mental illness",
@@ -479,7 +762,35 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2021.0,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "tilda-swinton",
+                            "name": "Tilda Swinton"
+                        },
+                        "year": 2021,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "joanna-hogg",
+                            "name": "Joanna Hogg"
+                        },
+                        "year": 2021,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "wealth",
                     "motherhood",
@@ -525,7 +836,18 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "tilda-swinton",
+                            "name": "Tilda Swinton"
+                        },
+                        "year": 2023,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Leading Performance",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "return home",
                     "search for meaning",
@@ -583,7 +905,7 @@
                 ],
                 "awards": [],
                 "tags": [
-                    "grayface",
+                    "gray face",
                     "supernatural entity",
                     "collective trauma"
                 ]
@@ -591,5 +913,42 @@
             "role": "Leading actor"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "gb2023-014-the-eternal-daughter",
+                "title": {
+                    "native": "The Eternal Daughter"
+                }
+            },
+            "year": 2023,
+            "award": "British Independent Film Awards",
+            "category": "Best Leading Performance",
+            "result": "Nominated"
+        },
+        {
+            "film": {
+                "slug": "gb2022-021-the-souvenir-part-ii",
+                "title": {
+                    "native": "The Souvenir: Part II"
+                }
+            },
+            "year": 2021,
+            "award": "British Independent Film Awards",
+            "category": "Best Supporting Actress",
+            "result": "Nominated"
+        },
+        {
+            "film": {
+                "slug": "gb2020-003-the-personal-history-of-david-copperfield",
+                "title": {
+                    "native": "The Personal History of David Copperfield"
+                }
+            },
+            "year": 2019,
+            "award": "British Independent Film Awards",
+            "category": "Best Supporting Actress",
+            "result": "Nominated"
+        }
+    ]
 }

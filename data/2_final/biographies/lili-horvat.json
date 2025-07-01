@@ -11,6 +11,39 @@
     "roles": [
         {
             "film": {
+                "id": "HU2015_009",
+                "slug": "hu2015-009-szerdai-gyerek",
+                "title": {
+                    "native": "Szerdai gyerek",
+                    "english": "The Wednesday Child"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2015-12-03",
+                    "year": 2015
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama",
+                    "Coming of Age"
+                ],
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": []
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "HU2020_004",
                 "slug": "hu2020-004-felkeszules-meghatarozatlan-ideig-tarto-egyuttletre",
                 "title": {
@@ -33,7 +66,25 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2021.0,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Fiction Film (exclusively F)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "lili-horvat",
+                            "name": "Lili Horv\u00e1t"
+                        },
+                        "year": 2021,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "high rank employment"
                 ]
@@ -41,5 +92,18 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "hu2020-004-felkeszules-meghatarozatlan-ideig-tarto-egyuttletre",
+                "title": {
+                    "native": "Felk\u00e9sz\u00fcl\u00e9s meghat\u00e1rozatlan ideig tart\u00f3 egy\u00fcttl\u00e9tre"
+                }
+            },
+            "year": 2021,
+            "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

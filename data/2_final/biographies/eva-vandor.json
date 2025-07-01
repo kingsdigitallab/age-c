@@ -55,6 +55,35 @@
     "roles": [
         {
             "film": {
+                "id": "HU2014_001",
+                "slug": "hu2014-001-megdonteni-hajnal-timeat",
+                "title": {
+                    "native": "Megd\u00f6nteni Hajnal T\u00edme\u00e1t",
+                    "english": "What Ever Happened to Timi"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-02-13",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Romance",
+                    "Comedy"
+                ],
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": []
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "film": {
                 "id": "HU2018_009",
                 "slug": "hu2018-009-egy-nap",
                 "title": {
@@ -76,7 +105,25 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2019.0,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Fiction Film (exclusively F)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "zsofia-szilagyi",
+                            "name": "Zs\u00f3fia Szil\u00e1gyi"
+                        },
+                        "year": 2019,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "motherhood"
                 ]
@@ -116,6 +163,46 @@
                 ]
             },
             "role": "Leading actor"
+        },
+        {
+            "film": {
+                "id": "HU2021_026",
+                "slug": "hu2021-026-a-bereki-ember",
+                "title": {
+                    "native": "A bereki ember",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2021-10-04",
+                    "year": 2021
+                },
+                "filmType": "Documentary",
+                "genre": [
+                    "Biopic",
+                    "Documentary \u2013 Expository mode"
+                ],
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2022.0,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Documentary Film",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "natural",
+                    "artistic creation"
+                ]
+            },
+            "role": "Supporting actor"
         }
     ],
     "awards": []

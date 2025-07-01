@@ -13,8 +13,26 @@
     },
     "filmType": "Fiction film",
     "directors": [
-        "Xesc Cabot",
-        "Pep Garrido"
+        {
+            "id": "Xesc Cabot",
+            "slug": "xesc-cabot",
+            "name": "Xesc Cabot",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain",
+            "awards": []
+        },
+        {
+            "id": "Pep Garrido",
+            "slug": "pep-garrido",
+            "name": "Pep Garrido",
+            "birthYear": 1979,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Spain",
+            "awards": []
+        }
     ],
     "genre": [
         "Drama"
@@ -37,7 +55,16 @@
         {
             "id": "ES2019_061_01",
             "film": "ES2019_061",
-            "person": "Teresa Vallicrosa",
+            "person": {
+                "id": "Teresa Vallicrosa",
+                "slug": "teresa-vallicrosa",
+                "name": "Teresa Vallicrosa",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain",
+                "awards": []
+            },
             "age": "3: Third Age (60-75)",
             "gender": "Female identifying",
             "sexuality": "Unknown",
@@ -45,7 +72,7 @@
             "class": "Unknown",
             "profession": "Unknown",
             "ability": "Unknown",
-            "assistedMobility": "Unknown"
+            "assistedMobility": "No"
         },
         {
             "id": "ES2019_061_02",
@@ -67,7 +94,7 @@
             "class": "Unknown",
             "profession": "Unknown",
             "ability": "Unknown",
-            "assistedMobility": "Unknown"
+            "assistedMobility": "No"
         }
     ],
     "roles": [
@@ -85,15 +112,42 @@
             "role": "Supporting actor"
         },
         {
-            "person": "Pep Garrido",
+            "person": {
+                "id": "Pep Garrido",
+                "slug": "pep-garrido",
+                "name": "Pep Garrido",
+                "birthYear": 1979,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain",
+                "awards": []
+            },
             "role": "Director of the film"
         },
         {
-            "person": "Teresa Vallicrosa",
+            "person": {
+                "id": "Teresa Vallicrosa",
+                "slug": "teresa-vallicrosa",
+                "name": "Teresa Vallicrosa",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain",
+                "awards": []
+            },
             "role": "Supporting actor"
         },
         {
-            "person": "Xesc Cabot",
+            "person": {
+                "id": "Xesc Cabot",
+                "slug": "xesc-cabot",
+                "name": "Xesc Cabot",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Spain",
+                "awards": []
+            },
             "role": "Director of the film"
         }
     ],

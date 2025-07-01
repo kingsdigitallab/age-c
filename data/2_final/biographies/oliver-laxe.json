@@ -11,6 +11,64 @@
     "roles": [
         {
             "film": {
+                "id": "ES2017_070",
+                "slug": "es2017-070-mimosas",
+                "title": {
+                    "native": "Mimosas",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-01-04",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Western",
+                    "Adventure",
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Morocco",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Romania",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Qatar",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "natural",
+                    "agony",
+                    "natural death",
+                    "burial",
+                    "inheritance",
+                    "marriage",
+                    "fatherhood",
+                    "power",
+                    "superior-employee relationship",
+                    "regional identity",
+                    "pilgrimage"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "ES2019_013",
                 "slug": "es2019-013-o-que-arde",
                 "title": {
@@ -19,8 +77,8 @@
                 },
                 "release": {
                     "type": "Theatrical release",
-                    "date": "2010-10-19",
-                    "year": 2010
+                    "date": "2019-10-10",
+                    "year": 2019
                 },
                 "filmType": "Fiction film",
                 "genre": [
@@ -42,7 +100,25 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2019.0,
+                        "award": "Premios Goya",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "oliver-laxe",
+                            "name": "\u00d3liver Laxe"
+                        },
+                        "year": 2019,
+                        "award": "Premios Goya",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "return home",
                     "mental illness",
@@ -62,5 +138,18 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "es2019-013-o-que-arde",
+                "title": {
+                    "native": "O que arde"
+                }
+            },
+            "year": 2019,
+            "award": "Premios Goya",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

@@ -11,6 +11,47 @@
     "roles": [
         {
             "film": {
+                "id": "GB2019_087",
+                "slug": "gb2019-087-the-informer",
+                "title": {
+                    "native": "The Informer",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2019-08-30",
+                    "year": 2019
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Thriller",
+                    "Crime",
+                    "Action"
+                ],
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "state institutions",
+                    "organized crime",
+                    "abuse",
+                    "homosociality",
+                    "high rank employment",
+                    "superior-employee relationship",
+                    "self-employment",
+                    "wealth",
+                    "power",
+                    "corruption"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "IT2023_007",
                 "slug": "it2023-007-l-ultima-notte-di-amore",
                 "title": {
@@ -33,7 +74,18 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "andrea-di-stefano",
+                            "name": "Andrea Di Stefano"
+                        },
+                        "year": 2024,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "last mission",
                     "organized crime",
@@ -43,5 +95,18 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "it2023-007-l-ultima-notte-di-amore",
+                "title": {
+                    "native": "L'ultima notte di Amore"
+                }
+            },
+            "year": 2024,
+            "award": "Premio David di Donatello",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

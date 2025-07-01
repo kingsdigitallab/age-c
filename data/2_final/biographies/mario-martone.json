@@ -11,6 +11,86 @@
     "roles": [
         {
             "film": {
+                "id": "IT2014_007",
+                "slug": "it2014-007-il-giovane-favoloso",
+                "title": {
+                    "native": "Il giovane favoloso",
+                    "english": "Leopardi"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-10-16",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Biopic",
+                    "Historical film (Heritage Film)",
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2015.0,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "mario-martone",
+                            "name": "Mario Martone"
+                        },
+                        "year": 2015,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "fatherhood"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2017_081",
+                "slug": "it2017-081-ferrante-fever",
+                "title": {
+                    "native": "Ferrante Fever",
+                    "english": "Ferrante Fever"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-10-02",
+                    "year": 2017
+                },
+                "filmType": "Documentary",
+                "genre": [
+                    "Documentary \u2013 Participatory mode"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "artistic creation"
+                ]
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "film": {
                 "id": "IT2019_041",
                 "slug": "it2019-041-il-sindaco-del-rione-sanita",
                 "title": {
@@ -71,7 +151,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2022,
+                        "year": 2022.0,
                         "award": "Premio David di Donatello",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
@@ -136,19 +216,9 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2023,
+                        "year": 2023.0,
                         "award": "Premio David di Donatello",
                         "category": "Best Film (mostly F, occasionally D)",
-                        "result": "Nominated"
-                    },
-                    {
-                        "person": {
-                            "slug": "aurora-quattrocchi",
-                            "name": "Aurora Quattrocchi"
-                        },
-                        "year": 2023,
-                        "award": "Premio David di Donatello",
-                        "category": "Best Supporting Actress",
                         "result": "Nominated"
                     },
                     {
@@ -159,6 +229,16 @@
                         "year": 2023,
                         "award": "Premio David di Donatello",
                         "category": "Best Director",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "aurora-quattrocchi",
+                            "name": "Aurora Quattrocchi"
+                        },
+                        "year": 2023,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Supporting Actress",
                         "result": "Nominated"
                     }
                 ],
@@ -197,7 +277,15 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2024.0,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Documentary Film",
+                        "result": "Awarded"
+                    }
+                ],
                 "tags": [
                     "personal memory",
                     "artistic creation"
@@ -229,7 +317,15 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2024.0,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Documentary Film",
+                        "result": "Awarded"
+                    }
+                ],
                 "tags": [
                     "personal memory",
                     "artistic creation"
@@ -241,12 +337,12 @@
     "awards": [
         {
             "film": {
-                "slug": "it2022-005-nostalgia",
+                "slug": "it2014-007-il-giovane-favoloso",
                 "title": {
-                    "native": "Nostalgia"
+                    "native": "Il giovane favoloso"
                 }
             },
-            "year": 2023,
+            "year": 2015,
             "award": "Premio David di Donatello",
             "category": "Best Director",
             "result": "Nominated"
@@ -259,6 +355,18 @@
                 }
             },
             "year": 2022,
+            "award": "Premio David di Donatello",
+            "category": "Best Director",
+            "result": "Nominated"
+        },
+        {
+            "film": {
+                "slug": "it2022-005-nostalgia",
+                "title": {
+                    "native": "Nostalgia"
+                }
+            },
+            "year": 2023,
             "award": "Premio David di Donatello",
             "category": "Best Director",
             "result": "Nominated"

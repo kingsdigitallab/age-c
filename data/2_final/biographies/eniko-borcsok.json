@@ -11,6 +11,43 @@
     "roles": [
         {
             "film": {
+                "id": "HU2014_011",
+                "slug": "hu2014-011-viharsarok",
+                "title": {
+                    "native": "Viharsarok",
+                    "english": "Land of Storms"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-03-20",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama",
+                    "Romance"
+                ],
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "mentorship",
+                    "abuse",
+                    "lgbtqi"
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
                 "id": "HU2018_011",
                 "slug": "hu2018-011-a-hentes-a-kurva-es-a-felszemu",
                 "title": {
@@ -34,7 +71,28 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "eniko-borcsok",
+                            "name": "Enik\u0151 B\u00f6rcs\u00f6k"
+                        },
+                        "year": 2019,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "geza-d-hegedus",
+                            "name": "G\u00e9za D. Heged\u0171s"
+                        },
+                        "year": 2019,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Actor Male",
+                        "result": "Awarded"
+                    }
+                ],
                 "tags": [
                     "murder",
                     "intergenerational conflict",
@@ -147,5 +205,18 @@
             "role": "Voice actor"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "hu2018-011-a-hentes-a-kurva-es-a-felszemu",
+                "title": {
+                    "native": "A hentes, a kurva \u00e9s a f\u00e9lszem\u0171"
+                }
+            },
+            "year": 2019,
+            "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+            "category": "Best Supporting Actress",
+            "result": "Nominated"
+        }
+    ]
 }

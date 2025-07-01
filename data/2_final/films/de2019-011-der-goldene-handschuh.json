@@ -13,7 +13,29 @@
     },
     "filmType": "Fiction film",
     "directors": [
-        "Fatih Akin"
+        {
+            "id": "Fatih Akin",
+            "slug": "fatih-akin",
+            "name": "Fatih Akin",
+            "birthYear": 1973,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany",
+            "awards": [
+                {
+                    "film": {
+                        "slug": "de2017-103-aus-dem-nichts",
+                        "title": {
+                            "native": "Aus dem Nichts"
+                        }
+                    },
+                    "year": 2018,
+                    "award": "Deutscher Filmpreis",
+                    "category": "Best Director",
+                    "result": "Nominated"
+                }
+            ]
+        }
     ],
     "genre": [
         "Horror",
@@ -67,7 +89,29 @@
             "role": "Minor actor/Cameo"
         },
         {
-            "person": "Fatih Akin",
+            "person": {
+                "id": "Fatih Akin",
+                "slug": "fatih-akin",
+                "name": "Fatih Akin",
+                "birthYear": 1973,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany",
+                "awards": [
+                    {
+                        "film": {
+                            "slug": "de2017-103-aus-dem-nichts",
+                            "title": {
+                                "native": "Aus dem Nichts"
+                            }
+                        },
+                        "year": 2018,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ]
+            },
             "role": "Director of the film"
         },
         {
@@ -123,7 +167,16 @@
             "role": "Minor actor/Cameo"
         },
         {
-            "person": "Victoria Trauttmansdorff",
+            "person": {
+                "id": "Victoria Trauttmansdorff",
+                "slug": "victoria-trauttmansdorff",
+                "name": "Victoria Trauttmansdorff",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Austria",
+                "awards": []
+            },
             "role": "Minor actor/Cameo"
         }
     ],

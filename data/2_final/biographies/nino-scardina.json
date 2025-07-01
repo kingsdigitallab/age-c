@@ -11,6 +11,46 @@
     "roles": [
         {
             "film": {
+                "id": "IT2014_033",
+                "slug": "it2014-033-la-buca",
+                "title": {
+                    "native": "La buca",
+                    "english": "Money Buddies"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-09-25",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Switzerland",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "fraud",
+                    "non-human companionship"
+                ]
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "film": {
                 "id": "IT2019_002",
                 "slug": "it2019-002-pinocchio",
                 "title": {
@@ -45,7 +85,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2020,
+                        "year": 2020.0,
                         "award": "Premio David di Donatello",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"

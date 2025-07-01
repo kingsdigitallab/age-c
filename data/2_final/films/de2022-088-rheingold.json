@@ -13,7 +13,29 @@
     },
     "filmType": "Fiction film",
     "directors": [
-        "Fatih Akin"
+        {
+            "id": "Fatih Akin",
+            "slug": "fatih-akin",
+            "name": "Fatih Akin",
+            "birthYear": 1973,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany",
+            "awards": [
+                {
+                    "film": {
+                        "slug": "de2017-103-aus-dem-nichts",
+                        "title": {
+                            "native": "Aus dem Nichts"
+                        }
+                    },
+                    "year": 2018,
+                    "award": "Deutscher Filmpreis",
+                    "category": "Best Director",
+                    "result": "Nominated"
+                }
+            ]
+        }
     ],
     "genre": [
         "Biopic",
@@ -45,7 +67,29 @@
     "characters": [],
     "roles": [
         {
-            "person": "Fatih Akin",
+            "person": {
+                "id": "Fatih Akin",
+                "slug": "fatih-akin",
+                "name": "Fatih Akin",
+                "birthYear": 1973,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany",
+                "awards": [
+                    {
+                        "film": {
+                            "slug": "de2017-103-aus-dem-nichts",
+                            "title": {
+                                "native": "Aus dem Nichts"
+                            }
+                        },
+                        "year": 2018,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ]
+            },
             "role": "Director of the film"
         },
         {

@@ -114,28 +114,6 @@
     ],
     "characters": [
         {
-            "id": "IT2022_054_01",
-            "film": "IT2022_054",
-            "person": {
-                "id": "Catherine Deneuve",
-                "slug": "catherine-deneuve",
-                "name": "Catherine Deneuve",
-                "birthYear": 1943,
-                "deathYear": 0,
-                "gender": "Female identifying",
-                "nationality": "France",
-                "awards": []
-            },
-            "age": "3: Third Age (60-75)",
-            "gender": "Female identifying",
-            "sexuality": "Unknown",
-            "origin": "White Western European",
-            "class": "Upper Middle class",
-            "profession": "Employed",
-            "ability": "Able-bodied",
-            "assistedMobility": "No"
-        },
-        {
             "id": "IT2022_054_02",
             "film": "IT2022_054",
             "person": {
@@ -153,6 +131,53 @@
             "sexuality": "Heterosexual",
             "origin": "White Western European",
             "class": "Lower Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "IT2022_054_01",
+            "film": "IT2022_054",
+            "person": {
+                "id": "Catherine Deneuve",
+                "slug": "catherine-deneuve",
+                "name": "Catherine Deneuve",
+                "birthYear": 1943,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "France",
+                "awards": [
+                    {
+                        "film": {
+                            "slug": "fr2015-071-la-tete-haute",
+                            "title": {
+                                "native": "La T\u00eate haute"
+                            }
+                        },
+                        "year": 2016,
+                        "award": "C\u00e9sar du cin\u00e9ma",
+                        "category": "Unknown",
+                        "result": "Nominated"
+                    },
+                    {
+                        "film": {
+                            "slug": "fr2014-064-dans-la-cour",
+                            "title": {
+                                "native": "Dans la cour"
+                            }
+                        },
+                        "year": 2015,
+                        "award": "C\u00e9sar du cin\u00e9ma",
+                        "category": "Unknown",
+                        "result": "Nominated"
+                    }
+                ]
+            },
+            "age": "3: Third Age (60-75)",
+            "gender": "Female identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
             "profession": "Employed",
             "ability": "Able-bodied",
             "assistedMobility": "No"
@@ -181,7 +206,32 @@
                 "deathYear": 0,
                 "gender": "Female identifying",
                 "nationality": "France",
-                "awards": []
+                "awards": [
+                    {
+                        "film": {
+                            "slug": "fr2015-071-la-tete-haute",
+                            "title": {
+                                "native": "La T\u00eate haute"
+                            }
+                        },
+                        "year": 2016,
+                        "award": "C\u00e9sar du cin\u00e9ma",
+                        "category": "Unknown",
+                        "result": "Nominated"
+                    },
+                    {
+                        "film": {
+                            "slug": "fr2014-064-dans-la-cour",
+                            "title": {
+                                "native": "Dans la cour"
+                            }
+                        },
+                        "year": 2015,
+                        "award": "C\u00e9sar du cin\u00e9ma",
+                        "category": "Unknown",
+                        "result": "Nominated"
+                    }
+                ]
             },
             "role": "Leading actor"
         },
@@ -292,9 +342,9 @@
     ],
     "awards": [],
     "tags": [
-        "women empowerement",
         "gender discrimination",
         "motherhood",
-        "precarity"
+        "precarity",
+        "women empowerment"
     ]
 }

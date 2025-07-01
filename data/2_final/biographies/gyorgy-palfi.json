@@ -11,6 +11,57 @@
     "roles": [
         {
             "film": {
+                "id": "HU2014_007",
+                "slug": "hu2014-007-szabadeses",
+                "title": {
+                    "native": "Szabades\u00e9s",
+                    "english": "Free Fall"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-09-25",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Korea (the Republic of)",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "gyorgy-palfi",
+                            "name": "Gy\u00f6rgy P\u00e1lfi"
+                        },
+                        "year": 2016,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "suicide",
+                    "retirement",
+                    "spirituality"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "HU2022_024",
                 "slug": "hu2022-024-mindorokke",
                 "title": {
@@ -39,5 +90,18 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "hu2014-007-szabadeses",
+                "title": {
+                    "native": "Szabades\u00e9s"
+                }
+            },
+            "year": 2016,
+            "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

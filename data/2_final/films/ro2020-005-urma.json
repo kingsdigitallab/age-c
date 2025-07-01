@@ -13,7 +13,16 @@
     },
     "filmType": "Fiction film",
     "directors": [
-        "Dorian Bogu\u021b\u0103"
+        {
+            "id": "Dorian Bogu\u021b\u0103",
+            "slug": "dorian-boguta",
+            "name": "Dorian Bogu\u021b\u0103",
+            "birthYear": 1971,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Moldova (the Republic of)",
+            "awards": []
+        }
     ],
     "genre": [
         "Drama",
@@ -46,7 +55,32 @@
                 "deathYear": 2022,
                 "gender": "Male identifying",
                 "nationality": "Romania",
-                "awards": []
+                "awards": [
+                    {
+                        "film": {
+                            "slug": "ro2020-005-urma",
+                            "title": {
+                                "native": "Urma"
+                            }
+                        },
+                        "year": 2021,
+                        "award": "Premiile Gopo",
+                        "category": "Best Actor Male",
+                        "result": "Nominated"
+                    },
+                    {
+                        "film": {
+                            "slug": "ro2015-001-aferim",
+                            "title": {
+                                "native": "Aferim!"
+                            }
+                        },
+                        "year": 2016,
+                        "award": "Premiile Gopo",
+                        "category": "Best Actor Male",
+                        "result": "Awarded"
+                    }
+                ]
             },
             "age": "3: Third Age (60-75)",
             "gender": "Male identifying",
@@ -60,7 +94,16 @@
     ],
     "roles": [
         {
-            "person": "Dorian Bogu\u021b\u0103",
+            "person": {
+                "id": "Dorian Bogu\u021b\u0103",
+                "slug": "dorian-boguta",
+                "name": "Dorian Bogu\u021b\u0103",
+                "birthYear": 1971,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Moldova (the Republic of)",
+                "awards": []
+            },
             "role": "Director of the film"
         },
         {
@@ -72,7 +115,32 @@
                 "deathYear": 0,
                 "gender": "Male identifying",
                 "nationality": "Romania",
-                "awards": []
+                "awards": [
+                    {
+                        "film": {
+                            "slug": "ro2020-005-urma",
+                            "title": {
+                                "native": "Urma"
+                            }
+                        },
+                        "year": 2021,
+                        "award": "Premiile Gopo",
+                        "category": "Best Supporting Actor",
+                        "result": "Nominated"
+                    },
+                    {
+                        "film": {
+                            "slug": "ro2017-017-aniversarea",
+                            "title": {
+                                "native": "Aniversarea"
+                            }
+                        },
+                        "year": 2018,
+                        "award": "Premiile Gopo",
+                        "category": "Best Supporting Actor",
+                        "result": "Nominated"
+                    }
+                ]
             },
             "role": "Supporting actor"
         },
@@ -98,12 +166,58 @@
                 "deathYear": 2022,
                 "gender": "Male identifying",
                 "nationality": "Romania",
-                "awards": []
+                "awards": [
+                    {
+                        "film": {
+                            "slug": "ro2020-005-urma",
+                            "title": {
+                                "native": "Urma"
+                            }
+                        },
+                        "year": 2021,
+                        "award": "Premiile Gopo",
+                        "category": "Best Actor Male",
+                        "result": "Nominated"
+                    },
+                    {
+                        "film": {
+                            "slug": "ro2015-001-aferim",
+                            "title": {
+                                "native": "Aferim!"
+                            }
+                        },
+                        "year": 2016,
+                        "award": "Premiile Gopo",
+                        "category": "Best Actor Male",
+                        "result": "Awarded"
+                    }
+                ]
             },
             "role": "Leading actor"
         }
     ],
-    "awards": [],
+    "awards": [
+        {
+            "person": {
+                "slug": "lucian-ifrim",
+                "name": "Lucian Ifrim"
+            },
+            "year": 2021,
+            "award": "Premiile Gopo",
+            "category": "Best Supporting Actor",
+            "result": "Nominated"
+        },
+        {
+            "person": {
+                "slug": "teodor-corban",
+                "name": "Teodor Corban"
+            },
+            "year": 2021,
+            "award": "Premiile Gopo",
+            "category": "Best Actor Male",
+            "result": "Nominated"
+        }
+    ],
     "tags": [
         "rescue mission",
         "state institutions"

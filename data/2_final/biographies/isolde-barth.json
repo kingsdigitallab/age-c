@@ -11,6 +11,39 @@
     "roles": [
         {
             "film": {
+                "id": "DE2014_007",
+                "slug": "de2014-007-der-blinde-fleck",
+                "title": {
+                    "native": "Der blinde Fleck",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-01-23",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama",
+                    "Historical film (Heritage Film)",
+                    "Thriller"
+                ],
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "terrorism",
+                    "collective trauma"
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
                 "id": "DE2020_064",
                 "slug": "de2020-064-enfant-terrible",
                 "title": {
@@ -33,7 +66,18 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "hary-prinz",
+                            "name": "Hary Prinz"
+                        },
+                        "year": 2021,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Supporting Actor",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "parenthood",
                     "artistic creation"

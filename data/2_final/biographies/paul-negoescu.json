@@ -36,7 +36,35 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2023.0,
+                        "award": "Premiile Gopo",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "vasile-muraru",
+                            "name": "Vasile Muraru"
+                        },
+                        "year": 2023,
+                        "award": "Premiile Gopo",
+                        "category": "Best Supporting Actor",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "paul-negoescu",
+                            "name": "Paul Negoescu"
+                        },
+                        "year": 2023,
+                        "award": "Premiile Gopo",
+                        "category": "Best Director",
+                        "result": "Awarded"
+                    }
+                ],
                 "tags": [
                     "rural",
                     "corruption",
@@ -46,7 +74,68 @@
                 ]
             },
             "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "RO2023_006",
+                "slug": "ro2023-006-inca-doua-lozuri",
+                "title": {
+                    "native": "\u00cenc\u0103 dou\u0103 lozuri",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2023-10-27",
+                    "year": 2023
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy"
+                ],
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Moldova (the Republic of)",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "coca-bloos",
+                            "name": "Coca Bloos"
+                        },
+                        "year": 2024,
+                        "award": "Premiile Gopo",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "homosociality",
+                    "rural",
+                    "fraud",
+                    "technology"
+                ]
+            },
+            "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "ro2022-026-oameni-de-treaba",
+                "title": {
+                    "native": "Oameni de treab\u0103"
+                }
+            },
+            "year": 2023,
+            "award": "Premiile Gopo",
+            "category": "Best Director",
+            "result": "Awarded"
+        }
+    ]
 }

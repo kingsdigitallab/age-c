@@ -13,7 +13,16 @@
     },
     "filmType": "Documentary",
     "directors": [
-        "Marta Jaenes",
+        {
+            "id": "Marta Jaenes",
+            "slug": "marta-jaenes",
+            "name": "Marta Jaenes",
+            "birthYear": 1983,
+            "deathYear": 0,
+            "gender": "Female identifying",
+            "nationality": "Spain",
+            "awards": []
+        },
         {
             "id": "Rosa M\u00e1rquez",
             "slug": "rosa-marquez",
@@ -58,7 +67,16 @@
             "role": "Documentary subject"
         },
         {
-            "person": "Marta Jaenes",
+            "person": {
+                "id": "Marta Jaenes",
+                "slug": "marta-jaenes",
+                "name": "Marta Jaenes",
+                "birthYear": 1983,
+                "deathYear": 0,
+                "gender": "Female identifying",
+                "nationality": "Spain",
+                "awards": []
+            },
             "role": "Director of the film"
         },
         {

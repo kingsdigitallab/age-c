@@ -9,54 +9,92 @@
     "nationality": "France",
     "characters": [
         {
-            "id": "FR2020_058_01",
+            "id": "FR2023_036_01",
             "film": {
-                "id": "FR2020_058",
-                "slug": "fr2020-058-effacer-l-historique",
+                "id": "FR2023_036",
+                "slug": "fr2023-036-la-grande-magie",
                 "title": {
-                    "native": "Effacer l'historique",
-                    "english": "Delete History"
+                    "native": "La Grande Magie",
+                    "english": "The Great Magic"
                 },
                 "release": {
                     "type": "Theatrical release",
-                    "date": "2020-08-26",
-                    "year": 2020
+                    "date": "2023-02-08",
+                    "year": 2023
                 },
                 "filmType": "Fiction film",
                 "genre": [
-                    "Comedy"
+                    "Comedy",
+                    "Historical film (Heritage Film)"
                 ],
                 "production": [
                     {
                         "country": "France",
                         "share": "Majority coproducer"
-                    },
-                    {
-                        "country": "Belgium",
-                        "share": "Minority coproducer"
                     }
                 ],
                 "awards": [],
                 "tags": [
+                    "marriage",
+                    "wealth",
+                    "may-december",
+                    "artistic creation",
+                    "self-employment",
+                    "rural",
                     "low rank employment",
-                    "widowhood",
-                    "class conflict",
-                    "intergenerational friendship",
-                    "independent home",
-                    "revenge",
-                    "elderhood (friendship among elders)",
-                    "precarity",
-                    "technology",
-                    "romance",
-                    "fatherhood"
+                    "motherhood",
+                    "siblinghood"
+                ]
+            },
+            "person": "Denis Podalyd\u00e8s",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "FR2022_063_01",
+            "film": {
+                "id": "FR2022_063",
+                "slug": "fr2022-063-le-monde-d-hier",
+                "title": {
+                    "native": "Le Monde d'hier",
+                    "english": "The World of Yesterday"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2022-03-30",
+                    "year": 2022
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "state institutions",
+                    "professional politics",
+                    "corruption",
+                    "mass media",
+                    "high rank employment"
                 ]
             },
             "person": "Denis Podalyd\u00e8s",
             "age": "2: Late Middle Age (55-60)",
             "gender": "Male identifying",
-            "sexuality": "Heterosexual",
+            "sexuality": "Unknown",
             "origin": "White Western European",
-            "class": "Lower Middle class",
+            "class": "Upper class",
             "profession": "Employed",
             "ability": "Able-bodied",
             "assistedMobility": "No"
@@ -289,44 +327,54 @@
             "assistedMobility": "No"
         },
         {
-            "id": "FR2022_063_01",
+            "id": "FR2020_058_01",
             "film": {
-                "id": "FR2022_063",
-                "slug": "fr2022-063-le-monde-d-hier",
+                "id": "FR2020_058",
+                "slug": "fr2020-058-effacer-l-historique",
                 "title": {
-                    "native": "Le Monde d'hier",
-                    "english": "The World of Yesterday"
+                    "native": "Effacer l'historique",
+                    "english": "Delete History"
                 },
                 "release": {
                     "type": "Theatrical release",
-                    "date": "2022-03-30",
-                    "year": 2022
+                    "date": "2020-08-26",
+                    "year": 2020
                 },
                 "filmType": "Fiction film",
                 "genre": [
-                    "Drama"
+                    "Comedy"
                 ],
                 "production": [
                     {
                         "country": "France",
                         "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
                     }
                 ],
                 "awards": [],
                 "tags": [
-                    "state institutions",
-                    "professional politics",
-                    "corruption",
-                    "mass media",
-                    "high rank employment"
+                    "low rank employment",
+                    "widowhood",
+                    "class conflict",
+                    "intergenerational friendship",
+                    "independent home",
+                    "revenge",
+                    "elderhood (friendship among elders)",
+                    "precarity",
+                    "technology",
+                    "romance",
+                    "fatherhood"
                 ]
             },
             "person": "Denis Podalyd\u00e8s",
             "age": "2: Late Middle Age (55-60)",
             "gender": "Male identifying",
-            "sexuality": "Unknown",
+            "sexuality": "Heterosexual",
             "origin": "White Western European",
-            "class": "Upper class",
+            "class": "Lower Middle class",
             "profession": "Employed",
             "ability": "Able-bodied",
             "assistedMobility": "No"
@@ -491,7 +539,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2020,
+                        "year": 2020.0,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
@@ -570,19 +618,16 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2020,
+                        "year": 2020.0,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
                     },
                     {
-                        "person": {
-                            "slug": "louis-garrel",
-                            "name": "Louis Garrel"
-                        },
-                        "year": 2020,
-                        "award": "C\u00e9sar du cin\u00e9ma",
-                        "category": "Best Supporting Actor",
+                        "person": null,
+                        "year": 2019.0,
+                        "award": "European Film Awards",
+                        "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
                     },
                     {
@@ -594,6 +639,16 @@
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Director",
                         "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "roman-polanski",
+                            "name": "Roman Polanski"
+                        },
+                        "year": 2019,
+                        "award": "European Film Awards",
+                        "category": "Best Director",
+                        "result": "Nominated"
                     }
                 ],
                 "tags": [
@@ -937,7 +992,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2023,
+                        "year": 2023.0,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
@@ -1028,6 +1083,254 @@
                 ]
             },
             "role": "Minor actor/Cameo"
+        },
+        {
+            "film": {
+                "id": "FR2023_036",
+                "slug": "fr2023-036-la-grande-magie",
+                "title": {
+                    "native": "La Grande Magie",
+                    "english": "The Great Magic"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2023-02-08",
+                    "year": 2023
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Historical film (Heritage Film)"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "marriage",
+                    "wealth",
+                    "may-december",
+                    "artistic creation",
+                    "self-employment",
+                    "rural",
+                    "low rank employment",
+                    "motherhood",
+                    "siblinghood"
+                ]
+            },
+            "role": "Leading actor"
+        },
+        {
+            "film": {
+                "id": "FR2023_073",
+                "slug": "fr2023-073-je-verrai-toujours-vos-visages",
+                "title": {
+                    "native": "Je verrai toujours vos visages",
+                    "english": "All Your Faces"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2023-03-29",
+                    "year": 2023
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2024.0,
+                        "award": "C\u00e9sar du cin\u00e9ma",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "miou-miou",
+                            "name": "Miou-Miou"
+                        },
+                        "year": 2024,
+                        "award": "C\u00e9sar du cin\u00e9ma",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "jeanne-herry",
+                            "name": "Jeanne Herry"
+                        },
+                        "year": 2024,
+                        "award": "C\u00e9sar du cin\u00e9ma",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "state institutions",
+                    "high rank employment",
+                    "grandmotherhood"
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "FR2023_079",
+                "slug": "fr2023-079-l-etabli",
+                "title": {
+                    "native": "L'\u00c9tabli",
+                    "english": "The Assembly Line"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2023-04-05",
+                    "year": 2023
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama",
+                    "Historical film (Heritage Film)"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "high rank employment",
+                    "superior-employee relationship",
+                    "class conflict",
+                    "class solidarity",
+                    "activism",
+                    "motherhood"
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "FR2023_123",
+                "slug": "fr2023-123-wahou",
+                "title": {
+                    "native": "Wahou !",
+                    "english": "Wow!"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2023-06-07",
+                    "year": 2023
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "high rank employment",
+                    "urban",
+                    "mentorship",
+                    "independent home",
+                    "retirement",
+                    "marriage",
+                    "fatherhood",
+                    "motherhood",
+                    "disability"
+                ]
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "film": {
+                "id": "FR2023_141",
+                "slug": "fr2023-141-le-retour",
+                "title": {
+                    "native": "Le Retour",
+                    "english": "Homecoming"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2023-07-12",
+                    "year": 2023
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "fatherhood",
+                    "independent home"
+                ]
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "film": {
+                "id": "FR2023_174",
+                "slug": "fr2023-174-bernadette",
+                "title": {
+                    "native": "Bernadette",
+                    "english": "The President's Wife"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2023-10-04",
+                    "year": 2023
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Biopic"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "state institutions",
+                    "professional politics",
+                    "power",
+                    "women empowerment",
+                    "marriage",
+                    "self-employment",
+                    "stages of life",
+                    "personal memory",
+                    "mass media",
+                    "national identity"
+                ]
+            },
+            "role": "Supporting actor"
         }
     ],
     "awards": [

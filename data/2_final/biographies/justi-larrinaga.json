@@ -11,6 +11,45 @@
     "roles": [
         {
             "film": {
+                "id": "ES2014_011",
+                "slug": "es2014-011-a-escondidas",
+                "title": {
+                    "native": "A escondidas",
+                    "english": "Hidden Away"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-10-10",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama",
+                    "Romance"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "fatherhood",
+                    "motherhood",
+                    "parenthood",
+                    "lgbtqi",
+                    "self-employment",
+                    "education",
+                    "mentorship",
+                    "migration",
+                    "state institutions"
+                ]
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "film": {
                 "id": "ES2022_016",
                 "slug": "es2022-016-cinco-lobitos",
                 "title": {
@@ -33,7 +72,35 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2022.0,
+                        "award": "Premios Goya",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "ramon-barea",
+                            "name": "Ram\u00f3n Barea"
+                        },
+                        "year": 2022,
+                        "award": "Premios Goya",
+                        "category": "Best Supporting Actor",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "susi-sanchez",
+                            "name": "Susi S\u00e1nchez"
+                        },
+                        "year": 2022,
+                        "award": "Premios Goya",
+                        "category": "Best Supporting Actress",
+                        "result": "Awarded"
+                    }
+                ],
                 "tags": [
                     "parenthood",
                     "grandparenthood",

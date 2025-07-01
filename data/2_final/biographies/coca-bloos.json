@@ -11,6 +11,125 @@
     "roles": [
         {
             "film": {
+                "id": "RO2014_003",
+                "slug": "ro2014-003-america-venim",
+                "title": {
+                    "native": "America, venim!",
+                    "english": "America, Here We Come"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-09-19",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy"
+                ],
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "intergenerational friendship",
+                    "urban",
+                    "tourism",
+                    "artistic creation",
+                    "national identity"
+                ]
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "film": {
+                "id": "RO2016_006",
+                "slug": "ro2016-006-minte-ma-frumos-in-centrul-vechi",
+                "title": {
+                    "native": "Minte-m\u0103 frumos \u00een Centrul Vechi",
+                    "english": "Sweet Little Lies in Downtown"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-04-01",
+                    "year": 2016
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Romance",
+                    "Comedy"
+                ],
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": []
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "film": {
+                "id": "RO2017_017",
+                "slug": "ro2017-017-aniversarea",
+                "title": {
+                    "native": "Aniversarea",
+                    "english": "The Anniversary"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-11-10",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "lucian-ifrim",
+                            "name": "Lucian Ifrim"
+                        },
+                        "year": 2018,
+                        "award": "Premiile Gopo",
+                        "category": "Best Supporting Actor",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "simona-bondoc",
+                            "name": "Simona Bondoc"
+                        },
+                        "year": 2018,
+                        "award": "Premiile Gopo",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "festivities",
+                    "caregiving",
+                    "extended family",
+                    "personal memory",
+                    "independent home",
+                    "retirement"
+                ]
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "film": {
                 "id": "RO2018_015",
                 "slug": "ro2018-015-fals-tratat-de-mantuire-a-sufletului",
                 "title": {
@@ -67,7 +186,18 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "coca-bloos",
+                            "name": "Coca Bloos"
+                        },
+                        "year": 2020,
+                        "award": "Premiile Gopo",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "accidental death",
                     "homosociality",
@@ -106,7 +236,80 @@
                 "tags": []
             },
             "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "RO2023_006",
+                "slug": "ro2023-006-inca-doua-lozuri",
+                "title": {
+                    "native": "\u00cenc\u0103 dou\u0103 lozuri",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2023-10-27",
+                    "year": 2023
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy"
+                ],
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Moldova (the Republic of)",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "coca-bloos",
+                            "name": "Coca Bloos"
+                        },
+                        "year": 2024,
+                        "award": "Premiile Gopo",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "homosociality",
+                    "rural",
+                    "fraud",
+                    "technology"
+                ]
+            },
+            "role": "Supporting actor"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "ro2023-006-inca-doua-lozuri",
+                "title": {
+                    "native": "\u00cenc\u0103 dou\u0103 lozuri"
+                }
+            },
+            "year": 2024,
+            "award": "Premiile Gopo",
+            "category": "Best Supporting Actress",
+            "result": "Nominated"
+        },
+        {
+            "film": {
+                "slug": "ro2019-017-zavera",
+                "title": {
+                    "native": "Zavera"
+                }
+            },
+            "year": 2020,
+            "award": "Premiile Gopo",
+            "category": "Best Supporting Actress",
+            "result": "Nominated"
+        }
+    ]
 }

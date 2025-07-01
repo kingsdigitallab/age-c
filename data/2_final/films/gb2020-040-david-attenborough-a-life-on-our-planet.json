@@ -13,9 +13,36 @@
     },
     "filmType": "Documentary",
     "directors": [
-        "Alastair Fothergill",
-        "Jonathan Hughes",
-        "Keith Scholey"
+        {
+            "id": "Alastair Fothergill",
+            "slug": "alastair-fothergill",
+            "name": "Alastair Fothergill",
+            "birthYear": 1960,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "awards": []
+        },
+        {
+            "id": "Jonathan Hughes",
+            "slug": "jonathan-hughes",
+            "name": "Jonathan Hughes",
+            "birthYear": 0,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "awards": []
+        },
+        {
+            "id": "Keith Scholey",
+            "slug": "keith-scholey",
+            "name": "Keith Scholey",
+            "birthYear": 1957,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "awards": []
+        }
     ],
     "genre": [
         "Documentary \u2013 Participatory mode",
@@ -38,7 +65,16 @@
     "characters": [],
     "roles": [
         {
-            "person": "Alastair Fothergill",
+            "person": {
+                "id": "Alastair Fothergill",
+                "slug": "alastair-fothergill",
+                "name": "Alastair Fothergill",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+                "awards": []
+            },
             "role": "Director of the film"
         },
         {
@@ -55,15 +91,41 @@
             "role": "Documentary subject"
         },
         {
-            "person": "Jonathan Hughes",
+            "person": {
+                "id": "Jonathan Hughes",
+                "slug": "jonathan-hughes",
+                "name": "Jonathan Hughes",
+                "birthYear": 0,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+                "awards": []
+            },
             "role": "Director of the film"
         },
         {
-            "person": "Keith Scholey",
+            "person": {
+                "id": "Keith Scholey",
+                "slug": "keith-scholey",
+                "name": "Keith Scholey",
+                "birthYear": 1957,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+                "awards": []
+            },
             "role": "Director of the film"
         }
     ],
-    "awards": [],
+    "awards": [
+        {
+            "person": null,
+            "year": 2021.0,
+            "award": "British Academy Film Awards(BAFTA)",
+            "category": "Best Documentary Film",
+            "result": "Nominated"
+        }
+    ],
     "tags": [
         "ecology",
         "natural",

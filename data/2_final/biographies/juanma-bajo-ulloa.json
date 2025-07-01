@@ -11,6 +11,51 @@
     "roles": [
         {
             "film": {
+                "id": "ES2015_008",
+                "slug": "es2015-008-rey-gitano",
+                "title": {
+                    "native": "Rey Gitano",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2015-07-01",
+                    "year": 2015
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Action",
+                    "Detective Thriller"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "self-employment",
+                    "precarity",
+                    "homosociality",
+                    "state institutions",
+                    "fraud",
+                    "wealth",
+                    "national identity",
+                    "last mission",
+                    "rescue mission",
+                    "substance abuse",
+                    "high rank employment",
+                    "crime",
+                    "2008 crisis",
+                    "power"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "ES2020_008",
                 "slug": "es2020-008-baby",
                 "title": {
@@ -19,7 +64,7 @@
                 },
                 "release": {
                     "type": "Theatrical release",
-                    "date": "2020-03-12",
+                    "date": "2020-12-03",
                     "year": 2020
                 },
                 "filmType": "Fiction film",
@@ -35,7 +80,18 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "juanma-bajo-ulloa",
+                            "name": "Juanma Bajo Ulloa"
+                        },
+                        "year": 2020,
+                        "award": "Premios Goya",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "mental illness",
                     "caregiving",
@@ -90,5 +146,18 @@
             "role": "Documentary subject"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "es2020-008-baby",
+                "title": {
+                    "native": "Baby"
+                }
+            },
+            "year": 2020,
+            "award": "Premios Goya",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

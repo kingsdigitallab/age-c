@@ -11,6 +11,47 @@
     "roles": [
         {
             "film": {
+                "id": "GB2019_091",
+                "slug": "gb2019-091-animals",
+                "title": {
+                    "native": "Animals",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2019-08-02",
+                    "year": 2019
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Drama",
+                    "Coming of Age"
+                ],
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Australia",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Ireland",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "homosociality",
+                    "urban"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "GB2022_007",
                 "slug": "gb2022-007-good-luck-to-you-leo-grande",
                 "title": {
@@ -37,7 +78,42 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2022.0,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": null,
+                        "year": 2023.0,
+                        "award": "British Academy Film Awards(BAFTA)",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "sophie-hyde",
+                            "name": "Sophie Hyde"
+                        },
+                        "year": 2022,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "emma-thompson",
+                            "name": "Emma Thompson"
+                        },
+                        "year": 2023,
+                        "award": "British Academy Film Awards(BAFTA)",
+                        "category": "Unknown",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "new start",
                     "bucket list",
@@ -58,5 +134,18 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "gb2022-007-good-luck-to-you-leo-grande",
+                "title": {
+                    "native": "Good Luck to You, Leo Grande"
+                }
+            },
+            "year": 2022,
+            "award": "British Independent Film Awards",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

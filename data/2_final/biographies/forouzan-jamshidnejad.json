@@ -30,10 +30,6 @@
                 ],
                 "production": [
                     {
-                        "country": "Germany",
-                        "share": "Majority coproducer"
-                    },
-                    {
                         "country": "Denmark",
                         "share": "Minority coproducer"
                     },
@@ -46,7 +42,42 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2022.0,
+                        "award": "European Film Awards",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": null,
+                        "year": 2023.0,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "ali-abbasi",
+                            "name": "Ali Abbasi"
+                        },
+                        "year": 2023,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "ali-abbasi",
+                            "name": "Ali Abbasi"
+                        },
+                        "year": 2022,
+                        "award": "European Film Awards",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "crime"
                 ]

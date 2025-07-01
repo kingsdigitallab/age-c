@@ -11,6 +11,86 @@
     "roles": [
         {
             "film": {
+                "id": "ES2016_008",
+                "slug": "es2016-008-toro",
+                "title": {
+                    "native": "Toro",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-04-22",
+                    "year": 2016
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Thriller",
+                    "Action",
+                    "Crime"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "organized crime",
+                    "mentorship",
+                    "homosociality",
+                    "self-employment",
+                    "superior-employee relationship",
+                    "intergenerational conflict",
+                    "power",
+                    "abuse",
+                    "regional identity",
+                    "revenge"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "ES2021_055",
+                "slug": "es2021-055-a-perfect-enemy",
+                "title": {
+                    "native": "A Perfect Enemy",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2021-04-30",
+                    "year": 2021
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Thriller",
+                    "Crime"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "abuse"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "ES2022_089",
                 "slug": "es2022-089-oswald-el-falsificador",
                 "title": {
@@ -33,7 +113,15 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2022.0,
+                        "award": "Premios Goya",
+                        "category": "Best Documentary Film",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "fraud",
                     "crime",

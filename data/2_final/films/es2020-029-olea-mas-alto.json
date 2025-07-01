@@ -71,7 +71,16 @@
             "role": "Documentary subject"
         },
         {
-            "person": "Concha Velasco",
+            "person": {
+                "id": "Concha Velasco",
+                "slug": "concha-velasco",
+                "name": "Concha Velasco",
+                "birthYear": 1939,
+                "deathYear": 2023,
+                "gender": "Female identifying",
+                "nationality": "Spain",
+                "awards": []
+            },
             "role": "Documentary subject"
         },
         {
@@ -161,7 +170,20 @@
                 "deathYear": 0,
                 "gender": "Male identifying",
                 "nationality": "Spain",
-                "awards": []
+                "awards": [
+                    {
+                        "film": {
+                            "slug": "es2014-008-magical-girl",
+                            "title": {
+                                "native": "Magical Girl"
+                            }
+                        },
+                        "year": 2014,
+                        "award": "Premios Goya",
+                        "category": "Best Supporting Actor",
+                        "result": "Nominated"
+                    }
+                ]
             },
             "role": "Documentary subject"
         },

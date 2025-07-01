@@ -11,6 +11,74 @@
     "roles": [
         {
             "film": {
+                "id": "DE2015_017",
+                "slug": "de2015-017-als-wir-traumten",
+                "title": {
+                    "native": "Als wir tr\u00e4umten",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2015-02-26",
+                    "year": 2015
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "cultural memory"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "DE2017_010",
+                "slug": "de2017-010-timm-thaler-oder-das-verkaufte-lachen",
+                "title": {
+                    "native": "Timm Thaler oder das verkaufte Lachen",
+                    "english": "The Legend of Timm Thaler or The Boy Who Sold His Laughter"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-02-02",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Children's Film",
+                    "Comedy",
+                    "Fantasy"
+                ],
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "non-human companionship",
+                    "supernatural entity",
+                    "intergenerational conflict"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "DE2018_071",
                 "slug": "de2018-071-gundermann",
                 "title": {
@@ -34,7 +102,35 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2019.0,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "eva-weissenborn",
+                            "name": "Eva Wei\u00dfenborn"
+                        },
+                        "year": 2019,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "andreas-dresen",
+                            "name": "Andreas Dresen"
+                        },
+                        "year": 2019,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Director",
+                        "result": "Awarded"
+                    }
+                ],
                 "tags": [
                     "cultural memory",
                     "legacy",
@@ -73,9 +169,19 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2022,
+                        "year": 2022.0,
                         "award": "Deutscher Filmpreis",
                         "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "andreas-dresen",
+                            "name": "Andreas Dresen"
+                        },
+                        "year": 2022,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Director",
                         "result": "Nominated"
                     }
                 ],
@@ -84,5 +190,30 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "de2022-025-rabiye-kurnaz-gegen-george-w-bush",
+                "title": {
+                    "native": "Rabiye Kurnaz gegen George W. Bush"
+                }
+            },
+            "year": 2022,
+            "award": "Deutscher Filmpreis",
+            "category": "Best Director",
+            "result": "Nominated"
+        },
+        {
+            "film": {
+                "slug": "de2018-071-gundermann",
+                "title": {
+                    "native": "Gundermann"
+                }
+            },
+            "year": 2019,
+            "award": "Deutscher Filmpreis",
+            "category": "Best Director",
+            "result": "Awarded"
+        }
+    ]
 }

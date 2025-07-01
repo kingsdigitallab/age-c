@@ -11,6 +11,37 @@
     "roles": [
         {
             "film": {
+                "id": "DE2017_091",
+                "slug": "de2017-091-schumanns-bargesprache",
+                "title": {
+                    "native": "Schumanns Bargespr\u00e4che",
+                    "english": "Schumann's Bar Talks"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-10-12",
+                    "year": 2017
+                },
+                "filmType": "Documentary",
+                "genre": [
+                    "Documentary \u2013 Participatory mode",
+                    "Documentary \u2013 Observational mode"
+                ],
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "artistic creation"
+                ]
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "film": {
                 "id": "DE2023_019",
                 "slug": "de2023-019-wann-wird-es-endlich-wieder-so-wie-es-nie-war",
                 "title": {
@@ -33,7 +64,25 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2023.0,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "sonja-heiss",
+                            "name": "Sonja Heiss"
+                        },
+                        "year": 2023,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "hospital"
                 ]

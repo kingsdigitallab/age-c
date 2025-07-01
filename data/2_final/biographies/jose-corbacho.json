@@ -11,15 +11,52 @@
     "roles": [
         {
             "film": {
+                "id": "ES2015_024",
+                "slug": "es2015-024-incidencias",
+                "title": {
+                    "native": "Incidencias",
+                    "english": "Incidents"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2015-10-20",
+                    "year": 2015
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Thriller"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "festivities",
+                    "natural death",
+                    "marriage",
+                    "widowhood",
+                    "state institutions",
+                    "high rank employment",
+                    "substance abuse"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "ES2022_001",
                 "slug": "es2022-001-tadeo-jones-3-la-tabla-esmeralda",
                 "title": {
                     "native": "Tadeo Jones 3. La tabla esmeralda",
-                    "english": "Tad the Lost Explorer and the Emerald Tablet"
+                    "english": "Tad The Lost Explorer And The Emerald Tablet"
                 },
                 "release": {
                     "type": "Theatrical release",
-                    "date": "2022-08-24",
+                    "date": "2022-08-26",
                     "year": 2022
                 },
                 "filmType": "Animation",
@@ -35,7 +72,15 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2022.0,
+                        "award": "Premios Goya",
+                        "category": "Best Actress Female",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "supernatural entity",
                     "homosociality",

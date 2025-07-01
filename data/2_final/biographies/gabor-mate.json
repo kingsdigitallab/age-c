@@ -57,6 +57,36 @@
     "roles": [
         {
             "film": {
+                "id": "HU2014_009",
+                "slug": "hu2014-009-fekete-leves",
+                "title": {
+                    "native": "Fekete leves",
+                    "english": "Black Soup"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-06-05",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Action",
+                    "Heist",
+                    "Comedy"
+                ],
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": []
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
                 "id": "HU2018_008",
                 "slug": "hu2018-008-lajko-cigany-az-urben",
                 "title": {
@@ -80,7 +110,18 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "jozsef-gyabronka",
+                            "name": "J\u00f3zsef Gyabronka"
+                        },
+                        "year": 2019,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Supporting Actor",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "fatherhood",
                     "mentorship",

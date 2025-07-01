@@ -11,6 +11,48 @@
     "roles": [
         {
             "film": {
+                "id": "ES2017_025",
+                "slug": "es2017-025-estiu-1993",
+                "title": {
+                    "native": "Estiu 1993",
+                    "english": "Summer 1993"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-05-14",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama",
+                    "Coming of Age"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2017.0,
+                        "award": "Premios Goya",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "grandfatherhood",
+                    "grief",
+                    "rural",
+                    "caregiving"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "ES2022_007",
                 "slug": "es2022-007-alcarras",
                 "title": {
@@ -36,7 +78,32 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2022.0,
+                        "award": "Premios Goya",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": null,
+                        "year": 2022.0,
+                        "award": "European Film Awards",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "carla-simon",
+                            "name": "Carla Sim\u00f3n"
+                        },
+                        "year": 2022,
+                        "award": "Premios Goya",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "inheritance",
                     "well-being",
@@ -57,5 +124,18 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "es2022-007-alcarras",
+                "title": {
+                    "native": "Alcarr\u00e0s"
+                }
+            },
+            "year": 2022,
+            "award": "Premios Goya",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

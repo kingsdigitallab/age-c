@@ -11,6 +11,177 @@
     "roles": [
         {
             "film": {
+                "id": "IT2015_012",
+                "slug": "it2015-012-mia-madre",
+                "title": {
+                    "native": "Mia madre",
+                    "english": "My Mother"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2015-04-16",
+                    "year": 2015
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2015.0,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "nanni-moretti",
+                            "name": "Nanni Moretti"
+                        },
+                        "year": 2015,
+                        "award": "European Film Awards",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "nanni-moretti",
+                            "name": "Nanni Moretti"
+                        },
+                        "year": 2015,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "nanni-moretti",
+                            "name": "Nanni Moretti"
+                        },
+                        "year": 2015,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Supporting Actor",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "giulia-lazzarini",
+                            "name": "Giulia Lazzarini"
+                        },
+                        "year": 2015,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Supporting Actress",
+                        "result": "Awarded"
+                    }
+                ],
+                "tags": [
+                    "motherhood",
+                    "caregiving",
+                    "artistic creation",
+                    "celebrity",
+                    "physical illness",
+                    "hospital",
+                    "natural death",
+                    "grandmotherhood",
+                    "legacy",
+                    "education",
+                    "siblinghood"
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "IT2017_007",
+                "slug": "it2017-007-the-place",
+                "title": {
+                    "native": "The Place",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-09-11",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Multi-protagonist film",
+                    "Drama",
+                    "Thriller"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "giulia-lazzarini",
+                            "name": "Giulia Lazzarini"
+                        },
+                        "year": 2018,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "crime",
+                    "dementia",
+                    "desire"
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "IT2017_097",
+                "slug": "it2017-097-l-amatore",
+                "title": {
+                    "native": "L'amatore",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-10-05",
+                    "year": 2017
+                },
+                "filmType": "Documentary",
+                "genre": [
+                    "Documentary \u2013 Performative mode",
+                    "Biopic",
+                    "Historical film (Heritage Film)"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "cultural memory",
+                    "artistic creation",
+                    "state institutions"
+                ]
+            },
+            "role": "Narrator/voice over"
+        },
+        {
+            "film": {
                 "id": "IT2023_012",
                 "slug": "it2023-012-cento-domeniche",
                 "title": {
@@ -32,7 +203,18 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "antonio-albanese",
+                            "name": "Antonio Albanese"
+                        },
+                        "year": 2024,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Actor Male",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "retirement",
                     "fraud",
@@ -46,5 +228,30 @@
             "role": "Supporting actor"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "it2015-012-mia-madre",
+                "title": {
+                    "native": "Mia madre"
+                }
+            },
+            "year": 2015,
+            "award": "Premio David di Donatello",
+            "category": "Best Supporting Actress",
+            "result": "Awarded"
+        },
+        {
+            "film": {
+                "slug": "it2017-007-the-place",
+                "title": {
+                    "native": "The Place"
+                }
+            },
+            "year": 2018,
+            "award": "Premio David di Donatello",
+            "category": "Best Supporting Actress",
+            "result": "Nominated"
+        }
+    ]
 }

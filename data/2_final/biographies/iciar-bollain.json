@@ -11,6 +11,55 @@
     "roles": [
         {
             "film": {
+                "id": "ES2016_026",
+                "slug": "es2016-026-el-olivo",
+                "title": {
+                    "native": "El olivo",
+                    "english": "The Olive Tree"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-05-03",
+                    "year": 2016
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama",
+                    "Road Movie"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "2008 crisis",
+                    "personal memory",
+                    "personal trauma",
+                    "cultural memory",
+                    "grandfatherhood",
+                    "fatherhood",
+                    "ecology",
+                    "rural",
+                    "independent home",
+                    "mental illness",
+                    "retirement",
+                    "disability",
+                    "intergenerational conflict",
+                    "dementia",
+                    "eu"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "ES2020_004",
                 "slug": "es2020-004-la-boda-de-rosa",
                 "title": {
@@ -37,7 +86,35 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2020.0,
+                        "award": "Premios Goya",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "sergi-lopez",
+                            "name": "Sergi L\u00f3pez"
+                        },
+                        "year": 2020,
+                        "award": "Premios Goya",
+                        "category": "Best Supporting Actor",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "iciar-bollain",
+                            "name": "Ic\u00edar Bolla\u00edn"
+                        },
+                        "year": 2020,
+                        "award": "Premios Goya",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "caregiving",
                     "medical treatment",
@@ -89,7 +166,7 @@
                     "women empowerment",
                     "activism",
                     "politics",
-                    "high-rank employment",
+                    "high rank employment",
                     "homosociality",
                     "cultural memory",
                     "body norms"
@@ -121,7 +198,35 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2021.0,
+                        "award": "Premios Goya",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "blanca-portillo",
+                            "name": "Blanca Portillo"
+                        },
+                        "year": 2021,
+                        "award": "Premios Goya",
+                        "category": "Unknown",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "iciar-bollain",
+                            "name": "Ic\u00edar Bolla\u00edn"
+                        },
+                        "year": 2021,
+                        "award": "Premios Goya",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "motherhood",
                     "grandmotherhood",
@@ -142,5 +247,30 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "es2021-003-maixabel",
+                "title": {
+                    "native": "Maixabel"
+                }
+            },
+            "year": 2021,
+            "award": "Premios Goya",
+            "category": "Best Director",
+            "result": "Nominated"
+        },
+        {
+            "film": {
+                "slug": "es2020-004-la-boda-de-rosa",
+                "title": {
+                    "native": "La boda de Rosa"
+                }
+            },
+            "year": 2020,
+            "award": "Premios Goya",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

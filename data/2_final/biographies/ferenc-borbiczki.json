@@ -11,6 +11,54 @@
     "roles": [
         {
             "film": {
+                "id": "HU2017_002",
+                "slug": "hu2017-002-a-viszkis",
+                "title": {
+                    "native": "A Viszkis",
+                    "english": "The Whiskey Bandit"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-11-23",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Action",
+                    "Crime",
+                    "Biopic"
+                ],
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2018.0,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Fiction Film (exclusively F)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "nimrod-antal",
+                            "name": "Nimr\u00f3d Antal"
+                        },
+                        "year": 2018,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": []
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "film": {
                 "id": "HU2019_012",
                 "slug": "hu2019-012-most-van-most",
                 "title": {
@@ -65,7 +113,18 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "geza-d-hegedus",
+                            "name": "G\u00e9za D. Heged\u0171s"
+                        },
+                        "year": 2021,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Unknown",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "crime",
                     "power"

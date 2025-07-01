@@ -11,6 +11,48 @@
     "roles": [
         {
             "film": {
+                "id": "HU2017_001",
+                "slug": "hu2017-001-kincsem",
+                "title": {
+                    "native": "Kincsem",
+                    "english": "Bet on Revenge"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-03-16",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Adventure",
+                    "Romance"
+                ],
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2018.0,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Fiction Film (exclusively F)",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "intergenerational conflict",
+                    "wealth",
+                    "high rank employment",
+                    "power"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "HU2018_001",
                 "slug": "hu2018-001-valami-amerika-3",
                 "title": {
@@ -65,11 +107,42 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2021.0,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Fiction Film (exclusively F)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "gabor-herendi",
+                            "name": "G\u00e1bor Herendi"
+                        },
+                        "year": 2021,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": []
             },
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "hu2021-003-toxikoma",
+                "title": {
+                    "native": "Toxikoma"
+                }
+            },
+            "year": 2021,
+            "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

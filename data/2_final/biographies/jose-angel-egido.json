@@ -41,7 +41,35 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2018.0,
+                        "award": "Premios Goya",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "eduard-fernandez",
+                            "name": "Eduard Fern\u00e1ndez"
+                        },
+                        "year": 2018,
+                        "award": "Premios Goya",
+                        "category": "Best Supporting Actor",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "asghar-farhadi",
+                            "name": "Asghar Farhadi"
+                        },
+                        "year": 2018,
+                        "award": "Premios Goya",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "rural",
                     "fatherhood",
@@ -77,7 +105,7 @@
                 "slug": "es2019-022-el-silencio-del-pantano",
                 "title": {
                     "native": "El silencio del pantano",
-                    "english": "The Silence of the Marsh"
+                    "english": "The Silence Of The Marsh"
                 },
                 "release": {
                     "type": "Theatrical release",
@@ -126,7 +154,7 @@
             "class": "Upper Middle class",
             "profession": "Employed",
             "ability": "Able-bodied",
-            "assistedMobility": "Unknown"
+            "assistedMobility": "No"
         },
         {
             "id": "ES2023_041_04",
@@ -135,7 +163,7 @@
                 "slug": "es2023-041-esperando-a-dali",
                 "title": {
                     "native": "Esperando a Dal\u00ed",
-                    "english": "Waiting for Dali"
+                    "english": "Waiting For Dali"
                 },
                 "release": {
                     "type": "Theatrical release",
@@ -184,9 +212,183 @@
             "profession": "Unknown",
             "ability": "Unknown",
             "assistedMobility": "No"
+        },
+        {
+            "id": "ES2016_013_01",
+            "film": {
+                "id": "ES2016_013",
+                "slug": "es2016-013-maria-y-los-demas",
+                "title": {
+                    "native": "Mar\u00eda (y los dem\u00e1s)",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-12-07",
+                    "year": 2016
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "fatherhood",
+                    "widowhood",
+                    "grief",
+                    "caregiving",
+                    "independent home",
+                    "wedding",
+                    "migration",
+                    "retirement",
+                    "partnership",
+                    "physical illness",
+                    "new start",
+                    "may-december",
+                    "daily routine"
+                ]
+            },
+            "person": "Jos\u00e9 \u00c1ngel Egido",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Retired",
+            "ability": "Chronic illness",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "ES2014_018_01",
+            "film": {
+                "id": "ES2014_018",
+                "slug": "es2014-018-little-galicia",
+                "title": {
+                    "native": "Little Galicia",
+                    "english": "Wedding In New York"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-12-01",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "motherhood",
+                    "migration",
+                    "fatherhood",
+                    "marriage",
+                    "wedding",
+                    "religion"
+                ]
+            },
+            "person": "Jos\u00e9 \u00c1ngel Egido",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Unknown",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
     ],
     "roles": [
+        {
+            "film": {
+                "id": "ES2014_018",
+                "slug": "es2014-018-little-galicia",
+                "title": {
+                    "native": "Little Galicia",
+                    "english": "Wedding In New York"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-12-01",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "motherhood",
+                    "migration",
+                    "fatherhood",
+                    "marriage",
+                    "wedding",
+                    "religion"
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "ES2016_013",
+                "slug": "es2016-013-maria-y-los-demas",
+                "title": {
+                    "native": "Mar\u00eda (y los dem\u00e1s)",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-12-07",
+                    "year": 2016
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "fatherhood",
+                    "widowhood",
+                    "grief",
+                    "caregiving",
+                    "independent home",
+                    "wedding",
+                    "migration",
+                    "retirement",
+                    "partnership",
+                    "physical illness",
+                    "new start",
+                    "may-december",
+                    "daily routine"
+                ]
+            },
+            "role": "Supporting actor"
+        },
         {
             "film": {
                 "id": "ES2018_003",
@@ -219,7 +421,35 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2018.0,
+                        "award": "Premios Goya",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "eduard-fernandez",
+                            "name": "Eduard Fern\u00e1ndez"
+                        },
+                        "year": 2018,
+                        "award": "Premios Goya",
+                        "category": "Best Supporting Actor",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "asghar-farhadi",
+                            "name": "Asghar Farhadi"
+                        },
+                        "year": 2018,
+                        "award": "Premios Goya",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "rural",
                     "fatherhood",
@@ -246,7 +476,7 @@
                 "slug": "es2019-022-el-silencio-del-pantano",
                 "title": {
                     "native": "El silencio del pantano",
-                    "english": "The Silence of the Marsh"
+                    "english": "The Silence Of The Marsh"
                 },
                 "release": {
                     "type": "Theatrical release",
@@ -295,7 +525,7 @@
                 "slug": "es2023-041-esperando-a-dali",
                 "title": {
                     "native": "Esperando a Dal\u00ed",
-                    "english": "Waiting for Dali"
+                    "english": "Waiting For Dali"
                 },
                 "release": {
                     "type": "Theatrical release",
@@ -333,6 +563,39 @@
                     "celebrity",
                     "national identity",
                     "class conflict"
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "IT2015_011",
+                "slug": "it2015-011-chiamatemi-francesco-il-papa-della-gente",
+                "title": {
+                    "native": "Chiamatemi Francesco - Il Papa della gente",
+                    "english": "Call me Francesco - The Pope"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2015-03-12",
+                    "year": 2015
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Biopic",
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "religion",
+                    "stages of life",
+                    "activism"
                 ]
             },
             "role": "Supporting actor"

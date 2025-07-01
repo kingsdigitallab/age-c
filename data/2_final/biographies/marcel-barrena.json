@@ -11,11 +11,67 @@
     "roles": [
         {
             "film": {
+                "id": "ES2016_007",
+                "slug": "es2016-007-100-metros",
+                "title": {
+                    "native": "100 metros",
+                    "english": "100 Metres"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-11-04",
+                    "year": 2016
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama",
+                    "Comedy",
+                    "Biopic",
+                    "Sports Film"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Portugal",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "karra-elejalde",
+                            "name": "Karra Elejalde"
+                        },
+                        "year": 2016,
+                        "award": "Premios Goya",
+                        "category": "Best Supporting Actor",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "caregiving",
+                    "disability",
+                    "fatherhood",
+                    "in-laws",
+                    "homosociality",
+                    "mentorship",
+                    "well-being",
+                    "intergenerational conflict",
+                    "intergenerational friendship"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "ES2021_006",
                 "slug": "es2021-006-mediterraneo",
                 "title": {
                     "native": "Mediterr\u00e1neo",
-                    "english": "Mediterraneo: The Law of the Sea"
+                    "english": "Mediterraneo: The Law Of The Sea"
                 },
                 "release": {
                     "type": "Theatrical release",
@@ -37,7 +93,25 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2021.0,
+                        "award": "Premios Goya",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "eduard-fernandez",
+                            "name": "Eduard Fern\u00e1ndez"
+                        },
+                        "year": 2021,
+                        "award": "Premios Goya",
+                        "category": "Best Actor Male",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "rescue mission",
                     "fatherhood",

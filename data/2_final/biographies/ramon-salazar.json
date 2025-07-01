@@ -11,6 +11,49 @@
     "roles": [
         {
             "film": {
+                "id": "ES2014_021",
+                "slug": "es2014-021-10-000-noches-en-ninguna-parte",
+                "title": {
+                    "native": "10.000 noches en ninguna parte",
+                    "english": "10,000 Nights Nowhere"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-05-20",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "motherhood",
+                    "independent home",
+                    "urban",
+                    "intergenerational conflict",
+                    "substance abuse",
+                    "mental illness"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "ES2018_010",
                 "slug": "es2018-010-la-enfermedad-del-domingo",
                 "title": {
@@ -32,7 +75,18 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "susi-sanchez",
+                            "name": "Susi S\u00e1nchez"
+                        },
+                        "year": 2018,
+                        "award": "Premios Goya",
+                        "category": "Unknown",
+                        "result": "Awarded"
+                    }
+                ],
                 "tags": [
                     "wealth",
                     "motherhood",

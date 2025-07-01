@@ -11,6 +11,76 @@
     "roles": [
         {
             "film": {
+                "id": "FR2016_083",
+                "slug": "fr2016-083-ma-loute",
+                "title": {
+                    "native": "Ma Loute",
+                    "english": "Slack Bay"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-05-13",
+                    "year": 2016
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Historical film (Heritage Film)"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2017.0,
+                        "award": "C\u00e9sar du cin\u00e9ma",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "fabrice-luchini",
+                            "name": "Fabrice Luchini"
+                        },
+                        "year": 2017,
+                        "award": "C\u00e9sar du cin\u00e9ma",
+                        "category": "Best Actor Male",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "bruno-dumont",
+                            "name": "Bruno Dumont"
+                        },
+                        "year": 2017,
+                        "award": "C\u00e9sar du cin\u00e9ma",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "parenthood",
+                    "extended family",
+                    "multigenerational family",
+                    "marriage",
+                    "independent home",
+                    "holiday",
+                    "wealth",
+                    "class conflict"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "FR2019_152",
                 "slug": "fr2019-152-jeanne",
                 "title": {
@@ -42,5 +112,18 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "fr2016-083-ma-loute",
+                "title": {
+                    "native": "Ma Loute"
+                }
+            },
+            "year": 2017,
+            "award": "C\u00e9sar du cin\u00e9ma",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

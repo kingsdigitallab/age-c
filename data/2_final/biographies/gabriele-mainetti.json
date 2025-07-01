@@ -11,6 +11,40 @@
     "roles": [
         {
             "film": {
+                "id": "IT2016_007",
+                "slug": "it2016-007-lo-chiamavano-jeeg-robot",
+                "title": {
+                    "native": "Lo chiamavano Jeeg Robot",
+                    "english": "They call me Jeeg"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-02-25",
+                    "year": 2016
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Action",
+                    "Science Fiction",
+                    "Comedy",
+                    "Superhero",
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "crime"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "IT2021_046",
                 "slug": "it2021-046-freaks-out",
                 "title": {
@@ -42,7 +76,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2022,
+                        "year": 2022.0,
                         "award": "Premio David di Donatello",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
@@ -55,16 +89,6 @@
                         "year": 2022,
                         "award": "Premio David di Donatello",
                         "category": "Best Director",
-                        "result": "Nominated"
-                    },
-                    {
-                        "person": {
-                            "slug": "pietro-castellitto",
-                            "name": "Pietro Castellitto"
-                        },
-                        "year": 2022,
-                        "award": "Premio David di Donatello",
-                        "category": "Best Supporting Actor",
                         "result": "Nominated"
                     }
                 ],

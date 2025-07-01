@@ -11,11 +11,59 @@
     "roles": [
         {
             "film": {
+                "id": "ES2017_022",
+                "slug": "es2017-022-veronica",
+                "title": {
+                    "native": "Ver\u00f3nica",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-08-25",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Horror",
+                    "Coming of Age"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "paco-plaza",
+                            "name": "Paco Plaza"
+                        },
+                        "year": 2017,
+                        "award": "Premios Goya",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "supernatural entity",
+                    "religion",
+                    "education",
+                    "disability",
+                    "low rank employment",
+                    "caregiving",
+                    "homosociality"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "ES2019_005",
                 "slug": "es2019-005-quien-a-hierro-mata",
                 "title": {
                     "native": "Quien a hierro mata",
-                    "english": "Eye for an Eye"
+                    "english": "Eye For An Eye"
                 },
                 "release": {
                     "type": "Theatrical release",
@@ -78,7 +126,7 @@
                 },
                 "release": {
                     "type": "Theatrical release",
-                    "date": "2021-07-10",
+                    "date": "2021-10-07",
                     "year": 2021
                 },
                 "filmType": "Fiction film",
@@ -118,5 +166,18 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "es2017-022-veronica",
+                "title": {
+                    "native": "Ver\u00f3nica"
+                }
+            },
+            "year": 2017,
+            "award": "Premios Goya",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

@@ -11,6 +11,64 @@
     "roles": [
         {
             "film": {
+                "id": "IT2015_016",
+                "slug": "it2015-016-il-racconto-dei-racconti",
+                "title": {
+                    "native": "Il racconto dei racconti",
+                    "english": "Tale of Tales"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2015-05-14",
+                    "year": 2015
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama",
+                    "Fantasy"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2016.0,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "matteo-garrone",
+                            "name": "Matteo Garrone"
+                        },
+                        "year": 2016,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "gray face",
+                    "ageism",
+                    "gender discrimination",
+                    "abuse",
+                    "anti-ageing practices",
+                    "spirituality"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "IT2019_002",
                 "slug": "it2019-002-pinocchio",
                 "title": {
@@ -45,7 +103,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2020,
+                        "year": 2020.0,
                         "award": "Premio David di Donatello",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
@@ -109,7 +167,25 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2024.0,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "matteo-garrone",
+                            "name": "Matteo Garrone"
+                        },
+                        "year": 2024,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Director",
+                        "result": "Awarded"
+                    }
+                ],
                 "tags": [
                     "migration",
                     "motherhood",
@@ -122,12 +198,12 @@
     "awards": [
         {
             "film": {
-                "slug": "it2019-002-pinocchio",
+                "slug": "it2015-016-il-racconto-dei-racconti",
                 "title": {
-                    "native": "Pinocchio"
+                    "native": "Il racconto dei racconti"
                 }
             },
-            "year": 2020,
+            "year": 2016,
             "award": "Premio David di Donatello",
             "category": "Best Director",
             "result": "Nominated"
@@ -143,6 +219,42 @@
             "award": "Premio David di Donatello",
             "category": "Best Director",
             "result": "Awarded"
+        },
+        {
+            "film": {
+                "slug": "it2019-002-pinocchio",
+                "title": {
+                    "native": "Pinocchio"
+                }
+            },
+            "year": 2020,
+            "award": "Premio David di Donatello",
+            "category": "Best Director",
+            "result": "Nominated"
+        },
+        {
+            "film": {
+                "slug": "it2023-002-io-capitano",
+                "title": {
+                    "native": "Io capitano"
+                }
+            },
+            "year": 2024,
+            "award": "Premio David di Donatello",
+            "category": "Best Director",
+            "result": "Awarded"
+        },
+        {
+            "film": {
+                "slug": "it2018-012-dogman",
+                "title": {
+                    "native": "Dogman"
+                }
+            },
+            "year": 2018,
+            "award": "European Film Awards",
+            "category": "Best Director",
+            "result": "Nominated"
         }
     ]
 }

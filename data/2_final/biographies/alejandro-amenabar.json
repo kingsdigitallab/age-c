@@ -11,11 +11,56 @@
     "roles": [
         {
             "film": {
+                "id": "ES2015_018",
+                "slug": "es2015-018-regression",
+                "title": {
+                    "native": "Regression",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2015-10-02",
+                    "year": 2015
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Crime",
+                    "Detective Thriller",
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Canada",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "state institutions",
+                    "low rank employment",
+                    "religion",
+                    "superior-employee relationship",
+                    "rural",
+                    "organized crime"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "ES2019_002",
                 "slug": "es2019-002-mientras-dure-la-guerra",
                 "title": {
                     "native": "Mientras dure la guerra",
-                    "english": "While at War"
+                    "english": "While At War"
                 },
                 "release": {
                     "type": "Theatrical release",
@@ -39,7 +84,45 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2019.0,
+                        "award": "Premios Goya",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "karra-elejalde",
+                            "name": "Karra Elejalde"
+                        },
+                        "year": 2019,
+                        "award": "Premios Goya",
+                        "category": "Best Actor Male",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "eduard-fernandez",
+                            "name": "Eduard Fern\u00e1ndez"
+                        },
+                        "year": 2019,
+                        "award": "Premios Goya",
+                        "category": "Best Supporting Actor",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "alejandro-amenabar",
+                            "name": "Alejandro Amen\u00e1bar"
+                        },
+                        "year": 2019,
+                        "award": "Premios Goya",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "gray face",
                     "disability",
@@ -69,5 +152,18 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "es2019-002-mientras-dure-la-guerra",
+                "title": {
+                    "native": "Mientras dure la guerra"
+                }
+            },
+            "year": 2019,
+            "award": "Premios Goya",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

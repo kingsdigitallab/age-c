@@ -54,6 +54,38 @@
     "roles": [
         {
             "film": {
+                "id": "IT2017_095",
+                "slug": "it2017-095-my-italy",
+                "title": {
+                    "native": "My Italy",
+                    "english": "My Italy"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-05-18",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Metacinema",
+                    "Comedy"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "artistic creation",
+                    "national identity"
+                ]
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "film": {
                 "id": "IT2023_005",
                 "slug": "it2023-005-il-sol-dell-avvenire",
                 "title": {
@@ -81,7 +113,35 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2024.0,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "silvio-orlando",
+                            "name": "Silvio Orlando"
+                        },
+                        "year": 2024,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Supporting Actor",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "nanni-moretti",
+                            "name": "Nanni Moretti"
+                        },
+                        "year": 2024,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "artistic creation",
                     "marriage",

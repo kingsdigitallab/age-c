@@ -13,7 +13,16 @@
     },
     "filmType": "Fiction film",
     "directors": [
-        "Markus Goller"
+        {
+            "id": "Markus Goller",
+            "slug": "markus-goller",
+            "name": "Markus Goller",
+            "birthYear": 1969,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany",
+            "awards": []
+        }
     ],
     "genre": [
         "Comedy",
@@ -44,7 +53,20 @@
                 "deathYear": 0,
                 "gender": "Female identifying",
                 "nationality": "Germany",
-                "awards": []
+                "awards": [
+                    {
+                        "film": {
+                            "slug": "de2018-071-gundermann",
+                            "title": {
+                                "native": "Gundermann"
+                            }
+                        },
+                        "year": 2019,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    }
+                ]
             },
             "role": "Supporting actor"
         },
@@ -75,7 +97,16 @@
             "role": "Minor actor/Cameo"
         },
         {
-            "person": "Markus Goller",
+            "person": {
+                "id": "Markus Goller",
+                "slug": "markus-goller",
+                "name": "Markus Goller",
+                "birthYear": 1969,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany",
+                "awards": []
+            },
             "role": "Director of the film"
         }
     ],

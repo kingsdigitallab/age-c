@@ -11,6 +11,62 @@
     "roles": [
         {
             "film": {
+                "id": "ES2016_009",
+                "slug": "es2016-009-que-dios-nos-perdone",
+                "title": {
+                    "native": "Que Dios nos perdone",
+                    "english": "May God Save Us"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-10-01",
+                    "year": 2016
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Noir",
+                    "Detective Thriller"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2016.0,
+                        "award": "Premios Goya",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "rodrigo-sorogoyen",
+                            "name": "Rodrigo Sorogoyen"
+                        },
+                        "year": 2016,
+                        "award": "Premios Goya",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "urban",
+                    "religion",
+                    "murder",
+                    "abuse",
+                    "sex",
+                    "state institutions",
+                    "loneliness",
+                    "independent home"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "ES2018_005",
                 "slug": "es2018-005-el-reino",
                 "title": {
@@ -39,7 +95,35 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2018.0,
+                        "award": "Premios Goya",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "ana-wagener",
+                            "name": "Ana Wagener"
+                        },
+                        "year": 2018,
+                        "award": "Premios Goya",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "rodrigo-sorogoyen",
+                            "name": "Rodrigo Sorogoyen"
+                        },
+                        "year": 2018,
+                        "award": "Premios Goya",
+                        "category": "Best Director",
+                        "result": "Awarded"
+                    }
+                ],
                 "tags": [
                     "physical illness",
                     "medical treatment",
@@ -60,6 +144,43 @@
                     "power",
                     "national identity",
                     "state institutions"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "ES2019_095",
+                "slug": "es2019-095-madre",
+                "title": {
+                    "native": "Madre",
+                    "english": "Mother"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2019-11-11",
+                    "year": 2019
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama",
+                    "Thriller"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "homosociality",
+                    "motherhood",
+                    "natural"
                 ]
             },
             "role": "Director of the film"
@@ -93,7 +214,35 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2022.0,
+                        "award": "Premios Goya",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "luis-zahera",
+                            "name": "Luis Zahera"
+                        },
+                        "year": 2022,
+                        "award": "Premios Goya",
+                        "category": "Best Supporting Actor",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "rodrigo-sorogoyen",
+                            "name": "Rodrigo Sorogoyen"
+                        },
+                        "year": 2022,
+                        "award": "Premios Goya",
+                        "category": "Best Director",
+                        "result": "Awarded"
+                    }
+                ],
                 "tags": [
                     "rural",
                     "self-employment",
@@ -110,5 +259,42 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "es2022-003-as-bestas",
+                "title": {
+                    "native": "As bestas"
+                }
+            },
+            "year": 2022,
+            "award": "Premios Goya",
+            "category": "Best Director",
+            "result": "Awarded"
+        },
+        {
+            "film": {
+                "slug": "es2018-005-el-reino",
+                "title": {
+                    "native": "El reino"
+                }
+            },
+            "year": 2018,
+            "award": "Premios Goya",
+            "category": "Best Director",
+            "result": "Awarded"
+        },
+        {
+            "film": {
+                "slug": "es2016-009-que-dios-nos-perdone",
+                "title": {
+                    "native": "Que Dios nos perdone"
+                }
+            },
+            "year": 2016,
+            "award": "Premios Goya",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

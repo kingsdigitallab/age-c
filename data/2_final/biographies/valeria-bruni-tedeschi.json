@@ -52,58 +52,6 @@
             "assistedMobility": "No"
         },
         {
-            "id": "FR2019_021_01",
-            "film": {
-                "id": "FR2019_021",
-                "slug": "fr2019-021-les-estivants",
-                "title": {
-                    "native": "Les Estivants",
-                    "english": "The Summer House"
-                },
-                "release": {
-                    "type": "Theatrical release",
-                    "date": "2019-01-30",
-                    "year": 2019
-                },
-                "filmType": "Fiction film",
-                "genre": [
-                    "Comedy",
-                    "Drama"
-                ],
-                "production": [
-                    {
-                        "country": "France",
-                        "share": "Majority coproducer"
-                    },
-                    {
-                        "country": "Italy",
-                        "share": "Minority coproducer"
-                    }
-                ],
-                "awards": [],
-                "tags": [
-                    "separation",
-                    "artistic creation",
-                    "self-employment",
-                    "extended family",
-                    "siblinghood",
-                    "holiday",
-                    "festivities",
-                    "in-laws",
-                    "elderhood (friendship among elders)"
-                ]
-            },
-            "person": "Valeria Bruni Tedeschi",
-            "age": "2: Late Middle Age (55-60)",
-            "gender": "Female identifying",
-            "sexuality": "Heterosexual",
-            "origin": "White Western European",
-            "class": "Upper Middle class",
-            "profession": "Self-employed",
-            "ability": "Able-bodied",
-            "assistedMobility": "No"
-        },
-        {
             "id": "FR2021_068_02",
             "film": {
                 "id": "FR2021_068",
@@ -181,7 +129,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2022,
+                        "year": 2022.0,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
@@ -193,7 +141,7 @@
                         },
                         "year": 2022,
                         "award": "C\u00e9sar du cin\u00e9ma",
-                        "category": "Best Actress Female",
+                        "category": "Unknown",
                         "result": "Nominated"
                     }
                 ],
@@ -210,6 +158,58 @@
             "profession": "Unknown",
             "ability": "Temporary disability",
             "assistedMobility": "Yes"
+        },
+        {
+            "id": "FR2019_021_01",
+            "film": {
+                "id": "FR2019_021",
+                "slug": "fr2019-021-les-estivants",
+                "title": {
+                    "native": "Les Estivants",
+                    "english": "The Summer House"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2019-01-30",
+                    "year": 2019
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Italy",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "separation",
+                    "artistic creation",
+                    "self-employment",
+                    "extended family",
+                    "siblinghood",
+                    "holiday",
+                    "festivities",
+                    "in-laws",
+                    "elderhood (friendship among elders)"
+                ]
+            },
+            "person": "Valeria Bruni Tedeschi",
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Female identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
     ],
     "roles": [
@@ -370,9 +370,19 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2021,
+                        "year": 2021.0,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "francois-ozon",
+                            "name": "Fran\u00e7ois Ozon"
+                        },
+                        "year": 2020,
+                        "award": "European Film Awards",
+                        "category": "Best Director",
                         "result": "Nominated"
                     },
                     {
@@ -509,7 +519,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2022,
+                        "year": 2022.0,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
@@ -521,7 +531,7 @@
                         },
                         "year": 2022,
                         "award": "C\u00e9sar du cin\u00e9ma",
-                        "category": "Best Actress Female",
+                        "category": "Unknown",
                         "result": "Nominated"
                     }
                 ],
@@ -597,7 +607,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2023,
+                        "year": 2023.0,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
@@ -654,7 +664,7 @@
             },
             "year": 2022,
             "award": "C\u00e9sar du cin\u00e9ma",
-            "category": "Best Actress Female",
+            "category": "Unknown",
             "result": "Nominated"
         },
         {

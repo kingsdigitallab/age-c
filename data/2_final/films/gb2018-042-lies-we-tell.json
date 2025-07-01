@@ -13,7 +13,16 @@
     },
     "filmType": "Fiction film",
     "directors": [
-        "Mitu Misra"
+        {
+            "id": "Mitu Misra",
+            "slug": "mitu-misra",
+            "name": "Mitu Misra",
+            "birthYear": 1960,
+            "deathYear": 0,
+            "gender": "Unknown",
+            "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+            "awards": []
+        }
     ],
     "genre": [
         "Thriller",
@@ -84,9 +93,9 @@
             "id": "GB2018_042_03",
             "film": "GB2018_042",
             "person": {
-                "id": "Toyah Wilcox",
-                "slug": "toyah-wilcox",
-                "name": "Toyah Wilcox",
+                "id": "Toyah Willcox",
+                "slug": "toyah-willcox",
+                "name": "Toyah Willcox",
                 "birthYear": 1958,
                 "deathYear": 0,
                 "gender": "Female identifying",
@@ -166,14 +175,23 @@
             "role": "Supporting actor"
         },
         {
-            "person": "Mitu Misra",
+            "person": {
+                "id": "Mitu Misra",
+                "slug": "mitu-misra",
+                "name": "Mitu Misra",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Unknown",
+                "nationality": "United Kingdom of Great Britain and Northern Ireland (the)",
+                "awards": []
+            },
             "role": "Director of the film"
         },
         {
             "person": {
-                "id": "Toyah Wilcox",
-                "slug": "toyah-wilcox",
-                "name": "Toyah Wilcox",
+                "id": "Toyah Willcox",
+                "slug": "toyah-willcox",
+                "name": "Toyah Willcox",
                 "birthYear": 1958,
                 "deathYear": 0,
                 "gender": "Female identifying",

@@ -11,6 +11,46 @@
     "roles": [
         {
             "film": {
+                "id": "IT2014_025",
+                "slug": "it2014-025-le-meraviglie",
+                "title": {
+                    "native": "Le meraviglie",
+                    "english": "The Wonders"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-05-22",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Coming of Age",
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Switzerland",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "natural",
+                    "mass media"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "IT2018_035",
                 "slug": "it2018-035-lazzaro-felice",
                 "title": {
@@ -48,8 +88,15 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2019,
+                        "year": 2019.0,
                         "award": "Premio David di Donatello",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": null,
+                        "year": 2018.0,
+                        "award": "European Film Awards",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
                     },
@@ -72,13 +119,23 @@
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actress",
                         "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "alice-rohrwacher",
+                            "name": "Alice Rohrwacher"
+                        },
+                        "year": 2018,
+                        "award": "European Film Awards",
+                        "category": "Best Director",
+                        "result": "Nominated"
                     }
                 ],
                 "tags": [
-                    "rural",
                     "precarity",
                     "class conflict",
-                    "extended family"
+                    "extended family",
+                    "rural"
                 ]
             },
             "role": "Director of the film"
@@ -117,7 +174,35 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2024.0,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "isabella-rossellini",
+                            "name": "Isabella Rossellini"
+                        },
+                        "year": 2024,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "alice-rohrwacher",
+                            "name": "Alice Rohrwacher"
+                        },
+                        "year": 2024,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "natural",
                     "class conflict",
@@ -137,6 +222,30 @@
             },
             "year": 2019,
             "award": "Premio David di Donatello",
+            "category": "Best Director",
+            "result": "Nominated"
+        },
+        {
+            "film": {
+                "slug": "it2023-024-la-chimera",
+                "title": {
+                    "native": "La chimera"
+                }
+            },
+            "year": 2024,
+            "award": "Premio David di Donatello",
+            "category": "Best Director",
+            "result": "Nominated"
+        },
+        {
+            "film": {
+                "slug": "it2018-035-lazzaro-felice",
+                "title": {
+                    "native": "Lazzaro felice"
+                }
+            },
+            "year": 2018,
+            "award": "European Film Awards",
             "category": "Best Director",
             "result": "Nominated"
         }

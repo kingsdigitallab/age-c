@@ -11,6 +11,76 @@
     "roles": [
         {
             "film": {
+                "id": "RO2014_011",
+                "slug": "ro2014-011-q-e-d",
+                "title": {
+                    "native": "Q.E.D.",
+                    "english": "Quod Erat Demonstrandum"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-10-10",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama",
+                    "Historical film (Heritage Film)"
+                ],
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2015.0,
+                        "award": "Premiile Gopo",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "virgil-ogasanu",
+                            "name": "Virgil Og\u0103\u0219anu"
+                        },
+                        "year": 2015,
+                        "award": "Premiile Gopo",
+                        "category": "Best Supporting Actor",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "tora-vasilescu",
+                            "name": "Tora Vasilescu"
+                        },
+                        "year": 2015,
+                        "award": "Premiile Gopo",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "andrei-gruzsniczki",
+                            "name": "Andrei Gruzsniczki"
+                        },
+                        "year": 2015,
+                        "award": "Premiile Gopo",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "motherhood",
+                    "fatherhood"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "RO2019_017",
                 "slug": "ro2019-017-zavera",
                 "title": {
@@ -32,7 +102,18 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "coca-bloos",
+                            "name": "Coca Bloos"
+                        },
+                        "year": 2020,
+                        "award": "Premiile Gopo",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "accidental death",
                     "homosociality",
@@ -92,5 +173,18 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "ro2014-011-q-e-d",
+                "title": {
+                    "native": "Quod Erat Demonstrandum"
+                }
+            },
+            "year": 2015,
+            "award": "Premiile Gopo",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

@@ -35,7 +35,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2022,
+                        "year": 2022.0,
                         "award": "Premiile Gopo",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
@@ -92,7 +92,25 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2023.0,
+                        "award": "Premiile Gopo",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "bogdan-george-apetri",
+                            "name": "Bogdan George Apetri"
+                        },
+                        "year": 2023,
+                        "award": "Premiile Gopo",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": []
             },
             "role": "Director of the film"
@@ -107,6 +125,18 @@
                 }
             },
             "year": 2022,
+            "award": "Premiile Gopo",
+            "category": "Best Director",
+            "result": "Nominated"
+        },
+        {
+            "film": {
+                "slug": "ro2022-023-miracol",
+                "title": {
+                    "native": "Miracol"
+                }
+            },
+            "year": 2023,
             "award": "Premiile Gopo",
             "category": "Best Director",
             "result": "Nominated"

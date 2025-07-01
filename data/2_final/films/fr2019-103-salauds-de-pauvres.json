@@ -464,7 +464,16 @@
             "role": "Director of the film"
         },
         {
-            "person": "Philippe Chevalier",
+            "person": {
+                "id": "Philippe Chevallier",
+                "slug": "philippe-chevallier",
+                "name": "Philippe Chevallier",
+                "birthYear": 1956,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "France",
+                "awards": []
+            },
             "role": "Supporting actor"
         },
         {
@@ -502,7 +511,20 @@
                 "deathYear": 0,
                 "gender": "Male identifying",
                 "nationality": "France",
-                "awards": []
+                "awards": [
+                    {
+                        "film": {
+                            "slug": "ro2014-015-cripta",
+                            "title": {
+                                "native": "Cripta"
+                            }
+                        },
+                        "year": 2015,
+                        "award": "Premiile Gopo",
+                        "category": "Best Actor Male",
+                        "result": "Nominated"
+                    }
+                ]
             },
             "role": "Supporting actor"
         },

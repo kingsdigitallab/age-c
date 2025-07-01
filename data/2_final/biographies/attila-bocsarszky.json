@@ -11,6 +11,41 @@
     "roles": [
         {
             "film": {
+                "id": "HU2017_017",
+                "slug": "hu2017-017-kojot",
+                "title": {
+                    "native": "Kojot",
+                    "english": "Coyote"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-02-14",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama",
+                    "Action",
+                    "Western"
+                ],
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "inheritance",
+                    "abuse",
+                    "rural",
+                    "gentrification"
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
                 "id": "HU2022_006",
                 "slug": "hu2022-006-larry",
                 "title": {
@@ -33,7 +68,25 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2023.0,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Fiction Film (exclusively F)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "szilard-bernath",
+                            "name": "Szil\u00e1rd Bern\u00e1th"
+                        },
+                        "year": 2023,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "fatherhood",
                     "abuse",

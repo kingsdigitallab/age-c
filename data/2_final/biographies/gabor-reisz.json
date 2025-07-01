@@ -11,6 +11,58 @@
     "roles": [
         {
             "film": {
+                "id": "HU2014_003",
+                "slug": "hu2014-003-van-valami-furcsa-es-megmagyarazhatatlan",
+                "title": {
+                    "native": "VAN valami furcsa \u00e9s megmagyar\u00e1zhatatlan",
+                    "english": "For Some Inexplicable Reason"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-10-30",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Coming of Age"
+                ],
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2016.0,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Fiction Film (exclusively F)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "gabor-reisz",
+                            "name": "G\u00e1bor Reisz"
+                        },
+                        "year": 2016,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "parenthood",
+                    "motherhood",
+                    "fatherhood",
+                    "national identity"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "HU2018_003",
                 "slug": "hu2018-003-rossz-versek",
                 "title": {
@@ -34,7 +86,45 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2019.0,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Fiction Film (exclusively F)",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "zsolt-kovacs",
+                            "name": "Zsolt Kov\u00e1cs"
+                        },
+                        "year": 2019,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Supporting Actor",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "lili-monori",
+                            "name": "Lili Monori"
+                        },
+                        "year": 2019,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Supporting Actress",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "gabor-reisz",
+                            "name": "G\u00e1bor Reisz"
+                        },
+                        "year": 2019,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Director",
+                        "result": "Awarded"
+                    }
+                ],
                 "tags": [
                     "parenthood",
                     "mentorship",
@@ -42,7 +132,72 @@
                 ]
             },
             "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "HU2023_003",
+                "slug": "hu2023-003-magyarazat-mindenre",
+                "title": {
+                    "native": "Magyar\u00e1zat mindenre",
+                    "english": "Explanation for Everything"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2023-10-05",
+                    "year": 2023
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Coming of Age",
+                    "Comedy",
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Slovakia",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "parenthood",
+                    "motherhood",
+                    "fatherhood",
+                    "intergenerational conflict",
+                    "national identity"
+                ]
+            },
+            "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "hu2018-003-rossz-versek",
+                "title": {
+                    "native": "Rossz versek"
+                }
+            },
+            "year": 2019,
+            "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+            "category": "Best Director",
+            "result": "Awarded"
+        },
+        {
+            "film": {
+                "slug": "hu2014-003-van-valami-furcsa-es-megmagyarazhatatlan",
+                "title": {
+                    "native": "VAN valami furcsa \u00e9s megmagyar\u00e1zhatatlan"
+                }
+            },
+            "year": 2016,
+            "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

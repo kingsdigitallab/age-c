@@ -11,6 +11,40 @@
     "roles": [
         {
             "film": {
+                "id": "FR2014_026",
+                "slug": "fr2014-026-macadam-baby",
+                "title": {
+                    "native": "Macadam Baby",
+                    "english": "Macadam Baby"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-02-12",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Romance"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "parenthood",
+                    "grandmotherhood",
+                    "multigenerational family",
+                    "self-employment"
+                ]
+            },
+            "role": "Minor actor/Cameo"
+        },
+        {
+            "film": {
                 "id": "FR2019_002",
                 "slug": "fr2019-002-un-beau-voyou",
                 "title": {
@@ -73,19 +107,16 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2020,
+                        "year": 2020.0,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
                     },
                     {
-                        "person": {
-                            "slug": "louis-garrel",
-                            "name": "Louis Garrel"
-                        },
-                        "year": 2020,
-                        "award": "C\u00e9sar du cin\u00e9ma",
-                        "category": "Best Supporting Actor",
+                        "person": null,
+                        "year": 2019.0,
+                        "award": "European Film Awards",
+                        "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
                     },
                     {
@@ -97,6 +128,16 @@
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Director",
                         "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "roman-polanski",
+                            "name": "Roman Polanski"
+                        },
+                        "year": 2019,
+                        "award": "European Film Awards",
+                        "category": "Best Director",
+                        "result": "Nominated"
                     }
                 ],
                 "tags": [
@@ -108,6 +149,52 @@
                 ]
             },
             "role": "Minor actor/Cameo"
+        },
+        {
+            "film": {
+                "id": "FR2023_199",
+                "slug": "fr2023-199-little-girl-blue",
+                "title": {
+                    "native": "Little Girl Blue",
+                    "english": "Little Girl Blue"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2023-11-15",
+                    "year": 2023
+                },
+                "filmType": "Documentary",
+                "genre": [
+                    "Drama",
+                    "Biopic"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2024.0,
+                        "award": "C\u00e9sar du cin\u00e9ma",
+                        "category": "Best Documentary Film",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "high rank employment",
+                    "mass media",
+                    "artistic creation",
+                    "self-employment"
+                ]
+            },
+            "role": "Supporting actor"
         }
     ],
     "awards": []

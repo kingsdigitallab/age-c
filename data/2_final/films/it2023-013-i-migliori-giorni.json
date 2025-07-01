@@ -92,7 +92,16 @@
             "role": "Director of the film"
         },
         {
-            "person": "Jonis Bascir",
+            "person": {
+                "id": "Jonis Bascir",
+                "slug": "jonis-bascir",
+                "name": "Jonis Bascir",
+                "birthYear": 1960,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Italy",
+                "awards": []
+            },
             "role": "Minor actor/Cameo"
         },
         {
@@ -156,7 +165,20 @@
                 "deathYear": 0,
                 "gender": "Male identifying",
                 "nationality": "Italy",
-                "awards": []
+                "awards": [
+                    {
+                        "film": {
+                            "slug": "it2017-011-la-tenerezza",
+                            "title": {
+                                "native": "La tenerezza"
+                            }
+                        },
+                        "year": 2018,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Actor Male",
+                        "result": "Awarded"
+                    }
+                ]
             },
             "role": "Minor actor/Cameo"
         }

@@ -7,8 +7,131 @@
     "deathYear": 0,
     "gender": "Male identifying",
     "nationality": "France",
-    "characters": [],
+    "characters": [
+        {
+            "id": "FR2023_035_01",
+            "film": {
+                "id": "FR2023_035",
+                "slug": "fr2023-035-les-tetes-givrees",
+                "title": {
+                    "native": "Les T\u00eates givr\u00e9es",
+                    "english": "The Snow Must Go On"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2023-02-08",
+                    "year": 2023
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "education",
+                    "high rank employment",
+                    "natural",
+                    "ecology",
+                    "activism",
+                    "state institutions"
+                ]
+            },
+            "person": "Clovis Cornillac",
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "FR2023_193_01",
+            "film": {
+                "id": "FR2023_193",
+                "slug": "fr2023-193-monsieur-le-maire",
+                "title": {
+                    "native": "Monsieur le maire",
+                    "english": "Take Me Home"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2023-11-01",
+                    "year": 2023
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "state institutions",
+                    "professional politics",
+                    "rural"
+                ]
+            },
+            "person": "Clovis Cornillac",
+            "age": "2: Late Middle Age (55-60)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        }
+    ],
     "roles": [
+        {
+            "film": {
+                "id": "FR2015_068",
+                "slug": "fr2015-068-un-peu-beaucoup-aveuglement",
+                "title": {
+                    "native": "Un peu, beaucoup, aveugl\u00e9ment !",
+                    "english": "Blind Date"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2015-05-06",
+                    "year": 2015
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Romance"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "education"
+                ]
+            },
+            "role": "Director of the film"
+        },
         {
             "film": {
                 "id": "FR2018_024",
@@ -50,7 +173,7 @@
                 "id": "FR2022_091",
                 "slug": "fr2022-091-c-est-magnifique",
                 "title": {
-                    "native": "C'est magnifique!",
+                    "native": "C'est magnifique !",
                     "english": ""
                 },
                 "release": {
@@ -129,20 +252,80 @@
                 ]
             },
             "role": "Director of the film"
-        }
-    ],
-    "awards": [
+        },
         {
             "film": {
-                "slug": "fr2018-171-les-chatouilles",
+                "id": "FR2023_035",
+                "slug": "fr2023-035-les-tetes-givrees",
                 "title": {
-                    "native": "Les Chatouilles"
-                }
+                    "native": "Les T\u00eates givr\u00e9es",
+                    "english": "The Snow Must Go On"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2023-02-08",
+                    "year": 2023
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "education",
+                    "high rank employment",
+                    "natural",
+                    "ecology",
+                    "activism",
+                    "state institutions"
+                ]
             },
-            "year": 2019,
-            "award": "C\u00e9sar du cin\u00e9ma",
-            "category": "Best Supporting Actor",
-            "result": "Nominated"
+            "role": "Leading actor"
+        },
+        {
+            "film": {
+                "id": "FR2023_193",
+                "slug": "fr2023-193-monsieur-le-maire",
+                "title": {
+                    "native": "Monsieur le maire",
+                    "english": "Take Me Home"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2023-11-01",
+                    "year": 2023
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "state institutions",
+                    "professional politics",
+                    "rural"
+                ]
+            },
+            "role": "Leading actor"
         }
-    ]
+    ],
+    "awards": []
 }

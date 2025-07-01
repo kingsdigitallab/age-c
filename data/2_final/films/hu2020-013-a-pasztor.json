@@ -47,7 +47,16 @@
         {
             "id": "HU2020_013_01",
             "film": "HU2020_013",
-            "person": "Mikl\u00f3s Sz\u00e9kely B.",
+            "person": {
+                "id": "Mikl\u00f3s Sz\u00e9kely B.",
+                "slug": "miklos-szekely-b",
+                "name": "Mikl\u00f3s Sz\u00e9kely B.",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary",
+                "awards": []
+            },
             "age": "3: Third Age (60-75)",
             "gender": "Male identifying",
             "sexuality": "Heterosexual",
@@ -73,7 +82,16 @@
             "role": "Director of the film"
         },
         {
-            "person": "Mikl\u00f3s Sz\u00e9kely B.",
+            "person": {
+                "id": "Mikl\u00f3s Sz\u00e9kely B.",
+                "slug": "miklos-szekely-b",
+                "name": "Mikl\u00f3s Sz\u00e9kely B.",
+                "birthYear": 1948,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Hungary",
+                "awards": []
+            },
             "role": "Leading actor"
         },
         {
@@ -85,7 +103,20 @@
                 "deathYear": 0,
                 "gender": "Male identifying",
                 "nationality": "Hungary",
-                "awards": []
+                "awards": [
+                    {
+                        "film": {
+                            "slug": "hu2017-004-testrol-es-lelekrol",
+                            "title": {
+                                "native": "Testr\u0151l \u00e9s l\u00e9lekr\u0151l"
+                            }
+                        },
+                        "year": 2018,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Supporting Actor",
+                        "result": "Nominated"
+                    }
+                ]
             },
             "role": "Supporting actor"
         },

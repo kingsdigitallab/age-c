@@ -11,6 +11,38 @@
     "roles": [
         {
             "film": {
+                "id": "DE2017_025",
+                "slug": "de2017-025-zwischen-den-jahren",
+                "title": {
+                    "native": "Zwischen den Jahren",
+                    "english": "End of the Season"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-03-16",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "crime",
+                    "personal trauma",
+                    "search for meaning"
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
                 "id": "DE2018_038",
                 "slug": "de2018-038-spielmacher",
                 "title": {
@@ -67,7 +99,18 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "karl-markovics",
+                            "name": "Karl Markovics"
+                        },
+                        "year": 2023,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Supporting Actor",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "grandparenthood"
                 ]
@@ -103,7 +146,15 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2024.0,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "war",
                     "cultural memory",
@@ -114,5 +165,18 @@
             "role": "Supporting actor"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "de2022-110-was-man-von-hier-aus-sehen-kann",
+                "title": {
+                    "native": "Was man von hier aus sehen kann"
+                }
+            },
+            "year": 2023,
+            "award": "Deutscher Filmpreis",
+            "category": "Best Supporting Actor",
+            "result": "Nominated"
+        }
+    ]
 }

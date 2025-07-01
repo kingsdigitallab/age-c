@@ -11,6 +11,54 @@
     "roles": [
         {
             "film": {
+                "id": "HU2016_006",
+                "slug": "hu2016-006-hurok",
+                "title": {
+                    "native": "Hurok",
+                    "english": "Loop"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-04-14",
+                    "year": 2016
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Thriller",
+                    "Science Fiction",
+                    "Crime"
+                ],
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2017.0,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Fiction Film (exclusively F)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "isti-madarasz",
+                            "name": "Isti Madar\u00e1sz"
+                        },
+                        "year": 2017,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": []
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "HU2022_010",
                 "slug": "hu2022-010-atjarohaz",
                 "title": {
@@ -43,5 +91,18 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "hu2016-006-hurok",
+                "title": {
+                    "native": "Hurok"
+                }
+            },
+            "year": 2017,
+            "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

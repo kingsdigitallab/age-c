@@ -11,6 +11,47 @@
     "roles": [
         {
             "film": {
+                "id": "RO2016_010",
+                "slug": "ro2016-010-afacerea-est",
+                "title": {
+                    "native": "Afacerea Est",
+                    "english": "Eastern Business"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-10-28",
+                    "year": 2016
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy"
+                ],
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Lithuania",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Moldova (the Republic of)",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "intragenerational friendship",
+                    "rural",
+                    "national identity",
+                    "eu"
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
                 "id": "RO2022_026",
                 "slug": "ro2022-026-oameni-de-treaba",
                 "title": {
@@ -36,7 +77,35 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2023.0,
+                        "award": "Premiile Gopo",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "vasile-muraru",
+                            "name": "Vasile Muraru"
+                        },
+                        "year": 2023,
+                        "award": "Premiile Gopo",
+                        "category": "Best Supporting Actor",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "paul-negoescu",
+                            "name": "Paul Negoescu"
+                        },
+                        "year": 2023,
+                        "award": "Premiile Gopo",
+                        "category": "Best Director",
+                        "result": "Awarded"
+                    }
+                ],
                 "tags": [
                     "rural",
                     "corruption",

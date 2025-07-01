@@ -11,6 +11,60 @@
     "roles": [
         {
             "film": {
+                "id": "DE2015_098",
+                "slug": "de2015-098-er-ist-wieder-da",
+                "title": {
+                    "native": "Er ist wieder da",
+                    "english": "Look Who's Back"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2015-10-08",
+                    "year": 2015
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Drama",
+                    "Fantasy"
+                ],
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2016.0,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "david-wnendt",
+                            "name": "David Wnendt"
+                        },
+                        "year": 2016,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "war",
+                    "power",
+                    "cultural memory",
+                    "supernatural entity",
+                    "high rank employment"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "DE2021_045",
                 "slug": "de2021-045-the-sunlit-night",
                 "title": {
@@ -48,5 +102,18 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "de2015-098-er-ist-wieder-da",
+                "title": {
+                    "native": "Er ist wieder da"
+                }
+            },
+            "year": 2016,
+            "award": "Deutscher Filmpreis",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

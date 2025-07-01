@@ -11,6 +11,37 @@
     "roles": [
         {
             "film": {
+                "id": "FR2016_175",
+                "slug": "fr2016-175-rocco",
+                "title": {
+                    "native": "Rocco",
+                    "english": "Rocco"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-11-30",
+                    "year": 2016
+                },
+                "filmType": "Documentary",
+                "genre": [
+                    "Documentary \u2013 Observational mode"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "self-employment",
+                    "artistic creation"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "FR2019_086",
                 "slug": "fr2019-086-lourdes",
                 "title": {
@@ -35,7 +66,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2020,
+                        "year": 2020.0,
                         "award": "C\u00e9sar du cin\u00e9ma",
                         "category": "Best Documentary Film",
                         "result": "Nominated"

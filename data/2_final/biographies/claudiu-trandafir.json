@@ -11,6 +11,46 @@
     "roles": [
         {
             "film": {
+                "id": "RO2016_011",
+                "slug": "ro2016-011-dincolo-de-calea-ferata",
+                "title": {
+                    "native": "Dincolo de calea ferat\u0103",
+                    "english": "By the Rails"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-04-22",
+                    "year": 2016
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama",
+                    "Romance"
+                ],
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Sweden",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "Italy",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "festivities",
+                    "rural"
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
                 "id": "RO2019_013",
                 "slug": "ro2019-013-heidi",
                 "title": {
@@ -32,9 +72,30 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "gheorghe-visu",
+                            "name": "Gheorghe Visu"
+                        },
+                        "year": 2020,
+                        "award": "Premiile Gopo",
+                        "category": "Best Actor Male",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "catalin-mitulescu",
+                            "name": "C\u0103t\u0103lin Mitulescu"
+                        },
+                        "year": 2020,
+                        "award": "Premiile Gopo",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
-                    "last misssion",
+                    "last mission",
                     "romance",
                     "sex",
                     "high rank employment",

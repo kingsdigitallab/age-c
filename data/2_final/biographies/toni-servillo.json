@@ -40,6 +40,16 @@
                 "awards": [
                     {
                         "person": {
+                            "slug": "elena-sofia-ricci",
+                            "name": "Elena Sofia Ricci"
+                        },
+                        "year": 2019,
+                        "award": "Premio David di Donatello",
+                        "category": "Unknown",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
                             "slug": "toni-servillo",
                             "name": "Toni Servillo"
                         },
@@ -47,16 +57,6 @@
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
                         "result": "Nominated"
-                    },
-                    {
-                        "person": {
-                            "slug": "elena-sofia-ricci",
-                            "name": "Elena Sofia Ricci"
-                        },
-                        "year": 2019,
-                        "award": "Premio David di Donatello",
-                        "category": "Best Actress Female",
-                        "result": "Awarded"
                     },
                     {
                         "person": {
@@ -70,12 +70,12 @@
                     }
                 ],
                 "tags": [
-                    "professional politics",
                     "wealth",
                     "corruption",
                     "celebrity",
                     "state institutions",
-                    "desire"
+                    "desire",
+                    "professional politics"
                 ]
             },
             "person": "Toni Servillo",
@@ -119,12 +119,12 @@
                 ],
                 "awards": [],
                 "tags": [
-                    "professional politics",
                     "wealth",
                     "corruption",
                     "celebrity",
                     "state institutions",
-                    "desire"
+                    "desire",
+                    "professional politics"
                 ]
             },
             "person": "Toni Servillo",
@@ -220,6 +220,16 @@
                 "awards": [
                     {
                         "person": {
+                            "slug": "valeria-golino",
+                            "name": "Valeria Golino"
+                        },
+                        "year": 2020,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Supporting Actress",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
                             "slug": "toni-servillo",
                             "name": "Toni Servillo"
                         },
@@ -237,16 +247,6 @@
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
                         "result": "Nominated"
-                    },
-                    {
-                        "person": {
-                            "slug": "valeria-golino",
-                            "name": "Valeria Golino"
-                        },
-                        "year": 2020,
-                        "award": "Premio David di Donatello",
-                        "category": "Best Supporting Actress",
-                        "result": "Awarded"
                     }
                 ],
                 "tags": [
@@ -302,7 +302,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2022,
+                        "year": 2022.0,
                         "award": "Premio David di Donatello",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
@@ -376,7 +376,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2022,
+                        "year": 2022.0,
                         "award": "Premio David di Donatello",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
@@ -446,10 +446,27 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2022,
+                        "year": 2022.0,
                         "award": "Premio David di Donatello",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Awarded"
+                    },
+                    {
+                        "person": null,
+                        "year": 2021.0,
+                        "award": "European Film Awards",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "paolo-sorrentino",
+                            "name": "Paolo Sorrentino"
+                        },
+                        "year": 2021,
+                        "award": "European Film Awards",
+                        "category": "Best Director",
+                        "result": "Nominated"
                     },
                     {
                         "person": {
@@ -522,29 +539,9 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2023,
+                        "year": 2023.0,
                         "award": "Premio David di Donatello",
                         "category": "Best Film (mostly F, occasionally D)",
-                        "result": "Nominated"
-                    },
-                    {
-                        "person": {
-                            "slug": "salvatore-ficarra",
-                            "name": "Salvatore Ficarra"
-                        },
-                        "year": 2023,
-                        "award": "Premio David di Donatello",
-                        "category": "Best Actor Male",
-                        "result": "Nominated"
-                    },
-                    {
-                        "person": {
-                            "slug": "valentino-picone",
-                            "name": "Valentino Picone"
-                        },
-                        "year": 2023,
-                        "award": "Premio David di Donatello",
-                        "category": "Best Actor Male",
                         "result": "Nominated"
                     },
                     {
@@ -741,9 +738,350 @@
             "profession": "Unknown",
             "ability": "Able-bodied",
             "assistedMobility": "No"
+        },
+        {
+            "id": "IT2017_008_01",
+            "film": {
+                "id": "IT2017_008",
+                "slug": "it2017-008-la-ragazza-nella-nebbia",
+                "title": {
+                    "native": "La ragazza nella nebbia",
+                    "english": "The Girl in the Fog"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-10-26",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Detective Thriller"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "crime",
+                    "state institutions",
+                    "religion"
+                ]
+            },
+            "person": "Toni Servillo",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "IT2017_014_01",
+            "film": {
+                "id": "IT2017_014",
+                "slug": "it2017-014-lasciati-andare",
+                "title": {
+                    "native": "Lasciati andare",
+                    "english": "Let Yourself Go!"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-04-13",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "reignited passion",
+                    "well-being",
+                    "separation",
+                    "intergenerational friendship",
+                    "cross-gender friendship"
+                ]
+            },
+            "person": "Toni Servillo",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Heterosexual",
+            "origin": "White Western European",
+            "class": "Upper Middle class",
+            "profession": "Self-employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
+        },
+        {
+            "id": "IT2016_026_01",
+            "film": {
+                "id": "IT2016_026",
+                "slug": "it2016-026-le-confessioni",
+                "title": {
+                    "native": "Le confessioni",
+                    "english": "The Confessions"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-04-21",
+                    "year": 2016
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama",
+                    "Thriller"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "toni-servillo",
+                            "name": "Toni Servillo"
+                        },
+                        "year": 2017,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Actor Male",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "professional politics",
+                    "supranational institutions",
+                    "religion",
+                    "physical illness",
+                    "suicide",
+                    "power"
+                ]
+            },
+            "person": "Toni Servillo",
+            "age": "3: Third Age (60-75)",
+            "gender": "Male identifying",
+            "sexuality": "Unknown",
+            "origin": "White Western European",
+            "class": "Middle class",
+            "profession": "Employed",
+            "ability": "Able-bodied",
+            "assistedMobility": "No"
         }
     ],
     "roles": [
+        {
+            "film": {
+                "id": "IT2014_070",
+                "slug": "it2014-070-racconti-d-amore",
+                "title": {
+                    "native": "Racconti d'amore",
+                    "english": "Love Stories"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-04-24",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "collective trauma",
+                    "personal memory",
+                    "natural"
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "IT2015_072",
+                "slug": "it2015-072-senza-lucio",
+                "title": {
+                    "native": "Senza Lucio",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2015-04-03",
+                    "year": 2015
+                },
+                "filmType": "Documentary",
+                "genre": [
+                    "Documentary \u2013 Participatory mode",
+                    "Musical"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "artistic creation",
+                    "personal memory"
+                ]
+            },
+            "role": "Documentary subject"
+        },
+        {
+            "film": {
+                "id": "IT2016_026",
+                "slug": "it2016-026-le-confessioni",
+                "title": {
+                    "native": "Le confessioni",
+                    "english": "The Confessions"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-04-21",
+                    "year": 2016
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama",
+                    "Thriller"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "toni-servillo",
+                            "name": "Toni Servillo"
+                        },
+                        "year": 2017,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Actor Male",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "professional politics",
+                    "supranational institutions",
+                    "religion",
+                    "physical illness",
+                    "suicide",
+                    "power"
+                ]
+            },
+            "role": "Leading actor"
+        },
+        {
+            "film": {
+                "id": "IT2017_008",
+                "slug": "it2017-008-la-ragazza-nella-nebbia",
+                "title": {
+                    "native": "La ragazza nella nebbia",
+                    "english": "The Girl in the Fog"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-10-26",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Detective Thriller"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Germany",
+                        "share": "Minority coproducer"
+                    },
+                    {
+                        "country": "France",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "crime",
+                    "state institutions",
+                    "religion"
+                ]
+            },
+            "role": "Leading actor"
+        },
+        {
+            "film": {
+                "id": "IT2017_014",
+                "slug": "it2017-014-lasciati-andare",
+                "title": {
+                    "native": "Lasciati andare",
+                    "english": "Let Yourself Go!"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-04-13",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "reignited passion",
+                    "well-being",
+                    "separation",
+                    "intergenerational friendship",
+                    "cross-gender friendship"
+                ]
+            },
+            "role": "Leading actor"
+        },
         {
             "film": {
                 "id": "IT2018_006",
@@ -775,6 +1113,16 @@
                 "awards": [
                     {
                         "person": {
+                            "slug": "elena-sofia-ricci",
+                            "name": "Elena Sofia Ricci"
+                        },
+                        "year": 2019,
+                        "award": "Premio David di Donatello",
+                        "category": "Unknown",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
                             "slug": "toni-servillo",
                             "name": "Toni Servillo"
                         },
@@ -782,16 +1130,6 @@
                         "award": "Premio David di Donatello",
                         "category": "Best Actor Male",
                         "result": "Nominated"
-                    },
-                    {
-                        "person": {
-                            "slug": "elena-sofia-ricci",
-                            "name": "Elena Sofia Ricci"
-                        },
-                        "year": 2019,
-                        "award": "Premio David di Donatello",
-                        "category": "Best Actress Female",
-                        "result": "Awarded"
                     },
                     {
                         "person": {
@@ -805,12 +1143,12 @@
                     }
                 ],
                 "tags": [
-                    "professional politics",
                     "wealth",
                     "corruption",
                     "celebrity",
                     "state institutions",
-                    "desire"
+                    "desire",
+                    "professional politics"
                 ]
             },
             "role": "Leading actor"
@@ -845,12 +1183,12 @@
                 ],
                 "awards": [],
                 "tags": [
-                    "professional politics",
                     "wealth",
                     "corruption",
                     "celebrity",
                     "state institutions",
-                    "desire"
+                    "desire",
+                    "professional politics"
                 ]
             },
             "role": "Leading actor"
@@ -968,6 +1306,16 @@
                 "awards": [
                     {
                         "person": {
+                            "slug": "valeria-golino",
+                            "name": "Valeria Golino"
+                        },
+                        "year": 2020,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Supporting Actress",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
                             "slug": "toni-servillo",
                             "name": "Toni Servillo"
                         },
@@ -985,16 +1333,6 @@
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
                         "result": "Nominated"
-                    },
-                    {
-                        "person": {
-                            "slug": "valeria-golino",
-                            "name": "Valeria Golino"
-                        },
-                        "year": 2020,
-                        "award": "Premio David di Donatello",
-                        "category": "Best Supporting Actress",
-                        "result": "Awarded"
                     }
                 ],
                 "tags": [
@@ -1103,7 +1441,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2022,
+                        "year": 2022.0,
                         "award": "Premio David di Donatello",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
@@ -1168,7 +1506,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2022,
+                        "year": 2022.0,
                         "award": "Premio David di Donatello",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
@@ -1229,10 +1567,27 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2022,
+                        "year": 2022.0,
                         "award": "Premio David di Donatello",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Awarded"
+                    },
+                    {
+                        "person": null,
+                        "year": 2021.0,
+                        "award": "European Film Awards",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "paolo-sorrentino",
+                            "name": "Paolo Sorrentino"
+                        },
+                        "year": 2021,
+                        "award": "European Film Awards",
+                        "category": "Best Director",
+                        "result": "Nominated"
                     },
                     {
                         "person": {
@@ -1296,29 +1651,9 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2023,
+                        "year": 2023.0,
                         "award": "Premio David di Donatello",
                         "category": "Best Film (mostly F, occasionally D)",
-                        "result": "Nominated"
-                    },
-                    {
-                        "person": {
-                            "slug": "salvatore-ficarra",
-                            "name": "Salvatore Ficarra"
-                        },
-                        "year": 2023,
-                        "award": "Premio David di Donatello",
-                        "category": "Best Actor Male",
-                        "result": "Nominated"
-                    },
-                    {
-                        "person": {
-                            "slug": "valentino-picone",
-                            "name": "Valentino Picone"
-                        },
-                        "year": 2023,
-                        "award": "Premio David di Donatello",
-                        "category": "Best Actor Male",
                         "result": "Nominated"
                     },
                     {
@@ -1370,10 +1705,20 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2023,
+                        "year": 2023.0,
                         "award": "Premio David di Donatello",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "marco-bellocchio",
+                            "name": "Marco Bellocchio"
+                        },
+                        "year": 2023,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Director",
+                        "result": "Awarded"
                     },
                     {
                         "person": {
@@ -1392,7 +1737,7 @@
                         },
                         "year": 2023,
                         "award": "Premio David di Donatello",
-                        "category": "Best Actress Female",
+                        "category": "Unknown",
                         "result": "Nominated"
                     },
                     {
@@ -1404,24 +1749,14 @@
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actor",
                         "result": "Nominated"
-                    },
-                    {
-                        "person": {
-                            "slug": "marco-bellocchio",
-                            "name": "Marco Bellocchio"
-                        },
-                        "year": 2023,
-                        "award": "Premio David di Donatello",
-                        "category": "Best Director",
-                        "result": "Awarded"
                     }
                 ],
                 "tags": [
+                    "professional politics",
                     "state institutions",
                     "terrorism",
                     "cultural memory",
-                    "marriage",
-                    "professional politics"
+                    "marriage"
                 ]
             },
             "role": "Supporting actor"
@@ -1551,7 +1886,15 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2024.0,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Documentary Film",
+                        "result": "Awarded"
+                    }
+                ],
                 "tags": [
                     "personal memory",
                     "artistic creation"
@@ -1593,24 +1936,36 @@
     "awards": [
         {
             "film": {
-                "slug": "it2022-015-esterno-notte-parte-1",
+                "slug": "it2016-026-le-confessioni",
                 "title": {
-                    "native": "Esterno Notte"
+                    "native": "Le confessioni"
                 }
             },
-            "year": 2023,
+            "year": 2017,
             "award": "Premio David di Donatello",
-            "category": "Best Supporting Actor",
+            "category": "Best Actor Male",
             "result": "Nominated"
         },
         {
             "film": {
-                "slug": "it2021-022-qui-rido-io",
+                "slug": "it2018-006-loro-1",
                 "title": {
-                    "native": "Qui Rido Io"
+                    "native": "Loro"
                 }
             },
-            "year": 2022,
+            "year": 2019,
+            "award": "Premio David di Donatello",
+            "category": "Best Actor Male",
+            "result": "Nominated"
+        },
+        {
+            "film": {
+                "slug": "it2019-032-5-e-il-numero-perfetto",
+                "title": {
+                    "native": "5 \u00e8 il numero perfetto"
+                }
+            },
+            "year": 2020,
             "award": "Premio David di Donatello",
             "category": "Best Actor Male",
             "result": "Nominated"
@@ -1629,26 +1984,26 @@
         },
         {
             "film": {
-                "slug": "it2019-032-5-e-il-numero-perfetto",
+                "slug": "it2021-022-qui-rido-io",
                 "title": {
-                    "native": "5 \u00e8 il numero perfetto"
+                    "native": "Qui Rido Io"
                 }
             },
-            "year": 2020,
+            "year": 2022,
             "award": "Premio David di Donatello",
             "category": "Best Actor Male",
             "result": "Nominated"
         },
         {
             "film": {
-                "slug": "it2018-006-loro-1",
+                "slug": "it2022-015-esterno-notte-parte-1",
                 "title": {
-                    "native": "Loro"
+                    "native": "Esterno Notte"
                 }
             },
-            "year": 2019,
+            "year": 2023,
             "award": "Premio David di Donatello",
-            "category": "Best Actor Male",
+            "category": "Best Supporting Actor",
             "result": "Nominated"
         }
     ]

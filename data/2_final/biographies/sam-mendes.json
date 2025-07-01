@@ -11,6 +11,57 @@
     "roles": [
         {
             "film": {
+                "id": "GB2015_001",
+                "slug": "gb2015-001-spectre",
+                "title": {
+                    "native": "Spectre",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2015-10-30",
+                    "year": 2015
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Spy Film",
+                    "Action",
+                    "Thriller"
+                ],
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "United States of America (the)",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "revenge",
+                    "disability",
+                    "physical illness",
+                    "medical treatment",
+                    "murder",
+                    "fatherhood",
+                    "homosociality",
+                    "abuse",
+                    "wealth",
+                    "self-employment",
+                    "high rank employment",
+                    "organized crime",
+                    "terrorism",
+                    "state institutions",
+                    "technology",
+                    "power"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "GB2020_001",
                 "slug": "gb2020-001-1917",
                 "title": {
@@ -38,7 +89,25 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2020.0,
+                        "award": "British Academy Film Awards(BAFTA)",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "sam-mendes",
+                            "name": "Sam Mendes"
+                        },
+                        "year": 2020,
+                        "award": "British Academy Film Awards(BAFTA)",
+                        "category": "Best Director",
+                        "result": "Awarded"
+                    }
+                ],
                 "tags": [
                     "homosociality",
                     "cultural memory",
@@ -80,7 +149,15 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2023.0,
+                        "award": "British Academy Film Awards(BAFTA)",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "self-employment",
                     "superior-employee relationship",
@@ -95,5 +172,18 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "gb2020-001-1917",
+                "title": {
+                    "native": "1917"
+                }
+            },
+            "year": 2020,
+            "award": "British Academy Film Awards(BAFTA)",
+            "category": "Best Director",
+            "result": "Awarded"
+        }
+    ]
 }

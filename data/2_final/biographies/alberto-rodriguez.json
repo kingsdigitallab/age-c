@@ -11,6 +11,69 @@
     "roles": [
         {
             "film": {
+                "id": "ES2016_004",
+                "slug": "es2016-004-el-hombre-de-las-mil-caras",
+                "title": {
+                    "native": "El hombre de las mil caras",
+                    "english": "Smoke & Mirrors"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-09-23",
+                    "year": 2016
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Thriller",
+                    "Spy Film",
+                    "Historical film (Heritage Film)"
+                ],
+                "production": [
+                    {
+                        "country": "Spain",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2016.0,
+                        "award": "Premios Goya",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "alberto-rodriguez",
+                            "name": "Alberto Rodr\u00edguez"
+                        },
+                        "year": 2016,
+                        "award": "Premios Goya",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "homosociality",
+                    "intragenerational friendship",
+                    "friendship betrayal",
+                    "romance",
+                    "may-december",
+                    "sex",
+                    "cultural memory",
+                    "wealth",
+                    "self-employment",
+                    "corruption",
+                    "fraud",
+                    "power",
+                    "national identity",
+                    "state institutions"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "ES2022_010",
                 "slug": "es2022-010-modelo-77",
                 "title": {
@@ -34,7 +97,35 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2022.0,
+                        "award": "Premios Goya",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "fernando-tejero",
+                            "name": "Fernando Tejero"
+                        },
+                        "year": 2022,
+                        "award": "Premios Goya",
+                        "category": "Best Supporting Actor",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "alberto-rodriguez",
+                            "name": "Alberto Rodr\u00edguez"
+                        },
+                        "year": 2022,
+                        "award": "Premios Goya",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "state institutions",
                     "homosociality",
@@ -48,5 +139,30 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "es2022-010-modelo-77",
+                "title": {
+                    "native": "Modelo 77"
+                }
+            },
+            "year": 2022,
+            "award": "Premios Goya",
+            "category": "Best Director",
+            "result": "Nominated"
+        },
+        {
+            "film": {
+                "slug": "es2016-004-el-hombre-de-las-mil-caras",
+                "title": {
+                    "native": "El hombre de las mil caras"
+                }
+            },
+            "year": 2016,
+            "award": "Premios Goya",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

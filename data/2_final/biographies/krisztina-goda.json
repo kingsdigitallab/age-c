@@ -11,10 +11,40 @@
     "roles": [
         {
             "film": {
+                "id": "HU2015_008",
+                "slug": "hu2015-008-veszettek",
+                "title": {
+                    "native": "Veszettek",
+                    "english": "Home Guards"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2015-11-22",
+                    "year": 2015
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Coming of Age",
+                    "Drama",
+                    "Action"
+                ],
+                "production": [
+                    {
+                        "country": "Hungary",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": []
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "HU2018_002",
                 "slug": "hu2018-002-buek",
                 "title": {
-                    "native": "BU\u00c9K",
+                    "native": "B\u00da\u00c9K",
                     "english": "Happy New Year"
                 },
                 "release": {
@@ -32,11 +62,42 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2019.0,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Fiction Film (exclusively F)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "krisztina-goda",
+                            "name": "Krisztina Goda"
+                        },
+                        "year": 2019,
+                        "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": []
             },
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "hu2018-002-buek",
+                "title": {
+                    "native": "B\u00da\u00c9K"
+                }
+            },
+            "year": 2019,
+            "award": "Magyar Mozg\u00f3k\u00e9p D\u00edj (2016-2023)",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

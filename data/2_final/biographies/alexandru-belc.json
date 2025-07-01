@@ -11,6 +11,50 @@
     "roles": [
         {
             "film": {
+                "id": "RO2016_012",
+                "slug": "ro2016-012-cinema-mon-amour",
+                "title": {
+                    "native": "Cinema, mon amour",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-10-21",
+                    "year": 2016
+                },
+                "filmType": "Documentary",
+                "genre": [
+                    "Documentary \u2013 Observational mode"
+                ],
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Czechia",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2016.0,
+                        "award": "Premiile Gopo",
+                        "category": "Best Documentary Film",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "low rank employment",
+                    "volunteering",
+                    "daily routine"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "RO2022_021",
                 "slug": "ro2022-021-metronom",
                 "title": {
@@ -38,11 +82,42 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2023.0,
+                        "award": "Premiile Gopo",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "alexandru-belc",
+                            "name": "Alexandru Belc"
+                        },
+                        "year": 2023,
+                        "award": "Premiile Gopo",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": []
             },
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "ro2022-021-metronom",
+                "title": {
+                    "native": "Metronom"
+                }
+            },
+            "year": 2023,
+            "award": "Premiile Gopo",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

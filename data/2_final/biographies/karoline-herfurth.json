@@ -11,6 +11,36 @@
     "roles": [
         {
             "film": {
+                "id": "DE2016_087",
+                "slug": "de2016-087-sms-fur-dich",
+                "title": {
+                    "native": "SMS f\u00fcr Dich",
+                    "english": "Text for You"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-09-15",
+                    "year": 2016
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Drama",
+                    "Romance"
+                ],
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": []
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "DE2022_003",
                 "slug": "de2022-003-wunderschon",
                 "title": {
@@ -37,7 +67,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2022,
+                        "year": 2022.0,
                         "award": "Deutscher Filmpreis",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
@@ -82,7 +112,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2022,
+                        "year": 2022.0,
                         "award": "Deutscher Filmpreis",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
@@ -124,7 +154,18 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "ulrike-kriener",
+                            "name": "Ulrike Kriener"
+                        },
+                        "year": 2023,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "menopause",
                     "parenthood",

@@ -11,6 +11,38 @@
     "roles": [
         {
             "film": {
+                "id": "DE2017_101",
+                "slug": "de2017-101-wer-war-hitler",
+                "title": {
+                    "native": "Wer war Hitler",
+                    "english": "Who was Hitler"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-11-16",
+                    "year": 2017
+                },
+                "filmType": "Documentary",
+                "genre": [
+                    "Documentary \u2013 Poetic mode",
+                    "Documentary \u2013 Reflexive mode"
+                ],
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "collective trauma",
+                    "war"
+                ]
+            },
+            "role": "Voice actor"
+        },
+        {
+            "film": {
                 "id": "DE2019_077",
                 "slug": "de2019-077-und-der-zukunft-zugewandt",
                 "title": {
@@ -67,7 +99,25 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2021.0,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": {
+                            "slug": "maria-schrader",
+                            "name": "Maria Schrader"
+                        },
+                        "year": 2021,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Director",
+                        "result": "Awarded"
+                    }
+                ],
                 "tags": []
             },
             "role": "Minor actor/Cameo"

@@ -11,6 +11,56 @@
     "roles": [
         {
             "film": {
+                "id": "RO2017_003",
+                "slug": "ro2017-003-un-pas-in-urma-serafimilor",
+                "title": {
+                    "native": "Un pas \u00een urma serafimilor",
+                    "english": "One Step Behind the Seraphim"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-09-22",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama",
+                    "Coming of Age"
+                ],
+                "production": [
+                    {
+                        "country": "Romania",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2018.0,
+                        "award": "Premiile Gopo",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "daniel-sandu",
+                            "name": "Daniel Sandu"
+                        },
+                        "year": 2018,
+                        "award": "Premiile Gopo",
+                        "category": "Best Director",
+                        "result": "Awarded"
+                    }
+                ],
+                "tags": [
+                    "religion",
+                    "power"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "RO2021_016",
                 "slug": "ro2021-016-tata-muta-muntii",
                 "title": {
@@ -58,5 +108,18 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "ro2017-003-un-pas-in-urma-serafimilor",
+                "title": {
+                    "native": "Un pas \u00een urma serafimilor"
+                }
+            },
+            "year": 2018,
+            "award": "Premiile Gopo",
+            "category": "Best Director",
+            "result": "Awarded"
+        }
+    ]
 }

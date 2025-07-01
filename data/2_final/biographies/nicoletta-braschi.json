@@ -48,8 +48,15 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2019,
+                        "year": 2019.0,
                         "award": "Premio David di Donatello",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": null,
+                        "year": 2018.0,
+                        "award": "European Film Awards",
                         "category": "Best Film (mostly F, occasionally D)",
                         "result": "Nominated"
                     },
@@ -72,13 +79,23 @@
                         "award": "Premio David di Donatello",
                         "category": "Best Supporting Actress",
                         "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "alice-rohrwacher",
+                            "name": "Alice Rohrwacher"
+                        },
+                        "year": 2018,
+                        "award": "European Film Awards",
+                        "category": "Best Director",
+                        "result": "Nominated"
                     }
                 ],
                 "tags": [
-                    "rural",
                     "precarity",
                     "class conflict",
-                    "extended family"
+                    "extended family",
+                    "rural"
                 ]
             },
             "role": "Minor actor/Cameo"

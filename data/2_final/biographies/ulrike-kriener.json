@@ -11,6 +11,80 @@
     "roles": [
         {
             "film": {
+                "id": "DE2016_112",
+                "slug": "de2016-112-willkommen-bei-den-hartmanns",
+                "title": {
+                    "native": "Willkommen bei den Hartmanns",
+                    "english": "Welcome to Germany"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-11-03",
+                    "year": 2016
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2017.0,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "migration",
+                    "racial discrimination",
+                    "wealth",
+                    "independent home",
+                    "marriage",
+                    "state institutions"
+                ]
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
+                "id": "DE2017_048",
+                "slug": "de2017-048-die-reste-meines-lebens",
+                "title": {
+                    "native": "Die Reste meines Lebens",
+                    "english": "What's Left of My Life"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-05-25",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama",
+                    "Romance",
+                    "Comedy"
+                ],
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": []
+            },
+            "role": "Supporting actor"
+        },
+        {
+            "film": {
                 "id": "DE2022_098",
                 "slug": "de2022-098-einfach-mal-was-schones",
                 "title": {
@@ -34,7 +108,18 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "ulrike-kriener",
+                            "name": "Ulrike Kriener"
+                        },
+                        "year": 2023,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Supporting Actress",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "menopause",
                     "parenthood",
@@ -44,5 +129,18 @@
             "role": "Supporting actor"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "de2022-098-einfach-mal-was-schones",
+                "title": {
+                    "native": "Einfach mal was sch\u00f6nes"
+                }
+            },
+            "year": 2023,
+            "award": "Deutscher Filmpreis",
+            "category": "Best Supporting Actress",
+            "result": "Nominated"
+        }
+    ]
 }

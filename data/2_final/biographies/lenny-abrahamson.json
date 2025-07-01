@@ -11,6 +11,55 @@
     "roles": [
         {
             "film": {
+                "id": "GB2014_009",
+                "slug": "gb2014-009-frank",
+                "title": {
+                    "native": "Frank",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-05-09",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Comedy",
+                    "Drama",
+                    "Musical"
+                ],
+                "production": [
+                    {
+                        "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Ireland",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "lenny-abrahamson",
+                            "name": "Lenny Abrahamson"
+                        },
+                        "year": 2014,
+                        "award": "British Independent Film Awards",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "motherhood",
+                    "fatherhood",
+                    "parenthood"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "GB2018_017",
                 "slug": "gb2018-017-the-little-stranger",
                 "title": {
@@ -65,5 +114,18 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "gb2014-009-frank",
+                "title": {
+                    "native": "Frank"
+                }
+            },
+            "year": 2014,
+            "award": "British Independent Film Awards",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

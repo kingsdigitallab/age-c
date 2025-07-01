@@ -11,6 +11,121 @@
     "roles": [
         {
             "film": {
+                "id": "IT2014_028",
+                "slug": "it2014-028-perez",
+                "title": {
+                    "native": "Perez.",
+                    "english": ""
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-02-10",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama",
+                    "Thriller"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "state institutions",
+                    "crime"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2016_038",
+                "slug": "it2016-038-indivisibili",
+                "title": {
+                    "native": "Indivisibili",
+                    "english": "Indivisible"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2016-09-29",
+                    "year": 2016
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2017.0,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Film (mostly F, occasionally D)",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "edoardo-de-angelis",
+                            "name": "Edoardo De Angelis"
+                        },
+                        "year": 2017,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
+                "tags": [
+                    "intergenerational conflict",
+                    "precarity",
+                    "regional identity"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
+                "id": "IT2017_060",
+                "slug": "it2017-060-vieni-a-vivere-a-napoli",
+                "title": {
+                    "native": "Vieni a vivere a Napoli!",
+                    "english": "Living in Naples"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2017-03-23",
+                    "year": 2017
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Anthology Films",
+                    "Comedy"
+                ],
+                "production": [
+                    {
+                        "country": "Italy",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "regional identity",
+                    "caregiving",
+                    "interracial relationships"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "IT2023_006",
                 "slug": "it2023-006-comandante",
                 "title": {
@@ -39,7 +154,18 @@
                         "share": "Minority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": {
+                            "slug": "pierfrancesco-favino",
+                            "name": "Pierfrancesco Favino"
+                        },
+                        "year": 2024,
+                        "award": "Premio David di Donatello",
+                        "category": "Best Actor Male",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "homosociality",
                     "war"
@@ -48,5 +174,18 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "it2016-038-indivisibili",
+                "title": {
+                    "native": "Indivisibili"
+                }
+            },
+            "year": 2017,
+            "award": "Premio David di Donatello",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

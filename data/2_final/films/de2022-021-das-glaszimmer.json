@@ -13,7 +13,16 @@
     },
     "filmType": "Fiction film",
     "directors": [
-        "Christian Lerch"
+        {
+            "id": "Christian Lerch",
+            "slug": "christian-lerch",
+            "name": "Christian Lerch",
+            "birthYear": 1966,
+            "deathYear": 0,
+            "gender": "Male identifying",
+            "nationality": "Germany",
+            "awards": []
+        }
     ],
     "genre": [
         "Drama",
@@ -49,7 +58,16 @@
             "role": "Minor actor/Cameo"
         },
         {
-            "person": "Christian Lerch",
+            "person": {
+                "id": "Christian Lerch",
+                "slug": "christian-lerch",
+                "name": "Christian Lerch",
+                "birthYear": 1966,
+                "deathYear": 0,
+                "gender": "Male identifying",
+                "nationality": "Germany",
+                "awards": []
+            },
             "role": "Director of the film"
         },
         {

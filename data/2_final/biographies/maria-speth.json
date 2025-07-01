@@ -11,6 +11,38 @@
     "roles": [
         {
             "film": {
+                "id": "DE2014_081",
+                "slug": "de2014-081-tochter",
+                "title": {
+                    "native": "T\u00f6chter",
+                    "english": "Daughters"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2014-09-11",
+                    "year": 2014
+                },
+                "filmType": "Fiction film",
+                "genre": [
+                    "Drama"
+                ],
+                "production": [
+                    {
+                        "country": "Germany",
+                        "share": "Majority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "motherhood",
+                    "urban",
+                    "gentrification"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "DE2021_040",
                 "slug": "de2021-040-herr-bachmann-und-seine-klasse",
                 "title": {
@@ -32,7 +64,32 @@
                         "share": "Majority coproducer"
                     }
                 ],
-                "awards": [],
+                "awards": [
+                    {
+                        "person": null,
+                        "year": 2021.0,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Documentary Film",
+                        "result": "Awarded"
+                    },
+                    {
+                        "person": null,
+                        "year": 2021.0,
+                        "award": "European Film Awards",
+                        "category": "Best Documentary Film",
+                        "result": "Nominated"
+                    },
+                    {
+                        "person": {
+                            "slug": "maria-speth",
+                            "name": "Maria Speth"
+                        },
+                        "year": 2021,
+                        "award": "Deutscher Filmpreis",
+                        "category": "Best Director",
+                        "result": "Nominated"
+                    }
+                ],
                 "tags": [
                     "last mission",
                     "search for meaning",
@@ -45,5 +102,18 @@
             "role": "Director of the film"
         }
     ],
-    "awards": []
+    "awards": [
+        {
+            "film": {
+                "slug": "de2021-040-herr-bachmann-und-seine-klasse",
+                "title": {
+                    "native": "Herr Bachmann und Seine Klasse"
+                }
+            },
+            "year": 2021,
+            "award": "Deutscher Filmpreis",
+            "category": "Best Director",
+            "result": "Nominated"
+        }
+    ]
 }

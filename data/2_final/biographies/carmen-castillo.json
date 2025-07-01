@@ -11,6 +11,40 @@
     "roles": [
         {
             "film": {
+                "id": "FR2015_066",
+                "slug": "fr2015-066-on-est-vivants",
+                "title": {
+                    "native": "On est vivants",
+                    "english": "We Are Alive"
+                },
+                "release": {
+                    "type": "Theatrical release",
+                    "date": "2015-04-29",
+                    "year": 2015
+                },
+                "filmType": "Documentary",
+                "genre": [
+                    "Documentary \u2013 Participatory mode"
+                ],
+                "production": [
+                    {
+                        "country": "France",
+                        "share": "Majority coproducer"
+                    },
+                    {
+                        "country": "Belgium",
+                        "share": "Minority coproducer"
+                    }
+                ],
+                "awards": [],
+                "tags": [
+                    "activism"
+                ]
+            },
+            "role": "Director of the film"
+        },
+        {
+            "film": {
                 "id": "IT2018_033",
                 "slug": "it2018-033-santiago-italia",
                 "title": {
@@ -43,7 +77,7 @@
                 "awards": [
                     {
                         "person": null,
-                        "year": 2019,
+                        "year": 2019.0,
                         "award": "Premio David di Donatello",
                         "category": "Best Documentary Film",
                         "result": "Awarded"
