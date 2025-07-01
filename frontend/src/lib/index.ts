@@ -73,7 +73,7 @@ const searchAggregations = {
 	},
 	awards: {
 		title: 'Awards',
-		size: 100,
+		size: 250,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
@@ -92,7 +92,7 @@ const searchAggregations = {
 	},
 	birthYear: {
 		title: 'Birth year',
-		size: 100,
+		size: 150,
 		sort: 'key',
 		conjunction: false,
 		chosen_filters_on_top: false,
@@ -120,7 +120,7 @@ const searchAggregations = {
 	},
 	tags: {
 		title: 'Tags',
-		size: 500,
+		size: 200,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
