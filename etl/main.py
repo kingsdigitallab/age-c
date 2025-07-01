@@ -71,16 +71,16 @@ def process_films() -> dict:
 
     characters_df = process_characters_df()
 
-    genre_df = load_data(RAW_DIR / f"{FILE_PREFIX}-genre.csv")
+    genre_df = load_data(RAW_DIR / "film_genre.csv")
     genre_df["film_genre"] = genre_df.apply(
         lambda x: expand_code("genre", x["film_genre"]), axis=1
     )
 
-    mrktg_df = load_data(RAW_DIR / f"{FILE_PREFIX}-mrktg.csv")
+    mrktg_df = load_data(RAW_DIR / "film_marketing.csv")
     for col in ["trailer_url", "poster_url", "nat_synopsis", "eng_synopsis"]:
         mrktg_df[col] = mrktg_df[col].fillna("")
 
-    nat_df = load_data(RAW_DIR / f"{FILE_PREFIX}-nat.csv")
+    nat_df = load_data(RAW_DIR / "film_nat.csv")
     nat_df["film_country"] = nat_df.apply(
         lambda x: expand_code("country", x["film_country"]), axis=1
     )
@@ -88,13 +88,15 @@ def process_films() -> dict:
         lambda x: expand_code("prod_share", x["prod_share"]), axis=1
     )
 
-    roles_df = load_data(RAW_DIR / f"{FILE_PREFIX}-role.csv")
+    roles_df = load_data(RAW_DIR / "person_role.csv")
+    roles_df = roles_df.dropna(subset=["person_name"])
+    roles_df = roles_df.dropna(subset=["person_role"])
     roles_df["person_id"] = roles_df["person_name"].str.strip()
     roles_df["role_class"] = roles_df.apply(
-        lambda x: expand_code("role_class", x["role_class"]), axis=1
+        lambda x: expand_code("role_class", x["person_role"]), axis=1
     )
 
-    themes_df = load_data(RAW_DIR / f"{FILE_PREFIX}-themes_plots_tags.csv")
+    themes_df = load_data(RAW_DIR / "film_tag.csv")
 
     main_df = process_main_df()
 
@@ -202,7 +204,7 @@ def process_awards() -> tuple[DataFrame, DataFrame]:
     films_df = process_main_df()
     films_df = films_df.drop_duplicates(subset=["id"])
 
-    awards_film_df = load_data(RAW_DIR / "awards_film.csv")
+    awards_film_df = load_data(RAW_DIR / "film_award.csv")
     awards_film_df = awards_film_df.dropna(subset=["film_id"])
     awards_film_df["film_id"] = awards_film_df["film_id"].str.strip()
     awards_film_df = awards_film_df[awards_film_df["film_id"].isin(films_df["id"])]
@@ -222,7 +224,7 @@ def process_awards() -> tuple[DataFrame, DataFrame]:
     people_df = process_biographies_df()
     people_df = people_df.drop_duplicates(subset=["person_id"])
 
-    awards_person_df = load_data(RAW_DIR / "awards_person.csv")
+    awards_person_df = load_data(RAW_DIR / "person_award.csv")
     awards_person_df = awards_person_df.dropna(subset=["film_id"])
     awards_person_df = awards_person_df.dropna(subset=["name"])
     awards_person_df["film_id"] = awards_person_df["film_id"].str.strip()
@@ -259,7 +261,7 @@ def process_characters_df() -> DataFrame:
     Returns:
         The dataframe with the character data merged
     """
-    character_tags_df = load_data(RAW_DIR / f"{FILE_PREFIX}-character_tags.csv")
+    character_tags_df = load_data(RAW_DIR / "character.csv")
 
     character_tags_df["person_id"] = character_tags_df["person_id"].fillna("")
     character_tags_df["person_id"] = character_tags_df["person_id"].str.strip()
@@ -297,9 +299,7 @@ def process_main_df() -> DataFrame:
     Returns:
         A dataframe with the main data
     """
-    main_df = load_data(
-        RAW_DIR / "The-Beast-2018-2023-main-v4.csv", sep=";", skiprows=1
-    )
+    main_df = load_data(RAW_DIR / "film.csv")
 
     main_df["type"] = "Film"
     main_df["eng_title"] = main_df["eng_title"].fillna("")
@@ -422,10 +422,12 @@ def process_people() -> dict:
 
     characters_df = process_characters_df()
 
-    roles_df = load_data(RAW_DIR / f"{FILE_PREFIX}-role.csv")
+    roles_df = load_data(RAW_DIR / "person_role.csv")
+    roles_df = roles_df.dropna(subset=["person_name"])
+    roles_df = roles_df.dropna(subset=["person_role"])
     roles_df["person_id"] = roles_df["person_name"].str.strip()
     roles_df["role_class"] = roles_df.apply(
-        lambda x: expand_code("role_class", x["role_class"]), axis=1
+        lambda x: expand_code("role_class", x["person_role"]), axis=1
     )
 
     people = {}
@@ -490,16 +492,16 @@ def process_biographies_df() -> DataFrame:
     Returns:
         The dataframe with the biography data merged
     """
-    biog_df = load_data(RAW_DIR / f"{FILE_PREFIX}-biog.csv", drop_empty_cols=False)
-    biog_nat_df = load_data(
-        RAW_DIR / f"{FILE_PREFIX}-biognat.csv", drop_empty_cols=False
-    )
+    biog_df = load_data(RAW_DIR / "person.csv", drop_empty_cols=False)
+    biog_nat_df = load_data(RAW_DIR / "person_nat.csv", drop_empty_cols=False)
 
     for _df in [biog_df, biog_nat_df]:
         _df["person_name"] = _df["person_name"].str.strip()
         _df["person_id"] = _df["person_name"]
 
+    biog_df["birth_year"] = biog_df["birth_year"].apply(lambda x: 0 if x == "?" else x)
     biog_df["birth_year"] = biog_df["birth_year"].fillna(0).astype(int)
+    biog_df["death_year"] = biog_df["death_year"].apply(lambda x: 0 if x == "?" else x)
     biog_df["death_year"] = biog_df["death_year"].fillna(0).astype(int)
     biog_df["gender"] = biog_df["gender"].apply(lambda x: expand_code("gender", x))
 
