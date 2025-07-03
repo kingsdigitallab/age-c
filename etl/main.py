@@ -204,7 +204,7 @@ def process_awards() -> tuple[DataFrame, DataFrame]:
     films_df = process_main_df()
     films_df = films_df.drop_duplicates(subset=["id"])
 
-    awards_film_df = load_data(RAW_DIR / "film_award.csv")
+    awards_film_df = load_data(RAW_DIR / "film_award.csv", sep=";")
     awards_film_df = awards_film_df.dropna(subset=["film_id"])
     awards_film_df["film_id"] = awards_film_df["film_id"].str.strip()
     awards_film_df = awards_film_df[awards_film_df["film_id"].isin(films_df["id"])]
