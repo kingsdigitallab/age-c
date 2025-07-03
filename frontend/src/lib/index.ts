@@ -26,24 +26,6 @@ const searchAggregations = {
 		hide_zero_doc_count: false,
 		skijShowConjunctionToggle: false
 	},
-	releaseYear: {
-		title: 'Release year',
-		size: 100,
-		sort: 'key',
-		conjunction: false,
-		chosen_filters_on_top: false,
-		hide_zero_doc_count: false,
-		skijShowConjunctionToggle: false
-	},
-	releaseType: {
-		title: 'Release type',
-		size: 5,
-		sort: 'key',
-		conjunction: true,
-		chosen_filters_on_top: false,
-		hide_zero_doc_count: false,
-		skijShowConjunctionToggle: true
-	},
 	filmType: {
 		title: 'Film type',
 		size: 5,
@@ -65,6 +47,24 @@ const searchAggregations = {
 	productionCountryShare: {
 		title: 'Production',
 		size: 500,
+		sort: 'key',
+		conjunction: true,
+		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
+		skijShowConjunctionToggle: true
+	},
+	releaseYear: {
+		title: 'Release year',
+		size: 100,
+		sort: 'key',
+		conjunction: false,
+		chosen_filters_on_top: false,
+		hide_zero_doc_count: false,
+		skijShowConjunctionToggle: false
+	},
+	releaseType: {
+		title: 'Release type',
+		size: 5,
 		sort: 'key',
 		conjunction: true,
 		chosen_filters_on_top: false,
