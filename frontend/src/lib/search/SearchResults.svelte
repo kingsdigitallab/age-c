@@ -9,7 +9,7 @@
 		searchQuery,
 		searchItems,
 		searchPagination,
-		title = 'List of records',
+		title = 'List of results',
 		SearchResultsItemsComponent = SearchResultsItems,
 		sortOptions = [],
 		sortBy = $bindable(''),
@@ -41,7 +41,7 @@
 		<h2>{title}</h2>
 		<small aria-busy={isLoading || isSearching} aria-live="polite">
 			{#if searchPagination?.total !== undefined}
-				{searchPagination.total.toLocaleString()} Records
+				{searchPagination.total.toLocaleString()} found
 				{#if searchQuery}for <span class="skij-query">{searchQuery}</span>{/if}
 			{:else}
 				No records

@@ -274,21 +274,23 @@
 	<article id="skij">
 		<hgroup>
 			<h1>{title}</h1>
-			<p class="skij-summary-stats">
-				<span>
-					<strong>{searchPagination?.total?.toLocaleString()}</strong> Total Records
-				</span>
-				{#if summaryStats}
-					{#each summaryStats.buckets as bucket}
-						{@const count = bucket.doc_count}
-						{@const label = bucket.key}
-						<small>
-							<strong>{count.toLocaleString()}</strong>
-							{pluralize(label, count)}
-						</small>
-					{/each}
-				{/if}
-			</p>
+			{#if !isLoading}
+				<p class="skij-summary-stats">
+					<span>
+						<strong>{searchPagination?.total?.toLocaleString()}</strong> Total results
+					</span>
+					{#if summaryStats}
+						{#each summaryStats.buckets as bucket}
+							{@const count = bucket.doc_count}
+							{@const label = bucket.key}
+							<small>
+								<strong>{count.toLocaleString()}</strong>
+								{pluralize(label, count)}
+							</small>
+						{/each}
+					{/if}
+				</p>
+			{/if}
 		</hgroup>
 
 		<SearchStatusComponent {isLoading} {isSearching} searchError={searchWorkerError} />
@@ -307,6 +309,7 @@
 		<SearchControlsComponent
 			{showSearch}
 			{searchFiltersCount}
+			{isLoading}
 			onToggleFilters={handleToggleSearch}
 		/>
 

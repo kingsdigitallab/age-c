@@ -2,10 +2,12 @@
 	let {
 		showSearch,
 		searchFiltersCount,
+		isLoading = false,
 		onToggleFilters
 	}: {
 		showSearch: boolean;
 		searchFiltersCount: number;
+		isLoading: boolean;
 		onToggleFilters: () => void;
 	} = $props();
 </script>
@@ -15,6 +17,7 @@
 		id="skij-toggle-filters-button"
 		onclick={onToggleFilters}
 		aria-label="{showSearch ? 'Hide' : 'Show'} search filters"
+		disabled={isLoading}
 	>
 		Refine results ({searchFiltersCount})
 	</button>
