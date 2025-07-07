@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v0.16.0 (2025-07-07)
+
+### Feat
+
+- **layout**: Add ThemeToggle component to the layout for theme switching
+- **ThemeToggle**: Add theme toggle component for light and dark modes
+
+### Fix
+
+- **SearchFilters**: Update bucket label display and improve filter bucket styling
+
+### Refactor
+
+- **search**: Make search terminology more consistent across different components
+- **index**: Move film type, genre and production aggregations to the top
+- **etl**: Update separator for loading film award data
+- **index**: Increase size parameters for awards, birthYear, and tags aggregations
+- **etl**: Updates to match new file names and data format
+
 ## v0.15.0 (2025-06-24)
 
 ### Feat
