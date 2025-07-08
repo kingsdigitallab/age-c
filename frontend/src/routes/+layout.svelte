@@ -49,6 +49,7 @@
 		<ul>
 			<li><a href="{base}/about">About</a></li>
 			<li><a href="{base}/glossary">Glossary</a></li>
+			<li><a href="{base}/guide">Guide</a></li>
 			<li class="separator">|</li>
 			<li><ThemeToggle /></li>
 		</ul>
