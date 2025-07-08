@@ -19,7 +19,7 @@
 		aria-label="{showSearch ? 'Hide' : 'Show'} search filters"
 		disabled={isLoading}
 	>
-		Refine results ({searchFiltersCount})
+		Search and filters ({searchFiltersCount})
 	</button>
 </section>
 
