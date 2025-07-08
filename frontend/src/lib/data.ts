@@ -166,11 +166,37 @@ export function getText(item: Item) {
 	}
 
 	if (item.type === 'Person') {
+		text.push(item.name);
 		text.push(...item.name.split(' '));
 	}
 
+	for (const character of item?.characters || []) {
+		text.push(character?.assistedMobility ? 'assisted mobility' : '');
+
+		if (character.film) {
+			text.push(character.film?.title?.native ?? '');
+			text.push(character.film?.title?.english ?? '');
+		}
+
+		if (character?.person) {
+			text.push(character.person?.name ?? '');
+		}
+	}
+
+	for (const role of item?.roles || []) {
+		if (role.film) {
+			text.push(role.film?.title?.native ?? '');
+			text.push(role.film?.title?.english ?? '');
+			text.push(role.film?.release?.type ?? '');
+		}
+
+		if (role?.person) {
+			text.push(role.person?.name ?? '');
+		}
+	}
+
 	// Replace diacritics with their base characters
-	return text.map((word) => word.normalize('NFD').replace(/[\u0300-\u036f]/g, ''));
+	return text.map((word) => word.normalize('NFD').replace(/[\u0300-\u036f]/g, '')).join(' ');
 }
 
 export function getTags(item: Item) {
