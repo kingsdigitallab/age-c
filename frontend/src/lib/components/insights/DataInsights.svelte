@@ -235,14 +235,16 @@
 			<hgroup>
 				<h3>{visMetadata.title}</h3>
 				<p>{visMetadata.ariaLabel}</p>
-				<button
-					class="outline"
-					onclick={(e) => downloadVisualisation(e)}
-					aria-busy={isDownloading}
-					aria-label="Download visualisation"
-				>
-					Download visualisation
-				</button>
+				<DevOnly>
+					<button
+						class="outline"
+						onclick={(e) => downloadVisualisation(e)}
+						aria-busy={isDownloading}
+						aria-label="Download visualisation"
+					>
+						Download visualisation
+					</button>
+				</DevOnly>
 			</hgroup>
 
 			<DevOnly>
