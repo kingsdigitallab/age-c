@@ -15,7 +15,7 @@ Welcome to the AGE-C (Age and Cinema) data explorer! This guide will help you na
 
 ### Opening the Search Panel
 
-- **Click "Refine results"** button to open the search panel
+- **Click "Search and filters"** button to open the search panel
 - **Use keyboard shortcut**: Press `Ctrl+K` (or `Cmd+K` on Mac) to toggle search panel
 
 ### Basic Search
