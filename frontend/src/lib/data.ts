@@ -196,17 +196,6 @@ export function getTags(item: Item) {
 
 	if (item.type === 'Film' && item?.tags) {
 		itemTags.push(...item.tags);
-	} else {
-		for (const character of item?.characters || []) {
-			if (character.film?.tags) {
-				itemTags.push(...character.film.tags);
-			}
-		}
-		for (const role of item?.roles || []) {
-			if (role.film?.tags) {
-				itemTags.push(...role.film.tags);
-			}
-		}
 	}
 
 	for (const tag of itemTags) {
