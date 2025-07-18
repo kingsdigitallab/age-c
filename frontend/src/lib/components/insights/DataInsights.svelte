@@ -110,10 +110,13 @@
 		filteredValues: selectedGroupByFacetValues.filter((g) =>
 			data.some((d) => (d[g.key] as number) > 0)
 		),
-		legendItems: selectedGroupByFacetValues.map((g) => ({
-			name: g.key,
-			inactive: false
-		}))
+		legendItems: selectedGroupByFacetValues
+			.filter((g) => data.some((d) => (d[g.key] as number) > 0))
+			.map((g) => ({
+				name: g.key,
+				title: searchConfig[dataSource].aggregations[selectedGroupByFacet].title,
+				inactive: false
+			}))
 	});
 
 	const donutData = $derived(() => {
@@ -274,6 +277,15 @@
 						<VisTooltip {triggers} />
 					</VisSingleContainer>
 				{:else}
+					{#if selectedGroupByFacet}
+						<details class="legend" open={groupByMetadata.legendItems.length <= 8}>
+							<summary>
+								{groupByMetadata.legendItems[0].title} legend
+							</summary>
+							<VisBulletLegend items={groupByMetadata.legendItems} />
+						</details>
+					{/if}
+
 					<VisXYContainer
 						{data}
 						{height}
@@ -298,9 +310,6 @@
 							{tickFormat}
 							{tickValues}
 						/>
-						{#if selectedGroupByFacet}
-							<VisBulletLegend items={groupByMetadata.legendItems} />
-						{/if}
 						<VisTooltip {triggers} />
 					</VisXYContainer>
 				{/if}
