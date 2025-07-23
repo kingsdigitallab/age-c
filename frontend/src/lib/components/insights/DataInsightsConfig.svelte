@@ -20,7 +20,7 @@
 
 <fieldset class="grid">
 	<label>
-		Choose what to plot
+		Choose category
 		<select
 			name="distribution-facet"
 			bind:value={selectedFacet}
@@ -32,7 +32,7 @@
 		</select>
 	</label>
 	<label>
-		Group by
+		Colour by
 		<select name="group-by-facet" bind:value={selectedGroupByFacet}>
 			{#each groupByFacets as facet}
 				<option value={facet.facet}>{facet.title}</option>

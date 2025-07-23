@@ -87,8 +87,8 @@ const searchAggregations = {
 		conjunction: true,
 		chosen_filters_on_top: false,
 		hide_zero_doc_count: false,
-		skijShowConjunctionToggle: true,
-		skijCombineWith: [{ gender: 'person.gender' }]
+		skijShowConjunctionToggle: true
+		// skijCombineWith: [{ gender: 'person.gender' }]
 	},
 	birthYear: {
 		title: 'Birth year',
@@ -106,8 +106,8 @@ const searchAggregations = {
 		conjunction: true,
 		chosen_filters_on_top: false,
 		hide_zero_doc_count: false,
-		skijShowConjunctionToggle: true,
-		skijCombineWith: [{ role: 'role' }]
+		skijShowConjunctionToggle: true
+		// skijCombineWith: [{ role: 'role' }]
 	},
 	nationality: {
 		title: 'Person nationality',
