@@ -3,6 +3,7 @@
 	import type { Snippet } from 'svelte';
 	import { slide } from 'svelte/transition';
 	import { HIERARCHY_SEPARATOR, HIERARCHY_SEPARATOR_LABEL } from './config';
+	import { onMount } from 'svelte';
 
 	let {
 		show,
@@ -42,6 +43,13 @@
 
 	let expandFilters = $state(false);
 	let expandFiltersByField = $state<boolean[]>(aggregations.map(() => false));
+
+	onMount(() => {
+		const isLargeScreen = window.innerWidth >= 992;
+		if (isLargeScreen) {
+			expandFilters = true;
+		}
+	});
 
 	function handleExpandFilters() {
 		expandFilters = !expandFilters;
