@@ -128,7 +128,7 @@ const searchAggregations = {
 		skijShowConjunctionToggle: true
 	},
 	characterAge: {
-		title: 'Character age',
+		title: 'Character age group',
 		size: 10,
 		sort: 'key',
 		conjunction: true,
@@ -146,7 +146,7 @@ const searchAggregations = {
 		skijShowConjunctionToggle: true
 	},
 	characterSexuality: {
-		title: 'Character sexuality',
+		title: 'Character sexual orientation',
 		size: 10,
 		sort: 'key',
 		conjunction: true,
