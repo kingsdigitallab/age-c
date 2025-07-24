@@ -39,11 +39,24 @@
 			return row;
 		});
 
-		const csv = [headers.join(','), ...rows.map((row) => row.join(','))].join('\n');
+		const filterComments = [];
+		if (Object.keys(searchFilters).length > 0) {
+			filterComments.push('# Filters applied:');
+			for (const [k, v] of Object.entries(searchFilters)) {
+				filterComments.push(`# ${k}: ${v.join(', ')}`);
+			}
+		}
+		filterComments.push(`# Download date: ${new Date().toISOString().split('T')[0]}`);
+
+		const csv = [...filterComments, headers.join(','), ...rows.map((row) => row.join(','))].join(
+			'\n'
+		);
 
 		const a = document.createElement('a');
 		a.href = `data:text/csv;charset=utf-8,${encodeURIComponent(csv)}`;
-		a.download = `${categoryLabel}_${selectedGroupByFacet}.csv`.replace(/\s+/g, '_').toLowerCase();
+		a.download = `${categoryLabel}${selectedGroupByFacet ? `_${selectedGroupByFacet}` : ''}.csv`
+			.replace(/\s+/g, '_')
+			.toLowerCase();
 		a.click();
 		a.remove();
 
