@@ -48,7 +48,7 @@
 		dataInsightsFacets?: {
 			facet: string;
 			title: string;
-			dynamicTitle?: (count: number) => string;
+			dynamicTitle?: (count: number) => string | boolean;
 		}[];
 		enableFullDataInsights?: boolean;
 		fullDataInsightsPerPage?: number;
