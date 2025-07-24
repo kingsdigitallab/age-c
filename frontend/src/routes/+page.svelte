@@ -11,6 +11,14 @@
 	const { searchWorker } = data;
 
 	const dataSource = $state('corpus');
+	const dataInsightsFacets = $derived(
+		Object.entries(searchConfig[dataSource].aggregations).map(([key, value]) => ({
+			facet: key,
+			title: value.title,
+			dynamicTitle: (count: number) =>
+				key === 'releaseYear' && `Number of items released over ${count} years`
+		}))
+	);
 </script>
 
 <section class="hero">
@@ -30,29 +38,7 @@
 		title="Explore the dataset"
 		sortBy="film_title_asc"
 		summaryFacet="type"
-		dataInsightsFacets={[
-			{
-				facet: 'releaseYear',
-				title: 'Films released per year',
-				dynamicTitle: (count) => `Number of films released over ${count} years`
-			},
-			{
-				facet: 'role',
-				title: 'Cast and crew roles'
-			},
-			{
-				facet: 'gender',
-				title: 'Cast and crew gender'
-			},
-			{
-				facet: 'characterAge',
-				title: 'Character age groups'
-			},
-			{
-				facet: 'characterSexuality',
-				title: 'Character sexual orientation'
-			}
-		]}
+		{dataInsightsFacets}
 		enableFullDataInsights={true}
 		fullDataInsightsPerPage={15000}
 		DataInsightsComponent={DataInsights}
