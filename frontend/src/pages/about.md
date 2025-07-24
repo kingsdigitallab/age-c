@@ -23,8 +23,8 @@ AGE-C webtool is part of that initiative. It is designed to help researchers, st
 ## What the Dataset Contains
 
 The AGE-C dataset includes over 6,000 films released between 2014 and 2023 across nine European countries. It focuses on how ageing and gender are represented in contemporary European cinema and includes detailed information about characters, cast and crew, production context, and award recognition.
-Countries covered in the dataset:
-The dataset includes films released in the following nine European countries: 
+
+The dataset includes films released in the following nine European countries:
 
 - Croatia
 - France
