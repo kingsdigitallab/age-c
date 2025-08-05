@@ -365,6 +365,7 @@
 	@media (min-width: 992px) {
 		.skij-search-layout {
 			flex-direction: row;
+			gap: 0;
 		}
 
 		.skij-search-layout > article {

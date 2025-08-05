@@ -47,7 +47,7 @@
 	onMount(() => {
 		const isLargeScreen = window.innerWidth >= 992;
 		if (isLargeScreen) {
-			expandFilters = true;
+			show = true;
 		}
 	});
 
@@ -325,6 +325,9 @@
 
 	@media (min-width: 992px) {
 		aside {
+			border-radius: 0;
+			border-width: calc(var(--pico-border-width) * 7);
+			border-right-width: var(--pico-border-width);
 			height: calc(100vh - 2 * var(--pico-spacing));
 			position: sticky;
 			top: var(--pico-spacing);
