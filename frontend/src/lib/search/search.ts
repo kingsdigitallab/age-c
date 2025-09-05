@@ -12,7 +12,6 @@ export function initSearchEngine(dataSource: SearchEngineKey, data: Item[], conf
 
 	if (config.skijCombineFilters) {
 		const configWithCombinations = expandConfigWithCombinations(config);
-		console.log('configWithCombinations', configWithCombinations);
 		searchEngines[dataSource] = itemsjs(data, configWithCombinations);
 	} else {
 		searchEngines[dataSource] = itemsjs(data, config);
