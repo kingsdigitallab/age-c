@@ -120,6 +120,11 @@
 		}
 
 		prepareSearchWorker();
+
+		const isLargeScreen = window.innerWidth >= 992;
+		if (isLargeScreen) {
+			showSearch = true;
+		}
 	});
 
 	function prepareSearchWorker() {
@@ -254,7 +259,9 @@
 		{searchConfig}
 		{dataSource}
 		{isLoading}
-		onClose={() => (showSearch = false)}
+		onClose={() => {
+			showSearch = false;
+		}}
 		onFiltersChange={handleSearchFiltersChange}
 		onConjunctionChange={handleConjunctionChange}
 	>
@@ -307,7 +314,7 @@
 		{/if}
 
 		<SearchControlsComponent
-			{showSearch}
+			bind:showSearch
 			{searchFiltersCount}
 			{isLoading}
 			onToggleFilters={handleToggleSearch}

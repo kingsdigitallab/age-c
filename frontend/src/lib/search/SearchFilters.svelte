@@ -3,10 +3,9 @@
 	import type { Snippet } from 'svelte';
 	import { slide } from 'svelte/transition';
 	import { HIERARCHY_SEPARATOR, HIERARCHY_SEPARATOR_LABEL } from './config';
-	import { onMount } from 'svelte';
 
 	let {
-		show,
+		show = $bindable(false),
 		searchFilters = $bindable({}),
 		searchAggregations,
 		conjunctions = $bindable({}),
@@ -18,7 +17,7 @@
 		onConjunctionChange,
 		children = null
 	}: {
-		show: boolean;
+		show?: boolean;
 		searchFilters: Record<string, string[]>;
 		searchAggregations: Record<string, { buckets: Array<{ key: string; doc_count: number }> }>;
 		searchConfig: SearchConfig;
@@ -43,13 +42,6 @@
 
 	let expandFilters = $state(false);
 	let expandFiltersByField = $state<boolean[]>(aggregations.map(() => false));
-
-	onMount(() => {
-		const isLargeScreen = window.innerWidth >= 992;
-		if (isLargeScreen) {
-			show = true;
-		}
-	});
 
 	function handleExpandFilters() {
 		expandFilters = !expandFilters;
@@ -204,12 +196,12 @@
 
 			{#if searchAggregations}
 				{#each aggregations as [key, aggregation], index}
-					{@const buckets = searchBuckets(key, searchAggregations[key].buckets)}
+					{@const buckets = searchBuckets(key, searchAggregations[key]?.buckets || [])}
 					<section class="skij-filter-section" aria-live="polite">
 						<details class:disabled={buckets.length === 0} open={expandFiltersByField[index]}>
 							<summary onclick={(e) => handleFilterFieldToggle(e, index)}>
 								{aggregation.title}
-								<small>({searchAggregations[key].buckets.length.toLocaleString()})</small>
+								<small>({searchAggregations[key]?.buckets.length.toLocaleString()})</small>
 							</summary>
 							<form onsubmit={(e) => e.preventDefault()} aria-busy={isLoading}>
 								{#if searchConfig[dataSource].aggregations[key].skijShowConjunctionToggle}
@@ -247,7 +239,7 @@
 								{/if}
 								<fieldset class="skij-filter-buckets" aria-live="polite">
 									<legend>Select filters:</legend>
-									{#if searchAggregations[key].buckets.length > 15}
+									{#if searchAggregations[key]?.buckets.length > 15}
 										<input
 											name="skij-filters-search-{key}"
 											type="text"

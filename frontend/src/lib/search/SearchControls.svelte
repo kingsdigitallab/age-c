@@ -1,6 +1,6 @@
 <script lang="ts">
 	let {
-		showSearch,
+		showSearch = $bindable(false),
 		searchFiltersCount,
 		isLoading = false,
 		onToggleFilters
@@ -19,7 +19,7 @@
 		aria-label="{showSearch ? 'Hide' : 'Show'} search filters"
 		disabled={isLoading}
 	>
-		Search and filters ({searchFiltersCount})
+		{showSearch ? 'Hide' : 'Show'} search and filters ({searchFiltersCount})
 	</button>
 </section>
 
