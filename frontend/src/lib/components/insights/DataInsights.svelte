@@ -250,19 +250,17 @@
 				</DevOnly>
 			</hgroup>
 
-			<DevOnly>
-				<label>
-					Chart height ({height}px)
-					<input
-						type="range"
-						min="200"
-						max="800"
-						bind:value={height}
-						aria-label="Adjust chart height"
-					/>
-					<small>Move the slider to adjust the height of the chart</small>
-				</label>
-			</DevOnly>
+			<label>
+				Chart height ({height}px)
+				<input
+					type="range"
+					min="300"
+					max="2000"
+					bind:value={height}
+					aria-label="Adjust chart height"
+				/>
+				<small>Move the slider to adjust the height of the chart</small>
+			</label>
 
 			<div id="skij-plot-container">
 				{#if selectedPlotType === 'donut'}
