@@ -254,7 +254,7 @@
 				Chart height ({height}px)
 				<input
 					type="range"
-					min="300"
+					min="200"
 					max="2000"
 					bind:value={height}
 					aria-label="Adjust chart height"
