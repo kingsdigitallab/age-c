@@ -176,8 +176,8 @@
 
 			<section class="skij-filters-current-filters">
 				<ul>
-					{#each currentFilters as [key, values]}
-						{#each values as value}
+					{#each currentFilters as [key, values] (key)}
+						{#each values as value (value)}
 							<li>
 								<button
 									class="skij-filters-current-filter-button secondary"
@@ -195,7 +195,7 @@
 			</section>
 
 			{#if searchAggregations}
-				{#each aggregations as [key, aggregation], index}
+				{#each aggregations as [key, aggregation], index (key)}
 					{@const buckets = searchBuckets(key, searchAggregations[key]?.buckets || [])}
 					<section class="skij-filter-section" aria-live="polite">
 						<details class:disabled={buckets.length === 0} open={expandFiltersByField[index]}>
@@ -250,7 +250,7 @@
 										/>
 									{/if}
 									<div>
-										{#each buckets as bucket}
+										{#each buckets as bucket (bucket.key)}
 											{@const isDisabled = bucket.doc_count === 0 || isLoading}
 											{@const bucketTitle = getBucketTitle(bucket.key)}
 											<label
