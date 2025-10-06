@@ -269,10 +269,10 @@
 													onchange={handleFiltersChange}
 													aria-label={bucketTitle}
 												/>
-												<span>
-													{@html getBucketLabel(bucket.key)}
+												<div>
+													<span>{@html getBucketLabel(bucket.key)}</span>
 													<small>({bucket.doc_count.toLocaleString()})</small>
-												</span>
+												</div>
 											</label>
 										{:else}
 											<label aria-disabled="true">
@@ -405,6 +405,13 @@
 
 	.skij-filter-buckets label[data-tooltip] {
 		border-bottom: none;
+	}
+
+	.skij-filter-buckets label div {
+		align-items: baseline;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
 	}
 
 	:global(.skij-filter-bucket-label-indent) {
