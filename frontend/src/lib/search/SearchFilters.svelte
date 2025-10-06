@@ -378,8 +378,7 @@
 	details .skij-filter-buckets > div {
 		border: var(--pico-border-width) solid var(--pico-primary-border);
 		border-radius: var(--pico-border-radius);
-		max-height: var(--skij-filter-height);
-		min-height: var(--skij-filter-height);
+		max-height: calc(1.5 * var(--skij-filter-height));
 		overflow-y: scroll;
 		padding-block: calc(var(--pico-spacing) / 4);
 	}
