@@ -11,3 +11,4 @@ export const WORKER_STATUS = {
 
 export const HIERARCHY_SEPARATOR = ':::';
 export const HIERARCHY_SEPARATOR_LABEL = '»';
+export const HIERARCHY_SEPARATOR_LABEL_INDENT = '└─';
