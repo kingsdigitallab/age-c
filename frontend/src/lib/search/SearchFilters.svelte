@@ -433,7 +433,7 @@
 		width: 100%;
 	}
 
-	:global(.skij-filter-bucket-label-indent) {
+	.skij-filter-buckets label .skij-filter-bucket-label-indent {
 		white-space: pre;
 	}
 </style>
