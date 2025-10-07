@@ -18,6 +18,7 @@
 	import DataInsightsTable from './DataInsightsTable.svelte';
 	import type { Bucket } from './dataTransforms';
 	import { generateAriaLabel, getData } from './dataTransforms';
+	import Search from '$lib/search/Search.svelte';
 
 	const {
 		title = 'Data insights',
@@ -66,13 +67,16 @@
 		searchAggregations[selectedGroupByFacet]?.buckets || []
 	);
 
+	let maxCategories = $state<number>(5);
+
 	const data = $derived(
 		getData({
 			selectedFacet,
 			selectedGroupByFacet,
 			searchItems,
 			searchAggregations,
-			selectedGroupByFacetValues
+			selectedGroupByFacetValues,
+			maxCategories
 		})
 	);
 
@@ -250,6 +254,18 @@
 				</DevOnly>
 			</hgroup>
 
+			<label>
+				Max categories to plot ({maxCategories})
+				<input
+					type="range"
+					min="5"
+					max="50"
+					step="5"
+					bind:value={maxCategories}
+					aria-label="Adjust max categories"
+				/>
+				<small>Move the slider to adjust the maximum number of categories</small>
+			</label>
 			<label>
 				Chart height ({height}px)
 				<input
