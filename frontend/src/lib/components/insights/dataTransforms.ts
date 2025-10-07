@@ -13,6 +13,7 @@ interface GetDataParams {
 	searchItems?: Item[];
 	searchAggregations: Record<string, { buckets: Bucket[] }>;
 	selectedGroupByFacetValues: Bucket[];
+	maxCategories: number;
 }
 
 interface GenerateAriaLabelParams {
@@ -25,9 +26,11 @@ export function getData({
 	selectedGroupByFacet,
 	searchItems,
 	searchAggregations,
-	selectedGroupByFacetValues
+	selectedGroupByFacetValues,
+	maxCategories
 }: GetDataParams): Bucket[] {
 	let data = searchAggregations[selectedFacet]?.buckets || [];
+	data = [...data].sort((a, b) => b.doc_count - a.doc_count);
 
 	if (selectedGroupByFacet) {
 		const groupTotals = Object.fromEntries(selectedGroupByFacetValues.map((g) => [g.key, 0]));
@@ -57,19 +60,22 @@ export function getData({
 			return result;
 		});
 
-		const filteredData = data.filter((d) => {
-			for (const key in selectedGroupByFacetValues.map((g) => g.key)) {
-				if (groupTotals?.[key] === 0) {
-					return false;
+		const filteredData = data
+			.filter((d) => {
+				for (const key in selectedGroupByFacetValues.map((g) => g.key)) {
+					if (groupTotals?.[key] === 0) {
+						return false;
+					}
 				}
-			}
-			return true;
-		});
+				return true;
+			})
+			.sort((a, b) => b.doc_count - a.doc_count)
+			.slice(0, maxCategories);
 
 		return filteredData;
 	}
 
-	return data;
+	return data.slice(0, maxCategories);
 }
 
 function matchesFacetValue(item: Item, facetKey: string, value: string): boolean {
