@@ -18,7 +18,6 @@
 	import DataInsightsTable from './DataInsightsTable.svelte';
 	import type { Bucket } from './dataTransforms';
 	import { generateAriaLabel, getData } from './dataTransforms';
-	import Search from '$lib/search/Search.svelte';
 
 	const {
 		title = 'Data insights',
