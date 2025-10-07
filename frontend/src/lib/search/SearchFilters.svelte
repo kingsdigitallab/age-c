@@ -405,6 +405,7 @@
 	.skij-filter-buckets label {
 		align-items: center;
 		display: flex;
+		margin-bottom: unset;
 		padding-inline-end: calc(var(--pico-form-element-spacing-vertical) / 4);
 		padding-inline-start: calc(var(--pico-form-element-spacing-vertical) / 2);
 		width: 100%;
@@ -434,6 +435,7 @@
 	}
 
 	.skij-filter-buckets label .skij-filter-bucket-label-indent {
+		color: var(--pico-primary-underline);
 		white-space: pre;
 	}
 </style>
