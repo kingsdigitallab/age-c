@@ -32,50 +32,71 @@ export function getData({
 	let data = searchAggregations[selectedFacet]?.buckets || [];
 	data = [...data].sort((a, b) => b.doc_count - a.doc_count);
 
-	if (selectedGroupByFacet) {
-		const groupTotals = Object.fromEntries(selectedGroupByFacetValues.map((g) => [g.key, 0]));
+	if (selectedGroupByFacet && searchItems) {
+		// Pre-build lookup maps
+		const facetMap = new Map<string, Item[]>();
+		const groupKeys = selectedGroupByFacetValues.map((g) => g.key);
 
-		data = data.map((d) => {
-			const items = searchItems?.filter((item) => matchesFacetValue(item, selectedFacet, d.key));
+		// Single pass through items to build lookup structure
+		for (const item of searchItems) {
+			const facetValue = getFacetValue(item, selectedFacet);
+			if (facetValue !== null) {
+				if (!facetMap.has(facetValue)) {
+					facetMap.set(facetValue, []);
+				}
+				facetMap.get(facetValue)!.push(item);
+			}
+		}
 
-			const groupCounts = selectedGroupByFacetValues.map((g) => {
-				const doc_count =
-					items?.filter((item) => matchesFacetValue(item, selectedGroupByFacet, g.key)).length || 0;
+		const groupTotals = Object.fromEntries(groupKeys.map((k) => [k, 0]));
 
-				return { key: g.key, doc_count };
-			});
+		// Only process maxCategories to avoid unnecessary computation
+		const topData = data.slice(0, maxCategories);
 
-			const result: Bucket = {
-				...d,
-				...groupCounts.reduce(
-					(acc, group) => {
-						acc[group.key] = group.doc_count;
-						groupTotals[group.key] += group.doc_count;
-						return acc;
-					},
-					{} as Record<string, number>
-				)
-			};
+		const processedData = topData.map((bucket) => {
+			const facetItems = facetMap.get(bucket.key) || [];
 
-			return result;
-		});
+			const groupCounts: Record<string, number> = {};
 
-		const filteredData = data
-			.filter((d) => {
-				for (const key in selectedGroupByFacetValues.map((g) => g.key)) {
-					if (groupTotals?.[key] === 0) {
-						return false;
+			for (const groupKey of groupKeys) {
+				let count = 0;
+				for (const item of facetItems) {
+					if (matchesFacetValue(item, selectedGroupByFacet, groupKey)) {
+						count++;
 					}
 				}
-				return true;
-			})
-			.sort((a, b) => b.doc_count - a.doc_count)
-			.slice(0, maxCategories);
+				groupCounts[groupKey] = count;
+				groupTotals[groupKey] += count;
+			}
 
-		return filteredData;
+			return {
+				...bucket,
+				...groupCounts
+			};
+		});
+
+		// Filter out categories where all groups are zero
+		return processedData.filter((d) => {
+			return groupKeys.some((key) => (d[key] as number) > 0);
+		});
 	}
 
 	return data.slice(0, maxCategories);
+}
+
+function getFacetValue(item: Item, facetKey: string): string | null {
+	const value = item[facetKey as keyof Item];
+
+	if (Array.isArray(value)) {
+		// For arrays, return first value or concatenated string
+		return value.length > 0 ? String(value[0]) : null;
+	}
+
+	if (value !== undefined && value !== null) {
+		return String(value);
+	}
+
+	return null;
 }
 
 function matchesFacetValue(item: Item, facetKey: string, value: string): boolean {
