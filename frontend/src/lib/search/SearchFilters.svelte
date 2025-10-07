@@ -2,7 +2,11 @@
 	import type { SearchConfig } from './types';
 	import type { Snippet } from 'svelte';
 	import { slide } from 'svelte/transition';
-	import { HIERARCHY_SEPARATOR, HIERARCHY_SEPARATOR_LABEL } from './config';
+	import {
+		HIERARCHY_SEPARATOR,
+		HIERARCHY_SEPARATOR_LABEL,
+		HIERARCHY_SEPARATOR_LABEL_INDENT
+	} from './config';
 
 	let {
 		show = $bindable(false),
@@ -87,11 +91,18 @@
 		}
 
 		const parts = key.split(HIERARCHY_SEPARATOR);
+		return parts.pop();
+	}
+
+	function getBucketLabelIndent(key: string) {
+		if (!key.includes(HIERARCHY_SEPARATOR)) {
+			return '';
+		}
+
+		const parts = key.split(HIERARCHY_SEPARATOR);
 		const levels = parts.length;
 
-		return `<span class="skij-filter-bucket-label-indent">${HIERARCHY_SEPARATOR_LABEL.repeat(
-			levels - 1
-		)}</span> ${parts.pop()}`;
+		return '  '.repeat(levels - 1);
 	}
 
 	function handleFiltersChange() {
@@ -253,6 +264,7 @@
 										{#each buckets as bucket (bucket.key)}
 											{@const isDisabled = bucket.doc_count === 0 || isLoading}
 											{@const bucketTitle = getBucketTitle(bucket.key)}
+											{@const bucketIndent = getBucketLabelIndent(bucket.key)}
 											<label
 												title={bucketTitle}
 												aria-disabled={isDisabled}
@@ -270,7 +282,14 @@
 													aria-label={bucketTitle}
 												/>
 												<div>
-													<span>{@html getBucketLabel(bucket.key)}</span>
+													<span>
+														{#if bucketIndent}
+															<span class="skij-filter-bucket-label-indent"
+																>{bucketIndent}{HIERARCHY_SEPARATOR_LABEL_INDENT}</span
+															>
+														{/if}
+														<span>{getBucketLabel(bucket.key)}</span>
+													</span>
 													<small>({bucket.doc_count.toLocaleString()})</small>
 												</div>
 											</label>
