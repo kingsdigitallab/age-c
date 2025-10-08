@@ -269,7 +269,7 @@
 										/>
 									{/if}
 									<div>
-										{#each buckets as bucket (bucket.key)}
+										{#each buckets as bucket, index (bucket.key)}
 											{@const isDisabled = bucket.doc_count === 0 || isLoading}
 											{@const bucketTitle = getBucketTitle(bucket.key)}
 											{@const bucketIndent = getBucketLabelIndent(bucket.key)}
@@ -279,6 +279,7 @@
 												data-tooltip={bucket.key.includes(HIERARCHY_SEPARATOR)
 													? bucketTitle
 													: undefined}
+												data-placement={index < 5 ? 'bottom' : 'top'}
 											>
 												<input
 													name={key}
@@ -433,6 +434,12 @@
 
 	.skij-filter-buckets label[data-tooltip] {
 		border-bottom: none;
+	}
+
+	.skij-filter-buckets label[data-tooltip]:hover::after,
+	.skij-filter-buckets label[data-tooltip]:hover::before {
+		display: block;
+		white-space: wrap;
 	}
 
 	.skij-filter-buckets label div {
