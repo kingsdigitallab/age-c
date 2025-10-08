@@ -212,7 +212,11 @@
 						<details class:disabled={buckets.length === 0} open={expandFiltersByField[index]}>
 							<summary onclick={(e) => handleFilterFieldToggle(e, index)}>
 								{aggregation.title}
-								<small>({searchAggregations[key]?.buckets.length.toLocaleString()})</small>
+								<small
+									>({searchAggregations[key]?.buckets
+										.filter((bucket) => bucket.doc_count > 0)
+										.length.toLocaleString()})</small
+								>
 							</summary>
 							<form onsubmit={(e) => e.preventDefault()} aria-busy={isLoading}>
 								{#if searchConfig[dataSource].aggregations[key].skijShowConjunctionToggle}
