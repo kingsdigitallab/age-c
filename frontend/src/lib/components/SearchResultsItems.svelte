@@ -2,6 +2,7 @@
 	import { base } from '$app/paths';
 	import BiographyLink from '$lib/components/BiographyLink.svelte';
 	import type { Film, Item, Person } from '$lib/types';
+	import { ClapperboardIcon, UserRoundIcon } from 'lucide-svelte';
 
 	const {
 		items,
@@ -18,6 +19,7 @@
 		<li>
 			{#if itemType === 'film'}
 				{@const film = item as Film}
+				<ClapperboardIcon />
 				<a href={`${base}/${itemType}/${film.slug}`}><strong>{film.title.join(' / ')}</strong></a>
 				<ul>
 					{#if film?.release?.year}
@@ -40,11 +42,13 @@
 							{@const person = role.person}
 							{#if person}
 								<li>
-									{#if typeof person === 'object'}
-										<BiographyLink {person} />
-									{:else}
-										{person}
-									{/if}
+									<small>
+										{#if typeof person === 'object'}
+											<BiographyLink {person} />
+										{:else}
+											{person}
+										{/if}
+									</small>
 								</li>
 							{/if}
 						{/each}
@@ -52,14 +56,16 @@
 				{/if}
 			{:else}
 				{@const person = item as Person}
+				<UserRoundIcon />
 				<a href={`${base}/${itemType}/${person.slug}`}><strong>{person.name}</strong></a>
 				{#if person.roles && person.roles.length > 0}
 					<ul>
-						<li>Roles</li>
-						{#each person.roles as role}
+						{#each person.roles as role (role)}
 							{@const film = role.film}
 							<li>
-								<a href={`${base}/film/${film?.slug}`}>{film?.title?.native} </a>
+								<small>
+									<a href={`${base}/film/${film?.slug}`}>{film?.title?.native}</a>
+								</small>
 							</li>
 						{/each}
 					</ul>
