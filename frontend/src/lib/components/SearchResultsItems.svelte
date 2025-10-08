@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import BiographyLink from '$lib/components/BiographyLink.svelte';
-	import type { Film, Item, Person } from '$lib/types';
+	import type { Film, Item, Person, Role } from '$lib/types';
 	import { ClapperboardIcon, UserRoundIcon } from 'lucide-svelte';
 
 	const {
@@ -11,6 +11,36 @@
 		items: Item[];
 		start?: number;
 	} = $props();
+
+	function getUniquePersonRoles(roles: Role[]): Role[] {
+		return Object.values(
+			roles.reduce(
+				(acc, role) => {
+					if (role.person?.slug && !acc[role.person.slug]) {
+						acc[role.person.slug] = role;
+					}
+
+					return acc;
+				},
+				{} as Record<string, Role>
+			)
+		);
+	}
+
+	function getUniqueFilmRoles(roles: Role[]): Role[] {
+		return Object.values(
+			roles.reduce(
+				(acc, role) => {
+					if (role.film?.slug && !acc[role.film.slug]) {
+						acc[role.film.slug] = role;
+					}
+
+					return acc;
+				},
+				{} as Record<string, Role>
+			)
+		);
+	}
 </script>
 
 <ol {start}>
@@ -19,7 +49,7 @@
 		<li>
 			{#if itemType === 'film'}
 				{@const film = item as Film}
-				<ClapperboardIcon />
+				<ClapperboardIcon size={24} />
 				<a href={`${base}/${itemType}/${film.slug}`}><strong>{film.title.join(' / ')}</strong></a>
 				<ul>
 					{#if film?.release?.year}
@@ -36,7 +66,7 @@
 					{/if}
 				</ul>
 				{#if film.roles && film.roles.length > 0}
-					{@const roles = film.roles}
+					{@const roles = getUniquePersonRoles(film.roles)}
 					<ul>
 						{#each roles as role (role)}
 							{@const person = role.person}
@@ -56,11 +86,12 @@
 				{/if}
 			{:else}
 				{@const person = item as Person}
-				<UserRoundIcon />
+				<UserRoundIcon size={24} />
 				<a href={`${base}/${itemType}/${person.slug}`}><strong>{person.name}</strong></a>
 				{#if person.roles && person.roles.length > 0}
+					{@const roles = getUniqueFilmRoles(person.roles)}
 					<ul>
-						{#each person.roles as role (role)}
+						{#each roles as role (role)}
 							{@const film = role.film}
 							<li>
 								<small>
