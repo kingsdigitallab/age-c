@@ -13,8 +13,8 @@
 </script>
 
 <ol {start}>
-	{#each items as item}
-		{@const itemType = item.type.toLowerCase()}
+	{#each items as item (item.slug)}
+		{@const itemType = item?.type?.toLowerCase()}
 		<li>
 			{#if itemType === 'film'}
 				{@const film = item as Film}
@@ -26,7 +26,7 @@
 						</li>
 					{/if}
 					{#if film?.production}
-						{#each film.production as production}
+						{#each film.production as production (production)}
 							<li>
 								{production.country}
 							</li>
@@ -36,7 +36,7 @@
 				{#if film.roles && film.roles.length > 0}
 					{@const roles = film.roles}
 					<ul>
-						{#each roles as role}
+						{#each roles as role (role)}
 							{@const person = role.person}
 							{#if person}
 								<li>
