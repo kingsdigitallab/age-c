@@ -274,9 +274,7 @@
 											{@const bucketTitle = getBucketTitle(bucket.key)}
 											{@const bucketIndent = getBucketLabelIndent(bucket.key)}
 											<label
-												class="bucket"
 												class:active={bucket.found}
-												title={bucketTitle}
 												aria-disabled={isDisabled}
 												data-tooltip={bucket.key.includes(HIERARCHY_SEPARATOR)
 													? bucketTitle
@@ -449,7 +447,7 @@
 		white-space: pre;
 	}
 
-	.bucket:not(.active) {
+	.skij-filter-buckets label:not(.active) {
 		display: none;
 	}
 </style>
