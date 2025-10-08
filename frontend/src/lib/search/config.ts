@@ -9,6 +9,8 @@ export const WORKER_STATUS = {
 	ERROR: 'error'
 };
 
+export const COLOUR_BY_FACET_MAX_BUCKET_SIZE = 32;
+
 export const HIERARCHY_SEPARATOR = ':::';
 export const HIERARCHY_SEPARATOR_LABEL = '»';
 export const HIERARCHY_SEPARATOR_LABEL_INDENT = '└';

@@ -18,6 +18,7 @@
 	import DataInsightsTable from './DataInsightsTable.svelte';
 	import type { Bucket } from './dataTransforms';
 	import { generateAriaLabel, getData } from './dataTransforms';
+	import { search } from '$lib/search/search';
 
 	const {
 		title = 'Data insights',
@@ -49,9 +50,13 @@
 		{ facet: '', title: 'None' },
 		...Object.entries(searchConfig[dataSource].aggregations)
 			.filter(([key, _]) => key !== selectedFacet)
+			// filter out the ones that have more than 32 buckets
 			.map(([key, aggregation]) => ({
 				facet: key,
-				title: aggregation.title
+				title: aggregation.title,
+				active:
+					searchAggregations[key]?.buckets.filter((bucket) => bucket.doc_count > 0).length > 0 &&
+					searchAggregations[key].buckets.filter((bucket) => bucket.doc_count > 0).length <= 32
 			}))
 			.sort((a, b) => a.title.localeCompare(b.title))
 	]);
