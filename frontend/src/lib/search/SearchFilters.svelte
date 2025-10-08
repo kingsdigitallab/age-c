@@ -69,12 +69,16 @@
 
 	function searchBuckets(key: string, buckets: Array<{ key: string; doc_count: number }>) {
 		if (!filterSearchTerms[key]) {
-			return buckets;
+			return buckets.map((bucket) => ({
+				...bucket,
+				found: true
+			}));
 		}
 
-		return buckets.filter((bucket) =>
-			bucket.key.toLowerCase().includes(filterSearchTerms[key].toLowerCase())
-		);
+		return buckets.map((bucket) => ({
+			...bucket,
+			found: bucket.key.toLowerCase().includes(filterSearchTerms[key].toLowerCase())
+		}));
 	}
 
 	function getBucketTitle(key: string) {
@@ -270,6 +274,8 @@
 											{@const bucketTitle = getBucketTitle(bucket.key)}
 											{@const bucketIndent = getBucketLabelIndent(bucket.key)}
 											<label
+												class="bucket"
+												class:active={bucket.found}
 												title={bucketTitle}
 												aria-disabled={isDisabled}
 												data-tooltip={bucket.key.includes(HIERARCHY_SEPARATOR)
@@ -441,5 +447,9 @@
 	.skij-filter-buckets label .skij-filter-bucket-label-indent {
 		color: var(--pico-primary-underline);
 		white-space: pre;
+	}
+
+	.bucket:not(.active) {
+		display: none;
 	}
 </style>
