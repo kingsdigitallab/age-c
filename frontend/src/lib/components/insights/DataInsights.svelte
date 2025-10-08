@@ -18,7 +18,7 @@
 	import DataInsightsTable from './DataInsightsTable.svelte';
 	import type { Bucket } from './dataTransforms';
 	import { generateAriaLabel, getData } from './dataTransforms';
-	import { search } from '$lib/search/search';
+	import { COLOUR_BY_FACET_MAX_BUCKET_SIZE } from '$lib/search/config';
 
 	const {
 		title = 'Data insights',
@@ -28,7 +28,8 @@
 		searchFilters,
 		searchAggregations,
 		searchConfig,
-		dataSource
+		dataSource,
+		colourByFacetMaxBucketSize = COLOUR_BY_FACET_MAX_BUCKET_SIZE
 	}: {
 		title?: string;
 		isLoading: boolean;
@@ -42,6 +43,7 @@
 		searchAggregations: Record<string, { buckets: Bucket[] }>;
 		searchConfig: Record<string, { aggregations: Record<string, { title: string }> }>;
 		dataSource: string;
+		colourByFacetMaxBucketSize?: number;
 	} = $props();
 
 	let selectedFacet = $state<string>(facets?.[0]?.facet);
@@ -56,7 +58,8 @@
 				title: aggregation.title,
 				active:
 					searchAggregations[key]?.buckets.filter((bucket) => bucket.doc_count > 0).length > 0 &&
-					searchAggregations[key].buckets.filter((bucket) => bucket.doc_count > 0).length <= 32
+					searchAggregations[key].buckets.filter((bucket) => bucket.doc_count > 0).length <=
+						colourByFacetMaxBucketSize
 			}))
 			.sort((a, b) => a.title.localeCompare(b.title))
 	]);

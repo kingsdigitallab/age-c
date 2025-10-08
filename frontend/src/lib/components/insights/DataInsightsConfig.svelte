@@ -11,7 +11,7 @@
 			title: string;
 			dynamicTitle?: (count: number) => string;
 		}[];
-		groupByFacets: { facet: string; title: string }[];
+		groupByFacets: { facet: string; title: string; active: boolean }[];
 		selectedFacet: string;
 		selectedGroupByFacet: string;
 		selectedPlotType: string;
@@ -26,7 +26,7 @@
 			bind:value={selectedFacet}
 			onchange={() => (selectedGroupByFacet = '')}
 		>
-			{#each facets as facet}
+			{#each facets as facet (facet.facet)}
 				<option value={facet.facet}>{facet.title}</option>
 			{/each}
 		</select>
@@ -34,8 +34,14 @@
 	<label>
 		Colour by
 		<select name="group-by-facet" bind:value={selectedGroupByFacet}>
-			{#each groupByFacets as facet}
-				<option value={facet.facet}>{facet.title}</option>
+			{#each groupByFacets as facet (facet.facet)}
+				<option
+					value={facet.facet}
+					disabled={!facet.active}
+					title={!facet.active
+						? ` Filter the data further to be able to colour by ${facet.title.toLocaleLowerCase()} `
+						: ` Colour by ${facet.title.toLocaleLowerCase()} `}>{facet.title}</option
+				>
 			{/each}
 		</select>
 	</label>
