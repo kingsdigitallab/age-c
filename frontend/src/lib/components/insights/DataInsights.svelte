@@ -49,7 +49,7 @@
 	let selectedFacet = $state<string>(facets?.[0]?.facet);
 
 	const groupByFacets = $derived([
-		{ facet: '', title: 'None' },
+		{ facet: '', title: 'None', active: true },
 		...Object.entries(searchConfig[dataSource].aggregations)
 			.filter(([key, _]) => key !== selectedFacet)
 			// filter out the ones that have more than 32 buckets
