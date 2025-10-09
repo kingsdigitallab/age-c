@@ -207,14 +207,14 @@ export const searchConfig: SearchConfig = {
 		aggregations: searchAggregations,
 		searchableFields: ['title', 'name', 'text', ...Object.keys(searchAggregations)],
 		sortings: {
-			person_name_asc: {
-				skijLabel: 'Person name (A-Z)',
-				field: 'name',
+			type_asc: {
+				skijLabel: 'Type (A-Z)',
+				field: 'type',
 				order: 'asc'
 			},
-			person_name_desc: {
-				skijLabel: 'Person name (Z-A)',
-				field: 'name',
+			type_desc: {
+				skijLabel: 'Type (Z-A)',
+				field: 'type',
 				order: 'desc'
 			},
 			film_title_asc: {
@@ -225,6 +225,16 @@ export const searchConfig: SearchConfig = {
 			film_title_desc: {
 				skijLabel: 'Film title (Z-A)',
 				field: 'title',
+				order: 'desc'
+			},
+			person_name_asc: {
+				skijLabel: 'Person name (A-Z)',
+				field: 'name',
+				order: 'asc'
+			},
+			person_name_desc: {
+				skijLabel: 'Person name (Z-A)',
+				field: 'name',
 				order: 'desc'
 			}
 		}
