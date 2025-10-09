@@ -74,7 +74,9 @@
 		searchAggregations[selectedGroupByFacet]?.buckets || []
 	);
 
-	let maxCategories = $state<number>(5);
+	let maxCategories = $state<number>(10);
+
+	const selectedFacetBuckets = $derived(searchAggregations[selectedFacet]?.buckets || []);
 
 	const data = $derived(
 		getData({
@@ -114,7 +116,10 @@
 		title:
 			facets.find((f) => f.facet === selectedFacet)?.dynamicTitle?.(data.length) ||
 			facets.find((f) => f.facet === selectedFacet)?.title,
-		ariaLabel: generateAriaLabel({ data, categoryLabel })
+		ariaLabel: generateAriaLabel({
+			data: selectedFacetBuckets,
+			categoryLabel
+		})
 	});
 
 	const groupByMetadata = $derived({
@@ -265,8 +270,8 @@
 				Max categories to plot ({maxCategories})
 				<input
 					type="range"
-					min="5"
-					max="50"
+					min={Math.min(5, selectedFacetBuckets.length)}
+					max={Math.min(selectedFacetBuckets.length, 50)}
 					step="5"
 					bind:value={maxCategories}
 					aria-label="Adjust max categories"
