@@ -118,7 +118,7 @@ function matchesFacetValue(item: Item, facetKey: string, value: string): boolean
 }
 
 export function generateAriaLabel({ data, categoryLabel }: GenerateAriaLabelParams): string {
-	if (data.length === 0) {
+	if (!data || data.length === 0) {
 		return 'No data!';
 	}
 
