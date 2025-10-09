@@ -173,16 +173,32 @@
 	});
 
 	function getBarTooltip(d: Bucket): string {
+		const safeTitle = escapeHTML(d.key);
+
 		if (selectedGroupByFacet) {
-			return groupByMetadata.filteredValues
-				.map(
-					(g) =>
-						`${g.key}: ${(d[g.key] as number)?.toLocaleString() || 0} ${pluralize('item', (d[g.key] as number) || 0)}`
-				)
+			const details = groupByMetadata.filteredValues
+				.map((g) => {
+					const count = (d[g.key] as number) || 0;
+					const safeKey = escapeHTML(g.key);
+					return `<em>${safeKey}</em>: <strong>${count.toLocaleString()}</strong> ${pluralize('item', count)}`;
+				})
 				.join('<br>');
+
+			return `<h6>${safeTitle}</h6>${details}`;
 		}
 
-		return `<small>${d.key}: <strong>${d.doc_count.toLocaleString()}</strong> ${pluralize('item', d.doc_count)}</small>`;
+		return `<h6>${safeTitle}</h6><strong>${d.doc_count.toLocaleString()}</strong> ${pluralize('item', d.doc_count)}`;
+	}
+
+	function escapeHTML(str: string): string {
+		if (!str) return '';
+
+		return String(str)
+			.replace(/&/g, '&amp;')
+			.replace(/</g, '&lt;')
+			.replace(/>/g, '&gt;')
+			.replace(/"/g, '&quot;')
+			.replace(/'/g, '&#039;');
 	}
 
 	let isDownloading = $state(false);
