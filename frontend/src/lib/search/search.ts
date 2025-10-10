@@ -1,20 +1,33 @@
 import type { Item } from '$lib/types';
 // @ts-expect-error Could not find a declaration file for module 'itemsjs'
 import itemsjs from 'itemsjs';
-import type { SearchParams, SearchEngineKey, SearchConfig } from './types';
+import MiniSearch from 'minisearch';
+import type { SearchConfig, SearchEngineKey, SearchParams } from './types';
 
-const searchEngines = {} as Record<SearchEngineKey, itemsjs>;
+const searchEngines = {} as Record<SearchEngineKey, Record<string, itemsjs | MiniSearch>>;
 
 export function initSearchEngine(dataSource: SearchEngineKey, data: Item[], config: SearchConfig) {
 	if (searchEngines[dataSource]) {
 		return;
 	}
 
+	let searchConfig = config;
+
 	if (config.skijCombineFilters) {
-		const configWithCombinations = expandConfigWithCombinations(config);
-		searchEngines[dataSource] = itemsjs(data, configWithCombinations);
-	} else {
-		searchEngines[dataSource] = itemsjs(data, config);
+		searchConfig = expandConfigWithCombinations(config);
+	}
+
+	searchEngines[dataSource] = {};
+	searchEngines[dataSource]['facetSearchEngine'] = itemsjs(data, searchConfig);
+
+	if (!searchConfig.native_search_enabled) {
+		searchEngines[dataSource]['nativeSearchEngine'] = new MiniSearch({
+			idField: 'id',
+			fields: searchConfig.searchableFields,
+			storeFields: []
+		});
+
+		searchEngines[dataSource]['nativeSearchEngine'].addAll(data);
 	}
 }
 
@@ -40,22 +53,55 @@ export function reloadSearchEngine(
 	data: Item[],
 	config: Record<string, unknown>
 ) {
-	searchEngines[dataSource] = itemsjs(data, config);
+	searchEngines[dataSource]['facetSearchEngine'] = itemsjs(data, config);
+
+	if (!config.native_search_enabled) {
+		searchEngines[dataSource]['nativeSearchEngine'] = new MiniSearch({
+			idField: 'id',
+			fields: config.searchableFields,
+			storeFields: []
+		});
+		searchEngines[dataSource]['nativeSearchEngine'].addAll(data);
+	}
 }
 
 export function search({
 	dataSource,
 	query,
+	queryFields = [],
 	page = 1,
 	perPage = 25,
 	sort = 'title_asc',
 	filters = {}
 }: SearchParams) {
-	const engine = searchEngines[dataSource];
+	const facetSearchEngine = searchEngines[dataSource]['facetSearchEngine'];
+	const nativeSearchEngine = searchEngines[dataSource]['nativeSearchEngine'];
 
-	if (!engine) {
+	if (!facetSearchEngine) {
 		throw new Error(`Search engine for ${dataSource} is not initialised`);
 	}
 
-	return engine.search({ per_page: perPage, page, query, sort, filters });
+	const searchOptions = {
+		per_page: perPage,
+		page,
+		query,
+		sort,
+		filters
+	};
+
+	let results = undefined;
+
+	if (nativeSearchEngine && query) {
+		if (queryFields && queryFields.length > 0) {
+			results = nativeSearchEngine.search(query, { fields: queryFields });
+		} else {
+			results = nativeSearchEngine.search(query);
+		}
+		console.log(results);
+
+		delete searchOptions.query;
+		searchOptions.ids = results.map((result) => result.id);
+	}
+
+	return facetSearchEngine.search(searchOptions);
 }
