@@ -20,7 +20,7 @@ export type SearchAggregations = {
 	[key: string]: SearchAggregation;
 };
 
-type CorpusConfig = {
+export type CorpusConfig = {
 	aggregations: SearchAggregations;
 	searchableFields: string[];
 	skijCombineFilters: boolean;

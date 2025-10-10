@@ -2,7 +2,7 @@ import type { Item } from '$lib/types';
 // @ts-expect-error Could not find a declaration file for module 'itemsjs'
 import itemsjs from 'itemsjs';
 import MiniSearch from 'minisearch';
-import type { SearchConfig, SearchEngineKey, SearchParams } from './types';
+import type { CorpusConfig, SearchEngineKey, SearchParams } from './types';
 
 type FacetEngine = ReturnType<typeof itemsjs>;
 type NativeEngine = MiniSearch<{ id: string | number }>;
@@ -13,7 +13,7 @@ type EngineStore = {
 
 const searchEngines = {} as Record<SearchEngineKey, EngineStore>;
 
-export function initSearchEngine(dataSource: SearchEngineKey, data: Item[], config: SearchConfig) {
+export function initSearchEngine(dataSource: SearchEngineKey, data: Item[], config: CorpusConfig) {
 	if (searchEngines[dataSource]) {
 		return;
 	}
@@ -28,7 +28,7 @@ export function initSearchEngine(dataSource: SearchEngineKey, data: Item[], conf
 		facetSearchEngine: itemsjs(data, searchConfig)
 	};
 
-	if (!searchConfig.native_search_enabled) {
+	if (Array.isArray(searchConfig.searchableFields) && searchConfig.searchableFields.length > 0) {
 		searchEngines[dataSource].nativeSearchEngine = new MiniSearch({
 			idField: 'id',
 			fields: searchConfig.searchableFields,
@@ -39,15 +39,16 @@ export function initSearchEngine(dataSource: SearchEngineKey, data: Item[], conf
 	}
 }
 
-function expandConfigWithCombinations(config: SearchConfig) {
-	const expandedConfig = { ...config, aggregations: { ...config.aggregations } } as SearchConfig;
+function expandConfigWithCombinations(config: CorpusConfig) {
+	const expandedConfig: CorpusConfig = { ...config, aggregations: { ...config.aggregations } };
 
-	for (const [facet, facetConfig] of Object.entries(config.aggregations)) {
+	for (const facet in config.aggregations) {
+		const facetConfig = config.aggregations[facet];
 		if (facetConfig.skijCombineWith) {
 			for (const combineWith of facetConfig.skijCombineWith) {
 				const [key] = Object.keys(combineWith);
 				(expandedConfig.aggregations as Record<string, unknown>)[`${facet}:::${key}`] = {
-					title: `${(facetConfig as any).title} and ${key}`
+					title: `${facetConfig.title} and ${key}`
 				};
 			}
 		}
@@ -59,11 +60,17 @@ function expandConfigWithCombinations(config: SearchConfig) {
 export function reloadSearchEngine(
 	dataSource: SearchEngineKey,
 	data: Item[],
-	config: Record<string, unknown>
+	config: CorpusConfig
 ) {
-	searchEngines[dataSource].facetSearchEngine = itemsjs(data, config);
+	if (!searchEngines[dataSource]) {
+		searchEngines[dataSource] = {
+			facetSearchEngine: itemsjs(data, config)
+		};
+	} else {
+		searchEngines[dataSource].facetSearchEngine = itemsjs(data, config);
+	}
 
-	if (!config.native_search_enabled) {
+	if (Array.isArray(config.searchableFields) && config.searchableFields.length > 0) {
 		searchEngines[dataSource].nativeSearchEngine = new MiniSearch({
 			idField: 'id',
 			fields: config.searchableFields,
