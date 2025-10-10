@@ -43,6 +43,11 @@
 		fullDataInsightsPerPage={15000}
 		DataInsightsComponent={DataInsights}
 		searchInputInFilters={true}
+		searchScopeOptions={[
+			{ label: 'Full text', fields: 'full' },
+			{ label: 'Titles', fields: 'title' },
+			{ label: 'Names', fields: 'name' }
+		]}
 		SearchResultsItemsComponent={SearchResultsItems}
 	/>
 {:else}
