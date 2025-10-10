@@ -89,26 +89,23 @@ export function search({
 		throw new Error(`Search engine for ${dataSource} is not initialised`);
 	}
 
-	const searchOptions = {
+	const baseOptions = {
 		per_page: perPage,
 		page,
-		query,
 		sort,
 		filters
 	};
 
-	let results = undefined;
+	const trimmedQuery = typeof query === 'string' ? query.trim() : query;
 
-	if (nativeSearchEngine && query) {
-		if (queryFields && queryFields.length > 0) {
-			results = nativeSearchEngine.search(query, { fields: queryFields });
-		} else {
-			results = nativeSearchEngine.search(query);
-		}
+	if (nativeSearchEngine && trimmedQuery) {
+		const results =
+			queryFields && queryFields.length > 0
+				? nativeSearchEngine.search(trimmedQuery, { fields: queryFields })
+				: nativeSearchEngine.search(trimmedQuery);
 
-		delete searchOptions.query;
-		searchOptions.ids = results.map((result) => result.id);
+		return facetSearchEngine.search({ ...baseOptions, ids: results.map((result) => result.id) });
 	}
 
-	return facetSearchEngine.search(searchOptions);
+	return facetSearchEngine.search({ ...baseOptions, query: trimmedQuery });
 }
