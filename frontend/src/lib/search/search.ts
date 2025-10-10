@@ -97,7 +97,6 @@ export function search({
 		} else {
 			results = nativeSearchEngine.search(query);
 		}
-		console.log(results);
 
 		delete searchOptions.query;
 		searchOptions.ids = results.map((result) => result.id);
