@@ -30,6 +30,7 @@
 		SearchStatusComponent = SearchStatus,
 		SearchInputComponent = SearchInput,
 		searchInputInFilters = false,
+		searchScopeOptions = [],
 		DataInsightsComponent = DataInsights,
 		SearchFiltersComponent = SearchFilters,
 		SearchControlsComponent = SearchControls,
@@ -44,6 +45,7 @@
 		title: string;
 		sortBy?: string;
 		searchInputInFilters?: boolean;
+		searchScopeOptions?: { label: string; fields: string }[];
 		summaryFacet?: string;
 		dataInsightsFacets?: {
 			facet: string;
@@ -67,6 +69,7 @@
 	const searchParams = queryParameters(
 		{
 			query: ssp.string(''),
+			scope: ssp.string(searchScopeOptions[0]?.fields || ''),
 			page: ssp.number(1),
 			filters: ssp.object({}),
 			sort: ssp.string('')
@@ -157,12 +160,18 @@
 	}
 
 	function postSearchMessage() {
+		const queryFields =
+			searchParams.scope && searchParams.scope !== 'full'
+				? searchParams.scope.split(',').map((field) => field.trim())
+				: undefined;
+
 		if (searchWorkerStatus === WORKER_STATUS.READY) {
 			searchWorker?.postMessage({
 				action: 'search',
 				payload: {
 					dataSource,
 					query: searchParams.query,
+					queryFields,
 					page: searchParams.page,
 					sort: searchParams.sort || sortBy || undefined,
 					filters: $state.snapshot(searchFilters)
@@ -174,6 +183,7 @@
 					payload: {
 						dataSource,
 						query: searchParams.query,
+						queryFields,
 						perPage: fullDataInsightsPerPage,
 						filters: $state.snapshot(searchFilters)
 					}
@@ -202,8 +212,14 @@
 		postSearchMessage();
 	}
 
+	function handleScopeChange(scope: string) {
+		searchParams.scope = scope;
+		postSearchMessage();
+	}
+
 	function handleReset() {
 		searchParams.query = '';
+		searchParams.scope = 'full';
 		searchParams.page = 1;
 		searchParams.filters = {};
 		searchFilters = {};
@@ -268,11 +284,14 @@
 		{#if searchInputInFilters}
 			<SearchInputComponent
 				bind:searchQuery={searchParams.query}
+				bind:searchScope={searchParams.scope}
 				searchInputInFilters
+				{searchScopeOptions}
 				{isLoading}
 				{isSearching}
 				{minSearchQueryLength}
 				onSearch={handleSearch}
+				onScopeChange={handleScopeChange}
 				onReset={handleReset}
 			/>
 		{/if}
@@ -305,10 +324,13 @@
 		{#if !searchInputInFilters}
 			<SearchInputComponent
 				bind:searchQuery={searchParams.query}
+				bind:searchScope={searchParams.scope}
+				{searchScopeOptions}
 				{isLoading}
 				{isSearching}
 				{minSearchQueryLength}
 				onSearch={handleSearch}
+				onScopeChange={handleScopeChange}
 				onReset={handleReset}
 			/>
 		{/if}

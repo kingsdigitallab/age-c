@@ -2,20 +2,26 @@
 	let {
 		title = 'Search',
 		searchQuery = $bindable(''),
+		searchScope = $bindable('full'),
 		searchInputInFilters = false,
+		searchScopeOptions = [],
 		isLoading,
 		isSearching,
 		minSearchQueryLength = 3,
 		onSearch,
+		onScopeChange,
 		onReset
 	}: {
 		title?: string;
 		searchQuery: string;
+		searchScope?: string;
 		searchInputInFilters?: boolean;
+		searchScopeOptions?: { label: string; fields: string }[];
 		isLoading: boolean;
 		isSearching: boolean;
 		minSearchQueryLength?: number;
 		onSearch: (e: Event) => void;
+		onScopeChange?: (scope: string) => void;
 		onReset: (e: Event) => void;
 	} = $props();
 
@@ -49,13 +55,33 @@
 				aria-label={`Enter a ${title.toLowerCase()} query...`}
 				spellcheck="false"
 			/>
-			{#if searchInputInFilters}
-				<div class="grid">
-					{@render buttons()}
-				</div>
-			{:else}
-				{@render buttons()}
-			{/if}
 		</fieldset>
+		{#if searchScopeOptions && onScopeChange}
+			<!-- svelte-ignore a11y_no_redundant_roles -->
+			<fieldset class="skij-search-scope" aria-live="polite">
+				<legend>Search in:</legend>
+				{#each searchScopeOptions as scope (scope.label)}
+					<input
+						type="radio"
+						name="skij-search-scope"
+						value={scope.fields}
+						bind:group={searchScope}
+						disabled={isLoading || isSearching}
+						aria-label={`Search ${scope.label}`}
+						onchange={() => {
+							onScopeChange(scope.fields);
+						}}
+					/>
+					<label for={`skij-search-scope-${scope.label}`}>{scope.label}</label>
+				{/each}
+			</fieldset>
+		{/if}
+		{#if searchInputInFilters}
+			<div class="grid">
+				{@render buttons()}
+			</div>
+		{:else}
+			{@render buttons()}
+		{/if}
 	</form>
 </section>
