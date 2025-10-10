@@ -4,7 +4,14 @@ import itemsjs from 'itemsjs';
 import MiniSearch from 'minisearch';
 import type { SearchConfig, SearchEngineKey, SearchParams } from './types';
 
-const searchEngines = {} as Record<SearchEngineKey, Record<string, itemsjs | MiniSearch>>;
+type FacetEngine = ReturnType<typeof itemsjs>;
+type NativeEngine = ReturnType<{ id: string }>;
+type EngineStore = {
+	facetSearchEngine: FacetEngine;
+	nativeSearchEngine?: NativeEngine;
+};
+
+const searchEngines = {} as Record<SearchEngineKey, EngineStore>;
 
 export function initSearchEngine(dataSource: SearchEngineKey, data: Item[], config: SearchConfig) {
 	if (searchEngines[dataSource]) {
@@ -17,17 +24,18 @@ export function initSearchEngine(dataSource: SearchEngineKey, data: Item[], conf
 		searchConfig = expandConfigWithCombinations(config);
 	}
 
-	searchEngines[dataSource] = {};
-	searchEngines[dataSource]['facetSearchEngine'] = itemsjs(data, searchConfig);
+	searchEngines[dataSource] = {
+		facetSearchEngine: itemsjs(data, searchConfig)
+	};
 
 	if (!searchConfig.native_search_enabled) {
-		searchEngines[dataSource]['nativeSearchEngine'] = new MiniSearch({
+		searchEngines[dataSource].nativeSearchEngine = new MiniSearch({
 			idField: 'id',
 			fields: searchConfig.searchableFields,
 			storeFields: []
 		});
 
-		searchEngines[dataSource]['nativeSearchEngine'].addAll(data);
+		searchEngines[dataSource].nativeSearchEngine.addAll(data);
 	}
 }
 
@@ -53,15 +61,15 @@ export function reloadSearchEngine(
 	data: Item[],
 	config: Record<string, unknown>
 ) {
-	searchEngines[dataSource]['facetSearchEngine'] = itemsjs(data, config);
+	searchEngines[dataSource].facetSearchEngine = itemsjs(data, config);
 
 	if (!config.native_search_enabled) {
-		searchEngines[dataSource]['nativeSearchEngine'] = new MiniSearch({
+		searchEngines[dataSource].nativeSearchEngine = new MiniSearch({
 			idField: 'id',
 			fields: config.searchableFields,
 			storeFields: []
 		});
-		searchEngines[dataSource]['nativeSearchEngine'].addAll(data);
+		searchEngines[dataSource].nativeSearchEngine.addAll(data);
 	}
 }
 
@@ -74,8 +82,8 @@ export function search({
 	sort = 'title_asc',
 	filters = {}
 }: SearchParams) {
-	const facetSearchEngine = searchEngines[dataSource]['facetSearchEngine'];
-	const nativeSearchEngine = searchEngines[dataSource]['nativeSearchEngine'];
+	const facetSearchEngine = searchEngines[dataSource].facetSearchEngine;
+	const nativeSearchEngine = searchEngines[dataSource].nativeSearchEngine;
 
 	if (!facetSearchEngine) {
 		throw new Error(`Search engine for ${dataSource} is not initialised`);
