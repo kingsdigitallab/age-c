@@ -38,6 +38,7 @@ export type SearchEngineKey = string;
 export interface SearchParams {
 	dataSource: SearchEngineKey;
 	query: string;
+	queryFields?: string[];
 	page?: number;
 	perPage?: number;
 	sort?: string;
