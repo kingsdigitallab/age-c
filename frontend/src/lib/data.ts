@@ -79,7 +79,7 @@ export function getTitle(item: Item) {
 		return [item?.title?.native, item?.title?.english].filter(Boolean);
 	}
 
-	return item.name;
+	return undefined;
 }
 
 const fieldSubpaths: Record<string, { character: string; role: string }> = {
