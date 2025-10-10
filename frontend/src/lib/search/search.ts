@@ -5,7 +5,7 @@ import MiniSearch from 'minisearch';
 import type { SearchConfig, SearchEngineKey, SearchParams } from './types';
 
 type FacetEngine = ReturnType<typeof itemsjs>;
-type NativeEngine = ReturnType<{ id: string }>;
+type NativeEngine = MiniSearch<{ id: string | number }>;
 type EngineStore = {
 	facetSearchEngine: FacetEngine;
 	nativeSearchEngine?: NativeEngine;
