@@ -40,14 +40,14 @@ export function initSearchEngine(dataSource: SearchEngineKey, data: Item[], conf
 }
 
 function expandConfigWithCombinations(config: SearchConfig) {
-	const expandedConfig = { ...config };
+	const expandedConfig = { ...config, aggregations: { ...config.aggregations } } as SearchConfig;
 
 	for (const [facet, facetConfig] of Object.entries(config.aggregations)) {
 		if (facetConfig.skijCombineWith) {
 			for (const combineWith of facetConfig.skijCombineWith) {
-				const [key, _] = Object.entries(combineWith)[0];
-				expandedConfig.aggregations[`${facet}:::${key}`] = {
-					title: `${facetConfig.title} and ${key}`
+				const [key] = Object.keys(combineWith);
+				(expandedConfig.aggregations as Record<string, unknown>)[`${facet}:::${key}`] = {
+					title: `${(facetConfig as any).title} and ${key}`
 				};
 			}
 		}
