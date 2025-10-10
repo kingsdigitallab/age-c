@@ -286,9 +286,9 @@
 				Max categories to plot ({maxCategories})
 				<input
 					type="range"
-					min={Math.min(5, selectedFacetBuckets.length)}
+					min={Math.min(2, selectedFacetBuckets.length)}
 					max={Math.min(selectedFacetBuckets.length, 50)}
-					step="5"
+					step="1"
 					bind:value={maxCategories}
 					aria-label="Adjust max categories"
 				/>
