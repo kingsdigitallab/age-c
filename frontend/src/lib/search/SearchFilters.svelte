@@ -124,8 +124,8 @@
 				// For each value in this facet
 				for (const value of facetValues) {
 					// Check each facet it combines with
-					for (const combineWith of config.skijCombineWith) {
-						const [relatedFacet, _] = Object.entries(combineWith)[0];
+					for (const combineWith of config.skijCombineWith as Array<Record<string, string>>) {
+						const [relatedFacet] = Object.keys(combineWith) as [string];
 						const relatedValues = newFilters[relatedFacet] || [];
 
 						// If there are values in the related facet, create combinations
