@@ -28,12 +28,8 @@ export function initSearchEngine(dataSource: SearchEngineKey, data: Item[], conf
 		facetSearchEngine: itemsjs(data, searchConfig)
 	};
 
-	if (Array.isArray(searchConfig.searchableFields) && searchConfig.searchableFields.length > 0) {
-		searchEngines[dataSource].nativeSearchEngine = new MiniSearch({
-			idField: 'id',
-			fields: searchConfig.searchableFields,
-			storeFields: []
-		});
+	if (searchConfig.nativeSearchConfig && searchConfig.searchableFields) {
+		searchEngines[dataSource].nativeSearchEngine = new MiniSearch(searchConfig.nativeSearchConfig);
 
 		searchEngines[dataSource].nativeSearchEngine.addAll(data);
 	}
@@ -70,12 +66,8 @@ export function reloadSearchEngine(
 		searchEngines[dataSource].facetSearchEngine = itemsjs(data, config);
 	}
 
-	if (Array.isArray(config.searchableFields) && config.searchableFields.length > 0) {
-		searchEngines[dataSource].nativeSearchEngine = new MiniSearch({
-			idField: 'id',
-			fields: config.searchableFields,
-			storeFields: []
-		});
+	if (config.nativeSearchConfig && config.searchableFields) {
+		searchEngines[dataSource].nativeSearchEngine = new MiniSearch(config.nativeSearchConfig);
 		searchEngines[dataSource].nativeSearchEngine.addAll(data);
 	}
 }
