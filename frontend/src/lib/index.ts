@@ -201,11 +201,18 @@ const searchAggregations = {
 	}
 };
 
+const searchableFields = ['title', 'name', 'text', ...Object.keys(searchAggregations)];
+
 export const searchConfig: SearchConfig = {
 	corpus: {
 		skijCombineFilters: false,
 		aggregations: searchAggregations,
-		searchableFields: ['title', 'name', 'text', ...Object.keys(searchAggregations)],
+		nativeSearchConfig: {
+			idField: 'id',
+			fields: searchableFields,
+			storeFields: []
+		},
+		searchableFields: searchableFields,
 		sortings: {
 			type_asc: {
 				skijLabel: 'Type (A-Z)',
