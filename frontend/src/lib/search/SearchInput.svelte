@@ -60,12 +60,13 @@
 			<!-- svelte-ignore a11y_no_redundant_roles -->
 			<fieldset class="skij-search-scope" aria-live="polite">
 				<legend>Search in:</legend>
-				{#each searchScopeOptions as scope (scope.label)}
+				{#each searchScopeOptions as scope, index (scope.label)}
 					<input
 						type="radio"
 						name="skij-search-scope"
 						value={scope.fields}
 						bind:group={searchScope}
+						defaultChecked={index === 0}
 						disabled={isLoading || isSearching}
 						aria-label={`Search ${scope.label}`}
 						onchange={() => {
