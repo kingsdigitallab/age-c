@@ -1,3 +1,5 @@
+import type { Options as NativeSearchOptions } from 'minisearch';
+
 type SortOrder = 'asc' | 'desc';
 
 type Sorting = {
@@ -22,6 +24,7 @@ export type SearchAggregations = {
 
 export type CorpusConfig = {
 	aggregations: SearchAggregations;
+	nativeSearchConfig: NativeSearchOptions;
 	searchableFields: string[];
 	skijCombineFilters: boolean;
 	sortings: {
