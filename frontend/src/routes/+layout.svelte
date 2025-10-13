@@ -101,6 +101,10 @@
 		border-bottom: var(--pico-border-width) solid var(--pico-primary-border);
 	}
 
+	header nav a {
+		font-weight: 600;
+	}
+
 	main {
 		flex-grow: 1;
 		padding-block: var(--pico-spacing);
