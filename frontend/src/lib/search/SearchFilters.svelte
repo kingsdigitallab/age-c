@@ -368,6 +368,11 @@
 		color: var(--pico-primary-color);
 	}
 
+	.skij-filters-controls {
+		display: flex;
+		justify-content: space-between;
+	}
+
 	.skij-filters-controls button {
 		--pico-background-color: transparent;
 		--pico-color: var(--pico-primary);
