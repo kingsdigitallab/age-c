@@ -21,7 +21,7 @@
 	import { COLOUR_BY_FACET_MAX_BUCKET_SIZE } from '$lib/search/config';
 
 	const {
-		title = 'Data insights',
+		title = 'Overview',
 		isLoading,
 		facets,
 		searchItems = undefined,
