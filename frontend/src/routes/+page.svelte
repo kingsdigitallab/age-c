@@ -24,9 +24,10 @@
 <section class="hero">
 	<h1 class="font-gothic">{hero.title.toUpperCase()}</h1>
 	<h2>{hero.description}</h2>
-	<p>
+	<p class="grid">
 		<a role="button" href="#skij"> Explore the dataset </a>
 		<a class="secondary" role="button" href="{base}/about"> About the project </a>
+		<a class="secondary" role="button" href="{base}/guide"> How to use </a>
 	</p>
 </section>
 
