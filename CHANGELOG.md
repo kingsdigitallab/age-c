@@ -5,6 +5,90 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v0.17.0 (2025-10-13)
+
+### Feat
+
+- **layout**: Increase the font weight of the nav items
+- **landing**: Add 'How to use' link to hero section to link to the duide
+- **searchinput**: Set default search scope to the first option
+- **index**: Add native search configuration
+- **search**: Add nativeSearchConfig to CorpusConfig
+- **search**: Implement search scope selection for improved search functionality
+- **search**: Add search scope options for improved text search
+- **search**: Add MiniSearch for more tailored text search
+- **types**: Add optional queryFields param to SearchParams type
+- **datainsights**: Improve tooltip formatting
+- **datainsights**: Improve data insights chart category slider controls
+- **index**: Add type to sort options
+- **searchresultsitem**: Remove duplicate roles and add size to icons
+- **searchresultsitems**: Add icons and improve styling of search results
+- **datainsights**: Disable colour by facets that are higher than a max threshold
+- **config**: Add default value for max colour by facet size
+- **datainsights**: Add slider to control max categories in data insights
+- **datatransform**: Add max categories limit and sort by doc count
+- **searchfilters**: Improve the display of the filter labels
+- **config**: Add new setting for nested filters
+- **DataInsights**: Add slider control to dynamically change chart height
+- **DataInsights**: Add slider control to dynamically change chart height
+- **Search**: Remove layout gap and filter visibility on large screens
+- **DataInsightsTable**: Add metadata section to the download CSV
+- **SearchFilters**: Expand filters by default on large screens
+- **data**: Index related person/film non-facet data
+- **layout**: Add link to guide
+- **guide**: Add guide documentation for the data explorer
+
+### Fix
+
+- **search**: Accurately type NativeEngine
+- **datatransforms**: Handle empty data in chart aria label generation
+- **datainsights**: Add active prop to group by facets
+- **searchfilters**: Improve filter tooltip positioning and text wrapping
+- **searchfilters**: Ensure selected filter values stay active when searching for new values
+- **searchfilters**: Remove deprecated global style
+- **Search**: Improve filter handling
+- **about**: Remove redundant line
+- **about**: Restore front matter and fix markdown markup
+
+### Refactor
+
+- **datainsightsconfig**: Update labels
+- **datainsights**: Update default title to 'Overview'
+- **search**: Simplify native search engine initialisation
+- **search**: Enhance type safety in SearchFilters component
+- **search**: Update types and improve configuration handling for search engine
+- **search**: Simplify aggregation configuration handling in search engine
+- **search**: Trim query and build search options immutably
+- **search**: Simplify search engine structure and initialisation
+- **search**: Remove debug logging in search function
+- **data**: Update `getTitle` to only return film titles
+- **datainsights**: Adjust min/max categories according to the data size
+- **config**: Reduce facet bucket size limit to 24
+- **searchfilters**: Remove class from label element
+- **searchresultsitems**: Add keyed loops and guard nullable type properties
+- **searchfilters**: Update total filter count to include only options with non-zero counts
+- **datainsights**: Remove unused import
+- **config**: Update hierarchy separator indent to single char
+- **searchfilters**: Improve filter label rendering
+- **searchfilters**: Improve layout of search filter bucket labels
+- **searchfilters**: Increase the max height of the filters container
+- **searchfilters**: Add keys to Svelte each blocks
+- **search**: Remove debug log for configWithCombinations
+- **SearchAggregations**: Update titles for character age and sexuality
+- **Search**: Update dynamicTitle type to allow boolean values
+- **landing**: Add all facets as options for the data visualisation category
+- **data**: Do not add tags for person items
+- **data**: Remove synopsis from text field
+- **DataInsights**: Update label text for category and group selection
+- **DataInsights**: Wrap download button in DevOnly component for conditional rendering
+- **search**: Update button label to 'Search and filters'
+- **index**: Comment out skijCombineWith options in search aggregations
+- **guide**: Update button label in search panel instructions
+
+### Perf
+
+- **datatransforms**: Optimise grouped data transformation performance
+
 ## v0.16.0 (2025-07-07)
 
 ### Feat
