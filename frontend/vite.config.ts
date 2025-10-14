@@ -9,7 +9,7 @@ export default defineConfig({
 		'import.meta.env.APP_VERSION': `'${version}'`
 	},
 	test: {
-		workspace: [
+		projects: [
 			{
 				extends: './vite.config.ts',
 				plugins: [svelteTesting()],
