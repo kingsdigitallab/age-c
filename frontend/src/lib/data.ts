@@ -156,6 +156,10 @@ export function getSynopsis(item: Item) {
 export function getText(item: Item) {
 	const text = [];
 
+	if (item.type === 'Film') {
+		text.push(...[item?.synopsis?.native, item?.synopsis?.english].filter(Boolean));
+	}
+
 	if (item.type === 'Person') {
 		text.push(item.name);
 		text.push(...item.name.split(' '));
