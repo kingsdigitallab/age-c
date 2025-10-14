@@ -109,6 +109,10 @@
 		return '  '.repeat(levels - 1);
 	}
 
+	function generateBucketLabelClass(key: string) {
+		return key?.toLocaleLowerCase().replace(' ', '-').replaceAll(HIERARCHY_SEPARATOR, '-') || '';
+	}
+
 	function handleFiltersChange() {
 		if (!searchConfig[dataSource].skijCombineFilters) {
 			onFiltersChange();
@@ -297,7 +301,11 @@
 																>{bucketIndent}{HIERARCHY_SEPARATOR_LABEL_INDENT}</span
 															>
 														{/if}
-														<span>{getBucketLabel(bucket.key)}</span>
+														<span
+															class="skij-filter-bucket-label {generateBucketLabelClass(
+																bucket.key
+															)}">{getBucketLabel(bucket.key)}</span
+														>
 													</span>
 													<small>({bucket.doc_count.toLocaleString()})</small>
 												</div>
