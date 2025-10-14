@@ -5,7 +5,7 @@ import Page from './+page.svelte';
 
 describe('/+page.svelte', () => {
 	test('should render h1', () => {
-		render(Page);
+		render(Page, { data: { searchWorker: undefined }, params: {} as Record<string, string> });
 		expect(screen.getByRole('heading', { level: 1 })).toBeInTheDocument();
 	});
 });
