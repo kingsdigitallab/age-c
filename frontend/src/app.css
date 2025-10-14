@@ -242,3 +242,16 @@ ul.layout-inline li {
 
 	display: inline-block;
 }
+
+/** Search */
+.skij-filter-bucket-label.film::before {
+	content: url(lucide-static/icons/clapperboard.svg);
+	padding-right: calc(var(--pico-spacing) / 4);
+	vertical-align: middle;
+}
+
+.skij-filter-bucket-label.person::before {
+	content: url(lucide-static/icons/user-round.svg);
+	padding-right: calc(var(--pico-spacing) / 4);
+	vertical-align: middle;
+}
