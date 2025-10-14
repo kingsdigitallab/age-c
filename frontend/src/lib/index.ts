@@ -215,12 +215,12 @@ export const searchConfig: SearchConfig = {
 		searchableFields: searchableFields,
 		sortings: {
 			type_asc: {
-				skijLabel: 'Type (A-Z)',
+				skijLabel: 'Type (Film-Person)',
 				field: 'type',
 				order: 'asc'
 			},
 			type_desc: {
-				skijLabel: 'Type (Z-A)',
+				skijLabel: 'Type (Person-Film)',
 				field: 'type',
 				order: 'desc'
 			},
