@@ -294,7 +294,11 @@
 													onchange={handleFiltersChange}
 													aria-label={bucketTitle}
 												/>
-												<div>
+												<div
+													class={bucketIndent
+														? 'skij-filter-bucket-indent-level-' + bucketIndent.length
+														: ''}
+												>
 													<span>
 														{#if bucketIndent}
 															<span class="skij-filter-bucket-label-indent"
@@ -469,5 +473,17 @@
 
 	.skij-filter-buckets label:not(.active) {
 		display: none;
+	}
+
+	.skij-filter-bucket-indent-level-2 {
+		opacity: 0.9;
+	}
+
+	.skij-filter-bucket-indent-level-3 {
+		opacity: 0.8;
+	}
+
+	.skij-filter-bucket-indent-level-4 {
+		opacity: 0.7;
 	}
 </style>
