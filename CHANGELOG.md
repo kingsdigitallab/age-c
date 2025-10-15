@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v0.19.0 (2025-10-15)
+
+### Feat
+
+- **search**: Add type key to search results
+- **search**:  Improve filter bucket styling with indentation levels
+- **search**: Add icons to type filter values
+- **search**: Add classes to filter bucket labels
+- **data**: Add synopsis for Film items in getText function
+
+### Fix
+
+- **insights**: Improve facet value handling in dataTransforms
+
+### Refactor
+
+- **index**: Update type sort labels to show actual sort order
+- **vite**: Rename 'workspace' to 'projects' in test configuration
+
 ## v0.18.0 (2025-10-13)
 
 ### Feat
