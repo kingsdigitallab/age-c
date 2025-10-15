@@ -39,12 +39,14 @@ export function getData({
 
 		// Single pass through items to build lookup structure
 		for (const item of searchItems) {
-			const facetValue = getFacetValue(item, selectedFacet);
-			if (facetValue !== null) {
-				if (!facetMap.has(facetValue)) {
-					facetMap.set(facetValue, []);
+			const facetValues = getFacetValues(item, selectedFacet);
+			if (facetValues !== null) {
+				for (const facetValue of facetValues) {
+					if (!facetMap.has(facetValue)) {
+						facetMap.set(facetValue, []);
+					}
+					facetMap.get(facetValue)!.push(item);
 				}
-				facetMap.get(facetValue)!.push(item);
 			}
 		}
 
@@ -84,16 +86,16 @@ export function getData({
 	return data.slice(0, maxCategories);
 }
 
-function getFacetValue(item: Item, facetKey: string): string | null {
+function getFacetValues(item: Item, facetKey: string): string[] | null {
 	const value = item[facetKey as keyof Item];
 
 	if (Array.isArray(value)) {
-		// For arrays, return first value or concatenated string
-		return value.length > 0 ? String(value[0]) : null;
+		// For arrays, return unique values
+		return Array.from(new Set(value));
 	}
 
 	if (value !== undefined && value !== null) {
-		return String(value);
+		return [value];
 	}
 
 	return null;
