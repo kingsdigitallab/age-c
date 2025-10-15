@@ -43,6 +43,14 @@
 	}
 </script>
 
+<p class="key">
+	<span>Type:</span>
+	<span><ClapperboardIcon /> Film</span>
+	<span><UserRoundIcon /> Person</span>
+</p>
+
+<hr />
+
 <ol {start}>
 	{#each items as item (item.slug)}
 		{@const itemType = item?.type?.toLowerCase()}
@@ -107,6 +115,12 @@
 </ol>
 
 <style>
+	.key {
+		display: flex;
+		align-items: center;
+		gap: calc(var(--pico-spacing) / 2);
+	}
+
 	ul {
 		display: flex;
 		flex-wrap: wrap;
