@@ -71,7 +71,7 @@ jobs:
       - name: Set up uv (Python)
         uses: astral-sh/setup-uv@v7
         with:
-          python-version: "3.12"
+          python-version: "3.11"
 
       - name: Run ETL
         env:
