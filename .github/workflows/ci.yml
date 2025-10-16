@@ -6,9 +6,11 @@ on:
       - develop
       - main
     paths:
-      - "etl/**"
+      - ".github/workflows/**"
       - "data/0_raw/**"
+      - "etl/**"
       - "frontend/**"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -18,6 +20,7 @@ jobs:
     name: Detect changed paths
     runs-on: ubuntu-22.04
     outputs:
+      workflows_changed: ${{ steps.filter.outputs.workflows }}
       raw_changed: ${{ steps.filter.outputs.raw }}
       etl_changed: ${{ steps.filter.outputs.etl }}
       frontend_changed: ${{ steps.filter.outputs.frontend }}
@@ -35,6 +38,8 @@ jobs:
         with:
           base: main
           filters: |
+            workflows:
+              - '.github/workflows/**'
             raw:
               - 'data/0_raw/**'
             etl:
@@ -45,7 +50,11 @@ jobs:
   etl:
     name: Run ETL
     needs: changes
-    if: needs.changes.outputs.raw_changed == 'true' || needs.changes.outputs.etl_changed == 'true'
+    if: |
+      needs.changes.outputs.workflows_changed == 'true' ||
+      needs.changes.outputs.raw_changed == 'true' ||
+      needs.changes.outputs.etl_changed == 'true' ||
+      github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-22.04
     defaults:
       run:
@@ -82,7 +91,11 @@ jobs:
   frontend:
     name: Build and deploy frontend
     needs: [changes, etl]
-    if: needs.changes.outputs.frontend_changed == 'true' || needs.etl.outputs.data_changed == 'true'
+    if: |
+      needs.changes.outputs.workflows_changed == 'true' ||
+            needs.etl.outputs.data_changed == 'true' ||
+      needs.changes.outputs.frontend_changed == 'true' ||
+      github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-22.04
     defaults:
       run:
