@@ -4,6 +4,12 @@ This script performs comprehensive validation checks on all CSV files in the
 data/0_raw directory to ensure they are valid, non-empty, and properly formatted
 before running the ETL pipeline.
 
+Usage:
+    python -m scripts.validate_raw_data
+
+    Or from the etl directory:
+    python scripts/validate_raw_data.py
+
 Exit codes:
     0: All validations passed
     1: One or more validations failed
