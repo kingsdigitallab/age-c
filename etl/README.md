@@ -47,11 +47,35 @@ the JSON data is stored in the `data/2_final` folder.
 The JSON data is then used by the frontend application to display and explore
 the data.
 
+### Validating final data
+
+After running the ETL process, you can validate the final JSON files to ensure they are properly formatted:
+
+```bash
+uv run scripts/validate_final_data.py
+```
+
+Or as a module:
+
+```bash
+uv run python -m scripts.validate_final_data
+```
+
+This will check all JSON files in `data/2_final/` for:
+
+- File existence and non-zero size
+- Valid JSON syntax
+- Non-empty content (arrays/objects have items)
+- Proper encoding (UTF-8)
+
+The validation script will exit with code 0 if all validations pass, or code 1 if any validation fails. This is automatically run in the CI pipeline after ETL processing completes.
+
 ## Scripts
 
 The [`scripts`](scripts) directory contains utility scripts for the ETL pipeline:
 
 - `validate_raw_data.py` - Validates raw CSV files before ETL processing
+- `validate_final_data.py` - Validates final JSON files after ETL processing
 
 These scripts are independent from the main ETL process and can be run individually.
 
@@ -168,7 +192,7 @@ The following diagram shows the data processing pipeline for the AGE-C project.
 ```mermaid
 flowchart TD
     A[Raw Data Files]
-    V{Validate CSV Files}
+    V1{Validate CSV Files}
 
     B[Combine Data]
     C[Normalise Columns]
@@ -181,11 +205,15 @@ flowchart TD
     E3[/data/1_interim/biographies.csv/]
     E4[/data/2_final/biographies.json/]
 
-    F[Validation Failed]
+    V2{Validate JSON Files}
 
-    A --> V
-    V -->|Pass| B
-    V -->|Fail| F
+    F1[Raw Validation Failed]
+    F2[Final Validation Failed]
+    G[Success]
+
+    A --> V1
+    V1 -->|Pass| B
+    V1 -->|Fail| F1
     B --> C
     C --> D1
     C --> D2
@@ -193,4 +221,8 @@ flowchart TD
     D1 --> E2
     D2 --> E3
     D2 --> E4
+    E2 --> V2
+    E4 --> V2
+    V2 -->|Pass| G
+    V2 -->|Fail| F2
 ```
