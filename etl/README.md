@@ -15,7 +15,13 @@ package manager.
 Before running the ETL process, you can validate the raw CSV files to ensure they are properly formatted:
 
 ```bash
-uv run validate_data.py
+uv run scripts/validate_raw_data.py
+```
+
+Or as a module:
+
+```bash
+uv run python -m scripts.validate_raw_data
 ```
 
 This will check all CSV files in `data/0_raw/` for:
@@ -40,6 +46,14 @@ the JSON data is stored in the `data/2_final` folder.
 
 The JSON data is then used by the frontend application to display and explore
 the data.
+
+## Scripts
+
+The [`scripts`](scripts) directory contains utility scripts for the ETL pipeline:
+
+- `validate_raw_data.py` - Validates raw CSV files before ETL processing
+
+These scripts are independent from the main ETL process and can be run individually.
 
 ## Notebooks
 
