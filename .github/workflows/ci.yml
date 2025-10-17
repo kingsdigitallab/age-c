@@ -75,7 +75,7 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"
         run: |
-          uv run validate_data.py
+          uv run scripts/validate_raw_data.py
 
   etl:
     name: Run ETL
