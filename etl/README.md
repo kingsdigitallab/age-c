@@ -10,6 +10,24 @@ JSON file suitable to be used by the
 Install the [uv](https://docs.astral.sh/uv/getting-started/installation/)
 package manager.
 
+### Validating raw data
+
+Before running the ETL process, you can validate the raw CSV files to ensure they are properly formatted:
+
+```bash
+uv run validate_data.py
+```
+
+This will check all CSV files in `data/0_raw/` for:
+
+- File existence and non-zero size
+- Valid CSV structure
+- Required columns presence
+- At least one data row
+- Proper encoding (UTF-8)
+
+The validation script will exit with code 0 if all validations pass, or code 1 if any validation fails. This is automatically run in the CI pipeline before ETL processing.
+
 ### Running the ETL process
 
 ```bash
@@ -136,6 +154,7 @@ The following diagram shows the data processing pipeline for the AGE-C project.
 ```mermaid
 flowchart TD
     A[Raw Data Files]
+    V{Validate CSV Files}
 
     B[Combine Data]
     C[Normalise Columns]
@@ -148,7 +167,11 @@ flowchart TD
     E3[/data/1_interim/biographies.csv/]
     E4[/data/2_final/biographies.json/]
 
-    A --> B
+    F[Validation Failed]
+
+    A --> V
+    V -->|Pass| B
+    V -->|Fail| F
     B --> C
     C --> D1
     C --> D2
