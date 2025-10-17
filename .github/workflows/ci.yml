@@ -47,9 +47,39 @@ jobs:
             frontend:
               - 'frontend/**'
 
+  validate:
+    name: Validate raw data
+    needs: changes
+    if: |
+      needs.changes.outputs.workflows_changed == 'true' ||
+      needs.changes.outputs.raw_changed == 'true' ||
+      needs.changes.outputs.etl_changed == 'true' ||
+      github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-22.04
+    defaults:
+      run:
+        working-directory: etl
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: true
+
+      - name: Set up uv (Python)
+        uses: astral-sh/setup-uv@v7
+        with:
+          python-version: "3.11"
+
+      - name: Validate CSV files
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          uv run validate_data.py
+
   etl:
     name: Run ETL
-    needs: changes
+    needs: [changes, validate]
     if: |
       needs.changes.outputs.workflows_changed == 'true' ||
       needs.changes.outputs.raw_changed == 'true' ||
