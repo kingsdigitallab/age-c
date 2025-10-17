@@ -47,7 +47,7 @@ jobs:
             frontend:
               - 'frontend/**'
 
-  validate:
+  validate-raw:
     name: Validate raw data
     needs: changes
     if: |
@@ -79,7 +79,7 @@ jobs:
 
   etl:
     name: Run ETL
-    needs: [changes, validate]
+    needs: [changes, validate-raw]
     if: |
       needs.changes.outputs.workflows_changed == 'true' ||
       needs.changes.outputs.raw_changed == 'true' ||
@@ -118,12 +118,42 @@ jobs:
             data/1_interim/**
             data/2_final/**
 
-  frontend:
-    name: Build and deploy frontend
+  validate-final:
+    name: Validate final data
     needs: [changes, etl]
     if: |
       needs.changes.outputs.workflows_changed == 'true' ||
-            needs.etl.outputs.data_changed == 'true' ||
+      needs.changes.outputs.raw_changed == 'true' ||
+      needs.changes.outputs.etl_changed == 'true' ||
+      github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-22.04
+    defaults:
+      run:
+        working-directory: etl
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: true
+
+      - name: Set up uv (Python)
+        uses: astral-sh/setup-uv@v7
+        with:
+          python-version: "3.11"
+
+      - name: Validate JSON files
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          uv run scripts/validate_final_data.py
+
+  frontend:
+    name: Build and deploy frontend
+    needs: [changes, etl, validate-final]
+    if: |
+      needs.changes.outputs.workflows_changed == 'true' ||
+      needs.etl.outputs.data_changed == 'true' ||
       needs.changes.outputs.frontend_changed == 'true' ||
       github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-22.04
