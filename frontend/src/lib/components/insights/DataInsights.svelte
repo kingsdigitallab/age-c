@@ -18,7 +18,11 @@
 	import DataInsightsTable from './DataInsightsTable.svelte';
 	import type { Bucket } from './dataTransforms';
 	import { generateAriaLabel, getData } from './dataTransforms';
-	import { COLOUR_BY_FACET_MAX_BUCKET_SIZE } from '$lib/search/config';
+	import {
+		COLOUR_BY_FACET_MAX_BUCKET_SIZE,
+		HIERARCHY_SEPARATOR,
+		HIERARCHY_SEPARATOR_LABEL
+	} from '$lib/search/config';
 
 	const {
 		title = 'Overview',
@@ -94,7 +98,9 @@
 	const categoryLabel = $derived(searchConfig[dataSource].aggregations[selectedFacet].title);
 	const categoryValue = $derived((_: GenericDataRecord, i: number) => i);
 	const categories = $derived(
-		data.map((d) => d.key.replaceAll('<', '&lt;').replaceAll('>', '&gt;'))
+		data.map((d) =>
+			escapeHTML(d.key).replaceAll(HIERARCHY_SEPARATOR, ` ${HIERARCHY_SEPARATOR_LABEL} `)
+		)
 	);
 
 	const domain = $derived<[number, number]>([0, data.length - 1]);
@@ -165,21 +171,27 @@
 		[StackedBar.selectors.bar]: getBarTooltip,
 		[NestedDonut.selectors.segment]: (d: GenericDataRecord) => {
 			if (selectedGroupByFacet) {
-				return `${d.data.root} → ${d.data.key}: ${d.value.toLocaleString()} ${pluralize('item', d.value)}`;
+				return `${d.data.root} → ${d.data.key.replaceAll(HIERARCHY_SEPARATOR, ` ${HIERARCHY_SEPARATOR_LABEL} `)}: ${d.value.toLocaleString()} ${pluralize('item', d.value)}`;
 			}
 
-			return `${d.data.key}: ${d.value.toLocaleString()} ${pluralize('item', d.value)}`;
+			return `${d.data.key.replaceAll(HIERARCHY_SEPARATOR, ` ${HIERARCHY_SEPARATOR_LABEL} `)}: ${d.value.toLocaleString()} ${pluralize('item', d.value)}`;
 		}
 	});
 
 	function getBarTooltip(d: Bucket): string {
-		const safeTitle = escapeHTML(d.key);
+		const safeTitle = escapeHTML(d.key).replaceAll(
+			HIERARCHY_SEPARATOR,
+			` ${HIERARCHY_SEPARATOR_LABEL} `
+		);
 
 		if (selectedGroupByFacet) {
 			const details = groupByMetadata.filteredValues
 				.map((g) => {
 					const count = (d[g.key] as number) || 0;
-					const safeKey = escapeHTML(g.key);
+					const safeKey = escapeHTML(g.key).replaceAll(
+						HIERARCHY_SEPARATOR,
+						` ${HIERARCHY_SEPARATOR_LABEL} `
+					);
 					return `<em>${safeKey}</em>: <strong>${count.toLocaleString()}</strong> ${pluralize('item', count)}`;
 				})
 				.join('<br>');
