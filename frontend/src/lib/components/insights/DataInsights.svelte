@@ -18,7 +18,7 @@
 	import DataInsightsTable from './DataInsightsTable.svelte';
 	import type { Bucket } from './dataTransforms';
 	import { generateAriaLabel, getData } from './dataTransforms';
-	import { COLOUR_BY_FACET_MAX_BUCKET_SIZE } from '$lib/search/config';
+	import { COLOUR_BY_FACET_MAX_BUCKET_SIZE, HIERARCHY_SEPARATOR } from '$lib/search/config';
 
 	const {
 		title = 'Overview',
@@ -94,7 +94,7 @@
 	const categoryLabel = $derived(searchConfig[dataSource].aggregations[selectedFacet].title);
 	const categoryValue = $derived((_: GenericDataRecord, i: number) => i);
 	const categories = $derived(
-		data.map((d) => d.key.replaceAll('<', '&lt;').replaceAll('>', '&gt;'))
+		data.map((d) => escapeHTML(d.key).split(HIERARCHY_SEPARATOR).at(-1) || '')
 	);
 
 	const domain = $derived<[number, number]>([0, data.length - 1]);
