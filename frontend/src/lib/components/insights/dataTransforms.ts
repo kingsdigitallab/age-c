@@ -1,3 +1,4 @@
+import { HIERARCHY_SEPARATOR } from '$lib/search/config';
 import type { Item } from '$lib/types';
 import pluralize from 'pluralize-esm';
 
@@ -29,7 +30,7 @@ export function getData({
 	selectedGroupByFacetValues,
 	maxCategories
 }: GetDataParams): Bucket[] {
-	let data = searchAggregations[selectedFacet]?.buckets || [];
+	let data = getLeaves(searchAggregations[selectedFacet]?.buckets || []);
 	data = [...data].sort((a, b) => b.doc_count - a.doc_count);
 
 	if (selectedGroupByFacet && searchItems) {
@@ -84,6 +85,21 @@ export function getData({
 	}
 
 	return data.slice(0, maxCategories);
+}
+
+function getLeaves(buckets: Bucket[]): Bucket[] {
+	// If there are hierarchical values, keep only the ones with the most hierarchical separators
+	const numberOfHierarchicalSeparators = Math.max(
+		...buckets.map((b) => b.key.split(HIERARCHY_SEPARATOR).length)
+	);
+
+	if (numberOfHierarchicalSeparators > 0) {
+		return buckets.filter(
+			(b) => b.key.split(HIERARCHY_SEPARATOR).length === numberOfHierarchicalSeparators
+		);
+	}
+
+	return buckets;
 }
 
 function getFacetValues(item: Item, facetKey: string): string[] | null {
