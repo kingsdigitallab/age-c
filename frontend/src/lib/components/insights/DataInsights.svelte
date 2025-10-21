@@ -144,7 +144,7 @@
 	const donutData = $derived(() => {
 		if (!selectedGroupByFacet) {
 			return data.map((d) => ({
-				key: d.key,
+				key: d.key.replaceAll(HIERARCHY_SEPARATOR, ` ${HIERARCHY_SEPARATOR_LABEL} `),
 				value: d.doc_count
 			}));
 		}
