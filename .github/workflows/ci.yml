@@ -117,6 +117,7 @@ jobs:
           file_pattern: |
             data/1_interim/**
             data/2_final/**
+          token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
 
   validate-final:
     name: Validate final data
