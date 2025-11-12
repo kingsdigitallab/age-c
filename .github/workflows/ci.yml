@@ -152,11 +152,6 @@ jobs:
   frontend:
     name: Build and deploy frontend
     needs: [changes, etl, validate-final]
-    if: |
-      needs.changes.outputs.workflows_changed == 'true' ||
-      needs.etl.outputs.data_changed == 'true' ||
-      needs.changes.outputs.frontend_changed == 'true' ||
-      github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-22.04
     defaults:
       run:
