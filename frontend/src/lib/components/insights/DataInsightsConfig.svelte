@@ -18,7 +18,7 @@
 	} = $props();
 </script>
 
-<fieldset class="grid">
+<fieldset class="grid" aria-label="Data Insights Configuration">
 	<label>
 		Main category
 		<select
