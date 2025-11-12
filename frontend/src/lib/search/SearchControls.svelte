@@ -16,7 +16,7 @@
 	<button
 		id="skij-toggle-filters-button"
 		onclick={onToggleFilters}
-		aria-label="{showSearch ? 'Hide' : 'Show'} search filters"
+		aria-label="{showSearch ? 'Hide' : 'Show'} search and filters ({searchFiltersCount})"
 		disabled={isLoading}
 	>
 		{showSearch ? 'Hide' : 'Show'} search and filters ({searchFiltersCount})
