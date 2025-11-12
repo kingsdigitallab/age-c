@@ -112,6 +112,14 @@
 		padding-block: var(--pico-spacing);
 	}
 
+	footer li a {
+		min-height: 44px;
+		min-width: 44px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
 	footer a:not(code a) {
 		color: var(--pico-primary-inverse);
 	}
