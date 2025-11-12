@@ -75,9 +75,6 @@
 			<li>
 				<small><a href="{base}/accessibility-statement">Accessibility statement</a></small>
 			</li>
-			<li>
-				<small><a href="{base}/_styleguide">Styleguide</a></small>
-			</li>
 		</ul>
 		<ul class="surface-primary">
 			<li><small><a href={config.repoUrl}>GitHub</a></small></li>
