@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v0.22.2 (2025-11-17)
+
+### Fix
+
+- **searchfilters**: Prevent empty ul when not filters are selected
+
+## v0.22.1 (2025-11-12)
+
+### Fix
+
+- **layout**: Add min height and width to footer links
+- **datainsightsconfig**: Add aria label to group form controls
+- **searchcontrols**: Ensure visible label and accessible name match
+
+### Refactor
+
+- **layout**: Remove link to styleguide
+- **data**: Remove unused import
+
 ## v0.22.0 (2025-10-22)
 
 ### Feat

@@ -2,7 +2,7 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { searchConfig } from './index';
 import tags from './data/tags.json';
-import type { Character, Item, Role, Synopsis } from './types';
+import type { Character, Item, Role } from './types';
 import { HIERARCHY_SEPARATOR } from './search/config';
 
 export async function getSearchData(slug: string) {

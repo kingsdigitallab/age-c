@@ -194,23 +194,25 @@
 			</section>
 
 			<section class="skij-filters-current-filters">
-				<ul>
-					{#each currentFilters as [key, values] (key)}
-						{#each values as value (value)}
-							<li>
-								<button
-									class="skij-filters-current-filter-button secondary"
-									aria-label="Remove filter {key} with value {getBucketTitle(value)}"
-									title="Remove filter {key} with value {getBucketTitle(value)}"
-									onclick={() => handleRemoveFilter(key, value)}
-								>
-									{value.split(HIERARCHY_SEPARATOR).pop()}
-									<span aria-hidden="true">&times;</span>
-								</button>
-							</li>
+				{#if currentFilters && currentFilters.length > 0}
+					<ul>
+						{#each currentFilters as [key, values] (key)}
+							{#each values as value (value)}
+								<li>
+									<button
+										class="skij-filters-current-filter-button secondary"
+										aria-label="Remove filter {key} with value {getBucketTitle(value)}"
+										title="Remove filter {key} with value {getBucketTitle(value)}"
+										onclick={() => handleRemoveFilter(key, value)}
+									>
+										{value.split(HIERARCHY_SEPARATOR).pop()}
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</li>
+							{/each}
 						{/each}
-					{/each}
-				</ul>
+					</ul>
+				{/if}
 			</section>
 
 			{#if searchAggregations}
