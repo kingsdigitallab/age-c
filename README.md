@@ -21,6 +21,11 @@ graph LR
     end
 ```
 
+## Data
+
+The data is stored in the [data](data/) directory. For more information on how
+to use the data, please refer to the [Data README](data/README.md).
+
 ## ETL
 
 The ETL package is a Python package that is used to transform the data from the
