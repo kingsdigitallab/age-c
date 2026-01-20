@@ -5,11 +5,6 @@ on:
     branches:
       - develop
       - main
-    paths:
-      - ".github/workflows/**"
-      - "data/0_raw/**"
-      - "etl/**"
-      - "frontend/**"
   workflow_dispatch:
 
 permissions:
@@ -152,6 +147,7 @@ jobs:
   frontend:
     name: Build and deploy frontend
     needs: [changes, etl, validate-final]
+    if: always() && !cancelled() && !failure()
     runs-on: ubuntu-22.04
     defaults:
       run:
