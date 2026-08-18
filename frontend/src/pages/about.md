@@ -86,6 +86,18 @@ A methodological overview and academic publications resulting from the AGE-C pro
 
 ---
 
+## Credits
+
+The **AGE-C webtool** was designed, developed and is maintained by [King’s Digital Lab](https://kdl.kcl.ac.uk/projects/age-c), King’s College London, in collaboration with the AGE-C research team.
+
+- **Miguel Vieira** — Research Software Engineer
+- **Neil Jakeman** — Research Software Analyst
+- **Tiffany Ong** — Research Software Designer
+
+The webtool is open source; the code is available on [GitHub](https://github.com/kingsdigitallab/age-c).
+
+---
+
 ## Get in Touch
 
 We welcome feedback, collaboration ideas, and questions.  
